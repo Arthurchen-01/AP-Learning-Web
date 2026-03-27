@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>套题模考 · AP Practice Website</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/site-pages.js" defer></script>
+</head>
+<body data-page="mock">
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="/">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Primary">
+        <a href="/">首页</a>
+        <a class="is-active" href="/mock/">套题模考</a>
+        <a href="/training/">专项训练</a>
+        <a href="/dashboard/">Dashboard</a>
+      </nav>
+      <a class="nav-side" href="/dashboard/" aria-label="Open dashboard">
+        <span class="avatar">AP</span>
+        <span class="dashboard-copy">
+          <strong>Dashboard</strong>
+          <span>本地进度</span>
+        </span>
+        <span class="dashboard-link">进入</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main shell">
+    <section class="page-heading">
+      <h1>套题模考</h1>
+    </section>
+    <section class="page-panel">
+      <div class="subject-root" id="mock-root" data-page-root>
+        <div class="loading-state">正在加载本地题库...</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <p>Local AP practice workspace. Reference folders remain read-only.</p>
+  </footer>
+</body>
+</html>

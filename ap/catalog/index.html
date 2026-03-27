@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting to AP Catalog</title>
+  <meta http-equiv="refresh" content="0; url=/ap/">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <script>
+    const next = new URL("/ap/", window.location.origin);
+    if (window.location.search) {
+      next.search = window.location.search;
+    }
+    if (window.location.hash) {
+      next.hash = window.location.hash;
+    }
+    window.location.replace(next.toString());
+  </script>
+</body>
+</html>

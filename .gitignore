@@ -1,0 +1,28 @@
+# Local logs
+local-server.log
+local-server.err.log
+*.log
+
+# Python cache / temp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large local-only reference and workspace folders
+database/
+AAAAAA/
+A------MCP/
+_next/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp scratch files
+_extract_pdf.py
+_extract_pdf2.py
+_inspect.py
+_inspect2.py
+_pdf_text.txt

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subject Dashboard · AP Practice Website</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/mock-state.js" defer></script>
+  <script src="/assets/site-pages.js" defer></script>
+</head>
+<body data-page="dashboard-subject">
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="/">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">AP Practice Website</span>
+          <span class="brand-subtitle">自用 AP 练习站</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Primary">
+        <a href="/">首页</a>
+        <a href="/mock/">套题模考</a>
+        <a href="/training/">专项训练</a>
+        <a class="is-active" href="/dashboard/">Dashboard</a>
+      </nav>
+      <a class="avatar-entry" href="/profile/" aria-label="Open profile">
+        <span class="avatar">OC</span>
+        <span class="avatar-meta">
+          <strong>Olivia Chen</strong>
+          <span>Profile</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <main class="page-main shell">
+    <section class="page-heading">
+      <h1>Subject Dashboard</h1>
+      <p>上方看总览，下方看单元掌握地图和考试权重。</p>
+    </section>
+    <section class="page-panel">
+      <div id="dashboard-subject-root" data-page-root>
+        <div class="loading-state">正在加载学科详情...</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <p>Local AP practice workspace. Reference folders remain read-only.</p>
+  </footer>
+</body>
+</html>

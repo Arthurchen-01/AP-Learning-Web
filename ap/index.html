@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AP 题库</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="/ap/catalog.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="/">
+        <span class="brand-mark">AP</span>
+        <span class="brand-copy">
+          <span class="brand-title">MokaoAI Practice</span>
+          <span class="brand-subtitle">AP 题库</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/">首页</a>
+        <a class="is-active" href="/ap/">AP 题库</a>
+        <a href="/ap/exam?examId=1902622411338911744&timekeepingModeOn=false&type=0">做题页</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell page-shell">
+    <section class="page-hero">
+      <span class="eyebrow">Local Catalog</span>
+      <div class="page-heading">
+        <div>
+          <h1>AP 题库目录</h1>
+          <p>按科目浏览本地可用试卷，支持搜索、年份筛选、卷型筛选，以及本地进度提示。</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-secondary" href="/">返回首页</a>
+          <a class="button button-primary" href="/ap/start/?examId=1902622411338911744">进入默认准备页</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters-card">
+      <div class="search-row">
+        <label class="search-box" for="search-input">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="搜索科目、年份或卷名">
+        </label>
+      </div>
+      <div class="filter-group">
+        <div class="filter-label">年份</div>
+        <div class="tag-row" id="year-tags"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-label">卷型</div>
+        <div class="tag-row" id="type-tags"></div>
+      </div>
+    </section>
+
+    <section class="catalog-meta" id="catalog-meta"></section>
+    <section class="catalog-root" id="catalog-root">
+      <div class="loading-card">正在加载本地题库索引…</div>
+    </section>
+  </main>
+
+  <script type="module" src="/ap/catalog.js"></script>
+</body>
+</html>

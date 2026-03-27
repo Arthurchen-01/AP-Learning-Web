@@ -1,0 +1,103 @@
+# MokaoAI AP Frontend Worklog
+
+## 2026-03-26
+
+- Confirmed the current project root is `C:\Users\25472\projects\methods\mokaoai.com`.
+- Confirmed `C:\Users\25472\projects\methods\V2-mokao ai` is reference material only and must not be edited.
+- Confirmed `database/01_raw/html` contains SingleFile captures for exam flow states and visual references.
+- Confirmed `database/01_raw/json` can support practice-mode rendering, section/module flow, and local progress.
+- Confirmed answer keys and explanations are missing from the raw JSON, so scoring/report features cannot be fully implemented yet.
+- Decided temporary product goal: a self-use AP practice site, without ads, article index, or institution promo sections.
+- UI direction aligned: keep the outer shell in the current light orange visual style.
+- Rebuilt the root homepage shell in `index.html` instead of redirecting immediately to a sample exam.
+- Removed the previous auto-redirect-only homepage behavior and replaced it with a minimal landing page.
+- Locked the homepage structure to three navigation paths only: Home / AP Question Bank / Exam Page.
+- Removed marketing-oriented surface area from the homepage plan: institution ads, article recommendations, blog/news entry points, and QR-code lead funnels.
+- Added a light-orange design token system directly in the homepage shell for buttons, cards, borders, backgrounds, and shadows.
+- Rebuilt the hero section to focus only on AP practice entry and local-use workflow.
+- Kept all reference directories read-only; no edits were made to `C:\Users\25472\projects\methods\V2-mokao ai` or `database/01_raw/html`.
+- Generated a local catalog index at `mock-data/exam-catalog.json` for 29 AP exams.
+- Added a dedicated AP catalog route at `ap/index.html` with shared light-orange styling in `ap/catalog.css`.
+- Added catalog rendering and filtering logic in `ap/catalog.js`, including search, year filters, paper-type filters, and local progress detection from `localStorage`.
+- Catalog cards now show year, subject, paper type, question count, and section count.
+- Catalog cards now route to a new prep page with `examId` instead of jumping straight into the exam.
+- Added a minimal prep route at `ap/start/index.html` and `ap/start/start.js`.
+- Updated the homepage links so the AP Question Bank entry now points to `/ap/`.
+- Reworked `index.html` again using `database/01_raw/html/前端/前端目标页面.html` as the homepage structure reference and the mock branch pages as layout guidance.
+- Removed the course encyclopedia direction from the homepage scope and kept the page focused on AP practice only.
+- Replaced the old minimal top bar with a four-part navigation structure: Home / Mock Exams / Training / Dashboard.
+- Replaced the old personal-center placeholder with a mock-branch avatar plus dashboard entry in the header.
+- Rebuilt the homepage hero so it behaves like a real front page instead of a single CTA shell.
+- Added two homepage content sections that both render by subject grouping: `套题模考` and a temporary `专项训练` placeholder section.
+- Wired the homepage to read `mock-data/exam-catalog.json` directly and render grouped subject cards from local exam data.
+- Kept the new homepage cards linked to the local prep route with `examId`, not directly to the reference pages.
+- Added a homepage dashboard block that reads local progress from `localStorage` and groups recent in-progress exams by subject.
+- Kept all reference folders read-only during this pass; only files inside `mokaoai.com` were changed.
+- Simplified the homepage hero again by removing the primary CTA buttons and the explanatory summary cards.
+- Removed the extra hero-side metrics and left a clean image placeholder block for a user-provided visual.
+- Kept the rest of the homepage structure intact: grouped mock section, grouped training placeholder section, and dashboard section.
+- Changed the hero layout from a side placeholder card to a single centered large-image stage under the title.
+- Added a built-in top fade overlay so the upper part of the hero image can blend semi-transparently into the title area on desktop and iPad layouts.
+- Copied the user-provided hero image from the read-only reference folder into `assets/images/home-hero.jpg`.
+- Replaced the placeholder art in the homepage hero with the copied image and tuned the crop/overlay so the image center stays dominant while its top edge fades into the title block.
+- Reduced the top spacing on the homepage so the hero image is visible immediately on load without requiring a downward scroll.
+- Replaced the previous hero copy with a centered multi-line headline only, with `AP` isolated as the visual center and emphasized above the image.
+- Moved the hero headline off the standalone top area and overlaid it onto the upper-left blank area of the image instead.
+- Reduced the headline size so the image remains the primary first impression while `AP` stays highlighted in a distinct accent color.
+- Reflowed the overlaid headline so `ap` sits alone on the first line and the remaining phrase appears below in lowercase with looser vertical spacing.
+- Adjusted the hero headline again so the first line is uppercase `AP ...`, the second line is `for the`, and `future generation` gets a secondary emphasis that stays below the visual weight of `AP`.
+- Rebuilt the exam intro page at `ap/start/index.html` and `ap/start/start.js` so it now shows the selected exam title, subject, suggested duration, module summary, explicit practice-mode messaging, and local-progress-aware actions.
+- Added a dedicated shared stylesheet for intro and transition pages at `ap/start/start.css`.
+- Added a new directions/break route at `ap/start/directions/index.html` and `ap/start/directions/directions.js`.
+- The directions page now renders per-module directions, question counts, and time limits from the imported section data derived from `template.sectionList[].partList[]`.
+- Added local break-state handling so each later module can record whether the user skipped the break before entering the next module.
+- Updated `ap/exam/mock.js` so starting an exam or completing a section now routes through the standalone directions/break page instead of jumping directly into the next module.
+- Rebuilt the main exam shell in `ap/exam/mock.css` with a new clean cold-tone layout, while keeping the project’s core local mock flow intact.
+- Reworked the main question page in `ap/exam/mock.js` to use a top status bar, a sticky bottom navigator bar, and a modal-style question navigator sheet.
+- Updated answer options to use larger rounded rectangular cards and added explicit current / answered / flagged visual states in the navigator.
+- Preserved localStorage-backed answer, flag, section, and timer state restoration, and added a clear-progress action that returns to the intro page.
+- Added a standalone section submit stage between Review and actual section submission, so the exam flow now closes as Question -> Review -> Section Submit -> next module or results.
+- Refactored only the homepage `套题模考` module in `index.html` from vertically stacked subject sections into a true subject-tab switcher.
+- Kept the existing local exam card content and progress-aware CTA logic intact, and changed only the outer mock-bank presentation structure.
+- Added dynamic subject extraction with a fallback mapping layer (`subject / category / discipline / course / examType`) so tabs are generated from current catalog data instead of a hardcoded subject list.
+- Added subject-tab UI states that stay within the site’s current warm orange visual system rather than introducing a new color language.
+- Added subject selection persistence through both `localStorage` and `?subject=` URL restoration, so the mock tab can reopen on the last-used subject when available.
+- Kept `专项训练` and `dashboard` rendering untouched in this pass to limit scope to the requested mock-exam content block.
+- Extended the same subject-tab switching structure to the homepage `专项训练` module, while keeping its current placeholder data source and card CTA behavior unchanged.
+- Extended the homepage `模考分支 Dashboard` to subject tabs as well, so it now shows local-progress entries for one selected subject at a time instead of stacking all subjects vertically.
+- Added independent per-module tab persistence keys for `mock`, `training`, and `dashboard` so each block can remember its own last selected subject without interfering with the others.
+- Reduced homepage module copy further so the mock, training, and dashboard areas read more like a clean question-bank selector than an explanation page.
+- Removed the large descriptive paragraphs under the three module titles and removed redundant explanatory text inside the subject panels.
+- Unified all exam-card CTA labels to `开始` without changing any existing routing or progress-aware behavior behind those buttons.
+- Replaced the old single long homepage structure with four real page entries: `/`, `/mock/`, `/training/`, and `/dashboard/`.
+- Rebuilt the shared top navigation so it now performs actual page navigation instead of anchor scrolling or in-page section jumps.
+- Fixed the navigation highlight state by giving each page its own active nav item instead of leaving the highlight permanently on `首页`.
+- Standardized the site name across the new entry pages to `AP Practice Website`.
+- Rewrote the top-right status block into a simpler `Dashboard / 本地进度 / 进入` pattern.
+- Added shared frontend assets at `assets/site.css` and `assets/site-pages.js` so the new pages keep a consistent visual system and subject-tab behavior.
+- Cleaned several obvious text issues in the new page flow, including question-mark fallbacks in year / paper-type display and more natural Chinese loading and empty-state copy.
+- Added a centralized mock data layer at `assets/mock-state.js` to drive the unfinished `专项训练` and `Dashboard` product surfaces without blocking on backend or scoring services.
+- Rebuilt `专项训练` into a three-path training product: subject selection, `知识点训练 / MCQ 训练 / FRQ 训练` path cards, recommended reason blocks, and mock training-item lists with source / difficulty / unit / tags / progress.
+- Added a mock launch state to `专项训练`, so selecting `开始` now updates URL state and re-renders a focused launch card instead of acting like a dead button.
+- Rebuilt `Dashboard` into a learning hub using mock data: overview metrics, syllabus-style mastery map by subject and unit, mastery levels, recent practice, wrong-question review, AI recommendations, FRQ official scoring vs AI coaching, and AI-generated-question tracking.
+- Kept `首页` and `套题模考` largely stable in this pass, limiting new product work to the higher-priority `专项训练` and `Dashboard` pages.
+- The new mock-backed surfaces are intentionally structured so real data can later replace `assets/mock-state.js` while leaving most rendering code in `assets/site-pages.js` intact.
+- Removed the three lower homepage module blocks (`套题模考 / 专项训练 / Dashboard`) so the homepage no longer acts as a stacked feature portal.
+- Replaced the old top-right text block with a standard avatar entry that now routes to a dedicated `/profile/` page.
+- Added a new mock-backed personal profile page at `/profile/` for user info, bio, goals, enrolled AP subjects, and settings placeholders.
+- Repositioned `Dashboard` as a personal study-record and prediction center instead of a generic homepage section.
+- Rebuilt `/dashboard/` into a subject-card homepage that renders only the AP subjects listed in the mock user profile.
+- Added subject-level and unit-level dashboard routes at `/dashboard/subject/` and `/dashboard/unit/`.
+- The subject dashboard now shows an overview panel on top and a unit mastery map below, with each unit linking to a deeper skill-level page.
+- The unit page now presents skill mastery using a unified four-state visual system (`crown / full / two-thirds / one-third`) defined centrally in `assets/mock-state.js`.
+- Read the reference exam-flow HTML files under `database/01_raw/html` and mapped them to concrete local pages for the mock-exam chain: choose page, preparing page, official entrance page, directions, MCQ shell, FRQ shell, review, module end, and break/next-module transitions.
+- Added shared exam-flow mock configuration at `ap/exam/mock-config.js` so start settings, entrance panels, section metadata, timer formatting, and local exam state shape are centralized instead of duplicated across pages.
+- Rebuilt `ap/start/index.html` and `ap/start/start.js` into a lightweight `Choose Full-Length Practice` page modeled on the reference HTML: mode toggles only, no long intro cards, and progress-aware `Start / Resume` actions.
+- Added a real `Preparing your test` transition route at `ap/start/preparing/` with mocked delay and loading copy based on the reference waiting page, instead of jumping straight into the test.
+- Added a separate `AP Practice Test` entrance route at `ap/start/entrance/` with the reference-style `Timing / Scores / Assistive Technology` blocks and a single `Next` action.
+- Rebuilt `ap/start/directions/` into a formal directions/break transition page that shows section/part rules, time, question count, calculator policy, and a scheduled-break step before later modules.
+- Reworked `ap/exam/index.html`, `ap/exam/mock.css`, and `ap/exam/mock.js` toward the reference exam shell: official-feeling top bar, directions re-open entry, hide/show timer control, highlights/notes, scratchpad, more/help/shortcuts/assistive-technology placeholders, and a dense bottom question navigator.
+- Split the main exam workspace so MCQ remains single-column while FRQ uses a reference-style left-question / right-response layout.
+- Rebuilt the review stage as a `Check Your Work` screen and inserted a dedicated `This module is over` handoff page before the next module or final completion, matching the reference flow more closely.
+- Kept scoring and unsupported tools in mock/practice mode for now, but preserved the full route sequence and local-storage-backed state restoration so the complete multi-module flow is runnable end to end.
+- Added a compatibility route at `ap/catalog/index.html` so old `/ap/catalog` links no longer 404 and now redirect cleanly to the current catalog page at `/ap/`.
