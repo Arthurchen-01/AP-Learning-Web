@@ -1,0 +1,330 @@
+{
+  "code": 200,
+  "msg": "success",
+  "enMsg": "success",
+  "data": {
+    "id": "1902622412253270016",
+    "examName": "AP 微积分BC 2019年国际卷",
+    "subjectName": "微积分BC",
+    "totalQuestion": 51,
+    "limitTime": 12300,
+    "schemaVersion": "2.0.0",
+    "examCode": "微积分bc-2019-international-1902622412253270016",
+    "year": 2019,
+    "region": "international",
+    "paperType": "template",
+    "sourceType": "pdf-derived-json",
+    "sourceFile": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\01_raw\\json\\（模板）微积分BC__AP 微积分BC 2019年国际卷__1902622412253270016.json",
+    "sourcePages": [],
+    "examVersion": "2019-intl-template",
+    "locale": "en-US",
+    "renderVersion": "exam-render-v2",
+    "questionList": [
+      {
+        "questionId": 4539,
+        "sort": 1,
+        "questionNum": "1",
+        "questionTitle": "Processes - Fundamental Theorem of Calculus",
+        "questionType": 0,
+        "choiceQuestionContent": "<p class=\"stem_paragraph\">...</p>",
+        "optionList": [
+          {
+            "optionSign": "A",
+            "optionContent": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+            "isExclude": 0
+          },
+          {
+            "optionSign": "B",
+            "optionContent": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+            "isExclude": 0
+          }
+        ],
+        "subjectiveQuestionList": null,
+        "schemaVersion": "2.0.0",
+        "sectionId": "25",
+        "sectionName": "1",
+        "partId": "31",
+        "partName": "1",
+        "moduleId": "section-25-part-31",
+        "moduleName": "Section 1 / Part 1",
+        "displayOrder": 1,
+        "reviewPageGroup": "section-25-part-31",
+        "calculatorPolicy": "forbidden",
+        "timePolicy": {
+          "limitTimeSec": 3600,
+          "recommendedPaceSec": 3600
+        },
+        "renderType": "mcq",
+        "rawHtml": "<p class=\"stem_paragraph\">...</p>",
+        "plainText": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+        "hasStimulus": false,
+        "hasTable": false,
+        "hasImage": false,
+        "hasCode": false,
+        "mathMode": "mathml",
+        "contentBlocks": [
+          {
+            "type": "math",
+            "html": "<p class=\"stem_paragraph\">...</p>",
+            "text": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+            "math": "<p class=\"stem_paragraph\">...</p>",
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stimulusBlocks": [],
+        "stemBlocks": [
+          {
+            "type": "math",
+            "html": "<p class=\"stem_paragraph\">...</p>",
+            "text": "the integral from 1 to 2 of 4x cubed minus x dx equals",
+            "math": "<p class=\"stem_paragraph\">...</p>",
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "optionBlocks": [
+          [
+            {
+              "type": "math",
+              "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "text": "27/2",
+              "math": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "assetRef": null,
+              "order": 0
+            }
+          ],
+          [
+            {
+              "type": "math",
+              "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "text": "27",
+              "math": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">...</p></div>",
+              "assetRef": null,
+              "order": 100
+            }
+          ]
+        ],
+        "assets": {
+          "images": [],
+          "figures": [],
+          "tables": [],
+          "codeSnippets": [],
+          "audio": [],
+          "attachments": []
+        },
+        "userState": {
+          "selectedOptions": [],
+          "typedAnswer": null,
+          "uploadedFiles": [],
+          "isFlagged": false,
+          "isAnswered": false,
+          "visited": true,
+          "lastVisitedAt": null,
+          "timeSpentSec": 0,
+          "draftSavedAt": null
+        },
+        "reviewState": {
+          "needsReview": false,
+          "confidenceLevel": null
+        },
+        "answerKey": null,
+        "answerKeyDisplay": null,
+        "rubric": null,
+        "rubricPoints": [],
+        "officialScoringGuide": null,
+        "analysisBlocks": [],
+        "commonMistakes": [],
+        "aiHints": [],
+        "difficulty": null,
+        "estimatedPoints": 1,
+        "maxScore": 1,
+        "subparts": [],
+        "scoringPoints": [],
+        "sampleResponses": [],
+        "graderNotes": [],
+        "unitId": null,
+        "unitName": null,
+        "topicId": null,
+        "topicName": null,
+        "skillIds": [],
+        "knowledgeTags": [],
+        "unitTags": [],
+        "skillTags": [],
+        "questionIntent": null,
+        "trainingMode": "mcq-practice",
+        "cognitiveLevel": null,
+        "examWeight": null,
+        "sourceTrace": {
+          "pdfFile": "C:\\Users\\25472\\Desktop\\暂不学的ap\\AP calculus\\真题合集\\2019Intl（模板）.pdf",
+          "pageStart": null,
+          "pageEnd": null,
+          "bbox": null,
+          "ocrMethod": null,
+          "parseMethod": "legacy-json-migration",
+          "confidence": null,
+          "manualVerified": false,
+          "verifiedBy": null,
+          "verifiedAt": null
+        }
+      },
+      {
+        "questionId": 5094,
+        "sort": 51,
+        "questionNum": "6",
+        "questionTitle": "Series - Abs and Cond Conv-Alt Series Error Bound",
+        "questionType": 2,
+        "choiceQuestionContent": null,
+        "subjectiveQuestionList": [
+          {
+            "questionSpecialSort": "a",
+            "questionContent": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8, does the series converge absolutely, converge conditionally, or diverge?</p></div>",
+            "questionAnswer": ""
+          },
+          {
+            "questionSpecialSort": "b",
+            "questionContent": "<div class=\"item_part\" id=\"b\"><p class=\"stem_paragraph\">(b) For p = 1 and x = 8, does the series converge absolutely, converge conditionally, or diverge?</p></div>",
+            "questionAnswer": ""
+          }
+        ],
+        "schemaVersion": "2.0.0",
+        "sectionId": "26",
+        "sectionName": "2",
+        "partId": "34",
+        "partName": "4",
+        "moduleId": "section-26-part-34",
+        "moduleName": "Section 2 / Part 4",
+        "displayOrder": 51,
+        "reviewPageGroup": "section-26-part-34",
+        "calculatorPolicy": "forbidden",
+        "timePolicy": {
+          "limitTimeSec": 3600,
+          "recommendedPaceSec": 3600
+        },
+        "renderType": "frq",
+        "rawHtml": "<div class=\"item_part\" id=\"a\">...</div><div class=\"item_part\" id=\"b\">...</div>",
+        "plainText": "(a) For p = 3 and x = 8... (b) For p = 1 and x = 8...",
+        "hasStimulus": true,
+        "hasTable": false,
+        "hasImage": false,
+        "hasCode": false,
+        "mathMode": "mathml",
+        "contentBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"stimulus_reference\">...</div>",
+            "text": "Consider the series ...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stimulusBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"stimulus_reference\">...</div>",
+            "text": "Consider the series ...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "stemBlocks": [
+          {
+            "type": "subquestion",
+            "html": "<div class=\"item_part\" id=\"a\">...</div>",
+            "text": "(a) For p = 3 and x = 8...",
+            "math": null,
+            "assetRef": null,
+            "order": 0
+          }
+        ],
+        "optionBlocks": [],
+        "assets": {
+          "images": [],
+          "figures": [],
+          "tables": [],
+          "codeSnippets": [],
+          "audio": [],
+          "attachments": []
+        },
+        "userState": {
+          "selectedOptions": [],
+          "typedAnswer": null,
+          "uploadedFiles": [],
+          "isFlagged": false,
+          "isAnswered": false,
+          "visited": false,
+          "lastVisitedAt": null,
+          "timeSpentSec": 0,
+          "draftSavedAt": null
+        },
+        "reviewState": {
+          "needsReview": false,
+          "confidenceLevel": null
+        },
+        "answerKey": null,
+        "answerKeyDisplay": null,
+        "rubric": null,
+        "rubricPoints": [],
+        "officialScoringGuide": null,
+        "analysisBlocks": [],
+        "commonMistakes": [],
+        "aiHints": [],
+        "difficulty": null,
+        "estimatedPoints": null,
+        "maxScore": null,
+        "subparts": [
+          {
+            "subpartId": "a",
+            "subpartLabel": "a",
+            "rawHtml": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8...</p></div>",
+            "plainText": "(a) For p = 3 and x = 8...",
+            "contentBlocks": [
+              {
+                "type": "subquestion",
+                "html": "<div class=\"item_part\" id=\"a\"><p class=\"stem_paragraph\">(a) For p = 3 and x = 8...</p></div>",
+                "text": "(a) For p = 3 and x = 8...",
+                "math": null,
+                "assetRef": null,
+                "order": 0
+              }
+            ],
+            "answerKey": null,
+            "rubricPoints": [],
+            "scoringPoints": [],
+            "sampleResponses": [],
+            "graderNotes": []
+          }
+        ],
+        "scoringPoints": [],
+        "sampleResponses": [],
+        "graderNotes": [],
+        "unitId": null,
+        "unitName": null,
+        "topicId": null,
+        "topicName": null,
+        "skillIds": [],
+        "knowledgeTags": [],
+        "unitTags": [],
+        "skillTags": [],
+        "questionIntent": null,
+        "trainingMode": "frq-practice",
+        "cognitiveLevel": null,
+        "examWeight": null,
+        "sourceTrace": {
+          "pdfFile": "C:\\Users\\25472\\Desktop\\暂不学的ap\\AP calculus\\真题合集\\2019Intl（模板）.pdf",
+          "pageStart": null,
+          "pageEnd": null,
+          "bbox": null,
+          "ocrMethod": null,
+          "parseMethod": "legacy-json-migration",
+          "confidence": null,
+          "manualVerified": false,
+          "verifiedBy": null,
+          "verifiedAt": null
+        }
+      }
+    ]
+  }
+}
