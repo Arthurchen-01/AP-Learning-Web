@@ -9,8 +9,8 @@ Before working, read these files in order:
 1. `C:\Users\25472\Desktop\需求.md`
 2. `C:\Users\25472\Desktop\3.28已经分割好的任务.md`
 3. `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`
-5. `MEMORY.md`
-6. `USER.md`
+4. `MEMORY.md`
+5. `USER.md`
 
 If context compacts, a new session starts, or a handoff happens, reread items 1-3 before doing anything else.
 
@@ -31,6 +31,19 @@ If context compacts, a new session starts, or a handoff happens, reread items 1-
 - When a task is fully completed, move the task file from `task-todo` to `task-done`, write a short result summary there, then `git add`, `git commit`, and `git push`.
 - Commit messages should be short and task-based.
 - Every 30 minutes, send a QQ progress update to `qqbot:c2c:4193BD194E319F7E000AF005F82E06CE`.
+
+## Script Reliability Rules
+
+- Primary heartbeat checker: `scripts/heartbeat-primary.ps1`
+- Fallback heartbeat checker: `scripts/heartbeat-fallback.ps1`
+- QQ report sender: `scripts/send-qq-report.ps1`
+- On each heartbeat, run the primary checker first.
+- If the primary checker fails, times out, or returns invalid JSON, immediately run the fallback checker.
+- If both checkers fail, do not guess. Record the failure in the day memory file and send a QQ warning with the failure reason.
+- Before editing a source file, do at least two checks:
+  - compare the current source against the active task and `需求.md`
+  - verify the planned replacement is more aligned than the current source
+- If the result is uncertain, keep the original source untouched and create a review candidate beside it.
 
 ## Memory Rules
 
