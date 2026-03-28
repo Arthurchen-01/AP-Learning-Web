@@ -1,9 +1,9 @@
 {
-  "active": false,
-  "taskFile": "",
-  "startedAt": "",
-  "lastUpdatedAt": "",
-  "summary": "",
-  "confidence": 0,
-  "nextStep": ""
+  "active": true,
+  "taskFile": "task-todo/current-split-task.md",
+  "startedAt": "2026-03-28T04:57:55+08:00",
+  "lastUpdatedAt": "2026-03-28T05:01:20+08:00",
+  "summary": "Continue the 2019 subject-sample PDF verification chain. The sample manifest exists and includes 23 subjects. marker-pdf 1.10.2 is installed and marker_single is available.",
+  "confidence": 92,
+  "nextStep": "Resume Task 2 and verify page-level output directories and generated artifacts."
 }

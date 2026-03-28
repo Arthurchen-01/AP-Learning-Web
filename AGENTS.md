@@ -6,8 +6,8 @@ This git repository is the active OpenClaw workspace.
 
 Before working, read these files in order:
 
-1. `C:\Users\25472\Desktop\需求.md`
-2. `C:\Users\25472\Desktop\3.28已经分割好的任务.md`
+1. `task-todo/current-requirement.md`
+2. `task-todo/current-split-task.md`
 3. `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`
 4. `MEMORY.md`
 5. `USER.md`
@@ -37,9 +37,11 @@ If context compacts, a new session starts, or a handoff happens, reread items 1-
 - Primary heartbeat checker: `scripts/heartbeat-primary.ps1`
 - Fallback heartbeat checker: `scripts/heartbeat-fallback.ps1`
 - QQ report sender: `scripts/send-qq-report.ps1`
+- Work watchdog: `scripts/openclaw-work-watchdog.ps1`
 - On each heartbeat, run the primary checker first.
 - If the primary checker fails, times out, or returns invalid JSON, immediately run the fallback checker.
 - If both checkers fail, do not guess. Record the failure in the day memory file and send a QQ warning with the failure reason.
+- If the heartbeat replies `HEARTBEAT_OK` while there is still an active task or pending todo work, run `scripts/openclaw-work-watchdog.ps1` to force a new agent run.
 - Before editing a source file, do at least two checks:
   - compare the current source against the active task and `需求.md`
   - verify the planned replacement is more aligned than the current source

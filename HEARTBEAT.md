@@ -2,7 +2,7 @@ Heartbeat task loop for tonight:
 
 1. Run `scripts/heartbeat-primary.ps1`.
 2. If the primary checker fails, run `scripts/heartbeat-fallback.ps1`.
-3. Read `C:\Users\25472\Desktop\需求.md`, `C:\Users\25472\Desktop\3.28已经分割好的任务.md`, and `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`.
+3. Read `task-todo/current-requirement.md`, `task-todo/current-split-task.md`, and `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`.
 4. Read `C:\Users\25472\projects\methods\mokaoai.com-private-upload\task-in-progress\task-status.json`.
 5. If `task-status.json` shows `active=true`, continue that task instead of starting a new one.
 6. If no task is in progress, pick the highest-value file in `task-todo` and start executing it in this repository.
@@ -14,5 +14,6 @@ Heartbeat task loop for tonight:
 12. If the primary QQ send attempt fails, retry once. If it still fails, send a shorter fallback report with the same script and record the failure in the day memory file.
 13. When a task file is fully completed, move it to `task-done`, write a short completion summary, then `git add`, `git commit`, and `git push`.
 14. After each substantial change, append a short update to `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`.
+15. If the heartbeat returns `HEARTBEAT_OK` but `task-status.json` still shows an active task or `task-todo` is not empty, immediately run `scripts/openclaw-work-watchdog.ps1`.
 
 If there is genuinely nothing actionable, reply `HEARTBEAT_OK`.
