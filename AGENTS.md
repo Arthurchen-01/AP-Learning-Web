@@ -8,7 +8,7 @@ Before working, read these files in order:
 
 1. `task-todo/current-requirement.md`
 2. `task-todo/current-split-task.md`
-3. `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md`
+3. `C:\Users\25472\Desktop\kioku\today.md`
 4. `MEMORY.md`
 5. `USER.md`
 
@@ -40,7 +40,7 @@ If context compacts, a new session starts, or a handoff happens, reread items 1-
 - Work watchdog: `scripts/openclaw-work-watchdog.ps1`
 - On each heartbeat, run the primary checker first.
 - If the primary checker fails, times out, or returns invalid JSON, immediately run the fallback checker.
-- If both checkers fail, do not guess. Record the failure in the day memory file and send a QQ warning with the failure reason.
+- If both checkers fail, do not guess. Record the failure in `C:\Users\25472\Desktop\kioku\today.md` and send a QQ warning with the failure reason.
 - If the heartbeat replies `HEARTBEAT_OK` while there is still an active task or pending todo work, run `scripts/openclaw-work-watchdog.ps1` to force a new agent run.
 - Before editing a source file, do at least two checks:
   - compare the current source against the active task and `需求.md`
@@ -49,9 +49,10 @@ If context compacts, a new session starts, or a handoff happens, reread items 1-
 
 ## Memory Rules
 
-- Update `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md` after every substantial step.
-- Update `C:\Users\25472\Desktop\memory for claw01\three-day\rolling-3d.md` when there is a meaningful change spanning multiple sessions.
-- Put lasting lessons and stable conventions in `MEMORY.md`.
+- Read `C:\Users\25472\Desktop\kioku\today.md` before starting work.
+- Append short updates to `C:\Users\25472\Desktop\kioku\today.md` after every substantial step.
+- Put multi-session summaries in `C:\Users\25472\Desktop\kioku\three day.md`.
+- Put lasting lessons and stable conventions in `C:\Users\25472\Desktop\kioku\long term.md`.
 
 ## Publishing Rule
 

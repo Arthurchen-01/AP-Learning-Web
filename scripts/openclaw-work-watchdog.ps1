@@ -38,13 +38,13 @@ if (-not $needsKick) {
 }
 
 $message = @"
-Read `task-todo/current-requirement.md`, `task-todo/current-split-task.md`, and `C:\Users\25472\Desktop\memory for claw01\one-day\2026-03-28.md` first.
+Read `task-todo/current-requirement.md`, `task-todo/current-split-task.md`, and `C:\Users\25472\Desktop\kioku\today.md` first.
 Then read `task-in-progress\task-status.json`.
 Reason for watchdog trigger: $reason.
 If task-status shows an active task, resume it immediately.
 If no task is active, choose the highest-value task from `task-todo`.
 Before overwriting any source file, only do so if you are at least 80% confident the new content is more aligned with the requirement. Otherwise create a sibling review candidate.
-After any substantial step, update `task-status.json`, update the day memory file, and send a QQ progress report.
+After any substantial step, update `task-status.json`, append a short note to `C:\Users\25472\Desktop\kioku\today.md`, and send a QQ progress report.
 "@
 
 & $openclaw agent --agent main --session-id main --message $message --thinking high | Out-Host

@@ -6,10 +6,10 @@ $ErrorActionPreference = "Stop"
 
 $taskStatusPath = Join-Path $RepoRoot "task-in-progress\task-status.json"
 $todoPath = Join-Path $RepoRoot "task-todo"
+$currentRequirementPath = Join-Path $RepoRoot "task-todo\current-requirement.md"
+$currentSplitTaskPath = Join-Path $RepoRoot "task-todo\current-split-task.md"
 $desktopPath = [Environment]::GetFolderPath("Desktop")
-$todayMemoryPath = Join-Path $desktopPath "memory for claw01\one-day\2026-03-28.md"
-$splitTask = Get-ChildItem $desktopPath -File | Where-Object { $_.Name -like "3.28*.md" } | Select-Object -First 1
-$requirement = Get-ChildItem $desktopPath -File | Where-Object { $_.Extension -eq ".md" -and $_.Name.Length -le 6 -and $_.Name -notlike "3.28*" } | Select-Object -First 1
+$todayMemoryPath = Join-Path $desktopPath "kioku\today.md"
 
 function Get-LastWriteIso([string]$Path) {
     if (Test-Path $Path) {
@@ -29,10 +29,10 @@ $result = [ordered]@{
     taskStatus = $taskStatus
     taskCount = $todoFiles.Count
     nextTask = if ($todoFiles.Count -gt 0) { $todoFiles[0].Name } else { "" }
-    requirementExists = $null -ne $requirement
-    requirementFile = if ($null -ne $requirement) { $requirement.FullName } else { "" }
-    splitTaskExists = $null -ne $splitTask
-    splitTaskFile = if ($null -ne $splitTask) { $splitTask.FullName } else { "" }
+    requirementExists = Test-Path $currentRequirementPath
+    requirementFile = $currentRequirementPath
+    splitTaskExists = Test-Path $currentSplitTaskPath
+    splitTaskFile = $currentSplitTaskPath
     todayMemoryExists = Test-Path $todayMemoryPath
     todayMemoryLastWrite = Get-LastWriteIso $todayMemoryPath
 }
