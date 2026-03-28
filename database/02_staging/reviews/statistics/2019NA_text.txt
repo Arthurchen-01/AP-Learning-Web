@@ -1,0 +1,2742 @@
+2019 
+AP
+® Statistics
+Free-Response Questions
+© 2019 The College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are 
+registered trademarks of the College Board. Visit the College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+Formulas begin on page 3. 
+Questions begin on page 6. 
+Tables begin on page 14. 
+-2-
+
+
+--- PAGE BREAK ---
+
+Formulas
+(I)
+Descriptive Statistics
+-3-
+x 
+bar equals the fraction with numerator the summation of x sub i and denominator 
+n
+s
+ 
+s
+u
+b
+ x
+ 
+e
+q
+u
+a
+l
+s
+ the square root of the fraction with numerator 1 and denominator n minus 1, end fraction, times the summation of, open parenthesis, x sub i, minus x bar, close parenthesis, squared, end root
+s
+ 
+s
+u
+b
+ 
+p
+ 
+e
+q
+u
+a
+l
+s
+ 
+t
+h
+e
+ 
+s
+q
+u
+a
+r
+e
+ 
+r
+o
+o
+t
+ 
+o
+f
+ 
+the fraction with numerator, open parenthesis, n sub 1, minus 1, close parenthesis, times s sub 1, end subscript, squared, plus, open parenthesis, n sub 2, minus 1, close parenthesis, times s sub 2, end subscript, squared, and denominator open parenthesis n sub 1, minus 1, close parenthesis, plus, open parenthesis, n sub 2, minus 1, close parenthesis, end fraction, end root
+y
+ 
+ha
+t
+ equals b sub 0, plus b sub 1, times x
+b
+ s
+u
+b
+ 
+1
+ 
+e
+q
+u
+a
+l
+s
+ 
+t
+h
+e
+ 
+f
+r
+a
+c
+tion with numerator the summation of, open parenthesis, x sub i, minus x bar, close parenthesis, times, open parenthesis, y sub i, minus y bar, close parenthesis, and denominator the summation of, open parenthesis, x sub i, minus x bar, close parenthesis, squared, end fraction
+b
+ 
+s
+u
+b  
+0
+ equals y bar minus b sub 1, times x bar
+r
+ 
+e
+q
+u
+a
+l
+s
+ 
+t
+h
+e
+ 
+f
+r
+a
+c
+t
+i
+o
+n
+ 
+w
+i
+t h
+ 
+n
+u
+m
+erator 1 and denominator n minus 1, end fraction times the summation of, open parenthesis, the fraction with numerator x sub i, minus x bar and denominator s sub x, close parenthesis, times, open parenthesis, the fraction with numerator y sub i, minus y bar and denominator s sub y, close parenthesis, end summation
+b
+ sub 1 equals r times the fraction s sub y over s sub 
+x
+s
+ 
+s
+u
+b
+,
+ 
+b
+ 
+s
+u
+b
+ 
+1
+,
+ 
+e
+q
+u
+a
+l
+s
+ 
+t
+he fraction with numerator the square root of the fraction with numerator the summation of, open parenthesis, y sub i, minus y hat sub i, close parenthesis, squared and denominator n minus 2, end fraction, and denominator the square root of the summation of, open parenthesis, x sub i, minus x bar, close parenthesis, squared, end root
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+(II)
+Probability
+t
+h
+e  
+p r
+o
+b
+a b
+i
+l i
+t y
+ of, A, union B, equals the probability of A, plus the probability of B, minus the probability of, A, intersection 
+B
+-4-
+t
+h
+e
+ 
+p r
+o b
+a
+b i l
+ity of, A, given B, which equals the probability of, A, intersection B, divided by the probability of B
+t h
+e  
+e x
+p
+ected value of X equals mu sub x, which equals the summation of x sub i times p sub i
+t
+h
+e
+ 
+vari a
+n
+c
+e
+ 
+o
+f X equals sigma sub x, end subscript, squared, which equals the summation of, open parenthesis, x sub i, minus mu sub x, close parenthesis, squared times p sub i
+If X has a binomial distribution with parameters n and p, then: 
+t
+h
+e 
+p
+r
+o
+b a
+b i
+l
+i
+t
+y
+ t
+h a
+t  
+X
+ 
+e
+quals k, is equal to n choose k times p raised to the power k times, open parenthesis, 1 minus p, close parenthesis, raised to the power n minus k, end power
+mu
+ s
+ub x, equals n times p
+si
+g
+ma
+ 
+s
+u
+b
+ x equals the square root of n times p times, open parenthesis, 1 minus p, close parenthesis, end root
+m
+u sub p hat, end subscript, equals 
+p
+si
+g
+m
+a
+ 
+sub p hat, end subscript, equals the square root of the fraction with numerator p times, open parenthesis, 1 minus p, close parenthesis, and denominator 
+n
+If x bar  is the mean of a random sample of size n from an infinite 
+population with mean mu  and standard deviation sigma, then: 
+m u
+ 
+sub, x bar, end subscript, equals mu
+sigma sub, x bar, end subscript, equals the fraction sigma over the square root of 
+n
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+-5-
+(III)
+Inferential Statistics
+Standardized test statistic: standard deviation of statistic
+Confidence interval:
+
+ 
+s t
+atistic pl
+u s or minus critical value times 
+standard deviation of statistic
+Single-Sample 
+Statistic 
+Standard Deviation 
+of Statistic 
+Sample Mean 
+n
+Sample Proportion 
+th
+e
+ 
+square root of the fraction with numerator p times, open parenthesis, 1 minus p, close parenthesis, and denominator 
+n
+Two-Sample 
+Statistic 
+Standard Deviation 
+of Statistic 
+Difference of 
+sample means 
+t
+h
+e 
+s
+q
+u
+a
+r
+e
+ 
+root of the fracti
+o
+n
+ 
+s
+i
+g
+m
+a
+ 
+s
+u
+b
+ 1, end subscript, squared over n sub 1, end fraction, plus the fraction sigma sub 2, end subscript, squared over n sub 2, end root
+Difference of 
+sample proportions 
+t
+h
+e
+ 
+s
+q
+ua
+r
+e 
+r
+o
+o
+t
+ 
+o
+f
+ 
+t
+h
+e fraction with nu
+m
+e
+r
+a
+t
+o
+r
+ 
+p
+ 
+s
+u
+b
+ 
+1
+,
+ 
+end subscript, times, open parenthesis, 1 minus p sub 1, close parenthesis, and denominator n sub 1, end fraction, plus the fraction with numerator p sub 2, end subscript, times, open parenthesis, 1 minus p sub 2, close parenthesis, and denominator n sub 2, end fraction, end root
+C
+hi
+-square 
+test sta
+tistic equals the summation of the fraction with numerator, open parenthesis, observed minus expected, close parenthesis, squared and denominator 
+expected
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STATISTICS 
+SECTION II 
+Part A 
+Questions 1-5 
+Spend about 1 hour and 5 minutes on this part of the exam. 
+Percent of Section II score—75 
+Directions:  Show all your work. Indicate clearly the methods you use, because you will be scored on the 
+correctness of your methods as well as on the accuracy and completeness of your results and explanations. 
+ 1. The sizes, in square feet, of the 20 rooms in a student residence hall at a certain university are summarized in the
+following histogram.
+ 
+ 
+ 
+ 
+ 
+ 
+ The figure presents a histogram. The horizontal axis is labeled “Room Size, in square feet,” and the numbers 100 through 350, in increments of 50, are indicated. The vertical axis is labeled “Number of Rooms,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows.
+
+From 100 square feet up to but not including 150 square feet, 3.
+From 150 square feet up to but not including 200 square feet, 6.
+From 200 square feet up to but not including 250 square feet, 1.
+From 250 square feet up to but not including 300 square feet, 7.
+From 300 square feet up to but not including 350 square feet, 3.
+(a) Based on the histogram, write a few sentences describing the distribution of room size in the residence hall.
+(b) Summary statistics for the sizes are given in the following table.
+Mean 
+Standard 
+Deviation 
+Min
+Q1
+Median
+Q3
+Max
+231.4 
+68.12
+134
+174
+253.5
+292
+315
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-6-
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+Determine whether there are potential outliers in the data. Then use the following grid to sketch a boxplot of  
+room size. The figure presents a 3 by 13 grid. The horizontal axis is labeled “Room Size, in square feet,” and the numbers 100 through 360, in increments of 20, are indicated.
+(c) What characteristic of the shape of the distribution of room size is apparent from the histogram but not from 
+the boxplot? 
+GO ON TO THE NEXT PAGE. 
+-7- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 2. Researchers are investigating the effectiveness of using a fungus to control the spread of an insect that destroys 
+ 
+ 
+ 
+ 
+ 
+ 
+trees. The researchers will create four different concentrations of fungus mixtures: 0 milliliters per liter m l/L , 
+1.25 milliliters per liter, 2.5 milliliters per liter, and 3.75 milliliters per liter. An equal number of the insects will be placed into 20 individual containers. 
+The group of insects in each container will be sprayed with one of the four mixtures, and the researchers will 
+record the number of insects that are still alive in each container one week after spraying. 
+(a) Identify the treatments, experimental units, and response variable of the experiment. 
+Treatments: 
+Experimental units: 
+Response variable: 
+(b) Does the experiment have a control group? Explain your answer. 
+(c) Describe how the treatments can be randomly assigned to the experimental units so that each treatment  
+has the same number of units.  
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-8- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 3. A medical researcher surveyed a large group of men and women about whether they take medicine as prescribed. 
+The responses were categorized as never, sometimes, or always. The relative frequency of each category is 
+shown in the table. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Never 
+Sometimes 
+Always 
+Total 
+Men 
+0.0564 
+0.2016 
+0.2120 
+0.4700 
+Women 
+0.0636 
+0.1384 
+0.3280 
+0.5300 
+Total 
+0.1200 
+0.3400 
+0.5400 
+1.0000 
+(a) One person from those surveyed will be selected at random. 
+(i) What is the probability that the person selected will be someone whose response is never and who is a 
+woman? 
+(ii) What is the probability that the person selected will be someone whose response is never or who is a 
+woman? 
+ (iii) What is the probability that the person selected will be someone whose response is never given that the 
+person is a woman? 
+(b) For the people surveyed, are the events of being a person whose response is never and being a woman 
+independent? Justify your answer. 
+(c) Assume that, in a large population, the probability that a person will always take medicine as prescribed  
+is 0.54. If 5 people are selected at random from the population, what is the probability that at least 4 of  
+the people selected will always take medicine as prescribed? Support your answer. 
+ 
+ 
+ 
+ 
+ 
+ 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-9- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 4. Tumbleweed, commonly found in the western United States, is the dried structure of certain plants that are 
+blown by the wind. Kochia, a type of plant that turns into tumbleweed at the end of the summer, is a problem for 
+farmers because it takes nutrients away from soil that would otherwise go to more beneficial plants. Scientists 
+are concerned that kochia plants are becoming resistant to the most commonly used herbicide, glyphosate. In 
+2014, 19.7 percent of 61 randomly selected kochia plants were resistant to glyphosate. In 2017, 38.5 percent of 
+52 randomly selected kochia plants were resistant to glyphosate. Do the data provide convincing statistical 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+evidence, at the level of alpha equals 0.05, that there has been an increase in the proportion of all kochia plants that are 
+resistant to glyphosate?  
+GO ON TO THE NEXT PAGE. 
+-10- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 5. A company that manufactures smartphones developed a new battery that has a longer life span than that of a 
+traditional battery. From the date of purchase of a smartphone, the distribution of the life span of the new battery 
+is approximately normal with mean 30 months and standard deviation 8 months. For the price of $50, the 
+company offers a two-year warranty on the new battery for customers who purchase a smartphone. The warranty 
+guarantees that the smartphone will be replaced at no cost to the customer if the battery no longer works within 
+24 months from the date of purchase. 
+(a) In how many months from the date of purchase is it expected that 25 percent of the batteries will no longer 
+work? Justify your answer. 
+(b) Suppose one customer who purchases the warranty is selected at random. What is the probability that the 
+customer selected will require a replacement within 24 months from the date of purchase because the battery 
+no longer works? 
+(c) The company has a gain of $50 for each customer who purchases a warranty but does not require  
+a replacement. The company has a loss (negative gain) of $150 for each customer who purchases a warranty 
+and does require a replacement. What is the expected value of the gain for the company for each warranty 
+purchased? 
+ 
+ 
+ 
+ 
+ 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-11- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SECTION II 
+Part B 
+Question 6 
+Spend about 25 minutes on this part of the exam.
+Percent of Section II score—25 
+Directions:  Show all your work. Indicate clearly the methods you use, because you will be scored on the 
+correctness of your methods as well as on the accuracy and completeness of your results and explanations. 
+ 6. Emma is moving to a large city and is investigating typical monthly rental prices of available one-bedroom 
+apartments. She obtained a random sample of rental prices for 50 one-bedroom apartments taken from a Web 
+site where people voluntarily list available apartments. 
+  
+(a) Describe the population for which it is appropriate for Emma to generalize the results from her sample. 
+The distribution of the 50 rental prices of the available apartments is shown in the following histogram. 
+ 
+ 
+  
+ 
+ 
+ The figure presents a histogram. The horizontal axis is labeled “Rental Price,” and the values 1,600 dollars through 5,200 dollars, in increments of 400 dollars, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 10, in increments of 1, are indicated. The data represented by the bars are as follows.
+
+Rental price, 1,600 dollars. Frequency, 1.
+Rental price, 1,800 dollars. Frequency, 2.
+Rental price, 2,000 dollars. Frequency, 6.
+Rental price, 2,200 dollars. Frequency, 3.
+Rental price, 2,400 dollars. Frequency, 10.
+Rental price, 2,600 dollars. Frequency, 7.
+Rental price, 2,800 dollars. Frequency, 1.
+Rental price, 3,000 dollars. Frequency, 10.
+Rental price, 3,200 dollars. Frequency, 1.
+Rental price, 3,400 dollars. Frequency, 1.
+Rental price, 3,600 dollars. Frequency, 1.
+Rental price, 3,800 dollars. Frequency, 2.
+Rental price, 4,000 dollars. Frequency, 1.
+Rental price, 4,200 dollars. Frequency, 1.
+Rental price, 4,400 dollars. Frequency, 0.
+Rental price, 4,600 dollars. Frequency, 2.
+Rental price, 4,800 dollars. Frequency, 0.
+Rental price, 5,000 dollars. Frequency, 0.
+Rental price, 5,200 dollars. Frequency, 1.
+(b) Emma wants to estimate the typical rental price of a one-bedroom apartment in the city. Based on the 
+distribution shown, what is a disadvantage of using the mean rather than the median as an estimate of the 
+typical rental price? 
+(c) Instead of using the sample median as the point estimate for the population median, Emma wants to use an 
+interval estimate. However, computing an interval estimate requires knowing the sampling distribution  
+of the sample median for samples of size 50. Emma has one point, her sample median, in that sampling 
+distribution. Using information about rental prices that are available on the Web site, describe how someone 
+could develop a theoretical sampling distribution of the sample median for samples of size 50. 
+Because Emma does not have the resources to develop the theoretical sampling distribution, she estimates the 
+sampling distribution of the sample median using a process called bootstrapping. In the bootstrapping process,  
+a computer program performs the following steps. 
+• 
+Take a random sample, with replacement, of size 50 from the original sample. 
+• 
+Calculate and record the median of the sample. 
+• 
+Repeat the process to obtain a total of 15,000 medians. 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+STATISTICS 
+ 
+GO ON TO THE NEXT PAGE. 
+-12- 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+Emma ran the bootstrap process, and the following frequency table is the bootstrap distribution showing her 
+results of generating 15,000 medians. 
+Bootstrap Distribution of Medians 
+Median 
+Frequency 
+Median
+Frequency
+Median
+Frequency
+ 
+ 
+ 
+ 
+2,345
+1
+2,585
+1
+2,825 
+247
+2,390
+13 
+2,587.5
+171 
+2,837.5
+7
+2,395
+18
+2,600
+22 
+2,847.5
+1
+2,400
+56 
+2,612.5 
+1,190 
+2,872.5
+317
+2,445
+4
+2,625
+174
+2,885
+10
+2,447.5
+56 
+2,672.5
+5
+2,950
+700
+2,450
+55
+2,675 
+1,924 
+2,962.5
+93
+2,475
+3 
+2,687.5 
+1,341 
+2,972.5
+6
+2,495
+66
+2,700 
+2,825
+2,975
+65
+2,497.5
+136
+2,735
+35
+2,985
+12
+2,500
+1,899
+2,747.5
+619
+2,987.5
+1
+2,522.5
+2
+2,750
+2
+2,995
+6
+2,525
+945
+2,795
+278
+3,000
+2
+2,550
+1,673
+2,812.5
+16
+3,062.5
+3
+The bootstrap distribution provides an approximation of the sampling distribution of the sample median.  
+A confidence interval for the median can be constructed using a percentage of the values in the middle of the 
+bootstrap distribution. 
+(d) Use the frequency table to find the following.
+(i) Value of the fifth percentile:
+ (ii) Value of the ninety fifth percentile:
+(e) Find the percentage of bootstrap medians in the table that are equal to or between the values found in  
+part (d).
+(f) Use your values from parts (d) and (e) to construct and interpret a confidence interval for the median  
+rental price.
+ 
+ 
+ 
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+STOP 
+ 
+END OF EXAM 
+-13-
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+-14-
+The figure 
+shows a normal distribution curve graphed on a horizontal axis. A point on the horizontal axis to the left of the mean of the distribution is labeled “z.” A vertical line is drawn from z to the curve. The area below the curve and to the left of z is shaded. The shaded area is labeled Probability.
+Table entry for z is the 
+probability lying below z.
+Table A Standard normal probabilities
+z
+.00
+.01
+.02
+.03
+.04
+.05
+.06
+.07
+.08
+.09
+negative three point four
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0002
+negative three point three
+.0005
+.0005
+.0005
+.0004
+.0004
+.0004
+.0004
+.0004
+.0004
+.0003
+negative three point two
+.0007
+.0007
+.0006
+.0006
+.0006
+.0006
+.0006
+.0005
+.0005
+.0005
+negative three point one
+.0010
+.0009
+.0009
+.0009
+.0008
+.0008
+.0008
+.0008
+.0007
+.0007
+negative three point zero
+.0013
+.0013
+.0013
+.0012
+.0012
+.0011
+.0011
+.0011
+.0010
+.0010
+negative two point nine
+.0019
+.0018
+.0018
+.0017
+.0016
+.0016
+.0015
+.0015
+.0014
+.0014
+negative two point eight
+.0026
+.0025
+.0024
+.0023
+.0023
+.0022
+.0021
+.0021
+.0020
+.0019
+negative two point seven
+.0035
+.0034
+.0033
+.0032
+.0031
+.0030
+.0029
+.0028
+.0027
+.0026
+negative two point six
+.0047
+.0045
+.0044
+.0043
+.0041
+.0040
+.0039
+.0038
+.0037
+.0036
+negative two point five
+.0062
+.0060
+.0059
+.0057
+.0055
+.0054
+.0052
+.0051
+.0049
+.0048
+negative two point four
+.0082
+.0080
+.0078
+.0075
+.0073
+.0071
+.0069
+.0068
+.0066
+.0064
+negative two point three
+.0107
+.0104
+.0102
+.0099
+.0096
+.0094
+.0091
+.0089
+.0087
+.0084
+negative two point two
+.0139
+.0136
+.0132
+.0129
+.0125
+.0122
+.0119
+.0116
+.0113
+.0110
+negative two point one
+.0179
+.0174
+.0170
+.0166
+.0162
+.0158
+.0154
+.0150
+.0146
+.0143
+negative two point zero
+.0228
+.0222
+.0217
+.0212
+.0207
+.0202
+.0197
+.0192
+.0188
+.0183
+negative one point nine
+.0287
+.0281
+.0274
+.0268
+.0262
+.0256
+.0250
+.0244
+.0239
+.0233
+negative one point eight
+.0359
+.0351
+.0344
+.0336
+.0329
+.0322
+.0314
+.0307
+.0301
+.0294
+negative one point seven
+.0446
+.0436
+.0427
+.0418
+.0409
+.0401
+.0392
+.0384
+.0375
+.0367
+negative one point six
+.0548
+.0537
+.0526
+.0516
+.0505
+.0495
+.0485
+.0475
+.0465
+.0455
+negative one point five
+.0668
+.0655
+.0643
+.0630
+.0618
+.0606
+.0594
+.0582
+.0571
+.0559
+negative one point four
+.0808
+.0793
+.0778
+.0764
+.0749
+.0735
+.0721
+.0708
+.0694
+.0681
+negative one point three
+.0968
+.0951
+.0934
+.0918
+.0901
+.0885
+.0869
+.0853
+.0838
+.0823
+negative one point two
+.1151
+.1131
+.1112
+.1093
+.1075
+.1056
+.1038
+.1020
+.1003
+.0985
+negative one point one
+.1357
+.1335
+.1314
+.1292
+.1271
+.1251
+.1230
+.1210
+.1190
+.1170
+negative one point zero
+.1587
+.1562
+.1539
+.1515
+.1492
+.1469
+.1446
+.1423
+.1401
+.1379
+negative zero point nine
+.1841
+.1814
+.1788
+.1762
+.1736
+.1711
+.1685
+.1660
+.1635
+.1611
+negative zero point eight
+.2119
+.2090
+.2061
+.2033
+.2005
+.1977
+.1949
+.1922
+.1894
+.1867
+negative zero point seven
+.2420
+.2389
+.2358
+.2327
+.2296
+.2266
+.2236
+.2206
+.2177
+.2148
+negative zero point six
+.2743
+.2709
+.2676
+.2643
+.2611
+.2578
+.2546
+.2514
+.2483
+.2451
+negative zero point five
+.3085
+.3050
+.3015
+.2981
+.2946
+.2912
+.2877
+.2843
+.2810
+.2776
+negative zero point four
+.3446
+.3409
+.3372
+.3336
+.3300
+.3264
+.3228
+.3192
+.3156
+.3121
+negative zero point three
+.3821
+.3783
+.3745
+.3707
+.3669
+.3632
+.3594
+.3557
+.3520
+.3483
+negative zero point two
+.4207
+.4168
+.4129
+.4090
+.4052
+.4013
+.3974
+.3936
+.3897
+.3859
+negative zero point one
+.4602
+.4562
+.4522
+.4483
+.4443
+.4404
+.4364
+.4325
+.4286
+.4247
+negative zero point zero
+.5000
+.4960
+.4920
+.4880
+.4840
+.4801
+.4761
+.4721
+.4681
+.4641
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+-15-
+The figure 
+shows a normal distribution curve graphed on a horizontal axis. A point on the horizontal axis to the right of the mean of the distribution is labeled “z.” A vertical line is drawn from z to the curve. The area below the curve and to the left of z is shaded. The shaded area is labeled probability.
+Table entry for z is the 
+probability lying below z. 
+Table A
+(Continued)
+z
+.00
+.01
+.02
+.03
+.04
+.05
+.06
+.07
+.08
+.09
+0.0
+.5000
+.5040
+.5080
+.5120
+.5160
+.5199
+.5239
+.5279
+.5319
+.5359
+0.1
+.5398
+.5438
+.5478
+.5517
+.5557
+.5596
+.5636
+.5675
+.5714
+.5753
+0.2
+.5793
+.5832
+.5871
+.5910
+.5948
+.5987
+.6026
+.6064
+.6103
+.6141
+0.3
+.6179
+.6217
+.6255
+.6293
+.6331
+.6368
+.6406
+.6443
+.6480
+.6517
+0.4
+.6554
+.6591
+.6628
+.6664
+.6700
+.6736
+.6772
+.6808
+.6844
+.6879
+0.5
+.6915
+.6950
+.6985
+.7019
+.7054
+.7088
+.7123
+.7157
+.7190
+.7224
+0.6
+.7257
+.7291
+.7324
+.7357
+.7389
+.7422
+.7454
+.7486
+.7517
+.7549
+0.7
+.7580
+.7611
+.7642
+.7673
+.7704
+.7734
+.7764
+.7794
+.7823
+.7852
+0.8
+.7881
+.7910
+.7939
+.7967
+.7995
+.8023
+.8051
+.8078
+.8106
+.8133
+0.9
+.8159
+.8186
+.8212
+.8238
+.8264
+.8289
+.8315
+.8340
+.8365
+.8389
+1.0
+.8413
+.8438
+.8461
+.8485
+.8508
+8531
+.8554
+.8577
+.8599
+.8621
+1.1
+.8643
+.8665
+.8686
+.8708
+.8729
+.8749
+.8770
+.8790
+.8810
+.8830
+1.2
+.8849
+.8869
+.8888
+.8907
+.8925
+.8944
+.8962
+.8980
+.8997
+.9015
+1.3
+.9032
+.9049
+.9066
+.9082
+.9099
+.9115
+.9131
+.9147
+.9162
+.9177
+1.4
+.9192
+.9207
+.9222
+.9236
+.9251
+.9265
+.9279
+.9292
+.9306
+.9319
+1.5
+.9332
+.9345
+.9357
+.9370
+.9382
+.9394
+.9406
+.9418
+.9429
+.9441
+1.6
+.9452
+.9463
+.9474
+.9484
+.9495
+.9505
+.9515
+.9525
+.9535
+.9545
+1.7
+.9554
+.9564
+.9573
+.9582
+.9591
+.9599
+.9608
+.9616
+.9625
+.9633
+1.8
+.9641
+.9649
+.9656
+.9664
+.9671
+.9678
+.9686
+.9693
+.9699
+.9706
+1.9
+.9713
+.9719
+.9726
+.9732
+.9738
+.9744
+.9750
+.9756
+.9761
+.9767
+2.0
+.9772
+.9778
+.9783
+.9788
+.9793
+9798
+.9803
+.9808
+.9812
+.9817
+2.1
+.9821
+.9826
+.9830
+.9834
+.9838
+.9842
+.9846
+.9850
+.9854
+.9857
+2.2
+.9861
+.9864
+.9868
+.9871
+.9875
+.9878
+.9881
+.9884
+.9887
+.9890
+2.3
+.9893
+.9896
+.9898
+.9901
+.9904
+.9906
+.9909
+.9911
+.9913
+.9916
+2.4
+.9918
+.9920
+.9922
+.9925
+.9927
+.9929
+.9931
+.9932
+.9934
+.9936
+2.5
+.9938
+.9940
+.9941
+.9943
+.9945
+.9946
+.9948
+.9949
+.9951
+.9952
+2.6
+.9953
+.9955
+.9956
+.9957
+.9959
+.9960
+.9961
+.9962
+.9963
+.9964
+2.7
+.9965
+.9966
+.9967
+.9968
+.9969
+.9970
+.9971
+.9972
+.9973
+.9974
+2.8
+.9974
+.9975
+.9976
+.9977
+.9977
+.9978
+.9979
+.9979
+.9980
+.9981
+2.9
+.9981
+.9982
+.9982
+.9983
+.9984
+.9984
+.9985
+.9985
+.9986
+.9986
+3.0
+.9987
+.9987
+.9987
+.9988
+.9988
+9989
+.9989
+.9989
+.9990
+.9990
+3.1
+.9990
+.9991
+.9991
+.9991
+.9992
+.9992
+.9992
+.9992
+.9993
+.9993
+3.2
+.9993
+.9993
+.9994
+.9994
+.9994
+.9994
+.9994
+.9995
+.9995
+.9995
+3.3
+.9995
+.9995
+.9995
+.9996
+.9996
+.9996
+.9996
+.9996
+.9996
+.9997
+3.4
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9998
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+-16-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The figure sh
+ows a t distribution curve graphed on a horizontal axis. A point on the horizontal axis to the right of the mean of the distribution is labeled “t star.” A vertical line is drawn from t star to the curve. The area below the curve and to the right of t star is shaded. The shaded area is labeled probability p.
+Table entry for p and 
+C is the point t star with 
+probability p lying 
+above it and 
+probability C lying 
+between n egative t star and t star
+Table B 
+t distribution critical values
+df
+Tail probability p
+.25
+.20
+.15
+.10
+.05
+.025
+.02
+.01
+.005
+.0025
+.001
+.0005
+1
+1.000
+1.376
+1.963
+3.078
+6.314
+12.71
+15.89
+31.82
+63.66
+127.3
+318.3
+636.6
+2
+.816
+1.061
+1.386
+1.886
+2.920
+4.303
+4.849
+6.965
+9.925
+14.09
+22.33
+31.60
+3
+.765
+.978
+1.250
+1.638
+2.353
+3.182
+3.482
+4.541
+5.841
+7.453
+10.21
+12.92
+4
+.741
+.941
+1.190
+1.533
+2.132
+2.776
+2.999
+3.747
+4.604
+5.598
+7.173
+8.610
+5
+.727
+.920
+1.156
+1.476
+2.015
+2.571
+2.757
+3.365
+4.032
+4.773
+5.893
+6.869
+6
+.718
+.906
+1.134
+1.440
+1.943
+2.447
+2.612
+3.143
+3.707
+4.317
+5.208
+5.959
+7
+.711
+.896
+1.119
+1.415
+1.895
+2.365
+2.517
+2.998
+3.499
+4.029
+4.785
+5.408
+8
+.706
+.889
+1.108
+1.397
+1.860
+2.306
+2.449
+2.896
+3.355
+3.833
+4.501
+5.041
+9
+.703
+.883
+1.100
+1.383
+1.833
+2.262
+2.398
+2.821
+3.250
+3.690
+4.297
+4.781
+10
+.700
+.879
+1.093
+1.372
+1.812
+2.228
+2.359
+2.764
+3.169
+3.581
+4.144
+4.587
+11
+.697
+.876
+1.088
+1.363
+1.796
+2.201
+2.328
+2.718
+3.106
+3.497
+4.025
+4.437
+12
+.695
+.873
+1.083
+1.356
+1.782
+2.179
+2.303
+2.681
+3.055
+3.428
+3.930
+4.318
+13
+.694
+.870
+1.079
+1.350
+1.771
+2.160
+2.282
+2.650
+3.012
+3.372
+3.852
+4.221
+14
+.692
+.868
+1.076
+1.345
+1.761
+2.145
+2.264
+2.624
+2.977
+3.326
+3.787
+4.140
+15
+.691
+.866
+1.074
+1.341
+1.753
+2.131
+2.249
+2.602
+2.947
+3.286
+3.733
+4.073
+16 
+.690
+.865
+1.071
+1.337
+1.746
+2.120
+2.235
+2.583
+2.921
+3.252
+3.686
+4.015
+17
+.689
+.863
+1.069
+1.333
+1.740
+2.110
+2.224
+2.567
+2.898
+3.222
+3.646
+3.965
+18
+.688
+.862
+1.067
+1.330
+1.734
+2.101
+2.214
+2.552
+2.878
+3.197
+3.611
+3.922
+19
+.688
+.861
+1.066
+1.328
+1.729
+2.093
+2.205
+2.539
+2.861
+3.174
+3.579
+3.883
+20
+.687
+.860
+1.064
+1.325
+1.725
+2.086
+2.197
+2.528
+2.845
+3.153
+3.552
+3.850
+21
+.686
+.859
+1.063
+1.323
+1.721
+2.080
+2.189
+2.518
+2.831
+3.135
+3.527
+3.819
+22
+.686
+.858
+1.061
+1.321
+1.717
+2.074
+2.183
+2.508
+2.819
+3.119
+3.505
+3.792
+23
+.685
+.858
+1.060
+1.319
+1.714
+2.069
+2.177
+2.500
+2.807
+3.104
+3.485
+3.768
+24
+.685
+.857
+1.059
+1.318
+1.711
+2.064
+2.172
+2.492
+2.797
+3.091
+3.467
+3.745
+25
+.684
+.856
+1.058
+1.316
+1.708
+2.060
+2.167
+2.485
+2.787
+3.078
+3.450
+3.725
+26
+.684
+.856
+1.058
+1.315
+1.706
+2.056
+2.162
+2.479
+2.779
+3.067
+3.435
+3.707
+27 
+.684
+.855
+1.057
+1.314
+1.703
+2.052
+2.158
+2.473
+2.771
+3.057
+3.421
+3.690
+28
+.683
+.855
+1.056
+1.313
+1.701
+2.048
+2.154
+2.467
+2.763
+3.047
+3.408
+3.674
+29 
+.683
+.854
+1.055
+1.311
+1.699
+2.045
+2.150
+2.462
+2.756
+3.038
+3.396
+3.659
+30
+.683
+.854
+1.055
+1.310
+1.697
+2.042
+2.147
+2.457
+2.750
+3.030
+3.385
+3.646
+40
+.681
+.851
+1.050
+1.303
+1.684
+2.021
+2.123
+2.423
+2.704
+2.971
+3.307
+3.551
+50
+.679
+.849
+1.047
+1.299
+1.676
+2.009
+2.109
+2.403
+2.678
+2.937
+3.261
+3.496
+60
+.679
+.848
+1.045
+1.296
+1.671
+2.000
+2.099
+2.390
+2.660
+2.915
+3.232
+3.460
+80
+.678
+.846
+1.043
+1.292
+1.664
+1.990
+2.088
+2.374
+2.639
+2.887
+3.195
+3.416
+100
+.677
+.845
+1.042
+1.290
+1.660
+1.984
+2.081
+2.364
+2.626
+2.871
+3.174
+3.390
+1000
+.675
+.842
+1.037
+1.282
+1.646
+1.962
+2.056
+2.330
+2.581
+2.813
+3.098
+3.300
+.674
+.841
+1.036
+1.282
+1.645
+1.960
+2.054
+2.326
+2.576
+2.807
+3.091
+3.291
+50% 
+60%
+70%
+80%
+90%
+95% 
+96% 
+98% 
+99% 
+99.5%
+99.8%
+99.9%
+Confidence level C
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 
+
+
+--- PAGE BREAK ---
+
+1
+-17-
+The figure sh
+ows a chi square distribution curve graphed on a horizontal axis. A point on the horizontal axis toward the right tail of the curve is labeled “chi square.” A vertical line is drawn from the point chi square to the curve. The area below the curve and to the right of the point chi square is shaded. The shaded area is labeled probability p.
+Table entry for p is the point 
+c
+hi square
+chi square
+with probability p lying 
+above it.
+Table C 
+ 
+chi square 
+critical values
+df
+Tail probability p
+.25
+.20
+.15
+.10
+.05
+.025
+.02
+.01
+.005
+.0025
+.001
+.0005
+1
+1.32
+1.64
+2.07
+2.71
+3.84
+5.02
+5.41
+6.63
+7.88
+9.14
+10.83
+12.12
+2
+2.77
+3.22
+3.79
+4.61
+5.99
+7.38
+7.82 
+9.21
+10.60
+11.98
+13.82
+15.20
+3
+4.11
+4.64
+5.32
+6.25
+7.81
+9.35
+9.84 
+11.34
+12.84
+14.32
+16.27
+17.73
+4
+5.39
+5.99
+6.74
+7.78
+9.49
+11.14
+11.67
+13.28
+14.86
+16.42
+18.47
+20.00
+5
+6.63
+7.29
+8.12
+9.24
+11.07
+12.83
+13.39
+15.09
+16.75
+18.39
+20.51
+22.11
+6
+7.84
+8.56
+9.45
+10.64
+12.59
+14.45
+15.03
+16.81
+18.55
+20.25
+22.46
+24.10
+7
+9.04
+9.80
+10.75
+12.02
+14.07
+16.01
+16.62
+18.48
+20.28
+22.04
+24.32
+26.02
+8
+10.22
+11.03
+12.03
+13.36
+15.51
+17.53
+18.17
+20.09
+21.95
+23.77
+26.12
+27.87
+9
+11.39
+12.24
+13.29
+14.68
+16.92
+19.02
+19.68
+21.67
+23.59
+25.46
+27.88
+29.67
+10 
+12.55
+13.44
+14.53
+15.99
+18.31
+20.48
+21.16
+23.21
+25.19
+27.11
+29.59
+31.42
+11
+13.70
+14.63
+15.77
+17.28
+19.68
+21.92
+22.62
+24.72
+26.76
+28.73
+31.26
+33.14
+12
+14.85
+15.81
+16.99
+18.55
+21.03
+23.34
+24.05
+26.22
+28.30
+30.32
+32.91
+34.82
+13
+15.98
+16.98
+18.20
+19.81
+22.36
+24.74
+25.47
+27.69
+29.82
+31.88
+34.53
+36.48
+14
+17.12
+18.15
+19.41
+21.06
+23.68
+26.12
+26.87
+29.14
+31.32
+33.43
+36.12
+38.11
+15
+18.25
+19.31
+20.60
+22.31
+25.00
+27.49
+28.26
+30.58
+32.80
+34.95
+37.70
+39.72
+16 
+19.37
+20.47
+21.79
+23.54
+26.30
+28.85
+29.63
+32.00
+34.27
+36.46
+39.25
+41.31
+17 
+20.49
+21.61
+22.98
+24.77
+27.59
+30.19
+31.00
+33.41
+35.72
+37.95
+40.79
+42.88
+18 
+21.60
+22.76
+24.16
+25.99
+28.87
+31.53
+32.35
+34.81
+37.16
+39.42
+42.31
+44.43
+19 
+22.72
+23.90
+25.33
+27.20
+30.14
+32.85
+33.69
+36.19
+38.58
+40.88
+43.82
+45.97
+20 
+23.83
+25.04
+26.50
+28.41
+31.41
+34.17
+35.02
+37.57
+40.00
+42.34
+45.31
+47.50
+21
+24.93
+26.17
+27.66
+29.62
+32.67
+35.48
+36.34
+38.93
+41.40
+43.78
+46.80
+49.01
+22
+26.04
+27.30
+28.82
+30.81
+33.92
+36.78
+37.66
+40.29
+42.80
+45.20
+48.27
+50.51
+23
+27.14
+28.43
+29.98
+32.01
+35.17
+38.08
+38.97
+41.64
+44.18
+46.62
+49.73
+52.00
+24
+28.24
+29.55
+31.13
+33.20
+36.42
+39.36
+40.27
+42.98
+45.56
+48.03
+51.18
+53.48
+25
+29.34
+30.68
+32.28
+34.38
+37.65
+40.65
+41.57
+44.31
+46.93
+49.44
+52.62
+54.95
+26 
+30.43
+31.79
+33.43
+35.56
+38.89
+41.92
+42.86
+45.64
+48.29
+50.83
+54.05
+56.41
+27 
+31.53
+32.91
+34.57
+36.74
+40.11
+43.19
+44.14
+46.96
+49.64
+52.22
+55.48
+57.86
+28 
+32.62
+34.03
+35.71
+37.92
+41.34
+44.46
+45.42
+48.28
+50.99
+53.59
+56.89
+59.30
+29 
+33.71
+35.14
+36.85
+39.09
+42.56
+45.72
+46.69
+49.59
+52.34
+54.97
+58.30
+60.73
+30 
+34.80
+36.25
+37.99
+40.26
+43.77
+46.98
+47.96
+50.89
+53.67
+56.33
+59.70
+62.16
+40
+45.62
+47.27
+49.24
+51.81
+55.76
+59.34
+60.44
+63.69
+66.77
+69.70
+73.40
+76.09
+50
+56.33
+58.16
+60.35
+63.17
+67.50
+71.42
+72.61
+76.15
+79.49
+82.66
+86.66
+89.56
+60
+66.98
+68.97
+71.34
+74.40
+79.08
+83.30
+84.58
+88.38
+91.95
+95.34
+99.61
+102.7
+80
+88.13
+90.41
+93.11
+96.58
+101.9
+106.6
+108.1
+112.3
+116.3
+120.1
+124.8
+128.3
+100
+09.1
+111.7
+114.7
+118.5
+124.3
+129.6
+131.1
+135.8
+140.2
+144.3
+149.4
+153.2
+2019 AP® STATISTICS FREE-RESPONSE QUESTIONS 

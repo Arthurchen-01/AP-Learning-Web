@@ -1,0 +1,537 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: CSA (计算机科学A)
+Filename: 2018NA
+Year: 2018
+
+PDF TEXT:
+2018
+AP Computer Science A
+Free-Response Questions
+© 2018 The College Board. College Board, Advanced Placement Program, AP, AP Central, and the acorn logo 
+are registered trademarks of the College Board. Visit the College Board on the Web: www.collegeboard.org.
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+COMPUTER SCIENCE A 
+SECTION II 
+Time —1 hour and 30 minutes 
+Number of questions —4 
+Percent of total score—50 
+Directions: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE 
+WRITTEN IN JAVA. 
+Notes: 
+• 
+Assume that the interface and classes listed in the Java Quick Reference have been imported where appropriate. 
+• 
+Unless otherwise noted in the question, assume that parameters in method calls are not nulland that methods 
+are called only when their preconditions are satisfied. 
+• 
+In writing solutions for each question, you may use any of the accessible methods that are listed in classes 
+defined in that question. Writing significant amounts of code that can be replaced by a call to one of these 
+methods will not receive full credit. 
+GO ON TO THE NEXT PAGE. 
+-2-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+1. This question involves reasoning about a simulation of a frog hopping in a straight line. The frog attempts 
+to hop to a goal within a specified number of hops. The simulation is encapsulated in the following 
+Frog Simulation, one word, capital F and capital S, henceforth referred to as Frog Simulationclass. You will write two of the methods in this class. 
+GO ON TO THE NEXT PAGE. 
+-3-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+he
+ 
+code presented consists of 3
+2 
+lines
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+(a) Write the simulate method, which simulates the frog attempting to hop in a straight line to a goal from 
+the frog's starting position of 0 within a maximum number of hops. The method returns true if the frog 
+successfully reached the goal within the maximum number of hops; otherwise, the method returns false. 
+The Frog Simulation class provides a method called hop Distance that returns an integer 
+representing the distance (positive or negative) to be moved when the frog hops. A positive distance 
+represents a move toward the goal. A negative distance represents a move away from the goal. The returned 
+distance may vary from call to call. Each time the frog hops, its position is adjusted by the value returned by 
+a call to the hop Distance
+method. 
+The frog hops until one of the following conditions becomes true: 
+• 
+The frog has reached or passed the goal. 
+• 
+The frog has reached a negative position. 
+• 
+The frog has taken the maximum number of hops without reaching the goal. 
+The following example shows a declaration of a Frog Simulation object for which the goal distance is 
+24 inches and the maximum number of hops is 5. The table shows some possible outcomes of calling the 
+simulate method. 
+Frog Simulation, sim, equals new Frog Simulation, open parenthesis, 24 comma 5, close parenthesis, semicolon
+GO ON TO THE NEXT PAGE. 
+-4-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+h
+e
+ 
+figure presents a 4
+ column table w
+ith 5 rows of da
+ta. There is n
+o headin
+g for column 1.
+ The headi
+ng for col umn  2
+ is
+ “Val
+ues return
+ed by,  ho p 
+Dis
+tance
+, open par
+enthesis, 
+clo
+se pa
+renthesis.
+” T he hea
+din
+g for 
+column 3 i
+s “ Fin al pos it
+ion
+ of frog.” The heading for column 4 is “Return value of sim dot simulate, open parenthesis, close parenthesis.”
+Class information for this question
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+Complete method simulate below. You must use hop Distance
+appropriately to receive full credit. 
+The code consists of 5 lines.
+GO ON TO THE NEXT PAGE. 
+-5-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+(b) Write the run Simulations method, which performs a given number of simulations and returns the 
+proportion of simulations in which the frog successfully reached or passed the goal. For example, if the 
+parameter passed to run Simulations
+is 400, and 100 of the 400 simulate method calls returned 
+true, then the run Simulations method should return 0.25. 
+Complete method run Simulations
+below. Assume that simulate works as specified, regardless 
+of what you wrote in part (a). You must use simulate appropriately to receive full credit.
+The code consists of 5 lines
+.
+GO ON TO THE NEXT PAGE. 
+-6-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+2. This question involves reasoning about pairs of words that are represented by the following 
+The code consists of 1
+2 
+lines.
+Word Pair, one word, capital W and capital P, henceforth referred to as Word Pairclass. 
+You will implement the constructor and another method for the following Word Pair List, one word, capital W, capital P, and capital L, henceforth referred to as Word Pair List class. 
+GO ON TO THE NEXT PAGE. 
+-7-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+h
+e code consists of 14 line
+s.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+(a) Write the constructor for the Word Pair 
+List class. The constructor takes an array of strings words as 
+a parameter and initializes the instance variable all Pairs to an Array List of Word Pair
+objects. 
+A Word Pair
+object consists of a word from the array paired with a word that appears later in the array. 
+The all Pairs
+list contains Word Pair
+objects Open parenthesis, words, open bracket, i, close bracket, comma, words, open bracket, j, close bracket, close parenthesis for every i and j, 
+where 
+0
+ is less than or equal to i, which is less than j, which is less than words dot length. Each Word Pair
+object is added exactly once to the list. 
+The following examples illustrate two different Word Pair 
+List objects.
+ 
+Example 1 
+Th
+e code consists of 2 lines.
+After the code segment has executed, the all Pairs
+instance variable of example One will contain 
+the following Word Pair objects in some order. 
+Open parenthesis, quote, one, end quote, comma, quote, two, end quote, close parenthesis, comma, open parenthesis, quote, one, end quote, comma, quote, three, end quote, close parenthesis, comma, open parenthesis, quote, two, end quote, comma, quote, three, end quote, close parenthesis
+ 
+Example 2 
+Th
+e 
+code consists of 2 lines.
+After the code segment has executed, the all Pairs instance variable of example Two will contain 
+the followingWord Pair objects in some order. 
+The code consists of 2 lines.
+GO ON TO THE NEXT PAGE. 
+-8-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+Class information for this question
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+ 
+Complete the Word Pair 
+List constructor below. 
+GO ON TO THE NEXT PAGE. 
+-9-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+he code consists of 4 lines.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+(b) Write the Word Pair 
+List method num Matches. This method returns the number of WordPair 
+objects in all Pairs
+for which the two strings match. 
+For example, the following code segment creates a Word Pair List
+object. 
+The code consists of 2 lines.
+After the code segment has executed, the all Pairs
+instance variable of example Three will contain 
+the following Word Pair
+objects in some order. The pairs in which the first string matches the second 
+string are shaded for illustration. 
+Ten pairs of words are given. Open parenthesis, 
+quote, the, end quote, comma, quote, red, end qu
+ote, close parenthesis, comma, open parenthesis,
+ quote, the, end quote, comma, quote, fox, end quote, close parenthesis, comma, open parenthesis, quote, the, end quote, comma, quote, the, end quote, close parenthesis, comma, open parenthesis, quote, the, end quote, comma, quote, red, end quote, close parenthesis, comma, open parenthesis, quote, red, end quote, comma, quote, fox, end quote, close parenthesis, comma, open parenthesis, quote, red, end quote, comma, quote, the, end quote, close parenthesis, comma, open parenthesis, quote, red, end quote, comma, quote, red, end quote, close parenthesis, comma, open parenthesis, quote, fox, end quote, comma, quote, the, end quote, close parenthesis, comma, open parenthesis, quote, fox, end quote, comma, quote, red, end quote, close parenthesis, comma, open parenthesis, quote, the, end quote, comma, quote, red, end quote, close parenthesis. The pair containing the words “the” and “the” and the pair containing the words “red” and “red” are shaded.
+ 
+The call example Three dot num Matches, open parenthesis, close parenthesis hould return 2. 
+GO ON TO THE NEXT PAGE. 
+-10-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+Class information for this question
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+ 
+Complete method num Matches below. 
+GO ON TO THE NEXT PAGE. 
+-11-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+he code consists of 3 lines
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+3. The String Checker, one word, capital S and capital C, henceforth referred to as String Checker interface describes classes that check if strings are valid, according to some criterion. 
+The code consists of 5 lines.
+A Code Word Checker, one word, capital C, capital W, and capital C, henceforth referred to as Code Word Checkeris a String Checker. A Code Word 
+Checker object can be constructed with 
+three parameters: two integers and a string. The first two parameters specify the minimum and maximum code 
+word lengths, respectively, and the third parameter specifies a string that must not occur in the code word.  
+A Code Word Checker
+object can also be constructed with a single parameter that specifies a string that must 
+not occur in the code word; in this case the minimum and maximum lengths will default to 6 and 20, 
+respectively. 
+The following examples illustrate the behavior of Code Word 
+Checker objects. 
+  Example 1 
+ 
+String Checker s c 1, equals new Code Word Checker, open parenthesis, 5, comma 8, comma quote, $, end quote, close parenthesis, semicolon
+ Valid code words have 5 to 8 characters and must not include the string Quote, $, end quote. 
+  
+T
+h
+e
+ 
+figure prese
+nts a 3 colum
+n table with
+ 4 rows of data. The 
+headi
+ng for column 1 is “Meth
+od call.” The heading 
+for co
+lumn 2 is “Return value.” Th
+e heading for column
+ 3 is 
+“Explanation.” Example 2 
+String Checker s c 2, equals new Code Word Checker, open parenthesis, quote, pass, end quote, close parenthesis, semicolon 
+ 
+ Valid code words must not include the string Quote, pass, end quote. Because the bounds are not specified, the length 
+bounds are 6 and 20, inclusive. 
+GO ON TO THE NEXT PAGE. 
+-12-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+h
+e
+ 
+figure prese
+nts a 3 colum
+n table with
+ 4 rows of data. The h
+eadin
+g for column 1 is “Metho
+d call.” The heading for c
+olumn 
+2 is “Return value.” The headin
+g for column 3 is “Ex
+planat
+ion.” 
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+  Write the complete Code Word 
+Checker class. Your implementation must meet all specifications and 
+conform to all examples. 
+GO ON TO THE NEXT PAGE. 
+-13-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+4. This question involves reasoning about arrays of integers. You will write two static methods, both of which are 
+in a class named Array Tester, one word, capital A and capital T, henceforth referred to as Array Tester. 
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-14-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+T
+he
+ c
+ode consists of 28 lines.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+(a) Write a static method get Column, which returns a one-dimensional array containing the elements of a 
+single column in a two-dimensional array. The elements in the returned array should be in the same order as 
+they appear in the given column. The notation a r r 2 D, open bracket, r, close bracket, open bracket, c, close bracket represents the array element at row r and 
+column c. 
+The following code segment initializes an array and calls the get Column method. 
+int, open bracket, close bracke
+t, open brack
+et, close bra
+cket, a r r 2 D
+ equals left brace, left brace, 0, comma 1, comma 2, right brace, comma left brace, 3, comma 4, comma 5, right brace, comma left brace, 6, comma 7 , comma 8, right brace, comma left brace, 9, comma 5, comma 3, right brace, right brace, semicolon
+When the code segment has completed execution, the variable result will have the following contents. 
+result, colon, left brace, 1, comma 4, comma 7, comma 5, right brace
+WRITE YOUR SOLUTION ON THE NEXT PAGE. 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-15-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+ 
+Complete method get Column
+below. 
+The code consists of 6 lines.
+GO ON TO THE NEXT PAGE. 
+-16-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+(b) Write the static method is Latin, which returns true if a given two-dimensional square array is a 
+Latin square, and otherwise, returns false. 
+A two-dimensional square array of integers is a Latin square if the following conditions are true. 
+• 
+The first row has no duplicate values. 
+• 
+All values in the first row of the square appear in each row of the square. 
+• 
+All values in the first row of the square appear in each column of the square. 
+The figure presents two Ex
+am pl es
+ o f La
+ti n Sq
+uar es.
+The figure presents three Examples t
+ha t ar
+e NO T 
+La ti n 
+Sq ua re
+s.
+The Array Tester class provides two helper methods: contains Duplicates and 
+has All Values. The method contains Duplicates returns true if the given one-dimensional 
+array a r rcontains any duplicate values and false otherwise. The method has All Values returns 
+true if and only if every value in a r r 1 appears in a r r 2. You do not need to write the code for these 
+methods. 
+ 
+ 
+ 
+ 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-17-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+Class information for this question
+.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+Complete method is Latin below. Assume that getColumn works as specified, regardless of what 
+you wrote in part (a). You must use get Column, has All Values, and contains Duplicates 
+appropriately to receive full credit.  
+T
+he code consists of 6 lines.
+STOP 
+END OF EXAM 
+2018 AP
+® COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-18-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

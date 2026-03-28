@@ -1,0 +1,1282 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: Physics C Mechanics (物理C力学)
+Filename: 2021NASet1
+Year: 2021
+
+PDF TEXT:
+2021 
+AP
+® Physics C: 
+Mechanics 
+Free-Response Questions 
+Set 1 
+© 2021 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered 
+trademarks of College Board. Visit College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION 
+CONSTANTS AND CONVERSION FACTORS
+Proton mass, 
+m 
+sub 
+p,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Neutron mass,
+m 
+sub 
+n,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Electron mass,
+m 
+sub 
+e,
+ eq
+u
+a
+l
+s
+ 9.11, times 10 raised to the power of negative 31, kilograms
+Avogadro’s number,
+N 
+s
+u
+b 0,
+ e
+qual
+s
+ 
+6
+.02, times 10 raised to the power of 23, per mole
+Universal gas constant,
+R equ a ls, 8.
+3 1
+ 
+Joules per mole Kelvin
+Boltzmann’s constant,
+k 
+sub 
+B 
+e q
+u
+a
+l
+s
+, 1.38, times 10 raised to the power of negative 23, joules per kelvin
+Electron charge magnitude,
+e 
+equa
+ls
+, 
+1
+.
+6
+0, times 10 raised to the power of negative 19, coulombs
+1 electron volt, 
+1 
+elec
+tron
+ v
+ol
+t
+ 
+equals, 1.60, times 10 raised to the power of negative 19, joules
+Speed of light, 
+c eq
+ua ls ,
+ 3
+.00 times 10 raised to the power of 8, meters per second
+8
+ Universal gravitational 
+constant,
+  
+G
+ 
+eq
+u
+a
+ls, 
+6.
+6 7 ,
+ t
+i
+m
+e
+s
+ 10 raised to the power of negative 11, meters cubed per kilogram second squared
+Acceleration due to gravity
+ 
+at Earth’s surface,
+g
+ equa l
+s , 9.8 meters per second squared
+1 unified atomic mass unit,
+1 
+u
+ eq
+uals
+, 
+1.6
+6 ti mes  
+1
+0
+ 
+raised to the power of negative 27 kilograms, which equals 931 mega electron volts, over the speed of light squared
+ Planck’s constant,
+h
+ e
+qu
+als 
+6.
+63 ,
+ tim
+es
+ 10 raised to the power of negative 34, Joule seconds, which equals 4.14 times 10 raised to the power of negative 15 electron volt second s
+h 
+c
+ 
+equa
+ls
+ 1 .
+99 t
+im es 10
+ r a
+i
+s
+e
+d
+ 
+to the power of negative 25, Joule meters, which equals 1.24 times 10 raised to the power of 3, electron volt nanometers
+Vacuum permittivity,
+e
+p
+si
+l
+o
+n
+ sub
+ 0
+ 
+e q
+u
+a
+l
+s
+, 8.85, times 10 raised to the power of negative 12, coulomb squared per open parenthesis, Newton meter squared, close parenthesis
+ Coulomb’s law constant,
+k
+ 
+e
+q
+u
+a
+l
+s
+ t
+he 
+fr a c t
+i
+o
+n 
+1
+ 
+o
+ver, open parenthesis, 4 pi, times epsilon sub 0, close parenthesis, which equals 9.0, times 10 raised to the power of 9, open parenthesis Newton meters squared close parenthesis, per coulomb squared
+Vacuum permeability,
+m
+u
+ 
+su
+b 0  e q
+u
+a
+l
+s
+,
+ 4 pi, times 10 raised to the power of negative 7, tesla meters per ampere
+Magnetic constant,  
+k
+ 
+p
+r
+i
+m
+e 
+equ al s
+,
+ 
+t
+h
+e
+ 
+f
+r
+action mu sub 0 over 4 pi, which equals 1, times 10 raised to the power of negative 7, tesla meters per ampere
+ 1 atmosphere pressure,
+1
+ 
+a
+tmosp
+her
+e e q u
+als
+, 1.0
+,
+ 
+t
+imes 10 raised to the power of 5, newtons per meter squared, which equals 1.0, times 10 raised to the power of 5 pascals
+UNIT 
+SYMBOLS 
+meter, 
+m
+kilogram, 
+k g
+second, 
+s
+ampere, 
+A
+kelvin, 
+K
+mole, 
+mol
+hertz, 
+H z
+newton, 
+N
+pascal, 
+P a
+joule, 
+J
+watt, 
+W
+coulomb, 
+C
+volt, 
+V
+ohm,
+omega
+henry, 
+H
+farad, 
+F
+tesla, 
+T
+degree Celsius,
+C
+electron volt, 
+e V
+PREFIXES 
+Factor
+Prefix
+Symbol
+9
+giga
+G
+6
+mega
+M
+3
+kilo
+k
+2
+centi
+c
+10 raised to the power of negative 3
+milli
+m
+6
+micro
+Mu
+9
+nano
+n
+10 raised to the power of negative 12
+pico
+p
+VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES
+theta
+0 degrees
+30 degrees
+37 degrees
+45 degrees
+53 degrees
+60 degrees
+90 degrees
+sine theta
+0 
+o ne half
+t hree fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 3, and denominator, 2
+1 
+cosine theta
+1 
+the fraction with numerator, the square root of 3, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+t hree fifths
+o n e half
+0 
+tangent theta
+0
+the fraction with numerator, the square root of 3, and denominator, 3
+t hree fourths
+1
+f o ur thirds
+3
+Infinity
+The following assumptions are used in this exam. 
+1.
+2 .
+3 .
+4 .
+5.
+
+
+--- PAGE BREAK ---
+
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+MECHANICS
+lowercase a, equals 
+acceleration 
+E equals   energy 
+uppercase F, equals  force 
+lowercase f, equals 
+ frequency 
+h equals height 
+I equals rotational inertia 
+J equals impulse 
+uppercase K, equals  kinetic energy 
+lowercase k, equals 
+spring constant 
+l owercase l, equals length
+uppercase L, equals 
+ angular momentum 
+m equals mass 
+uppercase P, equals 
+power 
+lowercase p, equals 
+ momentum 
+r equals radius or distance 
+uppercase T, equals 
+ period 
+lowercase t, equals 
+ time 
+U equals potential energy 
+v equals velocity or speed 
+W equals work done on a system 
+x equals  position 
+m u equals  coefficient of friction 
+t heta equals  angle 
+t au equals  torque 
+o mega equals  angular speed 
+a lpha equals  angular acceleration 
+p hi equals  phase angle 
+v
+ 
+s
+u
+b
+ 
+x
+ equals v sub x zero, plus, a sub x times t
+x
+x
+ 
+e
+q
+u
+a
+l
+s
+ 
+x
+ 
+s
+u
+b
+ zero, plus v sub x zero, times t, plus one half a sub x times t squared t
+v
+ 
+s
+u
+b
+ 
+x
+ 
+s
+q
+u
+a
+r
+e
+d
+, equals v sub x zero squared, plus 2 a sub x, open parenthesis x minus x sub zero close parenthesis 
+0
+vec
+t
+o
+r
+ a equals the fraction the summation of vector F over m, which equals the fraction vector F sub net over 
+m
+v
+e
+c
+to
+r
+ F equals the derivative of vector p with respect to t
+v
+e
+c
+t
+o
+r
+ J equals integral vector F times d t, which equals delta vector 
+p
+G
+G
+v
+ec
+t
+o
+r p equals m times vector v 
+t
+h
+e
+ 
+a
+b
+s
+olute value of vector F sub f is less than or equal to mu, times the absolute value of vector F sub n
+D
+e
+l t
+a
+ 
+E
+ 
+e
+q uals W which equals the integral of vector F dot d vector r
+K
+ 
+e
+q
+u
+a
+ls one half m times v squared
+P  e
+q
+uals the derivative of E with respect to t
+P
+ e
+q
+u
+als vector F dot vector v
+d
+e
+l
+t
+a
+ U sub g equals m times g, times delta h
+a
+ 
+s
+u
+b
+ 
+c
+ equals, the fraction, v squared over r, which equals, omega squared times 
+r
+r
+v e
+c
+t
+o
+r tau equals vector r, cross, vector 
+F
+v
+e
+c
+t
+o
+r
+ 
+a
+l
+pha
+ equals the fraction the summation of vector tau over I, which equals the fraction vector tau sub net over 
+I
+I
+ 
+e qu
+a
+l
+s ,
+ the integral of r squared, times, d m, which equals, the summation of m, times r squared
+2r
+x  
+sub c m equals the fraction with numerator the summation of m sub i times x sub i, and denominator the summation of m sub 
+i
+v
+ 
+e quals, r times omega
+v
+e
+c
+t
+o
+r
+ 
+L
+ 
+e
+q
+uals vector r cross vector p, which equals, I times vector omega
+K
+ 
+e
+q
+ua
+ls one half I times omega squared
+omega equals omega sub 0, plus alpha 
+t
+t
+h
+e
+t
+a
+ 
+e
+q
+u
+a
+l
+s
+ 
+theta sub zero, plus omega sub zero times t, plus one half alpha times t squared
+v
+e c
+t
+o
+r
+ 
+F sub S equals negative k delta vector x
+U
+ 
+s
+u
+b
+ 
+S
+ 
+e
+q
+uals one half k, open parenthesis delta x close parenthesis, squared
+x e qual
+s
+ 
+x
+ 
+s
+ub max, times cosine, open parenthesis, omega t plus, phi, close parenthesis
+
+
+T
+ 
+equals, the fraction, two pi, over, omega, which equals the fraction, one, over, 
+f
+T
+ 
+s
+ub S equals, two pi, times the square root of the fraction, m over 
+k
+T
+ 
+sub p equals, two pi, times the square root of the fraction, l over 
+g
+t
+h
+e
+ 
+a
+b
+so l
+u
+te value of vector F sub g equals G, times the fraction with numerator m sub 1, times m sub 2 and denominator r squared
+U
+ 
+s
+ub  
+G equals the negative of the fraction with numerator G times m sub 1, times m sub 2, and denominator, 
+r
+ELECTRICITY AND MAGNETISM 
+A, equals  area 
+B equals magnetic field 
+C equals capacitance 
+d equals 
+ distance 
+E equals electric field 
+epsi lon equals e m f
+F equals force 
+I equals 
+ current 
+J equals 
+ current density 
+up percase L, equals inductance 
+l owercase l, equals length
+lowercase n, equals 
+number of loops of wire  
+     per unit length 
+uppercase N, equals 
+number of charge carriers
+     per unit volume 
+P equals power 
+uppercase Q, equals  charge 
+lowercase q, equals 
+ point charge 
+uppercase R, equals  resistance 
+lowercase r, equals 
+radius or distance 
+t equals 
+ time 
+U equals potential or stored energy 
+u ppercase V, equals electric potential
+lowercase v, equals  velocity or speed 
+r ho equals  resistivity 
+p hi equals  flux 
+k appa equals dielectric constant 
+t
+h e
+ 
+a
+bso
+l
+u
+t
+e  
+v
+alue of vector F sub E equals the fraction 1 over 4 pi epsilon sub zero times the absolute value of the fraction with numerator q sub 1 times q sub 2, and denominator r squared
+v
+e
+c
+t
+or E equals, the fraction vector F sub E over 
+q
+0
+E  sub x equals the negative derivative of V with respect to 
+x
+d
+e lt
+a
+ 
+V
+ 
+e quals the negative integral of vector E dot d vector r
+V
+ 
+equ
+a
+l
+s
+ the fraction, 1 over 4 pi epsilon sub 0, times the summation with respect to i of the fraction, q sub i over r sub 
+i
+U  
+s
+u
+b E
+ 
+e
+q
+u a
+l
+s, q times V, which equals, the fraction, 1 over 4 pi epsilon sub zero, times the fraction with numerator q sub 1 times q sub 2, and denominator 
+r
+d
+e l
+ta V equals the fraction Q over 
+C
+C
+ e
+q
+u
+als kappa times epsilon sub zero, times the fraction A over 
+d
+C
+ sub p equals the summation with respect to i of C sub 
+i
+t
+h
+e
+ fraction, one over C sub S equals the summation with respect to i of the fraction one over C sub 
+i
+I 
+e
+quals the derivative of Q with respect to t
+U
+ s
+u
+b
+ 
+C
+ 
+e
+q u
+a
+l
+s
+ 
+one half Q times delta V, which equals one half C times, open parenthesis delta V close parenthesis, squared
+D
+R equals the fraction rho times l over 
+A
+V
+e
+c
+t
+or E equals rho times vector 
+J
+I
+ 
+e
+quals N times e, times v sub d, times A
+I
+ 
+e
+quals the fraction delta V over 
+R
+i
+t
+he fraction 1 over R sub p equals the summation with respect to i of the fraction 1 over R sub 
+i
+P
+ 
+e
+quals I times delta V
+v
+e
+c
+t
+o
+r
+ F sub M equals q times vector v cross vector 
+B
+G
+C
+l
+o
+s
+e
+d
+ 
+l
+i n e integral of vector B, times, d vector l, equals, mu sub zero times 
+I
+d
+ 
+v
+e
+c
+t
+o
+r
+ 
+B
+ 
+e q
+u
+al
+s the fraction, mu sub zero over 4 pi, times the fraction with numerator, I times d vector l , cross, r hat, and denominator, r squared
+v
+e
+c
+t
+o
+r
+ 
+F
+ 
+e quals the integral of I times d vector l, cross, vector 
+B
+G
+B
+ 
+s
+ub S equals, mu sub zero, times n, times I
+p
+h i
+ 
+s
+u
+b
+ B equals the integral of vector B dot d vector A
+e
+p
+s
+il
+o
+n
+ 
+e
+q
+u
+a
+l
+s ,
+ the closed line integral of vector E, dot d vector l, which equals the negative derivative of  phi sub B, with respect to t
+ep
+s ilon equals, negative L, times the fraction d I, over, d t
+U
+ 
+s
+u
+b
+ L
+ equals, one half, times L, times I squared
+
+
+--- PAGE BREAK ---
+
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+GEOMETRY AND TRIGONOMETRY 
+ 
+A, equals area 
+C equals circumference 
+V equals  volume 
+uppercase S, equals surface area 
+b equals base 
+h equals  height 
+l  equals length
+w equals width 
+r equals  radius 
+lowercase s, equals arc length
+t heta equals angle
+Rectangle 
+A
+ equals, b times h
+Triangle 
+A
+ 
+e
+quals, one half b times  h
+Circle 
+A
+ 
+e
+quals, pi times r squared
+r
+C
+ 
+equals, 2 pi, times 
+r
+    s
+ e
+q
+uals r times theta
+Rectangular Solid 
+V
+ 
+e quals, l times w times h h
+Cylinder 
+V
+ 
+e
+q
+u
+als, pi times r squared times l
+S
+ 
+e
+q
+u
+a
+l
+s
+ 
+2
+ pi times r, times l, plus, 2 pi times r squared
+Sphere 
+V
+ 
+e
+q
+u
+a
+l
+s four thirds, pi, times r cubed
+S
+ 
+e
+q
+u
+als 4 pi times r squared
+Right Triangle 
+a
+ 
+s
+q
+u
+a
+r
+ed plus b squared, equals c squared
+    sin
+e theta equals the fraction a over 
+c
+    cos
+ine theta equals the fraction b over 
+c
+    tan
+gent theta equals the fraction a over 
+b
+Th
+e 
+figure presents a circle. Two radii, labeled r, are drawn from the center of the circle. The angle formed by the two radii is labeled theta. The part of the circle between the endpoints of each radius is labeled s.
+T
+h
+e
+ fi
+gure presents a right triangle. The bottom right hand angle is a right angle, labeled 90 degrees. The bottom left hand angle is labeled theta, and the top right hand angle is not labeled. The vertical side, opposite the angle labeled theta, is labeled a. The horizontal side, adjacent to the angle labeled theta, is labeled b. The hypotenuse is labeled c.
+CALCULUS
+d e
+r i va
+ti
+ve  of f with respect to x equals the derivative of f with respect to u times the derivative of u with respect to x
+d
+erivative with respect to x, of open parenthesis, x raised to the power of n, close parenthesis, equals, n, times x raised to the power of, n minus 
+1
+n
+d
+e r
+iv
+ative with respect to x, of open parenthesis, e to the power of a x, close parenthesis, equals a e to the power of a x
+d
+e
+r
+iv
+ative with respect to x, of open parenthesis, natural log of a x, close parenthesis, equals 1 over 
+x
+d
+e
+r
+i
+v
+a
+tiv
+e with respect to x, of open bracket sine a x close bracket, equals a, cosine open parenthesis a x close parenthesis
+d
+e
+r
+i
+v
+a
+tiv
+e w
+i t
+h
+ r
+e
+sp
+ect to x, of open bracket cosine a x close bracket, equals negative a, sine open parenthesis a x close parenthesis
+1
+
+t
+h
+e
+ i
+ntegral of e to the power of a x, d x, equals the fraction 1 over a, times e to the power of a x
+th
+e
+ 
+i
+n
+te
+g
+r
+al of d x over x plus a, equals natural log of the absolute value of x plus 
+a
+t
+h
+e
+ 
+i
+nte
+gra
+l
+ 
+of  c
+os
+ine open parenthesis a x close parenthesis, d x, equals, the fraction 1 over a, times sine open parenthesis a x close parenthesis
+t
+h
+e
+ 
+i
+nte
+gral of sine open parenthesis a x close parenthesis, d x, equals, the negative fraction 1 over a, times cosine open parenthesis a x close parenthesis
+VECTOR PRODUCTS 
+vec
+t o
+r 
+A
+ 
+dot vector B, equals A B cosine theta
+
+the
+ 
+a
+bs
+o
+l
+ute value of vector A cross vector B, equals A B sine theta
+
+
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Begin your response to QUESTION 1 on this page. 
+PHYSICS C: MECHANICS 
+SECTION II 
+Time—45 minutes 
+3 Questions 
+Directions: Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, 
+which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this 
+booklet in the spaces provided after each part.  The figure presents a diagram of a fan cart on a track that contains an incline. The fan cart is initially positioned on a horizontal surface at the top of the track with Motion Detector 1 located to the left of the cart. The cart then moves down the incline, which is positioned at an angle of theta to the horizontal, toward Motion Detector 2, which is located at the bottom of the incline. A note indicates that the figure is not 
+1. A  0.50 kilogram 
+ fan cart is placed on a level, horizontal track of negligible friction, as shown. The fan is turned on,
+and the fan cart is released from rest and moves to the right. The cart travels along the horizontal track and then
+down an incline. Motion detector 1 measures the acceleration  a of the cart from time  
+t 
+e
+quals 0 
+ to  
+t 
+e
+q
+uals 3 seconds . At
+ 
+t 
+e
+q
+uals 3 seconds , the cart makes a smooth transition to the incline, and motion detector 2 measures the acceleration of the
+cart after  
+t 
+e q
+uals 3 seconds 
+. The fan exerts the same magnitude of force on the cart during the entire motion. The graphs
+below show  a as functions of  t . For each motion detector, the positive direction is away from the detector. The figure presents two line graphs in the first and fourth quadrants of the coordinate plane, labeled Motion Detector 1 and Motion Detector 2. The graph labeled Motion Detector 1 has the horizontal axis labeled time, in seconds, and the numbers 0 through 3 are indicated. The vertical axis is labeled a sub 1, in meters per
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+2
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Continue your response to QUESTION 1 on this page. 
+(a) On the dots below that represent the cart at two different locations, draw and label the forces (not 
+components) that act on the cart at each location. Each force must be represented by a distinct arrow starting 
+on, and pointing away from, the dot.  The figure presents two diagrams labeled Cart on Horizontal Track and Cart on Incline. Both diagrams show a dot with a dashed line passing through it. In Cart on Horizontal Track, the dashed line is horizontal. In Cart on Incline, the dashed line is angled diagonally downward and to the right. 
+(b) Calculate the magnitude of the net force exerted on the fan cart when it is on the horizontal track. 
+(c) Calculate the angle  theta of the incline. 
+(d) Suppose careful measurement determines the angle of the incline to be  3 degrees larger than that calculated in 
+part (c). Consider the following explanation. 
+“The scale used to measure the mass of the fan cart was not calibrated properly before the measurement, and 
+this could account for the observed difference in the angle.” 
+Does the explanation sufficiently account for the observed discrepancy? 
+_____ Yes 
+_____ No 
+Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+3
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Continue your response to QUESTION 1 on this page. 
+The experiment is repeated for several trials, each with a different angle for the incline. The acceleration of the 
+cart down the incline is measured for each angle. The graph below shows the plot of the acceleration  a of the 
+cart as a function of the sine of the angle  sine of theta .  The figure presents a scatterplot of 5 data points in the first quadrant of a coordinate plane. The horizontal axis is labeled sine of theta, and the numbers 0 through 0.6, in increments of 0.1, are indicated. The vertical axis is labeled a, in meters per square second, and the numbers 0 through 6 are indicated. The coordinates of the data points are as follows. Note that all values are approximate. Data point 1: 0.09 comma 1.5 meters per square second. Data point 2: 0.17 comma 2.6 meters per square second. Data point 3: 0.25 comma 2.9 meters per square second. Data point 4: 0.35 comma 3.9 meters per square second. Data point 5: 0.5 comma 5.9 meters per square second. 
+(e) 
+i. Draw a best-fit line for the data. 
+ii. Using the straight line, calculate an experimental value for the acceleration due to gravity g. 
+(f) If the cart were replaced with a second cart of mass  1.0 kilogram 
+ that has a fan that exerts the same magnitude of 
+force as the original fan, explain how the graph given in part e would change. 
+( )
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+4
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Begin your response to QUESTION 2 on this page.  The figure presents a diagram of a block positioned along an inclined track that contains a loop. The track begins at a height of h above the horizontal, and the block is located at point A near the top of the track. The track moves downward and to the right, moving into a circular loop after reaching the horizontal. The loop has a radius of R, poi
+2. A block of mass  m starts from rest at point  A and travels with negligible friction through the loop onto a
+horizontal surface, where the block makes contact with a spring of spring constant 
+ k 
+equals the fraction m g over 2 R 
+. All motion of the 
+spring is in the horizontal direction. Point  C is the highest point on the loop, and point  B is the rightmost point 
+on the loop. Express all algebraic answers in terms of m, h, R , and physical constants, as appropriate. 
+(a) On the dot below, which represents the block, draw an arrow that represents the direction of the acceleration
+of the block at point  B in the figure above. The arrow must start on and point away from the dot. The figure presents a dot with a horizontal line and a vertical line passing through it. 
+Justify your answer. 
+(b) 
+i. Derive an expression for the speed  v of the block at point B.
+ii. Derive an expression for the magnitude of the net force  F on the block at point B.
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+5
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Continue your response to QUESTION 2 on this page. 
+(c) In terms of R, derive an expression for the minimum height  h sub min necessary for the block to maintain
+contact with the track through point C.
+(d) It is determined that 
+ 
+ 
+h
+ equals 0.30 meter and R equals 0.10 meter 
+. If the block is released from a height greater than that
+found in part ( )
+c , what would be the maximum compression  x sub MAX  of the spring? 
+(e) A graph of the maximum compression of the spring as a function of height is shown below. The height
+ h sub min is the height calculated in part ( )
+c . The figure presents the graph of two line segments in the first quadrant of the coordinate plane. The horizontal axis is labeled h, and the vertical axis is labeled x. A dashed line labeled h sub min intersects the horizontal axis at a point approximately one fifth of the way across the axis, and it extends vertically upward, reaching approximately one third of the way up the vertical axis. The first line segment, labeled Section 1, begins at the origin and moves horizontally to the right until reaching the dashed line labeled h sub min. The second line segment, labeled Section 2, begins at the top of the dashed line labeled h sub min, and curves gradually upward and to the right, ending in the top righthand corner of the graph. 
+i. Explain why section I appears as a horizontal line segment on the horizontal axis.
+ii. Explain the reason for the shape of section II on the graph.
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+6
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Begin your response to QUESTION 3 on this page.  The figure presents a horizontal rod that has a length of L and a nonuniform linear mass density given by the equation lambda equals gamma x squared. A point labeled P is located at the left end of the rod. The position at the leftmost point on the rod h
+3. A triangular rod of length  L and mass  M has a nonuniform linear mass density given by the equation 
+ 
+l
+amb
+da equals y x squared 
+ ,
+where 
+ gamma equals the fraction 3 M over L cubed, end fraction and  x is the distance from point  P at the left end of the rod. 
+(a) Using integral calculus, show that the rotational inertia  I of the rod about an axis perpendicular to the page
+and through point  P is   th
+ree fifths M L squared 
+ .
+(b) Determine the horizontal location of the center of mass of the rod relative to point P. Express your answer
+in terms of L.
+(c) For an axis perpendicular to the page, is the value of the rotational inertia of the rod around point  P greater
+than, less than, or equal to the value of the rotational inertia of the rod around the rod’s center of mass?
+_____ Greater than 
+_____ Less than 
+_____ Equal to 
+Justify your answer. 
+Unauthorized copying or reuse of this page is illegal. 
+Page 8 
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+7
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Continue your response to QUESTION 3 on this page. 
+The rod is released from rest in the position shown, and the rod begins to rotate about a horizontal axis 
+perpendicular to the page and through point P. 
+(d) On the axes below, sketch graphs of the magnitude of the net torque  tau on the rod and the angular speed  omega 
+of the rod as functions of time  t from the time the rod is released until the time its center of mass reaches its
+lowest point. The figure presents two empty graphs in the first quadrant of the coordinate plane. The graph on the left has the horizontal axis labeled t and the vertical axis labeled tau. The graph on the right has the horizontal axis labeled t and the vertical axis labeled omega. 
+(e) As the rod rotates from the horizontal position down through vertical, is the magnitude of the angular
+acceleration on the rod increasing, decreasing, or not changing?
+_____ Increasing 
+_____ Decreasing 
+_____ Not changing 
+Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+8
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+Continue your response to QUESTION 3 on this page.  The figure presents a rod, which is now vertically oriented. Point P is located at the top of the rod, and point S is located at the bottom of the rod.  Point S on the rod is shown swinging upward and to the left. 
+(f) The mass of the rod is  3.0 kilograms 
+, and the length of the rod is  1.0 meter 
+. Calculate the linear speed  v of point  S as
+the rod swings through the vertical position shown.
+GO ON TO THE NEXT PAGE. 
+Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+9
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Mechanics 2021 Free-Response Questions
+STOP 
+END OF EXAM 
+© 2021 College Board.  
+Visit College Board on the web: collegeboard.org. 
+10
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

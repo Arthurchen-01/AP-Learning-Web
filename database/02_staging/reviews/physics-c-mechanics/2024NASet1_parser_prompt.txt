@@ -1,0 +1,569 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: Physics C Mechanics (物理C力学)
+Filename: 2024NASet1
+Year: 2024
+
+PDF TEXT:
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+MECHANICS
+lowercase a, equals 
+acceleration
+E equals   energy
+uppercase F, equals  force
+lowercase f, equals 
+ frequency
+h equals height
+I equals rotational inertia
+J equals impulse
+uppercase K, equals  kinetic energy
+lowercase k, equals 
+spring constant
+l owercase l, equals length
+uppercase L, equals 
+ angular momentum
+m equals mass
+uppercase P, equals 
+power
+lowercase p, equals 
+ momentum
+r equals radius or distance
+uppercase T, equals 
+ period
+lowercase t, equals 
+ time
+U equals potential energy
+v equals velocity or speed
+W equals work done on a system
+x equals  position
+m u equals  coefficient of friction
+t heta equals  angle
+t au equals  torque
+o mega equals  angular speed
+a lpha equals  angular acceleration
+p hi equals  phase angle
+v
+ 
+s
+u
+b
+ 
+x
+ equals v sub x zero, plus, a sub x times t
+x
+x
+ 
+e
+q
+u
+a
+l
+s
+ 
+x
+ 
+s
+u
+b
+ zero, plus v sub x zero, times t, plus one half a sub x times t squared t
+v
+ 
+s
+u
+b
+ 
+x
+ 
+s
+q
+u
+a
+r
+e
+d
+, equals v sub x zero squared, plus 2 a sub x, open parenthesis x minus x sub zero close parenthesis 
+0
+vec
+t
+o
+r
+ a equals the fraction the summation of vector F over m, which equals the fraction vector F sub net over 
+m
+v
+e
+c
+to
+r
+ F equals the derivative of vector p with respect to t
+v
+e
+c
+t
+o
+r
+ J equals integral vector F times d t, which equals delta vector 
+p
+G
+G
+v
+ec
+t
+o
+r p equals m times vector v 
+t
+h
+e
+ 
+a
+b
+s
+olute value of vector F sub f is less than or equal to mu, times the absolute value of vector F sub n
+D
+e
+l t
+a
+ 
+E
+ 
+e
+q uals W which equals the integral of vector F dot d vector r
+K
+ 
+e
+q
+u
+a
+ls one half m times v squared
+P  e
+q
+uals the derivative of E with respect to t
+P
+ e
+q
+u
+als vector F dot vector v
+d
+e
+l
+t
+a
+ U sub g equals m times g, times delta h
+a
+ 
+s
+u
+b
+ 
+c
+ equals, the fraction, v squared over r, which equals, omega squared times 
+r
+r
+v e
+c
+t
+o
+r tau equals vector r, cross, vector 
+F
+v
+e
+c
+t
+o
+r
+ 
+a
+l
+pha
+ equals the fraction the summation of vector tau over I, which equals the fraction vector tau sub net over 
+I
+I
+ 
+e qu
+a
+l
+s ,
+ the integral of r squared, times, d m, which equals, the summation of m, times r squared
+2r
+x  
+sub c m equals the fraction with numerator the summation of m sub i times x sub i, and denominator the summation of m sub 
+i
+v
+ 
+e quals, r times omega
+v
+e
+c
+t
+o
+r
+ 
+L
+ 
+e
+q
+uals vector r cross vector p, which equals, I times vector omega
+K
+ 
+e
+q
+ua
+ls one half I times omega squared
+omega equals omega sub 0, plus alpha 
+t
+t
+h
+e
+t
+a
+ 
+e
+q
+u
+a
+l
+s
+ 
+theta sub zero, plus omega sub zero times t, plus one half alpha times t squared
+v
+e c
+t
+o
+r
+ 
+F sub S equals negative k delta vector x
+U
+ 
+s
+u
+b
+ 
+S
+ 
+e
+q
+uals one half k, open parenthesis delta x close parenthesis, squared
+x e qual
+s
+ 
+x
+ 
+s
+ub max, times cosine, open parenthesis, omega t plus, phi, close parenthesis
+
+
+T
+ 
+equals, the fraction, two pi, over, omega, which equals the fraction, one, over, 
+f
+T
+ 
+s
+ub S equals, two pi, times the square root of the fraction, m over 
+k
+T
+ 
+sub p equals, two pi, times the square root of the fraction, l over 
+g
+t
+h
+e
+ 
+a
+b
+so l
+u
+te value of vector F sub g equals G, times the fraction with numerator m sub 1, times m sub 2 and denominator r squared
+U
+ 
+s
+ub  
+G equals the negative of the fraction with numerator G times m sub 1, times m sub 2, and denominator, 
+r
+ELECTRICITY AND MAGNETISM
+A, equals  area
+B equals magnetic field
+C equals capacitance
+d equals 
+ distance
+E equals electric field
+epsi lon equals e m f
+F equals force
+I equals 
+ current
+J equals 
+ current density
+up percase L, equals inductance
+l owercase l, equals length
+lowercase n, equals 
+number of loops of wire
+ per unit length 
+uppercase N, equals 
+number of charge carriers
+ per unit volume 
+P equals power
+uppercase Q, equals  charge
+lowercase q, equals 
+ point charge
+uppercase R, equals  resistance
+lowercase r, equals 
+radius or distance
+t equals 
+ time
+U equals potential or stored energy
+u ppercase V, equals electric potential
+lowercase v, equals  velocity or speed
+r ho equals  resistivity
+p hi equals  flux
+k appa equals dielectric constant
+t
+h e
+ 
+a
+bso
+l
+u
+t
+e  
+v
+alue of vector F sub E equals the fraction 1 over 4 pi epsilon sub zero times the absolute value of the fraction with numerator q sub 1 times q sub 2, and denominator r squared
+v
+e
+c
+t
+or E equals, the fraction vector F sub E over 
+q
+0
+E  sub x equals the negative derivative of V with respect to 
+x
+d
+e lt
+a
+ 
+V
+ 
+e quals the negative integral of vector E dot d vector r
+V
+ 
+equ
+a
+l
+s
+ the fraction, 1 over 4 pi epsilon sub 0, times the summation with respect to i of the fraction, q sub i over r sub 
+i
+U  
+s
+u
+b E
+ 
+e
+q
+u a
+l
+s, q times V, which equals, the fraction, 1 over 4 pi epsilon sub zero, times the fraction with numerator q sub 1 times q sub 2, and denominator 
+r
+d
+e l
+ta V equals the fraction Q over 
+C
+C
+ e
+q
+u
+als kappa times epsilon sub zero, times the fraction A over 
+d
+C
+ sub p equals the summation with respect to i of C sub 
+i
+t
+h
+e
+ fraction, one over C sub S equals the summation with respect to i of the fraction one over C sub 
+i
+I 
+e
+quals the derivative of Q with respect to t
+U
+ s
+u
+b
+ 
+C
+ 
+e
+q u
+a
+l
+s
+ 
+one half Q times delta V, which equals one half C times, open parenthesis delta V close parenthesis, squared
+D
+R equals the fraction rho times l over 
+A
+V
+e
+c
+t
+or E equals rho times vector 
+J
+I
+ 
+e
+quals N times e, times v sub d, times A
+I
+ 
+e
+quals the fraction delta V over 
+R
+i
+t
+he fraction 1 over R sub p equals the summation with respect to i of the fraction 1 over R sub 
+i
+P
+ 
+e
+quals I times delta V
+v
+e
+c
+t
+o
+r
+ F sub M equals q times vector v cross vector 
+B
+G
+C
+l
+o
+s
+e
+d
+ 
+l
+i n e integral of vector B, times, d vector l, equals, mu sub zero times 
+I
+d
+ 
+v
+e
+c
+t
+o
+r
+ 
+B
+ 
+e q
+u
+al
+s the fraction, mu sub zero over 4 pi, times the fraction with numerator, I times d vector l , cross, r hat, and denominator, r squared
+v
+e
+c
+t
+o
+r
+ 
+F
+ 
+e quals the integral of I times d vector l, cross, vector 
+B
+G
+B
+ 
+s
+ub S equals, mu sub zero, times n, times I
+p
+h i
+ 
+s
+u
+b
+ B equals the integral of vector B dot d vector A
+e
+p
+s
+il
+o
+n
+ 
+e
+q
+u
+a
+l
+s ,
+ the closed line integral of vector E, dot d vector l, which equals the negative derivative of  phi sub B, with respect to t
+ep
+s ilon equals, negative L, times the fraction d I, over, d t
+U
+ 
+s
+u
+b
+ L
+ equals, one half, times L, times I squared
+3
+AP® Physics C: Mechanics 2024 Free-Response Questions
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

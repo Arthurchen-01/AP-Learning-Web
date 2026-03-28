@@ -1,0 +1,1276 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: Physics C Mechanics (物理C力学)
+Filename: 2018NA
+Year: 2018
+
+PDF TEXT:
+2018
+AP Physics C: 
+Mechanics
+Free-Response Questions
+© 2018 The College Board. College Board, Advanced Placement Program, AP, AP Central, and the acorn logo 
+are registered trademarks of the College Board. Visit the College Board on the Web: www.collegeboard.org.
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION 
+-2-
+CONSTANTS AND CONVERSION FACTORS 
+Proton mass, 
+m 
+sub 
+p,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Neutron mass,
+m 
+sub 
+n,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Electron mass,
+m 
+sub 
+e,
+ eq
+u
+a
+l
+s
+ 9.11, times 10 raised to the power of negative 31, kilograms
+Avogadro’s number,
+N 
+s
+u
+b 0,
+ e
+qual
+s
+ 
+6
+.02, times 10 raised to the power of 23, per mole
+Universal gas constant,
+R equ a ls, 8.
+3 1
+ 
+Joules per mole Kelvin
+Boltzmann’s constant,
+k 
+sub 
+B 
+e q
+u
+a
+l
+s
+, 1.38, times 10 raised to the power of negative 23, joules per kelvin
+Electron charge magnitude,
+e 
+equa
+ls
+, 
+1
+.
+6
+0, times 10 raised to the power of negative 19, coulombs
+1 electron volt, 
+1 
+elec
+tron
+ v
+ol
+t
+ 
+equals, 1.60, times 10 raised to the power of negative 19, joules
+Speed of light, 
+c eq
+ua ls ,
+ 3
+.00 times 10 raised to the power of 8, meters per second
+8
+ Universal gravitational 
+constant,
+  
+G
+ 
+eq
+u
+a
+ls, 
+6.
+6 7 ,
+ t
+i
+m
+e
+s
+ 10 raised to the power of negative 11, meters cubed per kilogram second squared
+Acceleration due to gravity
+at Earth’s surface,
+g
+ equa l
+s , 9.8 meters per second squared
+1 unified atomic mass unit,
+1 
+u
+ eq
+uals
+, 
+1.6
+6 ti mes  
+1
+0
+ 
+raised to the power of negative 27 kilograms, which equals 931 mega electron volts, over the speed of light squared
+ Planck’s constant,
+h
+ e
+qu
+als 
+6.
+63 ,
+ tim
+es
+ 10 raised to the power of negative 34, Joule seconds, which equals 4.14 times 10 raised to the power of negative 15 electron volt second s
+h 
+c
+ 
+equa
+ls
+ 1 .
+99 t
+im es 10
+ r a
+i
+s
+e
+d
+ to the power of negative 25, Joule meters, which equals 1.24 times 10 raised to the power of 3, electron volt nanometers
+
+Vacuum permittivity,
+e
+p
+si
+l
+o
+n
+ sub
+ 0
+ 
+e q
+u
+a
+l
+s
+, 8.85, times 10 raised to the power of negative 12, coulomb squared per open parenthesis, Newton meter squared, close parenthesis
+ Coulomb’s law constant,
+k
+ 
+e
+q
+u
+a
+l
+s
+ t
+he 
+fr a c t
+i
+o
+n 
+1
+ 
+o
+ver, open parenthesis, 4 pi, times epsilon sub 0, close parenthesis, which equals 9.0, times 10 raised to the power of 9, open parenthesis Newton meters squared close parenthesis, per coulomb squared
+Vacuum permeability,
+m
+u
+ 
+su
+b 0  e q
+u
+a
+l
+s
+,
+ 4 pi, times 10 raised to the power of negative 7, tesla meters per ampere
+Magnetic constant,  
+k
+ 
+p
+r
+i
+m
+e 
+equ al s
+,
+ 
+t
+h
+e
+ 
+f
+r
+action mu sub 0 over 4 pi, which equals 1, times 10 raised to the power of negative 7, tesla meters per ampere
+ 1 atmosphere pressure,
+1
+ 
+a
+tmosp
+her
+e e q u
+als
+, 1.0
+,
+ 
+t
+imes 10 raised to the power of 5, newtons per meter squared, which equals 1.0, times 10 raised to the power of 5 pascals
+UNIT 
+SYMBOLS 
+meter, 
+m
+kilogram, 
+k g
+second, 
+s
+ampere, 
+A
+kelvin, 
+K
+mole, 
+mol
+hertz, 
+H z
+newton, 
+N
+pascal, 
+P a
+joule, 
+J
+watt, 
+W
+coulomb, 
+C
+volt, 
+V
+ohm,
+omega
+henry, 
+H
+farad, 
+F
+tesla, 
+T
+degree Celsius,
+C
+electron volt, 
+e V
+PREFIXES 
+Factor
+Prefix
+Symbol
+9
+giga
+G
+6
+mega
+M
+3
+kilo
+k
+2
+centi
+c
+10 raised to the power of negative 3
+milli
+m
+6
+micro
+Mu
+9
+nano
+n
+10 raised to the power of negative 12
+pico
+p
+VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES
+theta
+0 degrees
+30 degrees
+37 degrees
+45 degrees
+53 degrees
+60 degrees
+90 degrees
+sine theta
+0 
+o ne half
+t hree fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 3, and denominator, 2
+1 
+cosine theta
+1 
+the fraction with numerator, the square root of 3, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+t hree fifths
+o n e half
+0 
+tangent theta
+0
+the fraction with numerator, the square root of 3, and denominator, 3
+t hree fourths
+1
+f o ur thirds
+3
+Infinity
+The following assumptions are used in this exam. 
+1.
+The frame of reference of any problem is inertial unless otherwise
+stated.
+2 .
+The direction of current is the direction in which positive charges
+would drift.
+3 .
+The electric potential is zero at an infinite distance from an isolated
+point charge.
+4 .
+All batteries and meters are ideal unless otherwise stated.
+5.
+Edge effects for the electric field of a parallel plate capacitor are
+negligible unless otherwise stated.
+
+
+--- PAGE BREAK ---
+
+-3-
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+MECHANICS
+lo wercase a, equals acceleration 
+E equals  energy 
+up percase F, equals force 
+lo wercase f, equals frequency 
+h equals height 
+I equals rotational inertia 
+J equals impulse 
+up percase K, equals kinetic energy 
+lo wercase k, equals spring constant 
+l owercase l, equals length
+up percase L, equals angular momentum 
+m equals mass 
+up percase P, equals power 
+lo wercase p, equals momentum 
+r equals radius or distance 
+up percase T, equals period 
+lo wercase t, equals time 
+U equals potential energy 
+v equals velocity or speed 
+W equals work done on a system 
+x equals position 
+m u equals coefficient of friction 
+t heta equals  angle 
+t au equals  torque 
+o mega equals  angular speed 
+a lpha equals angular acceleration 
+p hi equals  phase angle 
+v
+ 
+s
+u
+b
+ 
+x
+ equals v sub x zero, plus, a sub x times t
+x
+x
+ 
+e
+q
+u
+a
+l
+s
+ 
+x
+ 
+s
+u
+b
+ zero, plus v sub x zero, times t, plus one half a sub x times t squared t
+v
+ 
+s
+u
+b
+ 
+x
+ 
+s
+q
+u
+a
+r
+e
+d
+, equals v sub x zero squared, plus 2 a sub x, open parenthesis x minus x sub zero close parenthesis 
+0
+vec
+t
+o
+r
+ a equals the fraction the summation of vector F over m, which equals the fraction vector F sub net over 
+m
+v
+e
+c
+to
+r
+ F equals the derivative of vector p with respect to t
+v
+e
+c
+t
+o
+r
+ J equals integral vector F times d t, which equals delta vector 
+p
+G
+G
+v
+ec
+t
+o
+r p equals m times vector v 
+t
+h
+e
+ 
+a
+b
+s
+olute value of vector F sub f is less than or equal to mu, times the absolute value of vector F sub n
+D
+e
+l t
+a
+ 
+E
+ 
+e
+q uals W which equals the integral of vector F dot d vector r
+K
+ 
+e
+q
+u
+a
+ls one half m times v squared
+P  e
+q
+uals the derivative of E with respect to t
+P
+ e
+q
+u
+als vector F dot vector v
+d
+e
+l
+t
+a
+ U sub g equals m times g, times delta h
+a
+ 
+s
+u
+b
+ 
+c
+ equals, the fraction, v squared over r, which equals, omega squared times 
+r
+r
+v e
+c
+t
+o
+r tau equals vector r, cross, vector 
+F
+v
+e
+c
+t
+o
+r
+ 
+a
+l
+pha
+ equals the fraction the summation of vector tau over I, which equals the fraction vector tau sub net over 
+I
+I
+ 
+e qu
+a
+l
+s ,
+ the integral of r squared, times, d m, which equals, the summation of m, times r squared
+2r
+x  
+sub c m equals the fraction with numerator the summation of m sub i times x sub i, and denominator the summation of m sub 
+i
+v
+ 
+e quals, r times omega
+v
+e
+c
+t
+o
+r
+ 
+L
+ 
+e
+q
+uals vector r cross vector p, which equals, I times vector omega
+K
+ 
+e
+q
+ua
+ls one half I times omega squared
+omega equals omega sub 0, plus alpha 
+t
+t
+h
+e
+t
+a
+ 
+e
+q
+u
+a
+l
+s
+ 
+theta sub zero, plus omega sub zero times t, plus one half alpha times t squared
+v
+e c
+t
+o
+r
+ 
+F sub S equals negative k delta vector x
+U
+ 
+s
+u
+b
+ 
+S
+ 
+e
+q
+uals one half k, open parenthesis delta x close parenthesis, squared
+x e qual
+s
+ 
+x
+ 
+s
+ub max, times cosine, open parenthesis, omega t plus, phi, close parenthesis
+
+
+T
+ 
+equals, the fraction, two pi, over, omega, which equals the fraction, one, over, 
+f
+T
+ 
+s
+ub S equals, two pi, times the square root of the fraction, m over 
+k
+T
+ 
+sub p equals, two pi, times the square root of the fraction, l over 
+g
+t
+h
+e
+ 
+a
+b
+so l
+u
+te value of vector F sub g equals G, times the fraction with numerator m sub 1, times m sub 2 and denominator r squared
+U
+ 
+s
+ub  
+G equals the negative of the fraction with numerator G times m sub 1, times m sub 2, and denominator, 
+r
+ELECTRICITY AND MAGNETISM 
+A,  equals area 
+B equals magnetic field 
+C equals capacitance 
+d e quals distance 
+E equals electric field 
+epsi lon equals e m f
+F equals force 
+I e quals current 
+J e quals current density 
+up percase L, equals inductance 
+l owercase l, equals length
+low ercase n, equals number of loops of wire  
+     per unit length 
+up percase N, equals number of charge carriers
+     per unit volume 
+P equals power 
+uppercase Q, equals charge 
+low ercase q, equals point charge 
+up percase R, equals resistance 
+low ercase r, equals radius or distance 
+t e quals time 
+U equals potential or stored energy 
+u ppercase V, equals electric potential
+lowercase v, equals velocity or speed 
+r ho equals  resistivity 
+p hi equals flux 
+k appa equalsdielectric constant 
+t
+h e
+ 
+a
+bso
+l
+u
+t
+e  
+v
+alue of vector F sub E equals the fraction 1 over 4 pi epsilon sub zero times the absolute value of the fraction with numerator q sub 1 times q sub 2, and denominator r squared
+v
+e
+c
+t
+or E equals, the fraction vector F sub E over 
+q
+0
+E  sub x equals the negative derivative of V with respect to 
+x
+d
+e lt
+a
+ 
+V
+ 
+e quals the negative integral of vector E dot d vector r
+V
+ 
+equ
+a
+l
+s
+ the fraction, 1 over 4 pi epsilon sub 0, times the summation with respect to i of the fraction, q sub i over r sub 
+i
+U  
+s
+u
+b E
+ 
+e
+q
+u a
+l
+s, q times V, which equals, the fraction, 1 over 4 pi epsilon sub zero, times the fraction with numerator q sub 1 times q sub 2, and denominator 
+r
+d
+e l
+ta V equals the fraction Q over 
+C
+C
+ e
+q
+u
+als kappa times epsilon sub zero, times the fraction A over 
+d
+C
+ sub p equals the summation with respect to i of C sub 
+i
+t
+h
+e
+ fraction, one over C sub S equals the summation with respect to i of the fraction one over C sub 
+i
+I 
+e
+quals the derivative of Q with respect to t
+U
+ s
+u
+b
+ 
+C
+ 
+e
+q u
+a
+l
+s
+ 
+one half Q times delta V, which equals one half C times, open parenthesis delta V close parenthesis, squared
+D
+R equals the fraction rho times l over 
+A
+V
+e
+c
+t
+or E equals rho times vector 
+J
+I
+ 
+e
+quals N times e, times v sub d, times A
+I
+ 
+e
+quals the fraction delta V over 
+R
+i
+t
+he fraction 1 over R sub p equals the summation with respect to i of the fraction 1 over R sub 
+i
+P
+ 
+e
+quals I times delta V
+v
+e
+c
+t
+o
+r
+ F sub M equals q times vector v cross vector 
+B
+G
+C
+l
+o
+s
+e
+d
+ 
+l
+i n e integral of vector B, times, d vector l, equals, mu sub zero times 
+I
+d
+ 
+v
+e
+c
+t
+o
+r
+ 
+B
+ 
+e q
+u
+al
+s the fraction, mu sub zero over 4 pi, times the fraction with numerator, I times d vector l , cross, r hat, and denominator, r squared
+v
+e
+c
+t
+o
+r
+ 
+F
+ 
+e quals the integral of I times d vector l, cross, vector 
+B
+G
+B
+ 
+s
+ub S equals, mu sub zero, times n, times I
+p
+h i
+ 
+s
+u
+b
+ B equals the integral of vector B dot d vector A
+e
+p
+s
+il
+o
+n
+ 
+e
+q
+u
+a
+l
+s ,
+ the closed line integral of vector E, dot d vector l, which equals the negative derivative of  phi sub B, with respect to t
+ep
+s ilon equals, negative L, times the fraction d I, over, d t
+U
+ 
+s
+u
+b
+ L
+ equals, one half, times L, times I squared
+
+
+--- PAGE BREAK ---
+
+-4-
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+GEOMETRY AND TRIGONOMETRY 
+ 
+A, equalsarea 
+C equalscircumference 
+V equals volume 
+uppercase S, equalssurface area 
+b equalsbase 
+h equals height 
+l  equalslength
+w equals width 
+r equals radius 
+s
+arc length
+t heta equalsangle
+Rectangle 
+A
+ equals, b times h
+Triangle 
+A
+ 
+e
+quals, one half b times  h
+Circle 
+A
+ 
+e
+quals, pi times r squared
+r
+C
+ 
+equals, 2 pi, times 
+r
+    s
+ e
+q
+uals r times theta
+Rectangular Solid 
+V
+ 
+e quals, l times w times h h
+Cylinder 
+V
+ 
+e
+q
+u
+als, pi times r squared times l
+S
+ 
+e
+q
+u
+a
+l
+s
+ 
+2
+ pi times r, times l, plus, 2 pi times r squared
+Sphere 
+V
+ 
+e
+q
+u
+a
+l
+s four thirds, pi, times r cubed
+S
+ 
+e
+q
+u
+als 4 pi times r squared
+Right Triangle 
+a
+ 
+s
+q
+u
+a
+r
+ed plus b squared, equals c squared
+    sin
+e theta equals the fraction a over 
+c
+    cos
+ine theta equals the fraction b over 
+c
+    tan
+gent theta equals the fraction a over 
+b
+Th
+e 
+figure presents a circle. Two radii, labeled r, are drawn from the center of the circle. The angle formed by the two radii is labeled theta. The part of the circle between the endpoints of each radius is labeled s.
+T
+h
+e
+ fi
+gure presents a right triangle. The bottom right hand angle is a right angle, labeled 90 degrees. The bottom left hand angle is labeled theta, and the top right hand angle is not labeled. The vertical side, opposite the angle labeled theta, is labeled a. The horizontal side, adjacent to the angle labeled theta, is labeled b. The hypotenuse is labeled c.
+CALCULUS
+d e
+r i va
+ti
+ve  of f with respect to x equals the derivative of f with respect to u times the derivative of u with respect to x
+d
+erivative with respect to x, of open parenthesis, x raised to the power of n, close parenthesis, equals, n, times x raised to the power of, n minus 
+1
+n
+d
+e r
+iv
+ative with respect to x, of open parenthesis, e to the power of a x, close parenthesis, equals a e to the power of a x
+d
+e
+r
+iv
+ative with respect to x, of open parenthesis, natural log of a x, close parenthesis, equals 1 over 
+x
+d
+e
+r
+i
+v
+a
+tiv
+e with respect to x, of open bracket sine a x close bracket, equals a, cosine open parenthesis a x close parenthesis
+d
+e
+r
+i
+v
+a
+tiv
+e w
+i t
+h
+ r
+e
+sp
+ect to x, of open bracket cosine a x close bracket, equals negative a, sine open parenthesis a x close parenthesis
+1
+
+t
+h
+e
+ i
+ntegral of e to the power of a x, d x, equals the fraction 1 over a, times e to the power of a x
+th
+e
+ 
+i
+n
+te
+g
+r
+al of d x over x plus a, equals natural log of the absolute value of x plus 
+a
+t
+h
+e
+ 
+i
+nte
+gra
+l
+ 
+of  c
+os
+ine open parenthesis a x close parenthesis, d x, equals, the fraction 1 over a, times sine open parenthesis a x close parenthesis
+t
+h
+e
+ 
+i
+nte
+gral of sine open parenthesis a x close parenthesis, d x, equals, the negative fraction 1 over a, times cosine open parenthesis a x close parenthesis
+VECTOR PRODUCTS 
+vec
+t o
+r 
+A
+ 
+dot vector B, equals A B cosine theta
+
+the
+ 
+a
+bs
+o
+l
+ute value of vector A cross vector B, equals A B sine theta
+
+
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2018 AP® PHYSICS C: MECHANICS FREE-RESPONSE QUESTIONS 
+PHYSICS C:  MECHANICS 
+SECTION II 
+Time—45 minutes 
+3 Questions 
+Directions:  Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, 
+which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this 
+booklet in the spaces provided after each part. The figure presents a diagram of an experiment. In the diagram, a small sphere is attached to the bottom edge of a horizontal, rectangular electromagnet. The sphere is a distance h above a pad, which is on top of a table.
+1. A student wants to determine the value of the acceleration due to gravity g for a specific location and sets up
+the following experiment. A solid sphere is held vertically a distance h above a pad by an electromagnet, as
+shown in the figure above. The experimental equipment is designed to release the sphere when the electromagnet
+is turned off. A timer also starts when the electromagnet is turned off, and the timer stops when the sphere lands
+on the pad.
+(a) While taking the first data point, the student notices that the electromagnet actually releases the sphere after
+the timer begins. Would the value of g calculated from this one measurement be greater than, less than, or
+equal to the actual value of g at the student’s location?
+____ Greater than        ____ Less than     ____ Equal to
+Justify your answer.
+The electromagnet is replaced so that the timer begins when the sphere is released. The student varies the 
+distance h. The student measures and records the time delta t  of the fall for each particular height, resulting in the 
+following data table.  
+h
+,  in meters
+0.10 
+0.20 
+0.60 
+0.80 
+1.00 
+de lta t, in seconds
+0.105 
+0.213 
+0.342 
+0.401 
+0.451 
+(b) Indicate below which quantities should be graphed to yield a straight line whose slope could be used to
+calculate a numerical value for g.
+Vertical axis: 
+____________
+Horizontal axis: ____________
+Use the remaining rows in the table above, as needed, to record any quantities that you indicated that are not
+given in the table. Label each row you use and include units.
+GO ON TO THE NEXT PAGE. 
+-5-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2018 AP® PHYSICS C: MECHANICS FREE-RESPONSE QUESTIONS 
+(c) Plot the data points for the quantities indicated in part (b) on the graph below. Clearly scale and label all
+axes, including units if appropriate. Draw a straight line that best represents the data.The figure is a 25 by 25 grid. The grid is b
+(d) Using the straight line, calculate an experimental value for g.
+Another student fits the data in the table to a quadratic equation. The student’s equation for the distance fallen y
+as a function of time t  is y eq
+ua
+ls
+, 
+A,
+ t
+im
+e
+s  t squared , 
+plus B t, plus C where A, equals, 5.75 meters per second squared comma B equals, negative 0.524 meters per second comma and C equals, positive 0.080 meters
+ . 
+Vertically down is the positive direction. 
+(e) Using the student’s equation above, do the following.
+i. Derive an expression for the velocity of the sphere as a function of time.
+ii. Calculate the new experimental value for g.
+iii. Using 9.81 m eters per second squared  as the accepted value for g at this location, calculate the percent error for the value 
+found in part (e)ii. 
+iv. Assuming the sphere is at a height of 1.40 meters  at t equals 0
+, calculate the velocity of the sphere just before it
+strikes the pad.
+GO ON TO THE NEXT PAGE. 
+-6-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2018 AP® PHYSICS C: MECHANICS FREE-RESPONSE QUESTIONS The figure presents two carts on a horizontal surface. Cart 1 is positioned to the left and has a force sensor attached to its right s
+2. Two carts are on a horizontal, level track of negligible friction. Cart 1 has a sensor that measures the force 
+exerted on it during a collision with cart 2, which has a spring attached. Cart 1 is moving with a speed of 
+v n aught equa
+ls, 3.00 meters per second
+toward cart 2, which is at rest, as shown in the figure above. The total mass of cart 1 and 
+the force sensor is 0.500 kilogram , the mass of cart 2 is 1.05 kilograms, and the spring has negligible mass. The spring has 
+a spring constant of 
+k
+ e q ual s,  130 Newtons per meter. The data for the force the spring exerts on cart 1 are shown in the graph 
+F
+ 
+eq u als, ope n par e nthe si s, 3200 Newtons per second squared, close parenthesis, times t squared, minus, open parenthesis, 500 Newtons per second, close parenthesis, times t
+below. A student models the data as the quadratic fit 
+. The figure presents a scatterpot in the fourth quadrant of the coordinate plane with origin labeled O. The horizontal axis is labeled “t, in seconds,” and the numbers 0.02 through 0.18, in increments of 0.02, are indicated. The vertical axis is labeled “F, in Newtons,” and the numbers 5 through negative 25, in increments of 5, are indicated. The behavior of the scatterplot is described as follows. Note that all values are approximate.
+
+The scatterplot begins at the point 0.01, comma
+(a) Using integral calculus, calculate the total impulse delivered to cart 1 during the collision. 
+(b) 
+i. Calculate the speed of cart 1 after the collision. 
+ii. In which direction does cart 1 move after the collision? 
+____ Left 
+  ____ Right 
+____ The direction is undefined, because the speed of cart 1 is zero after the collision. 
+(c) 
+i. Calculate the speed of cart 2 after the collision. 
+ii. Show that the collision between the two carts is elastic. 
+(d) 
+i. Calculate the speed of the center of mass of the two-cart–spring system. 
+ii. Calculate the maximum elastic potential energy stored in the spring. 
+GO ON TO THE NEXT PAGE. 
+-7-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2018 AP® PHYSICS C: MECHANICS FREE-RESPONSE QUESTIONSThe figure presents a diagram of a triangular rod with length L. The rod has a nonuniform linear mass density given as lambda equals, open parenthesis, 2 M over L squared, close parenthesis, times x, where x equals 0 at the left end of the rod and x equals L at the right end of the rod. The left end of the rod is a point.
+3. A triangular rod, shown above, has length L, mass M, and a nonuniform linear mass density given by the 
+equation 
+la
+mbda
+ e
+q
+uals, the fraction 2 M over L squared, end fraction, times x
+, where x is the distance from one end of the rod. 
+(a) Using integral calculus, show that the rotational inertia of the rod about its left end is M L squared over 2.  The figure presents
+The figure, labeled “Figure 2”, presents a circle with three triangular rods identical to the triangular rod initially referenced at the beginning of question 3.  The rods are positioned radially, such that the points corresponding to x equals 0 intersect the center of the circle, and the edges at x equals L touch the interior of the circle. The rods are evenly distributed, each making an angle of 120 degrees with the other rods.
+The thin hoop shown above in Figure 1 has a mass M, radius L, and a rotational inertia around its center of M L squared . 
+Three rods identical to the rod from part (a) are now fastened to the thin hoop, as shown in Figure 2 above. 
+(b) Derive an expression for the rotational inertia I sub t o t  of the hoop-rods system about the center of the hoop. 
+ 
+Express your answer in terms of M, L, and physical constants, as appropriate. 
+The hoop-rods system is initially at rest and held in place but is free to rotate around its center. A constant force 
+F is exerted tangent to the hoop for a time delta t . 
+(c) Derive an expression for the final angular speed omega  of the hoop-rods system. Express your answer in terms 
+of M, L, F, delta t , and physical constants, as appropriate. 
+GO ON TO THE NEXT PAGE. 
+-8-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+o
+mega
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2018 AP® PHYSICS C: MECHANICS FREE-RESPONSE QUESTIONS The figure presents the circle with thr
+The hoop-rods system is rolling without slipping along a level horizontal surface with the angular speed 
+found in part (c). At time t equals 0 , the system begins rolling without slipping up a ramp, as shown in the figure 
+above. 
+(d) 
+i. On the figure of the hoop-rods system below, draw and label the forces (not components) that act on
+the system. Each force must be represented by a distinct arrow starting at, and pointing away from, the
+point at which the force is exerted on the system.The figure presents the circle with three triangular rods referenced in Figure 2 on the surface of an inclined plane. The surface is represented by a dashed diagonal line that goes up and to the right, and is tangent to the outer rim of the circle.
+ii. Justify your choice for the direction of each of the forces drawn in part (d)i.
+(e) Derive an expression for the change in height of the center of the hoop from the moment it reaches the
+bottom of the ramp until the moment it reaches its ma ximum height. Express your answer in terms of M, L,
+I 
+sub
+ t o t comma omega
+ , and physical constants, as appropriate.
+STOP 
+END OF EXAM 
+-9-
+© 2018 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org.
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

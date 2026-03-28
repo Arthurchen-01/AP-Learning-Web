@@ -1,0 +1,597 @@
+
+==================================================
+PDF vs JSON Verification Report
+==================================================
+Total: 172
+OK: 4
+Issues: 149
+Skipped: 19
+Accuracy: 2.6%
+
+### calculus-bc
+  ❌ 2008Intl.pdf: 4 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'If ( ) 3 2 , 2 3 x f x x - = + then ( ) ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A p a r t i c l e m o v e s a l o n g t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'What is the value of ( ) 0 2 ? 3 n n= • ...'
+      TRUNCATED: Q14 only 18 chars
+  ❌ 2012Intl.pdf: 4 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'I f 3 sin , = y x t h e n = d y d x...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'The position of a particle moving in the...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'The graph of f is shown above for 0 4. x...'
+      TRUNCATED: Q10 only 18 chars
+  ❌ 2013Intl.pdf: 6 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'What is the value of ?...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g i ...'
+      TRUNCATED: Q1 only 9 chars
+      TRUNCATED: Q4 only 9 chars
+      TRUNCATED: Q9 only 17 chars
+      TRUNCATED: Q26 only 12 chars
+  ❌ 2014Intl.pdf: 5 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'W h a t i s t h e s l o p e o f t h e l ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 't h e l i m i t , a s x a p p r o a c h ...'
+      TRUNCATED: Q18 only 2 chars
+      TRUNCATED: Q40 only 2 chars
+  ❌ 2015Intl.pdf: 6 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'W h a t i s t h e s l o p e o f t h e l ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e v a l u e s o f a c o n t i n u o ...'
+      TRUNCATED: Q2 only 2 chars
+      TRUNCATED: Q17 only 17 chars
+      TRUNCATED: Q21 only 2 chars
+      TRUNCATED: Q31 only 2 chars
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 't h e l i m i t a s x a p p r o a c h e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'For time t greater than zero , the posit...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'Consider the series t he sum from n equa...'
+  ❌ 2016SQ.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'If f x x 3 2 4 = ( ) ( −) , then f 1 ¢ =...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'S n o w i s f a l l i n g a t a r a t e ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'I n d i c a t e a l l o f y o u r a n s ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'The position of a particle moving in the...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'To what number does the series converge?...'
+  ❌ 2018Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'I n d i c a t e a l l o f y o u r a n s ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 't h e i n d e f i n i t e i n t e g r a ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'the li mit as x app roaches negative 7, ...'
+  ❌ 2018NA.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'e o p l e e n t e r a l i n e f o r a n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'h e g r a p h o f t h e c o n t i n u o ...'
+  ❌ 2019Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '3 ( 4 x − x ) d x = ∫ 1 2...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'd ( 2 sin x ) ) ( 2 = d x...'
+  ❌ 2019NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'i s h e n t e r a l a k e a t a r a t e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'e t S b e t h e r e g i o n b o u n d e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'h e c o n t i n u o u s f u n c t i o n ...'
+  ❌ 2021NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e d e n s i t y o f a b a c t e r i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'F o r t i m e t g r e a t e r t h a n o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A c o m p a n y d e s i g n s s p i n n ...'
+  ❌ 2022NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'F r o m 5 A . M . t o 10 A . M . , t h e...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '0 . The particle moves in such a way tha...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'L e t f b e a d i f f e r e n t i a b l ...'
+  ❌ 2023Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '16 14 hethe function &fined as shown Ii ...'
+  ❌ 2023NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A c u s t o m e r a t a g a s s t a t i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'F o r t p 0 £ £ , a p a r t i c l e i s ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A b o t t l e o f m i l k i s t a k e n ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2024NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '1. T h e t e m p e r a t u r e o f c o f...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. A p a r t i c l e m o v i n g a l o n...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '1. Find the value of t, for 0 3. T h e d...'
+  ❌ 2025Intl.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ❌ 2025NA.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'C u r v e C i s d e f i n e d b y t h e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s t u d e n t s t a r t s r e a d i n ...'
+
+### csa
+  ❌ 2008PE.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~21, JSON=4 (ratio=0.19)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'flights; /** @return the number of minut...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. Consider the following incomplete Str...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '3. Consider the hierarchy of classes sho...'
+  ❌ 2009Intl.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ✅ 2014Intl.pdf
+  ✅ 2015Intl.pdf
+  ❌ 2018NA.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '1. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '3. T h e S t r i n g C h e c k e r , o n...'
+  ❌ 2019NA.pdf: 3 issues
+      QUESTION COUNT MISMATCH: PDF~13, JSON=4 (ratio=0.31)
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'and as delimiters. For each open delimit...'
+  ✅ 2020Intl.pdf
+  ❌ 2020SQ1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~14, JSON=4 (ratio=0.29)
+      TEXT NOT FOUND IN PDF: Q1 starts with '1. A m a t h e m a t i c a l s e q u e n...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'reviewList; private ArrayList productLis...'
+  ❌ 2021NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h i s q u e s t i o n i n v o l v e s ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e c l a s s sin g l e T a b l e r e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'memberList; /** Adds new club members to...'
+  ❌ 2022NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '1. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. T h e B o o k c l a s s i s u s e d t...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '= 0 * c is not null. */ public Reviewope...'
+  ❌ 2023NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '1. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. T h i s q u e s t i o n i n v o l v e...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'temperatures; /** * Cleans the data by r...'
+  2024Intl.pdf -> NO JSON
+  ❌ 2024NA.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with '2. T h i s q u e s t i o n i n v o l v e...'
+  ❌ 2025NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '0 */ public void updateDogsopen parenint...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h i s q u e s t i o n i n v o l v e s ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '= 1 */ public Competitoropen parenString...'
+
+### statistics
+  ❌ 2007Intl.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ❌ 2008Intl.pdf: 1 issues
+      MATH SYMBOLS LOST: PDF has 12, JSON has 0
+  ❌ 2012Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with ' D o y o u r e g u l a r l y s p e a k ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'O f t h e f o l l o w i n g d o t p l o ...'
+  ❌ 2013Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H e i g h t , i n m e t e r s , i s m e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s c h o o l p r i n c i p a l w a n t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A candy company produces individually wr...'
+  ❌ 2014Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'H e i g h t s , i n i n c h e s , f o r ...'
+  ❌ 2015Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g s ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'The prices, in thousands of dollars, of ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'Researchers conducted a telephone survey...'
+  ❌ 2018Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'The histogram shown summarizes the respo...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'S u p p o s e a c e r t a i n s c a l e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A veterinarian collected data on the wei...'
+  ❌ 2018NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~839, JSON=7 (ratio=0.01)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e m a n a g e r o f a g r o c e r y ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n e n v i r o n m e n t a l s c i e n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p p r o x i m a t e l y 3.5 p e r c e ...'
+  ❌ 2019Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e s h o w s t h e r e s p ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'D a t a w e r e c o l l e c t e d o n t ...'
+  ❌ 2019NA.pdf: 3 issues
+      QUESTION COUNT MISMATCH: PDF~854, JSON=6 (ratio=0.01)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e s i z e s , i n s q u a r e f e e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'R e s e a r c h e r s a r e i n v e s t ...'
+  ❌ 2021NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~45, JSON=6 (ratio=0.13)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e l e n g t h o f s t a y i n a h o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'R e s e a r c h e r s w i l l c o n d u ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T o i n c r e a s e m o r a l e a m o n ...'
+  ❌ 2022NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~43, JSON=6 (ratio=0.14)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A b i o l o g i s t g a t h e r e d d a ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A d e r m a t o l o g i s t w i l l c o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A m a c h i n e a t a m a n u f a c t u ...'
+  ❌ 2023NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~23, JSON=9 (ratio=0.39)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'Descriptive Statistics x bar equals, the...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'P r o b a b i l i t y a n d D i s t r i ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'S a m p l i n g D i s t r i b u t i o n ...'
+  ❌ 2024Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A g r o u p o f f a r m e r s w a n t s ...'
+  ❌ 2024NA.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ❌ 2025Intl.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ❌ 2025NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~16, JSON=6 (ratio=0.38)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e m a n a g e r o f a n a u t o m o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A p h i d s a r e t i n y i n sec t s t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'M s . F e y i s a m a n a g e r a t a r ...'
+
+### psychology
+  ❌ 2008Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'W h e n a s k e d w h i c h o f t w o c ...'
+  ❌ 2012Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with ' D o y o u r e g u l a r l y s p e a k ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p s y c h o t h e r a p i s t w h o b ...'
+  ❌ 2013Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'W h e n c o m m u n i t y p s y c h o l ...'
+  ❌ 2014Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+  ❌ 2015Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h d e v e l o p m e n t a l m i ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g i ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'F e l i c i a i s e x p e r i e n c i n ...'
+  ❌ 2018Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'W h i c h o f t h e f o l l o w i n g m ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'M a r i s s a i s a g o o d t e n n i s ...'
+  ❌ 2018NA.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'J a c k i e h a s b e e n c h o s e n f ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s u r v e y w a s c o n d u c t e d t ...'
+  ❌ 2019Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A c h i l d r e a d i n g a b o o k p o ...'
+  ❌ 2019NASet1.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A p s y c h o l o g i s t c o n d u c t ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s a s e n i o r i n h i g h s c h o o ...'
+  ❌ 2019NASet2.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'P r o f e s s o r M e n e n d e z c o n ...'
+  ❌ 2021NASet1.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'M a l i a h a s a n a s s i g n m e n t ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'M r . G o m e z d e c i d e s t o c o n ...'
+  ❌ 2021NASet2.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'P a r t A D a m i a n s p e n d s a g r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D r . J o n e s w a s d o i n g a f o r ...'
+  ❌ 2022NASet1.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'R a y c e i s e x p l o r i n g t h e i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D r . G e r m a n o t t a h y p o t h e ...'
+  ❌ 2022NASet2.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'R u t h i s b o r e d a t h o m e a l o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D r . K n o w l e s i s i n t e r e s t ...'
+  ❌ 2023NASet1.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'P a r t A S t e v e i s i n t h e k i t ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'M i c h a e l i s t h e r e g i o n a l ...'
+  ❌ 2023NASet2.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'P a r t A J o r d a n r e c e n t l y m ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'M o b i l e G a m e r C e n t r a l ( M ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ⏭ 2024NASet1.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ⏭ 2024NASet2.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ⏭ 2025Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2025NASet1.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'Y o u r r e s p o n s e t o t h e q u e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'M i s l e d : a n i n c o r r e c t a n ...'
+  ❌ 2025NASet2.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'Y o u r r e s p o n s e t o t h e q u e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'U sin g t h e s o u r c e s p r o v i d ...'
+
+### macroeconomics
+  ⏭ 2005Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2008Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W i t h a c o n s tan t m o n e y s u p ...'
+  ❌ 2012Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with ' D o y o u r e g u l a r l y s p e a k ...'
+  ❌ 2013Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n y p o i n t i n s i d e a p r o d u ...'
+  ❌ 2014Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g i ...'
+  ❌ 2015Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e o p p o r t u n i t y cos t o f m ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p r o d u c t i o n p o s s i b i l i ...'
+  ❌ 2018Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'W h i c h o f t h e f o l l o w i n g t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I f b o t h t h e n o m i n a l i n t e ...'
+  ❌ 2018NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h e U n i t e d S t a t e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e t h e e c o n o m y o f U c ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'C o u n t r i e s f a c e t r a d e − o ...'
+  ❌ 2019Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g w ...'
+  ❌ 2019NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'C a n a d a i s a n o p e n e c o n o m ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e t h e e x p e c t e d i n f ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e t h a t h o u s e h o l d s ...'
+  ❌ 2019NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h e e c o n o m y o f A r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e E u r o p e a n U n i o n a n d t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'S w e d e n a n d N o r w a y u s e e q ...'
+  ❌ 2021NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h e e c o n o m y o f S w ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e a c o u n t r y ’ s e c o n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'F l o w e r l a n d i s a n o p e n e c ...'
+  ❌ 2021NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e S m i t h l a n d i s i n s ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n e c o n o m y i s c u r r e n t l y ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e g o v e r n m e n t b u d g e t o ...'
+  ❌ 2022NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e a c o u n t r y ’ s e c o n ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e t h a t c o m m e r c i a l ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I t a l y a n d J a p a n a r e t r a d ...'
+  ❌ 2022NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h e U n i t e d S t a t e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e b e l o w s h o w s m a ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e e c o n o m y o f C o u n t r y Z ...'
+  ❌ 2023NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h e e c o n o m y o f V a ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e e c o n o m y o f N o r a l a n d ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e t h a t i n t h e c o u n t ...'
+  ❌ 2023NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e e c o n o m y o f N o r t h l a n ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e U n i t e d S t a t e s a n d S o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e t h a t t h e e c o n o m y ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2024NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e e c o n o m y o f A l p h a i s i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e p r o v i d e d s h o w ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e M a l a y s i a ’ s e c o n ...'
+  ❌ 2024NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h a t t h e e c o n o m y ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e p r o v i d e d s h o w ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e t h a t J a m a i c a h a s ...'
+  ⏭ 2025Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2025NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h a t t h e e c o n o m y ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e e c o n o m i e s o f C o u n t r ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e t a b l e p r o v i d e d s h o w ...'
+  ❌ 2025NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s s u m e t h a t t h e e c o n o m y ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e t h e e c o n o m y o f J e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s s u m e t h a t N e p a l i s i n l ...'
+
+### microeconomics
+  ⏭ 2010Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2012Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g b ...'
+  ❌ 2013Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A f t e r g r a d u a t i n g f r o m h ...'
+  ❌ 2014Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I m p r o v e m e n t s i n t e c h n o ...'
+  ❌ 2015Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T w o a l t e r n a t i v e p r o d u c ...'
+  ✅ 2017Intl.pdf
+  ❌ 2018Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e a b o v e s h o w s t h ...'
+  ❌ 2018NA.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'I n t h e e a r l y t w e n t i e t h c ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'M o d e r n − d a y w o r d p r o c e s ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'N i r a l i i s a s t u d e n t a t t h ...'
+  ❌ 2019Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e a b o v e s h o w s t h ...'
+  ❌ 2019NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s t h e o n l y g a s s t a t i o n i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e f o l l o w i n g i s a t a b l e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'P a t r i c k ’ s P i e i s c u r r e n ...'
+  ❌ 2019NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'G i g a n t i c P h a r m a c e u t i c ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'H a t s a r e p r o d u c e d i n a p e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'J a c k p o t F l o r i s t a n d B o u ...'
+  ❌ 2021NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e g o v e r n m e n t o f a n i s l ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s s u m e t h a t S c h m i t t I n c ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e d i a g r a m a b o v e s h o w s ...'
+  ❌ 2021NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'N C H a r t i s a c o r p o r a t i o n ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'C o p p e r i s p r o d u c e d i n a p ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e t a b l e b e l o w s h o w s t h ...'
+  ⏭ 2022Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2022NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A f i r m h a s a p a t e n t o n a n e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'B u e n o i s a f i r m t h a t p r o d ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I n t h e l o c a l m a r k e t f o r G ...'
+  ❌ 2022NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e g r a p h p r o v i d e d d e p i ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e g r a p h p r o v i d e d s h o w ...'
+  ❌ 2023NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A n d e r s o n C o m p a n y i s a t y ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'K e e p d r y p r o d u c e s a n d s e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e g r a p h s h o w s t h e cos t a ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2024NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'S o j a F a r m i s a t y p i c a l p r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'G o o d X i s p r o d u c e d a n d s o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'N i c e R i d e a n d F i e l d C r u i ...'
+  ❌ 2024NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A r z e y e P h a r m a h a s a p a t e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e t a b l e p r o v i d e d s h o w ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'B a c k p a c k s a r e p r o d u c e d ...'
+  ❌ 2025Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A f i r m i s s e l l i n g i t s p r o ...'
+  ❌ 2025NASet1.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'V o d a R e s e r v o i r i s a p r o f ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e g r a p h p r o v i d e d s h o w ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T o n y ’ s T r i n k e t s a n d B i t ...'
+  ❌ 2025NASet2.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'D e s k w a r d i s a t y p i c a l p r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'Q u a r t z E x c a v a t i o n s i s a ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e t a b l e p r o v i d e d s h o w ...'
+
+### physics-c-em
+  ❌ 2012Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with ' D o y o u r e g u l a r l y s p e a k ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p r o t o n m o v i n g a l o n g t h ...'
+  ❌ 2013Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A c i r c u i t c o n t a i n s a l e n ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'I n t h e c i r c u i t s h o w n a b o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A capacitor and a capacitor are connecte...'
+  ❌ 2014Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'W h i c h o f t h e f o l l o w i n g G ...'
+  ❌ 2015Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s m a l l o b j e c t o f c h a r g e ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A small particle with charge WELEC - -...'
+  ❌ 2018Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q3 starts with 'C a p a c i t o r s C s u b 1 a n d C s ...'
+  ❌ 2018NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~21, JSON=4 (ratio=0.19)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s o l i d p l a s t i c s p h e r e o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n e x p e r i m e n t i s d e s i g n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '4 t i m e s 10 t o t h e p o w e r o f n...'
+  ❌ 2019Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '6 7 , t i m e s 10 r a i s e d t o t h e...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '9 9 t i m e s 1 0 r a i s e d t o t h e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e f r a m e o f r e f e r e n c e o ...'
+  ❌ 2019NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A v e r y l o n g , t h i n , n o n c o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e c i r c u i t s h o w n a b o v e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s o l e n o i d i s u s e d t o g e n ...'
+  ❌ 2019NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~18, JSON=3 (ratio=0.17)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e c i r c u i t r e p r e s e n t e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n o n c o n d u c t i n g h o l l o w ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T w o p l a t e s a r e s e t u p w i t ...'
+  ❌ 2021NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'T h e c i r c u i t s h o w n a b o v e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'S t u d e n t s p e r f o r m a n e x p ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A t h i n , c o n d u c t i n g r i n g ...'
+  ❌ 2022NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A n o n c o n d u c t i n g s p h e r e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e p l a t e s o f a c e r t a i n v ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I 2 1 Justify your answer. © 2022 Colleg...'
+  ❌ 2022NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A v e r y l o n g n o n c o n d u c t i ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A n o n − i d e a l c a p a c i t o r h ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with '2 I1 Justify your answer. © 2022 College...'
+  ❌ 2023NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'q 2 1 _____ q S t u d e n t s p e r f o ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T w o h o r i z o n t a l , p a r a l l ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e c i r c u i t s h o w n c o n s i ...'
+  ❌ 2023NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~12, JSON=3 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'y 2 1 ____ y S t u d e n t s p e r f o r...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T w o p a r a l l e l c o n d u c t i n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e c i r c u i t s h o w n c o n s i ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ⏭ 2024NASet1.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ⏭ 2024NASet2.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2025Intl.pdf: 2 issues
+      QUESTION COUNT MISMATCH: PDF~37, JSON=1 (ratio=0.03)
+      TEXT NOT FOUND IN PDF: Q1 starts with '图 像 ： 自 \ ( t = 0 \ ) 处 取 值 \ ( 2 ε / 3 ...'
+  ❌ 2025NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~20, JSON=5 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A n i s o l a t e d , a i r − f i l l e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'E x p r e s s y o u r a n s w e r i n t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A r o t a t i n g , c i r c u l a r , c ...'
+
+### physics-c-mechanics
+  ⏭ 2004Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2008Intl.pdf: 1 issues
+      QUESTION COUNT MISMATCH: PDF~75, JSON=35 (ratio=0.47)
+  ⏭ 2009Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2012Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with ' D o y o u r e g u l a r l y s p e a k ...'
+  ❌ 2013Intl.pdf: 1 issues
+      TEXT NOT FOUND IN PDF: Q2 starts with 'W h a t i s t h e i n s tan tan e o u s ...'
+  ❌ 2014Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A n o b j e c t i s r e l e a s e d f r ...'
+  ❌ 2015Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'I n w h i c h o f t h e g r a p h s i s ...'
+  ❌ 2016Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'D o y o u r e g u l a r l y s p e a k o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p r o j e c t i l e i s l a u n c h e ...'
+  ❌ 2017Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'H a v e y o u l i v e d o r s t u d i e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with '@ sin cos d ax a ax dx > @ cos sin  d a...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A p l a n e s t a r t s a t r e s t o n ...'
+  ❌ 2018Intl.pdf: 3 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with 'During which of the labeled segments on ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T h e o b j e c t h a s a s p e e d o f ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A n o b j e c t f a l l s f r e e l y f ...'
+  ❌ 2018NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~21, JSON=3 (ratio=0.14)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A s t u d e n t w a n t s t o d e t e r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'T w o c a r t s a r e o n a h o r i z o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A t r i a n g u l a r r o d , s h o w n ...'
+  ❌ 2019Intl.pdf: 2 issues
+      TEXT NOT FOUND IN PDF: Q1 starts with '6 7 , t i m e s 10 r a i s e d t o t h e...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e e l e c t r i c p o t e n t i a l ...'
+  ❌ 2019NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'I n a n e x p e r i m e n t , s t u d e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A p e n d u l u m o f l e n g t h L c o ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A h o r i z o n t a l c i r c u l a r p ...'
+  ❌ 2019NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~23, JSON=3 (ratio=0.13)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'B l o c k s o f m a s s m a n d 2 m a r ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A t o y r o c k e t o f m a s s 0.50 k i...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'T h e r o t a t i o n a l i n e r t i a ...'
+  ❌ 2021NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A 0.50 k i l o g r a m f a n c a r t i s...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A b l o c k o f m a s s m s t a r t s f ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A t r i a n g u l a r r o d o f l e n g ...'
+  ❌ 2021NASet2.pdf: 3 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=2 (ratio=0.18)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'O b j e c t A i s a l o n g , t h i n , ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A b l o c k o f m a s s m i s p l a c e ...'
+  ❌ 2022NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A b l o c k o f m a s s m i s p u l l e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'm1 2 , and is at rest at the bottom of t...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s o l i d u n i f o r m d i s k i s s ...'
+  ❌ 2022NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'E 1 2 ___E A s m a l l s l e d s l i d e...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'J S 2 ___J 150 N / m _____kprime B l o c...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'a 0 ___aprime A u n i f o r m b o a r d ...'
+  ❌ 2023NASet1.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'D __________ C = D Briefly justify your ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'w U non-U ____w A s t u d e n t m a k e ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A s y s t e m c o n s i s t s o f a s m ...'
+  ❌ 2023NASet2.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~11, JSON=3 (ratio=0.27)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'F 1 2 _____ F S c i e n t i s t s h a v ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'A s t u d e n t c o n d u c t s a n i n ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'b0. The original angular speed function ...'
+  ⏭ 2024Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2024NASet1.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ❌ 2024NASet2.pdf: 1 issues
+      WARNING: JSON has no question texts (empty sections)
+  ⏭ 2025Intl.pdf: SKIP: PyMuPDF not available or PDF unreadable
+  ❌ 2025NA.pdf: 4 issues
+      QUESTION COUNT MISMATCH: PDF~20, JSON=5 (ratio=0.25)
+      TEXT NOT FOUND IN PDF: Q1 starts with 'A n i s o l a t e d , a i r − f i l l e ...'
+      TEXT NOT FOUND IN PDF: Q2 starts with 'E x p r e s s y o u r a n s w e r i n t ...'
+      TEXT NOT FOUND IN PDF: Q3 starts with 'A r o t a t i n g , c i r c u l a r , c ...'

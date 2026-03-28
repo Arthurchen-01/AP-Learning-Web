@@ -1,0 +1,1297 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: Physics C E&M (物理C电磁)
+Filename: 2022NASet2
+Year: 2022
+
+PDF TEXT:
+2022 
+AP
+® Physics C: 
+Electricity and 
+Magnetism
+Free-Response Questions
+Set 2
+© 2022 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered 
+trademarks of College Board. Visit College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION 
+CONSTANTS AND CONVERSION FACTORS
+Proton mass, 
+m 
+sub 
+p,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Neutron mass,
+m 
+sub 
+n,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Electron mass,
+m 
+sub 
+e,
+ eq
+u
+a
+l
+s
+ 9.11, times 10 raised to the power of negative 31, kilograms
+Avogadro’s number,
+N 
+s
+u
+b 0,
+ e
+qual
+s
+ 
+6
+.02, times 10 raised to the power of 23, per mole
+Universal gas constant,
+R equ a ls, 8.
+3 1
+ 
+Joules per mole Kelvin
+Boltzmann’s constant,
+k 
+sub 
+B 
+e q
+u
+a
+l
+s
+, 1.38, times 10 raised to the power of negative 23, joules per kelvin
+Electron charge magnitude,
+e 
+equa
+ls
+, 
+1
+.
+6
+0, times 10 raised to the power of negative 19, coulombs
+1 electron volt, 
+1 
+elec
+tron
+ v
+ol
+t
+ 
+equals, 1.60, times 10 raised to the power of negative 19, joules
+Speed of light, 
+c
+ equ
+al s,  
+3 .
+00 times 10 raised to the power of 8, meters per second
+ Universal gravitational 
+constant,
+G
+ 
+eq
+u
+a
+ls, 
+6.
+6 7 ,
+ t
+i
+m
+e
+s
+ 10 raised to the power of negative 11, meters cubed per kilogram second squared
+ Acceleration due to gravity
+ 
+at Earth’s surface,
+g
+ equa l
+s , 9.8 meters per second squared
+1 unified atomic mass unit,
+1 
+u
+ eq
+uals
+, 
+1.6
+6 ti mes  
+1
+0
+ 
+raised to the power of negative 27 kilograms, which equals 931 mega electron volts, over the speed of light squared
+ Planck’s constant,
+h
+ e
+qu
+als 
+6.
+63 ,
+ tim
+es
+ 10 raised to the power of negative 34, Joule seconds, which equals 4.14 times 10 raised to the power of negative 15 electron volt second s
+h 
+c
+ 
+e
+qual
+s 
+1. 9
+9 ti
+me s 1 0 
+ra i
+s
+e
+d
+ 
+to the power of negative 25, Joule meters, which equals 1.24 times 10 raised to the power of 3, electron volt nanometers
+Vacuum permittivity,
+ep
+s
+i
+l
+on s
+ub
+ 
+0  
+e
+q
+u
+a
+l
+s
+, 8.85, times 10 raised to the power of negative 12, coulomb squared per open parenthesis, Newton meter squared, close parenthesis
+ Coulomb’s law constant,
+k
+ 
+e
+q
+u
+a
+l
+s
+ t
+he 
+fr a c t
+i
+o
+n 
+1
+ 
+o
+ver, open parenthesis, 4 pi, times epsilon sub 0, close parenthesis, which equals 9.0, times 10 raised to the power of 9, open parenthesis Newton meters squared close parenthesis, per coulomb squared
+Vacuum permeability,
+m
+u
+ 
+su
+b 0  e q
+u
+a
+l
+s
+,
+ 4 pi, times 10 raised to the power of negative 7, tesla meters per ampere
+Magnetic constant,  
+k
+ 
+p
+r
+i
+m
+e 
+equ al s
+,
+ 
+t
+h
+e
+ 
+f
+r
+action mu sub 0 over 4 pi, which equals 1, times 10 raised to the power of negative 7, tesla meters per ampere
+ 1 atmosphere pressure,
+1
+ 
+a
+tmosp
+her
+e e q u
+als
+, 1.0
+,
+ 
+t
+imes 10 raised to the power of 5, newtons per meter squared, which equals 1.0, times 10 raised to the power of 5 pascals
+UNIT 
+SYMBOLS 
+meter, 
+m
+kilogram, 
+k g
+second, 
+s
+ampere, 
+A
+kelvin, 
+K
+mole, 
+mol
+hertz, 
+H z
+newton, 
+N
+pascal, 
+P a
+joule, 
+J
+watt, 
+W
+coulomb, 
+C
+volt, 
+V
+ohm,
+omega
+henry, 
+H
+farad, 
+F
+tesla, 
+T
+degree Celsius,
+C
+electron volt, 
+e V 
+PREFIXES 
+Factor
+Prefix
+Symbol
+9
+giga
+G
+6
+mega
+M
+3
+kilo
+k
+2
+centi
+c
+10 raised to the power of negative 3
+milli
+m
+6
+micro
+Mu
+9
+nano
+n
+10 raised to the power of negative 12
+pico
+p
+VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES
+theta
+0 degrees
+30 degrees
+37 degrees
+45 degrees
+53 degrees
+60 degrees
+90 degrees
+sine theta
+0 
+o ne half
+t hree fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 3, and denominator, 2
+1 
+cosine theta
+1 
+the fraction with numerator, the square root of 3, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+t hree fifths
+o n e half
+0 
+tangent theta
+0
+the fraction with numerator, the square root of 3, and denominator, 3
+t hree fourths
+1
+f o ur thirds
+3
+Infinity
+The following assumptions are used in this exam. 
+1.
+The frame of reference of any problem is inertial unless otherwise
+stated.
+2
+The direction of current is the direction in which positive charges
+would drift.
+3
+The electric potential is zero at an infinite distance from an isolated
+point charge.
+4
+All batteries and meters are ideal unless otherwise stated.
+5.
+Edge effects for the electric field of a parallel plate capacitor are
+negligible unless otherwise stated.
+
+
+--- PAGE BREAK ---
+
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+MECHANICS
+lowercase a, equals 
+ acceleration 
+E equals   energy 
+uppercase F, equals  force 
+lowercase f, equals 
+ frequency 
+h equals height 
+I equals rotational inertia 
+J equals impulse 
+uppercase K, equals  kinetic energy 
+lowercase k, equals 
+ spring constant 
+l owercase l, equals length
+uppercase L, equals 
+ angular momentum 
+m equals mass 
+uppercase P, equals  power 
+lowercase p, equals 
+ momentum 
+r equals radius or distance 
+uppercase T, equals 
+ period 
+lowercase t, equals 
+ time 
+U equals potential energy 
+v equals velocity or speed 
+W equals work done on a system 
+x equals  position 
+m u equals  coefficient of friction 
+t heta equals  angle 
+t au equals  torque 
+o mega equals  angular speed 
+a lpha equals angular acceleration 
+p hi equals  phase angle 
+v
+ 
+s
+u
+b
+ 
+x
+ equals v sub x zero, plus, a sub x times t
+x
+x
+ 
+e
+q
+u
+a
+l
+s
+ 
+x
+ 
+s
+u
+b
+ zero, plus v sub x zero, times t, plus one half a sub x times t squared t
+v
+ 
+s
+u
+b
+ 
+x
+ 
+s
+q
+u
+a
+r
+e
+d
+, equals v sub x zero squared, plus 2 a sub x, open parenthesis x minus x sub zero close parenthesis 
+0
+vec
+t
+o
+r
+ a equals the fraction the summation of vector F over m, which equals the fraction vector F sub net over 
+m
+v
+e
+c
+to
+r
+ F equals the derivative of vector p with respect to t
+v
+e
+c
+t
+o
+r
+ J equals integral vector F times d t, which equals delta vector 
+p
+G
+G
+v
+ector p equals m times vector v
+t
+h
+e
+ 
+a
+b
+s
+olute value of vector F sub f is less than or equal to mu, times the absolute value of vector F sub n
+D
+e
+l t
+a
+ 
+E
+ 
+e
+q uals W which equals the integral of vector F dot d vector r
+K
+ 
+e
+q
+u
+a
+ls one half m times v squared
+P  e
+q
+uals the derivative of E with respect to t
+P
+ e
+q
+u
+als vector F dot vector v
+d
+e
+l
+t
+a
+ U sub g equals m times g, times delta h
+a
+ 
+s
+u
+b
+ 
+c
+ equals, the fraction, v squared over r, which equals, omega squared times 
+r
+r
+v e
+c
+t
+o
+r tau equals vector r, cross, vector 
+F
+v
+e
+c
+t
+o
+r
+ 
+a
+l
+pha
+ equals the fraction the summation of vector tau over I, which equals the fraction vector tau sub net over 
+I
+I
+ 
+e qu
+a
+l
+s ,
+ the integral of r squared, times, d m, which equals, the summation of m, times r squared
+2r
+x  
+sub c m equals the fraction with numerator the summation of m sub i times x sub i, and denominator the summation of m sub 
+i
+v
+ 
+e quals, r times omega
+v
+e
+c
+t
+o
+r
+ 
+L
+ 
+e
+q
+uals vector r cross vector p, which equals, I times vector omega
+K
+ 
+e
+q
+ua
+ls one half I times omega squared
+omega equals omega sub 0, plus alpha 
+t
+t
+h
+e
+t
+a
+ 
+e
+q
+u
+a
+l
+s
+ 
+theta sub zero, plus omega sub zero times t, plus one half alpha times t squared
+
+
+v
+e c
+t
+o
+r
+ 
+F sub S equals negative k delta vector x
+U
+ 
+s
+u
+b
+ 
+S
+ 
+e
+q
+uals one half k, open parenthesis delta x close parenthesis, squared
+x e qual
+s
+ 
+x
+ 
+s
+ub max, times cosine, open parenthesis, omega t plus, phi, close parenthesis
+T
+ 
+equals, the fraction, two pi, over, omega, which equals the fraction, one, over, 
+f
+T
+ 
+s
+ub S equals, two pi, times the square root of the fraction, m over 
+k
+T
+ 
+sub p equals, two pi, times the square root of the fraction, l over 
+g
+t
+h
+e
+ 
+a
+b
+so l
+u
+te value of vector F sub g equals G, times the fraction with numerator m sub 1, times m sub 2 and denominator r squared
+U
+ 
+s
+ub  
+G equals the negative of the fraction with numerator G times m sub 1, times m sub 2, and denominator, 
+r
+ELECTRICITY AND MAGNETISM 
+A, equals 
+area 
+B equals magnetic field 
+C equals capacitance 
+d equals 
+ distance 
+E equals electric field 
+epsi lon equals e m f
+F equals force 
+I equals 
+ current 
+J equals 
+ current density 
+up percase L, equals inductance 
+l owercase l, equals length
+lowercase n, equals 
+ number of loops of wire  
+     per unit length 
+uppercase N, equals 
+number of charge carriers
+     per unit volume 
+P equals power 
+uppercase Q, equals  charge 
+lowercase q, equals 
+ point charge 
+uppercase R, equals  resistance 
+lowercase r, equals 
+radius or distance 
+t equals 
+ time 
+U equals potential or stored energy 
+u ppercase V, equals electric potential
+lowercase v, equals  velocity or speed 
+r ho equals  resistivity 
+p hi equals  flux 
+k appa equals  dielectric constant 
+t
+h e
+ 
+a
+bso
+l
+u
+t
+e  
+v
+alue of vector F sub E equals the fraction 1 over 4 pi epsilon sub zero times the absolute value of the fraction with numerator q sub 1 times q sub 2, and denominator r squared
+v
+e
+c
+t
+or E equals, the fraction vector F sub E over 
+q
+0
+E  sub x equals the negative derivative of V with respect to 
+x
+d
+e lt
+a
+ 
+V
+ 
+e quals the negative integral of vector E dot d vector r
+V
+ 
+equ
+a
+l
+s
+ the fraction, 1 over 4 pi epsilon sub 0, times the summation with respect to i of the fraction, q sub i over r sub 
+i
+U  
+s
+u
+b E
+ 
+e
+q
+u a
+l
+s, q times V, which equals, the fraction, 1 over 4 pi epsilon sub zero, times the fraction with numerator q sub 1 times q sub 2, and denominator 
+r
+d
+e l
+ta V equals the fraction Q over 
+C
+C
+ e
+q
+u
+als kappa times epsilon sub zero, times the fraction A over 
+d
+C
+ sub p equals the summation with respect to i of C sub 
+i
+t
+h
+e
+ fraction, one over C sub S equals the summation with respect to i of the fraction one over C sub 
+i
+I 
+e
+quals the derivative of Q with respect to t
+U
+ s
+u
+b
+ 
+C
+ 
+e
+q u
+a
+l
+s
+ 
+one half Q times delta V, which equals one half C times, open parenthesis delta V close parenthesis, squared
+D
+R equals the fraction rho times l over 
+A
+V
+e
+c
+t
+or E equals rho times vector 
+J
+I
+ 
+e
+quals N times e, times v sub d, times A
+I
+ 
+e
+quals the fraction delta V over 
+R
+i
+t
+he fraction 1 over R sub p equals the summation with respect to i of the fraction 1 over R sub 
+i
+P
+ 
+e
+quals I times delta V
+G
+G
+v
+e
+c
+t
+o
+r
+ F sub M equals q times vector v cross vector 
+B
+C
+l
+o
+s
+e
+d
+ 
+l
+i n e integral of vector B, times, d vector l, equals, mu sub zero times 
+I
+d
+ 
+v
+e
+c
+t
+o
+r
+ 
+B
+ 
+e q
+u
+al
+s the fraction, mu sub zero over 4 pi, times the fraction with numerator, I times d vector l , cross, r hat, and denominator, r squared
+v
+e
+c
+t
+o
+r
+ 
+F
+ 
+e quals the integral of I times d vector l, cross, vector 
+B
+B
+ 
+s
+ub S equals, mu sub zero, times n, times I
+p
+h i
+ 
+s
+u
+b
+ B equals the integral of vector B dot d vector A
+e
+p
+s
+il
+o
+n
+ 
+e
+q
+u
+a
+l
+s ,
+ the closed line integral of vector E, dot d vector l, which equals the negative derivative of  phi sub B, with respect to t
+ep
+s ilon equals, negative L, times the fraction d I, over, d t
+U
+ 
+s
+u
+b
+ L
+ equals, one half, times L, times I squared
+
+
+--- PAGE BREAK ---
+
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+GEOMETRY AND TRIGONOMETRY 
+ 
+A, equals area 
+C equals  circumference 
+V equals volume 
+uppercase S, equals surface area 
+b equals  base 
+h equals height 
+l  equals length
+w equals width 
+r equals radius 
+lowercase s, equals arc length
+t heta equals angle
+Rectangle 
+A
+ equals, b times h
+Triangle 
+A
+ 
+e
+quals, one half b times  h
+Circle 
+A
+ 
+e
+quals, pi times r squared
+r
+C
+ 
+equals, 2 pi, times 
+r
+    s
+ e
+q
+uals r times theta
+Rectangular Solid 
+V
+ 
+e quals, l times w times h h
+Cylinder 
+V
+ 
+e
+q
+u
+als, pi times r squared times l
+S
+ 
+e
+q
+u
+a
+l
+s
+ 
+2
+ pi times r, times l, plus, 2 pi times r squared
+Sphere 
+V
+ 
+e
+q
+u
+a
+l
+s four thirds, pi, times r cubed
+S
+ 
+e
+q
+u
+als 4 pi times r squared
+Right Triangle 
+a
+ 
+s
+q
+u
+a
+r
+ed plus b squared, equals c squared
+    sin
+e theta equals the fraction a over 
+c
+    cos
+ine theta equals the fraction b over 
+c
+    tan
+gent theta equals the fraction a over 
+b
+Th
+e 
+figure presents a circle. Two radii, labeled r, are drawn from the center of the circle. The angle formed by the two radii is labeled theta. The part of the circle between the endpoints of each radius is labeled s.
+T
+h
+e
+ fi
+gure presents a right triangle. The bottom right hand angle is a right angle, labeled 90 degrees. The bottom left hand angle is labeled theta, and the top right hand angle is not labeled. The vertical side, opposite the angle labeled theta, is labeled a. The horizontal side, adjacent to the angle labeled theta, is labeled b. The hypotenuse is labeled c.
+CALCULUS
+d e
+r i va
+ti
+ve  of f with respect to x equals the derivative of f with respect to u times the derivative of u with respect to x
+d
+erivative with respect to x, of open parenthesis, x raised to the power of n, close parenthesis, equals, n, times x raised to the power of, n minus 
+1
+n
+d
+e r
+iv
+ative with respect to x, of open parenthesis, e to the power of a x, close parenthesis, equals a e to the power of a x
+d
+e
+r
+iv
+ative with respect to x, of open parenthesis, natural log of a x, close parenthesis, equals 1 over 
+x
+d
+e
+r
+i
+v
+a
+tiv
+e with respect to x, of open bracket sine a x close bracket, equals a, cosine open parenthesis a x close parenthesis
+d
+e
+r
+i
+v
+a
+tiv
+e w
+i t
+h
+ r
+e
+sp
+ect to x, of open bracket cosine a x close bracket, equals negative a, sine open parenthesis a x close parenthesis
+1
+
+t
+h
+e
+ i
+ntegral of e to the power of a x, d x, equals the fraction 1 over a, times e to the power of a x
+th
+e
+ 
+i
+n
+te
+g
+r
+al of d x over x plus a, equals natural log of the absolute value of x plus 
+a
+t
+h
+e
+ 
+i
+nte
+gra
+l
+ 
+of  c
+os
+ine open parenthesis a x close parenthesis, d x, equals, the fraction 1 over a, times sine open parenthesis a x close parenthesis
+t
+h
+e
+ 
+i
+nte
+gral of sine open parenthesis a x close parenthesis, d x, equals, the negative fraction 1 over a, times cosine open parenthesis a x close parenthesis
+VECTOR PRODUCTS 
+vec
+t o
+r 
+A
+ 
+dot vector B, equals A B cosine theta
+
+the
+ 
+a
+bs
+o
+l
+ute value of vector A cross vector B, equals A B sine theta
+
+
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Begin your response to QUESTION 1 on this page. 
+PHYSICS C: ELECTRICITY AND MAGNETISM 
+SECTION II 
+Time—45 minutes 
+3 Questions 
+Directions: Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, 
+which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this 
+booklet in the spaces provided after each part. 
+1. A very long nonconducting cylinder is surrounded by a thin concentric conducting cylindrical shell, as shown in 
+the cutout view. A segment of length L of the inner cylinder has a net charge of +Q uniformly distributed 
+throughout its volume. A segment of length L of the outer shell has a net charge of +4Q. The radii of the inner 
+cylinder and outer shell are R and 3R, respectively, as shown in the cross-section view. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+5
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 1 on this page. 
+(a) Determine the charge on the outer surface of the cylindrical shell within length L. 
+(b) Using Gauss’s law, derive an expression for the electric field a distance r from the center of the inner cylinder 
+for r < R. Express your answers in terms of Q, R, r, L, and physical constants, as appropriate. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+6
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 1 on this page. 
+(c) The magnitude of the electric field at r = R is 12 N  / C . Calculate the value of the electric field at r = 2R. 
+(d) Derive an expression for the absolute value of the potential difference between the surface of the 
+nonconducting cylinder and the inner surface of the cylindrical shell. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+7
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 1 on this page. 
+(e) 
+i. On the following axes that include regions I, II, and III, sketch the graph of the electric field E as a function of 
+the distance r from the axis of the inner cylinder. 
+ii. On the following axes that include regions I, II, and III, sketch the graph of the electric potential V as a 
+function of the distance r from the axis of the inner cylinder. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+8
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Begin your response to QUESTION 2 on this page. 
+2. A non-ideal capacitor has internal resistance that can be modeled as an ideal capacitor in series with a small 
+resistor of resistance rC. A group of students performs an experiment to determine the internal resistance of a 
+capacitor. A circuit is to be constructed with the following available equipment: a single ideal battery of potential 
+difference ∆V0, a single ammeter, a single variable resistor of resistance R, a single uncharged non-ideal capacitor 
+of capacitance C , and one or more switches as needed. 
+(a) Using the symbols shown, draw a schematic diagram of a circuit that can charge the capacitor and may also be 
+used to study the current through the capacitor as it discharges through the resistor. 
+The capacitor is fully charged by the battery. At time t = 0, the capacitor starts discharging through the resistor. 
+(b) Show that the current I through the capacitor as a function of time
+−t 
+(R r  )C
++
+ t is I( )t = I e 
+C 
+0 
+as the capacitor
+discharges. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+9
+
+
+--- PAGE BREAK ---
+
+ 
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 2 on this page. 
+(c) The students determine the time constant t for the circuit as a function of the resistance R. The students’ data 
+are shown in the following graph. 
+i. Draw the best-fit line for the data. 
+ii. Using the best-fit line, calculate a value for the internal resistance rC of the capacitor. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+10
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 2 on this page. 
+(d) The ammeter is found to be nonideal. Is the actual value for the internal resistance rC for the capacitor greater 
+than, less than, or equal to the experimental internal resistance of the capacitor calculated in part (c)? 
+___ Greater than 
+___ Less than 
+___ Equal to 
+Briefly justify your answer using features of the graph in part (c). 
+(e) The values of the variable resistor in the original experiment ranged from 0.5 Ω to 2.5 Ω. The experiment is 
+repeated with values ranging from 3.0 Ω to 6.0 Ω. Would the slope of the best-fit line be more steep, be less 
+steep, or remain unchanged compared to the graph in part (c)? 
+___ More steep 
+___ Less steep 
+___ Remain unchanged 
+Briefly justify your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+11
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Begin your response to QUESTION 3 on this page. 
+3. A single loop of wire with resistance 3.0 Ω and radius 0.10 m is placed inside a solenoid, with the normal to the 
+loop parallel to the axis of the solenoid. The solenoid has 500 turns, is 0.25 m long, and is connected to a power 
+supply that is not shown. At time t = 0, the power supply is turned on, and the current I in the solenoid as a 
+function of t is given by the equation I( )t = bt, where b = 5.0 A/s. The direction of the current in the solenoid is 
+clockwise, as shown in the end view. 
+(a) At time t = 2.0 s, is the induced current in the loop, as seen from the end view shown, clockwise, 
+counterclockwise, or zero? 
+___ Clockwise 
+___ Counterclockwise 
+___ Zero 
+Justify your answer. 
+(b) Calculate the current in the loop of wire at time t = 2.0 s. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+12
+
+
+--- PAGE BREAK ---
+
+ 
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 3 on this page. 
+(c) Calculate the total energy dissipated by the loop of wire from time t = 0 to time t = 2.0 s. 
+(d) A group of students attempts to verify experimentally the calculation of the current from part (b). The current 
+in the inner circular loop at time t = 2.0 s is measured to be less than the current calculated in part (b). Which 
+of the following could explain this discrepancy? Select one answer. 
+___ 
+___ 
+___ 
+___ 
+___ 
+The experiment did not account for Earth’s magnetic field. 
+The plane of the loop is not perpendicular to the axis of the solenoid. 
+The center of the loop is not on the axis of the solenoid. 
+The resistance of the loop is less than the given value. 
+The radius of the loop is actually larger than 0.10 m. 
+Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+13
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+Continue your response to QUESTION 3 on this page. 
+(e) The power supply is now turned off. The original loop of wire is then replaced with a second loop made from 
+wire that has the same thickness and is made from the same material as the original loop of wire. The second 
+loop has radius 0.20 m, is placed in the same orientation as the original loop, and fits completely inside the 
+solenoid. The power supply is turned on, and the current I in the solenoid as a function of t is again given by 
+the equation I( )t = bt, where b = 5.0 A/s. Which of the following expressions correctly indicates the ratio I2
+I1 
+where I1 represents the current induced in the original loop of wire in part (b) and I2 represents the current 
+induced in the second loop of wire? 
+___
+___
+___
+___ 
+I 2 
+ 
+= 1 
+I 1 
+I2
+1 <
+< 2 
+I1
+I2 
+= 2 
+I1
+I2 > 2 
+I1 
+Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+14
+
+
+--- PAGE BREAK ---
+
+AP® Physics C: Electricity and Magnetism 2022 Free-Response Questions
+STOP 
+END OF EXAM 
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+15
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

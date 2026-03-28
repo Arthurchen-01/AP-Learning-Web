@@ -1,0 +1,10028 @@
+The released exam includes images for which descriptions are provided in this document. In a standard exam, the images are presented without descriptions. In this document, descriptions are included with the images so that assistive technology users will have an understanding of what is in each image. However, the descriptions in some cases may not be valid for testing purposes, and would not be used on an actual exam. If you are taking the exam in an alternate format, some or all questions of this type may be omitted. If any questions are omitted, the scoring rules for the exam take such omissions into account to make sure you are neither advantaged nor disadvantaged by the omissions and that your scores are comparable to those of individuals taking another version of the exam.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2015  
+AP
+® Computer 
+Science A 
+ 
+ 
+Released Exam 
+ 
+Secured for Teacher Use 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+This Released Exam is provided by the College Board for AP Exam 
+preparation. Teachers are permitted to download the materials and  
+make copies to use with their students in a classroom setting only.  
+To maintain the security of this exam, teachers should collect all  
+materials after their administration and keep them in a secure location. 
+Exams may not be posted on school or personal websites, nor 
+electronically redistributed for any reason. Further distribution of 
+these materials outside of the secure College Board site disadvantages 
+teachers who rely on uncirculated questions for classroom testing.  
+Any additional distribution is in violation of the College Board’s  
+copyright policies and may result in the termination of Practice Exam  
+access for your school as well as the removal of access to other online 
+services such as the AP Teacher Community and Online Score Reports. 
+ 
+ 
+ The College Board logo
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+Contents 
+ 
+ 
+ 
+Exam Instructions 
+Student Answer Sheet for the Multiple-Choice Section  
+Section I: Multiple-Choice Questions 
+Section II: Free-Response Questions 
+Multiple-Choice Answer Key 
+Free-Response Scoring Guidelines 
+Scoring Worksheet 
+ 
+ 
+ 
+ 
+Note: This publication shows the page numbers that appeared in  
+the 2014−15 AP Exam Instructions book and in the actual exam.  
+This publication was not repaginated to begin with page 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2015 The College Board. College Board, Advanced Placement Program, AP, SAT and the acorn logo are 
+registered trademarks of the College Board. All other products and services may be trademarks of their 
+respective owners. Permission to use copyrighted College Board materials may be requested online at: 
+www.collegeboard.com/inquiry/cbpermit.html. 
+
+
+--- PAGE BREAK ---
+
+59
+COMPUTER SCIENCE A
+What Proctors Need to Bring to This Exam
+• Exam packets
+• Answer sheets
+• AP Student Packs
+• 2014 - 15 AP Coordinator’s Manual
+• This book — AP Exam Instructions
+• AP Exam Seating Chart template(s)
+• School Code and Home-School/Self-
+Study Codes
+• Pencil sharpener
+• Container for students’ electronic
+devices (if needed)
+• Extra No . 2 pencils with erasers
+• Extra pens with black or dark blue ink
+• Extra paper
+• Stapler
+• Watch
+• Signs for the door to the testing room
+– “Exam in Progress”
+– “Cell phones are prohibited in the
+testing room”
+SECTION I: Multiple Choice
+ !
+  Do not begin the exam instructions below until you have completed the appropriate 
+General Instructions for your group.
+Make sure you begin the exam at the designated time . Remember: You must complete a seating 
+chart for this exam . See pages 279–280 for a seating chart template and instructions . See the  
+2014-15 AP Coordinator’s Manual for exam seating requirements (pages 48–50, 88) .
+If you are giving the regularly scheduled exam, say:
+It is Thursday morning, May 7, and you will be taking the AP Computer Science  
+A Exam.
+If you are giving the alternate exam for late testing, say:
+It is Thursday morning, May 21, and you will be taking the AP Computer Science 
+A Exam.
+AP® Computer Science A Exam
+Regularly Scheduled Exam Date: Thursday morning, May 7, 2015
+Late-Testing Exam Date: Thursday morning, May 21, 2015 
+Section I Total Time: 1 hr. 15 min.     Section II Total Time: 1 hr. 45 min.
+Section I
+Total Time: 1 hour 15 minutes
+Number of Questions: 40* 
+Percent of Total Score: 50%
+Writing Instrument: Pencil required
+*The number of questions may vary slightly
+depending on the form of the exam.
+Section II
+Total Time: 1 hour 45 minutes
+Number of Questions: 4
+Percent of Total Score: 50%
+Writing Instrument: Pencil required
+Note: The language used on the exam 
+will be Java. The Java Quick Reference is 
+included in the exam booklets.
+© 2015 The College Board. Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+60
+Computer Science A
+In a moment, you will open the packet that contains your exam materials. 
+By opening this packet, you agree to all of the AP Program’s policies and 
+procedures outlined in the 2014 - 15 Bulletin for AP Students and Parents. You 
+may now remove the shrinkwrap from your exam packet and take out the 
+Section I booklet, but do not open the booklet or the shrinkwrapped Section II 
+materials. Put the white seals aside. . . .
+Carefully remove the AP Exam label found near the top left of your exam 
+booklet cover. Now place it on page 1 of your answer sheet on the light blue 
+box near the top right-hand corner that reads “AP Exam Label.”
+If students accidentally place the exam label in the space for the number label or vice versa, advise 
+them to leave the labels in place . They should not try to remove the label; their exam will be 
+processed correctly . 
+Read the statements on the front cover of Section I and look up when you 
+have finished. . . .
+Sign your name and write today’s date. Look up when you have finished. . . .
+Now print your full legal name where indicated. Are there any questions? . . .
+Turn to the back cover and read it completely. Look up when you have finished. . . .
+Are there any questions? . . .
+You will now take the multiple-choice portion of the exam. You should have 
+in front of you the multiple-choice booklet and your answer sheet. You may 
+never discuss these specific multiple-choice questions at any time in any form 
+with anyone, including your teacher and other students. If you disclose these 
+questions through any means, your AP Exam score will be canceled. . . .
+You must complete the answer sheet using a No. 2 pencil only. Mark all of 
+your responses beginning on page 2 of your answer sheet, one response per 
+question. Completely fill in the circles. If you need to erase, do so carefully 
+and completely. No credit will be given for anything written in the exam 
+booklet. Scratch paper is not allowed, but you may use the margins or any 
+blank space in the exam booklet for scratch work. Are there any questions? . . .
+The Java Quick Reference is located at the back of the booklet. You have 1 hour and 
+15 minutes for Section I. Open your Section I booklet and begin. 
+12
+6
+3
+9
+ 
+Note Start Time here 
+ . Note Stop Time here 
+ . Check that students are 
+marking their answers in pencil on their answer sheets, and that they are not looking at their 
+shrinkwrapped Section II booklets . After 1 hour and 5 minutes, say:
+There are 10 minutes remaining.
+After 10 minutes, say:
+Stop working. Close your exam booklet and put your answer sheet on your 
+desk, face up. Make sure you have your AP number label and an AP Exam 
+label on page 1 of your answer sheet. Sit quietly while I collect your  
+answer sheets.
+© 2015 The College Board. Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+61
+AP Exam Instructions
+COMPUTER SCIENCE A
+Collect an answer sheet from each student . Check that each answer sheet has an AP number label 
+and an AP Exam label . After all answer sheets have been collected, say:
+Now you must seal your exam booklet using the white seals you set aside 
+earlier. Remove the white seals from the backing and press one on each area of 
+your exam booklet cover marked “PLACE SEAL HERE.” Fold each seal over the 
+back cover. When you have finished, place the booklet on your desk, face up. . . . 
+I will now collect your Section I booklet. 
+Collect a Section I booklet from each student . Check that each student has signed the front cover 
+of the sealed Section I booklet .
+There is a 10-minute break between Sections I and II . When all Section I materials have been 
+collected and accounted for and you are ready for the break, say:
+Please listen carefully to these instructions before we take a 10-minute 
+break. All items you placed under your chair at the beginning of this exam 
+must stay there, and you are not permitted to open or access them in any 
+way. Leave your shrinkwrapped Section II packet on your desk during the 
+break. You are not allowed to consult teachers, other students, or textbooks 
+during the break. You may not make phone calls, send text messages, 
+check email, use a social networking site, or access any electronic or 
+communication device. Remember, you may never discuss the multiple-
+choice questions at any time in any form with anyone, including your teacher 
+and other students. If you disclose these questions through any means, your 
+AP Exam score will be canceled. Are there any questions? . . . 
+12
+6
+3
+9
+ You may begin your break. Testing will resume at 
+. 
+SECTION II: Free Response
+After the break, say:
+May I have everyone’s attention? Place your Student Pack on your desk. . . .
+You may now remove the shrinkwrap from the Section II packet, but do not 
+open the exam booklet until you are told to do so. . . . 
+Read the bulleted statements on the front cover of the exam booklet. Look 
+up when you have finished. . . .
+Now place an AP number label on the shaded box. If you don’t have any 
+AP number labels, write your AP number in the box. Look up when you 
+have finished. . . .
+Read the last statement. . . . 
+Using your pen, print the first, middle and last initials of your legal name 
+in the boxes and print today’s date where indicated. This constitutes your 
+signature and your agreement to the statements on the front cover. . . .
+© 2015 The College Board. Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+62
+Computer Science A
+Turn to the back cover and complete Item 1 under “Important Identification 
+Information.” Print the first two letters of your last name and the first letter 
+of your first name in the boxes. Look up when you have finished. . . .
+In Item 2, print your date of birth in the boxes. . . .
+In Item 3, write the school code you printed on the front of your Student 
+Pack in the boxes. . . .
+Read Item 4. . . .
+Are there any questions? . . .
+I need to collect the Student Pack from anyone who will be taking another 
+AP Exam. You may keep it only if you are not taking any other AP Exams this 
+year. If you have no other AP Exams to take, place your Student Pack under 
+your chair now. . . .
+While Student Packs are being collected, read the information on the back 
+cover of the exam booklet. Do not open the booklet until you are told to do 
+so. Look up when you have finished. . . .
+Collect the Student Packs . Then say: 
+Are there any questions? . . .
+You have 1 hour and 45 minutes for Section II. You must write your answers in 
+the exam booklet using a No. 2 pencil. You are responsible for pacing yourself, 
+and may proceed freely from one question to the next. If you need more paper 
+during the exam, raise your hand. At the top of each sheet of paper you use, 
+be sure to write only your AP number and the number of the question you are 
+working on. Do not write your name. The Java Quick Reference is located at the 
+back of the booklet. Are there any questions? . . . 
+You may begin. 
+12
+6
+3
+9
+ 
+Note Start Time here 
+ . Note Stop Time here 
+ . After 1 hour and 
+35 minutes, say:
+There are 10 minutes remaining.
+After 10 minutes, say:
+Stop working and close your exam booklet. Place it on your desk, face up. . . . 
+If any students used extra paper for the free-response section, have those students staple the extra 
+sheet(s) to the first page corresponding to that question in their exam booklets . Complete an 
+Incident Report and include any exam booklets with extra sheets of paper in an Incident Report 
+return envelope (see page 57 of the AP Coordinator’s Manual for details) . Then say:
+Remain in your seat, without talking, while the exam materials 
+are collected. . . . 
+© 2015 The College Board. Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+63
+AP Exam Instructions
+COMPUTER SCIENCE A
+Collect a Section II booklet from each student . Check for the following:
+• Exam booklet front cover: The student placed an AP number label on the shaded box, and
+printed his or her initials and today’s date .
+• Exam booklet back cover: The student completed the “Important Identification
+Information” area .
+When all exam materials have been collected and accounted for, return to students any electronic 
+devices you may have collected before the start of the exam . 
+If you are giving the regularly scheduled exam, say:
+You may not discuss or share these specific free-response questions with anyone 
+unless they are released on the College Board website in about two days. Your AP 
+Exam score results will be available online in July.
+If you are giving the alternate exam for late testing, say:
+None of the questions in this exam may ever be discussed or shared in any way  
+at any time. Your AP Exam score results will be available online in July.
+If any students completed the AP number card at the beginning of this exam, say:
+Please remember to take your AP number card with you. You will need the 
+information on this card to view your scores and order AP score reporting 
+services online.
+Then say:
+You are now dismissed. 
+All exam materials must be placed in secure storage until they are returned to the AP Program 
+after your school’s last administration . Before storing materials, check the “School Use Only” 
+section on page 1 of the answer sheet and: 
+• Fill in the appropriate section number circle in order to access a separate AP
+Instructional Planning Report (for regularly scheduled exams only) or subject
+score roster at the class section or teacher level . See “Post-Exam Activities” in the
+2014 - 15 AP Coordinator’s Manual .
+• Check your list of students who are eligible for fee reductions and fill in the
+appropriate circle on their registration answer sheets .
+Be sure to give the completed seating chart to the AP Coordinator . Schools must retain seating 
+charts for at least six months (unless the state or district requires that they be retained for a longer 
+period of time) . Schools should not return any seating charts in their exam shipments unless they 
+are required as part of an Incident Report .
+© 2015 The College Board. Visit the College Board on the Web: www.collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+Sign your legal name as it will appear on your college applications. 
+Date
+To maintain the security of the exam and the validity of my AP score, I will allow no one else to see the multiple-choice questions. I will 
+seal the multiple-choice booklet when asked to do so, and I will not discuss these questions with anyone at any time after completing the 
+section. I am aware of and agree to the AP Program’s policies and procedures as outlined in the 2014-15 Bulletin for AP Students and 
+Parents, including using testing accommodations (e.g., extended time, computer, etc.) only if I have been preapproved by College Board 
+Services for Students with Disabilities.
+COMPLETE THIS AREA AT EVERY EXAM.
+USE NO. 2 PENCIL ONLY
+A. SIGNATURE
+A P Answer Sheet 2015 Page One
+AP Exam Label 
+(from Section I Booklet)
+AP Number Label 
+(from Student Pack)
+Answer Sheet
+2015
+B. LEGAL NAME
+Omit apostrophes, Jr., II.
+Legal First Name — First 12 Letters
+Legal Last Name — First 15 Letters
+MI
+ A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A
+ B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B
+ C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C
+ D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D
+ E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E
+ F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F
+ G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G
+ H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H
+ I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I
+ J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J
+ K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K
+ L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L
+ M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M
+ N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N
+ O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O
+ P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P
+ Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q
+ R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R
+ S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S
+ T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T
+ U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U
+ V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V
+ W W W W W W W W W W W W W W W
+ X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X
+ Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y
+ Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z
+  
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+–
+ 1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9
+ A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A
+ B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B
+ C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C
+ D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D
+ E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E
+ F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F
+ G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G
+ H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H
+ I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I
+ J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J
+ K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K
+ L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L
+ M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M
+ N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N
+ O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O
+ P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P
+ Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q
+ R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R
+ S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S
+ T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T
+ U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U
+ V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V
+ W W W W W W W W W W W W W
+ X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X
+ Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y
+ Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z
+  
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+– 
+–
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+ 0 
+0
+ 1 
+1
+ 2 
+2
+ 3 
+3
+  
+4
+  
+5
+  
+6
+  
+7
+  
+8
+  
+9
+ 6 
+12
+ 7 
+1
+ 8 
+2
+ 9 
+3
+ 10 
+4
+ 11 
+5
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+S
+D.  EXAM DATE
+C.YOUR AP NUMBER
+Month 
+AM PM
+F.  MULTIPLE-CHOICE BOOKLET 
+SERIAL NUMBER
+H.  AP EXAM I AM 
+TAKING USING THIS 
+ANSWER SHEET
+Exam Name:
+Form Code:
+Form:
+COMPLETE THIS AREA ONLY ONCE.
+SCHOOL USE ONLY
+Fee Reduction Granted
+Section Number
+Option 1
+Option 2
+E. EXAM 
+START 
+TIME
+ 0 
+0
+ 1 
+1
+  
+2
+  
+3
+  
+4
+  
+5
+  
+6
+  
+7
+  
+8
+  
+9
+ 1 
+2
+ 0 
+0 
+0
+ 1 
+1 
+1
+ 2 
+2 
+2
+ 3 
+3 
+3
+ 4 
+4 
+4
+ 5 
+5 
+5
+ 6 
+6 
+6
+ 7 
+7 
+7
+ 8 
+8 
+8
+ 9 
+9 
+9
+G. ONLINE
+PROVIDER 
+CODE
+Day
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+L.  SOCIAL SECURITY 
+NUMBER (Optional)
+104246-00657• UNLWEB315 
+Q3914/1-4
+COLLEGE CODE
+ 0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9
+M.  COLLEGE TO RECEIVE YOUR 
+AP SCORE REPORT
+College Name
+State
+Country
+Using the college code listed in the 
+AP Student Pack, indicate the ONE 
+college that you want to receive your 
+AP score report.
+City
+SCHOOL CODE
+ 0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9
+School Name
+State
+Country
+J. SCHOOL YOU ATTEND
+City
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+INTERNATIONAL PHONE
+I.  AREA CODE AND 
+PHONE NUMBER
+ 0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3
+  
+4 
+4 
+4
+  
+5 
+5 
+5
+  
+6 
+6 
+6
+  
+7 
+7 
+7
+  
+8 
+8 
+8
+  
+9 
+9 
+9
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+Month
+Day
+Year
+K.  DATE OF BIRTH
+N. CURRENT 
+GRADE LEVEL
+Not yet in 9th grade
+9th
+10th
+11th
+12th
+No longer in 
+high school
+B123456789T
+779934
+
+
+--- PAGE BREAK ---
+
+P.  LANGUAGE — Do not complete this section unless instructed to do so.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+ A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I
+If this answer sheet is for the French Language and Culture, German Language and Culture, Italian Language and Culture, Spanish Language 
+and Culture, or Spanish Literature and Culture Exam, please answer the following questions. Your responses will not affect your score.
+1.  Have you lived or studied for one month or more in a country where the language of the 
+exam you are now taking is spoken?
+Yes 
+No
+DO NOT WRITE IN THIS AREA
+O.  SURVEY QUESTIONS — Answer the survey questions in the AP Student Pack. Do not put responses to exam questions in this section. 
+A P Answer Sheet 2015 Page Two
+COMPLETE THIS AREA AT EACH EXAM (IF APPLICABLE).
+Indicate your answers to the exam questions in this section (pages 2 and 3). Mark only one response per question 
+for Questions 1 through 120. If a question has only four answer options, do not mark option E. Answers written in 
+the multiple-choice booklet will not be scored.
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+QUESTIONS 1–75
+Yes 
+No
+2.  Do you regularly speak or hear the language at home?
+ 
+A 
+B 
+C 
+D
+ 
+A 
+B 
+C 
+D
+You must use a No. 2 pencil and marks must be complete. Do not use a mechanical pencil. It 
+is very important that you fill in the entire circle darkly and completely. If you change your response, 
+erase as completely as possible. Incomplete marks or erasures may affect your score.
+COMPLETE MARK
+EXAMPLES OF
+INCOMPLETE MARKS
+SELECTED MEDIA EXAMS
+R
+W
+O
+OTHER EXAMS
+R
+W
+O
+PT02
+TOTAL
+PT03
+Subscore (if applicable)
+PT04
+Subscore (if applicable)
+ETS USE ONLY
+Exam
+Exam
+  
+ 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9
+  
+ 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9
+  
+ 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9
+  
+ 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9
+
+
+--- PAGE BREAK ---
+
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+For Students Taking AP Biology
+  
+ 
+/ 
+/ 
+/
+ – 
+. 
+. 
+. 
+. 
+.
+  
+ 
+0 
+0 
+0 
+0
+  
+1 
+1 
+1 
+1 
+1
+  
+2 
+2 
+2 
+2 
+2
+  
+3 
+3 
+3 
+3 
+3
+  
+4 
+4 
+4 
+4 
+4
+  
+5 
+5 
+5 
+5 
+5
+  
+6 
+6 
+6 
+6 
+6
+  
+7 
+7 
+7 
+7 
+7
+  
+8 
+8 
+8 
+8 
+8
+  
+9 
+9 
+9 
+9 
+9
+121
+123
+122
+124
+125
+126
+Write your answer in the boxes at the top of the griddable area and fill in the corresponding circles. 
+Mark only one circle in any column. You will receive credit only if the circles are filled in correctly.
+A P Answer Sheet 2015 Page Three
+DO NOT WRITE IN THIS AREA
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+ A 
+B 
+C 
+D 
+E
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+Be sure each mark is dark and completely fills the circle. If a question has only four answer options, do not mark option E.
+QUESTIONS 76–120
+© 2014 The College Board. College Board, AP, Student Search Service and the acorn logo are registered trademarks of the College Board.
+QUESTIONS 121–126
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+ A 
+B 
+C 
+D
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+For Students Taking AP Physics 1 or AP Physics 2
+Mark two responses per question. You will receive credit only if both correct responses are selected. 
+QUESTIONS 131–142
+
+
+--- PAGE BREAK ---
+
+X.  ETHNICITY/RACE
+COMPLETE THIS AREA ONLY ONCE.
+ZIP OR POSTAL CODE
+COUNTRY 
+CODE
+A P Answer Sheet 2015 Page Four
+STREET ADDRESS (include street number, street name, apartment number, etc.)
+CITY
+ A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A
+ B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B
+ C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C
+ D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D
+ E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E
+ F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F
+ G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G
+ H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H
+ I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I
+ J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J
+ K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K
+ L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L
+ M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M
+ N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N
+ O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O
+ P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P
+ Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q
+ R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R
+ S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S
+ T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T
+ U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U
+ V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V
+ W W W W W W W W W W W W W W W W W W W W W W W W W W
+ X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X
+ Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y
+ Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+  
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/
+ A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A
+ B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B
+ C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C
+ D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D
+ E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E
+ F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F
+ G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G
+ H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H
+ I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I
+ J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J
+ K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K
+ L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L
+ M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M
+ N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N
+ O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O
+ P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P
+ Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q
+ R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R
+ S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S
+ T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T
+ U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U
+ V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V
+ W W W W W W W W W W W W W
+ X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X
+ Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y
+ Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z
+ A 
+A 
+A 
+A 
+A 
+A 
+A 
+A 
+A
+ B 
+B 
+B 
+B 
+B 
+B 
+B 
+B 
+B
+ C 
+C 
+C 
+C 
+C 
+C 
+C 
+C 
+C
+ D 
+D 
+D 
+D 
+D 
+D 
+D 
+D 
+D
+ E 
+E 
+E 
+E 
+E 
+E 
+E 
+E 
+E
+ F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F
+ G 
+G 
+G 
+G 
+G 
+G 
+G 
+G 
+G
+ H 
+H 
+H 
+H 
+H 
+H 
+H 
+H 
+H
+ I 
+I 
+I 
+I 
+I 
+I 
+I 
+I 
+I
+ J 
+J 
+J 
+J 
+J 
+J 
+J 
+J 
+J
+ K 
+K 
+K 
+K 
+K 
+K 
+K 
+K 
+K
+ L 
+L 
+L 
+L 
+L 
+L 
+L 
+L 
+L
+ M 
+M 
+M 
+M 
+M 
+M 
+M 
+M 
+M
+ N 
+N 
+N 
+N 
+N 
+N 
+N 
+N 
+N
+ O 
+O 
+O 
+O 
+O 
+O 
+O 
+O 
+O
+ P 
+P 
+P 
+P 
+P 
+P 
+P 
+P 
+P
+ Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q 
+Q
+ R 
+R 
+R 
+R 
+R 
+R 
+R 
+R 
+R
+ S 
+S 
+S 
+S 
+S 
+S 
+S 
+S 
+S
+ T 
+T 
+T 
+T 
+T 
+T 
+T 
+T 
+T
+ U 
+U 
+U 
+U 
+U 
+U 
+U 
+U 
+U
+ V 
+V 
+V 
+V 
+V 
+V 
+V 
+V 
+V
+ W W W W W W W W W
+ X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X
+ Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y
+ Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z 
+Z
+ 0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+ 1 
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+1
+ 2 
+2 
+2 
+2 
+2 
+2 
+2 
+2 
+2
+ 3 
+3 
+3 
+3 
+3 
+3 
+3 
+3 
+3
+ 4 
+4 
+4 
+4 
+4 
+4 
+4 
+4 
+4
+ 5 
+5 
+5 
+5 
+5 
+5 
+5 
+5 
+5
+ 6 
+6 
+6 
+6 
+6 
+6 
+6 
+6 
+6
+ 7 
+7 
+7 
+7 
+7 
+7 
+7 
+7 
+7
+ 8 
+8 
+8 
+8 
+8 
+8 
+8 
+8 
+8
+ 9 
+9 
+9 
+9 
+9 
+9 
+9 
+9 
+9
+  
+/ 
+/ 
+/ 
+/ 
+/ 
+/ 
+/
+ 0 
+0 
+0
+ 1 
+1 
+1
+ 2 
+2 
+2
+ 3 
+3 
+3
+ 4 
+4 
+4
+ 5 
+5 
+5
+ 6 
+6 
+6
+ 7 
+7 
+7
+ 8 
+8 
+8
+ 9 
+9 
+9
+Q. YOUR MAILING ADDRESS
+Use the address abbreviations from your AP Student Pack. Fill in only one circle per column. Indicate a space in your address by leaving a blank box; do not grid that column. 
+AK
+AL
+AR
+AZ
+CA
+CO
+CT
+DC
+DE
+FL
+GA
+HI
+IA
+ID
+IL
+IN
+KS
+KY
+LA
+MA
+MD
+ME
+MI
+MN
+MO
+MS
+MT
+NC
+ND
+NE
+NH
+NJ
+NM
+NV
+NY
+OH
+OK
+OR
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VA
+VT
+WA
+WI
+WV
+WY
+Puerto 
+Rico
+AA
+AE
+AP
+Other
+STATE
+R.  FOR STUDENTS OUTSIDE 
+THE UNITED STATES ONLY
+T. EMAIL ADDRESS
+If your address does not fit in the spaces provided in Item Q, fill in as 
+many circles as you can, then fill in the circle in Item R and print the remainder of your address in the spaces provided.
+Address 
+City 
+State or Province 
+Country 
+ZIP or Postal Code
+By providing your email address, you are granting the College Board 
+permission to use your email in accordance with the policies in the 
+2014-15 Bulletin for AP Students and Parents.
+S.  STUDENT IDENTIFIER (Student ID Number)
+U.  STUDENT SEARCH SERVICE®
+Colleges and scholarship programs may 
+request your information to inform you of 
+educational opportunities and financial aid.
+Would you like us to supply your information?
+If you don’t answer and previously chose to 
+participate in this service, we will continue 
+providing your information.
+Colleges and scholarship programs may 
+request your information to inform you of 
+educational opportunities and financial aid.
+Would you like us to supply your information?
+If you don’t answer and previously chose to 
+participate in this service, we will continue 
+providing your information.
+Y.  PARENTAL EDUCATION LEVEL
+American Indian or Alaska Native
+Asian, Asian American or Pacific Islander
+Black or African American
+Mexican or Mexican American
+Puerto Rican
+Other Hispanic, Latino or Latin American
+White
+Other
+W.WHICH LANGUAGE DO YOU 
+KNOW BEST?
+Grade school
+Some high school
+High school diploma or equivalent
+Vocational or trade school
+Some college
+Associate or two-year degree
+Bachelor’s or four-year degree
+Some graduate or professional school
+Graduate or professional degree
+Mother or female guardian
+Father or male guardian
+V. SEX
+Female
+Male
+English
+English and another language 
+about the same
+Another language
+Yes 
+No
+In the first column, indicate the highest level of education 
+of your parent/guardian. If you have two parents/guardians, 
+indicate the level of education for your other parent/
+guardian in the second column. In the appropriate column 
+for each parent/guardian, indicate whether this is your 
+mother or female guardian or your father or male guardian.
+
+
+--- PAGE BREAK ---
+
+A 
+P ® Comput er Scie n ce A Exam 
+SECTION I: Multiple Choice 
+2015
+Do  No t Op en T his Boo klet Unt il You Ar e Told To Do So. 
+At a Glance 
+Total Time 
+1 hour, 15 minutes 
+Number of Questions 
+40 
+Percent of Total Score 
+50% 
+Writing Instrument 
+Pencil required 
+Electronic Device 
+None allowed 
+Instructions 
+The Java Quick Reference is located at the back of this booklet. 
+Section I of this exam contains 40 multiple-choice questions. Fill in only the circles for 
+numbers 1 through 40 on your answer sheet. 
+Indicate all of your answers to the multiple-choice questions on the answer sheet. No 
+credit will be given for anything written in this exam booklet, but you may use the booklet 
+for notes or scratch work. After you have decided which of the suggested answers is best, 
+completely fill in the corresponding circle on the answer sheet. Give only one answer to 
+each question. If you change an answer, be sure that the previous mark is erased 
+completely. Here is a sample question and answer. Sample Question
+Chicago is a 
+A. state, B. city, C. country, D. continent E. village
+Sample Answer
+5 answer circles are shown. The correct answer B, is filled in.
+Use your time effectively, working as quickly as you can without losing accuracy. Do not 
+spend too much time on any one question. Go on to other questions and come back to 
+the ones you have not answered if you have time. It is not expected that everyone will 
+know the answers to all of the multiple-choice questions. 
+Your total score on the multiple-choice section is based only on the number of questions 
+answered correctly. Points are not deducted for incorrect answers or unanswered 
+questions. 
+Form O  
+Form Code 4LBP  
+31  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-4- 
+COMPUTER SCIENCE A 
+SECTION I 
+Time—1 hour and 15 minutes 
+Number of questions—40 
+Percent of total score—50 
+ 
+Directions:  Determine the answer to each of the following questions or incomplete statements, using the available 
+space for any necessary scratch work. Then decide which is the best of the choices given and fill in the corresponding 
+circle on the answer sheet. No credit will be given for anything written in the examination booklet. Do not spend too 
+much time on any one problem. 
+ 
+Notes:   
+• 
+Assume that the classes listed in the Java Quick Reference have been imported where appropriate. 
+• 
+Assume that declarations of variables and methods appear within the context of an enclosing class. 
+• 
+Assume that method calls that are not prefixed with an object or class name and are not shown within a complete 
+class definition appear within the context of an enclosing class. 
+• 
+Unless otherwise noted in the question, assume that parameters in method calls are not null  and that 
+methods are called only when their preconditions are satisfied. 
+ 
+ 
+ 1. Consider the following incomplete method, which is intended to return the number of integers that evenly divide 
+the integer input Val, all one word and capital V – henceforth referred to as input VaVal. Assume that input Val is greater than 0. 
+ 
+The code shown consists of 12 lines
+
+Line 
+1:
+ public static in
+t num Divisors all one word and capita
+l D 
+open parenthesis int input 
+Val cl
+ose parenthesis
+
+Line
+ 2: 
+open curly brack
+et
+Line 3: int count equals zero semicolon
+Line 4: for open parenthesis int k equals one semicolon k less than or equal to input Val semicolon k plus plus close parenthesis
+Line 5: open curly bracket
+Line 6: if open parenthesis forward slash asterisk condition asterisk forward slash close parenthesis
+Line 7: open curly bracket
+Line 8: count plus plus, semicolon
+Line 9: close curly bracket
+Line 10: close curly bracket
+Line 11: return count semicolon
+Line 12: close curly bracket
+ 
+  Which of the following can be used to replace forward slash asterisk, condition, asterisk forward slash so that num Divisors, all one word and capital D will work as 
+intended? 
+(A) input Val percent k equals equals zero
+(B) k percent input Val equals equals zero 
+(C) input Val percent k exclamation point equals zero
+(D) input Val forward slash k equals equals zero
+(E) k forward slash input Val greater than zero
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-5- 
+ 2. Consider the following code segment. 
+ 
+The code shown consists of 1
+3 
+lines
+
+L
+ine 1: for open parenthesi
+s in
+t r equals 3 semicolon r gr
+eate
+r than zero semicolon r minu
+s mi
+nus close parenthesis
+Line
+ 2: 
+o
+pen curly bracket
+Line 
+3: int c semicolon
+Line 4: for open parenthesis c equals 1 semicolon c less than r semicolon c plus plus close parenthesis
+Line 5: open curly bracket
+Line 6: System dot out dot print open parenthesis open quote dash close quote close parenthesis semicolon
+Line 7: close curly bracket
+Line 8: for open parenthesis c equals r semicolon c less than or equal to 3 semicolon c plus plus close parenthesis
+Line 9: open curly bracket
+Line 10: System dot out dot print open parenthesis open quote asterisk close quote close parenthesis semicolon 
+Line 11: close curly bracket
+Line 12: System dot out dot print l n open parenthesis close parenthesis semicolon
+Line 13: close curly bracket
+ 
+  What is printed as a result of executing the code segment? 
+(A)  Lin
+e 1
+: dash dash asterisk
+Line 2: dash asterisk asterisk
+Line 3: asterisk asterisk asterisk
+ 
+ 
+ 
+ 
+(B)  Lin
+e 1
+: asterisk dash dash
+Line 2: asterisk asterisk dash
+Line 3: asterisk asterisk asterisk
+ 
+ 
+ 
+ 
+(C)  Lin
+e 1
+: asterisk asterisk asterisk
+Line 2: dash asterisk asterisk
+Line 3: dash dash asterisk
+ 
+ 
+ 
+ 
+(D)  Lin
+e 1
+: asterisk asterisk asterisk
+Line 2: asterisk asterisk dash
+Line 3: asterisk dash dash
+ 
+ 
+ 
+ 
+(E)  Lin
+e 1
+: dash dash asterisk
+Line 2: asterisk asterisk asterisk
+Line 3: dash dash asterisk
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-6- 
+ 3. Consider the following two classes. 
+ 
+The code shown 
+co
+nsists of 14 lines
+
+
+Lin
+e 1: public class capital A
+
+Li
+ne
+ 
+2
+: open curly bracket
+Lin
+e 
+3: public void show o
+pen 
+parenthesis close parenthes
+is
+Line 4: open curly bracket
+Line 5: System dot out dot print open parenthesis open quote capital A close quote close parenthesis semicolon
+Line 6: close curly bracket
+Line 7: close curly bracket
+Line 8: public class capital B extends capital A.
+Line 9: open curly bracket
+Line 10: public void show open parenthesis close parenthesis
+Line 11: open curly bracket
+Line 12: System dot out dot print open parenthesis open quote capital B close quote close parenthesis semicolon
+Line 13: close curly bracket
+Line 14: close curly bracket
+  
+  
+ 
+  What is printed as a result of executing the following code segment? 
+ 
+The code shown c
+onsists of 2 lines
+
+Line 1: capital A obj equals new capital B open parenthesis close parenthesis semicolon
+Line 2: obj dot show open parenthesis close parenthesis semicolon
+ 
+ 
+(A) A 
+(B) B 
+(C) capital A capital B 
+(D) capital B capital A 
+(E) The code results in a runtime error. 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-7- 
+ 4. Consider the following instance variable and method. 
+ 
+The code shown cons
+i
+sts of 16 lines
+
+Line 1: privat
+e int open bracket close bracket, a r r sem
+icol
+on
+Line 2: forward s
+la
+sh asterisk asteri
+s
+k Precondition colon a
+ r r
+ dot length greater th
+an zer
+o
+Line 3: at symbol
+ retur
+n th
+e
+ largest value in
+ array a r r
+Line 4: asterisk forward slash
+Line 5: public int find Max all one word and capital M – henceforth referred to as find Max, open parenthesis close parenthesis
+Line 6: open curly bracket
+Line 7: int max Val, all one word and capital V – henceforth referred to as max Val, equals zero semicolon
+Line 8: for open parenthesis int val colon a r r close parenthesis
+Line 9: open curly bracket
+Line 10: if open parenthesis val greater than max Val close parenthesis
+Line 11: open curly bracket
+Line 12: max Val equals val semicolon
+Line 13: close curly bracket
+Line 14: close curly bracket
+Line 15: return max Val semicolon
+Line 16: close curly bracket
+ 
+  Method find Max is intended to return the largest value in the array a r r. Which of the following best 
+describes the conditions under which the method find Max will not work as intended? 
+(A) The largest value in a r r occurs only once and is in a r r open bracket zero close bracket. 
+(B) The largest value in a r r occurs only once and is in a r r open bracket a r r dot length minus 1 close bracket. 
+(C) The largest value in a r r is negative. 
+(D) The largest value in a r r is zero. 
+(E) The largest value in a r r occurs more than once. 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-8- 
+ 5. Assume that x and y are boolean variables and have been properly initialized. 
+ 
+open parenthesis x vertical bar vertical bar y close parenthesis ampersand ampersand x 
+ 
+  Which of the following always evaluates to the same value as the expression above? 
+(A) x 
+(B) y 
+(C) x ampersand ampersand y
+(D) x vertical bar vertical bar y
+(E) x exclamation point equals y 
+ 
+ 
+ 6. Consider the following method, which is intended to return true if at least one of the three strings s 1, s 2, 
+or s 3 contains the substring "art". Otherwise, the method should return false. 
+ 
+The method shown consists of 5 lines of code
+
+Line 1: public stat
+ic
+ 
+boolean contains Art all one 
+w
+ord and capital A – henceforth referr
+e
+d to as contains Art open parenthesis String s 1 comma String s 2 comma String s 3 close parenthesis.
+Line 2: open curly bracket
+Line 3: String all equals s 1 plus s 2 plus s 3 semicolon
+Line 4: return open parenthesis all dot index Of all one word and capital O open parenthesis open quote art close quote close parenthesis exclamation point equals negative 1 close parenthesis semicolon
+Line 5: close curly bracket
+ 
+  Which of the following method calls demonstrates that the method does not work as intended? 
+(A) contains Art open parenthesis open quote rattrap close quote comma open quote similar close quote comma open quote today close quote close parenthesis
+(B) contains Art open parenthesis open quote start close quote comma open quote article close quote comma open quote Bart close quote close parenthesis
+(C) contains Art open parenthesis open quote harm close quote comma open quote chortle close quote comma open quote crowbar close quote close parenthesis 
+(D) contains Art open parenthesis open quote matriculate close quote comma open quote carat close quote comma open quote arbitrary close quote close parenthesis 
+(E) contains Art open parenthesis open quote darkroom close quote comma open quote cartoon close quote comma open quote articulate close quote close parenthesis 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-9- 
+ 7. Consider the following code segment. 
+ 
+The code shown consists of 11 lines
+
+Li
+ne
+ 1: for open parenthesis int outer equals 1 sem
+icol
+on outer less than or eq
+ual to
+ 6 semicolon outer plus plus close par
+enthes
+is
+Line 2: open curly brack
+et
+Line 3: for open parenthesis int inner equals outer semicolon inner less than or equal to 6 semicolon inner plus plus close parenthesis
+Line 4: open curly bracket
+Line 5: if open parenthesis inner percent 2 equals equals zero close parenthesis
+Line 6: open curly bracket
+Line 7: System dot out dot print open parenthesis inner plus open quote space space close quote close parenthesis semicolon
+Line 8: close curly bracket
+Line 9: close curly bracket
+Line 10: System dot out dot print l n open parenthesis close parenthesis semicolon
+Line 11: close curly bracket
+ 
+  What will be printed as a result of executing the code segment?Each option shows rows of numbers.
+(A)  Row 1: 2
+ spac
+e space 4 space space 6 space space
+Row 2: 4 space space 6 space space 
+Row 3: 6 space space
+ 
+(B)  Row 1: 
+2 space
+ space 4 space space 6 space space
+Row 2: 2 space space 4 space space 6 space space
+Row 3: 2 space space 4 space space 6 space space
+ 
+ 
+ 
+ 
+(C)  Row 1: 
+2 space
+ spac
+e 4 s
+pa
+ce space 6 space space
+Row 2: 2 space space 4 space space 6 space space
+Row 3: 4 space space 6 space space
+Row 4: 4 space space 6 space space
+Row 5: 6 space space
+Row 6: 6 space space
+ 
+ 
+ 
+(D)  Row 1: 2
+ space s
+pace 4 s
+pace spa
+ce 6 spa
+ce space
+Row 2: 2 space space 4 space space 6 space space
+Row 3: 2 space space 4 space space 6 space space
+Row 4: 2 space space 4 space space 6 space space
+Row 5: 2 space space 4 space space 6 space space
+Row 6: 2 space space 4 space space 6 space space
+ 
+(E)  Row 
+1: 2
+ s
+pace space 4 space space
+Row 2: 2 space space 4 space space
+Row 3: 4 space space
+Row 4: 4 space space
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-10- 
+ 8. Consider the following method. 
+ 
+The method shown consists of 9 lines of code
+
+Line 1: pub
+li
+c static int open bracket close bracket o
+p
+eration open parenthesis int open bracket cl
+ose 
+bracket open bracket close bracket matrix com
+ma i
+nt r comma int c 
+close parenthesis
+Line 2: open curly bracket
+Line 3: int open bracket close bracket result equals new int open bracket matrix dot length close bracket, semicolon
+Line 4: for open parenthesis int j equals zero semicolon j less than matrix dot length semicolon j plus plus close parenthesis
+Line 5: open curly bracket
+Line 6: result, open bracket j close bracket, equals matrix open bracket r close bracket open bracket j close bracket asterisk matrix open bracket j close bracket open bracket c close bracket semicolon
+Line 7: close curly bracket
+Line 8: return result, semicolon
+Line 9: close curly bracket
+ 
+ 
+  The following code segment appears in another method in the same class. 
+ 
+The code segment shown consis
+ts of 5 lines of code
+
+Line
+ 1: int open bracket close br
+acket open bracket close brack
+e
+t mat equals open curly bracket open curly bracket 3 comma 2 comma 1 comma 4 close curly bracket comma
+Line 2: open curly bracket 1 comma 2 comma 3 comma 4 close curly bracket comma
+Line 3: open curly bracket 2 comma 2 comma 1 comma 2 close curly bracket comma
+Line 4: open curly bracket 1 comma 1 comma 1 comma 1 close curly bracket close curly bracket semicolon
+Line 5: int open bracket close bracket a r r equals operation open parenthesis mat comma 1 comma 2 close parenthesis semicolon 
+ 
+  Which of the following represents the contents of a r r as a result of executing the code segment? 
+(A) open curly bracket 6 comma 4 comma 2 comma 4 close curly bracket
+(B) open curly bracket 1 comma 6 comma 3 comma 4 close curly bracket 
+(C) open curly bracket 4 comma 3 comma 6 comma 1 close curly bracket
+(D) open curly bracket 4 comma 4 comma 2 comma 2 close curly bracket
+(E) open curly bracket 2 comma 2 comma 4 comma 4 close curly bracket
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-11- 
+ 9. A pair of number cubes is used in a game of chance. Each number cube has six sides, numbered from 1 to 6, 
+inclusive, and there is an equal probability for each of the numbers to appear on the top side (indicating the 
+cube's value) when the number cube is rolled. The following incomplete statement appears in a program that 
+computes the sum of the values produced by rolling two number cubes. 
+ 
+int sum equals forward slash asterisk missing code asterisk forward slash semicolon. 
+ 
+ 
+  Which of the following replacements for forward slash asterisk missing code asterisk forward slash would best simulate the value produced as a 
+result of rolling two number cubes? 
+(A) 2 asterisk open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 6 close parenthesis  
+(B) 2 asterisk open parenthesis int, close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 7 close parenthesis
+(C) open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 6 close parenthesis plus open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 6 close parenthesis
+(D) open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 13 close parenthesis
+(E) 2 plus open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 6 close parenthesis plus open parenthesis int close parenthesis open parenthesis Math dot random open parenthesis close parenthesis asterisk 6 close parenthesis 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-12- 
+10. Consider the following interface and class declarations. 
+ 
+The code shown consists o
+f 6 lines
+
+Line 1: public interface
+ capital Student
+Line
+ 2: open curly bracket forward slash 
+asterisk implementation not shown asterisk forward slash, clo
+se curly bracket
+Line 3: public class capital Athlete 
+Line 4: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+Line 5: public class Tennis Player all one word and capital T and P – henceforth referred to as Tennis Player, extends Athlete implements Student 
+Line 6: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+ 
+ 
+ 
+  Assume that each class has a zero-parameter constructor. Which of the following is NOT a valid declaration? 
+(A) Student a equals new Tennis Player open parenthesis close parenthesis semicolon 
+(B) Tennis Player b equals new Tennis Player open parenthesis close parenthesis semicolon 
+(C) Athlete c equals new Tennis Player open parenthesis close parenthesis semicolon 
+(D) Student d equals new Athlete open parenthesis close parenthesis semicolon
+(E) Athlete e equals new Athlete open parenthesis close parenthesis semicolon 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-13- 
+11. Consider the following method. 
+ 
+The method shown consists of 9 lines of co
+de
+
+
+Line 1: public s
+t
+atic boolean mystery open parenthesis Str
+ing 
+s t r close parenthesis
+Line 2: open curly
+ bra
+c
+ket
+Line 3: String temp eq
+uals open quote close quote semicolon
+Line 4: for open parenthesis int k equals s t r dot length open parenthesis close parenthesis semicolon k greater than zero semicolon k minus minus close parenthesis
+Line 5: open curly bracket
+Line 6: temp equals temp plus s t r dot substring open parenthesis k minus 1 comma k close parenthesis, semicolon
+Line 7: close curly bracket
+Line 8: return temp dot equals open parenthesis s t r close parenthesis semicolon
+Line 9: close curly bracket
+ 
+  Which of the following calls to mystery will return true ? 
+(A) mystery("no") 
+(B) mystery("on") 
+(C) mystery("nnoo") 
+(D) mystery("nono") 
+(E) mystery("noon") 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-14- 
+12. Assume that x and y are boolean variables and have been properly initialized. 
+ 
+open parenthesis x ampersand ampersand y close parenthesis ampersand ampersand exclamation point open parenthesis x vertical bar vertical bar y close parenthesis  
+ 
+  Which of the following best describes the result of evaluating the expression above? 
+(A)  true always 
+(B)  false always 
+(C)  true only when x is true and y is true 
+(D)  true only when x and y have the same value 
+(E)  true only when x and y have different values 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-15- 
+13. Consider the following instance variable and method. 
+ 
+The method shown consis
+t
+s of 8 lines of code
+
+Lin
+e 
+1: private int open bracket close bracket numbers
+ sem
+icolon
+Line 2: public void mystery o
+pen 
+parenthesis int x close parenthesis
+Line 3: open curly bracket
+Line 4: for open parenthesis int k equals 1 semicolon k less than numbers dot length semicolon k equals k plus x close parenthesis
+Line 5: open curly bracket
+Line 6: numbers open bracket k close bracket equals numbers open bracket k minus 1 close bracket plus x semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+ 
+  Assume that numbers has been initialized with the following values. 
+ 
+open curly bracket 17 comma 34 comma 21 comma 42 comma 15 comma 69 comma 48 comma 25 comma 39 close curly bracket
+ 
+  Which of the following represents the order of the values in numbers as a result of the call mystery(3) ? 
+(A) open curly bracket 17 comma 20 comma 21 comma 42 comma 45 comma 69 comma 48 comma 51 comma 39 close curly bracket
+(B) open curly bracket 17 comma 20 comma 23 comma 26 comma 29 comma 32 comma 35 comma 38 comma 41 close curly bracket
+(C) open curly bracket 17 comma 37 comma 21 comma 42 comma 18 comma 69 comma 48 comma 28 comma 39 close curly bracket
+(D) open curly bracket 20 comma 23 comma 21 comma 42 comma 45 comma 69 comma 51 comma 54 comma 39 close curly bracket 
+(E) open curly bracket 20 comma 34 comma 21 comma 45 comma 15 comma 69 comma 51 comma 25 comma 39 close curly bracket 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-16- 
+14. Consider the following method, biggest, which is intended to return the greatest of three integers. It does  
+not always work as intended. 
+ 
+The method shown consists of 15 lines of code
+
+Line 1: public static int 
+bigg
+est open paren
+thes
+is int a comma int b comma int 
+c cl
+ose parenthesi
+s
+L
+ine 2: 
+open
+ curly bracket
+
+Li
+ne 3: if open parenthesis open parenthesis a greater than b close parenthesis ampersand ampersand open parenthesis a greater than c close parenthesis close parenthesis
+Line 4: open curly bracket
+Line 5: return a semicolon
+Line 6: close curly bracket
+Line 7: else if open parenthesis open parenthesis b greater than a close parenthesis ampersand ampersand open parenthesis b greater than c close parenthesis close parenthesis
+Line 8: open curly bracket
+Line 9: return b semicolon
+Line 10: close curly bracket
+Line 11: else
+Line 12: open curly bracket
+Line 13: return c semicolon
+Line 14: close curly bracket
+Line 15: close curly bracket
+ 
+  Which of the following best describes the error in the method? 
+(A) biggest always returns the value of a. 
+(B) biggest may not work correctly when c has the greatest value. 
+(C) biggest may not work correctly when a and b have equal values. 
+(D) biggest may not work correctly when a and c have equal values. 
+(E) biggest may not work correctly when b and c have equal values. 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-17- 
+15. Consider the following method. 
+ 
+The method shown consists of 11 lines
+ o
+f code
+
+Line 1
+: publi
+c static void show Me
+, al
+l one w
+ord 
+and capital M – henceforth referr
+ed t
+o as show Me, open parenthesis int a r g close parenthesis
+Line 2: open curly bracket
+Line 3: if open parenthesis a r g less than 10 close parenthesis
+Line 4: open curly bracket
+Line 5: show Me, open parenthesis a r g plus 1 close parenthesis semicolon
+Line 6: close curly bracket
+Line 7: else
+Line 8: open curly bracket
+Line 9: System dot out dot print, open parenthesis a r g plus open quote space close quote close parenthesis semicolon
+Line 10: close curly bracket
+Line 11: close curly bracket
+ 
+  What will be printed as a result of the call show Me open parenthesis zero close parenthesis ? 
+(A) 10 space 
+(B) 11 space 
+(C) zero space 1 space 2 space 3 space 4 space 5 space 6 space 7 space 8 space 9 space
+(D) 9 space 8 space 7 space 6 space 5 space 4 space 3 space 2 space 1 space zero space  
+(E) zero space 1 space 2 space 3 space 4 space 5 space 6 space 7 space 8 space 9 space 10 space 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-18- 
+16. Consider the following method. 
+ 
+The method shown consists of 18 lines of code
+
+Line 1: forward slash asterisk asterisk Prec
+on
+dition colon values has at l
+east one row aster
+isk forward slash
+Line 2: 
+publ
+ic static int calculate open parenthesis 
+int op
+en bracket close bracket o
+pen brac
+ket close bracket values
+ close parenthesis
+Line 3: 
+open c
+urly
+ bracket
+Line 4:
+ int found equals values open bracket zero close bracket open bracket zero close bracket semicolon
+Line 5: int result equals zero semicolon
+Line 6: for open parenthesis int open bracket close bracket row colon values close parenthesis
+Line 7: open curly bracket
+Line 8: for, open parenthesis int y equals zero semicolon y less than row dot length semicolon y plus plus close parenthesis
+Line 9: open curly bracket
+Line 10: if open parenthesis row open bracket y close bracket greater than found close parenthesis
+Line 11: open curly bracket
+Line 12: found equals row open bracket y close bracket semicolon
+Line 13: result equals y semicolon
+Line 14: close curly bracket
+Line 15: close curly bracket
+Line 16: close curly bracket
+Line 17: return result semicolon
+Line 18: close curly bracket
+ 
+  Which of the following best describes what is returned by the calculate method? 
+(A) The largest value in the two-dimensional array 
+(B) The smallest value in the two-dimensional array 
+(C) The row index of an element with the largest value in the two-dimensional array 
+(D) The row index of an element with the smallest value in the two-dimensional array 
+(E) The column index of an element with the largest value in the two-dimensional array 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-19- 
+17. Consider the following method. 
+ 
+The method shown consists of 
+10 lines of code
+
+Line 1: forwar
+d 
+slash forward s
+l
+ash asterisk Precondition colon num greater than ze
+ro, 
+asterisk forward 
+slas
+h
+
+Line 2: publ
+ic static int do What, all one word and capital W – henceforth referred to as do What, open parenthesis int num close parenthesis
+Line 3: open curly bracket
+Line 4: int var equals zero semicolon
+Line 5: for open parenthesis int loop equals 1 semicolon loop less than or equal to num semicolon loop equals loop plus 2 close parenthesis
+Line 6: open curly bracket
+Line 7: var plus equals loop semicolon
+Line 8: close curly bracket
+Line 9: return var semicolon
+Line 10: close curly bracket
+ 
+  Which of the following best describes the value returned from a call to do What ? 
+(A) num
+(B) The sum of all integers between 1 and num, inclusive 
+(C) The sum of all even integers between 1 and num, inclusive 
+(D) The sum of all odd integers between 1 and num, inclusive 
+ 
+(E) No value is returned because of an infinite loop. 
+ 
+ 
+18. What is printed as a result of executing the following statement? 
+ 
+System dot out dot print l n open parenthesis 404 forward slash 10 asterisk 10 plus 1 close parenthesis semicolon 
+ 
+(A) 4 
+(B) 5 
+(C) 41 
+(D) 401 
+(E) 405 
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-20- 
+19. Consider the following code segment. 
+ 
+The code sh
+own consists of 9 lines
+
+
+L
+ine 1: int x equal
+s 1 
+semicolon
+Line 2: while open p
+aren
+thesis forwar
+d slash asterisk condition asterisk forward slash close parenthesis
+Line 3: open curly bracket
+Line 4: if open parenthesis x percent 2 equals equals zero close parenthesis
+Line 5: open curly bracket
+Line 6: System dot out dot print open parenthesis x plus open quote space close quote close parenthesis semicolon
+Line 7: close curly bracket
+Line 8: x equals x plus 2, semicolon
+Line 9: close curly bracket
+ 
+  The following conditions have been proposed to replace forward slash asterisk, condition, asterisk forward slash in the code segment. 
+ 
+ 
+Rom
+an Num
+eral
+ 1. x le
+ss th
+an zero
+Roman Numeral 2. x less than or equal to 1
+Roman Numeral 3. x less than 10
+ 
+ 
+ 
+  For which of the conditions will nothing be printed? 
+(A) I only 
+(B) II only 
+(C) I and II only  
+(D) I and III only 
+(E) I, II, and III 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-21- 
+20. Consider the following method. 
+ 
+The method shown consists of 24 line
+s of code
+
+Line 1: forward slash as
+te
+risk asterisk Pre
+condition colon a
+ r r dot lengt
+h
+ greater than zero asterisk forward slash
+Line 2: 
+publ
+ic static int m
+ystery open parenthesis int open bracket close bracket a r r 
+close 
+parenthesis
+Line 3: open curly brac
+ket
+Lin
+e 4: int index eq
+uals zer
+o semi
+c
+olon
+Line 5: int c
+ount e
+quals zero semicolon
+
+Line 6: int m eq
+uals n
+egat
+i
+ve 1 semicolon
+Line 7: for open parenthesis int outer equals zero semicolon outer less than a r r dot length semicolon outer plus plus close parenthesis
+Line 8: open curly bracket
+Line 9: count equals zero semicolon 
+Line 10: for open parenthesis int inner equals outer plus 1 semicolon inner less than a r r dot length semicolon inner plus plus close parenthesis
+Line 11: open curly bracket
+Line 12: if open parenthesis a r r open bracket outer close bracket equals equals a r r open bracket inner close bracket close parenthesis
+Line 13: open curly bracket
+Line 14: count plus plus semicolon
+Line 15: close curly bracket
+Line 16: close curly bracket
+Line 17: if open parenthesis count greater than m close parenthesis
+Line 18: open curly bracket
+Line 19: index equals outer semicolon
+Line 20: m equals count semicolon
+Line 21: close curly bracket
+Line 22: close curly bracket
+Line 23: return index semicolon
+Line 24: close curly bracket
+ 
+  Assume that nums has been declared and initialized as an array of integer values. Which of the following  
+best describes the value returned by the call mystery open parenthesis nums close parenthesis ? 
+(A) The maximum value that occurs in nums  
+(B) An index of the maximum value that occurs in nums  
+(C) The number of times that the maximum value occurs in nums  
+(D) A value that occurs most often in nums  
+(E) An index of a value that occurs most often in nums  
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-22- 
+21. Consider the following recursive method. 
+ 
+The method shown consists of 10 lines of 
+co
+de
+
+Line 1: public stati
+c void, whats I
+t Do
+, all one word and capital I and D – hencefor
+th referred to as whats It Do,
+ open parenthesis Str
+ing 
+s t r close parenthesis
+Line 2: open curly bracket
+Line 3: int len equals s t r dot length open parenthesis close parenthesis semicolon
+Line 4: if open parenthesis len greater than 1 close parenthesis
+Line 5: open curly bracket
+Line 6: String temp equals s t r dot substring open parenthesis zero comma len minus one close parenthesis semicolon
+Line 7: System dot out dot print l n open parenthesis temp close parenthesis semicolon
+Line 8: whats It Do open parenthesis temp close parenthesis semicolon
+Line 9: close curly bracket
+Line 10: close curly bracket
+ 
+  What is printed as a result of the call whats It Do open parenthesis open quote all capital WATCH close quote close parenthesis?Each option shows one or more rows of capitalized letters
+(A)  H 
+(B)  Row 1: W A T C
+(C)  Row 1
+: A 
+T C
+ H
+Row 2: A T C 
+Row 3: A T 
+Row 4: A 
+(D)  Row 1
+: W 
+A T
+ C 
+Row 2: W A T 
+Row 3: W A 
+Row 4: W 
+(E)  Row 1:
+ W A 
+T C 
+H
+Row 2: W A T C 
+Row 3: W A T
+Row 4: W A
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-23- 
+22. Consider the following definition. 
+ 
+int open bracket close bracket
+ open bracket close bracket numbers equals open curly bracket open curly bracket 1 comma 2 comma 3 close curly bracket comma open curly bracket 4 comma 5 comma 6 close curly bracket close curly bracket semicolon
+ 
+  Which of the following code segments produces the output 1 2 3 4 5 6 ? 
+(A) The code shown consists of
+ 7
+ lines
+
+Line 1: fo
+r op
+en parenthesis int open b
+rack
+et close bracket row colon numbers close parenthesis
+Line 2: open curly bracket
+Line 3: for open parenthesis int n colon row close parenthesis
+Line 4: open curly bracket
+Line 5: System dot out dot print open parenthesis n close parenthesis, semicolon
+Line 6: close curly bracket
+Line 7: close curly bracket
+ 
+(B) The code shown consists of
+ 7
+ lines
+
+Line 1: fo
+r op
+en parenthesis int open bracke
+t cl
+ose bracket row colon numbers close parenthesis
+Line 2: open curly bracket
+Line 3: for open parenthesis int n colon row close parenthesis
+Line 4: open curly bracket
+Line 5: System dot out dot print open parenthesis row open bracket n close bracket close parenthesis semicolon
+Line 6: close curly bracket
+Line 7: close curly bracket
+ 
+(C) The code shown consists of 4 lines
+
+Line 1
+: 
+for open parenthesis int r c equa
+ls zero semicolon r c less than numbers dot length semicolon r c plus plus close parenthesis
+Line 2: open curly bracket
+Line 3: System dot out dot print open parenthesis numbers open bracket r c close bracket close parenthesis semicolon
+Line 4: close curly bracket
+ 
+(D) The code shown consists of 7 lines
+
+Line 1:
+ f
+or open parenthesis int r equals zero semic
+olon
+ r less than numbers open bracket zer
+o cl
+ose bracket dot length semicolon r plus plus close parenthesis
+Line 2: open curly bracket
+Line 3: for open parenthesis int c equals zero semicolon c less than numbers dot length semicolon c plus plus close parenthesis
+Line 4: open curly bracket
+Line 5: System dot out dot print open parenthesis numbers open bracket r close bracket open bracket c close bracket close parenthesis semicolon
+Line 6: close curly bracket
+Line 7: close curly bracket
+   
+ 
+(E) The code shown consists of 7 lines
+
+Line 1
+: 
+for open parenthesis int c equals zero semic
+olon
+ c less than numbers open bracket zer
+o cl
+ose bracket dot length semicolon c plus plus close parenthesis
+Line 2: open curly bracket
+Line 3: for, open parenthesis int r equals zero semicolon r less than numbers dot length semicolon r plus plus close parenthesis
+Line 4: open curly bracket
+Line 5: System dot out dot print open parenthesis numbers open bracket r close bracket open bracket c close bracket close parenthesis semicolon
+Line 6: close curly bracket
+Line 7: close curly bracket
+     
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-24- 
+23. Consider the following code segment from an insertion sort program. 
+ 
+The code shown consists of 12 lines
+
+Line 1: for, open parenthes
+is int j equals 1
+ 
+semicolon j less than a r r dot length s
+emic
+olon j plus plus close pa
+renthesis
+
+Li
+n
+e 2: open curly bracket
+Li
+n
+e 3: int insert Item, ca
+pital at Item only and no space between – henceforth referred to as insert Item, equals a r r open bracket j close bracket semicolon 
+Line 4: int k equals j minus 1 semicolon
+Line 5: while open parenthesis k greater than or equal to zero ampersand ampersand insert Item less than a r r open bracket k close bracket close parenthesis
+Line 6: open curly bracket
+Line 7: a r r open bracket k plus 1 close bracket equals a r r open bracket k close bracket semicolon
+Line 8: k minus minus, semicolon
+Line 9: close curly bracket
+Line 10: a r r open bracket k plus 1 close bracket equals insert Item semicolon
+Line 11: forward slash asterisk end of for loop asterisk forward slash
+Line 12: close curly bracket
+ 
+  Assume that array a r r has been defined and initialized with the values open curly bracket 5 comma 4 comma 3 comma 2 comma 1 close curly bracket. What are  
+the values in array a r r after two passes of the for loop (i.e., when j equals 2 at the point indicated by  
+forward slash asterisk end of for loop asterisk forward slash) ? 
+(A) open curly bracket 2 comma 3 comma 4 comma 5 comma 1 close curly bracket 
+(B) open curly bracket 3 comma 2 comma 1 comma 4 comma 5 close curly bracket 
+(C) open curly bracket 3 comma 4 comma 5 comma 2 comma 1 close curly bracket 
+(D) open curly bracket 3 comma 5 comma 2 comma 3 comma 1 close curly bracket 
+(E) open curly bracket 5 comma 3 comma 4 comma 2 comma 1 close curly bracket 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-25- 
+24. Consider the following class. 
+ 
+The code shown consists o
+f 
+9 lines
+
+Line 1: public cla
+ss Some Methods, all one word and capit
+a
+l S and M– henceforth referred to as Some
+ Methods
+Line 2: open curly bracket
+L
+i
+ne 3: public void one open parenthesis int f
+irst close parenthesis
+Line 4: open cu
+rly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket 
+Line 5: public void one open parenthesis int first comma int second close parenthesis
+Line 6: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+Line 7: public void one open parenthesis int first comma capital String second close parenthesis
+Line 8: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+Line 9: close curly bracket
+ 
+  Which of the following methods can be added to the some Methods class without causing a  
+compile-time error? 
+ 
+ 
+Eac
+h roman numeral consists of
+ 2 lines of code
+
+Roman numeral 1.
+
+Line
+ 1: public void one open parenthesis int v
+alue close parenthesis
+Line 2: open 
+c
+urly 
+bracket forward slash asterisk implementation not 
+shown asterisk forward slash close curly bracket
+
+Roman numeral 2.
+Line 1: public void one open parenthesis capital String first comma int second close parenthesis
+Line 2: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+
+Roman numeral 3.
+Line 1: public void one open parenthesis int first comma int second comma int third close parenthesis
+Line 2: open curly bracket forward slash asterisk implementation not shown asterisk forward slash close curly bracket
+ 
+ 
+ 
+(A) I only 
+(B) I and II only 
+(C) I and III only 
+(D) II and III only 
+(E) I, II, and III 
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-26- 
+25. Consider the following code segment.  
+ 
+The code shown 
+c
+onsists of 9 lines
+
+Line 1
+: 
+int count equals zero, semicol
+on
+Line 2: for o
+pen 
+pa
+renthesis int x equals zero semicolon x less than 4 semicolon x plus plus close parenthesis
+Line 3: open curly bracket
+Line 4: for open parenthesis int y equals x semicolon y less than 4 semicolon y plus plus close parenthesis
+Line 5: open curly bracket
+Line 6: count plus plus semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+Line 9: System dot out dot print l n open parenthesis count close parenthesis semicolon
+ 
+  What is printed as a result of executing the code segment? 
+(A) 4 
+(B) 8 
+(C) 10 
+(D) 16 
+(E) 20 
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-27- 
+26. Consider the following two methods, which appear within a single class. 
+ 
+Two methods are shown
+
+The first method consists of 10 line
+s 
+of code
+Line 1: pub
+lic static 
+void change It, all one word an
+d
+ capital I– henceforth referred to as c
+hang
+e It open parent
+hesi
+s 
+i
+n
+t open bracket close bracke
+t 
+a r r comma int val comma String
+ word close paren
+thesis
+Line 2: open curly bra
+c
+ket
+Line 3: a r r equals new i
+n
+t open bracket 5 close bracket semicolon
+
+Li
+ne 4: val equals zero semicolon
+Line
+ 5: 
+w
+ord equals word dot substring ope
+n parenthesis zero comma 5
+ close parenthesis semicolon  
+Line 6: for open parenthesis int k equals zero semicolon k less than a r r dot length semicolon k plus plus close parenthesis
+Line 7: open curly bracket
+Line 8: a r r open bracket k close bracket equals zero semicolon
+Line 9: close curly bracket
+Line 10: close curly bracket
+
+The second method consists of 13 lines of code
+Line 1: public static void start, open parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: int open bracket close bracket nums equals open curly bracket 1 comma 2 comma 3 comma 4 comma 5 close curly bracket semicolon
+Line 4: int value equals 6 semicolon
+Line 5: String name equals open quote blackboard close quote semicolon
+Line 6: change It open parenthesis nums comma value comma name close parenthesis semicolon
+Line 7: for open parenthesis int k equals zero semicolon k less than nums dot length semicolon k plus plus close parenthesis
+Line 8: open curly bracket
+Line 9: System dot out dot print open parenthesis nums open bracket k close bracket plus open quote space close quote close parenthesis semicolon
+Line 10: close curly bracket
+Line 11: System dot out dot print open parenthesis value plus open quote space close quote close parenthesis semicolon
+Line 12: System dot out dot print open parenthesis name, close parenthesis semicolon
+Line 13: close curly bracket
+ 
+  What is printed as a result of the call start open parenthesis close parenthesis ? 
+(A) zero space zero space zero space zero space zero space zero space black 
+(B) zero space zero space zero space zero space zero space 6 space blackboard 
+(C) 1 space 2 space 3 space 4 space 5 space 6 space black 
+(D) 1 space 2 space 3 space 4 space 5 space zero space black 
+(E) 1 space 2 space 3 space 4 space 5 space 6 space blackboard 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-28- 
+Questions 27-28 refer to the following information. 
+  Consider the following sort method. This method correctly sorts the elements of array data into 
+increasing order. 
+ 
+The code shown consists of 18 lines
+
+ 
+
+Line 1: public static void sort open paren
+thes
+is int open bra
+cket close bracket data close parenthesis
+Lin
+e 2: o
+pen curly bracket
+Line 3: for open parenthesis int j
+ equals 
+zero semicolon 
+j less t
+han da
+ta dot length minus 1 semicolon j plus plus close par
+enthesis
+Line 4: open 
+curly bracket
+Line 
+5
+: int m equals j semicolon
+Line
+ 6: for open parenthesis int k equals j plus 1 semicolon k less than data dot length semicolon k plus plus close parenthesis
+Line 7: open curly bracket
+Line 8: if open parenthesis data open bracket k close bracket less than data open bracket m close bracket close parenthesis forward slash asterisk Compare values asterisk forward slash
+Line 9: open curly bracket
+Line 10: m equals k semicolon
+Line 11: close curly bracket
+Line 12: close curly bracket
+Line 13: int temp equals data open bracket m close bracket semicolon forward slash asterisk Assign to temp asterisk forward slash
+Line 14: data open bracket m close bracket equals data open bracket j close bracket semicolon
+Line 15: data open bracket j close bracket equals temp semicolon
+Line 16: forward slash asterisk End of outer loop asterisk forward slash
+Line 17: close curly bracket
+Line 18: close curly bracket
+ 
+27. Assume that sort is called with the array open curly bracket 6 comma 3 comma 2 comma 5 comma 4 comma 1 close curly bracket . What will the value of data be 
+after three passes of the outer loop (i.e., when j equals 2 at the point indicated by forward slash asterisk End of outer loop asterisk forward slash) ? 
+(A) open curly bracket 1 comma 2 comma 3 comma 4 comma 5 comma 6 close curly bracket
+(B) open curly bracket 1 comma 2 comma 3 comma 5 comma 4 comma 6 close curly bracket
+(C) open curly bracket 1 comma 2 comma 3 comma 6 comma 5 comma 4 close curly bracket
+(D) open curly bracket 1 comma 3 comma 2 comma 4 comma 5 comma 6 close curly bracket
+(E) open curly bracket 1 comma 2 comma 3 comma 4 comma 5 comma 6 close curly bracket 
+ 
+ 
+28. Assume that sort is called with the array open curly bracket 1 comma 2 comma 3 comma 4 comma 5 comma 6 close curly bracket. How many times will the expression 
+indicated by forward slash asterisk Compare values asterisk forward slash and the statement indicated by forward slash asterisk Assign to temp asterisk forward slash execute? 
+ 
+Compare values 
+Assign to temp 
+(A)  
+15 
+0 
+(B)  
+15 
+5 
+(C)  
+15 
+6 
+(D)  
+21 
+5 
+(E)  
+21 
+6 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-29- 
+29. Consider the following recursive method. 
+ 
+The code shown consists of 12
+ lines
+
+Line 1: forward slash 
+as
+terisk asterisk 
+Prec
+ondition colon
+ num
+ greate
+r th
+an or equal to zero asterisk fo
+rwar
+d slash
+Line 2: public static int what open parenthesis int num close parenthesis
+Line 3: open curly bracket
+Line 4: if, open parenthesis num less than 10 close parenthesis
+Line 5: open curly bracket
+Line 6: return 1 semicolon
+Line 7: close curly bracket
+Line 8: else
+Line 9: open curly bracket
+Line 10: return 1 plus what open parenthesis num forward slash 10 close parenthesis semicolon
+Line 11: close curly bracket
+Line 12: close curly bracket
+ 
+  Assume that int val has been declared and initialized with a value that satisfies the precondition of the 
+method. Which of the following best describes the value returned by the call what open parenthesis val close parenthesis ? 
+(A) The number of digits in the decimal representation of val is returned. 
+(B) The sum of the digits in the decimal representation of val is returned. 
+(C) Nothing is returned. A run-time error occurs because of infinite recursion. 
+(D) The value 1 is returned. 
+(E) The value val forward slash 10 is returned. 
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-30- 
+30. The price per box of ink pens advertised in an office supply catalog is based on the number of boxes ordered. 
+The following table shows the pricing. 
+ 
+Number of Boxes 
+Price per Box 
+1 up to but not including 5 
+$5.00 
+5 up to but not including 10 
+$3.00 
+10 or more 
+$1.50 
+ 
+  The following incomplete method is intended to return the total cost of an order based on the value of the 
+parameter num Boxes all one word and capital B– henceforth referred to as num BoBoxes.  
+ 
+The code shown consists of 7 lines
+
+
+Line 1: forward slash asterisk asterisk
+ P
+recondition colon num Boxe
+s
+ greater than zero as
+t
+erisk forward slash
+
+Line 2: public static double get Cost all one word and capital C – henceforth referred to as get Cost open parenthesis int num Boxes close parenthesis
+Line 3: open curly bracket
+Line 4: double, total Cost, all one word and capital C – henceforth referred to as total Cost equals zero point zero semicolon
+Line 5: forward slash asterisk missing code asterisk forward slash
+Line 6: return total Cost semicolon
+Line 7: close curly bracket
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-31- 
+  Which of the following code segments can be used to replace forward slash asterisk, missing code, asterisk forward slash so that method get Cost 
+will work as intended? 
+ 
+ 
+Eac
+h roman numeral cons
+is
+ts of 12 lines of code.
+
+Roma
+n 
+numeral 1.
+Line 1:
+ i
+f open parenthesis num Boxes gr
+ea
+ter than or equal 
+to
+ 10 close parenthesis
+Line 2: 
+op
+e
+n cu
+rly bracket
+Line 3:
+ t
+otal Cost equals num Boxes time
+s 
+1 point five zero semico
+lo
+n
+Line 4: close curly bracket
+
+L
+ine 5
+: 
+if open parenthesis num Boxes g
+re
+a
+ter t
+han or equal to 5 
+cl
+ose parenthesis
+Line 6: open c
+ur
+ly bracket
+Line 7: tota
+l 
+Cost equals num Boxes times 3 p
+oi
+nt zero zero semicolon
+L
+in
+e 8: close curly bracket
+Line 
+9: if open parenthesis num Boxes greater than zero close parenthesis
+Line 10: open curly bracket
+Line 11: total Cost equals num Boxes times 5 point zero zero semicolon
+Line 12: close curly bracket
+
+Roman numeral 2.
+Line 1: if open parenthesis num Boxes greater than or equal to 10 close parenthesis
+Line 2: open curly bracket
+Line 3: total Cost equals num Boxes times 1 point five zero semicolon
+Line 4: close curly bracket
+Line 5: else if open parenthesis num Boxes greater than or equal to 5 close parenthesis
+Line 6: open curly bracket
+Line 7: total Cost equals num Boxes times 3 point zero zero semicolon
+Line 8: close curly bracket
+Line 9: else
+Line 10: open curly bracket
+Line 11: total Cost equals num Boxes times 5 point zero zero semicolon
+Line 12: close curly bracket
+
+Roman numeral 3.
+Line 1: if open parenthesis num Boxes greater than zero close parenthesis
+Line 2: open curly bracket
+Line 3: total Cost equals num Boxes times 5 point zero zero semicolon
+Line 4: close curly bracket
+Line 5: else if open parenthesis, num Boxes greater than or equal to 5 close parenthesis
+Line 6: open curly bracket
+Line 7: total Cost equals num Boxes times 3 point zero zero semicolon
+Line 8: close curly bracket
+Line 9: else if open parenthesis num Boxes greater than or equal to 10 close parenthesis
+Line 10: open curly bracket
+Line 11: total Cost equals num Boxes times 1 point five zero semicolon
+Line 12: close curly bracket
+ 
+ 
+ 
+(A) I only 
+(B) II only 
+(C) III only 
+(D) I and II 
+(E) II and III 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-32- 
+31. Consider the following code segment. 
+ 
+The code shown consists of 22 lines
+
+
+Line 1: String open bracket close
+ b
+racket open bracket close bracket bo
+ard 
+equals new String open brac
+ket 
+5 
+c
+lose bracket open bracket 5 close 
+br
+acket, semicolon
+Li
+ne 2
+: for open parenthe
+sis int row equal
+s zero semicolon row less than 5
+ semic
+olon row plus plus close pare
+nthesis
+Line
+ 3: open curl
+y brac
+ket
+
+Line 4: for open parenthesis int col equals zero semicolon col less than 5 semicolon col plus plus close parenthesis
+Line 5: open curly bracket
+Line 6: board open bracket row close bracket open bracket col close bracket equals open quote O close quote semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+Line 9: for open parenthesis int val equals zero semicolon val less than 5 semicolon val plus plus close parenthesis
+Line 10: open curly bracket
+Line 11: if, open parenthesis val percent 2 equals equals 1 close parenthesis.
+Line 12: open curly bracket
+Line 13: int row equals val semicolon
+Line 14: int col equals zero semicolon
+Line 15: while, open parenthesis col less than 5 ampersand ampersand row greater than or equal to zero close parenthesis
+Line 16: open curly bracket
+Line 17: board open bracket row close bracket open bracket col close bracket equals open quote X close quote semicolon
+Line 18: col plus plus semicolon
+Line 19: row minus minus semicolon
+Line 20: close curly bracket
+Line 21: close curly bracket
+Line 22: close curly bracket
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-33- 
+  Which of the following represents board after this code segment is executed? 
+ 
+T
+he
+ d
+at
+a 
+in
+ t
+he  t ab le  a
+re
+ a s fo ll ow
+s,
+ f ro m le ft
+ t
+o ri gh t an
+d 
+fr om  t op  to bottom:  Row zero: X, O, X, O, X. Row one : O, X, O, X, O. Row two: X, O, X, O, X. Row three: O, X, O, X, O. Row four: X, O, X, O, X.
+(A) 
+ 
+ 
+ 
+ 
+ 
+ 
+T
+he
+ d
+at
+a 
+i
+n 
+th e ta bl e 
+ar
+e as  f ol lo
+ws
+, fr om  l ef
+t 
+to  r ig ht  a
+nd
+ f ro m to p to bottom:  Row zero: O, X, O, X, O. Row one: X, O, X, O, X. Row two: O, X, O, X, O. Row three: X, O, X, O, X. Row four: O, X, O, X, O.
+ 
+(B) 
+ 
+ 
+ 
+ 
+ 
+ 
+T
+he
+ d
+at
+a 
+i
+n 
+th e ta bl e 
+ar
+e as  f ol lo
+ws
+, fr om  l ef
+t 
+to  r ig ht  a
+nd
+ f ro m to p to bottom:  Row zero: X, O, O, O, X. Row one: O, X, O, X, O. Row two: O, O, X, O, O. Row three: O, X, O, X, O. Row four: X, O, O, O, X.
+ 
+(C) 
+ 
+ 
+ 
+ 
+ 
+ 
+T
+he
+ d
+at
+a 
+i
+n 
+th e ta bl e
+ a
+re  a s fo ll
+ow
+s,  f ro m le
+ft
+ t o ri gh t 
+an
+d fr om  t op to bottom:  Row zero: O, X, O, O, O. Row one: O, O, X, O, O. Row two: X, O, O, X, O. Row three: O, X, O, O, X. Row four: O, O, X, O, O.
+ 
+(D) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+T
+he
+ d
+at
+a 
+in
+ t
+he  t ab le  a
+re
+ a s fo ll ow
+s,
+ f ro m le ft
+ t
+o ri gh t an
+d 
+fr om  t op  to bottom:  Row zero: O, X, O, X, O. Row one: X, O, X, O, O. Row two: O, X, O, O, O. Row three: X, O, O, O, O. Row four: O, O, O, O, O.
+(E) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-34- 
+32. Consider the following class declaration. 
+ 
+The code shown consists o
+f 
+10 lines
+
+Line 1: publ
+ic class Student In
+f
+o, all one word and capital
+ S and I – henceforth 
+r
+eferred to as Student 
+Info 
+Line 2: open 
+c
+urly bracket,
+Line 3: private String major semicolon
+Line 4: private int age semic
+olon
+Line 5: public String get Major, all one word and capital M – henceforth referred to as get Major, open parenthesis close parenthesis
+Line 6: open curly bracket return major semicolon close curly bracket
+Line 7: public int, get Age, all one word and capital A – henceforth referred to as get Age, open parenthesis close parenthesis
+Line 8: open curly bracket, return age semicolon close curly bracket
+Line 9: forward slash forward slash There may be instance variables constructors and methods that are not shown
+Line 10: close curly bracket
+ 
+  The following instance variable and method appear in another class. 
+ 
+The code shown consists of 21 lines
+
+
+Line 1: private List, less than symbol Student Info greater 
+than symbol, students, semicolon
+Line 2: f
+orwa
+rd slash asterisk asterisk at symbol return the a
+ve
+rage age of students
+ with the given m
+ajor semicolon
+Line 3: negative 
+one 
+point zero if no such s
+tude
+n
+ts exist
+Line 4:
+ ast
+erisk forward slash
+Lin
+e 5:
+ public
+ dou
+ble average Age I
+n Ma
+jor, all one word and capital A, I, and M – henceforth referred to as average Age in Major, open parenthesis String the Major, all one word and capital M – henceforth referred to as the Major, close parenthesis
+Line 6: open curly bracket
+Line 7: double sum equals zero point zero, semicolon
+Line 8: int count equals zero, semicolon
+Line 9: for open parenthesis Student Info k colon students close parenthesis
+Line 10: open curly bracket
+Line 11: forward slash asterisk missing code asterisk forward slash
+Line 12: close curly bracket
+Line 13: if open parenthesis count greater than zero close parenthesis
+Line 14: open curly bracket
+Line 15: return sum forward slash count semicolon
+Line 16: close curly bracket
+Line 17: else
+Line 18:  open curly bracket
+Line 19: return negative 1 point zero semicolon
+Line 20: close curly bracket
+Line 21: close curly bracket
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-35- 
+  Which of the following could be used to replace forward slash asterisk missing code asterisk forward slash so that average Age In 
+Major will 
+compile without error? 
+(A)  Line 1: if open parenthesis th
+e 
+Major dot equals
+ open paren
+thesis k dot major close parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: sum plus equals k dot age semicolon
+Line 4: count plus plus semicolon
+Line 5: close curly bracket
+ 
+(B)  Line 1: if open parenthesis the Maj
+or
+ dot equals open pare
+nthesis k d
+ot get Major open parenthesis close parenthesis close parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: sum plus equals k dot get Age open parenthesis close parenthesis semicolon
+Line 4: count plus plus semicolon
+Line 5: close curly bracket
+ 
+(C)  Line 1: if, open parenthesis t
+he
+ Major dot equals ope
+n parenthes
+is k dot major close parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: sum plus equals k dot get Age open parenthesis close parenthesis semicolon
+Line 4: count plus plus semicolon
+Line 5: close curly bracket
+ 
+(D)  Line 1: if open parenthesis the Major dot equ
+al
+s open parenthesis students ope
+n bracket k
+ close bracket dot get Major open parenthesis close parenthesis close parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: sum plus equals students open bracket k close bracket dot get Age open parenthesis close parenthesis semicolon
+Line 4: count plus plus, semicolon
+Line 5: close curly bracket
+ 
+(E)  Line 1: if open parenthesis the Ma
+jo
+r dot equals open pa
+renthesis g
+et Major open parenthesis k close parenthesis close parenthesis close parenthesis
+Line 2: open curly bracket
+Line 3: sum plus equals get Age open parenthesis k close parenthesis semicolon
+Line 4: count plus plus semicolon
+Line 5: close curly bracket
+ 
+ 
+ 
+33. Which of the following statements regarding interfaces is FALSE? 
+(A) All methods in an interface are public. 
+(B) An interface cannot be instantiated. 
+(C) An interface can declare an instance variable. 
+(D) A non-abstract class can implement an interface. 
+(E) An abstract class can implement an interface. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-36- 
+34. Consider the problem of finding the maximum value in an array of integers. The following code segments are 
+proposed solutions to the problem. Assume that the variable a r r has been defined as an array of int values 
+and has been initialized with one or more values. 
+ 
+ 
+Eac
+h roman numeral consists of l
+ines of code
+
+Roman 
+nu
+meral 1 consists of
+ 8 l
+ines of code
+Lin
+e 1:
+ i
+n
+t ma
+x equals Inte
+ger dot all capitalize
+d MIN underscore VALUE
+ s
+emicolon
+Lin
+e 2:
+ for, open parent
+hesis int value col
+on a
+ r r close parenthesis
+Line
+ 3: open curly br
+acke
+t
+
+Line 
+4: if open parenth
+esis max less than value close parent
+he
+sis
+Line 5: open cu
+rly 
+bracket
+Line 6: m
+ax e
+quals value semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+
+Roman numeral 2 consists of 14 lines of code
+Line 1: int max equals zero semicolon
+Line 2: boolean first equals true semicolon
+Line 3: for open parenthesis int value colon a r r close parenthesis
+Line 4: open curly bracket
+Line 5: if open parenthesis first close parenthesis
+Line 6: open curly bracket
+Line 7: max equals value semicolon
+Line 8: first equals false semicolon
+Line 9: close curly bracket
+Line 10: else if open parenthesis max less than value close parenthesis 
+Line 11: open curly bracket
+Line 12: max equals value semicolon
+Line 13: close curly bracket
+Line 14: close curly bracket
+
+Roman numeral 3 consists of 8 lines of code
+Line 1: int max equals a r r open bracket zero close bracket semicolon
+Line 2: for open parenthesis int k equals 1 semicolon k less than a r r dot length semicolon k plus plus close parenthesis 
+Line 3: open curly bracket
+Line 4: if open parenthesis max less than a r r open bracket k close bracket close parenthesis
+Line 5: open curly bracket
+Line 6: max equals a r r open bracket k close bracket semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+ 
+ 
+ 
+  Which of the code segments will always correctly assign the maximum element of the array to the  
+variable max ? 
+(A) I only 
+(B) II only 
+(C) III only 
+(D) II and III only 
+(E) I, II, and III 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-37- 
+35. Consider the following instance variable and method. Method words With Commas, all one word and capital W and C – henceforth referred to as words With CoCommas is intended to return a 
+string containing all the words in list Of Words, all one word and capital O and W – henceforth referred to as list Of Words. separated by commas and enclosed in braces.
+For example, if list Of 
+Words contains open bracket open quote one close quote comma open quote two close quote comma open quote three close quote close bracket , the string returned by the call 
+words With Commas open parenthesis close parenthesis should be "open curly bracket one comma two comma three close curly bracket". 
+The code shown consists of 16 line
+s
+
+
+Line 1: private List less th
+an
+ symbol String greater 
+t
+han symbol list Of Words semicolon
+Li
+n
+e 2: public String words With Commas op
+en p
+arenthesis close parenthesis 
+Line 3: ope
+n
+ curly bracket
+Line 4: Str
+ing re
+sult equals open quote open cu
+rly br
+acke
+t
+ close quote semicolon
+L
+ine 5: int size O
+f List, all one word and capital O and L  – henceforth referred to as size Of List, equals forward slash asterisk expression asterisk forward slash semicolon
+Line 6: for open parenthesis int k equals zero semicolon k less than size Of List semicolon k plus plus close parenthesis
+Line 7: open curly bracket
+Line 8: result equals result plus list Of Words dot get open parenthesis k close parenthesis semicolon
+Line 9: if open parenthesis forward slash asterisk condition asterisk forward slash close parenthesis
+Line 10: open curly bracket
+Line 11: result equals result plus open quote comma space close quote semicolon
+Line 12: close curly bracket
+Line 13: close curly bracket
+Line 14: result equals result plus open quote close curly bracket close quote semicolon
+Line 15: return result semicolon
+Line 16: close curly bracket
+Which of the following can be used to replace forward slash asterisk expression asterisk forward slash and forward slash asterisk condition asterisk forward slash so that 
+words With 
+Commas will work as intended? 
+forward slash asterisk, expression, asterisk forward slashforward slash asterisk, expression, asterisk forward slash
+forward slash asterisk, condition, asterisk forward slashforward slash asterisk, condition, asterisk forward slash
+(A) list Of Words dot size, open parenthesis close parenthesis, minus 1
+k, exclamation point equals, zero
+(B) list Of Words dot size, open parenthesis close parenthesis
+k, exclamation point equals, zero
+(C) list Of Words dot size, open parenthesis close parenthesis, minus 1
+k, exclamation point equals, size Of List minus 1
+(D) list Of Words dot size, open parenthesis close parenthesis
+k, exclamation point equals, size Of List minus 1
+(E) result dot length, open parenthesis close parenthesis
+k, exclamation point equals, zero
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-38- 
+Questions 36-37 refer to the following information. 
+  Consider the following binary Search, all one word and capital S – henceforth referred to as binary Search. method. The method correctly performs a binary search.  
+ 
+The code shown consists of 23 lines
+
+Line 1: forward sl
+ash asterisk asterisk Precondition colon data is sorted
+ i
+n increasing orde
+r asterisk forward slash
+Lin
+e 2: public static int 
+bina
+ry Search open parenthesis int open bracket close bracket data
+ comma int target close pare
+nthesi
+s
+Line 3: open curly
+ brack
+et
+Line 4: int start equals zero
+ semic
+olon
+Line 5: int end e
+quals 
+data dot 
+length
+ minus 1 semicolon
+
+Line
+ 6: 
+while open pa
+renthesis start less than or equal to end close parenthesis
+Line 7: open curly bracket
+Line 8: int mid equals open parenthesis start plus end close parenthesis forward slash 2 semicolon forward slash asterisk Calculate midpoint asterisk forward slash
+Line 9: if open parenthesis target less than data open bracket mid close bracket close parenthesis
+Line 10: open curly bracket
+Line 11: end equals mid minus 1 semicolon
+Line 12: close curly bracket
+Line 13: else if open parenthesis target greater than data open bracket mid close bracket close parenthesis
+Line 14: open curly bracket
+Line 15: start equals mid plus 1 semicolon
+Line 16: close curly bracket
+Line 17: else
+Line 18: open curly bracket
+Line 19: return mid, semicolon
+Line 20: close curly bracket
+Line 21: close curly bracket
+Line 22: return negative 1 semicolon
+Line 23: close curly bracket
+
+
+--- PAGE BREAK ---
+
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-39- 
+36. Consider the following code segment. 
+ 
+The code shown consists of 2 lines
+
+Li
+ne 1: int open bracket close bracket values equals open curly bracket 1 comma 2 comma 3 comma 4 comma 5 comma 8 comma 8 comma 8 close curly bracket semicolon
+Line 2: int target equals 8 semicolon
+  
+ 
+  What value is returned by the call binary Search open parenthesis values comma target close parenthesis ? 
+(A) negative one 
+(B)  3 
+(C)  5 
+(D)  6 
+(E)  8 
+ 
+ 
+37. Suppose the binary Search method is called with an array containing 2,000 elements sorted in increasing 
+order. What is the maximum number of times that the statement indicated by forward slash asterisk Calculate midpoint asterisk forward slash 
+could execute? 
+(A) 2,000 
+(B) 1,000 
+(C)  
+20 
+(D)  
+11 
+(E)  
+1 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-40- 
+38. Consider the following incomplete method that is intended to return a string formed by concatenating elements 
+from the parameter words. The elements to be concatenated start with start Index and continue through 
+the last element of words and should appear in reverse order in the resulting string. 
+ 
+The code shown consists of 9 lines
+
+Line 1: forward slash asteris
+k as
+terisk Precondition colon words dot length greater than zero semi
+co
+lon
+Line 2: start Ind
+e
+x, all one word and c
+a
+pital I – hencefo
+rth referred to as start Index, greater than or equal to zero
+Line 3: asterisk forward slash
+Line 4: public static String concat Words, all one word and capital W – henceforth referred to as concat Words, open parenthesis String open bracket close bracket words comma int start Index close parenthesis
+Line 5: open curly bracket
+Line 6: String result equals open quote close quote semicolon
+Line 7: forward slash asterisk missing code asterisk forward slash
+Line 8: return result semicolon
+Line 9: close curly bracket
+ 
+  For example, the following code segment uses a call to the concat Words method. 
+ 
+The code shown consists of 2 lines
+Line 1: String open bracket 
+close bracket things equals open curly bracket open quote Bear close quote comma open quote Apple close quote comma open quote Gorilla close quote comma open quote House close quote comma open quote Car close quote close curly bracket semicolon
+Line 2: System dot out dot print l n open parenthesis concat Words open parenthesis things comma 2 close parenthesis close parenthesis semicolon
+ 
+  When the code segment is executed, the string open quote Car House Gorilla close quote 
+ is printed.  
+ 
+  The following three code segments have been proposed as replacements for forward slash asterisk missing code asterisk forward slash
+
+. 
+ 
+ 
+Eac
+h roman numeral consists of lines of code
+
+Roman
+ num
+eral 1 consists of 4 lines of code
+Line 1: for open p
+aren
+t
+hesi
+s int k equals start Index s
+emicolon k less than words
+ dot
+ length semicolon k plus
+ plus clo
+se p
+a
+renth
+esis
+Line 2: open curly bracket
+Line 3: re
+sult plus equals words open bracket k close br
+acke
+t plus words open bracket words dot length 
+minus k minus 1 close bracket semicolon
+Li
+ne 4
+:
+ close curly bracket
+
+Roman numeral 2 consists of 6
+ lin
+es of code
+Line 1: int
+ k equals words dot length minus 1 semicolon
+Line 2: while open parenthesis k greater than or equal to start Index close parenthesis
+Line 3: open curly bracket
+Line 4: result plus equals words open bracket k close bracket semicolon
+Line 5: k minus minus semicolon
+Line 6: close curly bracket
+
+Roman numeral 3 consists of 10 lines of code
+Line 1: String open bracket close bracket temp equals new String open bracket words dot length close bracket semicolon
+Line 2: for open parenthesis int k equals zero semicolon k less than or equal to words dot length forward slash 2 semicolon k plus plus close parenthesis
+Line 3: open curly bracket
+Line 4: temp open bracket k close bracket equals words open bracket words dot length minus k minus 1 close bracket semicolon
+Line 5: temp open bracket words dot length minus k minus 1 close bracket equals words open bracket k close bracket semicolon.
+Line 6: close curly bracket
+Line 7: for open parenthesis int k equals zero semicolon k less than temp dot length minus start Index semicolon k plus plus close parenthesis
+Line 8: open curly bracket
+Line 9: result plus equals temp open bracket k close bracket semicolon
+Line 10: close curly bracket
+ 
+ 
+ 
+  Which of these code segments can be used to replace forward slash asterisk missing code asterisk forward slash so that concat Words will 
+work as intended? 
+(A) I only 
+(B) II only 
+(C) III only 
+(D) I and II 
+(E) II and III 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-41- 
+39. Consider the following method. 
+ 
+The method shown consists of 17 lines
+
+Line 1:
+ forward slash asterisk asterisk Precondition colon zero l
+es
+s than num Va
+ls,
+ all one word and capital V – 
+henc
+eforth refe
+rred
+ 
+to as num Vals, less
+ tha
+n or equal to 
+nums
+ dot len
+gth 
+asterisk forward slash
+Line 2: public static 
+int 
+mystery open parenthesis int open bracket close bracket nums comma int v comma int num Vals close parenthesis
+Line 3: open curly bracket
+Line 4: int k equals zero semicolon
+Line 5: if open parenthesis v equals equals nums open bracket num Vals minus 1 close bracket close parenthesis
+Line 6: open curly bracket
+Line 7: k equals 1 semicolon
+Line 8: close curly bracket
+Line 9: if open parenthesis num Vals equals equals 1 close parenthesis
+Line 10: open curly bracket
+Line 11: return k semicolon
+Line 12: close curly bracket
+Line 13: else
+Line 14: open curly bracket
+Line 15: return k plus mystery open parenthesis nums comma v comma num Vals minus 1 close parenthesis semicolon
+Line 16: close curly bracket
+Line 17: close curly bracket
+ 
+  Which of the following best describes what the call mystery open parenthesis numbers comma val comma numbers dot length close parenthesis 
+does? You may assume that variables numbers and val have been declared and initialized. 
+(A) Returns 1 if the last element in numbers is equal to val; otherwise, returns 0 
+(B) Returns the index of the last element in numbers that is equal to val 
+(C) Returns the number of elements in numbers that are equal to val 
+(D) Returns the number of elements in numbers that are not equal to val 
+(E) Returns the maximum number of adjacent elements that are not equal to val 
+ 
+ 
+ 
+  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+GO ON TO THE NEXT PAGE. 
+-42- 
+40. Consider the following code segment. 
+ 
+The code shown consists of 13 lines
+
+Line 1: Li
+s
+t less than symbol Str
+ing greater than symb
+ol students equals new
+ 
+Array List less than symbol String greater
+ t
+han symbol open parenthesis close parenthesis semico
+lo
+n
+
+Line 2: students dot
+ 
+add open parenthesis open qu
+ot
+e Alex close quote close parenth
+esis semicolon
+Line 3: students dot add open parenthesis open quote Bob close quote close parenthesis semicolon
+Line 4: students dot add open parenthesis open quote Carl close quote close parenthesis semicolon
+Line 5: for open parenthesis int k equals zero semicolon k less than students dot size open parenthesis close parenthesis semicolon k plus plus close parenthesis
+Line 6: open curly bracket
+Line 7: System dot out dot print open parenthesis students dot set open parenthesis k comma open quote Alex close quote close parenthesis plus open quote space space close quote close parenthesis semicolon
+Line 8: close curly bracket
+Line 9: System dot out dot print l n open parenthesis close parenthesis semicolon
+Line 10: for open parenthesis String s t r colon students close parenthesis
+Line 11: open curly bracket
+Line 12: System dot out dot print open parenthesis s t r plus open quote space space close quote close parenthesis semicolon
+Line 13: close curly bracket
+ 
+  What is printed as a result of executing the code segment?Options A through D show 2 rows of text.
+(A)  Row 1: Alex space
+ space Alex space space Alex space space
+Row 2: Alex space space Alex space space Alex space space
+(B)  Row 1: Alex spac
+e space Alex space space Alex space space
+Row 2: Alex space space Bob space space Carl space space
+ 
+(C)  Row 1: Alex spac
+e space Bob space space Carl space space
+Row 2: Alex space space Alex space space Alex space space
+(D)  Row 1: Alex spac
+e space Bob space space Carl space space
+Row 2: Alex space space Bob space space Carl space space
+(E)  Nothing is printed because the first print statement will cause a runtime exception to be thrown. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+-43- 
+ 
+ 
+ 
+END OF SECTION I 
+ 
+IF YOU FINISH BEFORE TIME IS CALLED, 
+YOU MAY CHECK YOUR WORK ON THIS SECTION. 
+ 
+DO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO. 
+ 
+ 
+ 
+MAKE SURE YOU HAVE DONE THE FOLLOWING. 
+ 
+• 
+PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET 
+• 
+WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR  
+ANSWER SHEET 
+• 
+TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET 
+AND PLACED IT ON YOUR ANSWER SHEET  
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Java Quick Reference  
+Accessible Methods from the Java Library That May Be Included on the Exam 
+ 
+class java.lang.Object    
+ 
+boolean equals(Object other)  
+ 
+String toString()  
+ 
+class java.lang.Integer 
+ 
+Integer(int value)  
+ 
+int intValue()  
+ 
+Integer.MIN_VALUE                  // minimum value represented by an int or Integer 
+ 
+Integer.MAX_VALUE                  // maximum value represented by an int or Integer 
+ 
+class java.lang.Double 
+ 
+Double(double value)  
+ 
+double doubleValue()  
+ 
+class java.lang.String 
+ 
+int length()  
+ 
+String substring(int from, int to) // returns the substring beginning at from 
+                                   // and ending at to-1 
+ 
+String substring(int from)         // returns substring(from, length()) 
+ 
+int indexOf(String str)            // returns the index of the first occurrence of str; 
+                                   // returns -1 if not found 
+ 
+int compareTo(String other)        // returns a value < 0 if this is less than other 
+                                   // returns a value = 0 if this is equal to other 
+                                   // returns a value > 0 if this is greater than other 
+ 
+class java.lang.Math  
+ 
+static int abs(int x)  
+ 
+static double abs(double x)  
+ 
+static double pow(double base, double exponent)  
+ 
+static double sqrt(double x)  
+ 
+static double random()             // returns a double in the range [0.0, 1.0) 
+ 
+interface java.util.List<E>   
+ 
+int size()  
+ 
+boolean add(E obj)                 // appends obj to end of list; returns true 
+ 
+void add(int index, E obj)         // inserts obj at position index (0 £ index
+size) , 
+£
+ 
+                                   // moving elements at position index and higher  
+                                   // to the right (adds 1 to their indices) and adjusts size 
+ 
+E get(int index)  
+ 
+E set(int index, E obj)            // replaces the element at position index with obj 
+                                      // returns the element formerly at the specified position 
+ 
+E remove(int index)                // removes element from position index, moving elements  
+                                   // at position index + 1 and higher to the left  
+                                   // (subtracts 1 from their indices) and adjusts size 
+                                   // returns the element formerly at the specified position 
+ 
+class java.util.ArrayList<E> implements java.util.List<E>  
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+A 
+P ® Comput er Scie n ce A Exam
+SECTION II: Free Response 
+2015 
+Do  No t Op en T his Boo klet Unt il You Ar e Told To Do So. 
+At a Glance
+Total Time 
+1 hour, 45 minutes 
+Number of Questions 
+4 
+Percent of Total Score 
+50% 
+Writing Instrument 
+Pencil 
+Electronic Device 
+None allowed 
+Weight 
+The questions are 
+weighted equally. 
+Instructions
+The questions for Section II are printed in this booklet. You may use any of the blank 
+pages to organize your answers and for scratch work, but you must write your answers on 
+the pages that correspond with the questions. 
+The Java Quick Reference is located at the back of this booklet. 
+Write your answer to each question in the space provided for the question in this booklet. 
+Some questions require you to write program segments, and these must be written in Java. 
+Show all your work. Credit for partial solutions will be given. Write clearly and legibly. 
+Cross out any errors you make. Erased or crossed-out work will not be scored. 
+Manage your time carefully. Do not spend too much time on any one question. You may 
+proceed freely from one question to the next. You may review your responses if you finish 
+before the end of the exam is announced. 
+Form O  
+Form Code 4LBP  
+31  
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-3- 
+COMPUTER SCIENCE A 
+SECTION II 
+Time—1 hour and 45 minutes 
+Number of questions—4 
+Percent of total score—50 
+ 
+Directions:  SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE 
+WRITTEN IN JAVA. 
+ 
+Notes:   
+ 
+Assume that the classes listed in the Java Quick Reference have been imported where appropriate. 
+ 
+Unless otherwise noted in the question, assume that parameters in method calls are not null and that methods 
+are called only when their preconditions are satisfied. 
+ 
+In writing solutions for each question, you may use any of the accessible methods that are listed in classes 
+defined in that question. Writing significant amounts of code that can be replaced by a call to one of these 
+methods will not receive full credit. 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-4- 
+ 1. This question involves reasoning about one-dimensional and two-dimensional arrays of integers. You will write 
+three static methods, all of which are in a single enclosing class, named Diverse Array, initial capital on Diverse and Array and no space between – hence referred to as Diverse ArArray (not shown). The 
+first method returns the sum of the values of a one-dimensional array; the second method returns an array that 
+represents the sums of the rows of a two-dimensional array; and the third method analyzes row sums.  
+ 
+(a) Write a static method array Sum, initial capital on Sum only and no space between – hence referred to as array SuSum that calculates and returns the sum of the entries in a specified 
+one-dimensional array. The following example shows an array a r r one and the value returned by a call to 
+Array Sum
+ 
+ 
+ 
+T
+he figure shows a table with one row and 5 columns titled a r r one.  Above each column is the heading, from left to right: zero, one, two, three, and four.  The data in the single row is, from left to right: 1, 3, 2, 7, and 3.
+ 
+Value returned by 
+array Sum, open
+ 
+parenthesis a r r one close parenthesis sixteen
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WRITE YOUR SOLUTION ON THE NEXT PAGE. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-5- 
+ 
+Complete method array Sum below. 
+ 
+The code shown consists of 3 lines
+ 
+Line one: forward slash asteris
+k as
+terisk, Returns the sum of the entries in the one-dimensional array, a r r.
+Line 2: asterisk forward slash 
+Line 3: public static i n t array Sum open parenthesis i n t open bracket close bracket a r r close parenthesis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part (b) begins on page 6. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-6- 
+(b) Write a static method row Sums, initial capital on Sums only and no space between – hence referred to as row SuSums that calculates the sums of each of the rows in a given two-
+dimensional array and returns these sums in a one-dimensional array. The method has one parameter, a two-
+dimensional array a r r 2 D of i n t values. The array is in row-major order: a r r 2 D open bracket r close bracket open bracket c close bracket is the entry 
+at row r and column c. The method returns a one-dimensional array with one entry for each row of 
+a r r 2 D such that each entry is the sum of the corresponding row in a r r 2 D. As a reminder, each row of a 
+two-dimensional array is a one-dimensional array. 
+ 
+For example, if m a t one is the array represented by the following table, the call row Sums open parenthesis m a t one close parenthesis returns 
+the array open curly bracket 16 comma 32 comma 28 comma 20 close curly bracket. 
+ 
+T
+h
+e
+ fig
+u
+r
+e
+ s
+ho
+ws
+ a
+ t
+ab
+le
+ w
+it
+h 
+4
+ r
+ows
+ an
+d 
+5 
+c
+ol
+um
+ns
+ t
+it
+l
+ed
+ m
+ a
+ t
+ o
+ne.  Above each column is the heading, from left to right: zero, one, two, three, and four.  To the left of each row is the heading, from top to bottom: zero, one, two, three, and four.  The data in the table, from left to right, is as follows: 
+Row heading zero: one, 3, 2, 7, and 3.
+Row heading one: 10, 10, 4, 6, and 2.
+Row heading two: 5, 3, 5, 9, and 6.
+Row heading three: 7, 6, 4, 2, and one.
+ 
+ 
+ 
+ 
+ 
+ 
+Methods written in this question
+
+
+public static i n t array Sum open p
+arenthesis i n t open bracket close bracket
+ a r r close parenthesis
+
+public static i n t open bracket close bracket row Sums open parenthesis i n t open bracket close bracket open bracket close bracket a r r 2 D close parenthesis
+
+public static Boolean is Diverse, initial capital on Diverse only and no space between, hence referred to as is Diverse, open parenthesis i n t open bracket close bracket open bracket close bracket a r r 2 D close parenthesis
+ 
+ 
+ 
+WRITE YOUR SOLUTION ON THE NEXT PAGE. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-7- 
+ 
+Assume that array Sum works as specified, regardless of what you wrote in part (a). You must use 
+array Sum appropriately to receive full credit. 
+ 
+Complete method row Sums below. 
+ 
+The code shown consists of 4 lines
+ 
+Line one: forward slash asterisk asterisk 
+Returns a one-dimensional array in which the entry at index k
+ is 
+the sum of
+Line 2:  the entries of row k of the two-dimensional array a r r 2 D.
+Line 3: asterisk forward slash
+Line 4: public static i n t open bracket close bracket row Sums open parenthesis i n t open bracket close bracket open bracket close bracket  a r r 2 D close parenthesis
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part (c) begins on page 8. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-8- 
+(c) A two-dimensional array is diverse if no two of its rows have entries that sum to the same value. In the 
+following examples, the array m a t one is diverse because each row sum is different, but the array m a t two is 
+not diverse because the first and last rows have the same sum. 
+ 
+T
+h
+e
+ fig
+u
+r
+e
+ 
+sh
+ow
+s 
+a 
+ta
+ble with 
+4 
+ro
+ws
+ a
+nd
+ 5
+ co
+lu
+mns
+ ti
+t le
+d 
+m 
+a t
+ o
+ne
+. 
+ A
+bo
+ve
+ ea
+ch
+ c
+ol
+um
+n 
+is
+ the heading, from left to right: zero, one, two, three, and four.  To the left of each row is the heading, from top to bottom: zero, one, two, three, and four.  To the right of the table is a column of Row sums. The data in the table, from left to right, is as follows: 
+Row heading zero: one, 3, 2, 7, and 3. Row sum, 16.
+Row heading one: 10, 10, 4, 6, and 2. Row sum, 32.
+Row heading two: 5, 3, 5, 9, and 6. Row sum, 28.
+Row heading three: 7, 6, 4, 2, and one. Row sum, 20.
+ 
+ 
+T
+h
+e
+ fig
+u
+r
+e
+ 
+sh
+ow
+s 
+a 
+ta
+ble with
+ 4
+ r
+ow
+s 
+an
+d 
+5 c
+ol
+umn
+s 
+ti
+tl
+ed
+ m 
+a 
+t 
+two
+.  
+Ab
+ov
+e e
+ac
+h 
+co
+lu
+mn
+ i
+s the heading, from left to right: zero, one, two, three, and four.  To the left of each row is the heading, from top to bottom: zero, one, two, three, and four.  To the right of the table is a column of Row sums. The data in the table, from left to right, is as follows: 
+Row heading zero: one, one, 5, 3, and 4. Row sum, 14.
+Row heading one: 12, 7, 6, one, and 9. Row sum, 35.
+Row heading two: 8, 11, 10, 2, and 5. Row sum, 36.
+Row heading three: 3, 2, 3, zero, and 6. Row sum, 14.
+ 
+ 
+ 
+ 
+Write a static method is Diverse that determines whether or not a given two-dimensional array is 
+diverse. The method has one parameter: a two-dimensional array a r r 2 D of i n t values. The method 
+should return true if all the row sums in the given array are unique; otherwise, it should return false. 
+In the arrays shown above, the call is Diverse, open parenthesis m a t one close parenthesis returns true and the call 
+is Diverse, open parenthesis m a t two close parenthesis returns false. 
+ 
+Methods written in this question
+
+
+public static i n t array Sum open p
+arenthesis i n t open bracket close bracket
+ a r r close parenthesis
+
+public static i n t open bracket close bracket  row Sums open parenthesis i n t open bracket close bracket open bracket close bracket a r r 2 D close parenthesis
+
+public static boolean is Diverse open parenthesis i n t open bracket close bracket open bracket close bracket a r r 2 D close parenthesis
+ 
+ 
+ 
+ 
+WRITE YOUR SOLUTION ON THE NEXT PAGE. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-9- 
+ 
+Assume that array Sum and row Sums  work as specified, regardless of what you wrote in parts (a) and 
+(b). You must use row Sums  appropriately to receive full credit.  
+ 
+Complete method is Diverse below. 
+ 
+The code shown consists of 4 lines
+ 
+Line one: forward slash a
+sterisk asterisk Returns tr
+ue i
+f all rows in a r r 2 D have different row sums semicolon
+Line 2:  false otherwise.
+Line 3: asterisk forward slash
+Line 4: public static boolean is Diverse open parenthesis i n t open bracket close bracket open bracket close bracket  a r r 2 D close parenthesis
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-10- 
+ 2. Consider a guessing game in which a player tries to guess a hidden word. The hidden word contains only capital 
+letters and has a length known to the player. A guess contains only capital letters and has the same length as the 
+hidden word.  
+ 
+  After a guess is made, the player is given a hint that is based on a comparison between the hidden word and the 
+guess. Each position in the hint contains a character that corresponds to the letter in the same position in the 
+guess. The following rules determine the characters that appear in the hint. 
+ 
+The figure shows a table with 2 
+rows and 2 columns.  The heading over column
+ one is If the letter in the guess is dot dot 
+dot, the heading over col
+umn two is the corresponding character in the hint is.
+  The dat
+a in the table is as fol
+lows.
+Row one: Column one, also in the same position in the hidden word comma. Column two, the matching letter.
+Row two: Column one, also in the hidden word, but in different position comma. Column two, open quote plus close quote.
+Row three: Column one, not in the hidden word comma. Column two, open quote asterisk close quote.
+ 
+  The Hidden Word, initial capital on Hidden and Word and no space between – hence referred to as Hidden Word class will be used to represent the hidden word in the game. The hidden word is passed to 
+the constructor. The class contains a method, get Hint, initial capital on Hint only and no space between – hence referred to as get HiHint, that takes a guess and produces a hint. 
+ 
+  For example, suppose the variable puzzle is declared as follows. 
+ 
+Hidden Word puzzle equals new Hidden Word, open parenthesis, open quote all capital H A R P S close quote, close parenthesis; 
+ 
+  The following table shows several guesses and the hints that would be produced. 
+ 
+The figure shows
+ a table with 5 
+rows and 2 columns.  The
+ heading
+ over column one is Call
+ to get 
+Hint, the heading over c
+olumn tw
+o is String Returned.  T
+he data 
+in the table is as follo
+ws.
+Row one: Column one, puzzle, dot, get Hint, open parenthesis, open quote all capitals A A A A A close quote, close parenthesis. Column two, open quote plus capital A plus plus plus close quote.
+Row two: Column one, puzzle, dot, get Hint, open parenthesis, open quote all caps H E L L O close quote, close parenthesis. Column two, open quote capital H asterisk asterisk asterisk asterisk close quote.
+Row three: Column one, puzzle, dot, get Hint, open parenthesis, open quote all caps H E A R T close quote, close parenthesis. Column two, open quote capital H asterisk plus plus asterisk close quote.
+Row four: Column one, puzzle, dot, get Hint, open parenthesis, open quote all caps H A R M S close quote, close parenthesis. Column two, open quote all capitals H A R asterisk S close quote.
+Row five: Column one, puzzle, dot, get Hint, open parenthesis, open quote all caps H A R P S close quote, close parenthesis. Column two, open quote all capitals H A R P S close quote.
+ 
+ 
+  Write the complete Hidden Word class, including any necessary instance variables, its constructor, and the 
+method, get Hint, described above. You may assume that the length of the guess is the same as the length of 
+the hidden word. 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-11- 
+ADDITIONAL WORK SPACE
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-12- 
+ 3. A two-dimensional array of integers in which most elements are zero is called a sparse array. Because most 
+elements have a value of zero, memory can be saved by storing only the non-zero values along with their row 
+and column indexes. The following complete Sparse Array Entry, initial capital on Sparse Array and Entry and no space between – hence referred to as Sparse Array Entry class is used to represent non-zero 
+elements in a sparse array. A Sparse Array 
+Entry object cannot be modified after it has been constructed. 
+ 
+The code shown consists of 31 
+li
+nes
+
+Line 1: public class Sparse Array Entry 
+Line 2: open curly bracket
+
+Line 3:  forward 
+s
+lash asterisk aster
+i
+s
+k The row index and column index for this entry in th
+e sparse array, asteri
+s
+k forward slash
+Line 4:  private i n t row semicolon
+Line 5:  private i n t c o l
+ semicolon
+Line 6: blank
+Line 7: forward slash asterisk asteri
+sk The
+ value of this entry in the sparse array asteri
+sk f
+orward slash
+
+Line 8: priv
+ate i n t value
+ sem
+i
+colon
+Line 9: blank
+Line 10: forward slash asterisk asteris
+k Constructs a Sparse 
+Array Entry object t
+h
+at represents a sparse array element
+Line 11: with row index r 
+and column index c, co
+ntaining value v.
+L
+i
+ne 12: asterisk forward slash 
+Line 13: public Sparse Ar
+ray Entry open parenthes
+is i n t r comma i n t
+ c comma i n t v close parenthesis
+Line 14:  open curly bracket
+Line 15:  row equals r semicolon
+Line 16:  c o l equals c semicolon
+Line 17:  value equals v semicolon
+Line 18: close curly bracket
+Line 19: blank
+Line 20:  forward slash asterisk asterisk Returns the row index of this sparse array element period asterisk forward slash
+Line 21: public i n t get Row, initial capital on Row – hence referred to as get Row, open parenthesis close parenthesis
+Line 22: open curly bracket return row semicolon close curly bracket 
+Line 23: blank
+Line 24:  forward slash asterisk asterisk Returns the column index of this sparse array element period asterisk forward slash
+Line 25:public i n t get Col, initial capital on Col – hence referred to as get Col, open parenthesis close parenthesis
+Line 26:  open curly bracket return Col semicolon close curly bracket
+Line 27: blank
+Line 28:  forward slash asterisk asterisk, Returns the value index of this sparse array element, period, asterisk forward slash
+Line 29:  public i n t get Value, initial capital on Value – hence referred to as get Value, open parenthesis close parenthesis
+Line 30:  open curly bracket return value semicolon close curly bracket
+Line 31: close curly bracket
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-13- 
+  The Sparse Array 
+ class represents a sparse array. It contains a list of Sparse Array 
+Entry objects, each 
+of which represents one of the non-zero elements in the array. The entries representing the non-zero elements are 
+stored in the list in no particular order. Each non-zero element is represented by exactly one entry in the list.  
+ 
+The code shown consists o
+f 
+34 lines
+
+Line 1: public class Sparse Array
+Line 2: open c
+urly bracket
+Line 3:  
+forward slash asterisk 
+a
+sterisk The number of rows and columns in the sparse array asterisk forward slash
+Line 4:  private i n t n 
+u m Rows semicolon
+Line 5:  private i n t n u m C o l s semicolon
+Line 6: blank
+Line 7: forward slash as
+terisk
+ asterisk The list of entries representing t
+h
+e non-zero elements of the sparse array.En
+tries are stored in the
+
+Line 8: list in no particular order. Each non-zero 
+e
+lement is represented by exactly one entry in the list
+L
+ine 9:  asterisk forward s
+lash
+Line 10:  private 
+L
+ist less than symbol Sparse Array Entry greater than symbol 
+entries semicolon
+Line 11
+: blank
+Line 12:forward
+ 
+slash asterisk asterisk Constructs an empty Sparse Array. Asterisk forward slash
+Line 13: public 
+Sparse Array open parenthesis close parenthe
+sis
+Line 14:  open curly bracket entries
+ equal
+s new Array List less than symbol Sparse A
+rray Entry greater than symbol open parenthe
+s
+is close parenthesis semicolon close curly bracket
+L
+ine 15: blank
+Line 16:  forward slash asteri
+sk ast
+erisk Returns the number of rows in 
+the sparse array asterisk forward slash
+Lin
+e
+ 17: public i n t get N u m Rows open parenthesis close parenthesis
+Line 18: open c
+urly bracket return n u m Rows semicolon close curly bracket
+Line 19: blank
+Line 20:  forward slash asterisk asterisk, Returns the number of columns in the sparse array asterisk forward slash
+Line 21: public i n t get N u m C o l s open parenthesis close parenthesis
+Line 22: open curly bracket return n u m C o l s semicolon close curly bracket
+Line 23: blank
+Line 24: forward slash asterisk asterisk Returns the value of the element at row index row and column index c o l in the sparse array
+Line 25:  Precondition colon zero is less than or equal to row which is less than get N u m Rows open parenthesis close parenthesis
+Line 26: zero is less than or equal to c o l which is less than get N u m C o l s open parenthesis close parenthesis
+Line 27:  asterisk forward slash
+Line 28: public i n t get Value At, initial capital on Value and At and no space between – hence referred to as get Value At. Open parenthesis, i n t row comma i n t, c o l, close parenthesis
+Line 29: open curly bracket forward slash asterisk to be implemented in part open parenthesis a close parenthesis asterisk forward slash close curly bracket
+Line 30: blank
+Line 31: forward slash asterisk asterisk Removes the column c o l from the sparse array.
+Line 32: Precondition colon, zero is less than or equal to c o l which is less than get N u m C o l s open parenthesis close parenthesis
+Line 33: asterisk forward slash
+Line 34:  public void remove Column, initial capital on Column only and no space between – hence referred to as remove Column, open parenthesis i n t, c o l close parenthesis
+Line 35: open curly bracket forward slash asterisk, to be implemented in part open parenthesis b, close parenthesis, asterisk forward slash close curly bracket
+Line 36: blank
+Line 37:  forward slash forward slash, There may be instance variables, constructors, and methods that are not shown.
+Line 38: close curly bracket
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-14- 
+  The following table shows an example of a two-dimensional sparse array. Empty cells in the table indicate zero 
+values. 
+ 
+T
+he
+ f
+ig
+ur
+e
+ s
+h
+o
+w
+s
+ a
+ 
+ch
+a
+r
+t
+ w
+it
+h
+ 
+6
+ r
+o
+ws 
+a
+n
+d 
+5
+ 
+c
+o
+lu
+m
+n
+s
+. Each cell is either blank or contains a number.  Above each column is the heading, from left to right: zero, one, two, three, and four. To the left of each row is the heading, from top to bottom, zero, one, two, three, four, and five. 
+
+Moving from top to bottom, the data reads as follows:
+Row zero: blank, blank, blank, blank , blank
+Row one: blank, 5, blank, blank , 4
+Row two: one, blank, blank, blank , blank
+Row three: blank, negative 9, blank, blank , blank
+Row four: blank, blank, blank, blank , blank
+Row five: blank, blank, blank, blank , blank
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  The sample array can be represented by a Sparse Array 
+ object, sparse, with the following instance 
+variable values. The items in entries are in no particular order; one possible ordering is shown below. 
+ 
+ 
+ 
+  numRows: 6 
+ 
+ 
+ 
+  numCols: 5 
+ 
+ 
+ 
+ 
+ 
+A chart o
+f entries
+ is shown
+ with one
+ 
+row and 4
+ columns.
+  In each
+ 
+column a 
+block wit
+h the row,
+ 
+c o l, an
+d value i
+s given. 
+ Entries are as follows:
+Column one: row, one; c o l, 4; value, 4.
+Column two: row 2; c o l, zero; value, one.
+Column three: row 3; c o l, one; value, negative 9.
+Column four: row one; c o l, one; value, 5.
+ 
+ 
+(a) Write the Sparse Array 
+ method get Value At . The method returns the value of the sparse array 
+element at a given row and column in the sparse array. If the list entries contains an entry with the 
+specified row and column, the value associated with the entry is returned. If there is no entry in entries 
+corresponding to the specified row and column, 0 is returned.  
+ 
+In the example above, the call sparse dot get Value At open parenthesis 3 comma one close parenthesis would return negative 9, and 
+sparse dot get Value At open parenthesis 3 comma 3 close parenthesis would return 0. 
+ 
+ 
+WRITE YOUR SOLUTION ON THE NEXT PAGE. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-15- 
+ 
+Complete method get Value At below. 
+ 
+ The code shown consists of 5 lines
+
+Line 1: forward slash asterisk asterisk Returns the value o
+f the element at row index row and column i
+ndex c o l in the sparse array.
+Line 2:
+ Prec
+ondition colon zero is less than or equal to row which is less than get N u m Rows open parenthesis close parenthesis
+Line 3: zero is less than or equal to c o l which is less than get N u m C o l s open parenthesis close parenthesis
+Line 4:  asterisk forward slash
+Line 5: public i n t get Value At open parenthesis i n t row comma i n t c o l close parenthesis
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part (b) begins on page 16. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-16- 
+(b) Write the Sparse Array 
+ method remove Column. After removing a specified column from a sparse 
+array:  
+ 
+All entries in the list entries with column indexes matching c o l are removed from the list.  
+ 
+All entries in the list entries with column indexes greater than c o l are replaced by entries 
+with column indexes that are decremented by one (moved one column to the left).  
+ 
+The number of columns in the sparse array is adjusted to reflect the column removed. 
+ 
+The sample object sparse from the beginning of the question is repeated for your convenience. 
+ 
+T
+he
+ f
+ig
+ur
+e
+ s
+h
+o
+w
+s
+ a
+ 
+ch
+a
+r
+t
+ w
+it
+h
+ 
+6
+ r
+o
+ws 
+a
+n
+d 
+5
+ 
+c
+o
+lu
+m
+n
+s
+. Each cell is either blank or contains a number.  Above each column is the heading, from left to right: zero, one, two, three, and four. All of column one is shaded. To the left of each row is the heading, from top to bottom, zero, one, two, three, four, and five. 
+
+Moving from top to bottom, the data reads as follows:
+Row zero: blank, shaded cell is blank, blank, blank , blank
+Row one: blank, shaded cell 5, blank, blank , 4
+Row two: one, shaded cell is blank, blank, blank , blank
+Row three: blank, shaded cell negative 9, blank, blank , blank
+Row four: blank, shaded cell is blank, blank, blank , blank
+Row five: blank, shaded cell is blank, blank, blank , blank
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The shaded entries in entries, below, correspond to the shaded column above. 
+ 
+ 
+ 
+  numRows: 6 
+ 
+ 
+ 
+  numCols: 5 
+ 
+ 
+ 
+ 
+ 
+A chart o
+f entries
+ is shown
+ with one
+ 
+row and 4
+ columns.
+  In each
+ 
+column a 
+block wit
+h the row,
+ 
+c o l, an
+d value i
+s given. 
+The third and fourth blocks are shaded.  Entries are as follows:
+Column one: row, one; c o l, 4; value, 4.
+Column two: row 2; c o l, zero; value, one.
+Column three shaded block: row 3; c o l, one; value, negative 9.
+Column four shaded block: row one; c o l, one; value, 5.
+ 
+ 
+ 
+When sparse has the state shown above, the call sparse dot remove Column open parenthesis one close parenthesis could result in 
+sparse having the following values in its instance variables (since entries is in no particular order, it 
+would be equally valid to reverse the order of its two items). The shaded areas below show the changes. 
+ 
+ 
+ 
+numRows: 6 
+ 
+ 
+ 
+ 
+numCols: 4 
+ 
+ 
+ 
+A chart o
+f entries
+ is shown
+ with one
+ 
+row with 
+two colum
+ns.  In e
+ach column a block with the row, c o l, and value is given. The block in the first column is shaded. Entries are as follows:
+Column one shaded block: row, one; c o l, 3; value, 4.
+Column two: row 2; c o l, zero; value, one.
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-17- 
+ 
+Class information repeated from the beginning of the question
+
+
+Underlined phrase: public cl
+a
+ss Sparse Array Entry
+public Sparse Array En
+try, open parenthesi
+s i n t r comma i n 
+t c comma i n t v clos
+e
+ parenthesis
+public i n 
+t
+ get Row, open paren
+thesis close parenth
+esis
+public i n t get C o l open paren
+thesis close parenthesis
+
+public i n t get Value
+ open parenthesis close parenthesis
+
+U
+nderlined phrase: public class Sparse Array
+private i n t, n u m Rows
+private i n t, n u m C o l s
+private List less than symbol Sparse Array Entry greater than symbol entries
+public i n t get Rows open parenthesis close parenthesis
+public i n t get C o ls open parenthesis close parenthesis
+public i n t get Value open parenthesis i n t row comma i n t c o l close parenthesis
+public void remove Column open parenthesis i n t c o l close parenthesis
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-18- 
+ 
+Complete method remove Column below. 
+ 
+ The code shown consists of 5 lines
+
+Line 1: forwar
+d slash asterisk asterisk Returns the column
+ c o 
+l  from the sparse array.
+Line 2:  Precondition colon zero is less than or equal to c o l which is less than get N u m C o l open parenthesis close parenthesis
+Line 3:  asterisk forward slash
+Line 4: public void remove Column, open parenthesis i n t c o l close parenthesis
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-19- 
+ADDITIONAL WORK SPACE
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-20- 
+ 4. This question involves the design of an interface, writing a class that implements the interface, and writing  
+a method that uses the interface.  
+ 
+(a) A number group represents a group of integers defined in some way. It could be empty, or it could contain 
+one or more integers.  
+ 
+Write an interface named Number Group, initial capital on Number and Group and no space between – hence referred to as Number GrGroup that represents a group of integers. The interface should have  
+a single contains method that determines if a given integer is in the group. For example, if group one   
+is of type Number Group, and it contains only the two numbers negative 5 and 3, then 
+group one dot contains open parenthesis negative 5 close parenthesis would return true, and group one dot contains open parenthesis 2 close parenthesis would return false. 
+ 
+Write the complete Number Group interface. It must have exactly one method. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part (b) begins on page 21. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-21- 
+(b) A range represents a number group that contains all (and only) the integers between a minimum value and  
+a maximum value, inclusive.  
+ 
+Write the Range class, which is a Number Group. The Range class represents the group of i n t 
+values that range from a given minimum value up through a given maximum value, inclusive. For example, 
+the declaration 
+   Number Group range one equals new Range open parenthesis negative 3 comma 2 close parenthesis semicolon 
+ 
+ 
+represents the group of integer values negative 3 comma negative 2 comma negative  1 comma 0, 1, 2. 
+ 
+ 
+Write the complete Range class. Include all necessary instance variables and methods as well as a 
+constructor that takes two i n t parameters. The first parameter represents the minimum value, and the 
+second parameter represents the maximum value of the range. You may assume that the minimum is less 
+than or equal to the maximum. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Part (c) begins on page 22. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-22- 
+(c) The Multiple Groups, initial capital on Multiple and Groups and no space between – hence referred to as Multiple GrGroups class (not shown) represents a collection of Number Group objects and is  
+a Number Group. The Multiple Groups class stores the number groups in the instance variable 
+group List, initial capital on List only and no space between – hence referred to as group LiList (shown below), which is initialized in the constructor. 
+ 
+  private List less than symbol Number Groups greater than symbol group List semicolon 
+ 
+ 
+Write the Multiple Groups method contains. The method takes an integer and returns true  
+if and only if the integer is contained in one or more of the number groups in group List.  
+ 
+For example, suppose multiple one  has been declared as an instance of Multiple Groups and 
+consists of the three ranges created by the calls new Range open parenthesis 5 comma 8 close parenthesis , new Range open parenthesis 10 comma 12 close parenthesis,  
+and new Range open parenthesis one comma 6 close parenthesis. The following table shows the results of several calls to contains. 
+ 
+The f
+igure 
+shows a table with 3 
+rows 
+and 2 columns.  The h
+eading
+ over column one is C
+all, the heading over column two is Result.  The data in the table is as follows.
+Row one: Column one, multiple one dot contains, open parenthesis 2 close parenthesis. Column two, true.
+Row two: Column one, multiple one dot contains, open parenthesis 9 close parenthesis. Column two, false.
+Row three: Column one, multiple one dot contains, open parenthesis 6 close parenthesis. Column two, true.
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-23- 
+ 
+Complete method contains below. 
+ 
+ The code shown consists of 4 lines
+
+Line 1: forward slash asterisk asterisk Returns true i
+f at least one of the number
+ grou
+ps in this multiple group contains n u m semicolon
+Line 2:  false otherwise.
+Line 3:  asterisk forward slash
+Line 4: public boolean contains open parenthesis i n t n u m close parenthesis
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-24- 
+ADDITIONAL WORK SPACE
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-25- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STOP 
+ 
+END OF EXAM 
+ 
+ 
+THE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE  
+SECTION II BOOKLET. 
+ 
+ 
+MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION  
+INFORMATION AS REQUESTED ON THE FRONT AND BACK  
+COVERS OF THE SECTION II BOOKLET. 
+ 
+CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN  
+THE BOX ON THE COVER. 
+ 
+MAKE SURE YOU HAVE USED THE SAME SET OF AP  
+NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN  
+THIS YEAR. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Java Quick Reference  
+Accessible Methods from the Java Library That May Be Included on the Exam 
+ 
+class java.lang.Object    
+ 
+boolean equals(Object other)  
+ 
+String toString()  
+ 
+class java.lang.Integer 
+ 
+Integer(int value)  
+ 
+int intValue()  
+ 
+Integer.MIN_VALUE                  // minimum value represented by an int or Integer 
+ 
+Integer.MAX_VALUE                  // maximum value represented by an int or Integer 
+ 
+class java.lang.Double 
+ 
+Double(double value)  
+ 
+double doubleValue()  
+ 
+class java.lang.String 
+ 
+int length()  
+ 
+String substring(int from, int to) // returns the substring beginning at from 
+                                   // and ending at to-1 
+ 
+String substring(int from)         // returns substring(from, length()) 
+ 
+int indexOf(String str)            // returns the index of the first occurrence of str; 
+                                   // returns -1 if not found 
+ 
+int compareTo(String other)        // returns a value < 0 if this is less than other 
+                                   // returns a value = 0 if this is equal to other 
+                                   // returns a value > 0 if this is greater than other 
+ 
+class java.lang.Math  
+ 
+static int abs(int x)  
+ 
+static double abs(double x)  
+ 
+static double pow(double base, double exponent)  
+ 
+static double sqrt(double x)  
+ 
+static double random()             // returns a double in the range [0.0, 1.0) 
+ 
+interface java.util.List<E>   
+ 
+int size()  
+ 
+boolean add(E obj)                 // appends obj to end of list; returns true 
+ 
+void add(int index, E obj)         // inserts obj at position index (0 £ index
+size) , 
+£
+ 
+                                   // moving elements at position index and higher  
+                                   // to the right (adds 1 to their indices) and adjusts size 
+ 
+E get(int index)  
+ 
+E set(int index, E obj)            // replaces the element at position index with obj 
+                                      // returns the element formerly at the specified position 
+ 
+E remove(int index)                // removes element from position index, moving elements  
+                                   // at position index + 1 and higher to the left  
+                                   // (subtracts 1 from their indices) and adjusts size 
+                                   // returns the element formerly at the specified position 
+ 
+class java.util.ArrayList<E> implements java.util.List<E>  
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+Answer Key for AP Computer Science A 
+Released Exam, Section I 
+Question 1: A 
+Question 21: D
+Question 2: A
+Question 22: A
+Question 3: B
+Question 23: C
+Question 4: C
+Question 24: D
+Question 5: A
+Question 25: C
+Question 6: A
+Question 26: E
+Question 7: C 
+Question 27: B
+Question 8: B
+Question 28: B
+Question 9: E
+Question 29: A
+Question 10: D
+Question 30: B
+Question 11: E
+Question 31: E
+Question 12: B
+Question 32: B
+Question 13: A
+Question 33: C
+Question 14: C
+Question 34: E
+Question 15: A
+Question 35: D
+Question 16: E
+Question 36: C
+Question 17: D
+Question 37: D
+Question 18: D
+Question 38: E
+Question 19: E
+Question 39: C
+Question 20: E
+Question 40: C
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 GENERAL SCORING GUIDELINES 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Apply the question assessment rubric first, which always takes precedence. Penalty points can only be 
+deducted in a part of the question that has earned credit via the question rubric. No part of a question  
+(a, b, c) may have a negative point total. A given penalty can be assessed only once for a question, even 
+if it occurs multiple times, or in multiple parts of that question. A maximum of 3 penalty points may be 
+assessed per question. 
+1-Point Penalty 
+(v) Array/collection access confusion (open bracket close bracket  get)
+(w) Extraneous code that causes side effect (e.g., writing to output, failure to compile) 
+(x) Local variables used but none declared 
+(y) Destruction of persistent data (e.g., changing value referenced by parameter) 
+(z) Void method or constructor that returns a value 
+No Penalty 
+o
+Extraneous code with no side effect (e.g., precondition check, no-op)
+o
+Spelling/case discrepancies where there is no ambiguity*
+o
+Local variable not declared provided other variables are declared in some part
+o
+private or public qualifier on a local variable
+o
+Missing public qualifier on class or constructor header
+o
+Keyword used as an identifier
+o
+Common mathematical symbols used for operators (x, dot, division symbol, less than or equal to symbol, greater than or equal to symbol, less than symbol, greater than symbol, does not equal symbol)
+o
+open bracket, close bracket  vs. open parenthesis, close parenthesis vs. less than symbol, greater than symbol  
+o
+= instead of == and vice versa
+o
+length, forward slash, size confusion for array, String, List, or ArrayList, with or without open parenthesis, close parenthesis  
+o
+Extraneous open bracket, close bracket  when referencing entire array
+o
+open bracket, i comma j, close bracket instead of open bracket, i, close bracket open bracket, j, close bracket
+o
+Extraneous size in array declaration (e.g., int, open bracket underlined word, size, close bracket, nums equals new int, open bracket, size, close bracket, semicolon)
+o
+Missing ; where structure clearly conveys intent
+o
+Missing open curly bracket  close curly bracket  where indentation clearly conveys intent
+o
+Missing open parenthesis close parenthesis on parameter-less method or constructor invocations
+o
+Missing open parenthesis close parenthesis around if or while conditions
+*Spelling and case discrepancies for identifiers fall under the “No Penalty” category only if the correction can
+be unambiguously inferred from context; for example, “Aray List, all one word and capital A and L. Aray ,spelled A r a y. ” instead of “Array List, all one word and  capital A and L, Array spelled A r r a y. ”. As a
+counterexample, note that if the code declares “Bug bug, semicolon. Capital at the first instance of Bug and lowercase at second instance of bug, ”, then uses “Bug dot move, open parenthesis close parenthesis. Capital at Bug and lowercase at move.” instead
+of “bug dot move, open parenthesis close parenthesis. Lowercase at bug and lowercase at move”, the context does not allow for the reader to assume the object instead of the class.
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 SCORING GUIDELINES 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 1: Diverse Array 
+Part (a) 
+array Sum, all one word and  capital S,– henceforth referred to as array Sum. 
+2 points 
+Intent: Compute and return sum of elements in 1D array a r r, passed as parameter
+plus one 
+Accesses all elements of a r r, (no bounds errors on a r r)
+plus one 
+Initializes, computes, and returns sum of elements 
+Part (b) 
+row Sums, all one word and capital S – henceforth referred to as row Sums. 
+4 points 
+Intent: Compute and return 1D array containing sums of each row in the 2D array a r r  2 D, passed as
+ parameter 
+plus one 
+Constructs correctly-sized 1D array of ints 
+plus one 
+Accesses all rows in a r r 2 D (no bounds errors on a r r 2 D)
+plus one 
+Computes sum of row in a r r  2 D using array Sum and assigns to element in 1D array
+plus one 
+Returns 1D array where kth element is computed sum of corresponding row in 2D array
+for all rows 
+  
+Part (c) 
+is Diverse, all one word and capital D – henceforth referred to as is Diverse.
+3 points 
+Intent: Determine whether a r r  2 D, passed as parameter, is diverse
+plus one 
+Computes and uses array of row sums from a r r  2 D using row Sums
+plus one 
+Compare all and only pairs of row sums for equality (No bounds errors on row sums array; 
+point not awarded if no adjustment when compares any row sum with itself) 
+plus one 
+Returns true if all compared row sums are different and false otherwise
+(point not awarded for immediate return) 
+Question-Specific Penalties 
+minus 1 
+(g) Uses get Length, forward slash, get Size. All one word and capital LS – henceforth referred to as get Length, forward slash, get Size. for array size 
+minus 1 
+(y) Destruction of persistent data (a r r or a r r  2 D)
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 CANONICAL SOLUTIONS 
+These canonical solutions serve an expository role, depicting general approaches to solution. Each reflects only one instance from the 
+infinite set of valid solutions. The solutions are presented in a coding style chosen to enhance readability and facilitate understanding. 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 1: Diverse Array 
+Part (a): 
+The code shown consists of 7 lines
+
+L
+ine 1: public stat
+ic int array Sum open parenth
+esis int open
+ bracket 
+close bracket a r r
+ close parenthesis open curly bracket
+Line 2: int, sum equals zero semicolon
+Line 3: for open parenthesis int elem colon a r r close parenthesis open curly bracket
+Line 4: sum plus equals elem semicolon
+Line 5: close curly bracket
+Line 6: return sum semicolon
+Line 7: close curly bracket
+Part (b): 
+The code shown consists of 9 lines
+
+Line 1
+: public static int open bracket close brac
+ket row Sums open pare
+nthesis int open bracket close b
+racket open bracket close br
+acket a r 
+r 2 D clos
+e parenthesis open cu
+rly bracket
+Line 2: int open bracket close bracket sums equals new int open bracket a r r 2 D dot length close bracket, semicolon
+Line 3: in row Num, all one word and capital N – henceforth referred to as row Num, equals zero semicolon
+Line 4: for open parenthesis in, open bracket close bracket row colon a r r 2 D close parenthesis open curly bracket
+Line 5: sums open bracket row Num close bracket equals array Sum open parenthesis row close parenthesis semicolon
+Line 6: row Num plus plus semicolon
+Line 7: close curly bracket
+Line 8: return sums semicolon
+Line 9: close curly bracket
+Part (c): 
+The code shown consists of 11 lines
+
+Line 1: p
+ublic static boolean is Diverse open
+ parenthesis int open bracket close bracket o
+pen bracket close bracket a r r 2 D clo
+se parenthesis open cur
+ly bracket
+Li
+ne
+ 2
+: int open
+ bracket close bracke
+t sums equals row Sums open parenthesis a r r 2 D close parenthesis semicolon
+Line 3: for open parenthesis int i equals zero semicolon i less than sums dot length semicolon i plus plus close parenthesis open curly bracket
+Line 4: for open parenthesis int j equals i plus 1 semicolon j less than sums dot length semicolon j plus plus close parenthesis open curly bracket
+Line 5: if open parenthesis sums open bracket i close bracket equals equals sums open bracket j close bracket close parenthesis open curly bracket
+Line 6: return false semicolon
+Line 7: close curly bracket
+Line 8: close curly bracket
+Line 9: close curly bracket
+Line 10: return true, semicolon
+Line 11: close curly bracket
+
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 SCORING GUIDELINES 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 2: Guessing Game 
+Class: 
+Hidden Word, all one word and capital H and W– henceforth referred to as Hidden WoWord
+9 points 
+Intent: Define implementation of class to represent hidden word in guessing game 
+plus one 
+Uses correct class, constructor, and method headers 
+plus one
+Declares appropriate private instance variable
+plus one 
+Initializes instance variable within constructor using parameter 
+plus six 
+Implement get Hint, all one word and capital H– henceforth referred to as get HiHint
+plus one 
+Accesses all letters in both guess and hidden word in loop 
+(no bounds errors in either) 
+plus four
+Process letters within loop 
+plus one
+Extracts and compares corresponding single letters from guess and 
+hidden word 
+plus one 
+Tests whether guess letter occurs in same position in both guess and 
+hidden word 
+plus one 
+Tests whether guess letter occurs in hidden word but not in same position 
+as in guess 
+plus one 
+Adds correct character exactly once to the hint string based on the 
+test result 
+plus one 
+Declares, initializes, and returns constructed hint string 
+Question-Specific Penalties 
+minus one 
+(t) Uses get to access letters from strings 
+minus two 
+(u) Consistently uses incorrect name instead of instance variable name for hidden word 
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 CANONICAL SOLUTIONS 
+These canonical solutions serve an expository role, depicting general approaches to solution. Each reflects only one instance from the 
+infinite set of valid solutions. The solutions are presented in a coding style chosen to enhance readability and facilitate understanding. 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 2: Guessing Game 
+The code shown consists 
+of 21
+ lines
+
+Line 1: public 
+class Hidden Word
+Line 2: open curl
+y brac
+ket
+Line 3: private S
+tring 
+word semicolon
+Line 4: public Hidden Wor
+d open parenthesis capital
+ String h Word, all one word and lowercase h and c
+apital W– henceforth referred to as h Word, close parenthes
+is
+Line 5: open curly bracket
+Line 6: word equals h Word semicolon
+Line 7: close cur
+ly bracket
+L
+ine 8: pu
+blic String g
+et
+ Hint open
+ parenthesis String g
+uess c
+lose parenthesis open curly bracket
+Line 9: String hint equals open quote close quote semicolon
+Line 10: for open parenthesis int i equals zero semicolon i less than guess dot length open parenthesis close parenthesis semicolon i plus plus close parenthesis open curly bracket
+Line 11: if open parenthesis guess dot substring open parenthesis i comma i plus 1 close parenthesis dot equals open parenthesis word dot substring open parenthesis i comma i plus 1 close parenthesis close parenthesis close parenthesis open curly bracket
+Line 12: hint plus equals guess dot substring open parenthesis i comma i plus 1 close parenthesis semicolon
+Line 13: close curly bracket else if open parenthesis word dot index Of, all one word and capital O– henceforth referred to as index Of, open parenthesis guess dot substring open parenthesis i comma i plus 1 close parenthesis close parenthesis exclamation point equals negative 1 close parenthesis open curly bracket
+Line 14: hint plus equals open quote plus symbol close quote semicolon
+Line 15: close curly bracket else open curly bracket
+Line 16: hint plus equals open quote asterisk close quote semicolon
+Line 17: close curly bracket
+Line 18: close curly bracket
+Line 19: return hint, semicolon
+Line 20: close curly bracket
+Line 21: close curly bracket
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 SCORING GUIDELINES 
+ 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 3: Sparse Array 
+ 
+Part (a) 
+ 
+get Value At, all one word and capital V and A – henceforth referred to as get Value AtAt  
+ 
+ 
+ 
+3 points 
+Intent: Return the value at row index row and column index col in sparse array 
+ 
+plus one 
+Accesses all necessary elements of entries (No bounds errors) 
+ 
+ 
+plus one 
+Identifies element of entries at row index row and column index col, if exists 
+ 
+ 
+plus one 
+Returns identified value or returns 0 if no entry exists in entries with row index row  
+and column index col 
+ 
+ 
+ 
+ 
+Part (b) 
+ 
+remove Column, all one word and capital C– henceforth referred to as remove CoColumn 
+ 
+ 
+ 
+6 points 
+Intent: Remove column col from sparse array 
+ 
+ 
+plus one 
+Decrements num Cols, all one word and capital C– henceforth referred to as num CoCols exactly once 
+ 
+ 
+plus one 
+Accesses all elements of entries (No bounds errors) 
+ 
+ 
+plus one 
+Identifies and removes entry with column index col 
+ 
+ 
+plus two 
+Process entries with column index greater than col within loop 
+ 
+ 
+ 
+plus one 
+Creates new Sparse Array Entry, all one word and capital S, A, and E – henceforth referred to as Sparse Array EnEntry with current row index, column index minus 1,  
+ 
+ 
+ 
+current value 
+ 
+ 
+ 
+plus one 
+Identifies and replaces entry with column index greater than col with created entry 
+ 
+ 
+plus one 
+On exit: All and only entries with column index col have been removed and all and only  
+ 
+ 
+entries with column index greater than col have been changed to have column index minus 1.  
+ 
+ 
+All other entries are unchanged. (Minor loop errors ok)  
+ 
+ 
+Question-Specific Penalties 
+ 
+minus two 
+(t) Consistently uses incorrect name instead of entries 
+ 
+ 
+minus one 
+(u) Directly accesses private instance variables in Sparse Array 
+Entry object 
+ 
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 CANONICAL SOLUTIONS 
+ 
+These canonical solutions serve an expository role, depicting general approaches to solution. Each reflects only one instance from the 
+infinite set of valid solutions. The solutions are presented in a coding style chosen to enhance readability and facilitate understanding. 
+ 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 3: Sparse Array 
+ 
+Part (a): 
+ 
+The code shown consists of 8 lines
+
+Lin
+e 1: public int get Value At open parenthes
+is int row comma int, col close parenthesis open curly 
+bracket
+Line 2: for open parenthe
+sis Sparse A
+rray Entr
+y e colon entries
+ close parenthesis open curly bracket
+Line 3: if open parenthesis e dot get Row, all one word and capital R, open parenthesis close parenthesis equals equals row ampersand ampersand e dot get Col, all one word and capital C, open parenthesis close parenthesis equals equals col close parenthesis open curly bracket
+Line 4: return e dot get Value, all one word and capital V, open parenthesis close parenthesis semicolon
+Line 5: close curly bracket
+Line 6: close curly bracket
+Line 7: return zero, semicolon
+Line 8: close curly bracket
+ 
+Part (b): 
+ 
+The code shown consists of 17 lines
+
+
+Line 1: publ
+ic void remove Column open parenthe
+sis int col close parenthesis open curly bracket
+
+Line 2: int i equals zero semicolon
+
+Line 3: while open parenthesis i 
+less than entries dot size open parenthesi
+s close parenthesis close parenthesis open curly bracket
+Line 4
+: Sparse Array Entry e equals entries dot get open parenthesis i cl
+ose parenthesis semicolon
+Line 5: if, open parenthesis e, dot get C
+ol, all one word and 
+capital C, open paren
+thesis close parenthe
+sis equals equals co
+l, close
+ parenthesis, open
+ curly bracket
+Line 6: entries dot remove open parenthesis i close parenthesis semicolon
+Line 7: close curly bracket else if open parenthesis e, dot get Col, all one word and capital C, open parenthesis close parenthesis, greater than col, close parenthesis, open curly bracket
+Line 8: entries dot set open parenthesis i comma new Sparse Array Entry open parenthesis e dot get Row, all one word and capital R, open parenthesis close parenthesis, comma
+Line 9: e dot get Col, all one word and capital C, open parenthesis close parenthesis, minus 1 comma
+Line 10: e dot get Value, all one word and capital V, open parenthesis close parenthesis close parenthesis close parenthesis, semicolon
+Line 11: i plus plus, semicolon
+Line 12: close curly bracket else open curly bracket
+Line 13: i plus plus semicolon
+Line 14: close curly bracket
+Line 15: close curly bracket
+Line 16: num Cols, all one word and capital C, minus minus semicolon
+Line 17: close curly bracket
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 SCORING GUIDELINES 
+ 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 4: Number Group 
+ 
+Part (a) 
+Interface: Number Group, all one word and capital N and G– henceforth referred to as Number GrGroup  
+ 
+ 
+2 points 
+Intent: Define interface to represent a number group 
+ 
+plus one 
+interface Number Group (point lost if visibility private) 
+ 
+ 
+plus one 
+boolean containsopen parenthesis int, num close parenthesis, semicolon 
+ 
+ 
+(point lost if visibility not public or extraneous code present) 
+ 
+ 
+Part (b) 
+Class: Range 
+ 
+ 
+ 
+ 
+5 points 
+Intent: Define implementation of Number Group representing a range of numbers 
+ 
+ 
+plus one 
+class Range implements Number Group (point lost if visibility private) 
+ 
+ 
+plus one
+Declares appropriate private instance variable(s) 
+ 
+ 
+plus one
+Uses correct constructor header 
+ 
+ 
+plus one 
+Initializes instance variables within constructor using parameters  
+(point lost if bounds errors occur in container use) 
+ 
+ 
+ 
+ 
+plus one 
+Computes and returns correct value from contains  
+(point lost for incorrect method header) 
+ 
+ 
+ 
+ 
+Part (c) 
+ 
+contains 
+ 
+ 
+ 
+ 
+2 points 
+Intent: Determine whether integer is part of any of the member number groups 
+ 
+ 
+plus one 
+Calls contains on elements of group List, all one word and capital L– henceforth referred to as group LiList in context of loop (no bounds errors) 
+ 
+ 
+plus one
+Computes and returns correct value 
+ 
+ 
+Question-Specific Penalties 
+ 
+-1 
+(s) Inappropriate use of static 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+AP® COMPUTER SCIENCE A 
+2015 CANONICAL SOLUTIONS 
+ 
+These canonical solutions serve an expository role, depicting general approaches to solution. Each reflects only one instance from the 
+infinite set of valid solutions. The solutions are presented in a coding style chosen to enhance readability and facilitate understanding. 
+ 
+© 2015 The College Board.  
+Visit the College Board on the Web: www.collegeboard.org. 
+Question 4: Number Group 
+ 
+Part (a): 
+ 
+The code shown consists of 4 
+li
+nes. 
+
+Line 1: public interfa
+ce Number Group.
+Line 2: open curly bracket.
+Line 3: boolean contains open parenthesis int, num close parenthesis, semicolon.
+Line 4: close curly bracket. 
+ 
+Part (b): 
+ 
+The code shown consists of 13 lines
+
+Lin
+e 
+1: public class capit
+al Range implements N
+u
+mber Group
+Line 2: open curly brac
+ket
+L
+ine 3: private int min
+ semicolon
+Line 4: pr
+ivate 
+i
+nt max semicolon
+Line 5: public capit
+al Range open parenthesis int min comma i
+nt max
+ close parenthesis
+Line 6: open curly bracket
+Line 7: this dot min equals min semicolon
+Line 8: this dot max equals max semicolon
+Line 9: close curly bracket
+Line 10: public boolean contains open parenthesis int num close parenthesis open curly bracket
+Line 11: return num greater than or equal to min ampersand ampersand num less than or equal to max semicolon
+Line 12: close curly bracket
+Line 13: close curly bracket
+Part (c): 
+ 
+The code shown consists of 8 lines
+. 
+
+Line 1: public boolean contains open p
+arenthesis int num close parenthesis 
+open curly bracket
+Line 2: 
+for, open par
+enthesis 
+Number Group group co
+lon group List close parenthesis open curly bracket
+Line 3: if open parenthesis group dot contains open parenthesis num close parenthesis close parenthesis open curly bracket
+Line 4: return true, semicolon
+Line 5: close curly bracket
+Line 6: close curly bracket
+Line 7: return false, semicolon
+Line 8: close curly bracket
+ 
+
+
+--- PAGE BREAK ---
+
+2015 AP Computer Science A Scoring Worksheet 
+Section I: Multiple Choice 
+Number Correct (out of forty) times one point zero zero zero zero equals Weighted Section I Score (Do not round)
+Number Correct 
+(out of forty) times one p
+oint zero zero zero zero equals Weighted Section I Score 
+(Do not round)
+Section II: Free Response
+Question 1 
+Blank (out of nine) times one point one one one one equals Blank (do not round)
+Blank (out
+ of nine) times one point one one one one equals Blank (do not round)
+Question 2 
+Blank (out of nine) times one point one one one one equals Blank (do not round)
+Blank (out
+ of nine) times one point one one one one equals Blank (do not round)
+Question 3 
+Blank (out of nine) times one point one one one one equals Blank (do not round)
+Blank (out
+ of nine) times one point one one one one equals Blank (do not round)
+Question 4
+Blank (out of nine) times one point one one one one equals Blank (do not round)
+Blank (out
+ of nine) times one point one one one one equals Blank (do not round)
+Sum equals Weighted Section II Score (Do not round)
+Weighted 
+Section II 
+Score 
+(Do not round)
+Composite Score
+Weighted Section I Score plus Weighted Section II Score equals Composite Score (Round to nearest whole number)
+Weighted Section I Score plus Weighted Section II Score equals Composite Score (Round to nearest whole number)
+Weighted 
+Section I
+ Score plus Weig
+hted Section II
+ Score equals Com
+posite Score (Round to nearest 
+whole number)
+AP Score Conversion Chart 
+Computer Science A
+Composite 
+Score Range
+AP Score
+sixty two to eighty
+5
+forty four to sixty one
+4
+thierty one to forty three
+3
+twenty five to thirty
+2
+zero to twenty four
+1
+120115

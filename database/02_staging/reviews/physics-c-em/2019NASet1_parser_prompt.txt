@@ -1,0 +1,1395 @@
+Parse this AP exam PDF into JSON format.
+
+Subject: Physics C E&M (物理C电磁)
+Filename: 2019NASet1
+Year: 2019
+
+PDF TEXT:
+2019 
+AP
+® Physics C: 
+Electricity and 
+Magnetism
+Free-Response Questions
+Set 1
+© 2019 The College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are 
+registered trademarks of the College Board. Visit the College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ADVANCED PLACEMENT PHYSICS C TABLE OF INFORMATION 
+-2-
+CONSTANTS AND CONVERSION FACTORS
+Proton mass, 
+m 
+sub 
+p,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Neutron mass,
+m 
+sub 
+n,
+ eq
+u
+a
+l
+s
+ 1.67, times 10 raised to the power of negative 27, kilograms
+Electron mass,
+m 
+sub 
+e,
+ eq
+u
+a
+l
+s
+ 9.11, times 10 raised to the power of negative 31, kilograms
+Avogadro’s number,
+N 
+s
+u
+b 0,
+ e
+qual
+s
+ 
+6
+.02, times 10 raised to the power of 23, per mole
+Universal gas constant,
+R equ a ls, 8.
+3 1
+ 
+Joules per mole Kelvin
+Boltzmann’s constant,
+k 
+sub 
+B 
+e q
+u
+a
+l
+s
+, 1.38, times 10 raised to the power of negative 23, joules per kelvin
+Electron charge magnitude,
+e 
+equa
+ls
+, 
+1
+.
+6
+0, times 10 raised to the power of negative 19, coulombs
+1 electron volt, 
+1 
+elec
+tron
+ v
+ol
+t
+ 
+equals, 1.60, times 10 raised to the power of negative 19, joules
+Speed of light, 
+c
+ equ
+al s,  
+3 .
+00 times 10 raised to the power of 8, meters per second
+ Universal gravitational 
+constant,
+G
+ 
+eq
+u
+a
+ls, 
+6.
+6 7 ,
+ t
+i
+m
+e
+s
+ 10 raised to the power of negative 11, meters cubed per kilogram second squared
+ Acceleration due to gravity
+ 
+at Earth’s surface,
+g
+ equa l
+s , 9.8 meters per second squared
+1 unified atomic mass unit,
+1 
+u
+ eq
+uals
+, 
+1.6
+6 ti mes  
+1
+0
+ 
+raised to the power of negative 27 kilograms, which equals 931 mega electron volts, over the speed of light squared
+ Planck’s constant,
+h
+ e
+qu
+als 
+6.
+63 ,
+ tim
+es
+ 10 raised to the power of negative 34, Joule seconds, which equals 4.14 times 10 raised to the power of negative 15 electron volt second s
+h 
+c
+ 
+e
+qual
+s 
+1. 9
+9 ti
+me s 1 0 
+ra i
+s
+e
+d
+ 
+to the power of negative 25, Joule meters, which equals 1.24 times 10 raised to the power of 3, electron volt nanometers
+Vacuum permittivity,
+ep
+s
+i
+l
+on s
+ub
+ 
+0  
+e
+q
+u
+a
+l
+s
+, 8.85, times 10 raised to the power of negative 12, coulomb squared per open parenthesis, Newton meter squared, close parenthesis
+ Coulomb’s law constant,
+k
+ 
+e
+q
+u
+a
+l
+s
+ t
+he 
+fr a c t
+i
+o
+n 
+1
+ 
+o
+ver, open parenthesis, 4 pi, times epsilon sub 0, close parenthesis, which equals 9.0, times 10 raised to the power of 9, open parenthesis Newton meters squared close parenthesis, per coulomb squared
+Vacuum permeability,
+m
+u
+ 
+su
+b 0  e q
+u
+a
+l
+s
+,
+ 4 pi, times 10 raised to the power of negative 7, tesla meters per ampere
+Magnetic constant,  
+k
+ 
+p
+r
+i
+m
+e 
+equ al s
+,
+ 
+t
+h
+e
+ 
+f
+r
+action mu sub 0 over 4 pi, which equals 1, times 10 raised to the power of negative 7, tesla meters per ampere
+ 1 atmosphere pressure,
+1
+ 
+a
+tmosp
+her
+e e q u
+als
+, 1.0
+,
+ 
+t
+imes 10 raised to the power of 5, newtons per meter squared, which equals 1.0, times 10 raised to the power of 5 pascals
+UNIT 
+SYMBOLS 
+meter, 
+m
+kilogram, 
+k g
+second, 
+s
+ampere, 
+A
+kelvin, 
+K
+mole, 
+mol
+hertz, 
+H z
+newton, 
+N
+pascal, 
+P a
+joule, 
+J
+watt, 
+W
+coulomb, 
+C
+volt, 
+V
+ohm,
+omega
+henry, 
+H
+farad, 
+F
+tesla, 
+T
+degree Celsius,
+C
+electron volt, 
+e V 
+PREFIXES 
+Factor
+Prefix
+Symbol
+9
+giga
+G
+6
+mega
+M
+3
+kilo
+k
+2
+centi
+c
+10 raised to the power of negative 3
+milli
+m
+6
+micro
+Mu
+9
+nano
+n
+10 raised to the power of negative 12
+pico
+p
+VALUES OF TRIGONOMETRIC FUNCTIONS FOR COMMON ANGLES
+theta
+0 degrees
+30 degrees
+37 degrees
+45 degrees
+53 degrees
+60 degrees
+90 degrees
+sine theta
+0 
+o ne half
+t hree fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 3, and denominator, 2
+1 
+cosine theta
+1 
+the fraction with numerator, the square root of 3, and denominator, 2
+f o ur fifths
+the fraction with numerator, the square root of 2, and denominator, 2
+t hree fifths
+o n e half
+0 
+tangent theta
+0
+the fraction with numerator, the square root of 3, and denominator, 3
+t hree fourths
+1
+f o ur thirds
+3
+Infinity
+The following assumptions are used in this exam. 
+1.
+The frame of reference of any problem is inertial unless otherwise
+stated.
+2
+The direction of current is the direction in which positive charges
+would drift.
+3
+The electric potential is zero at an infinite distance from an isolated
+point charge.
+4
+All batteries and meters are ideal unless otherwise stated.
+5.
+Edge effects for the electric field of a parallel plate capacitor are
+negligible unless otherwise stated.
+
+
+--- PAGE BREAK ---
+
+-3-
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+MECHANICS
+lowercase a, equals 
+ acceleration 
+E equals   energy 
+uppercase F, equals  force 
+lowercase f, equals 
+ frequency 
+h equals height 
+I equals rotational inertia 
+J equals impulse 
+uppercase K, equals  kinetic energy 
+lowercase k, equals 
+ spring constant 
+l owercase l, equals length
+uppercase L, equals 
+ angular momentum 
+m equals mass 
+uppercase P, equals  power 
+lowercase p, equals 
+ momentum 
+r equals radius or distance 
+uppercase T, equals 
+ period 
+lowercase t, equals 
+ time 
+U equals potential energy 
+v equals velocity or speed 
+W equals work done on a system 
+x equals  position 
+m u equals  coefficient of friction 
+t heta equals  angle 
+t au equals  torque 
+o mega equals  angular speed 
+a lpha equals angular acceleration 
+p hi equals  phase angle 
+v
+ 
+s
+u
+b
+ 
+x
+ equals v sub x zero, plus, a sub x times t
+x
+x
+ 
+e
+q
+u
+a
+l
+s
+ 
+x
+ 
+s
+u
+b
+ zero, plus v sub x zero, times t, plus one half a sub x times t squared t
+v
+ 
+s
+u
+b
+ 
+x
+ 
+s
+q
+u
+a
+r
+e
+d
+, equals v sub x zero squared, plus 2 a sub x, open parenthesis x minus x sub zero close parenthesis 
+0
+vec
+t
+o
+r
+ a equals the fraction the summation of vector F over m, which equals the fraction vector F sub net over 
+m
+v
+e
+c
+to
+r
+ F equals the derivative of vector p with respect to t
+v
+e
+c
+t
+o
+r
+ J equals integral vector F times d t, which equals delta vector 
+p
+G
+G
+v
+ector p equals m times vector v
+t
+h
+e
+ 
+a
+b
+s
+olute value of vector F sub f is less than or equal to mu, times the absolute value of vector F sub n
+D
+e
+l t
+a
+ 
+E
+ 
+e
+q uals W which equals the integral of vector F dot d vector r
+K
+ 
+e
+q
+u
+a
+ls one half m times v squared
+P  e
+q
+uals the derivative of E with respect to t
+P
+ e
+q
+u
+als vector F dot vector v
+d
+e
+l
+t
+a
+ U sub g equals m times g, times delta h
+a
+ 
+s
+u
+b
+ 
+c
+ equals, the fraction, v squared over r, which equals, omega squared times 
+r
+r
+v e
+c
+t
+o
+r tau equals vector r, cross, vector 
+F
+v
+e
+c
+t
+o
+r
+ 
+a
+l
+pha
+ equals the fraction the summation of vector tau over I, which equals the fraction vector tau sub net over 
+I
+I
+ 
+e qu
+a
+l
+s ,
+ the integral of r squared, times, d m, which equals, the summation of m, times r squared
+2r
+x  
+sub c m equals the fraction with numerator the summation of m sub i times x sub i, and denominator the summation of m sub 
+i
+v
+ 
+e quals, r times omega
+v
+e
+c
+t
+o
+r
+ 
+L
+ 
+e
+q
+uals vector r cross vector p, which equals, I times vector omega
+K
+ 
+e
+q
+ua
+ls one half I times omega squared
+omega equals omega sub 0, plus alpha 
+t
+t
+h
+e
+t
+a
+ 
+e
+q
+u
+a
+l
+s
+ 
+theta sub zero, plus omega sub zero times t, plus one half alpha times t squared
+
+
+v
+e c
+t
+o
+r
+ 
+F sub S equals negative k delta vector x
+U
+ 
+s
+u
+b
+ 
+S
+ 
+e
+q
+uals one half k, open parenthesis delta x close parenthesis, squared
+x e qual
+s
+ 
+x
+ 
+s
+ub max, times cosine, open parenthesis, omega t plus, phi, close parenthesis
+T
+ 
+equals, the fraction, two pi, over, omega, which equals the fraction, one, over, 
+f
+T
+ 
+s
+ub S equals, two pi, times the square root of the fraction, m over 
+k
+T
+ 
+sub p equals, two pi, times the square root of the fraction, l over 
+g
+t
+h
+e
+ 
+a
+b
+so l
+u
+te value of vector F sub g equals G, times the fraction with numerator m sub 1, times m sub 2 and denominator r squared
+U
+ 
+s
+ub  
+G equals the negative of the fraction with numerator G times m sub 1, times m sub 2, and denominator, 
+r
+ELECTRICITY AND MAGNETISM 
+A, equals 
+area 
+B equals magnetic field 
+C equals capacitance 
+d equals 
+ distance 
+E equals electric field 
+epsi lon equals e m f
+F equals force 
+I equals 
+ current 
+J equals 
+ current density 
+up percase L, equals inductance 
+l owercase l, equals length
+lowercase n, equals 
+ number of loops of wire  
+     per unit length 
+uppercase N, equals 
+number of charge carriers
+     per unit volume 
+P equals power 
+uppercase Q, equals  charge 
+lowercase q, equals 
+ point charge 
+uppercase R, equals  resistance 
+lowercase r, equals 
+radius or distance 
+t equals 
+ time 
+U equals potential or stored energy 
+u ppercase V, equals electric potential
+lowercase v, equals  velocity or speed 
+r ho equals  resistivity 
+p hi equals  flux 
+k appa equals  dielectric constant 
+t
+h e
+ 
+a
+bso
+l
+u
+t
+e  
+v
+alue of vector F sub E equals the fraction 1 over 4 pi epsilon sub zero times the absolute value of the fraction with numerator q sub 1 times q sub 2, and denominator r squared
+v
+e
+c
+t
+or E equals, the fraction vector F sub E over 
+q
+0
+E  sub x equals the negative derivative of V with respect to 
+x
+d
+e lt
+a
+ 
+V
+ 
+e quals the negative integral of vector E dot d vector r
+V
+ 
+equ
+a
+l
+s
+ the fraction, 1 over 4 pi epsilon sub 0, times the summation with respect to i of the fraction, q sub i over r sub 
+i
+U  
+s
+u
+b E
+ 
+e
+q
+u a
+l
+s, q times V, which equals, the fraction, 1 over 4 pi epsilon sub zero, times the fraction with numerator q sub 1 times q sub 2, and denominator 
+r
+d
+e l
+ta V equals the fraction Q over 
+C
+C
+ e
+q
+u
+als kappa times epsilon sub zero, times the fraction A over 
+d
+C
+ sub p equals the summation with respect to i of C sub 
+i
+t
+h
+e
+ fraction, one over C sub S equals the summation with respect to i of the fraction one over C sub 
+i
+I 
+e
+quals the derivative of Q with respect to t
+U
+ s
+u
+b
+ 
+C
+ 
+e
+q u
+a
+l
+s
+ 
+one half Q times delta V, which equals one half C times, open parenthesis delta V close parenthesis, squared
+D
+R equals the fraction rho times l over 
+A
+V
+e
+c
+t
+or E equals rho times vector 
+J
+I
+ 
+e
+quals N times e, times v sub d, times A
+I
+ 
+e
+quals the fraction delta V over 
+R
+i
+t
+he fraction 1 over R sub p equals the summation with respect to i of the fraction 1 over R sub 
+i
+P
+ 
+e
+quals I times delta V
+G
+G
+v
+e
+c
+t
+o
+r
+ F sub M equals q times vector v cross vector 
+B
+C
+l
+o
+s
+e
+d
+ 
+l
+i n e integral of vector B, times, d vector l, equals, mu sub zero times 
+I
+d
+ 
+v
+e
+c
+t
+o
+r
+ 
+B
+ 
+e q
+u
+al
+s the fraction, mu sub zero over 4 pi, times the fraction with numerator, I times d vector l , cross, r hat, and denominator, r squared
+v
+e
+c
+t
+o
+r
+ 
+F
+ 
+e quals the integral of I times d vector l, cross, vector 
+B
+B
+ 
+s
+ub S equals, mu sub zero, times n, times I
+p
+h i
+ 
+s
+u
+b
+ B equals the integral of vector B dot d vector A
+e
+p
+s
+il
+o
+n
+ 
+e
+q
+u
+a
+l
+s ,
+ the closed line integral of vector E, dot d vector l, which equals the negative derivative of  phi sub B, with respect to t
+ep
+s ilon equals, negative L, times the fraction d I, over, d t
+U
+ 
+s
+u
+b
+ L
+ equals, one half, times L, times I squared
+
+
+--- PAGE BREAK ---
+
+-4-
+ADVANCED PLACEMENT PHYSICS C EQUATIONS 
+GEOMETRY AND TRIGONOMETRY 
+ 
+A, equals area 
+C equals  circumference 
+V equals volume 
+uppercase S, equals surface area 
+b equals  base 
+h equals height 
+l  equals length
+w equals width 
+r equals radius 
+lowercase s, equals arc length
+t heta equals angle
+Rectangle 
+A
+ equals, b times h
+Triangle 
+A
+ 
+e
+quals, one half b times  h
+Circle 
+A
+ 
+e
+quals, pi times r squared
+r
+C
+ 
+equals, 2 pi, times 
+r
+    s
+ e
+q
+uals r times theta
+Rectangular Solid 
+V
+ 
+e quals, l times w times h h
+Cylinder 
+V
+ 
+e
+q
+u
+als, pi times r squared times l
+S
+ 
+e
+q
+u
+a
+l
+s
+ 
+2
+ pi times r, times l, plus, 2 pi times r squared
+Sphere 
+V
+ 
+e
+q
+u
+a
+l
+s four thirds, pi, times r cubed
+S
+ 
+e
+q
+u
+als 4 pi times r squared
+Right Triangle 
+a
+ 
+s
+q
+u
+a
+r
+ed plus b squared, equals c squared
+    sin
+e theta equals the fraction a over 
+c
+    cos
+ine theta equals the fraction b over 
+c
+    tan
+gent theta equals the fraction a over 
+b
+Th
+e 
+figure presents a circle. Two radii, labeled r, are drawn from the center of the circle. The angle formed by the two radii is labeled theta. The part of the circle between the endpoints of each radius is labeled s.
+T
+h
+e
+ fi
+gure presents a right triangle. The bottom right hand angle is a right angle, labeled 90 degrees. The bottom left hand angle is labeled theta, and the top right hand angle is not labeled. The vertical side, opposite the angle labeled theta, is labeled a. The horizontal side, adjacent to the angle labeled theta, is labeled b. The hypotenuse is labeled c.
+CALCULUS
+d e
+r i va
+ti
+ve  of f with respect to x equals the derivative of f with respect to u times the derivative of u with respect to x
+d
+erivative with respect to x, of open parenthesis, x raised to the power of n, close parenthesis, equals, n, times x raised to the power of, n minus 
+1
+n
+d
+e r
+iv
+ative with respect to x, of open parenthesis, e to the power of a x, close parenthesis, equals a e to the power of a x
+d
+e
+r
+iv
+ative with respect to x, of open parenthesis, natural log of a x, close parenthesis, equals 1 over 
+x
+d
+e
+r
+i
+v
+a
+tiv
+e with respect to x, of open bracket sine a x close bracket, equals a, cosine open parenthesis a x close parenthesis
+d
+e
+r
+i
+v
+a
+tiv
+e w
+i t
+h
+ r
+e
+sp
+ect to x, of open bracket cosine a x close bracket, equals negative a, sine open parenthesis a x close parenthesis
+1
+
+t
+h
+e
+ i
+ntegral of e to the power of a x, d x, equals the fraction 1 over a, times e to the power of a x
+th
+e
+ 
+i
+n
+te
+g
+r
+al of d x over x plus a, equals natural log of the absolute value of x plus 
+a
+t
+h
+e
+ 
+i
+nte
+gra
+l
+ 
+of  c
+os
+ine open parenthesis a x close parenthesis, d x, equals, the fraction 1 over a, times sine open parenthesis a x close parenthesis
+t
+h
+e
+ 
+i
+nte
+gral of sine open parenthesis a x close parenthesis, d x, equals, the negative fraction 1 over a, times cosine open parenthesis a x close parenthesis
+VECTOR PRODUCTS 
+vec
+t o
+r 
+A
+ 
+dot vector B, equals A B cosine theta
+
+the
+ 
+a
+bs
+o
+l
+ute value of vector A cross vector B, equals A B sine theta
+
+
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-5-
+PHYSICS C:  ELECTRICITY AND MAGNETISM 
+SECTION II 
+Time—45 minutes 
+3 Questions 
+Directions:  Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, 
+which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this 
+booklet in the spaces provided after each part. The figure presents a diagram in the first and second quadrants of the x y plane. A horizontally oriented cylinder is shown along the x axis. The center of the cylinder is at the origin. The distance from the left end of the cylinder to the origin is labeled L over 2, and the distance from the origin to the right end of the cylinder is also labeled L over 2. The left end of the cylinder is labeled positive lambda. A point P is indicated on the y axis above the origin at y equals c. There is a note that states that the figure is not drawn to scale.
+1. A very long, thin, nonconducting cylinder of length L is centered on the y-axis, as shown above. The cylinder
+has a uniform linear charge density 
+p
+ositive lambda
+. Point P is located on the y-axis at y equals 
+c , where L  is much greater than c.
+(a)
+i. On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due
+to the long cylinder. The arrow should start on and point away from the dot.The figure presents a point P at the intersection of a dashed vertical line and a dashed horizontal line.
+ii. Describe the shape and location of a Gaussian surface that can be used to determine the electric field at
+point P due to the long cylinder.
+iii. Use your Gaussian surface to derive an expression for the magnitude of the electric field at point P.
+Express your answer in terms of lambda , c, L, and physical constants, as appropriate.
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-6- 
+(b) A proton is released from rest at point P. On the axes below, sketch the velocity v as a function of  
+position y and the acceleration a as a function of position y for the proton. The figure presents two pairs of axes. The first pair of axes presents the first and fourth quadrants of a coordinate plane, with the horizontal axis labeled y, and the vertical axis labeled v. The origin is labeled O. Approximately one fourth of the way along the horizontal axis 
+ 
+  The original cylinder is now replaced with a much shorter thin, nonconducting cylinder with the same uniform 
+linear charge density 
+p
+ositive lambda
+, as shown in the figure below. The length of the cylinder to the right of the y-axis is a, 
+and the length of the cylinder to the left of the y-axis is b, where  a is less than b b .  The figure presents a diagram in the first and second quadrants of the x y plane. A horizontally oriented cylinder is shown along the x axis. The center of the cylinder is to the left of the origin. The distance from the left end of the cylinder to the origin is labeled b, and the distance from the origin to the right end of the cylinder is labeled a. Length b appears to be slightly less than 3 times length a. The left end of the cylinder is labeled positive lambda. A point P is indicated on the y axis above the origin at y equals c. 
+ 
+(c) On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due to the 
+shorter cylinder. The arrow should start on and point away from the dot. 
+ The figure presents a point P at the intersection of a dashed vertical line and a dashed horizontal line.
+ 
+(d)  
+ 
+i. Is there a single Gaussian surface that can be used with Gauss’s law to derive an expression for the 
+electric field at point P? 
+ 
+ 
+____ Yes 
+____ No 
+ ii. If your answer to part (d)(i) is yes, explain how you can use Gauss’s law to derive an expression for the 
+field at point P. If your answer to part (d)(i) is no, explain why Gauss’s law cannot be applied to derive 
+an expression for the electric field in this case. 
+ 
+ 
+ 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-7- 
+ 
+The figure presents a diagram in the first and second quadrants of the x y plane. A horizontally oriented cylinder is shown along the x axis. The center of the cylinder is to the left of the origin. The distance from the left end of the cylinder to the origin is labeled b, and the distance from the origin to the right end of the cylinder is labeled a. Length b appears to be slightly less than 3 times length a. The left end of the cylinder is labeled positive lambda. A point P is indicated on the y axis above the origin at y equals c. There is a note that states that the figure is shown again for reference.
+  A student in class argues that using the integral shown below might be a useful approach for determining the 
+electric field at point P. 
+E
+ 
+e
+q
+u
+a
+ls
+,
+ t
+h e
+ integral of, the fraction with numerator 1, and denominator 4 pi, epsilon sub 0, end fraction, times the fraction 1 over r squared, end fraction, with respect to q 
+  The student uses this approach and writes the following two integrals for the magnitude of the horizontal and 
+vertical components of the electric field at point P. 
+Horizontal component: 
+t
+h
+e  
+a
+b
+s
+o
+l
+u
+t
+e
+ 
+va
+l
+u
+e
+ o
+f
+ 
+E
+ 
+s
+ub x, equals the fra
+c
+t
+i
+o
+n
+ 
+w
+i
+t
+h
+ 
+nu
+m
+e
+r
+at
+o
+r
+ 
+l
+ambda, and denominator 4 pi, epsilon sub 0, end fraction, times the integral from negative b to a, of the fraction with numerator x, and denominator open parenthesis, c squared plus x squared, close parenthesis, to the three halves power, end fraction, with respect to x.
+Vertical component: the absolute value of E sub y, equals the fraction with numerator lambda, and denominator 4 pi, epsilon sub 0, end fraction, times the integral from negative b to a, of the fraction with numerator y, and denominator open parenthesis, c squared plus x squared, close parenthesis, end fraction, with respect to y.
+(e)  
+ 
+i. One of the two expressions above is not correct. Which expression is not correct? 
+ 
+ ____ Horizontal component 
+____ Vertical component 
+ ii. Identify two mistakes in the incorrect expression, and explain how to correct the mistakes. 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-8- 
+Figure 1 presents a rectangular circuit diagram with two batteries and three resistors. The left side of the circuit has a battery labeled 6.0 volts such that its positive terminal is indicated above its negative terminal. Above the battery, there is an upward pointing current labeled I sub 1. Moving up the left side and across the top of the circuit, there is a resistor of resistance 150 ohms. To the right of the resistor, the circuit splits into two vertical branches. From top to bottom, the first vertical branch has a downward pointing current labeled I sub 2 and a resistor of resistance 200 ohms. On the top side between the two vertical branches is a resistor of resistance 100 ohms. From top to bottom, the second vertical branch has an upward pointing current labeled I sub 3 and a battery labeled 6.0 volts such that its terminals have the same orientation as the previous battery. The branches join and the circuit is completed.
+ 2. The circuit shown above is constructed with two 6.0 volts batteries and three resistors with the values shown.  
+The currents 1 , 2 , and 3  in each branch of the circuit are indicated. 
+(a)  
+ 
+i. Using Kirchhoff’s rules, write, but DO NOT SOLVE, equations that can be used to solve for the 
+current in each resistor. 
+ ii. Calculate the current in the 
+2
+00 ohms
+ resistor. 
+ iii. Calculate the power dissipated by the 
+2
+00 ohms
+ resistor. 
+ 
+Figure 2 presents a rectangular circuit diagram with one battery, four resistors, and a voltmeter. The left side of the circuit has a battery labeled e m f. Moving up the left side and across the top of the circuit, there is a resistor of resistance 150 ohms. To the right of the resistor, the circuit splits into two vertical branches. The first vertical branch has a resistor of resistance 200 ohms. A voltmeter labeled V is connected across the resistor. On the top side between the two vertical branches is a resistor of resistance 100 ohms. The second vertical branch has a resistor of resistance 50 ohms. The two branches join and the circuit is completed.
+  The two 6.0 volts batteries are replaced with a battery with voltage E m f  and a resistor of resistance 
+5
+0 ohms
+, as shown 
+above. The voltmeter V shows that the voltage across the2
+0
+0 ohms
+ resistor is 4.4 volts. 
+(b) Calculate the current through the 50 ohms  resistor. 
+(c) Calculate the voltage e m f  of the battery. 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-9- 
+(d)  
+ 
+i. The 
+2
+00 ohms
+ resistor in the circuit in Figure 2 is replaced with a 
+200 m
+icrofarads  capacitor, as shown on the right, and the circuit is 
+allowed to reach steady state. Calculate the current through the 
+50 ohmsresistor. 
+ 
+ 
+ 
+ 
+ The figure presents a rectangular circuit diagram with one battery, three resistors, and a capacitor. The left side of the circuit has a battery labeled e m f. Moving up the left side and across the top of the circuit, there is a resistor of resistance 150 ohms. To the right of the resistor, the circuit splits into two vertical branches. The first vertical branch has a capacitor labeled 200 microfarads. On the top side between the two vertical branches is a resistor of resistance 100 ohms. The second vertical branch has a resistor of resistance 50 ohms. The two branches join and the circuit is completed.
+ii. The 200 ohms  resistor in the circuit in Figure 2 is replaced with  
+an ideal 50 millihenrys inductor, as shown on the right, and the circuit  
+is allowed to reach steady state. Is the current in the 50 ohms
+resistor greater than, less than, or equal to the current calculated 
+in part (b) ? 
+ 
+ ____ Greater than        ____ Less than        ____ Equal to 
+ 
+ Justify your answer. The figure presents a rectangular circuit diagram with one battery, three resistors, and an inductor. The left side of the circuit has a battery labeled e m f. Moving up the left side and across the top of the circuit, there is a resistor of resistance 150 ohms. To the right of the resistor, the circuit splits into two vertical branches. The first vertical branch has an inductor labeled 50 millihenrys. On the top side between the two vertical branches is a resistor of resistance 100 ohms. The second vertical branch has a resistor of resistance 50 ohms. The two branches join and the circuit is completed.
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+GO ON TO THE NEXT PAGE. 
+-10-The figure presents a diagram. The left side of the diagram shows a horizontally oriented solid solenoid along a horizontal axis. The distance from the axis to the inner edge of the solenoid is labeled a. The horizontal length of the solenoid is labeled l. A current labeled I is shown entering the left side of the solenoid, and exiting from the right side of the solenoid. The right side of the diagram shows a cutaway view of the solenoid, such that P is located along the horizontal x axis, and the vertical y axis runs through the middle of the solenoid at point P. The diagonal z axis passes through point P and slants downward and to the right. A current labeled I is shown entering the left side of the solenoid. The current through the wound wire shown on t
+3. A solenoid is used to generate a magnetic field. The solenoid has an inner radius a, length l , and N total turns
+of wire. A power supply, not shown, is connected to the solenoid and generates current I, as shown in the figure
+on the left above. The x-axis runs along the axis of the solenoid. Point P is in the middle of the solenoid at the
+origin of thex y z-coordinate system, as shown in the cutaway view on the right above. Assume 
+a .
+(a) Select the correct direction of the magnetic field at point P.
+ 
+____ positive x-direction      ____ positive y-direction   ____ positive z-direction
+ 
+____ negative x-direction      ____ negative y-direction      ____ negative z-direction
+Justify your selection. 
+(b)  
+i. On the cutaway view below, clearly draw an Amperian loop that can be used to determine the magnetic
+field at point P at the center of the solenoid.The figure presents a diagram showing a cutaway view of a horizontally oriented solenoid along a horizontal axis that is indicated as axis of solenoid. The middle of the solenoid is indicated at point P on the axis. A current labeled I is shown entering the left side of the solenoid. The current through the wound wire shown on the top of the solenoid is indicated out of the page, and the current through the wound wire on the bottom of the solenoid is indicated into the page.  
+ii. Use Ampere’s law to derive an expression for the magnetic field strength at point P. Express your
+answer in terms of I, l,  N, a, and physical constants, as appropriate.
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+-11-
+Some physics students conduct an experiment to determine the resistance 
+S  of a solenoid with radius 
+a, equals 0.015 meter, total turns N equals 100, and total length 
+l equa
+l
+s 0.40 meter
+. The students connect the solenoid to  
+a variable power supply. A magnetic field sensor is used to measure the magnetic field strength along the central 
+axis at the center of the solenoid. The plot of the magnetic field strength B as a function of the e m f e  of the 
+power supply is shown below.  The figure presents a scatterplot in the first quadrant of the coordinate plane. The horizontal axis is labeled “e m f, in volts,” and the numbers 0 through 8, in increments of 2, are indicated. The vertical axis is labeled “B, in teslas times 10 to the negative 4 power,” and the numbers 0 through 3.0, in increments of 0.5, are indicated. There are 5 data points. The data presented by the points are as follows. Note all values are approximate. Point 1. 1.4 comma 0.7. Point 2. 3 comma 1.4. Point 3. 4.4 comma 1.7. Point 4. 5.7 comma 2.3. Point 5. 7.2 comma 2.8.
+(c)  
+i. On the graph above, draw a best-fit line for the data.
+ii. Use the straight line to determine the resistance 
+S  of the solenoid used in the experiment.
+(d) One of the students notes that the horizontal component of the magnetic field of Earth is 
+2
+.5 
+ti
+me
+s
+ 10 to the negative 5 power teslas
+.
+i. Is there evidence from the graph that the horizontal orientation of the solenoid affects the measured
+values for B ?
+____ Yes        ____ No
+Justify your answer.
+ii. Would the horizontal orientation of the solenoid affect the calculated value for 
+S  ?
+____ Yes        ____ No
+Justify your answer.
+GO ON TO THE NEXT PAGE. 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+
+
+--- PAGE BREAK ---
+
+2019 AP® PHYSICS C: ELECTRICITY AND MAGNETISM FREE-RESPONSE QUESTIONS 
+-12-The figure presents a diagram. The diagram shows a horizontally oriented solid solenoid along a horizontal axis. The distance from the axis to the inner edge of the solenoid is labeled a. The horizontal length of the solenoid is labeled l. A current labeled I is shown entering the left side of the solenoid, and exiting from the right side of the solenoid. A loop is shown around the solenoid, with a radius of b measured from the center of the solenoid at the horizontal axis. The figure indicates two arrows on the loop. One arrow indicates that the clockwise direction is along the loop in front of the solenoid. The other arrow indicates that the counterclockwise direction is along the loop behind the solenoid.
+A thin conducting loop of radius b and resistance 
+L  is placed concentric with the solenoid, as shown above. 
+The current in the solenoid is decreased from I to zero over time 
+t.   
+(e) 
+i. Is the direction of the induced current in the loop clockwise or counterclockwise during the time period
+that the current in the solenoid is decreasing?
+____ Clockwise        ____ Counterclockwise
+Justify your answer.
+ii. Derive an equation for the average induced current i sub I N D  in the loop during the time period that the
+current in the solenoid is decreasing. Express your answer in terms of I, l,  N, a, b, 
+L,  
+S,  t,  and
+physical constants, as appropriate.
+STOP 
+END OF EXAM 
+© 2019 The College Board. 
+Visit the College Board on the web: collegeboard.org.
+  
+
+Convert to the JSON schema defined in your system prompt. Output ONLY the JSON object.

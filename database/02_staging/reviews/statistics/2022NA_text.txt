@@ -1,0 +1,2323 @@
+2022 
+AP
+® Statistics
+Free-Response Questions 
+© 2022 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered 
+trademarks of College Board. Visit College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+
+
+--- PAGE BREAK ---
+
+Formulas for AP Statistics 
+ 1.
+Descriptive Statistics 
+ x bar equals, the fraction 1 over n, end fraction, times the sum over x sub i, which equals the fraction with numerator, the sum over x sub i, and denominator 
+ 
+s sub x equals, the square root of the fraction 1 over n minus 1, end fraction, times the sum over open parenthesis, x sub i minus x bar, close parenthesis, squared, end root, which equals the square root of the fraction the sum over open parenthesis, x sub i minus x bar, close parenthesis, squared, and denominator n minus 1, end fraction, end root 
+ y hat equals a plus b x 
+ y b ar equals a plus b, times x bar 
+ 
+r equals, the fraction 1 over n minus 1, end fraction, times the sum over open parenthesis, the fraction with numerator x sub i minus x bar, and denominator s sub x, close parenthesis, times open parenthesis, the fraction with numerator y sub i minus y bar, and denominator s sub y, close parenthesis, end sum 
+ b
+ equ als r times the fraction, s sub y over s sub x, end fraction
+ 2. 
+Probability and Distributions 
+ 
+t h e probability of, A, union B, equals the probability of A, plus the probability of B, minus the probability of, A, intersection B 
+ t h e
+ 
+p
+r
+o b a
+bility of, A, given B, which equals the probability of, A, intersection B, divided by the probability of B 
+Probability Distribution 
+Mean 
+Standard Deviation 
+Discrete random variable, X 
+ mu sub uppercase X equals, the expected value of uppercase X, which equals the sum over lowercase x sub i, times the probability P sub i of lowercase x sub i, end sum 
+ 
+s
+igma sub uppercase X, equals the square root of, the sum over open parenthesis, lowercase x sub i, minus mu sub uppercase X, close parenthesis, squared times the probability of x sub i, end sum, end root 
+If 
+ 
+ 
+has a binomial distribution 
+with parameters  n  and p , then: 
+the p ro
+b a
+b
+i
+l i ty  that
+ upper ca
+se  
+X equals lowercase x, equals n combination lowercase x, times p to the lowercase x power, times open parenthesis, 1 minus p, close parenthesis, to the n minus lowercase x power
+where  lowercase x equals 0, 1, 2, 3, dot dot dot, n 
+ mu sub uppercase X equals n p 
+ sigma sub uppercase X equals the square root of, n p times open parenthesis, 1 minus p, close parenthesis, end root 
+If 
+ 
+uppercase X has a geometric distribution 
+with parameter  p , then: 
+ t
+h
+e
+ p robability that uppercase X equals lowercase x, equals open parenthesis, 1 minus p, close parenthesis, to the lowercase x minus 1 power, times p 
+where  lowercase x equals 1, 2, 3, dot dot dot 
+ 
+mu
+ s
+ub
+ uppercase X equals 1 over p
+ sigma sub uppercase X equals, the fraction with numerator, the square root of 1 minus p, and denominator p 
+ 3 . 
+Sampling Distributions and Inferential Statistics 
+Standardized test statistic: 
+statistic 
+Confidence interval:   statistic plus or minus critical value times standard error of statistic
+ 
+Chi-square statistic:   
+chi squared equals the sum over, the fraction with numerator open parenthesis, observed minus expected, close parenthesis, squared, and denominator expected 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+III. Sampling Distributions and Inferential Statistics (continued) 
+Sampling distributions for proportions: 
+Random 
+Variable 
+Parameters of 
+Sampling Distribution 
+Standard Error* 
+of Sample Statistic 
+For one 
+population: 
+ p hat 
+ mu sub p hat equals p 
+ sigma sub p hat equals, the square root of, the fraction with numerator p times open parenthesis, 1 minus p, close parenthesis, and denominator n 
+ s sub p hat equals, the square root of, the fraction with numerator p hat times open parenthesis, 1 minus p hat, close parenthesis, and denominator n 
+For two 
+populations: 
+ p 
+h
+at sub 1 minus p hat sub 2 
+ mu sub, p hat sub 1 minus p hat sub 2, end sub, equals p sub 1 minus p sub 2 
+ sigma sub, p hat sub 1 minus p hat sub 2, end sub, equals the square root of, the fraction with numerator p sub 1 times open parenthesis, 1 minus p sub 1, close parenthesis, and denominator n sub 1, end fraction, plus the fraction with numerator p sub 2 times open parenthesis, 1 minus p sub 2, close parenthesis, and denominator n sub 2, end fraction, end root 
+ s sub, p hat sub 1 minus p hat sub 2, end sub, equals the square root of, the fraction with numerator p hat sub 1 times open parenthesis, 1 minus p hat sub 1, close parenthesis, and denominator n sub 1, end fraction, plus the fraction with numerator p hat sub 2 times open parenthesis, 1 minus p hat sub 2, close parenthesis, and denominator n sub 2, end fraction, end root 
+When  p sub 1 equals p sub 2 
+  is assumed: 
+ s sub, p hat sub 1 minus p hat sub 2, end sub, equals the square root of p hat sub c, times open parenthesis, 1 minus p hat sub c, close parenthesis, times open parenthesis, the fraction 1 over n sub 1, end fraction, plus the fraction 1 over n sub 2, end fraction, close parenthesis, end root 
+ 
+where p hat sub c equals, the fraction with numerator uppercase X sub 1, plus uppercase X sub 2, and denominator n sub 1 plus n sub 2, end fraction 
+Sampling distributions for means: 
+Random 
+Variable 
+Parameters of Sampling Distribution 
+Standard Error* 
+of Sample Statistic 
+For one 
+population: 
+ uppercase X bar 
+ 
+mu sub uppercase X bar equals mu 
+ 
+sigma sub uppercase X bar equals, the fraction with numerator sigma, and denominator the square root of n 
+ s
+ sub uppercase X bar equals, the fraction with numerator s, and denominator the square root of n 
+ 
+ 
+For two 
+populations: 
+ uppercase X bar sub 1, minus uppercase X bar sub 2 
+ 
+mu sub uppercase X bar sub 1, minus uppercase X bar sub 2, end sub, equals mu sub 1 minus mu sub 2 
+ s
+i
+gma sub uppercase X bar sub 1, minus uppercase X bar sub 2, end sub, equals the square root of, the fraction with numerator sigma sub 1, squared, and denominator n sub 1, end fraction, plus the fraction with numerator sigma sub 2, squared, and denominator n sub 2, end fraction, end root 
+ s
+ 
+su
+b
+ u
+p
+percase X bar sub 1, minus uppercase X bar sub 2, end sub, equals the square root of, the fraction with numerator s sub 1, squared, and denominator n sub 1, end fraction, plus the fraction with numerator s sub 2, squared, and denominator n sub 2, end fraction, end root 
+Sampling distributions for simple linear regression: 
+Random 
+Variable 
+Parameters of Sampling Distribution 
+Standard Error* 
+of Sample Statistic 
+For slope: 
+ b 
+ mu sub b equals beta 
+ sigma sub b equals the fraction with numerator sigma, and denominator sigma sub lowercase x, times the square root of n, end fraction, where sigma sub lowercase x, equals the square root of, the fraction with numerator, the sum over open parenthesis, lowercase x sub i, minus lowercase x bar, close parenthesis, squared, and denominator n, end fraction, end root
+ 
+ s
+ sub b equals the fraction with numerator s, and denominator s sub lowercase x, times the square root of n minus 1, end root, end fraction, where s equals the square root of, the fraction with numerator, the sum over open parenthesis, lowercase y sub i, minus lowercase y hat sub i, close parenthesis, squared, and denominator n minus 2, end fraction, end root and  s equals the square root of, the fraction with numerator, the sum over open parenthesis, lowercase x sub i, minus lowercase x hat, close parenthesis, squared, and denominator n minus 1, end fraction, end root 
+*S
+ tandard deviation is a measurement of variability from the theoretical population. Standard error is the estimate of the standard de
+ 
+viation.  If the 
+standard deviation of the statistic is assumed to be known, then the standard deviation should be used instead of the standard error. 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 1 on this page. 
+STATISTICS 
+SECTION II 
+Total Time—1 hour and 30 minutes 
+6 Questions 
+Part A 
+Suggested Time—1 hour and 5 minutes 
+5 Questions 
+Directions: Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness 
+of your methods as well as on the accuracy and completeness of your results and explanations. 
+1. A biologist gathered data on the length, in millimetersm m
+, and the mass, in grams g
+, for 11 bullfrogs. The 
+data are shown in Plot 1. 
+(a) Based on the scatterplot, describe the relationship between mass and length, in context. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+4 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 1 on this page. 
+From the data, the biologist calculated the least-squares regression line for predicting mass from length. The 
+least-squares regression line is shown in Plot 2. 
+(b) Identify and interpret the slope of the least-squares regression line in context. 
+(c) Interpret the coefficient of determination of the least-squares regression line, r 2 ª 0.819, in context. 
+(d) From Plot 2, consider the residuals of the 11 bullfrogs. 
+(i) Based on the plot, approximately what is the length and mass of the bullfrog with the largest absolute value 
+residual? 
+(ii) Does the least-squares regression line overestimate or underestimate the mass of the bullfrog identified in part 
+(d-i)? Explain your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+5 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 2 on this page. 
+2. A dermatologist will conduct an experiment to investigate the effectiveness of a new drug to treat acne. The 
+dermatologist has recruited 36 pairs of identical twins. Each person in the experiment has acne and each person in 
+the experiment will receive either the new drug or a placebo. After each person in the experiment uses either the 
+new drug or the placebo for 2 weeks, the dermatologist will evaluate the improvement in acne severity for each 
+person on a scale from 0 (no improvement) to 100 (complete cure). 
+(a) Identify the treatments, experimental units, and response variable of the experiment. 
+• 
+• 
+• 
+Treatments: 
+Experimental units: 
+Response variable: 
+Each twin in the experiment has a severity of acne similar to that of the other twin. However, the severity of acne 
+differs from one twin pair to another. 
+(b) For the dermatologist’s experiment, describe a statistical advantage of using a matched-pairs design where 
+twins are paired rather than using a completely randomized design. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+6 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 2 on this page. 
+(c) For the dermatologist’s experiment, describe how the treatments can be randomly assigned to people using a 
+matched-pairs design in which twins are paired. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+7 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 3 on this page. 
+3. A machine at a manufacturing company is programmed to fill shampoo bottles such that the amount of shampoo 
+in each bottle is normally distributed with mean 0.60 liter and standard deviation 0.04 liter. Let the random 
+variable A represent the amount of shampoo, in liters, that is inserted into a bottle by the filling machine. 
+(a) A bottle is considered to be underfilled if it has less than 0.50 liter of shampoo. Determine the probability that 
+a randomly selected bottle of shampoo will be underfilled. Show your work. 
+After the bottles are filled, they are placed in boxes of 10 bottles per box. After the bottles are placed in the boxes, 
+several boxes are placed in a crate for shipping to a beauty supply warehouse. The manufacturing company’s 
+contract with the beauty supply warehouse states that one box will be randomly selected from a crate. If 2 or more 
+bottles in the selected box are underfilled, the entire crate will be rejected and sent back to the manufacturing 
+company. 
+(b) The beauty supply warehouse manager is interested in the probability that a crate shipped to the warehouse 
+will be rejected. Assume that the amounts of shampoo in the bottles are independent of each other. 
+(i) Define the random variable of interest for the warehouse manager and state how the random variable is 
+distributed. 
+(ii) Determine the probability that a crate will be rejected by the warehouse manager. Show your work. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+8 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 3 on this page. 
+To reduce the number of crates rejected by the beauty supply warehouse manager, the manufacturing company is 
+considering adjusting the programming of the filling machine so that the amount of shampoo in each bottle is 
+normally distributed with mean 0.56 liter and standard deviation 0.03 liter. 
+(c) Would you recommend that the manufacturing company use the original programming of the filling machine 
+or the adjusted programming of the filling machine? Provide a statistical justification for your choice. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+9 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 4 on this page. 
+4. A survey conducted by a national research center asked a random sample of 920 teenagers in the United States 
+how often they use a video streaming service. From the sample, 59% answered that they use a video streaming 
+service every day. 
+(a) Construct and interpret a 95% confidence interval for the proportion of all teenagers in the United States who 
+would respond that they use a video streaming service every day. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+10 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 4 on this page. 
+(b) Based on the confidence interval in part (a), do the sample data provide convincing statistical evidence that the 
+proportion of all teenagers in the United States who would respond that they use a video streaming service 
+every day is not 0.5? Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+11 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 5 on this page. 
+5. Studies have shown that foods rich in compounds known as flavonoids help lower blood pressure. Researchers 
+conducted a study to investigate whether there was a greater reduction in blood pressure for people who consumed 
+dark chocolate, which contains flavonoids, than people who consumed white chocolate, which does not contain 
+flavonoids. Twenty-five healthy adults agreed to participate in the study and add 3.5 ounces of chocolate to their 
+daily diets. Of the 25 participants, 13 were randomly assigned to the dark chocolate group and the rest were 
+assigned to the white chocolate group. All participants had their blood pressure recorded, in millimeters of 
+mercury (mmHg), before adding chocolate to their daily diets and again 30 days after adding chocolate to their 
+daily diets. 
+The reduction in blood pressure (before minus after) for each of the participants in the two groups is shown in the 
+dotplots below. 
+(a) Determine and compare the medians of the reduction in blood pressure for the two groups. 
+The researchers found the mean reduction in blood pressure for those who consumed dark chocolate is 
+xdark = 6.08 mmHg and the mean reduction in blood pressure for those who consumed white chocolate is 
+x 
+= 0.42 mmHg
+white 
+.
+(b) One researcher indicated that because the difference in sample means of 5.66 mmHg is greater than 0 there is 
+convincing statistical evidence to conclude that the population mean blood pressure reduction for those who 
+consume dark chocolate is greater than for those who consume white chocolate. Why might the researcher’s 
+conclusion, based only on the difference in sample means of 5.66 mmHg, not necessarily be true? 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+12 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 5 on this page. 
+A simulation was conducted to investigate whether there is a greater reduction of blood pressure for those who 
+consume dark chocolate than for those who consume white chocolate. The simulation was conducted under the 
+assumption that no difference exists. The results of 120 trials of the simulation are shown in the following dotplot. 
+(c) Use the results of the simulation to determine whether the results from the 25 participants in the study provide 
+convincing statistical evidence, at a 5 percent level of significance, that adding dark chocolate to a daily diet 
+will result in a greater reduction in blood pressure, on average, than adding white chocolate to a daily diet. 
+Justify your answer. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+13 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Begin your response to QUESTION 6 on this page. 
+STATISTICS 
+SECTION II, Part B 
+Suggested Time—25 minutes 
+1 Question 
+Directions: Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness 
+of your methods as well as on the accuracy and completeness of your results and explanations. 
+6. To compare success rates for treating allergies at two clinics that specialize in treating allergy sufferers,
+researchers selected random samples of patient records from the two clinics. The following table summarizes the
+data.
+Clinic A 
+Clinic B 
+Total 
+Unsuccessful treatment 
+51
+33
+84
+Successful treatment 
+88
+35
+123
+Total 
+139
+68
+207
+(a) (i) Complete the following table by recording the relative frequencies of successful and unsuccessful
+treatments at each clinic.
+Clinic A Clinic B 
+Unsuccessful treatment 
+Successful treatment 
+(ii) Based on the relative frequency table in part (a-i), which clinic is more successful in treating allergy
+sufferers? Justify your answer.
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+14 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 6 on this page. 
+(b) Based on the design of the study, would a statistically significant result allow the researchers to conclude that
+receiving treatments at the clinic you selected in part (a-ii) causes a higher percentage of successful treatments
+than at the other clinic? Explain your answer.
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+15 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 6 on this page. 
+A physician who worked at both clinics believed that it was important to separate the patients in the study by 
+severity of the patient’s allergy (severe or mild). The physician constructed the following mosaic plot. The values 
+in the mosaic plot represent the number of patients who were either successfully treated or unsuccessfully treated 
+in each allergy severity group within each clinic. For example, the value 78 represents the number of patients 
+successfully treated in the mild group within Clinic A. 
+Based on the mosaic plot, the physician concluded the following: 
+For mild allergy sufferers, Clinic B was more successful in treating allergies. 
+For severe allergy sufferers, Clinic B was more successful in treating allergies. 
+(c) (i) For each clinic, which allergy severity is treated more successfully? Justify your answer. 
+• 
+• 
+Clinic A: 
+Clinic B: 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+16 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+Continue your response to QUESTION 6 on this page. 
+(ii) For each clinic, which allergy severity is more likely to be treated? Justify your answer. 
+• 
+• 
+Clinic A: 
+Clinic B: 
+(d) Using your answers from part (c), give a reasonable explanation of why the more successful clinic identified in 
+part (a-ii) is the same as or different from the physician’s conclusion that Clinic B is more successful in 
+treating both severe and mild allergies. 
+GO ON TO THE NEXT PAGE. 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+17 
+
+
+--- PAGE BREAK ---
+
+AP® Statistics 2022 Free-Response Questions 
+STOP 
+END OF EXAM 
+© 2022 College Board. 
+Visit College Board on the web: collegeboard.org. 
+18 
+
+
+--- PAGE BREAK ---
+
+The figure 
+shows a normal distribution curve graphed on a horizontal axis. A point on the horizontal axis to the left of the mean of the distribution is labeled “z.” A vertical line is drawn from z to the curve. The area below the curve and to the left of z is shaded. The shaded area is labeled Probability.
+Table entry for z is the 
+probability lying below z.
+Table A Standard normal probabilities
+z
+.00
+.01
+.02
+.03
+.04
+.05
+.06
+.07
+.08
+.09
+negative three point four
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0003
+.0002
+negative three point three
+.0005
+.0005
+.0005
+.0004
+.0004
+.0004
+.0004
+.0004
+.0004
+.0003
+negative three point two
+.0007
+.0007
+.0006
+.0006
+.0006
+.0006
+.0006
+.0005
+.0005
+.0005
+negative three point one
+.0010
+.0009
+.0009
+.0009
+.0008
+.0008
+.0008
+.0008
+.0007
+.0007
+negative three point zero
+.0013
+.0013
+.0013
+.0012
+.0012
+.0011
+.0011
+.0011
+.0010
+.0010
+negative two point nine
+.0019
+.0018
+.0018
+.0017
+.0016
+.0016
+.0015
+.0015
+.0014
+.0014
+negative two point eight
+.0026
+.0025
+.0024
+.0023
+.0023
+.0022
+.0021
+.0021
+.0020
+.0019
+negative two point seven
+.0035
+.0034
+.0033
+.0032
+.0031
+.0030
+.0029
+.0028
+.0027
+.0026
+negative two point six
+.0047
+.0045
+.0044
+.0043
+.0041
+.0040
+.0039
+.0038
+.0037
+.0036
+negative two point five
+.0062
+.0060
+.0059
+.0057
+.0055
+.0054
+.0052
+.0051
+.0049
+.0048
+negative two point four
+.0082
+.0080
+.0078
+.0075
+.0073
+.0071
+.0069
+.0068
+.0066
+.0064
+negative two point three
+.0107
+.0104
+.0102
+.0099
+.0096
+.0094
+.0091
+.0089
+.0087
+.0084
+negative two point two
+.0139
+.0136
+.0132
+.0129
+.0125
+.0122
+.0119
+.0116
+.0113
+.0110
+negative two point one
+.0179
+.0174
+.0170
+.0166
+.0162
+.0158
+.0154
+.0150
+.0146
+.0143
+negative two point zero
+.0228
+.0222
+.0217
+.0212
+.0207
+.0202
+.0197
+.0192
+.0188
+.0183
+negative one point nine
+.0287
+.0281
+.0274
+.0268
+.0262
+.0256
+.0250
+.0244
+.0239
+.0233
+negative one point eight
+.0359
+.0351
+.0344
+.0336
+.0329
+.0322
+.0314
+.0307
+.0301
+.0294
+negative one point seven
+.0446
+.0436
+.0427
+.0418
+.0409
+.0401
+.0392
+.0384
+.0375
+.0367
+negative one point six
+.0548
+.0537
+.0526
+.0516
+.0505
+.0495
+.0485
+.0475
+.0465
+.0455
+negative one point five
+.0668
+.0655
+.0643
+.0630
+.0618
+.0606
+.0594
+.0582
+.0571
+.0559
+negative one point four
+.0808
+.0793
+.0778
+.0764
+.0749
+.0735
+.0721
+.0708
+.0694
+.0681
+negative one point three
+.0968
+.0951
+.0934
+.0918
+.0901
+.0885
+.0869
+.0853
+.0838
+.0823
+negative one point two
+.1151
+.1131
+.1112
+.1093
+.1075
+.1056
+.1038
+.1020
+.1003
+.0985
+negative one point one
+.1357
+.1335
+.1314
+.1292
+.1271
+.1251
+.1230
+.1210
+.1190
+.1170
+negative one point zero
+.1587
+.1562
+.1539
+.1515
+.1492
+.1469
+.1446
+.1423
+.1401
+.1379
+negative zero point nine
+.1841
+.1814
+.1788
+.1762
+.1736
+.1711
+.1685
+.1660
+.1635
+.1611
+negative zero point eight
+.2119
+.2090
+.2061
+.2033
+.2005
+.1977
+.1949
+.1922
+.1894
+.1867
+negative zero point seven
+.2420
+.2389
+.2358
+.2327
+.2296
+.2266
+.2236
+.2206
+.2177
+.2148
+negative zero point six
+.2743
+.2709
+.2676
+.2643
+.2611
+.2578
+.2546
+.2514
+.2483
+.2451
+negative zero point five
+.3085
+.3050
+.3015
+.2981
+.2946
+.2912
+.2877
+.2843
+.2810
+.2776
+negative zero point four
+.3446
+.3409
+.3372
+.3336
+.3300
+.3264
+.3228
+.3192
+.3156
+.3121
+negative zero point three
+.3821
+.3783
+.3745
+.3707
+.3669
+.3632
+.3594
+.3557
+.3520
+.3483
+negative zero point two
+.4207
+.4168
+.4129
+.4090
+.4052
+.4013
+.3974
+.3936
+.3897
+.3859
+negative zero point one
+.4602
+.4562
+.4522
+.4483
+.4443
+.4404
+.4364
+.4325
+.4286
+.4247
+negative zero point zero
+.5000
+.4960
+.4920
+.4880
+.4840
+.4801
+.4761
+.4721
+.4681
+.4641
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+19
+AP® Statistics 2022 Free-Response Questions
+
+
+--- PAGE BREAK ---
+
+The figure 
+shows a normal distribution curve graphed on a horizontal axis. A point on the horizontal axis to the right of the mean of the distribution is labeled “z.” A vertical line is drawn from z to the curve. The area below the curve and to the left of z is shaded. The shaded area is labeled probability.
+Table entry for z is the 
+probability lying below z. 
+Table A
+(Continued)
+z
+.00
+.01
+.02
+.03
+.04
+.05
+.06
+.07
+.08
+.09
+0.0
+.5000
+.5040
+.5080
+.5120
+.5160
+.5199
+.5239
+.5279
+.5319
+.5359
+0.1
+.5398
+.5438
+.5478
+.5517
+.5557
+.5596
+.5636
+.5675
+.5714
+.5753
+0.2
+.5793
+.5832
+.5871
+.5910
+.5948
+.5987
+.6026
+.6064
+.6103
+.6141
+0.3
+.6179
+.6217
+.6255
+.6293
+.6331
+.6368
+.6406
+.6443
+.6480
+.6517
+0.4
+.6554
+.6591
+.6628
+.6664
+.6700
+.6736
+.6772
+.6808
+.6844
+.6879
+0.5
+.6915
+.6950
+.6985
+.7019
+.7054
+.7088
+.7123
+.7157
+.7190
+.7224
+0.6
+.7257
+.7291
+.7324
+.7357
+.7389
+.7422
+.7454
+.7486
+.7517
+.7549
+0.7
+.7580
+.7611
+.7642
+.7673
+.7704
+.7734
+.7764
+.7794
+.7823
+.7852
+0.8
+.7881
+.7910
+.7939
+.7967
+.7995
+.8023
+.8051
+.8078
+.8106
+.8133
+0.9
+.8159
+.8186
+.8212
+.8238
+.8264
+.8289
+.8315
+.8340
+.8365
+.8389
+1.0
+.8413
+.8438
+.8461
+.8485
+.8508
+8531
+.8554
+.8577
+.8599
+.8621
+1.1
+.8643
+.8665
+.8686
+.8708
+.8729
+.8749
+.8770
+.8790
+.8810
+.8830
+1.2
+.8849
+.8869
+.8888
+.8907
+.8925
+.8944
+.8962
+.8980
+.8997
+.9015
+1.3
+.9032
+.9049
+.9066
+.9082
+.9099
+.9115
+.9131
+.9147
+.9162
+.9177
+1.4
+.9192
+.9207
+.9222
+.9236
+.9251
+.9265
+.9279
+.9292
+.9306
+.9319
+1.5
+.9332
+.9345
+.9357
+.9370
+.9382
+.9394
+.9406
+.9418
+.9429
+.9441
+1.6
+.9452
+.9463
+.9474
+.9484
+.9495
+.9505
+.9515
+.9525
+.9535
+.9545
+1.7
+.9554
+.9564
+.9573
+.9582
+.9591
+.9599
+.9608
+.9616
+.9625
+.9633
+1.8
+.9641
+.9649
+.9656
+.9664
+.9671
+.9678
+.9686
+.9693
+.9699
+.9706
+1.9
+.9713
+.9719
+.9726
+.9732
+.9738
+.9744
+.9750
+.9756
+.9761
+.9767
+2.0
+.9772
+.9778
+.9783
+.9788
+.9793
+9798
+.9803
+.9808
+.9812
+.9817
+2.1
+.9821
+.9826
+.9830
+.9834
+.9838
+.9842
+.9846
+.9850
+.9854
+.9857
+2.2
+.9861
+.9864
+.9868
+.9871
+.9875
+.9878
+.9881
+.9884
+.9887
+.9890
+2.3
+.9893
+.9896
+.9898
+.9901
+.9904
+.9906
+.9909
+.9911
+.9913
+.9916
+2.4
+.9918
+.9920
+.9922
+.9925
+.9927
+.9929
+.9931
+.9932
+.9934
+.9936
+2.5
+.9938
+.9940
+.9941
+.9943
+.9945
+.9946
+.9948
+.9949
+.9951
+.9952
+2.6
+.9953
+.9955
+.9956
+.9957
+.9959
+.9960
+.9961
+.9962
+.9963
+.9964
+2.7
+.9965
+.9966
+.9967
+.9968
+.9969
+.9970
+.9971
+.9972
+.9973
+.9974
+2.8
+.9974
+.9975
+.9976
+.9977
+.9977
+.9978
+.9979
+.9979
+.9980
+.9981
+2.9
+.9981
+.9982
+.9982
+.9983
+.9984
+.9984
+.9985
+.9985
+.9986
+.9986
+3.0
+.9987
+.9987
+.9987
+.9988
+.9988
+9989
+.9989
+.9989
+.9990
+.9990
+3.1
+.9990
+.9991
+.9991
+.9991
+.9992
+.9992
+.9992
+.9992
+.9993
+.9993
+3.2
+.9993
+.9993
+.9994
+.9994
+.9994
+.9994
+.9994
+.9995
+.9995
+.9995
+3.3
+.9995
+.9995
+.9995
+.9996
+.9996
+.9996
+.9996
+.9996
+.9996
+.9997
+3.4
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9997
+.9998
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+20
+AP® Statistics 2022 Free-Response Questions
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The figure sh
+ows a t distribution curve graphed on a horizontal axis. A point on the horizontal axis to the right of the mean of the distribution is labeled “t star.” A vertical line is drawn from t star to the curve. The area below the curve and to the right of t star is shaded. The shaded area is labeled probability p.
+Table entry for p and 
+C is the point t star with 
+probability p lying 
+above it and 
+probability C lying 
+between n egative t star and t star
+Table B 
+t distribution critical values
+df
+Tail probability p
+.25
+.20
+.15
+.10
+.05
+.025
+.02
+.01
+.005
+.0025
+.001
+.0005
+1
+1.000
+1.376
+1.963
+3.078
+6.314
+12.71
+15.89
+31.82
+63.66
+127.3
+318.3
+636.6
+2
+.816
+1.061
+1.386
+1.886
+2.920
+4.303
+4.849
+6.965
+9.925
+14.09
+22.33
+31.60
+3
+.765
+.978
+1.250
+1.638
+2.353
+3.182
+3.482
+4.541
+5.841
+7.453
+10.21
+12.92
+4
+.741
+.941
+1.190
+1.533
+2.132
+2.776
+2.999
+3.747
+4.604
+5.598
+7.173
+8.610
+5
+.727
+.920
+1.156
+1.476
+2.015
+2.571
+2.757
+3.365
+4.032
+4.773
+5.893
+6.869
+6
+.718
+.906
+1.134
+1.440
+1.943
+2.447
+2.612
+3.143
+3.707
+4.317
+5.208
+5.959
+7
+.711
+.896
+1.119
+1.415
+1.895
+2.365
+2.517
+2.998
+3.499
+4.029
+4.785
+5.408
+8
+.706
+.889
+1.108
+1.397
+1.860
+2.306
+2.449
+2.896
+3.355
+3.833
+4.501
+5.041
+9
+.703
+.883
+1.100
+1.383
+1.833
+2.262
+2.398
+2.821
+3.250
+3.690
+4.297
+4.781
+10
+.700
+.879
+1.093
+1.372
+1.812
+2.228
+2.359
+2.764
+3.169
+3.581
+4.144
+4.587
+11
+.697
+.876
+1.088
+1.363
+1.796
+2.201
+2.328
+2.718
+3.106
+3.497
+4.025
+4.437
+12
+.695
+.873
+1.083
+1.356
+1.782
+2.179
+2.303
+2.681
+3.055
+3.428
+3.930
+4.318
+13
+.694
+.870
+1.079
+1.350
+1.771
+2.160
+2.282
+2.650
+3.012
+3.372
+3.852
+4.221
+14
+.692
+.868
+1.076
+1.345
+1.761
+2.145
+2.264
+2.624
+2.977
+3.326
+3.787
+4.140
+15
+.691
+.866
+1.074
+1.341
+1.753
+2.131
+2.249
+2.602
+2.947
+3.286
+3.733
+4.073
+16 
+.690
+.865
+1.071
+1.337
+1.746
+2.120
+2.235
+2.583
+2.921
+3.252
+3.686
+4.015
+17
+.689
+.863
+1.069
+1.333
+1.740
+2.110
+2.224
+2.567
+2.898
+3.222
+3.646
+3.965
+18
+.688
+.862
+1.067
+1.330
+1.734
+2.101
+2.214
+2.552
+2.878
+3.197
+3.611
+3.922
+19
+.688
+.861
+1.066
+1.328
+1.729
+2.093
+2.205
+2.539
+2.861
+3.174
+3.579
+3.883
+20
+.687
+.860
+1.064
+1.325
+1.725
+2.086
+2.197
+2.528
+2.845
+3.153
+3.552
+3.850
+21
+.686
+.859
+1.063
+1.323
+1.721
+2.080
+2.189
+2.518
+2.831
+3.135
+3.527
+3.819
+22
+.686
+.858
+1.061
+1.321
+1.717
+2.074
+2.183
+2.508
+2.819
+3.119
+3.505
+3.792
+23
+.685
+.858
+1.060
+1.319
+1.714
+2.069
+2.177
+2.500
+2.807
+3.104
+3.485
+3.768
+24
+.685
+.857
+1.059
+1.318
+1.711
+2.064
+2.172
+2.492
+2.797
+3.091
+3.467
+3.745
+25
+.684
+.856
+1.058
+1.316
+1.708
+2.060
+2.167
+2.485
+2.787
+3.078
+3.450
+3.725
+26
+.684
+.856
+1.058
+1.315
+1.706
+2.056
+2.162
+2.479
+2.779
+3.067
+3.435
+3.707
+27 
+.684
+.855
+1.057
+1.314
+1.703
+2.052
+2.158
+2.473
+2.771
+3.057
+3.421
+3.690
+28
+.683
+.855
+1.056
+1.313
+1.701
+2.048
+2.154
+2.467
+2.763
+3.047
+3.408
+3.674
+29 
+.683
+.854
+1.055
+1.311
+1.699
+2.045
+2.150
+2.462
+2.756
+3.038
+3.396
+3.659
+30
+.683
+.854
+1.055
+1.310
+1.697
+2.042
+2.147
+2.457
+2.750
+3.030
+3.385
+3.646
+40
+.681
+.851
+1.050
+1.303
+1.684
+2.021
+2.123
+2.423
+2.704
+2.971
+3.307
+3.551
+50
+.679
+.849
+1.047
+1.299
+1.676
+2.009
+2.109
+2.403
+2.678
+2.937
+3.261
+3.496
+60
+.679
+.848
+1.045
+1.296
+1.671
+2.000
+2.099
+2.390
+2.660
+2.915
+3.232
+3.460
+80
+.678
+.846
+1.043
+1.292
+1.664
+1.990
+2.088
+2.374
+2.639
+2.887
+3.195
+3.416
+100
+.677
+.845
+1.042
+1.290
+1.660
+1.984
+2.081
+2.364
+2.626
+2.871
+3.174
+3.390
+1000
+.675
+.842
+1.037
+1.282
+1.646
+1.962
+2.056
+2.330
+2.581
+2.813
+3.098
+3.300
+.674
+.841
+1.036
+1.282
+1.645
+1.960
+2.054
+2.326
+2.576
+2.807
+3.091
+3.291
+50% 
+60%
+70%
+80%
+90%
+95% 
+96% 
+98% 
+99% 
+99.5%
+99.8%
+99.9%
+Confidence level C
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+21
+AP® Statistics 2022 Free-Response Questions
+
+
+--- PAGE BREAK ---
+
+1
+The figure sh
+ows a chi square distribution curve graphed on a horizontal axis. A point on the horizontal axis toward the right tail of the curve is labeled “chi square.” A vertical line is drawn from the point chi square to the curve. The area below the curve and to the right of the point chi square is shaded. The shaded area is labeled probability p.
+Table entry for p is the point 
+c
+hi square
+chi square
+with probability p lying 
+above it.
+Table C 
+ 
+chi square 
+critical values
+df
+Tail probability p
+.25
+.20
+.15
+.10
+.05
+.025
+.02
+.01
+.005
+.0025
+.001
+.0005
+1
+1.32
+1.64
+2.07
+2.71
+3.84
+5.02
+5.41
+6.63
+7.88
+9.14
+10.83
+12.12
+2
+2.77
+3.22
+3.79
+4.61
+5.99
+7.38
+7.82 
+9.21
+10.60
+11.98
+13.82
+15.20
+3
+4.11
+4.64
+5.32
+6.25
+7.81
+9.35
+9.84 
+11.34
+12.84
+14.32
+16.27
+17.73
+4
+5.39
+5.99
+6.74
+7.78
+9.49
+11.14
+11.67
+13.28
+14.86
+16.42
+18.47
+20.00
+5
+6.63
+7.29
+8.12
+9.24
+11.07
+12.83
+13.39
+15.09
+16.75
+18.39
+20.51
+22.11
+6
+7.84
+8.56
+9.45
+10.64
+12.59
+14.45
+15.03
+16.81
+18.55
+20.25
+22.46
+24.10
+7
+9.04
+9.80
+10.75
+12.02
+14.07
+16.01
+16.62
+18.48
+20.28
+22.04
+24.32
+26.02
+8
+10.22
+11.03
+12.03
+13.36
+15.51
+17.53
+18.17
+20.09
+21.95
+23.77
+26.12
+27.87
+9
+11.39
+12.24
+13.29
+14.68
+16.92
+19.02
+19.68
+21.67
+23.59
+25.46
+27.88
+29.67
+10 
+12.55
+13.44
+14.53
+15.99
+18.31
+20.48
+21.16
+23.21
+25.19
+27.11
+29.59
+31.42
+11
+13.70
+14.63
+15.77
+17.28
+19.68
+21.92
+22.62
+24.72
+26.76
+28.73
+31.26
+33.14
+12
+14.85
+15.81
+16.99
+18.55
+21.03
+23.34
+24.05
+26.22
+28.30
+30.32
+32.91
+34.82
+13
+15.98
+16.98
+18.20
+19.81
+22.36
+24.74
+25.47
+27.69
+29.82
+31.88
+34.53
+36.48
+14
+17.12
+18.15
+19.41
+21.06
+23.68
+26.12
+26.87
+29.14
+31.32
+33.43
+36.12
+38.11
+15
+18.25
+19.31
+20.60
+22.31
+25.00
+27.49
+28.26
+30.58
+32.80
+34.95
+37.70
+39.72
+16 
+19.37
+20.47
+21.79
+23.54
+26.30
+28.85
+29.63
+32.00
+34.27
+36.46
+39.25
+41.31
+17 
+20.49
+21.61
+22.98
+24.77
+27.59
+30.19
+31.00
+33.41
+35.72
+37.95
+40.79
+42.88
+18 
+21.60
+22.76
+24.16
+25.99
+28.87
+31.53
+32.35
+34.81
+37.16
+39.42
+42.31
+44.43
+19 
+22.72
+23.90
+25.33
+27.20
+30.14
+32.85
+33.69
+36.19
+38.58
+40.88
+43.82
+45.97
+20 
+23.83
+25.04
+26.50
+28.41
+31.41
+34.17
+35.02
+37.57
+40.00
+42.34
+45.31
+47.50
+21
+24.93
+26.17
+27.66
+29.62
+32.67
+35.48
+36.34
+38.93
+41.40
+43.78
+46.80
+49.01
+22
+26.04
+27.30
+28.82
+30.81
+33.92
+36.78
+37.66
+40.29
+42.80
+45.20
+48.27
+50.51
+23
+27.14
+28.43
+29.98
+32.01
+35.17
+38.08
+38.97
+41.64
+44.18
+46.62
+49.73
+52.00
+24
+28.24
+29.55
+31.13
+33.20
+36.42
+39.36
+40.27
+42.98
+45.56
+48.03
+51.18
+53.48
+25
+29.34
+30.68
+32.28
+34.38
+37.65
+40.65
+41.57
+44.31
+46.93
+49.44
+52.62
+54.95
+26 
+30.43
+31.79
+33.43
+35.56
+38.89
+41.92
+42.86
+45.64
+48.29
+50.83
+54.05
+56.41
+27 
+31.53
+32.91
+34.57
+36.74
+40.11
+43.19
+44.14
+46.96
+49.64
+52.22
+55.48
+57.86
+28 
+32.62
+34.03
+35.71
+37.92
+41.34
+44.46
+45.42
+48.28
+50.99
+53.59
+56.89
+59.30
+29 
+33.71
+35.14
+36.85
+39.09
+42.56
+45.72
+46.69
+49.59
+52.34
+54.97
+58.30
+60.73
+30 
+34.80
+36.25
+37.99
+40.26
+43.77
+46.98
+47.96
+50.89
+53.67
+56.33
+59.70
+62.16
+40
+45.62
+47.27
+49.24
+51.81
+55.76
+59.34
+60.44
+63.69
+66.77
+69.70
+73.40
+76.09
+50
+56.33
+58.16
+60.35
+63.17
+67.50
+71.42
+72.61
+76.15
+79.49
+82.66
+86.66
+89.56
+60
+66.98
+68.97
+71.34
+74.40
+79.08
+83.30
+84.58
+88.38
+91.95
+95.34
+99.61
+102.7
+80
+88.13
+90.41
+93.11
+96.58
+101.9
+106.6
+108.1
+112.3
+116.3
+120.1
+124.8
+128.3
+100
+09.1
+111.7
+114.7
+118.5
+124.3
+129.6
+131.1
+135.8
+140.2
+144.3
+149.4
+153.2
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+22
+AP® Statistics 2022 Free-Response Questions

@@ -1,0 +1,3816 @@
+The practice test includes images for which descriptions are provided in this document. In a standard test, the images are presented without descriptions. In this document, descriptions are included with the images so that assistive technology users will have an understanding of what is in each images. However, the descriptions in some cases may not be valid for testing purposes, and would not be used on an actual test. If you are taking the test in an alternate format, some or all questions of this type may be omitted. If any questions are omitted, the scoring rules for the test take such omissions into account to make sure you are neither advantaged nor disadvantaged by the omissions and that your scores are comparable to those of individuals taking another version of the test.
+ 
+ 
+ 
+ 
+ 
+College Board LogoAP Logo
+Calculus BC Practice Exam 
+ 
+From the 2013 Administration 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Practice Exam is provided by the College Board for AP Exam preparation. Teachers are 
+permitted to download the materials and make copies to use with their students in a 
+classroom setting only. To maintain the security of this exam, teachers should collect all 
+materials after their administration and keep them in a secure location. 
+Exams may not be posted on school or personal websites, nor electronically redistributed for 
+any reason. Further distribution of these materials outside of the secure College Board site 
+disadvantages teachers who rely on uncirculated questions for classroom testing. Any 
+additional distribution is in violation of the College Board’s copyright policies and may result 
+in the termination of Practice Exam access for your school as well as the removal of access to 
+other online services such as the AP Teacher Community and Online Score Reports.  
+
+
+--- PAGE BREAK ---
+
+Contents 
+ 
+Exam Instructions 
+Student Answer Sheet for the Multiple-Choice Section  
+Section I: Multiple-Choice Questions 
+Section II: Free-Response Questions 
+Multiple-Choice Answer Key 
+Free-Response Scoring Guidelines 
+Scoring Worksheets 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note: This publication shows the page numbers that appeared in the 2012−13 AP Exam
+Instructions book and in the actual exam. This publication was not repaginated to 
+begin with page 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2013 The College Board. College Board, Advanced Placement Program, AP, SAT and the acorn logo are registered trademarks 
+of the College Board. All other products and services may be trademarks of their respective owners. Permission to use 
+copyrighted College Board materials may be requested online at: www.collegeboard.com/inquiry/cbpermit.html. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Exam Instructions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The following contains instructions taken from 
+the 2012−13 AP Exam Instructions book. 
+
+
+--- PAGE BREAK ---
+
+AP® Calculus BC Exam
+Regularly Scheduled Exam Date: Wednesday morning, May 8, 2013
+Late-Testing Exam Date: Thursday morning, May 23, 2013
+Section I: At a Glance
+Total Time:  1 hour, 45 minutes
+Number of Questions:  45
+Percent of Total Score:  50%
+Writing Instrument:
+Pencil required
+Part A: 
+Number of Questions:  28
+Time:  55 minutes
+Electronic Device:
+None allowed
+Part B: 
+Number of Questions:  17
+Time:  50 minutes
+Electronic Device:
+Graphing calculator required
+Section I: Multiple Choice Booklet Instructions
+Section I of this exam contains 45 multiple-choice questions and 4 survey 
+questions. For Part A, fill in only the circles for numbers 1 through 28 on 
+page 2 of the answer sheet. For Part B, fill in only the circles for numbers 76 
+through 92 on page 3 of the answer sheet. The survey questions are numbers 
+93 through 96. 
+Indicate all of your answers to the multiple-choice questions on the answer 
+sheet. No credit will be given for anything written in this exam booklet, but 
+you may use the booklet for notes or scratch work. After you have decided 
+which of the suggested answers is best, completely fill in the corresponding 
+circle on the answer sheet. Give only one answer to each question. If you 
+change an answer, be sure that the previous mark is erased completely. 
+Use your time effectively, working as quickly as you can without losing 
+accuracy. Do not spend too much time on any one question. Go on to other 
+questions and come back to the ones you have not answered if you have time. 
+It is not expected that everyone will know the answers to all of the multiple-
+choice questions. 
+Your total score on the multiple-choice section is based only on the number 
+of questions answered correctly. Points are not deducted for incorrect answers 
+or unanswered questions.
+Section II: At a Glance
+Total Time:  1 hour, 30 minutes
+Number of Questions:  6
+Percent of Total Score:  50%
+Writing Instrument:
+Either pencil or pen with black 
+or dark blue ink
+Weight:
+The questions are weighted 
+equally, but the parts of a 
+question are not necessarily 
+given equal weight.
+Part A: 
+Number of Questions:  2
+Time:  30 minutes
+Electronic Device:
+Graphing calculator required
+Percent of Section II Score:
+33.3%
+Part B: 
+Number of Questions:  4
+Time:  60 minutes
+Electronic Device:
+None allowed
+Percent of Section II Score:
+66.6%
+• 
+•
+• 
+• 
+.
+37
+Section II: Free Response Booklet Instructions
+The questions for Section II are printed in this booklet. Do not break the seals 
+on Part B until you are told to do so. Write your solution to each part of each 
+question in the space provided. Write clearly and legibly. Cross out any errors 
+you make; erased or crossed-out work will not be scored.
+Manage your time carefully. During the timed portion for Part A, work only 
+on the questions in Part A. You are permitted to use your calculator to solve 
+an equation, find the derivative of a function at a point, or calculate the value 
+of a definite integral. However, you must clearly indicate the setup of your 
+question, namely the equation, function, or integral you are using. If you use 
+other built-in features or programs, you must show the mathematical steps 
+necessary to produce your results. During the timed portion for Part B, 
+you may continue to work on the questions in Part A without the use of a 
+calculator.
+For each part of Section II, you may wish to look over the questions before 
+starting to work on them. It is not expected that everyone will be able to 
+complete all parts of all questions.
+Show all of your work. Clearly label any functions, graphs, tables, or other 
+objects that you use. Your work will be scored on the correctness and 
+completeness of your methods as well as your answers. Answers without 
+supporting work will usually not receive credit. Justifications require that 
+you give mathematical (noncalculator) reasons.
+Your work must be expressed in standard mathematical notation rather 
+than calculator syntax. For example, 
+may not be written as 
+Unless otherwise specified, answers (numeric or algebraic) need not be
+simplified. If you use decimal approximations in calculations, your work
+will be scored on accuracy. Unless otherwise specified, your final answers 
+should be accurate to three places after the decimal point.
+Unless otherwise specified, the domain of a function  is assumed to be the 
+set of all real numbers x for which
+ is a real number. 
+
+
+--- PAGE BREAK ---
+
+What Proctors Need to Bring to This Exam
+•
+•
+•
+•
+•
+•
+•
+Exam packets
+Answer sheets
+AP Student Packs
+2012-13 AP Coordinator’s Manual 
+This book — AP Exam Instructions 
+School Code and Home-School/Self-
+Study Codes
+Extra graphing calculators
+•
+•
+•
+•
+•
+•
+•
+Pencil sharpener
+Extra No. 2 pencils with erasers
+Extra pens with black or dark blue ink
+Extra paper
+Stapler
+Watch
+Signs for the door to the testing room
+“Exam in Progress”
+“Cell phones are prohibited in the 
+testing room” 
+     – 
+     – 
+If you are giving the regularly scheduled AP Calculus AB or BC Exam:
+You may seat students four feet (approximately 1.2 meters) apart because these  
+exams have scrambled multiple-choice sections. This allows you to test more students 
+in fewer testing rooms.
+See page 10 for a sample seating plan, including form codes and serial numbers, that 
+shows how exams should be distributed to ensure that students seated next to each 
+other are not given the same form of the exam.
+Administrators and proctors must continue to be vigilant about opportunities  
+for cheating.
+If you are giving the alternate AP Calculus AB or BC Exam for late testing:
+You must seat students no less than five feet (approximately 1.5 meters) apart because
+these exams do not have scrambled multiple-choice sections.
+ 
+•
+•
+•
+•
+Graphing calculators are required to answer some of the questions on the AP Calculus Exams. 
+Before starting the exam administration, make sure each student has a graphing calculator 
+from the approved list on page 42 of the 2012-13 AP Coordinator’s Manual. If a student does not 
+have a graphing calculator from the approved list, you may provide one from your supply. If the 
+student does not want to use the calculator you provide or does not want to use a calculator at 
+all, he or she must hand copy, date, and sign the release statement on page 40 of the 2012-13 AP 
+Coordinator’s Manual.
+During the administration of Section I, Part B, and Section II, Part A, students may have no 
+more than two graphing calculators on their desks. Calculators may not be shared. Calculator 
+memories do not need to be cleared before or after the exam. Students with Hewlett-Packard  
+48–50 Series and Casio FX-9860 graphing calculators may use cards designed for use with these 
+calculators. Proctors should make sure infrared ports (Hewlett-Packard) are not facing each 
+other. Since graphing calculators can be used to store data, including text, proctors should 
+monitor that students are using their calculators appropriately. Attempts by students to use 
+38
+Calculus
+
+
+--- PAGE BREAK ---
+
+the calculator to remove exam questions and/or answers from the room may result in the 
+cancellation of AP Exam scores. 
+The AP Calculus AB Exam and the AP Calculus BC Exam should be administered simultaneously.
+They may be administered in separate rooms, or in the same room if it is  
+more convenient. 
+SECTION I: Multiple Choice
+ !
+Do not begin the exam instructions below until you have completed the appropriate 
+General Instructions for your group.
+These exams include survey questions. The time allowed for the survey questions is in addition to 
+the actual test-taking time. 
+Make sure you begin the exams at the designated time. 
+If you are giving the regularly scheduled exam, say:
+It is Wednesday morning, May 8, and you will be taking either the AP Calculus AB 
+Exam or the AP Calculus BC Exam.
+If you are giving the alternate exam for late testing, say:
+It is Thursday morning, May 23, and you will be taking either the AP Calculus AB 
+Exam or the AP Calculus BC Exam.
+In a moment, you will open the packet that contains your exam materials. 
+By opening this packet, you agree to all of the AP Program’s policies and 
+procedures outlined in the 2012-13 Bulletin for AP Students and Parents. 
+Please check to make sure you have the correct exam: Calculus AB or 
+Calculus BC. Raise your hand if you do not have the correct exam. . . .
+You may now remove the shrinkwrap from your exam packet and take out 
+the Section I booklet, but do not open the booklet or the shrinkwrapped 
+Section II materials. Put the white seals aside. . . .
+Carefully remove the AP Exam label found near the top left of your exam 
+booklet cover. Now place it on page 1 of your answer sheet on the dark blue 
+box near the top right-hand corner that reads “AP Exam Label.”
+If students accidentally place the exam label in the space for the number label or vice versa, advise 
+them to leave the labels in place. They should not try to remove the label; their exam will be 
+processed correctly. 
+Read the statements on the front cover of Section I and look up when  
+you have finished. . . .
+Sign your name and write today’s date. Look up when you have finished. . . .
+Now print your full legal name where indicated. Are there any questions? . . .
+39
+AP Exam Instructions
+CALCULUS
+
+
+--- PAGE BREAK ---
+
+Turn to the back cover and read it completely. Look up when you  
+have finished. . . .
+Are there any questions? . . .
+Section I is the multiple-choice portion of the exam. You may never  
+discuss these specific multiple-choice questions at any time in any form  
+with anyone, including your teacher and other students. If you disclose  
+these questions through any means, your AP Exam score will be canceled. 
+Are there any questions? . . .
+You must complete the answer sheet using a No. 2 pencil only. Mark all of 
+your responses beginning on page 2 of your answer sheet, one response per 
+question. Completely fill in the circles. If you need to erase, do so carefully 
+and completely. No credit will be given for anything written in the exam 
+booklet. Scratch paper is not allowed, but you may use the margins or 
+any blank space in the exam booklet for scratch work. 
+Section I is divided into two parts. Each part is timed separately, and you 
+may work on each part only during the time allotted for it. Calculators are 
+not allowed in Part A. Please put your calculators under your chair. Are  
+there any questions? . . .
+You have 55 minutes for Part A. Part A questions are numbered 1 through 28. 
+Mark your responses for these questions on page 2 of your answer sheet. 
+Open your Section I booklet and begin. 
+Note Start Time here 
+. Note Stop Time here 
+. Check that students are 
+marking their answers in pencil on page 2 of their answer sheets and that they are not looking 
+beyond Part A. The line of A’s at the top of each page will assist you in monitoring students’ work. 
+After 55 minutes, say:
+Stop working on Part A and turn to page 22 in your Section I booklet. . . .
+On that page, you should see an area marked “PLACE SEAL HERE.” Making 
+sure all of your other exam materials, including your answer sheet, are out 
+of the way, take one of your seals and press it on that area and then fold 
+the seal over the open edge to the front cover. Be sure you don’t seal the 
+Part B section of the booklet or let the seal touch anything except the 
+marked areas. . . .
+After all students have sealed Part A, say:
+Graphing calculators are required for Part B. You may get your calculators 
+from under your chair and place them on your desk. Part B questions are 
+numbered 76 through 92. Fold your answer sheet so only page 3 is showing 
+and mark your responses for these questions on that page. You have  
+50 minutes for Part B. You may begin.
+Note Start Time here 
+. Note Stop Time here 
+. Check that students have 
+sealed their booklets properly and are now working on Part B. The large B’s in an alternating 
+shaded pattern at the top of each page will assist you in monitoring their work. Proctors should 
+12
+6
+3
+9
+12
+6
+3
+9
+40
+Calculus
+
+
+--- PAGE BREAK ---
+
+make sure that students are using their calculators appropriately. Proctors should also make sure 
+Hewlett-Packard calculators’ infrared ports are not facing each other. After 50 minutes, say:
+Stop working and turn to page 38. You have 3 minutes to answer Questions 
+93–96. These are survey questions and will not affect your score. You may 
+not go back to work on any of the exam questions. . . .
+Give students approximately 3 minutes to answer the survey questions. Then say:
+Close your booklet and put your answer sheet on your desk, face up. Make 
+sure you have your AP number label and an AP Exam label on page 1 of your 
+answer sheet. I will now collect your answer sheet.
+Collect an answer sheet from each student. Check that each answer sheet has an AP number label 
+and an AP Exam label. Then say:
+Now you must seal your Section I booklet. Remove the remaining white 
+seals from the backing and press one on each area of your exam booklet 
+cover marked “PLACE SEAL HERE.” Fold each seal over the back cover. When 
+you have finished, place the booklet on your desk, face up. I will now collect 
+your Section I booklet. . . . 
+Collect a Section I booklet from each student. Check that each student has signed the front cover 
+of the sealed Section I booklet. 
+There is a 10-minute break between Sections I and II. When all Section I materials have been 
+collected and accounted for and you are ready for the break, say:
+Please listen carefully to these instructions before we take a 10-minute 
+break. Everything you placed under your chair at the beginning of the exam 
+must stay there. Leave your shrinkwrapped Section II packet on top of 
+your desk during the break. You are not allowed to consult teachers, other 
+students, or textbooks about the exam during the break. You may not make 
+phone calls, send text messages, use your calculators, check email, use a 
+social networking site, or access any electronic or communication device. 
+Remember, you are not allowed to discuss the multiple-choice section of  
+this exam. If you do not follow these rules, your score could be canceled.  
+Are there any questions? . . .
+You may begin your break. Testing will resume at 
+. 
+12
+6
+3
+9
+SECTION II: Free Response
+After the break, say:
+May I have everyone’s attention? Place your Student Pack on your desk. . . .
+You may now remove the shrinkwrap from the Section II packet, but do not 
+open the Section II exam booklet until you are told to do so. . . . 
+Read the bulleted statements on the front cover of the exam booklet. Look 
+up when you have finished. . . .
+41
+AP Exam Instructions
+CALCULUS
+
+
+--- PAGE BREAK ---
+
+Now place an AP number label on the shaded box. If you don’t have any 
+AP number labels, write your AP number in the box. Look up when you 
+have finished. . . .
+Read the last statement. . . . 
+Using your pen, print the first, middle and last initials of your legal name 
+in the boxes and print today’s date where indicated. This constitutes your 
+signature and your agreement to the statements on the front cover. . . .
+Turn to the back cover and complete Item 1 under “Important Identification 
+Information.” Print the first two letters of your last name and the first letter 
+of your first name in the boxes. Look up when you have finished. . . .
+In Item 2, print your date of birth in the boxes. . . .
+In Item 3, write the school code you printed on the front of your Student 
+Pack in the boxes. . . .
+Read Item 4. . . .
+Are there any questions? . . .
+I need to collect the Student Pack from anyone who will be taking another 
+AP Exam. You may keep it only if you are not taking any other AP Exams this 
+year. If you have no other AP Exams to take, place your Student Pack under 
+your chair now. . . .
+While Student Packs are being collected, read the information on the back 
+cover of the exam booklet, paying careful attention to the bulleted statements 
+in the instructions. Do not open the exam booklet or break the seals in the 
+exam booklet until you are told to do so. Look up when you have finished. . . .
+Collect the Student Packs. Then say: 
+Are there any questions? . . .
+Section II also has two parts that are timed separately. You are responsible 
+for pacing yourself, and may proceed freely from one question to the next 
+within each part. Graphing calculators are required for Part A, so you may 
+keep your calculators on your desk. You must write your answers in the 
+appropriate space in the exam booklet using a No. 2 pencil or a pen with 
+black or dark blue ink. Do not break the seals for Part B at this time.  
+Are there any questions? . . .
+You have 30 minutes to answer the questions in Part A. If you need more 
+paper during the exam, raise your hand. At the top of each extra piece of 
+paper you use, be sure to write only your AP number and the number of 
+the question you are working on. Do not write your name. Open your exam 
+booklet and begin.
+42
+Calculus
+
+
+--- PAGE BREAK ---
+
+12
+6
+3
+9
+12
+6
+3
+9
+Note Start Time here 
+. Note Stop Time here 
+. Check that students are 
+work ing on Part A only and writing their answers in their exam booklets using pencils or pens 
+with black or dark blue ink. The pages for the Part A questions are marked with large 1s or 2s at 
+the top of each page to assist you in monitoring their work. After 20 minutes, say:
+There are 10 minutes remaining in Part A.
+After 10 minutes, say:
+Stop working on Part A. Calculators are not allowed for Part B. Please put all 
+of your calculators under your chair. . . .
+Turn to page 13. You have 1 hour for Part B. During this time you may go back 
+to Part A, but you may not use your calculator. Remember to write your 
+answer to each part of each problem in the appropriate space in the exam 
+booklet. Are there any questions? . . .
+Using your finger, break open the seals on Part B. Do not peel the seals away 
+from the booklet. You may begin Part B.
+Note Start Time here 
+. Note Stop Time here 
+. After 50 minutes, say:
+ 
+There are 10 minutes remaining in Part B.
+After 10 minutes, say:
+Stop working and close your exam booklet. Place it on your desk, face up. . . .
+If any students used extra paper for the free-response section, have those students staple the extra 
+sheet/s to the first page corresponding to that question in their exam booklets. Then say: 
+Remain in your seat, without talking, while the exam materials 
+are collected. . . .
+Collect a Section II exam booklet from each student. Check for the following:
+•
+•
+Exam booklet front cover: The student placed an AP number label on the shaded box,  
+and printed his or her initials and today’s date.
+Exam booklet back cover: The student completed the “Important Identification 
+Information” area.
+When all exam materials have been collected and accounted for, return to students any electronic 
+devices you may have collected before the start of the exam. 
+If you are giving the regularly scheduled exam, say:
+You may not discuss these specific free-response questions with anyone unless 
+they are released on the College Board website in about two days. Your AP score 
+results will be delivered online in July.
+If you are giving the alternate exam for late testing, say:
+None of the questions in this exam may ever be discussed or shared in any way  
+at any time. Your AP score results will be delivered online in July.
+43
+AP Exam Instructions
+CALCULUS
+
+
+--- PAGE BREAK ---
+
+If any students completed the AP number card at the beginning of this exam, say:
+Please remember to take your AP number card with you. You will need the 
+information on this card to view your scores and order AP score reporting 
+services online.
+Then say:
+You are now dismissed.
+All exam materials should be put in secure storage until they are returned to the AP Program 
+after your school’s last administration. Before storing materials, check the “School Use Only” 
+section on page 1 of the answer sheet and: 
+Fill in the appropriate section number circle in order to access a separate AP  
+Instructional Planning Report (for regularly scheduled exams only) or subject  
+score roster at the class section or teacher level. See “Post-Exam Activities” in the  
+2012-13 AP Coordinator’s Manual. 
+Check your list of students who are eligible for fee reductions and fill in the  
+appropriate circle on their registration answer sheets. 
+•
+•
+44
+Calculus
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Student Answer Sheet for 
+the Multiple-Choice Section 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Use this section to capture student responses. (Note that the following
+answer sheet is a sample, and may differ from one used in an actual exam.)
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Section I: Multiple-Choice Questions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This is the multiple-choice section of the 2013 AP exam. It includes cover material and
+other administrative instructions to help familiarize students with the mechanics of
+the exam. (Note that future exams may differ in look from the following content.)
+  
+  
+ 
+
+
+--- PAGE BREAK ---
+
+AP
+® Calculus BC Exam
+2013
+SECTION I: Multiple Choice
+DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.
+At a Glance
+Total Time
+1 hour, 45 minutes
+Number of Questions
+45
+Percent of Total Score
+50%
+Writing Instrument
+Pencil required
+Part A
+Number of Questions
+28
+Time
+55 minutes
+Electronic Device
+None allowed
+Part B
+Number of Questions
+17
+Time
+50 minutes
+Electronic Device
+Graphing calculator
+required
+Instructions
+Section I of this exam contains 45 multiple-choice questions and 4 survey questions. For
+Part A, fill in only the circles for numbers 1 through 28 on page 2 of the answer sheet.
+For Part B, fill in only the circles for numbers 76 through 92 on page 3 of the answer
+sheet. The survey questions are numbers 93 through 96.
+Indicate all of your answers to the multiple-choice questions on the answer sheet. No
+credit will be given for anything written in this exam booklet, but you may use the booklet
+for notes or scratch work. After you have decided which of the suggested answers is best,
+completely fill in the corresponding circle on the answer sheet. Give only one answer to
+each question. If you change an answer, be sure that the previous mark is erased
+completely. Here is a sample question and answer.Figure of a Sample Question and a Sample Answer. Chicago is a A. state, B. city, C. country, D. continent, E. village. 5 answer bubbles are shown, with correct answer B filled in.
+Use your time effectively, working as quickly as you can without losing accuracy. Do not
+spend too much time on any one question. Go on to other questions and come back to
+the ones you have not answered if you have time. It is not expected that everyone will
+know the answers to all of the multiple-choice questions.
+Your total score on the multiple-choice section is based only on the number of questions
+answered correctly. Points are not deducted for incorrect answers or unanswered
+questions.
+Form I
+Form Code 4JBP4-Q-S
+68
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-3- 
+ 
+CALCULUS BC 
+SECTION I, Part A 
+Time—55 minutes 
+Number of questions—28 
+ 
+ 
+A CALCULATOR MAY NOT BE USED ON THIS PART OF THE EXAM. 
+ 
+ 
+ 
+Directions:  Solve each of the following problems, using the available space for scratch work. After examining the
+form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer 
+sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one 
+problem. 
+ 
+ 
+ 
+In this exam: 
+(1) Unless otherwise specified, the domain of a function f is assumed to be the set of all real numbers x for which 
+ 
+ is a real number. 
+ 
+(2) The inverse of a trigonometric function f may be indicated using the inverse function notation 
+ or with the 
+prefix “arc” (e.g., 
+). 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-4- 
+ 1. If 
+,  then 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+ 
+ 
+ 2.  
+(A) 
+(B) 
+(C) 
+(D)the fraction with numerator 25 times x raised to the power 5 halves and denominator 2, minus the fraction with numerator 5 times x raised to the power 4 and denominator 4, plus C
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-5- 
+ 3. What is the value of 
+?  
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+ 
+ 4. Which of the following is an equation of the line tangent to the graph of 
+ at the point 
+?  
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-6- 
+ 5. If 
+,  then 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-7- The figure shows the graph of f in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The numbers 1 to 3 appear on the x axis from left to right in increments of 1. The numbers negative 1 to 2 appear on the y axis from bottom to top in increments of 1. Two line segments are shown on the graph. The first line segment has a solid dot at open parenthesis 0, 1 close parenthesis and a hollow dot at open parenthesis 1, 2 close parenthesis. The second line segment has a solid dot at open parenthesis 1, 1 close parenthesis and a solid dot at open parenthesis 3, negative one close parenthesis.
+ 
+ 6. The graph of the function f consists of two line segments, as shown in the figure above. The value  
+of 
+ is 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) nonexistent 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-8- 
+ 7. A population y changes at a rate modeled by the differential equation 
+,  where t is 
+measured in years. What are all values of y for which the population is increasing at a decreasing rate? 
+(A) 500 only 
+(B) 
+ only 
+(C) 
+ only 
+(D) 
+(E) 
+ 
+ 
+ 8. Which of the following gives the length of the path described by the parametric equations 
+ and 
+?  
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-9- 
+ 9. Let y equals f of x
+ be the solution to the differential equation 
+ with initial condition 
+. What is 
+the approximation for 
+ obtained by using Euler’s method with two steps of equal length, starting at 
+?  
+(A) 0   (B) 1   (C) 2.75   (D) 3   (E) 6 
+ 
+ 
+10. If 
+,  where 
+,  then 
+ 
+(A) 0   (B) 
+   (C) 2   (D) 
+   (E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-10- 
+11. The third-degree Taylor polynomial for a function f about 
+. What 
+is the value of 
+?  
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+ 
+12. For which of the following does 
+?  
+I. 
+II. 
+III. 
+(A) I only 
+(B) II only 
+(C) III only 
+(D) I and II only 
+(E) I and III only 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-11- The figure shows the first quadrant of the graph of f prime in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The numbers 1 through 5 appear on the x axis from left to right in increments of 1. The numbers 1 through 4 appear on the y axis from bottom to top in increments of 1. The curve shown increases from approximately open parenthesis 0, 3 point seven five close parenthesis, decreases from approximately open parenthesis point two five, 4 close parenthesis, increases from approximately open parenthesis 1, 2 close parenthesis, decreases from approximately open parenthesis 2, 3 close parenthesis, increases from approximately open parenthesis 2 point 5, 2 point seven five close parenthesis, decreases from approximately open parenthesis 3 point two five, 3 close parenthesis, increases from approximately open parenthesis 4, 2 close parenthesis, and decreases from approximately open parenthesis 4 point seven five, 4 close parenthesis.
+ 
+13. The graph of 
+,  the derivative of f, is shown in the figure above. If 
+, which of the following could 
+be the value of 
+?  
+(A) 15   (B) 20   (C) 25   (D) 35   (E) 40 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-12- 
+14. If a and b are positive constants, then 
+  
+(A) 0   (B) 
+   (C) 
+   (D) 2   (E) 
+ 
+ 
+15. What are all values of x for which the series 
+ converges? 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-13- 
+16. For 
+,  which of the following is an antiderivative of 
+?
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+ 
+ 
+17. If 
+,  which of the following could be the value of a ? 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 2 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-14- The figure shows the graph of f, consisting of two line segments, in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. There are four tick marks on the x-axis; the tick mark immediately to the right of the origin is labeled 1. There are six tick marks on the y-axis, four above the origin and two below the origin; the tick mark immediately above the origin is labeled 1. A line segment starts at the coordinates open parenthesis 0, 1 close parenthesis. The line segment then increases to the point with coordinates open parenthesis 1, 4 close parenthesis. The other line segment then decreases from the point with coordinates open parenthesis 1, 4 close parenthesis, crossing the x axis at open parenthesis 3, 0 close parenthesis, and ending at the point with coordinates open parenthesis 4, negative two close parenthesis.
+ 
+18. The graph of the function f, consisting of two line segments, is shown in the figure above. Let g be the function 
+given by 
+,  and let h be the function given by 
+.  What is the value of 
+?  
+(A) 
+   (B) 
+   (C) 4   (D) 6   (E) nonexistent 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-15- 
+19. Which of the following is the Maclaurin series for 
+?  
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-16- The figure shows the graph of f in an x y plane with the origin labeled O. The numbers 1 through 8 appear on the horizontal axis from left to right in increments of 1. The numbers negative 2 through 2 appear on the vertical axis from bottom to top in increments of 1. The graph begins horizontal from open parenthesis 0, 1 close parenthesis to open parenthesis 1, 1 close parenthesis. The graph then decreases from open parenthesis 1, 1 close parenthesis to open parenthesis 4, negative 2 close parenthesis, crossing the x-axis at open parenthesis 2, 0 close parenthesis. The graph then increases from open parenthesis 4, negative 2 close parenthesis to open parenthesis 7, 1 close parenthesis, crossing the x-axis at open parenthesis 6, 0 close parenthesis. The graph ends horizontal from open parenthesis 7, 1 close parenthesis to open parenthesis 8, 1 close parenthesis.
+ 
+20. The graph of the function f in the figure above consists of four line segments. Let g be the function defined by 
+.  Which of the following is an equation of the line tangent to the graph of g at 
+?  
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-17- 
+21. At time 
+,  a cube has volume 
+ and edges of length 
+. If the volume of the cube decreases at a rate 
+proportional to its surface area, which of the following differential equations could describe the rate at which  
+the volume of the cube decreases? 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-18- 
+22. Which of the following is true about the curve 
+ at the point 
+? 
+(A) 
+ exists at 
+,  but there is no tangent line at that point. 
+(B) 
+ exists at 
+,  and the tangent line at that point is horizontal. 
+(C) 
+ exists at 
+,  and the tangent line at that point is neither horizontal nor vertical. 
+(D) 
+ does not exist at 
+,  and the tangent line at that point is vertical. 
+(E) 
+ does not exist at 
+,  and the tangent line at that point is horizontal. 
+ 
+ 
+23. What is the coefficient of 
+ in the Taylor series for 
+ about 
+?  
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-19- 
+24. The function g is given by 
+. What is the absolute minimum value of g on the closed 
+interval 
+?  
+(A) 
+   (B) 
+   (C) 0   (D) 2   (E) 6 
+ 
+ 
+25. Which of the following is the solution to the differential equation 
+ with the initial  
+condition 
+?  
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-20- 
+26. Which of the following series converge? 
+I. 
+the summation from n =1 to infinity of the fraction with numerator absolute value of sine of n, and denominator n squared.
+II. 
+ 
+III. 
+(A) I only 
+(B) II only 
+(C) III only 
+(D) I and II only 
+(E) I and III only 
+ 
+ 
+27. If 
+,  then 
+ is 
+(A) 6   (B) 1   (C) 
+   (D) 
+   (E) divergent 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+ 
+ 
+-21- 
+28. If 
+ and 
+,  what is 
+ in terms of t ? 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+END OF PART A OF SECTION I 
+ 
+IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY 
+CHECK YOUR WORK ON PART A ONLY. 
+ 
+DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO. 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-24- 
+ 
+CALCULUS BC 
+SECTION I, Part B 
+Time—50 minutes 
+Number of questions—17 
+ 
+ 
+A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON 
+THIS PART OF THE EXAM. 
+ 
+ 
+Directions:  Solve each of the following problems, using the available space for scratch work. After examining the 
+form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer 
+sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one 
+problem. 
+BE SURE YOU ARE USING PAGE 3 OF THE ANSWER SHEET TO RECORD YOUR ANSWERS TO 
+QUESTIONS NUMBERED 76–92. 
+YOU MAY NOT RETURN TO PAGE 2 OF THE ANSWER SHEET. 
+ 
+ 
+ 
+ 
+In this exam: 
+ 
+(1) The exact numerical value of the correct answer does not always appear among the choices given. When this 
+happens, select from among the choices the number that best approximates the exact numerical value. 
+(2) Unless otherwise specified, the domain of a function f is assumed to be the set of all real numbers x for whic
+ 
+h 
+ is a real number. 
+ 
+(3) The inverse of a trigonometric function f may be indicated using the inverse function notation 
+ or with the 
+prefix “arc” (e.g., 
+). 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-25- 
+76. Let f be a function whose derivative is given by 
+. On the open  
+interval 
+,  at which of the following values of x does f attain a relative maximum? 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-26- 
+ 
+a 
+4 
+6 
+4 
+0 
+5 
+1 
+2 
+2 
+2 
+77. The function f has the properties indicated in the table above. Which of the following must be true? 
+(A) f is continuous at 
+ 
+(B) f is continuous at 
+(C) f is continuous at 
+ 
+(D) f is differentiable at 
+ 
+(E) f is differentiable at 
+.  
+ 
+ 
+78. What is the area of the region in the first quadrant enclosed by the graphs of 
+(A) 0.208 
+(B) 0.210
+(C) 0.266
+(D) 0.660
+(E) 0.835 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-27- The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1.  A curve labeled y equals f prime of x is shown. The curve begins at the origin and increases until 1 on the x axis. It then decreases and intersects the x axis at open parenthesis 2, 0 close parenthesis. The curve continues to decrease until partway between 2 and 3 on the x axis. The curve then begins to increase and crosses the x axis at open parenthesis 3, 0 close parenthesis and continues to increase until partway between 3 and 4 on the x axis, where it begins to decrease and ends at open parenthesis 4, 0 close parenthesis.
+ 
+79. The figure above shows the graph of 
+, the derivative of the function f.  If 
+, which of the following 
+could be the graph of f ?  
+(A) The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1.  The curve begins at the origin and increases until partway between 0 and 1 on the x axis. It then decreases and intersects the x axis at open parenthesis 1, 0 close parenthesis. The curve continues to decreases until partway between 1 and 2 on the x axis. The curve then begins to increase and crosses the x axis partway between 2 and 3 and continues to increase until partway between 3 and 4 on the x axis, where it begins to decrease and crosses the x axis partway between 3 and 4. The curve continues to decrease.  
+(B) The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1. The curve begins at the origin and increases until 1 on the x axis. It then decreases until 2 on the x axis. The curve then increases until it reaches 3 on the x axis. The curve then decreases until it reaches open parenthesis 4, 0 close parentheses.  
+(C) The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1.  The curve begins at the origin and increases until 2 on the x axis. It then decreases until 3 on the x axis. The curve then increases.  
+(D) The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1.  The curve begins at the origin and increases until 2 on the x axis. It then decreases and crosses the x axis partway between 2 and 3. It continues to decrease until 3 on the x axis, and then it increases and ends at open parenthesis 4, 0 close parenthesis.  
+(E) The figure shows the graph of a function in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The horizontal axis shows four tick marks, labeled 1 through 4, in increments of 1.  The line begins at the origin and increases until 1 on the x axis. It then decreases and intersects the x axis partway between 1 and 2. The line continues to decreases until it reaches 2 on the x axis. The line then begins to increase and crosses the x axis partway between 2 and 3 and continues to increase until reaching 3 on the x axis, where it begins to decrease and crosses the x axis partway between 3 and 4. The line continues to decrease until it reaches 4 on the x axis.
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-28- 
+80. The volume of a certain cone for which the sum of its radius, r, and height is constant is given by 
+. The rate of change of the radius of the cone with respect to time is 6. In terms of r,  
+what is the rate of change of the volume of the cone with respect to time? 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+ 
+81. A cup of tea is cooling in a room that has a constant temperature of 70 degrees Fahrenheit 
+.  If the initial 
+temperature of the tea, at time 
+ minutes, is 
+ and the temperature of the tea changes at the rate 
+ degrees Fahrenheit per minute, what is the temperature, to the nearest degree, of the tea 
+after 4 minutes? 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-29- 
+82. Consider the series 
+ and 
+, where 
+ and 
+ for 
+. If 
+ converges, which of the 
+following must be true?
+(A) If 
+ 
+,  then 
+ converges. 
+(B) If 
+,  then 
+ diverges. 
+(C) If 
+,  then 
+ converges. 
+(D) If 
+,  then 
+ diverges. 
+(E) If 
+ 
+,  then the behavior of
+ cannot be determined from the information given. 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-30- 
+ 
+   
+   
+   
+   
+ 
+ 
+0 
+0.5 
+1 
+1.5 
+2 
+2.5 
+3 
+0 
+4 
+10 
+18 
+28 
+40 
+54 
+ 
+83. The table above gives selected values for a continuous function f.  If f  is increasing over the closed interval 
+,  which of the following could be the value of 
+? 
+(A) 50
+(B) 62
+(C) 77
+(D) 100
+(E) 154 
+84. Let f be a function with derivative given by 
+. On which of the following intervals is the 
+graph of f concave down? 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-31- The figure shows the graph of f in an x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. Along the x axis are 8 tick marks on the positive axis and two tick marks on the negative axis with the tick mark to the right of the origin labeled 1. Along the y axis are 5 tick marks on the positive axis and 3 tick marks on the negative axis with the tick mark above the origin labeled 1. A curve is shown that starts at the point open parenthesis negative 2, 5 close parenthesis. The curve decreases and crosses the y axis at open parenthesis 0, 2 close parenthesis. The curve continues to decrease and crosses the x axis right before the 2 on the x axis. The curve continues decreasing to point open parenthesis 3, negative one close parenthesis. The curve continues to decrease and ends at the point open parenthesis 8, negative 3 close parenthesis.
+ 
+85. A portion of the graph of a differentiable function f is shown above. If the value 
+ satisfies the conclusion 
+of the Mean Value Theorem applied to f on the open interval 
+, what is the slope of the line tangent 
+to the graph of f at 
+?  
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+86. If
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-32- 
+86. If 
+ for all x and 
+for all x, which of the following could be a table of values for f ? 
+(A) 
+4 
+0 
+3 
+1 
+1 
+(B)
+4 
+0 
+4 
+1 
+4 
+(C)
+4 
+0 
+5 
+1 
+6 
+(D)
+4 
+0 
+5 
+1 
+7 
+(E) 
+4 
+0 
+6 
+1 
+7 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-33- 
+87. The position of a particle moving in the xy-plane is given by the parametric functions 
+ and 
+ for which 
+ and 
+.  What is the slope of the line tangent to the path of the particle at the point 
+at which 
+?  
+(A) 0.904   (B) 1.107   (C) 1.819   (D) 2.012   (E) 3.660 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-34- The figure shows the first quadrant of a coordinate plane with the origin labeled O. The numbers 1 and 2 appear on the horizontal axis from left to right. The numbers 1 and 2 appear on the vertical axis from bottom to top. Two graphs are shown. The first graph is a polar curve. This polar curve begins at the origin and ends at just under 2 on the vertical axis and to the right of 1 on the horizontal axis. The second graph is a line that begins at the origin, increases diagonally, and ends at a point that connects to the polar curve. The area bounded by the polar curve and the line is labeled R.
+ 
+88. Let R be the region in the first quadrant that is bounded above by the polar curve 
+ and below by the 
+line 
+, as shown in the figure above. What is the area of R ? 
+(A) 0.317   (B) 0.465   (C) 0.929   (D) 2.618   (E) 5.819 
+ 
+ 
+89. What is the volume of the solid generated when the region bounded by the graph of 
+x equals the square root of the quantity y minus 2and the lines 
+ and 
+ is revolved about the y-axis? 
+(A) 3.464   (B) 4.500   (C) 7.854   (D) 10.883   (E) 14.137 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-35- 
+90. Which of the following statements are true about the series 
+,  where 
+?  
+I. The series is alternating. 
+II. 
+ for all 
+III. 
+(A) None 
+(B) I only 
+(C) I and II only 
+(D) I and III only 
+(E) I, II, and III 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+B
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-36- The figure shows the first quadrant of a graph in a coordinate plane. The horizontal axis is labeled t, the vertical axis is labeled y of t, and the origin is labeled O. The numbers 1 through 5 are shown on the horizontal axis from left to right in increments of 1. The graph begins as a line, increasing from the origin to 1 on the horizontal axis. Then the graph continues as a horizontal line until approximately 2 point two five on the horizontal axis, at which point it curves upward and increases until 3 on the horizontal axis. The graph then continues as a line, decreasing until 4 on the horizontal axis. The graph then curves upward slightly and continues decreasing until 5 on the horizontal axis. There are vertical dashed lines above each number on the horizontal axis that connect to the graph.
+ 
+91. A particle moves along the y-axis. The graph of the particle’s position 
+ at time t is shown above for 
+. For what values of t is the velocity of the particle negative and the acceleration positive? 
+(A) 
+   (B) 
+   (C) 
+   (D) 
+   (E) 
+ 
+ 
+92. If f is a function such that 
+,  then 
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+ 
+
+
+--- PAGE BREAK ---
+
+B
+B
+ 
+ 
+ 
+B
+ 
+ 
+B
+B
+B
+B
+B
+B
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-37- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+END OF SECTION I 
+IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY 
+CHECK YOUR WORK ON PART B ONLY. 
+DO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.
+ 
+ 
+ 
+________________________________________________ 
+ 
+MAKE SURE YOU HAVE DONE THE FOLLOWING. 
+PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET 
+WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR 
+ANSWER SHEET 
+TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET 
+AND PLACED IT ON YOUR ANSWER SHEET  
+AFTER TIME HAS BEEN CALLED, TURN TO PAGE 38 AND 
+ANSWER QUESTIONS 93–96. 
+ 
+• 
+• 
+ 
+• 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Section II: Free-Response Questions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This is the free-response section of the 2013 AP exam. It includes cover material and 
+other administrative instructions to help familiarize students with the mechanics of 
+the exam. (Note that future exams may differ in look from the following content.) 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+h
+•
+•
+•
+•
+r
+AP
+® Calculus BC Exam
+2013
+SECTION II: Free Response
+DO NOT OPEN THIS BOOKLET OR BREAK THE SEALS ON PART B UNTIL YOU ARE TOLD TO DO SO.
+At a Glance
+Total Time
+1 hour, 30 minutes
+Number of Questions
+6
+Percent of Total Score
+50%
+Writing Instrument
+Either pencil or pen wit
+black or dark blue ink
+Weight
+The questions are
+weighted equally, but
+the parts of a question
+are not necessarily
+given equal weight.
+Part A
+Number of Questions
+2
+Time
+30 minutes
+Electronic Device
+Graphing calculator
+required
+Percent of Section II Score
+33.3%
+Part B
+Number of Questions
+4
+Time
+60 minutes
+Electronic Device
+None allowed
+Percent of Section II Score
+66.6%
+Instructions
+The questions for Section II are printed in this booklet. Do not break the seals on Part B
+until you are told to do so. Write your solution to each part of each question in the space
+provided. Write clearly and legibly. Cross out any errors you make; erased or crossed-out
+work will not be scored.
+Manage your time carefully. During the timed portion for Part A, work only on the
+questions in Part A. You are permitted to use your calculator to solve an equation, find
+the derivative of a function at a point, or calculate the value of a definite integral.
+However, you must clearly indicate the setup of your question, namely the equation,
+function, or integral you are using. If you use other built-in features or programs, you
+must show the mathematical steps necessary to produce your results. During the timed
+portion for Part B, you may continue to work on the questions in Part A without the use
+of a calculator.
+For each part of Section II, you may wish to look over the questions before starting to
+work on them. It is not expected that everyone will be able to complete all parts of all
+questions.
+Show all of your work. Clearly label any functions, graphs, tables, or other objects that
+you use. Your work will be scored on the correctness and completeness of your methods
+as well as your answers. Answers without supporting work will usually not receive
+credit. Justifications require that you give mathematical (noncalculator) reasons.
+Your work must be expressed in standard mathematical notation rather than calculator
+syntax. For example,
+may not be written as fnInt
+Unless otherwise specified, answers (numeric or algebraic) need not be simplified. If you
+use decimal approximations in calculations, your work will be scored on accuracy.
+Unless otherwise specified, your final answers should be accurate to three places after
+the decimal point.
+Unless otherwise specified, the domain of a function f is assumed to be the set of all
+eal numbers x for which
+is a real number.
+Form I
+Form Code Z-3YBP2-S
+68
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-3- 
+CALCULUS BC 
+SECTION II, Part A 
+Time—30 minutes 
+Number of problems—2 
+ 
+A graphing calculator is required for these problems. 
+ 
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+ 
+ 
+ 
+ 
+Continue problem 1 on page 5. 
+-4- 
+ The figure shows graphs in the first and second quadrants of the x y plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The following graphs are represented: y equals 1 minus x cubed, and y equals sine of open parenthesis x squared close parenthesis. The region bounded by the two graphs and y- axis is shaded and labeled R.
+ 
+ 1. Let R be the shaded region in the first quadrant enclosed by the y-axis and the graphs of 
+ and 
+,  as shown in the figure above.
+(a) Find the area of R. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+1
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-5- 
+ 
+(b) A horizontal line, 
+,  is drawn through the point where the graphs of 
+ and 
+  
+intersect. Find k and determine whether this line divides R into two regions of equal area. Show the work
+that leads to your conclusion. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(c) Find the volume of the solid generated when R is revolved about the line 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+1
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+2
+2
+2
+2
+2
+2
+2
+2
+2
+ 
+ 
+ 
+ 
+Continue problem 2 on page 7. 
+-6- 
+ The figure shows the graph of the path of a planetary rover in an x y plane, with the origin labeled O. The horizontal axis is labeled x, and the vertical axis is labeled y. The numbers negative 2 to 6 appear on the x axis from left to right in increments of 1. The numbers negative 2 to 5 appear on the y axis from bottom to top in increments of 1. The curve representing the path of the rover begins at open parenthesis 6, 5 close parenthesis. The curve moves straight up slightly before moving down and to the left. The curve crosses the y axis at open parenthesis 0, 4 close parenthesis. The curve begins to curve back to the right of the graph at approximately open parenthesis negative 1 point 5, 3 close parenthesis, and crosses the y axis at approximately open parenthesis 0, 1 point 5 close parenthesis. The curve continues to move down and right, and crosses the x axis at approximately open parenthesis 2 point two five, 0 close parenthesis. The curve continues moving down and curves back to the left. The curve continues to move left and down before ending at approximately open parenthesis 0 point five, negative 2 close parenthesis.
+ 
+ 2. A planetary rover travels on a flat surface. The path of the rover for the time interval 
+ hours is shown 
+in the rectangular coordinate system above. The rover starts at the point with coordinates 
+ at time 
+. 
+The coordinates 
+ of the position of the rover change at rates given by 
+ 
+  where 
+ and 
+ are measured in meters and t is measured in hours. 
+(a) Find the acceleration vector of the rover at time 
+.  Find the speed of the rover at time 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+2
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-7- 
+ 
+(b) Find the total distance that the rover travels over the time interval 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(c) Find the y-coordinate of the position of the rover at time 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(d) The rover receives a signal at each point where the line tangent to its path has slope 
+.  At what times t,  
+for 
+, does the rover receive a signal? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+-8- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+END OF PART A OF SECTION II 
+IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON 
+PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO. 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-13- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CALCULUS BC 
+SECTION II, Part B 
+Time—60 minutes 
+Number of problems—4 
+ 
+No calculator is allowed for these problems. 
+ 
+ 
+DO NOT BREAK THE SEALS UNTIL YOU ARE TOLD TO DO SO. 
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+Continue problem 3 on page 15. 
+-14- 
+Do not write beyond this border. 
+3
+3
+3
+3
+3
+3
+3
+3
+3
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+NO CALCULATOR ALLOWED 
+0 
+10 
+22 
+30 
+0.6 
+0.7 
+1.0 
+0.5 
+ 3. The twice-differentiable function W models the volume of water in a reservoir at time t, where 
+is 
+measured in gigaliters (GL) and t is measured in days. The table above gives values of 
+sampled at 
+various times during the time interval 
+ days. At time 
+,  the reservoir contains 125 gigaliters 
+of water.
+(a) Use the tangent line approximation to W at time 
+to predict the volume of water 
+, in gigaliters, 
+in the reservoir at time 
+.  Show the computations that lead to your answer. 
+(b) Use a left Riemann sum, with the three subintervals indicated by the data in the table, to approximate 
+. Use this approximation to estimate the volume of water 
+, in gigaliters, in the reservoir at 
+time 
+. Show the computations that lead to your answer.
+Do not write beyond this border. 
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-15- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+3
+3
+3
+3
+3
+3
+3
+3
+3
+ 
+NO CALCULATOR ALLOWED 
+Do not write beyond this border. 
+3
+(c) Explain why there must be at least one time t, other than 
+,  such that 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(d) The equation 
+ gives the relationship between the area A, in square kilometers, of the surface 
+of the reservoir, and the volume of water 
+, in gigaliters, in the reservoir. Find the instantaneous rate of 
+change of A, in square kilometers per day, with respect to t when 
+ days.  
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+4
+4
+4
+4
+4
+4
+4
+4
+4
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+Continue problem 4 on page 17. 
+-16- 
+ 
+ 4. Consider the function f given by 
+ for all real numbers x. 
+(a) At what value of x does 
+ attain its absolute maximum? Justify your answer. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Find an antiderivative of f. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+4
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+4
+4
+4
+4
+4
+4
+4
+4
+4
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-17- 
+ 
+(c) Find the value of 
+,  given the fact that 
+.  
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+4
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+5
+5
+5
+5
+5
+5
+5
+5
+5
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+Continue problem 5 on page 19. 
+-18- 
+ The figure shows the graph of the function f in an x y plane with the origin labeled O. The numbers negative 6 to 4 appear on the horizontal axis from left to right in increments of 2. The numbers negative 2 to 6 appear on the vertical axis from bottom to top in increments of 2. Moving from left to right beginning in the second quadrant, the graph starts as a line segment, increasing from the coordinates open parenthesis negative 6, 0 close parenthesis to the point with the coordinates open parenthesis negative 4, 5, close parenthesis. The graph continues as a line segment, decreasing from this point to the coordinate open parenthesis negative 2, 0 close parenthesis on the x axis. The graph then continues as a semicircle, starting at the coordinate open parenthesis negative 2, 0 close parenthesis on the x axis, curving up and then curving down, and ending at the coordinate open parenthesis 2, 0 close parenthesis on the x axis. The graph continues as a line segment from this point and ends at the endpoint with the coordinates open parenthesis 3, negative 2 close parenthesis. 
+ 
+ 5. The graph of the continuous function f, consisting of three line segments and a semicircle, is shown above.  
+Let g be the function given by 
+.  
+(a) Find 
+ and 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Find 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+5
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+5
+5
+5
+5
+5
+5
+5
+5
+5
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-19- 
+ 
+(c) Find all values of x on the open interval 
+ for which the graph of g has a horizontal tangent. 
+Determine whether g has a local maximum, a local minimum, or neither at each of these values. Justify 
+your answers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(d) Find all values of x on the open interval 
+ for which the graph of g has a point of inflection. 
+Explain your reasoning. 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+5
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+Continue problem 6 on page 21. 
+-20- 
+ 
+ 6. The function f satisfies the equation 
+  and 
+.  The Taylor series for f about 
+ converges to 
+ for all x. 
+(a) Write an equation for the line tangent to the curve 
+ at the point where 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Find 
+ and find the second-degree Taylor polynomial for f about 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+6
+
+
+--- PAGE BREAK ---
+
+Unauthorized copying or reuse of 
+any part of this page is illegal.
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ 
+NO CALCULATOR ALLOWED 
+ 
+ 
+ 
+GO ON TO THE NEXT PAGE. 
+-21- 
+ 
+(c) Find the fourth-degree Taylor polynomial for f about 
+.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(d) Find 
+,  the nth derivative of f at 
+,  for 
+. Use the Taylor series for f about 
+ and the 
+Taylor series for 
+ about 
+ to find a polynomial expression for 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Do not write beyond this border. 
+Do not write beyond this border. 
+6
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+-22- 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STOP 
+END OF EXAM 
+ 
+ 
+ 
+THE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE 
+SECTION II BOOKLET. 
+MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION  
+INFORMATION AS REQUESTED ON THE FRONT AND BACK  
+COVERS OF THE SECTION II BOOKLET. 
+CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN  
+THE BOX ON THE COVER. 
+MAKE SURE YOU HAVE USED THE SAME SET OF AP  
+NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN  
+THIS YEAR. 
+ 
+ 
+• 
+• 
+• 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Multiple-Choice Answer Key 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The following contains the answers to the
+multiple-choice questions in this exam.
+   
+ 
+
+
+--- PAGE BREAK ---
+
+Answer Key for AP Calculus BC 
+Practice Exam, Section I 
+ 
+Question 1: C
+Question 2: C
+Question 3: D
+Question 4: E 
+Question 5: A
+Question 6: D
+Question 7: C
+Question 8: D
+Question 9: D
+Question 10: D  
+Question 11: D 
+Question 12: E 
+Question 13: D 
+Question 14: B 
+Question 15: B 
+Question 16: A 
+Question 17: B 
+Question 18: A 
+Question 19: C 
+Question 20: E 
+Question 21: A 
+Question 22: D 
+Question 23: C 
+  
+ 
+Question 24: A 
+Question 25: C 
+Question 26: D 
+Question 27: A 
+Question 28: A 
+Question 76: A 
+Question 77: C 
+Question 78: B 
+Question 79: C 
+Question 80: E 
+Question 81: A 
+Question 82: C 
+Question 83: B 
+Question 84: C 
+Question 85: C 
+Question 86: E 
+Question 87: B 
+Question 88: B 
+Question 89: E 
+Question 90: D 
+Question 91: E 
+Question 92: B 
+  
+ 
+  
+ 
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Free-Response Scoring Guidelines 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The following contains the scoring guidelines
+for the free-response questions in this exam.
+  
+ 
+
+
+--- PAGE BREAK ---
+
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+ 
+Question 1 
+ 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. The figure shows graphs in the first and second quadrants of the xy-plane. The horizontal axis is labeled x, the vertical axis is labeled y, and the origin is labeled O. The following graphs are represented: y equals 1 minus x cubed, and y equals sine of open parenthesis x squared close parenthesis. The region bounded by the two graphs and y- axis is shaded and labeled R.
+Let R be the shaded region in the first quadrant enclosed by the y-axis and 
+the graphs of 
+ and 
+,  as shown in the figure above. 
+(a)   Find the area of R.
+(b)   A horizontal line, 
+ 
+, is drawn through the point where the graphs 
+of 
+ and 
+ intersect. Find k and determine 
+whether this line divides R into two regions of equal area. Show the 
+work that leads to your conclusion.  
+(c)   Find the volume of the solid generated when R is revolved about the 
+line 
+.  
+ 
+ 
+ 
+ 
+ 
+The graphs of 
+ and 
+ intersect in the 
+first quadrant at the point 
+. 
+ 
+1 : correct limits in an integral in (a), (b), or (c) 
+(a) 
+A
+rea equals the definite integral, with a lower limit of 0 and an upper limit of A, of open parenthesis 1 minus x cubed minus sine of open parenthesis x squared close parenthesis close parenthesis, d x
+2 :
+1 : integrand
+1 : answer
+(b) 
+ 
+The two regions have unequal areas. 
+ 
+ 
+ 
+3 : 
+1 : integral(s) with k value
+1 : value(s) of integral(s)
+1 : conclusion tied to part (a)
+   or comparison of two integrals
+Note: Stating k value only does not earn 
+          a point. 
+(c) 
+ 
+3 :
+2 : integrand
+1 : answer
+
+
+--- PAGE BREAK ---
+
+ 
+Question 2 The figure shows the graph of the path of a planetary rover in an x y plane, with the origin labeled O. The horizontal axis is labeled x, and the vertical axis is labeled y. The numbers negative 2 to 6 appear on the x axis from left to right in increments of 1. The numbers negative 2 to 5 appear on the y axis from bottom to top in increments of 1. The curve representing the path of the rover begins at open parenthesis 6, 5 close parenthesis. The curve moves straight up slightly before moving down and to the left. The curve crosses the y axis at open parenthesis 0, 4 close parenthesis. The curve begins to curve back to the right of the graph at approximately open parenthesis negative 1 point 5, 3 close parenthesis, and crosses the y axis at approximately open parenthesis 0, 1 point 5 close parenthesis. The curve continues to move down and right, and crosses the x axis at approximately open parenthesis 2 point two five, 0 close parenthesis. The curve continues moving down and curves back to the left. The curve continues to move left and down before ending at approximately open parenthesis 0 point five, negative 2 close parenthesis.
+A planetary rover travels on a flat surface. The path of the rover for the 
+time interval
+ hours is shown in the rectangular coordinate 
+system above. The rover starts at the point with coordinates 
+ at 
+time 
+.  The coordinates 
+ of the position of the rover 
+change at rates given by 
+where 
+ and 
+ are measured in meters and t is measured in hours. 
+(a)   Find the acceleration vector of the rover at time 
+.  Find the 
+speed of the rover at time 
+.  
+(b)   Find the total distance that the rover travels over the time interval 
+. 
+(c)   Find the y-coordinate of the position of the rover at time 
+.  
+(d)   The rover receives a signal at each point where the line tangent to its path has slope 
+. At what times t,  
+for 
+,  does the rover receive a signal? 
+ 
+ 
+ 
+ 
+(a)
+2 : 1 : acceleration vector
+1 : speed
+(b) 
+3 :  2 : integral  
+ 1 : answer
+(c) 
+2 :  1 : integral  
+ 1 : answer
+(d) 
+ 
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+ 
+ 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. 
+2 : 1 : equation  
+1 : answer
+
+
+--- PAGE BREAK ---
+
+ 
+Question 3 
+The twice-differentiable function W models the volume of water in a reservoir at time t, where 
+ is 
+measured in gigaliters (GL) and t is measured in days. The table above gives values of 
+ sampled at various 
+times during the time interval 
+ days. At time 
+, the reservoir contains 125 gigaliters of water. 
+(a)   Use the tangent line approximation to W at time 
+ to predict the volume of water
+, in gigaliters, 
+in the reservoir at time
+ 
+ 
+. Show the computations that lead to your answer. 
+(b)   Use a left Riemann sum, with the three subintervals indicated by the data in the table, to approximate 
+. Use this approximation to estimate the volume of water 
+, in gigaliters, in the reservoir at 
+time 
+.  Show the computations that lead to your answer. 
+(c)   Explain why there must be at least one time t, other than 
+, such that 
+. 
+(d)   The equation 
+ gives the relationship between the area A, in square kilometers, of the surface 
+of the reservoir, and the volume of water 
+, in gigaliters, in the reservoir. Find the instantaneous rate of 
+change of , in square kilometers per day, with respect to  when 
+A
+t
+ days.  
+ 
+ 
+ 
+ 
+ 
+(a) An equation of the tangent line is 
+. 
+ 
+ 
+1 : answer 
+(b) 
+3 :
+1 : left Riemann sum
+1 : approximation
+1 : answer
+(c) 
+ is differentiable 
+ is continuous. 
+ 
+By the Intermediate Value Theorem, there must be at least one 
+time t, 
+,  such that 
+.  
+ 
+ 
+2 : explanation 
+(d) 
+ 
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. 
+3 :
+ 2 :
+ 1 : answer
+
+
+--- PAGE BREAK ---
+
+Question 4 
+ for all real numbers x. 
+(a)   At what value of x does 
+ attain its absolute maximum? Justify your answer. 
+(b)   Find an antiderivative of f. 
+(c)   Find the value of 
+ given the fact that 
+. 
+ 
+ 
+ 
+ 
+ 
+(a) 
+f prime of x equals e raised to the power  negative x squared minus 2 x squared times e raised to the power negative x squared equals open parenthesis 1 minus 2 x squared close parenthesis times e raised to the power  negative x squared
+ 
+ when 
+x equals negative the fraction 1 over the square root of 2 or x equals the fraction 1 over the square root of 2
+ for 
+,  and 
+ for 
+. Therefore, a 
+maximum can only occur at a positive -value. 
+x
+ changes sign from positive to negative at 
+,  so 
+f  has a relative maximum at 
+. 
+f  increases on 
+ and decreases on 
+.  
+Therefore, there is an absolute maximum at 
+. 
+5 :
+2 :
+1 : solves
+1 : answer
+1 : justification
+(b) 
+the integral of x times e raised to the power negative x squared, d x equals negative one half times e raised to the power negative x squared, plus C
+ 
+ 
+ 
+ 
+1 : antiderivative 
+(c) Using integration by parts, 
+ 
+ 
+t h
+e integral of x times f of x, d x equals the integral of x squared times e raised to the power  negative x squared, d x equals negative one half times x times e raised to the power negative x squared, plus one half times the integral of e raised to the power negative x squared, d x
+Therefore,  
+t he definite integral, with a lower limit of 0 and an upper limit of infinity, of x times f of x, d x equals the limit as b approaches infinity of open bracket the quantity negative one half times x times e raised to the power  negative x squared, evaluated at a lower limit of 0 and an upper limit of b, plus one half times the definite integral, with a lower limit of 0 and an upper limit of b, of e raised to the power negative x squared, d x closed bracket
+(
+)
+ 
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+ 
+ 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 :  2 : integration by parts
+ 1 : answer
+
+
+--- PAGE BREAK ---
+
+Question 5 The figure shows the graph of the function f in an x y plane with the origin labeled O. The numbers negative 6 to 4 appear on the horizontal axis from left to right in increments of 2. The numbers negative 2 to 6 appear on the vertical axis from bottom to top in increments of 2. Moving from left to right beginning in the second quadrant, the graph starts as a line segment, increasing from the coordinates open parenthesis negative 6, 0 close parenthesis to the point with the coordinates open parenthesis negative 4, 5, close parenthesis. The graph continues as a line segment, decreasing from this point to the coordinates open parenthesis negative 2, 0 close parenthesis on the x axis. The graph then continues as a semicircle, starting at the coordinates open parenthesis negative 2, 0 close parenthesis on the x axis, curving up and then curving down, and ending at the coordinates open parenthesis 2, 0 close parenthesis on the x axis. The graph continues as a line segment from this point and ends at the endpoint with the coordinates open parenthesis 3, negative 2 close parenthesis.  
+The graph of the continuous function f, consisting of three line segments 
+and a semicircle, is shown above. Let g be the function given by 
+(a)   Find 
+ and 
+. 
+(b)   Find 
+.  
+(c)   Find all values of x on the open interval 
+ for which the 
+graph of g has a horizontal tangent. Determine whether g has a 
+local maximum, a local minimum, or neither at each of these values. 
+Justify your answers. 
+(d)   Find all values of x on the open interval 
+ for which the graph of g has a point of inflection. 
+Explain your reasoning. 
+ 
+ 
+ 
+(a) 
+2 : 
+(b) 
+ 
+1 :
+(c) The graph of g has a horizontal tangent at 
+ and 
+where 
+.  
+ 
+The graph of g has neither a local maximum nor a local minimum
+at
+ 
+ 
+ because 
+ does not change sign at 
+.  
+ 
+The graph of g has a local maximum at 
+ because 
+ changes sign from positive to negative at 
+.  
+ 
+3 : 
+1 : horizontal tangent at
+ and 
+2 : answers with justifications
+(d) The graph of g has a point of inflection at 
+,  
+, and 
+ 
+changes from increasing to decreasing at 
+and 
+,  and changes from decreasing to increasing at 
+. 
+ 
+OR 
+changes from positive to negative at 
+ and 
+,  and changes from negative to positive at 
+. 
+ 
+ 
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+ 
+ 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. 
+ 
+    
+3 :
+2 : values of x
+1 : explanation
+
+
+--- PAGE BREAK ---
+
+Question 6 
+The function f satisfies the equation 
+f prime of x equals f of x plus x plus 1
+and 
+. The Taylor series for f about 
+ converges to 
+ for all x. 
+(a)   Write an equation for the line tangent to the curve 
+ at the point where 
+. 
+. 
+. 
+(b)   Find 
+ and find the second-degree Taylor polynomial for f about 
+(c)   Find the fourth-degree Taylor polynomial for f about 
+(d)   Find 
+,  the nth derivative of f at 
+,  for 
+. Use the Taylor series for f about 
+ and the 
+Taylor series for 
+ about 
+ to find a polynomial expression for 
+. 
+ 
+ 
+ 
+ 
+ 
+(a) 
+f
+ prime of 0 equals f of 0 plus 0 plus 1 equals 3
+An equation for the tangent line is 
+. 
+ 
+ 
+ 
+1 : tangent line equation 
+(b) 
+f double prime of x equals f prime of x, plus 1;
+ 
+ 
+P  
+sub 2 of x equals 2 plus 3 x plus the fraction 4 over 2 factorial, times x squared equals 2 plus 3 x plus 2 x squared
+2 :
+1 :
+1 : second-degree Taylor polynomial
+(c) 
+ 
+ 
+ 
+ 
+ 
+P  sub 4 of x equals 2 plus 3 x plus the fraction 4 over 2 factorial, times x squared plus the fraction 4 over 3 factorial, times x cubed plus the fraction 4 over 4 factorial, times x raised to the power of 4
+2 :
+1 :
+1 : fourth-degree Taylor polynomial
+(d) 
+ 
+f  of x equals 2 plus 3 x plus the fraction 4 over 2 factorial, times x squared plus the fraction 4 over 3 factorial, times x cubed plus the fraction 4 over 4 factorial, times x raised to the power of 4 plus the fraction 4 over 5 factorial, times x raised to the power of 5 plus ellipses 
+ 
+Therefore, 
+ 
+AP® CALCULUS BC 
+2013 SCORING GUIDELINES 
+ 
+ 
+© 2013 The College Board. 
+Visit the College Board on the Web: www.collegeboard.org. 
+ 
+  
+ 
+ 
+4 : 
+1 :
+ 1 : Taylor series for f
+ 
+1 : Taylor series for
+1 : polynomial expression
+ 
+ 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+ 
+Scoring Worksheets 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The following provides a worksheet and conversion table  
+used for calculating a composite score of the exam. 
+
+
+--- PAGE BREAK ---
+
+ 
+    
+ Number Correct
+(out of 45) 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+2013 AP Calculus BC Scoring Worksheet 
+Section I: Multiple Choice 
+  
+ 1.2000  = 
+Weighted Section I Score 
+(Do not round) 
+Section II: Free Response 
+Question 1
+(out of 9) 
+  
+1.0000  =
+(Do not round) 
+Question 2
+(out of 9) 
+  
+1.0000  = 
+(Do not round)
+Question 3  
+(out of 9) 
+  
+1.0000  = 
+(Do not round)
+Question 4
+(AB Part) 
+(out of 6) 
+  
+1.0000  = 
+(Do not round)
+Question 4
+(BC Part) 
+(out of 3) 
+  
+ 
+1.0000  = 
+(Do not round)
+Question 5 
+(out of 9) 
+  
+1.0000  =
+(Do not round) 
+Question 6
+(out of 9) 
+  
+1.0000  = 
+(Do not round)
+Sum  =
+Weighted  
+Section II 
+Score 
+(Do not round) 
+Composite Score 
+Weighted 
+Section I Score
++
+Weighted 
+Section II Score
+=
+Composite Score 
+(Round to nearest 
+  whole number) 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+AP Score Conversion Chart 
+Calculus BC 
+Composite 
+Score Range 
+AP Score 
+  66-108 
+5 
+57-65 
+4 
+44-56 
+3 
+39-43 
+2 
+  0-38 
+1 
+ 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
+ 
+ 
+  
+ 
+    
+    
+ 
+ 
+ 
+ 
+    
+ 
+    
+ 
+ 
+ 
+  
+ 
+   
+   
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+2013 AP Calculus BC — AB Subscore Scoring Worksheet 
+Section I: Multiple Choice 
+Questions (1-2, 4-6, 10, 12-13, 17-18, 20-22, 24-25, 76-81, 83-86, 89, 91) 
+Number Correct
+(out of 27) 
+1.2222  = 
+Weighted Section I Score 
+(Do not round) 
+Section II: Free Response 
+Question 1  
+(out of 9) 
+1.0000  =  
+(Do not round) 
+Question 3  
+(out of 9) 
+1.0000  =  
+ (Do not round) 
+Question 4  
+(AB Part) 
+(out of 6)
+1.0000  = 
+(Do not round) 
+Question 5   
+(out of 9) 
+ 1.0000  =
+ (Do not round) 
+Sum  =
+Weighted 
+Section II 
+Score 
+(Do not round) 
+Composite Score 
+Weighted
+Section I Score 
++
+Weighted
+Section II Score
+=
+ Composite Score 
+(Round to nearest 
+ whole number)
+AP Score Conversion Chart 
+Calculus AB Subscore 
+Composite 
+Score Range 
+AP Score 
+42-66 
+5 
+34-41 
+4 
+27-33 
+3 
+22-26 
+2 
+  0-21 
+1 
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AP Calculus BC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The College Board 
+The College Board is a mission-driven not-for-profit organization that connects students to college success and opportunity. 
+Founded in 1900, the College Board was created to expand access to higher education. Today, the membership association is 
+made up of over 6,000 of the world’s leading educational institutions and is dedicated to promoting excellence and equity in 
+education. Each year, the College Board helps more than seven million students prepare for a successful transition to college 
+through programs and services in college readiness and college success — including the SAT® and the Advanced Placement 
+Program®. The organization also serves the education community through research and advocacy on behalf of students, 
+educators, and schools. The College Board is committed to the principles of excellence and equity, and that commitment is 
+embodied in all of its programs, services, activities, and concerns. 
+ 
+Visit the College Board on the Web: www.collegeboard.org.  

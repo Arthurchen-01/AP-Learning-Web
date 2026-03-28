@@ -1,0 +1,1479 @@
+{
+  "generatedAt": "2026-03-27T02:41:33.442745",
+  "stats": {
+    "total": 172,
+    "success": 152,
+    "failed": 0,
+    "needs_review": 20
+  },
+  "exams": [
+    {
+      "status": "ready_for_ai",
+      "file": "2008PE",
+      "subject": "csa",
+      "text_chars": 48762,
+      "pages": 43,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2008PE_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2008PE_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2009Intl",
+      "subject": "csa",
+      "text_chars": 20786,
+      "pages": 136,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2009Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2009Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "csa",
+      "text_chars": 48762,
+      "pages": 43,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "csa",
+      "text_chars": 169205,
+      "pages": 89,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "csa",
+      "text_chars": 15769,
+      "pages": 18,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NA",
+      "subject": "csa",
+      "text_chars": 20743,
+      "pages": 18,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2019NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2019NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2020Intl",
+      "subject": "csa",
+      "text_chars": 63658,
+      "pages": 69,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2020Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2020Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2020SQ1",
+      "subject": "csa",
+      "text_chars": 141805,
+      "pages": 129,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2020SQ1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2020SQ1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NA",
+      "subject": "csa",
+      "text_chars": 21387,
+      "pages": 17,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2021NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2021NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NA",
+      "subject": "csa",
+      "text_chars": 20609,
+      "pages": 17,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2022NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2022NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NA",
+      "subject": "csa",
+      "text_chars": 26295,
+      "pages": 19,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2023NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2023NA_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 59
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NA",
+      "subject": "csa",
+      "text_chars": 23786,
+      "pages": 19,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2024NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2024NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NA",
+      "subject": "csa",
+      "text_chars": 22515,
+      "pages": 19,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2025NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\csa\\2025NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2007Intl",
+      "subject": "statistics",
+      "text_chars": 9554,
+      "pages": 38,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2007Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2007Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2008Intl",
+      "subject": "statistics",
+      "text_chars": 110936,
+      "pages": 81,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2008Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2008Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "statistics",
+      "text_chars": 154143,
+      "pages": 110,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "statistics",
+      "text_chars": 145901,
+      "pages": 110,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "statistics",
+      "text_chars": 185035,
+      "pages": 106,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "statistics",
+      "text_chars": 188434,
+      "pages": 108,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "statistics",
+      "text_chars": 193034,
+      "pages": 112,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "statistics",
+      "text_chars": 157805,
+      "pages": 111,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "statistics",
+      "text_chars": 164205,
+      "pages": 114,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "statistics",
+      "text_chars": 30271,
+      "pages": 15,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "statistics",
+      "text_chars": 222169,
+      "pages": 141,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NA",
+      "subject": "statistics",
+      "text_chars": 30900,
+      "pages": 17,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2019NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2019NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NA",
+      "subject": "statistics",
+      "text_chars": 36741,
+      "pages": 22,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2021NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2021NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NA",
+      "subject": "statistics",
+      "text_chars": 34409,
+      "pages": 22,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2022NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2022NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NA",
+      "subject": "statistics",
+      "text_chars": 38266,
+      "pages": 30,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2023NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2023NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024Intl",
+      "subject": "statistics",
+      "text_chars": 60556,
+      "pages": 48,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2024Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2024Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NA",
+      "subject": "statistics",
+      "text_chars": 16621,
+      "pages": 21,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2024NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2024NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025Intl",
+      "subject": "statistics",
+      "text_chars": 55839,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2025Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2025Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NA",
+      "subject": "statistics",
+      "text_chars": 15191,
+      "pages": 11,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2025NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\statistics\\2025NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2008Intl",
+      "subject": "psychology",
+      "text_chars": 58357,
+      "pages": 30,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2008Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2008Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "psychology",
+      "text_chars": 88309,
+      "pages": 58,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "psychology",
+      "text_chars": 87048,
+      "pages": 65,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "psychology",
+      "text_chars": 100426,
+      "pages": 66,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "psychology",
+      "text_chars": 113185,
+      "pages": 67,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "psychology",
+      "text_chars": 115317,
+      "pages": 66,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "psychology",
+      "text_chars": 105193,
+      "pages": 69,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "psychology",
+      "text_chars": 97543,
+      "pages": 71,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "psychology",
+      "text_chars": 3202,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "psychology",
+      "text_chars": 188032,
+      "pages": 117,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet1",
+      "subject": "psychology",
+      "text_chars": 3805,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet2",
+      "subject": "psychology",
+      "text_chars": 2357,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2019NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet1",
+      "subject": "psychology",
+      "text_chars": 4066,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2021NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2021NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet2",
+      "subject": "psychology",
+      "text_chars": 4101,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2021NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2021NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet1",
+      "subject": "psychology",
+      "text_chars": 3807,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2022NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2022NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet2",
+      "subject": "psychology",
+      "text_chars": 4228,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2022NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2022NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet1",
+      "subject": "psychology",
+      "text_chars": 4284,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2023NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2023NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet2",
+      "subject": "psychology",
+      "text_chars": 4541,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2023NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2023NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 33
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024NASet1",
+      "pages": 4
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024NASet2",
+      "pages": 4
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2025Intl",
+      "pages": 16
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet1",
+      "subject": "psychology",
+      "text_chars": 21217,
+      "pages": 12,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2025NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2025NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet2",
+      "subject": "psychology",
+      "text_chars": 19535,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2025NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\psychology\\2025NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2004Intl",
+      "pages": 11
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2008Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 43600,
+      "pages": 34,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2008Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2008Intl_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2009Intl",
+      "pages": 13
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 86630,
+      "pages": 58,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 63310,
+      "pages": 54,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 122666,
+      "pages": 53,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 130898,
+      "pages": 55,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 141543,
+      "pages": 62,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 95618,
+      "pages": 67,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 143866,
+      "pages": 68,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "physics-c-mechanics",
+      "text_chars": 23616,
+      "pages": 9,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "physics-c-mechanics",
+      "text_chars": 195956,
+      "pages": 94,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet1",
+      "subject": "physics-c-mechanics",
+      "text_chars": 25127,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet2",
+      "subject": "physics-c-mechanics",
+      "text_chars": 23024,
+      "pages": 9,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2019NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet1",
+      "subject": "physics-c-mechanics",
+      "text_chars": 26165,
+      "pages": 13,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2021NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2021NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet2",
+      "subject": "physics-c-mechanics",
+      "text_chars": 27357,
+      "pages": 15,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2021NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2021NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet1",
+      "subject": "physics-c-mechanics",
+      "text_chars": 23286,
+      "pages": 17,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2022NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2022NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet2",
+      "subject": "physics-c-mechanics",
+      "text_chars": 23382,
+      "pages": 18,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2022NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2022NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet1",
+      "subject": "physics-c-mechanics",
+      "text_chars": 25317,
+      "pages": 17,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2023NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2023NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet2",
+      "subject": "physics-c-mechanics",
+      "text_chars": 23631,
+      "pages": 16,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2023NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2023NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 42
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet1",
+      "subject": "physics-c-mechanics",
+      "text_chars": 6733,
+      "pages": 16,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2024NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2024NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet2",
+      "subject": "physics-c-mechanics",
+      "text_chars": 6733,
+      "pages": 16,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2024NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2024NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2025Intl",
+      "pages": 40
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NA",
+      "subject": "physics-c-mechanics",
+      "text_chars": 10544,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2025NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-mechanics\\2025NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "physics-c-em",
+      "text_chars": 83607,
+      "pages": 62,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "physics-c-em",
+      "text_chars": 69813,
+      "pages": 51,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "physics-c-em",
+      "text_chars": 117940,
+      "pages": 57,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "physics-c-em",
+      "text_chars": 132384,
+      "pages": 58,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "physics-c-em",
+      "text_chars": 137780,
+      "pages": 64,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "physics-c-em",
+      "text_chars": 92133,
+      "pages": 63,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "physics-c-em",
+      "text_chars": 138455,
+      "pages": 73,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "physics-c-em",
+      "text_chars": 26732,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "physics-c-em",
+      "text_chars": 192824,
+      "pages": 99,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet1",
+      "subject": "physics-c-em",
+      "text_chars": 31382,
+      "pages": 12,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet2",
+      "subject": "physics-c-em",
+      "text_chars": 22492,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2019NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NA",
+      "subject": "physics-c-em",
+      "text_chars": 30666,
+      "pages": 13,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2021NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2021NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet1",
+      "subject": "physics-c-em",
+      "text_chars": 22633,
+      "pages": 14,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2022NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2022NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet2",
+      "subject": "physics-c-em",
+      "text_chars": 22846,
+      "pages": 15,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2022NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2022NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet1",
+      "subject": "physics-c-em",
+      "text_chars": 24382,
+      "pages": 16,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2023NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2023NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet2",
+      "subject": "physics-c-em",
+      "text_chars": 24441,
+      "pages": 16,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2023NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2023NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 42
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024NASet1",
+      "pages": 18
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024NASet2",
+      "pages": 18
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025Intl",
+      "subject": "physics-c-em",
+      "text_chars": 36326,
+      "pages": 31,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2025Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2025Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NA",
+      "subject": "physics-c-em",
+      "text_chars": 10544,
+      "pages": 10,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2025NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\physics-c-em\\2025NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2008Intl",
+      "subject": "calculus-bc",
+      "text_chars": 43588,
+      "pages": 45,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2008Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2008Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "calculus-bc",
+      "text_chars": 92635,
+      "pages": 85,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "calculus-bc",
+      "text_chars": 82348,
+      "pages": 82,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "calculus-bc",
+      "text_chars": 120980,
+      "pages": 80,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "calculus-bc",
+      "text_chars": 126230,
+      "pages": 82,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "calculus-bc",
+      "text_chars": 123878,
+      "pages": 84,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016SQ",
+      "subject": "calculus-bc",
+      "text_chars": 147538,
+      "pages": 122,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2016SQ_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2016SQ_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "calculus-bc",
+      "text_chars": 89868,
+      "pages": 86,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "calculus-bc",
+      "text_chars": 107655,
+      "pages": 87,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "calculus-bc",
+      "text_chars": 11817,
+      "pages": 7,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "calculus-bc",
+      "text_chars": 131464,
+      "pages": 119,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NA",
+      "subject": "calculus-bc",
+      "text_chars": 9917,
+      "pages": 7,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2019NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2019NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NA",
+      "subject": "calculus-bc",
+      "text_chars": 12219,
+      "pages": 11,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2021NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2021NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NA",
+      "subject": "calculus-bc",
+      "text_chars": 8300,
+      "pages": 11,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2022NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2022NA_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2023Intl",
+      "pages": 53
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NA",
+      "subject": "calculus-bc",
+      "text_chars": 8588,
+      "pages": 11,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2023NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2023NA_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 41
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NA",
+      "subject": "calculus-bc",
+      "text_chars": 9023,
+      "pages": 11,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2024NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2024NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025Intl",
+      "subject": "calculus-bc",
+      "text_chars": 33534,
+      "pages": 22,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2025Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2025Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NA",
+      "subject": "calculus-bc",
+      "text_chars": 11693,
+      "pages": 9,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2025NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\calculus-bc\\2025NA_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2005Intl",
+      "pages": 14
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2008Intl",
+      "subject": "macroeconomics",
+      "text_chars": 38031,
+      "pages": 24,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2008Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2008Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "macroeconomics",
+      "text_chars": 78731,
+      "pages": 56,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "macroeconomics",
+      "text_chars": 62543,
+      "pages": 54,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "macroeconomics",
+      "text_chars": 86625,
+      "pages": 54,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "macroeconomics",
+      "text_chars": 88464,
+      "pages": 56,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "macroeconomics",
+      "text_chars": 93523,
+      "pages": 58,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "macroeconomics",
+      "text_chars": 86907,
+      "pages": 60,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "macroeconomics",
+      "text_chars": 74565,
+      "pages": 60,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "macroeconomics",
+      "text_chars": 4611,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "macroeconomics",
+      "text_chars": 172838,
+      "pages": 104,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 4823,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 5101,
+      "pages": 3,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2019NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 6297,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2021NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2021NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 6380,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2021NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2021NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 6192,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2022NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2022NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 6507,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2022NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2022NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 6505,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2023NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2023NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 6462,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2023NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2023NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 22
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 6188,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2024NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2024NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 6624,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2024NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2024NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2025Intl",
+      "pages": 15
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet1",
+      "subject": "macroeconomics",
+      "text_chars": 6438,
+      "pages": 5,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2025NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2025NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet2",
+      "subject": "macroeconomics",
+      "text_chars": 6454,
+      "pages": 5,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2025NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\macroeconomics\\2025NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2010Intl",
+      "pages": 13
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2012Intl",
+      "subject": "microeconomics",
+      "text_chars": 95178,
+      "pages": 60,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2012Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2012Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2013Intl",
+      "subject": "microeconomics",
+      "text_chars": 77945,
+      "pages": 60,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2013Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2013Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2014Intl",
+      "subject": "microeconomics",
+      "text_chars": 99575,
+      "pages": 56,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2014Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2014Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2015Intl",
+      "subject": "microeconomics",
+      "text_chars": 95285,
+      "pages": 59,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2015Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2015Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2016Intl",
+      "subject": "microeconomics",
+      "text_chars": 102852,
+      "pages": 62,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2016Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2016Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2017Intl",
+      "subject": "microeconomics",
+      "text_chars": 85409,
+      "pages": 63,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2017Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2017Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018Intl",
+      "subject": "microeconomics",
+      "text_chars": 84585,
+      "pages": 62,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2018Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2018Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2018NA",
+      "subject": "microeconomics",
+      "text_chars": 6401,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2018NA_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2018NA_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019Intl",
+      "subject": "microeconomics",
+      "text_chars": 196733,
+      "pages": 107,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet1",
+      "subject": "microeconomics",
+      "text_chars": 6201,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2019NASet2",
+      "subject": "microeconomics",
+      "text_chars": 9056,
+      "pages": 4,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2019NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet1",
+      "subject": "microeconomics",
+      "text_chars": 7264,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2021NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2021NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2021NASet2",
+      "subject": "microeconomics",
+      "text_chars": 7203,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2021NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2021NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2022Intl",
+      "pages": 44
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet1",
+      "subject": "microeconomics",
+      "text_chars": 6797,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2022NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2022NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2022NASet2",
+      "subject": "microeconomics",
+      "text_chars": 6737,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2022NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2022NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2023NASet2",
+      "subject": "microeconomics",
+      "text_chars": 6338,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2023NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2023NASet2_text.txt"
+    },
+    {
+      "status": "needs_ocr",
+      "file": "2024Intl",
+      "pages": 24
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet1",
+      "subject": "microeconomics",
+      "text_chars": 6767,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2024NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2024NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2024NASet2",
+      "subject": "microeconomics",
+      "text_chars": 6523,
+      "pages": 6,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2024NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2024NASet2_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025Intl",
+      "subject": "microeconomics",
+      "text_chars": 54680,
+      "pages": 49,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025Intl_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025Intl_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet1",
+      "subject": "microeconomics",
+      "text_chars": 6355,
+      "pages": 5,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025NASet1_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025NASet1_text.txt"
+    },
+    {
+      "status": "ready_for_ai",
+      "file": "2025NASet2",
+      "subject": "microeconomics",
+      "text_chars": 6457,
+      "pages": 5,
+      "prompt_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025NASet2_parser_prompt.txt",
+      "text_file": "C:\\Users\\25472\\projects\\methods\\mokaoai.com\\database\\02_staging\\reviews\\microeconomics\\2025NASet2_text.txt"
+    }
+  ]
+}

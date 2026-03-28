@@ -1,0 +1,312 @@
+2022 
+Free-Response Questions 
+© 2022 College Board. College Board, Advanced Placement, AP, AP Central, and the acorn logo are registered 
+trademarks of College Board. Visit College Board on the web: collegeboard.org. 
+AP Central is the official online home for the AP Program: apcentral.collegeboard.org. 
+AP
+® Calculus BC
+
+
+--- PAGE BREAK ---
+
+CALCULUS BC 
+SECTION II, Part A 
+Time—30 minutes 
+2 Questions 
+A GRAPHING CALCULATOR IS REQUIRED FOR THESE QUESTIONS. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+2
+
+
+--- PAGE BREAK ---
+
+ 
+ 
+ 
+__________________________________________________________ 
+1. From 5 A.M. to 10 A.M., the rate at which vehicles arrive at a certain toll plaza is given by
+A t( ) = 450 sin(0.62t) , where t is the number of hours after 5 A.M. and A t( ) is measured in vehicles per hour.
+Traffic is flowing smoothly at 5 A.M. with no vehicles waiting in line.
+(a) Write, but do not evaluate, an integral expression that gives the total number of vehicles that arrive at the
+toll plaza from 6 A.M. (t = 1) to 10 A.M. (t = 5).
+(b) Find the average value of the rate, in vehicles per hour, at which vehicles arrive at the toll plaza from
+6 A.M. (t = 1) to 10 A.M. (t = 5).
+(c) Is the rate at which vehicles arrive at the toll plaza at 6 A.M. (t = 1) increasing or decreasing? Give a reason
+for your answer.
+(d) A line forms whenever A t( ) ≥400. The number of vehicles in line at time t, for a £
+£
+t 
+4, is given by
+( ) = 
+(  ( ) −
+N t
+ A x
+400) dx
+∫a
+t 
+, where a is the time when a line first begins to form. To the nearest whole
+number, find the greatest number of vehicles in line at the toll plaza in the time interval a £ t 
+4
+£
+. Justify 
+your answer. 
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+3
+
+
+--- PAGE BREAK ---
+
+__________________________________________________________ 
+2. A particle moving along a curve in the  x y -plane is at position ( ( )  ( )
+x t  , y t ) at time t > 0 . The particle moves in
+such a way that dx 
+2 
+dy
+2
+ 
+= 
+1 + t and 
+= ln(2 + t )
+dt
+dt
+. At time t = 4, the particle is at the point (1, 5).
+(a) Find the slope of the line tangent to the path of the particle at time t = 4.
+(b) Find the speed of the particle at time t = 4, and find the acceleration vector of the particle at time t = 4.
+(c) Find the y-coordinate of the particle’s position at time t = 6.
+(d) Find the total distance the particle travels along the curve from time t = 4 to time t = 6.
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+4
+
+
+--- PAGE BREAK ---
+
+END OF PART A  
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+5
+
+
+--- PAGE BREAK ---
+
+CALCULUS  BC 
+SECTION II, Part B 
+ 
+ 
+ 
+Time—1 hour 
+4 Questions 
+NO CALCULATOR IS ALLOWED FOR THESE QUESTIONS. 
+ 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+6
+
+
+--- PAGE BREAK ---
+
+__________________________________________________________ 
+3. Let f be a differentiable function with f 4 =
+( )  3. On the interval 0 £ x 
+7
+£
+, the graph of 
+ 
+f ¢, the derivative
+of f , consists of a semicircle and two line segments, as shown in the figure above.
+(a) Find f ( )
+0 and f (5) .
+(b) Find the x-coordinates of all points of inflection of the graph of f for 0 
+x <
+<
+7. Justify your answer
+ 
+.
+(c) Let g be the function defined by g( )
+x = f ( )
+x − x. On what intervals, if any, is g decreasing for
+0 £
+£
+x 
+7 ? Show the analysis that leads to your answer.
+(d) For the function g defined in part (c), find the absolute minimum value on the interval 0 
+x 
+£
+£ 7. Justify
+ 
+your answer.
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+7
+
+
+--- PAGE BREAK ---
+
+__________________________________________________________ 
+t
+(days) 
+0
+3 
+7
+10
+12
+r t
+¢( )
+(centimeters per day) 
+−6.1
+−5.0
+−4.4
+−3.8
+−3.5
+4. An ice sculpture melts in such a way that it can be modeled as a cone that maintains a conical shape as it
+decreases in size. The radius of the base of the cone is given by a twice-differentiable function r, where r t( ) is
+measured in centimeters and t is measured in days. The table above gives selected values of r¢(t), the rate of
+change of the radius, over the time interval 
+t 
+0 £
+£ 12.
+(a) Approximate r ≤(8.5 ) using the average rate of change of ¢r over the interval 7 £
+£
+t
+10
+ 
+. Show the
+computations that lead to your answer, and indicate units of measure.
+(b) Is there a time t, 0 £ t 
+3
+£ , for which 
+ 
+r t
+¢( ) = −6 ? Justify your answer.
+(c) Use a right Riemann sum with the four subintervals indicated in the table to approximate the value of
+∫0
+12 r t
+¢( )  dt. 
+(d) The height of the cone decreases at a rate of 2 centimeters per day. At time t = 3 days, the radius is
+100 centimeters and the height is 50 centimeters. Find the rate of change of the volume of the cone with 
+respect to time, in cubic centimeters per day, at time t = 3 days. (The volume V of a cone with radius r 
+and height
+2
+ h is V = 1 pr h
+3
+.)
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+8
+
+
+--- PAGE BREAK ---
+
+__________________________________________________________ 
+5. Figures 1 and 2, shown above, illustrate regions in the first quadrant associated with the graphs of
+1 
+y = x and 
+1
+y =
+2 
+x
+, respectively. In Figure 1, let R be the region bounded by the graph of 
+1 
+y = x , the x-axis, and the
+vertical lines x = 1 and x = 5. In Figure 2, let W be the unbounded region between the graph of 
+1 
+y =
+2
+x
+and
+the x-axis that lies to the right of the vertical line x = 3. 
+(a) Find the area of region R.
+(b) Region R is the base of a solid. For the solid, at each x the cross section perpendicular to the x-axis is a
+rectangle with area given by
+x
+xe / 5. Find the volume of the solid.
+(c) Find the volume of the solid generated when the unbounded region W is revolved about the x-axis.
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+9
+
+
+--- PAGE BREAK ---
+
+__________________________________________________________ 
+6. The function f is defined by the power series
+3
+5 
+7 
+n 2n+1 
+x
+x
+x
+(−1) x 
+f ( )
+x = x − 
++
+−
++  +
++ 
+3
+5
+7 
+2n + 1 
+for all
+ 
+real numbers x for which the series converges. 
+(a) Using the ratio test, find the interval of convergence of the power series for f . Justify your answer.
+(b) Show that
+⎟⎟
+⎜
+⎟−
+⎞
+⎠ 
+⎛⎜⎜⎝ 
+1 
+1 
+1 
+f 2 
+2 < 10 . Justify your answer.
+(c) Write the first four nonzero terms and the general term for an infinite series that represents f ¢(x) .
+(d) Use the result from part (c) to find the value of 
+⎜
+⎟⎟
+⎛⎜⎜⎝
+1 ⎞
+f ¢ 
+⎠⎟
+6
+ . 
+Write your responses to this question only on the designated pages in the separate Free Response 
+booklet. Write your solution to each part in the space provided for that part. 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+10
+
+
+--- PAGE BREAK ---
+
+STOP 
+END OF EXAM 
+AP® Calculus BC 2022 Free-Response Questions
+© 2022 College Board.  
+Visit College Board on the web: collegeboard.org. 
+11
