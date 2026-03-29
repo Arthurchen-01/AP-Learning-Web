@@ -6,7 +6,7 @@ import {
   formatClock,
   loadState,
   persistState
-} from "/ap/exam/mock-config.js";
+} from "../../exam/mock-config.js";
 
 const root = document.getElementById("directions-root");
 const params = new URLSearchParams(window.location.search);
@@ -28,7 +28,7 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(`/mock-data/ap-exam-${examId}.json`);
+  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
   if (!response.ok) {
     throw new Error("Missing local exam data");
   }
@@ -63,7 +63,7 @@ function bindHandlers() {
       state.sectionStates[state.sectionIndex].status = "active";
       state.startedAt = state.startedAt || new Date().toISOString();
       persistState(examId, state);
-      window.location.href = `/ap/exam/?examId=${encodeURIComponent(examId)}`;
+      window.location.href = window.sitePath(`/ap/exam/?examId=${encodeURIComponent(examId)}`);
     }
   });
 }

@@ -3,7 +3,7 @@ import {
   ensureStateShape,
   loadState,
   persistState
-} from "/ap/exam/mock-config.js";
+} from "../../exam/mock-config.js";
 
 const root = document.getElementById("entrance-root");
 const params = new URLSearchParams(window.location.search);
@@ -19,7 +19,7 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(`/mock-data/ap-exam-${examId}.json`);
+  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
   if (!response.ok) {
     throw new Error("Missing local exam data");
   }
@@ -57,7 +57,7 @@ async function init() {
       examId,
       sectionIndex: String(state.sectionIndex || 0)
     });
-    window.location.href = `/ap/start/directions/?${query.toString()}`;
+    window.location.href = window.sitePath(`/ap/start/directions/?${query.toString()}`);
   });
 }
 

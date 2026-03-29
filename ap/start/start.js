@@ -5,7 +5,7 @@ import {
   loadState,
   persistState,
   storageKey
-} from "/ap/exam/mock-config.js";
+} from "../exam/mock-config.js";
 
 const root = document.getElementById("start-root");
 const params = new URLSearchParams(window.location.search);
@@ -27,8 +27,8 @@ async function init() {
   }
 
   const [catalogResponse, examResponse] = await Promise.all([
-    fetch("/mock-data/exam-catalog.json"),
-    fetch(`/mock-data/ap-exam-${examId}.json`)
+    fetch(window.sitePath("/mock-data/exam-catalog.json")),
+    fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`))
   ]);
 
   if (!catalogResponse.ok || !examResponse.ok) {
@@ -82,7 +82,7 @@ function goPreparing(mode) {
     timekeepingModeOn: String(Boolean(config.timekeepingModeOn)),
     talkModeOn: String(Boolean(config.talkModeOn))
   });
-  window.location.href = `/ap/start/preparing/?${query.toString()}`;
+  window.location.href = window.sitePath(`/ap/start/preparing/?${query.toString()}`);
 }
 
 function render() {
@@ -95,7 +95,7 @@ function render() {
           <h1>Choose Full-Length Practice</h1>
           <p class="lede">${escapeHtml(cleanText(displayTitle))}</p>
         </div>
-        <a class="text-link" href="/mock/">Back</a>
+        <a class="text-link" href="${window.sitePath("/mock/")}">Back</a>
       </div>
 
       <div class="option-stack">

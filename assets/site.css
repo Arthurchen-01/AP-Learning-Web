@@ -19,7 +19,7 @@
     linear-gradient(180deg, rgba(255, 248, 241, 0.1), rgba(255, 248, 241, 0.08)),
     radial-gradient(circle at 20% 22%, rgba(255, 255, 255, 0.34), transparent 18%),
     radial-gradient(circle at 76% 24%, rgba(255, 214, 183, 0.7), transparent 20%),
-    url("/assets/images/home-hero.jpg");
+  url("./images/home-hero.jpg");
 }
 
 * {

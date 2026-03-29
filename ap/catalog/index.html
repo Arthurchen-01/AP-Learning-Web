@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Redirecting to AP Catalog</title>
-  <meta http-equiv="refresh" content="0; url=/ap/">
+  <meta http-equiv="refresh" content="0; url=../">
   <meta name="robots" content="noindex">
+  <script src="../../assets/site-base.js"></script>
 </head>
 <body>
   <script>
-    const next = new URL("/ap/", window.location.origin);
+    const next = new URL(window.sitePath("/ap/"), window.location.origin);
     if (window.location.search) {
       next.search = window.location.search;
     }

@@ -81,7 +81,7 @@ function hydrateAvatarEntry() {
 
 async function loadCatalog() {
   try {
-    const response = await fetch("/mock-data/exam-catalog.json");
+    const response = await fetch(window.sitePath("/mock-data/exam-catalog.json"));
     if (!response.ok) {
       return { items: [] };
     }
@@ -336,7 +336,7 @@ function renderDashboardUnit(root) {
       </div>
       <p class="overview-note">${escapeHtml(unit.masteryText)}</p>
       <div class="card-footer is-start">
-        <a class="card-link" href="/dashboard/subject/?subject=${encodeURIComponent(subject.id)}">返回学科 Dashboard</a>
+          <a class="card-link" href="${window.sitePath(`/dashboard/subject/?subject=${encodeURIComponent(subject.id)}`)}">返回学科 Dashboard</a>
       </div>
     </section>
     <section class="page-section-card">
@@ -437,7 +437,7 @@ function renderDashboardHomeCard(subject, index) {
   const stateMeta = getMasteryStateMeta(subject.masteryState);
   const layoutClass = subject.layout === "wide" && index === 0 ? "is-wide" : "";
   return `
-    <a class="dashboard-home-card ${layoutClass}" href="/dashboard/subject/?subject=${encodeURIComponent(subject.id)}">
+      <a class="dashboard-home-card ${layoutClass}" href="${window.sitePath(`/dashboard/subject/?subject=${encodeURIComponent(subject.id)}`)}">
       <div class="dashboard-home-top">
         <div>
           <span class="eyebrow">Exam</span>
@@ -478,7 +478,7 @@ function renderDashboardHomeCard(subject, index) {
 function renderUnitOverviewCard(subject, unit) {
   const meta = getMasteryStateMeta(unit.masteryState);
   return `
-    <a class="unit-overview-card" href="/dashboard/unit/?subject=${encodeURIComponent(subject.id)}&unit=${encodeURIComponent(unit.id)}">
+      <a class="unit-overview-card" href="${window.sitePath(`/dashboard/unit/?subject=${encodeURIComponent(subject.id)}&unit=${encodeURIComponent(unit.id)}`)}">
       <div class="section-card-head">
         <div>
           <h4>${escapeHtml(unit.title)}</h4>
@@ -549,7 +549,7 @@ function renderExamCard(item) {
         ${progress.hasProgress ? '<span class="chip">本地有进度</span>' : ""}
       </div>
       <div class="card-footer">
-        <a class="card-link" href="/ap/start/?examId=${encodeURIComponent(item.examId)}">开始</a>
+          <a class="card-link" href="${window.sitePath(`/ap/start/?examId=${encodeURIComponent(item.examId)}`)}">开始</a>
       </div>
     </article>
   `;

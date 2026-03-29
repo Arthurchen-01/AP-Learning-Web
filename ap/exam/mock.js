@@ -8,7 +8,7 @@ import {
   normalizeExamText,
   persistState,
   storageKey
-} from "/ap/exam/mock-config.js";
+} from "./mock-config.js";
 
 const app = document.getElementById("app");
 
@@ -234,7 +234,7 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(`/mock-data/ap-exam-${examId}.json`);
+const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
   if (!response.ok) {
     throw new Error(`Missing mock data for examId ${examId}`);
   }
@@ -313,7 +313,7 @@ function handleClick(event) {
   }
   if (action === "restart-exam") {
     localStorage.removeItem(storageKey(examId));
-    window.location.href = `/ap/start/?examId=${encodeURIComponent(examId)}`;
+  window.location.href = window.sitePath(`/ap/start/?examId=${encodeURIComponent(examId)}`);
     return;
   }
   if (action === "toggle-navigator") {
@@ -508,7 +508,7 @@ function continueAfterModule() {
     state.questionIndex = 0;
     state.sectionStates[state.sectionIndex].status = "locked";
     persistState(examId, state);
-    window.location.href = `/ap/start/directions/?examId=${encodeURIComponent(examId)}&sectionIndex=${state.sectionIndex}`;
+      window.location.href = window.sitePath(`/ap/start/directions/?examId=${encodeURIComponent(examId)}&sectionIndex=${state.sectionIndex}`);
     return;
   }
 

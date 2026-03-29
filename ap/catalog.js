@@ -17,7 +17,7 @@ init().catch((error) => {
 });
 
 async function init() {
-  const response = await fetch("/mock-data/exam-catalog.json");
+  const response = await fetch(window.sitePath("/mock-data/exam-catalog.json"));
   if (!response.ok) {
     throw new Error("Missing local exam catalog");
   }
@@ -132,7 +132,7 @@ function renderCard(item) {
         <span class="meta-chip">${escapeHtml(item.paperType)}</span>
       </div>
       <div class="card-actions">
-        <a class="card-button" href="/ap/start/?examId=${encodeURIComponent(item.examId)}">${actionLabel}</a>
+        <a class="card-button" href="${window.sitePath(`/ap/start/?examId=${encodeURIComponent(item.examId)}`)}">${actionLabel}</a>
       </div>
     </article>
   `;
