@@ -273,6 +273,101 @@ function renderDashboardHome(root) {
     <section class="dashboard-cards dashboard-cards-${subjects.length > 3 ? "dense" : "open"}">
       ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index)).join("")}
     </section>
+    <section class="help-section">
+      <div class="help-toggle">
+        <button class="help-button" type="button">
+          <span class="help-icon">©</span>
+          <span class="help-label">开启帮助</span>
+        </button>
+      </div>
+      <div class="help-content" style="display: none;">
+        <div class="help-intro">
+          <h3>学习记录中心说明</h3>
+          <p>本页面为您提供个性化的学习追踪与预测分析。每个科目都具有颜色代表的学习状态、分数概率预测以及知识点掌握度分析。</p>
+        </div>
+        <div class="help-features">
+          <div class="feature-item">
+            <strong>颜色状态说明</strong>
+            <p>黄小点：最佳状态、面向选择题第一站；当选择此科目开始预作时显示。</p>
+            <p>浅红色：很好状态、分数概率高、应对第二站选择题。</p>
+            <p>浅橙色：中等状态、分数概率中等、建议增强练习。</p>
+            <p>浅灰色：轻微状态、分数概率低、建议重点补强。</p>
+          </div>
+          <div class="feature-item">
+            <strong>五分数概率解释</strong>
+            <p>根据当前知识点掌握度、跨度预测测题成绩等数据模型计算出的分数概率。</p>
+            <p>例如：　29-34 / 45表示预测在 29-34 分间，完整分数为 45 分。</p>
+          </div>
+          <div class="feature-item">
+            <strong>掌握度分析</strong>
+            <p>知识点掌握度是根据中心知识点的学习进度计算出的。</p>
+            <p>黄小点：已掌握、可安心答题；当选择此科目开始预作时显示。</p>
+            <p>浅红色：基础强、有些弱点需要重点练习。</p>
+            <p>浅橙色：知识点不稳定、需要重点补强。</p>
+            <p>浅灰色：弱点主要需要重新学习。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+  root.innerHTML = `
+    <section class="overview-card">
+      <div class="overview-head">
+        <div>
+          <span class="eyebrow">Learning Center</span>
+          <h2>${escapeHtml(user.name || "AP Learner")}</h2>
+          <p>${escapeHtml(user.goal || "先用 mock 数据把个人学习记录中心跑起来。")}</p>
+        </div>
+        <span class="summary-badge">${subjects.length} 门报考科目</span>
+      </div>
+      <div class="card-meta">
+        ${(user.examSubjects || []).map((subjectId) => {
+          const subject = getDashboardSubjectById(subjectId);
+          return subject ? `<span class="chip">${escapeHtml(subject.label)}</span>` : "";
+        }).join("")}
+      </div>
+    </section>
+    <section class="dashboard-cards dashboard-cards-${subjects.length > 3 ? "dense" : "open"}">
+      ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index)).join("")}
+    </section>
+    <section class="help-section">
+      <div class="help-toggle">
+        <button class="help-button" type="button">
+          <span class="help-icon">©</span>
+          <span class="help-label">开启帮助</span>
+        </button>
+      </div>
+      <div class="help-content" style="display: none;">
+        <div class="help-intro">
+          <h3>学习记录中心说明</h3>
+          <p>本页面为您提供个性化的学习追踪与预测分析。每个科目都具有颜色代表的学习状态、分数概率预测以及知识点掌握度分析。</p>
+        </div>
+        <div class="help-features">
+          <div class="feature-item">
+            <strong>颜色状态说明</strong>
+            <p>黄小点：最佳状态、面向选择题第一站；当选择此科目开始预作时显示。</p>
+            <p>浅红色：很好状态、分数概率高、应对第二站选择题。</p>
+            <p>浅橙色：中等状态、分数概率中等、建议强化练习。</p>
+            <p>浅灰色：轻微状态、分数概率低、建议重点补强。</p>
+          </div>
+          <div class="feature-item">
+            <strong>五分数概率解释</strong>
+            <p>根据当前知识点掌握度、跨度预测试题成绩等数据模型计算出的分数概率。</p>
+            <p>例如：　29-34 / 45表示预测在 29-34 分间，完整分数为 45 分。</p>
+          </div>
+          <div class="feature-item">
+            <strong>掌握度分析</strong>
+            <p>知识点掌握度是根据中心知识点的学习进度计算出的。</p>
+            <p>黄小点：已掌握、可安心答题；当选择此科目开始预作时显示。</p>
+            <p>浅红色：基础强、有些弱点需要重点练习。</p>
+            <p>浅橙色：知识点不稳定、需要重点补强。</p>
+            <p>浅灰色：弱点主要需要重新学习。</p>
+          </div>
+        </div>
+      </div>
+    </section>
   `;
 }
 
@@ -436,6 +531,13 @@ function renderSubjectExamBrowser(root, items, mode) {
 function renderDashboardHomeCard(subject, index) {
   const stateMeta = getMasteryStateMeta(subject.masteryState);
   const layoutClass = subject.layout === "wide" && index === 0 ? "is-wide" : "";
+  
+  // 改进为更具体的分数预测显示
+  const mcqScore = subject.mcqPrediction.split("-").map(Number);
+  const frqScore = subject.frqPrediction.split("-").map(Number);
+  const totalScore = (mcqScore[0] + frqScore[0]) + "-" + (mcqScore[1] + frqScore[1]);
+  const totalMaxScore = 45; // 默认最高分
+  
   return `
       <a class="dashboard-home-card ${layoutClass}" href="${window.sitePath(`/dashboard/subject/?subject=${encodeURIComponent(subject.id)}`)}">
       <div class="dashboard-home-top">
@@ -448,20 +550,24 @@ function renderDashboardHomeCard(subject, index) {
       </div>
       <div class="dashboard-home-metrics">
         <div class="metric-block">
-          <span>5 分概率</span>
+          <span>5分概率</span>
           <strong>${escapeHtml(String(subject.fiveRate))}%</strong>
+          <span class="metric-trend">↑</span>
         </div>
         <div class="metric-block">
           <span>整体掌握</span>
           <strong>${escapeHtml(String(subject.overallMastery))}%</strong>
+          <span class="metric-trend">→</span>
         </div>
         <div class="metric-block">
-          <span>MCQ 预测</span>
-          <strong>${escapeHtml(subject.mcqPrediction)}</strong>
+          <span>总分预测</span>
+          <strong>${escapeHtml(totalScore)}</strong>
+          <span class="metric-trend">↓</span>
         </div>
         <div class="metric-block">
-          <span>FRQ 预测</span>
-          <strong>${escapeHtml(subject.frqPrediction)}</strong>
+          <span>最高分</span>
+          <strong>${escapeHtml(totalMaxScore)} 分</strong>
+          <span class="metric-trend">→</span>
         </div>
       </div>
       <div class="mastery-progress">
@@ -470,6 +576,7 @@ function renderDashboardHomeCard(subject, index) {
           <span class="progress-fill ${escapeHtml(stateMeta.fill)}"></span>
         </div>
         <strong>${escapeHtml(String(subject.knowledgeCoverage))}%</strong>
+        <span class="progress-label">已掌握</span>
       </div>
     </a>
   `;

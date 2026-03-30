@@ -4,34 +4,34 @@ export const BREAK_DURATION_SEC = 600;
 export const START_OPTIONS = [
   {
     key: "timekeepingModeOn",
-    label: "Timer mode",
-    description: "Show the official countdown and auto-submit when time runs out.",
-    enabledLabel: "On",
-    disabledLabel: "Off",
+    label: "计时模式",
+    description: "开启后会显示剩余时间，自动结束模块",
+    enabledLabel: "✓ 开启",
+    disabledLabel: "✗ 开关",
     defaultValue: true
   },
   {
     key: "talkModeOn",
-    label: "Talk mode",
-    description: "Keep helper prompts available while you are still outside the test interface.",
-    enabledLabel: "On",
-    disabledLabel: "Off",
+    label: "语音模式",
+    description: "后台将接收语音输入的答案",
+    enabledLabel: "✓ 开启",
+    disabledLabel: "✗ 关闭",
     defaultValue: false
   }
 ];
 
 export const ENTRANCE_PANELS = [
   {
-    title: "Timing",
-    body: "Your timer begins when you enter the first part. Hide or show the timer at any point during the exam."
+    title: "计时",
+    body: "计时器在你进入第一部分时开始。在考试过程中可以随时隐藏或显示计时器。"
   },
   {
-    title: "Scores",
-    body: "This imported paper currently runs in practice mode. Answers are saved, but official scoring has not been imported yet."
+    title: "成绩",
+    body: "这个导入的试卷目前在练习模式下运行。答案已保存，但官方评分尚未导入。"
   },
   {
-    title: "Assistive Technology",
-    body: "Highlights, notes, line reader, keyboard shortcuts, and other supports stay available throughout the test shell."
+    title: "辅助技术",
+    body: "高亮、笔记、行阅读器、快捷键和其他支持功能在整个测试界面中都可用。"
   }
 ];
 
