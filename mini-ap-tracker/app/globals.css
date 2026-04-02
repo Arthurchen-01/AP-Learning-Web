@@ -1,0 +1,51 @@
+:root {
+  --bg: #f5fbfa;
+  --fg: #0f2d3a;
+  --primary: #0ea5a4;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #eef8ff 0%, var(--bg) 100%);
+  color: var(--fg);
+  font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.card {
+  border: 1px solid #d6e7ea;
+  border-radius: 12px;
+  padding: 1.25rem;
+  background: #fff;
+}
+
+input, select {
+  width: 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #b4d6da;
+  border-radius: 8px;
+}
+
+button {
+  border: 0;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #2563eb;
+}
+
+.error { color: #b91c1c; }
