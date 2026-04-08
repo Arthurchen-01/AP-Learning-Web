@@ -312,9 +312,25 @@ function handleClick(event) {
     return;
   }
   if (action === "restart-exam") {
-    localStorage.removeItem(storageKey(examId));
-  window.location.href = window.sitePath(`/ap/start/?examId=${encodeURIComponent(examId)}`);
+    showConfirm(
+      'Are you absolutely sure?',
+      'You can start over from here. Your answer records for this exam will be lost after this operation. Are you sure?',
+      () => {
+        localStorage.removeItem(storageKey(examId));
+        window.location.href = window.sitePath(`/ap/start/?examId=${encodeURIComponent(examId)}`);
+      }
+    );
     return;
+  }
+
+  // ── 通用确认弹窗 ────────────────────────────────
+  function showConfirm(title, body, onConfirm) {
+    const shell = document.getElementById('confirm-shell');
+    document.getElementById('confirm-title').textContent = title;
+    document.getElementById('confirm-body').textContent = body;
+    shell.style.display = 'flex';
+    document.getElementById('confirm-cancel').onclick = () => { shell.style.display = 'none'; };
+    document.getElementById('confirm-ok').onclick = () => { shell.style.display = 'none'; onConfirm(); };
   }
   if (action === "toggle-navigator") {
     state.ui.navigatorOpen = !state.ui.navigatorOpen;

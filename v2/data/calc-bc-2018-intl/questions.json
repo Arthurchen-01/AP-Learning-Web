@@ -1,0 +1,1262 @@
+[
+  {
+    "question_id": "q1",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 1,
+    "question_type": "single_choice",
+    "question_html": "If $y=x \\sqrt{2 x+5}$, then $y^{\\prime}=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{3 x+5}{\\sqrt{2 x+5}}$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{1}{\\sqrt{2 x+5}}$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{1}{2 \\sqrt{2 x+5}}$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{5 x+10}{2 \\sqrt{2 x+5}}$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q2",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 2,
+    "question_type": "single_choice",
+    "question_html": "$\\int 2^{x} d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$2^{x}+C$"
+      },
+      {
+        "key": "B",
+        "html": "$(\\ln 2) 2^{x}+C$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{2^{x}}{\\ln 2}+C$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{2^{x+1}}{x+1}+C$"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q3",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 3,
+    "question_type": "single_choice",
+    "question_html": "$\\quad \\lim _{x \\rightarrow-7} \\frac{x+7}{|x+7|}$ is",
+    "options": [
+      {
+        "key": "A",
+        "html": "-1"
+      },
+      {
+        "key": "B",
+        "html": "0"
+      },
+      {
+        "key": "C",
+        "html": "1"
+      },
+      {
+        "key": "D",
+        "html": "nonexistent"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q4",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 4,
+    "question_type": "single_choice",
+    "question_html": "$\\int \\frac{\\left(x^{1 / 3}-4\\right)^{5}}{6 x^{2 / 3}} d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{\\left(x^{1 / 3}-4\\right)^{6}}{12}+C$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{\\left(x^{1 / 3}-4\\right)^{6}}{6}+C$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{5\\left(x^{1 / 3}-4\\right)^{4}}{2}+C$"
+      },
+      {
+        "key": "D",
+        "html": "$3\\left(x^{1 / 3}-4\\right)^{6}+C$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q5",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 5,
+    "question_type": "single_choice",
+    "question_html": "During an evacuation drill, people leave a building at a rate of $R(t)$ people per minute, where $t$ is the number of minutes since the start of the drill. Selected values of $R(t)$ are shown in the table above. Using a right Riemann sum with three subintervals and data from the table, what is the approximation of the number of people who leave the building during the first 15 minutes of the evacuation drill?",
+    "options": [
+      {
+        "key": "A",
+        "html": "230"
+      },
+      {
+        "key": "B",
+        "html": "1150"
+      },
+      {
+        "key": "C",
+        "html": "1375"
+      },
+      {
+        "key": "D",
+        "html": "2075"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q6",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 6,
+    "question_type": "single_choice",
+    "question_html": "What is the sum of the series $\\frac{\\pi}{e}-\\frac{\\pi}{e^{2}}+\\frac{\\pi}{e^{3}}-\\frac{\\pi}{e^{4}}+\\cdots+(-1)^{n+1} \\frac{\\pi}{e^{n}}+\\cdots$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{\\pi}{e+\\pi}$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{\\pi}{e+1}$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{\\pi}{e-1}$"
+      },
+      {
+        "key": "D",
+        "html": "The series diverges."
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q7",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 7,
+    "question_type": "single_choice",
+    "question_html": "If $f(x)=\\left(x^{2}+1\\right)^{3}$, what is $\\lim _{x \\rightarrow-1} \\frac{f(x)-f(-1)}{x+1}$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "-24"
+      },
+      {
+        "key": "B",
+        "html": "-8"
+      },
+      {
+        "key": "C",
+        "html": "0"
+      },
+      {
+        "key": "D",
+        "html": "12"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q8",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 8,
+    "question_type": "single_choice",
+    "question_html": "The graph of $f^{\\prime \\prime}$, the second derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-24.jpg?height=452&width=450&top_left_y=1138&top_left_x=315\">"
+      },
+      {
+        "key": "B",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-24.jpg?height=452&width=448&top_left_y=1138&top_left_x=995\">"
+      },
+      {
+        "key": "C",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-24.jpg?height=455&width=451&top_left_y=1671&top_left_x=314\">"
+      },
+      {
+        "key": "D",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-24.jpg?height=455&width=448&top_left_y=1671&top_left_x=995\">"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q9",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 9,
+    "question_type": "single_choice",
+    "question_html": "Let $y=f(x)$ be a differentiable function such that $\\frac{d y}{d x}=\\frac{x}{y}$ and $f(8)=2$. What is the approximation of $f(8.1)$ using the line tangent to the graph of $f$ at $x=8$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "0.4"
+      },
+      {
+        "key": "B",
+        "html": "2.025"
+      },
+      {
+        "key": "C",
+        "html": "2.4"
+      },
+      {
+        "key": "D",
+        "html": "6"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q10",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 10,
+    "question_type": "single_choice",
+    "question_html": "The series $1-x^{2}+\\frac{x^{4}}{2!}-\\frac{x^{6}}{3!}+\\frac{x^{8}}{4!}+\\cdots+(-1)^{n} \\frac{x^{2 n}}{n!}+\\cdots$ converges to which of the following?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\quad \\cos \\left(x^{2}\\right)+\\sin \\left(x^{2}\\right)$"
+      },
+      {
+        "key": "B",
+        "html": "$1-x \\sin x$"
+      },
+      {
+        "key": "C",
+        "html": "$\\cos x$"
+      },
+      {
+        "key": "D",
+        "html": "$e^{-x^{2}}$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q11",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 11,
+    "question_type": "single_choice",
+    "question_html": "$\\int x \\cos (2 x) d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{1}{2} x^{2} \\sin (2 x)+C$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{1}{2} x^{2} \\cos (2 x)+\\frac{1}{2} \\sin (2 x)+C$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{1}{2} x \\sin (2 x)-\\frac{1}{4} \\cos (2 x)+C$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{1}{2} x \\sin (2 x)+\\frac{1}{4} \\cos (2 x)+C$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q12",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 12,
+    "question_type": "single_choice",
+    "question_html": "Given that $3 x-\\tan y=4$, what is $\\frac{d y}{d x}$ in terms of $y$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{d y}{d x}=3 \\sin ^{2} y$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{d y}{d x}=3 \\cos ^{2} y$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{d y}{d x}=3 \\cos y \\cot y$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{d y}{d x}=\\frac{3}{1+9 y^{2}}$"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q13",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 13,
+    "question_type": "single_choice",
+    "question_html": "Which of the following graphs is the solution to the logistic differential equation $\\frac{d y}{d t}=\\frac{y}{5}\\left(1-\\frac{y}{500}\\right)$ with the initial condition $y(0)=100$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-27.jpg?height=368&width=517&top_left_y=592&top_left_x=319\">"
+      },
+      {
+        "key": "B",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-27.jpg?height=370&width=518&top_left_y=590&top_left_x=1064\">"
+      },
+      {
+        "key": "C",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-27.jpg?height=368&width=515&top_left_y=1050&top_left_x=319\">"
+      },
+      {
+        "key": "D",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-27.jpg?height=373&width=522&top_left_y=1047&top_left_x=1062\">"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q14",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 14,
+    "question_type": "single_choice",
+    "question_html": "What is the absolute minimum value of $y=-\\cos x-\\sin x$ on the closed interval $\\left[0, \\frac{\\pi}{2}\\right]$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$-2 \\sqrt{2}$"
+      },
+      {
+        "key": "B",
+        "html": "-2"
+      },
+      {
+        "key": "C",
+        "html": "$-\\sqrt{2}$"
+      },
+      {
+        "key": "D",
+        "html": "-1"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q15",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 15,
+    "question_type": "single_choice",
+    "question_html": "The graph of $g^{\\prime}$, the first derivative of the function $g$, consists of a semicircle of radius 2 and two line segments, as shown in the figure above. If $g(0)=1$, what is $g(3)$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\pi+1$"
+      },
+      {
+        "key": "B",
+        "html": "$\\pi+2$"
+      },
+      {
+        "key": "C",
+        "html": "$2 \\pi+1$"
+      },
+      {
+        "key": "D",
+        "html": "$2 \\pi+2$"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q16",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 16,
+    "question_type": "single_choice",
+    "question_html": "$\\int \\frac{1+3 x}{(1-x)(3 x-5)} d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$2 \\ln |1-x|-3 \\ln |3 x-5|+C$"
+      },
+      {
+        "key": "B",
+        "html": "$2 \\ln |1-x|-27 \\ln |3 x-5|+C$"
+      },
+      {
+        "key": "C",
+        "html": "$-2 \\ln |1-x|-3 \\ln |3 x-5|+C$"
+      },
+      {
+        "key": "D",
+        "html": "$-2 \\ln |1-x|-9 \\ln |3 x-5|+C$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q17",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 17,
+    "question_type": "single_choice",
+    "question_html": "A spherical snowball is melting in such a way that it maintains its shape. The snowball is decreasing in volume at a constant rate of 8 cubic centimeters per hour. At what rate, in centimeters per hour, is the radius of the snowball decreasing at the instant when the radius is 10 centimeters? (The volume of a sphere of radius $r$ is $V=\\frac{4}{3} \\pi r^{3}$.)",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\frac{1}{50 \\pi}$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{3}{50 \\pi}$"
+      },
+      {
+        "key": "C",
+        "html": "$400 \\pi$"
+      },
+      {
+        "key": "D",
+        "html": "$3200 \\pi$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q18",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 18,
+    "question_type": "single_choice",
+    "question_html": "If $f(x)=\\int_{0}^{x^{3}} \\cos \\left(t^{2}\\right) d t$, then $f^{\\prime}(\\sqrt{\\pi})=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$3 \\pi \\sin \\left(\\pi^{3}\\right)$"
+      },
+      {
+        "key": "B",
+        "html": "$\\quad \\cos \\left(\\pi^{3}\\right)$"
+      },
+      {
+        "key": "C",
+        "html": "$3 \\pi \\cos \\pi$"
+      },
+      {
+        "key": "D",
+        "html": "$3 \\pi \\cos \\left(\\pi^{3}\\right)$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q19",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 19,
+    "question_type": "single_choice",
+    "question_html": "What is the slope of the line tangent to the polar curve $r=2 \\theta^{2}$ when $\\theta=\\pi$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$4 \\pi$"
+      },
+      {
+        "key": "B",
+        "html": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{2}{\\pi}$"
+      },
+      {
+        "key": "D",
+        "html": "$-2 \\pi^{2}$"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q20",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 20,
+    "question_type": "single_choice",
+    "question_html": "Let $g$ be a twice-differentiable, increasing function of $t$. If $g(0)=20$ and $g(10)=220$, which of the following must be true on the interval $0<t<10$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\quad g^{\\prime}(t)=0$ for some $t$ in the interval."
+      },
+      {
+        "key": "B",
+        "html": "$g^{\\prime}(t)=20$ for some $t$ in the interval."
+      },
+      {
+        "key": "C",
+        "html": "$g^{\\prime \\prime}(t)=0$ for some $t$ in the interval."
+      },
+      {
+        "key": "D",
+        "html": "$g^{\\prime \\prime}(t)>0$ for all $t$ in the interval."
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q21",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 21,
+    "question_type": "single_choice",
+    "question_html": "$\\int \\frac{6 x^{2}-4 x-25}{x-2} d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "$3 x^{2}+8 x-9 \\ln |x-2|+C$"
+      },
+      {
+        "key": "B",
+        "html": "$3 x^{2}+8 x+\\frac{9}{(x-2)^{2}}+C$"
+      },
+      {
+        "key": "C",
+        "html": "$\\left(2 x^{3}-2 x^{2}-25 x\\right) \\ln |x-2|+C$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{2 x^{3}-2 x^{2}-25 x}{\\frac{x^{2}}{2}-2 x}+C$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q22",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 22,
+    "question_type": "single_choice",
+    "question_html": "Which of the following statements about convergence of the series $\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ is true?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+      },
+      {
+        "key": "B",
+        "html": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
+      },
+      {
+        "key": "C",
+        "html": "$\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+      },
+      {
+        "key": "D",
+        "html": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q23",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 23,
+    "question_type": "single_choice",
+    "question_html": "The length of the curve $y=\\sin x$ from $x=0$ to $x=\\frac{3 \\pi}{4}$ is given by",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\int_{0}^{3 \\pi / 4} \\sin x d x$"
+      },
+      {
+        "key": "B",
+        "html": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\sin ^{2} x} d x$"
+      },
+      {
+        "key": "C",
+        "html": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1-\\cos ^{2} x} d x$"
+      },
+      {
+        "key": "D",
+        "html": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\cos ^{2} x} d x$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q24",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 24,
+    "question_type": "single_choice",
+    "question_html": "Let $f$ be a function such that $f^{\\prime}(x)=\\sin \\left(x^{2}\\right)$ and $f(0)=0$. What are the first three nonzero terms of the Maclaurin series for $f$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$x-\\frac{x^{5}}{10}+\\frac{x^{9}}{216}$"
+      },
+      {
+        "key": "B",
+        "html": "$2 x-x^{5}+\\frac{x^{9}}{12}$"
+      },
+      {
+        "key": "C",
+        "html": "$\\frac{x^{3}}{3}-\\frac{x^{7}}{21}+\\frac{x^{11}}{55}$"
+      },
+      {
+        "key": "D",
+        "html": "$\\frac{x^{3}}{3}-\\frac{x^{7}}{42}+\\frac{x^{11}}{1320}$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q25",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 25,
+    "question_type": "single_choice",
+    "question_html": "The polar curves $r=1-\\cos \\theta$ and $r=1+\\cos \\theta$ are shown in the figure above. Which of the following expressions gives the total area of the shaded regions?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\int_{0}^{\\pi}(1+\\cos \\theta)^{2} d \\theta$"
+      },
+      {
+        "key": "B",
+        "html": "$\\int_{\\pi / 2}^{\\pi}(1+\\cos \\theta)^{2} d \\theta$"
+      },
+      {
+        "key": "C",
+        "html": "$2 \\int_{0}^{\\pi / 2}(1-\\cos \\theta)^{2} d \\theta$"
+      },
+      {
+        "key": "D",
+        "html": "$\\int_{0}^{\\pi / 2}\\left((1-\\cos \\theta)^{2}+(1+\\cos \\theta)^{2}\\right) d \\theta$"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q26",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 26,
+    "question_type": "single_choice",
+    "question_html": "The table above gives values of the continuous function $f$ at selected values of $x$. If $f$ has exactly two critical points on the open interval $(10,14)$, which of the following must be true?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$f(x)>0$ for all $x$ in the open interval $(10,14)$."
+      },
+      {
+        "key": "B",
+        "html": "$f^{\\prime}(x)$ exists for all $x$ in the open interval $(10,14)$."
+      },
+      {
+        "key": "C",
+        "html": "$f^{\\prime}(x)<0$ for all $x$ in the open interval $(10,11)$."
+      },
+      {
+        "key": "D",
+        "html": "$f^{\\prime}(12) \\neq 0$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q27",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 27,
+    "question_type": "single_choice",
+    "question_html": "Let $g$ be a function such that $g(y)>0$ for all $y$. Which of the following could be a slope field for the differential equation $\\frac{d y}{d x}=\\left(x^{2}-1\\right) g(y) ?$",
+    "options": [
+      {
+        "key": "A",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-37.jpg?height=490&width=522&top_left_y=590&top_left_x=314\">"
+      },
+      {
+        "key": "B",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-37.jpg?height=497&width=522&top_left_y=583&top_left_x=1064\">"
+      },
+      {
+        "key": "C",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-37.jpg?height=498&width=526&top_left_y=1155&top_left_x=310\">"
+      },
+      {
+        "key": "D",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-37.jpg?height=498&width=528&top_left_y=1155&top_left_x=1062\">"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q28",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 28,
+    "question_type": "single_choice",
+    "question_html": "What are all values of $p$ for which $\\int_{1}^{\\infty} \\frac{1}{x^{3 p+1}} d x$ converges?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$p<0$"
+      },
+      {
+        "key": "B",
+        "html": "$p>-\\frac{1}{3}$"
+      },
+      {
+        "key": "C",
+        "html": "$p>0$"
+      },
+      {
+        "key": "D",
+        "html": "$p>1$"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q29",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 29,
+    "question_type": "single_choice",
+    "question_html": "The temperature of a solid at time $t \\geq 0$ is modeled by the nonconstant function $H$ and increases according to the differential equation $\\frac{d H}{d t}=2 H+1$, where $H(t)$ is measured in degrees Fahrenheit and $t$ is measured in hours. Which of the following must be true?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$H=H^{2}+t+C$"
+      },
+      {
+        "key": "B",
+        "html": "$\\ln |2 H+1|=\\frac{t}{2}+C$"
+      },
+      {
+        "key": "C",
+        "html": "$\\ln |2 H+1|=t+C$"
+      },
+      {
+        "key": "D",
+        "html": "$\\ln |2 H+1|=2 t+C$"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q30",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 30,
+    "question_type": "single_choice",
+    "question_html": "If the power series $\\sum_{n=0}^{\\infty} a_{n}(x-4)^{n}$ converges at $x=7$ and diverges at $x=9$, which of the following must be true?",
+    "options": [
+      {
+        "key": "A",
+        "html": "I only"
+      },
+      {
+        "key": "B",
+        "html": "II only"
+      },
+      {
+        "key": "C",
+        "html": "I and II only"
+      },
+      {
+        "key": "D",
+        "html": "II and III only"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q76",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 76,
+    "question_type": "single_choice",
+    "question_html": "The graph of the function $f$ is shown in the figure above. Which of the following statements must be false?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\lim _{x \\rightarrow 2^{-}} f(x)=3$"
+      },
+      {
+        "key": "B",
+        "html": "$\\lim _{x \\rightarrow 2^{+}} f(x)=\\infty$"
+      },
+      {
+        "key": "C",
+        "html": "$\\lim _{x \\rightarrow 2} f(x)=f(2)$"
+      },
+      {
+        "key": "D",
+        "html": "$\\lim _{x \\rightarrow \\infty} f(x)=0$"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q77",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 77,
+    "question_type": "single_choice",
+    "question_html": "The rate at which water leaks from a tank, in gallons per hour, is modeled by $R$, a differentiable function of the number of hours after the leak is discovered. Which of the following is the best interpretation of $R^{\\prime}(3)$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "The amount of water, in gallons, that has leaked out of the tank during the first three hours after the leak is discovered"
+      },
+      {
+        "key": "B",
+        "html": "The amount of change, in gallons per hour, in the rate at which water is leaking during the three hours after the leak is discovered"
+      },
+      {
+        "key": "C",
+        "html": "The rate at which water leaks from the tank, in gallons per hour, three hours after the leak is discovered"
+      },
+      {
+        "key": "D",
+        "html": "The rate of change of the rate at which water leaks from the tank, in gallons per hour per hour, three hours after the leak is discovered"
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q78",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 78,
+    "question_type": "single_choice",
+    "question_html": "On a certain day, the temperature, in degrees Fahrenheit, in a small town $t$ hours after midnight $(t=0)$ is modeled by the function $g(t)=65-8 \\sin \\left(\\frac{\\pi t}{12}\\right)$. What is the average temperature in the town between 3 A.M. $(t=3)$ and 6 A.M. $(t=6)$, in degrees Fahrenheit?",
+    "options": [
+      {
+        "key": "A",
+        "html": "57.609"
+      },
+      {
+        "key": "B",
+        "html": "57.797"
+      },
+      {
+        "key": "C",
+        "html": "58.172"
+      },
+      {
+        "key": "D",
+        "html": "59.907"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q79",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 79,
+    "question_type": "single_choice",
+    "question_html": "Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=f^{\\prime}(x)$ with initial condition $f(1)=5$. Selected values of $f^{\\prime}(x)$ are given in the table above. What is the approximation for $f(2)$ if Euler's method is used with a step size of 0.5 , starting at $x=1$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "5.35"
+      },
+      {
+        "key": "B",
+        "html": "5.45"
+      },
+      {
+        "key": "C",
+        "html": "5.50"
+      },
+      {
+        "key": "D",
+        "html": "5.90"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q80",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 80,
+    "question_type": "single_choice",
+    "question_html": "The first derivative of the function $f$ is defined by $f^{\\prime}(x)=\\left(x^{2}+1\\right) \\sin (3 x-1)$ for $-1.5<x<1.5$. On which of the following intervals is the graph of $f$ concave up?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$(-1.5,-1.341)$ and $(-0.240,0.964)$"
+      },
+      {
+        "key": "B",
+        "html": "$(-1.341,-0.240)$ and $(0.964,1.5)$"
+      },
+      {
+        "key": "C",
+        "html": "$(-0.714,0.333)$ and $(1.381,1.5)$"
+      },
+      {
+        "key": "D",
+        "html": "$(-1.5,-0.714)$ and $(0.333,1.381)$"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q81",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 81,
+    "question_type": "single_choice",
+    "question_html": "For $t \\geq 0$, the velocity of a particle moving along the $x$-axis is given by $v(t)=t^{3}-6 t^{2}+10 t-4$. At what time $t$ does the direction of motion of the particle change from right to left?",
+    "options": [
+      {
+        "key": "A",
+        "html": "0.586"
+      },
+      {
+        "key": "B",
+        "html": "1.184"
+      },
+      {
+        "key": "C",
+        "html": "2.000"
+      },
+      {
+        "key": "D",
+        "html": "2.816"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q82",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 82,
+    "question_type": "single_choice",
+    "question_html": "Let $f$ be a function such that $f(1)=-2$ and $f(5)=7$. Which of the following conditions ensures that $f(c)=0$ for some value $c$ in the open interval $(1,5)$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\int_{1}^{5} f(x) d x$ exists."
+      },
+      {
+        "key": "B",
+        "html": "$f$ is increasing on the closed interval $[1,5]$."
+      },
+      {
+        "key": "C",
+        "html": "$f$ is continuous on the closed interval $[1,5]$."
+      },
+      {
+        "key": "D",
+        "html": "$f$ is defined for all values of $x$ in the closed interval $[1,5]$."
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q83",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 83,
+    "question_type": "single_choice",
+    "question_html": "For time $t>0$, the position of an object moving in the $x y$-plane is given by the parametric equations $x(t)=t \\cos \\left(\\frac{t}{2}\\right)$ and $y(t)=\\sqrt{t^{2}+2 t}$. What is the speed of the object at time $t=1$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "1.155"
+      },
+      {
+        "key": "B",
+        "html": "1.319"
+      },
+      {
+        "key": "C",
+        "html": "1.339"
+      },
+      {
+        "key": "D",
+        "html": "1.810"
+      }
+    ],
+    "correct_answer": "B",
+    "unit": ""
+  },
+  {
+    "question_id": "q84",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 84,
+    "question_type": "single_choice",
+    "question_html": "The graph of the function $g$ is shown above. If $f$ is the function given by $f(x)=g(g(x))$, what is the value of $f^{\\prime}(0)$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "-2"
+      },
+      {
+        "key": "B",
+        "html": "-1"
+      },
+      {
+        "key": "C",
+        "html": "2"
+      },
+      {
+        "key": "D",
+        "html": "3"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q85",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 85,
+    "question_type": "single_choice",
+    "question_html": "Let $f$ be a function such that $f(-x)=-f(x)$ for all $x$. If $\\int_{0}^{2} f(x) d x=5$, then $\\int_{-2}^{2}(f(x)+6) d x=$",
+    "options": [
+      {
+        "key": "A",
+        "html": "6"
+      },
+      {
+        "key": "B",
+        "html": "16"
+      },
+      {
+        "key": "C",
+        "html": "24"
+      },
+      {
+        "key": "D",
+        "html": "34"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q86",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 86,
+    "question_type": "single_choice",
+    "question_html": "Let $R$ be the region in the first quadrant bounded by the graphs of $y=4 \\cos \\left(\\frac{\\pi x}{4}\\right)$ and $y=(x-2)^{2}$, as shown in the figure above. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is an isosceles right triangle with a leg in region $R$. What is the volume of the solid?",
+    "options": [
+      {
+        "key": "A",
+        "html": "1.775"
+      },
+      {
+        "key": "B",
+        "html": "3.549"
+      },
+      {
+        "key": "C",
+        "html": "4.800"
+      },
+      {
+        "key": "D",
+        "html": "5.575"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q87",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 87,
+    "question_type": "single_choice",
+    "question_html": "Suppose $\\lim _{n \\rightarrow \\infty} a_{n}=\\infty$ and $a_{n+1} \\geq a_{n}>0$ for all $n \\geq 1$. Which of the following statements must be true?",
+    "options": [
+      {
+        "key": "A",
+        "html": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ diverges."
+      },
+      {
+        "key": "B",
+        "html": "$\\sum_{n=1}^{\\infty}(-1)^{n} a_{n}$ converges."
+      },
+      {
+        "key": "C",
+        "html": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ converges."
+      },
+      {
+        "key": "D",
+        "html": "$\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{a_{n}}$ converges."
+      }
+    ],
+    "correct_answer": "D",
+    "unit": ""
+  },
+  {
+    "question_id": "q88",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 88,
+    "question_type": "single_choice",
+    "question_html": "At time $t \\geq 0$, a particle moving in the $x y$-plane has velocity vector given by $v(t)=\\left\\langle 3,2^{-t^{2}}\\right\\rangle$. If the particle is at the point $\\left(1, \\frac{1}{2}\\right)$ at time $t=0$, how far is the particle from the origin at time $t=1$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "2.304"
+      },
+      {
+        "key": "B",
+        "html": "3.107"
+      },
+      {
+        "key": "C",
+        "html": "4.209"
+      },
+      {
+        "key": "D",
+        "html": "5.310"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  },
+  {
+    "question_id": "q89",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 89,
+    "question_type": "single_choice",
+    "question_html": "Let $f$ be a function with $f(0)=1, f^{\\prime}(0)=2$, and $f^{\\prime \\prime}(0)=-2$. Which of the following could be the graph of the second-degree Taylor polynomial for $f$ about $x=0$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-50.jpg?height=478&width=474&top_left_y=491&top_left_x=306\">"
+      },
+      {
+        "key": "B",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-50.jpg?height=476&width=471&top_left_y=493&top_left_x=995\">"
+      },
+      {
+        "key": "C",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-50.jpg?height=473&width=470&top_left_y=1037&top_left_x=310\">"
+      },
+      {
+        "key": "D",
+        "html": "<img src=\"https://cdn.mathpix.com/cropped/1e64357b-edbd-4600-a2cb-76c7df0fca55-50.jpg?height=490&width=473&top_left_y=1033&top_left_x=995\">"
+      }
+    ],
+    "correct_answer": "A",
+    "unit": ""
+  },
+  {
+    "question_id": "q90",
+    "exam_id": "calc-bc-2018-intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 90,
+    "question_type": "single_choice",
+    "question_html": "The series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{\\sqrt{n}}$ converges to $S$. Based on the alternating series error bound, what is the least number of terms in the series that must be summed to guarantee a partial sum that is within 0.03 of $S$ ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "34"
+      },
+      {
+        "key": "B",
+        "html": "333"
+      },
+      {
+        "key": "C",
+        "html": "1111"
+      },
+      {
+        "key": "D",
+        "html": "9999"
+      }
+    ],
+    "correct_answer": "C",
+    "unit": ""
+  }
+]

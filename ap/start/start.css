@@ -368,6 +368,87 @@ h2 {
   color: var(--accent-strong);
 }
 
+/* ── 极简考前引导页 ── */
+.entrance-simple {
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 36px;
+  display: grid;
+  gap: 28px;
+  align-content: start;
+}
+
+.entrance-title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.entrance-rules {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.entrance-meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 20px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(217, 168, 121, 0.42);
+}
+
+.meta-item {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+.meta-value {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--accent-strong);
+}
+
+.meta-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.meta-divider {
+  width: 1px;
+  height: 36px;
+  background: rgba(217, 168, 121, 0.4);
+  flex-shrink: 0;
+}
+
+.entrance-start {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.entrance-start .primary-button {
+  min-height: 52px;
+  padding: 0 48px;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 760px) {
+  .entrance-simple { padding: 28px 22px; }
+  .entrance-meta { flex-wrap: wrap; }
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);

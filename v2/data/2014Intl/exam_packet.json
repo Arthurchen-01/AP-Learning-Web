@@ -1,0 +1,32 @@
+{
+  "exam_id": "2014Intl",
+  "exam_title": "2014国际卷",
+  "subject": "calculus_bc",
+  "subject_display": "微积分BC",
+  "year": 2014,
+  "form": "international",
+  "total_questions": 51,
+  "sections": [
+    {
+      "section_id": "mcq-1",
+      "section_type": "mcq",
+      "part_label": "Part A",
+      "time_limit_minutes": 60,
+      "calculator_allowed": false,
+      "question_count": 45
+    },
+    {
+      "section_id": "mcq-2",
+      "section_type": "mcq",
+      "part_label": "Part B",
+      "time_limit_minutes": 45,
+      "calculator_allowed": true,
+      "question_count": 45
+    }
+  ],
+  "metadata": {
+    "source": "2014Intl.md",
+    "converted_at": "2026-04-08",
+    "language": "en"
+  }
+}

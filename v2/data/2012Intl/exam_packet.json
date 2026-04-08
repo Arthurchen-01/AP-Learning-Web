@@ -1,0 +1,32 @@
+{
+  "exam_id": "2012Intl",
+  "exam_title": "2012国际卷",
+  "subject": "calculus_bc",
+  "subject_display": "微积分BC",
+  "year": 2012,
+  "form": "international",
+  "total_questions": 49,
+  "sections": [
+    {
+      "section_id": "mcq-1",
+      "section_type": "mcq",
+      "part_label": "Part A",
+      "time_limit_minutes": 60,
+      "calculator_allowed": false,
+      "question_count": 43
+    },
+    {
+      "section_id": "mcq-2",
+      "section_type": "mcq",
+      "part_label": "Part B",
+      "time_limit_minutes": 45,
+      "calculator_allowed": true,
+      "question_count": 43
+    }
+  ],
+  "metadata": {
+    "source": "2012Intl.md",
+    "converted_at": "2026-04-08",
+    "language": "en"
+  }
+}

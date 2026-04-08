@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>做题 - AP Learning</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --primary: #3b82f6;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* Top Bar */
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .topbar-left { display: flex; align-items: center; gap: 1rem; }
+    .topbar-center { display: flex; align-items: center; gap: 0.5rem; }
+    .topbar-right { display: flex; align-items: center; gap: 0.75rem; }
+
+    .section-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .section-label strong { color: var(--text); }
+
+    .timer {
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      padding: 0.25rem 0.75rem;
+      background: var(--bg);
+      border-radius: 6px;
+    }
+    .timer.warning { color: var(--warning); }
+    .timer.danger { color: var(--danger); }
+
+    .btn {
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .btn:hover { background: var(--border); }
+    .btn.active { background: var(--primary); border-color: var(--primary); color: white; }
+    .btn-flagged { background: var(--warning); border-color: var(--warning); color: white; }
+
+    /* Main Layout */
+    .exam-layout {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 1rem;
+      max-width: 1400px;
+      margin: 1.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Question Panel */
+    .question-panel {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 1.5rem;
+    }
+
+    .question-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .question-number {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    .question-unit { font-size: 0.85rem; color: var(--text-muted); }
+
+    .question-text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .question-text .math-inline {
+      font-size: 1.1em;
+    }
+
+    .options-list { display: flex; flex-direction: column; gap: 0.75rem; }
+
+    .option-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem;
+      background: var(--bg);
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .option-row:hover { border-color: var(--primary); }
+    .option-row.selected { border-color: var(--primary); background: #3b82f615; }
+
+    .option-key {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--border);
+      border-radius: 50%;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .option-row.selected .option-key { background: var(--primary); }
+
+    .option-content {
+      flex: 1;
+      line-height: 1.5;
+      padding-top: 0.25rem;
+    }
+
+    /* Question Footer */
+    .question-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .progress-info {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Navigator Sidebar */
+    .navigator {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 1rem;
+      height: fit-content;
+      position: sticky;
+      top: 70px;
+    }
+
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .nav-title { font-weight: 600; font-size: 0.95rem; }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.4rem;
+    }
+
+    .nav-chip {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .nav-chip:hover { border-color: var(--primary); }
+    .nav-chip.answered { background: var(--primary); border-color: var(--primary); color: white; }
+    .nav-chip.flagged { background: var(--warning); border-color: var(--warning); color: white; }
+    .nav-chip.current { border: 2px solid var(--primary); }
+
+    .nav-section-title {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin: 0.75rem 0 0.5rem;
+      text-transform: uppercase;
+    }
+
+    /* Results */
+    .results-panel {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+    }
+    .results-score {
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .results-label { color: var(--text-muted); margin-bottom: 1.5rem; }
+    .results-details {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .result-item { padding: 1rem; background: var(--bg); border-radius: 8px; }
+    .result-item .value { font-size: 1.5rem; font-weight: 700; }
+    .result-item .label { font-size: 0.8rem; color: var(--text-muted); }
+
+    /* ── Option row states ── */
+    .option-row { position: relative; }
+    .option-row.selected {
+      border-color: var(--primary) !important;
+      background: rgba(59,130,246,0.12);
+    }
+    .option-row.selected .option-key { background: var(--primary); }
+
+    /* ── Exclude (cross-out) ── */
+    .option-row.is-excluded { opacity: 0.42; }
+    .option-row.is-excluded .option-content { text-decoration: line-through; }
+    .opt-exclude-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      font-size: 14px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+    .option-row:hover .opt-exclude-btn { display: flex; }
+    .opt-exclude-btn:hover { border-color: var(--danger); color: var(--danger); background: rgba(239,68,68,0.1); }
+    .opt-exclude-btn.is-active {
+      display: flex;
+      border-color: var(--danger);
+      color: var(--danger);
+      background: rgba(239,68,68,0.15);
+    }
+
+    /* ── FRQ image upload ── */
+    .frq-upload-zone {
+      margin-top: 1.5rem;
+      border: 2px dashed var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .frq-upload-zone:hover { border-color: var(--primary); background: rgba(59,130,246,0.05); }
+    .frq-upload-zone.has-image { border-style: solid; border-color: var(--success); background: rgba(34,197,94,0.05); cursor: default; }
+    .frq-upload-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .frq-upload-text { font-size: 0.9rem; color: var(--text-muted); }
+    .frq-upload-text strong { color: var(--primary); }
+    .frq-preview { max-width: 100%; max-height: 300px; border-radius: 8px; margin-top: 0.75rem; }
+    .frq-upload-actions { margin-top: 0.75rem; display: flex; gap: 0.5rem; justify-content: center; }
+
+    /* ── Confirm Modal ── */
+    .confirm-modal {
+      display: none;
+      position: fixed; inset: 0; z-index: 300;
+      background: rgba(0,0,0,0.6);
+      align-items: center; justify-content: center;
+    }
+    .confirm-modal.show { display: flex; }
+    .confirm-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      max-width: 420px; width: 90%;
+      display: grid; gap: 1rem;
+    }
+    .confirm-card h3 { font-size: 1.1rem; margin: 0; }
+    .confirm-card p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin: 0; }
+    .confirm-btns { display: flex; gap: 0.75rem; justify-content: flex-end; }
+    .btn-cancel { background: var(--card-bg); border: 1px solid var(--border); color: var(--text); }
+    .btn-confirm-danger { background: var(--danger); border: 1px solid var(--danger); color: #fff; }
+
+    /* Loading */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50vh;
+      color: var(--text-muted);
+    }
+    .loading::after {
+      content: '';
+      width: 24px;
+      height: 24px;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-left: 0.75rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-left">
+      <span class="section-label" id="section-label">Loading...</span>
+    </div>
+    <div class="topbar-center">
+      <div class="timer" id="timer">--:--</div>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" id="btn-flag" title="标记此题">🚩 Flag</button>
+      <button class="btn" id="btn-navigator" title="题目导航">☰ Navigator</button>
+      <button class="btn" id="btn-submit" style="background: var(--success); border-color: var(--success);">Submit</button>
+    </div>
+  </div>
+
+  <div class="exam-layout" id="exam-layout">
+    <div class="loading">加载试卷中</div>
+  </div>
+
+  <!-- Confirm Modal -->
+  <div class="confirm-modal" id="confirm-modal">
+    <div class="confirm-card">
+      <h3 id="confirm-title">Are you absolutely sure?</h3>
+      <p id="confirm-body">You can start over from here. Your answer records for this exam will be lost after this operation. Are you sure?</p>
+      <div class="confirm-btns">
+        <button class="btn btn-cancel" id="confirm-cancel">Cancel</button>
+        <button class="btn btn-confirm-danger" id="confirm-ok">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigator Modal -->
+  <div id="navigator-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 200; align-items: center; justify-content: center;">
+    <div class="navigator" style="position: static; max-width: 400px; width: 90%; max-height: 80vh; overflow-y: auto;">
+      <div class="nav-header">
+        <span class="nav-title">题目导航</span>
+        <button class="btn" onclick="document.getElementById('navigator-modal').style.display='none'">✕</button>
+      </div>
+      <div id="nav-chips"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { loadExam, loadExamQuestions } from '../js/data-service.js';
+    import { createFreshState, loadState, saveState, formatTime, ExamTimer, clearState } from '../js/exam-engine.js';
+
+    // 解析 URL 参数
+    const params = new URLSearchParams(window.location.search);
+    const examId = params.get('exam') || 'calc-bc-2018-intl';
+
+    let exam = null;
+    let questions = null;
+    let state = null;
+    let timer = null;
+    let currentSectionIndex = 0;
+
+    // 初始化
+    async function init() {
+      exam = await loadExam(examId);
+      questions = await loadExamQuestions(examId);
+
+      if (!exam || !questions) {
+        document.getElementById('exam-layout').innerHTML = '<p style="color: var(--danger); text-align: center; padding: 2rem;">加载失败：请检查试卷数据</p>';
+        return;
+      }
+
+      // 加载或创建状态
+      state = loadState(examId);
+      if (!state) {
+        state = createFreshState(exam);
+      } else {
+        // 迁移旧状态：补充 excluded 和 frqImages 字段
+        state.sections.forEach(section => {
+          if (!section.excluded) section.excluded = new Array(section.answers.length).fill(false);
+          if (!section.frqImages) section.frqImages = null;
+        });
+      }
+      // 将 questions 附加到 exam（无论新创建还是加载的 state）
+      exam.sections.forEach((section, sIdx) => {
+        section.questions = questions.filter(q => q.section_id === section.section_id);
+      });
+
+      saveState(examId, state);
+
+      // 启动计时器
+      timer = new ExamTimer(
+        (remaining) => updateTimerDisplay(remaining),
+        () => submitSection()
+      );
+
+      const currentSection = state.sections[currentSectionIndex];
+      if (currentSection) {
+        timer.start(currentSection.timeRemainingSec);
+      }
+
+      // 渲染界面
+      renderQuestion();
+      renderNavigator();
+
+      // 事件绑定
+      document.getElementById('btn-flag').addEventListener('click', toggleFlag);
+      document.getElementById('btn-navigator').addEventListener('click', () => {
+        document.getElementById('navigator-modal').style.display = 'flex';
+      });
+      document.getElementById('btn-submit').addEventListener('click', () => {
+        showConfirm(
+          '确认提交',
+          '确定要提交当前部分的答案吗？提交后将进入下一部分。',
+          () => submitSection()
+        );
+      });
+
+      document.getElementById('navigator-modal').addEventListener('click', (e) => {
+        if (e.target.id === 'navigator-modal') {
+          e.target.style.display = 'none';
+        }
+      });
+    }
+
+    // 判断是否 FRQ
+    function isFRQ(question) {
+      const t = question.question_type || '';
+      return t === 'frq' || t === 'free_response' || t === 'essay';
+    }
+
+    // 渲染当前题目
+    function renderQuestion() {
+      const section = state.sections[currentSectionIndex];
+      if (!section) return;
+
+      const qIndex = state.questionIndex;
+      const question = exam.sections[currentSectionIndex].questions[qIndex];
+      if (!question) return;
+
+      const answered = section.answers[qIndex] !== null;
+      const flagged = section.flagged[qIndex];
+      const frq = isFRQ(question);
+      const excludedKeys = section.excluded[qIndex] || [];
+
+      document.getElementById('section-label').innerHTML = `
+        <strong>${exam.exam_title}</strong> · ${exam.sections[currentSectionIndex].part_label}
+      `;
+
+      document.getElementById('btn-flag').className = flagged ? 'btn btn-flagged' : 'btn';
+
+      // 渲染选项或 FRQ 响应区
+      let responseHTML = '';
+      if (frq) {
+        const frqImages = section.frqImages || section.frqImages === '' ? section.frqImages : '';
+        responseHTML = `
+          <div style="margin-top:1.5rem">
+            <div class="frq-upload-zone ${frqImages ? 'has-image' : ''}" id="frq-upload-zone">
+              ${frqImages
+                ? `<img src="${frqImages}" class="frq-preview" id="frq-preview-img"/>
+                   <div class="frq-upload-actions">
+                     <button class="btn" id="frq-reupload">重新上传</button>
+                     <button class="btn" id="frq-clear" style="color:var(--danger);border-color:var(--danger)">删除</button>
+                   </div>`
+                : `<div class="frq-upload-icon">📷</div>
+                   <div class="frq-upload-text"><strong>点击上传图片</strong><br>支持手写步骤截图</div>
+                   <input type="file" accept="image/*" id="frq-file-input" style="display:none">`
+              }
+            </div>
+          </div>`;
+      } else {
+        responseHTML = `
+          <div class="options-list">
+            ${question.options.map(opt => {
+              const isSelected = section.answers[qIndex] === opt.key;
+              const isExcluded = excludedKeys.includes(opt.key);
+              return `
+                <div class="option-row ${isSelected ? 'selected' : ''} ${isExcluded ? 'is-excluded' : ''}" data-key="${opt.key}">
+                  <div class="option-key">${opt.key}</div>
+                  <div class="option-content">${opt.html}</div>
+                  <button class="opt-exclude-btn ${isExcluded ? 'is-active' : ''}" title="排除此选项" data-action="exclude" data-key="${opt.key}">✕</button>
+                </div>`;
+            }).join('')}
+          </div>`;
+      }
+
+      const layout = document.getElementById('exam-layout');
+      layout.innerHTML = `
+        <div class="question-panel">
+          <div class="question-header">
+            <span class="question-number">第 ${qIndex + 1} 题</span>
+            ${question.unit ? `<span class="question-unit">${question.unit}</span>` : ''}
+            ${frq ? '<span class="question-unit" style="color:var(--warning)">📝 FRQ</span>' : ''}
+          </div>
+
+          <div class="question-text" id="question-text">${question.question_html || question.question_text || ''}</div>
+
+          ${responseHTML}
+
+          <div class="question-footer">
+            <span class="progress-info">
+              ${currentSectionIndex + 1}/${exam.sections.length} 部分 ·
+              第 ${qIndex + 1}/${exam.sections[currentSectionIndex].questions.length} 题
+              ${answered ? ' · 已作答' : ''}
+            </span>
+            <div style="display: flex; gap: 0.5rem;">
+              <button class="btn" id="btn-prev" ${qIndex === 0 && currentSectionIndex === 0 ? 'disabled' : ''}>← 上一题</button>
+              <button class="btn" id="btn-next">${qIndex === exam.sections[currentSectionIndex].questions.length - 1 ? '下一部分 →' : '下一题 →'}</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="navigator">
+          <div class="nav-header">
+            <span class="nav-title">答题进度</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted)">${getAnsweredCount()}/${getTotalCount()} 已答</span>
+          </div>
+          <div class="nav-grid" id="sidebar-nav"></div>
+        </div>
+      `;
+
+      // 渲染数学公式
+      if (window.katex) {
+        document.querySelectorAll('.question-text, .option-content').forEach(el => {
+          el.innerHTML = el.innerHTML.replace(/\$([^$]+)\$/g, (_, latex) => {
+            try {
+              return window.katex.renderToString(latex, { throwOnError: false, displayMode: false });
+            } catch(e) { return '$' + latex + '$'; }
+          });
+        });
+      }
+
+      if (frq) {
+        // FRQ 图片上传
+        const zone = document.getElementById('frq-upload-zone');
+        const fileInput = document.getElementById('frq-file-input');
+        if (zone && !frqImages) {
+          zone.addEventListener('click', () => fileInput && fileInput.click());
+          fileInput && fileInput.addEventListener('change', () => {
+            const file = fileInput.files[0];
+            if (!file) return;
+            const url = URL.createObjectURL(file);
+            zone.innerHTML = `<img src="${url}" class="frq-preview" id="frq-preview-img"/>
+              <div class="frq-upload-actions">
+                <button class="btn" id="frq-reupload">重新上传</button>
+                <button class="btn" id="frq-clear" style="color:var(--danger);border-color:var(--danger)">删除</button>
+              </div>`;
+            zone.classList.add('has-image');
+            section.frqImages = url;
+            saveState(examId, state);
+          });
+        }
+        document.getElementById('frq-reupload') && document.getElementById('frq-reupload').addEventListener('click', (e) => {
+          e.stopPropagation();
+          const fi = document.createElement('input');
+          fi.type = 'file'; fi.accept = 'image/*'; fi.style.display = 'none';
+          fi.addEventListener('change', () => {
+            const file = fi.files[0]; if (!file) return;
+            const url = URL.createObjectURL(file);
+            document.getElementById('frq-preview-img').src = url;
+            section.frqImages = url;
+            saveState(examId, state);
+          });
+          document.body.appendChild(fi); fi.click(); fi.remove();
+        });
+        document.getElementById('frq-clear') && document.getElementById('frq-clear').addEventListener('click', (e) => {
+          e.stopPropagation();
+          section.frqImages = null;
+          saveState(examId, state);
+          renderQuestion();
+        });
+      } else {
+        // MCQ 选项点击
+        document.querySelectorAll('.option-row').forEach(row => {
+          row.addEventListener('click', (e) => {
+            // 排除按钮不触发选中
+            if (e.target.dataset.action === 'exclude') return;
+            if (row.classList.contains('is-excluded')) return;
+            selectOption(row.dataset.key);
+          });
+        });
+        // 排除按钮
+        document.querySelectorAll('.opt-exclude-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            excludeOption(btn.dataset.key);
+          });
+        });
+      }
+
+      // 导航按钮
+      document.getElementById('btn-prev').addEventListener('click', prevQuestion);
+      document.getElementById('btn-next').addEventListener('click', nextQuestion);
+
+      renderSidebarNav();
+    }
+
+    // 渲染侧边栏导航
+    function renderSidebarNav() {
+      const section = exam.sections[currentSectionIndex];
+      const nav = document.getElementById('sidebar-nav');
+
+      nav.innerHTML = `
+        <div class="nav-section-title">${section.part_label}</div>
+        ${section.questions.map((q, i) => `
+          <div class="nav-chip ${state.sections[currentSectionIndex].answers[i] !== null ? 'answered' : ''}
+                               ${state.sections[currentSectionIndex].flagged[i] ? 'flagged' : ''}
+                               ${i === state.questionIndex ? 'current' : ''}"
+               data-section="${currentSectionIndex}" data-index="${i}">${i + 1}</div>
+        `).join('')}
+      `;
+
+      nav.querySelectorAll('.nav-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentSectionIndex = parseInt(chip.dataset.section);
+          state.questionIndex = parseInt(chip.dataset.index);
+          renderQuestion();
+          document.getElementById('navigator-modal').style.display = 'none';
+        });
+      });
+    }
+
+    // 渲染导航弹窗
+    function renderNavigator() {
+      const container = document.getElementById('nav-chips');
+      container.innerHTML = exam.sections.map((section, sIdx) => `
+        <div class="nav-section-title">${section.part_label} (${section.questions.length}题)</div>
+        <div class="nav-grid">
+          ${section.questions.map((q, i) => `
+            <div class="nav-chip ${state.sections[sIdx].answers[i] !== null ? 'answered' : ''}
+                                 ${state.sections[sIdx].flagged[i] ? 'flagged' : ''}
+                                 ${sIdx === currentSectionIndex && i === state.questionIndex ? 'current' : ''}"
+                 data-section="${sIdx}" data-index="${i}">${i + 1}</div>
+          `).join('')}
+        </div>
+      `).join('');
+
+      container.querySelectorAll('.nav-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          currentSectionIndex = parseInt(chip.dataset.section);
+          state.questionIndex = parseInt(chip.dataset.index);
+          renderQuestion();
+          document.getElementById('navigator-modal').style.display = 'none';
+        });
+      });
+    }
+
+    // 选择选项（跳过已排除的选项）
+    function selectOption(key) {
+      const section = state.sections[currentSectionIndex];
+      // 已排除的选项不可选
+      if (section.excluded[state.questionIndex] && section.excluded[state.questionIndex].includes(key)) return;
+      section.answers[state.questionIndex] = key;
+      saveState(examId, state);
+
+      document.querySelectorAll('.option-row').forEach(row => {
+        const k = row.dataset.key;
+        const isSelected = k === key;
+        row.classList.toggle('selected', isSelected);
+        // 选中时移除排除态
+        if (isSelected) row.classList.remove('is-excluded');
+      });
+      document.querySelectorAll('.nav-chip').forEach(chip => {
+        if (parseInt(chip.dataset.section) === currentSectionIndex &&
+            parseInt(chip.dataset.index) === state.questionIndex) {
+          chip.classList.add('answered');
+        }
+      });
+    }
+
+    // 排除 / 取消排除选项
+    function excludeOption(key) {
+      const section = state.sections[currentSectionIndex];
+      const idx = state.questionIndex;
+      if (!section.excluded[idx]) section.excluded[idx] = [];
+      const arr = section.excluded[idx];
+      const pos = arr.indexOf(key);
+      if (pos >= 0) {
+        arr.splice(pos, 1); // 取消排除
+      } else {
+        arr.push(key);       // 排除
+        // 排除时若恰好是当前选中，清除选中
+        if (section.answers[idx] === key) {
+          section.answers[idx] = null;
+        }
+      }
+      saveState(examId, state);
+      // 更新当前行样式
+      document.querySelectorAll('.option-row').forEach(row => {
+        if (row.dataset.key === key) {
+          row.classList.toggle('is-excluded', arr.includes(key));
+          row.classList.toggle('selected', false);
+          // 更新排除按钮状态
+          const btn = row.querySelector('.opt-exclude-btn');
+          if (btn) btn.classList.toggle('is-active', arr.includes(key));
+        }
+      });
+    }
+
+    // 展示确认弹窗
+    function showConfirm(title, body, onConfirm) {
+      document.getElementById('confirm-title').textContent = title;
+      document.getElementById('confirm-body').textContent = body;
+      document.getElementById('confirm-modal').classList.add('show');
+      document.getElementById('confirm-ok').onclick = () => {
+        document.getElementById('confirm-modal').classList.remove('show');
+        onConfirm();
+      };
+      document.getElementById('confirm-cancel').onclick = () => {
+        document.getElementById('confirm-modal').classList.remove('show');
+      };
+    }
+
+    // 标记
+    function toggleFlag() {
+      const section = state.sections[currentSectionIndex];
+      section.flagged[state.questionIndex] = !section.flagged[state.questionIndex];
+      saveState(examId, state);
+      document.getElementById('btn-flag').className = section.flagged[state.questionIndex] ? 'btn btn-flagged' : 'btn';
+
+      // 更新导航芯片
+      document.querySelectorAll('.nav-chip').forEach(chip => {
+        if (parseInt(chip.dataset.section) === currentSectionIndex &&
+            parseInt(chip.dataset.index) === state.questionIndex) {
+          chip.classList.toggle('flagged', section.flagged[state.questionIndex]);
+        }
+      });
+    }
+
+    // 上一题/下一题
+    function prevQuestion() {
+      if (state.questionIndex > 0) {
+        state.questionIndex--;
+      }
+      saveState(examId, state);
+      renderQuestion();
+    }
+
+    function nextQuestion() {
+      const section = exam.sections[currentSectionIndex];
+      if (state.questionIndex < section.questions.length - 1) {
+        state.questionIndex++;
+      } else if (currentSectionIndex < exam.sections.length - 1) {
+        // 切换到下一个 section
+        currentSectionIndex++;
+        state.questionIndex = 0;
+        const nextSection = state.sections[currentSectionIndex];
+        timer.start(nextSection.timeRemainingSec);
+      }
+      saveState(examId, state);
+      renderQuestion();
+    }
+
+    // 计时器
+    function updateTimerDisplay(remaining) {
+      const timerEl = document.getElementById('timer');
+      timerEl.textContent = formatTime(remaining);
+      timerEl.className = 'timer' + (remaining < 300 ? ' danger' : remaining < 600 ? ' warning' : '');
+      state.sections[currentSectionIndex].timeRemainingSec = remaining;
+    }
+
+    // 提交当前部分
+    function submitSection() {
+      timer.stop();
+      state.sections[currentSectionIndex].status = 'completed';
+
+      if (currentSectionIndex < exam.sections.length - 1) {
+        currentSectionIndex++;
+        state.questionIndex = 0;
+        state.sections[currentSectionIndex].status = 'in_progress';
+        timer.start(state.sections[currentSectionIndex].timeRemainingSec);
+        saveState(examId, state);
+        renderQuestion();
+        renderNavigator();
+      } else {
+        showResults();
+      }
+    }
+
+    // 显示结果
+    function showResults() {
+      let correct = 0, total = 0;
+      exam.sections.forEach((section, sIdx) => {
+        section.questions.forEach((q, qIdx) => {
+          if (state.sections[sIdx].answers[qIdx] !== null) {
+            total++;
+            if (state.sections[sIdx].answers[qIdx] === q.correct_answer) {
+              correct++;
+            }
+          }
+        });
+      });
+
+      const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+      document.getElementById('exam-layout').innerHTML = `
+        <div class="results-panel">
+          <h2 style="margin-bottom: 1rem;">练习完成！</h2>
+          <div class="results-score">${accuracy}%</div>
+          <div class="results-label">正确率</div>
+
+          <div class="results-details">
+            <div class="result-item">
+              <div class="value" style="color: var(--success);">${correct}</div>
+              <div class="label">答对</div>
+            </div>
+            <div class="result-item">
+              <div class="value">${total - correct}</div>
+              <div class="label">答错</div>
+            </div>
+            <div class="result-item">
+              <div class="value">${total}</div>
+              <div class="label">已答</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center;">
+            <a href="index.html" class="btn btn-secondary">返回试卷列表</a>
+            <button class="btn btn-confirm-danger" id="btn-start-over">重新开始</button>
+          </div>
+        </div>
+      `;
+
+      // 保存进度
+      const progress = JSON.parse(localStorage.getItem('ap-learning-progress') || '{"exams":0,"questions":0,"correct":0}');
+      progress.exams++;
+      progress.questions += total;
+      progress.correct += correct;
+      progress.accuracy = Math.round((progress.correct / progress.questions) * 100);
+      localStorage.setItem('ap-learning-progress', JSON.stringify(progress));
+
+      // 清除考试状态
+      localStorage.removeItem(`ap-learning-exam:${examId}`);
+
+      // 绑定重新开始
+      document.getElementById('btn-start-over').addEventListener('click', () => {
+        showConfirm(
+          'Are you absolutely sure?',
+          'You can start over from here. Your answer records for this exam will be lost after this operation. Are you sure?',
+          () => {
+            clearState(examId);
+            window.location.href = `paper.html?exam=${examId}`;
+          }
+        );
+      });
+    }
+
+    // 辅助函数
+    function getAnsweredCount() {
+      const section = state.sections[currentSectionIndex];
+      return section.answers.filter(a => a !== null).length;
+    }
+
+    function getTotalCount() {
+      return exam.sections[currentSectionIndex].questions.length;
+    }
+
+    // 加载 KaTeX 后初始化
+    function initWhenReady() {
+      if (window.katex) {
+        init();
+      } else {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js';
+        script.onload = () => init();
+        script.onerror = () => init(); // 即使加载失败也继续
+        document.head.appendChild(script);
+      }
+    }
+    initWhenReady();
+  </script>
+</body>
+</html>

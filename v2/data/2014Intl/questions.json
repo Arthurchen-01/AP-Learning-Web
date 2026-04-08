@@ -1,0 +1,1588 @@
+[
+  {
+    "question_id": "q_2014Intl_1",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 1,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">1. $\\int \\frac{x^{3}+5}{x^{2}} d x=$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$1-\\frac{10}{x^{3}}+C$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{3 x}{4}+\\frac{15}{x^{2}}+C$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{x^{2}}{2}-\\frac{5}{x}+C$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{x^{2}}{2}-\\frac{5}{3 x^{3}}+C$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$-\\frac{x^{3}}{4}-5+C$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_2",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 2,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">2. What is the slope of the line tangent to the graph of $y=\\ln (2 x)$ at the point where $x=4$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{8}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{4}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{3}{4}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">4<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_3",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 3,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">3. $\\lim _{x \\rightarrow 0} \\frac{x^{2}}{1-\\cos x}$ is</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-2</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">0</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">1</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">2</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">nonexistent</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_4",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 4,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">4. $\\int \\frac{1}{x^{2}-7 x+10} d x=$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\ln |(x-2)(x-5)|+C$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3} \\ln |(x-2)(x-5)|+C$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3} \\ln \\left|\\frac{2 x-7}{(x-2)(x-5)}\\right|+C$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3} \\ln \\left|\\frac{x-2}{x-5}\\right|+C$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3} \\ln \\left|\\frac{x-5}{x-2}\\right|+C$<br/><img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-21.jpg?height=623&width=692&top_left_y=312&top_left_x=730\" /></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_5",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 5,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">5. The figure above shows the graph of the function $f$. Which of the following statements are true? I. $\\lim _{x \\rightarrow 2^{-}} f(x)=f(2)$ II. $\\lim _{x \\rightarrow 6^{-}} f(x)=\\lim _{x \\rightarrow 6^{+}} f(x)$ III. $\\lim _{x \\rightarrow 6} f(x)=f(6)$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">II only</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">III only</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">I and II only</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">II and III only</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">I, II, and III<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_6",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 6,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">6. The infinite series $\\sum_{k=1}^{\\infty} a_{k}$ has $n$th partial sum $S_{n}=(-1)^{n+1}$ for $n \\geq 1$. What is the sum of the series $\\sum_{k=1}^{\\infty} a_{k}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-1</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">0</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">1</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">The series diverges.<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_7",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 7,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">7. Let $f$ be the function defined by $f(x)= \\begin{cases}x^{2}+2 & \\text { for } x \\leq 3, \\\\ 6 x+k & \\text { for } x>3 .\\end{cases}$  If $f$ is continuous at $x=3$, what is the value of $k$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-7</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">2</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">3</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">7</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">There is no such value of $k$.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_8",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 8,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">8. $\\int_{0}^{1} x \\sqrt{1+8 x^{2}} d x=$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{24}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{13}{12}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{9}{8}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{52}{3}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">18<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_9",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 9,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">9. The function $f$ has a first derivative given by $f^{\\prime}(x)=x(x-3)^{2}(x+1)$. At what values of $x$ does $f$ have a relative maximum?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-1 only</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">0 only</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">-1 and 0 only</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">-1 and 3 only</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$-1,0$, and 3</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_10",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 10,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">10. What is the sum of the series $\\sum_{n=1}^{\\infty} \\frac{(-2)^{n}}{e^{n+1}}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{-2}{e^{2}-2 e}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{-2}{e^{2}+2 e}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{-2}{e+2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{e}{e+2}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">The series diverges.<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}<br/>$$<br/>f(x)= \\begin{cases}2 x+5 & \\text { for } x<-1 \\\\ -x^{2}+6 & \\text { for } x \\geq-1\\end{cases}<br/>$$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_11",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 11,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">11. If $f$ is the function defined above, then $f^{\\prime}(-1)$ is</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-2</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">2</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">3</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">5</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">nonexistent</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_12",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 12,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">12. Let $f$ be the function given by $f(x)=9^{x}$. If four subintervals of equal length are used, what is the value of the right Riemann sum approximation for $\\int_{0}^{2} f(x) d x$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">20</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">40</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">60</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">80</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">120<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_13",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 13,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">13. A rectangular area is to be enclosed by a wall on one side and fencing on the other three sides. If 18 meters of fencing are used, what is the maximum area that can be enclosed?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{9}{2} \\mathrm{~m}^{2}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{81}{4} \\mathrm{~m}^{2}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$27 \\mathrm{~m}^{2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$40 \\mathrm{~m}^{2}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{81}{2} \\mathrm{~m}^{2}$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_14",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 14,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">14. Let $P(x)=3-3 x^{2}+6 x^{4}$ be the fourth-degree Taylor polynomial for the function $f$ about $x=0$. What is the value of $f^{(4)}(0)$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">0</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{4}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">6</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">24</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">144<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_15",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 15,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">15. Suppose $\\ln x-\\ln y=y-4$, where $y$ is a differentiable function of $x$ and $y=4$ when $x=4$. What is the value of $\\frac{d y}{d x}$ when $x=4$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">0</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{5}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{17}{5}$<br/><img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-28.jpg?height=536&width=650&top_left_y=294&top_left_x=739\" /></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_16",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 16,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">16. Let $R$ be the region in the first quadrant that is bounded by the polar curves $r=\\theta$ and $\\theta=k$, where $k$ is a constant, $0<k<\\frac{\\pi}{2}$, as shown in the figure above. What is the area of $R$ in terms of $k$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{k^{3}}{6}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{k^{3}}{3}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{k^{3}}{2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{k^{2}}{4}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{k^{2}}{2}$<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_17",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 17,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">17. Which of the following is the Maclaurin series for $e^{3 x}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$1+x+\\frac{x^{2}}{2}+\\frac{x^{3}}{3!}+\\frac{x^{4}}{4!}+\\cdots$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$3+9 x+\\frac{27 x^{2}}{2}+\\frac{81 x^{3}}{3!}+\\frac{243 x^{4}}{4!}+\\cdots$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$1-3 x+\\frac{9 x^{2}}{2}-\\frac{27 x^{3}}{3!}+\\frac{81 x^{4}}{4!}-\\cdots$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$1+3 x+\\frac{3 x^{2}}{2}+\\frac{3 x^{3}}{3!}+\\frac{3 x^{4}}{4!}+\\cdots$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$1+3 x+\\frac{9 x^{2}}{2}+\\frac{27 x^{3}}{3!}+\\frac{81 x^{4}}{4!}+\\cdots$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_18",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 18,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">18. $\\int_{1}^{\\infty} \\frac{x^{2}}{\\left(x^{3}+2\\right)^{2}} d x$ is</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$-\\frac{1}{9}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{9}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{3}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">1</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">divergent</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_19",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 19,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">19. For what values of $x$ does the graph of $y=3 x^{5}+10 x^{4}$ have a point of inflection?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$x=-\\frac{8}{3}$ only</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$x=-2$ only</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$x=0$ only</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$x=0$ and $x=-\\frac{8}{3}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\quad x=0$ and $x=-2$<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_20",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 20,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">20. If $f^{\\prime}(x)=\\frac{(x-2)^{3}\\left(x^{2}-4\\right)}{16}$ and $g(x)=f\\left(x^{2}-1\\right)$, what is $g^{\\prime}(2)$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">2</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{5}{4}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{5}{8}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{5}{16}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">0<br/><br/>\\begin{tabular}{|c||c|c|c|c|}<br/>\\hline$x$ & 1 & 3 & 5 & 7 \\\\<br/>\\hline$f(x)$ & 4 & 6 & 7 & 5 \\\\<br/>\\hline$f^{\\prime}(x)$ & 2 & 1 & 0 & -1 \\\\<br/>\\hline<br/>\\end{tabular}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_21",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 21,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">21. The table above gives selected values for a differentiable function $f$ and its first derivative. Using a left Riemann sum with 3 subintervals of equal length, which of the following is an approximation of the length of the graph of $f$ on the interval $[1,7]$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">6</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">34</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$2 \\sqrt{3}+2 \\sqrt{2}+2$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$2 \\sqrt{5}+2 \\sqrt{2}+2$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$2 \\sqrt{5}+4 \\sqrt{2}+2$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_22",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 22,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">22. What is the interval of convergence of the power series $\\sum_{n=1}^{\\infty} \\frac{(x-3)^{n}}{n \\cdot 2^{n}}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$1<x<5$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$1 \\leq x<5$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$1 \\leq x \\leq 5$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$2<x<4$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$2 \\leq x \\leq 4$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_23",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 23,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">23. What is the particular solution to the differential equation $\\frac{d y}{d x}=x y^{2}$ with the initial condition $y(2)=1$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$y=e^{\\frac{x^{2}}{2}-2}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$y=e^{\\frac{x^{2}}{2}}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$y=-\\frac{2}{x^{2}}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$y=\\frac{2}{6-x^{2}}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$y=\\frac{6-x^{2}}{2}$<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_24",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 24,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">24. Which of the following series converge? I. $1+(-1)+1+\\cdots+(-1)^{n-1}+\\cdots$ II. $1+\\frac{1}{3}+\\frac{1}{5}+\\cdots+\\frac{1}{2 n-1}+\\cdots$ III. $1+\\frac{1}{3}+\\frac{1}{3^{2}}+\\cdots+\\frac{1}{3^{n-1}}+\\cdots$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">I only</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">II only</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">III only</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">II and III only</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">I, II, and III</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_25",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 25,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">25. What is the slope of the line tangent to the polar curve $r=\\cos \\theta$ at the point where $\\theta=\\frac{\\pi}{6}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$-\\sqrt{3}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$-\\frac{1}{\\sqrt{3}}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{3}}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{\\sqrt{3}}{2}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\sqrt{3}$<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_26",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 26,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">26. For $x>0, \\frac{d}{d x} \\int_{1}^{\\sqrt{x}} \\frac{1}{1+t^{2}} d t=$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2 \\sqrt{x}(1+x)}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2 \\sqrt{x}(1+\\sqrt{x})}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{1+x}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{\\sqrt{x}}{1+x}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{1+\\sqrt{x}}$<br/><br/>\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_27",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 27,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">27. What is the coefficient of $x^{2}$ in the Taylor series for $\\sin ^{2} x$ about $x=0$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">-2</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">-1</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">0</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">1</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">2</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_28",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 28,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">28. The function $h$ is given by $h(x)=x^{5}+3 x-2$ and $h(1)=2$. If $h^{-1}$ is the inverse of $h$, what is the value of $\\left(h^{-1}\\right)^{\\prime}(2) ?$</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{83}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{8}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{1}{2}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">1</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">8<br/><br/>\\section*{CALCULUS BC}<br/><br/>\\section*{SECTION I, Part B}<br/><br/>\\section*{Time-50 minutes}<br/><br/>\\section*{Number of questions-17}<br/><br/>\\section*{A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON THIS PART OF THE EXAM.}<br/><br/>Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one problem.<br/><br/>\\section*{BE SURE YOU ARE USING PAGE 3 OF THE ANSWER SHEET TO RECORD YOUR ANSWERS TO QUESTIONS NUMBERED 76-92.}<br/><br/>\\section*{YOU MAY NOT RETURN TO PAGE 2 OF THE ANSWER SHEET.}<br/><br/>\\section*{In this exam:}<br/>(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.<br/>(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.<br/>(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $\\left.\\sin ^{-1} x=\\arcsin x\\right)$.<br/><br/>\\begin{figure}<br/>\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-37.jpg?height=587&width=772&top_left_y=289&top_left_x=680}<br/>\\captionsetup{labelformat=empty}<br/>\\caption{Graph of $f$}<br/>\\end{figure}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_29",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 29,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">76. The figure above shows the graph of the differentiable function $f$ for $1 \\leq x \\leq 5$. Which of the following could be the $x$-coordinate of a point at which the line tangent to the graph of $f$ is parallel to the secant line through the points $(1, f(1))$ and $(5, f(5))$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$r$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$t$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$u$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$w$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">There is no such point.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_30",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 30,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">77. The number of antibodies $y$ in a patient's bloodstream at time $t$ is increasing according to a logistic differential equation. Which of the following could be the differential equation?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\frac{d y}{d t}=0.025 t$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\frac{d y}{d t}=0.025 t(5000-t)$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$\\frac{d y}{d t}=0.025 y$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$\\frac{d y}{d t}=0.025(5000-y)$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$\\frac{d y}{d t}=0.025 y(5000-y)$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_31",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 31,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">78. What is the area of the region enclosed by the graphs of $y=\\frac{1}{1+x^{2}}$ and $y=x^{2}-\\frac{1}{3}$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">0.786</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">0.791</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">1.582</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">1.837</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">1.862</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_32",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 32,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">79. A vase has the shape obtained by revolving the curve $y=2+\\sin x$ from $x=0$ to $x=5$ about the $x$-axis, where $x$ and $y$ are measured in inches. What is the volume, in cubic inches, of the vase?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">10.716</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">25.501</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">33.666</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">71.113</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">80.115<br/><br/>\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}<br/><br/>\\begin{figure}<br/>\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-40.jpg?height=578&width=624&top_left_y=294&top_left_x=426}<br/>\\captionsetup{labelformat=empty}<br/>\\caption{Graph of $f$}<br/>\\end{figure}<br/><br/>\\begin{figure}<br/>\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-40.jpg?height=576&width=616&top_left_y=296&top_left_x=1079}<br/>\\captionsetup{labelformat=empty}<br/>\\caption{Graph of $g$}<br/>\\end{figure}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_33",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 33,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">80. The graphs of two differentiable functions $f$ and $g$ are shown above. Given $p(x)=f(x) g(x)$, which of the following statements about $p^{\\prime}(-2)$ is true?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$p^{\\prime}(-2)<0$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$p^{\\prime}(-2)=0$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$p^{\\prime}(-2)>0$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$p^{\\prime}(-2)$ is undefined.</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">There is not enough information given to conclude anything about $p^{\\prime}(-2)$.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_34",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 34,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">81. At time $t=0$ years, a forest preserve has a population of 1500 deer. If the rate of growth of the population is modeled by $R(t)=2000 e^{0.23 t}$ deer per year, what is the population at time $t=3$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">3987</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">5487</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">8641</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">10,141</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">12,628<br/><br/>\\begin{figure}<br/>\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-41.jpg?height=541&width=1028&top_left_y=293&top_left_x=554}<br/>\\captionsetup{labelformat=empty}<br/>\\caption{Graph of $f^{\\prime}$}<br/>\\end{figure}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_35",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 35,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">82. The figure above shows the graph of $f^{\\prime}$, the derivative of function $f$, for $-6<x<8$. Of the following, which best describes the graph of $f$ on the same interval?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">1 relative minimum, 1 relative maximum, and 3 points of inflection</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">1 relative minimum, 1 relative maximum, and 4 points of inflection</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">2 relative minima, 1 relative maximum, and 2 points of inflection</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">2 relative minima, 1 relative maximum, and 4 points of inflection</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">2 relative minima, 2 relative maxima, and 3 points of inflection<br/><br/>\\begin{tabular}{|c|c|}<br/>\\hline$x$ & $f^{\\prime}(x)$ \\\\<br/>\\hline 1 & 0.2 \\\\<br/>1.5 & 0.5 \\\\<br/>2 & 0.9 \\\\<br/>\\hline<br/>\\end{tabular}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_36",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 36,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">83. The table above gives values of $f^{\\prime}$, the derivative of a function $f$. If $f(1)=4$, what is the approximation to $f(2)$ obtained by using Euler's method with a step size of 0.5 ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">2.35</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">3.65</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">4.35</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">4.70</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">4.80</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_37",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 37,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">84. A sphere is expanding in such a way that the area of any circular cross section through the sphere's center is increasing at a constant rate of $2 \\mathrm{~cm}^{2} / \\mathrm{sec}$. At the instant when the radius of the sphere is 4 centimeters, what is the rate of change of the sphere's volume? (The volume $V$ of a sphere with radius $r$ is given by $V=\\frac{4}{3} \\pi r^{3}$.)</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$\\quad 8 \\mathrm{~cm}^{3} / \\mathrm{sec}$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$\\quad 16 \\mathrm{~cm}^{3} / \\mathrm{sec}$</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$8 \\pi \\mathrm{~cm}^{3} / \\mathrm{sec}$</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">$64 \\pi \\mathrm{~cm}^{3} / \\mathrm{sec}$</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$128 \\pi \\mathrm{~cm}^{3} / \\mathrm{sec}$<br/><br/>\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_38",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 38,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">85. For $t \\geq 0$, the components of the velocity of a particle moving in the $x y$-plane are given by the parametric equations $x^{\\prime}(t)=\\frac{1}{t+1}$ and $y^{\\prime}(t)=k e^{k t}$, where $k$ is a positive constant. The line $y=4 x+3$ is parallel to the line tangent to the path of the particle at the point where $t=2$. What is the value of $k$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">0.072</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">0.433</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">0.495</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">0.803</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">0.828<br/><br/>\\begin{tabular}{|c||c|c|c|c|c|c|c|}<br/>\\hline \\begin{tabular}{c}<br/>$t$ \\\\<br/>(hours)<br/>\\end{tabular} & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\<br/>\\hline \\begin{tabular}{c}<br/>$s(t)$ \\\\<br/>(miles)<br/>\\end{tabular} & 0 & 25 & 55 & 92 & 150 & 210 & 275 \\\\<br/>\\hline<br/>\\end{tabular}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_39",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 39,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">86. The table above gives the distance $s(t)$, in miles, that a car has traveled at various times $t$, in hours, during a 6-hour trip. The graph of the function $s$ is increasing and concave up. Based on the information, which of the following could be the velocity of the car, in miles per hour, at time $t=3$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">37</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">49</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">58</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">65</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">92</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_40",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 40,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">87. If $0<b_{n}<a_{n}$ for $n \\geq 1$, which of the following must be true?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} b_{n}$ converges.</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">If $\\sum_{n=1}^{\\infty} a_{n}$ converges, then $\\lim _{n \\rightarrow \\infty} b_{n}=0$.</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">If $\\sum_{n=1}^{\\infty} b_{n}$ diverges, then $\\lim _{n \\rightarrow \\infty} a_{n}=0$.</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">If $\\sum_{n=1}^{\\infty} a_{n}$ diverges, then $\\sum_{n=1}^{\\infty} b_{n}$ diverges.</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">If $\\sum_{n=1}^{\\infty} b_{n}$ converges, then $\\sum_{n=1}^{\\infty} a_{n}$ converges.<br/><img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-46.jpg?height=633&width=608&top_left_y=287&top_left_x=760\" /></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_41",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 41,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">88. A particle moves along the $x$-axis so that its acceleration $a(t)$ is given by the graph above for all values of $t$ where $0 \\leq t \\leq 1$. At time $t=0$, the velocity of the particle is $-\\frac{1}{2}$. Which of the following statements must be true?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">The particle passes through $x=0$ for some $t$ between $t=0$ and $t=1$.</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">The velocity of the particle is 0 for some $t$ between $t=0$ and $t=1$.</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">The velocity of the particle is negative for all values of $t$ between $t=0$ and $t=1$.</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">The velocity of the particle is positive for all values of $t$ between $t=0$ and $t=1$.</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">The velocity of the particle is less than $-\\frac{1}{2}$ for all values of $t$ between $t=0$ and $t=1$.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_42",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 42,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">89. The function $f$ is given by $f(x)=\\int_{1}^{x} \\sqrt{t^{3}+2} d t$. What is the average rate of change of $f$ over the interval $[0,3]$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">1.324</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">1.497</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">1.696</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">2.266</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">2.694</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_43",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 43,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">90. A particle moves along a line so that its velocity is given by $v(t)=-t^{3}+2 t^{2}+2^{-t}$ for $t \\geq 0$. For what values of $t$ is the speed of the particle increasing?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">$(0,0.177)$ and $(1.256, \\infty)$</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">$(0,1.256)$ only</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">$(0,2.057)$ only</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">( $0.177,1.256$ ) only</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">$(0.177,1.256)$ and $(2.057, \\infty)$</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_44",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 44,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">91. Line $\\ell$ is tangent to the graph of $y=\\cos x$ at the point $(k, \\cos k)$, where $0<k<\\pi$. For what value of $k$ does line $\\ell$ pass through the origin?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">0.860</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">1.571</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">2.356</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">2.798</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">There is no such value of $k$.<br/><br/>\\begin{tabular}{|c||c|c|}<br/>\\hline$x$ & 2 & 4 \\\\<br/>\\hline$f(x)$ & 7 & 13 \\\\<br/>\\hline$g(x)$ & 2 & 9 \\\\<br/>\\hline$g^{\\prime}(x)$ & 1 & 7 \\\\<br/>\\hline$g^{\\prime \\prime}(x)$ & 5 & 8 \\\\<br/>\\hline<br/>\\end{tabular}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_45",
+    "exam_id": "2014Intl",
+    "section_id": "mcq-2",
+    "sequence_in_exam": 45,
+    "question_type": "single_choice",
+    "question_html": "<p class=\"stem_paragraph\">92. The table above gives selected values of twice-differentiable functions $f$ and $g$, as well as the first two derivatives of $g$. If $f^{\\prime}(x)=3$ for all values of $x$, what is the value of $\\int_{2}^{4} f(x) g^{\\prime \\prime}(x) d x$ ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<div class=\"choiceTxt\">63</div>"
+      },
+      {
+        "key": "B",
+        "html": "<div class=\"choiceTxt\">69</div>"
+      },
+      {
+        "key": "C",
+        "html": "<div class=\"choiceTxt\">78</div>"
+      },
+      {
+        "key": "D",
+        "html": "<div class=\"choiceTxt\">84</div>"
+      },
+      {
+        "key": "E",
+        "html": "<div class=\"choiceTxt\">103<br/><br/>\\title{<br/>B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B<br/>}<br/><br/>\\section*{END OF SECTION I}</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_46",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 46,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">Ruth rode her bicycle on a straight trail. She recorded her velocity $v(t)$, in miles per hour, for selected values of $t$ over the interval $0 \\leq t \\leq 2.4$ hours, as shown in the table above. For $0<t \\leq 2.4, v(t)>0$.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">Use the data in the table to approximate Ruth's acceleration at time $t=1.4$ hours. Show the computations that lead to your answer. Indicate units of measure.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">Using correct units, interpret the meaning of $\\int_{0}^{2.4} v(t) d t$ in the context of the problem. Approximate $\\int_{0}^{2.4} v(t) d t$ using a midpoint Riemann sum with three subintervals of equal length and values from the table.</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">For $0 \\leq t \\leq 2.4$ hours, Ruth's velocity can be modeled by the function $g$ given by $g(t)=\\frac{24 t+5 \\sin (6 t)}{t+0.7}$. According to the model, what was Ruth's average velocity during the time interval $0 \\leq t \\leq 2.4$ ?</p>"
+      },
+      {
+        "partSign": "d",
+        "partContent": "<p class=\"stem_paragraph\">According to the model given in part (c), is Ruth's speed increasing or decreasing at time $t=1.3$ ? Give a reason for your answer.  \\section*{$\\begin{array}{llllllllll}2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2\\end{array}$} <img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-55.jpg?height=584&width=553&top_left_y=277&top_left_x=789\" /></p>"
+      }
+    ],
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_47",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 47,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">Consider the polar curve defined by the function $r(\\theta)=\\theta \\cos \\theta$, where $0 \\leq \\theta \\leq \\frac{3 \\pi}{2}$. The derivative of $r$ is given by $\\frac{d r}{d \\theta}=\\cos \\theta-\\theta \\sin \\theta$. The figure above shows the graph of $r$ for $0 \\leq \\theta \\leq \\frac{3 \\pi}{2}$.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">Find the area of the region enclosed by the inner loop of the curve.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">For $0 \\leq \\theta \\leq \\frac{3 \\pi}{2}$, find the greatest distance from any point on the graph of $r$ to the origin. Justify your answer.</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">There is a point on the curve at which the slope of the line tangent to the curve is $\\frac{2}{2-\\pi}$. At this point, $\\frac{d y}{d \\theta}=\\frac{1}{2}$. Find $\\frac{d x}{d \\theta}$ at this point.  END OF PART A OF SECTION II IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.  \\title{ CALCULUS BC \\\\ SECTION II, Part B \\\\ Time-60 minutes \\\\ Number of problems-4 }  No calculator is allowed for these problems.  \\section*{DO NOT BREAK THE SEALS UNTIL YOU ARE TOLD TO DO SO.} <img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-59.jpg?height=725&width=381&top_left_y=340&top_left_x=873\" /></p>"
+      }
+    ],
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_48",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 48,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">Let $f(x)=e^{2 x}$. Let $R$ be the region in the first quadrant bounded by the graph of $y=f(x)$ and the vertical line $x=1$, as shown in the figure above.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">Write an equation for the line tangent to the graph of $f$ at $x=1$.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">Find the area of $R$.</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">Region $R$ forms the base of a solid whose cross sections perpendicular to the $y$-axis are squares. Write, but do not evaluate, an expression involving one or more integrals that gives the volume of the solid. <img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-61.jpg?height=494&width=694&top_left_y=323&top_left_x=716\" /></p>"
+      }
+    ],
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_49",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 49,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">The continuous function $f$ is defined on the interval $-5 \\leq x \\leq 8$. The graph of $f$, which consists of four line segments, is shown in the figure above. Let $g$ be the function given by $g(x)=2 x+\\int_{-2}^{x} f(t) d t$.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">Find $g(0)$ and $g(-5)$.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">Find $g^{\\prime}(x)$ in terms of $f(x)$. For each of $g^{\\prime \\prime}(4)$ and $g^{\\prime \\prime}(-2)$, find the value or state that it does not exist.</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">On what intervals, if any, is the graph of $g$ concave down? Give a reason for your answer.</p>"
+      },
+      {
+        "partSign": "d",
+        "partContent": "<p class=\"stem_paragraph\">The function $h$ is given by $h(x)=g\\left(x^{3}+1\\right)$. Find $h^{\\prime}(1)$. Show the work that leads to your answer.  \\section*{NO CALCULATOR ALLOWED}</p>"
+      }
+    ],
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_50",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 50,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">A toy train moves along a straight track set up on a table. The position $x(t)$ of the train at time $t$ seconds is measured in centimeters from the center of the track. At time $t=1$, the train is 6 centimeters to the left of the center, so $x(1)=-6$. For $0 \\leq t \\leq 4$, the velocity of the train at time $t$ is given by $v(t)=3 t^{2}-12$, where $v(t)$ is measured in centimeters per second.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">For $0 \\leq t \\leq 4$, find $x(t)$.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">Find the total distance traveled by the train during the time interval $0 \\leq t \\leq 4$.</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">A toy bus moving on the same table has position given by $(x(t), y(t))$. Here, $x(t)$ is the function found in part (a), and $y(t)=2+12 \\sin \\left(\\frac{t}{4}\\right)$ is the distance from the bus to the train track, in centimeters. Write, but do not evaluate, an integral expression that gives the total distance traveled by the bus during the time interval $0 \\leq t \\leq 4$.  \\section*{NO CALCULATOR ALLOWED}</p>"
+      }
+    ],
+    "unit": ""
+  },
+  {
+    "question_id": "q_2014Intl_51",
+    "exam_id": "2014Intl",
+    "section_id": "frq-1",
+    "sequence_in_exam": 51,
+    "question_type": "frq",
+    "question_html": "<p class=\"stem_paragraph\">Let $a_{n}=\\frac{1}{n \\ln n}$ for $n \\geq 3$.</p>",
+    "subjectiveList": [
+      {
+        "partSign": "a",
+        "partContent": "<p class=\"stem_paragraph\">Let $f$ be the function given by $f(x)=\\frac{1}{x \\ln x}$. For $x \\geq 3, f$ is continuous, decreasing, and positive. Use the integral test to show that $\\sum_{n=3}^{\\infty} a_{n}$ diverges.</p>"
+      },
+      {
+        "partSign": "b",
+        "partContent": "<p class=\"stem_paragraph\">Consider the infinite series $\\sum_{n=3}^{\\infty}(-1)^{n+1} a_{n}=\\frac{1}{3 \\ln 3}-\\frac{1}{4 \\ln 4}+\\frac{1}{5 \\ln 5}-\\cdots$. Identify properties of this series that guarantee the series converges. Explain why the sum of this series is less than $\\frac{1}{3}$.  \\section*{<img src=\"https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-66.jpg?height=87&width=1574&top_left_y=92&top_left_x=256\" /> \\\\ NO CALCULATOR ALLOWED}</p>"
+      },
+      {
+        "partSign": "c",
+        "partContent": "<p class=\"stem_paragraph\">Find the interval of convergence of the power series $\\sum_{n=3}^{\\infty} \\frac{(x-2)^{n+1}}{n \\ln n}$. Show the analysis that leads to your answer.  \\section*{STOP}  \\section*{END OF EXAM}</p>"
+      }
+    ],
+    "unit": ""
+  }
+]

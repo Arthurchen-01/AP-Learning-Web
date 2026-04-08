@@ -249,9 +249,178 @@ function renderDashboardHome(root) {
   const subjects = getUserDashboardSubjects();
 
   if (!subjects.length) {
-    root.innerHTML = '<div class="empty-state">当前用户还没有配置报考科目。</div>';
+    root.innerHTML = '<div class="empty-state">\u5f53\u524d\u7528\u6237\u8fd8\u6ca1\u6709\u914d\u7f6e\u62a5\u8003\u79d1\u76ee\u3002</div>';
     return;
   }
+
+  // Add alert section for notifications
+  const alerts = getDashboardAlerts();
+
+  root.innerHTML = `
+    <section class="overview-card">
+      <div class="overview-head">
+        <div>
+          <span class="eyebrow">Learning Center</span>
+          <h2>${escapeHtml(user.name || "AP Learner")}</h2>
+          <p>${escapeHtml(user.goal || "\u5148\u7528 mock \u6570\u636e\u628a\u4e2a\u4eba\u5b66\u4e60\u8bb0\u5f55\u4e2d\u5fc3\u8dd1\u8d77\u6765\u3002")}</p>
+        </div>
+        <span class="summary-badge">${subjects.length} \u95e8\u62a5\u8003\u79d1\u76ee</span>
+      </div>
+      <div class="card-meta">
+        ${(user.examSubjects || []).map((subjectId) => {
+          const subject = getDashboardSubjectById(subjectId);
+          return subject ? `<span class="chip">${escapeHtml(subject.label)}</span>` : "";
+        }).join("")}
+      </div>
+    </section>
+    
+    <!-- Alert Section -->
+    ${alerts.length > 0 ? `
+      <section class="alert-section">
+        <div class="alert-header">
+          <span class="eyebrow">Notifications</span>
+          <span class="alert-count">${alerts.length} \u6761\u65b0\u901a\u77e5</span>
+        </div>
+        <div class="alert-list">
+          ${alerts.map((alert) => `
+            <div class="alert-item ${alert.type}">
+              <div class="alert-icon">
+                ${getAlertIcon(alert.type)}
+              </div>
+              <div class="alert-content">
+                <div class="alert-title">${escapeHtml(alert.title)}</div>
+                <div class="alert-message">${escapeHtml(alert.message)}</div>
+                <div class="alert-meta">
+                  <span class="alert-time">${escapeHtml(alert.time)}</span>
+                  <button class="alert-action" data-alert-id="${alert.id}">\u67e5\u770b</button>
+                </div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </section>
+    ` : ''}
+    
+    <section class="dashboard-cards dashboard-cards-${subjects.length > 3 ? "dense" : "open"}">
+      ${subjects.map((subject, index) => renderDashboardHomeCard(subject, index)).join("")}
+    </section>
+    <section class="help-section">
+      <div class="help-toggle">
+        <button class="help-button" type="button">
+          <span class="help-icon">©</span>
+          <span class="help-label">\u5f00\u542f\u5e2e\u52a9</span>
+        </button>
+      </div>
+      <div class="help-content" style="display: none;">
+        <div class="help-intro">
+          <h3>\u5b66\u4e60\u8bb0\u5f55\u4e2d\u5fc3\u8bf4\u660e</h3>
+          <p>\u672c\u9875\u9762\u4e3a\u60a8\u63d0\u4f9b\u4e2a\u6027\u5316\u7684\u5b66\u4e60\u8ffd\u8e2a\u4e0e\u9884\u6d4b\u5206\u6790\u3002\u6bcf\u4e2a\u79d1\u76ee\u90fd\u5177\u6709\u989c\u8272\u4ee3\u8868\u7684\u5b66\u4e60\u72b6\u6001\u3001\u5206\u6570\u6982\u7387\u9884\u6d4b\u4ee5\u53ca\u77e5\u8bc6\u70b9\u638c\u63e1\u5ea6\u5206\u6790\u3002</p>
+        </div>
+        <div class="help-features">
+          <div class="feature-item">
+            <strong>\u989c\u8272\u72b6\u6001\u8bf4\u660e</strong>
+            <p>\u9ec4\u5c0f\u70b9\uff1a\u6700\u4f73\u72b6\u6001\u3001\u9762\u5411\u9009\u62e9\u9898\u7b2c\u4e00\u7ad9\u3002\u5f53\u9009\u62e9\u6b64\u79d1\u76ee\u5f00\u59cb\u9884\u4f5c\u65f6\u663e\u793a\u3002</p>
+            <p>\u6d45\u7ea2\u8272\uff1a\u5f88\u597d\u72b6\u6001\u3001\u5206\u6570\u6982\u7387\u9ad8\u3001\u5e94\u5bf9\u7b2c\u4e8c\u7ad9\u9009\u62e9\u9898\u3002</p>
+            <p>\u6d45\u6a59\u8272\uff1a\u4e2d\u7b49\u72b6\u6001\u3001\u5206\u6570\u6982\u7387\u4e2d\u7b49\u3001\u5efa\u8bae\u589e\u5f3a\u7ec3\u4e60\u3002</p>
+            <p>\u6d45\u7070\u8272\uff1a\u8f7b\u5fae\u72b6\u6001\u3001\u5206\u6570\u6982\u7387\u4f4e\u3001\u5efa\u8bae\u91cd\u70b9\u8865\u5f3a\u3002</p>
+          </div>
+          <div class="feature-item">
+            <strong>\u4e94\u5206\u6570\u6982\u7387\u89e3\u91ca</strong>
+            <p>\u6839\u636e\u5f53\u524d\u77e5\u8bc6\u70b9\u638c\u63e1\u5ea6\u3001\u8de8\u5ea6\u9884\u6d4b\u6d4b\u9898\u6210\u7ee9\u7b49\u6570\u636e\u6a21\u578b\u8ba1\u7b97\u51fa\u7684\u5206\u6570\u6982\u7387\u3002</p>
+            <p>\u4f8b\u5982\uff1a\uff1a) 29-34 / 45\u8868\u793a\u9884\u6d4b\u5728 29-34 \u5206\u95f9\uff0c\u5b8c\u6574\u5206\u6570\u4e3a 45 \u5206\u3002</p>
+          </div>
+          <div class="feature-item">
+            <strong>\u638c\u63e1\u5ea6\u5206\u6790</strong>
+            <p>\u77e5\u8bc6\u70b9\u638c\u63e1\u5ea6\u662f\u6839\u636e\u4e2d\u5fc3\u77e5\u8bc6\u70b9\u7684\u5b66\u4e60\u8fdb\u5ea6\u8ba1\u7b97\u51fa\u7684\u3002</p>
+            <p>\u9ec4\u5c0f\u70b9\uff1a\u5df2\u638c\u63e1\u3001\u53ef\u5b89\u5fc3\u7b54\u9898\uff1b\u5f53\u9009\u62e9\u6b64\u79d1\u76ee\u5f00\u59cb\u9884\u4f5c\u65f6\u663e\u793a\u3002</p>
+            <p>\u6d45\u7ea2\u8272\uff1a\u57fa\u7840\u5f3a\u3001\u6709\u4e9b\u5f31\u70b9\u9700\u8981\u91cd\u70b9\u7ec3\u4e60\u3002</p>
+            <p>\u6d45\u6a59\u8272\uff1a\u77e5\u8bc6\u70b9\u4e0d\u7a33\u5b9a\u3001\u9700\u8981\u91cd\u70b9\u8865\u5f3a\u3002</p>
+            <p>\u6d45\u7070\u8272\uff1a\u5f31\u70b9\u4e3b\u8981\u9700\u8981\u91cd\u65b0\u5b66\u4e60\u3002</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+// Alert system functions
+function getDashboardAlerts() {
+  const alerts = [];
+  const user = state.mockData.user || {};
+  const subjects = getUserDashboardSubjects();
+  
+  // Check for upcoming exams
+  subjects.forEach((subject) => {
+    if (isExamApproaching(subject.examDate, 14)) {
+      alerts.push({
+        id: `upcoming-${subject.id}`,
+        type: 'exam', 
+        title: '\u8003\u8bd5\u5373\u5c06\u5f00\u59cb',
+        message: `\u79d1\u76ee ${subject.label} \u8003\u8bd5\u5728 ${subject.examDate} \u5f00\u59cb\uff0c\u8bf7\u51c6\u5907\u597d\u3002`,
+        time: subject.examDate,
+        severity: 'medium'
+      });
+    }
+  });
+
+  // Check for low mastery subjects
+  subjects.forEach((subject) => {
+    if (subject.overallMastery < 50) {
+      alerts.push({
+        id: `low-mastery-${subject.id}`,
+        type: 'warning', 
+        title: '\u638c\u63e1\u5ea6\u4f4e',
+        message: `\u79d1\u76ee ${subject.label} \u638c\u63e1\u5ea6\u4e0d\u8db3 50%\uff0c\u5efa\u8bae\u589e\u52a0\u7ec3\u4e60\u91cf\u3002`,
+        time: new Date().toISOString(),
+        severity: 'high'
+      });
+    }
+  });
+
+  // Check for predicted score drops
+  subjects.forEach((subject) => {
+    const currentScore = getAverageScore(subject.mcqPrediction, subject.frqPrediction);
+    if (currentScore < 25) {
+      alerts.push({
+        id: `score-drop-${subject.id}`,
+        type: 'alert', 
+        title: '\u9884\u6d4b\u5206\u6570\u4f4e',
+        message: `\u79d1\u76ee ${subject.label} \u9884\u6d4b\u603b\u5206\u4e0d\u8db3 25 \u5206\uff0c\u5efa\u8bae\u91cd\u70b9\u8865\u5f3a\u3002`,
+        time: new Date().toISOString(),
+        severity: 'high'
+      });
+    }
+  });
+
+  return alerts.sort((a, b) => {
+    const severityOrder = { high: 3, medium: 2, low: 1 };
+    return (severityOrder[b.severity] || 0) - (severityOrder[a.severity] || 0);
+  });
+}
+
+function isExamApproaching(examDate, thresholdDays) {
+  if (!examDate) return false;
+  const exam = new Date(examDate);
+  const now = new Date();
+  const diffDays = Math.ceil((exam - now) / (1000 * 60 * 60 * 24));
+  return diffDays <= thresholdDays && diffDays > 0;
+}
+
+function getAverageScore(mcqPrediction, frqPrediction) {
+  if (!mcqPrediction || !frqPrediction) return 0;
+  const mcqParts = mcqPrediction.split('-').map(Number);
+  const frqParts = frqPrediction.split('-').map(Number);
+  return (mcqParts[0] + frqParts[0]) / 2;
+}
+
+function getAlertIcon(type) {
+  const icons = {
+    'exam': '🕐',
+    'warning': '⚠️',
+    'alert': '🚨'
+  };
+  return icons[type] || '📋';
+}
 
   root.innerHTML = `
     <section class="overview-card">

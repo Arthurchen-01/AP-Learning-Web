@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Learning - 正式版</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --primary: #3b82f6;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+    nav { display: flex; gap: 1.5rem; }
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+    nav a:hover, nav a.active { color: var(--text); background: var(--border); }
+    nav a.primary { background: var(--primary); color: white; }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, var(--card-bg) 0%, #0f172a 100%);
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; }
+    .hero-actions { display: flex; gap: 1rem; justify-content: center; }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+    .btn-secondary { background: var(--border); color: var(--text); }
+    .btn-secondary:hover { background: #475569; }
+
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem 0;
+    }
+
+    .subject-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+    .subject-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+    .subject-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .subject-card .meta { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+
+    .mastery-bar {
+      height: 8px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 0.75rem 0;
+    }
+    .mastery-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+    .mastery-fill.high { background: var(--success); }
+    .mastery-fill.mid { background: var(--warning); }
+    .mastery-fill.low { background: var(--danger); }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .stat-card .value { font-size: 2rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; }
+
+    .quick-start {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      padding: 2rem 0;
+    }
+    .quick-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 2rem;
+      border: 1px solid var(--border);
+    }
+    .quick-card h3 { margin-bottom: 1rem; }
+    .quick-card .exams { margin-top: 1rem; }
+    .exam-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem;
+      border-radius: 6px;
+      background: var(--bg);
+      margin-bottom: 0.5rem;
+    }
+    .exam-item:hover { background: var(--border); }
+    .exam-item .name { font-weight: 500; }
+    .exam-item .year { color: var(--text-muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">AP Learning</div>
+    <nav>
+      <a href="v2/" class="active">首页</a>
+      <a href="v2/exam/">套题模考</a>
+      <a href="v2/dashboard/">学习面板</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>AP 学习平台</h1>
+    <p>高效备考，自主练习，实时掌握学习进度</p>
+    <div class="hero-actions">
+      <a href="v2/exam/" class="btn btn-primary">开始模考</a>
+      <a href="v2/dashboard/" class="btn btn-secondary">查看进度</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="stats">
+      <div class="stat-card">
+        <div class="value" id="total-exams">0</div>
+        <div class="label">已练习试卷</div>
+      </div>
+      <div class="stat-card">
+        <div class="value" id="total-questions">0</div>
+        <div class="label">已完成题目</div>
+      </div>
+      <div class="stat-card">
+        <div class="value" id="accuracy">0%</div>
+        <div class="label">平均正确率</div>
+      </div>
+      <div class="stat-card">
+        <div class="value" id="streak">0</div>
+        <div class="label">连续学习天数</div>
+      </div>
+    </div>
+
+    <h2 style="margin: 1rem 0;">快速开始</h2>
+    <div class="quick-start">
+      <div class="quick-card">
+        <h3>最新试卷</h3>
+        <div class="exams" id="recent-exams">
+          <div class="exam-item">
+            <div>
+              <div class="name">AP Calculus BC 2018 国际卷</div>
+              <div class="year">45题 | 预计 1小时45分钟</div>
+            </div>
+            <a href="v2/exam/paper.html?exam=calc-bc-2018-intl" class="btn btn-primary">做题</a>
+          </div>
+        </div>
+      </div>
+      <div class="quick-card">
+        <h3>我的错题</h3>
+        <div class="exams" id="recent-errors">
+          <p style="color: var(--text-muted)">暂无错题记录</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin: 1rem 0;">科目概览</h2>
+    <div class="subjects-grid" id="subjects-grid">
+      <!-- 动态加载 -->
+    </div>
+  </div>
+
+  <script type="module">
+    import { loadExamIndex } from './js/data-service.js';
+
+    async function init() {
+      // 加载用户进度
+      const progress = JSON.parse(localStorage.getItem('ap-learning-progress') || '{"exams":0,"questions":0,"accuracy":0}');
+      document.getElementById('total-exams').textContent = progress.exams;
+      document.getElementById('total-questions').textContent = progress.questions;
+      document.getElementById('accuracy').textContent = progress.accuracy + '%';
+
+      // 加载科目网格
+      const grid = document.getElementById('subjects-grid');
+      const subjects = [
+        { id: 'calculus_bc', name: 'AP Calculus BC', units: 10, mastery: 72 },
+        { id: 'calculus_ab', name: 'AP Calculus AB', units: 8, mastery: 0 },
+        { id: 'statistics', name: 'AP Statistics', units: 9, mastery: 0 },
+        { id: 'microeconomics', name: 'AP Microeconomics', units: 6, mastery: 0 },
+        { id: 'macroeconomics', name: 'AP Macroeconomics', units: 6, mastery: 0 },
+        { id: 'physics_c_mech', name: 'AP Physics C: Mechanics', units: 8, mastery: 0 },
+      ];
+
+      grid.innerHTML = subjects.map(s => `
+        <div class="subject-card" onclick="location.href='v2/dashboard/?subject=${s.id}'">
+          <h3>${s.name}</h3>
+          <div class="meta">${s.units} Units</div>
+          <div class="mastery-bar">
+            <div class="mastery-fill ${s.mastery >= 60 ? 'high' : s.mastery >= 30 ? 'mid' : 'low'}"
+                 style="width: ${s.mastery}%"></div>
+          </div>
+          <div style="font-size: 0.85rem; color: var(--text-muted)">
+            ${s.mastery > 0 ? `掌握度 ${s.mastery}%` : '尚未开始'}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>
