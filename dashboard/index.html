@@ -236,6 +236,18 @@
       border-radius: 50%;
     }
 
+    .trained-badge {
+      position: absolute;
+      bottom: 2px;
+      right: 2px;
+      font-size: 10px;
+      line-height: 1;
+    }
+
+    .mastery-block[data-trained="true"] {
+      border: 2px solid #22c55e;
+    }
+
     /* ========== Unit Detail Panel ========== */
     .unit-detail {
       background: var(--card-bg);
@@ -292,6 +304,46 @@
       font-weight: 600;
       background: #fbbf2420;
       color: #fbbf24;
+    }
+    .detail-section {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+    .detail-section-title {
+      margin-bottom: 0.75rem;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .activity-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .activity-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem;
+      border-radius: 8px;
+      background: var(--bg);
+    }
+    .activity-item-name {
+      font-size: 0.9rem;
+    }
+    .activity-item-meta {
+      margin-top: 0.2rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .activity-item-pct {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      white-space: nowrap;
     }
 
     /* ========== Quick Actions ========== */
@@ -392,6 +444,34 @@
     // ========== Dashboard Data ==========
     let dashboardData = null;
 
+    const CALC_BC_DASHBOARD_STATE_KEY = 'mokaoai-local-mock:1902622411800285184';
+    const TRAINING_COMPLETIONS_KEY = 'mokaoai-training-completions';
+
+    function loadTrainingCompletions() {
+      try {
+        const raw = localStorage.getItem(TRAINING_COMPLETIONS_KEY);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    }
+    const CALC_BC_MAPPING_PATH = '../v2/data/calc-bc-2018-intl/question-branch-mapping.json';
+    const CALC_BC_CONTRACT_PATH = '../v2/data/contracts/ap-calculus-bc-trunk-contract.json';
+    const CALC_BC_DASHBOARD_DEFAULT_UNITS = [
+      { name: 'Limits and Continuity', mastery: 85, crown: true },
+      { name: 'Differentiation', mastery: 72, crown: false },
+      { name: 'Applications of Derivatives', mastery: 65, crown: false },
+      { name: 'Integration', mastery: 58, crown: false },
+      { name: 'Applications of Integration', mastery: 45, crown: false },
+      { name: 'Differential Equations', mastery: 30, crown: false },
+      { name: 'Parametric & Polar', mastery: 20, crown: false },
+      { name: 'Infinite Sequences', mastery: 15, crown: false }
+    ];
+    const CALC_BC_DASHBOARD_MAX_BLOCKS = 8;
+    const CALC_BC_DASHBOARD_RECENT_LIMIT = 3;
+
     // 加载进度数据
     function loadProgress() {
       try {
@@ -417,30 +497,26 @@
       return sessions;
     }
 
-    // 模拟科目数据
-    function getSubjectData() {
-      const progress = loadProgress();
+    function getCalcBcDefaultSubject(progress) {
+      return {
+        id: 'calc-bc',
+        name: 'AP Calculus BC',
+        examDate: '2026-05-11',
+        predictedScore: 4,
+        fiveProbability: progress.subjects?.calculus_bc
+          ? Math.round((progress.subjects.calculus_bc.correct / progress.subjects.calculus_bc.questions) * 100)
+          : 72,
+        mcqScore: progress.subjects?.calculus_bc?.correct || 0,
+        mcqTotal: progress.subjects?.calculus_bc?.questions || 45,
+        units: CALC_BC_DASHBOARD_DEFAULT_UNITS.map((unit) => ({ ...unit })),
+        recentActivity: [],
+        dashboardSource: 'static'
+      };
+    }
+
+    function getStaticSubjectData(progress) {
       return [
-        {
-          id: 'calc-bc',
-          name: 'AP Calculus BC',
-          examDate: '2026-05-11',
-          predictedScore: 4,
-          fiveProbability: progress.subjects?.calculus_bc ?
-            Math.round((progress.subjects.calculus_bc.correct / progress.subjects.calculus_bc.questions) * 100) : 72,
-          mcqScore: progress.subjects?.calculus_bc?.correct || 0,
-          mcqTotal: progress.subjects?.calculus_bc?.questions || 45,
-          units: [
-            { name: 'Limits and Continuity', mastery: 85, crown: true },
-            { name: 'Differentiation', mastery: 72, crown: false },
-            { name: 'Applications of Derivatives', mastery: 65, crown: false },
-            { name: 'Integration', mastery: 58, crown: false },
-            { name: 'Applications of Integration', mastery: 45, crown: false },
-            { name: 'Differential Equations', mastery: 30, crown: false },
-            { name: 'Parametric & Polar', mastery: 20, crown: false },
-            { name: 'Infinite Sequences', mastery: 15, crown: false }
-          ]
-        },
+        getCalcBcDefaultSubject(progress),
         {
           id: 'stats',
           name: 'AP Statistics',
@@ -454,14 +530,252 @@
             { name: 'Sampling & Experiment', mastery: 40, crown: false },
             { name: 'Probability', mastery: 25, crown: false },
             { name: 'Inference', mastery: 10, crown: false }
-          ]
+          ],
+          recentActivity: [],
+          dashboardSource: 'static'
         }
       ];
     }
 
+    function loadCalcBcDashboardState() {
+      try {
+        const raw = localStorage.getItem(CALC_BC_DASHBOARD_STATE_KEY);
+        return raw ? JSON.parse(raw) : null;
+      } catch (error) {
+        console.warn('Failed to parse Cal BC dashboard state', error);
+        return null;
+      }
+    }
+
+    async function loadCalcBcDashboardResources() {
+      if (dashboardData) {
+        return dashboardData;
+      }
+
+      try {
+        const [mappingResponse, contractResponse] = await Promise.all([
+          fetch(CALC_BC_MAPPING_PATH),
+          fetch(CALC_BC_CONTRACT_PATH)
+        ]);
+
+        if (!mappingResponse.ok || !contractResponse.ok) {
+          console.warn('Cal BC dashboard resources unavailable', {
+            mappingStatus: mappingResponse.status,
+            contractStatus: contractResponse.status
+          });
+          dashboardData = null;
+          return null;
+        }
+
+        const [mapping, contract] = await Promise.all([
+          mappingResponse.json(),
+          contractResponse.json()
+        ]);
+
+        dashboardData = { mapping, contract };
+        return dashboardData;
+      } catch (error) {
+        console.warn('Failed to load Cal BC dashboard resources', error);
+        dashboardData = null;
+        return null;
+      }
+    }
+
+    function flattenCalcBcAttemptQuestions(attemptState) {
+      if (!attemptState || !Array.isArray(attemptState.sectionStates)) {
+        return [];
+      }
+
+      let sequenceInExam = 0;
+      return attemptState.sectionStates.flatMap((sectionState) => {
+        const answers = Array.isArray(sectionState?.answers) ? sectionState.answers : [];
+        return answers.map((answer) => {
+          sequenceInExam += 1;
+          return {
+            sequenceInExam,
+            answer,
+            answered: isDashboardAnswerFilled(answer)
+          };
+        });
+      });
+    }
+
+    function isDashboardAnswerFilled(answer) {
+      if (Array.isArray(answer)) {
+        return answer.length > 0;
+      }
+      if (answer && typeof answer === 'object') {
+        return Object.values(answer).some((value) => isDashboardAnswerFilled(value));
+      }
+      return String(answer || '').trim().length > 0;
+    }
+
+    function normalizeCoveragePercent(rate) {
+      return Math.max(0, Math.min(100, Math.round(rate * 100)));
+    }
+
+    function compareDashboardCoverage(left, right) {
+      if (right.mastery !== left.mastery) {
+        return right.mastery - left.mastery;
+      }
+      if ((right.answeredCount || 0) !== (left.answeredCount || 0)) {
+        return (right.answeredCount || 0) - (left.answeredCount || 0);
+      }
+      if ((right.sequenceOrder || 0) !== (left.sequenceOrder || 0)) {
+        return (right.sequenceOrder || 0) - (left.sequenceOrder || 0);
+      }
+      return String(left.name || '').localeCompare(String(right.name || ''));
+    }
+
+    function buildCalcBcDashboardOverlay(attemptState, resources, trainingCompletions) {
+      // Build trained branch set from completions
+      const trainedBranchIds = new Set();
+      if (Array.isArray(trainingCompletions)) {
+        trainingCompletions.forEach((record) => {
+          if (record.branchId) trainedBranchIds.add(record.branchId);
+        });
+      }
+
+      if (!attemptState || !resources?.mapping || !resources?.contract) {
+        return null;
+      }
+
+      const questionRecords = flattenCalcBcAttemptQuestions(attemptState);
+      if (!questionRecords.length) {
+        return null;
+      }
+
+      const mappingEntries = Array.isArray(resources.mapping?.mappings)
+        ? resources.mapping.mappings
+        : [];
+      const branchById = new Map((resources.contract?.branches || []).map((branch) => [branch.id, branch]));
+      const questionBySequence = new Map(questionRecords.map((record) => [record.sequenceInExam, record]));
+
+      const branchBuckets = new Map();
+      mappingEntries.forEach((mappingEntry) => {
+        const branchId = mappingEntry.branchId || (Array.isArray(mappingEntry.branchIds) ? mappingEntry.branchIds[0] : '');
+        if (!branchId) {
+          return;
+        }
+        const record = questionBySequence.get(Number(mappingEntry.sequenceInExam));
+        if (!record) {
+          return;
+        }
+        if (!branchBuckets.has(branchId)) {
+          const branchMeta = branchById.get(branchId) || {};
+          branchBuckets.set(branchId, {
+            id: branchId,
+            name: branchMeta.name || branchId,
+            trunkId: branchMeta.trunkId || mappingEntry.trunkId || '',
+            mappedCount: 0,
+            answeredCount: 0,
+            latestSequence: 0
+          });
+        }
+        const bucket = branchBuckets.get(branchId);
+        bucket.mappedCount += 1;
+        if (record.answered) {
+          bucket.answeredCount += 1;
+        }
+        bucket.latestSequence = Math.max(bucket.latestSequence, record.sequenceInExam);
+      });
+
+      const branchCoverage = [...branchBuckets.values()]
+        .map((bucket) => ({
+          ...bucket,
+          mastery: normalizeCoveragePercent(bucket.mappedCount ? bucket.answeredCount / bucket.mappedCount : 0),
+          crown: bucket.mappedCount > 0 && bucket.answeredCount === bucket.mappedCount,
+          sequenceOrder: bucket.latestSequence
+        }))
+        .filter((bucket) => bucket.mappedCount > 0);
+
+      if (!branchCoverage.length) {
+        return null;
+      }
+
+      const masteryBlocks = [...branchCoverage]
+        .sort(compareDashboardCoverage)
+        .slice(0, CALC_BC_DASHBOARD_MAX_BLOCKS)
+        .map(({ id, name, mastery, crown, answeredCount, mappedCount }) => ({
+          id,
+          name,
+          mastery,
+          crown,
+          trained: trainedBranchIds.has(id),
+          answeredCount,
+          mappedCount
+        }));
+
+      const recentActivity = [...branchCoverage]
+        .filter((bucket) => bucket.answeredCount > 0)
+        .sort((left, right) => right.latestSequence - left.latestSequence)
+        .slice(0, CALC_BC_DASHBOARD_RECENT_LIMIT)
+        .map(({ id, name, mastery, answeredCount, mappedCount }) => ({
+          id,
+          name,
+          mastery,
+          trained: trainedBranchIds.has(id),
+          answeredCount,
+          mappedCount
+        }));
+
+      return {
+        units: masteryBlocks,
+        recentActivity,
+        mappedBranchCount: branchCoverage.length
+      };
+    }
+
+    async function getSubjectData() {
+      const progress = loadProgress();
+      const subjects = getStaticSubjectData(progress);
+      const calcBcSubject = subjects.find((subject) => subject.id === 'calc-bc');
+      if (!calcBcSubject) {
+        return subjects;
+      }
+
+      const [attemptState, resources, trainingCompletions] = await Promise.all([
+        Promise.resolve(loadCalcBcDashboardState()),
+        loadCalcBcDashboardResources(),
+        Promise.resolve(loadTrainingCompletions())
+      ]);
+      const overlay = buildCalcBcDashboardOverlay(attemptState, resources, trainingCompletions);
+
+      if (overlay) {
+        calcBcSubject.units = overlay.units;
+        calcBcSubject.recentActivity = overlay.recentActivity;
+        calcBcSubject.dashboardSource = 'local';
+      }
+
+      return subjects;
+    }
+
+    function renderRecentActivity(subject) {
+      if (!Array.isArray(subject.recentActivity) || !subject.recentActivity.length) {
+        return '';
+      }
+
+      return `
+        <div class="detail-section">
+          <div class="detail-section-title">Recent branch activity</div>
+          <div class="activity-list">
+            ${subject.recentActivity.map((item) => `
+              <div class="activity-item">
+                <div>
+                  <div class="activity-item-name">${item.name}${item.trained ? ' ✅' : ''}</div>
+                  <div class="activity-item-meta">${item.answeredCount}/${item.mappedCount} mapped questions covered${item.trained ? ' · trained' : ''}</div>
+                </div>
+                <div class="activity-item-pct">${item.mastery}%</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
     // ========== Render ==========
-    function renderDashboard() {
-      const subjects = getSubjectData();
+    async function renderDashboard() {
+      const subjects = await getSubjectData();
       const grid = document.getElementById('subjects-grid');
 
       grid.innerHTML = subjects.map(subject => {
@@ -477,9 +791,10 @@
           else if (unit.mastery >= 40) level = 'mid';
 
           return `
-            <div class="mastery-block" data-level="${level}" title="${unit.name}: ${unit.mastery}%">
+            <div class="mastery-block" data-level="${level}" data-trained="${unit.trained ? 'true' : 'false'}" title="${unit.name}: ${unit.mastery}%${unit.trained ? ' ✅ trained' : ''}">
               <div class="mastery-fill" style="height: ${unit.mastery}%"></div>
               ${unit.crown ? '<div class="crown-badge"></div>' : ''}
+              ${unit.trained ? '<div class="trained-badge">✅</div>' : ''}
             </div>
           `;
         }).join('');
@@ -534,8 +849,8 @@
     }
 
     // ========== Unit Detail ==========
-    function toggleUnitDetail(subjectId) {
-      const subjects = getSubjectData();
+    async function toggleUnitDetail(subjectId) {
+      const subjects = await getSubjectData();
       const subject = subjects.find(s => s.id === subjectId);
       if (!subject) return;
 
@@ -544,19 +859,29 @@
       const title = document.getElementById('unit-detail-title');
 
       title.textContent = `${subject.name} - Units`;
-      unitsGrid.innerHTML = subject.units.map(unit => {
-        const level = unit.mastery >= 60 ? 'high' : unit.mastery >= 40 ? 'mid' : 'low';
-        return `
-          <div class="unit-row">
-            <span class="unit-name">${unit.name}</span>
-            <div class="unit-bar">
-              <div class="unit-fill ${level}" style="width: ${unit.mastery}%"></div>
+      unitsGrid.innerHTML = `
+        ${subject.units.map(unit => {
+          const level = unit.mastery >= 60 ? 'high' : unit.mastery >= 40 ? 'mid' : 'low';
+          const coverageMeta = Number.isFinite(unit.answeredCount) && Number.isFinite(unit.mappedCount)
+            ? `<div class="activity-item-meta">${unit.answeredCount}/${unit.mappedCount} mapped questions covered</div>`
+            : '';
+          return `
+            <div class="unit-row">
+              <div class="unit-name">
+                <div>${unit.name}</div>
+                ${coverageMeta}
+              </div>
+              <div class="unit-bar">
+                <div class="unit-fill ${level}" style="width: ${unit.mastery}%"></div>
+              </div>
+              <span class="unit-pct">${unit.mastery}%</span>
+              ${unit.crown ? '<span class="unit-badge">👑</span>' : ''}
+              ${unit.trained ? '<span class="unit-badge" title="Trained">✅</span>' : ''}
             </div>
-            <span class="unit-pct">${unit.mastery}%</span>
-            ${unit.crown ? '<span class="unit-badge">👑</span>' : ''}
-          </div>
-        `;
-      }).join('');
+          `;
+        }).join('')}
+        ${renderRecentActivity(subject)}
+      `;
 
       detail.style.display = 'block';
       detail.scrollIntoView({ behavior: 'smooth' });
