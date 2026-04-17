@@ -255,6 +255,88 @@
     .coming-soon .icon { font-size: 3rem; margin-bottom: 1rem; }
     .coming-soon h2 { margin-bottom: 0.5rem; }
     .coming-soon p { color: var(--text-muted); }
+
+    /* Deep-link drill */
+    .hidden { display: none !important; }
+    .drill-view {
+      display: none;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+    .drill-view.active { display: block; }
+    .drill-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .drill-header h2 { margin-bottom: 0.5rem; }
+    .drill-meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .meta-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.9rem;
+    }
+    .meta-label {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      margin-bottom: 0.35rem;
+    }
+    .meta-value {
+      font-weight: 600;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    .status-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      color: var(--text-muted);
+    }
+    .question-list {
+      display: grid;
+      gap: 1rem;
+    }
+    .question-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      background: rgba(255,255,255,0.02);
+    }
+    .question-number {
+      color: var(--primary);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .question-prompt {
+      line-height: 1.7;
+      margin-bottom: 0.9rem;
+    }
+    .option-list {
+      list-style: none;
+      display: grid;
+      gap: 0.5rem;
+    }
+    .option-item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.65rem 0.8rem;
+    }
+    .option-key {
+      color: var(--primary);
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
   </style>
 </head>
 <body>
@@ -275,8 +357,29 @@
   </header>
 
   <main class="container">
-    <h1>专项训练</h1>
-    <p class="subtitle">选择科目 → 选择题型 → 开始练习</p>
+    <h1 id="page-title">专项训练</h1>
+    <p class="subtitle" id="page-subtitle">选择科目 → 选择题型 → 开始练习</p>
+
+    <section class="drill-view" id="drill-view" aria-live="polite">
+      <div class="drill-header">
+        <div>
+          <h2 id="drill-title">Branch Drill</h2>
+          <p class="subtitle" id="drill-subtitle" style="text-align:left; margin-bottom:0;">加载中...</p>
+        </div>
+        <a class="btn btn-secondary" href="./">返回默认训练入口</a>
+      </div>
+      <div class="drill-meta" id="drill-meta"></div>
+      <div class="status-card" id="drill-status">正在读取 branch drill 数据...</div>
+      <div class="question-list" id="drill-question-list"></div>
+      <div id="drill-complete-area" style="margin-top:1.5rem; text-align:center; display:none;">
+        <div id="drill-completed-badge" style="display:none; background:#22c55e22; border:1px solid #22c55e; border-radius:10px; padding:0.75rem 1.25rem; color:#22c55e; font-weight:600; margin-bottom:1rem;">
+          ✅ 已完成 — <span id="drill-completed-time"></span>
+        </div>
+        <button class="btn btn-primary" id="drill-complete-btn" style="padding:0.75rem 2rem; font-size:1rem;">
+          🏁 标记为已完成
+        </button>
+      </div>
+    </section>
 
     <!-- Steps -->
     <div class="steps">
@@ -378,7 +481,9 @@
     </div>
   </main>
 
-  <script>
+  <script type="module">
+    import { loadBranchDrillSet } from '../v2/js/data-service.js';
+
     let currentStep = 1;
     let selectedSubject = null;
     let selectedType = null;
@@ -395,8 +500,66 @@
       'frq': '问答题 (FRQ)'
     };
 
+    const pageTitle = document.getElementById('page-title');
+    const pageSubtitle = document.getElementById('page-subtitle');
+    const drillView = document.getElementById('drill-view');
+    const drillTitle = document.getElementById('drill-title');
+    const drillSubtitle = document.getElementById('drill-subtitle');
+    const drillMeta = document.getElementById('drill-meta');
+    const drillStatus = document.getElementById('drill-status');
+    const drillQuestionList = document.getElementById('drill-question-list');
+    const drillCompleteArea = document.getElementById('drill-complete-area');
+    const drillCompletedBadge = document.getElementById('drill-completed-badge');
+    const drillCompletedTime = document.getElementById('drill-completed-time');
+    const drillCompleteBtn = document.getElementById('drill-complete-btn');
+    const steps = document.querySelector('.steps');
+    const navBtns = document.querySelector('.nav-btns');
+
+    const COMPLETIONS_KEY = 'mokaoai-training-completions';
+
+    function loadCompletions() {
+      try {
+        const raw = localStorage.getItem(COMPLETIONS_KEY);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveCompletions(list) {
+      try {
+        localStorage.setItem(COMPLETIONS_KEY, JSON.stringify(list));
+      } catch (e) {
+        if (e.name === 'QuotaExceededError') {
+          console.warn('localStorage quota exceeded, training completions not saved');
+        }
+      }
+    }
+
+    function findCompletion(branchId, examId) {
+      return loadCompletions().find(r => r.branchId === branchId && r.examId === examId) || null;
+    }
+
+    function addCompletion(branchId, examId, questionCount) {
+      const list = loadCompletions();
+      const existing = list.findIndex(r => r.branchId === branchId && r.examId === examId);
+      const record = { branchId, completedAt: new Date().toISOString(), questionCount, examId };
+      if (existing >= 0) {
+        list[existing] = record;
+      } else {
+        list.push(record);
+      }
+      saveCompletions(list);
+      return record;
+    }
+
+    let activeDrillExamId = null;
+    let activeDrillBranchId = null;
+    let activeDrillQuestionCount = 0;
+
     function updateUI() {
-      // Update step indicators
       document.querySelectorAll('.step').forEach((step, i) => {
         const stepNum = i + 1;
         step.classList.remove('active', 'done');
@@ -404,17 +567,14 @@
         if (stepNum < currentStep) step.classList.add('done');
       });
 
-      // Update panels
       document.querySelectorAll('.step-panel').forEach(panel => {
         panel.classList.remove('active');
       });
       document.getElementById(`step-${currentStep}`).classList.add('active');
 
-      // Update nav buttons
       document.getElementById('prev-btn').disabled = currentStep === 1;
       document.getElementById('next-btn').disabled = !canProceed();
 
-      // Update summary
       if (selectedSubject) {
         document.getElementById('summary-subject').textContent = subjects[selectedSubject];
       }
@@ -429,7 +589,128 @@
       return true;
     }
 
-    // Subject selection
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function setDrillMeta(items) {
+      drillMeta.innerHTML = items.map(({ label, value }) => `
+        <div class="meta-card">
+          <div class="meta-label">${escapeHtml(label)}</div>
+          <div class="meta-value">${escapeHtml(value)}</div>
+        </div>
+      `).join('');
+    }
+
+    function showDrillView() {
+      drillView.classList.add('active');
+      steps.classList.add('hidden');
+      navBtns.classList.add('hidden');
+      document.querySelectorAll('.step-panel').forEach(panel => {
+        panel.classList.remove('active');
+      });
+      pageTitle.textContent = 'Branch Drill';
+      pageSubtitle.textContent = 'Deep link 命中时直接展示现有 branch drill 样本题。';
+    }
+
+    function renderQuestion(question) {
+      const optionHtml = Array.isArray(question.options) && question.options.length
+        ? `<ul class="option-list">${question.options.map((option) => `
+            <li class="option-item">
+              <span class="option-key">${escapeHtml(option.key || '')}</span>
+              <span>${option.html || ''}</span>
+            </li>
+          `).join('')}</ul>`
+        : '<p class="subtitle" style="text-align:left; margin-bottom:0;">该题无可展示选项。</p>';
+
+      return `
+        <article class="question-card">
+          <div class="question-number">Question ${escapeHtml(question.sequenceInExam)}</div>
+          <div class="question-prompt">${question.promptHtml || ''}</div>
+          ${optionHtml}
+        </article>
+      `;
+    }
+
+    function renderDrillEmpty(message, metaItems = []) {
+      showDrillView();
+      drillTitle.textContent = 'Branch Drill 暂不可用';
+      drillSubtitle.textContent = '当前 deep link 没有可展示的样本题。';
+      setDrillMeta(metaItems);
+      drillQuestionList.innerHTML = '';
+      drillStatus.textContent = message;
+    }
+
+    async function initDrillFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const examId = params.get('examId');
+      const branchId = params.get('branchId');
+      if (!examId || !branchId) {
+        return false;
+      }
+
+      showDrillView();
+
+      try {
+        const drillSet = await loadBranchDrillSet(examId, branchId, { limit: 5 });
+        if (!drillSet) {
+          renderDrillEmpty('未找到 branch drill 数据。可能是 examId 不受支持，或底层映射资源读取失败。', [
+            { label: 'Exam ID', value: examId },
+            { label: 'Branch ID', value: branchId }
+          ]);
+          return true;
+        }
+
+        const sampleQuestions = Array.isArray(drillSet.sampleQuestions) ? drillSet.sampleQuestions : [];
+        const metaItems = [
+          { label: 'Branch', value: drillSet.branchName || branchId },
+          { label: 'Trunk', value: drillSet.trunkName || drillSet.trunkId || '—' },
+          { label: 'Slice Rule', value: `${drillSet.sliceRule?.type || '—'} · limit ${drillSet.sliceRule?.limit || 0}` },
+          { label: 'Sample Questions', value: String(sampleQuestions.length) }
+        ];
+
+        if (!sampleQuestions.length) {
+          renderDrillEmpty('该 branch 没有关联到可展示的样本题，或 branchId 无效。', metaItems);
+          return true;
+        }
+
+        drillTitle.textContent = drillSet.branchName || branchId;
+        drillSubtitle.textContent = `${drillSet.trunkName || drillSet.trunkId || '未知主干'} · ${examId}`;
+        setDrillMeta(metaItems);
+        drillStatus.textContent = `已加载 ${sampleQuestions.length} 题样本。`;
+        drillQuestionList.innerHTML = sampleQuestions.map(renderQuestion).join('');
+
+        // Completion state
+        activeDrillExamId = examId;
+        activeDrillBranchId = branchId;
+        activeDrillQuestionCount = sampleQuestions.length;
+        const existing = findCompletion(branchId, examId);
+        drillCompleteArea.style.display = '';
+        if (existing) {
+          drillCompletedBadge.style.display = '';
+          drillCompletedTime.textContent = new Date(existing.completedAt).toLocaleString('zh-CN');
+          drillCompleteBtn.textContent = '🔄 重新标记为已完成';
+        } else {
+          drillCompletedBadge.style.display = 'none';
+          drillCompleteBtn.textContent = '🏁 标记为已完成';
+        }
+
+        return true;
+      } catch (error) {
+        console.error('Failed to initialize branch drill view:', error);
+        renderDrillEmpty('资源读取失败，请稍后重试或返回默认训练入口。', [
+          { label: 'Exam ID', value: examId },
+          { label: 'Branch ID', value: branchId }
+        ]);
+        return true;
+      }
+    }
+
     document.querySelectorAll('.subject-card').forEach(card => {
       card.addEventListener('click', () => {
         document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
@@ -441,7 +722,6 @@
       });
     });
 
-    // Type selection
     document.querySelectorAll('.type-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('selected'));
@@ -453,7 +733,6 @@
       });
     });
 
-    // Navigation
     document.getElementById('next-btn').addEventListener('click', () => {
       if (currentStep < 3) {
         currentStep++;
@@ -468,17 +747,26 @@
       }
     });
 
-    // Start button
     document.getElementById('start-btn').addEventListener('click', () => {
-      // Show coming soon for now
       currentStep = 'soon';
       document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
       document.getElementById('step-soon').classList.add('active');
-      document.querySelector('.nav-btns').style.display = 'none';
-      document.querySelector('.steps').style.display = 'none';
+      navBtns.style.display = 'none';
+      steps.style.display = 'none';
     });
 
-    updateUI();
+    drillCompleteBtn.addEventListener('click', () => {
+      if (!activeDrillBranchId || !activeDrillExamId) return;
+      const record = addCompletion(activeDrillBranchId, activeDrillExamId, activeDrillQuestionCount);
+      drillCompletedBadge.style.display = '';
+      drillCompletedTime.textContent = new Date(record.completedAt).toLocaleString('zh-CN');
+      drillCompleteBtn.textContent = '🔄 重新标记为已完成';
+    });
+
+    const renderedDrill = await initDrillFromUrl();
+    if (!renderedDrill) {
+      updateUI();
+    }
   </script>
 </body>
 </html>
