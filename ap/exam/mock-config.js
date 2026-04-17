@@ -163,6 +163,12 @@ export function deriveSectionMeta(section, exam) {
     ? "Calculator is allowed for this part of the exam."
     : "No calculator is allowed for this part of the exam.";
   const subjectLine = String(exam.subjectName || exam.title || "AP Practice Test");
+  const limitMinutes = Number(section.limitMinutes ?? section.time_limit_minutes ?? 0);
+  const hours = Math.floor(limitMinutes / 60);
+  const minutes = limitMinutes % 60;
+  const timeLabel = hours > 0
+    ? `${hours} hour${hours === 1 ? "" : "s"}${minutes > 0 ? ` ${minutes} minute${minutes === 1 ? "" : "s"}` : ""}`
+    : `${limitMinutes} minute${limitMinutes === 1 ? "" : "s"}`;
 
   return {
     sectionLabel,
@@ -170,9 +176,7 @@ export function deriveSectionMeta(section, exam) {
     subjectLine,
     calculatorRule,
     questionCount: section.questions.length,
-    timeLabel: section.limitMinutes >= 60
-      ? `${section.limitMinutes / 60} hour${section.limitMinutes === 60 ? "" : "s"}`
-      : `${section.limitMinutes} minutes`
+    timeLabel
   };
 }
 

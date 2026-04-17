@@ -220,9 +220,21 @@ async function renderMathAfterMount() {
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
+const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl"]);
+const CALC_BC_TRUNK_CONTRACT_PATH = "/v2/data/contracts/ap-calculus-bc-trunk-contract.json";
+
+function getBranchMappingPath() {
+  const examIdStr = String(examId || "");
+  if (examIdStr === "1902622411338911744" || examIdStr === "calc-bc-2017-intl") {
+    return "/v2/data/calc-bc-2017-intl/question-branch-mapping.json";
+  }
+  return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
+}
+
 let exam = null;
 let state = null;
 let timerId = null;
+let branchDiagnosticsResources = null;
 
 init().catch((error) => {
   console.error(error);
@@ -234,12 +246,13 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
+  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
   if (!response.ok) {
     throw new Error(`Missing mock data for examId ${examId}`);
   }
 
   exam = await response.json();
+  branchDiagnosticsResources = await loadBranchDiagnosticsResources();
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
   if (!state.sectionStates[state.sectionIndex]) {
@@ -544,6 +557,329 @@ function buildResultSummary() {
   }));
 }
 
+async function loadBranchDiagnosticsResources() {
+  if (!isCalcBcResultsExam()) {
+    return null;
+  }
+
+  try {
+    const [mappingResponse, contractResponse] = await Promise.all([
+      fetch(window.sitePath(getBranchMappingPath())),
+      fetch(window.sitePath(CALC_BC_TRUNK_CONTRACT_PATH))
+    ]);
+
+    if (!mappingResponse.ok || !contractResponse.ok) {
+      console.warn("Branch diagnostics resources unavailable", {
+        examId,
+        mappingStatus: mappingResponse.status,
+        contractStatus: contractResponse.status
+      });
+      return null;
+    }
+
+    const [mapping, contract] = await Promise.all([
+      mappingResponse.json(),
+      contractResponse.json()
+    ]);
+
+    return {
+      mapping,
+      contract
+    };
+  } catch (error) {
+    console.warn("Failed to load branch diagnostics resources", examId, error);
+    return null;
+  }
+}
+
+function isCalcBcResultsExam() {
+  return CALC_BC_RESULTS_EXAM_IDS.has(String(examId || ""));
+}
+
+function buildBranchDiagnostics() {
+  if (!isCalcBcResultsExam() || !branchDiagnosticsResources?.mapping || !branchDiagnosticsResources?.contract) {
+    return null;
+  }
+
+  const questionRecords = flattenExamQuestions();
+  const mappingEntries = Array.isArray(branchDiagnosticsResources.mapping?.mappings)
+    ? branchDiagnosticsResources.mapping.mappings
+    : [];
+  const contract = branchDiagnosticsResources.contract || {};
+  const trunkById = new Map((contract.trunks || []).map((item) => [item.id, item]));
+  const branchById = new Map((contract.branches || []).map((item) => [item.id, item]));
+  const questionBySequence = new Map(questionRecords.map((record) => [record.sequenceInExam, record]));
+  const questionById = new Map(questionRecords.map((record) => [String(record.question?.id || ""), record]));
+
+  const mappedRecords = mappingEntries
+    .map((mappingEntry) => {
+      const record = questionBySequence.get(Number(mappingEntry.sequenceInExam)) || questionById.get(String(mappingEntry.questionId || ""));
+      if (!record) {
+        return null;
+      }
+      const branchId = mappingEntry.branchId || (Array.isArray(mappingEntry.branchIds) ? mappingEntry.branchIds[0] : "");
+      return {
+        record,
+        mappingEntry,
+        trunkId: mappingEntry.trunkId,
+        trunk: trunkById.get(mappingEntry.trunkId) || null,
+        branchId,
+        branch: branchById.get(branchId) || null,
+        answered: isAnswered(record.answer, record.question)
+      };
+    })
+    .filter(Boolean);
+
+  if (!mappedRecords.length) {
+    return {
+      available: false,
+      reason: "No mapped questions matched this exam attempt."
+    };
+  }
+
+  const mappedSequenceSet = new Set(mappedRecords.map((item) => item.record.sequenceInExam));
+  const unmappedVisibleQuestionCount = questionRecords.filter((record) => !mappedSequenceSet.has(record.sequenceInExam)).length;
+  const answeredMappedCount = mappedRecords.filter((item) => item.answered).length;
+  const unansweredMappedCount = mappedRecords.length - answeredMappedCount;
+  const diagnosticsByTrunk = aggregateCoverage(mappedRecords, (item) => item.trunkId, (item) => ({
+    id: item.trunkId,
+    name: item.trunk?.name || item.trunkId,
+    description: item.trunk?.description || ""
+  }));
+  const diagnosticsByBranch = aggregateCoverage(mappedRecords, (item) => item.branchId, (item) => ({
+    id: item.branchId,
+    name: item.branch?.name || item.branchId,
+    description: item.branch?.description || "",
+    trunkId: item.trunkId,
+    trunkName: item.trunk?.name || item.trunkId
+  }));
+
+  diagnosticsByTrunk.sort(compareCoverageDiagnostics);
+  diagnosticsByBranch.sort(compareCoverageDiagnostics);
+
+  const weakBranches = diagnosticsByBranch.filter((item) => item.unansweredCount > 0).slice(0, 3);
+  const coveredBranches = diagnosticsByBranch.filter((item) => item.answeredCount > 0).slice(0, 3);
+
+  return {
+    available: true,
+    mappedQuestionCount: mappedRecords.length,
+    answeredMappedCount,
+    unansweredMappedCount,
+    mappedCoverageRate: mappedRecords.length ? answeredMappedCount / mappedRecords.length : 0,
+    unmappedVisibleQuestionCount,
+    diagnosticsByTrunk,
+    diagnosticsByBranch,
+    weakBranches,
+    coveredBranches
+  };
+}
+
+function flattenExamQuestions() {
+  let sequenceInExam = 0;
+  return exam.sections.flatMap((section, sectionIndex) =>
+    section.questions.map((question, questionIndex) => {
+      sequenceInExam += 1;
+      return {
+        section,
+        sectionIndex,
+        question,
+        questionIndex,
+        sequenceInExam,
+        answer: state.sectionStates?.[sectionIndex]?.answers?.[questionIndex]
+      };
+    })
+  );
+}
+
+function aggregateCoverage(items, getKey, createMeta) {
+  const buckets = new Map();
+
+  items.forEach((item) => {
+    const key = getKey(item);
+    if (!key) {
+      return;
+    }
+    if (!buckets.has(key)) {
+      buckets.set(key, {
+        ...createMeta(item),
+        mappedCount: 0,
+        answeredCount: 0,
+        unansweredCount: 0,
+        sequences: []
+      });
+    }
+    const bucket = buckets.get(key);
+    bucket.mappedCount += 1;
+    bucket.sequences.push(item.record.sequenceInExam);
+    if (item.answered) {
+      bucket.answeredCount += 1;
+    } else {
+      bucket.unansweredCount += 1;
+    }
+  });
+
+  return [...buckets.values()].map((bucket) => ({
+    ...bucket,
+    coverageRate: bucket.mappedCount ? bucket.answeredCount / bucket.mappedCount : 0,
+    riskLabel: getCoverageRiskLabel(bucket)
+  }));
+}
+
+function getCoverageRiskLabel(bucket) {
+  if (bucket.unansweredCount >= Math.max(2, Math.ceil(bucket.mappedCount / 2))) {
+    return "Needs follow-up";
+  }
+  if (bucket.unansweredCount > 0) {
+    return "Partially covered";
+  }
+  return "Covered in this attempt";
+}
+
+function compareCoverageDiagnostics(left, right) {
+  if (right.unansweredCount !== left.unansweredCount) {
+    return right.unansweredCount - left.unansweredCount;
+  }
+  if (left.coverageRate !== right.coverageRate) {
+    return left.coverageRate - right.coverageRate;
+  }
+  if (right.mappedCount !== left.mappedCount) {
+    return right.mappedCount - left.mappedCount;
+  }
+  return String(left.name || "").localeCompare(String(right.name || ""));
+}
+
+function formatCoverageRatio(answeredCount, mappedCount) {
+  return `${answeredCount}/${mappedCount} answered`;
+}
+
+function formatSequenceSummary(sequences) {
+  return sequences.length ? `Questions ${sequences.join(", ")}` : "Questions unavailable";
+}
+
+const EXAM_ID_SLUG_MAP = {
+  '1902622411338911744': 'calc-bc-2017-intl',
+  'calc-bc-2017-intl': 'calc-bc-2017-intl',
+  '1902622411800285184': 'calc-bc-2018-intl',
+  'calc-bc-2018-intl': 'calc-bc-2018-intl'
+};
+
+function buildBranchDrillHref(branchId) {
+  if (!branchId || !isCalcBcResultsExam()) {
+    return "";
+  }
+  const rawId = String(examId || "");
+  const drillExamId = EXAM_ID_SLUG_MAP[rawId] || rawId;
+  return window.sitePath(`/training/?examId=${encodeURIComponent(drillExamId)}&branchId=${encodeURIComponent(branchId)}`);
+}
+
+function renderBranchDiagnostics() {
+  const diagnostics = buildBranchDiagnostics();
+  if (!diagnostics) {
+    return "";
+  }
+
+  if (!diagnostics.available) {
+    return `
+      <section class="diagnostic-panel">
+        <div class="diagnostic-panel__header">
+          <div>
+            <div class="micro-kicker">Trunk and branch diagnosis</div>
+            <h2>Cal BC structure diagnosis</h2>
+          </div>
+        </div>
+        <p class="diagnostic-panel__note">Branch mapping is not available for this attempt yet.</p>
+      </section>
+    `;
+  }
+
+  const priorityCopy = diagnostics.weakBranches.length
+    ? diagnostics.weakBranches.map((item) => `${escapeHtml(item.name)} (${item.unansweredCount} not yet answered across ${item.mappedCount} mapped questions)`).join("; ")
+    : "No mapped branch is currently showing unanswered risk.";
+  const coveredCopy = diagnostics.coveredBranches.length
+    ? diagnostics.coveredBranches.map((item) => `${escapeHtml(item.name)} (${formatCoverageRatio(item.answeredCount, item.mappedCount)})`).join("; ")
+    : "No mapped branch has answered coverage yet.";
+
+  return `
+    <section class="diagnostic-panel">
+      <div class="diagnostic-panel__header">
+        <div>
+          <div class="micro-kicker">Trunk and branch diagnosis</div>
+          <h2>Cal BC structure diagnosis</h2>
+        </div>
+        <p class="diagnostic-panel__note">This summary uses mapped-question coverage only. It does not estimate correctness or AP score yet.</p>
+      </div>
+      <div class="diagnostic-summary-grid">
+        <article class="result-card diagnostic-summary-card">
+          <strong>Mapped question coverage</strong>
+          <span>${diagnostics.answeredMappedCount}/${diagnostics.mappedQuestionCount} answered</span>
+          <p>${diagnostics.unansweredMappedCount} mapped question(s) were left blank, so those trunks and branches stay at higher follow-up risk.</p>
+        </article>
+        <article class="result-card diagnostic-summary-card">
+          <strong>Priority follow-up</strong>
+          <span>${diagnostics.weakBranches.length ? `${diagnostics.weakBranches.length} branch(es)` : "No open branch risk"}</span>
+          <p>${priorityCopy}</p>
+        </article>
+        <article class="result-card diagnostic-summary-card">
+          <strong>Branches you already touched</strong>
+          <span>${diagnostics.coveredBranches.length ? `${diagnostics.coveredBranches.length} branch(es)` : "No covered branches yet"}</span>
+          <p>${coveredCopy}</p>
+        </article>
+        <article class="result-card diagnostic-summary-card">
+          <strong>Graceful fallback</strong>
+          <span>${diagnostics.unmappedVisibleQuestionCount} unmapped question(s)</span>
+          <p>Unmapped questions are excluded from trunk/branch aggregation, so the results page stays stable while coverage grows.</p>
+        </article>
+      </div>
+      <div class="diagnostic-detail-grid">
+        <section class="diagnostic-column">
+          <div class="diagnostic-column__title-row">
+            <h3>By trunk</h3>
+            <span>Coverage and follow-up risk</span>
+          </div>
+          ${renderCoverageCards(diagnostics.diagnosticsByTrunk, { showTrunkName: false })}
+        </section>
+        <section class="diagnostic-column">
+          <div class="diagnostic-column__title-row">
+            <h3>By branch</h3>
+            <span>Mapped sample questions only</span>
+          </div>
+          ${renderCoverageCards(diagnostics.diagnosticsByBranch, { showTrunkName: true, showBranchDrill: true })}
+        </section>
+      </div>
+    </section>
+  `;
+}
+
+function renderCoverageCards(items, options = {}) {
+  if (!items.length) {
+    return `<p class="diagnostic-panel__note">No mapped coverage is available yet.</p>`;
+  }
+
+  return `
+    <div class="diagnostic-card-stack">
+      ${items.map((item) => {
+        const drillHref = options.showBranchDrill ? buildBranchDrillHref(item.id) : "";
+        return `
+        <article class="diagnostic-card ${item.unansweredCount > 0 ? "is-risk" : "is-covered"}">
+          <div class="diagnostic-card__topline">
+            <strong>${escapeHtml(item.name)}</strong>
+            <span class="diagnostic-badge">${escapeHtml(item.riskLabel)}</span>
+          </div>
+          ${options.showTrunkName ? `<div class="diagnostic-card__meta">Trunk: ${escapeHtml(item.trunkName || "Unknown trunk")}</div>` : ""}
+          ${item.description ? `<p>${escapeHtml(item.description)}</p>` : ""}
+          <div class="diagnostic-card__stats">
+            <span>${formatCoverageRatio(item.answeredCount, item.mappedCount)}</span>
+            <span>${item.unansweredCount} unanswered</span>
+          </div>
+          <div class="diagnostic-card__meta">${escapeHtml(formatSequenceSummary(item.sequences))}</div>
+          ${drillHref ? `<div class="diagnostic-card__actions"><a class="secondary-button inline-button diagnostic-link" href="${drillHref}">Open branch drill</a></div>` : ""}
+        </article>
+      `;
+      }).join("")}
+    </div>
+  `;
+}
+
 function render() {
   if (state.stage === "review") {
     renderReview();
@@ -841,7 +1177,7 @@ function renderResults() {
   const results = state.results || buildResultSummary();
   app.innerHTML = `
     <div class="exam-center">
-      <section class="shell-card review-shell">
+      <section class="shell-card review-shell review-shell--results">
         <div class="micro-kicker">Practice complete</div>
         <h1>AP Practice Test</h1>
         <p>This imported paper is still running in practice mode. Answers were saved, but official scoring and answer keys have not been imported yet.</p>
@@ -854,6 +1190,7 @@ function renderResults() {
             </article>
           `).join("")}
         </div>
+        ${renderBranchDiagnostics()}
         <div class="action-row">
           <button class="secondary-button inline-button" type="button" data-action="restart-exam">Start Again</button>
         </div>

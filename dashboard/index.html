@@ -444,7 +444,10 @@
     // ========== Dashboard Data ==========
     let dashboardData = null;
 
-    const CALC_BC_DASHBOARD_STATE_KEY = 'mokaoai-local-mock:1902622411800285184';
+    const CALC_BC_DASHBOARD_STATE_KEYS = [
+      'mokaoai-local-mock:1902622411338911744',
+      'mokaoai-local-mock:1902622411800285184'
+    ];
     const TRAINING_COMPLETIONS_KEY = 'mokaoai-training-completions';
 
     function loadTrainingCompletions() {
@@ -457,7 +460,10 @@
         return [];
       }
     }
-    const CALC_BC_MAPPING_PATH = '../v2/data/calc-bc-2018-intl/question-branch-mapping.json';
+    const CALC_BC_MAPPING_PATHS = {
+      '1902622411338911744': '../v2/data/calc-bc-2017-intl/question-branch-mapping.json',
+      '1902622411800285184': '../v2/data/calc-bc-2018-intl/question-branch-mapping.json'
+    };
     const CALC_BC_CONTRACT_PATH = '../v2/data/contracts/ap-calculus-bc-trunk-contract.json';
     const CALC_BC_DASHBOARD_DEFAULT_UNITS = [
       { name: 'Limits and Continuity', mastery: 85, crown: true },
@@ -507,7 +513,7 @@
           ? Math.round((progress.subjects.calculus_bc.correct / progress.subjects.calculus_bc.questions) * 100)
           : 72,
         mcqScore: progress.subjects?.calculus_bc?.correct || 0,
-        mcqTotal: progress.subjects?.calculus_bc?.questions || 45,
+        mcqTotal: progress.subjects?.calculus_bc?.questions || 68,
         units: CALC_BC_DASHBOARD_DEFAULT_UNITS.map((unit) => ({ ...unit })),
         recentActivity: [],
         dashboardSource: 'static'
@@ -538,23 +544,29 @@
     }
 
     function loadCalcBcDashboardState() {
-      try {
-        const raw = localStorage.getItem(CALC_BC_DASHBOARD_STATE_KEY);
-        return raw ? JSON.parse(raw) : null;
-      } catch (error) {
-        console.warn('Failed to parse Cal BC dashboard state', error);
-        return null;
+      for (const key of CALC_BC_DASHBOARD_STATE_KEYS) {
+        try {
+          const raw = localStorage.getItem(key);
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            if (parsed) return { state: parsed, examKey: key };
+          }
+        } catch (error) {
+          console.warn('Failed to parse Cal BC dashboard state for key', key, error);
+        }
       }
+      return { state: null, examKey: null };
     }
 
-    async function loadCalcBcDashboardResources() {
+    async function loadCalcBcDashboardResources(examKey) {
       if (dashboardData) {
         return dashboardData;
       }
 
       try {
+        const mappingPath = CALC_BC_MAPPING_PATHS[examKey] || CALC_BC_MAPPING_PATHS['1902622411800285184'];
         const [mappingResponse, contractResponse] = await Promise.all([
-          fetch(CALC_BC_MAPPING_PATH),
+          fetch(mappingPath),
           fetch(CALC_BC_CONTRACT_PATH)
         ]);
 
@@ -734,9 +746,9 @@
         return subjects;
       }
 
-      const [attemptState, resources, trainingCompletions] = await Promise.all([
-        Promise.resolve(loadCalcBcDashboardState()),
-        loadCalcBcDashboardResources(),
+      const { state: attemptState, examKey } = loadCalcBcDashboardState();
+      const [resources, trainingCompletions] = await Promise.all([
+        loadCalcBcDashboardResources(examKey),
         Promise.resolve(loadTrainingCompletions())
       ]);
       const overlay = buildCalcBcDashboardOverlay(attemptState, resources, trainingCompletions);
