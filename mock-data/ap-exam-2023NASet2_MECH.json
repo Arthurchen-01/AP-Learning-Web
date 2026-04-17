@@ -1,0 +1,95 @@
+{
+  "examId": "2023NASet2",
+  "title": "AP Physics C: Mechanics 2023年",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2023",
+  "description": "AP Physics C: Mechanics 2023年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "cientists have created a new type of lightweight foam and are performing experiments to investigate the properties of the foam. The mass of Cart A is 1000 kg and the mass of Cart B is 2000 kg . A piece of foam with negligible mass is attached to the front of Cart A, as shown. Cart A moves with a constant speed toward Cart B, which is initially at rest. At time $t=0 ~s$, the foam connected to Cart A makes contact with Cart B. The foam remains in contact with Cart B for 0.5 s , after which the carts separate and both carts move with constant velocities.\n\nContinue your response to QUESTION 1 on this page.",
+          "options": [
+            {
+              "key": "a",
+              "content": "The graph shows the velocity $v$ of Cart A as a function of time $t$ for the time interval when the foam and Cart B are in contact.\ni. What feature(s) of the graph could be used to estimate the displacement of Cart A during the collision?\nii. Using the information shown in the graph, determine the speed of Cart B at $t=0.5 ~s$.\niii. On the following grid, draw a smooth curve of the velocity of Cart B as a function of time."
+            },
+            {
+              "key": "b",
+              "content": "For $0 t 0.50 ~s$, the velocity $v$ of Cart A can be described by the function $v(t)=64 t^{3}-48 t^{2}+5$.\ni. Calculate the magnitude of the maximum net force acting on Cart A during this interval.\nii. On the following grid, draw a smooth curve of the magnitude of the force acting on Cart A as a function of time. Clearly indicate the value of the maximum force on the vertical axis."
+            },
+            {
+              "key": "c",
+              "content": "What is the relationship between the magnitude of the average net force $F_{1}$ exerted on Cart B for the collision with the foam and the magnitude of the average net force $F_{2}$ exerted on Cart B for the collision without the foam?\n$____$ $F_{1}>F_{2}$ $____$ $F_{1}<F_{2}$ $____$ $F_{1}=F_{2}$\nJustify your answer.\n\nBegin your response to QUESTION 2 on this page."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "student conducts an investigation to determine the relationship between the period of oscillation $T$ of a system consisting of a block and $N$ attached springs. The student starts with a block of mass $m$ attached to a single ideal spring of spring constant $k$, as shown in Figure 1. The student holds the block so that the spring is neither stretched nor compressed at a vertical height 1.00 m above a motion detector. The student releases the block from rest and records the period of oscillation for the system consisting of the single spring and block. An additional identical spring is attached in parallel, as shown in Figure 2, and the procedure is repeated for $N=2$ springs. This procedure is repeated through $N=10$ springs.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Derive an expression for $T$ as a function of $N$. Express your answer in terms of $m, k, N$, and physical constants as appropriate.\n\nContinue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "b",
+              "content": "On the following axes, sketch a graph of $T$ as a function of $N$ for $N 1$.\n\nContinue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "c",
+              "content": "The student plots the data for $T^{2}$ as a function of $N^{-1}$, as shown.\n\ni. Draw the best-fit line for the data.\nii. The mass of the block is measured to be $m=1.5 ~kg$. Using the graph, calculate an experimental value for the spring constant $k$ for a single spring.\niii. The student finds that the value given by the manufacturer for the spring constant is larger than the value determined experimentally in part"
+            },
+            {
+              "key": "d",
+              "content": "The student conducts a similar investigation to determine the relationship between the period of oscillation $T$ of a system consisting of a block and a number $N$ of identical springs but arranges the block-spring system horizontally on a table, as shown in Figure 3. Frictional forces between the table and the block are negligible. In each trial, the block is displaced the same horizontal distance from equilibrium and released from rest.\ni. The student plots $T^{2}$ as a function of $N^{-1}$ for this new data. Would the slope of the best-fit line from this new investigation be greater than, less than, or the same as the slope of the best-fit line in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "wind turbine includes a three-blade system that rotates about an axis through the end of each blade, as shown in Figure 1. Each blade has a length $L$ and mass $M$, with a center of mass located at a distance $L{3}$ from the axis of rotation, as shown in Figure 2.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Derive an expression for the rotational inertia of the three-blade system. Express your answer in terms of $M$, $L$, and physical constants, as appropriate. The rotational inertia of each blade about an axis through its center of mass is given by the equation $I_{cm}=1{18} M L^{2}$."
+            },
+            {
+              "key": "b",
+              "content": "While the wind blows, the three-blade system operates at a constant angular speed $_{0}=2.6 rad / s$. The length of one blade is $L=36 ~m$. The numerical value of the rotational inertia of the system is $I_{ {sys }}=6.7 10^{6} ~kg ~m^{2}$. Calculate the time $T$ it takes the outer edge of a single blade to complete one revolution."
+            },
+            {
+              "key": "c",
+              "content": "When the wind stops blowing, the angular speed of the system decreases. The angular speed $$ of the system while slowing down is given as a function of time $t$ by the equation $=_{0} e^{-_{0} t}$, where $_{0}$ is a constant with appropriate units, as shown on the graph in Figure 3.\n\ni. Calculate the amount of energy dissipated from $t=0$, when the wind stops blowing, until the system comes to rest."
+            },
+            {
+              "key": "d",
+              "content": "On the graph in Figure 4, sketch the angular speed of the second three-blade system as a function of time $t$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

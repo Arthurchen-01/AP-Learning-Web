@@ -1,0 +1,142 @@
+{
+  "examId": "2024NASet2",
+  "title": "AP Physics C: Electricity and Magnetism 2024年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2024",
+  "description": "AP Physics C: Electricity and Magnetism 2024年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A nonconducting rod of uniform negative linear charge density is near a sphere with charge +1.0 nC . The rod and sphere are held at rest on the $y$-axis, as shown in Figure 1. Equipotential lines and positions A, B, C, D, and E are labeled. Adjacent tick marks on the $x$-axis and on the $y$-axis are 0.40 m apart.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Calculate the absolute value of the electric flux through the Gaussian surface whose cross section is the 0.0 V equipotential line. A positive test charge (not shown) is placed and held at rest at Position C. An external force is applied to the test charge to move the test charge to different positions in the order of $C E D A$. The test charge is held momentarily at rest at each position."
+            },
+            {
+              "key": "b",
+              "content": "The bar shown in Figure 2 represents the absolute value of the work $W_{CE}$ done by the external force on the test charge to move the test charge from Position C to Position E. i. Complete the following tasks on Figure 2. - Draw a bar to represent the relative absolute value of the work $W_{ED}$ done by the external force on the test charge to move the test charge from Position E to Position D. - Draw a bar to represent the relative absolute value of the work $W_{D A}$ done by the external force on the test charge to move the test charge from Position D to Position A. - The height of each bar should be proportional to the value of $W_{CE}$. If $W_{ED}=0$ and/or $W_{DA}=0$, write a \" 0 \" in the corresponding columns, as appropriate. Figure 2 ii. Calculate the approximate magnitude of the $x$-component of the electric field at Position B. The positive test charge is placed at Position C. The test charge is then released from rest."
+            },
+            {
+              "key": "c",
+              "content": "Indicate the direction (not components) of the net electric force exerted on the test charge immediately after the test charge is released from rest. $____$ $+x$ $____$ $+y$ $____$ Directly away from the sphere $____$ $-x$ $____$ $-y$ $____$ Directly toward the sphere Without using equations, justify your answer using physics principles. Continue your response to QUESTION 1 on this page. ![figure](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-08.jpg?height=519&width=190&top_left_y=399&top_left_x=1009) The sphere and the test charge are removed. The rod has length $2 L$ and uniform negative linear charge density $-$. The rod is held at rest on the $y$-axis in the orientation shown in Figure 3. Position P (not shown) is located on the $y$-axis a distance $y_{P}$ from the origin, where $y_{P}>2 L$."
+            },
+            {
+              "key": "d",
+              "content": "The electric potential $V_{P}$ at $y_{P}$ is $V_{P}=-k (y_{P}{y_{P}-2 L})$. i. Using integral calculus, derive the expression for $V_{P}$ provided. ii. On Figure 4, sketch a graph of the $y$-component $E_{y}$ of the electric field resulting from the rod as a function of $y$ in the region $2 L"
+            },
+            {
+              "key": "a",
+              "content": "i. On the circuit diagram shown in Figure 1, draw the voltmeter, using the following symbol, with connections that would allow the students to correctly measure a potential difference that increases with time. ii. Describe a procedure for collecting data that would allow the students to graphically determine the experimental value for $R$ using a measured quantity that increases with time. Provide enough detail so that another student could replicate the experiment. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "b",
+              "content": "i. On the axes shown in Figure 2, produce a graph that represents the expected trend of the data by completing the following tasks. - Label the quantities graphed on the vertical and horizontal axes. - Sketch a line or curve that represents the expected trend of the collected data. - Label any appropriate intercepts and/or asymptotes in terms of the quantities provided. Figure 2 ii. Describe how the information from the graph in part (b)(i) would be used to determine the experimental value for $R$. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "c",
+              "content": "Starting with an appropriate application of Kirchhoff's loop rule, derive, but do NOT solve, a differential equation that can be used to determine the current $I$ in the inductor at time $t$ after the switch is closed. Express your answer in terms of $R, E, L, t$, and physical constants, as appropriate. After reaching steady state, the absolute value of the potential difference across $R_{A}$ is $| V_{1}|$. The students replace the original inductor with a new inductor that has nonnegligible resistance. The experiment is repeated. After a long time, the absolute value of the potential difference across $R_{A}$ is $| V_{2}|$."
+            },
+            {
+              "key": "d",
+              "content": "Indicate whether $| V_{2}|$ is greater than, less than, or equal to $| V_{1}|$. $____$ $| V_{2}|>| V_{1}|$ $____$ $| V_{2}|"
+            },
+            {
+              "key": "a",
+              "content": "On the following axes, sketch a graph of the magnetic flux $$ through the square loop as a function of the position $x$ of Point S from $x=0$ to $x=4.5 D$. The $+z$-direction indicated in Figure 1 corresponds to $+$. ![](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-14.jpg?height=935&width=897&top_left_y=449&top_left_x=657)"
+            },
+            {
+              "key": "b",
+              "content": "Consider the instant when Point S reaches $x=1.5 D$. i. Indicate whether the current $I_{S}$ that is induced in the square loop when Point S reaches $x=1.5 D$ is clockwise, counterclockwise, or zero. Briefly justify your answer. ii. Derive an expression for $I_{S}$ when Point S reaches $x=1.5 D$. If $I_{S}=0$, indicate how the derived expression shows that $I_{S}=0$. Express your answer in terms of $R, D, v, B$, and physical constants, as appropriate. iii. Derive an expression for the power $P$ dissipated by the resistor when Point S reaches $x=1.5 D$. Express your answer in terms of $R, D, v, B$, and physical constants, as appropriate. The total energy dissipated by the resistor in the square loop as Point S moves from $x=0$ to $x=4.5 D$ is $E_{ {original }} $ The vertical boundary between regions 1 and 2 is now shifted to $x=2.5 D$. After the boundary is shifted, the square loop again moves with speed $v$ in the $+x$-direction, as shown in Figure 2 . The total energy dissipated by the resistor as Point S moves from $x=0$ to $x=4.5 D$ is $E_{ {new }}$. ![figure](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-16.jpg?height=680&width=1129&top_left_y=711&top_left_x=519)"
+            },
+            {
+              "key": "c",
+              "content": "Indicate whether $E_{ {new }}$ is greater than, less than, or equal to $E_{ {original }}$. $____$ $E_{ {new }}>E_{ {original }}$ $____$ $E_{ {new }}"
+            },
+            {
+              "key": "d",
+              "content": "On the following axes, sketch a graph of the induced current $I_{T}$ in the loop as Point S moves from $x=D$ to $x=3 D$. ![](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-17.jpg?height=602&width=904&top_left_y=1521&top_left_x=618)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A nonconducting rod of uniform negative linear charge density is near a sphere with charge +1.0 nC . The rod and sphere are held at rest on the $y$-axis, as shown in Figure 1. Equipotential lines and positions A, B, C, D, and E are labeled. Adjacent tick marks on the $x$-axis and on the $y$-axis are 0.40 m apart.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Calculate the absolute value of the electric flux through the Gaussian surface whose cross section is the 0.0 V equipotential line. A positive test charge (not shown) is placed and held at rest at Position C. An external force is applied to the test charge to move the test charge to different positions in the order of $C E D A$. The test charge is held momentarily at rest at each position."
+            },
+            {
+              "key": "b",
+              "content": "The bar shown in Figure 2 represents the absolute value of the work $W_{CE}$ done by the external force on the test charge to move the test charge from Position C to Position E. i. Complete the following tasks on Figure 2. - Draw a bar to represent the relative absolute value of the work $W_{ED}$ done by the external force on the test charge to move the test charge from Position E to Position D. - Draw a bar to represent the relative absolute value of the work $W_{D A}$ done by the external force on the test charge to move the test charge from Position D to Position A. - The height of each bar should be proportional to the value of $W_{CE}$. If $W_{ED}=0$ and/or $W_{DA}=0$, write a \" 0 \" in the corresponding columns, as appropriate. Figure 2 ii. Calculate the approximate magnitude of the $x$-component of the electric field at Position B. The positive test charge is placed at Position C. The test charge is then released from rest."
+            },
+            {
+              "key": "c",
+              "content": "Indicate the direction (not components) of the net electric force exerted on the test charge immediately after the test charge is released from rest. $____$ $+x$ $____$ $+y$ $____$ Directly away from the sphere $____$ $-x$ $____$ $-y$ $____$ Directly toward the sphere Without using equations, justify your answer using physics principles. Continue your response to QUESTION 1 on this page. ![figure](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-08.jpg?height=519&width=190&top_left_y=399&top_left_x=1009) The sphere and the test charge are removed. The rod has length $2 L$ and uniform negative linear charge density $-$. The rod is held at rest on the $y$-axis in the orientation shown in Figure 3. Position P (not shown) is located on the $y$-axis a distance $y_{P}$ from the origin, where $y_{P}>2 L$."
+            },
+            {
+              "key": "d",
+              "content": "The electric potential $V_{P}$ at $y_{P}$ is $V_{P}=-k (y_{P}{y_{P}-2 L})$. i. Using integral calculus, derive the expression for $V_{P}$ provided. ii. On Figure 4, sketch a graph of the $y$-component $E_{y}$ of the electric field resulting from the rod as a function of $y$ in the region $2 L"
+            },
+            {
+              "key": "a",
+              "content": "i. On the circuit diagram shown in Figure 1, draw the voltmeter, using the following symbol, with connections that would allow the students to correctly measure a potential difference that increases with time. ii. Describe a procedure for collecting data that would allow the students to graphically determine the experimental value for $R$ using a measured quantity that increases with time. Provide enough detail so that another student could replicate the experiment. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "b",
+              "content": "i. On the axes shown in Figure 2, produce a graph that represents the expected trend of the data by completing the following tasks. - Label the quantities graphed on the vertical and horizontal axes. - Sketch a line or curve that represents the expected trend of the collected data. - Label any appropriate intercepts and/or asymptotes in terms of the quantities provided. Figure 2 ii. Describe how the information from the graph in part (b)(i) would be used to determine the experimental value for $R$. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "c",
+              "content": "Starting with an appropriate application of Kirchhoff's loop rule, derive, but do NOT solve, a differential equation that can be used to determine the current $I$ in the inductor at time $t$ after the switch is closed. Express your answer in terms of $R, E, L, t$, and physical constants, as appropriate. After reaching steady state, the absolute value of the potential difference across $R_{A}$ is $| V_{1}|$. The students replace the original inductor with a new inductor that has nonnegligible resistance. The experiment is repeated. After a long time, the absolute value of the potential difference across $R_{A}$ is $| V_{2}|$."
+            },
+            {
+              "key": "d",
+              "content": "Indicate whether $| V_{2}|$ is greater than, less than, or equal to $| V_{1}|$. $____$ $| V_{2}|>| V_{1}|$ $____$ $| V_{2}|"
+            },
+            {
+              "key": "a",
+              "content": "On the following axes, sketch a graph of the magnetic flux $$ through the square loop as a function of the position $x$ of Point S from $x=0$ to $x=4.5 D$. The $+z$-direction indicated in Figure 1 corresponds to $+$. ![](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-14.jpg?height=935&width=897&top_left_y=449&top_left_x=657)"
+            },
+            {
+              "key": "b",
+              "content": "Consider the instant when Point S reaches $x=1.5 D$. i. Indicate whether the current $I_{S}$ that is induced in the square loop when Point S reaches $x=1.5 D$ is clockwise, counterclockwise, or zero. Briefly justify your answer. ii. Derive an expression for $I_{S}$ when Point S reaches $x=1.5 D$. If $I_{S}=0$, indicate how the derived expression shows that $I_{S}=0$. Express your answer in terms of $R, D, v, B$, and physical constants, as appropriate. iii. Derive an expression for the power $P$ dissipated by the resistor when Point S reaches $x=1.5 D$. Express your answer in terms of $R, D, v, B$, and physical constants, as appropriate. The total energy dissipated by the resistor in the square loop as Point S moves from $x=0$ to $x=4.5 D$ is $E_{ {original }} $ The vertical boundary between regions 1 and 2 is now shifted to $x=2.5 D$. After the boundary is shifted, the square loop again moves with speed $v$ in the $+x$-direction, as shown in Figure 2 . The total energy dissipated by the resistor as Point S moves from $x=0$ to $x=4.5 D$ is $E_{ {new }}$. ![figure](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-16.jpg?height=680&width=1129&top_left_y=711&top_left_x=519)"
+            },
+            {
+              "key": "c",
+              "content": "Indicate whether $E_{ {new }}$ is greater than, less than, or equal to $E_{ {original }}$. $____$ $E_{ {new }}>E_{ {original }}$ $____$ $E_{ {new }}"
+            },
+            {
+              "key": "d",
+              "content": "On the following axes, sketch a graph of the induced current $I_{T}$ in the loop as Point S moves from $x=D$ to $x=3 D$. ![](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-17.jpg?height=602&width=904&top_left_y=1521&top_left_x=618)"
+            },
+            {
+              "key": "d",
+              "content": "On the following axes, sketch a graph of the induced current $I_{T}$ in the loop as Point S moves from $x=D$ to $x=3 D$. ![](https://cdn.mathpix.com/cropped/e73dfb58-8b17-427c-8faa-5d6b1bab8161-17.jpg?height=602&width=904&top_left_y=1521&top_left_x=618)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

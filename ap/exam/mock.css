@@ -79,6 +79,10 @@ button {
   gap: 18px;
 }
 
+.review-shell--results {
+  gap: 24px;
+}
+
 .review-shell h1 {
   margin: 0;
   font-size: clamp(2rem, 3vw, 3.2rem);
@@ -312,6 +316,32 @@ button {
   font-size: 1rem;
 }
 
+.question-text img,
+.option-copy img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.question-text math,
+.option-copy math {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.question-text p,
+.option-copy p {
+  margin: 0 0 0.75rem;
+}
+
+.question-text p:last-child,
+.option-copy p:last-child {
+  margin-bottom: 0;
+}
+
 /* Math rendering styles */
 .math-block {
   display: inline-block;
@@ -320,6 +350,19 @@ button {
 
 .math-block .katex {
   font-size: 1.05em;
+}
+
+.katex-placeholder {
+  display: inline-block;
+  min-width: 2em;
+  min-height: 1.2em;
+  background: rgba(59, 130, 246, 0.08);
+  border-radius: 4px;
+  animation: katex-pulse 1.5s ease-in-out infinite;
+}
+@keyframes katex-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
 }
 
 .line-reader-on .question-text {
@@ -615,6 +658,118 @@ button {
   gap: 4px;
 }
 
+.diagnostic-panel {
+  display: grid;
+  gap: 16px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.diagnostic-panel__header {
+  display: grid;
+  gap: 8px;
+}
+
+.diagnostic-panel__header h2,
+.diagnostic-column h3 {
+  margin: 0;
+}
+
+.diagnostic-panel__note,
+.diagnostic-column__title-row span,
+.diagnostic-card__meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.diagnostic-summary-grid,
+.diagnostic-detail-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.diagnostic-summary-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.diagnostic-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.diagnostic-summary-card {
+  align-content: start;
+}
+
+.diagnostic-column {
+  display: grid;
+  gap: 12px;
+}
+
+.diagnostic-column__title-row {
+  display: grid;
+  gap: 4px;
+}
+
+.diagnostic-card-stack {
+  display: grid;
+  gap: 10px;
+}
+
+.diagnostic-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--panel-soft);
+}
+
+.diagnostic-card.is-risk {
+  border-color: rgba(239, 68, 68, 0.3);
+  background: rgba(254, 242, 242, 0.8);
+}
+
+.diagnostic-card.is-covered {
+  border-color: rgba(16, 185, 129, 0.24);
+  background: rgba(236, 253, 245, 0.85);
+}
+
+.diagnostic-card__topline,
+.diagnostic-card__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.diagnostic-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.diagnostic-card__actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.diagnostic-link {
+  text-decoration: none;
+}
+
+.diagnostic-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(21, 34, 50, 0.08);
+  color: var(--ink);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
 .modal-copy {
   color: var(--muted);
   line-height: 1.8;
@@ -652,7 +807,9 @@ button {
   }
 
   .directions-grid,
-  .result-grid {
+  .result-grid,
+  .diagnostic-summary-grid,
+  .diagnostic-detail-grid {
     grid-template-columns: 1fr;
   }
 

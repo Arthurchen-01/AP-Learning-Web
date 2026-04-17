@@ -4,6 +4,7 @@ import {
   deriveSectionMeta,
   ensureStateShape,
   formatClock,
+  loadExamShellData,
   loadState,
   normalizeExamText,
   persistState,
@@ -126,40 +127,67 @@ function textToLatex(text) {
   return s;
 }
 
-// Try to render text containing math with KaTeX
-function renderMathInElement(html) {
-  if (!window.katex) return html;
+function normalizeInlineMathSpacing(text) {
+  return String(text ?? '')
+    .replace(/\s+([,.;:!?])/g, '$1')
+    .replace(/([([{])\s+/g, '$1')
+    .replace(/\s+([)\]}])/g, '$1')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
 
-  // Split by MathType blocks (should already be stripped by normalizeExamText)
-  // Then try to render each segment that looks like math
+function renderDelimitedMath(line) {
+  if (!window.katex || !line.includes('$')) {
+    return line;
+  }
 
-  // Strategy: wrap detected math sections in spans, then render with KaTeX
-  const placeholder = '\x00';
-  const blocks = [];
-  let result = html;
-
-  // Find <br> tags and protect them
-  result = result.replace(/<br\s*\/?>/g, placeholder + 'BR' + placeholder);
-
-  // Try to convert and render the entire text as math if it looks like a math expression
-  // Heuristic: contains math symbols, trig functions, integrals, etc.
-  const mathSignals = /\\?(?:sin|cos|tan|cot|sec|csc|ln|log|exp|∫|∑|∏|√|π|θ|α|β|∞|≤|≥|≠|±|′)/;
-  const hasDerivative = /[fgh]\s*['′]\s*\(/;
-  const hasPowers = /[a-zA-Z]\s*\{?\d+\}?/;
-  const hasFraction = /\\frac|[−-]\s*\d+\s*\/\s*\d+/;
-
-  // Process line by line (split by <br>)
-  const lines = result.split(placeholder + 'BR' + placeholder);
-  const renderedLines = lines.map(line => {
-    // Unescape HTML entities for KaTeX processing
-    let cleanText = line
+  return line.replace(/\$([^$]+)\$/g, (_, latex) => {
+    const decodedLatex = latex
       .replace(/&amp;/g, '&')
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>')
       .replace(/&quot;/g, '"')
       .replace(/&#39;/g, "'");
 
-    // Skip if no math signals at all
+    try {
+      return window.katex.renderToString(normalizeInlineMathSpacing(decodedLatex), {
+        throwOnError: false,
+        displayMode: false,
+        trust: true,
+        strict: false
+      });
+    } catch {
+      return `$${latex}$`;
+    }
+  });
+}
+
+// Try to render text containing math with KaTeX
+function renderMathInElement(html) {
+  if (!window.katex) return html;
+
+  const placeholder = '\x00';
+  let result = html;
+
+  result = result.replace(/<br\s*\/?>/g, placeholder + 'BR' + placeholder);
+
+  const mathSignals = /\\?(?:sin|cos|tan|cot|sec|csc|ln|log|exp|∫|∑|∏|√|π|θ|α|β|∞|≤|≥|≠|±|′)/;
+  const hasDerivative = /[fgh]\s*['′]\s*\(/;
+
+  const lines = result.split(placeholder + 'BR' + placeholder);
+  const renderedLines = lines.map(line => {
+    const renderedDelimitedLine = renderDelimitedMath(line);
+    if (renderedDelimitedLine !== line) {
+      return renderedDelimitedLine;
+    }
+
+    const cleanText = line
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'");
+
     if (!mathSignals.test(cleanText) && !hasDerivative.test(cleanText)) {
       return line;
     }
@@ -175,31 +203,87 @@ function renderMathInElement(html) {
         });
         return `<span class="math-block">${rendered}</span>`;
       }
-    } catch (e) {
-      // Fall back to original text
+    } catch {
+      return line;
     }
+
     return line;
   });
 
   return renderedLines.join('<br>');
 }
 
+function sanitizeImportedHtml(value) {
+  const template = document.createElement('template');
+  template.innerHTML = String(value || '');
+
+  template.content.querySelectorAll('annotation').forEach((node) => node.remove());
+  template.content.querySelectorAll('.choiceNum').forEach((node) => node.remove());
+  template.content.querySelectorAll('.choiceTxt').forEach((node) => node.replaceWith(...node.childNodes));
+  template.content.querySelectorAll('semantics').forEach((node) => {
+    const replacementNodes = [...node.childNodes].filter((child) => {
+      return child.nodeType !== Node.ELEMENT_NODE || child.tagName.toLowerCase() !== 'annotation';
+    });
+    if (replacementNodes.length) {
+      node.replaceWith(...replacementNodes);
+    }
+  });
+  template.content.querySelectorAll('img').forEach((node) => {
+    node.loading = 'lazy';
+  });
+
+  return template.innerHTML.trim();
+}
+
 // Enhanced formatText that tries to render math
 function formatText(value) {
   if (!value) return "";
-  // If the value contains HTML (MathML, spans, etc.), render it directly
+  // If the value contains HTML (MathML, spans, etc.), sanitize and render directly
   if (/<[a-z][\s\S]*>/i.test(value)) {
-    return value;
+    return sanitizeImportedHtml(value);
   }
+  // Plain text path: could contain LaTeX $...$ delimiters from AP source files
   const cleaned = normalizeExamText(value);
-  const escaped = escapeHtml(cleaned).replace(/\n/g, "<br>");
-  return escaped;
+  // Protect $...$ and $$...$$ blocks from escaping, wrap in data-latex spans for later KaTeX rendering
+  const protected_text = cleaned.replace(/\$\$([\s\S]*?)\$\$/g, (_, latex) => {
+    return `<span class="katex-placeholder" data-latex="${escapeHtml(latex.trim())}" data-display="true"></span>`;
+  }).replace(/\$([^$\n]+?)\$/g, (_, latex) => {
+    return `<span class="katex-placeholder" data-latex="${escapeHtml(latex.trim())}" data-display="false"></span>`;
+  });
+  // If we replaced any $...$ blocks, we have HTML now — escape only the non-span parts
+  if (protected_text.includes('katex-placeholder')) {
+    // Split by spans, escape only non-span parts
+    const parts = protected_text.split(/(<span[^>]*class="katex-placeholder"[^>]*><\/span>)/g);
+    return parts.map(p => {
+      if (p.includes('katex-placeholder')) return p;
+      return escapeHtml(p).replace(/\n/g, "<br>");
+    }).join('');
+  }
+  // No LaTeX found — plain text
+  return escapeHtml(cleaned).replace(/\n/g, "<br>");
 }
 
 // After DOM is set, apply KaTeX rendering
 async function renderMathAfterMount() {
   await loadKatex();
   if (!window.katex) return;
+
+  // Render katex-placeholder spans (from LaTeX $...$ blocks in formatText)
+  document.querySelectorAll('.katex-placeholder').forEach(el => {
+    if (el.dataset.rendered) return;
+    el.dataset.rendered = 'true';
+    const latex = el.dataset.latex || '';
+    const displayMode = el.dataset.display === 'true';
+    if (!latex) { el.textContent = '$...$'; return; }
+    try {
+      el.outerHTML = window.katex.renderToString(latex, {
+        throwOnError: false, displayMode, trust: true, strict: false
+      });
+    } catch {
+      el.textContent = latex;
+      el.style.color = '#ef4444';
+    }
+  });
 
   document.querySelectorAll('.question-text, .option-copy').forEach(el => {
     if (el.dataset.mathRendered) return;
@@ -246,12 +330,7 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
-  if (!response.ok) {
-    throw new Error(`Missing mock data for examId ${examId}`);
-  }
-
-  exam = await response.json();
+  exam = await loadExamShellData(examId);
   branchDiagnosticsResources = await loadBranchDiagnosticsResources();
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
@@ -899,6 +978,8 @@ function renderExam() {
   const meta = deriveSectionMeta(section, exam);
   const flagged = sectionState().flagged[state.questionIndex];
   const answer = sectionState().answers[state.questionIndex];
+  const isEmpty = !question.prompt || !question.prompt.trim();
+  const isPlaceholder = isEmpty && (!question.options || question.options.length === 0);
 
   app.innerHTML = `
     <div class="exam-layout ${question.type === "frq" ? "is-frq" : ""}">
@@ -909,7 +990,13 @@ function renderExam() {
           <div class="question-pane ${state.ui.lineReaderOn ? "line-reader-on" : ""}">
             <div class="question-label">Question ${state.questionIndex + 1}</div>
             <div class="question-content">
-              <div class="question-text">${formatText(question.prompt)}</div>
+              ${isPlaceholder
+                ? `<div class="question-text" style="color:var(--text-muted);font-style:italic;padding:2rem;text-align:center;border:1px dashed var(--border-light);border-radius:8px;background:rgba(59,130,246,0.05);">
+                    <div style="font-size:2rem;margin-bottom:0.5rem;">📝</div>
+                    <div style="font-size:1.1rem;font-weight:600;color:var(--text);">FRQ 题目暂缺</div>
+                    <div style="margin-top:0.5rem;font-size:0.9rem;">此题为自由作答部分（FRQ），题目内容尚未导入。<br>你可以跳过此题，或标记后回来补充。</div>
+                  </div>`
+                : `<div class="question-text">${formatText(question.prompt)}</div>`}
               ${renderOptions(question, answer)}
             </div>
           </div>
@@ -1031,6 +1118,9 @@ function renderOptions(question, answer) {
   if (question.type === "frq") {
     return "";
   }
+  if (!question.options || question.options.length === 0) {
+    return `<div style="color:var(--text-muted);font-style:italic;padding:1rem 0;font-size:0.9rem;">暂无选项</div>`;
+  }
   const values = Array.isArray(answer) ? answer : [];
   return `
     <div class="option-list">
@@ -1065,8 +1155,9 @@ function renderBottomNav() {
         ${section.questions.map((question, index) => {
           const answered = isAnswered(sectionState().answers[index], question);
           const flagged = sectionState().flagged[index];
+          const isPlaceholder = !question.prompt || (!question.prompt.trim() && (!question.options || question.options.length === 0));
           return `
-            <button class="question-chip ${index === state.questionIndex ? "is-current" : ""} ${answered ? "is-answered" : ""} ${flagged ? "is-flagged" : ""}" type="button" data-action="go-question" data-question-index="${index}">
+            <button class="question-chip ${index === state.questionIndex ? "is-current" : ""} ${answered ? "is-answered" : ""} ${flagged ? "is-flagged" : ""} ${isPlaceholder ? "is-placeholder" : ""}" type="button" data-action="go-question" data-question-index="${index}" ${isPlaceholder ? 'title="FRQ 题目暂缺"' : ""}>
               ${index + 1}
             </button>
           `;

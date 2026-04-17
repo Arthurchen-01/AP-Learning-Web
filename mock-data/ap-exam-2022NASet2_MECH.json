@@ -1,0 +1,111 @@
+{
+  "examId": "2022NASet2",
+  "title": "AP Physics C: Mechanics 2022年",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2022",
+  "description": "AP Physics C: Mechanics 2022年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "small sled slides across a rough horizontal table with an initial velocity $v_{0}$. The coefficient of kinetic friction between the sled and the table is $_{k}$. A string connects the sled to a device on the ground. The device maintains constant tension $F_{T}$ in the string by unwinding the string as the sled slides to the right. The total mass of the sled is $m$. The string is attached to the device at $x=0$ and at a height of $y$, as shown in Figure 1. The horizontal position of the sled is represented by $x$, as shown in Figure 2. Express all algebraic answers in terms of $m, _{k}$, $F_{T}, x, y$, and physical constants, as appropriate.",
+          "options": [
+            {
+              "key": "a",
+              "content": "On the dot below that represents the sled, draw and label the forces (not components) that are exerted on the sled a short time after $t=0$ but before the sled has come to rest. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot."
+            },
+            {
+              "key": "b",
+              "content": "Determine an expression for the angle $$ that the string makes with the vertical when the sled has traveled a horizontal distance $x$.\n\nContinue your response to QUESTION 1 on this page."
+            },
+            {
+              "key": "c",
+              "content": "i. Derive an expression for the normal force $F_{N}$ exerted on the sled by the table as a function of the position $x$.\nii. Derive an expression for the magnitude of the net horizontal force $F_{ {net }}$ exerted on the sled as a function of the position $x$."
+            },
+            {
+              "key": "d",
+              "content": "Derive an expression for the work $W$ done by the string on the sled as the sled moves from $x=0$ to $x=L$."
+            },
+            {
+              "key": "e",
+              "content": "The sled comes to rest after traveling a horizontal distance $x=2 L$. As the system slides from $x=0$ to $x=L$, the energy dissipated by friction is $E_{1}$. As the sled slides from $x=L$ to $x=2 L$, the energy dissipated by friction is $E_{2}$. Is $E_{1}$ greater than, less than, or equal to $E_{2}$ ?\n$____$ $E_{1}>E_{2}$ $____$ $E_{1}<E_{2}$ $____$ $E_{1}=E_{2}$\n\nJustify your answer.\n\nBegin your response to QUESTION 2 on this page."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "lock 1 of mass $m_{1}$ is held at rest while compressing an ideal spring an amount $ x$. The spring constant of the spring is $k$. Block 2 has mass $m_{2}$, where $m_{2}",
+          "options": [
+            {
+              "key": "a",
+              "content": "The impulse on Block 1 from the spring during the time interval $0J_{2} -J_{S}<J_{2} _J_{S}=J_{2}\n$$\n\nJustify your answer."
+            },
+            {
+              "key": "b",
+              "content": "On the following axes, draw graphs of the magnitude of the momentum of each block as a function of time, before and after $t_{C}$. The collision occurs in a negligible amount of time. The grid lines on each graph are drawn to the same scale."
+            },
+            {
+              "key": "c",
+              "content": "Show that the velocity $v$ of the two-block system after the collision is given by the equation $v={k m_{1}}{m_{1}+m_{2}} x$.\n\nContinue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "d",
+              "content": "A group of students use the setup to perform an experiment. They measure the mass of Block 1 to be $m_{1}=0.500 ~kg$, and the spring constant $k$ of the spring to be $150 ~N / m$. The mass of Block 2 is unknown. They perform several trials and in each trial the spring is compressed a different distance $ x$ and the final velocity $v$ of the two-block system is measured. They graph $v$ as a function of $ x$, as shown below.\n\ni. Draw a line that represents the best fit to the data points shown.\nii. Use the best-fit line to calculate the mass of Block 2."
+            },
+            {
+              "key": "e",
+              "content": "After the experiment, the students use a balance to measure the mass of Block 2 and find it to be greater than what was determined in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "uniform board of length $L$ and mass $m$ is attached to a pivot $L{4}$ from the left end of the board. The left end of the board is attached to an ideal spring of spring constant $k$ that is attached to the ground. The right end of the board is initially held by a student so that the spring is unstretched, as shown in Figure 1. The student slowly lowers and then releases the board. The board remains at rest in the horizontal position, with the spring stretched, as shown in Figure 2. The rotational inertia of the board about the pivot is $I$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "On the rectangle below, which represents the board, draw and label the forces (not components) that act on the board while the board-spring system is in equilibrium. Each force should be represented by an arrow that starts on, and points away from, the board, and should represent the location at which that force acts."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the distance the spring stretches, $ x$, when the board is in equilibrium. Express your answer in terms of $k, L, m$, and physical constants, as appropriate.\n\nContinue your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
+            },
+            {
+              "key": "c",
+              "content": "A student pushes the board down on the right side, stretching the spring a new distance $ x_{2}$ from the unstretched position. The board is held at a small angle $_{0}$ with the horizontal, as shown. The student then releases the board from rest.\ni. At time $t=0$, the board is released. At $t=t_{1}$, the board first crosses the horizontal. Sketch a graph of the magnitude of the angular acceleration $$ of the board as a function of time $t$ from $t=0$ to $t=t_{1}$.\n\nContinue your response to QUESTION 3 on this page.\nii. Derive an expression for the angular acceleration $_{0}$ of the board immediately after the board is released. Express your answer in terms of $k, L, m, I, x_{2}, _{0}$, and physical constants, as appropriate.\n\nContinue your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
+            },
+            {
+              "key": "d",
+              "content": "Two blocks of equal mass $m$ are attached to the board equal distances from the pivot point, as shown. The board is again pushed down on the right side so that the spring stretches the same distance $ x_{2}$ as in part"
+            },
+            {
+              "key": "c",
+              "content": "?\n$____$ $^{}>_{0}$ $____$ $^{}<_{0}$ $____$ $^{}=_{0}$\n\nJustify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

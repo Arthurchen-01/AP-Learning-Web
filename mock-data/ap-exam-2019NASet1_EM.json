@@ -1,0 +1,158 @@
+{
+  "examId": "2019NASet1",
+  "title": "AP Physics C: Electricity and Magnetism 2019年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2019",
+  "description": "AP Physics C: Electricity and Magnetism 2019年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A very long, thin, nonconducting cylinder of length $L$ is centered on the $y$-axis, as shown above. The cylinder has a uniform linear charge density $+$. Point P is located on the $y$-axis at $y=c$, where $L c$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "i. On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due to the long cylinder. The arrow should start on and point away from the dot. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-05.jpg?height=223&width=227&top_left_y=1430&top_left_x=949) ii. Describe the shape and location of a Gaussian surface that can be used to determine the electric field at point P due to the long cylinder. iii. Use your Gaussian surface to derive an expression for the magnitude of the electric field at point P . Express your answer in terms of $, c, L$, and physical constants, as appropriate."
+            },
+            {
+              "key": "b",
+              "content": "A proton is released from rest at point P . On the axes below, sketch the velocity $v$ as a function of position $y$ and the acceleration $a$ as a function of position $y$ for the proton. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=465&width=637&top_left_y=305&top_left_x=365) ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=452&width=624&top_left_y=311&top_left_x=1125) The original cylinder is now replaced with a much shorter thin, nonconducting cylinder with the same uniform linear charge density $+$, as shown in the figure below. The length of the cylinder to the right of the $y$-axis is $a$, and the length of the cylinder to the left of the $y$-axis is $b$, where $a"
+            },
+            {
+              "key": "c",
+              "content": "On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due to the shorter cylinder. The arrow should start on and point away from the dot. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=222&width=227&top_left_y=1564&top_left_x=949)"
+            },
+            {
+              "key": "d",
+              "content": "i. Is there a single Gaussian surface that can be used with Gauss's law to derive an expression for the electric field at point P ? $____$ Yes $____$ No ii. If your answer to part (d)(i) is yes, explain how you can use Gauss's law to derive an expression for the field at point P . If your answer to part (d)(i) is no, explain why Gauss's law cannot be applied to derive an expression for the electric field in this case. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-07.jpg?height=411&width=592&top_left_y=249&top_left_x=764) Note: This figure is shown again for reference. A student in class argues that using the integral shown below might be a useful approach for determining the electric field at point P . $$ E= 1{4 _{0}} 1{r^{2}} d q $$ The student uses this approach and writes the following two integrals for the magnitude of the horizontal and vertical components of the electric field at point P . Horizontal component: $$ aligned & |E_{x}|=4 _{0} _{-b}^{a} x{(c^{2}+x^{2})^{3 / 2}} d x \\\\ & |E_{y}|=4 _{0} _{-b}^{a} y{(c^{2}+x^{2})} d y aligned $$"
+            },
+            {
+              "key": "e",
+              "content": "i. One of the two expressions above is not correct. Which expression is not correct? $____$ Horizontal component $____$ Vertical component ii. Identify two mistakes in the incorrect expression, and explain how to correct the mistakes. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-08.jpg?height=349&width=571&top_left_y=242&top_left_x=777) 2. The circuit shown above is constructed with two 6.0 V batteries and three resistors with the values shown. The currents $I_{1}, I_{2}$, and $I_{3}$ in each branch of the circuit are indicated."
+            },
+            {
+              "key": "a",
+              "content": "i. Using Kirchhoff's rules, write, but DO NOT SOLVE, equations that can be used to solve for the current in each resistor. ii. Calculate the current in the $200 $ resistor. iii. Calculate the power dissipated by the $200 $ resistor. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-08.jpg?height=346&width=508&top_left_y=1216&top_left_x=809) The two 6.0 V batteries are replaced with a battery with voltage $E$ and a resistor of resistance $50 $, as shown above. The voltmeter V shows that the voltage across the $200 $ resistor is 4.4 V ."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the current through the $50 $ resistor."
+            },
+            {
+              "key": "c",
+              "content": "Calculate the voltage $$ of the battery."
+            },
+            {
+              "key": "d",
+              "content": "i. The $200 $ resistor in the circuit in Figure 2 is replaced with a $200 ~F$ capacitor, as shown on the right, and the circuit is allowed to reach steady state. Calculate the current through the $50 $ resistor. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-09.jpg?height=353&width=519&top_left_y=279&top_left_x=1409) ii. The $200 $ resistor in the circuit in Figure 2 is replaced with an ideal 50 mH inductor, as shown on the right, and the circuit is allowed to reach steady state. Is the current in the $50 $ resistor greater than, less than, or equal to the current calculated in part (b) ? ___ Greater than __ Less than $____$ Equal to Justify your answer. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-09.jpg?height=349&width=514&top_left_y=747&top_left_x=1405) © 2019 The College Board. Visit the College Board on the web: collegeboard.org. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-10.jpg?height=382&width=1335&top_left_y=242&top_left_x=395) 3. A solenoid is used to generate a magnetic field. The solenoid has an inner radius $a$, length $$, and $N$ total turns of wire. A power supply, not shown, is connected to the solenoid and generates current $I$, as shown in the figure on the left above. The $x$-axis runs along the axis of the solenoid. Point P is in the middle of the solenoid at the origin of the $x y z$-coordinate system, as shown in the cutaway view on the right above. Assume $ a$."
+            },
+            {
+              "key": "a",
+              "content": "Select the correct direction of the magnetic field at point P . $++x$-direction $____$ $+y$-direction $____$ $+z$-direction $____$ - $x$-direction $____$ -y-direction $____$ -z-direction Justify your selection."
+            },
+            {
+              "key": "b",
+              "content": "i. On the cutaway view below, clearly draw an Amperian loop that can be used to determine the magnetic field at point P at the center of the solenoid. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-10.jpg?height=199&width=713&top_left_y=1351&top_left_x=708) ii. Use Ampere's law to derive an expression for the magnetic field strength at point P . Express your answer in terms of $I, , N, a$, and physical constants, as appropriate. Some physics students conduct an experiment to determine the resistance $R_{S}$ of a solenoid with radius $a=0.015 ~m$, total turns $N=100$, and total length $=0.40 ~m$. The students connect the solenoid to a variable power supply. A magnetic field sensor is used to measure the magnetic field strength along the central axis at the center of the solenoid. The plot of the magnetic field strength $B$ as a function of the emf $$ of the power supply is shown below. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-11.jpg?height=817&width=1054&top_left_y=451&top_left_x=534)"
+            },
+            {
+              "key": "c",
+              "content": "i. On the graph above, draw a best-fit line for the data. ii. Use the straight line to determine the resistance $R_{S}$ of the solenoid used in the experiment."
+            },
+            {
+              "key": "d",
+              "content": "One of the students notes that the horizontal component of the magnetic field of Earth is $2.5 10^{-5} ~T$. i. Is there evidence from the graph that the horizontal orientation of the solenoid affects the measured values for $B$ ? $____$ Yes $____$ No Justify your answer. ii. Would the horizontal orientation of the solenoid affect the calculated value for $R_{S}$ ? $____$ Yes $____$ No Justify your answer. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-12.jpg?height=493&width=641&top_left_y=240&top_left_x=741) A thin conducting loop of radius $b$ and resistance $R_{L}$ is placed concentric with the solenoid, as shown above. The current in the solenoid is decreased from $I$ to zero over time $ t$."
+            },
+            {
+              "key": "e",
+              "content": "i. Is the direction of the induced current in the loop clockwise or counterclockwise during the time period that the current in the solenoid is decreasing? $____$ Clockwise $____$ Counterclockwise Justify your answer. ii. Derive an equation for the average induced current $i_{ {IND }}$ in the loop during the time period that the current in the solenoid is decreasing. Express your answer in terms of $I, , N, a, b, R_{L}, R_{S}, t$, and physical constants, as appropriate. {"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A very long, thin, nonconducting cylinder of length $L$ is centered on the $y$-axis, as shown above. The cylinder has a uniform linear charge density $+$. Point P is located on the $y$-axis at $y=c$, where $L c$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "i. On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due to the long cylinder. The arrow should start on and point away from the dot. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-05.jpg?height=223&width=227&top_left_y=1430&top_left_x=949) ii. Describe the shape and location of a Gaussian surface that can be used to determine the electric field at point P due to the long cylinder. iii. Use your Gaussian surface to derive an expression for the magnitude of the electric field at point P . Express your answer in terms of $, c, L$, and physical constants, as appropriate."
+            },
+            {
+              "key": "b",
+              "content": "A proton is released from rest at point P . On the axes below, sketch the velocity $v$ as a function of position $y$ and the acceleration $a$ as a function of position $y$ for the proton. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=465&width=637&top_left_y=305&top_left_x=365) ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=452&width=624&top_left_y=311&top_left_x=1125) The original cylinder is now replaced with a much shorter thin, nonconducting cylinder with the same uniform linear charge density $+$, as shown in the figure below. The length of the cylinder to the right of the $y$-axis is $a$, and the length of the cylinder to the left of the $y$-axis is $b$, where $a"
+            },
+            {
+              "key": "c",
+              "content": "On the figure shown below, draw an arrow to indicate the direction of the electric field at point P due to the shorter cylinder. The arrow should start on and point away from the dot. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-06.jpg?height=222&width=227&top_left_y=1564&top_left_x=949)"
+            },
+            {
+              "key": "d",
+              "content": "i. Is there a single Gaussian surface that can be used with Gauss's law to derive an expression for the electric field at point P ? $____$ Yes $____$ No ii. If your answer to part (d)(i) is yes, explain how you can use Gauss's law to derive an expression for the field at point P . If your answer to part (d)(i) is no, explain why Gauss's law cannot be applied to derive an expression for the electric field in this case. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-07.jpg?height=411&width=592&top_left_y=249&top_left_x=764) Note: This figure is shown again for reference. A student in class argues that using the integral shown below might be a useful approach for determining the electric field at point P . $$ E= 1{4 _{0}} 1{r^{2}} d q $$ The student uses this approach and writes the following two integrals for the magnitude of the horizontal and vertical components of the electric field at point P . Horizontal component: $$ aligned & |E_{x}|=4 _{0} _{-b}^{a} x{(c^{2}+x^{2})^{3 / 2}} d x \\\\ & |E_{y}|=4 _{0} _{-b}^{a} y{(c^{2}+x^{2})} d y aligned $$"
+            },
+            {
+              "key": "e",
+              "content": "i. One of the two expressions above is not correct. Which expression is not correct? $____$ Horizontal component $____$ Vertical component ii. Identify two mistakes in the incorrect expression, and explain how to correct the mistakes. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-08.jpg?height=349&width=571&top_left_y=242&top_left_x=777) 2. The circuit shown above is constructed with two 6.0 V batteries and three resistors with the values shown. The currents $I_{1}, I_{2}$, and $I_{3}$ in each branch of the circuit are indicated."
+            },
+            {
+              "key": "a",
+              "content": "i. Using Kirchhoff's rules, write, but DO NOT SOLVE, equations that can be used to solve for the current in each resistor. ii. Calculate the current in the $200 $ resistor. iii. Calculate the power dissipated by the $200 $ resistor. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-08.jpg?height=346&width=508&top_left_y=1216&top_left_x=809) The two 6.0 V batteries are replaced with a battery with voltage $E$ and a resistor of resistance $50 $, as shown above. The voltmeter V shows that the voltage across the $200 $ resistor is 4.4 V ."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the current through the $50 $ resistor."
+            },
+            {
+              "key": "c",
+              "content": "Calculate the voltage $$ of the battery."
+            },
+            {
+              "key": "d",
+              "content": "i. The $200 $ resistor in the circuit in Figure 2 is replaced with a $200 ~F$ capacitor, as shown on the right, and the circuit is allowed to reach steady state. Calculate the current through the $50 $ resistor. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-09.jpg?height=353&width=519&top_left_y=279&top_left_x=1409) ii. The $200 $ resistor in the circuit in Figure 2 is replaced with an ideal 50 mH inductor, as shown on the right, and the circuit is allowed to reach steady state. Is the current in the $50 $ resistor greater than, less than, or equal to the current calculated in part (b) ? ___ Greater than __ Less than $____$ Equal to Justify your answer. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-09.jpg?height=349&width=514&top_left_y=747&top_left_x=1405) © 2019 The College Board. Visit the College Board on the web: collegeboard.org. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-10.jpg?height=382&width=1335&top_left_y=242&top_left_x=395) 3. A solenoid is used to generate a magnetic field. The solenoid has an inner radius $a$, length $$, and $N$ total turns of wire. A power supply, not shown, is connected to the solenoid and generates current $I$, as shown in the figure on the left above. The $x$-axis runs along the axis of the solenoid. Point P is in the middle of the solenoid at the origin of the $x y z$-coordinate system, as shown in the cutaway view on the right above. Assume $ a$."
+            },
+            {
+              "key": "a",
+              "content": "Select the correct direction of the magnetic field at point P . $++x$-direction $____$ $+y$-direction $____$ $+z$-direction $____$ - $x$-direction $____$ -y-direction $____$ -z-direction Justify your selection."
+            },
+            {
+              "key": "b",
+              "content": "i. On the cutaway view below, clearly draw an Amperian loop that can be used to determine the magnetic field at point P at the center of the solenoid. ![figure](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-10.jpg?height=199&width=713&top_left_y=1351&top_left_x=708) ii. Use Ampere's law to derive an expression for the magnetic field strength at point P . Express your answer in terms of $I, , N, a$, and physical constants, as appropriate. Some physics students conduct an experiment to determine the resistance $R_{S}$ of a solenoid with radius $a=0.015 ~m$, total turns $N=100$, and total length $=0.40 ~m$. The students connect the solenoid to a variable power supply. A magnetic field sensor is used to measure the magnetic field strength along the central axis at the center of the solenoid. The plot of the magnetic field strength $B$ as a function of the emf $$ of the power supply is shown below. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-11.jpg?height=817&width=1054&top_left_y=451&top_left_x=534)"
+            },
+            {
+              "key": "c",
+              "content": "i. On the graph above, draw a best-fit line for the data. ii. Use the straight line to determine the resistance $R_{S}$ of the solenoid used in the experiment."
+            },
+            {
+              "key": "d",
+              "content": "One of the students notes that the horizontal component of the magnetic field of Earth is $2.5 10^{-5} ~T$. i. Is there evidence from the graph that the horizontal orientation of the solenoid affects the measured values for $B$ ? $____$ Yes $____$ No Justify your answer. ii. Would the horizontal orientation of the solenoid affect the calculated value for $R_{S}$ ? $____$ Yes $____$ No Justify your answer. ![](https://cdn.mathpix.com/cropped/6821c0f3-3ffb-4bd0-9b05-2fc55fa1d631-12.jpg?height=493&width=641&top_left_y=240&top_left_x=741) A thin conducting loop of radius $b$ and resistance $R_{L}$ is placed concentric with the solenoid, as shown above. The current in the solenoid is decreased from $I$ to zero over time $ t$."
+            },
+            {
+              "key": "e",
+              "content": "i. Is the direction of the induced current in the loop clockwise or counterclockwise during the time period that the current in the solenoid is decreasing? $____$ Clockwise $____$ Counterclockwise Justify your answer. ii. Derive an equation for the average induced current $i_{ {IND }}$ in the loop during the time period that the current in the solenoid is decreasing. Express your answer in terms of $I, , N, a, b, R_{L}, R_{S}, t$, and physical constants, as appropriate. {"
+            },
+            {
+              "key": "e",
+              "content": "i. Is the direction of the induced current in the loop clockwise or counterclockwise during the time period that the current in the solenoid is decreasing? $____$ Clockwise $____$ Counterclockwise Justify your answer. ii. Derive an equation for the average induced current $i_{ {IND }}$ in the loop during the time period that the current in the solenoid is decreasing. Express your answer in terms of $I, , N, a, b, R_{L}, R_{S}, t$, and physical constants, as appropriate. {"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

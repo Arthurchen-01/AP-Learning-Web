@@ -1,0 +1,182 @@
+{
+  "examId": "2019NASet2",
+  "title": "AP Physics C: Electricity and Magnetism 2019年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2019",
+  "description": "AP Physics C: Electricity and Magnetism 2019年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "The circuit represented above is composed of three resistors with the resistances shown, a battery of voltage $V_{0}$, a capacitor of capacitance $C$, and a switch $S$. The switch is closed, and after a long time, the circuit reaches steady-state conditions. Answer the following questions in terms of $V_{0}, R, C$, and fundamental constants, as appropriate.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Derive an expression for the steady-state current supplied by the battery."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the charge on the capacitor."
+            },
+            {
+              "key": "c",
+              "content": "Derive an expression for the energy stored in the capacitor. Now the switch is opened at time $t=0$."
+            },
+            {
+              "key": "d",
+              "content": "Write, but do NOT solve, a differential equation that could be used to solve for the charge $q(t)$ on the capacitor as a function of the time $t$ after the switch is opened."
+            },
+            {
+              "key": "e",
+              "content": "i. Calculate the current in resistor R immediately after the switch is opened. ii. On the axes below, sketch the current in the circuit as a function of time from time $t=0$ to a long time after the switch is opened. Explicitly label the maxima with numerical values or algebraic expressions, as appropriate. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-06.jpg?height=493&width=917&top_left_y=534&top_left_x=605)"
+            },
+            {
+              "key": "f",
+              "content": "Is the total amount of energy dissipated in the resistors after the switch is opened greater than, less than, or equal to the amount of energy stored in the capacitor calculated in part (c) ? $____$ Greater than $____$ Less than $____$ Equal to Justify your answer. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-07.jpg?height=465&width=467&top_left_y=268&top_left_x=829) 2. A nonconducting hollow sphere of inner radius 0.030 m and outer radius 0.050 m carries a positive volume charge density $$, as shown in the figure above. The charge density $$ of the sphere is given as a function of the distance $r$ from the center of the sphere, in meters, by the following. $$ aligned r0.050 ~m: =0 aligned $$"
+            },
+            {
+              "key": "a",
+              "content": "Calculate the total charge of the sphere."
+            },
+            {
+              "key": "b",
+              "content": "Using Gauss's law, calculate the magnitude of the electric field $E$ at the outer surface of the sphere."
+            },
+            {
+              "key": "c",
+              "content": "On the axes below, sketch the magnitude of the electric field $E$ as a function of distance $r$ from the center of the sphere. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-07.jpg?height=560&width=1295&top_left_y=1471&top_left_x=414)"
+            },
+            {
+              "key": "d",
+              "content": "Calculate the electric potential $V$ at the outer surface of the sphere. Assume the electric potential to be zero at infinity."
+            },
+            {
+              "key": "e",
+              "content": "A proton is released from rest at the outer surface of the sphere at time $t=0 ~s$. i. Calculate the magnitude of the initial acceleration of the proton. ii. Calculate the speed of the proton after a long time. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-09.jpg?height=622&width=875&top_left_y=229&top_left_x=627) 3. Two plates are set up with a potential difference $V$ between them. A small sphere of mass $m$ and charge $-e$ is placed at the left-hand plate, which has a negative charge, and is allowed to accelerate across the space between the plates and pass through a small opening. After passing through the small opening, the sphere enters a region in which there is a uniform magnetic field of magnitude $B$ directed into the page, as shown above. Ignore gravitational effects. Express all algebraic answers in terms of $V, m, e, B$, and fundamental constants, as appropriate."
+            },
+            {
+              "key": "a",
+              "content": "i. What is the initial direction of the force on the sphere as it enters the magnetic field? $____$ Into the page $____$ Out of the page $____$ Toward the top of the page $____$ Toward the bottom of the page ii. Describe the path taken by the sphere after it enters the magnetic field."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the speed of the sphere as it passes through the small opening."
+            },
+            {
+              "key": "c",
+              "content": "Derive an expression for the radius of the path taken by the sphere as it moves through the magnetic field. An experiment is performed in which a beam of electrons is accelerated across the space between the plates and passes through the small opening. After passing through the opening, the electrons travel in a semicircular path and strike the right-hand plate. The potential difference between the plates is varied in regular increments, as shown in the table below. For each potential difference, the magnetic field is varied in order to cause the beam to strike the right-hand plate at a distance of 0.020 m from the opening."
+            },
+            {
+              "key": "d",
+              "content": "Indicate below which quantities should be graphed to yield a straight line whose slope could be used to calculate a numerical value for the mass-to-charge ratio of an electron. Vertical axis: Horizontal axis: $____$ Use the remaining columns in the table above, as needed, to record any quantities that you indicated that are not given. Label each column you use and include units."
+            },
+            {
+              "key": "e",
+              "content": "On the graph below, plot the relationship determined in part (d). Clearly scale and label all axes, including units, if appropriate. Draw a straight line that best represents the data. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-10.jpg?height=710&width=1195&top_left_y=1280&top_left_x=466)"
+            },
+            {
+              "key": "f",
+              "content": "Using the straight line from part (e), determine the mass-to-charge ratio of an electron."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "The circuit represented above is composed of three resistors with the resistances shown, a battery of voltage $V_{0}$, a capacitor of capacitance $C$, and a switch $S$. The switch is closed, and after a long time, the circuit reaches steady-state conditions. Answer the following questions in terms of $V_{0}, R, C$, and fundamental constants, as appropriate.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Derive an expression for the steady-state current supplied by the battery."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the charge on the capacitor."
+            },
+            {
+              "key": "c",
+              "content": "Derive an expression for the energy stored in the capacitor. Now the switch is opened at time $t=0$."
+            },
+            {
+              "key": "d",
+              "content": "Write, but do NOT solve, a differential equation that could be used to solve for the charge $q(t)$ on the capacitor as a function of the time $t$ after the switch is opened."
+            },
+            {
+              "key": "e",
+              "content": "i. Calculate the current in resistor R immediately after the switch is opened. ii. On the axes below, sketch the current in the circuit as a function of time from time $t=0$ to a long time after the switch is opened. Explicitly label the maxima with numerical values or algebraic expressions, as appropriate. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-06.jpg?height=493&width=917&top_left_y=534&top_left_x=605)"
+            },
+            {
+              "key": "f",
+              "content": "Is the total amount of energy dissipated in the resistors after the switch is opened greater than, less than, or equal to the amount of energy stored in the capacitor calculated in part (c) ? $____$ Greater than $____$ Less than $____$ Equal to Justify your answer. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-07.jpg?height=465&width=467&top_left_y=268&top_left_x=829) 2. A nonconducting hollow sphere of inner radius 0.030 m and outer radius 0.050 m carries a positive volume charge density $$, as shown in the figure above. The charge density $$ of the sphere is given as a function of the distance $r$ from the center of the sphere, in meters, by the following. $$ aligned r0.050 ~m: =0 aligned $$"
+            },
+            {
+              "key": "a",
+              "content": "Calculate the total charge of the sphere."
+            },
+            {
+              "key": "b",
+              "content": "Using Gauss's law, calculate the magnitude of the electric field $E$ at the outer surface of the sphere."
+            },
+            {
+              "key": "c",
+              "content": "On the axes below, sketch the magnitude of the electric field $E$ as a function of distance $r$ from the center of the sphere. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-07.jpg?height=560&width=1295&top_left_y=1471&top_left_x=414)"
+            },
+            {
+              "key": "d",
+              "content": "Calculate the electric potential $V$ at the outer surface of the sphere. Assume the electric potential to be zero at infinity."
+            },
+            {
+              "key": "e",
+              "content": "A proton is released from rest at the outer surface of the sphere at time $t=0 ~s$. i. Calculate the magnitude of the initial acceleration of the proton. ii. Calculate the speed of the proton after a long time. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-09.jpg?height=622&width=875&top_left_y=229&top_left_x=627) 3. Two plates are set up with a potential difference $V$ between them. A small sphere of mass $m$ and charge $-e$ is placed at the left-hand plate, which has a negative charge, and is allowed to accelerate across the space between the plates and pass through a small opening. After passing through the small opening, the sphere enters a region in which there is a uniform magnetic field of magnitude $B$ directed into the page, as shown above. Ignore gravitational effects. Express all algebraic answers in terms of $V, m, e, B$, and fundamental constants, as appropriate."
+            },
+            {
+              "key": "a",
+              "content": "i. What is the initial direction of the force on the sphere as it enters the magnetic field? $____$ Into the page $____$ Out of the page $____$ Toward the top of the page $____$ Toward the bottom of the page ii. Describe the path taken by the sphere after it enters the magnetic field."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the speed of the sphere as it passes through the small opening."
+            },
+            {
+              "key": "c",
+              "content": "Derive an expression for the radius of the path taken by the sphere as it moves through the magnetic field. An experiment is performed in which a beam of electrons is accelerated across the space between the plates and passes through the small opening. After passing through the opening, the electrons travel in a semicircular path and strike the right-hand plate. The potential difference between the plates is varied in regular increments, as shown in the table below. For each potential difference, the magnetic field is varied in order to cause the beam to strike the right-hand plate at a distance of 0.020 m from the opening."
+            },
+            {
+              "key": "d",
+              "content": "Indicate below which quantities should be graphed to yield a straight line whose slope could be used to calculate a numerical value for the mass-to-charge ratio of an electron. Vertical axis: Horizontal axis: $____$ Use the remaining columns in the table above, as needed, to record any quantities that you indicated that are not given. Label each column you use and include units."
+            },
+            {
+              "key": "e",
+              "content": "On the graph below, plot the relationship determined in part (d). Clearly scale and label all axes, including units, if appropriate. Draw a straight line that best represents the data. ![](https://cdn.mathpix.com/cropped/2cb33bcd-7f1f-4ca5-887a-aad0e349213b-10.jpg?height=710&width=1195&top_left_y=1280&top_left_x=466)"
+            },
+            {
+              "key": "f",
+              "content": "Using the straight line from part (e), determine the mass-to-charge ratio of an electron."
+            },
+            {
+              "key": "f",
+              "content": "Using the straight line from part (e), determine the mass-to-charge ratio of an electron."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

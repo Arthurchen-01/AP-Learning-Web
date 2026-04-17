@@ -1,0 +1,166 @@
+{
+  "examId": "2022NASet2",
+  "title": "AP Physics C: Electricity and Magnetism 2022年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2022",
+  "description": "AP Physics C: Electricity and Magnetism 2022年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A very long nonconducting cylinder is surrounded by a thin concentric conducting cylindrical shell, as shown in the cutout view. A segment of length $L$ of the inner cylinder has a net charge of $+Q$ uniformly distributed throughout its volume. A segment of length $L$ of the outer shell has a net charge of $+4 Q$. The radii of the inner cylinder and outer shell are $R$ and $3 R$, respectively, as shown in the cross-section view. Continue your response to QUESTION 1 on this page.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Determine the charge on the outer surface of the cylindrical shell within length $L$."
+            },
+            {
+              "key": "b",
+              "content": "Using Gauss's law, derive an expression for the electric field a distance $r$ from the center of the inner cylinder for $r"
+            },
+            {
+              "key": "c",
+              "content": "The magnitude of the electric field at $r=R$ is 12 N / C. Calculate the value of the electric field at $r=2 R$."
+            },
+            {
+              "key": "d",
+              "content": "Derive an expression for the absolute value of the potential difference between the surface of the nonconducting cylinder and the inner surface of the cylindrical shell. Continue your response to QUESTION 1 on this page."
+            },
+            {
+              "key": "e",
+              "content": "i. On the following axes that include regions I, II, and III, sketch the graph of the electric field $E$ as a function of the distance $r$ from the axis of the inner cylinder. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-08.jpg?height=700&width=1429&top_left_y=575&top_left_x=340) ii. On the following axes that include regions I, II, and III, sketch the graph of the electric potential $V$ as a function of the distance $r$ from the axis of the inner cylinder. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-08.jpg?height=708&width=1433&top_left_y=1470&top_left_x=338) 2. A non-ideal capacitor has internal resistance that can be modeled as an ideal capacitor in series with a small resistor of resistance $r_{C}$. A group of students performs an experiment to determine the internal resistance of a capacitor. A circuit is to be constructed with the following available equipment: a single ideal battery of potential difference $ V_{0}$, a single ammeter, a single variable resistor of resistance $R$, a single uncharged non-ideal capacitor of capacitance $C$, and one or more switches as needed. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-09.jpg?height=203&width=1011&top_left_y=558&top_left_x=522)"
+            },
+            {
+              "key": "a",
+              "content": "Using the symbols shown, draw a schematic diagram of a circuit that can charge the capacitor and may also be used to study the current through the capacitor as it discharges through the resistor. The capacitor is fully charged by the battery. At time $t=0$, the capacitor starts discharging through the resistor."
+            },
+            {
+              "key": "b",
+              "content": "Show that the current $I$ through the capacitor as a function of time $t$ is $I(t)=I_{0} e^{-t{(R+r_{C}) C}}$ as the capacitor discharges. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "c",
+              "content": "The students determine the time constant $$ for the circuit as a function of the resistance $R$. The students' data are shown in the following graph. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-10.jpg?height=749&width=969&top_left_y=430&top_left_x=592) i. Draw the best-fit line for the data. ii. Using the best-fit line, calculate a value for the internal resistance $r_{C}$ of the capacitor."
+            },
+            {
+              "key": "d",
+              "content": "The ammeter is found to be nonideal. Is the actual value for the internal resistance $r_{C}$ for the capacitor greater than, less than, or equal to the experimental internal resistance of the capacitor calculated in part (c)? $____$ Greater than $____$ Less than $____$ Equal to Briefly justify your answer using features of the graph in part (c)."
+            },
+            {
+              "key": "e",
+              "content": "The values of the variable resistor in the original experiment ranged from $0.5 $ to $2.5 $. The experiment is repeated with values ranging from $3.0 $ to $6.0 $. Would the slope of the best-fit line be more steep, be less steep, or remain unchanged compared to the graph in part (c)? $____$ More steep $____$ Less steep $____$ Remain unchanged Briefly justify your answer. ![figure](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-12.jpg?height=360&width=1336&top_left_y=231&top_left_x=338) Note: Figures not drawn to scale. 3. A single loop of wire with resistance $3.0 $ and radius 0.10 m is placed inside a solenoid, with the normal to the loop parallel to the axis of the solenoid. The solenoid has 500 turns, is 0.25 m long, and is connected to a power supply that is not shown. At time $t=0$, the power supply is turned on, and the current $I$ in the solenoid as a function of $t$ is given by the equation $I(t)= t$, where $=5.0 ~A / s$. The direction of the current in the solenoid is clockwise, as shown in the end view."
+            },
+            {
+              "key": "a",
+              "content": "At time $t=2.0 ~s$, is the induced current in the loop, as seen from the end view shown, clockwise, counterclockwise, or zero? $____$ Clockwise $____$ Counterclockwise $____$ Zero Justify your answer."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the current in the loop of wire at time $t=2.0 ~s$."
+            },
+            {
+              "key": "c",
+              "content": "Calculate the total energy dissipated by the loop of wire from time $t=0$ to time $t=2.0 ~s$."
+            },
+            {
+              "key": "d",
+              "content": "A group of students attempts to verify experimentally the calculation of the current from part (b). The current in the inner circular loop at time $t=2.0 ~s$ is measured to be less than the current calculated in part (b). Which of the following could explain this discrepancy? Select one answer. $____$ The experiment did not account for Earth's magnetic field. $____$ The plane of the loop is not perpendicular to the axis of the solenoid. $____$ The center of the loop is not on the axis of the solenoid. $____$ The resistance of the loop is less than the given value. $____$ The radius of the loop is actually larger than 0.10 m . Justify your answer."
+            },
+            {
+              "key": "e",
+              "content": "The power supply is now turned off. The original loop of wire is then replaced with a second loop made from wire that has the same thickness and is made from the same material as the original loop of wire. The second loop has radius 0.20 m , is placed in the same orientation as the original loop, and fits completely inside the solenoid. The power supply is turned on, and the current $I$ in the solenoid as a function of $t$ is again given by the equation $I(t)= t$, where $=5.0 ~A / s$. Which of the following expressions correctly indicates the ratio $I_{2}{I_{1}}$ where $I_{1}$ represents the current induced in the original loop of wire in part (b) and $I_{2}$ represents the current induced in the second loop of wire? $$ -I_{2}{I_{1}}=1 -12 $$ Justify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A very long nonconducting cylinder is surrounded by a thin concentric conducting cylindrical shell, as shown in the cutout view. A segment of length $L$ of the inner cylinder has a net charge of $+Q$ uniformly distributed throughout its volume. A segment of length $L$ of the outer shell has a net charge of $+4 Q$. The radii of the inner cylinder and outer shell are $R$ and $3 R$, respectively, as shown in the cross-section view. Continue your response to QUESTION 1 on this page.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Determine the charge on the outer surface of the cylindrical shell within length $L$."
+            },
+            {
+              "key": "b",
+              "content": "Using Gauss's law, derive an expression for the electric field a distance $r$ from the center of the inner cylinder for $r"
+            },
+            {
+              "key": "c",
+              "content": "The magnitude of the electric field at $r=R$ is 12 N / C. Calculate the value of the electric field at $r=2 R$."
+            },
+            {
+              "key": "d",
+              "content": "Derive an expression for the absolute value of the potential difference between the surface of the nonconducting cylinder and the inner surface of the cylindrical shell. Continue your response to QUESTION 1 on this page."
+            },
+            {
+              "key": "e",
+              "content": "i. On the following axes that include regions I, II, and III, sketch the graph of the electric field $E$ as a function of the distance $r$ from the axis of the inner cylinder. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-08.jpg?height=700&width=1429&top_left_y=575&top_left_x=340) ii. On the following axes that include regions I, II, and III, sketch the graph of the electric potential $V$ as a function of the distance $r$ from the axis of the inner cylinder. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-08.jpg?height=708&width=1433&top_left_y=1470&top_left_x=338) 2. A non-ideal capacitor has internal resistance that can be modeled as an ideal capacitor in series with a small resistor of resistance $r_{C}$. A group of students performs an experiment to determine the internal resistance of a capacitor. A circuit is to be constructed with the following available equipment: a single ideal battery of potential difference $ V_{0}$, a single ammeter, a single variable resistor of resistance $R$, a single uncharged non-ideal capacitor of capacitance $C$, and one or more switches as needed. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-09.jpg?height=203&width=1011&top_left_y=558&top_left_x=522)"
+            },
+            {
+              "key": "a",
+              "content": "Using the symbols shown, draw a schematic diagram of a circuit that can charge the capacitor and may also be used to study the current through the capacitor as it discharges through the resistor. The capacitor is fully charged by the battery. At time $t=0$, the capacitor starts discharging through the resistor."
+            },
+            {
+              "key": "b",
+              "content": "Show that the current $I$ through the capacitor as a function of time $t$ is $I(t)=I_{0} e^{-t{(R+r_{C}) C}}$ as the capacitor discharges. Continue your response to QUESTION 2 on this page."
+            },
+            {
+              "key": "c",
+              "content": "The students determine the time constant $$ for the circuit as a function of the resistance $R$. The students' data are shown in the following graph. ![](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-10.jpg?height=749&width=969&top_left_y=430&top_left_x=592) i. Draw the best-fit line for the data. ii. Using the best-fit line, calculate a value for the internal resistance $r_{C}$ of the capacitor."
+            },
+            {
+              "key": "d",
+              "content": "The ammeter is found to be nonideal. Is the actual value for the internal resistance $r_{C}$ for the capacitor greater than, less than, or equal to the experimental internal resistance of the capacitor calculated in part (c)? $____$ Greater than $____$ Less than $____$ Equal to Briefly justify your answer using features of the graph in part (c)."
+            },
+            {
+              "key": "e",
+              "content": "The values of the variable resistor in the original experiment ranged from $0.5 $ to $2.5 $. The experiment is repeated with values ranging from $3.0 $ to $6.0 $. Would the slope of the best-fit line be more steep, be less steep, or remain unchanged compared to the graph in part (c)? $____$ More steep $____$ Less steep $____$ Remain unchanged Briefly justify your answer. ![figure](https://cdn.mathpix.com/cropped/cc21b574-2f2b-40a5-80ad-7fe05529c79d-12.jpg?height=360&width=1336&top_left_y=231&top_left_x=338) Note: Figures not drawn to scale. 3. A single loop of wire with resistance $3.0 $ and radius 0.10 m is placed inside a solenoid, with the normal to the loop parallel to the axis of the solenoid. The solenoid has 500 turns, is 0.25 m long, and is connected to a power supply that is not shown. At time $t=0$, the power supply is turned on, and the current $I$ in the solenoid as a function of $t$ is given by the equation $I(t)= t$, where $=5.0 ~A / s$. The direction of the current in the solenoid is clockwise, as shown in the end view."
+            },
+            {
+              "key": "a",
+              "content": "At time $t=2.0 ~s$, is the induced current in the loop, as seen from the end view shown, clockwise, counterclockwise, or zero? $____$ Clockwise $____$ Counterclockwise $____$ Zero Justify your answer."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the current in the loop of wire at time $t=2.0 ~s$."
+            },
+            {
+              "key": "c",
+              "content": "Calculate the total energy dissipated by the loop of wire from time $t=0$ to time $t=2.0 ~s$."
+            },
+            {
+              "key": "d",
+              "content": "A group of students attempts to verify experimentally the calculation of the current from part (b). The current in the inner circular loop at time $t=2.0 ~s$ is measured to be less than the current calculated in part (b). Which of the following could explain this discrepancy? Select one answer. $____$ The experiment did not account for Earth's magnetic field. $____$ The plane of the loop is not perpendicular to the axis of the solenoid. $____$ The center of the loop is not on the axis of the solenoid. $____$ The resistance of the loop is less than the given value. $____$ The radius of the loop is actually larger than 0.10 m . Justify your answer."
+            },
+            {
+              "key": "e",
+              "content": "The power supply is now turned off. The original loop of wire is then replaced with a second loop made from wire that has the same thickness and is made from the same material as the original loop of wire. The second loop has radius 0.20 m , is placed in the same orientation as the original loop, and fits completely inside the solenoid. The power supply is turned on, and the current $I$ in the solenoid as a function of $t$ is again given by the equation $I(t)= t$, where $=5.0 ~A / s$. Which of the following expressions correctly indicates the ratio $I_{2}{I_{1}}$ where $I_{1}$ represents the current induced in the original loop of wire in part (b) and $I_{2}$ represents the current induced in the second loop of wire? $$ -I_{2}{I_{1}}=1 -12 $$ Justify your answer."
+            },
+            {
+              "key": "e",
+              "content": "The power supply is now turned off. The original loop of wire is then replaced with a second loop made from wire that has the same thickness and is made from the same material as the original loop of wire. The second loop has radius 0.20 m , is placed in the same orientation as the original loop, and fits completely inside the solenoid. The power supply is turned on, and the current $I$ in the solenoid as a function of $t$ is again given by the equation $I(t)= t$, where $=5.0 ~A / s$. Which of the following expressions correctly indicates the ratio $I_{2}{I_{1}}$ where $I_{1}$ represents the current induced in the original loop of wire in part (b) and $I_{2}$ represents the current induced in the second loop of wire? $$ -I_{2}{I_{1}}=1 -12 $$ Justify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

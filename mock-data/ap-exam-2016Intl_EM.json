@@ -1,0 +1,1127 @@
+{
+  "examId": "2016Intl",
+  "title": "AP Physics C: Electricity and Magnetism 2016年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2016",
+  "description": "AP Physics C: Electricity and Magnetism 2016年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "A small object of charge $-1.0 C$ that is 0.10 m above a long, straight wire moves at a speed of $0.050 ~m / s$ parallel to the wire, as shown in the figure above. The current in the wire is 2 A . What is the magnitude and direction of the magnetic force on the object? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-04.jpg?height=272&width=521&top_left_y=583&top_left_x=1281)",
+          "options": [
+            {
+              "key": "",
+              "content": "$2 10^{-13} ~N$, toward the wire"
+            },
+            {
+              "key": "",
+              "content": "$2 10^{-13} ~N$, away from the wire"
+            },
+            {
+              "key": "",
+              "content": "$4 10^{-13} ~N$, toward the wire"
+            },
+            {
+              "key": "",
+              "content": "$4 10^{-13} ~N$, away from the wire"
+            },
+            {
+              "key": "",
+              "content": "0 , direction is undefined"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "An electron travels through a uniform magnetic field $B$ directed to the right. The electron's velocity $v$ is directed out of the page, as shown in the figure above. The direction of the force on the electron due to the magnetic field at the instant shown is",
+          "options": [
+            {
+              "key": "",
+              "content": "toward the top of the page"
+            },
+            {
+              "key": "",
+              "content": "toward the bottom of the page"
+            },
+            {
+              "key": "",
+              "content": "to the left"
+            },
+            {
+              "key": "",
+              "content": "to the right"
+            },
+            {
+              "key": "",
+              "content": "into the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "Two long parallel wires have currents of $I_{1}$ and $I_{2}$ and are a distance $d$ apart. The force per unit length exerted by one wire on the other is $F / L$. The current in each wire is doubled, and the distance between the wires is reduced to $d / 2$. The new force per unit length is A capacitor is constructed of two large, identical, parallel metal plates separated by a small distance $d$. A battery fully charges the capacitor and is then disconnected.",
+          "options": [
+            {
+              "key": "",
+              "content": "$F{2 L}$"
+            },
+            {
+              "key": "",
+              "content": "$F{L}$"
+            },
+            {
+              "key": "",
+              "content": "$2 F{L}$"
+            },
+            {
+              "key": "",
+              "content": "$4 F{L}$"
+            },
+            {
+              "key": "",
+              "content": "$8 F{L}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "The plate separation is now increased to a distance $2 d$. Which of the following correctly describes the change, if any, of the voltage across the capacitor, the electric field between the plates, and the energy stored in the capacitor? & Voltage & Electric Field & Energy \\\\",
+          "options": [
+            {
+              "key": "",
+              "content": "Does not change & Does not change & & Does not change \\\\"
+            },
+            {
+              "key": "",
+              "content": "Does not change & Doubles & & Does not change \\\\"
+            },
+            {
+              "key": "",
+              "content": "Doubles & Doubles & & Does not change \\\\"
+            },
+            {
+              "key": "",
+              "content": "Doubles & Does not change & & Doubles \\\\"
+            },
+            {
+              "key": "",
+              "content": "Doubles & Doubles & & Doubles"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "If, instead of separating the plates, the empty space between the plates is filled with a slab of insulating material that has a dielectric constant $K=2$, which of the following correctly describes the change, if any, of the voltage across the capacitor, the electric field between the plates, and the energy stored in the capacitor? & Voltage & Electric Field & Energy \\\\ Does not change",
+          "options": [
+            {
+              "key": "",
+              "content": "& Halves & Halves & \\\\"
+            },
+            {
+              "key": "",
+              "content": "& Halves & Halves & \\\\"
+            },
+            {
+              "key": "",
+              "content": "& Does not change & Does not change & \\\\"
+            },
+            {
+              "key": "",
+              "content": "Does not change & Halves & Halves \\\\"
+            },
+            {
+              "key": "",
+              "content": "Does not change & Does not change & Halves \\\\"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "A capacitor stores energy $U_{1}$ when it holds charge $Q$. The same capacitor stores energy $U_{2}$ when it holds charge $16 Q$. What is the ratio $U_{2} / U_{1}$ ? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-06.jpg?height=278&width=604&top_left_y=237&top_left_x=281) Switch $S$ in the circuit shown above has been closed for a long time.",
+          "options": [
+            {
+              "key": "",
+              "content": "8"
+            },
+            {
+              "key": "",
+              "content": "16"
+            },
+            {
+              "key": "",
+              "content": "64"
+            },
+            {
+              "key": "",
+              "content": "128"
+            },
+            {
+              "key": "",
+              "content": "256"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "Which of the following is the correct expression for the current in the resistor?",
+          "options": [
+            {
+              "key": "",
+              "content": "$E{R}$"
+            },
+            {
+              "key": "",
+              "content": "$C E{R}$"
+            },
+            {
+              "key": "",
+              "content": "$C E$"
+            },
+            {
+              "key": "",
+              "content": "$R C$"
+            },
+            {
+              "key": "",
+              "content": "Zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Suppose that the switch is opened at time $t=0$. Which of the following combinations of a differential equation and an initial condition can be used to solve for the charge $Q(t)$ on the upper plate of the capacitor as a function of $$ Q(0)=C E $$ $$ Q(0)=0 $$ $$ Q(0)=C $$ $$ Q(0)=0 $$ $$ Q(0)=C $$",
+          "options": [
+            {
+              "key": "",
+              "content": "$Q{C}-R d Q{d t}=0$"
+            },
+            {
+              "key": "",
+              "content": "$Q{C}-R d Q{d t}=$"
+            },
+            {
+              "key": "",
+              "content": "$Q{C}+R d Q{d t}=$"
+            },
+            {
+              "key": "",
+              "content": "$Q{C}+R d Q{d t}=0$"
+            },
+            {
+              "key": "",
+              "content": "$Q{C}+R d Q{d t}=0$ time $t$ ?"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "A nonconducting sphere of radius $R$ has a uniform volume charge density $$. At the surface of the sphere, the electric field strength is $E$. If a second sphere of radius $2 R$ was created of the same material and with the same charge density, what would be the strength of the electric field at the surface of the second sphere? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-07.jpg?height=398&width=774&top_left_y=239&top_left_x=197) Note: Figure not drawn to scale. The figure above shows a thin, circular nonconducting sheet of positive charge uniformly distributed over its area. The radius of the sheet is $R$. Point $O$ is at the center of the sheet. Point $S$ is a distance $x$ from the center of the sheet, and point $T$ is a distance $4 x$ from the center of the sheet. Assume $R x$.",
+          "options": [
+            {
+              "key": "",
+              "content": "$E / 4$"
+            },
+            {
+              "key": "",
+              "content": "$E / 2$"
+            },
+            {
+              "key": "",
+              "content": "$E$"
+            },
+            {
+              "key": "",
+              "content": "$2 E$"
+            },
+            {
+              "key": "",
+              "content": "$4 E$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "If the magnitude of the electric field at point $T$ is $E_{T}$, which of the following best represents the magnitude of the electric field at point $S$ ?",
+          "options": [
+            {
+              "key": "",
+              "content": "$ E_{T} / 16$"
+            },
+            {
+              "key": "",
+              "content": "$ E_{T} / 4$"
+            },
+            {
+              "key": "",
+              "content": "$E_{T}$"
+            },
+            {
+              "key": "",
+              "content": "$4 E_{T}$"
+            },
+            {
+              "key": "",
+              "content": "$16 E_{T}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "A small sphere of mass $m$ and charge $-q$ is released from rest at point $T$. If the electric potentials at points $S$ and $T$ are $V_{S}$ and $V_{T}$, respectively, what is the speed of the sphere when it reaches point $S$ ? Ignore the effects of gravity. Capacitor & $K$ & $L$ & $M$ & $N$ \\\\ Plate area & $A$ & $A$ & $2 A$ & $2 A$ \\\\ Plate separation & $d$ & $2 d$ & $d$ & $2 d$ \\\\ The chart above shows the plate area and separation for four different air-filled parallel-plate capacitors: $K, L, M$, and $N$.",
+          "options": [
+            {
+              "key": "",
+              "content": "$2 q{m}(V_{S}+V_{T})$"
+            },
+            {
+              "key": "",
+              "content": "$4 q{m}(V_{S}+V_{T})$"
+            },
+            {
+              "key": "",
+              "content": "$q{2 m(V_{S}-V_{T})}$"
+            },
+            {
+              "key": "",
+              "content": "$q{2 m(V_{S}+V_{T})}$"
+            },
+            {
+              "key": "",
+              "content": "$2 q{m(V_{S}-V_{T})}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "Each capacitor is charged such that the same electric field is created between the plates. Which of the following correctly ranks the charge stored on each capacitor?",
+          "options": [
+            {
+              "key": "",
+              "content": "$(Q_{M}=Q_{N})>(Q_{K}=Q_{L})$"
+            },
+            {
+              "key": "",
+              "content": "$Q_{M}>Q_{K}>Q_{N}>Q_{L}$"
+            },
+            {
+              "key": "",
+              "content": "$(Q_{K}=Q_{M})>(Q_{L}=Q_{N})$"
+            },
+            {
+              "key": "",
+              "content": "$Q_{K}=Q_{L}=Q_{M}=Q_{N}$"
+            },
+            {
+              "key": "",
+              "content": "$Q_{M}>(Q_{K}=Q_{N})>Q_{L}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "Each capacitor is charged such that the same potential difference exists across the plates. Which of the following correctly ranks the magnitude of electric field between the plates of each capacitor?",
+          "options": [
+            {
+              "key": "",
+              "content": "$(E_{M}=E_{N})>(E_{K}=E_{L})$"
+            },
+            {
+              "key": "",
+              "content": "$E_{M}>E_{K}>E_{N}>E_{L}$"
+            },
+            {
+              "key": "",
+              "content": "$(E_{K}=E_{M})>(E_{L}=E_{N})$"
+            },
+            {
+              "key": "",
+              "content": "$E_{K}=E_{L}=E_{M}=E_{N}$"
+            },
+            {
+              "key": "",
+              "content": "$E_{L}>(E_{K}=E_{N})>E_{M}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "A parallel-plate capacitor stores 240 nC when fully charged by the application of a 12 V potential difference across its plates. What is its capacitance?",
+          "options": [
+            {
+              "key": "",
+              "content": "$5.0 10^{-11} ~F$"
+            },
+            {
+              "key": "",
+              "content": "$1.7 10^{-9} ~F$"
+            },
+            {
+              "key": "",
+              "content": "$2.0 10^{-8} ~F$"
+            },
+            {
+              "key": "",
+              "content": "$2.9 10^{-6} ~F$"
+            },
+            {
+              "key": "",
+              "content": "$4.8 10^{-6} ~F$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Identical resistors and identical uncharged capacitors are connected to identical ideal batteries of emf $$ in the circuits shown below. Each circuit has a switch $S$ in the open position. In which circuit will the capacitors reach half their maximum charge in the least amount of time when switch $S$ is closed? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=239&width=320&top_left_y=478&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=249&width=320&top_left_y=745&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=255&width=293&top_left_y=1020&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=234&width=314&top_left_y=1304&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-08.jpg?height=281&width=314&top_left_y=1570&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=131&width=195&top_left_y=224&top_left_x=354 />",
+          "options": [
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "All four circuits shown above contain identical ideal batteries and identical resistors. Which circuits draw the most and least power from the battery? II V III I III",
+          "options": [
+            {
+              "key": "",
+              "content": "I"
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": "II"
+            },
+            {
+              "key": "",
+              "content": "IV"
+            },
+            {
+              "key": "",
+              "content": "IV"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "The current in a $10 $ resistor is given as a function of time $t$ by the equation $I=I_{0} e^{- t}$, where $I_{0}=4 ~A$ and $=2 ~s^{-1}$. What is the total energy dissipated in the resistor from time $t=0$ until the current becomes zero? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=263&width=295&top_left_y=764&top_left_x=1264) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-09.jpg?height=211&width=205&top_left_y=795&top_left_x=1612)",
+          "options": [
+            {
+              "key": "",
+              "content": "20 J"
+            },
+            {
+              "key": "",
+              "content": "40 J"
+            },
+            {
+              "key": "",
+              "content": "80 J"
+            },
+            {
+              "key": "",
+              "content": "160 J"
+            },
+            {
+              "key": "",
+              "content": "320 J"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Four conducting wires perpendicular to the plane of the page are at the corners of a square, as shown in cross section in the figure above. The wires carry equal currents in the same direction. What is the direction of the total magnetic force on wire $X$ caused by the other three wires? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=549&width=549&top_left_y=151&top_left_x=310)",
+          "options": [
+            {
+              "key": "",
+              "content": "To the north"
+            },
+            {
+              "key": "",
+              "content": "To the south"
+            },
+            {
+              "key": "",
+              "content": "To the east"
+            },
+            {
+              "key": "",
+              "content": "To the west"
+            },
+            {
+              "key": "",
+              "content": "In none of the directions above, since the magnitude of the force is zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "Two long, hollow, concentric conducting cylinders carry currents in opposite directions into and out of the plane of the page, as shown in the cross section above. The currents are unequal, but the current density $J$ is the same for both cylinders. In which of the following regions can the net magnetic field be zero at some nonzero finite distance $r$ from the central axis? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=291&width=855&top_left_y=144&top_left_x=1116)",
+          "options": [
+            {
+              "key": "",
+              "content": "$r"
+            },
+            {
+              "key": "",
+              "content": "Both $r"
+            },
+            {
+              "key": "",
+              "content": "Both $r"
+            },
+            {
+              "key": "",
+              "content": "Both $r"
+            },
+            {
+              "key": "",
+              "content": "$r>4 R$ only"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "The middle sections of two long, straight wires are each bent into semicircular shapes. The two wires are placed close to each other in a plane as shown above. Point $A$ is the center of the circle formed by the two wires. There is a current $I$ in each wire. Which of the following best represents the direction of the magnetic field, if any, at point $A$ due to the currents? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=133&width=32&top_left_y=829&top_left_x=1247) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-10.jpg?height=133&width=28&top_left_y=978&top_left_x=1247) - (Out of the page) (x) (Into the page) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=373&width=367&top_left_y=159&top_left_x=879)",
+          "options": [
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": "There is no direction, because the magnetic field is zero."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "A long straight wire is located at the origin of an $x y$-coordinate system and is perpendicular to the $x y$-plane. The wire has a current that is directed into the page, as shown in the figure above. Which of the following graphs best represents the magnetic field $B$ due to the current as a function of the position $x$ along the $x$-axis? Assume a positive magnetic field to be directed in the $+y$ direction. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=387&width=364&top_left_y=783&top_left_x=287) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=385&width=358&top_left_y=785&top_left_x=867) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=385&width=364&top_left_y=785&top_left_x=1440) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=383&width=362&top_left_y=1245&top_left_x=287) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-11.jpg?height=381&width=358&top_left_y=1247&top_left_x=867) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-12.jpg?height=500&width=561&top_left_y=151&top_left_x=781)",
+          "options": [
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "A loop of wire at location $X$ is moving toward the right with constant speed $v$ in a region of uniform magnetic field $B$, which is perpendicular to the plane of the loop. The magnetic field region ends at the dashed line, as shown in the figure above. Later, the loop is at location $Y$ and exiting the magnetic field with the same constant speed $v$. The process is then repeated with the loop moving at a speed of $2 v$. Which of the following best describes the emf in the loop at the two positions shown when the process is repeated at a speed of $2 v$ ? 2{c}{ Emf at Location $X$} \\\\ Emf at Location $Y$ Nonzero and halved $~$ Nonzero and doubled $~$ (B) Nonzero and doubled Zero at both speeds $~$ (C) Nonzero and doubled Zero at both speeds $~$ (D) Zero at both speeds Nonzero and doubled",
+          "options": [
+            {
+              "key": "",
+              "content": "Nonzero and halved"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "A long solenoid has 300 loops. The region inside the solenoid has a uniform magnetic field that is directed parallel to the axis of the solenoid. Each loop has an area $2 10^{-4} ~m^{2}$. The magnetic field decreases at a constant rate from 0.5 T to zero. What is the time duration for the change in magnetic field if a potential difference of 10 V is induced between the ends of the solenoid while the field is decreasing? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-13.jpg?height=501&width=661&top_left_y=153&top_left_x=1211) The circuit represented in the figure above contains four resistors and a battery. The 45 V battery has a $1 $ internal resistance.",
+          "options": [
+            {
+              "key": "",
+              "content": "$1 10^{-5} ~s$"
+            },
+            {
+              "key": "",
+              "content": "$3 10^{-5} ~s$"
+            },
+            {
+              "key": "",
+              "content": "$3 10^{-3} ~s$"
+            },
+            {
+              "key": "",
+              "content": "$1 10^{-2} ~s$"
+            },
+            {
+              "key": "",
+              "content": "$3 10^{-2} ~s$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Which of the following ranks the absolute values of the potential differences $ V$ across the resistors from highest to lowest?",
+          "options": [
+            {
+              "key": "",
+              "content": "$ V_{3}> V_{1}> V_{2}> V_{4}$"
+            },
+            {
+              "key": "",
+              "content": "$ V_{4}> V_{2}> V_{1}> V_{3}$"
+            },
+            {
+              "key": "",
+              "content": "$ V_{1}> V_{4}> V_{2}> V_{3}$"
+            },
+            {
+              "key": "",
+              "content": "$ V_{1}>( V_{2}= V_{3})> V_{4}$"
+            },
+            {
+              "key": "",
+              "content": "$ V_{4}>( V_{2}= V_{3})> V_{1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "How much energy is dissipated by the battery's internal resistance in 60 s? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-14.jpg?height=232&width=444&top_left_y=157&top_left_x=361)",
+          "options": [
+            {
+              "key": "",
+              "content": "9 J"
+            },
+            {
+              "key": "",
+              "content": "180 J"
+            },
+            {
+              "key": "",
+              "content": "540 J"
+            },
+            {
+              "key": "",
+              "content": "900 J"
+            },
+            {
+              "key": "",
+              "content": "8100 J"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "A closed cylindrical shell of volume $ r^{2} h$ is placed close to an object with a charge of $Q$, as shown in the figure above. There are no other charged objects nearby. The electric flux through the closed cylindrical shell is",
+          "options": [
+            {
+              "key": "",
+              "content": "0"
+            },
+            {
+              "key": "",
+              "content": "$Q / _{0}$"
+            },
+            {
+              "key": "",
+              "content": "$ r^{2} Q$"
+            },
+            {
+              "key": "",
+              "content": "$2 r h Q$"
+            },
+            {
+              "key": "",
+              "content": "$2 r^{2} Q+2 r h Q$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "The electric field is zero everywhere within a certain region of space. The electric potential everywhere within the region",
+          "options": [
+            {
+              "key": "",
+              "content": "must be zero"
+            },
+            {
+              "key": "",
+              "content": "must be uniform"
+            },
+            {
+              "key": "",
+              "content": "must be positive"
+            },
+            {
+              "key": "",
+              "content": "must be negative"
+            },
+            {
+              "key": "",
+              "content": "can be both positive and negative in different parts of the region"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "Two particles with positive charges $q_{1}$ and $q_{2}$ are both at rest and are very far apart. How much work would be done by external forces to bring the particles to rest at a distance $d$ apart? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-14.jpg?height=125&width=701&top_left_y=289&top_left_x=1194) $m=2.0 10^{-6} ~kg$",
+          "options": [
+            {
+              "key": "",
+              "content": "Zero"
+            },
+            {
+              "key": "",
+              "content": "$k q_{1 q_{2}}{d}$"
+            },
+            {
+              "key": "",
+              "content": "$-k q_{1 q_{2}}{d}$"
+            },
+            {
+              "key": "",
+              "content": "$2 k q_{1 q_{2}}{d}$"
+            },
+            {
+              "key": "",
+              "content": "$-2 k q_{1 q_{2}}{d}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "A small object with a charge of $q=+3.0 C$ and a mass $m=2.0 10^{-6} ~kg$ enters a magnetic field of magnitude $B=0.20 ~T$ directed into the page, as shown in the figure above. If the speed of the object is $1000 ~m / s$, the object's acceleration at the moment it enters the field is most nearly",
+          "options": [
+            {
+              "key": "",
+              "content": "zero because the velocity is perpendicular to the magnetic field"
+            },
+            {
+              "key": "",
+              "content": "$300 ~m / s^{2}$ toward the bottom of the page"
+            },
+            {
+              "key": "",
+              "content": "$300 ~m / s^{2}$ toward the top of the page"
+            },
+            {
+              "key": "",
+              "content": "$600 ~m / s^{2}$ toward the bottom of the page"
+            },
+            {
+              "key": "",
+              "content": "$600 ~m / s^{2}$ toward the top of the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "A 0.20 m long wire carries a current of 15 A and lies perpendicular to a magnetic field. The magnetic force on the wire is measured to be 0.060 N . What is the magnitude of the magnetic field? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=667&top_left_y=151&top_left_x=730)",
+          "options": [
+            {
+              "key": "",
+              "content": "010 T"
+            },
+            {
+              "key": "",
+              "content": "020 T"
+            },
+            {
+              "key": "",
+              "content": "040 T"
+            },
+            {
+              "key": "",
+              "content": "060 T"
+            },
+            {
+              "key": "",
+              "content": "080 T"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "Uniform magnetic and electric fields exist between the two oppositely charged parallel plates shown in the figure above. An electron travels horizontally between the plates. Assuming gravitational effects to be negligible, which of the following diagrams shows a combination of electric and magnetic field directions that will allow the electron to travel undeflected? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=303&top_left_y=644&top_left_x=304) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=251&width=301&top_left_y=646&top_left_x=886) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=253&width=295&top_left_y=646&top_left_x=1465) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=255&width=314&top_left_y=974&top_left_x=289) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-15.jpg?height=259&width=322&top_left_y=970&top_left_x=884) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=547&width=532&top_left_y=155&top_left_x=315)",
+          "options": [
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "Four long, straight wires are perpendicular to the $x y$-plane. Each wire is the same distance from the origin $O$, as shown in the figure above. The wires have equal currents that are in the directions shown. Which of the following best represents the direction of the net magnetic field, if any, at the origin due to the four currents? ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=154&width=104&top_left_y=1058&top_left_x=264) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=156&width=152&top_left_y=1346&top_left_x=289) ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-16.jpg?height=213&width=253&top_left_y=151&top_left_x=1228 />",
+          "options": [
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": "⟶"
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": ""
+            },
+            {
+              "key": "",
+              "content": "Undefined because the net field is zero."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "A particle of charge $+q$ is released from rest at position $B$, which is a distance $2 d$ from the center of a fixed nonconducting sphere that has a charge of $-Q$ distributed uniformly throughout its volume, as shown in the figure above. When the particle reaches position $A$, which is a distance $d$ from the center of the charged sphere, its kinetic energy is $K_{0}$. The same particle is now released from rest at position $C$, which is a distance $4 d$ from the center of the nonconducting sphere. The kinetic energy of the particle when it again reaches position $A$ is ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-17.jpg?height=463&width=505&top_left_y=155&top_left_x=1289)",
+          "options": [
+            {
+              "key": "",
+              "content": "$K_{0}$"
+            },
+            {
+              "key": "",
+              "content": "$3 K_{0} / 2$"
+            },
+            {
+              "key": "",
+              "content": "$2 K_{0}$"
+            },
+            {
+              "key": "",
+              "content": "$5 K_{0} / 2$"
+            },
+            {
+              "key": "",
+              "content": "$3 K_{0}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "Four point charges of equal magnitude but different signs are arranged on the corners of a square as shown above. Which of the vectors shown represents the direction of the net force acting on the charge at the upper left-hand corner of the square due to the other charges?",
+          "options": [
+            {
+              "key": "",
+              "content": "$A$"
+            },
+            {
+              "key": "",
+              "content": "$B$"
+            },
+            {
+              "key": "",
+              "content": "$C$"
+            },
+            {
+              "key": "",
+              "content": "$D$"
+            },
+            {
+              "key": "",
+              "content": "It has no direction because the force is zero."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    },
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "A rod of length $L$ lies along the $x$-axis with its left end at the origin, as shown in the figure above. The rod has a nonuniform linear charge density $= x$, where $$ is a positive constant.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Determine the units of the constant $$."
+            },
+            {
+              "key": "b",
+              "content": "Derive an expression for the total charge on the rod. Express your answer in terms of $, L$, and physical constants, as appropriate. The rod is replaced with one of the same length but with a uniform positive linear charge density $_{0}$."
+            },
+            {
+              "key": "c",
+              "content": "Show that the electric field at point $A$, which is a distance $b$ to the left of the rod, has a magnitude of $$ E=_{0 L}{4 _{0} b(b+L)} $$"
+            },
+            {
+              "key": "d",
+              "content": "A proton is placed at point $A$, at position ( $-b, 0$ ), near the positively charged rod and released from rest. i. Sketch a graph of the horizontal component of the acceleration of the proton $a_{x}$ as a function of its position $x$ for the region in which the proton travels after it is released. Sketch any asymptote, but do not indicate its value. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-24.jpg?height=408&width=671&top_left_y=1270&top_left_x=726) ii. Sketch a graph of the horizontal component of the velocity of the proton $v_{x}$ as a function of its position $x$ for the region in which the proton travels after it is released. Sketch any asymptote but do not indicate its value. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-24.jpg?height=400&width=671&top_left_y=1934&top_left_x=726) iii. Instead of a proton, an alpha particle (a particle with twice the charge and four times the mass of a proton) is now placed at point $A$. Is the magnitude of the initial acceleration of the alpha particle greater than, less than, or equal to the magnitude of the initial acceleration of the proton from part (d)i? ___ Greater than $____$ Less than $____$ Equal to"
+            },
+            {
+              "key": "e",
+              "content": "Using the equation from part (c), show that the magnitude of the electric field at a point on the $x$-axis very far away from the rod is approximately equal to the electric field due to a point charge of magnitude $Q=_{0} L$ located at the origin. THIS PAGE MAY BE USED FOR SCRATCH WORK. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-27.jpg?height=360&width=402&top_left_y=151&top_left_x=861)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "102",
+          "type": "frq",
+          "prompt": "The circuit above consists of a variable DC power supply, an ammeter A, a switch $S$, and a resistor of unknown resistance $R_{0}$ connected in series with a test space into which different circuit elements can be placed. In order to determine $R_{0}$, a wire of negligible resistance is placed in the test space. The power supply is set at various potential differences, and the current in the circuit is measured. The data are shown below.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Indicate below which quantities should be graphed to yield a straight line that has a slope that could be used to calculate a numerical value for the resistance $R_{0}$. Horizontal axis: $____$ Vertical axis: $____$ Use the remaining rows in the table above, as needed, to record any quantities that you indicated that are not given."
+            },
+            {
+              "key": "b",
+              "content": "Plot the straight line data points on the graph below. Clearly scale and label all axes, including units, if appropriate. Draw a straight line that best represents the data. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-28.jpg?height=719&width=1137&top_left_y=258&top_left_x=495)"
+            },
+            {
+              "key": "c",
+              "content": "Using your straight line, calculate an experimental value for $R_{0}$."
+            },
+            {
+              "key": "d",
+              "content": "The power supply is set to 4.00 V and an uncharged, air-filled capacitor is placed in the test space. The switch is closed at time $t=0$, and the capacitor is allowed to fully charge. i. On the axes shown, sketch the current $I$ through the ammeter as a function of time $t$. Explicitly label any intercepts, asymptotes, maxima, or minima with numerical values or algebraic expressions, as appropriate. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-29.jpg?height=385&width=528&top_left_y=411&top_left_x=798) ii. It is determined that the time constant is 0.045 s . The capacitor is charged to 4 V . Calculate the energy stored in the capacitor. iii. The graph below shows the charge $Q$ on the capacitor as a function of time $t$. The capacitor is discharged, and a dielectric with dielectric constant $=2$ is inserted between the plates. The same charging procedure is repeated. On the graph below, sketch the curve showing the charge $Q$ on the dielectric-filled capacitor as a function of time $t$. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-29.jpg?height=474&width=662&top_left_y=1503&top_left_x=743) THIS PAGE MAY BE USED FOR SCRATCH WORK. ![](https://cdn.mathpix.com/cropped/a43bfbd2-d827-4b62-93cf-e87582e72adf-31.jpg?height=536&width=849&top_left_y=155&top_left_x=638)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "103",
+          "type": "frq",
+          "prompt": "An ideal battery is connected to three resistors, an ideal inductor, and two switches, as shown in the circuit above. Both switches are initially open. Switch $S_{2}$ is then closed.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Calculate the voltage across resistor $R_{2}$. Switch $S_{1}$ is then closed."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the magnitude of the rate of change of the current through the inductor immediately after switch $S_{1}$ is closed."
+            },
+            {
+              "key": "c",
+              "content": "At time $t$ after switch $S_{1}$ is closed, the instantaneous current through resistor $R_{2}$ is measured to be 0.020 A . i. Calculate the current through resistor $R_{3}$ at time $t$. ii. Calculate the energy stored in the inductor at time $t$. After a long time, the currents reach a steady value. Switch $S_{2}$ is then opened."
+            },
+            {
+              "key": "d",
+              "content": "Calculate the current through the inductor immediately after switch $S_{2}$ is opened."
+            },
+            {
+              "key": "e",
+              "content": "Write, but do NOT solve, a differential equation that can be used to determine the current through resistor $R_{2}$ at time $t$ after switch $S_{2}$ is opened."
+            },
+            {
+              "key": "f",
+              "content": "Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "103",
+          "type": "frq",
+          "prompt": "An ideal battery is connected to three resistors, an ideal inductor, and two switches, as shown in the circuit above. Both switches are initially open. Switch $S_{2}$ is then closed.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Calculate the voltage across resistor $R_{2}$. Switch $S_{1}$ is then closed."
+            },
+            {
+              "key": "b",
+              "content": "Calculate the magnitude of the rate of change of the current through the inductor immediately after switch $S_{1}$ is closed."
+            },
+            {
+              "key": "c",
+              "content": "At time $t$ after switch $S_{1}$ is closed, the instantaneous current through resistor $R_{2}$ is measured to be 0.020 A . i. Calculate the current through resistor $R_{3}$ at time $t$. ii. Calculate the energy stored in the inductor at time $t$. After a long time, the currents reach a steady value. Switch $S_{2}$ is then opened."
+            },
+            {
+              "key": "d",
+              "content": "Calculate the current through the inductor immediately after switch $S_{2}$ is opened."
+            },
+            {
+              "key": "e",
+              "content": "Write, but do NOT solve, a differential equation that can be used to determine the current through resistor $R_{2}$ at time $t$ after switch $S_{2}$ is opened."
+            },
+            {
+              "key": "f",
+              "content": "Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened."
+            },
+            {
+              "key": "f",
+              "content": "Using the differential equation from part (e), derive an expression for the current through resistor $R_{2}$ as a function of time $t$ after switch $S_{2}$ is opened."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}
