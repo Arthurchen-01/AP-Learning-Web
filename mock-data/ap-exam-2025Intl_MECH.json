@@ -1,9 +1,9 @@
 {
-  "examId": "unknown",
-  "title": "AP Practice Test",
-  "subjectName": "unknown",
-  "yearLabel": "",
-  "description": "",
+  "examId": "2025Intl_MECH",
+  "title": "AP Physics C: Mechanics 2025 Intl",
+  "subjectName": "Physics C: Mechanics",
+  "yearLabel": "2025",
+  "description": "AP Physics C: Mechanics 2025 Intl",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -17,7 +17,933 @@
       "partTitle": "Multiple Choice",
       "limitMinutes": 60,
       "directions": "",
-      "questions": []
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p>What is the work done on the block by $F$ as the block moves from $x=0$ to $x=x_{f}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$ x_{f}^{3}+ x_{f}^{2}+ x_{f}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$2 x_{f}^{2}+ x_{f}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$ x_{f}^{2}+ x_{f}+$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$1{3} x_{f}^{3}+1{2} x_{f}^{2}+ x_{f}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p>Students A and B are on a train that is moving to the right. Within the train, Student A is walking to the right and throws a ball toward Student B, who is at rest relative to the train. Student C is standing on the ground outside the train, as shown. Which of the following correctly compares the magnitude of the ball's velocity $v_{A}, v_{B}$, and $v_{C}$ as observed by students $A, B$, and C , respectively?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$v_{A}&gt;v_{B}&gt;v_{C}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$v_{B}&gt;v_{C}&gt;v_{A}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$v_{C}&gt;v_{B}&gt;v_{A}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$v_{C}&gt;(v_{A}=v_{B})$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p>A uniform rod is free to rotate about a pivot at its left end, as shown in the top view. Four forces of magnitudes $F_{1}=100 ~N$ and $F_{2}=F_{3}=F_{4}=50 ~N$ are exerted on the rod in the directions and at the locations shown. $F_{4}$ is exerted at the middle of the rod. $F_{1}, F_{2}, F_{3}$, and $F_{4}$ exert torques of magnitude $_{1}, _{2}, _{3}$, and $_{4}$, respectively, on the rod about the pivot. Which of the following correctly compares the magnitudes of the torques $_{1}, _{2}, _{3}$ and $_{4}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$_{1}&gt;(_{2}=_{3})&gt;_{4}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$(_{2}=_{3}=_{4})&gt;_{1}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$(_{2}=_{3})&gt;_{4}&gt;_{1}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$_{2}&gt;(_{3}=_{4})&gt;_{1}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p>A disk is initially rotating with a positive angular velocity about an axle perpendicular to and through the center of the disk. Starting at time $t=0$, a net torque $ is exerted on the rotating disk. At $t=8 ~s$, the disk is still rotating with a positive angular velocity. Which of the following graphs of $ as a function of $t$ shows the greatest decrease in angular momentum of the disk?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p>Car 1 is moving with constant speed $v$ on a horizontal circular track of radius $R$. The time it takes Car 1 to complete one lap on the track is $T_{1}$. Car 2 is moving with the same constant speed $v$ on a horizontal circular track of radius $2 R$. The time it takes Car 2 to complete one lap on the track is $T_{2}$. What is the ratio $T_{2}{T_{1}}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$2$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p>A block slides from Point P to Point Q along the track shown in Figure 1. The height $h$ of the track is indicated. The energy bar chart in Figure 2 represents the kinetic energy $K$ of the block, the gravitational potential energy $U_{g}$ of the block-Earth system, and the total mechanical energy $E$ of the block-Earth system when the block is at Point P. The only section of the track where frictional forces are nonnegligible is the horizontal section of the track at $h=0$. Which of the following energy bar charts could represent the energies of the block and the system when the block is at Point Q?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p>A block is attached to three identical horizontal springs and rests on a horizontal surface, as shown in Figure 1. Frictional forces are negligible. When the block is at position $x=0$, the springs are at their relaxed lengths and the net force exerted on the block is zero. As the block is held at rest at various positions $x&gt;0$, the net force $F_{s}$ exerted on the block by the three springs is recorded. Figure 2 shows lines $P$ and $Q$ that are possible best-fit lines for $F_{s}$ as a function of $x$. Which of the following indicates whether Line P or Line Q correctly represents the described scenario and provides a valid justification?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Line P , because as $x$ increases, all three springs exert forces of increasing magnitudes in the $+x$-direction.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Line $P$, because as $x$ increases, two springs exert forces of increasing magnitudes in the $+x$ direction and only one spring exerts a force in the $-x$ direction.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Line $Q$, because as $x$ increases, all three springs exert forces of increasing magnitudes in the $-x$-direction.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Line $Q$, because as $x$ increases, two springs exert forces of increasing magnitudes in the $-x$-direction, and only one spring exerts a force in the $+x$-direction.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p>A ball is kicked from the ground with an initial speed of $12 ~m / s$ at an angle of $60^{}$ above the horizontal. What is the velocity $v$ of the ball at the highest point of its trajectory?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$v=(0 ~m / s) i+(0 ~m / s) j$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$v=(6 ~m / s) i+(0 ~m / s) j$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$v=(0 ~m / s) i+(6 ~m / s) j$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$v=(6 ~m / s) i+(10 ~m / s) j$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p>Box A is at rest on a table. Boxes A and B of masses $m_{A}$ and $m_{B}$, respectively, are connected by a string that passes over an ideal pulley, as shown. The magnitude of the frictional force between Box A and the table is $f_{1}$. The mass of Box A is then increased to $2 m_{A}$, and the boxes remain at rest. The magnitude of the frictional force between Box A and the table is $f_{2}$. What is $f_{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$2{3} f_{1}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$f_{1}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$2 f_{1}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$3 f_{1}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p>At the instant shown in the figure, a box with mass 5 kg is on the floor of a rocket that is accelerating at $10 ~m / s^{2}$ toward the center of a planet. The gravitational field strength of the planet at the location of the rocket is $4 ~N / kg$. What is the magnitude of the force exerted on the box by the floor at the instant shown?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>20 N</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>30 N</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>50 N</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>70 N</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p>Block A of mass 2.0 kg slides with a constant speed $5.0 ~m / s$ in the $+x$-direction on a horizontal surface toward Block B, which has a mass of 8.0 kg and is initially at rest. The blocks collide, and immediately after the collision Block A slides with constant speed 3.0 $m / s$ in the $-x$-direction and Block B slides with constant speed $2.0 ~m / s$ in the $+x$-direction. Which of the following claims regarding whether the collision is elastic or inelastic is correct and provides a valid justification?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The collision is inelastic because the blocks have unequal masses.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The collision is inelastic because momentum is conserved in the collision but kinetic energy is not conserved in the collision.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The collision is elastic because the blocks move in opposite directions after the collision.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The collision is elastic because both momentum and kinetic energy are conserved in the collision. 12 Mark for Review</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p>The position $x$ of an object undergoing simple harmonic motion as a function of time $t$ is modeled by the equation $x(t)=A ( t)$. Which of the following graphs correctly represents $x$ of the object as a function of $t$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image] (n)</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p>A cart of mass $m$ is moving with speed $v_{0}$ when it collides with and sticks to a cart of mass $2 m$ that is initially at rest. Which expression is equal to the kinetic energy dissipated from the two-cart system during the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{6} m v_{0}^{2}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{3} m v_{0}^{2}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$1{2} m v_{0}^{2}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$2{3} m v_{0}^{2}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p>A person of mass $m$ sits on a platform of mass $2 m$ initially at rest on the ground. The platform is then connected to a rope that passes over an ideal pulley and is connected to a box of mass $4 m$, as shown. As the person, platform, and box move, the rope does not slip on the pulley. What is the magnitude of the acceleration of the person as the platform and box move?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{7} ~g$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{3} g$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$4{3} g$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p>| {c} Magnitude of Force Exerted on Block \\\\ A by Block B &amp; Magnitude of Impulse Delivered to \\\\ Block A by Block B \\\\ $2 F$ &amp; $J$ \\\\ tabular A block of mass 0.1 kg is released from rest at the top of a ramp of mass 0.3 kg , as shown. The ramp is free to move. All frictional forces are negligible. The block slides down the ramp and has a speed of $1.2 ~m / s$ as the block leaves the ramp, makes a smooth transition. and slides across the floor. What is the speed of the ramp as the block slides across the floor?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Zero</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$0.4 ~m / s$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$0.7 ~m / s$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$1.2 ~m / s$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p>A block attached to a horizontal spring oscillates in simple harmonic motion on a horizontal surface between positions $x=x_{1}$ and $x=x_{3}$. The equilibrium position of the block-spring system is at $x=x_{2}$. Figures 1 and 2 represent possible graphs of the elastic potential energy $U_{s}$ of the system as a function of $x$. Which of the following indicates whether Figure 1 or Figure 2 is the correct graph for the described scenario and provides a valid justification?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Figure 1, because the equilibrium position of the system must be a location of stable equilibrium.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Figure 1, because the equilibrium position of the system must be a location of unstable equilibrium.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Figure 2, because the equilibrium position of the system must be a location of stable equilibrium.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Figure 2, because the equilibrium position of the system must be a location of unstable equilibrium.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p>At time $t=t_{1}$, a student is standing on a rotating disk. The disk-student system initially rotates clockwise with an angular momentum of magnitude $L_{1}$ about a central axle. Friction between the axle and disk is negligible. At a later time $t=t_{2}$, the student begins to walk with a tangential speed $v$ relative to the ground, as shown in the top view. As the student walks, the magnitude of the angular momentum of the system is $L_{2}$ about the axle. Which of the following correctly relates $L_{1}$ and $L_{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$L_{1}&gt;L_{2}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$L_{1}&lt;L_{2}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$(L_{1}=L_{2})&gt;0$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$L_{1}=L_{2}=0$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p>Two forces, $F_{A}$ and $F_{B}$, are exerted, as shown, on a particle, where $F_{A}=(-F_{0}) i$ and $F_{B}=(2 F_{0}) j$. A third force, $F_{C}$ (not shown), is also exerted on the particle so that the particle moves at a constant velocity. \\# Which of the following expressions is equal to $F_{C}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$(-F_{0}) i+(2 F_{0}) j$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$(F_{0}) i-(2 F_{0}) j$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$(-3 F_{0}) k$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$(3 F_{0}) k$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p>A torsion pendulum is constructed using a disk and a stiff wire. In Trial 1, the torsion pendulum is displaced an angle $=0.10$ rad from its equilibrium position, as shown. When the pendulum is released, the magnitude $ of the initial angular acceleration of the disk is $0.80 rad / s^{2}$. In Trial 2, the disk is displaced $=0.20 rad$ from its equilibritur position and is again released. What is the approximate initial angular acceleration of the disk in Trial 2 ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$0.40 rad / s^{2}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$0.80 rad / s^{2}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$1.6 rad / s^{2}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$3.2 rad / s^{2}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p>A nonuniform rod of length $L$ lies horizontally with its left end at position $x=0$, as shown. The linear mass density $ of the rod can be modeled by $(x)=_{0}(x^{2}{b^{2}})$. Points P, Q, R, S, and T are equally spaced along the rod. The rod is free to rotate about any axis perpendicular to the plane of the page through any of the five indicated points. About which of the following points does the rod have the least rotational ineria?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Point P</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Point R</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Point S</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Point T 21 Mark for Review</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p>Blocks P and Q slide toward each other on a horizontal track. Block P has mass 3 kg and is moving in the $+x$ direction with a constant speed of $7 ~m / s$. Block $Q$ has mass 1 kg and is moving in the $-x$ direction with a constant speed of $2 ~m / s$. The blocks collide and stick together. Which of the following correctly describes whether the magnitude of the momentum of Block P increases or decreases during the collision and provides a valid justification?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Increases, because the mass of Block P is greater than the mass of Block Q .</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Increases, because the momentum of the two-block system must be conserved.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Decreases, because a net force is exerted on Block P in the $-x$-direction.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Decreases, because the blocks are initially moving in opposite directions.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p>An isolated system consists of four identical spheres, each with mass 2.0 kg , arranged in a square. The centers of adjaceni spheres are separated by a distance of 4.0 m , as shown. What is the approximate gravitational potential energy of the four-sphere system?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$-1.0 10^{-10} ~J$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$-1.8 10^{-10} ~J$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$-2.7 10^{-10} ~J$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$-3.6 10^{-10} ~J$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p>The graph shows the angular position $ of an object as a function of time $t$. At times $t_{1}, t_{2}$, $t_{3}$, and $t_{4}$, the angular speeds of the object are $_{1}, _{2}, _{3}$, and $_{4}$, respectively. Which of the following correctly compares $_{1}, _{2}, _{3}$, and $_{4}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$_{1}&gt;_{2}&gt;_{1}&gt;_{3}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$_{4}&gt;_{3}&gt;_{2}&gt;_{1}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$_{1}&gt;_{4}&gt;_{2}&gt;_{3}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$_{3}&gt;_{1}&gt;(_{2}=_{1})$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p>A block of mass $m$ oscillates in simple harmonic motion. The velocity $v$ of the block as a function of time $t$ is modeled by $v(t)=A ( t)$, where $A$ is the amplitude and $ is the angular frequency. Which of the following equations could represent the net force $F(t)$ that causes the harmonic motion of the block?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$F(t)=m A ^{2} ( t)$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$F(t)=m A (2 t)$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$F(t)=m A ^{2} ( t)$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$F(t)=m A (2 t)$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p>| Time &amp; Distance \\\\ |$t_{2}=4 t_{1}$ &amp; $d_{2}=4 d_{1}$ \\\\ | The escape velocity at the sufface of Planet P , which has mass $M$ and radius $R$, is $v_{ {esc }}$. Planet Q has mass $4 M$ and radius $R$. What is the escape velocity from the surface of Planet Q ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{4} v_{esc}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{2} v_{esc}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$2 v_{ {esc }}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$4 v_{ {evc }}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p>Identical objects 1 and 2 are initially moving in the same direction with constant velocities $v_{0}$ and $2 v_{0}$, respectively. At a later time, $t_{f}$, a velocity-dependent resistive force $F_{r}$ is exerted on each object and can be modeled by $F_{r}(v)=-b v$, where $b$ is a positive constant and $v$ is the respective velocity of each object. The accelerations of objects 1 and 2 ai $t_{f}$ are $a_{1}$ and $a_{2}$, respectively. What is the ratio $a_{2}{a_{1}}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{4}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{2}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p>A cone of mass $M$ has length $L$. The cone is attached to a fixed pivot about which the cone can swing freely, as shown in Figure 1. The center of mass of the cone is located $1{3} L$ from the bottom of the cone. The cone is displaced from the vertical by a small angle $, as shown in Figure 2, and released from rest. Figure 2 What is the approximate magnitude of the torque about the pivot due to the gravitational force in Figure 2?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{3} M g L $</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{2} M g L $</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$2{3} M g L $</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$MgL_{g} ~L$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p>Note: Figure not drawn to scale. A block moves in the $+x$-direction along a horizontal track. Starting at position $x=0$, a net force $F$ is exerted on the block and can be modeled by $F(x)=P x^{2}-Q x$, where $P=-3.0 ~N / m^{2}$ and $Q=2.0 ~N / m$. Which of the following correctly describes the change in mechanical energy of the block as the block moves from $x=0$ to $x=+3.0 ~m$ ?</p>",
+          "options": [
+            {
+              "key": "B",
+              "content": "<p>36 J transferred out of the block</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>99 J transferred into the block</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>99 J transferred out of the block</p>"
+            },
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p>From time $t=0$ to $t=4 ~s$ an object has an acceleration of $-1 ~m / s^{2}$ and a displacement of +16 m . Which of the following graphs of the velocity $v$ of the object as a function of $t$ correctly represents the scenario described?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p>A block of mass $m$ is pulle $d$ by a string so that the block slides across a horizontal surface at a constant speed. The string exerts a force $T$ on the block at an angle $ above the horizontal, as shown. The coefficient of kinetic friction between the block and the surface is $_{k}$. Which of the following expressions is equal to $T$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$_{k} m g$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$_{i m g}{ }$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$_{k m g}{ -_{k} }$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$_{k m g}{ +_{k} }$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p>Starting at time $t=0$, a variable net torque $ is exerted on a disk that is initially at rest. The net tocque can be modeled by $(t)=A (B t)$, where $A$ and $B$ are positive constants. Which of the following expressions represents the change in the angular momentum of the disk as a function of $t$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$A{B} (B t)$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$A (B t)$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$A B (B t)$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$1{A B} (B t)$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p>A ball of mass 1.5 kg is attached to a string of length 3.0 m , as shown. The ball is displaced an angle of $=30^{ }$ from the vertical and released from rest. What is the approximate speed of the ball at the lowest point of the swing?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1.8 ~m / s$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$2.8 ~m / s$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$5.5 ~m / s$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$7.7 ~m / s$ \\\\ Mark for Review}</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p>A rocket is moving vertically. The vertical position $y$ of the rocket as a function of time $t$ is modeled by $y(t)=R t^{3}$, where $R=12 ~m / s^{3}$. What is the speed of the rocket at $t=2 ~s$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$48 ~m / s$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$77 ~m / s$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$96 ~m / s$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$144 ~m / s$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p>A uniform rod of length $L$ and mass $M$ has a fixed pivot at one end, as shown in the side view. The rotationai in tia of the rod about the pivot is given by $1{3} M L^{2}$. The rod, initially held horizontal, is released from rest and swings downward with negligible friction about the pivot. What is the magnitude of the angular acceleration of the rod at the instant the rod has rotated through an angle of $ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$3{2} g{L} $</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$3 g{L} $</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$3{2} g{L} $</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$3 g{L} $</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p>A spring with spring constant $k$ is compressed a distance $x$ from its relaxed length, and the elastic potential energy is $U_{1}$. A different spring with spring constant $2 k$ is compressed a distance $1{2} x$ from its relaxed length, and the elastic potential energy is $U_{2}$. What is $U_{1}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$U_{1}=1{4} U_{2}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$U_{1}=1{2} U_{2}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$U_{1}=U_{2}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$U_{1}=2 U_{2}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p>A small sphere of mass $M$ is placed at the center of a uniformly dense, thin, spherical shell of radius $P$ and mass $M$, as shown in the cutaway view. A second identical small sphere is placed outside the shell a distance $R$ from the surface of the shell. What is the magnitude of the gravitational force acting on the small sphere outside of the shell?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1{5} G M^{2}{R^{2}}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1{4} G M^{2}{R^{2}}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$1{2} G M^{2}{R^{2}}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$G M^{2}{R^{2}}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "<p>A rocket is moving vertically. The vertical position $y$ of the rocket as a function of time $t$ is modeled by $y(t)=R t^{3}$, where $R=12 ~m / s^{3}$. What is the speed of the rocket at $t=2 ~s$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$48 ~m / s$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$77 ~m / s$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$96 ~m / s$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$144 ~m / s$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet."
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "examId": "2021NASet2",
-  "title": "AP Physics C: Mechanics 2021年",
+  "examId": "2021NASet2_MECH",
+  "title": "AP Physics C: Mechanics 2021 NA Set 2",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2021",
-  "description": "AP Physics C: Mechanics 2021年",
+  "description": "AP Physics C: Mechanics 2021 NA Set 2",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -12,12 +12,37 @@
   },
   "sections": [
     {
-      "id": "section-mcq",
-      "title": "Section 1",
-      "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
-      "directions": "",
-      "questions": []
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "Show all your work. Indicate clearly the methods you use.",
+      "questions": [
+        {
+          "id": "frq-4",
+          "type": "frq",
+          "prompt": "<p>tudents design an experiment using blocks of adjustable mass to investigate friction using the setup shown. Block 1 of initial mass 0.44 kg is placed on a rough horizontal surface and connected by a string to block 2 of initial mass 0.20 kg . The string extends over a pulley that has negligible mass and friction. (a) Calculate the minimum value of the coefficient of static friction $_{s}$ that would keep the two-block system at rest. (b) On the dots below, which represent the blocks, draw and label the forces (not components) that act on each block. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. Block 1 Block 2 (c) Calculate the coefficient of kinetic friction $_{k}$ between block 1 and the table. (d) Careful measurements determine that the coefficient of kinetic friction is larger than the value calculated in part (e) i. Draw a best-fit line for the data points. ii. Using the straight line, calculate an experimental value for the acceleration due to gravity $g$.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-5",
+          "type": "frq",
+          "prompt": "<p>bject A is a long, thin, uniform rod of mass $M$ and length $2 L$ that is free to rotate about a pivot of negligible friction at its left end, as shown above. (a) Using integral calculus, derive an expression to show that the rotational inertia $I_{A}$ of object A about the pivot is given by $4{3} M L^{2}$. Object B of total mass $M$ is formed by attaching two thin, uniform, identical rods of length $L$ at a right angle to each other. Object B is held in place, as shown above. Express your answers in part (b) in terms of $L$. (b) Determine the following for the given coordinate system shown in the figure. i. The $x$-coordinate of the center of mass of object B ii. The $y$-coordinate of the center of mass of object B (c) Is the value of $I_{B}$ greater than, less than, or equal to $I_{A}$ ? $____$ Greater than $____$ Less than $____$ Equal to Justify your answer. Object B is released from rest and begins to rotate about its pivot. (d) On the axes below, sketch graphs of the magnitude of the angular acceleration $ and the angular speed $ of object B as functions of time $t$ from the time it is released to the time its center of mass reaches its lowest point. Continue your response to QUESTION 2 on this page. (e) While object B rotates from the horizontal position down through the angle $ shown above, is the magnitude of its angular acceleration increasing, decreasing, or not changing? $____$ Increasing $____$ Decreasing $____$ Not changing Justify your answer. Object B rotates through the position shown above. (f) Derive an expression for the angular speed of object B when it is in the position shown above. Express your answer in terms of $M, L, I_{B}$, and physical constants, as appropriate. Begin your response to QUESTION 3 on this page. Note: Figure not drawn to scale.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-6",
+          "type": "frq",
+          "prompt": "<p>block of mass $m$ is placed on top of an ideal spring of spring constant $k$. The block is pushed against the spring, compressing the spring a distance $ x$. The block is released from rest, leaves the spring at the position shown in the figure, travels upward, and enters a track with a constant radius of curvature $R$ that has negligible friction. The block enters the track at point A , maintains contact with the track, and exits horizontally at point B , a distance $3 R$ above the point the block was released. The block then falls to the ground and lands a horizontal distance $D$ from the end of the track. Express all algebraic answers in terms of $m, k, x, R$, and physical constants, as appropriate. The size of the block is much smaller than the radius of curvature of the track. (a) On the dot below, which represents the block, draw and label the forces (not components) that act on the block while still in contact with the track at point B . Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. (b) i. Derive an expression for the speed $v$ of the block at point B . ii. Derive an expression for the magnitude of the net force $F$ on the block at point B . (c) Derive an expression for the minimum value of $ x_{ {min }}$ required in order for the block to maintain contact with the track through point B . The procedure is repeated several times with the distance $ x&gt; x_{ }$. (d) Calculate the distance $D$ that the block travels. Continue your response to QUESTION 3 on this page. (e) The graph below shows the best-fit line drawn by the students through their data of $D$ as a function of $ x$. i. Explain why there are no data for section I of the graph. ii. Explain the reason for the shape and minimum value of section II on the graph.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        }
+      ]
     }
   ]
 }

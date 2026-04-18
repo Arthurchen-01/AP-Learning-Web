@@ -1,9 +1,9 @@
 {
-  "examId": "2023NASet1",
-  "title": "AP Physics C: Mechanics 2023年",
+  "examId": "2023NASet1_MECH",
+  "title": "AP Physics C: Mechanics 2023 NA Set 1",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2023",
-  "description": "AP Physics C: Mechanics 2023年",
+  "description": "AP Physics C: Mechanics 2023 NA Set 1",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -12,12 +12,37 @@
   },
   "sections": [
     {
-      "id": "section-mcq",
-      "title": "Section 1",
-      "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
-      "directions": "",
-      "questions": []
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "Show all your work. Indicate clearly the methods you use.",
+      "questions": [
+        {
+          "id": "frq-4",
+          "type": "frq",
+          "prompt": "<p>block sitting on a horizontal surface is pushed against a spring, Spring P, that is attached to a wall, compressing the spring a distance $x$, as shown in Figure 1. The block is then released from rest. The block slides along the horizontal surface and up a ramp, reaching a maximum height $h_{ {max, } P}$. Frictional forces between the block and all surfaces are negligible. A student compares $h_{ {max }, P}$ for Spring P with the maximum height $h_{ {max }, Q}$ achieved with a different spring, Spring Q . Each spring exerts a force of magnitude $F$ on the block that varies as a function of the distance $x$ that the spring is compressed, as shown in Figure 2. For Spring $P, F_{P}(x)=k x$, where $k=100.0 ~N / m$, and for Spring $Q, F_{Q}(x)=C x^{1 / 2}$, where $C=20.0 ~N / m^{1 / 2}$. (a) For the experiment, the block is pushed against one of the springs, compressing the spring a distance $x=0.010 ~m$. The block is then released from rest. In Trial 1, Spring P is used, and in Trial 2, Spring Q is used. On the following dots, representing the block in Trials 1 and 2, draw and label the forces (not components) that are exerted on the block at the instant the block is released. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. The lengths of the horizontal vectors should represent the relative magnitude of the horizontal forces and the lengths of the vertical vectors should represent the relative magnitude of the vertical forces. (b) i. What feature(s) of the graph in Figure 2 could be used to estimate the work done on the block by each spring as each spring is compressed? ii. There is one compression distance $x_{0}$ for which the maximum height $h_{ {max }}$ reached by the block is the same regardless of which spring, Spring P or Spring Q, is used. Predict whether the value of $x_{0}$ is greater than, less than, or equal to 0.040 m . Use the graph in Figure 2 to justify your answer. iii. On the axes provided, for both Spring P and Spring Q , sketch a graph of the maximum height $h_{ }$ reached by the block as a function of the distance each spring is compressed for values of $x$ ranging from 0 to 0.100 m . Clearly label the curve for Spring P and Spring Q. Continue your response to QUESTION 1 on this page. (c) Spring Q is attached to the wall and is at equilibrium, as shown in Figure 3. Block A has a mass of 0.120 kg and Block B has a mass of 0.070 kg . Block A is held at rest at the top of the ramp and Block B is at rest on the horizontal surface. The student releases Block A, and it moves down the ramp and collides with Block B. The change in vertical height of Block A is $H=0.75 ~m$. After the collision, the blocks stick together and move to the right, compressing the spring. Frictional forces between the blocks and all surfaces are negligible. i. Calculate the velocity of the two-block system immediately after the collision between Blocks A and B. ii. Calculate the maximum compression of the spring. (d) Spring Q where $F_{Q}(x)=C x^{1 / 2}$ is replaced by a different nonlinear spring, Spring R , and the procedure described in part (c) is repeated. For Spring $R, F_{R}(x)=D x^{1 / 2}$. The maximum compression of Spring R is greater than the maximum compression of Spring Q. Which of the following correctly compares the constants $C$ and $D$ ? $____$ $CD$ $____$ $C=D$ Briefly justify your answer. Begin your response to QUESTION 2 on this page.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-5",
+          "type": "frq",
+          "prompt": "<p>student makes a torsional pendulum by suspending a uniform disk of mass $M$ and radius $R$ from a light wire with torsion constant $ that is attached to the center of the disk as shown in Figure 1. The rotational inertia of the disk is given by $I=1{2} M R^{2}$. The student conducts an investigation to determine the relationship between the period of oscillation $T$ of the torsional pendulum and the number $N$ of identical disks that are suspended from the wire. The student starts with a single disk. Holding the disk at a small initial angular displacement $_{0}$ from the untwisted position, the student releases the disk from rest and the pendulum oscillates. The student records the period of oscillation for a single disk. An additional identical disk is attached, as shown in Figure 2, and the procedure is repeated for $N=2$ disks. This procedure is repeated through $N=10$ identical disks. Assume the disks move together as one system. (a) Using $T=2 {I{}}$, derive an expression for $T$ as a function of $N$. Express your answer in terms of $M, R, , N$, and physical constants, as appropriate. Continue your response to QUESTION 2 on this page. (b) The potential energy stored in the torsional pendulum when the disks are displaced is $U=1{2} ( )^{2}$. On the following axes, sketch a graph of the maximum kinetic energy $K_{ {max }}$ of the torsional pendulum as a function of $N$ for $N 1$. Continue your response to QUESTION 2 on this page. (c) The student plots the data for $T$ as a function of $N$, as shown. i. Draw the best-fit line for the data. ii. The student previously determined that the radius of a disk is $R=0.2 ~m$ and found that $=1.6 ~N ~m$. Using the graph, calculate the mass $M$ of a single disk. iii. The student finds that the value given by the manufacturer for the mass of the disk is less than the value determined experimentally in part (d) The student repeats the experiment, but now the disks have a density that varies as a function of the radius of the disk according to $=0.3 r$. i. Would the slope of the best-fit line for this new data be greater than, less than, or the same as the slope of the best-fit line in part</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-6",
+          "type": "frq",
+          "prompt": "<p>system consists of a small sphere of mass $m$ and radius $R$ at rest on a horizontal surface and a uniform rod of mass $M=2 m$ and length $ attached at one end to a pivot with negligible friction, where $R $. There is negligible friction between the surface and the sphere to the right of Point A and nonnegligible friction to the left of Point A. The rod is held horizontally as shown in Figure 1, then is released from rest. The total rotational inertia of the rod about the pivot is $1{3} M ^{2}$ and the rotational inertia of the sphere about its center is $2{5} m R^{2}$. After the rod is released, the rod swings down and strikes the sphere head-on. As a result of this collision, the rod is stopped, and the ball initially slides without rotating to the left across the horizontal surface. (a) Derive an expression for the angular speed of the rod just before striking the sphere in terms of the length $ and physical constants as appropriate. (b) Derive an expression for the linear speed $v_{0}$ of the sphere immediately after colliding with the rod in terms of the length $ and physical constants as appropriate. After sliding a short distance, at time $t=0$ the sphere encounters a region of the horizontal surface with a coefficient of kinetic friction $, beginning at Point A as indicated in Figure 1. The sphere begins rotating while sliding and eventually begins rolling without sliding at Point B , also as indicated. (c) In the following diagram, which represents the sphere while the sphere is traveling between Points A and B , draw and label the forces (not components) that act on the sphere. Each force must be represented by a distinct arrow starting on, and pointing away from, the point of application on the sphere. (d) Derive an expression for each of the following as the sphere is rotating and sliding between points A and B in terms of $v_{0}, , R, t$, and physical constants as appropriate. i. The linear velocity $v$ of the center of mass of the sphere as a function of time $t$ ii. The angular velocity $ of the sphere as a function of time $t$ Continue your response to QUESTION 3 on this page. (e) i. Derive an expression for the time it takes the sphere to travel from Point A to Point B in terms of $v_{0}, $, and physical constants as appropriate. ii. Derive an expression for the linear velocity of the sphere upon reaching Point B in terms of $v_{0}$.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        }
+      ]
     }
   ]
 }

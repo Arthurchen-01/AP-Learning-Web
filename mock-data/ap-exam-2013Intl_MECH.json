@@ -3,7 +3,7 @@
   "title": "AP Physics C: Mechanics 2013年",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2013",
-  "description": "AP Physics C: Mechanics 2013年",
+  "description": "AP Physics C: Mechanics 2013年真题",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -13,15 +13,15 @@
   "sections": [
     {
       "id": "section-mcq",
-      "title": "Section 1",
+      "title": "Section I: Multiple Choice",
       "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
+      "limitMinutes": 95,
       "directions": "",
       "questions": [
         {
           "id": "1",
           "type": "single",
-          "prompt": "How far does the object travel during the first 10 s of its motion?",
+          "prompt": "<img src=\" alt=\"\" /><img src=\" alt=\"\" /><img src=\" alt=\"\" /> How far does the object travel during the first 10 s of its motion?",
           "options": [
             {
               "key": "A",
@@ -45,7 +45,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "2",
@@ -74,7 +76,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "3",
@@ -103,7 +107,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "4",
@@ -112,40 +118,42 @@
           "options": [
             {
               "key": "A",
-              "content": "$X"
+              "content": "$X<Y<Z$"
             },
             {
               "key": "B",
-              "content": "$X"
+              "content": "$X<Z<Y$"
             },
             {
               "key": "C",
-              "content": "$Y"
+              "content": "$Y<X<Z$"
             },
             {
               "key": "D",
-              "content": "$Y"
+              "content": "$Y<Z<X$"
             },
             {
               "key": "E",
-              "content": "$Z"
+              "content": "$Z<Y<X$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "5",
           "type": "single",
-          "prompt": "A small particle starts from rest from the origin of an $xy$-coordinate system and travels in the $xy$-plane. Its acceleration in the $x$-direction is $2.0 ~m / s^{2}$, and its acceleration in the $y$-direction is $1.0 ~m / s^{2}$. What is the $x$-coordinate of the particle when its $y$-coordinate is 12 m ?",
+          "prompt": "A small particle starts from rest from the origin of an $x y$-coordinate system and travels in the $x y$-plane. Its acceleration in the $x$-direction is $2.0 ~m / s^{2}$, and its acceleration in the $y$-direction is $1.0 ~m / s^{2}$. What is the $x$-coordinate of the particle when its $y$-coordinate is 12 m ?",
           "options": [
             {
               "key": "A",
-              "content": "0 m"
+              "content": "3.0 m"
             },
             {
               "key": "B",
-              "content": "0 m"
+              "content": "6.0 m"
             },
             {
               "key": "C",
@@ -161,7 +169,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "6",
@@ -186,16 +196,18 @@
             },
             {
               "key": "E",
-              "content": "changing at a rate proportional to the average velocity ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=229&amp;width=802&amp;top_left_y=193&amp;top_left_x=182)"
+              "content": "changing at a rate proportional to the average velocity"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
           "type": "single",
-          "prompt": "A force $F$ accelerates a system of two blocks, $X$ and $Y$, on a horizontal frictionless surface, as shown above. The acceleration is $4 ~m / s^{2}$. The force with which block $Y$ pushes on block $X$ has magnitude",
+          "prompt": "<img src=\" alt=\"\" /> A force $F$ accelerates a system of two blocks, $X$ and $Y$, on a horizontal frictionless surface, as shown above. The acceleration is $4 ~m / s^{2}$. The force with which block $Y$ pushes on block $X$ has magnitude",
           "options": [
             {
               "key": "A",
@@ -219,12 +231,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "8",
           "type": "single",
-          "prompt": "A hoop of mass $m$ and radius $r$ rolls with constant speed on a horizontal surface without slipping. What is the hoop&#x27;s translational kinetic energy divided by its rotational kinetic energy?",
+          "prompt": "A hoop of mass $m$ and radius $r$ rolls with constant speed on a horizontal surface without slipping. What is the hoop's translational kinetic energy divided by its rotational kinetic energy?",
           "options": [
             {
               "key": "A",
@@ -248,36 +262,40 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "9",
           "type": "single",
-          "prompt": "The rotational inertia of a sphere of mass $M$ and radius $R$ about a diameter is $2{5} MR^{2}$. The rotational inertia about an axis tangent to the sphere is",
+          "prompt": "The rotational inertia of a sphere of mass $M$ and radius $R$ about a diameter is $2{5} M R^{2}$. The rotational inertia about an axis tangent to the sphere is",
           "options": [
             {
               "key": "A",
-              "content": "$3{2} MR^{2}$"
+              "content": "$3{2} M R^{2}$"
             },
             {
               "key": "B",
-              "content": "$7{5} MR^{2}$"
+              "content": "$7{5} M R^{2}$"
             },
             {
               "key": "C",
-              "content": "$MR^{2}$"
+              "content": "$M R^{2}$"
             },
             {
               "key": "D",
-              "content": "$1{2} MR^{2}$"
+              "content": "$1{2} M R^{2}$"
             },
             {
               "key": "E",
-              "content": "$2{5} MR^{2}$"
+              "content": "$2{5} M R^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "10",
@@ -302,40 +320,44 @@
             },
             {
               "key": "E",
-              "content": "centripetal acceleration ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=463&amp;width=751&amp;top_left_y=592&amp;top_left_x=1168)"
+              "content": "centripetal acceleration"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
           "type": "single",
-          "prompt": "The toy raft shown in the top view above is sliding due east on frictionless ice at constant speed $v_{0}$ when a fan blows on its sail, producing a constant acceleration a directed to the north. Which of the following could indicate the path of the raft while the fan is blowing?",
+          "prompt": "<img src=\" alt=\"\" /> The toy raft shown in the top view above is sliding due east on frictionless ice at constant speed $v_{0}$ when a fan blows on its sail, producing a constant acceleration a directed to the north. Which of the following could indicate the path of the raft while the fan is blowing?",
           "options": [
             {
               "key": "A",
-              "content": "![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=140&amp;width=108&amp;top_left_y=1379&amp;top_left_x=1246)"
+              "content": "<img src=\" alt=\"\" />"
             },
             {
               "key": "B",
-              "content": "![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=145&amp;width=104&amp;top_left_y=1559&amp;top_left_x=1246)"
+              "content": "<img src=\" alt=\"\" />"
             },
             {
               "key": "C",
-              "content": "![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=141&amp;width=66&amp;top_left_y=1743&amp;top_left_x=1252)"
+              "content": "<img src=\" alt=\"\" />"
             },
             {
               "key": "D",
-              "content": "![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=59&amp;width=134&amp;top_left_y=1929&amp;top_left_x=1248)"
+              "content": "<img src=\" alt=\"\" />"
             },
             {
               "key": "E",
-              "content": "![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-20.jpg?height=133&amp;width=102&amp;top_left_y=2109&amp;top_left_x=1247)"
+              "content": "<img src=\" alt=\"\" />"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "12",
@@ -364,7 +386,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "13",
@@ -393,7 +417,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
@@ -418,16 +444,18 @@
             },
             {
               "key": "E",
-              "content": "$1{2}$ ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-21.jpg?height=278&amp;width=545&amp;top_left_y=182&amp;top_left_x=1271)"
+              "content": "$1{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
           "type": "single",
-          "prompt": "The block shown above is attached to a rigid wall by means of an ideal spring and moves on a horizontal surface with negligible friction. The block oscillates with a period $T$. If a second ideal spring, identical to the first, is placed above the first spring and attached to the wall and the block, the new oscillation period of the block is",
+          "prompt": "<img src=\" alt=\"\" /> The block shown above is attached to a rigid wall by means of an ideal spring and moves on a horizontal surface with negligible friction. The block oscillates with a period $T$. If a second ideal spring, identical to the first, is placed above the first spring and attached to the wall and the block, the new oscillation period of the block is",
           "options": [
             {
               "key": "A",
@@ -451,7 +479,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
@@ -460,32 +490,34 @@
           "options": [
             {
               "key": "A",
-              "content": "$1{2} kA^{2} ^{2}(2 ft)$"
+              "content": "$1{2} k A^{2}  ^{2}(2  f t)$"
             },
             {
               "key": "B",
-              "content": "$kA^{2} ^{2}(2 ft)$"
+              "content": "$k A^{2}  ^{2}(2  f t)$"
             },
             {
               "key": "C",
-              "content": "$kA (2 ft)$"
+              "content": "$k A  (2  f t)$"
             },
             {
               "key": "D",
-              "content": "$1{2} kA (2 ft)$"
+              "content": "$1{2} k A  (2  f t)$"
             },
             {
               "key": "E",
-              "content": "$kA( 2 ft+ 2 ft)$"
+              "content": "$k A( 2  f t+ 2  f t)$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "17",
           "type": "single",
-          "prompt": "A wheel with rotational inertia $0.04 ~kg ~m^{2}$ and radius 0.02 m is turning at the rate of 10 revolutions per second when a frictional torque is applied to stop it. How much work is done by the torque in stopping the wheel?",
+          "prompt": "A wheel with rotational inertia $0.04 ~kg  ~m^{2}$ and radius 0.02 m is turning at the rate of 10 revolutions per second when a frictional torque is applied to stop it. How much work is done by the torque in stopping the wheel?",
           "options": [
             {
               "key": "A",
@@ -493,7 +525,7 @@
             },
             {
               "key": "B",
-              "content": "$-0.4 ~J$"
+              "content": "$-0.4  ~J$"
             },
             {
               "key": "C",
@@ -505,24 +537,26 @@
             },
             {
               "key": "E",
-              "content": "$-8 ^{2} ~J$ ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-22.jpg?height=428&amp;width=293&amp;top_left_y=773&amp;top_left_x=436)"
+              "content": "$-8 ^{2} ~J$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "18",
           "type": "single",
-          "prompt": "A uniform beam of weight $W$ is attached to a wall by a pivot at one end and is held horizontal by a cable attached to the other end of the beam and to the wall, as shown above. $T$ is the tension in the cable, which makes an angle $$ with the beam. Which of the following is equal to $T$ ?",
+          "prompt": "<img src=\" alt=\"\" /> A uniform beam of weight $W$ is attached to a wall by a pivot at one end and is held horizontal by a cable attached to the other end of the beam and to the wall, as shown above. $T$ is the tension in the cable, which makes an angle $$ with the beam. Which of the following is equal to $T$ ?",
           "options": [
             {
               "key": "A",
-              "content": "$W{2 }$"
+              "content": "$W{2  }$"
             },
             {
               "key": "B",
-              "content": "$W{2 }$"
+              "content": "$W{2  }$"
             },
             {
               "key": "C",
@@ -534,16 +568,18 @@
             },
             {
               "key": "E",
-              "content": "$W$ ![figure](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-22.jpg?height=128&amp;width=349&amp;top_left_y=1553&amp;top_left_x=1160) ![figure](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-22.jpg?height=126&amp;width=343&amp;top_left_y=1555&amp;top_left_x=1576) ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-22.jpg?height=369&amp;width=729&amp;top_left_y=184&amp;top_left_x=1177)"
+              "content": "$W$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "19",
           "type": "single",
-          "prompt": "An arrow of mass $m$ and speed $v_{0}$ strikes and sticks to one end of a meterstick of mass $M$ as shown in the diagram above. The meterstick is initially at rest on a horizontal surface and free to move without friction. The speed of the center of mass of the stick-arrow system after the arrow strikes is given by which of the following expressions?",
+          "prompt": "<img src=\" alt=\"\" /><img src=\" alt=\"\" /><img src=\" alt=\"\" /> An arrow of mass $m$ and speed $v_{0}$ strikes and sticks to one end of a meterstick of mass $M$ as shown in the diagram above. The meterstick is initially at rest on a horizontal surface and free to move without friction. The speed of the center of mass of the stick-arrow system after the arrow strikes is given by which of the following expressions?",
           "options": [
             {
               "key": "A",
@@ -551,11 +587,11 @@
             },
             {
               "key": "B",
-              "content": "$mv_{0}{M}$"
+              "content": "$m v_{0}{M}$"
             },
             {
               "key": "C",
-              "content": "$mv_{0}{M+m}$"
+              "content": "$m v_{0}{M+m}$"
             },
             {
               "key": "D",
@@ -567,7 +603,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "20",
@@ -592,11 +630,13 @@
             },
             {
               "key": "E",
-              "content": "More information is needed to determine whether the collision is elastic or inelastic. A 20 kg box moving at an initial speed of $10 ~m / s$ slides 25 m to the right on a horizontal floor before it comes to a complete stop."
+              "content": "More information is needed to determine whether the collision is elastic or inelastic.   A 20 kg box moving at an initial speed of $10 ~m / s$ slides 25 m to the right on a horizontal floor before it comes to a complete stop."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
@@ -605,27 +645,29 @@
           "options": [
             {
               "key": "A",
-              "content": "10"
+              "content": "0.10"
             },
             {
               "key": "B",
-              "content": "20"
+              "content": "0.20"
             },
             {
               "key": "C",
-              "content": "40"
+              "content": "0.40"
             },
             {
               "key": "D",
-              "content": "60"
+              "content": "0.60"
             },
             {
               "key": "E",
-              "content": "80"
+              "content": "0.80"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "22",
@@ -650,45 +692,49 @@
             },
             {
               "key": "E",
-              "content": "To the left and on the floor while the box is sliding? None To the right To the left None To the right ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-23.jpg?height=240&amp;width=624&amp;top_left_y=184&amp;top_left_x=1231)"
+              "content": "To the left and on the floor while the box is sliding?"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "23",
           "type": "single",
-          "prompt": "A block of mass $m$ is pulled across a rough horizontal surface at constant speed by a force of magnitude $F$, which acts at an angle of $$ to the horizontal, as shown above. The coefficient of kinetic friction between the block and the surface is",
+          "prompt": "<img src=\" alt=\"\" /> A block of mass $m$ is pulled across a rough horizontal surface at constant speed by a force of magnitude $F$, which acts at an angle of $$ to the horizontal, as shown above. The coefficient of kinetic friction between the block and the surface is",
           "options": [
             {
               "key": "A",
-              "content": "$F{mg}$"
+              "content": "$F{m g}$"
             },
             {
               "key": "B",
-              "content": "$F {mg}$"
+              "content": "$F  {m g}$"
             },
             {
               "key": "C",
-              "content": "$F {mg}$"
+              "content": "$F  {m g}$"
             },
             {
               "key": "D",
-              "content": "$F {mg-F }$"
+              "content": "$F  {m g-F  }$"
             },
             {
               "key": "E",
-              "content": "$F {mg-F }$ ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-24.jpg?height=540&amp;width=478&amp;top_left_y=189&amp;top_left_x=343)"
+              "content": "$F  {m g-F  }$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "24",
           "type": "single",
-          "prompt": "The rope-and-pulley system of negligible mass shown above supports a block of weight $W$ that is at rest. If the tension throughout the rope is uniform, what is the reading on the spring scale?",
+          "prompt": "<img src=\" alt=\"\" /> The rope-and-pulley system of negligible mass shown above supports a block of weight $W$ that is at rest. If the tension throughout the rope is uniform, what is the reading on the spring scale?",
           "options": [
             {
               "key": "A",
@@ -708,16 +754,18 @@
             },
             {
               "key": "E",
-              "content": "$W{8}$ ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-24.jpg?height=343&amp;width=481&amp;top_left_y=184&amp;top_left_x=1301)"
+              "content": "$W{8}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
           "type": "single",
-          "prompt": "The uniform rod of length $L$ shown above is supported by holding end $X$ so that the rod makes an angle $60^{}$ with the horizontal floor. There is no friction acting between the rod and the floor. When the support at $X$ is removed, the rod falls under the influence of gravity. Which of the following best describes the movement of end $Y$ as the rod falls?",
+          "prompt": "<img src=\" alt=\"\" /> The uniform rod of length $L$ shown above is supported by holding end $X$ so that the rod makes an angle $60^{}$ with the horizontal floor. There is no friction acting between the rod and the floor. When the support at $X$ is removed, the rod falls under the influence of gravity. Which of the following best describes the movement of end $Y$ as the rod falls?",
           "options": [
             {
               "key": "A",
@@ -741,7 +789,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
@@ -770,7 +820,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
@@ -787,7 +839,7 @@
             },
             {
               "key": "C",
-              "content": "$a=- vt$"
+              "content": "$a=- v t$"
             },
             {
               "key": "D",
@@ -799,41 +851,45 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
           "type": "single",
-          "prompt": "The relationship between the magnitude of the restoring force $F$ and the resultant displacement $x$ from equilibrium for a nonlinear spring is given by the equation $F=kx^{2}$. What is the potential energy of the spring when it has been compressed a distance $x_{0}$ ?",
+          "prompt": "The relationship between the magnitude of the restoring force $F$ and the resultant displacement $x$ from equilibrium for a nonlinear spring is given by the equation $F=k x^{2}$. What is the potential energy of the spring when it has been compressed a distance $x_{0}$ ?",
           "options": [
             {
               "key": "A",
-              "content": "$kx_{0}^{3}$"
+              "content": "$k x_{0}^{3}$"
             },
             {
               "key": "B",
-              "content": "$1{2} kx_{0}^{2}$"
+              "content": "$1{2} k x_{0}^{2}$"
             },
             {
               "key": "C",
-              "content": "$1{2} kx_{0}^{3}$"
+              "content": "$1{2} k x_{0}^{3}$"
             },
             {
               "key": "D",
-              "content": "$1{3} kx_{0}^{2}$"
+              "content": "$1{3} k x_{0}^{2}$"
             },
             {
               "key": "E",
-              "content": "$1{3} kx_{0}^{3}$"
+              "content": "$1{3} k x_{0}^{3}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
           "type": "single",
-          "prompt": "The period $T$ of a pendulum of length $L$ is measured to determine $g$ at the surface of Earth. The equation used is $T=2 L / g$. The mass of the pendulum bob is 10.0 kg , and the length of the pendulum is 1.00 m . Which of the following would contribute most to the expected error in the result?",
+          "prompt": "The period $T$ of a pendulum of length $L$ is measured to determine $g$ at the surface of Earth. The equation used is $T=2  L / g$. The mass of the pendulum bob is 10.0 kg , and the length of the pendulum is 1.00 m . Which of the following would contribute most to the expected error in the result?",
           "options": [
             {
               "key": "A",
@@ -857,7 +913,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "30",
@@ -866,19 +924,19 @@
           "options": [
             {
               "key": "A",
-              "content": "The person&#x27;s weight is exactly the same as at the surface."
+              "content": "The person's weight is exactly the same as at the surface."
             },
             {
               "key": "B",
-              "content": "The person&#x27;s weight is greater than at the surface."
+              "content": "The person's weight is greater than at the surface."
             },
             {
               "key": "C",
-              "content": "The person&#x27;s weight is less than at the surface."
+              "content": "The person's weight is less than at the surface."
             },
             {
               "key": "D",
-              "content": "The person&#x27;s weight may increase or decrease, depending on the density of the planet."
+              "content": "The person's weight may increase or decrease, depending on the density of the planet."
             },
             {
               "key": "E",
@@ -886,41 +944,45 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
           "type": "single",
-          "prompt": "A certain satellite in a circular orbit of radius $r$ remains vertically above a certain point on Earth&#x27;s equator. Which of the following expressions correctly gives $r$ in terms of $$ (the angular velocity of Earth&#x27;s rotation about its axis), $M$ (the mass of Earth), and $G$ (the universal gravitational constant) ?",
+          "prompt": "A certain satellite in a circular orbit of radius $r$ remains vertically above a certain point on Earth's equator. Which of the following expressions correctly gives $r$ in terms of $$ (the angular velocity of Earth's rotation about its axis), $M$ (the mass of Earth), and $G$ (the universal gravitational constant) ?",
           "options": [
             {
               "key": "A",
-              "content": "$r=^{2}{GM}$"
+              "content": "$r=^{2}{G M}$"
             },
             {
               "key": "B",
-              "content": "$r=GM{}$"
+              "content": "$r=G M{}$"
             },
             {
               "key": "C",
-              "content": "$r^{2}=GM{}$"
+              "content": "$r^{2}=G M{}$"
             },
             {
               "key": "D",
-              "content": "$r^{3}=^{2} GM$"
+              "content": "$r^{3}=^{2} G M$"
             },
             {
               "key": "E",
-              "content": "$r^{3}=GM{^{2}}$ ![](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-26.jpg?height=141&amp;width=575&amp;top_left_y=180&amp;top_left_x=1254)"
+              "content": "$r^{3}=G M{^{2}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "32",
           "type": "single",
-          "prompt": "Two blocks of masses $M$ and $2 M$ are on a frictionless horizontal surface, as shown above, and are held in place with a compressed spring of negligible mass between them. If the blocks are then released and the block of mass $2 M$ leaves the spring with a velocity $v$, the velocity of the center of mass of the blocks is",
+          "prompt": "<img src=\" alt=\"\" /> Two blocks of masses $M$ and $2 M$ are on a frictionless horizontal surface, as shown above, and are held in place with a compressed spring of negligible mass between them. If the blocks are then released and the block of mass $2 M$ leaves the spring with a velocity $v$, the velocity of the center of mass of the blocks is",
           "options": [
             {
               "key": "A",
@@ -940,16 +1002,18 @@
             },
             {
               "key": "E",
-              "content": "$-2 v$ ![figure](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-27.jpg?height=399&amp;width=313&amp;top_left_y=268&amp;top_left_x=287) ![figure](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-27.jpg?height=397&amp;width=311&amp;top_left_y=270&amp;top_left_x=689) A 0.060 kg tennis ball moving at $15 ~m / s$ strikes a tennis racket and rebounds at $10 ~m / s$ in the opposite direction, as shown above. The ball is in contact with the racket for 0.030 s ."
+              "content": "$-2 v$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
           "type": "single",
-          "prompt": "What is the magnitude of the average force exerted by the racket on the ball?",
+          "prompt": "A 0.060 kg tennis ball moving at $15 ~m / s$ strikes a tennis racket and rebounds at $10 ~m / s$ in the opposite direction, as shown above. The ball is in contact with the racket for 0.030 s . What is the magnitude of the average force exerted by the racket on the ball?",
           "options": [
             {
               "key": "A",
@@ -973,7 +1037,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "34",
@@ -998,16 +1064,18 @@
             },
             {
               "key": "E",
-              "content": "It cannot be determined without knowing the recoil speed of the racket. ![figure](https://cdn.mathpix.com/cropped/48e5c83a-fc12-4279-864d-4d505a5ebb1c-28.jpg?height=368&amp;width=437&amp;top_left_y=195&amp;top_left_x=365)"
+              "content": "It cannot be determined without knowing the recoil speed of the racket."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "35",
           "type": "single",
-          "prompt": "A circular platform has a radius $R$ and rotational inertia $I$. The platform rotates around a fixed pivot at its center with negligible friction and an initial angular velocity $$. A child of mass $m$ (represented by the small circle in the figure above) runs tangentially with speed $v$ and jumps on the outer edge of the platform. When the child is standing on the outer edge of the platform, the new angular velocity is",
+          "prompt": "<img src=\" alt=\"\" /> A circular platform has a radius $R$ and rotational inertia $I$. The platform rotates around a fixed pivot at its center with negligible friction and an initial angular velocity $$. A child of mass $m$ (represented by the small circle in the figure above) runs tangentially with speed $v$ and jumps on the outer edge of the platform. When the child is standing on the outer edge of the platform, the new angular velocity is",
           "options": [
             {
               "key": "A",
@@ -1015,23 +1083,25 @@
             },
             {
               "key": "B",
-              "content": "$I {I+mR^{2}}$"
+              "content": "$I {I+m R^{2}}$"
             },
             {
               "key": "C",
-              "content": "$I +mvR{I+mR^{2}}$"
+              "content": "$I +m v R{I+m R^{2}}$"
             },
             {
               "key": "D",
-              "content": "$(I ^{2+mv^{2}}{I})^{1 / 2}$"
+              "content": "$(I ^{2+m v^{2}}{I})^{1 / 2}$"
             },
             {
               "key": "E",
-              "content": "$(I ^{2+mv^{2}}{I+mR^{2}})^{1 / 2}$ END OF MECHANICS SECTION I IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY. DO NOT TURN TO ANY OTHER TEST MATERIALS. MAKE SURE YOU HAVE DONE THE FOLLOWING. - PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET *{"
+              "content": "$(I ^{2+m v^{2}}{I+m R^{2}})^{1 / 2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         }
       ]
     }

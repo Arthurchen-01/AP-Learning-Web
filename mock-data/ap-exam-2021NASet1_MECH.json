@@ -1,9 +1,9 @@
 {
-  "examId": "2021NASet1",
-  "title": "AP Physics C: Mechanics 2021年",
+  "examId": "2021NASet1_MECH",
+  "title": "AP Physics C: Mechanics 2021 NA Set 1",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2021",
-  "description": "AP Physics C: Mechanics 2021年",
+  "description": "AP Physics C: Mechanics 2021 NA Set 1",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -12,12 +12,37 @@
   },
   "sections": [
     {
-      "id": "section-mcq",
-      "title": "Section 1",
-      "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
-      "directions": "",
-      "questions": []
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "Show all your work. Indicate clearly the methods you use.",
+      "questions": [
+        {
+          "id": "frq-3",
+          "type": "frq",
+          "prompt": "<p>50 kg fan cart is placed on a level, horizontal track of negligible friction, as shown. The fan is turned on, and the fan cart is released from rest and moves to the right. The cart travels along the horizontal track and then down an incline. Motion detector 1 measures the acceleration $a$ of the cart from time $t=0$ to $t=3 ~s$. At $t=3 ~s$, the cart makes a smooth transition to the incline, and motion detector 2 measures the acceleration of the cart after $t=3 ~s$. The fan exerts the same magnitude of force on the cart during the entire motion. The graphs below show $a$ as functions of $t$. For each motion detector, the positive direction is away from the detector. Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box. © 2021 College Board. Visit College Board on the web: collegeboard.org. (a) On the dots below that represent the cart at two different locations, draw and label the forces (not components) that act on the cart at each location. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. (b) Calculate the magnitude of the net force exerted on the fan cart when it is on the horizontal track. (c) Calculate the angle $ of the incline. (d) Suppose careful measurement determines the angle of the incline to be $3^{}$ larger than that calculated in part (e) i. Draw a best-fit line for the data. ii. Using the straight line, calculate an experimental value for the acceleration due to gravity $g$. (f) If the cart were replaced with a second cart of mass 1.0 kg that has a fan that exerts the same magnitude of force as the original fan, explain how the graph given in part (e) would change. Begin your response to QUESTION 2 on this page.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-4",
+          "type": "frq",
+          "prompt": "<p>block of mass $m$ starts from rest at point A and travels with negligible friction through the loop onto a horizontal surface, where the block makes contact with a spring of spring constant $k=m g{2 R}$. All motion of the spring is in the horizontal direction. Point C is the highest point on the loop, and point B is the rightmost point on the loop. Express all algebraic answers in terms of $m, h, R$, and physical constants, as appropriate. (a) On the dot below, which represents the block, draw an arrow that represents the direction of the acceleration of the block at point B in the figure above. The arrow must start on and point away from the dot. Justify your answer. (b) i. Derive an expression for the speed $v$ of the block at point B . ii. Derive an expression for the magnitude of the net force $F$ on the block at point B . (c) In terms of $R$, derive an expression for the minimum height $h_{ {min }}$ necessary for the block to maintain contact with the track through point C . (d) It is determined that $h=0.30 ~m$ and $R=0.10 ~m$. If the block is released from a height greater than that found in part (e) A graph of the maximum compression of the spring as a function of height is shown below. The height $h_{ {min }}$ is the height calculated in part</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-5",
+          "type": "frq",
+          "prompt": "<p>triangular rod of length $L$ and mass $M$ has a nonuniform linear mass density given by the equation $= x^{2}$, where $=3 M{L^{3}}$ and $x$ is the distance from point P at the left end of the rod. (a) Using integral calculus, show that the rotational inertia $I$ of the rod about an axis perpendicular to the page and through point P is $3{5} M L^{2}$. (b) Determine the horizontal location of the center of mass of the rod relative to point P . Express your answer in terms of $L$. (c) For an axis perpendicular to the page, is the value of the rotational inertia of the rod around point P greater than, less than, or equal to the value of the rotational inertia of the rod around the rod's center of mass? $____$ Greater than $____$ Less than $____$ Equal to Justify your answer. (d) On the axes below, sketch graphs of the magnitude of the net torque $ on the rod and the angular speed $ of the rod as functions of time $t$ from the time the rod is released until the time its center of mass reaches its lowest point. (e) As the rod rotates from the horizontal position down through vertical, is the magnitude of the angular acceleration on the rod increasing, decreasing, or not changing? $____$ Increasing $____$ Decreasing $____$ Not changing Justify your answer. Continue your response to QUESTION 3 on this page. (f) The mass of the rod is 3.0 kg , and the length of the rod is 1.0 m . Calculate the linear speed $v$ of point S as the rod swings through the vertical position shown. {</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "AP Physics C: Mechanics 2012年",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2012",
-  "description": "AP Physics C: Mechanics 2012年",
+  "description": "AP Physics C: Mechanics 2012年真题",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -13,11 +13,73 @@
   "sections": [
     {
       "id": "section-mcq",
-      "title": "Section 1",
+      "title": "Section I: Multiple Choice",
       "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
+      "limitMinutes": 95,
       "directions": "",
       "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<img src=\" alt=\"\" /> A ball is struck at time $t=0$ and follows the parabolic path shown in the diagram above. The following graphs show quantities possibly associated with the motion as a function of time $t$. Assume that air resistance is negligible and that the positive directions are upward and to the right. Which graph represents the horizontal component of the velocity of the ball?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "B",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "C",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "D",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "E",
+              "content": "<img src=\" alt=\"\" />"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<img src=\" alt=\"\" /> A ball is struck at time $t=0$ and follows the parabolic path shown in the diagram above. The following graphs show quantities possibly associated with the motion as a function of time $t$. Assume that air resistance is negligible and that the positive directions are upward and to the right. Which graph represents the vertical component of the velocity of the ball?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "B",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "C",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "D",
+              "content": "<img src=\" alt=\"\" />"
+            },
+            {
+              "key": "E",
+              "content": "<img src=\" alt=\"\" />"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
         {
           "id": "3",
           "type": "single",
@@ -41,11 +103,13 @@
             },
             {
               "key": "E",
-              "content": "It has a continually varying acceleration as it moves up and down the plane. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-21.jpg?height=431&amp;width=270&amp;top_left_y=109&amp;top_left_x=449)"
+              "content": "It has a continually varying acceleration as it moves up and down the plane."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "4",
@@ -62,19 +126,21 @@
             },
             {
               "key": "C",
-              "content": "$T_{1}&gt;T_{2}$ because $m_{1}$ is farther from the wheel than $m_{2}$."
+              "content": "$T_{1}>T_{2}$ because $m_{1}$ is farther from the wheel than $m_{2}$."
             },
             {
               "key": "D",
-              "content": "$T_{1}&gt;T_{2}$ because $m_{1}$ accelerates upward."
+              "content": "$T_{1}>T_{2}$ because $m_{1}$ accelerates upward."
             },
             {
               "key": "E",
-              "content": "$T_{2}&gt;T_{1}$ because an unbalanced clockwise torque is needed to accelerate the wheel clockwise. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-21.jpg?height=112&amp;width=652&amp;top_left_y=1474&amp;top_left_x=258)"
+              "content": "$T_{2}>T_{1}$ because an unbalanced clockwise torque is needed to accelerate the wheel clockwise."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "5",
@@ -83,27 +149,29 @@
           "options": [
             {
               "key": "A",
-              "content": "0 m"
+              "content": "1.0 m"
             },
             {
               "key": "B",
-              "content": "5 m"
+              "content": "1.5 m"
             },
             {
               "key": "C",
-              "content": "0 m"
+              "content": "2.0 m"
             },
             {
               "key": "D",
-              "content": "5 m"
+              "content": "2.5 m"
             },
             {
               "key": "E",
-              "content": "0 m"
+              "content": "3.0 m"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "6",
@@ -132,7 +200,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
@@ -161,7 +231,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "8",
@@ -190,7 +262,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "9",
@@ -219,24 +293,26 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "10",
           "type": "single",
-          "prompt": "A particle of mass $m$ starts from rest at position $x=0$ and time $t=0$. It moves along the positive $x$-axis under the influence of a single force $F_{x}=bt$, where $b$ is a constant. The velocity $v$ of the particle is given by",
+          "prompt": "A particle of mass $m$ starts from rest at position $x=0$ and time $t=0$. It moves along the positive $x$-axis under the influence of a single force $F_{x}=b t$, where $b$ is a constant. The velocity $v$ of the particle is given by",
           "options": [
             {
               "key": "A",
-              "content": "$bt{m}$"
+              "content": "$b t{m}$"
             },
             {
               "key": "B",
-              "content": "$bt^{2}{2 m}$"
+              "content": "$b t^{2}{2 m}$"
             },
             {
               "key": "C",
-              "content": "$bt^{2}{m}$"
+              "content": "$b t^{2}{m}$"
             },
             {
               "key": "D",
@@ -244,11 +320,13 @@
             },
             {
               "key": "E",
-              "content": "$b{mt}$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-22.jpg?height=200&amp;width=665&amp;top_left_y=109&amp;top_left_x=1211)"
+              "content": "$b{m t}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
@@ -257,19 +335,19 @@
           "options": [
             {
               "key": "A",
-              "content": "33 N"
+              "content": "0.33 N"
             },
             {
               "key": "B",
-              "content": "5 N"
+              "content": "1.5 N"
             },
             {
               "key": "C",
-              "content": "0 N"
+              "content": "3.0 N"
             },
             {
               "key": "D",
-              "content": "0 N"
+              "content": "6.0 N"
             },
             {
               "key": "E",
@@ -277,7 +355,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "12",
@@ -286,27 +366,29 @@
           "options": [
             {
               "key": "A",
-              "content": "25 s"
+              "content": "0.25 s"
             },
             {
               "key": "B",
-              "content": "40 s"
+              "content": "0.40 s"
             },
             {
               "key": "C",
-              "content": "0 s"
+              "content": "1.0 s"
             },
             {
               "key": "D",
-              "content": "0 s"
+              "content": "2.0 s"
             },
             {
               "key": "E",
-              "content": "0 s ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-22.jpg?height=255&amp;width=766&amp;top_left_y=1354&amp;top_left_x=1127)"
+              "content": "4.0 s"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "13",
@@ -315,15 +397,15 @@
           "options": [
             {
               "key": "A",
-              "content": "40 m"
+              "content": "0.40 m"
             },
             {
               "key": "B",
-              "content": "0 m"
+              "content": "1.0 m"
             },
             {
               "key": "C",
-              "content": "5 m"
+              "content": "2.5 m"
             },
             {
               "key": "D",
@@ -331,11 +413,13 @@
             },
             {
               "key": "E",
-              "content": "25 m ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-23.jpg?height=328&amp;width=717&amp;top_left_y=111&amp;top_left_x=226)"
+              "content": "25 m"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
@@ -344,27 +428,29 @@
           "options": [
             {
               "key": "A",
-              "content": "$QR$ only"
+              "content": "$Q R$ only"
             },
             {
               "key": "B",
-              "content": "$ST$ only"
+              "content": "$S T$ only"
             },
             {
               "key": "C",
-              "content": "$PQ$ and $TU$ only"
+              "content": "$P Q$ and $T U$ only"
             },
             {
               "key": "D",
-              "content": "$RS$ and $ST$ only"
+              "content": "$R S$ and $S T$ only"
             },
             {
               "key": "E",
-              "content": "$PQ, RS, ST$, and $TU$"
+              "content": "$P Q, R S, S T$, and $T U$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
@@ -389,40 +475,44 @@
             },
             {
               "key": "E",
-              "content": "$12.0 ~m / s^{2}$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-23.jpg?height=457&amp;width=843&amp;top_left_y=197&amp;top_left_x=1125) An unstretched ideal spring hangs vertically from a fixed support. A 0.4 kg object is then attached to the lower end of the spring. The object is pulled down to a distance of 0.35 m below the unstretched position and released from rest at time $t=0$. A graph of the subsequent vertical position $y$ of the lower end of the spring as a function of $t$ is given above, where $y=0$ when the spring was initially unstretched."
+              "content": "$12.0 ~m / s^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
           "type": "single",
-          "prompt": "At which of the following times is the upward velocity of the object the greatest?",
+          "prompt": "An unstretched ideal spring hangs vertically from a fixed support. A 0.4 kg object is then attached to the lower end of the spring. The object is pulled down to a distance of 0.35 m below the unstretched position and released from rest at time $t=0$. A graph of the subsequent vertical position $y$ of the lower end of the spring as a function of $t$ is given above, where $y=0$ when the spring was initially unstretched. At which of the following times is the upward velocity of the object the greatest?",
           "options": [
             {
               "key": "A",
-              "content": "00 s"
+              "content": "0.00 s"
             },
             {
               "key": "B",
-              "content": "25 s"
+              "content": "0.25 s"
             },
             {
               "key": "C",
-              "content": "50 s"
+              "content": "0.50 s"
             },
             {
               "key": "D",
-              "content": "75 s"
+              "content": "0.75 s"
             },
             {
               "key": "E",
-              "content": "00 s"
+              "content": "1.00 s"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "17",
@@ -451,12 +541,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "18",
           "type": "single",
-          "prompt": "Identicalnet forces act for the same length of time on two different spherical masses. Which of the following describes the change in linear momentum of the smaller mass compared to that of the larger mass?",
+          "prompt": "Identical net forces act for the same length of time on two different spherical masses. Which of the following describes the change in linear momentum of the smaller mass compared to that of the larger mass?",
           "options": [
             {
               "key": "A",
@@ -476,11 +568,13 @@
             },
             {
               "key": "E",
-              "content": "It depends on the relative diameters of the two masses. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-24.jpg?height=217&amp;width=396&amp;top_left_y=810&amp;top_left_x=388)"
+              "content": "It depends on the relative diameters of the two masses."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "19",
@@ -509,70 +603,76 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "20",
           "type": "single",
-          "prompt": "A certain one-dimensional conservative force is given as a function of $x$ by the expression $F=-kx^{3}$, where $F$ is in newtons and $x$ is in meters. A possible potential energy function $U$ for this force is",
+          "prompt": "A certain one-dimensional conservative force is given as a function of $x$ by the expression $F=-k x^{3}$, where $F$ is in newtons and $x$ is in meters. A possible potential energy function $U$ for this force is",
           "options": [
             {
               "key": "A",
-              "content": "$U=-1{2} kx^{2}$"
+              "content": "$U=-1{2} k x^{2}$"
             },
             {
               "key": "B",
-              "content": "$U=1{2} kx^{2}$"
+              "content": "$U=1{2} k x^{2}$"
             },
             {
               "key": "C",
-              "content": "$U=-1{4} kx^{4}$"
+              "content": "$U=-1{4} k x^{4}$"
             },
             {
               "key": "D",
-              "content": "$U=1{4} kx^{4}$"
+              "content": "$U=1{4} k x^{4}$"
             },
             {
               "key": "E",
-              "content": "$U=-3 kx^{2}$"
+              "content": "$U=-3 k x^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
           "type": "single",
-          "prompt": "Which of the following is a differential equation that correctly describes Newton&#x27;s second law for a simple harmonic oscillator of mass $m$ and restoring force constant $k$ ?",
+          "prompt": "Which of the following is a differential equation that correctly describes Newton's second law for a simple harmonic oscillator of mass $m$ and restoring force constant $k$ ?",
           "options": [
             {
               "key": "A",
-              "content": "$kx=md^{2 x}{dt^{2}}$"
+              "content": "$k x=m d^{2 x}{d t^{2}}$"
             },
             {
               "key": "B",
-              "content": "$-kx=md^{2 x}{dt^{2}}$"
+              "content": "$-k x=m d^{2 x}{d t^{2}}$"
             },
             {
               "key": "C",
-              "content": "$-kv=mdv{dt}$"
+              "content": "$-k v=m d v{d t}$"
             },
             {
               "key": "D",
-              "content": "$kx=mdx{dt}$"
+              "content": "$k x=m d x{d t}$"
             },
             {
               "key": "E",
-              "content": "$mg-kv=mdv{dt}$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=305&amp;width=622&amp;top_left_y=193&amp;top_left_x=275) Note: Figure not drawn to scale. The elliptical orbit of a comet is shown above. Positions 1 and 2 are, respectively, the farthest and nearest positions to the Sun, and at position 1 the distance from the comet to the Sun is 10 times that at position 2."
+              "content": "$m g-k v=m d v{d t}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "22",
           "type": "single",
-          "prompt": "At position 2, the comet&#x27;s kinetic energy is",
+          "prompt": "Note: Figure not drawn to scale. The elliptical orbit of a comet is shown above. Positions 1 and 2 are, respectively, the farthest and nearest positions to the Sun, and at position 1 the distance from the comet to the Sun is 10 times that at position 2. At position 2, the comet's kinetic energy is",
           "options": [
             {
               "key": "A",
@@ -596,7 +696,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "23",
@@ -625,7 +727,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "24",
@@ -650,11 +754,13 @@
             },
             {
               "key": "E",
-              "content": "100 ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=288&amp;width=503&amp;top_left_y=111&amp;top_left_x=1293)"
+              "content": "100"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
@@ -663,27 +769,29 @@
           "options": [
             {
               "key": "A",
-              "content": "$_{k} mg$"
+              "content": "$_{k} m g$"
             },
             {
               "key": "B",
-              "content": "$_{k} F $"
+              "content": "$_{k} F  $"
             },
             {
               "key": "C",
-              "content": "$_{k}(F +mg)$"
+              "content": "$_{k}(F  +m g)$"
             },
             {
               "key": "D",
-              "content": "$_{k}(F -mg)$"
+              "content": "$_{k}(F  -m g)$"
             },
             {
               "key": "E",
-              "content": "$_{k}(mg-F )$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=324&amp;width=725&amp;top_left_y=1228&amp;top_left_x=1180)"
+              "content": "$_{k}(m g-F  )$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
@@ -712,12 +820,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
           "type": "single",
-          "prompt": "A person throws a ball of mass 0.20 kg . The ball starts from rest, accelerates horizontally and uniformly through a distance of 0.90 m , and leaves the person&#x27;s hand at $30 ~m / s$. The average horizontal force applied to the ball by the person&#x27;s hand is",
+          "prompt": "A person throws a ball of mass 0.20 kg . The ball starts from rest, accelerates horizontally and uniformly through a distance of 0.90 m , and leaves the person's hand at $30 ~m / s$. The average horizontal force applied to the ball by the person's hand is",
           "options": [
             {
               "key": "A",
@@ -725,7 +835,7 @@
             },
             {
               "key": "B",
-              "content": "7 N"
+              "content": "16.7 N"
             },
             {
               "key": "C",
@@ -741,7 +851,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
@@ -770,7 +882,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
@@ -779,56 +893,60 @@
           "options": [
             {
               "key": "A",
-              "content": "$1 ~N ~m$"
+              "content": "$1 ~N  ~m$"
             },
             {
               "key": "B",
-              "content": "$2 ~N ~m$"
+              "content": "$2 ~N  ~m$"
             },
             {
               "key": "C",
-              "content": "$2.5 ~N ~m$"
+              "content": "$2.5 ~N  ~m$"
             },
             {
               "key": "D",
-              "content": "$7 ~N ~m$"
+              "content": "$7 ~N  ~m$"
             },
             {
               "key": "E",
-              "content": "$7.5 ~N ~m$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=64&amp;width=415&amp;top_left_y=123&amp;top_left_x=1335)"
+              "content": "$7.5 ~N  ~m$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "30",
           "type": "single",
-          "prompt": "An object undergoes simple harmonic motion along the $x$-axis shown above, where $x=0$ is the object&#x27;s equilibrium position. Which of the following graphs best shows the relationship between the object&#x27;s acceleration $a$ and its displacement $x$ from equilibrium? (Assume positive $a$ to be acceleration directed to the right.)",
+          "prompt": "An object undergoes simple harmonic motion along the $x$-axis shown above, where $x=0$ is the object's equilibrium position. Which of the following graphs best shows the relationship between the object's acceleration $a$ and its displacement $x$ from equilibrium? (Assume positive $a$ to be acceleration directed to the right.)",
           "options": [
             {
               "key": "A",
-              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=291&amp;width=419&amp;top_left_y=598&amp;top_left_x=1247)"
+              "content": ""
             },
             {
               "key": "B",
-              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=288&amp;width=413&amp;top_left_y=903&amp;top_left_x=1249)"
+              "content": ""
             },
             {
               "key": "C",
-              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=287&amp;width=417&amp;top_left_y=1213&amp;top_left_x=1249)"
+              "content": ""
             },
             {
               "key": "D",
-              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=284&amp;width=419&amp;top_left_y=1518&amp;top_left_x=1247)"
+              "content": ""
             },
             {
               "key": "E",
-              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=283&amp;width=413&amp;top_left_y=1820&amp;top_left_x=1249) ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-27.jpg?height=373&amp;width=330&amp;top_left_y=117&amp;top_left_x=420)"
+              "content": ""
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
@@ -857,12 +975,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "32",
           "type": "single",
-          "prompt": "Suppose that the potential energy of a particle constrained to move along the $x$-axis can be described by the function $U(x)=1{2} kx^{2}- x$, where both $k$ and $$ are positive constants. Stable equilibrium points, about which the particle oscillates, are located at",
+          "prompt": "Suppose that the potential energy of a particle constrained to move along the $x$-axis can be described by the function $U(x)=1{2} k x^{2}- x$, where both $k$ and $$ are positive constants. Stable equilibrium points, about which the particle oscillates, are located at",
           "options": [
             {
               "key": "A",
@@ -886,7 +1006,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
@@ -907,15 +1029,17 @@
             },
             {
               "key": "D",
-              "content": "$mv_{i}$"
+              "content": "$m v_{i}$"
             },
             {
               "key": "E",
-              "content": "$mv_{f}$ Questions 34-35 A particle moves in a circle in such a way that the $x$ - and $y$-coordinates of its motion, given in meters as functions of time $t$ in seconds, are: $$ &amp; x=5 (3 t) \\\\ &amp; y=5 (3 t) $$"
+              "content": "$m v_{f}$  Questions 34-35 A particle moves in a circle in such a way that the $x$ - and $y$-coordinates of its motion, given in meters as functions of time $t$ in seconds, are:   & x=5  (3 t) \\\\ & y=5  (3 t)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "34",
@@ -944,7 +1068,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "35",
@@ -969,11 +1095,13 @@
             },
             {
               "key": "E",
-              "content": "It oscillates with a range of 5 to $15 ~m / s$. IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY. MAKE SURE YOU HAVE DONE THE FOLLOWING. - PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET *{"
+              "content": "It oscillates with a range of 5 to $15 ~m / s$."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         }
       ]
     }

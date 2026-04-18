@@ -21,7 +21,7 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "Which of the following Gaussian surfaces would be the simplest to use to determine the electric field intensity near a long, straight, charged wire? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-03.jpg?height=428&amp;width=505&amp;top_left_y=205&amp;top_left_x=499) ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-03.jpg?height=383&amp;width=461&amp;top_left_y=226&amp;top_left_x=1163) A uniform electric field exists between two parallel plates that are perpendicular to an $x$-axis and separated by 0.01 m , as shown above on the left. The graph above on the right shows the electric potential between the plates as a function of position $x$ on the $x$-axis.",
+          "prompt": "Which of the following Gaussian surfaces would be the simplest to use to determine the electric field intensity near a long, straight, charged wire?   A uniform electric field exists between two parallel plates that are perpendicular to an $x$-axis and separated by 0.01 m , as shown above on the left. The graph above on the right shows the electric potential between the plates as a function of position $x$ on the $x$-axis.",
           "options": [
             {
               "key": "A",
@@ -108,7 +108,7 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "What is the direction of the electric field between the plates at points on the $x$-axis? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-04.jpg?height=265&amp;width=787&amp;top_left_y=233&amp;top_left_x=191)",
+          "prompt": "What is the direction of the electric field between the plates at points on the $x$-axis?",
           "options": [
             {
               "key": "A",
@@ -137,7 +137,7 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "Two particles with the same speed $v_{0}$ enter a region of uniform magnetic field $B$ directed into the page and are initially traveling perpendicular to $B$, as shown above. Particle $Y$ has charge $-Q$ and mass $M$; particle $Z$ has charge $+Q$ and mass $2 M$. Which of the following pairs of paths shown is possible for the subsequent motion of the particles? &amp; Particle $Y$ &amp; Particle $Z$ \\\\ &amp; $-Q, M{+Q, 2 M}$ &amp; \\\\ { 2 - 2 } (A) &amp; 1 &amp; \\\\ ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-04.jpg?height=448&amp;width=406&amp;top_left_y=222&amp;top_left_x=1344) A region contains a uniform electric field of strength $E$ in the $+x$-direction and a uniform magnetic field of strength $B$ in the $+y$-direction, relative to the axes shown above. A positively charged particle passes through these two fields in a straight line at a constant speed $v$.",
+          "prompt": "Two particles with the same speed $v_{0}$ enter a region of uniform magnetic field $B$ directed into the page and are initially traveling perpendicular to $B$, as shown above. Particle $Y$ has charge $-Q$ and mass $M$; particle $Z$ has charge $+Q$ and mass $2 M$. Which of the following pairs of paths shown is possible for the subsequent motion of the particles? &amp; Particle $Y$ &amp; Particle $Z$ \\\\ &amp; $-Q, M{+Q, 2 M}$ &amp; \\\\ { 2 - 2 } (A) &amp; 1 &amp; \\\\  A region contains a uniform electric field of strength $E$ in the $+x$-direction and a uniform magnetic field of strength $B$ in the $+y$-direction, relative to the axes shown above. A positively charged particle passes through these two fields in a straight line at a constant speed $v$.",
           "options": [
             {
               "key": "A",
@@ -191,7 +191,7 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "The magnetic field strength $B$ is equal to ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-05.jpg?height=417&amp;width=577&amp;top_left_y=218&amp;top_left_x=774)",
+          "prompt": "The magnetic field strength $B$ is equal to",
           "options": [
             {
               "key": "A",
@@ -220,7 +220,7 @@
         {
           "id": "8",
           "type": "single",
-          "prompt": "Two long, straight, parallel wires in the plane of the page carry equal currents $I$ in opposite directions, as shown above. What are the directions of the resultant magnetic field $B$, if any, at each of the points $R, S$, and $T$ ? 1{c}{$R$} &amp; 1{c}{$S$} &amp; 1{c}{$T$} \\\\ ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-06.jpg?height=498&amp;width=1586&amp;top_left_y=338&amp;top_left_x=273) Note: Figure at left above not drawn to scale. A square wire loop of side 0.2 m moves with a constant speed of $v=25 ~m / s$ through a region containing a magnetic field of strength $B=0.15 ~T$, as shown above left. A graph of the magnetic flux $$ through the loop as a function of time $t$ is shown above right. Time $t=0$ occurs when the right edge of the loop just begins to enter the field.",
+          "prompt": "Two long, straight, parallel wires in the plane of the page carry equal currents $I$ in opposite directions, as shown above. What are the directions of the resultant magnetic field $B$, if any, at each of the points $R, S$, and $T$ ? 1{c}{$R$} &amp; 1{c}{$S$} &amp; 1{c}{$T$} \\\\  Note: Figure at left above not drawn to scale. A square wire loop of side 0.2 m moves with a constant speed of $v=25 ~m / s$ through a region containing a magnetic field of strength $B=0.15 ~T$, as shown above left. A graph of the magnetic flux $$ through the loop as a function of time $t$ is shown above right. Time $t=0$ occurs when the right edge of the loop just begins to enter the field.",
           "options": [
             {
               "key": "A",
@@ -278,7 +278,7 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "What is the total width of the magnetic field through which the loop moves? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-07.jpg?height=583&amp;width=583&amp;top_left_y=121&amp;top_left_x=293)",
+          "prompt": "What is the total width of the magnetic field through which the loop moves?",
           "options": [
             {
               "key": "A",
@@ -307,7 +307,7 @@
         {
           "id": "11",
           "type": "single",
-          "prompt": "A conducting rod of length $L$ is pivoted at point $P$. The other end slides with negligible friction on a conducting rail in the shape of a circular arc. The plane of the rail and rod is perpendicular to a uniform magnetic field of magnitude $B$ directed into the page, as shown in the figure above. The rod rotates counterclockwise at constant angular velocity $$. Assume that all the resistance of the circuit is contained in the resistor $R$. Which of the following describes the induced current in the view shown? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-07.jpg?height=408&amp;width=411&amp;top_left_y=210&amp;top_left_x=1335) A charge $+Q$ is uniformly distributed throughoutanonconducting spherical shell of inner radius $R_{1}$ and outer radius $R_{2}$, as shown above. The electric field is determined at a distance $r$ from the center of the spherical shell.",
+          "prompt": "A conducting rod of length $L$ is pivoted at point $P$. The other end slides with negligible friction on a conducting rail in the shape of a circular arc. The plane of the rail and rod is perpendicular to a uniform magnetic field of magnitude $B$ directed into the page, as shown in the figure above. The rod rotates counterclockwise at constant angular velocity $$. Assume that all the resistance of the circuit is contained in the resistor $R$. Which of the following describes the induced current in the view shown?  A charge $+Q$ is uniformly distributed throughoutanonconducting spherical shell of inner radius $R_{1}$ and outer radius $R_{2}$, as shown above. The electric field is determined at a distance $r$ from the center of the spherical shell.",
           "options": [
             {
               "key": "A",
@@ -394,7 +394,7 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "The maximum charge a capacitor can store on one plate is limited by which of the following? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-08.jpg?height=244&amp;width=528&amp;top_left_y=693&amp;top_left_x=319)",
+          "prompt": "The maximum charge a capacitor can store on one plate is limited by which of the following?",
           "options": [
             {
               "key": "A",
@@ -452,7 +452,7 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "Circuit $P$ consists of three identical capacitors connected in parallel with a battery. Circuit $S$ consists of the same three capacitors connected in series with the same battery. When the capacitors are fully charged, what is the ratio of the total energy stored in circuit $P$ to the total energy stored in circuit $S$ ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=249&amp;width=522&amp;top_left_y=123&amp;top_left_x=321)",
+          "prompt": "Circuit $P$ consists of three identical capacitors connected in parallel with a battery. Circuit $S$ consists of the same three capacitors connected in series with the same battery. When the capacitors are fully charged, what is the ratio of the total energy stored in circuit $P$ to the total energy stored in circuit $S$ ?",
           "options": [
             {
               "key": "A",
@@ -485,23 +485,23 @@
           "options": [
             {
               "key": "A",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=255&amp;width=421&amp;top_left_y=777&amp;top_left_x=291)"
+              "content": ""
             },
             {
               "key": "B",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=253&amp;width=421&amp;top_left_y=1068&amp;top_left_x=291)"
+              "content": ""
             },
             {
               "key": "C",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=255&amp;width=423&amp;top_left_y=1360&amp;top_left_x=289)"
+              "content": ""
             },
             {
               "key": "D",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=259&amp;width=421&amp;top_left_y=1650&amp;top_left_x=291)"
+              "content": ""
             },
             {
               "key": "E",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=257&amp;width=416&amp;top_left_y=1940&amp;top_left_x=294)"
+              "content": ""
             }
           ],
           "answer": "",
@@ -510,7 +510,7 @@
         {
           "id": "18",
           "type": "single",
-          "prompt": "Four identical capacitors of capacitance $C$ are connected as illustrated above. What is their equivalent capacitance? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=330&amp;width=530&amp;top_left_y=214&amp;top_left_x=793)",
+          "prompt": "Four identical capacitors of capacitance $C$ are connected as illustrated above. What is their equivalent capacitance?",
           "options": [
             {
               "key": "A",
@@ -543,23 +543,23 @@
           "options": [
             {
               "key": "A",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=360&amp;top_left_y=953&amp;top_left_x=676)"
+              "content": ""
             },
             {
               "key": "B",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=354&amp;width=362&amp;top_left_y=949&amp;top_left_x=1180)"
+              "content": ""
             },
             {
               "key": "C",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=355&amp;top_left_y=1360&amp;top_left_x=678)"
+              "content": ""
             },
             {
               "key": "D",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=358&amp;top_left_y=1360&amp;top_left_x=1184)"
+              "content": ""
             },
             {
               "key": "E",
-              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=354&amp;width=358&amp;top_left_y=1772&amp;top_left_x=676)"
+              "content": ""
             }
           ],
           "answer": "",
@@ -655,7 +655,7 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "Copper wire $A$ has twice the length and half the diameter of copper wire $B$, but carries the same current $I$. If $P$ is the rate at which energy is dissipated in wire $B$, what is the rate at which energy is dissipated in wire $A$ ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-12.jpg?height=377&amp;width=568&amp;top_left_y=239&amp;top_left_x=302) Two parallel wires that lie in the plane of the page, as shown above, are a distance of 0.20 m apart. Wire I carries a current of 15 A toward the top of the page, and wire II carries a current of 5 A toward the bottom of the page.",
+          "prompt": "Copper wire $A$ has twice the length and half the diameter of copper wire $B$, but carries the same current $I$. If $P$ is the rate at which energy is dissipated in wire $B$, what is the rate at which energy is dissipated in wire $A$ ?  Two parallel wires that lie in the plane of the page, as shown above, are a distance of 0.20 m apart. Wire I carries a current of 15 A toward the top of the page, and wire II carries a current of 5 A toward the bottom of the page.",
           "options": [
             {
               "key": "A",
@@ -713,7 +713,7 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "What is the magnitude of the force per meter that wire I exerts on wire II ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-12.jpg?height=366&amp;width=669&amp;top_left_y=237&amp;top_left_x=1209) A circular conducting ring of area $0.20 ~m^{2}$ lies in the plane of the page inside a spatially uniform magnetic field that is perpendicular to the page. Clockwise Counterclockwise Clockwise Counterclockwise Undefined, since the current is zero The field changes smoothly from 1.5 T directed out of the page, as shown above on the left, to 1.5 T directed into the page, as shown above on the right. The change takes place at a constant rate during a total time interval of 0.6 s .",
+          "prompt": "What is the magnitude of the force per meter that wire I exerts on wire II ?  A circular conducting ring of area $0.20 ~m^{2}$ lies in the plane of the page inside a spatially uniform magnetic field that is perpendicular to the page. Clockwise Counterclockwise Clockwise Counterclockwise Undefined, since the current is zero The field changes smoothly from 1.5 T directed out of the page, as shown above on the left, to 1.5 T directed into the page, as shown above on the right. The change takes place at a constant rate during a total time interval of 0.6 s .",
           "options": [
             {
               "key": "A",
@@ -771,7 +771,7 @@
         {
           "id": "28",
           "type": "single",
-          "prompt": "An electron moving to the right with constant velocity enters a region with a uniform magnetic field $B$ directed toward the top of the page, as shown above. In what direction will the electron initially be deflected? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-13.jpg?height=349&amp;width=817&amp;top_left_y=147&amp;top_left_x=1134)",
+          "prompt": "An electron moving to the right with constant velocity enters a region with a uniform magnetic field $B$ directed toward the top of the page, as shown above. In what direction will the electron initially be deflected?",
           "options": [
             {
               "key": "A",
@@ -945,7 +945,7 @@
         {
           "id": "34",
           "type": "single",
-          "prompt": "A conducting spherical shell $S$ has a charge $Q$ distributed over its surface. The total electric flux through any imaginary concentric spherical shell of radius $r$ that encloses $S$ is ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-15.jpg?height=244&amp;width=459&amp;top_left_y=155&amp;top_left_x=1310)",
+          "prompt": "A conducting spherical shell $S$ has a charge $Q$ distributed over its surface. The total electric flux through any imaginary concentric spherical shell of radius $r$ that encloses $S$ is",
           "options": [
             {
               "key": "A",

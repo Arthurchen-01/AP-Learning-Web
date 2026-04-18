@@ -1,9 +1,9 @@
 {
-  "examId": "2024NASet1",
-  "title": "AP Physics C: Mechanics 2024年",
+  "examId": "2024NASet1_MECH",
+  "title": "AP Physics C: Mechanics 2024 NA Set 1",
   "subjectName": "Physics C: Mechanics",
   "yearLabel": "2024",
-  "description": "AP Physics C: Mechanics 2024年",
+  "description": "AP Physics C: Mechanics 2024 NA Set 1",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
@@ -12,12 +12,37 @@
   },
   "sections": [
     {
-      "id": "section-mcq",
-      "title": "Section 1",
-      "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
-      "directions": "",
-      "questions": []
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "Show all your work. Indicate clearly the methods you use.",
+      "questions": [
+        {
+          "id": "frq-4",
+          "type": "frq",
+          "prompt": "<p>lock A and Block B of masses $m$ and $3 m$, respectively, are arranged in a setup consisting of an ideal spring with spring constant $k$ and a horizontal surface. Friction between the surface and the blocks is negligible except in a region of length $D$, where the coefficient of kinetic friction between Block A and the surface is $. Block B is attached to a string of length $ and negligible mass, as shown in Figure 1. Block A is held against the spring, compressing the spring a distance $x_{c}$. At time $t=0$, Block A is located at position $x=x_{0}$ and is released from rest. After the block is released, the following occurs. - At time $t=t_{1}$, Block A is at $x=x_{1}$ after traveling a distance $x_{c}$. Block A moves with speed $v$, and the spring is at its equilibrium position. - At time $t=t_{2}$, the left side of Block A is at $x=x_{2}$ after passing through a distance $D$ across the region with nonnegligible friction. - At time $t=t_{3}$, Block A is at $x=x_{3}$ and Block A collides with and sticks to Block B. (b) i. On the following axes, sketch a graph of the kinetic energy $K$ of Block A as a function of time $t$ from time $t=0$ to time $t_{3}$. ii. Use principles of work and energy to justify the graph drawn in part (c) Indicate how the new frequency of oscillation $f_{2 }$ of the system on the new string of length $2 $ will compare to the frequency of oscillation $f_{}$ from the original procedure. $____$ $f_{2 }&gt;f_{}$ $____$ $f_{2 }&lt;f_{}$ $____$ $f_{2 }=f_{}$ Briefly justify your answer. Begin your response to QUESTION 2 on this page.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-5",
+          "type": "frq",
+          "prompt": "<p>student drops a cylinder of mass $m$ from rest. The air exerts a drag force of magnitude $F_{drag}$ on the cylinder, as shown in Figure 1. The student models the magnitude of the drag force as $F_{drag}=b v^{2}$, where $v$ is the speed of the cylinder and $b$ is a positive constant with appropriate units. (a) Derive, but do NOT solve, a differential equation that could be used to determine the speed $v$ of the cylinder as a function of time $t$. Express your answer in terms of given quantities and physical constants, as appropriate. Continue your response to QUESTION 2 on this page. (b) The student correctly sketches the speed $v$ of the cylinder as a function of time $t$, as shown in Figure 2. i. Draw a vertical line on the sketch in Figure 2 to indicate the earliest time at which $F_{drag}$ on the cylinder is equal to the magnitude of the weight of the cylinder. Label this time as $t_{1}$ on the time axis. ii. Justify the location of $t_{1}$. Explicitly reference appropriate features of the sketch in Figure 2. (c) Rather than dropping the cylinder from rest, the student throws the cylinder upward with a nonzero initial speed. The cylinder is in the same orientation as when the cylinder was previously dropped. The student allows the cylinder to fall toward the ground. Indicate whether the magnitude of the cylinder's maximum downward speed after being thrown upward would be greater than, less than, or equal to the maximum speed $v_{ {max }}$ in Figure 2. $____$ Greater than $____$ Less than $____$ Equal to Briefly justify your answer. (d) The student conducts an experiment to better understand the relationship between maximum speed $v_{ {max }}$ and mass. The student collects data to determine the maximum speed for cylinders dropped from rest, each with the same physical size and shape but a different mass $m$. The student then graphs $v_{ {max }}^{2}$ as a function of mass. i. Draw the best-fit line for the data. ii. Use the best-fit line to calculate an experimental value for $b$. Continue your response to QUESTION 2 on this page. A student claims that the magnitude of the maximum speed of a cylinder dropped from rest depends on the length of the cylinder. The student designs an experiment to collect data that can be used to provide evidence to support the claim. The student drops cylinders with the orientation shown in Figure 3. (e) The student has access to but does not have to use all of the following equipment. - Cylinder Set 1: cylinders of the same known length with different known masses - Cylinder Set 2: cylinders of the same known mass with different known lengths - A motion detector that can measure velocity as a function of time i. Indicate two quantities that when graphed could be used to determine whether the length of the cylinder affects the maximum speed. Vertical axis: $____$ Horizontal axis: $____$ ii. Briefly describe how the quantities graphed could be used to determine the relationship between cylinder length and maximum speed. Begin your response to QUESTION 3 on this page. Note: Figure not drawn to scale.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        },
+        {
+          "id": "frq-6",
+          "type": "frq",
+          "prompt": "<p>uniform rod of length $L$ and mass $m$ is attached to a pivot on a vertical pole, as shown in Figure 1. There is negligible friction between the rod and the pivot. A horizontal string connects Point Q on the rod to the pole. The rod makes an angle $ with the pole. A block of mass $3 m$ hangs from the rod at Point P. The center of mass of the rod is located at Point C . (a) On the following representation of the rod, draw and label the forces (not components) that are exerted on the rod. Each force must be represented by a distinct arrow that starts on and points away from the point at which the force is exerted on the rod. (b) In Figure 1, Point P is located $3{8} L$ from the pivot and Point Q is located $6{8} L$ from the pivot. Derive an equation for the tension $F_{T}$ in the horizontal string in terms of $L, m, $, and physical constants, as appropriate. Figure 2 Note: Figure not drawn to scale. (c) The original string is replaced with a longer string that connects Point Q to a higher location on the vertical pole, as shown in Figure 2. The angle $ remains the same. How does the new tension $F_{T}$, new compare with the original tension $F_{T}$ from part (b) ? Justify your reasoning. Continue your response to QUESTION 3 on this page. Note: Figure not drawn to scale. (d) A nonuniform rod is now attached to the pivot, as shown in Figure 3. There is negligible friction between the nonuniform rod and the pivot. The rod has a length of 1.2 m and a linear mass density $(x)=A+B x$, where $x$ is the distance from the pivot, $A=6.0 ~kg / m$, and $B=10.0 ~kg / m^{2}$. i. Calculate the mass of the rod. ii. Calculate the rotational inertia of the rod about the pivot.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": "FRQ - Free Response Question."
+        }
+      ]
     }
   ]
 }
