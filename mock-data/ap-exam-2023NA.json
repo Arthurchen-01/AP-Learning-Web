@@ -1,0 +1,183 @@
+{
+  "examId": "2023NA",
+  "title": "AP 微积分BC 2023年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2023",
+  "description": "AP 微积分BC 2023年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2023NA-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "free-response",
+          "prompt": "A customer at a gas station is pumping gasoline into a gas tank. The rate of flow of gasoline is modeled by a differentiable function $f$, where $f(t)$ is measured in gallons per second and $t$ is measured in seconds since pumping began. Selected values of $f(t)$ are given in the table.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Using correct units, interpret the meaning of $\\int_{60}^{135} f(t) d t$ in the context of the problem. Use a right Riemann sum with the three subintervals [60,90], [90, 120], and [120, 135] to approximate the value of $\\int_{60}^{135} f(t) d t$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Must there exist a value of $c$, for $60<c<120$, such that $f^{\\prime}"
+            },
+            {
+              "partSign": "c",
+              "partContent": "The rate of flow of gasoline, in gallons per second, can also be modeled by $g(t)=\\left(\\frac{t}{500}\\right) \\cos \\left(\\left(\\frac{t}{120}\\right)^{2}\\right)$ for $0 \\leq t \\leq 150$. Using this model, find the average rate of flow of gasoline over the time interval $0 \\leq t \\leq 150$.\n\nShow the setup for your calculations."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Using the model $g$ defined in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "For $0 \\leq t \\leq \\pi$, a particle is moving along the curve shown so that its position at time $t$ is $(x(t), y(t))$, where $x(t)$ is not explicitly given and $y(t)=2 \\sin t$. It is known that $\\frac{d x}{d t}=e^{\\cos t}$. At time $t=0$, the particle is at position $(1,0)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the acceleration vector of the particle at time $t=1$. Show the setup for your calculations."
+            },
+            {
+              "partSign": "b",
+              "partContent": "For $0 \\leq t \\leq \\pi$, find the first time $t$ at which the speed of the particle is 1.5 . Show the work that leads to your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the slope of the line tangent to the path of the particle at time $t=1$. Find the $x$-coordinate of the position of the particle at time $t=1$. Show the work that leads to your answers."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Find the total distance traveled by the particle over the time interval $0 \\leq t \\leq \\pi$. Show the setup for your calculations."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "102",
+          "type": "free-response",
+          "prompt": "A bottle of milk is taken out of a refrigerator and placed in a pan of hot water to be warmed. The increasing function $M$ models the temperature of the milk at time $t$, where $M(t)$ is measured in degrees Celsius ( ${ }^{\\circ} \\mathrm{C}$ ) and $t$ is the number of minutes since the bottle was placed in the pan. $M$ satisfies the differential equation $\\frac{d M}{d t}=\\frac{1}{4}(40-M)$. At time $t=0$, the temperature of the milk is $5^{\\circ} \\mathrm{C}$. It can be shown that $M(t)",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "A slope field for the differential equation $\\frac{d M}{d t}=\\frac{1}{4}(40-M)$ is shown. Sketch the solution curve through the point $(0,5)$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use the line tangent to the graph of $M$ at $t=0$ to approximate $M(2)$, the temperature of the milk at time $t=2$ minutes."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Write an expression for $\\frac{d^{2} M}{d t^{2}}$ in terms of $M$. Use $\\frac{d^{2} M}{d t^{2}}$ to determine whether the approximation from part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "is an underestimate or an overestimate for the actual value of $M(2)$. Give a reason for your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Use separation of variables to find an expression for $M(t)$, the particular solution to the differential equation $\\frac{d M}{d t}=\\frac{1}{4}(40-M)$ with initial condition $M(0)=5$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "103",
+          "type": "free-response",
+          "prompt": "The function $f$ is defined on the closed interval $[-2,8]$ and satisfies $f(2)=1$. The graph of $f^{\\prime}$, the derivative of $f$, consists of two line segments and a semicircle, as shown in the figure.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Does $f$ have a relative minimum, a relative maximum, or neither at $x=6$ ? Give a reason for your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On what open intervals, if any, is the graph of $f$ concave down? Give a reason for your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the value of $\\lim _{x \\rightarrow 2} \\frac{6 f(x)-3 x}{x^{2}-5 x+6}$, or show that it does not exist. Justify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Find the absolute minimum value of $f$ on the closed interval $[-2,8]$. Justify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "104",
+          "type": "free-response",
+          "prompt": "The graphs of the functions $f$ and $g$ are shown in the figure for $0 \\leq x \\leq 3$. It is known that $g(x)=\\frac{12}{3+x}$ for $x \\geq 0$. The twice-differentiable function $f$, which is not explicitly given, satisfies $f(3)=2$ and $\\int_{0}^{3} f(x) d x=10$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the area of the shaded region enclosed by the graphs of $f$ and $g$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Evaluate the improper integral $\\int_{0}^{\\infty}(g(x))^{2} d x$, or show that the integral diverges."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Let $h$ be the function defined by $h(x)=x \\cdot f^{\\prime}(x)$. Find the value of $\\int_{0}^{3} h(x) d x$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "105",
+          "type": "free-response",
+          "prompt": "The function $f$ has derivatives of all orders for all real numbers. It is known that $f(0)=2, f^{\\prime}(0)=3$, $f^{\\prime \\prime}(x)=-f\\left(x^{2}\\right)$, and $f^{\\prime \\prime \\prime}(x)=-2 x \\cdot f^{\\prime}\\left(x^{2}\\right)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find $f^{(4)}(x)$, the fourth derivative of $f$ with respect to $x$. Write the fourth-degree Taylor polynomial for $f$ about $x=0$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "The fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f(0.1)$. Given that $\\left|f^{(5)}(x)\\right| \\leq 15$ for $0 \\leq x \\leq 0.5$, use the Lagrange error bound to show that this approximation is within $\\frac{1}{10^{5}}$ of the exact value of $f(0.1)$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Let $g$ be the function such that $g(0)=4$ and $g^{\\prime}(x)=e^{x} f(x)$. Write the second-degree Taylor polynomial for $g$ about $x=0$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        }
+      ]
+    }
+  ]
+}

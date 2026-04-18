@@ -1,123 +1,238 @@
 {
-  "generatedAt": "2026-04-17",
-  "total": 11,
+  "generatedAt": "2026-04-18",
+  "total": 20,
   "subjects": [
-    "微积分BC"
+    "微积分BC",
+    "微观经济",
+    "统计学"
   ],
   "years": [
-    "2008", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"
+    "2012",
+    "2013",
+    "2014",
+    "2017",
+    "2018",
+    "2019",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
   ],
   "paperTypes": [
     "国际卷"
   ],
   "items": [
     {
-      "examId": "2008Intl",
-      "title": "AP 微积分BC 2008年国际卷",
+      "examId": "2012Intl",
+      "title": "2012国际卷",
       "subject": "微积分BC",
-      "year": "2008",
+      "year": "2012",
+      "paperType": "国际卷",
+      "questionCount": 49,
+      "sectionCount": 2,
+      "subjectId": "calculus_bc",
+      "v2ExamId": "2012Intl"
+    },
+    {
+      "examId": "2013Intl",
+      "title": "2013国际卷",
+      "subject": "微积分BC",
+      "year": "2013",
+      "paperType": "国际卷",
+      "questionCount": 50,
+      "sectionCount": 2,
+      "subjectId": "calculus_bc",
+      "v2ExamId": "2013Intl"
+    },
+    {
+      "examId": "2014Intl",
+      "title": "2014国际卷",
+      "subject": "微积分BC",
+      "year": "2014",
       "paperType": "国际卷",
       "questionCount": 51,
+      "sectionCount": 2,
+      "subjectId": "calculus_bc",
+      "v2ExamId": "2014Intl"
+    },
+    {
+      "examId": "1902622411338911744",
+      "title": "AP Calculus BC 2017 国际卷",
+      "subject": "微积分BC",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 45,
+      "sectionCount": 2,
+      "subjectId": "calculus_bc",
+      "v2ExamId": "calc-bc-2017-intl"
+    },
+    {
+      "examId": "1902622411800285184",
+      "title": "AP Calculus BC 2018 国际卷",
+      "subject": "微积分BC",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 45,
+      "sectionCount": 2,
+      "subjectId": "calculus_bc",
+      "v2ExamId": "calc-bc-2018-intl"
+    },
+    {
+      "examId": "1902622410416164864",
+      "title": "AP Microeconomics 2017 国际卷",
+      "subject": "微观经济",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 60,
+      "sectionCount": 1,
+      "subjectId": "microeconomics",
+      "v2ExamId": "microeconomics-2017-intl"
+    },
+    {
+      "examId": "1902622410881732608",
+      "title": "AP Microeconomics 2018 国际卷",
+      "subject": "微观经济",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 60,
+      "sectionCount": 1,
+      "subjectId": "microeconomics",
+      "v2ExamId": "microeconomics-2018-intl"
+    },
+    {
+      "examId": "1902622418683138048",
+      "title": "AP Microeconomics 2019 国际卷",
+      "subject": "微观经济",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 60,
+      "sectionCount": 1,
+      "subjectId": "microeconomics",
+      "v2ExamId": "microeconomics-2019-intl"
+    },
+    {
+      "examId": "1902622419140317184",
+      "title": "AP Microeconomics 2021 国际卷",
+      "subject": "微观经济",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 60,
+      "sectionCount": 1,
+      "subjectId": "microeconomics",
+      "v2ExamId": "microeconomics-2021-intl"
+    },
+    {
+      "examId": "1902622413180211200",
+      "title": "AP Statistics 2017 国际卷",
+      "subject": "统计学",
+      "year": "2017",
+      "paperType": "国际卷",
+      "questionCount": 40,
+      "sectionCount": 1,
+      "subjectId": "statistics",
+      "v2ExamId": "statistics-2017-intl"
+    },
+    {
+      "examId": "1902622413633196032",
+      "title": "AP Statistics 2018 国际卷",
+      "subject": "统计学",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 40,
+      "sectionCount": 1,
+      "subjectId": "statistics",
+      "v2ExamId": "statistics-2018-intl"
+    },
+    {
+      "examId": "1902622414081986560",
+      "title": "AP Statistics 2019 国际卷",
+      "subject": "统计学",
+      "year": "2019",
+      "paperType": "国际卷",
+      "questionCount": 40,
+      "sectionCount": 1,
+      "subjectId": "statistics",
+      "v2ExamId": "statistics-2019-intl"
+    },
+    {
+      "examId": "1902622414539165696",
+      "title": "AP Statistics 2021 国际卷",
+      "subject": "统计学",
+      "year": "2021",
+      "paperType": "国际卷",
+      "questionCount": 40,
+      "sectionCount": 1,
+      "subjectId": "statistics",
+      "v2ExamId": "statistics-2021-intl"
+    },
+    {
+      "examId": "2021NA",
+      "title": "AP 微积分BC 2021年北美卷",
+      "subject": "微积分BC",
+      "year": "2021",
+      "paperType": "北美卷",
+      "questionCount": 6,
       "sectionCount": 1,
       "subjectId": "calculus_bc"
     },
     {
-      "examId": "2012Intl",
-      "title": "AP 微积分BC 2012年国际卷",
+      "examId": "2022NA",
+      "title": "AP 微积分BC 2022年北美卷",
       "subject": "微积分BC",
-      "year": "2012",
+      "year": "2022",
+      "paperType": "北美卷",
+      "questionCount": 6,
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
+    },
+    {
+      "examId": "2023Intl",
+      "title": "AP 微积分BC 2023年国际卷",
+      "subject": "微积分BC",
+      "year": "2023",
+      "paperType": "国际卷",
+      "questionCount": 28,
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
+    },
+    {
+      "examId": "2023NA",
+      "title": "AP 微积分BC 2023年北美卷",
+      "subject": "微积分BC",
+      "year": "2023",
+      "paperType": "北美卷",
+      "questionCount": 6,
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
+    },
+    {
+      "examId": "2024Intl",
+      "title": "AP 微积分BC 2024年国际卷",
+      "subject": "微积分BC",
+      "year": "2024",
+      "paperType": "国际卷",
+      "questionCount": 26,
+      "sectionCount": 1,
+      "subjectId": "calculus_bc"
+    },
+    {
+      "examId": "2025Intl",
+      "title": "AP 微积分BC 2025年国际卷",
+      "subject": "微积分BC",
+      "year": "2025",
       "paperType": "国际卷",
       "questionCount": 49,
       "sectionCount": 1,
       "subjectId": "calculus_bc"
     },
     {
-      "examId": "2013Intl",
-      "title": "AP 微积分BC 2013年国际卷",
+      "examId": "2025NA",
+      "title": "AP 微积分BC 2025年北美卷",
       "subject": "微积分BC",
-      "year": "2013",
-      "paperType": "国际卷",
-      "questionCount": 50,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2014Intl",
-      "title": "AP 微积分BC 2014年国际卷",
-      "subject": "微积分BC",
-      "year": "2014",
-      "paperType": "国际卷",
-      "questionCount": 51,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2015Intl",
-      "title": "AP 微积分BC 2015年国际卷",
-      "subject": "微积分BC",
-      "year": "2015",
-      "paperType": "国际卷",
-      "questionCount": 45,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2016Intl",
-      "title": "AP 微积分BC 2016年国际卷",
-      "subject": "微积分BC",
-      "year": "2016",
-      "paperType": "国际卷",
-      "questionCount": 45,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2017Intl",
-      "title": "AP 微积分BC 2017年国际卷",
-      "subject": "微积分BC",
-      "year": "2017",
-      "paperType": "国际卷",
-      "questionCount": 45,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2018Intl",
-      "title": "AP 微积分BC 2018年国际卷",
-      "subject": "微积分BC",
-      "year": "2018",
-      "paperType": "国际卷",
-      "questionCount": 46,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "2019Intl",
-      "title": "AP 微积分BC 2019年国际卷",
-      "subject": "微积分BC",
-      "year": "2019",
-      "paperType": "国际卷",
-      "questionCount": 57,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "1902622411338911744",
-      "title": "AP 微积分BC 2017年国际卷",
-      "subject": "微积分BC",
-      "year": "2017",
-      "paperType": "国际卷",
-      "questionCount": 68,
-      "sectionCount": 1,
-      "subjectId": "calculus_bc"
-    },
-    {
-      "examId": "1902622411800285184",
-      "title": "AP 微积分BC 2018年国际卷",
-      "subject": "微积分BC",
-      "year": "2018",
-      "paperType": "国际卷",
-      "questionCount": 69,
+      "year": "2025",
+      "paperType": "北美卷",
+      "questionCount": 6,
       "sectionCount": 1,
       "subjectId": "calculus_bc"
     }

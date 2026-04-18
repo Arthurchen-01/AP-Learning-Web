@@ -1,0 +1,179 @@
+{
+  "examId": "2021NA",
+  "title": "AP 微积分BC 2021年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2021",
+  "description": "AP 微积分BC 2021年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2021NA-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "free-response",
+          "prompt": "The density of a bacteria population in a circular petri dish at a distance $r$ centimeters from the center of the dish is given by an increasing, differentiable function $f$, where $f(r)$ is measured in milligrams per square centimeter. Values of $f(r)$ for selected values of $r$ are given in the table above.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Use the data in the table to estimate $f^{\\prime}(2.25)$. Using correct units, interpret the meaning of your answer in the context of this problem."
+            },
+            {
+              "partSign": "b",
+              "partContent": "The total mass, in milligrams, of bacteria in the petri dish is given by the integral expression $2 \\pi \\int_{0}^{4} r f(r) d r$. Approximate the value of $2 \\pi \\int_{0}^{4} r f(r) d r$ using a right Riemann sum with the four subintervals indicated by the data in the table."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Is the approximation found in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "an overestimate or underestimate of the total mass of bacteria in the petri dish? Explain your reasoning."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The density of bacteria in the petri dish, for $1 \\leq r \\leq 4$, is modeled by the function $g$ defined by $g(r)=2-16(\\cos (1.57 \\sqrt{r}))^{3}$. For what value of $k, 1<k<4$, is $g(k)$ equal to the average value of $g(r)$ on the interval $1 \\leq r \\leq 4$ ?"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "For time $t \\geq 0$, a particle moves in the $x y$-plane with position $(x(t), y(t))$ and velocity vector $\\left\\langle(t-1) e^{t^{2}}, \\sin \\left(t^{1.25}\\right)\\right\\rangle$. At time $t=0$, the position of the particle is $(-2,5)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the speed of the particle at time $t=1.2$. Find the acceleration vector of the particle at time $t=1.2$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Find the total distance traveled by the particle over the time interval $0 \\leq t \\leq 1.2$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the coordinates of the point at which the particle is farthest to the left for $t \\geq 0$. Explain why there is no point at which the particle is farthest to the right for $t \\geq 0$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "102",
+          "type": "free-response",
+          "prompt": "A company designs spinning toys using the family of functions $y=c x \\sqrt{4-x^{2}}$, where $c$ is a positive constant. The figure above shows the region in the first quadrant bounded by the $x$-axis and the graph of $y=c x \\sqrt{4-x^{2}}$, for some $c$. Each spinning toy is in the shape of the solid generated when such a region is revolved about the $x$-axis. Both $x$ and $y$ are measured in inches.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the area of the region in the first quadrant bounded by the $x$-axis and the graph of $y=c x \\sqrt{4-x^{2}}$ for $c=6$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "It is known that, for $y=c x \\sqrt{4-x^{2}}, \\frac{d y}{d x}=\\frac{c\\left(4-2 x^{2}\\right)}{\\sqrt{4-x^{2}}}$. For a particular spinning toy, the radius of the largest cross-sectional circular slice is 1.2 inches. What is the value of $c$ for this spinning toy?"
+            },
+            {
+              "partSign": "c",
+              "partContent": "For another spinning toy, the volume is $2 \\pi$ cubic inches. What is the value of $c$ for this spinning toy?"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "103",
+          "type": "free-response",
+          "prompt": "Let $f$ be a continuous function defined on the closed interval $-4 \\leq x \\leq 6$. The graph of $f$, consisting of four line segments, is shown above. Let $G$ be the function defined by $G(x)=\\int_{0}^{x} f(t) d t$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On what open intervals is the graph of $G$ concave up? Give a reason for your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Let $P$ be the function defined by $P(x)=G(x) \\cdot f(x)$. Find $P^{\\prime}(3)$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find $\\lim _{x \\rightarrow 2} \\frac{G(x)}{x^{2}-2 x}$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Find the average rate of change of $G$ on the interval $[-4,2]$. Does the Mean Value Theorem guarantee a value $c,-4<c<2$, for which $G^{\\prime}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "104",
+          "type": "free-response",
+          "prompt": "Let $y=f(x)$ be the particular solution to the differential equation $\\frac{d y}{d x}=y \\cdot(x \\ln x)$ with initial condition $f(1)=4$. It can be shown that $f^{\\prime \\prime}(1)=4$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Write the second-degree Taylor polynomial for $f$ about $x=1$. Use the Taylor polynomial to approximate $f(2)$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use Euler's method, starting at $x=1$ with two steps of equal size, to approximate $f(2)$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the particular solution $y=f(x)$ to the differential equation $\\frac{d y}{d x}=y \\cdot(x \\ln x)$ with initial condition $f(1)=4$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "105",
+          "type": "free-response",
+          "prompt": "The function $g$ has derivatives of all orders for all real numbers. The Maclaurin series for $g$ is given by $g(x)=\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{n}}{2 e^{n}+3}$ on its interval of convergence.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "State the conditions necessary to use the integral test to determine convergence of the series $\\sum_{n=0}^{\\infty} \\frac{1}{e^{n}}$. Use the integral test to show that $\\sum_{n=0}^{\\infty} \\frac{1}{e^{n}}$ converges."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use the limit comparison test with the series $\\sum_{n=0}^{\\infty} \\frac{1}{e^{n}}$ to show that the series $g(1)=\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{2 e^{n}+3}$ converges absolutely."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Determine the radius of convergence of the Maclaurin series for $g$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The first two terms of the series $g(1)=\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{2 e^{n}+3}$ are used to approximate $g(1)$. Use the alternating series error bound to determine an upper bound on the error of the approximation."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        }
+      ]
+    }
+  ]
+}
