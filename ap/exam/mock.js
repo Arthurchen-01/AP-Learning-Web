@@ -15,9 +15,83 @@ const app = document.getElementById("app");
 
 /* ─── MathML to LaTeX converter ─── */
 
+const MATH_FUNCTION_MAP = {
+  sin: '\\sin',
+  cos: '\\cos',
+  tan: '\\tan',
+  sec: '\\sec',
+  csc: '\\csc',
+  cot: '\\cot',
+  ln: '\\ln',
+  log: '\\log'
+};
+
+const SORTED_MATH_FUNCTION_NAMES = Object.keys(MATH_FUNCTION_MAP).sort((left, right) => right.length - left.length);
+
+function normalizeMathIdentifier(text) {
+  const raw = String(text || '').trim();
+  if (!raw) return '';
+
+  const compact = raw.replace(/\s+/g, '');
+  if (MATH_FUNCTION_MAP[compact]) {
+    return MATH_FUNCTION_MAP[compact];
+  }
+
+  return raw;
+}
+
+function normalizeMathIdentifierRun(text) {
+  const raw = String(text || '').trim();
+  if (!raw) return '';
+
+  const compact = raw.replace(/\s+/g, '');
+  if (!compact) return '';
+  if (MATH_FUNCTION_MAP[compact]) {
+    return MATH_FUNCTION_MAP[compact];
+  }
+
+  for (const name of SORTED_MATH_FUNCTION_NAMES) {
+    const index = compact.indexOf(name);
+    if (index < 0) continue;
+    const before = compact.slice(0, index);
+    const after = compact.slice(index + name.length);
+    const beforeLatex = before ? normalizeMathIdentifierRun(before) : '';
+    const afterLatex = after ? normalizeMathIdentifierRun(after) : '';
+    return `${beforeLatex}${MATH_FUNCTION_MAP[name]}${afterLatex ? ` ${afterLatex}` : ''}`;
+  }
+
+  return raw;
+}
+
+function mathmlChildrenToLatex(childNodes) {
+  const nodes = Array.from(childNodes || []);
+  const parts = [];
+
+  for (let index = 0; index < nodes.length; index += 1) {
+    const current = nodes[index];
+    if (current?.nodeType === Node.ELEMENT_NODE && current.tagName.toLowerCase() === 'mi') {
+      let run = String(current.textContent || '');
+      while (index + 1 < nodes.length) {
+        const next = nodes[index + 1];
+        if (!(next?.nodeType === Node.ELEMENT_NODE && next.tagName.toLowerCase() === 'mi')) {
+          break;
+        }
+        run += String(next.textContent || '');
+        index += 1;
+      }
+      parts.push(normalizeMathIdentifierRun(run));
+      continue;
+    }
+
+    parts.push(mathmlNodeToLatex(current));
+  }
+
+  return parts.join('');
+}
+
 function mathmlNodeToLatex(node) {
   if (!node) return '';
-  
+
   // Text node
   if (node.nodeType === Node.TEXT_NODE) {
     return node.textContent.trim();
@@ -29,7 +103,7 @@ function mathmlNodeToLatex(node) {
   }
   
   const tag = node.tagName.toLowerCase();
-  const children = () => Array.from(node.childNodes).map(mathmlNodeToLatex).join('');
+  const children = () => mathmlChildrenToLatex(node.childNodes);
   const child0 = () => node.childNodes[0] ? mathmlNodeToLatex(node.childNodes[0]) : '';
   const child1 = () => node.childNodes[1] ? mathmlNodeToLatex(node.childNodes[1]) : '';
   
@@ -54,7 +128,7 @@ function mathmlNodeToLatex(node) {
       return children();
     
     case 'mi':
-      return children() || node.textContent;
+      return normalizeMathIdentifier(children() || node.textContent);
     
     case 'mn':
       return children() || node.textContent;
@@ -65,8 +139,11 @@ function mathmlNodeToLatex(node) {
     }
     
     case 'mtext': {
-      const text = children() || node.textContent;
-      return text.trim() ? `\\text{${text.trim()}}` : '';
+      const text = children() || node.textContent || '';
+      if (!text.trim()) {
+        return /\s/.test(text) ? ' ' : '';
+      }
+      return `\\text{${text.trim()}}`;
     }
     
     case 'msup':
@@ -101,19 +178,46 @@ function mathmlNodeToLatex(node) {
     }
     
     case 'mfenced': {
-      const open = node.getAttribute('open') || '(';
-      const close = node.getAttribute('close') || ')';
-      return `${open}${children()}${close}`;
+      const openAttr = node.getAttribute('open');
+      const closeAttr = node.getAttribute('close');
+      const separatorsAttr = node.getAttribute('separators');
+      const open = openAttr == null ? '(' : openAttr;
+      const close = closeAttr == null ? ')' : closeAttr;
+      const separators = separatorsAttr == null ? ',' : separatorsAttr;
+      const childValues = Array.from(node.childNodes)
+        .map((child) => mathmlNodeToLatex(child))
+        .filter((value) => value !== '');
+
+      const body = childValues.map((value, index) => {
+        if (index === 0) {
+          return value;
+        }
+        const separator = separators[Math.min(index - 1, separators.length - 1)] || separators[separators.length - 1] || ',';
+        return `${separator} ${value}`;
+      }).join('');
+
+      return `${open}${body}${close}`;
     }
     
     case 'mpadded':
     case 'mphantom':
       return children();
     
-    case 'mtable':
+    case 'mtable': {
+      const rows = Array.from(node.children)
+        .map((row) => mathmlNodeToLatex(row))
+        .filter(Boolean)
+        .join('\\\\');
+      return rows ? `\\begin{matrix}${rows}\\end{matrix}` : '';
+    }
+
     case 'mtr':
+      return Array.from(node.children)
+        .map((cell) => mathmlNodeToLatex(cell))
+        .filter(Boolean)
+        .join(' & ');
+
     case 'mtd':
-      // Simplified: just join with &
       return children();
     
     case 'annotation':
@@ -184,11 +288,8 @@ function normalizeLatexForKatex(html) {
 }
 
 function sanitizeImportedHtml(value) {
-  // First convert MathML to LaTeX for Chrome compatibility
-  const converted = mathmlToLatex(String(value || ""));
-  
   const template = document.createElement("template");
-  template.innerHTML = converted.trim();
+  template.innerHTML = String(value || "").trim();
   template.content.querySelectorAll("script, style").forEach((node) => node.remove());
   template.content.querySelectorAll("annotation").forEach((node) => node.remove());
   template.content.querySelectorAll(".formatted_line_break").forEach((node) => node.replaceWith(document.createElement("br")));
@@ -310,14 +411,14 @@ async function renderMathAfterMount() {
   document.querySelectorAll(".question-text, .option-copy, .frq-part-content").forEach((el) => {
     if (el.dataset.mathRendered === "true") return;
     el.dataset.mathRendered = "true";
-    el.innerHTML = normalizeLatexForKatex(el.innerHTML);
+    el.innerHTML = normalizeLatexForKatex(mathmlToLatex(el.innerHTML));
     renderLatexInElement(el);
   });
 }
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl", "2017Intl_EM", "physics-c-em-2017-intl", "1902622410881732608", "microeconomics-2018-intl", "1902622410416164864", "microeconomics-2017-intl", "1902622418683138048", "microeconomics-2019-intl", "1902622419140317184", "microeconomics-2021-intl"]);
+const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl", "2017Intl_EM", "physics-c-em-2017-intl", "1902622410881732608", "microeconomics-2018-intl", "1902622410416164864", "microeconomics-2017-intl", "1902622418683138048", "microeconomics-2019-intl", "1902622419140317184", "microeconomics-2021-intl", "statistics-2017-intl", "1902622413633196032", "statistics-2018-intl"]);
 const TRUNK_CONTRACT_PATHS = {
   'calc-bc-2018-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2017-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
@@ -329,7 +430,9 @@ const TRUNK_CONTRACT_PATHS = {
   'microeconomics-2018-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
   'microeconomics-2017-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
   'microeconomics-2019-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
-  'microeconomics-2021-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json'
+  'microeconomics-2021-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
+  'statistics-2017-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json',
+  'statistics-2018-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json'
 };
 const CALC_BC_TRUNK_CONTRACT_PATH = TRUNK_CONTRACT_PATHS['calc-bc-2018-intl'];
 
@@ -364,6 +467,12 @@ function getBranchMappingPath() {
   }
   if (examIdStr === "1902622419140317184" || examIdStr === "microeconomics-2021-intl") {
     return "/v2/data/microeconomics-2021-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "statistics-2017-intl") {
+    return "/v2/data/statistics-2017-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "1902622413633196032" || examIdStr === "statistics-2018-intl") {
+    return "/v2/data/statistics-2018-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -512,6 +621,17 @@ function handleClick(event) {
     }
     return;
   }
+  if (action === "remove-frq-img") {
+    const part = target.dataset.part;
+    const index = Number(target.dataset.index);
+    const answer = sectionState().answers[state.questionIndex];
+    if (answer && answer[`${part}_images`]) {
+      answer[`${part}_images`].splice(index, 1);
+      sectionState().answers[state.questionIndex] = answer;
+      persistAndRender();
+    }
+    return;
+  }
   if (action === "toggle-help") {
     state.ui.helpOpen = !state.ui.helpOpen;
     state.ui.moreOpen = true;
@@ -604,6 +724,35 @@ function handleChange(event) {
       sectionState().answers[state.questionIndex] = [...selected];
       persistAndRender();
     }
+    return;
+  }
+
+  // FRQ image upload
+  const fileInput = event.target.closest('.frq-image-input');
+  if (fileInput && fileInput.files && fileInput.files[0]) {
+    const part = fileInput.dataset.part;
+    const file = fileInput.files[0];
+    if (!file.type.startsWith('image/')) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const answer = sectionState().answers[state.questionIndex] || {};
+      if (typeof answer === 'string') {
+        // Convert string answer to object
+        const text = answer;
+        const newAnswer = {};
+        newAnswer[part] = text;
+        sectionState().answers[state.questionIndex] = newAnswer;
+      }
+      const currentAnswer = sectionState().answers[state.questionIndex] || {};
+      const key = `${part}_images`;
+      if (!currentAnswer[key]) currentAnswer[key] = [];
+      currentAnswer[key].push(e.target.result);
+      sectionState().answers[state.questionIndex] = currentAnswer;
+      persistAndRender();
+    };
+    reader.readAsDataURL(file);
+    return;
   }
 }
 
@@ -1237,6 +1386,17 @@ function render() {
   scrollCurrentChipIntoView();
 }
 
+function renderFrqImages(partAnswers, part) {
+  const imgs = partAnswers && partAnswers[`${part}_images`];
+  if (!imgs || !imgs.length) return '';
+  return imgs.map((src, i) =>
+    `<div class="frq-img-wrap">
+      <img src="${src}" alt="Answer image ${i+1}">
+      <button class="frq-img-remove" data-action="remove-frq-img" data-part="${part}" data-index="${i}" type="button">✕</button>
+    </div>`
+  ).join('');
+}
+
 function renderFRQResponsePane(question, answer) {
   // Parse answer as JSON object with sub-part keys, or fallback to string
   let partAnswers = {};
@@ -1285,7 +1445,16 @@ function renderFRQResponsePane(question, answer) {
                   data-part="${p}"
                   placeholder="Write your response for part ${p.toUpperCase()}..."
                   rows="4"
-                >${escapeHtml(String(partAnswers[p] || ''))}</textarea>
+                >${escapeHtml(String(typeof partAnswers[p] === 'string' ? partAnswers[p] : ''))}</textarea>
+                <div class="frq-image-area" data-part="${p}">
+                  <label class="frq-image-upload-btn">
+                    📷 Upload image
+                    <input type="file" accept="image/*" capture="environment" class="frq-image-input" data-part="${p}" style="display:none;">
+                  </label>
+                  <div class="frq-image-preview" data-part="${p}">
+                    ${renderFrqImages(partAnswers, p)}
+                  </div>
+                </div>
               </div>
             </div>
           `;
