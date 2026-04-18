@@ -1,25 +1,4 @@
-:root {
-  --bg: #f2f6fb;
-  --panel: #ffffff;
-  --panel-soft: #f8fbff;
-  --ink: #152232;
-  --muted: #697a8f;
-  --line: #d7e1eb;
-  --line-strong: #c4d2e0;
-  --accent: #de8a4c;
-  --accent-strong: #bf6d34;
-  --accent-soft: #fff1e5;
-  --blue: #4e6b8c;
-  --blue-soft: #eff4fa;
-  --ok: #346d60;
-  --ok-soft: #e9f6f3;
-  --flag: #b77032;
-  --shadow: 0 18px 46px rgba(24, 42, 61, 0.1);
-  --radius-xl: 28px;
-  --radius-lg: 20px;
-  --radius-md: 14px;
-  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-}
+/* Colors inherited from global-theme.css */
 
 * {
   box-sizing: border-box;

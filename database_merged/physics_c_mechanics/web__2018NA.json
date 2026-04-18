@@ -1,0 +1,122 @@
+{
+  "examId": "2018NA",
+  "title": "AP 物理C力学 2018年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2018",
+  "description": "AP 物理C力学 2018年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2018NA-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "student wants to determine the value of the acceleration due to gravity $g$ for a specific location and sets up the following experiment. A solid sphere is held vertically a distance $h$ above a pad by an electromagnet, as shown in the figure above. The experimental equipment is designed to release the sphere when the electromagnet is turned off. A timer also starts when the electromagnet is turned off, and the timer stops when the sphere lands on the pad.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "While taking the first data point, the student notices that the electromagnet actually releases the sphere after the timer begins. Would the value of $g$ calculated from this one measurement be greater than, less than, or equal to the actual value of $g$ at the student's location?\n$\\_\\_\\_\\_$ Greater than $\\_\\_\\_\\_$ Less than $\\_\\_\\_\\_$ Equal to\nJustify your answer.\nThe electromagnet is replaced so that the timer begins when the sphere is released. The student varies the distance $h$. The student measures and records the time $\\Delta t$ of the fall for each particular height, resulting in the following data table."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Indicate below which quantities should be graphed to yield a straight line whose slope could be used to calculate a numerical value for $g$.\n\nVertical axis: $\\_\\_\\_\\_$\nHorizontal axis: $\\_\\_\\_\\_$\nUse the remaining rows in the table above, as needed, to record any quantities that you indicated that are not given in the table. Label each row you use and include units.\n© 2018 The College Board.\nVisit the College Board on the Web: www.collegeboard.org."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Plot the data points for the quantities indicated in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "on the graph below. Clearly scale and label all axes, including units if appropriate. Draw a straight line that best represents the data."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Using the straight line, calculate an experimental value for $g$.\n\nAnother student fits the data in the table to a quadratic equation. The student's equation for the distance fallen $y$ as a function of time $t$ is $y=A t^{2}+B t+C$, where $A=5.75 \\mathrm{~m} / \\mathrm{s}^{2}, B=-0.524 \\mathrm{~m} / \\mathrm{s}$, and $C=+0.080 \\mathrm{~m}$. Vertically down is the positive direction."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Using the student's equation above, do the following.\ni. Derive an expression for the velocity of the sphere as a function of time.\nii. Calculate the new experimental value for $g$.\niii. Using $9.81 \\mathrm{~m} / \\mathrm{s}^{2}$ as the accepted value for $g$ at this location, calculate the percent error for the value found in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "wo carts are on a horizontal, level track of negligible friction. Cart 1 has a sensor that measures the force exerted on it during a collision with cart 2, which has a spring attached. Cart 1 is moving with a speed of $v_{0}=3.00 \\mathrm{~m} / \\mathrm{s}$ toward cart 2, which is at rest, as shown in the figure above. The total mass of cart 1 and the force sensor is 0.500 kg , the mass of cart 2 is 1.05 kg , and the spring has negligible mass. The spring has a spring constant of $k=130 \\mathrm{~N} / \\mathrm{m}$. The data for the force the spring exerts on cart 1 are shown in the graph below. A student models the data as the quadratic fit $F=\\left(3200 \\mathrm{~N} / \\mathrm{s}^{2}\\right) t^{2}-(500 \\mathrm{~N} / \\mathrm{s}) t$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Using integral calculus, calculate the total impulse delivered to cart 1 during the collision."
+            },
+            {
+              "partSign": "b",
+              "partContent": "i. Calculate the speed of cart 1 after the collision.\nii. In which direction does cart 1 move after the collision?\n$\\_\\_\\_\\_$ Left $\\_\\_\\_\\_$ Right\n$\\_\\_\\_\\_$ The direction is undefined, because the speed of cart 1 is zero after the collision."
+            },
+            {
+              "partSign": "c",
+              "partContent": "i. Calculate the speed of cart 2 after the collision.\nii. Show that the collision between the two carts is elastic."
+            },
+            {
+              "partSign": "d",
+              "partContent": "i. Calculate the speed of the center of mass of the two-cart-spring system.\nii. Calculate the maximum elastic potential energy stored in the spring."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "triangular rod, shown above, has length $L$, mass $M$, and a nonuniform linear mass density given by the equation $\\lambda=\\frac{2 M}{L^{2}} x$, where $x$ is the distance from one end of the rod.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Using integral calculus, show that the rotational inertia of the rod about its left end is $M L^{2} / 2$.\n\nThe thin hoop shown above in Figure 1 has a mass $M$, radius $L$, and a rotational inertia around its center of $M L^{2}$. Three rods identical to the rod from part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "are now fastened to the thin hoop, as shown in Figure 2 above."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive an expression for the rotational inertia $I_{t o t}$ of the hoop-rods system about the center of the hoop. Express your answer in terms of $M, L$, and physical constants, as appropriate.\n\nThe hoop-rods system is initially at rest and held in place but is free to rotate around its center. A constant force $F$ is exerted tangent to the hoop for a time $\\Delta t$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Derive an expression for the final angular speed $\\omega$ of the hoop-rods system. Express your answer in terms of $M, L, F, \\Delta t$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "d",
+              "partContent": "i. On the figure of the hoop-rods system below, draw and label the forces (not components) that act on the system. Each force must be represented by a distinct arrow starting at, and pointing away from, the point at which the force is exerted on the system.\n\nii. Justify your choice for the direction of each of the forces drawn in part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "Derive an expression for the change in height of the center of the hoop from the moment it reaches the bottom of the ramp until the moment it reaches its maximum height. Express your answer in terms of $M, L$, $I_{\\text {tot }}, \\omega$, and physical constants, as appropriate."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "examId": "phys2019NASet1",
+  "title": "AP Physics C: Mechanics 2019年",
+  "subjectName": "Physics C: Mechanics",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2019",
+  "description": "AP Physics C: Mechanics 2019年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "phys2019NASet1-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "n an experiment, students used video analysis to track the motion of an object falling vertically through a fluid in a glass cylinder. The object of $m=12 ~g$ is released from rest at the top of the column of fluid, as shown above. The data for the speed $v$ of the falling object as a function of time $t$ are graphed on the grid below. The dashed curve represents the best fit chosen by the students for these data.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "i. Does the speed of the object increase, decrease, or remain the same?\n$____$ Increase $____$ Decrease $____$ Remain the same\nii. In a brief statement, describe the direction of the object's acceleration and how the magnitude of this acceleration changed as the object fell.\niii. Using the graph, calculate an approximate value for the magnitude of the acceleration of the object at $t=0.20 ~s$.\n\nThe students use the equation $v=A(1-e^{-B t})$ to model the speed of the falling object and find the best fit coefficients to be $A=1.18 ~m / s$ and $B=5 ~s^{-1}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use the above equation to:\ni. Derive an expression for the magnitude of the vertical displacement $y(t)$ of the falling object as a function of time $t$.\nii. Derive an expression for the magnitude of the net force $F(t)$ exerted on the object as it falls through the fluid as a function of time $t$.\n\nThe students repeat the experiment with a taller glass cylinder that is filled with the same fluid. The cylinder is tall enough so that the object reaches a constant speed."
+            },
+            {
+              "partSign": "c",
+              "partContent": "i. Determine the constant speed of the object.\n\nJustify your answer.\nii. Determine the force exerted by the fluid on the object at this time.\n\nJustify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "pendulum of length $L$ consists of block 1 of mass $3 M$ attached to the end of a string. Block 1 is released from rest with the string horizontal, as shown above. At the bottom of its swing, block 1 collides with block 2 of mass $M$, which is initially at rest at the edge of a table of height $2 L$. Block 1 never touches the table. As a result of the collision, block 2 is launched horizontally from the table, landing on the floor a distance $4 L$ from the base of the table. After the collision, block 1 continues forward and swings up. At its highest point, the string makes an angle $_{ {MAX }}$ to the vertical. Air resistance and friction are negligible. Express all algebraic answers in terms of $M, L$, and physical constants, as appropriate.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Determine the speed of block 1 at the bottom of its swing just before it makes contact with block 2."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On the dot below, which represents block 1, draw and label the forces (not components) that act on block 1 just before it makes contact with block 2 . Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. Forces with greater magnitude should be represented by longer vectors."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Derive an expression for the tension $F_{T}$ in the string when the string is vertical just before block 1 makes contact with block 2. If you need to draw anything other than what you have shown in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "to assist in your solution, use the space below. Do NOT add anything to the figure in part"
+            },
+            {
+              "partSign": "d",
+              "partContent": "Calculate the time between the instant block 2 leaves the table and the instant it first contacts the floor."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Calculate the speed of block 2 as it leaves the table.\n(f) Calculate the speed of block 1 just after it collides with block 2.\n(g) Calculate the angle $_{ {MAX }}$ that the string makes with the vertical, as shown in the original figure, when block 1 is at its highest point after the collision."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "horizontal circular platform with rotational inertia $I_{P}$ rotates freely without friction on a vertical axis. A small motor-driven wheel that is used to rotate the platform is mounted under the platform and touches it. The wheel has radius $r$ and touches the platform a distance $D$ from the vertical axis of the platform, as shown above. The platform starts at rest, and the wheel exerts a constant horizontal force of magnitude $F$ tangent to the wheel until the platform reaches an angular speed $_{P}$ after time $ t$. During time $ t$, the wheel stays in contact with the platform without slipping.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Derive an expression for the angular speed $_{P}$ of the platform. Express your answer in terms of $I_{P}, r, D, F$, $ t$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Determine an expression for the kinetic energy of the platform at the moment it reaches angular speed $_{P}$. Express your answer in terms of $I_{P}, r, D, F, t$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Derive an expression for the angular speed of the wheel $_{W}$ when the platform has reached angular speed $_{P}$. Express your answer in terms of $D, r, _{P}$, and physical constants, as appropriate.\n\nWhen the platform is spinning at angular speed $_{P}$, the motor-driven wheel is removed. A student holds a disk directly above and concentric with the platform, as shown above. The disk has the same rotational inertia $I_{P}$ as the platform. The student releases the disk from rest, and the disk falls onto the platform. After a short time, the disk and platform are observed to be rotating together at angular speed $_{f}$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Derive an expression for $_{f}$. Express your answer in terms of $_{P}, I_{P}$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "e",
+              "partContent": "i. On the graph on the previous page, draw a best-fit line for the data.\nii. Using the straight line, calculate the rotational inertia of the unknown object $I_{U}$ about a vertical axis passing through its center of mass.\n(f) The kinetic energy of the spinning platform before the object is dropped on it is $K_{i}$. The total kinetic energy of the platform-object system when it reaches angular speed $_{f}$ is $K_{f}$. Which of the following expressions is true?\n$____$ $K_{f}K_{i}$\nJustify your answer.\n(g) One of the students observes that the center of mass of the object is not actually aligned with the axis of the platform. Is the experimental value of $I_{U}$ obtained in part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "greater than, less than, or equal to the actual value of the rotational inertia of the unknown object about a vertical axis that passes through its center of mass?\n$____$ Greater than $____$ Less than $____$ Equal to\nJustify your answer."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

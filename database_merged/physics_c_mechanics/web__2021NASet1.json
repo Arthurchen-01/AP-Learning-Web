@@ -1,0 +1,122 @@
+{
+  "examId": "2021NASet1",
+  "title": "AP 物理C力学 2021年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2021",
+  "description": "AP 物理C力学 2021年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2021NASet1-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "50 kg fan cart is placed on a level, horizontal track of negligible friction, as shown. The fan is turned on, and the fan cart is released from rest and moves to the right. The cart travels along the horizontal track and then down an incline. Motion detector 1 measures the acceleration $a$ of the cart from time $t=0$ to $t=3 \\mathrm{~s}$. At $t=3 \\mathrm{~s}$, the cart makes a smooth transition to the incline, and motion detector 2 measures the acceleration of the cart after $t=3 \\mathrm{~s}$. The fan exerts the same magnitude of force on the cart during the entire motion. The graphs below show $a$ as functions of $t$. For each motion detector, the positive direction is away from the detector.\n\nUse a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box.\n© 2021 College Board.\nVisit College Board on the web: collegeboard.org.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the dots below that represent the cart at two different locations, draw and label the forces (not components) that act on the cart at each location. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Calculate the magnitude of the net force exerted on the fan cart when it is on the horizontal track."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Calculate the angle $\\theta$ of the incline."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Suppose careful measurement determines the angle of the incline to be $3^{\\circ}$ larger than that calculated in part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "i. Draw a best-fit line for the data.\nii. Using the straight line, calculate an experimental value for the acceleration due to gravity $g$.\n(f) If the cart were replaced with a second cart of mass 1.0 kg that has a fan that exerts the same magnitude of force as the original fan, explain how the graph given in part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "would change.\n\nBegin your response to QUESTION 2 on this page."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "block of mass $m$ starts from rest at point A and travels with negligible friction through the loop onto a horizontal surface, where the block makes contact with a spring of spring constant $k=\\frac{m g}{2 R}$. All motion of the spring is in the horizontal direction. Point C is the highest point on the loop, and point B is the rightmost point on the loop. Express all algebraic answers in terms of $m, h, R$, and physical constants, as appropriate.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the dot below, which represents the block, draw an arrow that represents the direction of the acceleration of the block at point B in the figure above. The arrow must start on and point away from the dot.\n\nJustify your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "i. Derive an expression for the speed $v$ of the block at point B .\nii. Derive an expression for the magnitude of the net force $F$ on the block at point B ."
+            },
+            {
+              "partSign": "c",
+              "partContent": "In terms of $R$, derive an expression for the minimum height $h_{\\text {min }}$ necessary for the block to maintain contact with the track through point C ."
+            },
+            {
+              "partSign": "d",
+              "partContent": "It is determined that $h=0.30 \\mathrm{~m}$ and $R=0.10 \\mathrm{~m}$. If the block is released from a height greater than that found in part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "A graph of the maximum compression of the spring as a function of height is shown below. The height $h_{\\text {min }}$ is the height calculated in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "free-response",
+          "prompt": "triangular rod of length $L$ and mass $M$ has a nonuniform linear mass density given by the equation $\\lambda=\\gamma x^{2}$, where $\\gamma=\\frac{3 M}{L^{3}}$ and $x$ is the distance from point P at the left end of the rod.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Using integral calculus, show that the rotational inertia $I$ of the rod about an axis perpendicular to the page and through point P is $\\frac{3}{5} M L^{2}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Determine the horizontal location of the center of mass of the rod relative to point P . Express your answer in terms of $L$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For an axis perpendicular to the page, is the value of the rotational inertia of the rod around point P greater than, less than, or equal to the value of the rotational inertia of the rod around the rod's center of mass?\n$\\_\\_\\_\\_$ Greater than $\\_\\_\\_\\_$ Less than $\\_\\_\\_\\_$ Equal to\nJustify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "On the axes below, sketch graphs of the magnitude of the net torque $\\tau$ on the rod and the angular speed $\\omega$ of the rod as functions of time $t$ from the time the rod is released until the time its center of mass reaches its lowest point."
+            },
+            {
+              "partSign": "e",
+              "partContent": "As the rod rotates from the horizontal position down through vertical, is the magnitude of the angular acceleration on the rod increasing, decreasing, or not changing?\n$\\_\\_\\_\\_$ Increasing $\\_\\_\\_\\_$ Decreasing $\\_\\_\\_\\_$ Not changing\nJustify your answer.\n\nContinue your response to QUESTION 3 on this page.\n\n(f) The mass of the rod is 3.0 kg , and the length of the rod is 1.0 m . Calculate the linear speed $v$ of point S as the rod swings through the vertical position shown.\n\n\\title{"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

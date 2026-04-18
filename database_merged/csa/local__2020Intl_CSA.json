@@ -1,0 +1,1184 @@
+{
+  "examId": "2020Intl_CSA",
+  "title": "AP Computer Science A 2020年",
+  "subjectName": "Computer Science A",
+  "yearLabel": "2020",
+  "description": "AP Computer Science A 2020年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public static int mystery(int[] arr) { int x = 0; for (int k = 0; k &lt; arr.length; k = k + 2) x = x + arr[k]; return x; } ``` Assume that the array nums has been declared and initialized as follows. ``` int[] nums = {3, 6, 1, 0, 1, 4, 2}; ``` What value will be returned as a result of the call mystery (nums) ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "5"
+            },
+            {
+              "key": "B",
+              "content": "6"
+            },
+            {
+              "key": "C",
+              "content": "7"
+            },
+            {
+              "key": "D",
+              "content": "10"
+            },
+            {
+              "key": "E",
+              "content": "17"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "The following declaration appears in another class. ``` SomeClass obj = new SomeClass(); ``` Which of the following code segments will compile without error?",
+          "options": [
+            {
+              "key": "A",
+              "content": "int $x=$ obj.getA();"
+            },
+            {
+              "key": "B",
+              "content": "int $x$; obj.getA(x);"
+            },
+            {
+              "key": "C",
+              "content": "int $x=$ obj.myA;"
+            },
+            {
+              "key": "D",
+              "content": "int $x=$ SomeClass.getA();"
+            },
+            {
+              "key": "E",
+              "content": "int $x=$ getA(obj);"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "Which of the following changes to SomeClass will allow other classes to access but not modify the value of myc?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Make myC public."
+            },
+            {
+              "key": "B",
+              "content": "Include the method: ``` public int getC() { return myC; } ```"
+            },
+            {
+              "key": "C",
+              "content": "Include the method: ``` private int getC() { return myC; } ```"
+            },
+            {
+              "key": "D",
+              "content": "Include the method: ``` public void getC(int x) { x = myC; } ```"
+            },
+            {
+              "key": "E",
+              "content": "Include the method: ``` private void getC(int x) { x = myC; } ```"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int x = 7; int y = 3; if ((x &lt; 10) &amp;&amp; (y &lt; 0)) System.out.println(&quot;Value is: &quot; + x * y); else System.out.println(&quot;Value is: &quot; + x / y); ``` What is printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Value is: 21"
+            },
+            {
+              "key": "B",
+              "content": "Value is: 2.3333333"
+            },
+            {
+              "key": "C",
+              "content": "Value is: 2"
+            },
+            {
+              "key": "D",
+              "content": "Value is: 0"
+            },
+            {
+              "key": "E",
+              "content": "Value is: 1"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public ArrayList mystery(int n) { ArrayList seq = new ArrayList(); for (int k = 1; k &lt;= n; k++) seq.add(new Integer(k * k + 3)); return seq; } ``` Which of the following is printed as a result of executing the following statement? System.out.println(mystery(6));",
+          "options": [
+            {
+              "key": "A",
+              "content": "$[3,4,7,12,19,28]$"
+            },
+            {
+              "key": "B",
+              "content": "$[3,4,7,12,19,28,39]$"
+            },
+            {
+              "key": "C",
+              "content": "$[4,7,12,19,28,39]$"
+            },
+            {
+              "key": "D",
+              "content": "$[39,28,19,12,7,4]$"
+            },
+            {
+              "key": "E",
+              "content": "$[39,28,19,12,7,4,3]$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "Consider the following method that is intended to determine if the double values d1 and d2 are close enough to be considered equal. For example, given a tolerance of 0.001 , the values 54.32271 and 54.32294 would be considered equal. ``` /** @return true if d1 and d2 are within the specified tolerance, * false otherwise */ public boolean almostEqual(double d1, double d2, double tolerance) { /* missing code */ } ``` Which of the following should replace /* missing code */ so that almostEqual will work as intended?",
+          "options": [
+            {
+              "key": "A",
+              "content": "return (d1 - d2)"
+            },
+            {
+              "key": "B",
+              "content": "return ((d1 + d2) / 2)"
+            },
+            {
+              "key": "C",
+              "content": "return (d1 - d2) &gt;= tolerance;"
+            },
+            {
+              "key": "D",
+              "content": "return ((d1 + d2) / 2) &gt;= tolerance;"
+            },
+            {
+              "key": "E",
+              "content": "return Math.abs(d1 - d2)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "Consider the following class declaration. ``` public class Person { private String myName; private int myYearOfBirth; public Person(String name, int yearOfBirth) { myName = name; myYearOfBirth = yearOfBirth; } public String getName() { return myName; } public void setName(String name) { myName = name; } // There may be instance variables, constructors, and methods that are not shown. } ``` Assume that the following declaration has been made. ``` Person student = new Person(&quot;Thomas&quot;, 1995); ``` Which of the following statements is the most appropriate for changing the name of student from &quot;Thomas&quot; to &quot;Tom&quot; ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "student = new Person(&quot;Tom&quot;, 1995);"
+            },
+            {
+              "key": "B",
+              "content": "student.myName = &quot;Tom&quot;;"
+            },
+            {
+              "key": "C",
+              "content": "student.getName(&quot;Tom&quot;);"
+            },
+            {
+              "key": "D",
+              "content": "student.setName(&quot;Tom&quot;);"
+            },
+            {
+              "key": "E",
+              "content": "Person.setName (&quot;Tom&quot;);"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Consider the following class declaration. ``` public class Student { private String myName; private int myAge; public Student() { /* implementation not shown */ } public Student(String name, int age) { /* implementation not shown */ } // No other constructors } ``` Which of the following declarations will compile without error? I. Student $a=$ new Student(); II. Student b = new Student(&quot;Juan&quot;, 15); III. Student c = new Student(&quot;Juan&quot;, &quot;15&quot;);",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "I and II only"
+            },
+            {
+              "key": "D",
+              "content": "I and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "Consider the following method that is intended to return the sum of the elements in the array key. ``` public static int sumArray(int[] key) { int sum = 0; for (int i = 1; i &lt;= key.length; i++) { /* missing code */ } return sum; } ``` Which of the following statements should be used to replace /* missing code */ so that sumArray will work as intended?",
+          "options": [
+            {
+              "key": "A",
+              "content": "sum = key[i];"
+            },
+            {
+              "key": "B",
+              "content": "sum += key[i - 1];"
+            },
+            {
+              "key": "C",
+              "content": "sum += key[i];"
+            },
+            {
+              "key": "D",
+              "content": "sum += sum + key[i - 1];"
+            },
+            {
+              "key": "E",
+              "content": "sum += sum + key[i];"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "For which of the following test cases will the call seqSearchRec (5) always result in an error? I. data contains only one element. II. data does not contain the value 5 . III. data contains the value 5 multiple times.",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "Which of the following should be used to replace // Line 1 in seqSearchRecHelper so that seqSearchRec will work as intended?",
+          "options": [
+            {
+              "key": "A",
+              "content": "if (last"
+            },
+            {
+              "key": "B",
+              "content": "if (last"
+            },
+            {
+              "key": "C",
+              "content": "if (last"
+            },
+            {
+              "key": "D",
+              "content": "while (last"
+            },
+            {
+              "key": "E",
+              "content": "while (last &gt;= 0)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public String mystery(String input) { String output = &quot;&quot;; for (int k = 1; k &lt; input.length(); k = k + 2) { output += input.substring(k, k + 1); } return output; } ``` What is returned as a result of the call mystery (&quot;computer&quot;) ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "&quot;computer&quot;"
+            },
+            {
+              "key": "B",
+              "content": "&quot; cmue &quot;"
+            },
+            {
+              "key": "C",
+              "content": "&quot;optr&quot;"
+            },
+            {
+              "key": "D",
+              "content": "&quot;ompute&quot;"
+            },
+            {
+              "key": "E",
+              "content": "Nothing is returned because an IndexOutOfBoundsException is thrown."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int[] arr = {7, 2, 5, 3, 0, 10}; for (int k = 0; k arr[k + 1]) System.out.print(k + &quot; &quot; + arr[k] + &quot; &quot;); } ``` What will be printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$022330$"
+            },
+            {
+              "key": "B",
+              "content": "$072533$"
+            },
+            {
+              "key": "C",
+              "content": "$07255 10$"
+            },
+            {
+              "key": "D",
+              "content": "$1 {lllll}7 &amp; 3 &amp; 5 &amp; 4 &amp; 3$"
+            },
+            {
+              "key": "E",
+              "content": "$725330$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "Consider the following interface and class declarations. ``` public interface Vehicle { /** @return the mileage traveled by this Vehicle */ double getMileage(); } public class Fleet { private ArrayList myVehicles; /** @return the mileage traveled by all vehicles in this Fleet */ public double getTotalMileage() { double sum = 0.0; for (Vehicle v : myVehicles) { sum += /* expression */ ; } return sum; } // There may be instance variables, constructors, and methods that are not shown. } ``` Which of the following can be used to replace /* expression */ so that getTotalMileage returns the total of the miles traveled for all vehicles in the fleet?",
+          "options": [
+            {
+              "key": "A",
+              "content": "getMileage(v)"
+            },
+            {
+              "key": "B",
+              "content": "myVehicles[v].getMileage()"
+            },
+            {
+              "key": "C",
+              "content": "Vehicle.get(v).getMileage()"
+            },
+            {
+              "key": "D",
+              "content": "myVehicles.get(v).getMileage()"
+            },
+            {
+              "key": "E",
+              "content": "v.getMileage()"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Consider the following method, isSorted, which is intended to return true if an array of integers is sorted in nondecreasing order and to return false otherwise. ``` /** @param data an array of integers * @return true if the values in the array appear in sorted (nondecreasing) order */ public static boolean isSorted(int[] data) { /* missing code */ } ``` Which of the following can be used to replace /* missing code */ so that isSorted will work as intended? for (int k = 1; k data[k]) return false; } return true; II. ``` for (int k = 0; k data[k + 1]) return false; } return true; III. for (int k = 0; k data[k + 1]) return false; else return true; } return true; ```",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II only"
+            },
+            {
+              "key": "E",
+              "content": "I and III only"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Consider the following incomplete method that is intended to return an array that contains the contents of its first array parameter followed by the contents of its second array parameter. ``` public static int[] append(int[] a1, int[] a2) { int[] result = new int[a1.length + a2.length]; for (int j = 0; j &lt; a1.length; j++) result[j] = a1[j]; for (int k = 0; k &lt; a2.length; k++) result[ /* index */ ] = a2[k]; return result; } ``` Which of the following expressions can be used to replace /* index */ so that append will work as intended?",
+          "options": [
+            {
+              "key": "A",
+              "content": "j"
+            },
+            {
+              "key": "B",
+              "content": "k"
+            },
+            {
+              "key": "C",
+              "content": "$k+a 1$. length -1"
+            },
+            {
+              "key": "D",
+              "content": "$k+a 1$. length"
+            },
+            {
+              "key": "E",
+              "content": "$k+a 1$. length +1"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int[] arr = {1, 2, 3, 4, 5, 6, 7}; for (int k = 3; k &lt; arr.length - 1; k++) arr[k] = arr[k + 1]; ``` Which of the following represents the contents of arr as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "${1,2,3,4,5,6,7}$"
+            },
+            {
+              "key": "B",
+              "content": "${1,2,3,5,6,7}$"
+            },
+            {
+              "key": "C",
+              "content": "${1,2,3,5,6,7,7}$"
+            },
+            {
+              "key": "D",
+              "content": "${1,2,3,5,6,7,8}$"
+            },
+            {
+              "key": "E",
+              "content": "${2,3,4,5,6,7,7}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Assume that myList is an ArrayList that has been correctly constructed and populated with objects. Which of the following expressions produces a valid random index for myList?",
+          "options": [
+            {
+              "key": "A",
+              "content": "(int) ( Math.random() * myList.size() ) - 1"
+            },
+            {
+              "key": "B",
+              "content": "(int) ( Math.random() * myList.size() )"
+            },
+            {
+              "key": "C",
+              "content": "(int) ( Math.random() * myList.size() ) + 1"
+            },
+            {
+              "key": "D",
+              "content": "(int) ( Math.random() * (myList.size() + 1) )"
+            },
+            {
+              "key": "E",
+              "content": "Math.random(myList.size())"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "Assume that $a$ and $b$ have been defined and initialized as int values. The expression $$ !(!(a!=b) &amp; &amp; (~b&gt;7)) $$ is equivalent to which of the following?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$(a!=b)|(b"
+            },
+            {
+              "key": "B",
+              "content": "$(a!=b)|(b"
+            },
+            {
+              "key": "C",
+              "content": "$(a==b)|(b"
+            },
+            {
+              "key": "D",
+              "content": "$(a!=b) &amp; &amp; (~b"
+            },
+            {
+              "key": "E",
+              "content": "$(a==b) &amp; &amp;(~b&gt;7)$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public static void arrayMethod(int nums[]) { int j = 0; int k = nums.length - 1; while (j &lt; k) { int x = nums[j]; nums[j] = nums[k]; nums[k] = x; j++; k--; } } ``` Which of the following describes what the method arrayMethod() does to the array nums?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The array nums is unchanged."
+            },
+            {
+              "key": "B",
+              "content": "The first value in nums is copied to every location in the array."
+            },
+            {
+              "key": "C",
+              "content": "The last value in nums is copied to every location in the array."
+            },
+            {
+              "key": "D",
+              "content": "The method generates an ArrayIndexOutOfBoundsException."
+            },
+            {
+              "key": "E",
+              "content": "The contents of the array nums are reversed."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Consider the following method, which is intended to return the element of a 2-dimensional array that is closest in value to a specified number, val. ``` /** @return the element of 2-dimensional array mat whose value is closest to val */ public double findClosest(double[][] mat, double val) { double answer = mat[0][0]; double minDiff = Math.abs(answer - val); for (double[] row : mat) { for (double num : row) { if ( /* missing code */ ) { answer = num; minDiff = Math.abs(num - val); } } } return answer; } ``` Which of the following could be used to replace /* missing code */ so that findClosest will work as intended?",
+          "options": [
+            {
+              "key": "A",
+              "content": "val - row[num]"
+            },
+            {
+              "key": "B",
+              "content": "Math.abs(num - minDiff)"
+            },
+            {
+              "key": "C",
+              "content": "val - num"
+            },
+            {
+              "key": "D",
+              "content": "Math.abs(num - val)"
+            },
+            {
+              "key": "E",
+              "content": "Math.abs(row[num] - val)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "Consider the following Book and AudioBook classes. ``` public class Book { private int numPages; private String bookTitle; public Book(int pages, String title) { numPages = pages; bookTitle = title; } public String toString() { return bookTitle + &quot; &quot; + numPages; } public int length() { return numPages; } } public class AudioBook extends Book { private int numMinutes; public AudioBook(int minutes, int pages, String title) { super(pages, title); numMinutes = minutes; } public int length() { return numMinutes; } public double pagesPerMinute() { return ((double) super.length()) / numMinutes; } } ``` Consider the following code segment that appears in a class other than Book or AudioBook. ``` Line 1: Book[] books = new Book[2]; Line 2: books[0] = new AudioBook(100, 300, &quot;The Jungle&quot;); Line 3: books[1] = new Book(400, &quot;Captains Courageous&quot;); Line 4: System.out.println(books[0].pagesPerMinute()); Line 5: System.out.println(books[0].toString()); Line 6: System.out.println(books[0].length()); Line 7: System.out.println(books[1].toString()); ``` Which of the following best explains why the code segment willnot compile?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Line 2 willnot compile because variables of type Book may not refer to variables of type AudioBook."
+            },
+            {
+              "key": "B",
+              "content": "Line 4 willnot compile because variables of type Book may only call methods in the Book class."
+            },
+            {
+              "key": "C",
+              "content": "Line 5 willnot compile because the AudioBook class does not have a method named toString declared or implemented."
+            },
+            {
+              "key": "D",
+              "content": "Line 6 willnot compile because the statement is ambiguous. The compiler cannot determine which length method should be called."
+            },
+            {
+              "key": "E",
+              "content": "Line 7 willnot compile because the element at index 1 in the array named books may not have been initialized."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "Consider the following instance variable and method. ``` private List animals; public void manipulate() { for (int k = animals.size() - 1; k &gt; 0; k--) { if (animals.get(k).substring(0, 1).equals(&quot;b&quot;)) { animals.add(animals.size() - k, animals.remove(k)); } } } ``` Assume that animals has been instantiated and initialized with the following contents. ``` [&quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;] ``` What will the contents of animals be as a result of calling manipulate ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "[&quot;baboon&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;bear&quot;, &quot;koala&quot;]"
+            },
+            {
+              "key": "B",
+              "content": "[&quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;]"
+            },
+            {
+              "key": "C",
+              "content": "[&quot;baboon&quot;, &quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;]"
+            },
+            {
+              "key": "D",
+              "content": "[&quot;bear&quot;, &quot;baboon&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;]"
+            },
+            {
+              "key": "E",
+              "content": "[&quot;zebra&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;, &quot;bass&quot;, &quot;bear&quot;]"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int[] oldArray = {1, 2, 3, 4, 5, 6, 7, 8, 9}; int[][] newArray = new int[3][3]; int row = 0; int col = 0; for (int value : oldArray) { newArray[row][col] = value; row++; if ((row % 3) == 0) { col++; row = 0; } } System.out.println(newArray[0][2]); ``` What is printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3"
+            },
+            {
+              "key": "B",
+              "content": "4"
+            },
+            {
+              "key": "C",
+              "content": "5"
+            },
+            {
+              "key": "D",
+              "content": "7"
+            },
+            {
+              "key": "E",
+              "content": "8"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "A rectangular box fits inside another rectangular box if and only if the height, width, and depth of the smaller box are each less than the corresponding values of the larger box. Consider the following three interface declarations that are intended to represent information necessary for rectangular boxes. I. public interface RBox { /** @return the height of this RBox */ double getHeight(); /** @return the width of this RBox */ double getWidth(); /** @return the depth of this RBox */ double getDepth(); } II. ``` public interface RBox { /** @return true if the height of this RBox is less than the height of other; * false otherwise */ boolean smallerHeight(RBox other); /** @return true if the width of this RBox is less than the width of other; * false otherwise / boolean smallerWidth(RBox other); /** @return true if the depth of this RBox is less than the depth of other; * false otherwise */ boolean smallerDepth(RBox other); } ``` III. public interface RBox { /** @return the surface area of this RBOX */ double getSurfaceArea(); /** @return the volume of this RBOX */ double getVolume(); } Which of the interfaces, if correctly implemented by a Box class, would be sufficient functionality for a user of the Box class to determine if one Box can fit inside another?",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "Assume that the array arr has been defined and initialized as follows. ``` int[] arr = /* initial values for the array */ ; ``` Which of the following will correctly print all of the odd integers contained in arr but none of the even integers contained in arr ? ```",
+          "options": [
+            {
+              "key": "A",
+              "content": "for (int x : arr) if (x % 2 != 0) System.out.println(x);"
+            },
+            {
+              "key": "B",
+              "content": "for (int k = 1; k"
+            },
+            {
+              "key": "C",
+              "content": "for (int x : arr) if (x % 2 != 0) System.out.println(arr[x]);"
+            },
+            {
+              "key": "D",
+              "content": "for (int k = 0; k"
+            },
+            {
+              "key": "E",
+              "content": "for (int x : arr) if (arr[x] % 2 != 0) System.out.println(arr[x]); ``` Questions 27-28 refer to the following method. ``` public static int mystery(int n) { int x = 1; int y = 1; // Point A while (n &gt; 2) { x = x + y; // Point B Y = x - y; n--; } // Point C return x; } ```"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "What value is returned as a result of the call mystery (6) ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "1"
+            },
+            {
+              "key": "B",
+              "content": "5"
+            },
+            {
+              "key": "C",
+              "content": "6"
+            },
+            {
+              "key": "D",
+              "content": "8"
+            },
+            {
+              "key": "E",
+              "content": "13"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "Which of the following is true of method mystery ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "x will sometimes be 1 at // Point B ."
+            },
+            {
+              "key": "B",
+              "content": "x willnever be 1 at // Point C ."
+            },
+            {
+              "key": "C",
+              "content": "n willnever be greater than 2 at $/ /$ Point A ."
+            },
+            {
+              "key": "D",
+              "content": "n will sometimes be greater than 2 at // Point C ."
+            },
+            {
+              "key": "E",
+              "content": "$n$ will always be greater than 2 at // Point $B$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` for (int k = 1; k &lt;= 100; k++) if ((k % 4) == 0) System.out.println(k); ``` Which of the following code segments will produce the same output as the code segment above?",
+          "options": [
+            {
+              "key": "A",
+              "content": "for (int k = 1; k"
+            },
+            {
+              "key": "B",
+              "content": "for (int k = 1; k"
+            },
+            {
+              "key": "C",
+              "content": "for (int k = 1; k"
+            },
+            {
+              "key": "D",
+              "content": "for (int $k=4 ; k"
+            },
+            {
+              "key": "E",
+              "content": "for (int k = 4; k"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public static String scramble(String word, int howFar) { return word.substring(howFar + 1, word.length()) + word.substring(0, howFar); } ``` What value is returned as a result of the call scramble (&quot;compiler&quot;, 3)?",
+          "options": [
+            {
+              "key": "A",
+              "content": "&quot;compiler&quot;"
+            },
+            {
+              "key": "B",
+              "content": "&quot;pilercom&quot;"
+            },
+            {
+              "key": "C",
+              "content": "&quot;ilercom&quot;"
+            },
+            {
+              "key": "D",
+              "content": "&quot;ilercomp&quot;"
+            },
+            {
+              "key": "E",
+              "content": "No value is returned because an IndexOutOfBoundsException will be thrown."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public void mystery(int[] data) { for (int k = 0; k &lt; data.length - 1; k++) data[k + 1] = data[k] + data[k + 1]; } ``` The following code segment appears in another method in the same class. ``` int[] values = {5, 2, 1, 3, 8}; mystery(values); for (int v : values) System.out.print(v + &quot; &quot;); System.out.println(); ``` What is printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "52138"
+            },
+            {
+              "key": "B",
+              "content": "573411"
+            },
+            {
+              "key": "C",
+              "content": "5781119"
+            },
+            {
+              "key": "D",
+              "content": "734118"
+            },
+            {
+              "key": "E",
+              "content": "Nothing is printed because an ArrayIndexOutOfBoundsException is thrown during the execution of method mystery."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public int compute(int n, int k) { int answer = 1; for (int i = 1; i &lt;= k; i++) answer *= n; return answer; } ``` Which of the following represents the value returned as a result of the call compute ( $n, k$ ) ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$n * k$"
+            },
+            {
+              "key": "B",
+              "content": "$n!$"
+            },
+            {
+              "key": "C",
+              "content": "$n^{k}$"
+            },
+            {
+              "key": "D",
+              "content": "$2^{k}$"
+            },
+            {
+              "key": "E",
+              "content": "$k^{n}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int sum = 0; int k = 1; while (sum &lt; 12 || k &lt; 4) sum += k; System.out.println(sum); ``` What is printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "6"
+            },
+            {
+              "key": "B",
+              "content": "10"
+            },
+            {
+              "key": "C",
+              "content": "12"
+            },
+            {
+              "key": "D",
+              "content": "15"
+            },
+            {
+              "key": "E",
+              "content": "Nothing is printed due to an infinite loop."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "Consider the following class declarations. ``` public class Point { private double x; // x-coordinate private double y; // y-coordinate public Point() { x = 0; y = 0; } public Point(double a, double b) { x = a; y = b; } // There may be instance variables, constructors, and methods that are not shown. } public class Circle { private Point center; private double radius; /** Constructs a circle where (a, b) is the center and r is the radius. */ public Circle(double a, double b, double r) { /* missing code */ } } ``` Which of the following replacements for /* missing code */ will correctly implement the Circle constructor? I. ``` center = new Point(); radius = r; ``` II. ``` center = new Point(a, b); radius = r; ``` III. center = new Point(); center.x = a; center.y = b; radius = r;",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int num = 2574; int result = 0; while (num &gt; 0) { result = result * 10 + num % 10; num /= 10; } System.out.println(result); ``` What is printed as a result of executing the code segment?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "4"
+            },
+            {
+              "key": "C",
+              "content": "18"
+            },
+            {
+              "key": "D",
+              "content": "2574"
+            },
+            {
+              "key": "E",
+              "content": "4752"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "Consider the following method. ``` public void test(int x) { int y; if (x % 2 == 0) y = 3; else if (x &gt; 9) y = 5; else Y = 1; System.out.println(&quot;y = &quot; + y); } ``` Which of the following test data sets would test each possible output for the method?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$8,9,12$"
+            },
+            {
+              "key": "B",
+              "content": "$7,9,11$"
+            },
+            {
+              "key": "C",
+              "content": "$8,9,11$"
+            },
+            {
+              "key": "D",
+              "content": "$8,11,13$"
+            },
+            {
+              "key": "E",
+              "content": "$7,9,10$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "Consider the following code segment. ``` int x = 1; while ( /* missing code */ ) { System.out.print(x + &quot; &quot;); x = x + 2; } ``` Consider the following possible replacements for /* missing code */. I. $x",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "I and II only"
+            },
+            {
+              "key": "D",
+              "content": "I and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "Assume that $x$ and $y$ have been declared and initialized with int values. Consider the following Java expression. $$ (y&gt;10000)|(x&gt;1000 &amp; &amp; x",
+          "options": [
+            {
+              "key": "A",
+              "content": "$(y&gt;10000| | x&gt;1000) &amp; &amp;(y&gt;10000| | x"
+            },
+            {
+              "key": "B",
+              "content": "$(y&gt;10000| | x&gt;1000)|(y&gt;10000| | x"
+            },
+            {
+              "key": "C",
+              "content": "$(y&gt;10000) _{&amp;} (x&gt;1000| | x"
+            },
+            {
+              "key": "D",
+              "content": "$(y&gt;10000 &amp; x^{x}&gt;1000)|(y&gt;10000 &amp; x^{x}"
+            },
+            {
+              "key": "E",
+              "content": "$(y&gt;10000 _{0} x&gt;1000) _{0} (y&gt;10000 _{0} x"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "Consider the following recursive method. ``` public int recur(int n) { if (n &lt;= 10) return n * 2; else return recur(recur(n / 3)); } ``` What value is returned as a result of the call recur (27)?",
+          "options": [
+            {
+              "key": "A",
+              "content": "8"
+            },
+            {
+              "key": "B",
+              "content": "9"
+            },
+            {
+              "key": "C",
+              "content": "12"
+            },
+            {
+              "key": "D",
+              "content": "16"
+            },
+            {
+              "key": "E",
+              "content": "18"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "Consider the following recursive method. ``` public static void whatsItDo(String str) { int len = str.length(); if (len &gt; 1) { String temp = str.substring(0, len - 1); whatsItDo(temp); System.out.println(temp); } } ``` What is printed as a result of the call whatsItDo (&quot;WATCH&quot;) ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "WATC ``` WAT WA W ```"
+            },
+            {
+              "key": "B",
+              "content": "WATCH WATC WAT WA"
+            },
+            {
+              "key": "C",
+              "content": "W WA WAT WATC"
+            },
+            {
+              "key": "D",
+              "content": "W WA WAT WATC WATCH"
+            },
+            {
+              "key": "E",
+              "content": "WATCH WATC WAT WA W WA WAT WATC WATCH"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

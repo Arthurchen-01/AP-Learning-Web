@@ -1,0 +1,893 @@
+{
+  "examId": "2009Intl",
+  "title": "AP 物理C力学 2009年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2009",
+  "description": "AP 物理C力学 2009年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2009Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "What is the speed of the vehicle at the end of this time interval?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1.3 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$10 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$20 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$80 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$100 \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "What is the total distance the vehicle travels during this time interval?",
+          "options": [
+            {
+              "key": "A",
+              "content": "10 m"
+            },
+            {
+              "key": "B",
+              "content": "20 m"
+            },
+            {
+              "key": "C",
+              "content": "25 m"
+            },
+            {
+              "key": "D",
+              "content": "40 m"
+            },
+            {
+              "key": "E",
+              "content": "50 m"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "All of the following are units of power EXCEPT",
+          "options": [
+            {
+              "key": "A",
+              "content": "watts"
+            },
+            {
+              "key": "B",
+              "content": "joules per second"
+            },
+            {
+              "key": "C",
+              "content": "electron volts per second"
+            },
+            {
+              "key": "D",
+              "content": "newton meters per second"
+            },
+            {
+              "key": "E",
+              "content": "kilogram meters per second"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "A dart gun is used to fire two rubber darts with different but unknown masses, $M_{1}$ and $M_{2}$. The gun exerts the same constant force on each dart, but its magnitude $F$ is unknown. The magnitudes of the accelerations of both darts, $a_{1}$ and $a_{2}$, respectively, are measured. Which of the following can be determined from these data?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$F$ only"
+            },
+            {
+              "key": "B",
+              "content": "$M_{1}$ and $M_{2}$ only"
+            },
+            {
+              "key": "C",
+              "content": "The ratio of $M_{1}$ and $M_{2}$ only"
+            },
+            {
+              "key": "D",
+              "content": "$F$ and the ratio of $M_{1}$ and $M_{2}$ only"
+            },
+            {
+              "key": "E",
+              "content": "$F, M_{1}$, and $M_{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "An object is thrown vertically upward in a region where $g$ is constant and air resistance is negligible. Its speed is recorded from the moment it leaves the thrower's hand until it reaches its maximum height. Which of the following graphs best represents the object's speed $v$ versus time $t$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-03.jpg?height=325&width=317&top_left_y=636&top_left_x=246)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-03.jpg?height=319&width=317&top_left_y=981&top_left_x=246)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-03.jpg?height=325&width=316&top_left_y=1318&top_left_x=251)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-03.jpg?height=323&width=316&top_left_y=1661&top_left_x=251)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-03.jpg?height=323&width=316&top_left_y=2000&top_left_x=251)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "If air resistance is negligible, the speed of a 2 kg sphere that falls from rest through a vertical displacement of 0.2 m is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$2 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$3 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$4 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$5 \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "A person holds a portable fire extinguisher that ejects 1.0 kg of water per second horizontally at a speed of $6.0 \\mathrm{~m} / \\mathrm{s}$. What horizontal force in newtons must the person exert on the extinguisher in order to prevent it'from accelerating?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 N"
+            },
+            {
+              "key": "B",
+              "content": "6 N"
+            },
+            {
+              "key": "C",
+              "content": "10 N"
+            },
+            {
+              "key": "D",
+              "content": "18 N"
+            },
+            {
+              "key": "E",
+              "content": "36 N"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "A disk is free to rotate about an axis perpendicular to the disk through its center. If the disk starts from rest and accelerates uniformly at the rate of 3 radians $/ \\mathrm{s}^{2}$ for 4 s , its angular displacement during this time is",
+          "options": [
+            {
+              "key": "A",
+              "content": "6 radians"
+            },
+            {
+              "key": "B",
+              "content": "12 radians"
+            },
+            {
+              "key": "C",
+              "content": "18 radians"
+            },
+            {
+              "key": "D",
+              "content": "24 radians"
+            },
+            {
+              "key": "E",
+              "content": "48 radians  \\section*{Questions 9-10}  A 2 kg mass connected to a spring oscillates on a horizontal, frictionless surface with simple harmonic motion of amplitude 0.4 m . The spring constant is $50 \\mathrm{~N} / \\mathrm{m}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "The period of this motion is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.04 \\pi \\mathrm{~s}$"
+            },
+            {
+              "key": "B",
+              "content": "$0.08 \\pi \\mathrm{~s}$"
+            },
+            {
+              "key": "C",
+              "content": "$0.4 \\pi \\mathrm{~s}$"
+            },
+            {
+              "key": "D",
+              "content": "$0.8 \\pi \\mathrm{~s}$"
+            },
+            {
+              "key": "E",
+              "content": "$1.26 \\pi \\mathrm{~s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "The maximum velocity occurs where the",
+          "options": [
+            {
+              "key": "A",
+              "content": "potential energy is a maximum"
+            },
+            {
+              "key": "B",
+              "content": "kinetic energy is a minimum"
+            },
+            {
+              "key": "C",
+              "content": "displacement from equilibrium is equal to the amplitude of 0.4 meter"
+            },
+            {
+              "key": "D",
+              "content": "displacement from equilibrium is half the amplitude"
+            },
+            {
+              "key": "E",
+              "content": "displacement from equilibrium is equal to zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "A student is asked to determine the mass of Jupiter. Knowing which of the following about Jupiter and one of its moons will allow the determination to be made? I. The time it takes for Jupiter to orbit the Sun II. The time it takes for the moon to orbit Jupiter III. The average distance between the moon and Jupiter",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II"
+            },
+            {
+              "key": "E",
+              "content": "II and III  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-05.jpg?height=326&width=409&top_left_y=338&top_left_x=334} \\captionsetup{labelformat=empty} \\caption{Top View} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "A disk sliding on a horizontal surface that has negligible friction collides with a rod that is free to move and rotate on the surface, as shown in the top view above. Which of the following quantities must be the same for the disk-rod system before and after the collision? I. Linear momentum II. Angular momentum III. Kinetic energy",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "I and II only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-05.jpg?height=355&width=602&top_left_y=1510&top_left_x=246)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "The velocity $v$ of an elevator moving upward between adjacent floors is shown as a function of time $t$ in the graph above. At which of the following times is the force exerted by the elevator floor on a passenger the least?",
+          "options": [
+            {
+              "key": "A",
+              "content": "1 s"
+            },
+            {
+              "key": "B",
+              "content": "3 s"
+            },
+            {
+              "key": "C",
+              "content": "4 s"
+            },
+            {
+              "key": "D",
+              "content": "5 s"
+            },
+            {
+              "key": "E",
+              "content": "6 s ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-05.jpg?height=313&width=566&top_left_y=334&top_left_x=1213)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "An object of mass $m$ moves with acceleration $a$ down a frictionless incline that makes an angle with the horizontal, as shown above. If $N$ is the normal force exerted by the plane on the block, which of the following is correct?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$N=m g$"
+            },
+            {
+              "key": "B",
+              "content": "$N=m a$"
+            },
+            {
+              "key": "C",
+              "content": "$a=m g \\sin \\theta$"
+            },
+            {
+              "key": "D",
+              "content": "$a=g \\sin \\theta$"
+            },
+            {
+              "key": "E",
+              "content": "$a=m g \\cos \\theta$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "A skier slides at constant speed down a slope inclined at an angle $\\phi$ to the horizontal, as shown above. If air resistance is negligible, the coefficient of friction $\\mu$ between the skis and the snow is equal to",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{\\tan \\phi}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{\\cos \\phi}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\sin \\phi$"
+            },
+            {
+              "key": "D",
+              "content": "$\\cos \\phi$"
+            },
+            {
+              "key": "E",
+              "content": "$\\tan \\phi$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "A 2000 kg car, initially at rest, is accelerated along a horizontal roadway at $3 \\mathrm{~m} / \\mathrm{s}^{2}$. What is the average power required to bring the car to a final speed of $20 \\mathrm{~m} / \\mathrm{s}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$6 \\times 10^{3} \\mathrm{~W}$"
+            },
+            {
+              "key": "B",
+              "content": "$2 \\times 10^{4} \\mathrm{~W}$"
+            },
+            {
+              "key": "C",
+              "content": "$3 \\times 10^{4} \\mathrm{~W}$"
+            },
+            {
+              "key": "D",
+              "content": "$4 \\times 10^{4} \\mathrm{~W}$"
+            },
+            {
+              "key": "E",
+              "content": "$6 \\times 10^{4} \\mathrm{~W}$ ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-07.jpg?height=313&width=652&top_left_y=309&top_left_x=267)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "A person is standing at one end of a uniform raft of length $L$ that is floating motionless on water, as shown above. The center of mass of the personraft system is a distance $d$ from the center of the raft. The person then walks to the other end of the raft. If friction between the raft and the water is negligible, how far does the raft move relative to the water?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{L}{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$L$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{d}{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$d$"
+            },
+            {
+              "key": "E",
+              "content": "$2 d$ ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-07.jpg?height=238&width=114&top_left_y=309&top_left_x=1489)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "The object of mass $m$ shown above is dropped from rest near Earth's surface and experiences a resistive force of magnitude $k v$, where $v$ is the speed of the object and $k$ is a constant. Which of the following expressions can be used to find $v$ as a function of time $t$ ? (Assume that the direction of the gravitational force is positive.)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\int_{0}^{v} \\frac{d v}{m g-k v}=\\int_{0}^{t} \\frac{d t}{m}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\int_{0}^{t} \\frac{d v}{m g-k v}=\\int_{0}^{v} \\frac{d t}{m}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\int_{0}^{v} \\frac{d v}{k v}=\\int_{0}^{t} \\frac{d t}{m}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\int_{0}^{v}(m g-k v) d v=\\int_{0}^{t} m d t$"
+            },
+            {
+              "key": "E",
+              "content": "$\\int_{0}^{v}(m g-k v) d t=\\int_{0}^{t} m d v$  Questions 23-24 ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-08.jpg?height=505&width=323&top_left_y=389&top_left_x=311)  A solid cylinder of mass $m$ and radius $R$ has a string wound around it. A person holding the string pulls it vertically upward, as shown above, such that the cylinder is suspended in midair for a brief time interval $\\Delta t$ and its center of mass does not move. The tension in the string is $T$, and the rotational inertia of the cylinder about its axis is $\\frac{1}{2} m R^{2}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "The net force on the cylinder during the time interval $\\Delta t$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$T$"
+            },
+            {
+              "key": "B",
+              "content": "$m g$"
+            },
+            {
+              "key": "C",
+              "content": "$T-m g R$"
+            },
+            {
+              "key": "D",
+              "content": "$m g R-T$"
+            },
+            {
+              "key": "E",
+              "content": "zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Objects 1 and 2 have the same momentum. Object 1 can have more kinetic energy than object 2 if, compared with object 2 , it",
+          "options": [
+            {
+              "key": "A",
+              "content": "has more mass"
+            },
+            {
+              "key": "B",
+              "content": "has the same mass"
+            },
+            {
+              "key": "C",
+              "content": "is moving at the same speed"
+            },
+            {
+              "key": "D",
+              "content": "is moving slower"
+            },
+            {
+              "key": "E",
+              "content": "is moving faster"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "动量"
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "A 5 kg object is propelled from rest at time $t=0$ by a net force $\\mathbb{F}$ that always acts in the same direction. The magnitude of $\\mathbb{F}$ in newtons is given as a function of $t$ in seconds by $F=0.5 t$. What is the speed of the object at $t=4 \\mathrm{~s}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.5 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$0.8 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$2.0 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$4.0 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$8.0 \\mathrm{~m} / \\mathrm{s}$ ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-09.jpg?height=261&width=675&top_left_y=274&top_left_x=714)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "A projectile is launched from level ground with an initial speed $v_{0}$ at an angle $\\theta$ with the horizontal. If air resistance is negligible, how long will the projectile remain in the air?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2 v_{0} / g$"
+            },
+            {
+              "key": "B",
+              "content": "$2 v_{0} \\cos \\theta / g$"
+            },
+            {
+              "key": "C",
+              "content": "$v_{0} \\cos \\theta / g$"
+            },
+            {
+              "key": "D",
+              "content": "$v_{0} \\sin \\theta / g$"
+            },
+            {
+              "key": "E",
+              "content": "$2 v_{0} \\sin \\theta / g$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "One end of a string is fixed. An object attached to the other end moves on a horizontal plane with uniform circular motion of radius $R$ and frequency $f$. The tension in the string is $F_{s}$. If both the radius and frequency are doubled, the tension is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{4} F_{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{2} F_{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$2 F_{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$4 F_{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$8 F_{s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "An object of unknown mass is initially at rest and dropped from a height $h$. It reaches the ground with a velocity $v_{1}$. The same object is then raised again to the same height $h$ but this time is thrown downward with velocity $v_{1}$. It now reaches the ground with a new velocity $v_{2}$. How is $v_{2}$ related to $v_{1}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$v_{2}=v_{1} / 2$"
+            },
+            {
+              "key": "B",
+              "content": "$v_{2}=v_{1}$"
+            },
+            {
+              "key": "C",
+              "content": "$v_{2}=\\sqrt{2} v_{1}$"
+            },
+            {
+              "key": "D",
+              "content": "$v_{2}=2 v_{1}$"
+            },
+            {
+              "key": "E",
+              "content": "$v_{2}=4 v_{1}$ ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=263&width=459&top_left_y=309&top_left_x=1213)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "Three identical disks are initially at rest on a frictionless, horizontal table with their edges touching to form a triangle, as shown in the top view above. An explosion occurs within the triangle, propelling the disks horizontally along the surface. Which of the following diagrams shows a possible position of the disks at a later time? (In these diagrams, the triangle is shown in its original position.)",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=262&width=466&top_left_y=1000&top_left_x=1156)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=261&width=467&top_left_y=1309&top_left_x=1159)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=262&width=465&top_left_y=1615&top_left_x=1161)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=265&width=463&top_left_y=1920&top_left_x=1163)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-10.jpg?height=262&width=465&top_left_y=2226&top_left_x=1163) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-11.jpg?height=447&width=489&top_left_y=326&top_left_x=861)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "The figure above represents satellites $S_{2}$ and $S_{3}$ of equal mass orbiting Earth in circles of radii $2 R_{e}$ and $3 R_{e}$, respectively, where $R_{e}$ is the radius of Earth. How do the kinetic energy and the angular momentum of $S_{3}$ compare with those of $S_{2}$ ?  \\begin{tabular}{ll} \\multicolumn{1}{l}{ Kinetic Energy } & Angular Momentum \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "Less for $S_{3}$ & Greater for $S_{3}$ \\\\"
+            },
+            {
+              "key": "B",
+              "content": "Greater for $S_{3}$ & Greater for $S_{3}$ \\\\"
+            },
+            {
+              "key": "C",
+              "content": "The same for both & The same for both \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Less for $S_{3}$ & Less for $S_{3}$ \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Greater for $S_{3}$ & Less for $S_{3}$ \\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "A car is traveling along a straight, level road when it runs out of gas at time $t=0$. From this time on, the net force on the car is a resistive force of $-k \\mathrm{v}$, where v is velocity and $k$ is a constant. Which of the following pairs of graphs best represents the speed $v$ and position $x$ of the car as functions of time after $t=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=329&width=535&top_left_y=460&top_left_x=194)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=330&width=529&top_left_y=836&top_left_x=200)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=329&width=531&top_left_y=1213&top_left_x=202)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=331&width=531&top_left_y=1590&top_left_x=202)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=334&width=534&top_left_y=1966&top_left_x=205) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=329&width=537&top_left_y=460&top_left_x=876) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=330&width=533&top_left_y=836&top_left_x=880) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=333&width=530&top_left_y=1209&top_left_x=887) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=336&width=532&top_left_y=1585&top_left_x=887) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-12.jpg?height=338&width=534&top_left_y=1962&top_left_x=887) ![](https://cdn.mathpix.com/cropped/49af7798-f72c-48c5-9e14-fab46fac96de-13.jpg?height=445&width=323&top_left_y=269&top_left_x=435)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "A block of mass $m$ is placed against the inner wall of a hollow cylinder of radius $R$ that rotates about a vertical axis with a constant angular velocity $\\omega$, as shown above. In order for friction to prevent the mass from sliding down the wall, the coefficient of static friction $\\mu$ between the mass and the wall must satisfy which of the following inequalities?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\mu \\geq m g$"
+            },
+            {
+              "key": "B",
+              "content": "$\\mu \\geq \\frac{g}{\\omega^{2} R}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\mu \\geq \\frac{\\omega^{2} R}{g}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\mu \\leq \\frac{g}{\\omega^{2} R}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\mu \\leq \\frac{\\omega^{2} R}{g}$  \\section*{STOP"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

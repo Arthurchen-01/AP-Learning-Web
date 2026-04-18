@@ -5,18 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>专项训练 - AP Learning</title>
   <style>
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
+    /* Colors from global-theme.css */
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -338,6 +327,7 @@
       margin-right: 0.5rem;
     }
   </style>
+  <link rel="stylesheet" href="../assets/global-theme.css">
 </head>
 <body>
   <header class="topnav">
@@ -484,6 +474,32 @@
   <script type="module">
     import { loadBranchDrillSet } from '../v2/js/data-service.js';
 
+    function loadKatex() {
+      return new Promise((resolve) => {
+        if (window.katex) return resolve();
+        const existingCss = document.querySelector('link[data-katex]');
+        if (!existingCss) {
+          const css = document.createElement('link');
+          css.rel = 'stylesheet';
+          css.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css';
+          css.dataset.katex = 'true';
+          document.head.appendChild(css);
+        }
+        const existingScript = document.querySelector('script[data-katex]');
+        if (existingScript) {
+          existingScript.addEventListener('load', () => resolve(), { once: true });
+          existingScript.addEventListener('error', () => resolve(), { once: true });
+          return;
+        }
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js';
+        script.dataset.katex = 'true';
+        script.onload = () => resolve();
+        script.onerror = () => resolve();
+        document.head.appendChild(script);
+      });
+    }
+
     let currentStep = 1;
     let selectedSubject = null;
     let selectedType = null;
@@ -607,6 +623,36 @@
       `).join('');
     }
 
+    function normalizeInlineMathSpacing(text) {
+      return String(text ?? '')
+        .replace(/\s+([,.;:!?])/g, '$1')
+        .replace(/([([{])\s+/g, '$1')
+        .replace(/\s+([)\]}])/g, '$1')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+    }
+
+    function renderInlineKatex(text) {
+      const escaped = escapeHtml(text ?? '');
+      if (!window.katex) return escaped;
+      return escaped.replace(/\$([^$]+)\$/g, (_, latex) => {
+        try {
+          return window.katex.renderToString(normalizeInlineMathSpacing(latex), {
+            throwOnError: false,
+            displayMode: false,
+            strict: false
+          });
+        } catch {
+          return `$${escapeHtml(latex)}$`;
+        }
+      });
+    }
+
+    function formatDrillHtml(html) {
+      if (!html) return '';
+      return renderInlineKatex(String(html).replace(/\n/g, '<br>'));
+    }
+
     function showDrillView() {
       drillView.classList.add('active');
       steps.classList.add('hidden');
@@ -623,7 +669,7 @@
         ? `<ul class="option-list">${question.options.map((option) => `
             <li class="option-item">
               <span class="option-key">${escapeHtml(option.key || '')}</span>
-              <span>${option.html || ''}</span>
+              <span>${formatDrillHtml(option.html || option.text || '')}</span>
             </li>
           `).join('')}</ul>`
         : '<p class="subtitle" style="text-align:left; margin-bottom:0;">该题无可展示选项。</p>';
@@ -631,7 +677,7 @@
       return `
         <article class="question-card">
           <div class="question-number">Question ${escapeHtml(question.sequenceInExam)}</div>
-          <div class="question-prompt">${question.promptHtml || ''}</div>
+          <div class="question-prompt">${formatDrillHtml(question.promptHtml || question.question_html || '')}</div>
           ${optionHtml}
         </article>
       `;
@@ -657,6 +703,7 @@
       showDrillView();
 
       try {
+        await loadKatex();
         const drillSet = await loadBranchDrillSet(examId, branchId, { limit: 5 });
         if (!drillSet) {
           renderDrillEmpty('未找到 branch drill 数据。可能是 examId 不受支持，或底层映射资源读取失败。', [

@@ -4,20 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>套题模考 - AP Learning</title>
+  <link rel="stylesheet" href="../assets/global-theme.css">
   <style>
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
@@ -229,20 +217,13 @@
       'macroeconomics': '宏观经济'
     };
 
-    // 默认试卷数据
-    const defaultExams = [
-      { exam_id: '2008Intl', exam_title: 'AP Calculus BC 2008 国际卷', subject: 'calculus_bc', year: 2008, total_questions: 51, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 51, time_limit_minutes: 102 }] },
-      { exam_id: '2012Intl', exam_title: 'AP Calculus BC 2012 国际卷', subject: 'calculus_bc', year: 2012, total_questions: 49, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 49, time_limit_minutes: 102 }] },
-      { exam_id: '2013Intl', exam_title: 'AP Calculus BC 2013 国际卷', subject: 'calculus_bc', year: 2013, total_questions: 50, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 50, time_limit_minutes: 102 }] },
-      { exam_id: '2014Intl', exam_title: 'AP Calculus BC 2014 国际卷', subject: 'calculus_bc', year: 2014, total_questions: 51, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 51, time_limit_minutes: 102 }] },
-      { exam_id: '2015Intl', exam_title: 'AP Calculus BC 2015 国际卷', subject: 'calculus_bc', year: 2015, total_questions: 45, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 45, time_limit_minutes: 102 }] },
-      { exam_id: '2016Intl', exam_title: 'AP Calculus BC 2016 国际卷', subject: 'calculus_bc', year: 2016, total_questions: 45, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 45, time_limit_minutes: 102 }] },
-      { exam_id: '2017Intl', exam_title: 'AP Calculus BC 2017 国际卷', subject: 'calculus_bc', year: 2017, total_questions: 45, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 45, time_limit_minutes: 102 }] },
-      { exam_id: '2018Intl', exam_title: 'AP Calculus BC 2018 国际卷', subject: 'calculus_bc', year: 2018, total_questions: 46, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 46, time_limit_minutes: 102 }] },
-      { exam_id: '2019Intl', exam_title: 'AP Calculus BC 2019 国际卷', subject: 'calculus_bc', year: 2019, total_questions: 57, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 57, time_limit_minutes: 102 }] },
-      { exam_id: '1902622411338911744', exam_title: 'AP Calculus BC 2017 国际卷 (API)', subject: 'calculus_bc', year: 2017, total_questions: 68, sections: [{ part_label: 'Section 1', calculator_allowed: false, question_count: 68, time_limit_minutes: 102 }] },
-      { exam_id: '1902622411800285184', exam_title: 'AP Calculus BC 2018 国际卷 (API)', subject: 'calculus_bc', year: 2018, total_questions: 69, sections: [{ part_label: 'Section 1', calculator_allowed: false, question_count: 69, time_limit_minutes: 102 }] }
+    const fallbackExams = [
+      { exam_id: 'calc-bc-2018-intl', exam_title: 'AP Calculus BC 2018 国际卷', subject: 'calculus_bc', year: 2018, total_questions: 45, sections: [{ part_label: 'Part A', calculator_allowed: false, question_count: 30, time_limit_minutes: 60 }, { part_label: 'Part B', calculator_allowed: true, question_count: 15, time_limit_minutes: 45 }] },
+      { exam_id: 'statistics-2018-intl', exam_title: 'AP Statistics 2018 国际卷', subject: 'statistics', year: 2018, total_questions: 40, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 40, time_limit_minutes: 90 }] },
+      { exam_id: 'microeconomics-2019-intl', exam_title: 'AP Microeconomics 2019 国际卷', subject: 'microeconomics', year: 2019, total_questions: 60, sections: [{ part_label: 'MCQ', calculator_allowed: false, question_count: 60, time_limit_minutes: 70 }] }
     ];
+
+    let examListData = fallbackExams;
 
     // 从 localStorage 读取进度
     function getProgress(examId) {
@@ -273,9 +254,31 @@
       return hours > 0 ? `${hours}小时${mins > 0 ? mins + '分钟' : ''}` : `${mins}分钟`;
     }
 
+    function normalizeExam(entry) {
+      return {
+        exam_id: entry.exam_id || entry.examId,
+        exam_title: entry.exam_title || entry.title,
+        subject: entry.subject || entry.subjectId,
+        year: Number(entry.year) || entry.year,
+        total_questions: entry.total_questions || entry.questionCount || 0,
+        sections: Array.isArray(entry.sections)
+          ? entry.sections
+          : [{
+              part_label: entry.sectionCount > 1 ? 'Multi-Part' : 'MCQ',
+              calculator_allowed: false,
+              question_count: entry.questionCount || 0,
+              time_limit_minutes: 60
+            }]
+      };
+    }
+
     function renderExamList() {
       const list = document.getElementById('exam-list');
-      list.innerHTML = defaultExams.map(exam => {
+      if (!examListData.length) {
+        list.innerHTML = '<div class="loading">暂无可用试卷</div>';
+        return;
+      }
+      list.innerHTML = examListData.map(exam => {
         const progress = getProgress(exam.exam_id);
 
         return `
@@ -300,6 +303,7 @@
           </div>
         `;
       }).join('');
+      filterExams();
     }
 
     // 过滤器
@@ -316,7 +320,23 @@
       });
     }
 
-    renderExamList();
+    async function initExamList() {
+      try {
+        const response = await fetch('../mock-data/exam-catalog.json');
+        if (!response.ok) {
+          throw new Error('catalog missing');
+        }
+        const catalog = await response.json();
+        if (Array.isArray(catalog.items) && catalog.items.length) {
+          examListData = catalog.items.map(normalizeExam);
+        }
+      } catch (error) {
+        console.warn('Falling back to bundled exam list', error);
+      }
+      renderExamList();
+    }
+
+    initExamList();
   </script>
 </body>
 </html>

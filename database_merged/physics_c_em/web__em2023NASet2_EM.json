@@ -1,0 +1,163 @@
+{
+  "examId": "em2023NASet2_EM",
+  "title": "AP Physics C: Electricity and Magnetism 2023年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "subjectId": "unknown",
+  "yearLabel": "2023",
+  "description": "AP Physics C: Electricity and Magnetism 2023年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "em2023NASet2_EM-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "Students perform an experiment to determine the value of vacuum permittivity $_{0}$. Sphere A is nonconducting with charge $+q$ and is attached to an insulating rod. Sphere B is nonconducting with charge $+Q$, and has mass $M$. Sphere B rests on an insulating platform of negligible mass that is attached to a vertical ideal spring with spring constant $k_{s}$. Sphere B and the spring are initially at rest. Sphere A is then brought near Sphere B without touching. When the centers of the spheres are separated by a vertical distance $H$, the spring has been compressed a distance $y$, as shown in the figure. The students measure $y$ for different values of $H$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the following dot that represents Sphere B in the figure on the previous page, draw and label the forces (not components) that are exerted on Sphere B. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-06.jpg?height=392&width=393&top_left_y=457&top_left_x=882\" alt=\"\" />"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive the relationship between $y$ and $H$ to show that $y=1{4 _{0}} Q q{k_{S} H^{2}}+M g{k_{s}}$. Continue your response to QUESTION 1 on this page."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The students plot collected data of $y$ as a function of $1{H^{2}}$, as shown in the graph. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-07.jpg?height=703&width=1244&top_left_y=396&top_left_x=430\" alt=\"\" /> i. Draw the best-fit line for the data. ii. Using the best-fit line, calculate an experimental value for the vacuum permittivity $_{0}$ when $Q=q=2.00 10^{-6} C$ and $k_{s}=25 ~N / m$. iii. Using the best-fit line, calculate an experimental value for the mass of Sphere B."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The students modify the experiment by replacing nonconducting Sphere B with conducting Sphere C that has the same charge $+Q$ and mass $M$. Sphere A is brought near Sphere C without touching, compressing the spring. Sphere C comes to rest. i. In the original experiment, when the centers of spheres A and B are a vertical distance $H_{1}$ apart, the spring is compressed a distance $y_{1}$. In the modified experiment, when the centers of spheres A and C are a vertical distance $H_{1}$ apart, the spring is compressed a distance $y_{2}$. Is $y_{2}$ greater than, less than, or equal to $y_{1}$ ? $$ { . } y_{2}>y_{1} { _ } y_{2}"
+            },
+            {
+              "partSign": "a",
+              "partContent": "On the following diagram of the bar, as observed from the Top View, draw an arrow indicating the direction of the net force $F_{ {net }}$ exerted on the bar at time $t_{B}$. If the net force is zero, write $F_{ {net }}=0$. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-10.jpg?height=200&width=49&top_left_y=424&top_left_x=1054\" alt=\"\" />"
+            },
+            {
+              "partSign": "b",
+              "partContent": "At time $t_{B}$, the speed of the bar is $v=2.5 ~m / s$. i. Calculate the magnitude of the current in the bar at time $t_{B}$. ii. Calculate the magnitude of the net force $F_{ {net }}$ exerted on the bar at time $t_{B}$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "On the following axes, sketch a graph of the speed $v$ of the bar as a function of time $t$ between $t=0$ and $t_{4}$. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-10.jpg?height=398&width=965&top_left_y=1898&top_left_x=596\" alt=\"\" />"
+            },
+            {
+              "partSign": "d",
+              "partContent": "The original scenario is repeated but with a new bar that has the same mass but with a nonnegligible resistance $R=0.20 $. The new bar is released from rest and smoothly transitions to the horizontal section of the rails and enters the first uniform magnetic field. i. Determine the total resistance of the closed circuit. ii. In the original scenario, the magnitude of the acceleration of the bar immediately after the bar enters the first uniform magnetic field is $a_{ {original }}$. In the new scenario, the magnitude of the acceleration of the bar immediately after the bar enters the first uniform magnetic field is $a_{ {new }}$. Is $a_{ {new }}$ greater than, less than, or equal to $a_{ {original }}$ ? Justify your answer."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Describe a modification to $H, B_{1}$, or $d$ that will result in a larger induced current in the new bar immediately after the bar enters the first uniform magnetic field. Justify your answer. Begin your response to QUESTION 3 on this page. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-12.jpg?height=526&width=822&top_left_y=237&top_left_x=596\" alt=\"\" /> 3. The circuit shown consists of an ideal battery of emf $E$, resistors 1 and 2 each with resistance $R$, capacitors 1 and 2 each with capacitance $C$, and a switch. The switch is initially open and both capacitors are uncharged. At time $t=0$, the switch is closed to Position A."
+            },
+            {
+              "partSign": "a",
+              "partContent": "Write, but do NOT solve, a differential equation that can be used to determine the charge $Q$ on the positive plate of Capacitor 1 as a function of time $t$ after the switch is closed to Position A. Express your answer in terms of $E, R, C, Q, t$, and fundamental constants, as appropriate. Continue your response to QUESTION 3 on this page."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On the axes shown, sketch graphs of the current $I_{R}$ in Resistor 1 and the energy $U_{C}$ stored in Capacitor 1 as functions of time $t$ from time $t=0$ until steady-state conditions are nearly reached. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-13.jpg?height=442&width=528&top_left_y=409&top_left_x=504\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-13.jpg?height=440&width=526&top_left_y=411&top_left_x=1127\" alt=\"\" /> A long time after the switch is closed to Position A, the total charge on the positive plate of Capacitor 1 is $Q_{0}$ and Capacitor 2 is uncharged."
+            },
+            {
+              "partSign": "c",
+              "partContent": "At time $t_{1}$, the switch is closed to Position B. i. Immediately after $t_{1}$, is the direction of the current in Resistor 1 directed up, directed down, or is there no current? Briefly justify your answer. ii. Determine an expression for the total charge on the positive plate of Capacitor 2 a long time after $t_{1}$. Express your answer in terms of $Q_{0}$ and fundamental constants, as appropriate. iii. Derive an expression for the total energy dissipated by Resistor 1 immediately after time $t_{1}$ until new steady-state conditions have been reached. Express your answer in terms of $C, Q_{0}$, and fundamental constants, as appropriate. With the switch still closed to Position B, a dielectric material with dielectric constant $=2$ is inserted between the plates of Capacitor 2."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Determine the charge on the positive plate of Capacitor 2 a long time after the dielectric has been inserted. Express your answer in terms of $Q_{0}$ and fundamental constants, as appropriate. Continue your response to QUESTION 3 on this page. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-15.jpg?height=603&width=1079&top_left_y=361&top_left_x=541\" alt=\"\" /> With the switch still closed to Position B, a wire of negligible resistance is connected between two corners of the circuit, as shown."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Express your answers to part (e)(i) and part (e)(ii) in terms of $R, C, Q_{0}$, and fundamental constants, as appropriate. i. Derive an expression for the current in Resistor 2 immediately after the wire is connected to the circuit. ii. Determine the current in Resistor 2 a long time after the wire is connected to the circuit."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "Students perform an experiment to determine the value of vacuum permittivity $_{0}$. Sphere A is nonconducting with charge $+q$ and is attached to an insulating rod. Sphere B is nonconducting with charge $+Q$, and has mass $M$. Sphere B rests on an insulating platform of negligible mass that is attached to a vertical ideal spring with spring constant $k_{s}$. Sphere B and the spring are initially at rest. Sphere A is then brought near Sphere B without touching. When the centers of the spheres are separated by a vertical distance $H$, the spring has been compressed a distance $y$, as shown in the figure. The students measure $y$ for different values of $H$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the following dot that represents Sphere B in the figure on the previous page, draw and label the forces (not components) that are exerted on Sphere B. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-06.jpg?height=392&width=393&top_left_y=457&top_left_x=882\" alt=\"\" />"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive the relationship between $y$ and $H$ to show that $y=1{4 _{0}} Q q{k_{S} H^{2}}+M g{k_{s}}$. Continue your response to QUESTION 1 on this page."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The students plot collected data of $y$ as a function of $1{H^{2}}$, as shown in the graph. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-07.jpg?height=703&width=1244&top_left_y=396&top_left_x=430\" alt=\"\" /> i. Draw the best-fit line for the data. ii. Using the best-fit line, calculate an experimental value for the vacuum permittivity $_{0}$ when $Q=q=2.00 10^{-6} C$ and $k_{s}=25 ~N / m$. iii. Using the best-fit line, calculate an experimental value for the mass of Sphere B."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The students modify the experiment by replacing nonconducting Sphere B with conducting Sphere C that has the same charge $+Q$ and mass $M$. Sphere A is brought near Sphere C without touching, compressing the spring. Sphere C comes to rest. i. In the original experiment, when the centers of spheres A and B are a vertical distance $H_{1}$ apart, the spring is compressed a distance $y_{1}$. In the modified experiment, when the centers of spheres A and C are a vertical distance $H_{1}$ apart, the spring is compressed a distance $y_{2}$. Is $y_{2}$ greater than, less than, or equal to $y_{1}$ ? $$ { . } y_{2}>y_{1} { _ } y_{2}"
+            },
+            {
+              "partSign": "a",
+              "partContent": "On the following diagram of the bar, as observed from the Top View, draw an arrow indicating the direction of the net force $F_{ {net }}$ exerted on the bar at time $t_{B}$. If the net force is zero, write $F_{ {net }}=0$. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-10.jpg?height=200&width=49&top_left_y=424&top_left_x=1054\" alt=\"\" />"
+            },
+            {
+              "partSign": "b",
+              "partContent": "At time $t_{B}$, the speed of the bar is $v=2.5 ~m / s$. i. Calculate the magnitude of the current in the bar at time $t_{B}$. ii. Calculate the magnitude of the net force $F_{ {net }}$ exerted on the bar at time $t_{B}$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "On the following axes, sketch a graph of the speed $v$ of the bar as a function of time $t$ between $t=0$ and $t_{4}$. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-10.jpg?height=398&width=965&top_left_y=1898&top_left_x=596\" alt=\"\" />"
+            },
+            {
+              "partSign": "d",
+              "partContent": "The original scenario is repeated but with a new bar that has the same mass but with a nonnegligible resistance $R=0.20 $. The new bar is released from rest and smoothly transitions to the horizontal section of the rails and enters the first uniform magnetic field. i. Determine the total resistance of the closed circuit. ii. In the original scenario, the magnitude of the acceleration of the bar immediately after the bar enters the first uniform magnetic field is $a_{ {original }}$. In the new scenario, the magnitude of the acceleration of the bar immediately after the bar enters the first uniform magnetic field is $a_{ {new }}$. Is $a_{ {new }}$ greater than, less than, or equal to $a_{ {original }}$ ? Justify your answer."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Describe a modification to $H, B_{1}$, or $d$ that will result in a larger induced current in the new bar immediately after the bar enters the first uniform magnetic field. Justify your answer. Begin your response to QUESTION 3 on this page. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-12.jpg?height=526&width=822&top_left_y=237&top_left_x=596\" alt=\"\" /> 3. The circuit shown consists of an ideal battery of emf $E$, resistors 1 and 2 each with resistance $R$, capacitors 1 and 2 each with capacitance $C$, and a switch. The switch is initially open and both capacitors are uncharged. At time $t=0$, the switch is closed to Position A."
+            },
+            {
+              "partSign": "a",
+              "partContent": "Write, but do NOT solve, a differential equation that can be used to determine the charge $Q$ on the positive plate of Capacitor 1 as a function of time $t$ after the switch is closed to Position A. Express your answer in terms of $E, R, C, Q, t$, and fundamental constants, as appropriate. Continue your response to QUESTION 3 on this page."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On the axes shown, sketch graphs of the current $I_{R}$ in Resistor 1 and the energy $U_{C}$ stored in Capacitor 1 as functions of time $t$ from time $t=0$ until steady-state conditions are nearly reached. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-13.jpg?height=442&width=528&top_left_y=409&top_left_x=504\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-13.jpg?height=440&width=526&top_left_y=411&top_left_x=1127\" alt=\"\" /> A long time after the switch is closed to Position A, the total charge on the positive plate of Capacitor 1 is $Q_{0}$ and Capacitor 2 is uncharged."
+            },
+            {
+              "partSign": "c",
+              "partContent": "At time $t_{1}$, the switch is closed to Position B. i. Immediately after $t_{1}$, is the direction of the current in Resistor 1 directed up, directed down, or is there no current? Briefly justify your answer. ii. Determine an expression for the total charge on the positive plate of Capacitor 2 a long time after $t_{1}$. Express your answer in terms of $Q_{0}$ and fundamental constants, as appropriate. iii. Derive an expression for the total energy dissipated by Resistor 1 immediately after time $t_{1}$ until new steady-state conditions have been reached. Express your answer in terms of $C, Q_{0}$, and fundamental constants, as appropriate. With the switch still closed to Position B, a dielectric material with dielectric constant $=2$ is inserted between the plates of Capacitor 2."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Determine the charge on the positive plate of Capacitor 2 a long time after the dielectric has been inserted. Express your answer in terms of $Q_{0}$ and fundamental constants, as appropriate. Continue your response to QUESTION 3 on this page. <img src=\"https://cdn.mathpix.com/cropped/4b22eff5-5762-4654-abdd-d5e64b90aa6c-15.jpg?height=603&width=1079&top_left_y=361&top_left_x=541\" alt=\"\" /> With the switch still closed to Position B, a wire of negligible resistance is connected between two corners of the circuit, as shown."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Express your answers to part (e)(i) and part (e)(ii) in terms of $R, C, Q_{0}$, and fundamental constants, as appropriate. i. Derive an expression for the current in Resistor 2 immediately after the wire is connected to the circuit. ii. Determine the current in Resistor 2 a long time after the wire is connected to the circuit."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Express your answers to part (e)(i) and part (e)(ii) in terms of $R, C, Q_{0}$, and fundamental constants, as appropriate. i. Derive an expression for the current in Resistor 2 immediately after the wire is connected to the circuit. ii. Determine the current in Resistor 2 a long time after the wire is connected to the circuit."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

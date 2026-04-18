@@ -1,0 +1,1039 @@
+{
+  "examId": "2019Intl",
+  "title": "AP Physics C: Electricity and Magnetism 2019年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2019",
+  "description": "AP Physics C: Electricity and Magnetism 2019年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "Two positive point charges, both of magnitude $4.0 10^{-6} C$, are situated along the $x$-axis at $x_{1}=-2.0 ~m$ and $x_{2}=+2.0 ~m$. What is the electric potential at the origin of the $xy$-coordinate system? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-04.jpg?height=326&amp;width=553&amp;top_left_y=592&amp;top_left_x=1266)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-3.6 10^{4} ~V$"
+            },
+            {
+              "key": "B",
+              "content": "$-1.8 10^{4} ~V$"
+            },
+            {
+              "key": "C",
+              "content": "0 V"
+            },
+            {
+              "key": "D",
+              "content": "$1.8 10^{4} ~V$"
+            },
+            {
+              "key": "E",
+              "content": "$3.6 10^{4} ~V$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "A grounded spherical conductor is on an insulating stand. A positively charged rod is brought close to the sphere but does not touch the sphere, as shown above. The rod is moved far away and then the grounding wire is removed. Which of the following describes the resulting charge on the sphere? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-05.jpg?height=351&amp;width=350&amp;top_left_y=151&amp;top_left_x=409 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "Positive"
+            },
+            {
+              "key": "B",
+              "content": "Negative"
+            },
+            {
+              "key": "C",
+              "content": "No net charge, but it is polarized with positive charges on the left side of the sphere"
+            },
+            {
+              "key": "D",
+              "content": "No net charge, but it is polarized with negative charges on the left side of the sphere"
+            },
+            {
+              "key": "E",
+              "content": "No net charge and no polarization"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "An electric dipole consisting of a positive charge and a negative charge held a fixed distance apart is at rest in an external, nonuniform electric field $E$, as shown in the figure above. Which of the following best describes the net torque and net force exerted on the dipole?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Net Torque &amp; Net Force \\\\"
+            },
+            {
+              "key": "B",
+              "content": "Clockwise &amp; To the left \\\\"
+            },
+            {
+              "key": "C",
+              "content": "Counterclockwise &amp; To the right \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Counterclockwise &amp; To the right \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Zero &amp; Zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "Points $A$ and $B$ shown above are in the plane of the page and 5 meters apart. The points are located in a uniform electric field of magnitude $1000 ~V / m$ directed toward the bottom of the page. When a proton (of charge $+e$ ) moves from point $A$ to point $B$, how much work is done on the proton by the electric field?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-5000 eV"
+            },
+            {
+              "key": "B",
+              "content": "-3000 eV"
+            },
+            {
+              "key": "C",
+              "content": "+3000 eV"
+            },
+            {
+              "key": "D",
+              "content": "+4000 eV"
+            },
+            {
+              "key": "E",
+              "content": "+5000 eV"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Which of the following must be true for a Gaussian surface through which the net flux is zero? I. There are no charges inside the surface. II. The net charge enclosed by the surface is zero. III. The electric field is zero everywhere on the surface. ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-06.jpg?height=91&amp;width=268&amp;top_left_y=157&amp;top_left_x=1121 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "Four isolated arrangements of charged spheres are created for an experiment, as shown above. Which of the following correctly compares the electric potential energy $U$ of the arrangements? Assume $U=0$ when the charges are an infinite distance apart. ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-07.jpg?height=368&amp;width=848&amp;top_left_y=151&amp;top_left_x=159)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$U_{A}&gt;U_{B}&gt;U_{C}&gt;U_{D}$"
+            },
+            {
+              "key": "B",
+              "content": "$U_{A}&gt;U_{C}&gt;U_{B}&gt;U_{D}$"
+            },
+            {
+              "key": "C",
+              "content": "$U_{B}&gt;U_{D}&gt;U_{A}&gt;U_{C}$"
+            },
+            {
+              "key": "D",
+              "content": "$U_{D}&gt;U_{C}&gt;U_{B}&gt;U_{A}$"
+            },
+            {
+              "key": "E",
+              "content": "$U_{A}&gt;U_{B}&gt;U_{D}&gt;U_{C}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "Conducting spheres A and B of charges $-q$ and $+3 q$, respectively, are separated by a distance $d$, as shown in the figure above. Which of the following statements is true about the two spheres? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-07.jpg?height=440&amp;width=537&amp;top_left_y=195&amp;top_left_x=1272)",
+          "options": [
+            {
+              "key": "A",
+              "content": "The magnitude of the force sphere A exerts on sphere B is three times larger than the magnitude of the force sphere B exerts on sphere A."
+            },
+            {
+              "key": "B",
+              "content": "The magnitude of the force sphere B exerts on sphere A is three times larger than the magnitude of the force sphere A exerts on sphere B."
+            },
+            {
+              "key": "C",
+              "content": "The force sphere B exerts on sphere A is equal in magnitude to the force sphere A exerts on sphere B."
+            },
+            {
+              "key": "D",
+              "content": "If the spheres are free to move, the magnitude of the force sphere B exerts on sphere A will decrease as the spheres move."
+            },
+            {
+              "key": "E",
+              "content": "If the spheres are brought into contact with each other and then returned to the positions shown, the two spheres will attract each other."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Two conducting plates hold equal and opposite charges that create an electric field of magnitude $E=95 ~N / C$ that is directed to the right, as shown in the figure above. Points A and B are 0.75 cm apart with A closer to the positive plate. A proton is released from rest at point A . What is the kinetic energy of the proton when it reaches point B ? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-08.jpg?height=335&amp;width=759&amp;top_left_y=235&amp;top_left_x=205) The figure above shows a cross section of a solid, isolated, metallic conductor in electrostatic equilibrium with a net charge $+Q$. The two ends of the conductor are spherical surfaces of radii $r_{X}$ and $r_{Y}$, where $r_{X}",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$+1.14 10^{-19} ~J$"
+            },
+            {
+              "key": "C",
+              "content": "$+1.52 10^{-17} ~J$"
+            },
+            {
+              "key": "D",
+              "content": "$+1.92 10^{-7} ~J$"
+            },
+            {
+              "key": "E",
+              "content": "+71 J"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "Assuming that the electric potential is zero an infinite distance from the conductor, which of the following statements is true about the magnitude of the electric potential at points X and Y ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "It is greater at point X than at point Y ."
+            },
+            {
+              "key": "B",
+              "content": "It is greater at point Y than at point X ."
+            },
+            {
+              "key": "C",
+              "content": "It is zero at both points X and Y ."
+            },
+            {
+              "key": "D",
+              "content": "It has the same nonzero value at both points X and Y ."
+            },
+            {
+              "key": "E",
+              "content": "There is not enough information to determine at which point, if either, the magnitude of the electric potential is greater."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "Which of the following is true about the magnitude of the electric field just outside the surface of the conductor at points X and Y ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "It is greater at point X than at point Y ."
+            },
+            {
+              "key": "B",
+              "content": "It is greater at point Y than at point X ."
+            },
+            {
+              "key": "C",
+              "content": "It is zero at both points X and Y ."
+            },
+            {
+              "key": "D",
+              "content": "It has the same nonzero value at both points X and Y ."
+            },
+            {
+              "key": "E",
+              "content": "There is not enough information to determine at which point, if either, the magnitude of the electric field is greater."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "A parallel-plate capacitor is connected across a voltage $V$ so that each plate of the capacitor collects a charge of magnitude $Q$. Which of the following is an expression for the energy stored in the capacitor? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-09.jpg?height=538&amp;width=505&amp;top_left_y=239&amp;top_left_x=331) Two concentric spherical conducting shells and four labeled points are shown above. The outer shell has a net charge $Q=-20 nC$. The inner shell has a net charge $q=+10 nC$.",
+          "options": [
+            {
+              "key": "A",
+              "content": "$QV$"
+            },
+            {
+              "key": "B",
+              "content": "$Q{V}$"
+            },
+            {
+              "key": "C",
+              "content": "$V{Q}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2} QV$"
+            },
+            {
+              "key": "E",
+              "content": "$1{2} QV^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "What is the charge on the outer surface of the outer shell?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-30 nC"
+            },
+            {
+              "key": "B",
+              "content": "-20 nC"
+            },
+            {
+              "key": "C",
+              "content": "-10 nC"
+            },
+            {
+              "key": "D",
+              "content": "+10 nC"
+            },
+            {
+              "key": "E",
+              "content": "+30 nC"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "The magnitudes of the electric fields at the four labeled points in the figure are $E_{R}, E_{S}, E_{T}$, and $E_{U}$, respectively. Which of the following correctly ranks the points according to the magnitude of their electric fields?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$E_{R}=E_{S}=E_{T}=E_{U}$"
+            },
+            {
+              "key": "B",
+              "content": "$E_{S}&gt;E_{T}&gt;(E_{R}=E_{U})$"
+            },
+            {
+              "key": "C",
+              "content": "$(E_{S}=E_{T})&gt;E_{U}&gt;E_{R}$"
+            },
+            {
+              "key": "D",
+              "content": "$E_{T}&gt;E_{S}&gt;E_{R}&gt;E_{U}$"
+            },
+            {
+              "key": "E",
+              "content": "$(E_{S}=E_{T})&gt;(E_{R}=E_{U})$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "A parallel plate capacitor is connected to a battery, fully charged, disconnected, and isolated from the battery. A dielectric slab is then inserted between the plates of the capacitor. Which of the following is a true statement about what happens when the dielectric slab is inserted? A ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-09.jpg?height=213&amp;width=136&amp;top_left_y=982&amp;top_left_x=1295) B ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-09.jpg?height=215&amp;width=251&amp;top_left_y=982&amp;top_left_x=1549) C ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-09.jpg?height=201&amp;width=129&amp;top_left_y=1301&amp;top_left_x=1293) D",
+          "options": [
+            {
+              "key": "A",
+              "content": "The magnitude of the electric field between the plates of the capacitor will increase."
+            },
+            {
+              "key": "B",
+              "content": "The potential difference between the plates of the capacitor will decrease."
+            },
+            {
+              "key": "C",
+              "content": "The capacitance of the capacitor will decrease."
+            },
+            {
+              "key": "D",
+              "content": "The charge stored on the capacitor will increase."
+            },
+            {
+              "key": "E",
+              "content": "The energy stored in the capacitor will increase."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Four parallel plate capacitors all have the same plate area and have the plate separations shown above. Both capacitors A and B have air between the plates, while the space between the plates of both capacitors C and D is filled with a dielectric slab of dielectric constant $=2$. Which of the following correctly ranks the capacitors in order of their capacitance from largest to smallest ? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-10.jpg?height=280&amp;width=665&amp;top_left_y=235&amp;top_left_x=247) Two resistors of resistances $R$ and $12 $ are connected to a battery of emf 18 V , as shown in the figure above. The battery has an internal resistance of $r$. The current in the battery is 1.5 A , and the current in the $12 $ resistor is 1.0 A .",
+          "options": [
+            {
+              "key": "A",
+              "content": "$B&gt;(A=D)&gt;C$"
+            },
+            {
+              "key": "B",
+              "content": "$(A=C)&gt;(B=D)$"
+            },
+            {
+              "key": "C",
+              "content": "C $&gt;($ A $=$ D $)&gt;$ B"
+            },
+            {
+              "key": "D",
+              "content": "$(B=D)&gt;(A=C)$"
+            },
+            {
+              "key": "E",
+              "content": "D $&gt;$ C $&gt;$ B $&gt;$ A"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "What is the resistance $R$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$7.2 $"
+            },
+            {
+              "key": "B",
+              "content": "$12 $"
+            },
+            {
+              "key": "C",
+              "content": "$18 $"
+            },
+            {
+              "key": "D",
+              "content": "$24 $"
+            },
+            {
+              "key": "E",
+              "content": "$45 $"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "What is the internal resistance of the battery? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-10.jpg?height=228&amp;width=625&amp;top_left_y=155&amp;top_left_x=1230)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$4.0 $"
+            },
+            {
+              "key": "B",
+              "content": "$6.0 $"
+            },
+            {
+              "key": "C",
+              "content": "$12 $"
+            },
+            {
+              "key": "D",
+              "content": "$18 $"
+            },
+            {
+              "key": "E",
+              "content": "$36 $"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "The capacitor in the circuit represented above is uncharged when the switch is at position $B$. The switch is then moved to position $A$. What is the energy stored by the capacitor when the current in the circuit is 2.0 mA ? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-11.jpg?height=194&amp;width=736&amp;top_left_y=237&amp;top_left_x=218) A capacitor of capacitance $C_{a}$ is first charged to a voltage $V_{0}$, as shown above on the left. Without losing any charge, the capacitor is now disconnected from the voltage source and connected to a second initially uncharged capacitor of capacitance $C_{b}$ that is three times $C_{a}$, and the circuit is allowed to reach equilibrium, as shown above on the right.",
+          "options": [
+            {
+              "key": "A",
+              "content": "8 mJ"
+            },
+            {
+              "key": "B",
+              "content": "2 mJ"
+            },
+            {
+              "key": "C",
+              "content": "0 mJ"
+            },
+            {
+              "key": "D",
+              "content": "16 mJ"
+            },
+            {
+              "key": "E",
+              "content": "18 mJ"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "If $Q_{a}$ is the new charge on capacitor $C_{a}$, the charge $Q_{b}$ on capacitor $C_{b}$ is given by",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$Q_{a} / 3$"
+            },
+            {
+              "key": "C",
+              "content": "$Q_{a} / 2$"
+            },
+            {
+              "key": "D",
+              "content": "$Q_{a}$"
+            },
+            {
+              "key": "E",
+              "content": "$3 Q_{a}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "The new voltage across capacitor $C_{a}$ is $V_{a}$. How does this new voltage compare with the original voltage of $V_{0}$ ? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-11.jpg?height=280&amp;width=497&amp;top_left_y=151&amp;top_left_x=1356)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$V_{a}&gt;V_{0}$"
+            },
+            {
+              "key": "B",
+              "content": "$V_{a}"
+            },
+            {
+              "key": "C",
+              "content": "$V_{a}=V_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "It depends on the value of $C_{a}$."
+            },
+            {
+              "key": "E",
+              "content": "It depends on the value of $C_{b}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "A circuit contains three identical light bulbs and a switch S connected to an ideal battery of emf $ { E }$, as shown in the figure above. The switch is initially open and bulbs A and B have equal brightness, while C is not lit. What happens to the brightness of bulbs A and B when the switch S is closed and bulb C lights up? &amp; Bulb A \\\\ ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-12.jpg?height=414&amp;width=724&amp;top_left_y=235&amp;top_left_x=224) The circuit shown above has three capacitors and a 12 V battery. The capacitors are charged to steady state conditions.",
+          "options": [
+            {
+              "key": "A",
+              "content": "Remains the same &amp; Bulb B \\\\"
+            },
+            {
+              "key": "B",
+              "content": "Becomes dimmer &amp; Becomes dimmer \\\\"
+            },
+            {
+              "key": "C",
+              "content": "Becomes brighter &amp; Becomes dimmer \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Becomes brighter &amp; Not lit \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Remains the same &amp; Not lit"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "What is the potential difference across capacitor $C_{1}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 V"
+            },
+            {
+              "key": "B",
+              "content": "0 V"
+            },
+            {
+              "key": "C",
+              "content": "0 V"
+            },
+            {
+              "key": "D",
+              "content": "0 V"
+            },
+            {
+              "key": "E",
+              "content": "12 V"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "One of the capacitors is removed from the circuit and isolated. While it still holds all of its charge, a piece of ceramic with dielectric constant of 2 is inserted and completely fills the space between the plates. $U_{i}$ is the energy stored in the capacitor before the dielectric was inserted, and $U_{f}$ is the energy stored in the capacitor after the dielectric was inserted. What is the ratio $U_{f} / U_{i}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 / 4$"
+            },
+            {
+              "key": "B",
+              "content": "$1 / 2$"
+            },
+            {
+              "key": "C",
+              "content": "$1 / 1$"
+            },
+            {
+              "key": "D",
+              "content": "$2 / 1$"
+            },
+            {
+              "key": "E",
+              "content": "$4 / 1$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "A long, straight wire of radius $R$ carries current $I$. The current is distributed over the cross-sectional area of the wire with a uniform current density. Which of the following graphs best represents the magnetic field strength produced by the current as a function of the distance $r$ from the center of the wire?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-13.jpg?height=318&amp;width=375&amp;top_left_y=478&amp;top_left_x=287)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-13.jpg?height=323&amp;width=375&amp;top_left_y=793&amp;top_left_x=289)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-13.jpg?height=320&amp;width=419&amp;top_left_y=1115&amp;top_left_x=289)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-13.jpg?height=318&amp;width=373&amp;top_left_y=1436&amp;top_left_x=289)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-13.jpg?height=318&amp;width=373&amp;top_left_y=1755&amp;top_left_x=289)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "Which of the following expressions represents the magnitude of the magnetic field at point R ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "$_{0 I}{2 d}$"
+            },
+            {
+              "key": "C",
+              "content": "$_{0 I}{ d}$"
+            },
+            {
+              "key": "D",
+              "content": "$4 _{0 I}{3 d}$"
+            },
+            {
+              "key": "E",
+              "content": "$2 _{0 I}{3 d}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "Which of the following best represents the direction of the net magnetic field at point P ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-14.jpg?height=77&amp;width=121&amp;top_left_y=270&amp;top_left_x=1247)"
+            },
+            {
+              "key": "B",
+              "content": "⟶"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-14.jpg?height=133&amp;width=71&amp;top_left_y=508&amp;top_left_x=1255)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-14.jpg?height=45&amp;width=131&amp;top_left_y=676&amp;top_left_x=1249)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-14.jpg?height=137&amp;width=75&amp;top_left_y=798&amp;top_left_x=1255)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "If $B_{S}$ is the magnitude of the magnetic field at point P due to wire S , which of the following gives the magnitude and direction of the magnetic field at point P due to all three wires? &amp; Magnitude &amp; &amp; Direction \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "&amp; $B_{S} / 2$ &amp; &amp; Top of the page \\\\"
+            },
+            {
+              "key": "B",
+              "content": "&amp; $B_{S} / 2$ &amp; &amp; Bottom of the page \\\\"
+            },
+            {
+              "key": "C",
+              "content": "&amp; $B_{S}$ &amp; &amp; Top of the page \\\\"
+            },
+            {
+              "key": "D",
+              "content": "&amp; $5 B_{S} / 2$ &amp; &amp; Top of the page \\\\"
+            },
+            {
+              "key": "E",
+              "content": "&amp; $5 B_{S} / 2$ &amp; &amp; Bottom of the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "To which of the following locations, if any, could wire S be moved so that the total magnetic force exerted on it by the other two wires is zero? An electron is traveling with speed $v$ when it enters a uniform magnetic field that is directed into the page, as shown above. Five paths in the magnetic field are labeled A, B, C, D, and E.",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-d"
+            },
+            {
+              "key": "B",
+              "content": "$0"
+            },
+            {
+              "key": "C",
+              "content": "$d"
+            },
+            {
+              "key": "D",
+              "content": "$2 d"
+            },
+            {
+              "key": "E",
+              "content": "There is no position in the vicinity of the wires at which the magnetic force on wire S would be zero."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "Which labeled path best shows the path the electron will follow as it travels through the magnetic field?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Path A"
+            },
+            {
+              "key": "B",
+              "content": "Path B"
+            },
+            {
+              "key": "C",
+              "content": "Path C"
+            },
+            {
+              "key": "D",
+              "content": "Path D"
+            },
+            {
+              "key": "E",
+              "content": "Path E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "The electron is replaced with a proton that is traveling at the same speed $v$ in the same direction as it enters the magnetic field. Which of the following best describes the motion of the proton as it passes through the magnetic field? I. The speed of the proton changes less than the speed of the electron did. II. The proton is deflected in the opposite direction. III. The proton is deflected more than the electron. ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-16.jpg?height=230&amp;width=543&amp;top_left_y=163&amp;top_left_x=1270)",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "I and II only"
+            },
+            {
+              "key": "C",
+              "content": "II only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "An electron of mass $m$ and charge $-e$ is traveling to the right parallel to a wire with speed $v$. The electron is a distance $d$ from the wire. The wire is carrying a current $I$ to the right, as shown in the figure above. Which of the following gives the magnitude and direction of the force exerted on the electron by the current-carrying wire? Magnitude Direction ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-17.jpg?height=247&amp;width=264&amp;top_left_y=159&amp;top_left_x=453)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{0 Iev}{2 d} $ Toward the top of the page"
+            },
+            {
+              "key": "B",
+              "content": "$_{0 Iev}{2 d} $ Out of the page"
+            },
+            {
+              "key": "C",
+              "content": "$_{0 Iev}{2 d} $ Into the page"
+            },
+            {
+              "key": "D",
+              "content": "$_{0 Iev}{2 md} $ Toward the top of the page"
+            },
+            {
+              "key": "E",
+              "content": "$_{0 Iev}{2 md} $ Out of the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "Two small spheres have equal and opposite charges and are travelling parallel to each other with speed $v$ to the right, as shown above. What is the direction of the magnetic field midway between the spheres at the instant shown? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-17.jpg?height=209&amp;width=719&amp;top_left_y=155&amp;top_left_x=1184)",
+          "options": [
+            {
+              "key": "A",
+              "content": "Out of the page"
+            },
+            {
+              "key": "B",
+              "content": "Into the page"
+            },
+            {
+              "key": "C",
+              "content": "Toward the bottom of the page"
+            },
+            {
+              "key": "D",
+              "content": "Toward the top of the page"
+            },
+            {
+              "key": "E",
+              "content": "Undefined, since the magnitude of the magnetic field is zero."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "A magnetic field of magnitude 4.0 T is directed at an angle of $30^{}$ to the plane of a rectangular loop of area $5.0 ~m^{2}$, as shown above. What is the magnetic flux through the loop? ![](https://cdn.mathpix.com/cropped/0561135f-c6c9-410e-a20a-93ad324e6040-18.jpg?height=190&amp;width=486&amp;top_left_y=277&amp;top_left_x=340)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$10 ~T ~m^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$12 ~T ~m^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$17 ~T ~m^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$20 ~T ~m^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$40 ~T ~m^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "A rectangular conducting loop is located above a long, straight wire carrying a current $I$ to the right, as shown in the figure above. The wire and loop are both in the plane of the page. Which of the following will induce a clockwise current in the loop?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Decreasing the current in the wire"
+            },
+            {
+              "key": "B",
+              "content": "Moving the loop to the right"
+            },
+            {
+              "key": "C",
+              "content": "Moving the loop to the left"
+            },
+            {
+              "key": "D",
+              "content": "Moving the loop up away from the wire"
+            },
+            {
+              "key": "E",
+              "content": "Moving the loop down toward the wire"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "A wire loop with width $w$ and height $h$ is in a magnetic field that is directed into the page, as shown in the figure above. The magnitude $B$ of the magnetic field changes with time $t$. The magnitude of the resulting induced emf in the wire loop is given as a function of time by the equation $E= hwt^{3}$, where $$ is a positive constant in units of $T / s^{4}$. Which of the following is a possible expression for the magnitude of the magnetic field?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{4} t^{3}$"
+            },
+            {
+              "key": "B",
+              "content": "$3 t^{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$3 hwt^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{4} hwt^{4}$"
+            },
+            {
+              "key": "E",
+              "content": "$1{4} t^{4}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

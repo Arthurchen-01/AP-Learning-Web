@@ -1,0 +1,122 @@
+{
+  "examId": "2019NASet2",
+  "title": "AP 物理C力学 2019年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2019",
+  "description": "AP 物理C力学 2019年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2019NASet2-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "2",
+          "type": "free-response",
+          "prompt": "locks of mass $m$ and $2 m$ are connected by a light string and placed on a frictionless inclined plane that makes an angle $\\theta$ with the horizontal, as shown in Figure 1 above. Another light string connecting the block of mass $m$ to a hanging sphere of mass $M$ passes over a pulley of negligible mass and negligible friction. The entire system is initially at rest and in equilibrium.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "On the dots below that represent the block of mass $m$ and the sphere of mass $M$, draw and label the forces (not components) that act on each of the objects shown. Each force must be represented by a distinct arrow starting on and pointing away from the dot."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive expressions for the magnitude of each of the following. If you need to draw anything other than what you have shown in part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "to assist in your solution, use the space below. Do NOT add anything to the figures in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "Now suppose that mass $M$ is large enough to descend and that the sphere reaches the floor before the blocks reach the pulley. Answer the following for the moment immediately after the sphere reaches the floor.\ni. Does the tension $T_{1}$ increase, decrease to a nonzero value, decrease to zero, or stay the same?\n$\\_\\_\\_\\_$ Increase $\\_\\_\\_\\_$ Decrease to a nonzero value\n$\\_\\_\\_\\_$ Decrease to zero $\\_\\_\\_\\_$ Stay the same\nii. Is the velocity of the block of mass $m$ up the ramp, down the ramp, or zero?\n$\\_\\_\\_\\_$ Up the ramp $\\_\\_\\_\\_$ Down the ramp $\\_\\_\\_\\_$ Zero\niii. Is the acceleration of the block of mass $m$ up the ramp, down the ramp, or zero?\n$\\_\\_\\_\\_$ Up the ramp $\\_\\_\\_\\_$ Down the ramp $\\_\\_\\_\\_$ Zero"
+            },
+            {
+              "partSign": "d",
+              "partContent": "Consider the initial setup in Figure 1. Now suppose the surface of the incline is rough and the coefficient of static friction between the blocks and the inclined plane is $\\mu_{s}$. Derive an expression for the minimum possible value of $M$ that will keep the blocks from moving down the incline. Express your answer in terms of $m, \\mu_{s}, \\theta$, and fundamental constants, as appropriate."
+            },
+            {
+              "partSign": "e",
+              "partContent": "The string connecting block $m$ and the sphere of mass $M$ then breaks, and the blocks begin to move from rest down the incline. The lower block starts a distance $d$ from the bottom of the incline, as shown in Figure 1. The coefficient of kinetic friction between the blocks and the inclined plane is $\\mu_{k}$. Derive an expression for the speed of the blocks when the lower block reaches the bottom of the incline. Express your answer in terms of $m, d, \\mu_{k}, \\theta$, and fundamental constants, as appropriate."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "free-response",
+          "prompt": "toy rocket of mass 0.50 kg starts from rest on the ground and is launched upward, experiencing a vertical net force. The rocket's upward acceleration $a$ for the first 6 seconds is given by the equation $a=K-L t^{2}$, where $K=9.0 \\mathrm{~m} / \\mathrm{s}^{2}, L=0.25 \\mathrm{~m} / \\mathrm{s}^{4}$, and $t$ is the time in seconds. At $t=6.0 \\mathrm{~s}$, the fuel is exhausted and the rocket is under the influence of gravity alone. Assume air resistance and the rocket's change in mass are negligible.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Calculate the magnitude of the net impulse exerted on the rocket from $t=0$ to $t=6.0 \\mathrm{~s}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Calculate the speed of the rocket at $t=6.0 \\mathrm{~s}$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "i. Calculate the kinetic energy of the rocket at $t=6.0 \\mathrm{~s}$.\nii. Calculate the change in gravitational potential energy of the rocket-Earth system from $t=0$ to $t=6.0 \\mathrm{~s}$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Calculate the maximum height reached by the rocket relative to its launching point."
+            },
+            {
+              "partSign": "e",
+              "partContent": "On the axes below, assuming the upward direction to be positive, sketch a graph of the velocity $v$ of the rocket as a function of time $t$ from the time the rocket is launched to the time it returns to the ground.\n$T_{\\text {top }}$ represents the time the rocket reaches its maximum height. Explicitly label the maxima with numerical values or algebraic expressions, as appropriate.\n\nNote: Figure not drawn to scale."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "free-response",
+          "prompt": "he rotational inertia of a rolling object may be written in terms of its mass $m$ and radius $r$ as $I=b m r^{2}$, where $b$ is a numerical value based on the distribution of mass within the rolling object. Students wish to conduct an experiment to determine the value of $b$ for a partially hollowed sphere. The students use a looped track of radius $R \\gg r$, as shown in the figure above. The sphere is released from rest a height $h$ above the floor and rolls around the loop.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Derive an expression for the minimum speed of the sphere's center of mass that will allow the sphere to just pass point $A$ without losing contact with the track. Express your answer in terms of $b, m, R$, and fundamental constants, as appropriate."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Suppose the sphere is released from rest at some point $P$ and rolls without slipping. Derive an equation for the minimum release height $h$ that will allow the sphere to pass point $A$ without losing contact with the track. Express your answer in terms of $b, m, R$, and fundamental constants, as appropriate.\n\nThe students perform an experiment by determining the minimum release height $h$ for various other objects of radius $r$ and known values of $b$. They collect the following data."
+            },
+            {
+              "partSign": "c",
+              "partContent": "On the grid below, plot the release height $h$ as a function of $b$. Clearly scale and label all axes, including units, if appropriate. Draw a straight line that best represents the data."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The students repeat the experiment with the partially hollowed sphere and determine the minimum release height to be 1.16 m . Using the straight line from part"
+            },
+            {
+              "partSign": "e",
+              "partContent": "Calculate $R$, the radius of the loop.\n(f) In part"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

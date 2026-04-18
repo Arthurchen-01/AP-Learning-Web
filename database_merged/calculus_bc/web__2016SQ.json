@@ -1,0 +1,1213 @@
+{
+  "examId": "2016SQ",
+  "title": "AP 微积分BC 2016年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2016",
+  "description": "AP 微积分BC 2016年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2016SQ-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "If $f(x)=\\left(x^{2}-3\\right)^{4}$, then $f^{\\prime}(1)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "-64"
+            },
+            {
+              "key": "B",
+              "content": "-32"
+            },
+            {
+              "key": "C",
+              "content": "-16"
+            },
+            {
+              "key": "D",
+              "content": "32"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "$\\int_{-2}^{1}\\left(8 x^{3}-3 x^{2}\\right) d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "-561"
+            },
+            {
+              "key": "B",
+              "content": "-90"
+            },
+            {
+              "key": "C",
+              "content": "-39"
+            },
+            {
+              "key": "D",
+              "content": "81"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "An object moves in the $x y$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{3}-3 t^{2}+2$ and $y(t)=\\sqrt{t^{2}+16}$. What is the rate of change of $y$ with respect to $x$ when $t=3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{90}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{15}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{3}{5}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{5}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "Snow is falling at a rate of $r(t)=2 e^{-0.1 t}$ inches per hour, where $t$ is the time in hours since the beginning of the snowfall. Which of the following expressions gives the amount of snow, in inches, that falls from time $t=0$ to time $t=5$ hours?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2 e^{-0.5}-2$"
+            },
+            {
+              "key": "B",
+              "content": "$0.2-0.2 e^{-0.5}$"
+            },
+            {
+              "key": "C",
+              "content": "$4-4 e^{-0.5}$"
+            },
+            {
+              "key": "D",
+              "content": "$20-20 e^{-0.5}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "If $e^{x}-y=x y^{3}+e^{2}-18$, what is the value of $\\frac{d y}{d x}$ at the point $(2,2)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$e^{2}-32$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{e^{2}-9}{24}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{e^{2}-8}{25}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{e^{2}}{13}$\n\n\\begin{tabular}{|c||c|c|c|c|}\n\\hline \\begin{tabular}{c}\n$t$ \\\\\n(hours)\n\\end{tabular} & 0 & 2 & 7 & 9 \\\\\n\\hline \\begin{tabular}{c}\n$R(t)$ \\\\\n(tons per hour)\n\\end{tabular} & 15 & 9 & 5 & 4 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "On a certain day, the rate at which material is deposited at a recycling center is modeled by the function $R$, where $R(t)$ is measured in tons per hour and $t$ is the number of hours since the center opened. Using a trapezoidal sum with the three subintervals indicated by the data in the table, what is the approximate number of tons of material deposited in the first 9 hours since the center opened?",
+          "options": [
+            {
+              "key": "A",
+              "content": "68"
+            },
+            {
+              "key": "B",
+              "content": "5"
+            },
+            {
+              "key": "C",
+              "content": "85"
+            },
+            {
+              "key": "D",
+              "content": "136"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "At time $t \\geq 0$, a particle moving in the $x y$-plane has a velocity vector given by $v(t)=\\left\\langle\\cos (2 t), e^{3 t}\\right\\rangle$. What is the acceleration vector of the particle?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\left\\langle-2 \\sin (2 t), 3 e^{3 t}\\right\\rangle$"
+            },
+            {
+              "key": "B",
+              "content": "$\\left\\langle-2 \\sin (2 t), e^{3 t}\\right\\rangle$"
+            },
+            {
+              "key": "C",
+              "content": "$\\left\\langle\\frac{1}{2} \\sin (2 t), \\frac{1}{3} e^{3 t}\\right\\rangle$"
+            },
+            {
+              "key": "D",
+              "content": "$\\left\\langle 2 \\sin (2 t), 3 e^{3 t}\\right\\rangle$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Consider the geometric series $\\sum_{n=1}^{\\infty} a_{n}$, where $a_{n}>0$ for all $n$. The first term of the series is $a_{1}=48$, and the third term is $a_{3}=12$. Which of the following statements about $\\sum_{n=1}^{\\infty} a_{n}$ is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sum_{n=1}^{\\infty} a_{n}=64$"
+            },
+            {
+              "key": "B",
+              "content": "$\\sum_{n=1}^{\\infty} a_{n}=96$"
+            },
+            {
+              "key": "C",
+              "content": "$\\sum_{n=1}^{\\infty} a_{n}$ converges, but the sum cannot be determined from the information given."
+            },
+            {
+              "key": "D",
+              "content": "$\\sum_{n=1}^{\\infty} a_{n}$ diverges.\n$$\nf(x)= \\begin{cases}\\frac{|x|}{x} & \\text { for } x \\neq 0 \\\\ 0 & \\text { for } x=0\\end{cases}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "The function $f$ is defined above. The value of $\\int_{-5}^{3} f(x) d x$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "2"
+            },
+            {
+              "key": "C",
+              "content": "8"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "Which of the following series can be used with the limit comparison test to determine whether the series $\\sum_{n=1}^{\\infty} \\frac{n^{2}}{n^{3}+1}$ converges or diverges?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{n}{n+1}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}+1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "$\\int_{1}^{e} x^{4} \\ln x d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{6 e^{5}-1}{25}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{4 e^{5}+1}{25}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1-e^{3}}{3}$"
+            },
+            {
+              "key": "D",
+              "content": "$e^{4}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "An object moves along a straight line so that at any time $t$ its acceleration is given by $a(t)=6 t$. At time $t=0$, the object's velocity is 10 and the object's position is 7 . What is the object's position at time $t=2$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "22"
+            },
+            {
+              "key": "B",
+              "content": "27"
+            },
+            {
+              "key": "C",
+              "content": "28"
+            },
+            {
+              "key": "D",
+              "content": "35\n![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-019.jpg?height=569&width=557&top_left_y=345&top_left_x=773)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "The graph of a differentiable function $f$ is shown above on the closed interval $[-4,3]$. How many values of $x$ in the open interval $(-4,3)$ satisfy the conclusion of the Mean Value Theorem for $f$ on $[-4,3]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "One"
+            },
+            {
+              "key": "C",
+              "content": "Two"
+            },
+            {
+              "key": "D",
+              "content": "Three\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "$\\int_{0}^{x} \\sin \\left(t^{6}\\right) d t=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{x^{2}}{2}-\\frac{x^{4}}{4}+\\frac{x^{6}}{6}-\\cdots+\\frac{(-1)^{n+1} x^{2 n}}{2 n}+\\cdots$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{x^{2}}{2}-\\frac{x^{4}}{4 \\cdot 3!}+\\frac{x^{6}}{6 \\cdot 5!}-\\cdots+\\frac{(-1)^{n+1} x^{2 n}}{2 n \\cdot(2 n-1)!}+\\cdots$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{x^{7}}{7}-\\frac{x^{19}}{19}+\\frac{x^{31}}{31}-\\cdots+\\frac{(-1)^{n+1} x^{6(2 n-1)+1}}{6(2 n-1)+1}+\\cdots$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{x^{7}}{7}-\\frac{x^{19}}{19 \\cdot 3!}+\\frac{x^{31}}{31 \\cdot 5!}-\\cdots+\\frac{(-1)^{n+1} x^{6(2 n-1)+1}}{(6(2 n-1)+1) \\cdot(2 n-1)!}+\\cdots$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "The speed of a runner, in miles per hour, on a straight trail is modeled by $f(m)=\\frac{1}{10}\\left(-2 m^{3}+9 m^{2}-12 m\\right)+7$, where $m$ is the runner's distance, in miles, from the start of the trail. What is the maximum speed of the runner for $0 \\leq m \\leq 3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "5"
+            },
+            {
+              "key": "B",
+              "content": "6"
+            },
+            {
+              "key": "C",
+              "content": "0"
+            },
+            {
+              "key": "D",
+              "content": "5\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "$\\int \\frac{8 x-10}{(2 x-1)(x+1)} d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-4 \\ln |2 x-1|+6 \\ln |x+1|+C$"
+            },
+            {
+              "key": "B",
+              "content": "$-2 \\ln |2 x-1|+6 \\ln |x+1|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$3 \\ln |2 x-1|-4 \\ln |x+1|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$6 \\ln |2 x-1|-4 \\ln |x+1|+C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=2 \\cos \\theta-1$ at the point where $\\theta=\\pi$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-3"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "3"
+            },
+            {
+              "key": "D",
+              "content": "The slope is undefined.\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "$\\lim _{x \\rightarrow e} \\frac{\\left(x^{20}-3 x\\right)-\\left(e^{20}-3 e\\right)}{x-e}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$20 e^{19}-3$"
+            },
+            {
+              "key": "C",
+              "content": "$e^{20}-3 e$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "What is the radius of convergence for the series $\\sum_{n=0}^{\\infty} \\frac{(x-5)^{n}}{2^{n}(2 n+3)^{2}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{2}$"
+            },
+            {
+              "key": "B",
+              "content": "1"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "5\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "Which of the following statements about the integral $\\int_{0}^{\\pi} \\sec ^{2} x d x$ is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The integral is equal to 0 ."
+            },
+            {
+              "key": "B",
+              "content": "The integral is equal to $\\frac{2}{3}$."
+            },
+            {
+              "key": "C",
+              "content": "The integral diverges because $\\lim _{x \\rightarrow \\frac{\\pi}{2}-} \\sec ^{2} x$ does not exist."
+            },
+            {
+              "key": "D",
+              "content": "The integral diverges because $\\lim _{x \\rightarrow \\frac{\\pi}{2}-} \\tan x$ does not exist."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Which of the following series are conditionally convergent? I. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n}$ II. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n^{3}}$ III. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "I and II only"
+            },
+            {
+              "key": "C",
+              "content": "I and III only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "$\\int_{0}^{\\ln 2} \\frac{e^{x}}{1+\\left(e^{x}-1\\right)^{2}} d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\arctan (\\ln 2)$"
+            },
+            {
+              "key": "B",
+              "content": "$\\ln 2$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{\\pi}{4}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{\\pi}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "$\\lim _{x \\rightarrow 3} \\frac{\\tan (x-3)}{3 e^{x-3}-x}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{3}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{2}$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "The volume of a sphere is increasing at a rate of $6 \\pi$ cubic centimeters per hour. At what rate, in centimeters per hour, is its diameter increasing with respect to time at the instant the radius of the sphere is 3 centimeters? (Note: The volume of a sphere with radius $r$ is given by $V=\\frac{4}{3} \\pi r^{3}$.)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{3}$"
+            },
+            {
+              "key": "B",
+              "content": "1"
+            },
+            {
+              "key": "C",
+              "content": "$\\sqrt{6}$"
+            },
+            {
+              "key": "D",
+              "content": "6"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "The function $f(\\theta)=\\theta^{3}-6 \\theta^{2}+9 \\theta$ satisfies $f(\\theta) \\geq 0$ for $\\theta \\geq 0$. During the time interval $0 \\leq t \\leq 2 \\pi$ seconds, a particle moves along the polar curve $r=f(\\theta)$ so that at time $t$ seconds, $\\theta=t$. On what intervals of time $t$ is the distance between the particle and the origin increasing?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0 \\leq t \\leq 3$ only"
+            },
+            {
+              "key": "B",
+              "content": "$0 \\leq t \\leq 2 \\pi$"
+            },
+            {
+              "key": "C",
+              "content": "$1 \\leq t \\leq 3$ only"
+            },
+            {
+              "key": "D",
+              "content": "$0 \\leq t \\leq 1$ and $3 \\leq t \\leq 2 \\pi$ only\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-027.jpg?height=657&width=435&top_left_y=330&top_left_x=831}\n\\captionsetup{labelformat=empty}\n\\caption{Graph of $f$}\n\\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "The graph of the function $f$ is shown above for $-2",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-2"
+            },
+            {
+              "key": "B",
+              "content": "$-2"
+            },
+            {
+              "key": "C",
+              "content": "$0"
+            },
+            {
+              "key": "D",
+              "content": "$0"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "The function $N$ satisfies the logistic differential equation $\\frac{d N}{d t}=\\frac{N}{10}\\left(1-\\frac{N}{850}\\right)$, where $N(0)=105$. Which of the following statements is false?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\lim _{t \\rightarrow \\infty} N(t)=850$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{d N}{d t}$ has a maximum value when $N=105$."
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{d^{2} N}{d t^{2}}=0$ when $N=425$."
+            },
+            {
+              "key": "D",
+              "content": "When $N>425, \\frac{d N}{d t}>0$ and $\\frac{d^{2} N}{d t^{2}}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "The function $f$ is given by $f(x)=\\ln x$. The graph of $f$ is shown above. Which of the following limits is equal to the area of the shaded region?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(1+\\ln \\left(\\frac{3 k}{n}\\right)\\right) \\frac{3}{n}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\quad \\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(1+\\frac{3 k}{n}\\right) \\frac{3}{n}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(\\frac{4}{n}\\right)\\left(1+\\frac{4 k}{n}\\right)$"
+            },
+            {
+              "key": "D",
+              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(1+\\frac{4 k}{n}\\right) \\frac{4}{n}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "The Taylor series for a function $f$ about $x=0$ is given by $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{(2 n+1)!} x^{2 n}$ and converges to $f$ for all real numbers $x$. If the fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f\\left(\\frac{1}{2}\\right)$, what is the alternating series error bound?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{2^{4} \\cdot 5!}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{2^{5} \\cdot 6!}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{2^{6} \\cdot 7!}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{1}{2^{10} \\cdot 11!}$\n\n\\section*{CALCULUS BC}\n\n\\section*{SECTION I, Part B}\n\n\\section*{Time-45 minutes}\n\n\\section*{Number of questions-15}\n\n\\section*{A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON THIS PART OF THE EXAM.}\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.\n\n\\section*{In this exam:}\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $\\sin ^{-1} x=\\arcsin x$ ).\n\n\\section*{$\\begin{array}{lllllllll}\\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B}\\end{array}$}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "If $f^{\\prime}(x)=\\sqrt{1+2 x^{3}}$ and $f(2)=0.4$, then $f(5)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "005"
+            },
+            {
+              "key": "B",
+              "content": "605"
+            },
+            {
+              "key": "C",
+              "content": "205"
+            },
+            {
+              "key": "D",
+              "content": "-28.205\n\n\\begin{tabular}{|c||c|c|c|c|}\n\\hline$x$ & -0.2 & 0 & 0.2 & 0.4 \\\\\n\\hline$f^{\\prime}(x)$ & 0.8 & 1.2 & 1.7 & 2.3 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "The table above shows values of $f^{\\prime}$, the derivative of a function $f$, for selected values of $x$. If $f(-0.2)=1$, what is the approximation for $f(0.4)$ obtained by using Euler's method with a step size of 0.2 starting at $x=-0.2$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "48"
+            },
+            {
+              "key": "B",
+              "content": "74"
+            },
+            {
+              "key": "C",
+              "content": "04"
+            },
+            {
+              "key": "D",
+              "content": "20\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "The second derivative of a function $f$ is given by $f^{\\prime \\prime}(x)=\\sin (3 x)-\\cos \\left(x^{2}\\right)$. How many points of inflection does the graph of $f$ have on the interval $0",
+          "options": [
+            {
+              "key": "A",
+              "content": "One"
+            },
+            {
+              "key": "B",
+              "content": "Three"
+            },
+            {
+              "key": "C",
+              "content": "Four"
+            },
+            {
+              "key": "D",
+              "content": "Five\n![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-033.jpg?height=534&width=583&top_left_y=951&top_left_x=760)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "Over the time interval $0 \\leq t \\leq 5$, a particle moves along the $x$-axis. The graph of the particle's velocity, $v$, is shown above. Over the time interval $0 \\leq t \\leq 5$, the particle's displacement is 3 and the particle travels a total distance of 13 . What is the value of $\\int_{2}^{4} v(t) d t$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-10"
+            },
+            {
+              "key": "B",
+              "content": "-5"
+            },
+            {
+              "key": "C",
+              "content": "5"
+            },
+            {
+              "key": "D",
+              "content": "10\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "What is the total area between the polar curves $r=5 \\sin (3 \\theta)$ and $r=8 \\sin (3 \\theta)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "000"
+            },
+            {
+              "key": "B",
+              "content": "069"
+            },
+            {
+              "key": "C",
+              "content": "631"
+            },
+            {
+              "key": "D",
+              "content": "261\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}\n![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=645&width=589&top_left_y=337&top_left_x=756)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "The graph of $f^{\\prime}$, the derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=590&width=592&top_left_y=1221&top_left_x=313)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=585&width=592&top_left_y=1222&top_left_x=1134)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=592&width=592&top_left_y=1886&top_left_x=313)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=600&width=592&top_left_y=1882&top_left_x=1134)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "On a certain day, the total number of pieces of candy produced by a factory since it opened is modeled by $C$, a differentiable function of the number of hours since the factory opened. Which of the following is the best interpretation of $C^{\\prime}(3)=500$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The factory produces 500 pieces of candy during its 3 rd hour of operation."
+            },
+            {
+              "key": "B",
+              "content": "The factory produces 500 pieces of candy in the first 3 hours after it opens."
+            },
+            {
+              "key": "C",
+              "content": "The factory is producing candy at a rate of 500 pieces per hour, 3 hours after it opens."
+            },
+            {
+              "key": "D",
+              "content": "The rate at which the factory is producing candy is increasing at a rate of 500 pieces per hour per hour, 3 hours after it opens.\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-036.jpg?height=488&width=737&top_left_y=1233&top_left_x=681}\n\\captionsetup{labelformat=empty}\n\\caption{Graph of $f$}\n\\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "The graph of the function $f$ is shown above. Which of the following statements is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$f$ is discontinuous at $x=0$ because $\\lim _{x \\rightarrow 0} f(x)$ does not exist."
+            },
+            {
+              "key": "B",
+              "content": "$f$ is discontinuous at $x=3$ because $\\lim _{x \\rightarrow 3} f(x) \\neq f(3)$."
+            },
+            {
+              "key": "C",
+              "content": "$f$ is discontinuous at $x=5$ because $\\lim _{x \\rightarrow 5^{-}} f(x)$ does not exist."
+            },
+            {
+              "key": "D",
+              "content": "$f$ is discontinuous at $x=6$ because $\\lim _{x \\rightarrow 6^{-}} f^{\\prime}(x) \\neq \\lim _{x \\rightarrow 6^{+}} f^{\\prime}(x)$.\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "At time $t=0$ minutes, a tank contains 48 gallons of water. For $0 \\leq t \\leq 4$ minutes, water flows into the tank at a rate of $E(t)=12 t \\sin \\left(\\frac{\\pi}{4} t\\right)$ gallons per minute, and water leaks out of the tank at a rate of $L(t)=\\frac{6 t^{2}}{t+2}$ gallons per minute. How many gallons of water are in the tank at time $t=4$ minutes?",
+          "options": [
+            {
+              "key": "A",
+              "content": "251"
+            },
+            {
+              "key": "B",
+              "content": "749"
+            },
+            {
+              "key": "C",
+              "content": "482"
+            },
+            {
+              "key": "D",
+              "content": "482"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "What is the average value of $y=\\tan \\left(\\frac{x^{2}}{9}\\right)$ on the closed interval [1.25,2] ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "116"
+            },
+            {
+              "key": "B",
+              "content": "232"
+            },
+            {
+              "key": "C",
+              "content": "310"
+            },
+            {
+              "key": "D",
+              "content": "326\n\n\\begin{tabular}{|l|l|l|}\n\\hline $\\lim _{x \\rightarrow-5} f(x)=4$ & $\\lim _{x \\rightarrow 5} f(x)=2$ & $\\lim _{x \\rightarrow 5} g(x)=5$ \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "The table above gives selected limits of the functions $f$ and $g$. What is $\\lim _{x \\rightarrow 5}(f(-x)+3 g(x))$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "19"
+            },
+            {
+              "key": "B",
+              "content": "17"
+            },
+            {
+              "key": "C",
+              "content": "13"
+            },
+            {
+              "key": "D",
+              "content": "9"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "41",
+          "type": "single",
+          "prompt": "A tire that is leaking air has an initial air pressure of 30 pounds per square inch ( psi ). The function $t=f(p)$ models the amount of time $t$, in hours, it takes for the air pressure of the tire to reach $p \\mathrm{psi}$. What are the units for $f^{\\prime}(p)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "hours"
+            },
+            {
+              "key": "B",
+              "content": "psi"
+            },
+            {
+              "key": "C",
+              "content": "psi per hour"
+            },
+            {
+              "key": "D",
+              "content": "hours per psi\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "42",
+          "type": "single",
+          "prompt": "The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=\\cos \\left(2^{t}\\right)$ and $y(t)=\\sin \\left(2^{t}\\right)$ for time $t \\geq 0$. What is the speed of the particle when $t=2.3 ?$",
+          "options": [
+            {
+              "key": "A",
+              "content": "000"
+            },
+            {
+              "key": "B",
+              "content": "014"
+            },
+            {
+              "key": "C",
+              "content": "413"
+            },
+            {
+              "key": "D",
+              "content": "652"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "43",
+          "type": "single",
+          "prompt": "The function $f$ is defined on the closed interval $[0,1]$ and satisfies $f(0)=f\\left(\\frac{1}{2}\\right)=f(1)$. On the open interval $(0,1), f$ is continuous and strictly increasing. Which of the following statements is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$f$ attains both a minimum value and a maximum value on the closed interval $[0,1]$."
+            },
+            {
+              "key": "B",
+              "content": "$f$ attains a minimum value but not a maximum value on the closed interval $[0,1]$."
+            },
+            {
+              "key": "C",
+              "content": "$f$ attains a maximum value but not a minimum value on the closed interval $[0,1]$."
+            },
+            {
+              "key": "D",
+              "content": "$f$ attains neither a minimum value nor a maximum value on the closed interval $[0,1]$.\n\n\\section*{B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "44",
+          "type": "single",
+          "prompt": "The power series $\\sum_{n=0}^{\\infty} a_{n}(x-1)^{n}$ converges conditionally at $x=5$. Which of the following statements about convergence of the series at $x=-4$ is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The series converges absolutely at $x=-4$."
+            },
+            {
+              "key": "B",
+              "content": "The series converges conditionally at $x=-4$."
+            },
+            {
+              "key": "C",
+              "content": "The series diverges at $x=-4$."
+            },
+            {
+              "key": "D",
+              "content": "There is not enough information given to determine convergence of the series at $x=-4$.\n\n\\section*{AP ${ }^{\\text {® }}$ Calculus BC Exam}\n\n\\section*{SECTION II: Free Response}\n\n\\section*{DO NOT OPEN THIS BOOKLET OR BEGIN PART B UNTIL YOU ARE TOLD TO DO SO.}\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n1 hour, 30 minutes\nNumber of Questions\n6\nPercent of Total Score 50\\%\n\n\\section*{Writing Instrument}\n\nEither pencil or pen with black or dark blue ink\n\n\\section*{Weight}\n\nThe questions are weighted equally, but the parts of a question are not necessarily given equal weight.\n\n\\section*{Part A}\n\nNumber of Questions 2\n\n\\section*{Time}\n\n30 minutes\n\n\\section*{Electronic Device}\n\nGraphing calculator required\n\n\\section*{Percent of Section II Score}\n33.3\\%\n\n\\section*{Part B}\n\nNumber of Questions 4\nTime\n60 minutes\nElectronic Device\nNone allowed\nPercent of Section II Score 66.6\\%\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=64&width=98&top_left_y=807&top_left_x=743}\n\\captionsetup{labelformat=empty}\n\\caption{Month}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=68&width=97&top_left_y=803&top_left_x=855}\n\\captionsetup{labelformat=empty}\n\\caption{Day}\n\\end{figure}\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=64&width=186&top_left_y=807&top_left_x=973}\n\\captionsetup{labelformat=empty}\n\\caption{Year}\n\\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        }
+      ]
+    }
+  ]
+}

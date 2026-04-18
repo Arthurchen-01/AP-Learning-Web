@@ -1,0 +1,1249 @@
+{
+  "examId": "2025Intl",
+  "title": "AP Calculus BC 2025年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2025",
+  "description": "AP Calculus BC 2025年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "588",
+          "type": "single",
+          "prompt": "$d{dx}(3+5 x^{2})^{1 / 4}=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "589",
+          "type": "single",
+          "prompt": "If $f^{}(x)=6 x^{2}-2 x+5$ and $f(1)=-3$, then $f(2)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "590",
+          "type": "single",
+          "prompt": "The function $f$ is given by $f(x)= x{x}$. What is the instantaneous rate of change of $f$ at $x={2}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "591",
+          "type": "single",
+          "prompt": "Using a midpoint Riemann sum with subintervals $[1,1.5],[1.5,3]$, and $[3,4]$, what is the approximate distance, in miles, the car traveled from time $t=1$ to time $t=4$ ? The table shown gives the speed $s(t)$, in miles per hour, of a car at selected times $t$, in hours. $$ (hours) &amp; 1 &amp; 1.25 &amp; 1.5 &amp; 2.25 &amp; 3 &amp; 3.5 \\\\ &amp; &amp; &amp; &amp; &amp; &amp; \\\\ $s(t)$ (miles per hour) &amp; 55 &amp; 50 &amp; 65 &amp; 70 &amp; 55 &amp; 60 \\\\ &amp; &amp; 55",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "592",
+          "type": "single",
+          "prompt": "Which of the following statements is true? Let $f$ be the function defined as shown. $$ f(x)= 1 &amp; { if } x1 $$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "593",
+          "type": "single",
+          "prompt": "Let $f$ be a differentiable function that is decreasing on the interval ( $-1,1$ ) and increasing on the intervals $(-2,-1)$ and $(1,2)$. Which of the following could be the graph of $f^{}$, the derivative of $f$, on the interval $(-2,2)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "594",
+          "type": "single",
+          "prompt": "For $t&gt;0$, a parametric curve in the $xy$-plane is defined by $x(t)=t^{2}-4 t+5$ and $y(t)=t^{2}-6 t$. For what value of $t$ does the curve have a vertical tangent?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "595",
+          "type": "single",
+          "prompt": "Let $f$ be a function with second derivative given by $f^{ }(x)=(x-1)^{2}(x-2)(x-3)^{3}$. How many points of inflection does the graph of $f$ have?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "596",
+          "type": "single",
+          "prompt": "If at any time $t$ the position vector of a particle moving in the $xy$-plane is $ ( t), ( t)$, what is the acceleration vector of the particle at time $t=1{2}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "597",
+          "type": "single",
+          "prompt": "What are all values of $p$ for which the series $_{n=1}^{} 1{n^{4 p-1}}$ converges?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "598",
+          "type": "single",
+          "prompt": "If 10 people have heard the news at time $t=0$, how many people have heard the news when the rate at which the news is spreading changes from increasing to decreasing? The number of people at a business who have heard a piece of news at time $t$ days is modeled by the function $P$. The rate at which the news is spreading is modeled by the logistic differential equation $dP{dt}=144 P(1-P{4800})$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "599",
+          "type": "single",
+          "prompt": "If $x^{2}-xy-3 y^{2}=6$, then $dy{dx}=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "600",
+          "type": "single",
+          "prompt": "What is the radius of convergence of the series $_{n=0}^{} 3 nx^{n}{(n+2)^{2}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "601",
+          "type": "single",
+          "prompt": "If the area of each region is 3 , what is the value of $_{0}^{4} f(x) dx+_{0}^{7} f(x) dx$ ? Regions $A$ and $B$ in the figure shown are bounded by the graph of the function $f$ and the $x$ axis. - The curve is labeled $y$ equals $f$ open parentheses $x$ close parentheses and begins above the $x$ axis, just to the left of the $y$ axis, and moves downward and to the right. - It passes through the origin then levels off as it reaches a local minimum slightly below the x axis at x equals 2 . - The curve then moves upward and to the right, crosses the $x$ axis at 4 and levels off as it reaches a local maximum above the x axis at x equals 5.5. - It then moves downward and to the right, crosses the x axis at 7 , and continues downward and to the right until it ends at a point far below the x axis, far to the right of the y axis. - The region bounded from above by the x axis and from below by the curve from x equals 0 to $x$ equals 4 is labeled $A$. - The region bounded from above by the curve from $x$ equals 4 to $x$ equals 7 and bounded from below by the $x$ axis is labeled $B$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "602",
+          "type": "single",
+          "prompt": "If $y= ^{-1}(x-1)$, then $dy{dx}=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "603",
+          "type": "single",
+          "prompt": "Which of the following statements about the series $_{n=1}^{} n^{2+n}{n^{3}+3 n^{2}-1}$ is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "604",
+          "type": "single",
+          "prompt": "Which of the following satisfies the differential equation $dy{dx}= ({2} x^{2})$ with the initial condition $y(0)=2$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "605",
+          "type": "single",
+          "prompt": "The second and third terms of the geometric series $_{n=1}^{} a_{n}$ are $a_{2}=-3{4}$ and $a_{3}=1{4}$, respectively. What is the sum of the series $_{n=1}^{} a_{n}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "606",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $dy{dx}=3 y-4 x$ with initial condition $f(1)=2$. What is the approximation for $f(2)$ if Euler&#x27;s method is used, starting at $x=1$ with a step size of 0.5 ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "607",
+          "type": "single",
+          "prompt": "Let $g$ be the function given by $g(x)=_{2}^{x} f(t) dt$. At what value of $x$ in the closed interval $[-3,5]$ does $g$ have an absolute minimum? The graph of the function $f$ on the closed interval $[-3,5]$ is shown. - The numbers negative 3 through 5 , in increments of 1 , are indicated on the horizontal axis. - The numbers negative 2 through 3 , in increments of 1 , are indicated on the vertical axis. - The graph consists of three line segments. - The first line segment begins at the point with coordinates negative 3 comma 2, and moves horizontally to the right until it ends at the point with coordinates negative 1 comma 2. - The second line segment begins where the first segment ends, and slants downward and to the right. It crosses the vertical axis at 1, crosses the horizontal axis at 1 , and ends at the point with coordinates 3 comma negative 2 . - The third line segment begins where the second segment ends, and slants upward and to the right. It crosses the horizontal axis at 4 and ends at the point with coordinates 5 comma 2 .",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "608",
+          "type": "single",
+          "prompt": "$_{2}^{3} 4{(x+3)(x-1)} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "609",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the particular solution to the differential equation $dy{dx}=3 x^{2} y$ with initial condition $f(0)=6$. Which of the following is an expression for $f(x)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "610",
+          "type": "single",
+          "prompt": "The line $y=2$ is a horizontal asymptote to the graph of which of the following functions?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "611",
+          "type": "single",
+          "prompt": "What is the perimeter of the region enclosed by the graphs of $y=3$ and $y=x^{2}-2 x$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "612",
+          "type": "single",
+          "prompt": "If $F$ is an antiderivative of a continuous function $f$, then $_{-1}^{2} f(3 x+4) dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "613",
+          "type": "single",
+          "prompt": "$ _{x / 4} _{ / 4^{x} (t) dt}{x^{2}-^{2}{16}}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "614",
+          "type": "single",
+          "prompt": "$ x^{2+4 x-1}{x+2} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "615",
+          "type": "single",
+          "prompt": "$_{1}^{} xe^{-x} dx$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "616",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=^{2}$ at the point where $=$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "617",
+          "type": "single",
+          "prompt": "What is the sum of the series shown? $$ 1-({{3})^{2}}{2!}+({{3})^{4}}{4!}-({{3})^{6}}{6!}++(-1)^{n({3})^{2 n}}{(2 n)!}+ $$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "618",
+          "type": "single",
+          "prompt": "Which of the following is the graph of a function $f$ such that $ _{x 2^{-}} f(x)$ and $ _{x 2^{+}} f(x)$ both exist, but $ _{x 2} f(x)$ does not exist?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "619",
+          "type": "single",
+          "prompt": "Which of the following gives the area of $R$ ? Let $R$ be the region bounded on the left by the graph of $x=f(y)$ and on the right by the graph of $x=g(y)$, as shaded in the figure. - The graph shows a shaded region bounded on the left by the graph of $x$ equals $f$ open parentheses $y$ close parentheses, and bounded on the right by the graph of $x$ equals $g$ open parentheses y close parentheses. - The graph of each function is a curve. - The graph of $x$ equals $f$ open parentheses $y$ close parentheses begins slightly to the right of the y axis, below the x axis. - The curve moves upward and to the left until it becomes vertical as it reaches the point with coordinates 0 comma negative 1 on the $y$ axis. - It then moves upward and to the right, crosses the x axis slightly to the right of the origin, and passes through the point with coordinates 2 comma 1. - The graph of x equals g open parentheses y close parentheses begins slightly to the left of the y axis, below the x axis. - The curve moves upward and to the right. - It crosses the $y$ axis and intersects the $x$ equals $f$ open parentheses $y$ close parentheses curve at the point with coordinates 0 comma negative 1 . - It continues upward and to the right, crosses the x axis to the right of the origin, and intersects the $x$ equals $f$ open parentheses $y$ close parentheses curve again at the point with coordinates 2 comma 1.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "620",
+          "type": "single",
+          "prompt": "Let $f$ be a function that is continuous on the closed interval $[0,2]$ with $f(0)=-2$, $f(1)=5$, and $f(2)=0$. Which of the following statements must be true?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "621",
+          "type": "single",
+          "prompt": "Let $f$ be the function with first derivative defined by $f^{}(x)=3 (e^{2 x})$ on the interval $0",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "622",
+          "type": "single",
+          "prompt": "What is the total area of the region enclosed by the curve? The figure shows the polar curve $r=3 (5 )$ for $0 $. - The curve consists of five elongated loops, each of which begins and ends at the origin. ◯ - One loop is located in quadrant 1. - One loop is located on the positive portion of the $y$ axis. - One loop is located in quadrant 2. - One loop is located in quadrant 3. - One loop is located in quadrant 4.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "623",
+          "type": "single",
+          "prompt": "Consider the series $_{n=1}^{} a_{n}$, where $a_{n}&gt;0$ for all $n$. Which of the following statements must be true?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "624",
+          "type": "single",
+          "prompt": "Which of the following equations describes the situation? The rate at which people register for a new socialnetworking site is given by $g(t)$, where $t$ is measured in minutes and $g(t)$ is measured in people per minute. The average rate of registration during the first 60 minutes is equal to the rate of registration at time $t=30$ minutes.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "625",
+          "type": "single",
+          "prompt": "At time $t 0$, a particle moving in the $xy$-plane has a velocity vector given by $v(t)= (2 t), e^{t}$. What is the total distance the particle travels over the interval $0 t 1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "626",
+          "type": "single",
+          "prompt": "What is the volume of the solid formed when the region bounded by the graphs of $f(x)=1{2} x^{2}-x+1$ and $g(x)=5 (x{3})$ is revolved about the $x$-axis?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "627",
+          "type": "single",
+          "prompt": "How many critical points does the function $f$ have on the interval $0",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "628",
+          "type": "single",
+          "prompt": "A particle moves along a straight line with velocity given by $v(t)=t^{2}-3 t+e^{-t / 2}$ and acceleration given by $a(t)=2 t-3-1{2} e^{-t / 2}$ for time $0 t 4$. On which open intervals is the speed of the particle increasing?",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "629",
+          "type": "single",
+          "prompt": "Using the third-degree Taylor polynomial for $f$ about $x=1$, what is the approximation for $f(0.7)$ ? Let $f$ be a function with derivatives of all orders for all values of $x$. Selected values of $f$ and its first three derivatives are indicated in the table shown. $$ {ccccc} x &amp; f(x) &amp; f^{}(x) &amp; f^{ }(x) &amp; f^{ }(x) \\\\ 0 &amp; 0.2 &amp; 0 &amp; 0 &amp; 6 \\\\ 1 &amp; 1 &amp; 2.2 &amp; 3 &amp; -2.3 $$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "630",
+          "type": "single",
+          "prompt": "If $_{a}^{b} 2 f(x) dx+_{c}^{b} f(x) dx=5$ and $_{a}^{c} f(x) dx=1$, then $_{a}^{b} f(x) dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "631",
+          "type": "single",
+          "prompt": "At what rate is the volume of the cylinder changing, in cubic inches per minute, at that instant? The volume of a cylinder with radius $r$ inches is given by $V= r^{2}(4 r+ (0.2 r^{2}))$. At the instant when the radius is 2.7 inches, the radius is increasing at a rate of 0.75 inch per minute.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "632",
+          "type": "single",
+          "prompt": "If $T_{3}(0.3)$ is used to approximate $f(0.3)$, what is the maximum possible error guaranteed by the Lagrange error bound? Let $f$ be a function that has derivatives of all orders for all realnumbers, and let $T_{3}(x)$ be the third-degree Taylor polynomial for $f$ about $x=0$. The graph of $y=f^{(4)}(x)$, the fourth derivative of $f$, is shown for $0 x 0.3$. - The graph is an upward-opening parabola. - The parabola begins on the $y$ axis at negative 2 and moves downward and to the right until it reaches a minimum at the point with coordinates 0.1 comma negative 3 . - It then moves upward and to the right, passes through the point with coordinates 0.2 comma negative 2 and ends at the point with coordinates 0.3 comma 1 .",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "633",
+          "type": "single",
+          "prompt": "A tank contains 30 liters of water at time $t=0$. For time $0 t 20$ minutes, water flows into the tank at a rate modeled by the function $f$ defined by $f(t)=2 (t+3)-1.6$. For time $20",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "634",
+          "type": "single",
+          "prompt": "A. Let $R$ be the shaded region that is inside the curve $r=g()$ for $02 $. Find the area of region $R$. Show the setup for your calculations. B. For each $$ in the interval $02 $, the ray from the origin with angle $$ intersects the curve $r=f()$ and the curve $r=g()$. For any value of $$, the distance between the curves is the difference between the $r$-values of the outer curve and the inner curve. Find the average distance between the two curves for $02 $. Show the setup for your calculations. C. Find the value of $$ in the interval ${4} {2}$ that corresponds to the point on the curve $r=g()$ with greatest distance from the origin. Justify your answer. D. There is a point $P$ on the curve $r=f()$ where the slope of the line tangent to the curve at $P$ is equal to $2-1$. At point $P$, the rate of change of the $x$-coordinate with respect to $$ is ${2}{2}$. Find the rate of change of the $y$-coordinate with respect to $$ at point $P$. Show the work that leads to your answer. The graph shows the polar curves $r=f()=1+ $ and $r=g()=1+ + ^{2}(3 )$ . The derivative of $g()$ with respect to $$ is $g^{}()= -3 (6 )$. - The curves are labeled $r$ equals $f$ open parentheses theta close parentheses and $r$ equals g open parentheses theta close parentheses. - The curve labeled $r$ equals $f$ open parentheses theta close parentheses begins at the origin. - The curve moves briefly downward and to the right until it reaches a minimum just below the x axis at approximately x equals one half. - It then moves upward and to the right, crosses the x axis at 1, and becomes increasingly steep until it is vertical at the point with approximate coordinates 1.2 comma 0.75. - It then moves upward and to the left until it levels off and reaches a maximum on the y axis at 2 . - The curve then moves downward and to the left and becomes increasingly steep until it is vertical at the point with approximate coordinates negative 1.2 comma 0.75. - It then moves downward and to the right, crosses the x axis at negative 1, and levels off as it reaches a minimum just below the $x$ axis at approximately $x$ equals negative one half. - The curve then moves upward and to the right until it ends where it began at the origin. - The curve labeled $r$ equals $g$ open parentheses theta close parentheses begins at the origin. - The curve moves steeply downward and to the right until it levels off and reaches a minimum at the point with approximate coordinates 0.6 comma negative 1 . - It then moves upward and to the right and then left until it reaches a minimum point of the $r$ equals $f$ open parentheses theta close parentheses curve just below the x axis at approximately x equals one half. - It then moves to the right and curves slightly upward until it is nearly vertical as it crosses the x axis at 2 . - The curve then moves upward and to the left until it is nearly vertical as it reaches the $r$ equals $f$ open parentheses theta close parentheses curve at the point with approximate coordinates 1.2 comma 0.75. - It then moves upward and to the right and then left until it reaches a maximum at the point with approximate coordinates 1.2 comma 2.5. - The curve then moves downward and to the left until it reaches the maximum of the $r$ equals $f$ open parentheses theta close parentheses curve on the $y$ axis at 2 . - It then moves upward and to the left until it reaches a maximum at the point with approximate coordinates negative 1.2 comma 2.5. - The curve then moves downward and to the left and then right until it is nearly vertical as it reaches the $r$ equals $f$ open parentheses theta close parentheses curve at the point with approximate coordinates negative 1.2 comma 0.75 . - It then moves downward and to the left until it is nearly vertical as it crosses the x axis at negative 2 . - The curve then moves to the right until it reaches a minimum of the $r$ equals $f$ open parentheses theta close parentheses curve just below the x axis at approximately x equals negative one half. - It then moves downward and to the left and then right until it reaches a minimum at the point with approximate coordinates negative 0.6 comma negative 1 . - It then moves upward and to the right until it ends where it began at the origin. - The regions inside each curve are shaded. 635.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "636",
+          "type": "single",
+          "prompt": "For $0 t 120$, the temperature of a bowl of soup at time $t$ is modeled by the function $S$ that satisfies the differential equation $dS{dt}=-1{20}(S-68)$, where $S(t)$ is measured in degrees Fahrenheit ( ${ }^{} F$ ) and $t$ is measured in minutes. The temperature of the bowl of soup is always greater than $68^{} F$ and is $148^{} F$ at time $t=0$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "637",
+          "type": "single",
+          "prompt": "A. For each of $x^{ }(2)$ and $x^{ }(4)$, find the value or explain why it does not exist. B. On what open intervals contained in $6",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

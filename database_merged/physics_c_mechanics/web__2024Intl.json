@@ -1,0 +1,1026 @@
+{
+  "examId": "2024Intl",
+  "title": "AP 物理C力学 2024年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2024",
+  "description": "AP 物理C力学 2024年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2024Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "A car traveling at $20 \\mathrm{~m} / \\mathrm{s}$ along a straight road passes a road sign at time $t=0$. At time $t=1 \\mathrm{~s}$, the car accelerates at $-6 \\mathrm{~m} / \\mathrm{s}^{2}$. Which of the following is closest to the speed of the car after it has traveled 50 m past the road sign?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$6 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$10 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$14 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "The car comes to a stop before reaching a point 50 m past the road sign.  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-01.jpg?height=412&width=857&top_left_y=814&top_left_x=1204} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "Box 1 is in contact with the ground and Box ? on top of Box 1. Boxes 1 and 2 are initially ar rest, as shown in Figure 1. An external force is then exerted on Box I. Figure 2 shows the free-body diagram for Box 2 while the exterres: force is exerted on Box 1. The forces exerted or Box 1 are not shown. Which of the following could describe the motion of the boxes?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The boxes move together to the left wits the same acceleration."
+            },
+            {
+              "key": "B",
+              "content": "The boxes move together to the right wird the same acceleration."
+            },
+            {
+              "key": "C",
+              "content": "The boxes move together to the left with the same constant speed."
+            },
+            {
+              "key": "D",
+              "content": "The boxes move together to the right with the same constant speed."
+            },
+            {
+              "key": "E",
+              "content": "Box 1 is accelerating to the right while Box 2 is accelerating to the left."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "A 0.9 kg cart is at position $x=0$ and moves with initial velocity $1.5 \\mathrm{~m} / \\mathrm{s}$. A force exerted on the cart is given by $F(x)=\\left(20 \\mathrm{~N} / \\mathrm{m}^{3}\\right) x^{3}+\\left(1.2 \\mathrm{~N} / \\mathrm{m}^{2}\\right) x^{2}$, where $x$ is the position of the cart. What is the change in kinetic energy of the cart when the cart has moved from $x=0$ to position $x=1.0 \\mathrm{~m}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "11 J"
+            },
+            {
+              "key": "B",
+              "content": "90 J"
+            },
+            {
+              "key": "C",
+              "content": "0 J"
+            },
+            {
+              "key": "D",
+              "content": "9 J"
+            },
+            {
+              "key": "E",
+              "content": "2 J"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "A person jumps vertically upward. The floor exerts a force $F_{N}$ on the person, and Earth exerts a force $F_{g}$ on the person. Which of the following correctly compares $F_{N}$ and $F_{g}$ while the person is in contact with the floor and accelerating upward?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$F_{N}>F_{g}$ because the person is moving upward."
+            },
+            {
+              "key": "B",
+              "content": "$F_{N}>F_{g}$ because the person is accelerating upward."
+            },
+            {
+              "key": "C",
+              "content": "$F_{N}=F_{g}$ because the forces are a Newton's third law action-reaction pair."
+            },
+            {
+              "key": "D",
+              "content": "$F_{\\mathrm{N}}=F_{g}$ becanse the force of gravity and the normal force acting on an object are always equal."
+            },
+            {
+              "key": "E",
+              "content": "$F_{\\mathrm{N}}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Three forces are exerted on an object in equilibrium, as shown. The magnitudes of $F_{1}$ and $F_{2}$ and the angle $\\theta$ can be changed. The magnitude of $F_{3}$ remains constant. Which of the following changes, if any, to $F_{1}$ and $F_{2}$ would keep the object in equilibrium as $\\theta$ increases to $90^{\\circ}$ ?  \\begin{tabular}{c|cc}  & $F_{1}$ & $F_{2}$ \\\\ \\hline A & Increases & Increases \\\\ B & Decreases & Increases \\\\ C & Increases & Decreases \\\\ D & Remains constant & Increases \\\\ E & Decreases & Remains constant \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C ."
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-04.jpg?height=644&width=950&top_left_y=173&top_left_x=187)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "The graph shows the velocity as a function of time for an object moving along the $x$-axis. Which of the following equations could correctly represent the motion of the object?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$x=4.0-0.57 t$"
+            },
+            {
+              "key": "B",
+              "content": "$x=-4.0 t+1.15 t^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$x=4.0-1.15 t$"
+            },
+            {
+              "key": "D",
+              "content": "$x=1.5-4.0 t+0.57 t^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$x=-1.5+4.0 t-0.57 t^{2}$  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=218&width=783&top_left_y=488&top_left_x=260} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-05.jpg?height=442&width=775&top_left_y=264&top_left_x=1168} \\captionsetup{labelformat=empty} \\caption{Figure 2} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "A sphere is dropped near the surface of Earth. While falling, the sphere reaches terminal velocity. Which of ufollowing sets of graphs correctly shows the magnitudes of the position $y$, velocity $y$, and acceleration $a$ of $u$ sphere as functions of time $t$ as tho sphere is falling?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=311&top_left_y=492&top_left_x=262) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=305&width=280&top_left_y=506&top_left_x=686) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=329&width=304&top_left_y=488&top_left_x=1052)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=316&width=302&top_left_y=903&top_left_x=269) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=309&width=281&top_left_y=908&top_left_x=689) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=323&width=277&top_left_y=896&top_left_x=1072)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=325&width=309&top_left_y=1298&top_left_x=262) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=304&width=286&top_left_y=1314&top_left_x=684) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=321&width=278&top_left_y=1300&top_left_x=1067)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=335&width=313&top_left_y=1697&top_left_x=260) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=314&width=282&top_left_y=1706&top_left_x=684) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=273&top_left_y=1702&top_left_x=1067)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=330&width=298&top_left_y=2108&top_left_x=262) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=318&width=286&top_left_y=2108&top_left_x=675) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-07.jpg?height=320&width=286&top_left_y=2104&top_left_x=1054) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-08.jpg?height=596&width=932&top_left_y=233&top_left_x=161)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "A block of mass $m_{0}$ is in contact with the inner wall of a hollow cylinder and does not slip as the cylinder rotates with angular speed $\\omega_{0}$, as shown. The minimum coefficient of static friction necessary to prevent the block from slipping is $\\mu_{0}$. What minimum coefficient of static friction $\\mu$ is necessary to prevent a block of mass $2 m_{0}$ from slipping when the cylinder rotates with angular speed $2 \\omega_{0}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\mu=\\frac{1}{4} \\mu_{0}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\mu=\\frac{1}{2} \\mu_{0}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\mu=\\mu_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\mu=2 \\mu_{0}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\mu=4 \\mu_{0}$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-09.jpg?height=444&width=848&top_left_y=197&top_left_x=179)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "Three blocks of masses $M, 2 M$, and $3 M$ are connected by strings across two pulleys, as shown. The strings and pulleys have negligible mass. The $2 M$ block is at rest on a rough horizontal surface. The coefficient of kinetic friction between the $2 M$ block and the surface is $\\mu$. The blocks are released from rest and then accelerate. Which of the following equations represents the acceleration $a$ of the blocks?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$a=\\frac{(2-\\mu)}{3} g$"
+            },
+            {
+              "key": "B",
+              "content": "$a=\\frac{(1-\\mu)}{6} g$"
+            },
+            {
+              "key": "C",
+              "content": "$a=\\frac{(2-\\mu)}{6} g$"
+            },
+            {
+              "key": "D",
+              "content": "$a=\\frac{(1-\\mu)}{3} g$"
+            },
+            {
+              "key": "E",
+              "content": "$a=(1-\\mu) g$  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=510&width=296&top_left_y=269&top_left_x=565} \\captionsetup{labelformat=empty} \\caption{Q} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=430&width=288&top_left_y=349&top_left_x=965} \\captionsetup{labelformat=empty} \\caption{R} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-10.jpg?height=499&width=291&top_left_y=280&top_left_x=1364} \\captionsetup{labelformat=empty} \\caption{S} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "Uniform bars $\\mathrm{Q}, \\mathrm{R}$, and S , each of mass $M$ and length $L$, can rotate with negligible friction about the fixed pivot points shown in the figure. At time $t=t_{0}$, a force of magnitude $F$ is exerted on each bar at the angle and point of contact shown. The torques exerted on the bars $\\mathrm{Q}, \\mathrm{R}$, and S are $\\tau_{\\mathrm{Q}}, \\tau_{\\mathrm{R}}$, and $\\tau_{\\mathrm{S}}$, respectively. The angular accelerations of bars $Q, R$, and $S$ are $\\alpha_{Q}, \\alpha_{R}$, and $\\alpha_{S}$, respectively. Which of the following correctly ranks the magnitudes of these quantities at $t=t_{0}$ ?  \\begin{tabular}{|l|l|l|} \\hline & Torque ( $\\tau$ ) & Angular Acceleration ( $\\alpha$ ) \\\\ \\hline A & $\\tau_{\\mathrm{Q}}=\\tau_{\\mathrm{R}}=\\tau_{\\mathrm{S}}$ & $\\alpha_{\\mathrm{Q}}=\\alpha_{\\mathrm{R}}=\\alpha_{\\mathrm{S}}$ \\\\ \\hline B & $\\tau_{Q}>\\tau_{R}>\\tau_{S}$ & $\\alpha_{\\mathrm{Q}}>\\alpha_{\\mathrm{R}}>\\alpha_{\\mathrm{S}}$ \\\\ \\hline C & $\\tau_{Q}>\\left(\\tau_{R}=\\tau_{S}\\right)$ & $\\alpha_{\\mathrm{Q}}>\\left(\\alpha_{\\mathrm{R}}=\\alpha_{\\mathrm{S}}\\right)$ \\\\ \\hline D & $\\tau_{Q}>\\left(\\tau_{R}=\\tau_{S}\\right)$ & $\\alpha_{\\mathrm{R}}>\\alpha_{\\mathrm{Q}}>\\alpha_{\\mathrm{S}}$ \\\\ \\hline E & $\\tau_{Q}>\\tau_{R}>\\tau_{S}$ & $\\alpha_{R}>\\alpha_{Q}>\\alpha_{S}$ \\\\ \\hline \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=295&width=460&top_left_y=374&top_left_x=570} \\captionsetup{labelformat=empty} \\caption{Figure J} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=236&top_left_y=406&top_left_x=1442} \\captionsetup{labelformat=empty} \\caption{Figure 2} \\end{figure}  Notc: Figure I not drawn to scalc."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "Satellite 1 is at the position shown in Figure 1 while traveling in a circular orbit of radius $r$ around a planet. The velocity and acceleration of Satellite 1 are represented by the vectors $v_{1}$ and $a_{1}$, respectively, shows in Figure 2. Satellite 2 is in a circular orbit around the same planet with velocity and acceleration vectors $v_{2}$ and $a_{2}$, respectively. Which of the following shows a correct pair of orbital and vector diagrams for Satellite 2 ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=592&width=761&top_left_y=1209&top_left_x=314) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=245&width=237&top_left_y=1401&top_left_x=1172)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=585&width=756&top_left_y=1855&top_left_x=319) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-11.jpg?height=327&width=889&top_left_y=1953&top_left_x=1172)  O ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=656&width=859&top_left_y=212&top_left_x=241) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=376&width=302&top_left_y=330&top_left_x=1193)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=165&width=375&top_left_y=990&top_left_x=260) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=275&width=275&top_left_y=956&top_left_x=750)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-12.jpg?height=455&width=582&top_left_y=1314&top_left_x=753)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "A pendulum is made of a sphere attached to a thin rod of length $L$. The pendulum is suspended from a pivot point opposite the sphere. The diameter of the sphere is small in comparison with $L$. The pendulum is released and oscillates.  Which of the following could explain why the measured period of the pendulum is smaller than $2 \\pi \\sqrt{\\frac{L}{g}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The density of the rod decreases from the pivot point to the free end of the rod."
+            },
+            {
+              "key": "B",
+              "content": "The rod was given an initial velocity when released."
+            },
+            {
+              "key": "C",
+              "content": "Air resistance acting on the pendulum is nonnegligible."
+            },
+            {
+              "key": "D",
+              "content": "Friction at the pivot point is nonnegligible."
+            },
+            {
+              "key": "E",
+              "content": "The experiment is done at a high altitude.  \\begin{tabular}{|c|c|} \\hline Time & Position $(x, y)$ \\\\ \\hline $0 s$ & $(4 \\mathrm{~m}, 10 \\mathrm{~m})$ \\\\ \\hline 1 s & $(6 \\mathrm{~m}, 6 \\mathrm{~m})$ \\\\ \\hline 2 s & $(8 \\mathrm{~m}, 3 \\mathrm{~m})$ \\\\ \\hline 3 s & $(10 \\mathrm{~m}, 1 \\mathrm{~m})$ \\\\ \\hline 4 s & $(12 \\mathrm{~m}, 0 \\mathrm{~m})$ \\\\ \\hline \\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "The table shows the position of an object on an $x y$-coordinate plane at each second during the trane interval $0 \\leq t \\leq 4$ s. Which of the following is a correct clain about the $x$-or $y$-componex of the objett's scceleration, $a_{x}$ or $a_{y}$ respectively, and provides correct justification using the object's position?  \\begin{tabular}{|l|l|l|} \\hline & Claim & Justification \\\\ \\hline A & $\\boldsymbol{a}_{\\boldsymbol{x}}>\\mathbf{0}$ & The $x$-position is always posivive \\\\ \\hline B & $\\boldsymbol{a}_{\\boldsymbol{x}}>\\mathbf{0}$ & The $x$-position is always positive and always increasing- \\\\ \\hline C & $a_{y}0$ & The $y$-position is always positive \\\\ \\hline E & $a_{y}>0$ & The $y$-position is positive and decreases at a decreasing unc. \\\\ \\hline \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C .(D) D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "A pendulum is made by attaching Sphere $A$ of mass $m$ to a rigid rod of length $L$ and negligible mass. The pendulum is held at rest horizontally. The pendulum is releasod from rest. At the bottom of the swing, Sphere A collides with an identical Sphere B. Spheres A and B stick rogether and continue to move upward. Which of the following is a correct expression for the velocity of the spheres immediately after the collision?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sqrt{2 g L}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{\\sqrt{2 g L}}{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$2 \\sqrt{g L}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{g L}{4}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\mathbf{2 g L}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "A block of mass $M$ rests on a borizontal surface. Frictional forces between the block and the surface are negligible. The block is attached to a spring that exerts a force of maguitode $F(x)=k x^{2}$, where $k$ is a positive constant with appropriate units and $x$ is the displacement from equilibrium. The block reaches a maximum speed $v$ when released from a compression distance $x=D$. What is the maximum speed of the block if $x=2 D$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sqrt{2} v$"
+            },
+            {
+              "key": "B",
+              "content": "$2 v$"
+            },
+            {
+              "key": "C",
+              "content": "$4 v$"
+            },
+            {
+              "key": "D",
+              "content": "$\\sqrt{8} v$"
+            },
+            {
+              "key": "E",
+              "content": "$\\mathbf{8 v}$  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=172&width=1220&top_left_y=367&top_left_x=408} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-16.jpg?height=168&width=1229&top_left_y=743&top_left_x=417} \\captionsetup{labelformat=empty} \\caption{Figure 2} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Cart A of mass $m_{\\mathrm{A}}$ moves with an initial velocity $\\nu_{\\mathrm{A}}$ and then collides elastically with Cart B. The velocity of Cart A as a function of time is shown in the graph. Which of the following correctly describes the mass and initial velocity of Cart B, $m_{\\mathrm{B}}$ and $\\nu_{\\mathrm{B}}$, respectively?  \\begin{tabular}{|l|l|l|} \\hline & Mass & Velocity \\\\ \\hline A & $m_{\\mathrm{B}}m_{\\mathrm{A}}$ & $\\nu_{B}=0$ \\\\ \\hline D & $m_{\\mathrm{B}}=m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=-\\nu_{\\mathrm{A}}$ \\\\ \\hline E & $m_{\\mathrm{B}}>m_{\\mathrm{A}}$ & $\\nu_{\\mathrm{B}}=-\\nu_{\\mathrm{A}}$ \\\\ \\hline \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "An object is launched at an angle of $45^{\\circ}$ above the horizontal with a speed of $10 \\mathrm{~m} / \\mathrm{s}$. Which of the following is most nearly the height of the object when the object is a horizontal distance of 10 m from the launch site? Air resistance is negligible.",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 m"
+            },
+            {
+              "key": "B",
+              "content": "5 m"
+            },
+            {
+              "key": "C",
+              "content": "10 m"
+            },
+            {
+              "key": "D",
+              "content": "15 m"
+            },
+            {
+              "key": "E",
+              "content": "20 m ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-19.jpg?height=446&width=579&top_left_y=237&top_left_x=814)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "A sphere is conneced to a vertical pole by a string of negligible mass, as shown. The sphere travels in a horizontal circular path around the polo. The angle between the string and the pole is initially $\\theta$. A resistive force is exerted on the sphere that opposes the motion of the sphere. Which of the following correctly predic and justifies the effect of the resistive force on $\\theta$ ?  \\begin{tabular}{|l|l|l|} \\hline & Effect on $\\theta$ & Justification \\\\ \\hline A & $\\theta$ increases & The tension in the string increases. \\\\ \\hline B & 0 increases & The speed of the sphere decreases. \\\\ \\hline C & $\\theta$ decreases & The tension in the string increases. \\\\ \\hline D & $\\theta$ decreases & The speed of the sphere decreases. \\\\ \\hline E & $\\theta$ remains constant & There is no relationship between the resistive force and $\\theta$. \\\\ \\hline \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=233&width=683&top_left_y=228&top_left_x=570) $$ \\begin{gathered} t=f_{1} \\\\ \\text { Figure } 1 \\end{gathered} $$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-20.jpg?height=629&width=106&top_left_y=314&top_left_x=1430) $$ t=t_{2} $$  Figure 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "A uniform rod of mass $M$ and length $L$ is free to rotate about a fixed axis about one end. The rod is beld horizontally, as shown in Figure 1, released, and swings in the vertical plane. Time $t_{j}$ is immediately after the rod is released, and time $t_{2}$ is the time when the rod passes through the vertical, as shown in Figure 2. If the procedure is repeated with a rod of the same mass but greater length, which of the following quantities decreases?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Torque exerted on the rod at $t_{1}$"
+            },
+            {
+              "key": "B",
+              "content": "Angular acceleration at $t_{1}$."
+            },
+            {
+              "key": "C",
+              "content": "Angular momentum of the rod at $t_{2}$"
+            },
+            {
+              "key": "D",
+              "content": "Rotational kinetic energy of the rod at $t_{2}$"
+            },
+            {
+              "key": "E",
+              "content": "Tangential speed of the free end of the rod at $t_{2}$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-21.jpg?height=428&width=608&top_left_y=387&top_left_x=826)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "The position of an object is marked at regular time intervals on a thin strip of paper, which is then placed above a ruler, as shown. The position of the object is modeled by the equation $x=A+B t+C r^{2}$, where $A, B$, and $C$ are constants with appropriate units. The positive direction is to the right. If the motion of the object is changed such that the position of the object is modeled by the equation $x=A-B t+C t^{2}$, which of the following could represent the position of the object at regular time intervals?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=884&top_left_y=953&top_left_x=333)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=1307&top_left_x=333)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=264&width=870&top_left_y=1665&top_left_x=333)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=266&width=879&top_left_y=2019&top_left_x=333)  Æ) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-22.jpg?height=272&width=884&top_left_y=2380&top_left_x=328)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "A student is performing an experiment to determine the power delivered to a block then is pulled at a constant speed across a surface by an external force. There is friction between the block and surface. Which of the following sets of equipment and corresponding measurements would allow the student to decermine the power delivered to the block by the external force?",
+          "options": [
+            {
+              "key": "A",
+              "content": "A force sensor to measure the applied force, a stopwarch to measure time, and a scale to measure the mass of the block"
+            },
+            {
+              "key": "B",
+              "content": "A stopwatch to measure time and a motion sensor to measure speed"
+            },
+            {
+              "key": "C",
+              "content": "A motion sensor to measure speed, a stopwatch to measure time, and a meterstick to measure distance"
+            },
+            {
+              "key": "D",
+              "content": "A force sensor to measure the applied force and a motion sensor to measure speed"
+            },
+            {
+              "key": "E",
+              "content": "A force sensor to measure the applied force, a scale to measure the mass of the block, and a meterstick to measure distance ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=510&width=606&top_left_y=410&top_left_x=1350) ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-23.jpg?height=503&width=711&top_left_y=969&top_left_x=1245)  Note: Figures not drawn to seale."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "Object A of mass 3.0 kg moves with velocity $6.0 \\mathrm{~m} / \\mathrm{s}$ direcred $30^{\\circ}$ south of eact. is shown. In the same plane, Object B of mass 2.0 kg moves with velocity $9.0 \\mathrm{~m} / \\mathrm{s}$ directed $30^{\\circ}$ noth of east, as shown. The objers then collide and stick together. Which of the following best approximates the velocity of the objects after the collision?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "$62 \\mathrm{~m} / \\mathrm{s}$ directed east"
+            },
+            {
+              "key": "C",
+              "content": "$7.2 \\mathrm{~m} / \\mathrm{s}$ directed east"
+            },
+            {
+              "key": "D",
+              "content": "$13 \\mathrm{~m} / \\mathrm{s}$ directed $7^{\\circ}$ north of east"
+            },
+            {
+              "key": "E",
+              "content": "$31 \\mathrm{~m} / \\mathrm{s}$ dirocted east  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=555&width=663&top_left_y=246&top_left_x=150} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-24.jpg?height=411&width=969&top_left_y=333&top_left_x=887} \\captionsetup{labelformat=empty} \\caption{Figure 2} \\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "A pulley consists of an inner disk of radius $r$ and an outer disk of radius $2 r$. The pulley can rotate about an axle perpendicular to the plane of the page. In an experiment, a force of magnitude $F$ is excrted tangent to the edge of the inner disk, as shown in Figure 1, for a time $\\Delta t$. The experiment is repeated but an additional force of magnitude $2 F$ is exerted tangent to the edge of the outer disk, as shown in Figure 2, for the same time $\\Delta t$. The magnitudes of the changes in the angular momentum of the pulley in figures 1 and 2 are $\\Delta L_{1}$ and $\\Delta L_{2}$, respectively. Which of the following correctly relates $\\Delta L_{2}$ and $\\Delta L_{1}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\Delta L_{2}=\\frac{1}{3} \\Delta L_{1}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\Delta L_{2}=\\frac{1}{2} \\Delta L_{1}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\Delta L_{2}=\\Delta L_{1}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\Delta L_{2}=2 \\Delta L_{1}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\Delta L_{2}=3 \\Delta L_{1}$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-25.jpg?height=293&width=820&top_left_y=394&top_left_x=725)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "An object is launched at an angle of $45^{\\circ}$ above the horizontal across level ground. The horizontal displacement $R_{0}$ of the object is measured, as shown. Air resistance is negligible. The launch angle is increased, and the object is launched again with the same initial speed. The new horizontal displacement $R_{\\text {new }}$ of the object is measured. Which of the following correctly compares $R_{0}$ and $R_{\\text {new }}$ and provides valid justification?  \\begin{tabular}{c|c}  & Displacement \\\\ \\hline A & $R_{0}>R_{\\text {new }}$ \\\\ B & $R_{0}>R_{\\text {new }}$ \\\\ C & $R_{0}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B ."
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-26.jpg?height=914&width=1168&top_left_y=360&top_left_x=492)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "A car travels with a constant speed $v$ along a circular road, as shown in the Top View. The circular road has radius $r$. The road is banked at an angle $\\theta$ with respect to the $x$-axis. The normal force $F_{N}$ and the gravitational force $F_{g}$ exerted on the car are shown in the Front View. At what angle $\\theta$ should the road be banked so that no frictional force between the car and roed is required to keep the car from slipping?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sin ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$"
+            },
+            {
+              "key": "B",
+              "content": "$\\sin ^{-1}\\left(\\frac{r g}{y^{2}}\\right)$"
+            },
+            {
+              "key": "C",
+              "content": "$\\tan ^{-1}\\left(\\frac{v^{2}}{r g}\\right)$"
+            },
+            {
+              "key": "D",
+              "content": "$\\tan ^{-1}\\left(\\frac{r g}{v^{2}}\\right)$"
+            },
+            {
+              "key": "E",
+              "content": "$\\tan ^{-1}\\left(\\frac{\\nu}{\\sqrt{\\sqrt{g}}}\\right)$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-27.jpg?height=564&width=738&top_left_y=342&top_left_x=196)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "The potential energy $U(x)$ of a system varies with the position $x$ of an object in the system. The potential energy, as shown in the graph, is described by $U(x)=A x^{2}+B$, where $A$ and $B$ are positive constants with appropriate units. There are no external forces acting on the system. Which of the following gives the correct magnitude and direction of the $x$-component of the net force on the object when it is at position $x_{0}$, where $x_{0}>0$ ?  \\begin{tabular}{|l|l|l|} \\hline & Magnitude & Direction \\\\ \\hline A & $\\frac{1}{3} A x_{0}{ }^{3}+B x_{0}$ & +x \\\\ \\hline B & $\\frac{1}{3} A x_{0}{ }^{3}+B x_{0}$ & -x \\\\ \\hline C & $A x_{0}{ }^{2}+B$ & -x \\\\ \\hline D & $2 A x_{0}$ & +x \\\\ \\hline E & $2 \\mathrm{~A} x_{0}$ & -x \\\\ \\hline \\end{tabular}",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "B",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "The magnitude of the gravitational force between two planets is $F=\\frac{\\Lambda}{r^{2}}$, where $A=3.2 \\times 10^{37} \\mathrm{~N} \\cdot \\mathrm{~m}^{2}$. How much work would be done by the gravitational force if the planets moved from $r=4.0 \\times 10^{9} \\mathrm{~m}$ apart to $r=3.0 \\times 10^{9} \\mathrm{~m}$ apart?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1.6 \\times 10^{18} \\mathrm{~J}$"
+            },
+            {
+              "key": "B",
+              "content": "$2.0 \\times 10^{27} \\mathrm{~J}$"
+            },
+            {
+              "key": "C",
+              "content": "$2.7 \\times 10^{27} \\mathrm{~J}$"
+            },
+            {
+              "key": "D",
+              "content": "$3.6 \\times 10^{27} \\mathrm{~J}$"
+            },
+            {
+              "key": "E",
+              "content": "$1.9 \\times 10^{28} \\mathrm{~J}$ ![](https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-28.jpg?height=99&width=913&top_left_y=335&top_left_x=299)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "A thin rod of length $L$ is positioned on the $x$-axis, as shown. The rod has a linear mass density of $\\lambda(x)=A x^{2}$, where $x$ is position and $A$ is a positive constant with appropriate units. At what position is the center of mass of the rod located?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$x=\\frac{1}{4} L$"
+            },
+            {
+              "key": "B",
+              "content": "$x=\\frac{1}{2} L$"
+            },
+            {
+              "key": "C",
+              "content": "$x=\\frac{2}{3} L$"
+            },
+            {
+              "key": "D",
+              "content": "$x=\\frac{3}{4} L$"
+            },
+            {
+              "key": "E",
+              "content": "$x=\\frac{4}{5} L$  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=791&width=811&top_left_y=230&top_left_x=264} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-29.jpg?height=693&width=770&top_left_y=232&top_left_x=1150} \\captionsetup{labelformat=empty} \\caption{Top View} \\end{figure}  Figure 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "A uniform rod of mass $M=3 m$ and length $L=x_{0}$ is rotating in the counterclockwise direction on a horizont: table about a pivot at one end. The free end of the rod has speed $v_{0}$. A ball of mass $m$ slides across the table with speed $v_{0}$, as shown in Figure 1. The ball collides with and sticks to the free end of the rod when the rod is at the position shown in Figure 2. The rotational inertia of a rod about its end is given by $\\frac{1}{3} M L^{2}$. Frictional forces are negligible. Positive values of angular momentum correspond to counterclockwise rotation. Which o the following indicates the change in angular momentum of the rod after the collision?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$-m x_{0} v_{0}$"
+            },
+            {
+              "key": "C",
+              "content": "$+m x_{0} v_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$-2 m x_{0} v_{0}$"
+            },
+            {
+              "key": "E",
+              "content": "$+2 m x_{0} v_{0}$  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=396&width=958&top_left_y=123&top_left_x=565} \\captionsetup{labelformat=empty} \\caption{Figure 1} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/d8de69c8-d690-4140-b324-3fa2e68fd571-30.jpg?height=440&width=961&top_left_y=686&top_left_x=559} \\captionsetup{labelformat=empty} \\caption{Figure 2} \\end{figure}  Note: Figures are not drawn to scate."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "A block sits on a horizontal surface with a section of rongh suffect it its center. The block is pressed against Spring $A$, compressing the spring a distance $D_{0}$, as shown in Figne 1. The bloct is then released and shides across the surface, compressing an identical spring, Spring $B$, a distance $\\frac{\\sqrt{3}}{2} D_{0}$ as shomm in Figne 2 Tre block then moves back across the surface toward Sping A. Friction between the block and surface is negnighit except when the block is on the rough sufface. What is the mariman distance Spring A is compressed affer the block leaves Spring B and passes over the rough surface again?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{4} D_{0}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{\\sqrt{3}}{4} D_{0}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{2} D_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{1}{\\sqrt{2}} D_{0}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{3}{4} D_{0}$  \\section*{Question 1}  \\section*{Begin your response to QUESTION 1 on this page.}  \\section*{PHYSICS C: MECHANICS \\\\"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": "2024Intl-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "32",
+          "type": "free-response",
+          "prompt": "block of mass $m$ slides down a ramp that makes an angle $\\theta$ with the horizontal. The $+x$-direction is directed down the ramp. At time $t=0$, the block is at position $x=0$ and has speed $v_{0}$ down the ramp. A resistive force exerted on the block increases linearly with time as the block slides down the ramp. The resistive force at $x=0$ is 0 N . The block comes to rest on the ramp at $t_{s}$, as shown.\n\nContinue your response to QUESTION 1 on this page.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "i. The following diagrams represent the block at time $t=0$ and a short time before $t_{s}$. In cach figure, draw a single arrow that represents the volocity of the block. The lengths of each arrow should represent the relative magnitudes of the velocity at $t=0$ and a short time before $t_{s}$.\n\nii. A short time before $t_{s}$, is the acceleration vector of the block directed down the ramp ( $+x$-direction), directed up the ramp ( $-x$-direction), or zero? Briefly justify your reasoning."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On the following axes, sketch the velocity $v$ of the block as a function of $t$ during the interval $0 \\leq t \\leq t_{s}$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "During the time interval $0 \\leq t \\leq t_{s}$, the accoloration $a$ of the block is described as a function of time by the equation $a=a_{0}-b t$, whore $a_{0}$ and $b$ are positivo constants with appropriato units. Derive an expression the velocity $\\nu$ of the block as a function of time $t$ for the time interval $0 \\leq t \\leq t_{s}$. Express your answer in torms of $t, \\nu_{0}, a_{0}, b$, and physical constants, as appropriato.\n\nIn a now scenario, the block slides down a new ramp while a variable force is exerted on the block. At time $t=$ the block is at position $x=0$ and has the same initial speed $v_{0}$ as in the original scenario. The block slides dor the ramp and comes to rest at $t_{52}$. While the block is moving, the position $x$ of the block as a function of time I modeled by $x=v_{0} t+\\frac{C}{6} t^{3}-\\frac{D}{12} t^{4}$, where $C$ and $D$ are positive constants. After the block has stopped movin the block has travoled a vortical distance $h$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Derive an expression for the knotic energy $K$ of the block as a function of time $t$ for the time interval $0 \\leq t \\leq t_{52}$. Express your answer in terms of $t, m, C, D, v_{0}$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Derive an expression for the work $W_{v a r}$ done by the variable force on the block after the block has traveled the vertical distance $h$. Express your answer in terms of $m, v_{0}, h$, and physical constants, as appropriate.\n(f) Derive an expression for the net force on the block at time $t=0$. Express your answer in terms of $t, m, C, D, v_{0}$, and physical constants, as appropriate."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "33",
+          "type": "free-response",
+          "prompt": "board of uniform density, mass $4 M$; and length $10 d$ rests on the ice of a frozen lake. There is negligible frietion between the board and the ice. One end of the board is at position $x=d$ from the shore of the lake. A stodent of mass $M$ stands on the other end of the board at $x=11 d$, as shown.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "In Scenario 1, the student starts at $x=11 d$ and walks on the board toward the shore.\ni. Briefly justify why the position of the center of mass of the system consisting of the board and the student does not change.\nii. Derive an expression for the position $x_{C M}$ of the center of mass of the board-smdent system relative to the shore in terms of $d, M$, and physical constants, as appropriate."
+            },
+            {
+              "partSign": "b",
+              "partContent": "In Scenario 2, the student attaches a variable-speed fan of mass $M$ to the board, as sbown. The board-fan-student system is at rest when the fan is turned on at time $t=0$. The force exerted on the system , be modeled by the function $F=+C t$, where $C$ is a positive constant with appropriate units.\ni. Derive an expression for the velocity $v$ of the system as a function of time $t$ in terms of $M, C, 1$, and physical constants, as appropriate.\nii. The fan is turned off at $t=t_{1}$. On the following axes, sketch a graph of the momentum $p$ of the syste as a function of time for $0t_{1}$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Consider the case where friction between the board and the ice is not negligible.\ni. Describe bow a feame of the graph you drew in part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "In Scenario 3, the student has removed the fan from the board. Friction between the boerd and the iceis negligible. Starting at $t=0$, the student runs on the board from $x=11 d$ toward the scre win 2 speed $Y_{s}$ relative to the board. Derive an expression for the speed $v_{b E}$ of the board relarive to Earin. Eruess your answer in terms of $v_{\\text {s }}$ and physical constants, as appropriate."
+            },
+            {
+              "partSign": "a",
+              "partContent": "A group of students plan an experiment to determine the rotational incrtia $I$ of a whecl. The wheel is released from rest at the top of a curved track, rolls down the track, and smoothly transitions to a flat, horizontal regior as shown in Figure 1. At all times, the wheel rolls without slipping. The mass $M_{w}$ and radius $R$ of the wheel are known. The only measurement tools the students have access to are a meterstick and a stopwatch.\ni. Describe a procedure to collect data that will be used to calculate an experimental value for $I$ of the wheel. Provide enough detail so that other students could replicate the experiment, and include any steps necessary to reduce experimental uncertainty.\nii. Describe how the collected data can be used to calculate $I$.\n\nContinue your response to QUESTION 3 on this page.\n\nThe students plan another experiment to determine $I$ of the wheel. The students mount the wheel on an axis with negligible friction that is perpendicular to the plane of the page. A thin string is wound around the wheel, and the students attach the string to a hanging block of mass $M_{B}$, as shown in Figure 2. The students release the block from varying heights $H$ and allow the block to fall to the floor. The speed of the block immediately before it reaches the floor is $v$. The string does not slip on the wheel as the block accelerates."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive the relationship between $I$ and $v$ to show that $I=\\frac{M_{B}\\left(2 g H-v^{2}\\right) R^{2}}{v^{2}}$.\n\nContinue your response to QUESTION 3 on this page.\n\nThe students plan another experiment to determine $I$ of the wheel. The students mount the wheel on an axis with negligible friction that is perpendicular to the plane of the page. A thin string is wound around the wheel, and the students attach the string to a hanging block of mass $M_{B}$, as shown in Figure 2. The students release the block from varying heights $H$ and allow the block to fall to the floor. The speed of the block immediately before it reaches the floor is $v$. The string does not slip on the wheel as the block accelerates."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive the relationship between $I$ and $v$ to show that $I=\\frac{M_{B}\\left(2 g H-v^{2}\\right) R^{2}}{v^{2}}$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The students repeat the experiment with blocks of larger mass. The students observe that the string slips on the Wheel as the block accelerates to the floor when the blocks with larger mass are used. Indicate whether the actual rotational inertia $I$ of the wheel is greater than, less than, or equal to this new value calculated experimentally.\n$\\_\\_\\_\\_$ Greater than $\\_\\_\\_\\_$ Less than $\\_\\_\\_\\_$ Equal to\n\nBricfly justify your reasoning.\n\nDO NOT WRITE ON THIS PAGE."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

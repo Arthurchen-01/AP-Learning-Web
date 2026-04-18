@@ -5,18 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AP Learning - 自用 AP 练习平台</title>
   <style>
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
+    /* Colors from global-theme.css */
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -235,6 +224,7 @@
       .hero h1 { font-size: 2rem; }
     }
   </style>
+  <link rel="stylesheet" href="assets/global-theme.css">
 </head>
 <body>
   <!-- Navigation -->
@@ -294,6 +284,13 @@
       <div class="quick-card">
         <h3>最新试卷</h3>
         <div id="recent-exams">
+          <div class="exam-item">
+            <div>
+              <div class="name">AP Calculus BC 2017 国际卷</div>
+              <div class="year">68题 | 预计 2小时55分钟</div>
+            </div>
+            <a href="./v2/exam/paper.html?exam=calc-bc-2017-intl" class="btn btn-primary">做题</a>
+          </div>
           <div class="exam-item">
             <div>
               <div class="name">AP Calculus BC 2018 国际卷</div>

@@ -1,0 +1,1333 @@
+{
+  "examId": "1902622411338911744",
+  "title": "AP 微积分BC 2017年国际卷",
+  "subjectName": "微积分BC",
+  "yearLabel": "",
+  "description": "AP AP 微积分BC 2017年国际卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 102,
+      "directions": "",
+      "questions": [
+        {
+          "id": "2977",
+          "type": "single",
+          "prompt": "If <span aria-label=\"f of x is equal to cosine squared of open paren 3 x minus 5 close paren\"><math> <mrow> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mo>=</mo><msup> <mrow> <mi>cos</mi></mrow> <mn>2</mn> </msup> <mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow></mrow> </math></span>, then <span aria-label=\"f prime times x is equal to\"><math> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> </mrow> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"6 cosine open paren 3 x minus 5 close paren\"><math> <mrow> <mn>6</mn> <mi>cos</mi> <mrow> <mo>(</mo> <mrow> <mn>3</mn> <mi>x</mi> <mo>−</mo> <mn>5</mn> </mrow> <mo>)</mo> </mrow> </mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 3 sine squared open paren 3 x minus 5 close paren\"><math> <mrow> <mo>−</mo><mn>3</mn><msup> <mrow> <mi>sin</mi></mrow> <mn>2</mn> </msup> <mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow></mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 sine open paren 3 x minus 5 close paren cosine open paren 3 x minus 5 close paren\"><math> <mrow> <mo>−</mo><mn>2</mn><mi>sin</mi><mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow><mi>cos</mi><mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow></mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 6 sine open paren 3 x minus 5 close paren cosine open paren 3 x minus 5 close paren\"><math> <mrow> <mo>−</mo><mn>6</mn><mi>sin</mi><mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow><mi>cos</mi><mrow><mo>(</mo> <mrow> <mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow> <mo>)</mo></mrow></mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3648",
+          "type": "single",
+          "prompt": "<span aria-label=\"the integral of the fraction with numerator 1 and denominator t square root of t d t is equal to\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow><mo>∫</mo> <mrow> <mfrac> <mn>1</mn> <mrow> <mi>t</mi><msqrt> <mi>t</mi> </msqrt> </mrow> </mfrac> </mrow> </mrow> </mstyle><mi>d</mi><mi>t</mi><mo>=</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdbaWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaadshadaGcaaWdaeaapeGaamiDaaWcbeaaaaaabeqab0Gaey4kIipakiaadsgacaWG0bGaeyypa0daaa@3E4A@</annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 t raised to the negative 1 over 2 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mn>2</mn><msup> <mi>t</mi> <mrow> <mo>−</mo><mn>1</mn><mo>/</mo><mn>2</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaamiDa8aadaahaaWcbeqaa8qacqGHsislcaaIXaGaai4laiaaikdaaaGccqGHRaWkcaWGdbaaaa@3DCD@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 3 halves t raised to the negative 5 over 2 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mfrac> <mn>3</mn> <mn>2</mn> </mfrac> <msup> <mi>t</mi> <mrow> <mo>−</mo><mn>5</mn><mo>/</mo><mn>2</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaG4maaWdaeaapeGaaGOmaaaacaWG0bWdamaaCaaaleqabaWdbiabgkHiTiaaiwdacaGGVaGaaGOmaaaakiabgUcaRiaadoeaaaa@3EDC@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 fifths t raised to the negative 5 over 2 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mfrac> <mn>2</mn> <mn>5</mn> </mfrac> <msup> <mi>t</mi> <mrow> <mo>−</mo><mn>5</mn><mo>/</mo><mn>2</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaGOmaaWdaeaapeGaaGynaaaacaWG0bWdamaaCaaaleqabaWdbiabgkHiTiaaiwdacaGGVaGaaGOmaaaakiabgUcaRiaadoeaaaa@3EDE@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2 t raised to the 1 half power ln t plus cap c\"><math> <semantics> <mrow> <mn>2</mn><msup> <mi>t</mi> <mrow> <mn>1</mn><mo>/</mo><mn>2</mn> </mrow> </msup> <mi>ln</mi><mtext> </mtext><mi>t</mi><mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIYaGaamiDa8aadaahaaWcbeqaa8qacaaIXaGaai4laiaaikdaaaGcciGGSbGaaiOBa8aacaaMe8+dbiaadshacqGHRaWkcaWGdbaaaa@407C@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4398",
+          "type": "single",
+          "prompt": "If <span aria-label=\"f of x is equal to the fraction with numerator 5 minus x and denominator x cubed plus 2\"><math> <semantics> <mrow> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mfrac> <mrow> <mn>5</mn> <mo>−</mo> <mi>x</mi> </mrow> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9maalaaapaqaa8qacaaI1aGaeyOeI0IaamiEaaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaaaaaa@4456@</annotation> </semantics> </math></span>, then <span aria-label=\"f prime times x is equal to\"><math> <semantics> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbiqadAgagaqbamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0daaa@3DBD@</annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator negative 4 x cubed plus 15 x squared minus 2 and denominator open paren x cubed plus 2 close paren squared\"><math> <semantics> <mrow> <mfrac> <mrow> <mo>−</mo> <mn>4</mn> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>15</mn> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>−</mo> <mn>2</mn> </mrow> <mrow> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacqGHsislcaaI0aGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHsislcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@4996@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator negative 2 x cubed plus 15 x squared plus 2 and denominator open paren x cubed plus 2 close paren squared\"><math> <semantics> <mrow> <mfrac> <mrow> <mo>−</mo> <mn>2</mn> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>15</mn> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mrow> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacqGHsislcaaIYaGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHRaWkcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@4989@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator 2 x cubed minus 15 x squared minus 2 and denominator open paren x cubed plus 2 close paren squared\"><math> <semantics> <mrow> <mfrac> <mrow> <mn>2</mn> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>−</mo> <mn>15</mn> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>−</mo> <mn>2</mn> </mrow> <mrow> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacaaIYaGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaeyOeI0IaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHsislcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@48B2@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator 4 x cubed minus 15 x squared plus 2 and denominator open paren x cubed plus 2 close paren squared\"><math> <semantics> <mrow> <mfrac> <mrow> <mn>4</mn> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>−</mo> <mn>15</mn> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mrow> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <mn>2</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaalaaapaqaa8qacaaI0aGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaeyOeI0IaaGymaiaaiwdacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHRaWkcaaIYaaapaqaa8qadaqadaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaaaaaaa@48A9@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2213",
+          "type": "single",
+          "prompt": "<p>The position of a particle moving in the <em>xy</em>-plane is given by the vector 〈<span aria-label=\"4 t cubed comma y times 2 t\"><math> <semantics> <mrow> <mn>4</mn> <msup> <mi>t</mi> <mn>3</mn> </msup> <mo>,</mo> <mo> </mo> <mi>y</mi> <mo stretchy=\"false\">(</mo> <mn>2</mn> <mi>t</mi> <mo stretchy=\"false\">)</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI0aGaamiDa8aadaahaaWcbeqaa8qacaaIZaaaaOGaaiilaiaacckacaWG5bGaaiikaiaaikdacaWG0bGaaiykaaaa@3EBE@</annotation> </semantics> </math></span>〉, where <em>y</em> is a</p> <p>twice-differentiable function of <em>t</em>. At time <span aria-label=\"t is equal to 1 half\"><math> <semantics> <mrow> <mi>t</mi> <mo>=</mo> <mfrac> <mn>1</mn> <mn>2</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG0bGaeyypa0ZaaSaaa8aabaWdbiaaigdaa8aabaWdbiaaikdaaaaaaa@39D8@</annotation> </semantics> </math></span>, what is the acceleration vector of the particle?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">〈<span aria-label=\"3 comma 2 y double prime times 1\"><math> <semantics> <mrow> <mn>3</mn> <mo>,</mo> <mo> </mo> <mn>2</mn> <msup> <mi>y</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIZaGaaiilaiaacckacaaIYaGaamyEa8aadaahaaWcbeqaa8qacqaHYaIOaaGcpaWaaWbaaSqabeaapeGaeqOmGikaaOGaaiikaiaaigdacaGGPaaaaa@401B@</annotation> </semantics> </math></span>〉</div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">〈<span aria-label=\"6 comma 4 y double prime times 1\"><math> <semantics> <mrow> <mn>6</mn> <mo>,</mo> <mo> </mo> <mn>4</mn> <msup> <mi>y</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI2aGaaiilaiaacckacaaI0aGaamyEa8aadaahaaWcbeqaa8qacqaHYaIOaaGcpaWaaWbaaSqabeaapeGaeqOmGikaaOGaaiikaiaaigdacaGGPaaaaa@4020@</annotation> </semantics> </math></span>〉</div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">〈<span aria-label=\"12 comma 2 y double prime times 1\"><math> <semantics> <mrow> <mn>12</mn> <mo>,</mo> <mo> </mo> <mn>2</mn> <msup> <mi>y</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIXaGaaGOmaiaacYcacaGGGcGaaGOmaiaadMhapaWaaWbaaSqabeaapeGaeqOmGikaaOWdamaaCaaaleqabaWdbiabekdiIcaakiaacIcacaaIXaGaaiykaaaa@40D5@</annotation> </semantics> </math></span>〉</div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">〈<span aria-label=\"12 comma 4 y double prime times 1\"><math> <semantics> <mrow> <mn>12</mn> <mo>,</mo> <mo> </mo> <mn>4</mn> <msup> <mi>y</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIXaGaaGOmaiaacYcacaGGGcGaaGinaiaadMhapaWaaWbaaSqabeaapeGaeqOmGikaaOWdamaaCaaaleqabaWdbiabekdiIcaakiaacIcacaaIXaGaaiykaaaa@40D7@</annotation> </semantics> </math></span>〉</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5341",
+          "type": "single",
+          "prompt": "To what number does the series <span aria-label=\"the sum from k is equal to 0 to infinity of open paren negative e over pi close paren to the k th power\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>k</mi><mo>=</mo><mn>0</mn> </mrow> <mi>∞</mi> </munderover> <mrow> <msup> <mrow> <mrow><mo>(</mo> <mrow> <mfrac> <mrow> <mo>−</mo><mi>e</mi> </mrow> <mi>π</mi> </mfrac> </mrow> <mo>)</mo></mrow> </mrow> <mi>k</mi> </msup> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaeWaa8aabaWdbmaalaaapaqaa8qacqGHsislcaWGLbaapaqaa8qacqaHapaCaaaacaGLOaGaayzkaaWdamaaCaaaleqabaWdbiaadUgaaaaapaqaa8qacaWGRbGaeyypa0JaaGimaaWdaeaapeGaeyOhIukaniabggHiLdaaaa@438F@</annotation> </semantics> </math></span> converge?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator negative e and denominator pi plus e\"><math> <semantics> <mrow> <mfrac> <mrow> <mo>−</mo><mi>e</mi> </mrow> <mrow> <mi>π</mi><mo>+</mo><mi>e</mi> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaeyOeI0IaamyzaaWdaeaapeGaeqiWdaNaey4kaSIaamyzaaaaaaa@3BC2@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator pi and denominator pi plus e\"><math> <semantics> <mrow> <mfrac> <mi>π</mi> <mrow> <mi>π</mi> <mo>+</mo> <mi>e</mi> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacqaHapaCcqGHRaWkcaWGLbaaaaaa@3BA8@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The series does not converge.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2656",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents the graph of f in the x y coordinate plane, with the origin labeled O. A tick mark labeled a, is indicated on the x axis, to the right of the origin. The graph consists of a curve, an open circle along the path of the curve at x equals a, and a closed circle not along the path of the curve at x equals a. The graph is a curve that begins in quadrant 3, to the left of the y axis. It moves gradually upward and to the right crossing the y axis below the origin. It continues into quadrant 4 and becomes steeper as it approaches the x axis. It then crosses the x axis to the left of the tick mark labeled a, continues upward and to the right into quadrant 1, and then begins to level off. Above the tick mark on the x axis labeled a, there is an open circle along the path of the curve and a closed circle between the open circle and the x axis. To the right of x equals a, the curve continues moving up and to the right.\" height=\"316\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/900a469be1bd2a2f911272d6d21e9b98/original.png\" width=\"655\"></p><p>The graph of <em>y = f(x)</em> is shown above. Which of the following is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit h to 0 of the fraction with numerator f of open paren A plus h close paren minus f of A and denominator h\"><math> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>h</mi> <mo>→</mo> <mn>0</mn> </mrow> </munder> <mfrac> <mrow> <mi>f</mi> <mrow> <mo>(</mo> <mrow> <mi>a</mi> <mo>+</mo> <mi>h</mi> </mrow> <mo>)</mo> </mrow> <mo>−</mo> <mi>f</mi> <mrow> <mo>(</mo> <mi>a</mi> <mo>)</mo> </mrow> </mrow> <mi>h</mi> </mfrac> </mrow> </math></span> exists.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to A raised to the plus power of f times x is not equal to limit x to A raised to the negative power of f times x\"><math> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <msup> <mi>a</mi> <mo>+</mo> </msup> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>≠</mo> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <msup> <mi>a</mi> <mo>−</mo> </msup> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to A of f times x is not equal to f of A\"><math> <mrow> <munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><mi>a</mi></mrow> </munder> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mo>≠</mo><mi>f</mi><mrow><mo>(</mo> <mi>a</mi> <mo>)</mo></mrow></mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to A of f times x\"><math> <mrow> <munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><mi>a</mi></mrow> </munder> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow></mrow> </math></span> does not exist.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2258",
+          "type": "single",
+          "prompt": "If <span aria-label=\"the integral from 4 to negative 10 of g x d x is equal to negative 3\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>4</mn> <mrow> <mo>−</mo> <mn>10</mn> </mrow> </msubsup> <mi>g</mi> </mrow> </mstyle> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mi>d</mi> <mi>x</mi> <mo>=</mo> <mo>−</mo> <mn>3</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaapedapaqaa8qacaWGNbaal8aabaWdbiaaisdaa8aabaWdbiabgkHiTiaaigdacaaIWaaaniabgUIiYdGcdaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiaadsgacaWG4bGaeyypa0JaeyOeI0IaaG4maaaa@46F3@</annotation> </semantics> </math></span> and <span aria-label=\"the integral from 4 to 6 of g x d x is equal to 5\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>4</mn> <mn>6</mn> </msubsup> <mi>g</mi> </mrow> </mstyle> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mi>d</mi> <mi>x</mi> <mo>=</mo> <mn>5</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaapedapaqaa8qacaWGNbaal8aabaWdbiaaisdaa8aabaWdbiaaiAdaa0Gaey4kIipakmaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaamizaiaadIhacqGH9aqpcaaI1aaaaa@4466@</annotation> </semantics> </math></span>, then <span aria-label=\"the integral from negative 10 to 6 of g x d x is equal to\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mrow> <mo>−</mo> <mn>10</mn> </mrow> <mn>6</mn> </msubsup> <mi>g</mi> </mrow> </mstyle> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mi>d</mi> <mi>x</mi> <mo>=</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaapedapaqaa8qacaWGNbaal8aabaWdbiabgkHiTiaaigdacaaIWaaapaqaa8qacaaI2aaaniabgUIiYdGcdaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiaadsgacaWG4bGaeyypa0daaa@454B@</annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 8\"><math> <semantics> <mrow> <mo>−</mo> <mn>8</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacqGHsislcaaI4aaaaa@3AAA@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2\"><math> <semantics> <mrow> <mo>−</mo> <mtext>2</mtext> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacqGHsislcaqGYaaaaa@3A9D@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2\"><math> <semantics> <mtext>2</mtext> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacaqGYaaaaa@39B0@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"8\"><math> <semantics> <mtext>8</mtext> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaacaqG4aaaaa@39B6@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2910",
+          "type": "single",
+          "prompt": "The length of the curve <em>y</em> = sin(3<em>x</em>) from <em>x</em> = 0 to <span aria-label=\"x is equal to pi over 6\"><math> <semantics> <mrow> <mi>x</mi> <mo>=</mo> <mfrac> <mi>π</mi> <mn>6</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG4bGaeyypa0ZaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOnaaaaaaa@3AE2@</annotation> </semantics> </math></span> is given by",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to pi over 6 of open paren 1 plus 9 cosine squared 3 x close paren d x\"><math> <semantics> <mrow> <munderover> <mstyle displaystyle=\"true\" mathsize=\"140%\"> <mo>∫</mo> </mstyle> <mn>0</mn> <mrow> <mi>π</mi> <mo>/</mo> <mn>6</mn> </mrow> </munderover> <mo stretchy=\"false\">(</mo> <mn>1</mn> <mo>+</mo> <mn>9</mn> <msup> <mrow> <mi>cos</mi> </mrow> <mn>2</mn> </msup> <mo stretchy=\"false\">(</mo> <mn>3</mn> <mi>x</mi> <mo stretchy=\"false\">)</mo> <mo stretchy=\"false\">)</mo> <mi>d</mi> <mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOGaaiikaiaaigdacqGHRaWkcaaI5aGaci4yaiaac+gacaGGZbWdamaaCaaaleqabaWdbiaaikdaaaGccaGGOaGaaG4maiaadIhacaGGPaGaaiykaiaadsgacaWG4baaaa@496D@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to pi over 6 of square root of 1 plus sine squared of 3 x end root d x\"><math> <semantics> <mrow> <munderover> <mstyle displaystyle=\"true\" mathsize=\"140%\"> <mo>∫</mo> </mstyle> <mn>0</mn> <mrow> <mi>π</mi> <mo>/</mo> <mn>6</mn> </mrow> </munderover> <msqrt> <mrow> <mn>1</mn> <mo>+</mo> <msup> <mrow> <mi>sin</mi> </mrow> <mn>2</mn> </msup> <mo stretchy=\"false\">(</mo> <mn>3</mn> <mi>x</mi> <mo stretchy=\"false\">)</mo> </mrow> </msqrt> <mi>d</mi> <mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakiaacIcacaaIZaGaamiEaiaacMcaaSqabaGccaWGKbGaamiEaaaa@479A@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to pi over 6 of square root of 1 plus 3 cosine 3 x end root d x\"><math> <semantics> <mrow> <munderover> <mstyle displaystyle=\"true\" mathsize=\"140%\"> <mo>∫</mo> </mstyle> <mn>0</mn> <mrow> <mi>π</mi> <mo>/</mo> <mn>6</mn> </mrow> </munderover> <msqrt> <mrow> <mn>1</mn> <mo>+</mo> <mn>3</mn> <mi>cos</mi> <mo stretchy=\"false\">(</mo> <mn>3</mn> <mi>x</mi> <mo stretchy=\"false\">)</mo> </mrow> </msqrt> <mi>d</mi> <mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkcaaIZaGaci4yaiaac+gacaGGZbGaaiikaiaaiodacaWG4bGaaiykaaWcbeaakiaadsgacaWG4baaaa@4740@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to pi over 6 of square root of 1 plus 9 cosine squared 3 x end root d x\"><math> <semantics> <mrow> <munderover> <mstyle displaystyle=\"true\" mathsize=\"140%\"> <mo>∫</mo> </mstyle> <mn>0</mn> <mrow> <mi>π</mi> <mo>/</mo> <mn>6</mn> </mrow> </munderover> <msqrt> <mrow> <mn>1</mn> <mo>+</mo> <mn>9</mn> <msup> <mrow> <mi>cos</mi> </mrow> <mn>2</mn> </msup> <mo stretchy=\"false\">(</mo> <mn>3</mn> <mi>x</mi> <mo stretchy=\"false\">)</mo> </mrow> </msqrt> <mi>d</mi> <mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaGfWbqabSWdaeaapeGaaGimaaWdaeaapeGaeqiWdaNaai4laiaaiAdaa0WdaeaapeGaey4kIipaaOWaaOaaa8aabaWdbiaaigdacqGHRaWkcaaI5aGaci4yaiaac+gacaGGZbWdamaaCaaaleqabaWdbiaaikdaaaGccaGGOaGaaG4maiaadIhacaGGPaaaleqaaOGaamizaiaadIhaaaa@4858@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5136",
+          "type": "single",
+          "prompt": "The slope of the line tangent to the graph of <em>y = xe<sup>x</sup></em> at <em>x =</em> ln 2 is",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>2 ln 2</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>2 ln 2 + 2</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><em>e</em><sup>2</sup>(ln 2)<em> + e</em><sup>2</sup></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2 plus the fraction with numerator 2 ln 2 and denominator e\"><math> <semantics> <mrow> <mn>2</mn><mo>+</mo><mfrac> <mrow> <mn>2</mn><mi>ln</mi><mn>2</mn> </mrow> <mi>e</mi> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIYaGaey4kaSYaaSaaa8aabaWdbiaaikdaciGGSbGaaiOBaiaaikdaa8aabaWdbiaadwgaaaaaaa@3C46@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5346",
+          "type": "single",
+          "prompt": "Let <em>y = f(x)</em> be the solution to the differential equation <span aria-label=\"d y over d x\"><math> <mrow> <mfrac> <mrow> <mi>d</mi> <mi>y</mi> </mrow> <mrow> <mi>d</mi> <mi>x</mi> </mrow> </mfrac> </mrow> </math></span> <em>= x − y</em> with initial condition <em>f(2) = 8</em>. What is the approximation for <em>f(3)</em> obtained by using Euler’s method with two steps of equal length, starting at <em>x = 2</em> ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>2</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"5 halves\"><math> <mrow> <mfrac> <mn>5</mn> <mn>2</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"15 fourths\"><math> <mrow> <mfrac> <mrow> <mn>15</mn> </mrow> <mn>4</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"61 fourths\"><math> <mrow> <mfrac> <mrow> <mn>61</mn> </mrow> <mn>4</mn> </mfrac> </mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5142",
+          "type": "single",
+          "prompt": "If <em>x<sup>2</sup> + xy − 3y = 3</em>, then at the point (2, 1), <span aria-label=\"d y over d x is equal to\"><math> <semantics> <mrow> <mfrac> <mrow> <mi>d</mi><mi>y</mi></mrow> <mrow> <mi>d</mi><mi>x</mi></mrow> </mfrac> <mo>=</mo></mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+= feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr 4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9 vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=x fr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8 qadaWcaaWdaeaapeGaamizaiaadMhaa8aabaWdbiaadsgacaWG4baa aiabg2da9aaa@3B37@ </annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>5</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>4</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"7 thirds\"><math> <semantics> <mrow> <mfrac> <mn>7</mn> <mn>3</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+= feaagKart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr 4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9 vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=x fr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8 qadaWcaaWdaeaapeGaaG4naaWdaeaapeGaaG4maaaaaaa@37E2@ </annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>2</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3646",
+          "type": "single",
+          "prompt": "<span aria-label=\"the integral of the fraction with numerator 3 x plus 1 and denominator x squared minus 4 x plus 3 d x is equal to\"><math> <semantics> <mrow> <msup> <mstyle displaystyle=\"true\" mathsize=\"140%\"> <mo>∫</mo> </mstyle> <mtext>​</mtext> </msup> <mfrac> <mrow> <mn>3</mn> <mi>x</mi> <mo>+</mo> <mn>1</mn> </mrow> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>−</mo> <mn>4</mn> <mi>x</mi> <mo>+</mo> <mn>3</mn> </mrow> </mfrac> <mi>d</mi> <mi>x</mi> <mo>=</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaubiaeqaleqabaGaaGzaVdqdbaaeaaaaaaaaa8qacqGHRiI8aaGcdaWcaaWdaeaapeGaaG4maiaadIhacqGHRaWkcaaIXaaapaqaa8qacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaGccqGHsislcaaI0aGaamiEaiabgUcaRiaaiodaaaGaamizaiaadIhacqGH9aqpaaa@46B0@</annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 ln start absolute value x minus 3 end absolute value plus 5 ln start absolute value x minus 1 end absolute value plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mn>2</mn><mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>|</mo><mo>+</mo><mn>5</mn><mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaciiBaiaac6gacaGG8bGaamiEaiabgkHiTiaaiodacaGG8bGaey4kaSIaaGynaiGacYgacaGGUbGaaiiFaiaadIhacqGHsislcaaIXaGaaiiFaiabgUcaRiaadoeaaaa@481C@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 fifth ln start absolute value x minus 3 end absolute value minus 1 half ln start absolute value x minus 1 end absolute value plus cap c\"><math> <semantics> <mrow> <mfrac> <mn>1</mn> <mn>5</mn> </mfrac> <mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>|</mo><mo>−</mo><mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGynaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaG4maiaacYhacqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaGymaiaacYhacqGHRaWkcaWGdbaaaa@494C@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 half ln start absolute value x minus 3 end absolute value minus 1 half ln start absolute value x minus 1 end absolute value plus cap c\"><math> <semantics> <mrow> <mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>|</mo><mo>−</mo><mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaG4maiaacYhacqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaaciGGSbGaaiOBaiaacYhacaWG4bGaeyOeI0IaaGymaiaacYhacqGHRaWkcaWGdbaaaa@4949@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"5 ln start absolute value x minus 3 end absolute value minus 2 ln start absolute value x minus 1 end absolute value plus cap c\"><math> <semantics> <mrow> <mn>5</mn><mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>|</mo><mo>−</mo><mn>2</mn><mi>ln</mi><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI1aGaciiBaiaac6gacaGG8bGaamiEaiabgkHiTiaaiodacaGG8bGaeyOeI0IaaGOmaiGacYgacaGGUbGaaiiFaiaadIhacqGHsislcaaIXaGaaiiFaiabgUcaRiaadoeaaaa@473A@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4065",
+          "type": "single",
+          "prompt": "Which of the following is a slope field for the differential equation <span aria-label=\"d y over d x is equal to x squared plus y squared\"><math> <semantics> <mrow> <mfrac> <mrow> <mi>d</mi><mi>y</mi> </mrow> <mrow> <mi>d</mi><mi>x</mi> </mrow> </mfrac> <mo>=</mo><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><msup> <mi>y</mi> <mn>2</mn> </msup> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaamizaiaadMhaa8aabaWdbiaadsgacaWG4baaaiabg2da9iaadIhapaWaaWbaaSqabeaapeGaaGOmaaaakiabgUcaRiaadMhapaWaaWbaaSqabeaapeGaaGOmaaaaaaa@402C@</annotation> </semantics> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents a slope field in the x y coordinate plane, with the origin labeled O. The numbers negative 4 through 4 are indicated on the x axis, and the numbers negative 2 through 2 are indicated on the y axis. The slope field is symmetric over both the x and y axes. The slopes of segments in quadrants 1 and 3 are negative, and the slopes of segments in quadrants 2 and 4 are positive. The segments on the x axis are vertical and the segments on the y axis are horizontal. In each quadrant segments closer to the y axis are closer to horizontal, and segments closer to the x axis are closer to vertical.\" height=\"189\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/2f9917d8d4a655b8772a570bfd20bbb9/original.png\" width=\"269\"></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents a slope field in the x y coordinate plane, with the origin labeled O. The numbers negative 1 and 1 are indicated on both axes. The slope of every segment is nonnegative. The segments are nearly horizontal for points close to the origin and are nearly vertical for points farthest from the origin. The slopes of the segments in each row decrease approaching the y axis. The slopes of segments in each column decrease approaching the x axis.\" height=\"181\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/5f5443fb9f4cdb0225bacc1fb0eb3b54/original.png\" width=\"283\"></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\" The figure presents a slope field in the x y coordinate plane, with the origin labeled O. The numbers negative 1 and 1 are indicated on the x axis, and the numbers negative point 5 and point 5 are indicated on the y axis. The slope field is symmetric over the y axis. All segments in each column are parallel. From left to right the slopes of the segments increase from steep negative slopes farthest to the left, to horizontal segments on the y axis, to steep positive slopes farthest to the right.\" height=\"190\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/5de0960d00f49150320228b14772a3af/original.png\" width=\"281\"></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents a slope field in the x y coordinate plane, with the origin labeled O. The numbers negative 1 and 1 are indicated on both axes. The slope of every segment is nonnegative. All segments in each column are parallel. From left to right the slopes of the segments decrease from steep positive slopes farthest to the left to horizontal segments on the y axis. The slopes of the segments then increase from horizontal segments on the y axis to steep positive slopes farthest to the right.\" height=\"207\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/30b313c75fc22218ebeed99437fb2854/original.png\" width=\"262\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2962",
+          "type": "single",
+          "prompt": "<p>If <em>f</em>(x) = 3x<sup>2</sup> + 2x, then <em>f</em>'(x) =</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit h to 0 of the fraction with numerator open paren 3 x squared plus 2 x plus h close paren minus open paren 3 x squared plus 2 x close paren and denominator h\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>h</mi><mo>→</mo><mn>0</mn> </mrow> </munder> <mfrac> <mrow> <mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow><mo>−</mo><mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi> </mrow> <mo>)</mo></mrow> </mrow> <mi>h</mi> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWGObGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4maiaadIhapaWaaWbaaSqabeaapeGaaGOmaaaakiabgUcaRiaaikdacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@4F0E@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 0 of the fraction with numerator open paren 3 x squared plus 2 x plus h close paren minus open paren 3 x squared plus 2 x close paren and denominator h\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>0</mn> </mrow> </munder> <mfrac> <mrow> <mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow><mo>−</mo><mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi> </mrow> <mo>)</mo></mrow> </mrow> <mi>h</mi> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4maiaadIhapaWaaWbaaSqabeaapeGaaGOmaaaakiabgUcaRiaaikdacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@4F1E@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit h to 0 of the fraction with numerator open paren 3 times open paren x plus h close paren squared plus 2 times open paren x plus h close paren close paren minus open paren 3 x squared plus 2 x close paren and denominator h\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>h</mi><mo>→</mo><mn>0</mn> </mrow> </munder> <mfrac> <mrow> <mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow> </mrow> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow> </mrow> <mo>)</mo></mrow><mo>−</mo><mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi> </mrow> <mo>)</mo></mrow> </mrow> <mi>h</mi> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWGObGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4mamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@542D@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 0 of the fraction with numerator open paren 3 times open paren x plus h close paren squared plus 2 times open paren x plus h close paren close paren minus open paren 3 x squared plus 2 x close paren and denominator h\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>0</mn> </mrow> </munder> <mfrac> <mrow> <mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow> </mrow> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mi>h</mi> </mrow> <mo>)</mo></mrow> </mrow> <mo>)</mo></mrow><mo>−</mo><mrow><mo>(</mo> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn><mi>x</mi> </mrow> <mo>)</mo></mrow> </mrow> <mi>h</mi> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGimaaWdaeqaaOWdbmaalaaapaqaa8qadaqadaWdaeaapeGaaG4mamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmamaabmaapaqaa8qacaWG4bGaey4kaSIaamiAaaGaayjkaiaawMcaaaGaayjkaiaawMcaaiabgkHiTmaabmaapaqaa8qacaaIZaGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaiaadIhaaiaawIcacaGLPaaaa8aabaWdbiaadIgaaaaaaa@543D@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3058",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents two graphs in separate x y coordinate planes, both with origin labeled O. The horizontal axes of both planes have the numbers negative 1 through 3 indicated, and the vertical axes of both planes have the numbers negative 1 through 2 indicated. One graph is labeled “Graph of f,” and the other graph is labeled “Graph of g.” The graph of f includes an open circle at the point with coordinates 1 comma O, and includes a closed circle at the point with coordinates 1 comma 2. The graph of f also includes a curve that begins in quadrant 2, and increases initially before turning downward and to the right. It crosses the y axis at a point slightly above the value 1 on the y axis. It continues downward and to the right until it ends at the open circle on the x axis. The curve then begins again at the open circle on the x axis, and moves downward and to the right before turning upward and ending in quadrant 4. The graph of g includes an open circle at the point with coordinates 2 comma negative 1, and includes a closed circle at the point with coordinates 2 comma 1. The graph of g also includes two horizontal line segments. The first horizontal segment begins in quadrant 2, crosses the y axis at y equals 1, and ends at the closed circle at the point with coordinates 2 comma 1. The second horizontal segment begins at the open circle at the point with coordinates 2 comma negative 1, and continues to the right ending in quadrant 4.\" height=\"278\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/2b44aaac22ea69b7fd5990f7c4c179a7/original.png\" width=\"716\"></p><p>The graphs of the functions <em>f</em> and <em>g</em> are shown in the figures above. Which of the following statements is false?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 1 of f times x is equal to 0\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>1</mn> </mrow> </munder> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mo>=</mo><mn>0</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iaaicdaaaa@425A@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 2 of g times x\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>2</mn> </mrow> </munder> <mi>g</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGOmaaWdaeqaaOWdbiaadEgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaaaa@409C@</annotation> </semantics> </math></span> does not exist.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 1 of open paren f x g open paren x plus 1 close paren close paren\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>1</mn> </mrow> </munder> <mrow><mo>(</mo> <mrow> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mi>g</mi><mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mn>1</mn> </mrow> <mo>)</mo></mrow> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbmaabmaapaqaa8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacaWGNbWaaeWaa8aabaWdbiaadIhacqGHRaWkcaaIXaaacaGLOaGaayzkaaaacaGLOaGaayzkaaaaaa@4770@</annotation> </semantics> </math></span> does not exist.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 1 of open paren f open paren x plus 1 close paren g x close paren\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi><mo>→</mo><mn>1</mn> </mrow> </munder> <mrow><mo>(</mo> <mrow> <mi>f</mi><mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mn>1</mn> </mrow> <mo>)</mo></mrow><mi>g</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaWaaCbeaeaaqaaaaaaaaaWdbiGacYgacaGGPbGaaiyBaaWcpaqaa8qacaWG4bGaeyOKH4QaaGymaaWdaeqaaOWdbmaabmaapaqaa8qacaWGMbWaaeWaa8aabaWdbiaadIhacqGHRaWkcaaIXaaacaGLOaGaayzkaaGaam4zamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaaacaGLOaGaayzkaaaaaa@4770@</annotation> </semantics> </math></span> exists.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3715",
+          "type": "single",
+          "prompt": "Which of the following is the interval of convergence for the series <span aria-label=\"the sum from n is equal to 0 to infinity of the fraction with numerator open paren x plus 2 close paren to the n th power and denominator 2 to the n th power\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>0</mn> </mrow> <mi>∞</mi> </munderover> <mrow> <mfrac> <mrow> <msup> <mrow> <mrow><mo>(</mo> <mrow> <mi>x</mi><mo>+</mo><mn>2</mn> </mrow> <mo>)</mo></mrow> </mrow> <mi>n</mi> </msup> </mrow> <mrow> <msup> <mn>2</mn> <mi>n</mi> </msup> </mrow> </mfrac> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbmaabmaapaqaa8qacaWG4bGaey4kaSIaaGOmaaGaayjkaiaawMcaa8aadaahaaWcbeqaa8qacaWGUbaaaaGcpaqaa8qacaaIYaWdamaaCaaaleqabaWdbiaad6gaaaaaaaWdaeaapeGaamOBaiabg2da9iaaicdaa8aabaWdbiabg6HiLcqdcqGHris5aaaa@44A1@</annotation> </semantics> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>-4 &lt; x &lt; 0</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 4 is less than or equal to x comma x is less than 0\"><math> <semantics> <mrow> <mo>−</mo><mn>4</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>0</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaI0aGaeyizImQaamiEaiabgYda8iaaicdaaaa@3C2F@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>-2 &lt; x &lt; 0</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 is less than or equal to x comma x is less than 2\"><math> <semantics> <mrow> <mo>−</mo><mn>2</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaeyizImQaamiEaiabgYda8iaaikdaaaa@3C2F@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5347",
+          "type": "single",
+          "prompt": "<span aria-label=\"the integral from 0 to 5 of square root of the fraction with numerator 5 minus x and denominator 5 end root\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>5</mn> </msubsup> <mrow> <msqrt> <mrow> <mfrac> <mrow> <mn>5</mn><mo>−</mo><mi>x</mi> </mrow> <mn>5</mn> </mfrac> </mrow> </msqrt> </mrow> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeWaaOaaa8aabaWdbmaalaaapaqaa8qacaaI1aGaeyOeI0IaamiEaaWdaeaapeGaaGynaaaaaSqabaaapaqaa8qacaaIWaaapaqaa8qacaaI1aaaniabgUIiYdaaaa@3DF8@</annotation> </semantics> </math></span> dx =",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2 thirds\"><math> <semantics> <mrow> <mfrac> <mn>2</mn> <mn>3</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGOmaaWdaeaapeGaaG4maaaaaaa@37DB@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"10 thirds\"><math> <semantics> <mrow> <mfrac> <mrow> <mn>10</mn> </mrow> <mn>3</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGymaiaaicdaa8aabaWdbiaaiodaaaaaaa@3894@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>5</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator 50 square root of 5 and denominator 3\"><math> <semantics> <mrow> <mfrac> <mrow> <mn>50</mn><msqrt> <mn>5</mn> </msqrt> </mrow> <mn>3</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaaGynaiaaicdadaGcaaWdaeaapeGaaGynaaWcbeaaaOWdaeaapeGaaG4maaaaaaa@399B@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2817",
+          "type": "single",
+          "prompt": "<p>Which of the following limits are equal to −1 ?</p> <ol style=\"list-style-type:upper-roman\"> <li> <p> <span aria-label=\"limit x to 0 raised to the negative power of the fraction with numerator absolute value of x and denominator x\"><math> <mrow> <munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><msup> <mn>0</mn> <mo>−</mo> </msup> </mrow> </munder> <mfrac> <mrow> <mrow><mo>|</mo> <mtext>x</mtext> <mo>|</mo></mrow></mrow> <mi>x</mi> </mfrac> </mrow> </math></span></p> </li> <li> <p> <span aria-label=\"limit x to 3 of the fraction with numerator x squared minus 7 x plus 12 and denominator 3 minus x\"><math> <mrow> <munder> <mrow> <mi>lim</mi></mrow> <mrow> <mi>x</mi><mo>→</mo><mn>3</mn></mrow> </munder> <mfrac> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>12</mn></mrow> <mrow> <mn>3</mn><mo>−</mo><mi>x</mi></mrow> </mfrac> </mrow> </math></span></p> </li> <li> <p> <span aria-label=\"limit x to infinity of the fraction with numerator 1 minus x and denominator 1 plus x\"><math> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mi>∞</mi> </mrow> </munder> <mfrac> <mrow> <mn>1</mn> <mo>−</mo> <mi>x</mi> </mrow> <mrow> <mn>1</mn> <mo>+</mo> <mi>x</mi> </mrow> </mfrac> </mrow> </math></span></p> </li> </ol>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>I only</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>I and III only</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>II and III only</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>I, II, and III only</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5222",
+          "type": "single",
+          "prompt": "Let f be the function given by <em>f(x)</em> = 2 cos x + 1. What is the approximation for <em>f(1.5)</em> found by using the line tangent to the graph of <em>f</em> at <span aria-label=\"x is equal to pi over 2\"><math> <semantics> <mrow> <mi>x</mi><mo>=</mo><mfrac> <mi>π</mi> <mn>2</mn> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG4bGaeyypa0ZaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOmaaaaaaa@3ADE@</annotation> </semantics> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>-2</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"pi minus 2\"><math> <semantics> <mrow> <mi>π</mi><mo>−</mo><mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqaHapaCcqGHsislcaaIYaaaaa@397A@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"4 minus pi\"><math> <semantics> <mrow> <mn>4</mn><mo>−</mo><mi>π</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaI0aGaeyOeI0IaeqiWdahaaa@397C@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5227",
+          "type": "single",
+          "prompt": "A particle moves in the <em>xy</em>-plane so that its position for <em>t ≥ 0</em> is given by the parametric equations <em>x = ln (t + 1)</em> and <em>y = kt<sup>2</sup></em> , where <em>k</em> is a positive constant. The line tangent to the particle’s path at the point where <em>t = 3</em> has slope 8. What is the value of <em>k</em> ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 over 192\"><math> <mrow> <mfrac> <mn>1</mn> <mrow> <mn>192</mn></mrow> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 third\"><math> <mrow> <mfrac> <mn>1</mn> <mn>3</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"4 thirds\"><math> <mrow> <mfrac> <mn>4</mn> <mn>3</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"16 thirds\"><math> <mrow> <mfrac> <mrow> <mn>16</mn> </mrow> <mn>3</mn> </mfrac> </mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2667",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure shows a table with 5 columns and 2 rows. The first column contains the row labels, from top to bottom: row one, Time (weeks); row two, Level. From left to right, the data is as follows: Column two: Time (weeks), 0; Level, 210. Column three: Time (weeks), 2; Level, 200. Column four: Time (weeks), 6; Level, 190. Column five: Time (weeks), 10; Level, 180.\" height=\"54\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/3da38ab287998ad4c76473c51780dafc/original.png\" width=\"649\"></p> <p>The table above gives the level of a person’s cholesterol at different times during a 10-week treatment period. What is the average level over this 10-week period obtained by using a trapezoidal approximation with the subintervals [0, 2], [2, 6], and [6, 10] ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>188</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>193</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>195</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>198</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2517",
+          "type": "single",
+          "prompt": "<span aria-label=\"the integral of x over 2 e raised to the negative 3 x over 4 power d x is equal to\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow><mo>∫</mo> <mrow> <mfrac> <mi>x</mi> <mn>2</mn> </mfrac> </mrow> </mrow> </mstyle><mtext> </mtext><msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mtext> </mtext><mi>d</mi><mi>x</mi><mo>=</mo> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdbaWdaeaapeWaaSaaa8aabaWdbiaadIhaa8aabaWdbiaaikdaaaaaleqabeqdcqGHRiI8aOWdaiaaysW7peGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOWdaiaaysW7peGaamizaiaadIhacqGH9aqpaaa@45DB@</annotation> </semantics> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 3 x over 4 e raised to the negative 3 x over 4 power plus 3 fourths e raised to the negative 3 x over 4 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mfrac> <mrow> <mn>3</mn><mi>x</mi> </mrow> <mn>4</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>+</mo><mfrac> <mn>3</mn> <mn>4</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaG4maiaadIhaa8aabaWdbiaaisdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSYaaSaaa8aabaWdbiaaiodaa8aabaWdbiaaisdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSIaam4qaaaa@48CC@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 2 x over 3 e raised to the negative 3 x over 4 power minus 8 ninths e raised to the negative 3 x over 4 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo> <mfrac> <mrow> <mn>2</mn> <mi>x</mi> </mrow> <mn>3</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo> <mn>3</mn> <mi>x</mi> <mo>/</mo> <mn>4</mn> </mrow> </msup> <mo>−</mo> <mfrac> <mn>8</mn> <mn>9</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo> <mn>3</mn> <mi>x</mi> <mo>/</mo> <mn>4</mn> </mrow> </msup> <mo>+</mo> <mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaaGOmaiaadIhaa8aabaWdbiaaiodaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaeyOeI0YaaSaaa8aabaWdbiaaiIdaa8aabaWdbiaaiMdaaaGaamyza8aadaahaaWcbeqaa8qacqGHsislcaaIZaGaamiEaiaac+cacaaI0aaaaOGaey4kaSIaam4qaaaa@48DF@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative x over 2 e raised to the negative 3 x over 4 power plus 3 eighths e raised to the negative 3 x over 4 power plus cap c\"><math> <semantics> <mrow> <mo>−</mo><mfrac> <mi>x</mi> <mn>2</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>+</mo><mfrac> <mn>3</mn> <mn>8</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsisldaWcaaWdaeaapeGaamiEaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkdaWcaaWdaeaapeGaaG4maaWdaeaapeGaaGioaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkcaWGdbaaaa@4811@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"x over 2 e raised to the negative 3 x over 4 power minus 1 half e raised to the negative 3 x over 4 power plus cap c\"><math> <semantics> <mrow> <mfrac> <mi>x</mi> <mn>2</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>−</mo><mfrac> <mn>1</mn> <mn>2</mn> </mfrac> <msup> <mi>e</mi> <mrow> <mo>−</mo><mn>3</mn><mi>x</mi><mo>/</mo><mn>4</mn> </mrow> </msup> <mo>+</mo><mi>C</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaamiEaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHsisldaWcaaWdaeaapeGaaGymaaWdaeaapeGaaGOmaaaacaWGLbWdamaaCaaaleqabaWdbiabgkHiTiaaiodacaWG4bGaai4laiaaisdaaaGccqGHRaWkcaWGdbaaaa@4727@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3245",
+          "type": "single",
+          "prompt": "If <span aria-label=\"f of x is equal to the sum from n is equal to 1 to infinity of the fraction with numerator x raised to the 2 power and denominator n factorial\"><math> <mrow> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mo>=</mo><mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>1</mn></mrow> <mi>∞</mi> </munderover> <mrow> <mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mn>2</mn><mi>n</mi></mrow> </msup> </mrow> <mrow> <mi>n</mi><mo>!</mo></mrow> </mfrac> </mrow> </mstyle></mrow> </math></span>, then <span aria-label=\"f prime times x is equal to\"><math> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> </mrow> </math></span>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the fraction with numerator x cubed and denominator 3 plus the fraction with numerator x to the 5th power and denominator 5 times 2 factorial plus the fraction with numerator x to the 7th power and denominator 7 times 3 factorial plus the fraction with numerator x to the 9th power and denominator 9 times 4 factorial plus cdots plus the fraction with numerator x raised to the open paren 2 n plus 1 close paren power and denominator open paren 2 n plus 1 close paren times n factorial plus cdots\"><math> <mrow> <mfrac> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> </mrow> <mn>3</mn> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>5</mn> </msup> </mrow> <mrow> <mn>5</mn> <mo>⋅</mo> <mn>2</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>7</mn> </msup> </mrow> <mrow> <mn>7</mn> <mo>⋅</mo> <mn>3</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>9</mn> </msup> </mrow> <mrow> <mn>9</mn> <mo>⋅</mo> <mn>4</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> </mrow> </msup> </mrow> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> <mi>n</mi> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> </mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"x plus the fraction with numerator 3 x cubed and denominator 2 factorial plus the fraction with numerator 5 x to the 5th power and denominator 3 factorial plus the fraction with numerator 7 x to the 7th power and denominator 4 factorial plus cdots plus the fraction with numerator open paren 2 n minus 1 close paren times x raised to the open paren 2 n minus 1 close paren power and denominator n factorial plus cdots\"><math> <mrow> <mi>x</mi><mo>+</mo><mfrac> <mrow> <mn>3</mn><msup> <mi>x</mi> <mn>3</mn> </msup> </mrow> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mrow> <mn>5</mn><msup> <mi>x</mi> <mn>5</mn> </msup> </mrow> <mrow> <mn>3</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mrow> <mn>7</mn><msup> <mi>x</mi> <mn>7</mn> </msup> </mrow> <mrow> <mn>4</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac> <mrow> <mrow><mo>(</mo> <mrow> <mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow><msup> <mi>x</mi> <mrow> <mrow><mo>(</mo> <mrow> <mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow></mrow> </msup> </mrow> <mrow> <mi>n</mi><mo>!</mo></mrow> </mfrac> <mo>+</mo><mo>⋯</mo></mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2 plus 2 x squared plus x to the 4th power plus the fraction with numerator x to the 6th power and denominator 3 plus cdots plus the fraction with numerator 2 x raised to the 2 times open paren n minus 1 close paren power and denominator open paren n minus 1 close paren factorial plus cdots\"><math> <mrow> <mn>2</mn><mo>+</mo><mn>2</mn><msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><msup> <mi>x</mi> <mn>4</mn> </msup> <mo>+</mo><mfrac> <mrow> <msup> <mi>x</mi> <mn>6</mn> </msup> </mrow> <mn>3</mn> </mfrac> <mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac> <mrow> <mn>2</mn><msup> <mi>x</mi> <mrow> <mn>2</mn><mrow><mo>(</mo> <mrow> <mi>n</mi><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow></mrow> </msup> </mrow> <mrow> <mrow><mo>(</mo> <mrow> <mi>n</mi><mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow><mo>!</mo></mrow> </mfrac> <mo>+</mo><mo>⋯</mo></mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2 x plus 2 x cubed plus x to the 5th power plus the fraction with numerator x to the 7th power and denominator 3 plus cdots plus the fraction with numerator 2 n x raised to the open paren 2 n minus 1 close paren power and denominator n factorial plus cdots\"><math> <mrow> <mn>2</mn> <mi>x</mi> <mo>+</mo> <mn>2</mn> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo> <msup> <mi>x</mi> <mn>5</mn> </msup> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>7</mn> </msup> </mrow> <mn>3</mn> </mfrac> <mo>+</mo> <mo>⋯</mo> <mo>+</mo> <mfrac> <mrow> <mn>2</mn> <mi>n</mi> <msup> <mi>x</mi> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> <mo>−</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> </mrow> </msup> </mrow> <mrow> <mi>n</mi> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> </mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2657",
+          "type": "single",
+          "prompt": "If the average value of a continuous function f on the interval [−2, 4 ] is 12, what is <span aria-label=\"the integral from negative 2 to 4 of f of x over 8\"><math> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mrow> <mo>−</mo><mn>2</mn></mrow> <mn>4</mn> </msubsup> <mrow> <mfrac> <mrow> <mi>f</mi><mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow></mrow> <mn>8</mn> </mfrac> </mrow> </mrow> </mstyle></mrow> </math></span> dx?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"3 halves\"><math> <mrow> <mfrac> <mn>3</mn> <mn>2</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>3</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>9</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>72</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4714",
+          "type": "single",
+          "prompt": "What is the radius of convergence of the Maclaurin series for <span aria-label=\"the fraction with numerator 2 x and denominator 1 plus x squared\"><math> <mrow> <mfrac> <mrow> <mn>2</mn> <mi>x</mi> </mrow> <mrow> <mn>1</mn> <mo>+</mo> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1/2</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>2</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>infinite</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3721",
+          "type": "single",
+          "prompt": "Let <em>f</em> be the function with <span aria-label=\"f of 0 is equal to the fraction with numerator 1 and denominator pi squared\"><math> <semantics> <mrow> <mi>f</mi> <mrow> <mo>(</mo> <mn>0</mn> <mo>)</mo> </mrow> <mo>=</mo> <mfrac> <mn>1</mn> <mrow> <msup> <mi>π</mi> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbiaadAgadaqadaWdaeaapeGaaGimaaGaayjkaiaawMcaaiabg2da9maalaaapaqaa8qacaaIXaaapaqaa8qacqaHapaCpaWaaWbaaSqabeaapeGaaGOmaaaaaaaaaa@413D@</annotation> </semantics> </math></span>, <span aria-label=\"f of 2 is equal to the fraction with numerator 1 and denominator pi squared\"><math> <semantics> <mrow> <mi>f</mi> <mrow> <mo>(</mo> <mn>2</mn> <mo>)</mo> </mrow> <mo>=</mo> <mfrac> <mn>1</mn> <mrow> <msup> <mi>π</mi> <mn>2</mn> </msup> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbiaadAgadaqadaWdaeaapeGaaGOmaaGaayjkaiaawMcaaiabg2da9maalaaapaqaa8qacaaIXaaapaqaa8qacqaHapaCpaWaaWbaaSqabeaapeGaaGOmaaaaaaaaaa@413F@</annotation> </semantics> </math></span>, and derivative given by <span aria-label=\"f prime times x is equal to open paren x plus 1 close paren times cosine times pi x\"><math> <semantics> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mrow> <mo>(</mo> <mrow> <mi>x</mi> <mo>+</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> <mi>cos</mi> <mrow> <mo>(</mo> <mrow> <mi>π</mi> <mi>x</mi> </mrow> <mo>)</mo> </mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbiqadAgagaqbamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0ZaaeWaa8aabaWdbiaadIhacqGHRaWkcaaIXaaacaGLOaGaayzkaaGaci4yaiaac+gacaGGZbWaaeWaa8aabaWdbiabec8aWjaadIhaaiaawIcacaGLPaaaaaa@4935@</annotation> </semantics> </math></span>. How many values of <em>x</em> in the open interval (0, 2) satisfy the conclusion of the Mean Value Theorem for the function <em>f</em> on the closed interval [0, 2] ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>None</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>One</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Two</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>More than two</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4039",
+          "type": "single",
+          "prompt": "The number of students in a cafeteria is modeled by the function P that satisfies the logistic differential equation <span aria-label=\"d cap P over d t is equal to 1 over 2000 cap p open paren 200 minus cap p close paren\"><math> <semantics> <mrow> <mfrac> <mrow> <mi>d</mi><mi>P</mi> </mrow> <mrow> <mi>d</mi><mi>t</mi> </mrow> </mfrac> <mo>=</mo><mfrac> <mn>1</mn> <mrow> <mn>2000</mn> </mrow> </mfrac> <mi>P</mi><mrow><mo>(</mo> <mrow> <mn>200</mn><mo>−</mo><mi>P</mi> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaamizaiaadcfaa8aabaWdbiaadsgacaWG0baaaiabg2da9maalaaapaqaa8qacaaIXaaapaqaa8qacaaIYaGaaGimaiaaicdacaaIWaaaaiaadcfadaqadaWdaeaapeGaaGOmaiaaicdacaaIWaGaeyOeI0IaamiuaaGaayjkaiaawMcaaaaa@456A@</annotation> </semantics> </math></span>, where <em>t</em> is the time in seconds and <em>P(0)</em> = 25. What is the greatest rate of change, in students per second, of the number of students in the cafeteria?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>5</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>25</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>100</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>200</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3269",
+          "type": "single",
+          "prompt": "<p>A cube with edges of length <em>x</em> centimeters has volume <em>V(x) = x<sup>3</sup></em> cubic centimeters. The volume is increasing at a constant rate of 40 cubic centimeters per minute. At the instant when <em>x = 2</em>, what is the rate of change of <em>x</em>, in centimeters per minute, with respect to time? </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>10/3</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"square root of 40 thirds\"><math> <mrow> <msqrt> <mrow> <mfrac> <mrow> <mn>40</mn> </mrow> <mn>3</mn> </mfrac> </mrow> </msqrt> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>5</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>10</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5256",
+          "type": "single",
+          "prompt": "Which of the following is a power series expansion of <span aria-label=\"the fraction with numerator e to the x th power plus e raised to the negative x power and denominator 2\"><math> <mrow> <mfrac> <mrow> <msup> <mi>e</mi> <mi>x</mi> </msup> <mo>+</mo> <msup> <mi>e</mi> <mrow> <mo>−</mo> <mi>x</mi> </mrow> </msup> </mrow> <mn>2</mn> </mfrac> </mrow> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 plus the fraction with numerator x squared and denominator 2 factorial plus the fraction with numerator x to the 4th power and denominator 4 factorial plus the fraction with numerator x to the 6th power and denominator 6 factorial plus cdots plus the fraction with numerator x raised to the 2 n power and denominator 2 n factorial plus cdots\"><math> <mrow> <mn>1</mn><mo>+</mo><mfrac> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> <mrow> <mn>2</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mrow> <msup> <mi>x</mi> <mn>4</mn> </msup> </mrow> <mrow> <mn>4</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mfrac> <mrow> <msup> <mi>x</mi> <mn>6</mn> </msup> </mrow> <mrow> <mn>6</mn><mo>!</mo></mrow> </mfrac> <mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mn>2</mn><mi>n</mi></mrow> </msup> </mrow> <mrow> <mrow><mo>(</mo> <mrow> <mn>2</mn><mi>n</mi></mrow> <mo>)</mo></mrow><mo>!</mo></mrow> </mfrac> <mo>+</mo><mo>⋯</mo></mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1 minus the fraction with numerator x squared and denominator 2 factorial plus the fraction with numerator x to the 4th power and denominator 4 factorial minus the fraction with numerator x to the 6th power and denominator 6 factorial plus cdots plus negative 1 to the n th power times the fraction with numerator x raised to the 2 n power and denominator 2 n factorial plus cdots\"><math> <mrow> <mn>1</mn> <mo>−</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> <mrow> <mn>2</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>4</mn> </msup> </mrow> <mrow> <mn>4</mn> <mo>!</mo> </mrow> </mfrac> <mo>−</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>6</mn> </msup> </mrow> <mrow> <mn>6</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> <mo>+</mo> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <mo>−</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mi>n</mi> </msup> <mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mn>2</mn> <mi>n</mi> </mrow> </msup> </mrow> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> </mrow> <mo>)</mo> </mrow> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"x plus the fraction with numerator x cubed and denominator 3 factorial plus the fraction with numerator x to the 5th power and denominator 5 factorial plus the fraction with numerator x to the 7th power and denominator 7 factorial plus cdots plus the fraction with numerator x raised to the 2 n plus 1 power and denominator open paren 2 n plus 1 close paren factorial plus cdots\"><math> <mrow> <mi>x</mi> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> </mrow> <mrow> <mn>3</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>5</mn> </msup> </mrow> <mrow> <mn>5</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>7</mn> </msup> </mrow> <mrow> <mn>7</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> </msup> </mrow> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> </mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"x minus the fraction with numerator x cubed and denominator 3 factorial plus the fraction with numerator x to the 5th power and denominator 5 factorial minus the fraction with numerator x to the 7th power and denominator 7 factorial plus cdots plus negative 1 to the n th power times the fraction with numerator x raised to the 2 n plus 1 power and denominator open paren 2 n plus 1 close paren factorial plus cdots\"><math> <mrow> <mi>x</mi> <mo>−</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> </mrow> <mrow> <mn>3</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>5</mn> </msup> </mrow> <mrow> <mn>5</mn> <mo>!</mo> </mrow> </mfrac> <mo>−</mo> <mfrac> <mrow> <msup> <mi>x</mi> <mn>7</mn> </msup> </mrow> <mrow> <mn>7</mn> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> <mo>+</mo> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <mo>−</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mi>n</mi> </msup> <mfrac> <mrow> <msup> <mi>x</mi> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> </msup> </mrow> <mrow> <mrow> <mo>(</mo> <mrow> <mn>2</mn> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> <mo>!</mo> </mrow> </mfrac> <mo>+</mo> <mo>⋯</mo> </mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2870",
+          "type": "single",
+          "prompt": "Which of the following statements about the series <span aria-label=\"the sum from n is equal to 1 to infinity of the fraction with numerator 1 and denominator 2 to the n th power minus n\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>1</mn> </mrow> <mi>∞</mi> </munderover> <mrow> <mfrac> <mn>1</mn> <mrow> <msup> <mn>2</mn> <mi>n</mi> </msup> <mo>−</mo><mi>n</mi> </mrow> </mfrac> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaaikdapaWaaWbaaSqabeaapeGaamOBaaaakiabgkHiTiaad6gaaaaal8aabaWdbiaad6gacqGH9aqpcaaIXaaapaqaa8qacqGHEisPa0GaeyyeIuoaaaa@41C6@</annotation> </semantics> </math></span> is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The series diverges by the <em>n</em>th term test.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">The series diverges by limit comparison to the harmonic series <span aria-label=\"the sum from n is equal to 1 to infinity of 1 over n\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>1</mn> </mrow> <mi>∞</mi> </munderover> <mrow> <mfrac> <mn>1</mn> <mi>n</mi> </mfrac> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaad6gaaaaal8aabaWdbiaad6gacqGH9aqpcaaIXaaapaqaa8qacqGHEisPa0GaeyyeIuoaaaa@3ED4@</annotation> </semantics> </math></span>.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The series converges by the <em>n</em>th term test</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">The series converges by limit comparison to the geometric series <span aria-label=\"the sum from n is equal to 1 to infinity of the fraction with numerator 1 and denominator 2 to the n th power\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>1</mn> </mrow> <mi>∞</mi> </munderover> <mrow> <mfrac> <mn>1</mn> <mrow> <msup> <mn>2</mn> <mi>n</mi> </msup> </mrow> </mfrac> </mrow> </mstyle> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaaeWbWdaeaapeWaaSaaa8aabaWdbiaaigdaa8aabaWdbiaaikdapaWaaWbaaSqabeaapeGaamOBaaaaaaaapaqaa8qacaWGUbGaeyypa0JaaGymaaWdaeaapeGaeyOhIukaniabggHiLdaaaa@3FD1@</annotation> </semantics> </math></span>.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3959",
+          "type": "single",
+          "prompt": "<p>Let <em>f</em> be a twice-differentiable function for all real numbers <em>x</em>. Which of the following additional properties guarantees that<em> f</em> has a relative minimum at <em>x = c</em> ? </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f'(c) = 0</em></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f'(c) = 0</em> and <em>f''(c) &lt; 0</em></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f'(c) = 0</em> and <em>f''(c) &gt; 0</em></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f'(x) &gt; 0 for x &lt; c and f'(x) &lt; 0 for x &gt; c</em></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3273",
+          "type": "single",
+          "prompt": "Let <em>H(x)</em> be an antiderivative of <span aria-label=\"the fraction with numerator x cubed plus sine x and denominator x squared plus 2\"><math> <semantics> <mrow> <mfrac> <mrow> <msup> <mi>x</mi> <mn>3</mn> </msup> <mo>+</mo><mi>sin</mi><mi>x</mi> </mrow> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo><mn>2</mn> </mrow> </mfrac> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWcaaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaci4CaiaacMgacaGGUbGaamiEaaWdaeaapeGaamiEa8aadaahaaWcbeqaa8qacaaIYaaaaOGaey4kaSIaaGOmaaaaaaa@40D6@</annotation> </semantics> </math></span>. If <em>H(5)</em> = <span aria-label=\"pi\"><math> <semantics> <mi>π</mi> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqaHapaCaaa@37D1@</annotation> </semantics> </math></span>, then <em>H(2)</em> =",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>−9.008</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>−5.867</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>4.626</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>12.150</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3511",
+          "type": "single",
+          "prompt": "<p>The continuous function<em> f</em> is positive and has domain <em>x &gt; 0</em>. If the asymptotes of the graph of <em>f</em> are <em>x = 0 </em>and <em>y = 2</em>, which of the following statements must be true? </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 0 raised to the plus power of f times x is equal to infinity\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mi>∞</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iabg6HiLcaa@4751@</annotation> </semantics> </math></span> and <span aria-label=\"limit x to 2 of f times x is equal to infinity\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mn>2</mn> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mi>∞</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIYaaapaqabaGcpeGaamOzamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0JaeyOhIukaaa@4619@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 0 raised to the plus power of f times x is equal to 2\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iaaikdaaaa@469C@</annotation> </semantics> </math></span> and <span aria-label=\"limit x to infinity of f times x is equal to 0\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mi>∞</mi> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mn>0</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIWaaaaa@4617@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 0 raised to the plus power of f times x is equal to infinity\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <msup> <mn>0</mn> <mo>+</mo> </msup> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mi>∞</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIWaWdamaaCaaameqabaWdbiabgUcaRaaaaSWdaeqaaOWdbiaadAgadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iabg6HiLcaa@4751@</annotation> </semantics> </math></span> and <span aria-label=\"limit x to infinity of f times x is equal to 2\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mi>∞</mi> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIYaaaaa@4619@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"limit x to 2 of f times x is equal to infinity\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mn>2</mn> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mi>∞</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcaaIYaaapaqabaGcpeGaamOzamaabmaapaqaa8qacaWG4baacaGLOaGaayzkaaGaeyypa0JaeyOhIukaaa@4619@</annotation> </semantics> </math></span> and <span aria-label=\"limit x to infinity of f times x is equal to 2\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mi>∞</mi> </mrow> </munder> <mi>f</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGMbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaIYaaaaa@4619@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3266",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents the graph of f in a coordinate plane, with the origin labeled O. The graph consists of three line segments. The first line segment begins on the vertical axis at the point with coordinates 0 comma 2. It moves horizontally to the right until it ends at the point with coordinates 2 comma 2. The second line segment begins where the first line segment ends and moves downward and to the right. It crosses the horizontal axis at the point with coordinates 3 comma 0, and continues until it ends at the point with coordinates 4 comma negative 2. The third line segment begins where the second line segment ends and continues horizontally until it ends at the point with coordinates 6 comma negative 2.\" height=\"225\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/c78cd33d6e2606f7578c1115bab67481/original.png\" width=\"663\" /></p> <p>The graph of a function <em>f</em>, consisting of three line segments, is shown above. The function <em>f</em> is defined on the closed interval [0, 6] . Let <em>g(x) =</em> <span aria-label=\"the integral from 2 to x of f t d t\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>2</mn> <mi>x</mi> </msubsup> <mi>f</mi> </mrow> </mstyle><mrow><mo>(</mo> <mi>t</mi> <mo>)</mo></mrow><mi>d</mi><mi>t</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaamOzaaWcpaqaa8qacaaIYaaapaqaa8qacaWG4baaniabgUIiYdGcdaqadaWdaeaapeGaamiDaaGaayjkaiaawMcaaiaadsgacaWG0baaaa@3FCB@</annotation> </semantics> </math></span>. What is the maximum value of <em>g(x)</em> for <span aria-label=\"0 is less than or equal to x comma x is less than or equal to 6\"><math> <semantics> <mrow> <mn>0</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>6</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaaIWaGaeyizImQaamiEaiabgsMiJkaaiAdaaaa@3BF5@</annotation> </semantics> </math></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>5</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>10</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5181",
+          "type": "single",
+          "prompt": "The position of an object moving along a path in the xy-plane is given by the parametric equations <span aria-label=\"x times t is equal to 5 sine pi t\"><math> <semantics> <mrow> <mi>x</mi><mrow><mo>(</mo> <mi>t</mi> <mo>)</mo></mrow><mo>=</mo><mn>5</mn><mi>sin</mi><mrow><mo>(</mo> <mrow> <mi>π</mi><mi>t</mi> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG4bWaaeWaa8aabaWdbiaadshaaiaawIcacaGLPaaacqGH9aqpcaaI1aGaci4CaiaacMgacaGGUbWaaeWaa8aabaWdbiabec8aWjaadshaaiaawIcacaGLPaaaaaa@42AD@</annotation> </semantics> </math></span> and <span aria-label=\"y times t is equal to open paren 2 t minus 1 close paren squared\"><math> <semantics> <mrow> <mi>y</mi><mrow><mo>(</mo> <mi>t</mi> <mo>)</mo></mrow><mo>=</mo><msup> <mrow> <mrow><mo>(</mo> <mrow> <mn>2</mn><mi>t</mi><mo>−</mo><mn>1</mn> </mrow> <mo>)</mo></mrow> </mrow> <mn>2</mn> </msup> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG5bWaaeWaa8aabaWdbiaadshaaiaawIcacaGLPaaacqGH9aqpdaqadaWdaeaapeGaaGOmaiaadshacqGHsislcaaIXaaacaGLOaGaayzkaaWdamaaCaaaleqabaWdbiaaikdaaaaaaa@40C6@</annotation> </semantics> </math></span>. The speed of the particle at time <em>t = 0</em> is",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>3.422</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>11.708</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>15.580</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>16.209</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3281",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents the graph of a curve labeled “Graph of f,” in the x y coordinate plane, with origin labeled O. The numbers negative 2 through 2 are indicated on the x axis. The curve is symmetric over the y axis. The curve begins in quadrant 3 below the x axis value negative 2. The curve is nearly level then moves steeply upward and to the right. It crosses the x axis between negative 2 and negative 1, and continues upward until it levels off above the x axis and slightly to the right of x equals negative 1. It moves downward and to the right remaining above the x axis, then levels off and crosses the y axis. At this point it moves upward again into quadrant 1 until it levels off above the x axis and slightly to the left of x equals 1. It then moves steeply downward and to the right crossing the x axis again between 1 and 2, and levels off, ending in quadrant 4 below the x axis value 2.\" height=\"247\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/dc378dfed3766b1cd20fb875ff894481/original.png\" width=\"654\" /></p> <p>The graph of the function <em>f</em> is shown above for <span aria-label=\"negative 2 is less than or equal to x comma x is less than or equal to 2\"><math> <semantics> <mrow> <mo>−</mo> <mn>2</mn> <mo>≤</mo> <mi>x</mi> <mo>≤</mo> <mn>2</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIYaGaeyizImQaamiEaiabgsMiJkaaikdaaaa@3CE0@</annotation> </semantics> </math></span>. Which of the following could be the graph of an antiderivative of <em>f</em>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents the graph of a curve in the x y coordinate plane, with origin labeled O. The numbers negative 2 through 2 are indicated on the x axis. The curve is symmetric over the y axis. The curve begins on the x axis at negative 2 and moves upward and to the right. It then levels off, reaching a high point above the x axis, between the values x equals negative 2 and x equals negative 1. It then moves downward and to the right crossing the x axis slightly to the right of negative 1, and levels off, crossing the y axis below the origin. It then moves upward and to the right crossing the x axis again, slightly to the left of 1. It then levels off, reaching a high point above the x axis, between x equals 1 and x equals 2. The curve then moves downward and to the right until it ends at 2 on the x axis.\" height=\"199\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/d937aa8230c87e0fc0b309a51ebd5e47/original.png\" width=\"199\"></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents the graph of a curve in the x y coordinate plane, with origin labeled O. The numbers negative 2 through 2 are indicated on the x axis. The curve is symmetric about the origin. The curve begins on the x axis at negative 2 and moves upward and to the right until it levels off, reaching a high point above the x axis, between x equals negative 2 and x equals negative 1. It then moves downward and to the right crossing the x axis slightly to the right of negative 1, and levels off, reaching a low point between x equals negative 1 and the y axis. It then moves upward and to the right passing through the origin, and levels off, reaching a high point between the y axis and x equals 1. It then moves downward and to the right crossing the x axis again, slightly to the left of 1, and levels off, reaching a low point below the x axis between x equals 1 and x equals 2. The curve then moves upward and to the right until it ends at 2 on the x axis.\" height=\"193\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/588132ef94dd81b5bebf9299c05afae3/original.png\" width=\"215\"></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents the graph of a curve in the x y coordinate plane, with origin labeled O. The numbers negative 2 through 2 are indicated on the x axis. The curve is symmetric about the origin. The curve begins on the x axis at negative 2 and moves downward and to the right until it levels off, reaching a low point below the x axis, between x equals negative 2 and x equals negative 1. It then moves upward and to the right crossing the x axis slightly to the right of negative 1, and levels off, reaching a high point between x equals negative 1 and the y axis. It then moves downward and to the right passing through the origin, and levels off, reaching a low point between the y axis and x equals 1. It then moves upward and to the right crossing the x axis again, slightly to the left of 1, and levels off, reaching a high point above the x axis between x equals 1 and x equals 2. The curve then moves downward and to the right until it ends at 2 on the x axis.\" height=\"191\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/3adc24779e5cdd1c192e6fee39a0da7a/original.png\" width=\"190\"></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure presents the graph of a curve in the x y coordinate plane, with origin labeled O. The numbers negative 2 through 2 are indicated on the x axis. The curve is symmetric about the origin. The curve begins in quadrant 3 below the x axis at x equals negative 2. It moves downward and to the right until it levels off, reaching a low point between x equals negative 2 and x equals negative 1. It then moves upward and to the right passes through the origin, and levels off, reaching a high point in quadrant 1 between x equals 1 and x equals 2. On the interval on which the curve is moving upward, the curve is increasingly steep from the low point until a point slightly to the right of x equals negative 1, then becomes less steep until a point slightly left of x equals 1, then becomes steeper until leveling off at the high point. The curve then moves downward and to the right until it ends in quadrant 1 above the x axis value 2.\" height=\"199\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/10e0620238e7d5195c527844c15b508a/original.png\" width=\"218\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4111",
+          "type": "single",
+          "prompt": "The derivative of the function <em>f</em> is given by <span aria-label=\"f prime times x is equal to e raised to the negative x power cosine open paren x squared close paren\"><math> <semantics> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <mrow><mo>(</mo> <mi>x</mi> <mo>)</mo></mrow><mo>=</mo><msup> <mi>e</mi> <mrow> <mo>−</mo><mi>x</mi> </mrow> </msup> <mi>cos</mi><mrow><mo>(</mo> <mrow> <msup> <mi>x</mi> <mn>2</mn> </msup> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qaceWGMbGbauaadaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiabg2da9iaadwgapaWaaWbaaSqabeaapeGaeyOeI0IaamiEaaaakiGacogacaGGVbGaai4Camaabmaapaqaa8qacaWG4bWdamaaCaaaleqabaWdbiaaikdaaaaakiaawIcacaGLPaaaaaa@446A@</annotation> </semantics> </math></span>, for all real numbers x. What is the minimum value of <em>f(x)</em> for <span aria-label=\"negative 1 is less than or equal to x comma x is less than or equal to 1\"><math> <semantics> <mrow> <mo>−</mo><mn>1</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>1</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIXaGaeyizImQaamiEaiabgsMiJkaaigdaaaa@3CDE@</annotation> </semantics> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f(-1)</em></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f(-0.762)</em></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f(1)</em></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">There is no minimum value of <em>f(x)</em> for <span aria-label=\"negative 1 is less than or equal to x comma x is less than or equal to 1\"><math> <semantics> <mrow> <mo>−</mo><mn>1</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>1</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacqGHsislcaaIXaGaeyizImQaamiEaiabgsMiJkaaigdaaaa@3CDE@</annotation> </semantics> </math></span>.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5416",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents a curve in quadrant 1 of the x y coordinate plane, with the origin labeled O. The number 2 is indicated on the x axis. The curve begins at the origin and moves upward and to the right. It reaches its maximum above the x axis and moves downward and to the right until it reaches the x axis at the tick mark labeled 2.\" height=\"270\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/9ada06f490edf58d7f2e79e950eee4fc/original.png\" width=\"381\"></p> <p>The base of a solid is the region bounded by a portion of the graph of <span aria-label=\"y is equal to sine of open paren pi over 2 x close paren\"><math> <semantics> <mrow> <mi>y</mi><mo>=</mo><mi>sin</mi><mrow><mo>(</mo> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mi>x</mi> </mrow> <mo>)</mo></mrow> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWG5bGaeyypa0Jaci4CaiaacMgacaGGUbWaaeWaa8aabaWdbmaalaaapaqaa8qacqaHapaCa8aabaWdbiaaikdaaaGaamiEaaGaayjkaiaawMcaaaaa@405C@</annotation> </semantics> </math></span> and the x-axis, as shown in the figure above. For the solid, each cross section perpendicular to the x-axis is a rectangle of height 3. Which of the following expressions gives the volume of the solid?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to 2 of 3 sine open paren pi over 2 x close paren d x\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>2</mn> </msubsup> <mn>3</mn> </mrow> </mstyle><mi>sin</mi><mrow><mo>(</mo> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mi>x</mi> </mrow> <mo>)</mo></mrow><mi>d</mi><mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGcciGGZbGaaiyAaiaac6gadaqadaWdaeaapeWaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOmaaaacaWG4baacaGLOaGaayzkaaGaamizaiaadIhaaaa@4501@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to 2 of 3 sine squared open paren pi over 2 x close paren d x\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>2</mn> </msubsup> <mn>3</mn> </mrow> </mstyle><msup> <mrow> <mi>sin</mi> </mrow> <mn>2</mn> </msup> <mrow><mo>(</mo> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mi>x</mi> </mrow> <mo>)</mo></mrow><mi>d</mi><mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGcciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakmaabmaapaqaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacaaIYaaaaiaadIhaaiaawIcacaGLPaaacaWGKbGaamiEaaaa@4613@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to 2 of 3 pi sine open paren pi over 2 x close paren d x\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>2</mn> </msubsup> <mn>3</mn> </mrow> </mstyle><mi>π</mi><mi>sin</mi><mrow><mo>(</mo> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mi>x</mi> </mrow> <mo>)</mo></mrow><mi>d</mi><mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGccqaHapaCciGGZbGaaiyAaiaac6gadaqadaWdaeaapeWaaSaaa8aabaWdbiabec8aWbWdaeaapeGaaGOmaaaacaWG4baacaGLOaGaayzkaaGaamizaiaadIhaaaa@46BE@</annotation> </semantics> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"the integral from 0 to 2 of 3 pi sine squared open paren pi over 2 x close paren d x\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>0</mn> <mn>2</mn> </msubsup> <mn>3</mn> </mrow> </mstyle><mi>π</mi><msup> <mrow> <mi>sin</mi> </mrow> <mn>2</mn> </msup> <mrow><mo>(</mo> <mrow> <mfrac> <mi>π</mi> <mn>2</mn> </mfrac> <mi>x</mi> </mrow> <mo>)</mo></mrow><mi>d</mi><mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qadaWdXaWdaeaapeGaaG4maaWcpaqaa8qacaaIWaaapaqaa8qacaaIYaaaniabgUIiYdGccqaHapaCciGGZbGaaiyAaiaac6gapaWaaWbaaSqabeaapeGaaGOmaaaakmaabmaapaqaa8qadaWcaaWdaeaapeGaeqiWdahapaqaa8qacaaIYaaaaiaadIhaaiaawIcacaGLPaaacaWGKbGaamiEaaaa@47D0@</annotation> </semantics> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5357",
+          "type": "single",
+          "prompt": "If <em>g</em> is a twice-differentiable function, where <em>g(1) = 0.5</em> and <span aria-label=\"limit x to infinity of g times x is equal to 4\"><math> <semantics> <mrow> <munder> <mrow> <mi>lim</mi> </mrow> <mrow> <mi>x</mi> <mo>→</mo> <mi>∞</mi> </mrow> </munder> <mi>g</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mn>4</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaadaWfqaqaaabaaaaaaaaapeGaciiBaiaacMgacaGGTbaal8aabaWdbiaadIhacqGHsgIRcqGHEisPa8aabeaak8qacaWGNbWaaeWaa8aabaWdbiaadIhaaiaawIcacaGLPaaacqGH9aqpcaaI0aaaaa@461D@</annotation> </semantics> </math></span>, then <span aria-label=\"the integral from 1 to infinity of g prime x d x\"><math> <semantics> <mrow> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>1</mn> <mi>∞</mi> </msubsup> <msup> <mi>g</mi> <mo>′</mo> </msup> </mrow> </mstyle> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mi>d</mi> <mi>x</mi> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiFC0pg9uqGrpepeea0dXdHaVhbbe9u8qqaqFr0xc9pk0xj9qqaqFj0dh9qq=xfr=JarFfpeea0=as0=fs0di9uqFr0=vr0=vr0db8meaabaqaciGacaGaaeqabaWaaeaaeaaakeaaqaaaaaaaaaWdbmaapedapaqaa8qaceWGNbGbauaaaSWdaeaapeGaaGymaaWdaeaapeGaeyOhIukaniabgUIiYdGcdaqadaWdaeaapeGaamiEaaGaayjkaiaawMcaaiaadsgacaWG4baaaa@435B@</annotation> </semantics> </math></span> is",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>-3.5</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>3.5</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>4.5</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>nonexistent</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5358",
+          "type": "single",
+          "prompt": "<p><img alt=\" The figure presents the graph of f in a coordinate plane, with the origin labeled O. The graph consists of four line segments. The first line segment begins on the vertical axis at the point with coordinates 0 comma 1. It moves upward and to the right until it ends at the point with coordinates 2 comma 3. The second line segment begins where the first line segment ends and moves horizontally to the right until it ends at the point with coordinates 3 comma 3. The third line segment begins where the second line segment ends and moves downward and to the right It crosses the horizontal axis at the point with coordinates 6 comma 0, and continues until it ends at the point with coordinates 8 comma negative 2. The fourth line segment begins where the third line segment ends and moves upward and to the right until it ends on the horizontal axis at the point with coordinates 12 comma 0.\" height=\"188\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/41537a357881dde90a6e4691b0fb3d30/original.png\" width=\"683\" /></p> <p>The graph of the function f is shown above. If <em>g</em> is the function defined by <span aria-label=\"g of x is equal to the integral from 2 to x of f of t d t\"><math> <mrow> <mi>g</mi> <mrow> <mo>(</mo> <mi>x</mi> <mo>)</mo> </mrow> <mo>=</mo> <mstyle displaystyle=\"true\"> <mrow> <msubsup> <mo>∫</mo> <mn>2</mn> <mi>x</mi> </msubsup> <mi>f</mi> </mrow> </mstyle> <mrow> <mo>(</mo> <mi>t</mi> <mo>)</mo> </mrow> <mi>d</mi> <mi>t</mi> </mrow> </math></span>, what is the value of <span aria-label=\"g 10 times g prime 10\"><math> <mrow> <mi>g</mi> <mrow> <mo>(</mo> <mrow> <mn>10</mn> </mrow> <mo>)</mo> </mrow> <mo>⋅</mo> <msup> <mi>g</mi> <mo>′</mo> </msup> <mrow> <mo>(</mo> <mrow> <mn>10</mn> </mrow> <mo>)</mo> </mrow> </mrow> </math></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"25 fourths\"><math> <mrow> <mfrac> <mrow> <mn>25</mn></mrow> <mn>4</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"5 fourths\"><math> <mrow> <mfrac> <mn>5</mn> <mn>4</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 5 halves\"><math> <mrow> <mo>−</mo><mfrac> <mn>5</mn> <mn>2</mn> </mfrac> </mrow> </math></span></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"negative 25 halves\"><math> <mrow> <mo>−</mo><mfrac> <mrow> <mn>25</mn></mrow> <mn>2</mn> </mfrac> </mrow> </math></span></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3609",
+          "type": "single",
+          "prompt": "<p><span aria-label=\"f double prime times x is equal to x open paren x minus 1 close paren squared open paren x plus 2 close paren cubed\"><math> <semantics> <mrow> <msup> <mi>f</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo stretchy=\"false\">)</mo> <mo>=</mo> <mi>x</mi> <msup> <mrow> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo>−</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <mn>2</mn> </msup> <msup> <mrow> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo>+</mo> <mn>2</mn> <mo stretchy=\"false\">)</mo> </mrow> <mn>3</mn> </msup> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWGMbWdamaaCaaaleqabaWdbiabekdiIcaak8aadaahaaWcbeqaa8qacqaHYaIOaaGccaGGOaGaamiEaiaacMcacqGH9aqpcaWG4bGaaiikaiaadIhacqGHsislcaaIXaGaaiyka8aadaahaaWcbeqaa8qacaaIYaaaaOGaaiikaiaadIhacqGHRaWkcaaIYaGaaiyka8aadaahaaWcbeqaa8qacaaIZaaaaaaa@490D@</annotation> </semantics> </math></span></p> <p><span aria-label=\"g double prime times x is equal to x open paren x minus 1 close paren squared open paren x plus 2 close paren cubed plus 1\"><math> <semantics> <mrow> <msup> <mi>g</mi> <mo>′</mo> </msup> <msup> <mrow> </mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo stretchy=\"false\">)</mo> <mo>=</mo> <mi>x</mi> <msup> <mrow> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo>−</mo> <mn>1</mn> <mo stretchy=\"false\">)</mo> </mrow> <mn>2</mn> </msup> <msup> <mrow> <mo stretchy=\"false\">(</mo> <mi>x</mi> <mo>+</mo> <mn>2</mn> <mo stretchy=\"false\">)</mo> </mrow> <mn>3</mn> </msup> <mo>+</mo> <mn>1</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWGNbWdamaaCaaaleqabaWdbiabekdiIcaak8aadaahaaWcbeqaa8qacqaHYaIOaaGccaGGOaGaamiEaiaacMcacqGH9aqpcaWG4bGaaiikaiaadIhacqGHsislcaaIXaGaaiyka8aadaahaaWcbeqaa8qacaaIYaaaaOGaaiikaiaadIhacqGHRaWkcaaIYaGaaiyka8aadaahaaWcbeqaa8qacaaIZaaaaOGaey4kaSIaaGymaaaa@4AB5@</annotation> </semantics> </math></span></p> <p><span aria-label=\"h double prime times x is equal to x open paren x minus 1 close paren squared open paren x plus 2 close paren cubed minus 1\"><math> <semantics> <mrow> <msup> <mi>h</mi> <mo>′</mo> </msup> <msup> <mrow></mrow> <mo>′</mo> </msup> <mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi><msup> <mrow> <mo stretchy=\"false\">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo> </mrow> <mn>2</mn> </msup> <msup> <mrow> <mo stretchy=\"false\">(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo stretchy=\"false\">)</mo> </mrow> <mn>3</mn> </msup> <mo>−</mo><mn>1</mn> </mrow> <annotation encoding=\"MathType-MTEF\">MathType@MTEF@5@5@+=feaagCart1ev2aaatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8F4rqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaaeaaaaaaaaa8qacaWGObWdamaaCaaaleqabaWdbiabekdiIcaak8aadaahaaWcbeqaa8qacqaHYaIOaaGccaGGOaGaamiEaiaacMcacqGH9aqpcaWG4bGaaiikaiaadIhacqGHsislcaaIXaGaaiyka8aadaahaaWcbeqaa8qacaaIYaaaaOGaaiikaiaadIhacqGHRaWkcaaIYaGaaiyka8aadaahaaWcbeqaa8qacaaIZaaaaOGaeyOeI0IaaGymaaaa@4AC1@</annotation> </semantics> </math></span></p> <p>The twice-differentiable functions <em>f, </em>g, and <em>h</em> have second derivatives given above. Which of the functions<em> f, g</em>, and <em>h</em> have a graph with exactly two points of inflection?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>g only </em></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>h only</em></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f and g only</em></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><em>f, g, and h</em></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3267",
+          "type": "single",
+          "prompt": "The velocity vector of a particle moving in the xy-plane has components given by <span aria-label=\"d x over d t is equal to sine of open paren t squared close paren\"><math> <mrow> <mfrac> <mrow> <mi>d</mi> <mi>x</mi> </mrow> <mrow> <mi>d</mi> <mi>t</mi> </mrow> </mfrac> <mo>=</mo> <mi>sin</mi> <mrow> <mo>(</mo> <mrow> <msup> <mi>t</mi> <mn>2</mn> </msup> </mrow> <mo>)</mo> </mrow> </mrow> </math></span> and <span aria-label=\"d y over d t is equal to e raised to the cosine t power\"><math> <mrow> <mfrac> <mrow> <mi>d</mi> <mi>y</mi> </mrow> <mrow> <mi>d</mi> <mi>t</mi> </mrow> </mfrac> <mo>=</mo> <msup> <mi>e</mi> <mrow> <mi>cos</mi> <mi>t</mi> </mrow> </msup> </mrow> </math></span>. At time <em>t = 4</em>, the position of the particle is (2, 1). What is the y-coordinate of the position vector at time <em>t = 3</em> ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.410</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.590</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.851</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1.410</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4067",
+          "type": "single",
+          "prompt": "<p>The function <em>f</em> is increasing on the interval [1, 3] and nowhere else. The first derivative of <em>f, f',</em> is continuous for all real numbers. Which of the following could be a table of values for <em>f'(x)</em> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure shows a table with 2 columns and 6 rows. The first row contains the column labels, from left to right: column one, x; column two, f prime (x). From top to bottom, the data is as follows: Row two: x, 0; f prime (x), negative 1. Row three: x, 1; f prime (x), 0. Row four: x, 2; f prime (x), 2. Row five: x, 3; f prime (x), 0. Row six: x, 4; f prime (x), negative 2.\" height=\"177\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/0ad5b1b49556c54bec09421df31077d8/original.png\" width=\"132\"></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure shows a table with 2 columns and 6 rows. The first row contains the column labels, from left to right: column one, x; column two, f prime (x). From top to bottom, the data is as follows: Row two: x, 0; f prime (x), negative 1. Row three: x, 1; f prime (x), 1. Row four: x, 2; f prime (x), 2. Row five: x, 3; f prime (x), 1. Row six: x, 4; f prime (x), negative 2.\" height=\"184\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/529c45532b2f8c33cba3480f29011bf1/original.png\" width=\"148\"></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure shows a table with 2 columns and 6 rows. The first row contains the column labels, from left to right: column one, x; column two, f prime (x). From top to bottom, the data is as follows: Row two: x, 0; f prime (x), 1. Row three: x, 1; f prime (x), 0. Row four: x, 2; f prime (x), 1. Row five: x, 3; f prime (x), 2. Row six: x, 4; f prime (x), 0.\" height=\"185\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/047cb6417a96cfca78c28d995ec56769/original.png\" width=\"126\"></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><img alt=\"The figure shows a table with 2 columns and 6 rows. The first row contains the column labels, from left to right: column one, x; column two, f prime (x). From top to bottom, the data is as follows: Row two: x, 0; f prime (x), 1. Row three: x, 1; f prime (x), 0. Row four: x, 2; f prime (x), 2. Row five: x, 3; f prime (x), 0. Row six: x, 4; f prime (x), negative 2.\" height=\"186\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/d698c72b26c632f9509835b6952cdc6a/original.png\" width=\"154\"></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2568",
+          "type": "single",
+          "prompt": "<p><img alt=\"The figure presents a bounded region S in quadrant 1 of a coordinate plane, with the origin labeled O. Region S is bounded by two polar curves. The polar curves intersect at the origin and at a point in quadrant 1. Region S contains a dashed line segment with endpoints at the two intersections of the curves.\" height=\"195\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/2ef88e765b5966daff1575df625a8680/original.png\" width=\"692\" /></p> <p>Let <em>S</em> be the region in the first quadrant bounded above by the graph of the polar curve <em>r = cos</em> <span aria-label=\"theta\"><math> <mi>θ</mi> </math></span> and bounded below by the graph of the polar curve <em>r =</em> 2<span aria-label=\"theta\"><math> <mi>θ</mi> </math></span>, as shown in the figure above. The two curves intersect when <span aria-label=\"theta\"><math> <mi>θ</mi> </math></span> = 0.450. What is the area of <em>S</em> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.232</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.243</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.271</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.384</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3264",
+          "type": "single",
+          "prompt": "If the infinite series <span aria-label=\"cap s is equal to the sum from n is equal to 1 to infinity of negative 1 raised to the n plus 1 power\"><math> <mrow> <mi>S</mi><mo>=</mo><mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi><mo>=</mo><mn>1</mn></mrow> <mi>∞</mi> </munderover> <mrow> <msup> <mrow> <mrow><mo>(</mo> <mrow> <mo>−</mo><mn>1</mn></mrow> <mo>)</mo></mrow></mrow> <mrow> <mi>n</mi><mo>+</mo><mn>1</mn></mrow> </msup> </mrow> </mstyle><mfrac> <mn>2</mn> <mi>n</mi> </mfrac> </mrow> </math></span> is approxiately by <span aria-label=\"cap p sub k is equal to the sum from n is equal to 1 to k of negative 1 raised to the n plus 1 power\"><math> <mrow> <msub> <mi>P</mi> <mi>k</mi> </msub> <mo>=</mo> <mstyle displaystyle=\"true\"> <munderover> <mo>∑</mo> <mrow> <mi>n</mi> <mo>=</mo> <mn>1</mn> </mrow> <mi>k</mi> </munderover> <mrow> <msup> <mrow> <mrow> <mo>(</mo> <mrow> <mo>−</mo> <mn>1</mn> </mrow> <mo>)</mo> </mrow> </mrow> <mrow> <mi>n</mi> <mo>+</mo> <mn>1</mn> </mrow> </msup> </mrow> </mstyle> <mfrac> <mn>2</mn> <mi>n</mi> </mfrac> </mrow> </math></span>, what is the least value of <em>k</em> for which the alternating series error bound guarantees that <span aria-label=\"start absolute value cap s minus cap p sub k end absolute value is less than 3 over 100\"><math> <mrow> <mrow> <mo>|</mo> <mrow> <mi>S</mi> <mo>−</mo> <msub> <mi>P</mi> <mi>k</mi> </msub> </mrow> <mo>|</mo> </mrow> <mo>&lt;</mo> <mfrac> <mn>3</mn> <mrow> <mn>100</mn> </mrow> </mfrac> </mrow> </math></span>?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>64</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>66</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>68</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>70</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4402",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4402",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4402",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4402",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4146",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4146",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4146",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4146",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2522",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2522",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2522",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2522",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2524",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2524",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2524",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2524",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3093",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3093",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3093",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3093",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3573",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3573",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3573",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

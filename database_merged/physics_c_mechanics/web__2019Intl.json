@@ -1,0 +1,1160 @@
+{
+  "examId": "2019Intl",
+  "title": "AP 物理C力学 2019年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2019",
+  "description": "AP 物理C力学 2019年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2019Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "Cars $A$ and $B$ are moving in opposite directions along a straight road. They pass each other at time $t=0$. Their velocities $v$ are given as a function of time $t$ in the graph above. The distance between the cars at $t=8 \\mathrm{~s}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "24 m"
+            },
+            {
+              "key": "C",
+              "content": "48 m"
+            },
+            {
+              "key": "D",
+              "content": "96 m"
+            },
+            {
+              "key": "E",
+              "content": "192 m"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "A particle is moving along the $y$-axis. The particle's position as a function of time is given by $y=\\alpha t^{3}-\\beta t+\\phi$, where $\\alpha=1 \\mathrm{~m} / \\mathrm{s}^{3}$, $\\beta=4 \\mathrm{~m} / \\mathrm{s}$, and $\\phi=3 \\mathrm{~m}$. What is the particle's acceleration at time $t=3.0 \\mathrm{~s}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$6.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$9.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$18 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$23 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$27 \\mathrm{~m} / \\mathrm{s}^{2}$ ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-17.jpg?height=291&width=365&top_left_y=157&top_left_x=1360)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "Two stones, represented in the figure above, are thrown from the same height with the same initial speed. Stone $A$ is thrown vertically downward and stone $B$ is thrown horizontally. If the stones are thrown at the same time and air resistance is negligible, which of the following is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The two stones will reach the ground at the same time with the same speed."
+            },
+            {
+              "key": "B",
+              "content": "The two stones will reach the ground at the same time but with different speeds."
+            },
+            {
+              "key": "C",
+              "content": "Stone $A$ will reach the ground first, but stone $B$ will have the greater speed just before hitting the ground."
+            },
+            {
+              "key": "D",
+              "content": "Stone $A$ will reach the ground first, but the two stones will have the same speed just before they hit the ground."
+            },
+            {
+              "key": "E",
+              "content": "Stone $A$ will reach the ground first, and will have the greater speed just before hitting the ground.  \\section*{Questions 4-6} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-18.jpg?height=633&width=675&top_left_y=237&top_left_x=245)  Note: Figure not drawn to scale. A car is traveling clockwise around a circular racetrack of radius 1440 m . When the car is at the northernmost point on the circle, as shown above, it has a speed of $36.0 \\mathrm{~m} / \\mathrm{s}$ and is slowing down at a rate of $1.20 \\mathrm{~m} / \\mathrm{s}^{2}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "The direction of the velocity of the car is",
+          "options": [
+            {
+              "key": "A",
+              "content": "due east"
+            },
+            {
+              "key": "B",
+              "content": "south of east"
+            },
+            {
+              "key": "C",
+              "content": "due south"
+            },
+            {
+              "key": "D",
+              "content": "south of west"
+            },
+            {
+              "key": "E",
+              "content": "due west"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "The direction of the acceleration of the car is",
+          "options": [
+            {
+              "key": "A",
+              "content": "due east"
+            },
+            {
+              "key": "B",
+              "content": "south of east"
+            },
+            {
+              "key": "C",
+              "content": "due south"
+            },
+            {
+              "key": "D",
+              "content": "south of west"
+            },
+            {
+              "key": "E",
+              "content": "due west"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "What is the magnitude of the acceleration of the car?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.30 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$0.90 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$1.2 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$1.5 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$2.1 \\mathrm{~m} / \\mathrm{s}^{2}$  \\section*{Questions 7-8} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-18.jpg?height=629&width=705&top_left_y=237&top_left_x=1188)  A car moves in a straight line along the $x$-axis. The velocity of the car $v_{x}$ as a function of time $t$ is shown in the graph above. The position $x$ of the car at $t=0$ is $x=0$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "The average acceleration $a_{x}$ of the car during the interval of 0 to 10 s is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-2.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-0.40 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$+0.40 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$+1.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$+2.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "The average velocity of the car during the interval of 0 to 10 s is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1.4 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$+0.40 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$+1.4 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$+1.8 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$+4.0 \\mathrm{~m} / \\mathrm{s}$ ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-19.jpg?height=152&width=507&top_left_y=147&top_left_x=331)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "Two blocks rest on a table, as shown above. The bottom block is pulled to the right by an applied force $\\vec{F}$ that is strong enough so that the two blocks do not move together (i.e., they do not have the same acceleration or velocity). There is friction between the blocks, but the tabletop is frictionless. When the top block leaves the bottom block, where does it land and why?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The top block will land directly below where it starts because objects at rest tend to stay at rest."
+            },
+            {
+              "key": "B",
+              "content": "The top block will land to the left of where it starts because of the static friction between the blocks."
+            },
+            {
+              "key": "C",
+              "content": "The top block will land to the left of where it starts because of the kinetic friction between the blocks."
+            },
+            {
+              "key": "D",
+              "content": "The top block will land to the right of where it starts because of the static friction between the blocks."
+            },
+            {
+              "key": "E",
+              "content": "The top block will land to the right of where it starts because of the kinetic friction between the blocks."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "Which of the following is a correct expression for the net force, in newtons, exerted on the object as a function of time?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-6 e^{-3 t}$"
+            },
+            {
+              "key": "B",
+              "content": "$-3 e^{-3 t}$"
+            },
+            {
+              "key": "C",
+              "content": "$e^{-3 t}$"
+            },
+            {
+              "key": "D",
+              "content": "$2 e^{-3 t}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{2}{3\\left(1-e^{-3 t}\\right)}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "The energy dissipated due to the resistive force after a very long time is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "5 J"
+            },
+            {
+              "key": "B",
+              "content": "1 J"
+            },
+            {
+              "key": "C",
+              "content": "2 J"
+            },
+            {
+              "key": "D",
+              "content": "4 J"
+            },
+            {
+              "key": "E",
+              "content": "infinity  \\section*{Questions 13-14} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-21.jpg?height=414&width=745&top_left_y=235&top_left_x=1169)  \\section*{Top View}  Cart A is traveling east when it collides with cart B, which is traveling north. Cart A has a mass of 3.05 kg , and cart B has a mass of 2.10 kg . The two carts travel together as a single object on a horizontal surface at an angle $\\theta$ relative to due east, as shown above."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "In one trial, the initial speed of cart A is $2.5 \\mathrm{~m} / \\mathrm{s}$ and the initial speed of cart $B$ is $1.5 \\mathrm{~m} / \\mathrm{s}$. The angle $\\theta$ relative to east that the carts travel after the collision is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$22^{\\circ}$"
+            },
+            {
+              "key": "B",
+              "content": "$36^{\\circ}$"
+            },
+            {
+              "key": "C",
+              "content": "$45^{\\circ}$"
+            },
+            {
+              "key": "D",
+              "content": "$54^{\\circ}$"
+            },
+            {
+              "key": "E",
+              "content": "$62^{\\circ}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "In another trial, the speed of the carts immediately after the collision is $0.60 \\mathrm{~m} / \\mathrm{s}$, and the carts slide 0.24 m on the horizontal surface before coming to rest. The coefficient of kinetic friction between the sliding carts and the surface is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "08"
+            },
+            {
+              "key": "B",
+              "content": "13"
+            },
+            {
+              "key": "C",
+              "content": "19"
+            },
+            {
+              "key": "D",
+              "content": "25"
+            },
+            {
+              "key": "E",
+              "content": "75  \\section*{Questions 15-17} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-22.jpg?height=230&width=624&top_left_y=235&top_left_x=273)  A block of mass $m$ is on a rough horizontal surface and is attached to a spring with spring constant $k$. The coefficient of kinetic friction between the surface and the block is $\\mu$. When the block is at position $x=0$, the spring is at its unstretched length. The block is pulled to position $x=+x_{0}$, as shown above, and released from rest. The block then travels to the left and passes through $x=0$ before coming momentarily to rest at position $x=-x_{0} / 2$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Which of the following is a correct expression for the kinetic energy of the block as it first travels through position $x=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$k x_{0}^{2} / 2$"
+            },
+            {
+              "key": "C",
+              "content": "$k x_{0}^{2} / 2-\\mu m g x_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$k x_{0}^{2} / 2-3 \\mu m g x_{0} / 2$"
+            },
+            {
+              "key": "E",
+              "content": "$k x_{0}^{2} / 2-2 \\mu m g x_{0}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Which of the following is a correct expression for the coefficient of kinetic friction $\\mu$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{k x_{0}}{4 m g}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{k x_{0}}{2 m g}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{3 k x_{0}}{4 m g}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{k x_{0}}{m g}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{2 k x_{0}}{m g}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Which of the following is a differential equation that could be used to solve for the block's position $x$ as a function of time $t$ when it is moving to the left?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$m \\frac{d^{2} x}{d t^{2}}=k x+\\mu m g$"
+            },
+            {
+              "key": "B",
+              "content": "$m \\frac{d^{2} x}{d t^{2}}=k x-\\mu m g$"
+            },
+            {
+              "key": "C",
+              "content": "$m \\frac{d^{2} x}{d t^{2}}=-k x+\\mu m g$"
+            },
+            {
+              "key": "D",
+              "content": "$m \\frac{d^{2} x}{d t^{2}}=-k x-\\mu m g$"
+            },
+            {
+              "key": "E",
+              "content": "$m \\frac{d^{2} x}{d t^{2}}=k x$  \\section*{Questions 18-19} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-23.jpg?height=188&width=809&top_left_y=235&top_left_x=178)  In the diagram above, a block of mass $M$ is initially at rest on a horizontal surface at the base of an inclined plane. The surface and plane have negligible friction. The block is struck by a projectile of mass $m$ traveling with a horizontal velocity $v_{i}$. The projectile becomes embedded in the block, and they move together to the right with speed $v_{f}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Which of the following is a correct expression for $v_{f}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sqrt{g h}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\sqrt{v_{i}^{2}+2 g h}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{m}{(m+M)} v_{i}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{m}{M} v_{i}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{M}{m} v_{i}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The block and projectile smoothly transition onto the inclined plane. Which of the following is a correct expression for the maximum height that the block moves up the inclined plane in terms of $v_{f}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{v_{f}^{2}}{2 g}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{v_{f}}{\\sqrt{2 g}}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{M v_{f}^{2}}{2 m g}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{2 g}{v_{f}^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{2 g}{v_{f}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "The net force $F$ acting on an object that moves along a straight line is given as a function of time $t$ by $F(t)=\\kappa t^{2}+\\tau$, where $\\kappa=1 \\mathrm{~N} / \\mathrm{s}^{2}$ and $\\tau=1 \\mathrm{~N}$. What is the change in momentum of the object from $t=0 \\mathrm{~s}$ to $t=3 \\mathrm{~s}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$6 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$10 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$12 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$30 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "It cannot be determined without knowing the initial momentum of the object. ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-24.jpg?height=203&width=819&top_left_y=144&top_left_x=1134)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Cart A of mass $2 m$ is moving with velocity $v$ to the right on a horizontal frictionless track, as shown above, when it collides with cart B of mass $m$. Cart B is initially at rest, and the collision is perfectly elastic. Which of the following best describes the motion of the carts immediately after the collision?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Cart A is moving to the left, and cart B is moving to the right."
+            },
+            {
+              "key": "B",
+              "content": "Cart A is moving to the left, and cart B remains stationary."
+            },
+            {
+              "key": "C",
+              "content": "Cart A is stationary, and cart B is moving to the right."
+            },
+            {
+              "key": "D",
+              "content": "Both carts move to the right, and they are stuck together."
+            },
+            {
+              "key": "E",
+              "content": "Both carts move to the right, but they are not stuck together."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "A ball of mass $m$ is dropped from rest at a height $h$ and collides elastically with the floor, rebounding to its original height. What is the magnitude of the net impulse on the ball during the collision with the floor?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "$m \\sqrt{g h}$"
+            },
+            {
+              "key": "C",
+              "content": "$m \\sqrt{2 g h}$"
+            },
+            {
+              "key": "D",
+              "content": "$m \\sqrt{4 g h}$"
+            },
+            {
+              "key": "E",
+              "content": "$m \\sqrt{8 g h}$ ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-25.jpg?height=268&width=561&top_left_y=146&top_left_x=1260)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "A sphere starts from rest at the top of a ramp, as shown above. It rolls without slipping down the ramp. The potential energy of the sphere-Earth system is zero at the bottom of the ramp. Which of the following is true of the sphere when it reaches the bottom of the ramp?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Its rotational kinetic energy equals the initial potential energy of the sphere-Earth system."
+            },
+            {
+              "key": "B",
+              "content": "Its translational kinetic energy equals the initial potential energy of the sphere-Earth system."
+            },
+            {
+              "key": "C",
+              "content": "Its translational kinetic energy and rotational kinetic energy are equal."
+            },
+            {
+              "key": "D",
+              "content": "The sum of its translational kinetic energy and rotational kinetic energy equals the initial potential energy of the sphere-Earth system."
+            },
+            {
+              "key": "E",
+              "content": "The sum of its translational kinetic energy and rotational kinetic energy equals the energy lost because of friction. ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-26.jpg?height=444&width=597&top_left_y=153&top_left_x=285)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Two horizontal disks of mass $M$ have the radii shown above. Disk $A$ is attached to an axle of negligible mass spinning freely with angular velocity $\\omega_{0}$. Disk $B$, not attached to the axle and initially held at rest, is released and drops down onto disk $A$. When both disks spin together without slipping, the angular velocity $\\omega_{f}$ of the disks is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{3} \\omega_{0}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{2} \\omega_{0}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{2}{3} \\omega_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{4}{5} \\omega_{0}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{2}{\\sqrt{5}} \\omega_{0}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "A satellite is in a circular orbit such that it stays directly over the same point on Earth's equator. Which of the following must be true for the satellite? I. It must have a specific mass. II. It must have a specific altitude. III. It must have a specific angular velocity.",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "I and III only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-27.jpg?height=192&width=658&top_left_y=159&top_left_x=238)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "Spheres $X, Y$, and $Z$ have the masses and locations indicated in the figure above. What is the magnitude of the net gravitational force on sphere X due to the other two spheres?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{G m^{2}}{2 r^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{G m^{2}}{r^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{11 G m^{2}}{9 r^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{5 G m^{2}}{4 r^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{2 G m^{2}}{r^{2}}$  \\section*{Questions 27-28} ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-27.jpg?height=662&width=667&top_left_y=231&top_left_x=1207)  Note: Figure not drawn to scale. Two identical satellites orbit a planet of radius $R$ in circular orbits A and C of radii $3 R$ and $12 R$, respectively, as shown above."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "How does the magnitude of the gravitational force $F_{\\mathrm{A}}$ between the planet and satellite in orbit A compare to the magnitude of the gravitational force $F_{\\mathrm{C}}$ between the planet and satellite in orbit C?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$F_{\\mathrm{A}}=2 F_{\\mathrm{C}}$"
+            },
+            {
+              "key": "B",
+              "content": "$F_{\\mathrm{A}}=3 F_{\\mathrm{C}}$"
+            },
+            {
+              "key": "C",
+              "content": "$F_{\\mathrm{A}}=4 F_{\\mathrm{C}}$"
+            },
+            {
+              "key": "D",
+              "content": "$F_{\\mathrm{A}}=12 F_{\\mathrm{C}}$"
+            },
+            {
+              "key": "E",
+              "content": "$F_{\\mathrm{A}}=16 F_{\\mathrm{C}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "The speed of the satellite in orbit A is $v_{\\mathrm{A}}$. The speed of the satellite in orbit C is $v_{\\mathrm{C}}$. The ratio $v_{\\mathrm{A}} / v_{\\mathrm{C}}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 / 2$"
+            },
+            {
+              "key": "B",
+              "content": "$1 / 1$"
+            },
+            {
+              "key": "C",
+              "content": "$2 / 1$"
+            },
+            {
+              "key": "D",
+              "content": "$4 / 1$"
+            },
+            {
+              "key": "E",
+              "content": "$12 / 1$ ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-28.jpg?height=349&width=348&top_left_y=151&top_left_x=411)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "At the surface of Earth, an object is suspended by two cords. One cord is horizontal and one cord is at an angle to the horizontal, as shown in the figure above. The tension in the horizontal cord is $T_{H}$. If the assembly is moved to the surface of a planet with the same average density and twice the radius of Earth, the new tension in the horizontal cord will be",
+          "options": [
+            {
+              "key": "A",
+              "content": "$T_{H} / 2$"
+            },
+            {
+              "key": "B",
+              "content": "$T_{H} / 4$"
+            },
+            {
+              "key": "C",
+              "content": "$T_{H}$"
+            },
+            {
+              "key": "D",
+              "content": "$2 T_{H}$"
+            },
+            {
+              "key": "E",
+              "content": "$4 T_{H}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "A space shuttle has a mass of $90,000 \\mathrm{~kg}$. In order to stay in a circular orbit, it must have a velocity of $8000 \\mathrm{~m} / \\mathrm{s}$. The pilot discovers that the shuttle has slowed down to $7900 \\mathrm{~m} / \\mathrm{s}$, and the shuttle's speed needs to increase. If the thrusters exert a constant force of $50,000 \\mathrm{~N}$, how long do the thrusters have to exert this force in order to return the shuttle to orbital velocity?",
+          "options": [
+            {
+              "key": "A",
+              "content": "30 s"
+            },
+            {
+              "key": "B",
+              "content": "60 s"
+            },
+            {
+              "key": "C",
+              "content": "120 s"
+            },
+            {
+              "key": "D",
+              "content": "180 s"
+            },
+            {
+              "key": "E",
+              "content": "240 s ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-28.jpg?height=393&width=507&top_left_y=153&top_left_x=1287)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "A pendulum and a spring both have a 1 kg sphere attached to their ends and have the same length when in equilibrium, as shown in the figure above. They both oscillate with the same period. If the 1 kg spheres are replaced with 2 kg spheres and the amplitudes of oscillation are unchanged, which of the following is true about the resultant period of oscillation for each?  \\begin{tabular}{lll}  & Pendulum & Spring \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "Remains the same & Decreases \\\\"
+            },
+            {
+              "key": "B",
+              "content": "Remains the same & Increases \\\\"
+            },
+            {
+              "key": "C",
+              "content": "Remains the same & Remains the same \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Increases & Remains the same \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Increases & Increases \\end{tabular}  \\section*{Questions 32-34}  \\begin{figure} \\captionsetup{labelformat=empty} \\caption{System A} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-29.jpg?height=162&width=293&top_left_y=319&top_left_x=222} \\end{figure}  \\begin{figure} \\captionsetup{labelformat=empty} \\caption{System B} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-29.jpg?height=211&width=347&top_left_y=312&top_left_x=596} \\end{figure}  Systems A and B contain identical ideal springs and identical blocks that can slide along a surface of negligible friction. In system A, the surface is horizontal. In system B, the surface makes an angle $\\theta$ with the horizontal. Initially, both blocks are at rest and in equilibrium. Each block is then pulled the same distance $d$ in the direction shown in the figures and released from rest at $t=0$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "弹簧/振动"
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "After the block in system A is released from rest, the time for the block to first reach a maximum speed is $\\Delta t_{\\mathrm{A}}$. After the block in system B is released, the time for the block to first reach a maximum speed is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\Delta t_{\\mathrm{A}}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\Delta t_{\\mathrm{A}}(\\sin \\theta)$"
+            },
+            {
+              "key": "C",
+              "content": "$\\Delta t_{\\mathrm{A}} /(\\sin \\theta)$"
+            },
+            {
+              "key": "D",
+              "content": "$\\Delta t_{\\mathrm{A}}(\\cos \\theta)$"
+            },
+            {
+              "key": "E",
+              "content": "$\\Delta t_{\\mathrm{A}} /(\\cos \\theta)$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "For system A, when the block is halfway between its release position and its equilibrium position, the block's kinetic energy is $K$ and the elastic potential energy of the spring-block system is $U$. The ratio $K / U$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 / 3$"
+            },
+            {
+              "key": "B",
+              "content": "$1 / 2$"
+            },
+            {
+              "key": "C",
+              "content": "$1 / 1$"
+            },
+            {
+              "key": "D",
+              "content": "$2 / 1$"
+            },
+            {
+              "key": "E",
+              "content": "$3 / 1$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "A student wants to use an apparatus similar to system B to measure the acceleration due to gravity $g$. If the mass of the block, the force constant of the spring, and the angle of the incline are known, what additional data must be measured to determine an experimental value for $g$ ? I. The stretch of the spring at the equilibrium position II. The speed of the block as it passes the equilibrium position III. The time interval between two consecutive passes through the equilibrium position",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "I and II"
+            },
+            {
+              "key": "D",
+              "content": "II and III"
+            },
+            {
+              "key": "E",
+              "content": "I and III ![](https://cdn.mathpix.com/cropped/cad427dd-3a55-435a-b8d4-e4c721c99716-30.jpg?height=417&width=525&top_left_y=151&top_left_x=321)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "A 2.0 kg block is attached to a string that passes over a pulley and is attached to an ideal spring of spring constant $k=100 \\mathrm{~N} / \\mathrm{m}$, as shown above. The pulley and string have negligible mass, and there is negligible friction in the pulley. The block is held in place with the spring at its original unstretched length and then released from rest. The amplitude of the resulting oscillation is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 cm"
+            },
+            {
+              "key": "B",
+              "content": "0 cm"
+            },
+            {
+              "key": "C",
+              "content": "10 cm"
+            },
+            {
+              "key": "D",
+              "content": "20 cm"
+            },
+            {
+              "key": "E",
+              "content": "40 cm  \\section*{STOP}  \\section*{END OF MECHANICS SECTION I}  IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.  DO NOT TURN TO ANY OTHER TEST MATERIALS.  MAKE SURE YOU HAVE DONE THE FOLLOWING. - PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET  \\section*{"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "弹簧/振动"
+        }
+      ]
+    },
+    {
+      "id": "2019Intl-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "36",
+          "type": "free-response",
+          "prompt": "ars $A$ and $B$ are moving in opposite directions along a straight road. They pass each other at time $t=0$. Their velocities $v$ are given as a function of time $t$ in the graph above. The distance between the cars at $t=8 \\mathrm{~s}$ is",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "37",
+          "type": "free-response",
+          "prompt": "particle is moving along the $y$-axis. The particle's position as a function of time is given by $y=\\alpha t^{3}-\\beta t+\\phi$, where $\\alpha=1 \\mathrm{~m} / \\mathrm{s}^{3}$, $\\beta=4 \\mathrm{~m} / \\mathrm{s}$, and $\\phi=3 \\mathrm{~m}$. What is the particle's acceleration at time $t=3.0 \\mathrm{~s}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$6.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$9.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$18 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$23 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "partSign": "E",
+              "partContent": "$27 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "38",
+          "type": "free-response",
+          "prompt": "wo stones, represented in the figure above, are thrown from the same height with the same initial speed. Stone $A$ is thrown vertically downward and stone $B$ is thrown horizontally. If the stones are thrown at the same time and air resistance is negligible, which of the following is true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "The two stones will reach the ground at the same time with the same speed."
+            },
+            {
+              "partSign": "B",
+              "partContent": "The two stones will reach the ground at the same time but with different speeds."
+            },
+            {
+              "partSign": "C",
+              "partContent": "Stone $A$ will reach the ground first, but stone $B$ will have the greater speed just before hitting the ground."
+            },
+            {
+              "partSign": "D",
+              "partContent": "Stone $A$ will reach the ground first, but the two stones will have the same speed just before they hit the ground."
+            },
+            {
+              "partSign": "E",
+              "partContent": "Stone $A$ will reach the ground first, and will have the greater speed just before hitting the ground."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

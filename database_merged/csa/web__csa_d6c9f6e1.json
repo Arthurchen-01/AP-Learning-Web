@@ -1,0 +1,1278 @@
+{
+  "examId": "csa_d6c9f6e1",
+  "title": "AP CSA 2020年国际卷",
+  "subjectName": "计算机科学A",
+  "yearLabel": "2020",
+  "description": "AP Computer Science A 2020年国际卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "csa_d6c9f6e1-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_mcq_0",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static int mystery(int[] arr)<br/>{<br/>    int x = 0;<br/>    for (int k = 0; k &lt; arr.length; k = k + 2)<br/>        x = x + arr[k];<br/>    return x;<br/>}</code></pre><br/><br/>Assume that the array nums has been declared and initialized as follows.<br/><pre><code class=\"language-\">int[] nums = {3, 6, 1, 0, 1, 4, 2};</code></pre><br/><br/>What value will be returned as a result of the call mystery (nums) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">5</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">6</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">7</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">10</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">17</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following declaration appears in another class.<br/><pre><code class=\"language-\">SomeClass obj = new SomeClass();</code></pre><br/><br/>Which of the following code segments will compile without error?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">int $x=$ obj.getA();</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">int $x$;<br/>obj.getA(x);</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">int $x=$ obj.myA;</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">int $x=$ SomeClass.getA();</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">int $x=$ getA(obj);</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following changes to SomeClass will allow other classes to access but not modify the value of myc?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Make myC public.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Include the method:<br/><pre><code class=\"language-\">public int getC()<br/>{ return myC; }</code></pre></div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Include the method:<br/><pre><code class=\"language-\">private int getC()<br/>{ return myC; }</code></pre></div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Include the method:<br/><pre><code class=\"language-\">public void getC(int x)<br/>{ x = myC; }</code></pre></div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Include the method:<br/><pre><code class=\"language-\">private void getC(int x)<br/>{ x = myC; }</code></pre></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int x = 7;<br/>int y = 3;<br/>if ((x &lt; 10) &amp;&amp; (y &lt; 0))<br/>    System.out.println(\"Value is: \" + x * y);<br/>else<br/>    System.out.println(\"Value is: \" + x / y);</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Value is: 21</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Value is: 2.3333333</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Value is: 2</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Value is: 0</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Value is: 1</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public ArrayList&lt;Integer&gt; mystery(int n)<br/>{<br/>    ArrayList&lt;Integer&gt; seq = new ArrayList&lt;Integer&gt;();<br/>    for (int k = 1; k &lt;= n; k++)<br/>        seq.add(new Integer(k * k + 3));<br/>    return seq;<br/>}</code></pre><br/><br/>Which of the following is printed as a result of executing the following statement?<br/>System.out.println(mystery(6));</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$[3,4,7,12,19,28]$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$[3,4,7,12,19,28,39]$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$[4,7,12,19,28,39]$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$[39,28,19,12,7,4]$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$[39,28,19,12,7,4,3]$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method that is intended to determine if the double values d1 and d2 are close enough to be considered equal. For example, given a tolerance of 0.001 , the values 54.32271 and 54.32294 would be considered equal.<br/><pre><code class=\"language-\">/** @return true if d1 and d2 are within the specified tolerance,<br/>    * false otherwise<br/>    */<br/>public boolean almostEqual(double d1, double d2, double tolerance)<br/>{<br/>    /* missing code */<br/>}</code></pre><br/><br/>Which of the following should replace /* missing code */ so that almostEqual will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">return (d1 - d2) <= tolerance;</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">return ((d1 + d2) / 2) <= tolerance;</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">return (d1 - d2) >= tolerance;</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">return ((d1 + d2) / 2) >= tolerance;</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">return Math.abs(d1 - d2) <= tolerance;</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class declaration.<br/><pre><code class=\"language-\">public class Person<br/>{<br/>    private String myName;<br/>    private int myYearOfBirth;<br/>    public Person(String name, int yearOfBirth)<br/>    {<br/>        myName = name;<br/>        myYearOfBirth = yearOfBirth;<br/>    }<br/>    public String getName()<br/>    { return myName; }<br/>    public void setName(String name)<br/>    { myName = name; }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre><br/><br/>Assume that the following declaration has been made.<br/><pre><code class=\"language-\">Person student = new Person(\"Thomas\", 1995);</code></pre><br/><br/>Which of the following statements is the most appropriate for changing the name of student from \"Thomas\" to \"Tom\" ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">student = new Person(\"Tom\", 1995);</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">student.myName = \"Tom\";</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">student.getName(\"Tom\");</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">student.setName(\"Tom\");</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Person.setName (\"Tom\");</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class declaration.<br/><pre><code class=\"language-\">public class Student<br/>{<br/>    private String myName;<br/>    private int myAge;<br/>    public Student()<br/>    { /* implementation not shown */ }<br/>    public Student(String name, int age)<br/>    { /* implementation not shown */ }<br/>    // No other constructors<br/>}</code></pre><br/><br/>Which of the following declarations will compile without error?<br/>I. Student $a=$ new Student();<br/>II. Student b = new Student(\"Juan\", 15);<br/>III. Student c = new Student(\"Juan\", \"15\");</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method that is intended to return the sum of the elements in the array key.<br/><pre><code class=\"language-\">public static int sumArray(int[] key)<br/>{<br/>    int sum = 0;<br/>    for (int i = 1; i &lt;= key.length; i++)<br/>    {<br/>        /* missing code */<br/>    }<br/>    return sum;<br/>}</code></pre><br/><br/>Which of the following statements should be used to replace /* missing code */ so that sumArray will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">sum = key[i];</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">sum += key[i - 1];</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">sum += key[i];</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">sum += sum + key[i - 1];</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">sum += sum + key[i];</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For which of the following test cases will the call seqSearchRec (5) always result in an error?<br/>I. data contains only one element.<br/>II. data does not contain the value 5 .<br/>III. data contains the value 5 multiple times.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following should be used to replace // Line 1 in seqSearchRecHelper so that seqSearchRec will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">if (last <= 0) return -1;</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">if (last < 0) return -1;</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">if (last < data.length) return -1;</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">while (last < data.length)</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">while (last >= 0)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public String mystery(String input)<br/>{<br/>    String output = \"\";<br/>    for (int k = 1; k &lt; input.length(); k = k + 2)<br/>    {<br/>        output += input.substring(k, k + 1);<br/>    }<br/>    return output;<br/>}</code></pre><br/><br/>What is returned as a result of the call mystery (\"computer\") ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\"computer\"</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\" cmue \"</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\"optr\"</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\"ompute\"</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is returned because an IndexOutOfBoundsException is thrown.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int[] arr = {7, 2, 5, 3, 0, 10};<br/>for (int k = 0; k &lt; arr.length - 1; k++)<br/>{<br/>    if (arr[k] &gt; arr[k + 1])<br/>        System.out.print(k + \" \" + arr[k] + \" \");<br/>}</code></pre><br/><br/>What will be printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$0  2  2  3  3  0$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$0  7  2  5  3  3$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$0  7  2  5  5  10$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$1  {lllll}7 & 3 & 5 & 4 & 3$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$7  2  5  3  3  0$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following interface and class declarations.<br/><pre><code class=\"language-\">public interface Vehicle<br/>{<br/>    /** @return the mileage traveled by this Vehicle<br/>        */<br/>    double getMileage();<br/>}<br/>public class Fleet<br/>{<br/>    private ArrayList&lt;Vehicle&gt; myVehicles;<br/>    /** @return the mileage traveled by all vehicles in this Fleet<br/>        */<br/>    public double getTotalMileage()<br/>    {<br/>        double sum = 0.0;<br/>        for (Vehicle v : myVehicles)<br/>        {<br/>            sum += /* expression */ ;<br/>        }<br/>        return sum;<br/>    }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre><br/><br/>Which of the following can be used to replace /* expression */ so that getTotalMileage returns the total of the miles traveled for all vehicles in the fleet?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">getMileage(v)</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">myVehicles[v].getMileage()</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Vehicle.get(v).getMileage()</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">myVehicles.get(v).getMileage()</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">v.getMileage()</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method, isSorted, which is intended to return true if an array of integers is sorted in nondecreasing order and to return false otherwise.<br/><pre><code class=\"language-\">/** @param data an array of integers<br/>    * @return true if the values in the array appear in sorted (nondecreasing) order<br/>    */<br/>public static boolean isSorted(int[] data)<br/>{<br/>        /* missing code */<br/>}</code></pre><br/><br/>Which of the following can be used to replace /* missing code */ so that isSorted will work as intended?<br/>    for (int k = 1; k < data.length; k++)<br/>\\{<br/>    if (data[k - 1] > data[k])<br/>        return false;<br/>\\}<br/>return true;<br/>II.<br/><pre><code class=\"language-\">for (int k = 0; k &lt; data.length; k++)<br/>{<br/>    if (data[k] &gt; data[k + 1])<br/>        return false;<br/>}<br/>return true;<br/>III. for (int k = 0; k &lt; data.length - 1; k++)<br/>{<br/>    if (data[k] &gt; data[k + 1])<br/>        return false;<br/>    else<br/>        return true;<br/>}<br/>return true;</code></pre></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following incomplete method that is intended to return an array that contains the contents of its first array parameter followed by the contents of its second array parameter.<br/><pre><code class=\"language-\">public static int[] append(int[] a1, int[] a2)<br/>{<br/>    int[] result = new int[a1.length + a2.length];<br/>    for (int j = 0; j &lt; a1.length; j++)<br/>        result[j] = a1[j];<br/>    for (int k = 0; k &lt; a2.length; k++)<br/>        result[ /* index */ ] = a2[k];<br/>    return result;<br/>}</code></pre><br/><br/>Which of the following expressions can be used to replace /* index */ so that append will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">j</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">k</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$k+a 1$. length -1</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$k+a 1$. length</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$k+a 1$. length +1</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int[] arr = {1, 2, 3, 4, 5, 6, 7};<br/>for (int k = 3; k &lt; arr.length - 1; k++)<br/>    arr[k] = arr[k + 1];</code></pre><br/><br/>Which of the following represents the contents of arr as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\{1,2,3,4,5,6,7\\}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\{1,2,3,5,6,7\\}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\{1,2,3,5,6,7,7\\}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\{1,2,3,5,6,7,8\\}$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$\\{2,3,4,5,6,7,7\\}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that myList is an ArrayList that has been correctly constructed and populated with objects. Which of the following expressions produces a valid random index for myList?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">(int) ( Math.random() * myList.size() ) - 1</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">(int) ( Math.random() * myList.size() )</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">(int) ( Math.random() * myList.size() ) + 1</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">(int) ( Math.random() * (myList.size() + 1) )</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Math.random(myList.size())</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that $a$ and $b$ have been defined and initialized as int values. The expression<br/>$$<br/>!(!(a!=b)  & & (~b>7))<br/>$$<br/>is equivalent to which of the following?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$(a!=b)|(b<7)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$(a!=b)|(b<=7)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$(a==b)|(b<=7)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$(a!=b)  & & (~b<=7)$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$(a==b)  & &(~b>7)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static void arrayMethod(int nums[])<br/>{<br/>    int j = 0;<br/>    int k = nums.length - 1;<br/>    while (j &lt; k)<br/>    {<br/>        int x = nums[j];<br/>        nums[j] = nums[k];<br/>        nums[k] = x;<br/>        j++;<br/>        k--;<br/>    }<br/>}</code></pre><br/><br/>Which of the following describes what the method arrayMethod() does to the array nums?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The array nums is unchanged.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The first value in nums is copied to every location in the array.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The last value in nums is copied to every location in the array.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The method generates an ArrayIndexOutOfBoundsException.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The contents of the array nums are reversed.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method, which is intended to return the element of a 2-dimensional array that is closest in value to a specified number, val.<br/><pre><code class=\"language-\">/** @return the element of 2-dimensional array mat whose value is closest to val */<br/>public double findClosest(double[][] mat, double val)<br/>{<br/>    double answer = mat[0][0];<br/>    double minDiff = Math.abs(answer - val);<br/>    for (double[] row : mat)<br/>    {<br/>        for (double num : row)<br/>        {<br/>            if ( /* missing code */ )<br/>            {<br/>                answer = num;<br/>                minDiff = Math.abs(num - val);<br/>            }<br/>        }<br/>    }<br/>    return answer;<br/>}</code></pre><br/><br/>Which of the following could be used to replace /* missing code */ so that findClosest will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">val - row[num] < minDiff</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Math.abs(num - minDiff) < minDiff</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">val - num < 0.0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Math.abs(num - val) < minDiff</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Math.abs(row[num] - val) < minDiff</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following Book and AudioBook classes.<br/><pre><code class=\"language-\">public class Book<br/>{<br/>    private int numPages;<br/>    private String bookTitle;<br/>    public Book(int pages, String title)<br/>    {<br/>        numPages = pages;<br/>        bookTitle = title;<br/>    }<br/>    public String toString()<br/>    {<br/>        return bookTitle + \" \" + numPages;<br/>    }<br/>    public int length()<br/>    {<br/>        return numPages;<br/>    }<br/>}<br/>public class AudioBook extends Book<br/>{<br/>    private int numMinutes;<br/>    public AudioBook(int minutes, int pages, String title)<br/>    {<br/>        super(pages, title);<br/>        numMinutes = minutes;<br/>    }<br/>    public int length()<br/>    {<br/>        return numMinutes;<br/>    }<br/>    public double pagesPerMinute()<br/>    {<br/>        return ((double) super.length()) / numMinutes;<br/>    }<br/>}</code></pre><br/><br/>Consider the following code segment that appears in a class other than Book or AudioBook.<br/><pre><code class=\"language-\">Line 1: Book[] books = new Book[2];<br/>Line 2: books[0] = new AudioBook(100, 300, \"The Jungle\");<br/>Line 3: books[1] = new Book(400, \"Captains Courageous\");<br/>Line 4: System.out.println(books[0].pagesPerMinute());<br/>Line 5: System.out.println(books[0].toString());<br/>Line 6: System.out.println(books[0].length());<br/>Line 7: System.out.println(books[1].toString());</code></pre><br/><br/>Which of the following best explains why the code segment will not compile?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Line 2 will not compile because variables of type Book may not refer to variables of type AudioBook.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Line 4 will not compile because variables of type Book may only call methods in the Book class.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Line 5 will not compile because the AudioBook class does not have a method named toString declared or implemented.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Line 6 will not compile because the statement is ambiguous. The compiler cannot determine which length method should be called.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Line 7 will not compile because the element at index 1 in the array named books may not have been initialized.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following instance variable and method.<br/><pre><code class=\"language-\">private List&lt;String&gt; animals;<br/>public void manipulate()<br/>{<br/>    for (int k = animals.size() - 1; k &gt; 0; k--)<br/>    {<br/>        if (animals.get(k).substring(0, 1).equals(\"b\"))<br/>        {<br/>            animals.add(animals.size() - k, animals.remove(k));<br/>        }<br/>    }<br/>}</code></pre><br/><br/>Assume that animals has been instantiated and initialized with the following contents.<br/><pre><code class=\"language-\">[\"bear\", \"zebra\", \"bass\", \"cat\", \"koala\", \"baboon\"]</code></pre><br/><br/>What will the contents of animals be as a result of calling manipulate ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">[\"baboon\", \"zebra\", \"bass\", \"cat\", \"bear\", \"koala\"]</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">[\"bear\", \"zebra\", \"bass\", \"cat\", \"koala\", \"baboon\"]</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">[\"baboon\", \"bear\", \"zebra\", \"bass\", \"cat\", \"koala\"]</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">[\"bear\", \"baboon\", \"zebra\", \"bass\", \"cat\", \"koala\"]</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">[\"zebra\", \"cat\", \"koala\", \"baboon\", \"bass\", \"bear\"]</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int[] oldArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};<br/>int[][] newArray = new int[3][3];<br/>int row = 0;<br/>int col = 0;<br/>for (int value : oldArray)<br/>{<br/>    newArray[row][col] = value;<br/>    row++;<br/>    if ((row % 3) == 0)<br/>    {<br/>        col++;<br/>        row = 0;<br/>    }<br/>}<br/>System.out.println(newArray[0][2]);</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">5</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">7</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">8</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A rectangular box fits inside another rectangular box if and only if the height, width, and depth of the smaller box are each less than the corresponding values of the larger box. Consider the following three interface declarations that are intended to represent information necessary for rectangular boxes.<br/>    I. public interface RBox<br/>        \\{<br/>            /** @return the height of this RBox */<br/>            double getHeight();<br/>            /** @return the width of this RBox */<br/>            double getWidth();<br/>            /** @return the depth of this RBox */<br/>            double getDepth();<br/>        \\}<br/><br/>II.<br/><pre><code class=\"language-\">public interface RBox<br/>{<br/>        /** @return true if the height of this RBox is less than the height of other;<br/>            * false otherwise<br/>            */<br/>    boolean smallerHeight(RBox other);<br/>    /** @return true if the width of this RBox is less than the width of other;<br/>        * false otherwise<br/>            /<br/>    boolean smallerWidth(RBox other);<br/>    /** @return true if the depth of this RBox is less than the depth of other;<br/>        * false otherwise<br/>        */<br/>    boolean smallerDepth(RBox other);<br/>}</code></pre><br/><br/>III. public interface RBox<br/>\\{<br/>    /** @return the surface area of this RBOX */<br/>    double getSurfaceArea();<br/>    /** @return the volume of this RBOX */<br/>    double getVolume();<br/>\\}<br/><br/>Which of the interfaces, if correctly implemented by a Box class, would be sufficient functionality for a user of the Box class to determine if one Box can fit inside another?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that the array arr has been defined and initialized as follows.<br/><pre><code class=\"language-\">int[] arr = /* initial values for the array */ ;</code></pre><br/><br/>Which of the following will correctly print all of the odd integers contained in arr but none of the even integers contained in arr ?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">for (int x : arr)<br/>    if (x % 2 != 0)<br/>        System.out.println(x);</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">for (int k = 1; k < arr.length; k++)<br/>    if (arr[k] % 2 != 0)<br/>        System.out.println(arr[k]);</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">for (int x : arr)<br/>    if (x % 2 != 0)<br/>        System.out.println(arr[x]);</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">for (int k = 0; k < arr.length; k++)<br/>    if (arr[k] % 2 != 0)<br/>        System.out.println(k);</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">for (int x : arr)<br/>    if (arr[x] % 2 != 0)<br/>        System.out.println(arr[x]);<br/><pre><code class=\"language-\">Questions 27-28 refer to the following method.</code></pre><br/>public static int mystery(int n)<br/>{<br/>    int x = 1;<br/>    int y = 1;<br/>    // Point A<br/>    while (n > 2)<br/>    {<br/>        x = x + y;<br/>        // Point B<br/>        Y = x - y;<br/>        n--;<br/>    }<br/>    // Point C<br/>    return x;<br/>}<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What value is returned as a result of the call mystery (6) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">5</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">6</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">8</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">13</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following is true of method mystery ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">x will sometimes be 1 at // Point B .</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">x will never be 1 at // Point C .</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">n will never be greater than 2 at $/ /$ Point A .</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">n will sometimes be greater than 2 at // Point C .</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$n$ will always be greater than 2 at // Point $B$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">for (int k = 1; k &lt;= 100; k++)<br/>    if ((k % 4) == 0)<br/>        System.out.println(k);</code></pre><br/><br/>Which of the following code segments will produce the same output as the code segment above?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">for (int k = 1; k <= 25; k++)<br/><br/>System.out.println(k);</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">for (int k = 1; k <= 100; k = k + 4)<br/><br/>System.out.println(k);</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">for (int k = 1; k <= 100; k++)<br/><br/>System.out.println(k % 4);</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">for (int $k=4 ; k<=25 ; k=4 * k$ )<br/><br/>System.out.println(k);</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">for (int k = 4; k <= 100; k = k + 4)<br/><br/>System.out.println(k);</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static String scramble(String word, int howFar)<br/>{<br/>    return word.substring(howFar + 1, word.length()) +<br/>        word.substring(0, howFar);<br/>}</code></pre><br/><br/>What value is returned as a result of the call scramble (\"compiler\", 3)?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\"compiler\"</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\"pilercom\"</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\"ilercom\"</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\"ilercomp\"</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">No value is returned because an IndexOutOfBoundsException will be thrown.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public void mystery(int[] data)<br/>{<br/>    for (int k = 0; k &lt; data.length - 1; k++)<br/>        data[k + 1] = data[k] + data[k + 1];<br/>}</code></pre><br/><br/>The following code segment appears in another method in the same class.<br/><pre><code class=\"language-\">int[] values = {5, 2, 1, 3, 8};<br/>mystery(values);<br/>for (int v : values)<br/>    System.out.print(v + \" \");<br/>System.out.println();</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">52138</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">573411</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">5781119</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">734118</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed because an ArrayIndexOutOfBoundsException is thrown during the execution of method mystery.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public int compute(int n, int k)<br/>{<br/>    int answer = 1;<br/>    for (int i = 1; i &lt;= k; i++)<br/>        answer *= n;<br/>    return answer;<br/>}</code></pre><br/><br/>Which of the following represents the value returned as a result of the call compute ( $n, k$ ) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$n * k$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$n!$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$n^{k}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$2^{k}$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$k^{n}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int sum = 0;<br/>int k = 1;<br/>while (sum &lt; 12 || k &lt; 4)<br/>    sum += k;<br/>System.out.println(sum);</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">6</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">10</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">12</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">15</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed due to an infinite loop.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class declarations.<br/><pre><code class=\"language-\">public class Point<br/>{<br/>    private double x; // x-coordinate<br/>    private double y; // y-coordinate<br/>    public Point()<br/>    {<br/>        x = 0;<br/>        y = 0;<br/>    }<br/>    public Point(double a, double b)<br/>    {<br/>        x = a;<br/>        y = b;<br/>    }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}<br/>public class Circle<br/>{<br/>    private Point center;<br/>    private double radius;<br/>    /** Constructs a circle where (a, b) is the center and r is the radius.<br/>        */<br/>    public Circle(double a, double b, double r)<br/>    {<br/>        /* missing code */<br/>    }<br/>}</code></pre><br/><br/>Which of the following replacements for /* missing code */ will correctly implement the Circle constructor?<br/>I.<br/><pre><code class=\"language-\">center = new Point();<br/>radius = r;</code></pre><br/><br/>II.<br/><pre><code class=\"language-\">center = new Point(a, b);<br/>radius = r;</code></pre><br/><br/>III. center = new Point();<br/>center.x = a;<br/>center.y = b;<br/>radius = r;</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int num = 2574;<br/>int result = 0;<br/>while (num &gt; 0)<br/>{<br/>    result = result * 10 + num % 10;<br/>    num /= 10;<br/>}<br/>System.out.println(result);</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">18</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">2574</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">4752</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public void test(int x)<br/>{<br/>    int y;<br/>    if (x % 2 == 0)<br/>        y = 3;<br/>    else if (x &gt; 9)<br/>        y = 5;<br/>    else<br/>        Y = 1;<br/>    System.out.println(\"y = \" + y);<br/>}</code></pre><br/><br/>Which of the following test data sets would test each possible output for the method?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$8,9,12$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$7,9,11$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$8,9,11$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$8,11,13$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$7,9,10$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int x = 1;<br/>while ( /* missing code */ )<br/>{<br/>    System.out.print(x + \" \");<br/>    x = x + 2;<br/>}</code></pre><br/><br/>Consider the following possible replacements for /* missing code */.<br/>I. $x<6$<br/>II. $x!=6$<br/>III. $x<7$<br/><br/>Which of the proposed replacements for /* missing code */ will cause the code segment to print only the values 135 ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that $x$ and $y$ have been declared and initialized with int values. Consider the following Java expression.<br/>$$<br/>(y>10000)|(x>1000  & & x<1500)<br/>$$<br/><br/>Which of the following is equivalent to the expression given above?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$(y>10000| | x>1000)  & &(y>10000| | x<1500)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$(y>10000| | x>1000)|(y>10000| | x<1500)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$(y>10000)  _{&} (x>1000| | x<1500)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$(y>10000  & x^{x}>1000)|(y>10000  & x^{x}<1500).$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$(y>10000  _{0}  x>1000)  _{0} (y>10000  _{0}  x<1500)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_38",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following recursive method.<br/><pre><code class=\"language-\">public int recur(int n)<br/>{<br/>    if (n &lt;= 10)<br/>        return n * 2;<br/>    else<br/>        return recur(recur(n / 3));<br/>}</code></pre><br/><br/>What value is returned as a result of the call recur (27)?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">8</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">9</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">12</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">16</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">18</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_39",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following recursive method.<br/><pre><code class=\"language-\">public static void whatsItDo(String str)<br/>{<br/>    int len = str.length();<br/>    if (len &gt; 1)<br/>    {<br/>        String temp = str.substring(0, len - 1);<br/>        whatsItDo(temp);<br/>        System.out.println(temp);<br/>    }<br/>}</code></pre><br/><br/>What is printed as a result of the call whatsItDo (\"WATCH\") ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">WATC<br/><pre><code class=\"language-\">WAT<br/>WA<br/>W</code></pre></div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">WATCH<br/><br/>WATC<br/>WAT<br/>WA</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">W<br/><br/>WA<br/>WAT<br/>WATC</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">W<br/><br/>WA<br/>WAT<br/>WATC<br/>WATCH</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">WATCH<br/><br/>WATC<br/>WAT<br/>WA<br/>W<br/>WA<br/>WAT<br/>WATC<br/>WATCH</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    },
+    {
+      "id": "csa_d6c9f6e1-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_frq_0",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following partial declaration for a WordScrambler class. The constructor for the WordScrambler class takes an even-length array of String objects and initializes the instance variable scrambledWords.<br/><pre><code class=\"language-\">public class WordScrambler<br/>{<br/>    private String[] scrambledWords;<br/>    /** @param wordArr an array of String objects<br/>        * Precondition: wordArr.length is even<br/>        */<br/>    public WordScrambler(String[] wordArr)<br/>    {<br/>        scrambledWords = mixedWords(wordArr);<br/>    }<br/>    /** @param word1 a String of characters<br/>        * @param word2 a String of characters<br/>        * @return a String that contains the first half of word1 and the second half of word2<br/>        */<br/>    private String recombine(String word1, String word2)<br/>    { /* to be implemented in part (a) */ }<br/>    /** @param words an array of String objects<br/>        * Precondition: words.length is even<br/>        * @return an array of String objects created by recombining pairs of strings in array words<br/>        * Postcondition: the length of the returned array is words.length<br/>        */<br/>    private String[] mixedWords(String[] words)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the WordScrambler method recombine. This method returns a String created from its two String parameters as follows.<br/>- take the first half of word1<br/>- take the second half of word2<br/>- concatenate the two halves and return the new string.<br/><br/>For example, the following table shows some results of calling recombine. Note that if a word has an odd number of letters, the second half of the word contains the extra letter.<br/><br/>{|c|c|c|}<br/>1{c}{ word1 } & 1{c}{ word2 } & recombine(word1, word2) <br/><br/> \"apple\" & \"pear\" & \"apar\" <br/><br/> \"pear\" & \"apple\" & \"peple\" <br/><br/><br/>Complete method recombine below.<br/><pre><code class=\"language-\">/** @param word1 a String of characters<br/>    * @param word2 a String of characters<br/>    * @return a String that contains the first half of word1 and the second half of word2<br/>    */<br/>private String recombine(String word1, String word2)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the WordScrambler method mixedWords. This method creates and returns a new array of String objects as follows.<br/><br/>It takes the first pair of strings in words and combines them to produce a pair of strings to be included in the array returned by the method. If this pair of strings consists of w 1 and w 2 , the method should include the result of calling recombine with w 1 and w 2 as arguments and should also include the result of calling recombine with w2 and w1 as arguments. The next two strings, if they exist, would form the next pair to be processed by this method. The method should continue until all the strings in words have been processed in this way and the new array has been filled. For example, if the array words contains the following elements:<br/>\\{\"apple\", \"pear\", \"this\", \"cat\"\\}<br/>then the call mixedWords (words) should return the following array.<br/>\\{\"apar\", \"peple\", \"that\", \"cis\"\\}<br/>In writing mixedWords, you may call recombine. Assume that recombine works as specified, regardless of what you wrote in part (a).<br/><br/>Complete method mixedWords below.<br/>/** @param words an array of String objects<br/>* Precondition: words.length is even<br/>* @return an array of String objects created by recombining pairs of strings in array words<br/>* Postcondition: the length of the returned array is words.length<br/>*/<br/>private String[] mixedWords(String[] words)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">An array of positive integer values has the mountain property if the elements are ordered such that successive values increase until a maximum value (the peak of the mountain) is reached and then the successive values decrease. The Mountain class declaration shown below contains methods that can be used to determine if an array has the mountain property. You will implement two methods in the Mountain class.<br/><pre><code class=\"language-\">public class Mountain<br/>{<br/>    /** @param array an array of positive integer values<br/>        * @param stop the last index to check<br/>        * Precondition: 0 stop &lt; array.length<br/>        * @return true if for each j such that 0 \\leq j &lt; stop, array[j] &lt; array[j + 1] ;<br/>        * false otherwise<br/>        */<br/>    public static boolean isIncreasing(int[] array, int stop)<br/>    { /* implementation not shown */ }<br/>    /** @param array an array of positive integer values<br/>        * @param start the first index to check<br/>        * Precondition: 0 s start &lt; array.length - 1<br/>        * @return true if for each j such that start \\leq j&lt;array.length - 1,<br/>        * array[j] &gt; array[j + 1];<br/>        * false otherwise<br/>        */<br/>    public static boolean isDecreasing(int[] array, int start)<br/>    { /* implementation not shown */ }<br/>    /** @param array an array of positive integer values<br/>        * Precondition: array.length &gt; 0<br/>        * @return the index of the first peak (local maximum) in the array, if it exists;<br/>        * -1 otherwise<br/>        */<br/>    public static int getPeakIndex(int[] array)<br/>    { /* to be implemented in part (a) */ }<br/>    /** @param array an array of positive integer values<br/>        * Precondition: array.length &gt; 0<br/>        * @return true if array contains values ordered as a mountain;<br/>        * false otherwise<br/>        */<br/>    public static boolean isMountain(int[] array)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the Mountain method getPeakIndex. Method getPeakIndex returns the index of the first peak found in the parameter array, if one exists. A peak is defined as an element whose value is greater than the value of the element immediately before it and is also greater than the value of the element immediately after it. Method getPeakIndex starts at the beginning of the array and returns the index of the first peak that is found or -1 if no peak is found.<br/><br/>For example, the following table illustrates the results of several calls to getPeakIndex.<br/><br/>{|l|l|}<br/> arr & getPeakIndex(arr) <br/><br/> \\{11, 22, 33, 22, 11\\} & 2 <br/><br/> \\{11, 22, 11, 22, 11\\} & 1 <br/><br/> \\{11, 22, 33, 55, 77\\} & -1 <br/><br/> \\{99, 33, 55, 77, 120\\} & -1 <br/><br/> \\{99, 33, 55, 77, 55\\} & 3 <br/><br/> \\{33, 22, 11\\} & -1 <br/><br/><br/>Complete method getPeakIndex below.<br/><pre><code class=\"language-\">/** @param array an array of positive integer values<br/>    * Precondition: array.length &gt; 0<br/>    * @return the index of the first peak (local maximum) in the array, if it exists;<br/>    * -1 otherwise<br/>    */<br/>public static int getPeakIndex(int[] array)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the Mountain method isMountain. Method isMountain returns true if the values in the parameter array are ordered as a mountain; otherwise, it returns false. The values in array are ordered as a mountain if all three of the following conditions hold.<br/>- There must be a peak.<br/>- The array elements with an index smaller than the peak's index must appear in increasing order.<br/>- The array elements with an index larger than the peak's index must appear in decreasing order.<br/><br/>For example, the following table illustrates the results of several calls to isMountain.<br/><br/>{|l|l|}<br/> arr & isMountain(arr) <br/><br/> \\{1, 2, 3, 2, 1\\} & true <br/><br/> \\{1, 2, 1, 2, 1\\} & false <br/><br/> \\{1, 2, 3, 1, 5\\} & false <br/><br/> \\{1, 4, 2, 1, 0 \\} & true <br/><br/> \\{9, 3, 5, 7, 5\\} & false <br/><br/> \\{3, 2, 1\\} & false <br/><br/><br/>In writing isMountain, assume that getPeakIndex works as specified, regardless of what you wrote in part (a).<br/><br/>Complete method isMountain below.<br/><pre><code class=\"language-\">/** @param array an array of positive integer values<br/>    * Precondition: array.length &gt; 0<br/>    * @return true if array contains values ordered as a mountain;<br/>    * false otherwise<br/>    */<br/>public static boolean isMountain(int[] array)</code></pre>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A two-dimensional array of temperatures is represented in the following class.<br/><pre><code class=\"language-\">public class TemperatureGrid</code></pre><br/><br/>\\{<br/>    /** A two-dimensional array of temperature values, initialized in the constructor (not shown)<br/>        * Guaranteed not to be null<br/>        */<br/>    private double[][] temps;<br/>    /** Computes and returns a new temperature value for the given location.<br/>        * @param row a valid row index in temps<br/>        * @param col a valid column index in temps<br/>        * @return the new temperature for temps[row][col]<br/>        * - The new temperature for any element in the border of the array is the<br/>        * same as the old temperature.<br/>        * - Otherwise, the new temperature is the average of the four adjacent entries.<br/>        * Postcondition: temps is unchanged.<br/>        */<br/>    private double computeTemp(int row, int col)<br/>    \\{ /* to be implemented in part (a) */ \\}<br/>    /** Updates all values in temps and returns a boolean that indicates whether or not all the<br/>        * new values were within tolerance of the original values.<br/>        * @param tolerance a double value >= 0<br/>        * @return true if all updated temperatures are within tolerance of the original values;<br/>        * false otherwise.<br/>        * Postcondition: Each value in temps has been updated with a new value based on the<br/>        * corresponding call to computeTemp.<br/>        */<br/>    public boolean updateAllTemps(double tolerance)<br/>    \\{ /* to be implemented in part (b) */ \\}<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>\\}</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite method computeTemp, which computes and returns the new temperature for a given element of temps according to the following rules."
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">If the element is in the border of the array (in the first row or last row or first column or last column), the new temperature is the same as the old temperature.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Otherwise, the new temperature is the average (arithmetic mean) of the temperatures of the four adjacent values in the table (located above, below, to the left, and to the right of the element).<br/><br/>If temps is the table shown below, temps. length is 5 and temps[0].length is 6 .<br/><br/>{|l|l|l|l|l|l|l|}<br/> & 0 & 1 & 2 & 3 & 4 & 5 <br/><br/> 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 <br/><br/> 1 & 0.0 & 50.0 & 50.0 & 50.0 & 50.0 & 0.0 <br/><br/> 2 & 0.0 & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 <br/><br/> 3 & 0.0 & 20.0 & 20.0 & 20.0 & 20.0 & 0.0 <br/><br/> 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 <br/><br/><br/>The following table shows the results of several calls to computeTemp.<br/><br/>{|l|l|}<br/> Function Call & Result <br/><br/> computeTemp (2, 3) & 37.5 (the average of the values 50.0, 20.0, 40.0, and 40.0) <br/><br/> computeTemp (1, 1) & 47.5 (the average of the values 100.0, 40.0, 0.0, and 50.0) <br/><br/> computeTemp (0, 2) & 100.0 (the same as the old value) <br/><br/> computeTemp (1, 3) & 60.0 (the average of the values 100.0, 40.0, 50.0, and 50.0) <br/><br/><br/>Complete method computeTemp below.<br/><pre><code class=\"language-\">/** Computes and returns a new temperature value for the given location.<br/>    * @param row a valid row index in temps<br/>    * @param col a valid column index in temps<br/>    * @return the new temperature for temps[row][col]<br/>    * - The new temperature for any element in the border of the array is the<br/>    * same as the old temperature.<br/>    * - Otherwise, the new temperature is the average of the four adjacent entries.<br/>    * Postcondition: temps is unchanged.<br/>    */<br/>private double computeTemp(int row, int col)</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "b",
+              "partContent": "rite method updateAllTemps, which computes the new temperature for every element of temps. The new values should be based on the original values, so it will be necessary to create another twodimensional array in which to store the new values. Once all the computations are complete, the new values should replace the corresponding positions of temps. Method updateAllTemps also determines whether every new temperature is within tolerance of the corresponding old temperature (i.e., the absolute value of the difference between the old temperature and the new temperature is less than or equal to tolerance). If so, it returns true; otherwise, it returns false.<br/><br/>If temps contains the values shown in the first table below, then the call updateAllTemps ( 0.01 ) should update temps as shown in the second table.<br/><br/>labelformat=empty<br/>temps before the call updateAllTemps (0.01)<br/>{|l|l|l|l|l|l|l|}<br/> & 0 & 1 & 2 & 3 & 4 & 5 <br/><br/> 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 <br/><br/> 1 & 0.0 & 50.0 & 50.0 & 50.0 & 50.0 & 0.0 <br/><br/> 2 & 0.0 & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 <br/><br/> 3 & 0.0 & 20.0 & 20.0 & 20.0 & 20.0 & 0.0 <br/><br/> 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 <br/><br/><br/>labelformat=empty<br/>temps after the call updateAllTemps(0.01)<br/>{|l|l|l|l|l|l|l|}<br/> & 0 & 1 & 2 & 3 & 4 & 5 <br/><br/> 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 <br/><br/> 1 & 0.0 & 47.5 & 60.0 & 60.0 & 47.5 & 0.0 <br/><br/> 2 & 0.0 & 27.5 & 37.5 & 37.5 & 27.5 & 0.0 <br/><br/> 3 & 0.0 & 15.0 & 20.0 & 20.0 & 15.0 & 0.0 <br/><br/> 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 <br/><br/><br/>In the example shown, the call updateAllTemps (0.01) should return false because there are several new temperatures that are not within the given tolerance of the corresponding old temperature. For example, the updated value in temps[2][3] is 37.5, the original value in temps[2][3] was 40.0, and the absolute value of (37.5-40.0) is greater than the value of tolerance ( 0.01 ).<br/><br/>Assume that computeTemp works as specified, regardless of what you wrote in part (a).<br/>Complete method updateAllTemps below.<br/>/** Updates all values in temps and returns a boolean that indicates whether or not all the<br/>* new values were within tolerance of the original values.<br/>* @param tolerance a double value >= 0<br/>* @return true if all updated temperatures are within tolerance of the original values;<br/>* false otherwise.<br/>* Postcondition: Each value in temps has been updated with a new value based on the<br/>* corresponding call to computeTemp.<br/>*/<br/>public boolean updateAllTemps(double tolerance)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A school district would like to get some statistics on its students' standardized test scores. Scores will be represented as objects of the following ScoreInfo class. Each ScoreInfo object contains a score value and the number of students who earned that score.<br/><pre><code class=\"language-\">public class ScoreInfo<br/>{<br/>    private int score;<br/>    private int numStudents;<br/>    public ScoreInfo(int aScore)<br/>    {<br/>        score = aScore;<br/>        numStudents = 1;<br/>    }<br/>    /** adds 1 to the number of students who earned this score<br/>        */<br/>    public void increment()<br/>    { numStudents++; }<br/>    /** @return this score<br/>        */<br/>    public int getScore()<br/>    { return score; }<br/>    /** @return the number of students who earned this score<br/>        */<br/>    public int getFrequency()<br/>    { return numStudents; }<br/>}</code></pre><br/><br/>The following Stats class creates and maintains a database of student score information. The scores are stored in sorted order in the database.<br/><pre><code class=\"language-\">public class Stats<br/>{<br/>    private ArrayList&lt;ScoreInfo&gt; scoreList;<br/>        // listed in increasing score order; no two ScoreInfo objects contain the same score<br/>    /** Records a score in the database, keeping the database in increasing score order. If no other<br/>        * ScoreInfo object represents score, a new ScoreInfo object representing score<br/>        * is added to the database; otherwise, the frequency in the ScoreInfo object representing<br/>        * score is incremented.<br/>        * @param score a score to be recorded in the list<br/>        * @return true if a new ScoreInfo object representing score was added to the list;<br/>        * false otherwise<br/>        */<br/>    public boolean record(int score)<br/>    { /* to be implemented in part (a) */}<br/>    /** Records all scores in stuScores in the database, keeping the database in increasing score order<br/>        * @param stuScores an array of student test scores<br/>        */<br/>    public void recordScores(int[] stuScores)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the Stats method record that takes a test score and records that score in the database. If the score already exists in the database, the frequency of that score is updated. If the score does not exist in the database, a new ScoreInfo object is created and inserted in the appropriate position so that the database is maintained in increasing score order. The method returns true if a new ScoreInfo object was added to the database; otherwise, it returns false.<br/><br/>Complete method record below.<br/><pre><code class=\"language-\">/** Records a score in the database, keeping the database in increasing score order. If no other<br/>    * ScoreInfo object represents score, a new ScoreInfo object representing score<br/>    * is added to the database; otherwise, the frequency in the ScoreInfo object representing<br/>    * score is incremented.<br/>    * @param score a score to be recorded in the list<br/>    * @return true if a new ScoreInfo object representing score was added to the list;<br/>    * false otherwise<br/>    */<br/>public boolean record(int score)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the Stats method recordScores that takes an array of test scores and records them in the database. The database contains at most one ScoreInfo object per unique score value. Each ScoreInfo object contains a score and an associated frequency. The database is maintained in increasing order based on the score.<br/><br/>In writing recordScores, assume that record works as specified, regardless of what you wrote in part (a).<br/><br/>Complete method recordScores below.<br/>/** Records all scores in stuScores in the database, keeping the database in increasing score order<br/>* @param stuScores an array of student test scores<br/>*/<br/>public void recordScores(int[] stuScores)<br/><br/>STOP<br/>END OF EXAM"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

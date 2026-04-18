@@ -1,0 +1,750 @@
+{
+  "examId": "csa_1b5d268d",
+  "title": "AP CSA 2008年练习卷",
+  "subjectName": "计算机科学A",
+  "yearLabel": "2008",
+  "description": "AP Computer Science A 2008年练习卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "csa_1b5d268d-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_mcq_0",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">for (int k = 0; k &lt; 20; k = k + 2)<br/>{<br/>    if (k % 3 == 1)<br/>    {<br/>        System.out.print(k + \" \");<br/>    }<br/>}</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">416</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$4  10  16$<br/>(c) $0  6  12  18$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$1  {lllllll}1 & 7 & 10 & 13 & 16 & 19$<br/>${lllllllllll} {</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">} & 0 & 2 & 4 & 6 & 8 & 10 & 12 & 14 & 16 & 18$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">List&lt;String&gt; animals = new ArrayList&lt;String&gt;();<br/>animals.add(\"dog\");<br/>animals.add(\"cat\");<br/>animals.add(\"snake\");<br/>animals.set(2, \"lizard\");<br/>animals.add(1, \"fish\");<br/>animals.remove(3);<br/>System.out.println(animals);</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">[dog, fish, cat]</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">[dog, fish, lizard]<br/>(c) [dog, lizard, fish]</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">[fish, dog, cat]</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The code throws an ArrayIndexOutOfBoundsException exception.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static void mystery(List&lt;Integer&gt; nums)<br/>{<br/>    for (int k = 0; k &lt; nums.size(); k++)<br/>    {<br/>        if (nums.get(k).intValue() == 0)<br/>        {<br/>            nums.remove(k);<br/>        }<br/>    }<br/>}</code></pre><br/><br/>Assume that a List<Integer> values initially contains the following Integer values.<br/>$[0,0,4,2,5,0,3,0]$<br/>What will values contain as a result of executing mystery (values) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$[0,0,4,2,5,0,3,0]$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$[4,2,5,3]$<br/>(c) $[0,0,0,0,4,2,5,3]$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$[0,4,2,5,3]$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The code throws an ArrayIndexOutOfBoundsException exception.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">At a certain high school students receive letter grades based on the following scale.<br/><br/>{lc} <br/>Integer Score & Letter Grade <br/><br/>93 or above & A <br/><br/>From 84 to 92 inclusive & B <br/><br/>From 75 to 83 inclusive & C <br/><br/>Below 75 & F<br/><br/>Which of the following code segments will assign the correct string to grade for a given integer score ?<br/>```<br/>I. if (score >= 93)<br/>        grade = \"A\";<br/>    if (score >= 84 && score <= 92)<br/>        grade = \"B\";<br/>    if (score >= 75 && score <= 83)<br/>        grade = \"C\";<br/>    if (score < 75)<br/>        grade = \"F\";<br/>II. if (score >= 93)<br/>        grade = \"A\";<br/>    if (84 <= score <= 92)<br/>        grade = \"B\";<br/>    if (75 <= score <= 83)<br/>        grade = \"C\";<br/>    if (score < 75)<br/>        grade = \"F\";<br/>III. if (score >= 93)<br/>        grade = \"A\";<br/>    else if (score >= 84)<br/>        grade = \"B\";<br/>    else if (score >= 75)<br/>        grade = \"C\";<br/>    else<br/>        grade = \"F\";</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">III only<br/>(c) I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following output.<br/><br/>{lllll}<br/>1 & 1 & 1 & 1 & 1 <br/><br/>2 & 2 & 2 & 2 & <br/><br/>3 & 3 & 3 & & <br/><br/>4 & 4 & & & <br/><br/>5 & & & &<br/><br/>Which of the following code segments will produce this output?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">for (int j = 1; j <= 5; j++)<br/>    \\{<br/>        for (int k = 1; k <= 5; k++)<br/>        \\{<br/>            System.out.print(j + \" \");<br/>        \\}<br/>        System.out.println();<br/>    \\}</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\\{<br/>        for (int k = 1; k <= j; k++)<br/>        \\{<br/>            System.out.print(j + \" \");<br/>        \\}<br/>        System.out.println();<br/>    \\}<br/><br/>(c)<br/>for (int j = 1; j <= 5; j++)<br/>    \\{<br/>        for (int k = 5; k >= 1; k--)<br/>        \\{<br/>            System.out.print(j + \" \");<br/>        \\}<br/>        System.out.println();<br/>    \\}</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">for (int j = 1; j <= 5; j++)<br/>    \\{<br/>        for (int k = 5; k >= j; k--)<br/>        \\{<br/>            System.out.print(j + \" \");<br/>        \\}<br/>        System.out.println();<br/>    \\}</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">for (int j = 1; j <= 5; j++)<br/>    \\{<br/>        for (int k = j; k <= 5; k++)<br/>        \\{<br/>            System.out.print(k + \" \");<br/>        \\}<br/>        System.out.println();<br/>    \\}<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A car dealership needs a program to store information about the cars for sale. For each car, they want to keep track of the following information: number of doors (2 or 4), whether the car has air conditioning, and its average number of miles per gallon. Which of the following is the best object-oriented program design?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Use one class, Car, with three instance variables:<br/><pre><code class=\"language-\">int numDoors, boolean hasAir, and<br/>double milesPerGallon.</code></pre></div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Use four unrelated classes: Car, Doors, AirConditioning, and MilesPerGallon.<br/>(c) Use a class Car with three subclasses: Doors, AirConditioning, and MilesPerGallon.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Use a class Car, with a subclass Doors, with a subclass AirConditioning, with a subclass MilesPerGallon.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Use three classes: Doors, AirConditioning, and MilesPerGallon, each with a subclass Car.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following declarations.<br/><pre><code class=\"language-\">public interface Shape<br/>{<br/>    int isLargerThan(Shape other);<br/>    // Other methods not shown<br/>}<br/>public class Circle implements Shape<br/>{<br/>    // Other methods not shown<br/>}</code></pre><br/><br/>Which of the following method headings of isLargerThan can be added to the declaration of the Circle class so that it will satisfy the Shape interface?<br/>I. public int isLargerThan(Shape other)<br/>II. public int isLargerThan(Circle other)<br/>III. public boolean isLargerThan(Object other)</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only<br/>(c) III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III<br/><br/>Questions 8-9 refer to the following incomplete class declaration.<br/><pre><code class=\"language-\">public class TimeRecord<br/>{<br/>    private int hours;<br/>    private int minutes; // 0 &lt; minutes &lt; 60<br/>    /** Constructs a TimeRecord object.<br/>        * @param h the number of hours<br/>        * Precondition: h \\ 0<br/>        * @param m the number of minutes<br/>        * Precondition: 0 x &lt; 60<br/>        */<br/>    public TimeRecord(int h, int m)<br/>    {<br/>            hours = h;<br/>            minutes = m;<br/>    }<br/>    /** @return the number of hours<br/>        */<br/>    public int getHours()<br/>    { /* implementation not shown */ }<br/>    /** @return the number of minutes<br/>        * Postcondition: 0 minutes &lt; 60<br/>        */<br/>    public int getMinutes()<br/>    { /* implementation not shown */ }<br/>    /** Adds h hours and m minutes to this TimeRecord.<br/>        * @param h the number of hours<br/>        * Precondition: h \\ 0<br/>        * @param m the number of minutes<br/>        * Precondition: m \\ 0<br/>        */<br/>    public void advance(int h, int m)<br/>    {<br/>            hours = hours + h;<br/>            minutes = minutes + m;<br/>            /* missing code */<br/>    }<br/>    // Other methods not shown<br/>}</code></pre></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following can be used to replace /* missing code */ so that advance will correctly update the time?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">minutes $=$ minutes % 60;</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">minutes $=$ minutes + hours % 60;<br/>(c) hours $=$ hours + minutes $/ 60$;<br/>minutes $=$ minutes % 60;</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">hours $=$ hours + minutes % 60;<br/>minutes $=$ minutes $/ 60$;</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">hours $=$ hours + minutes $/ 60$;</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following declaration that appears in a class other than TimeRecord.<br/><pre><code class=\"language-\">TimeRecord[] timeCards = new TimeRecord[100];</code></pre><br/><br/>Assume that timeCards has been initialized with TimeRecord objects. Consider the following code segment that is intended to compute the total of all the times stored in timeCards.<br/><pre><code class=\"language-\">TimeRecord total = new TimeRecord(0,0);<br/>for (int k = 0; k &lt; timeCards.length; k++)<br/>{<br/>    /* missing expression */ ;<br/>}</code></pre><br/><br/>Which of the following can be used to replace /* missing expression */ so that the code segment will work as intended?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">timeCards[k].advance()<br/>(в) total += timeCards[k].advance()<br/>(c) total.advance(timeCards[k].hours,<br/>    timeCards[k].minutes)<br/>(b) total.advance(timeCards[k].getHours(),<br/>    timeCards[k].getMinutes())</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">timeCards[k].advance(timeCards[k].getHours(),<br/>        timeCards[k].getMinutes())<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following instance variable and method.<br/><pre><code class=\"language-\">private int[] arr;<br/>/** Precondition: arr contains no duplicates;<br/>    the elements in arr are in ascending order.<br/>    @param low an int value such that 0 low \\leq arr.length<br/>    * @param high an int value such that low - 1 \\leq high &lt; arr.length<br/>    * @param num an int value<br/>    */<br/>public int mystery(int low, int high, int num)<br/>{<br/>    int mid = (low + high) / 2;<br/>    if (low &gt; high)<br/>    {<br/>        return low;<br/>    }<br/>    else if (arr[mid] &lt; num)<br/>    {<br/>        return mystery(mid + 1, high, num);<br/>    }<br/>    else if (arr[mid] &gt; num)<br/>    {<br/>        return mystery(low, mid - 1, num);<br/>    }<br/>    else // arr[mid] == num<br/>    {<br/>        return mid;<br/>    }<br/>}</code></pre><br/><br/>What is returned by the call mystery( 0 , arr.length -1 , num) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The number of elements in arr that are less than num</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The number of elements in arr that are less than or equal to num<br/>(c) The number of elements in arr that are equal to num</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The number of elements in arr that are greater than num</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The index of the middle element in arr</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The method findLongest does not work as intended. Which of the following best describes the value returned by a call to findLongest ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">It is the length of the shortest consecutive block of the value target in nums.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">It is the length of the array nums.<br/>(c) It is the number of occurrences of the value target in nums.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">It is the length of the first consecutive block of the value target in nums.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">It is the length of the last consecutive block of the value target in nums.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following changes should be made so that method findLongest will work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Insert the statement lenCount $=0$; between lines 2 and 3 .</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Insert the statement lenCount $=0$; between lines 8 and 9 .<br/>(c) Insert the statement lenCount $=0$; between lines 10 and 11 .</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Insert the statement lenCount $=0$; between lines 11 and 12 .</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Insert the statement lenCount $=0$; between lines 12 and 13 .</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following instance variable and method.<br/><pre><code class=\"language-\">private int[] numbers;<br/>/** Precondition: numbers contains int values in no particular order.<br/>    */<br/>public int mystery(int num)<br/>{<br/>    for (int k = numbers.length - 1; k &gt;= 0; k--)<br/>    {<br/>        if (numbers[k] &lt; num)<br/>        {<br/>            return k;<br/>        }<br/>    }<br/>    return -1;<br/>}</code></pre><br/><br/>Which of the following best describes the contents of numbers after the following statement has been executed?<br/><pre><code class=\"language-\">int m = mystery(n);</code></pre></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">All values in positions 0 through $m$ are less than $n$.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">All values in positions $m+1$ through numbers. length-1 are less than $n$.<br/>(c) All values in positions $m+1$ through numbers.length-1 are greater than or equal to n .</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The smallest value is at position m .</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The largest value that is smaller than $n$ is at position $m$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">/** @param x an int value such that x &gt;= 0<br/>    */<br/>public void mystery(int x)<br/>{<br/>        System.out.print(x % 10);<br/>        if ((x / 10) != 0)<br/>        {<br/>            mystery(x / 10);<br/>        }<br/>        System.out.print(x % 10);<br/>}</code></pre><br/><br/>Which of the following is printed as a result of the call mystery (1234) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">1234</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">4321<br/>(c) 12344321</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">43211234</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Many digits are printed due to infinite recursion.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following two classes.<br/><pre><code class=\"language-\">public class Dog<br/>{<br/>    public void act()<br/>    {<br/>        System.out.print(\"run \");<br/>        eat();<br/>    }<br/>    public void eat()<br/>    {<br/>        System.out.print(\"eat \");<br/>    }<br/>}<br/>public class UnderDog extends Dog<br/>{<br/>    public void act()<br/>    {<br/>        super.act();<br/>        System.out.print(\"sleep \");<br/>    }<br/>    public void eat()<br/>    {<br/>        super.eat();<br/>        System.out.print(\"bark \");<br/>    }<br/>}</code></pre><br/><br/>Assume that the following declaration appears in a class other than Dog.<br/><pre><code class=\"language-\">Dog fido = new UnderDog();</code></pre><br/><br/>What is printed as a result of the call fido.act() ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">run eat</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">run eat sleep<br/>(c) run eat sleep bark</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">run eat bark sleep</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed due to infinite recursion.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following recursive method.<br/><pre><code class=\"language-\">public static int mystery(int n)<br/>{<br/>    if (n &lt;= 1)<br/>    {<br/>        return 0;<br/>    }<br/>    else<br/>    {<br/>        return 1 + mystery(n / 2);<br/>    }<br/>}</code></pre><br/><br/>Assuming that $k$ is a nonnegative integer and $m=2^{k}$, what value is returned as a result of the call mystery $(m)$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$k$<br/>(c) $m$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$m{2}+1$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$k{2}+1$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following instance variable and method.<br/><pre><code class=\"language-\">private int[] array;<br/>/** Precondition: array.length &gt; 0<br/>    */<br/>public int checkArray()<br/>{<br/>        int loc = array.length / 2;<br/>        for (int k = 0; k &lt; array.length; k++)<br/>        {<br/>            if (array[k] &gt; array[loc])<br/>            {<br/>                loc = k;<br/>            }<br/>        }<br/>        return loc;<br/>}</code></pre><br/><br/>Which of the following is the best postcondition for checkArray ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Returns the index of the first element in array array whose value is greater than array [loc]</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Returns the index of the last element in array array whose value is greater than array[loc]<br/>(c) Returns the largest value in array array</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Returns the index of the largest value in array array</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Returns the index of the largest value in the second half of array array</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following methods.<br/><pre><code class=\"language-\">public void changer(String x, int y)<br/>{<br/>    x = x + \"peace\";<br/>    y = y * 2;<br/>}<br/>public void test()<br/>{<br/>    String s = \"world\";<br/>    int n = 6;<br/>    changer(s, n);<br/>    /* End of method */<br/>}</code></pre><br/><br/>When the call test() is executed, what are the values of $s$ and $n$ at the point indicated by /* End of method */ ?<br/><br/>{lr} <br/>& 1{c}{s} <br/></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">world & $<u>n</u>$ <br/></div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">worldpeace & 6 <br/></div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">world & 6 <br/></div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">worldpeace & 12 <br/></div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">peace & 12 <br/><br/>&</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int[][] mat = new int[3][4];<br/>for (int row = 0; row &lt; mat.length; row++)<br/>{<br/>    for (int col = 0; col &lt; mat[0].length; col++)<br/>    {<br/>        if (row &lt; col)<br/>        {<br/>            mat[row][col] = 1;<br/>        }<br/>        else if (row == col)<br/>        {<br/>            mat[row][col] = 2;<br/>        }<br/>        else<br/>        {<br/>            mat[row][col] = 3;<br/>        }<br/>    }<br/>}</code></pre><br/><br/>What are the contents of mat after the code segment has been executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\{\\{2,1,1\\}$,<br/><pre><code class=\"language-\">{3, 2, 1},<br/>{3, 3, 2},<br/>{3, 3, 3}}</code></pre></div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\{\\{2,3,3\\}$,<br/>\\{1, 2, 3\\},<br/>\\{1, 1, 2\\},<br/>\\{1, 1, 1\\}\\}<br/>(c) $\\{\\{2,3,3,3\\}$,<br/>$\\{1,2,3,3\\}$,<br/>\\{1, 1, 2, 3\\}\\}</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\{\\{2,1,1,1\\}$,<br/>\\{3, 2, 1, 1\\},<br/>\\{3, 3, 2, 1\\}\\}</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$\\{\\{1,1,1,1\\}$,<br/>\\{2, 2, 2, 2\\},<br/>\\{3, 3, 3, 3\\}\\}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">/** Precondition: arr contains only positive values.<br/>    */<br/>public static void doSome(int[] arr, int lim)<br/>{<br/>        int v = 0;<br/>        int k = 0;<br/>        while (k &lt; arr.length &amp;&amp; arr[k] &lt; lim)<br/>        {<br/>            if (arr[k] &gt; v)<br/>            {<br/>                v = arr[k]; /* Statement S */<br/>            }<br/>            k++; /* Statement T */<br/>        }<br/>}</code></pre><br/><br/>Assume that dosome is called and executes without error. Which of the following are possible combinations for the value of lim, the number of times Statement $S$ is executed, and the number of times Statement $T$ is executed?<br/><br/>{rccc} <br/>& {c} <br/>Value of <br/><br/>lim<br/> & {c} <br/>Executions of <br/><br/>Statement $S$<br/> & {c} <br/>Executions of <br/><br/>Statement $T$<br/> <br/><br/>I. & 5 & 0 & 5 <br/><br/>II. & 7 & 4 & 9 <br/><br/>III. & 3 & 5 & 2</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only<br/>(c) III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following instance variable, arr, and incomplete method, partialsum. The method is intended to return an integer array sum such that for all $k$, sum $[k]$ is equal to $arr[0]+arr[1]++arr[k]$. For instance, if arr contains the values $\\{1,4,1,3\\}$, the array sum will contain the values $\\{1,5,6,9\\}$.<br/><pre><code class=\"language-\">private int[] arr;<br/>public int[] partialSum()<br/>{<br/>    int[] sum = new int[arr.length];<br/>    for (int j = 0; j &lt; sum.length; j++)<br/>    {<br/>        sum[j] = 0;<br/>    }<br/>    /* missing code */<br/>    return sum;<br/>}</code></pre><br/><br/>The following two implementations of /* missing code */ are proposed so that partialsum will work as intended.<br/><br/><h3>Implementation 1</h3><br/><pre><code class=\"language-\">for (int j = 0; j &lt; arr.length; j++)<br/>{<br/>    sum[j] = sum[j - 1] + arr[j];<br/>}</code></pre><br/><br/><h3>Implementation 2</h3><br/><pre><code class=\"language-\">for (int j = 0; j &lt; arr.length; j++)<br/>{<br/>    for (int k = 0; k &lt;= j; k++)<br/>    {<br/>        sum[j] = sum[j] + arr[k];<br/>    }<br/>}</code></pre><br/><br/>Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Both implementations work as intended, but implementation 1 is faster than implementation 2 .</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Both implementations work as intended, but implementation 2 is faster than implementation 1 .<br/>(c) Both implementations work as intended and are equally fast.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Implementation 1 does not work as intended, because it will cause an ArrayIndexOutOfBoundsException.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Implementation 2 does not work as intended, because it will cause an ArrayIndexOutOfBoundsException.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following declaration for a class that will be used to represent points in the $x y$-coordinate plane.<br/><pre><code class=\"language-\">public class Point<br/>{<br/>    private int x; // x-coordinate of the point<br/>    private int y; // y-coordinate of the point<br/>    public Point()<br/>    {<br/>        x = 0;<br/>        y = 0;<br/>    }<br/>    public Point(int a, int b)<br/>    {<br/>        x = a;<br/>        y = b;<br/>    }<br/>    // Other methods not shown<br/>}</code></pre><br/><br/>The following incomplete class declaration is intended to extend the above class so that points can be named.<br/><pre><code class=\"language-\">public class NamedPoint extends Point<br/>{<br/>    private String name; // name of point<br/>    // Constructors go here<br/>    // Other methods not shown<br/>}</code></pre><br/><br/>Consider the following proposed constructors for this class.<br/><pre><code class=\"language-\">I.<br/>public NamedPoint()<br/>{<br/>    name = \"\";<br/>}<br/>II. public NamedPoint(int d1, int d2, String pointName)<br/>{<br/>    x = d1;<br/>    y = d2;<br/>    name = pointName;<br/>}<br/>III. public NamedPoint(int d1, int d2, String pointName)<br/>{<br/>    super(d1, d2);<br/>    name = pointName;<br/>}</code></pre><br/><br/>Which of these constructors would be legal for the NamedPoint class?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only<br/>(c) III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider a shuffle method that is intended to return a new array that contains all the elements from nums, but in a different order. Let n be the number of elements in nums. The shuffle method should alternate the elements from nums [0] … nums $[n / 2-1]$ with the elements from nums $[n / 2] $ nums [ $n-1$ ], as illustrated in the following examples.<br/><br/><h3>Example 1</h3><br/><br/>{|l|l|l|l|l|l|l|l|l|}<br/> [b]{2}{*}{nums} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 <br/><br/> & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 <br/><br/> [b]{2}{*}{result} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 <br/><br/> & 10 & 50 & 20 & 60 & 30 & 70 & 40 & 80 <br/><br/><br/><h3>Example 2</h3><br/><br/>nums $${c|c|c|c|c|c|c}<br/>1{c}{0} & 1{c}{1} & 1{c}{2} & 1{c}{3} & 1{c}{4} & 1{c}{5} & 6 <br/><br/> { 2 - 8 } & 10 & 20 & 30 & 40 & 50 & 60 <br/><br/><br/>result {c|c|c|c|c|c|c|}<br/> 1{c}{0} & 1{c}{1} & 1{c}{2} & 1{c}{3} & 1{c}{4} & 1{c}{5} & 6 <br/><br/> { 2 - 8 } & 10 & 40 & 20 & 50 & 30 & 60 <br/><br/><br/>The following implementation of the shuffle method does not work as intended.<br/><pre><code class=\"language-\">public static int[] shuffle(int[] nums)<br/>{<br/>    int n = nums.length;<br/>    int[] result = new int[n];<br/>    for (int j = 0; j &lt; n / 2; j++)<br/>    {<br/>        result[j * 2] = nums[j];<br/>        result[j * 2 + 1] = nums[j + n / 2];<br/>    }<br/>    return result;<br/>}</code></pre><br/><br/>Which of the following best describes the problem with the given implementation of the shuffle method?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Executing shuffle may cause an ArrayIndexOutOfBoundsException.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The first element of the returned array (result [0]) may not have the correct value.<br/>(c) The last element of the returned array (result [result.length - 1]) may not have the correct value.<br/>(d) One or more of nums [0] ... nums [nums.length / 2 - 1] may have been copied to the wrong position(s) in the returned array.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">One or more of nums [nums.length / 2] ... nums [nums.length - 1] may have been copied to the wrong position(s) in the returned array.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following Util class, which contains two methods. The completed sumid method returns the sum of all the elements of the 1-dimensional array a. The incomplete sum2D method is intended to return the sum of all the elements of the 2 -dimensional array m .<br/><pre><code class=\"language-\">public class Util<br/>{<br/>    /** Returns the sum of the elements of the 1-dimensional array a */<br/>    public static int sumlD(int[] a)<br/>    { /* implementation not shown */ }<br/>    /** Returns the sum of the elements of the 2-dimensional array m */<br/>    public static int sum2D(int[][] m)<br/>    {<br/>        int sum = 0;<br/>        /* missing code */<br/>        return sum;<br/>    }<br/>}</code></pre><br/><br/>Assume that sum1d works correctly. Which of the following can replace /* missing code */ so that the sum2D method works correctly?<br/><pre><code class=\"language-\">I. for (int k = 0; k &lt; m.length; k++)<br/>    {<br/>            sum += sum1D(m[k]);<br/>    }<br/>II. for (int[] row : m)<br/>    {<br/>            sum += sum1D(row);<br/>    }<br/>for (int[] row : m)<br/>{<br/>        for (int v : row)<br/>        {<br/>            sum += v;<br/>        }<br/>}</code></pre></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only<br/>(c) I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following sort method correctly sorts the integers in elements into ascending order.<br/><pre><code class=\"language-\">Line 1: public static void sort(int[] elements)<br/>Line 2: {<br/>Line 3: for (int j = 0; j &lt; elements.length - 1; j++)<br/>Line 4: {<br/>Line5. int index = j;<br/>Line 6:<br/>Line 7: for (int k = j + 1; k &lt; elements.length; k++)<br/>Line 8: {<br/>Line 9: if (elements[k] &lt; elements[index])<br/>Line 10: {<br/>Line 11: index = k;<br/>Line 12: }<br/>Line 13: }<br/>Line 14:<br/>Line 15: int temp = elements[j];<br/>Line 16: elements[j] = elements[index];<br/>Line 17: elements[index] = temp;<br/>Line 18: }<br/>Line 19: }</code></pre><br/><br/>Which of the following changes to the sort method would correctly sort the integers in elements into descending order?<br/>I. Replace line 9 with:<br/><br/>Line 9: if (elements[k] > elements[index])<br/>II. Replace lines 15-17 with:<br/><br/>Line 15: int temp = elements[index];<br/>Line 16: elements[index] = elements[j];<br/>Line 17: elements[j] = temp;<br/>III. Replace line 3 with:<br/><br/>Line 3: for (int j = elements.length - 1; j > 0; j--) and replace line 7 with:<br/>Line 7: for (int $k=0$; $k<j ; k++$ )</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only<br/>(c) I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    },
+    {
+      "id": "csa_1b5d268d-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_frq_0",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A travel agency maintains a list of information about airline flights. Flight information includes a departure time and an arrival time. You may assume that the two times occur on the same day. These times are represented by objects of the Time class.<br/><br/>The declaration for the Time class is shown below. It includes a method minutesUntil, which returns the difference (in minutes) between the current Time object and another Time object.<br/><pre><code class=\"language-\">public class Time<br/>{<br/>    /** @return difference, in minutes, between this time and other;<br/>        * difference is negative if other is earlier than this time<br/>        */<br/>    public int minutesUntil(Time other)<br/>    { /* implementation not shown */ }<br/>    // There may be instance variables, constructors, and methods that are not<br/>    // shown.<br/>}</code></pre><br/><br/>For example, assume that t1 and t2 are Time objects where t1 represents 1:00 P.M. and t2 represents 2:15 P.M. The call t1.minutesUntil(t2) will return 75 and the call t2.minutesUntil(t1) will return - 75 .<br/><br/>The declaration for the Flight class is shown below. It has methods to access the departure time and the arrival time of a flight. You may assume that the departure time of a flight is earlier than its arrival time.<br/><pre><code class=\"language-\">public class Flight<br/>{<br/>    /** @return time at which the flight departs<br/>        */<br/>    public Time getDepartureTime()<br/>    { /* implementation not shown */ }<br/>    /** @return time at which the flight arrives<br/>        */<br/>    public Time getArrivalTime()<br/>    { /* implementation not shown */ }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre><br/><br/>A trip consists of a sequence of flights and is represented by the Trip class. The Trip class contains a List of Flight objects that are stored in chronological order. You may assume that for each flight after the first flight in the list, the departure time of the flight is later than the arrival time of the preceding flight in the list. A partial declaration of the Trip class is shown below. You will write two methods for the Trip class.<br/><pre><code class=\"language-\">public class Trip<br/>{<br/>    /** The list of flights (if any) that make up this trip, stored in chronological<br/>            order */<br/>    private List&lt;Flight&gt; flights;<br/>    /** @return the number of minutes from the departure of the first flight to the<br/>        * arrival of the last flight if there are one or more flights in the trip;<br/>        * 0, if there are no flights in the trip<br/>        */<br/>    public int getDuration()<br/>    { /* to be implemented in part (a) */ }<br/>    /** Precondition: the departure time for each flight is later than the arrival<br/>        * time of its preceding flight<br/>        * @return the smallest number of minutes between the arrival of<br/>        * a flight and the departure of the flight immediately after it,<br/>        * if there are two or more flights in the trip;<br/>        * -1, if there are fewer than two flights in the trip<br/>        */<br/>    public int getShortestLayover()<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods that are not<br/>    // shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "omplete method getDuration below.<br/><pre><code class=\"language-\">/** @return the number of minutes from the departure of the first<br/>    * flight to the arrival of the last flight if there are one or<br/>    * more flights in the trip;<br/>    * 0, if there are no flights in the trip<br/>    */<br/>public int getDuration()</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the Trip method getShortestLayover. A layover is the number of minutes from the arrival of one flight in a trip to the departure of the flight immediately after it. If there are two or more flights in the trip, the method should return the shortest layover of the trip; otherwise, it should return -1 .<br/><br/>For example, assume that the instance variable flights of a Trip object vacation contains the following flight information.<br/>![](https://cdn.mathpix.com/cropped/048eb716-e718-4853-9616-c0b16e87bd30-29.jpg?height=485&width=747&top_left_y=1168&top_left_x=734)<br/><br/>The call vacation.getShortestLayover() should return 15.<br/><br/>Complete method getShortestLayover below.<br/><pre><code class=\"language-\">/** Precondition: the departure time for each flight is later than the arrival<br/>    * time of its preceding flight<br/>    * @return the smallest number of minutes between the arrival of a<br/>    * flight and the departure of the flight immediately after it, if<br/>    * there are two or more flights in the trip;<br/>    * -1, if there are fewer than two flights in the trip<br/>    */<br/>public int getShortestLayover()</code></pre>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following incomplete StringUtil class declaration. You will write implementations for the two methods listed in this class. Information about the Person class used in the replaceNameNickname method will be presented in part (b).<br/><pre><code class=\"language-\">public class StringUtil<br/>{<br/>        /** @param str a String with length &gt; 0<br/>            * @param oldstr a String<br/>            * @param newstr a String<br/>            * @return a new String in which all occurrences of the substring<br/>            * oldstr in str are replaced by the substring newstr<br/>            */<br/>        public static String apcsReplaceAll(String str,<br/>                        String oldStr,<br/>                        String newStr)<br/>        { /* to be implemented in part (a) */ }<br/>        /** @param str a String<br/>            * @param people a list of references to Person objects<br/>            * @return a copy of str modified so that each occurrence of a first<br/>            * name in people is replaced by the corresponding nickname<br/>            */<br/>        public static String replaceNameNickname(String str,<br/>                                List&lt;Person&gt;<br/>                                people)<br/>        { /* to be implemented in part (b) */ }<br/>        // There may be methods that are not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the StringUtil method apcsReplaceAll, which examines a given String and replaces all occurrences of a designated substring with another specified substring. In writing your solution, you may NOT use the replace, replaceAll, or replaceFirst methods in the Java String class.<br/>The following table shows several examples of the result of calling<br/><pre><code class=\"language-\">StringUtil.apcsReplaceAll(str, oldstr,0 newstr).</code></pre><br/><br/>{|l|l|l|l|l|}<br/> str & oldstr & newstr & String returned & Comment <br/><br/> \"to be or not to be\" & \"to\" & \"2\" & \"2 be or not 2 be\" & Each occurrence of \"to\" in the original string has been replaced by \"2\" <br/><br/> \"advanced calculus\" & \"math\" & \"science\" & \"advanced calculus\" & No change, because the string \"math\" was not in the original string <br/><br/> \"gogogo\" & \"go\" & \"gone\" & \"gonegonegone\" & Each occurrence of \"go\" in the original string has been replaced by \"gone\" <br/><br/> \"aaaaa\" & \"aaa\" & \"b\" & \"baa\" & The first occurrence of \"aaa\" in the original string has been replaced by \"b\" <br/><br/><br/>Complete method apcsReplaceAll below.<br/><pre><code class=\"language-\">/** @param str a String with length &gt; 0<br/>    * @param oldstr a String<br/>    * @param newstr a String<br/>    * @ return a new String in which all occurrences of the substring<br/>    * oldstr in str are replaced by the substring newstr<br/>    */<br/>public static String apcsReplaceAll(String str,<br/>        String oldStr,<br/>            String newStr)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "he following Person class contains information that includes a first (given) name and a nickname for the person.<br/><pre><code class=\"language-\">public class Person<br/>{<br/>    /** @return the first name of this Person */<br/>    public String getFirstName()<br/>    { /* implementation not shown */ }<br/>    /** @return the nickname of this Person */<br/>    public String getNickname()<br/>    { /* implementation not shown */ }<br/>    // There may be instance variables, constructors, and methods not shown.<br/>}</code></pre><br/><br/>Write the StringUtil method replaceNameNickname, which takes a string and a list of Person objects that contain first names and a corresponding nicknames. The method is to replace all names by their nicknames in the given string. The list of Person objects is processed in order from lowest index to highest index. In writing your solution, you may NOT use the replace, replaceAll, or replaceFirst methods in the Java String class.<br/><br/>For example, assume the following table represents the data contained in the list people.<br/><br/>{l|l|l|} <br/>& 1{l}{ getFirstName() } & getNickname() <br/><br/> { 2 - 3 } 0 & \"Henry\" & \"Hank\" <br/><br/> { 2 - 3 } 1 & \"Elizabeth\" & \"Liz\" <br/><br/> { 2 - 3 } 2 & \"John\" & \"Jack\" <br/><br/> { 2 - 3 } 3 & \"Margaret\" & \"Peggy\" <br/><br/> { 2 - 3 } & &<br/><br/>Assume also that string str represents the following string.<br/>\"After Henry drove Elizabeth to dinner in Johnson City, Henry paid for an appetizer and Elizabeth paid for dessert.\"<br/><br/>The call StringUtil.replaceNameNickname(str, people) should return the following string:<br/><pre><code class=\"language-\">\"After Hank drove Liz to dinner in Jackson City, Hank paid for<br/>an appetizer and Liz paid for dessert.\"</code></pre><br/><br/>In writing your solution, you must use the method apcsReplaceAll specified in the StringUtil class. Assume that apcsReplaceAll works as specified, regardless of what you wrote in part (a).<br/><br/>Complete method replaceNameNickname below.<br/>/** @param str a String<br/>* @param people a list of references to Person objects<br/>* @return a copy of str modified so that each occurrence of a first<br/>* name in people is replaced by the corresponding nickname<br/>*/<br/>public static String replaceNameNickname(String str, List<Person> people)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Consider the hierarchy of classes shown in the following diagram.<br/>![](https://cdn.mathpix.com/cropped/048eb716-e718-4853-9616-c0b16e87bd30-34.jpg?height=488&width=592&top_left_y=421&top_left_x=773)<br/><br/>Note that a Cat \"is-a\" Pet, a Dog \"is-a\" Pet, and a LoudDog \"is-a\" Dog.<br/><br/>The class Pet is specified as an abstract class as shown in the following declaration. Each Pet has a name that is specified when it is constructed.<br/><pre><code class=\"language-\">public abstract class Pet<br/>{<br/>    private String name;<br/>    public Pet(String petName)<br/>    { name = petName; }<br/>    public String getName()<br/>    { return name; }<br/>    public abstract String speak();<br/>}</code></pre><br/><br/>The subclass Dog has the partial class declaration shown below.<br/><pre><code class=\"language-\">public class Dog extends Pet<br/>{<br/>    public Dog(String petName)<br/>    { /* implementation not shown */ }<br/>    public String speak()<br/>    { /* implementation not shown */ }<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "iven the class hierarchy shown above, write a complete class declaration for the class Cat, including implementations of its constructor and method(s). The cat method speak returns \"meow\" when it is invoked."
+            },
+            {
+              "partSign": "b",
+              "partContent": "ssume that class Dog has been declared as shown at the beginning of the question. If the String dog-sound is returned by the Dog method speak, then the LoudDog method speak returns a String containing dog-sound repeated two times.<br/><br/>Given the class hierarchy shown previously, write a complete class declaration for the class LoudDog, including implementations of its constructor and method(s)."
+            },
+            {
+              "partSign": "c",
+              "partContent": "onsider the following partial declaration of class Kennel.<br/><pre><code class=\"language-\">public class Kennel<br/>{<br/>    private List&lt;Pet&gt; petList;</code></pre><br/><br/>    /** For every Pet in the kennel, prints the name followed by<br/>        * the result of a call to its speak method, one line per Pet.<br/>        */<br/>    public void allSpeak()<br/>    \\{ /* to be implemented in part (c) */ \\}<br/>    // There may be instance variables, constructors, and methods that are<br/>    // not shown.<br/>\\}<br/><br/>Write the Kennel method allspeak. For each Pet in the kennel, allspeak prints a line with the name of the Pet followed by the result of a call to its speak method.<br/><br/>In writing allSpeak, you may use any of the methods defined for any of the classes specified for this problem. Assume that these methods work as specified, regardless of what you wrote in parts (a) and (b).<br/><br/>Complete method allspeak below.<br/><pre><code class=\"language-\">/** For each Pet in the kennel, prints the name followed by<br/>    * the result of a call to its speak method, one line per Pet.<br/>    */<br/>public void allSpeak()</code></pre>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">This question involves manipulation of one-dimensional and two-dimensional arrays. In part (a), you will write a method to shift the elements of a onedimensional array. In parts (b) and (c), you will write methods to shift the elements of a two-dimensional array.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "onsider the following incomplete ArrayUtil class, which contains a static shiftArray method.<br/>public class ArrayUtil<br/>\\{<br/>/** Shifts each array element to the next higher index, discarding the<br/>* original last element, and inserts the new number at the front.<br/>* @param arr the array to manipulate<br/>* Precondition: arr.length > 0<br/>* @param num the new number to insert at the front of arr<br/>* Postcondition: The original elements of arr have been shifted to<br/>* the next higher index, and arr[0] == num.<br/>* The original element at the highest index has been<br/>* discarded.<br/>*/<br/>public static void shiftArray(int[] arr, int num)<br/>$\\{ / *$ to be implemented in part (a) */ \\}<br/>// There may be methods that are not shown.<br/>\\}<br/>Write the ArrayUtil method shiftArray. This method stores the integer num at the front of the array arr after shifting each of the original elements to the position with the next higher index. The element originally at the highest index is lost.<br/><br/>For example, if arr is the array $\\{11,12,13,14,15\\}$ and num is 27 , the call to shiftArray changes arr as shown below.<br/><br/>Before call<br/>arr:<br/><br/>{c|c|c|c|c}<br/>1{c}{0} & 1 & 2 & 3 & 4 <br/><br/> 11 & 12 & 13 & 14 & 15 <br/><br/><br/>After call<br/>arr:<br/><br/>{c|c|c|c|c|}<br/>1{c}{0} & 1 & 2 & 3 & 4 <br/><br/> 27 & 11 & 12 & 13 & 14 <br/><br/><br/>Complete method shiftArray below.<br/>/** Shifts each array element to the next higher index, discarding the<br/>* original last element, and inserts the new number at the front.<br/>* @param arr the array to manipulate<br/>* Precondition: arr.length > 0<br/>* @Param num the new number to insert at the front of arr<br/>* Postcondition: The original elements of arr have been shifted to<br/>* the next higher index, and arr[0] == num.<br/>* The original element at the highest index has been<br/>* discarded.<br/>*/<br/>public static void shiftArray(int[] arr, int num)"
+            },
+            {
+              "partSign": "b",
+              "partContent": "onsider the following incomplete NumberMatrix class, which represents a two-dimensional matrix of integers. Assume that the matrix contains at least one integer.<br/><pre><code class=\"language-\">public class NumberMatrix<br/>{<br/>    private int[][] matrix;<br/>    /** Constructs a number matrix. */<br/>    public NumberMatrix(int[][] m)<br/>    { matrix = m; }</code></pre><br/><br/>    /** Shifts each matrix element to the next position in row-major order<br/>        * and inserts the new number at the front. The last element in the last<br/>        * row is discarded.<br/>        * @param num the new number to insert at the front of matrix<br/>        * Postcondition: The original elements of matrix have been shifted to<br/>        * the next higher position in row-major order, and<br/>        * matrix[0][0] == num.<br/>        * The original last element in the last row is discarded.<br/>        */<br/>    public void shiftMatrix(int num)<br/>    $\\{/ *$ to be implemented in part (b) */ \\}<br/>    /** Rotates each matrix element to the next higher position in row-major<br/>        * order.<br/>        * Postcondition: The original elements of matrix have been shifted<br/>        * to the next higher position in row-major order, and<br/>        * matrix[0][0] == the original last element.<br/>        */<br/>    public void rotateMatrix()<br/>    $\\{/ *$ to be implemented in part (c) */ \\}<br/>    // There may be instance variables, constructors, and methods that are not<br/>    // shown.<br/>\\}<br/><br/>Write the NumberMatrix method shiftMatrix. This method stores a new value num into the two-dimensional array matrix after shifting the elements to the next higher position in row-major order. The element originally at the last position in row-major order is lost.<br/><br/>For example, if m 1 is a reference to a NumberMatrix object, then the call m1.shiftMatrix(48) will change the values in matrix as shown below.<br/><br/>{l|c|c|c|} <br/>& 3{c}{ Before call } <br/><br/>& 1{c}{0} & 1 & 1{c}{2} <br/><br/> { 2 - 4 } 0 & 13 & 14 & 15 <br/><br/> { 2 - 4 } 1 & 16 & 17 & 18 <br/><br/> { 2 - 4 } & 19 & 20 & 21 <br/><br/> { 2 - 4 } & 22 & 23 & 24 <br/><br/> { 2 - 4 } & & &<br/><br/>{l|c|c|c|} <br/>& 3{c}{ After call } <br/><br/>& 0 & 1 & 1{c}{2} <br/><br/> { 2 - 4 } 0 & 48 & 13 & 14 <br/><br/> { 2 - 4 } 1.15 & 16 & 17 <br/><br/> { 2 - 4 } 2 & 18 & 19 & 20 <br/><br/> { 2 - 4 } 3 & 21 & 22 & 23 <br/><br/> { 2 - 4 } & & &<br/><br/>In writing shiftMatrix, you must call the shiftArray method in part (a). Assume that shiftArray works correctly regardless of what you wrote in part (a).<br/><br/>Complete method shiftMatrix below.<br/>/** Shifts each matrix element to the next position in row-major order<br/>* and inserts the new number at the front. The last element in the last<br/>* row is discarded.<br/>* @param num the new number to insert at the front of matrix<br/>* Postcondition: The original elements of matrix have been shifted<br/>* to the next higher position in row-major order, and<br/>* matrix[0][0] == num.<br/>* The original last element in the last row is discarded.<br/>*/<br/>public void shiftMatrix(int num)"
+            },
+            {
+              "partSign": "c",
+              "partContent": "rite the NumberMatrix method rotateMatrix. This method rotates all the elements to the next position in row-major order. The element originally at the last position is stored in the first position of the matrix.<br/>In writing rotateMatrix, you must call the shiftMatrix method in part (b). Assume that shiftMatrix works correctly regardless of what you wrote in part (b).<br/>Complete method rotateMatrix below.<br/>/** Rotates each matrix element to the next higher position in row-major<br/>* order.<br/>* Postcondition: The original elements of matrix have been shifted to<br/>* the next higher position in row-major order, and<br/>* matrix[0][0] == the original last element.<br/>*/<br/>public void rotateMatrix()<br/><br/><h3>Suggested Solutions to Free-Response Questions</h3><br/><br/>Note: There are many correct variations of these solutions.<br/><br/><h3>Question 1</h3>"
+            },
+            {
+              "partSign": "a",
+              "partContent": "`<code>public int getDuration()<br/>{<br/>    if (flights.size() == 0)<br/>    {<br/>        return 0;<br/>    }<br/>    Time depart = flights.get(0).getDepartureTime();<br/>    Time arrive = flights.get(flights.size() - 1).getArrivalTime();<br/>    return depart.minutesUntil(arrive);<br/>}<br/><br/>(b)<br/>&lt;pre&gt;&lt;code class=\"language-\"&gt;&lt;/code&gt;&lt;/pre&gt;<br/>public int getShortestLayover()<br/>{<br/>    if (flights.size() &lt; 2)<br/>    {<br/>        return -1;<br/>    }<br/>    int shortest = getDuration();<br/>    for (int k = 1; k &lt; flights.size(); k++)<br/>    {<br/>        Flight flight1 = flights.get(k - 1);<br/>        Flight flight2 = flights.get(k);<br/>        Time arrive = flight1.getArrivalTime();<br/>        Time depart = flight2.getDepartureTime();<br/>        int layover = arrive.minutesUntil(depart);<br/>        if (layover &lt; shortest)<br/>        {<br/>            shortest = layover;<br/>        }<br/>    }<br/>    return shortest;<br/>}</code>``<br/><br/><h3>Question 2</h3>"
+            },
+            {
+              "partSign": "a",
+              "partContent": "terative version:<br/><pre><code class=\"language-\">public static String apcsReplaceAll(String str,<br/>            String oldStr,<br/>            String newStr)<br/>{<br/>    String firstPart = \"\";<br/>    String lastPart = str;<br/>    int pos = lastPart.indexOf(oldStr);<br/>    while (pos &gt;= 0)<br/>    {<br/>        firstPart += lastPart.substring(0, pos);<br/>        firstPart += newStr;<br/>        lastPart = lastPart.substring(pos + oldStr.length());<br/>        pos = lastPart.indexOf(oldStr);<br/>    }<br/>    return firstPart + lastPart;<br/>}</code></pre><br/><br/>Recursive version:<br/><pre><code class=\"language-\">public static String apcsReplaceAll(String str,<br/>            String oldStr,<br/>            String newStr)<br/>{<br/>    int pos = str.indexOf(oldStr);<br/>    if (pos &lt; 0)<br/>    {<br/>        return str;<br/>    }<br/>    else<br/>    {<br/>        String firstPart = str.substring(0, pos);<br/>        String restOfStr = str.substring(pos + oldStr.length());<br/>        String lastPart = apcsReplaceAll(restOfStr, oldStr, newStr);<br/>        return firstPart + newStr + lastPart;<br/>    }<br/>}</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "`<code>public static String replaceNameNickname(String str,<br/>            List&lt;Person&gt; people)<br/>{<br/>    for (Person p : people)<br/>    {<br/>        str = apcsReplaceAll(str, p.getFirstName(), p.getNickname());<br/>    }<br/>    return str;<br/>}</code>``<br/><br/><h3>Question 3</h3>"
+            },
+            {
+              "partSign": "a",
+              "partContent": "`<code>public class Cat extends Pet<br/>{<br/>    public Cat(String petName)<br/>    { super(petName); }<br/>    public String speak()<br/>    {<br/>        return \"meow\";<br/>    }<br/>}<br/>(b)<br/>public class LoudDog extends Dog<br/>{<br/>    public LoudDog(String petName)<br/>    { super(petName); }<br/>    public String speak()<br/>    {<br/>        return super.speak() + super.speak();<br/>    }<br/>}</code>``"
+            },
+            {
+              "partSign": "c",
+              "partContent": "`<code>public void allSpeak()<br/>{<br/>    for (Pet a : petList)<br/>    {<br/>        System.out.println(a.getName() + a.speak());<br/>    }<br/>}</code>``<br/><br/><h3>Question 4</h3>"
+            },
+            {
+              "partSign": "a",
+              "partContent": "`<code>public static void shiftArray(int[] arr, int num)<br/>{<br/>    for (int k = arr.length - 1; k &gt; 0; k--)<br/>    {<br/>        arr[k] = arr[k - 1];<br/>    }<br/>    arr[0] = num;<br/>}<br/>(b)<br/>public void shiftMatrix(int num)<br/>{<br/>    for (int[] row: matrix)<br/>    {<br/>        int temp = row[row.length - 1];<br/>        ArrayUtil.shiftArray(row, num);<br/>        num = temp;<br/>    }<br/>}<br/>(c)<br/>public void rotateMatrix()<br/>{<br/>    shiftMatrix(matrix[matrix.length - 1][matrix[0].length - 1]);<br/>}</code>``"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

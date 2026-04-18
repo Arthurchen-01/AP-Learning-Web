@@ -1,0 +1,1160 @@
+{
+  "examId": "1902622424219619328",
+  "title": "AP 物理C力学 2025年样题1",
+  "subjectName": "物理C力学",
+  "yearLabel": "",
+  "description": "AP AP 物理C力学 2025年样题1",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "35735",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the fourth quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled “x, in meters,” and the numbers 0.05 and 0.10, are indicated. The vertical axis is labeled “F sub x, in newtons.” The curve begins at the origin, moves downward and to the right, reaches its lowest point at an x position of 0.05 meter, and then moves upward and to the right and ends on the horizontal axis at an x position of 0.10 meter.\" src=\"https://assets.learnosity.com/organisations/578/VR781467.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A conservative net force <span class=\"math_expression\"><span aria-label=\"F sub x\"><math alttext=\"F sub x\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mi>x</mi></msub></math></span></span> is exerted on an object within a system. The force varies as a function of the position <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span> of the object, as shown in the graph. There are no net external forces exerted on the system. Which of the following correctly describes the potential energy <span class=\"math_expression\"><span aria-label=\"U sub system\"><math alttext=\"U sub system\" display=\"inline\" overflow=\"scroll\"><msub><mi>U</mi><mi>sys</mi></msub></math></span></span> of the system as the object moves from <span class=\"math_expression\"><span aria-label=\"0 meters\"><math alttext=\"0 meters\" display=\"inline\" overflow=\"scroll\"><mn>0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span> to <span class=\"math_expression\"><span aria-label=\"0.10 meter\"><math alttext=\"0.10 meter\" display=\"inline\" overflow=\"scroll\"><mn>0.10</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"U sub system\"><math alttext=\"U sub system\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>sys</mtext></msub></mstyle></math></span></span> increases only.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"U sub system\"><math alttext=\"U sub system\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>sys</mtext></msub></mstyle></math></span></span> decreases only.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"U sub system\"><math alttext=\"U sub system\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>sys</mtext></msub></mstyle></math></span></span> decreases and then increases.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"U sub system\"><math alttext=\"U sub system\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>sys</mtext></msub></mstyle></math></span></span> does not change.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35613",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a diagram of a block in 4 positions as it moves across a horizontal surface in the positive x direction. The 4 positions are labeled from t equals 0 to t equals 1.5 seconds in 0.5 second intervals. The distance traveled by the block increases by approximately double from one interval to the next.\" src=\"https://assets.learnosity.com/organisations/578/VR781468.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A constant force is exerted on a block, causing the block to move across a horizontal surface in the positive <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span>-direction. There is <span class=\"formatted_text text_decoration:underline\">nonnegligible</span> friction between the block and the horizontal surface. The diagram shows the position of the block at <span class=\"math_expression\"><span aria-label=\"0.5 second\"><math alttext=\"0.5 second\" display=\"inline\" overflow=\"scroll\"><mn>0.5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">s</mi></math></span></span> time intervals. Which of the following provides a velocity-time graph that could correspond to the diagram and provides correct reasoning?</p><div class=\"table_wrapper\"><table class=\"tgroup align:center cols:3 colsep:0 frame:none rowsep:0\"><col class=\"colspec colname:col1 colnum:1 colsep:1\"/><col class=\"colspec align:center colname:col2 colnum:2 colwidth:200\"/><col class=\"colspec align:left colname:col3 colnum:3 colwidth:310\"/><thead class=\"thead\"><tr class=\"row rowsep:1\"><th class=\"entry colname:col1\"></th><th class=\"entry colname:col2\">Velocity-Time Graph</th><th class=\"entry colname:col3\">Reasoning</th></tr></thead><tbody class=\"tbody valign:middle\"><tr class=\"row\"><td class=\"entry colname:col1\">A</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows a graph of a line in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins at the origin, moves up and to the right, and ends in the upper right part of the plane approximately equidistant from both axes.\" src=\"https://assets.learnosity.com/organisations/578/VR781468.g03.svg\"/></span></td><td class=\"entry colname:col3\">The distance traveled by the block during each half-second interval increases, so the velocity of the block must increase.</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">B</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows a graph of a line in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins at the origin, moves up and to the right, and ends in the upper right part of the plane approximately equidistant from both axes.\" src=\"https://assets.learnosity.com/organisations/578/VR781468.g05.svg\"/></span></td><td class=\"entry colname:col3\">The block is traveling in the positive <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span>-direction, so the velocity graph must have a positive slope.</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">C</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows a graph of a curve in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The curve begins at the origin and moves up and to the right, steeply at first and then more gradually. The curve ends in the upper right part of the plane approximately equidistant from both axes.\" src=\"https://assets.learnosity.com/organisations/578/VR781468.g07.svg\"/></span></td><td class=\"entry colname:col3\">The force of friction exerted on the block causes the acceleration of the block to decrease.</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">D</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows a graph of a curve in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled t, and the vertical axis is labeled v. The curve begins at the origin and moves up and to the right, steeply at first and then more gradually. The curve ends in the upper right part of the plane approximately equidistant from both axes.\" src=\"https://assets.learnosity.com/organisations/578/VR781468.g09.svg\"/></span></td><td class=\"entry colname:col3\">The block reaches a constant speed.</td></tr></tbody></table></div>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">A</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">B</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">C</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">D</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35770",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a graph of a line labeled A and a pair of line segments labeled B in the first quadrant of a coordinate plane with the origin labeled O. The horizontal axis is labeled “time, in seconds,” and the numbers 1 through 4, in increments of 1, are indicated. The vertical axis is labeled “omega, in radians per second,” and the numbers 1 through 5, in increments of 1, are indicated. Line A begins at the origin and moves up and to the right, ending at the point 4 comma 4. The first segment of Line B also begins at the origin, and it moves up and to the right, ending at the point 1 comma 2. The second line segment begins where the first one ends, moves horizontally to the right, intersects line A at the coordinates 2 comma 2, and ends at the point 4 comma 2.\" src=\"https://assets.learnosity.com/organisations/578/VR781469.g03.svg\"/></div></div></div><p class=\"stem_paragraph\">Two disks, <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, rotate for <span class=\"math_expression\"><span aria-label=\"4\"><math alttext=\"4\" display=\"inline\" overflow=\"scroll\"><mn>4</mn></math></span></span> seconds. Each of their angular velocities, <span class=\"math_expression\"><span aria-label=\"omega\"><math alttext=\"omega\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi></math></span></span>, are measured over time and graphed in the figure. Which of the following correctly compares the angular displacements <span class=\"math_expression\"><span aria-label=\"delta theta sub A\"><math alttext=\"delta theta sub A\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>A</mtext></msub></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"delta theta sub B\"><math alttext=\"delta theta sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>B</mtext></msub></mstyle></math></span></span> of disks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, respectively, during the period shown, and provides a correct reasoning?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"delta theta sub A equals delta theta sub B\"><math alttext=\"delta theta sub A equals delta theta sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>A</mtext></msub><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>B</mtext></msub></mstyle></math></span></span> because Disk <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> has a greater angular velocity at the end of the time interval shown.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"delta theta sub A equals delta theta sub B\"><math alttext=\"delta theta sub A equals delta theta sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>A</mtext></msub><mo>=</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>B</mtext></msub></mstyle></math></span></span> because neither curve has a decreasing slope.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"delta theta sub A does not equal delta theta sub B\"><math alttext=\"delta theta sub A does not equal delta theta sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>A</mtext></msub><mo>≠</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>B</mtext></msub></mstyle></math></span></span> because Disk <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> stops rotating after <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span> second.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"delta theta sub A does not equal delta theta sub B\"><math alttext=\"delta theta sub A does not equal delta theta sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>A</mtext></msub><mo>≠</mo><mi mathvariant=\"normal\">Δ</mi><msub><mi>θ</mi><mtext>B</mtext></msub></mstyle></math></span></span> because the area under Disk <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span>’s curve is greater than the area under Disk <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>’s curve.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35714",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows two blocks labeled X and Y on a horizontal surface that are connected by a string. Block Y is to the right of block X, and a force of 12 newtons is exerted on the right side of block Y.\" src=\"https://assets.learnosity.com/organisations/578/VR781470.g03.svg\"/></div></div></div><p class=\"stem_paragraph\">Block <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span> of mass <span class=\"math_expression\"><span aria-label=\"3.0 kilograms\"><math alttext=\"3.0 kilograms\" display=\"inline\" overflow=\"scroll\"><mn>3.0</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> and Block <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span> of mass <span class=\"math_expression\"><span aria-label=\"5.0 kilograms\"><math alttext=\"5.0 kilograms\" display=\"inline\" overflow=\"scroll\"><mn>5.0</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> are connected by a string and are on a level horizontal surface. There is negligible friction between the blocks and the surface. A force <span class=\"math_expression\"><span aria-label=\"F equals 12 newtons\"><math alttext=\"F equals 12 newtons\" display=\"inline\" overflow=\"scroll\"><mi>F</mi><mo>=</mo><mn>12</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span> is exerted on Block <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span>, as shown. What is the tension in the string connecting the two blocks?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1.5 newtons\"><math alttext=\"1.5 newtons\" display=\"inline\" overflow=\"scroll\"><mn>1.5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3.0 newtons\"><math alttext=\"3.0 newtons\" display=\"inline\" overflow=\"scroll\"><mn>3.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"4.5 newtons\"><math alttext=\"4.5 newtons\" display=\"inline\" overflow=\"scroll\"><mn>4.5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"7.5 newtons\"><math alttext=\"7.5 newtons\" display=\"inline\" overflow=\"scroll\"><mn>7.5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35746",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a diagram of 2 students, labeled 1 and 2, and a cart on a horizontal surface. Student 1 is standing on the cart and holding a stone in one hand while student 2 is standing at rest on the ground nearby. A coordinate system is shown with the positive x direction pointing horizontally to the right and the positive y direction pointing vertically upward. An arrow indicates that the cart is moving at a constant speed v in the positive x direction.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">Student <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span> is standing on a cart holding a small stone, while Student <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span> is standing at rest on the ground, as shown. The cart is moving at a constant speed <span class=\"math_expression\"><span aria-label=\"v\"><math alttext=\"v\" display=\"inline\" overflow=\"scroll\"><mi>v</mi></math></span></span> in the <span class=\"math_expression\"><span aria-label=\"positive x\"><math alttext=\"positive x\" display=\"inline\" overflow=\"scroll\"><mpadded><mo>+</mo><mi>x</mi></mpadded></math></span></span>-direction, as indicated by the coordinate system. Student <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span> drops the stone just as they pass Student <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span>. Which of the following best represents the path of the falling stone observed by Student <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span> and the path of the falling stone observed by Student <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span> ?</p><div class=\"table_wrapper\"><table class=\"tgroup align:center cols:3 colsep:0 frame:none rowsep:0\"><col class=\"colspec align:center colname:col1 colnum:1 colsep:1 colwidth:35\"/><col class=\"colspec align:center colname:col2 colnum:2 colwidth:220\"/><col class=\"colspec align:center colname:col3 colnum:3 colwidth:220\"/><thead class=\"thead\"><tr class=\"row rowsep:1\"><th class=\"entry colname:col1\"></th><th class=\"entry colname:col2\">Path Observed by Student <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span></th><th class=\"entry colname:col3\">Path Observed by Student <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span></th></tr></thead><tbody class=\"tbody valign:middle\"><tr class=\"row\"><td class=\"entry colname:col1\">A</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g03.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g05.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">B</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g07.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the left from the upper right part of the plane toward the origin.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g09.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">C</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g11.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the right from the upper left part of the plane toward the right end of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g13.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">D</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow curves downward and to the left from the upper right part of the plane toward the origin.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g15.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of an arrow in the first quadrant of a coordinate plane. The horizontal axis is labeled x and the vertical axis is labeled y. The arrow points straight down from the upper part of the plane toward the middle of the x axis.\" src=\"https://assets.learnosity.com/organisations/578/VR781471.g17.svg\"/></span></td></tr></tbody></table></div>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">A</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">B</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">C</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">D</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35732",
+          "type": "single",
+          "prompt": "<div class=\"featureContent\"><html><body><div class=\"stimulus_reference\" xmlns=\"http://www.imsglobal.org/xsd/apip/apipv1p0/qtiitem/imsqti_v2p2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><div class=\"passage\"><div class=\"prose style:1\"><div class=\"standalone_image\"><img alt=\"The figure shows a pendulum which consists of a rod of mass m attached to a block of mass 2 m. The rod is attached to the ceiling by a pivot, and makes an angle of theta with the vertical. The distance from the pivot to the center of the block is l.\" src=\"https://assets.learnosity.com/organisations/578/VR781548.g02.svg\"/></div><p class=\"passage_para\">A physical pendulum is constructed of a small block of mass <span class=\"math_expression\"><span aria-label=\"2 m\"><math alttext=\"2 m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>m</mi></math></span></span> attached to the end of a uniform rod of length <span class=\"math_expression\"><span aria-label=\"l\"><math alttext=\"l\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>ℓ</mo></math></span></span> and mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math></span></span>. The rotational inertia of the rod about its end is <span class=\"math_expression\"><span aria-label=\"one third , times m , script l squared\"><math alttext=\"one third , times m , script l squared\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mpadded><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>m</mi><msup><mo>ℓ</mo><mn>2</mn></msup></mpadded></mstyle></math></span></span>. The rod is pulled back a small angle <span class=\"math_expression\"><span aria-label=\"theta\"><math alttext=\"theta\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>θ</mi></math></span></span> and released at time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>, as shown. The rod is vertical at time <span class=\"math_expression\"><span aria-label=\"t sub v\"><math alttext=\"t sub v\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub></mstyle></math></span></span>.</p></div></div></div></body></html></div><div><include href=\"../Passage/VR781548.qti.xml\" xmlns:xi=\"http://www.w3.org/2001/XInclude\"></include></div><p class=\"stem_paragraph\">Which of the following is a correct expression for <span class=\"math_expression\"><span aria-label=\"t sub v\"><math alttext=\"t sub v\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub></mstyle></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"t sub v equals the fraction pi over 2, end fraction, times the square root of the fraction 2 l over 15 g, end fraction\"><math alttext=\"t sub v equals the fraction pi over 2, end fraction, times the square root of the fraction 2 l over 15 g, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msqrt><mfrac><mrow><mn>2</mn><mo>ℓ</mo></mrow><mrow><mn>15</mn><mi>g</mi></mrow></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction 14 l over 15 g, end fraction\"><math alttext=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction 14 l over 15 g, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msqrt><mfrac><mrow><mn>14</mn><mo>ℓ</mo></mrow><mrow><mn>15</mn><mi>g</mi></mrow></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction l over g, end fraction\"><math alttext=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction l over g, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msqrt><mfrac><mo>ℓ</mo><mi>g</mi></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction 14 l over 5 g, end fraction\"><math alttext=\"t sub v equals, the fraction pi over 2, end fraction, times the square root of the fraction 14 l over 5 g, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub><mo>=</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><msqrt><mfrac><mrow><mn>14</mn><mo>ℓ</mo></mrow><mrow><mn>5</mn><mi>g</mi></mrow></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35731",
+          "type": "single",
+          "prompt": "<div class=\"featureContent\"><html><body><div class=\"stimulus_reference\" xmlns=\"http://www.imsglobal.org/xsd/apip/apipv1p0/qtiitem/imsqti_v2p2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><div class=\"passage\"><div class=\"prose style:1\"><div class=\"standalone_image\"><img alt=\"The figure shows a pendulum which consists of a rod of mass m attached to a block of mass 2 m. The rod is attached to the ceiling by a pivot, and makes an angle of theta with the vertical. The distance from the pivot to the center of the block is l.\" src=\"https://assets.learnosity.com/organisations/578/VR781548.g02.svg\"/></div><p class=\"passage_para\">A physical pendulum is constructed of a small block of mass <span class=\"math_expression\"><span aria-label=\"2 m\"><math alttext=\"2 m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>m</mi></math></span></span> attached to the end of a uniform rod of length <span class=\"math_expression\"><span aria-label=\"l\"><math alttext=\"l\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>ℓ</mo></math></span></span> and mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math></span></span>. The rotational inertia of the rod about its end is <span class=\"math_expression\"><span aria-label=\"one third , times m , script l squared\"><math alttext=\"one third , times m , script l squared\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><mpadded><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>m</mi><msup><mo>ℓ</mo><mn>2</mn></msup></mpadded></mstyle></math></span></span>. The rod is pulled back a small angle <span class=\"math_expression\"><span aria-label=\"theta\"><math alttext=\"theta\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>θ</mi></math></span></span> and released at time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>, as shown. The rod is vertical at time <span class=\"math_expression\"><span aria-label=\"t sub v\"><math alttext=\"t sub v\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mstyle displaystyle=\"true\"><msub><mi>t</mi><mtext>v</mtext></msub></mstyle></math></span></span>.</p></div></div></div></body></html></div><div><include href=\"../Passage/VR781548.qti.xml\" xmlns:xi=\"http://www.w3.org/2001/XInclude\"></include></div><p class=\"stem_paragraph\">Which of the following correctly justifies why the motion can be called simple harmonic motion?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The torque is directly proportional to the sine of the angle that the pendulum makes with the vertical, regardless of how large the angle is.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The pendulum is released at a small angle, so the torque is directly proportional to the angle that the pendulum makes with the vertical.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The torque is directly proportional to how far the end of the pendulum is from its equilibrium position, regardless of how far from equilibrium it is.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The torque is directly proportional to the length of the pendulum.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35768",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a sphere of mass m attached to the right end of a rigid rod of length l, which is oriented horizontally. The rod is free to rotate about a pivot at its left end.\" src=\"https://assets.learnosity.com/organisations/578/VR781560.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A small sphere of mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> is attached at the right end of a rigid rod of length <span class=\"math_expression\"><span aria-label=\"l\"><math alttext=\"l\" display=\"inline\" overflow=\"scroll\"><mo>ℓ</mo></math></span></span>. The mass of the rod is negligible compared to <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span>. The rod is free to rotate about a pivot at its left end, as shown. The rod-sphere system has rotational inertia <span class=\"math_expression\"><span aria-label=\"I\"><math alttext=\"I\" display=\"inline\" overflow=\"scroll\"><mi>I</mi></math></span></span> about the pivot. By what factor should the length of the rod be increased to increase the rotational inertia of the rod-sphere system to <span class=\"math_expression\"><span aria-label=\"2 I\"><math alttext=\"2 I\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>I</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half\"><math alttext=\"one half\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction 1 over the square root to 2, end fraction\"><math alttext=\"the fraction 1 over the square root to 2, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the square root of 2\"><math alttext=\"the square root of 2\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msqrt><mn>2</mn></msqrt></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>2</mn></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35682",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows three spheres labeled X, Y, and Z in a row from left to right. Spheres X and Y each have a mass of m and Sphere Y is a distance r to the right of Sphere X. Sphere Z has a mass of 2 m and is a distance 2 r to the right of Sphere Y.\" src=\"https://assets.learnosity.com/organisations/578/VR781562.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">Spheres <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span>, <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"Z\"><math alttext=\"Z\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Z</mi></math></span></span> have the masses and locations indicated in the figure. What is the magnitude of the net gravitational force on Sphere <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span> due to the other two spheres?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 2 G times m squared, and denominator 9 times r squared\"><math alttext=\"the fraction with numerator 2 G times m squared, and denominator 9 times r squared\" display=\"inline\" overflow=\"scroll\"><mfrac><mrow><mn>2</mn><mi>G</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><mrow><mn>9</mn><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator G times m squared, and denominator r squared\"><math alttext=\"the fraction with numerator G times m squared, and denominator r squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mi>G</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 11 G times m squared, and denominator 9 times r squared\"><math alttext=\"the fraction with numerator 11 G times m squared, and denominator 9 times r squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mn>11</mn><mi>G</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><mrow><mn>9</mn><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 3 G times m squared, and denominator 2 times r squared\"><math alttext=\"the fraction with numerator 3 G times m squared, and denominator 2 times r squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mn>3</mn><mi>G</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35696",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows two stones labeled A and B. The stones are at the same height above the ground with stone B a short distance to the right of stone A. At the moment shown, Stone A is moving down and Stone B is moving to the right.\" src=\"https://assets.learnosity.com/organisations/578/VR781563.g03.svg\"/></div></div></div><p class=\"stem_paragraph\">Two stones are thrown from the same height and with the same initial speed. Stone <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> is thrown vertically downward, and Stone <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is thrown horizontally, as shown. If the stones are thrown at the same time and air resistance is negligible, which of the following is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The two stones reach the ground at the same time with the same speed.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The two stones reach the ground at the same time but with different speeds.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Stone <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> reaches the ground first, but the two stones have the same speed just before they hit the ground.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Stone <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> reaches the ground first and has greater speed just before hitting the ground.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35679",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows 4 satellites, labeled A through D, in circular orbits about 2 planets, labeled X and Y. Satellite A orbits a distance R from the center of Planet X. Satellites B and C each orbit a distance 2 R from the center of Planet X, and they are on opposite sides of the planet. Satellite D orbits a distance 2 R from the center of the Planet Y.\" src=\"https://assets.learnosity.com/organisations/578/VR781564.g05.svg\"/></div></div></div><p class=\"stem_paragraph\">Four satellites <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span>, <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"D\"><math alttext=\"D\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">D</mi></math></span></span> have circular orbits about Planets <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span>, as shown. Planet <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span> has twice the mass of Planet <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span>. Satellite <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> has mass <span class=\"math_expression\"><span aria-label=\"lowercase m\"><math alttext=\"lowercase m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> and orbits a distance <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" display=\"inline\" overflow=\"scroll\"><mi>R</mi></math></span></span> from the center of Planet <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span>. Satellites <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> have masses <span class=\"math_expression\"><span aria-label=\"lowercase m\"><math alttext=\"lowercase m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"2 lowercase m\"><math alttext=\"2 lowercase m\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>m</mi></math></span></span>, respectively, and orbit a distance <span class=\"math_expression\"><span aria-label=\"2 R\"><math alttext=\"2 R\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>R</mi></math></span></span> from the center of Planet <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">X</mi></math></span></span>. Satellite <span class=\"math_expression\"><span aria-label=\"D\"><math alttext=\"D\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">D</mi></math></span></span> has mass <span class=\"math_expression\"><span aria-label=\"lowercase m\"><math alttext=\"lowercase m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> and orbits Planet <span class=\"math_expression\"><span aria-label=\"Y\"><math alttext=\"Y\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">Y</mi></math></span></span> in a distance <span class=\"math_expression\"><span aria-label=\"2 R\"><math alttext=\"2 R\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>R</mi></math></span></span> from the center of the Planet <span class=\"math_expression\"><span aria-label=\"X\"><math alttext=\"X\" display=\"inline\" overflow=\"scroll\"><mtext>X</mtext></math></span></span>. Which of the following correctly ranks the orbital periods <span class=\"math_expression\"><span aria-label=\"T sub A\"><math alttext=\"T sub A\" display=\"inline\" overflow=\"scroll\"><msub><mi>T</mi><mtext mathvariant=\"italic\">A</mtext></msub></math></span></span>, <span class=\"math_expression\"><span aria-label=\"T sub B\"><math alttext=\"T sub B\" display=\"inline\" overflow=\"scroll\"><msub><mi>T</mi><mi>B</mi></msub></math></span></span>, <span class=\"math_expression\"><span aria-label=\"T sub C\"><math alttext=\"T sub C\" display=\"inline\" overflow=\"scroll\"><msub><mi>T</mi><mi>C</mi></msub></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"T sub D\"><math alttext=\"T sub D\" display=\"inline\" overflow=\"scroll\"><msub><mi>T</mi><mi>D</mi></msub></math></span></span> of satellites <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span>, <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"D\"><math alttext=\"D\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">D</mi></math></span></span>, respectively, from least to greatest?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"T sub A is less than T sub D, which is less than, open parenthesis, T sub B equals T sub C, close parenthesis\"><math alttext=\"T sub A is less than T sub D, which is less than, open parenthesis, T sub B equals T sub C, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>T</mi><mi>A</mi></msub><mo>&lt;</mo><msub><mi>T</mi><mi>D</mi></msub><mo>&lt;</mo><mo stretchy=\"false\">(</mo><msub><mi>T</mi><mi>B</mi></msub><mo>=</mo><msub><mi>T</mi><mi>C</mi></msub><mo stretchy=\"false\">)</mo></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"T sub A is less than, open parenthesis, T sub B equals T sub C, which equals T sub D, close parenthesis\"><math alttext=\"T sub A is less than, open parenthesis, T sub B equals T sub C, which equals T sub D, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>T</mi><mi>A</mi></msub><mo>&lt;</mo><mrow><mo>(</mo><msub><mi>T</mi><mi>B</mi></msub><mo>=</mo><msub><mi>T</mi><mi>C</mi></msub><mo>=</mo><msub><mi>T</mi><mi>D</mi></msub><mo>)</mo></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"T sub D is less than T sub A, which is less than, open parenthesis, T sub B equals T sub C, close parenthesis\"><math alttext=\"T sub D is less than T sub A, which is less than, open parenthesis, T sub B equals T sub C, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>T</mi><mi>D</mi></msub><mo>&lt;</mo><msub><mi>T</mi><mi>A</mi></msub><mo>&lt;</mo><mo stretchy=\"false\">(</mo><msub><mi>T</mi><mi>B</mi></msub><mo>=</mo><msub><mi>T</mi><mi>C</mi></msub><mo stretchy=\"false\">)</mo></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"T sub D is less than T sub A, which is less than, T sub B, which is less than T sub C\"><math alttext=\"T sub D is less than T sub A, which is less than, T sub B, which is less than T sub C\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>T</mi><mi>D</mi></msub><mo>&lt;</mo><msub><mi>T</mi><mi>A</mi></msub><mo>&lt;</mo><msub><mi>T</mi><mi>B</mi></msub><mo>&lt;</mo><msub><mi>T</mi><mi>C</mi></msub></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35651",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows 2 carts labeled A and B on a horizontal track. Cart A has a mass of 2 m and is moving at speed v to the right toward cart B, which has a mass of m and is at rest.\" src=\"https://assets.learnosity.com/organisations/578/VR781566.g03.svg\"/></div></div></div><p class=\"stem_paragraph\">Cart <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> of mass <span class=\"math_expression\"><span aria-label=\"2 m\"><math alttext=\"2 m\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>m</mi></math></span></span> is moving with constant speed <span class=\"math_expression\"><span aria-label=\"v\"><math alttext=\"v\" display=\"inline\" overflow=\"scroll\"><mi>v</mi></math></span></span> to the right on a horizontal track. Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> of mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> is initially at rest, as shown. The carts collide elastically. Which of the following best describes the motion of the carts immediately after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Cart <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> is moving to the left and Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is moving to the right.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Cart <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> is stationary and Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is moving to the right.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Both carts are moving to the right at the same speed.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Both carts are moving to the right, but they travel at different speeds.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35728",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a spring that is attached to a wall on its left end and is attached to a block of mass m on its right end. The block is on a horizontal surface and is moving to the right with speed v equals v sub 0. Points x equals 0, x equals x sub 0, and x equals 2 times x sub 0 are evenly spaced on the horizontal surface. At the moment shown, the block is at the point x equals x sub 0. The point x equals 0 is labeled “Equilibrium.”\" src=\"https://assets.learnosity.com/organisations/578/VR781567.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A block of mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> is attached to one end of a spring with the other end of the spring attached to a wall. The block slides with negligible friction on a horizontal surface, as shown. When the block is at position <span class=\"math_expression\"><span aria-label=\"x equals x sub 0\"><math alttext=\"x equals x sub 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub></math></span></span>, the block has speed <span class=\"math_expression\"><span aria-label=\"v equals v sub 0\"><math alttext=\"v equals v sub 0\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><msub><mi>v</mi><mn>0</mn></msub></math></span></span> and the total energy of the block-spring system is <span class=\"math_expression\"><span aria-label=\"E sub 0\"><math alttext=\"E sub 0\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mn>0</mn></msub></math></span></span>. When the block reaches position <span class=\"math_expression\"><span aria-label=\"x equals 2 x sub 0\"><math alttext=\"x equals 2 x sub 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mn>2</mn><msub><mi>x</mi><mn>0</mn></msub></math></span></span>, the block momentarily comes to rest. Which of the following correctly represents the total energy of the block-spring system when the block reaches position <span class=\"math_expression\"><span aria-label=\"x equals 2 x sub 0\"><math alttext=\"x equals 2 x sub 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mn>2</mn><msub><mi>x</mi><mn>0</mn></msub></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0\"><math alttext=\"0\" display=\"inline\" overflow=\"scroll\"><mn>0</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"E sub 0\"><math alttext=\"E sub 0\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mn>0</mn></msub></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times E sub 0\"><math alttext=\"2 times E sub 0\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><msub><mi>E</mi><mn>0</mn></msub></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"4 times E sub 0\"><math alttext=\"4 times E sub 0\" display=\"inline\" overflow=\"scroll\"><mn>4</mn><msub><mi>E</mi><mn>0</mn></msub></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35615",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An object is moving along the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mi>y</mi></math></span></span>-axis. The object’s position as a function of time is given by <span class=\"math_expression\"><span aria-label=\"y equals, alpha times t cubed minus beta t plus phi\"><math alttext=\"y equals, alpha times t cubed minus beta t plus phi\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>y</mi><mo>=</mo><mi>α</mi><msup><mi>t</mi><mn>3</mn></msup><mo>−</mo><mi>β</mi><mi>t</mi><mo>+</mo><mi>ϕ</mi></mstyle></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"alpha equals 1 meter per second cubed\"><math alttext=\"alpha equals 1 meter per second cubed\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>α</mi><mo>=</mo><mn>1</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>3</mn></msup></mstyle></math></span></span>, <span class=\"math_expression\"><span aria-label=\"beta equals 4 meters per second\"><math alttext=\"beta equals 4 meters per second\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>β</mi><mo>=</mo><mn>4</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></mstyle></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"phi equals 5 meters\"><math alttext=\"phi equals 5 meters\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>ϕ</mi><mo>=</mo><mn>5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></mstyle></math></span></span>. What is the acceleration of the object at time <span class=\"math_expression\"><span aria-label=\"t equals 3.0 seconds\"><math alttext=\"t equals 3.0 seconds\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>3.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">s</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"6 meters per second squared\"><math alttext=\"6 meters per second squared\" display=\"inline\" overflow=\"scroll\"><mn>6</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>2</mn></msup></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"18 meters per second squared\"><math alttext=\"18 meters per second squared\" display=\"inline\" overflow=\"scroll\"><mn>18</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>2</mn></msup></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"20 meters per second squared\"><math alttext=\"20 meters per second squared\" display=\"inline\" overflow=\"scroll\"><mn>20</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>2</mn></msup></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"23 meters per second squared\"><math alttext=\"23 meters per second squared\" display=\"inline\" overflow=\"scroll\"><mn>23</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>2</mn></msup></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35734",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a spring that is fixed to a wall at its right end and has a bumper on its left end. The positive x-direction is to the right, and the bumper is shown at position x equals 0.\" src=\"https://assets.learnosity.com/organisations/578/VR781572.g02.svg\"/></div></div></div><p class=\"stem_paragraph\">A nonideal spring is fixed to a wall. A small bumper on the end of the spring is initially at position <span class=\"math_expression\"><span aria-label=\"x equals 0\"><math alttext=\"x equals 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span> when the spring is at its equilibrium length, as shown. When the spring is compressed a distance <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span> from equilibrium, the elastic potential energy <span class=\"math_expression\"><span aria-label=\"U sub s\"><math alttext=\"U sub s\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>s</mtext></msub></mstyle></math></span></span> of the spring in joules is given by <span class=\"math_expression\"><span aria-label=\"U sub s equals, 3 times x cubed minus 4 times x squared, plus 2 x\"><math alttext=\"U sub s equals, 3 times x cubed minus 4 times x squared, plus 2 x\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>U</mi><mtext>s</mtext></msub><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi></mstyle></math></span></span>. What is the spring force <span class=\"math_expression\"><span aria-label=\"F sub s\"><math alttext=\"F sub s\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>F</mi><mtext>s</mtext></msub></mstyle></math></span></span> as a function of <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub s equals, 9 times x squared minus 8 x, plus 2\"><math alttext=\"F sub s equals, 9 times x squared minus 8 x, plus 2\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mtext>s</mtext></msub><mo>=</mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>x</mi><mo>+</mo><mn>2</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub s equals, negative 9 times x squared plus 8 x, minus 2\"><math alttext=\"F sub s equals, negative 9 times x squared plus 8 x, minus 2\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mtext>s</mtext></msub><mo>=</mo><mo>−</mo><mn>9</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mo>−</mo><mn>2</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub s equals, three fourths times x to the fourth power, minus four thirds times x cubed, plus x squared\"><math alttext=\"F sub s equals, three fourths times x to the fourth power, minus four thirds times x cubed, plus x squared\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mtext>s</mtext></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>4</mn></msup><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub s equals, negative three fourths times x to the fourth power, plus four thirds times x cubed, minus x squared\"><math alttext=\"F sub s equals, negative three fourths times x to the fourth power, plus four thirds times x cubed, minus x squared\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mtext>s</mtext></msub><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35681",
+          "type": "single",
+          "prompt": "<div> <div class=\"stimulus_reference\"> <div class=\"standalone_image\"><img alt=\"The figure shows a spherical asteroid with radius R. A narrow hole is drilled from the top of the asteroid to the center of the asteroid. An object is shown in the hole at a distance of, the fraction R over 3, from the center of the asteroid.\" height=\"270\" src=\"https://assets.learnosity.com/organisations/578/VR781573.g01.svg\" width=\"275\" /></div> </div> </div> <p class=\"stem_paragraph\">A narrow hole is drilled from the surface of a spherical asteroid to its center. The asteroid has a mass <span class=\"math_expression\"><span aria-label=\"M\" role=\"math\"><math alttext=\"M\" overflow=\"scroll\"><mi>M</mi></math></span></span> and radius <span class=\"math_expression\"><span aria-label=\"R\" role=\"math\"><math alttext=\"R\" overflow=\"scroll\"><mi>R</mi></math></span></span>. A small object is dropped into the hole. What is the acceleration of the object when it reaches a distance <span class=\"math_expression\"><span aria-label=\"R over 3\" role=\"math\"><math alttext=\"R over 3\" overflow=\"scroll\"><mfrac><mi>R</mi><mn>3</mn></mfrac></math></span></span> from the center of the asteroid?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one ninth, times the fraction G M over R squared, end fraction\"><math alttext=\"one ninth, times the fraction G M over R squared, end fraction\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>9</mn></mfrac><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one third, times the fraction G M over R squared, end fraction\"><math alttext=\"one third, times the fraction G M over R squared, end fraction\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3 times the fraction G M over R squared, end fraction\"><math alttext=\"3 times the fraction G M over R squared, end fraction\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>3</mn><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"9 times the fraction G M over R squared, end fraction\"><math alttext=\"9 times the fraction G M over R squared, end fraction\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>9</mn><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35769",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a sphere at the top of a ramp.\" src=\"https://assets.learnosity.com/organisations/578/VR781574.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A sphere is held at rest at the top of a ramp, as shown. The sphere is released and rolls without slipping down the ramp. The gravitational potential energy of the sphere-Earth system is zero at the bottom of the ramp. Which of the following is true of the sphere when it reaches the bottom of the ramp?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The sphere’s rotational kinetic energy equals the initial potential energy of the sphere-Earth system.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The sphere’s translational kinetic energy equals the initial potential energy of the sphere-Earth system.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The sphere’s translational kinetic energy and rotational kinetic energy are equal.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The sum of the sphere’s translational kinetic energy and rotational kinetic energy equals the initial potential energy of the sphere-Earth system.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35767",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a board suspended horizontally by two vertical strings attached to the ceiling. String A is attached the left end of the board, and string B is attached to the right end of the board. The board has length L and mass M. A block of mass 2 M is on the board to the right of center at a distance x from the left end of the board.\" src=\"https://assets.learnosity.com/organisations/578/VR781576.g03.svg\"/></div></div></div><p class=\"stem_paragraph\">A board of length <span class=\"math_expression\"><span aria-label=\"L\"><math alttext=\"L\" display=\"inline\" overflow=\"scroll\"><mi>L</mi></math></span></span> and mass <span class=\"math_expression\"><span aria-label=\"M\"><math alttext=\"M\" display=\"inline\" overflow=\"scroll\"><mi>M</mi></math></span></span> is horizontally suspended from strings <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> which are attached to the left and right ends of the board, respectively. A small block of mass <span class=\"math_expression\"><span aria-label=\"2 M\"><math alttext=\"2 M\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>M</mi></math></span></span> is attached to the board a distance <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span> from the left end of the board, as shown. At time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>, String <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is cut. What is the angular acceleration of the board immediately after <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>? The rotational inertia of the board rotating about its edge is <span class=\"math_expression\"><span aria-label=\"one third, M L squared\"><math alttext=\"one third, M L squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>M</mi><msup><mi>L</mi><mn>2</mn></msup></mstyle></math></span></span>.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"three halves, times g over L\"><math alttext=\"three halves, times g over L\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mfrac><mi>g</mi><mi>L</mi></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator g, times open parenthesis, L plus 2 x, close parenthesis, and denominator one third times L squared, plus 2 x squared, end fraction\"><math alttext=\"the fraction with numerator g, times open parenthesis, L plus 2 x, close parenthesis, and denominator one third times L squared, plus 2 x squared, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mi>g</mi><mrow><mo>(</mo><mi>L</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow></mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>L</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator g, times open parenthesis, one half times L plus x, close parenthesis, and denominator one third times L squared, plus x squared, end fraction\"><math alttext=\"the fraction with numerator g, times open parenthesis, one half times L plus x, close parenthesis, and denominator one third times L squared, plus x squared, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mi>g</mi><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>L</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow></mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>L</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator g, times open parenthesis, one half L plus 2 x, close parenthesis, and denominator one third times L squared, plus 2 x squared, end fraction\"><math alttext=\"the fraction with numerator g, times open parenthesis, one half L plus 2 x, close parenthesis, and denominator one third times L squared, plus 2 x squared, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mi>g</mi><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>L</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow></mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>L</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35785",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two small blocks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> have masses <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"2 m\"><math alttext=\"2 m\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>m</mi></math></span></span>, respectively. Both blocks are released from the same location and slide down an incline with negligible friction. Both blocks travel a vertical distance <span class=\"math_expression\"><span aria-label=\"delta h\"><math alttext=\"delta h\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>Δ</mi><mi>h</mi></mstyle></math></span></span> before smoothly transitioning to a horizontal surface. The coefficients of kinetic friction between the horizontal surface and blocks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> are <span class=\"math_expression\"><span aria-label=\"mu sub A\"><math alttext=\"mu sub A\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>μ</mi><mpadded><mtext>A</mtext></mpadded></msub></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"mu sub B\"><math alttext=\"mu sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>μ</mi><mtext>B</mtext></msub></mstyle></math></span></span>, respectively, where <span class=\"math_expression\"><span aria-label=\"2 times mu sub A equals mu sub B\"><math alttext=\"2 times mu sub A equals mu sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>2</mn><msub><mi>μ</mi><mtext>A</mtext></msub><mo>=</mo><msub><mi>μ</mi><mtext>B</mtext></msub></mstyle></math></span></span>. Block <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> travels a distance <span class=\"math_expression\"><span aria-label=\"D\"><math alttext=\"D\" display=\"inline\" overflow=\"scroll\"><mi>D</mi></math></span></span> before coming to rest on the horizontal surface. What is the distance Block <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> travels along the horizontal surface before coming to rest?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one fourth D\"><math alttext=\"one fourth D\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>D</mi></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half D\"><math alttext=\"one half D\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>D</mi></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 D\"><math alttext=\"2 D\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mi>D</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"4 D\"><math alttext=\"4 D\" display=\"inline\" overflow=\"scroll\"><mn>4</mn><mi>D</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35737",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The work done on an object is described by the equation <span class=\"math_expression\"><span aria-label=\"W equals, 3 times t squared plus 5 t, minus 1\"><math alttext=\"W equals, 3 times t squared plus 5 t, minus 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>W</mi><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>t</mi><mo>−</mo><mn>1</mn></mstyle></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"W\"><math alttext=\"W\" display=\"inline\" overflow=\"scroll\"><mi>W</mi></math></span></span> is in joules and <span class=\"math_expression\"><span aria-label=\"t\"><math alttext=\"t\" display=\"inline\" overflow=\"scroll\"><mi>t</mi></math></span></span> is in seconds. What is the power delivered to the object at <span class=\"math_expression\"><span aria-label=\"t equals 2.0 seconds\"><math alttext=\"t equals 2.0 seconds\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>2.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">s</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"10.5 watts\"><math alttext=\"10.5 watts\" display=\"inline\" overflow=\"scroll\"><mn>10.5</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">W</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"16.0 watts\"><math alttext=\"16.0 watts\" display=\"inline\" overflow=\"scroll\"><mn>16.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">W</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"17.0 watts\"><math alttext=\"17.0 watts\" display=\"inline\" overflow=\"scroll\"><mn>17.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">W</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"21.0 watts\"><math alttext=\"21.0 watts\" display=\"inline\" overflow=\"scroll\"><mn>21.0</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">W</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35647",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Two cars <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> are driven on a section of road that has a circular curve. When both cars are driven through the curve at their maximum speeds before they slip on the road, the centripetal acceleration of Car <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is twice that of Car <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span>. The maximum speed Car <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> can drive through the curve without slipping is <span class=\"math_expression\"><span aria-label=\"10 meters per second\"><math alttext=\"10 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>10</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span>. Which of the following is closest to the maximum speed Car <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> can drive through the curve without slipping?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"7.0 meters per second\"><math alttext=\"7.0 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>7.0</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"10 meters per second\"><math alttext=\"10 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>10</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"14 meters per second\"><math alttext=\"14 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>14</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"20 meters per second\"><math alttext=\"20 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>20</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35654",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a box of mass m on a horizontal surface. A rope pulls on the upper right corner of the box with a force F sub rope at an angle of theta above the horizontal.\" src=\"https://assets.learnosity.com/organisations/578/VR781581.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A box of mass <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> is pulled across a horizontal surface by a rope. The rope exerts a variable force <span class=\"math_expression\"><span aria-label=\"F sub rope\"><math alttext=\"F sub rope\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mi>rope</mi></msub></math></span></span> directed at an angle <span class=\"math_expression\"><span aria-label=\"theta\"><math alttext=\"theta\" display=\"inline\" overflow=\"scroll\"><mi>θ</mi></math></span></span> from the horizontal that is described by the function <span class=\"math_expression\"><span aria-label=\"F sub rope equals the cosine of, open parenthesis, beta x, close parenthesis\"><math alttext=\"F sub rope equals the cosine of, open parenthesis, beta x, close parenthesis\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mi>rope</mi></msub><mo>=</mo><mi>cos</mi><mpadded><mo>(</mo><mpadded><mi>β</mi><mi>x</mi></mpadded><mo>)</mo></mpadded></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"beta\"><math alttext=\"beta\" display=\"inline\" overflow=\"scroll\"><mi>β</mi></math></span></span> is a positive constant. The box is pulled from position <span class=\"math_expression\"><span aria-label=\"x equals 0\"><math alttext=\"x equals 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span> to <span class=\"math_expression\"><span aria-label=\"x equals D\"><math alttext=\"x equals D\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mi>D</mi></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"F sub rope is less than m g\"><math alttext=\"F sub rope is less than m g\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mi>rope</mi></msub><mo>&lt;</mo><mi>m</mi><mi>g</mi></math></span></span>. Which of the following is the work done on the box by the rope as it is pulled from <span class=\"math_expression\"><span aria-label=\"x equals 0\"><math alttext=\"x equals 0\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mn>0</mn></math></span></span> to <span class=\"math_expression\"><span aria-label=\"x equals D\"><math alttext=\"x equals D\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mo>=</mo><mi>D</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"D times the cosine of, open parenthesis, beta D, close parenthesis\"><math alttext=\"D times the cosine of, open parenthesis, beta D, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>D</mi><mi>cos</mi><mo stretchy=\"false\">(</mo><mi>β</mi><mi>D</mi><mo stretchy=\"false\">)</mo></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"D times the cosine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\"><math alttext=\"D times the cosine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>D</mi><mi>cos</mi><mo stretchy=\"false\">(</mo><mi>β</mi><mi>D</mi><mo stretchy=\"false\">)</mo><mi>cos</mi><mspace width=\"0.2em\"></mspace><mi>θ</mi></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"beta times the sine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\"><math alttext=\"beta times the sine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>β</mi><mi>sin</mi><mrow><mo>(</mo><mi>β</mi><mi>D</mi><mo>)</mo></mrow><mi>cos</mi><mspace width=\"0.2em\"></mspace><mi>θ</mi></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction 1 over beta, end fraction times the sine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\"><math alttext=\"the fraction 1 over beta, end fraction times the sine of, open parenthesis, beta D, close parenthesis, times the cosine of theta\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mi>β</mi></mfrac><mi>sin</mi><mrow><mo>(</mo><mi>β</mi><mi>D</mi><mo>)</mo></mrow><mi>cos</mi><mspace width=\"0.2em\"></mspace><mi>θ</mi></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35729",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a horizontal spring attached to a wall on one end and to a block on the other end. The block is on a horizontal surface, oscillating with amplitude A.\" src=\"https://assets.learnosity.com/organisations/578/VR781583.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A block on a horizontal surface is attached to one end of a horizontal spring. The other end of the spring is attached to a wall. The block oscillates with amplitude <span class=\"math_expression\"><span aria-label=\"uppercase A\"><math alttext=\"uppercase A\" display=\"inline\" overflow=\"scroll\"><mi>A</mi></math></span></span> and period <span class=\"math_expression\"><span aria-label=\"uppercase T \"><math alttext=\"uppercase T \" display=\"inline\" overflow=\"scroll\"><mi>T</mi></math></span></span>, as shown. There is negligible friction between the block and surface. At time <span class=\"math_expression\"><span aria-label=\"lowercase t equals 0\"><math alttext=\"lowercase t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span> the net force on the block is zero. Which of the following is an expression for the speed of the block at time <span class=\"math_expression\"><span aria-label=\"lowercase t equals the fraction uppercase T over 6\"><math alttext=\"lowercase t equals the fraction uppercase T over 6\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mfrac><mi>T</mi><mn>6</mn></mfrac></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v equals , pi times uppercase A over uppercase T\"><math alttext=\"v equals , pi times uppercase A over uppercase T\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>A</mi></mrow><mi>T</mi></mfrac></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v equals the fraction with numerator 3 times the square root of 3, end root, times A, and denominator uppercase T\"><math alttext=\"v equals the fraction with numerator 3 times the square root of 3, end root, times A, and denominator uppercase T\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mi>A</mi></mrow><mi>T</mi></mfrac></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v equals the fraction with numerator pi times the square root of 3, end root, times A, and denominator uppercase T\"><math alttext=\"v equals the fraction with numerator pi times the square root of 3, end root, times A, and denominator uppercase T\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><mfrac><mrow><mi>π</mi><msqrt><mn>3</mn></msqrt><mi>A</mi></mrow><mi>T</mi></mfrac></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v equals the fraction with numerator 2 times pi squared times A, and denominator 3 times uppercase T\"><math alttext=\"v equals the fraction with numerator 2 times pi squared times A, and denominator 3 times uppercase T\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>π</mi><mn>2</mn></msup><mi>A</mi></mrow><mrow><mn>3</mn><mi>T</mi></mrow></mfrac></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35658",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a block suspended by a string that passes over a pulley and is attached to a spring that is attached to the floor. The block has a mass of m equals 2.0 kilograms. The spring has a spring constant of k equals 100 newtons per meter.\" src=\"https://assets.learnosity.com/organisations/578/VR781584.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A <span class=\"math_expression\"><span aria-label=\"2.0 kilograms\"><math alttext=\"2.0 kilograms\" display=\"inline\" overflow=\"scroll\"><mn>2.0</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> block is attached to a string that passes over a pulley and is attached to an ideal spring of spring constant <span class=\"math_expression\"><span aria-label=\"k equals 100 newtons per meter\"><math alttext=\"k equals 100 newtons per meter\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>k</mi><mo>=</mo><mn>100</mn><mspace width=\"0.2em\"></mspace><mtext>N/m</mtext></mstyle></math></span></span>, as shown. The pulley and string have negligible mass, and there is negligible friction in the pulley. The block is held in place with the spring at its original unstretched length and then released from rest. Which of the following is approximately equal to the amplitude of the resulting motion?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.02 meter\"><math alttext=\"0.02 meter\" display=\"inline\" overflow=\"scroll\"><mn>0.02</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.10 meter\"><math alttext=\"0.10 meter\" display=\"inline\" overflow=\"scroll\"><mn>0.10</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.20 meter\"><math alttext=\"0.20 meter\" display=\"inline\" overflow=\"scroll\"><mn>0.20</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.40 meter\"><math alttext=\"0.40 meter\" display=\"inline\" overflow=\"scroll\"><mn>0.40</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35638",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows a wedge of mass uppercase M that is balanced about its geometric center with a small cylinder of mass lowercase m attached to its narrow end. The distance from the center of the wedge to each end is one half L.\" src=\"https://assets.learnosity.com/organisations/578/VR781585.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A wedge of mass <span class=\"math_expression\"><span aria-label=\"uppercase M\"><math alttext=\"uppercase M\" display=\"inline\" overflow=\"scroll\"><mi>M</mi></math></span></span> is balanced about its center with a small cylinder of mass <span class=\"math_expression\"><span aria-label=\"lowercase m\"><math alttext=\"lowercase m\" display=\"inline\" overflow=\"scroll\"><mi>m</mi></math></span></span> attached to its narrowest end, as shown. The linear mass per length of the wedge can be modeled by an equation of the form: <span class=\"math_expression\"><span aria-label=\"lambda equals b times x squared\"><math alttext=\"lambda equals b times x squared\" display=\"inline\" overflow=\"scroll\"><mi>λ</mi><mo>=</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"b\"><math alttext=\"b\" display=\"inline\" overflow=\"scroll\"><mi>b</mi></math></span></span> is a constant with appropriate units and <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mi>x</mi></math></span></span> is the distance from the narrowest end. What is the ratio <span class=\"math_expression\"><span aria-label=\"the fraction uppercase M over lowercase m\"><math alttext=\"the fraction uppercase M over lowercase m\" display=\"inline\" overflow=\"scroll\"><mfrac><mi>M</mi><mi>m</mi></mfrac></math></span></span> of the masses of the two objects?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"two thirds\"><math alttext=\"two thirds\" display=\"inline\" overflow=\"scroll\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3\"><math alttext=\"3\" display=\"inline\" overflow=\"scroll\"><mn>3</mn></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35680",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">While a satellite orbits the Earth at a constant distance of one Earth radius <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" display=\"inline\" overflow=\"scroll\"><mi>R</mi></math></span></span> above Earth’s surface, the total energy of the satellite-Earth system is <span class=\"math_expression\"><span aria-label=\"E sub R\"><math alttext=\"E sub R\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mi>R</mi></msub></math></span></span>. When the satellite is moved to a circular orbit a distance <span class=\"math_expression\"><span aria-label=\"3 R\"><math alttext=\"3 R\" display=\"inline\" overflow=\"scroll\"><mn>3</mn><mi>R</mi></math></span></span> above Earth’s surface, the satellite-Earth system has a total energy <span class=\"math_expression\"><span aria-label=\"E sub 3 R, end sub\"><math alttext=\"E sub 3 R, end sub\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub></math></span></span>. Which of the following correctly relates <span class=\"math_expression\"><span aria-label=\"E sub 3 R, end sub\"><math alttext=\"E sub 3 R, end sub\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub></math></span></span> to <span class=\"math_expression\"><span aria-label=\"E sub R\"><math alttext=\"E sub R\" display=\"inline\" overflow=\"scroll\"><msub><mi>E</mi><mi>R</mi></msub></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"E sub 3 uppercase R, end sub, equals one third times E sub uppercase R\"><math alttext=\"E sub 3 uppercase R, end sub, equals one third times E sub uppercase R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msub><mi>E</mi><mi>R</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"E sub 3 uppercase R, end sub, equals one half times E sub uppercase R\"><math alttext=\"E sub 3 uppercase R, end sub, equals one half times E sub uppercase R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>E</mi><mi>R</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"E sub 3 uppercase R, end sub, equals two times E sub uppercase R\"><math alttext=\"E sub 3 uppercase R, end sub, equals two times E sub uppercase R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub><mo>=</mo><mn>2</mn><msub><mi>E</mi><mi>R</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"E sub 3 uppercase R, end sub, equals 3 times E sub uppercase R\"><math alttext=\"E sub 3 uppercase R, end sub, equals 3 times E sub uppercase R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>E</mi><mrow><mn>3</mn><mi>R</mi></mrow></msub><mo>=</mo><mn>3</mn><msub><mi>E</mi><mi>R</mi></msub></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35650",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"Figure 1 and Figure 2 each show carts A and B on a horizontal surface. A horizontal spring is attached to the left side of Cart B. Figure 1 shows Cart B at rest while Cart A moves to the right toward Cart B. Figure 2 shows the result of a collision as the carts move away from each other after impact and the spring on cart B is extended.\" src=\"https://assets.learnosity.com/organisations/578/VR781587.g02.svg\"/></div></div></div><p class=\"stem_paragraph\">Two identical carts <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> are on a horizontal surface with negligible friction. Cart <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> approaches Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, which is initially at rest. Attached to Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> is a spring that is initially compressed, as shown in Figure <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span>. At the instant Cart <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> collides with Cart <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span>, the spring is released, and the carts move away from each other, as shown in Figure <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span>. Which of the following correctly compares the kinetic energy and the momentum of the two-cart-spring system after the collision to those quantities before the collision?</p><div class=\"table_wrapper\"><table class=\"tgroup align:center cols:3 colsep:0 frame:none rowsep:0\"><col class=\"colspec colname:col1 colnum:1 colsep:1 colwidth:45\"/><col class=\"colspec align:center colname:col2 colnum:2 colwidth:140\"/><col class=\"colspec align:center colname:col3 colnum:3 colwidth:200\"/><thead class=\"thead\"><tr class=\"row rowsep:1\"><th class=\"entry colname:col1\"></th><th class=\"entry colname:col2\">Kinetic Energy</th><th class=\"entry colname:col3\">Magnitude of Momentum</th></tr></thead><tbody class=\"tbody valign:middle\"><tr class=\"row\"><td class=\"entry colname:col1\">A</td><td class=\"entry colname:col2\">Increases</td><td class=\"entry colname:col3\">Decreases</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">B</td><td class=\"entry colname:col2\">Increases</td><td class=\"entry colname:col3\">Stays the same</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">C</td><td class=\"entry colname:col2\">Stays the same</td><td class=\"entry colname:col3\">Increases</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">D</td><td class=\"entry colname:col2\">Stays the same</td><td class=\"entry colname:col3\">Stays the same</td></tr></tbody></table></div>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">A</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">B</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">C</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">D</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35771",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the top view of a motor that is attached to a turntable by a belt. The motor rotates counterclockwise.\" src=\"https://assets.learnosity.com/organisations/578/VR781588.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A motor is attached to a turntable by a belt, as shown in the Top View figure. When the motor is turned on, the angular displacement of the turntable is modeled by the equation <span class=\"math_expression\"><span aria-label=\"theta of t equals, 6 times t raised to the three halves power, minus 2 t, plus 2 pi\"><math alttext=\"theta of t equals, 6 times t raised to the three halves power, minus 2 t, plus 2 pi\" display=\"inline\" overflow=\"scroll\"><mi>θ</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>6</mn><msup><mi>t</mi><mfrac><mn>3</mn><mn>2</mn></mfrac></msup><mo>−</mo><mn>2</mn><mi>t</mi><mo>+</mo><mn>2</mn><mi>π</mi></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"theta\"><math alttext=\"theta\" display=\"inline\" overflow=\"scroll\"><mi>θ</mi></math></span></span> is in radians and <span class=\"math_expression\"><span aria-label=\"t\"><math alttext=\"t\" display=\"inline\" overflow=\"scroll\"><mi>t</mi></math></span></span> is in seconds. What is the angular velocity <span class=\"math_expression\"><span aria-label=\"omega\"><math alttext=\"omega\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi></math></span></span> of the turntable as a function of time?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"omega of t equals, 12 fifths, times, t raised to the five halves power, minus t squared, plus 2 pi t\"><math alttext=\"omega of t equals, 12 fifths, times, t raised to the five halves power, minus t squared, plus 2 pi t\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mfrac><mn>12</mn><mn>5</mn></mfrac><msup><mi>t</mi><mfrac><mn>5</mn><mn>2</mn></mfrac></msup><mo>−</mo><msup><mi>t</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>π</mi><mi>t</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"omega of t equals, 9 times t raised to the one half power, minus 2\"><math alttext=\"omega of t equals, 9 times t raised to the one half power, minus 2\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>9</mn><msup><mi>t</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>−</mo><mn>2</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"omega of t equals, 6 times t to the one half power, minus 2\"><math alttext=\"omega of t equals, 6 times t to the one half power, minus 2\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>6</mn><msup><mi>t</mi><mfrac><mn>1</mn><mn>2</mn></mfrac></msup><mo>−</mo><mn>2</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"omega of t equals, nine halves times, t raised to the negative one half power\"><math alttext=\"omega of t equals, nine halves times, t raised to the negative one half power\" display=\"inline\" overflow=\"scroll\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>t</mi><mrow><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35738",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A ball is launched from the top of a <span class=\"math_expression\"><span aria-label=\"30 meter\"><math alttext=\"30 meter\" display=\"inline\" overflow=\"scroll\"><mn>30</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span> tall hill with a speed <span class=\"math_expression\"><span aria-label=\"25 meters per second\"><math alttext=\"25 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>25</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span> directed at an angle <span class=\"math_expression\"><span aria-label=\"40 degrees\"><math alttext=\"40 degrees\" display=\"inline\" overflow=\"scroll\"><mn>40</mn><mo>°</mo></math></span></span> above the horizontal and lands on the ground below. Which of the following is approximately equal to the speed of the ball at the top of its path?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0\"><math alttext=\"0\" display=\"inline\" overflow=\"scroll\"><mn>0</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"16 meters per second\"><math alttext=\"16 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>16</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"19 meters per second\"><math alttext=\"19 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>19</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"25 meters per second\"><math alttext=\"25 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>25</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35709",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A <span class=\"math_expression\"><span aria-label=\"1,500 kilogram\"><math alttext=\"1,500 kilogram\" display=\"inline\" overflow=\"scroll\"><mn>1500</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> car pushes a <span class=\"math_expression\"><span aria-label=\"4000 kilogram\"><math alttext=\"4000 kilogram\" display=\"inline\" overflow=\"scroll\"><mn>4000</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> truck. The car and truck are accelerating at <span class=\"math_expression\"><span aria-label=\"2.0 meters per second squared\"><math alttext=\"2.0 meters per second squared\" display=\"inline\" overflow=\"scroll\"><mn>2.0</mn><mspace width=\"0.2em\"></mspace><msup><mtext>m/s</mtext><mn>2</mn></msup></math></span></span>. Assuming that the frictional force on the truck is negligible, what is the magnitude of the force exerted by the truck on the car?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3000 newtons\"><math alttext=\"3000 newtons\" display=\"inline\" overflow=\"scroll\"><mn>3000</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"5000 newtons\"><math alttext=\"5000 newtons\" display=\"inline\" overflow=\"scroll\"><mn>5000</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"8000 newtons\"><math alttext=\"8000 newtons\" display=\"inline\" overflow=\"scroll\"><mn>8000</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"11,000 newtons\"><math alttext=\"11,000 newtons\" display=\"inline\" overflow=\"scroll\"><mn>11</mn><mtext>,</mtext><mn>000</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">N</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35799",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The work required to accelerate an object from <span class=\"math_expression\"><span aria-label=\"10 meters per second\"><math alttext=\"10 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>10</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span> to <span class=\"math_expression\"><span aria-label=\"20 meters per second\"><math alttext=\"20 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>20</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span> is <span class=\"math_expression\"><span aria-label=\"W sub A\"><math alttext=\"W sub A\" display=\"inline\" overflow=\"scroll\"><msub><mi>W</mi><mtext>A</mtext></msub></math></span></span>. The work required to accelerate the object from <span class=\"math_expression\"><span aria-label=\"20 meters per second\"><math alttext=\"20 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>20</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span> to <span class=\"math_expression\"><span aria-label=\"30 meters per second\"><math alttext=\"30 meters per second\" display=\"inline\" overflow=\"scroll\"><mn>30</mn><mspace width=\"0.2em\"></mspace><mtext>m/s</mtext></math></span></span> is <span class=\"math_expression\"><span aria-label=\"W sub B\"><math alttext=\"W sub B\" display=\"inline\" overflow=\"scroll\"><msub><mi>W</mi><mtext>B</mtext></msub></math></span></span>. Which of the following correctly compares <span class=\"math_expression\"><span aria-label=\"W sub A\"><math alttext=\"W sub A\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>A</mtext></msub></mstyle></math></span></span> to <span class=\"math_expression\"><span aria-label=\"W sub B\"><math alttext=\"W sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>B</mtext></msub></mstyle></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"W sub A is less than W sub B\"><math alttext=\"W sub A is less than W sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>A</mtext></msub><mo>&lt;</mo><msub><mi>W</mi><mtext>B</mtext></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"W sub A equals W sub B\"><math alttext=\"W sub A equals W sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>A</mtext></msub><mo>=</mo><msub><mi>W</mi><mtext>B</mtext></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"W sub A is greater than W sub B\"><math alttext=\"W sub A is greater than W sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>A</mtext></msub><mo>&gt;</mo><msub><mi>W</mi><mtext>B</mtext></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The mass of the object must be known to compare the relative magnitudes of <span class=\"math_expression\"><span aria-label=\"W sub A\"><math alttext=\"W sub A\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>A</mtext></msub></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"W sub B\"><math alttext=\"W sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>W</mi><mtext>B</mtext></msub></mstyle></math></span></span>.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35655",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A <span class=\"math_expression\"><span aria-label=\"2 kilogram\"><math alttext=\"2 kilogram\" display=\"inline\" overflow=\"scroll\"><mn>2</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi></math></span></span> object is released from rest from a height of <span class=\"math_expression\"><span aria-label=\"3 meters\"><math alttext=\"3 meters\" display=\"inline\" overflow=\"scroll\"><mn>3</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span> above Earth’s surface. How much kinetic energy does the object have when it reaches a height of <span class=\"math_expression\"><span aria-label=\"1 meter\"><math alttext=\"1 meter\" display=\"inline\" overflow=\"scroll\"><mn>1</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">m</mi></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"20 joules\"><math alttext=\"20 joules\" display=\"inline\" overflow=\"scroll\"><mn>20</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">J</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"40 joules\"><math alttext=\"40 joules\" display=\"inline\" overflow=\"scroll\"><mn>40</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">J</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"60 joules\"><math alttext=\"60 joules\" display=\"inline\" overflow=\"scroll\"><mn>60</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">J</mi></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"80 joules\"><math alttext=\"80 joules\" display=\"inline\" overflow=\"scroll\"><mn>80</mn><mspace width=\"0.2em\"></mspace><mi mathvariant=\"normal\">J</mi></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35772",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the top view of a rod. The bottom of the rod is fixed to a torsion spring, and the torsion spring is fixed to a horizontal table. A vertical line is indicated as the equilibrium position of the rod, and the rod is shown slightly to the left of its equilibrium position at an angle of theta from the vertical.\" src=\"https://assets.learnosity.com/organisations/578/VR798655.g01.svg\"/></div></div></div><p class=\"stem_paragraph\">A torsion spring is fixed to the end of a rod of rotational inertia <span class=\"math_expression\"><span aria-label=\"I sub R\"><math alttext=\"I sub R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>I</mi><mtext>R</mtext></msub></mstyle></math></span></span>. The torsion spring is fixed to a horizontal table with negligible friction, as shown in the Top View. When the rod is displaced an angle <span class=\"math_expression\"><span aria-label=\"theta\"><math alttext=\"theta\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>θ</mi></mstyle></math></span></span> from equilibrium, the torsion spring exerts a restoring torque of magnitude <span class=\"math_expression\"><span aria-label=\"tau equals 2 kappa times theta squared\"><math alttext=\"tau equals 2 kappa times theta squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>τ</mi><mo>=</mo><mn>2</mn><mi>κ</mi><msup><mi>θ</mi><mn>2</mn></msup></mstyle></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"kappa\"><math alttext=\"kappa\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>κ</mi></mstyle></math></span></span> is a positive constant with appropriate units. After being displaced by an angle <span class=\"math_expression\"><span aria-label=\"theta sub 0\"><math alttext=\"theta sub 0\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>θ</mi><mn>0</mn></msub></mstyle></math></span></span>, the rod is released and rotates through its equilibrium position with angular speed <span class=\"math_expression\"><span aria-label=\"omega sub 0\"><math alttext=\"omega sub 0\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>ω</mi><mn>0</mn></msub></mstyle></math></span></span>. Which of the following is a correct expression for <span class=\"math_expression\"><span aria-label=\"omega sub 0\"><math alttext=\"omega sub 0\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>ω</mi><mn>0</mn></msub></mstyle></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Zero</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 2 kappa times theta sub 0, end sub, cubed, and denominator 3 I sub R\"><math alttext=\"the fraction with numerator 2 kappa times theta sub 0, end sub, cubed, and denominator 3 I sub R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><mn>2</mn><mi>κ</mi><msubsup><mi>θ</mi><mn>0</mn><mn>3</mn></msubsup></mrow><mrow><mn>3</mn><msub><mi>I</mi><mtext>R</mtext></msub></mrow></mfrac></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times the square root of the fraction with numerator kappa times theta sub 0, end sub, cubed, and denominator I sub R\"><math alttext=\"2 times the square root of the fraction with numerator kappa times theta sub 0, end sub, cubed, and denominator I sub R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>2</mn><msqrt><mfrac><mrow><mi>κ</mi><msubsup><mi>θ</mi><mn>0</mn><mn>3</mn></msubsup></mrow><msub><mi>I</mi><mtext>R</mtext></msub></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times the square root of the fraction with numerator kappa times theta sub 0, end sub, cubed, and denominator 3 I sub R\"><math alttext=\"2 times the square root of the fraction with numerator kappa times theta sub 0, end sub, cubed, and denominator 3 I sub R\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>2</mn><msqrt><mfrac><mrow><mi>κ</mi><msubsup><mi>θ</mi><mn>0</mn><mn>3</mn></msubsup></mrow><mrow><mn>3</mn><msub><mi>I</mi><mtext>R</mtext></msub></mrow></mfrac></msqrt></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35621",
+          "type": "single",
+          "prompt": "<div class=\"featureContent\"><html><body><div class=\"stimulus_reference\" xmlns=\"http://www.imsglobal.org/xsd/apip/apipv1p0/qtiitem/imsqti_v2p2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><div class=\"passage\"><div class=\"prose style:1\"><div class=\"standalone_image\"><img alt=\"The figure shows two pucks labeled A and B and their paths before and after they collide. The positive x direction is horizontally to the right and the positive y direction is vertically upward. Before the collision, puck A moves upward and to the right through the plane while puck B moves upward and to the left through the plane at speed v sub B. After the collision, the two pucks move together upward through the plane in the positive y direction. The paths of the individual pucks before the collision and the path of the two-puck system after the collision form three angles of 120 degrees each at the point of collision.\" src=\"https://assets.learnosity.com/organisations/578/VR785770.g05.svg\"/></div><p class=\"passage_para\">Two pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math></span></span> have masses <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"3 m\"><math alttext=\"3 m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>m</mi></math></span></span>, respectively. The initial speed of Puck <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math></span></span> is <span class=\"math_expression\"><span aria-label=\"v sub B\"><math alttext=\"v sub B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></math></span></span>. The pucks move toward each other in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi></math></span></span>-plane, collide, stick together, and then move in the <span class=\"math_expression\"><span aria-label=\"positive y\"><math alttext=\"positive y\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mpadded><mo>+</mo><mi>y</mi></mpadded></math></span></span>-direction. There is zero net external force on the two-puck system. The paths and directions of the pucks before and after the collision are shown in the diagram.</p></div></div></div></body></html></div><div><include href=\"../Passage/VR785770.qti.xml\" xmlns:xi=\"http://www.w3.org/2001/XInclude\"></include></div><p class=\"stem_paragraph\">Which of the following expressions best represents the speed of the two pucks after the collision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half v sub B\"><math alttext=\"one half v sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"three fourths v sub B\"><math alttext=\"three fourths v sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>4</mn></mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v sub B\"><math alttext=\"v sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"three halves v sub B\"><math alttext=\"three halves v sub B\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mn>3</mn><mn>2</mn></mfrac><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35622",
+          "type": "single",
+          "prompt": "<div class=\"featureContent\"><html><body><div class=\"stimulus_reference\" xmlns=\"http://www.imsglobal.org/xsd/apip/apipv1p0/qtiitem/imsqti_v2p2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><div class=\"passage\"><div class=\"prose style:1\"><div class=\"standalone_image\"><img alt=\"The figure shows two pucks labeled A and B and their paths before and after they collide. The positive x direction is horizontally to the right and the positive y direction is vertically upward. Before the collision, puck A moves upward and to the right through the plane while puck B moves upward and to the left through the plane at speed v sub B. After the collision, the two pucks move together upward through the plane in the positive y direction. The paths of the individual pucks before the collision and the path of the two-puck system after the collision form three angles of 120 degrees each at the point of collision.\" src=\"https://assets.learnosity.com/organisations/578/VR785770.g05.svg\"/></div><p class=\"passage_para\">Two pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math></span></span> have masses <span class=\"math_expression\"><span aria-label=\"m\"><math alttext=\"m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"3 m\"><math alttext=\"3 m\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>m</mi></math></span></span>, respectively. The initial speed of Puck <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">B</mi></math></span></span> is <span class=\"math_expression\"><span aria-label=\"v sub B\"><math alttext=\"v sub B\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>v</mi><mi mathvariant=\"normal\">B</mi></msub></math></span></span>. The pucks move toward each other in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi></math></span></span>-plane, collide, stick together, and then move in the <span class=\"math_expression\"><span aria-label=\"positive y\"><math alttext=\"positive y\" display=\"inline\" overflow=\"scroll\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mpadded><mo>+</mo><mi>y</mi></mpadded></math></span></span>-direction. There is zero net external force on the two-puck system. The paths and directions of the pucks before and after the collision are shown in the diagram.</p></div></div></div></body></html></div><div><include href=\"../Passage/VR785770.qti.xml\" xmlns:xi=\"http://www.w3.org/2001/XInclude\"></include></div><p class=\"stem_paragraph\">The collision is repeated, but Puck <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> is replaced with Puck <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span>, which has half the mass and twice the speed of Puck <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> in the original collision. Pucks <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> stick together after the collision. Which of the following best describes how the direction of pucks <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> compares with the direction of pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> after the original collision, and provides an appropriate justification?</p><div class=\"table_wrapper\"><table class=\"tgroup align:center cols:3 colsep:0 frame:none pgwide:1 rowsep:0\"><col class=\"colspec align:center colname:col1 colnum:1 colsep:1 colwidth:40\"/><col class=\"colspec align:center colname:col2 colnum:2 colwidth:180\"/><col class=\"colspec align:center colname:col3 colnum:3 colwidth:190\"/><thead class=\"thead\"><tr class=\"row rowsep:1\"><th class=\"entry colname:col1\"></th><th class=\"entry colname:col2\">Direction of Pucks <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> after Collision</th><th class=\"entry colname:col3\">Justification</th></tr></thead><tbody class=\"tbody valign:middle\"><tr class=\"row\"><td class=\"entry colname:col1\">A</td><td class=\"entry colname:col2\">Same direction as Pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span></td><td class=\"entry colname:col3\">The initial momentum of Puck <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> is the same as the initial momentum of Puck <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">B</td><td class=\"entry colname:col2\">Same direction as Pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span></td><td class=\"entry colname:col3\">Both collisions are inelastic.</td></tr><tr class=\"row\"><td class=\"entry colname:col1\">C</td><td class=\"entry colname:col2\">Different direction than Pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span></td><td class=\"entry colname:col3\">The speed of Puck <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">C</mi></math></span></span> is greater than the speed of Puck <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">D</td><td class=\"entry colname:col2\">Different direction than Pucks <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span></td><td class=\"entry colname:col3\">The total mass of the two-puck systems is different in each collision.</td></tr></tbody></table></div>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">A</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">B</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">C</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">D</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35697",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The magnitude of the momentum of an object as a function of time, in seconds, is given by <span class=\"math_expression\"><span aria-label=\"p equals, open parenthesis, 4 kilogram meters per second cubed, close parenthesis, times t squared\"><math alttext=\"p equals, open parenthesis, 4 kilogram meters per second cubed, close parenthesis, times t squared\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>p</mi><mo>=</mo><mrow><mo>(</mo><mn>4</mn><mspace width=\"0.2em\"></mspace><mi>kg</mi><mo>⋅</mo><msup><mtext>m/s</mtext><mn>3</mn></msup><mo>)</mo></mrow><msup><mi>t</mi><mn>2</mn></msup></mstyle></math></span></span>. The magnitudes of the net force exerted on the object at times <span class=\"math_expression\"><span aria-label=\"t sub 1\"><math alttext=\"t sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>t</mi><mn>1</mn></msub></math></span></span> and <span class=\"math_expression\"><span aria-label=\"t sub 2 equals 2 t sub 1\"><math alttext=\"t sub 2 equals 2 t sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><msub><mi>t</mi><mn>1</mn></msub></math></span></span> are <span class=\"math_expression\"><span aria-label=\"F sub 1\"><math alttext=\"F sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mn>1</mn></msub></math></span></span> and <span class=\"math_expression\"><span aria-label=\"F sub 2\"><math alttext=\"F sub 2\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mn>2</mn></msub></math></span></span>, respectively. Which of the following correctly compares <span class=\"math_expression\"><span aria-label=\"F sub 2\"><math alttext=\"F sub 2\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mn>2</mn></msub></math></span></span> and <span class=\"math_expression\"><span aria-label=\"F sub 1\"><math alttext=\"F sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>F</mi><mn>1</mn></msub></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub 2 equals 2 F sub 1\"><math alttext=\"F sub 2 equals 2 F sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><msub><mi>F</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub 2 equals 4 F sub 1\"><math alttext=\"F sub 2 equals 4 F sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>4</mn><msub><mi>F</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub 2 equals 8 F sub 1\"><math alttext=\"F sub 2 equals 8 F sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>8</mn><msub><mi>F</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"F sub 2 equals 16 F sub 1\"><math alttext=\"F sub 2 equals 16 F sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mn>16</mn><msub><mi>F</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35620",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of two line segments in the first and fourth quadrants of a coordinate plane. The horizontal axis is labeled “t” and the value t sub p is indicated near the end of the axis. The values negative v sub 0 and v sub 0 are indicated at the bottom and top of the vertical axis, respectively. The first line segment is labeled “Car A” and it begins on the vertical axis at v sub 0, and moves steadily downward and to the right until it ends on the horizontal axis at t sub p. The second line segment is labeled “Carb B” and it begins on the vertical axis at negative v sub 0, and moves steadily upward and to the right until it ends on the horizontal axis at t sub p.\" src=\"https://assets.learnosity.com/organisations/578/VR785805.g21.svg\"/></div></div></div><p class=\"stem_paragraph\">Cars <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">A</mi></math></span></span> and <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mi mathvariant=\"normal\">B</mi></math></span></span> are moving in opposite directions along a straight road. At time <span class=\"math_expression\"><span aria-label=\"t equals, t sub p\"><math alttext=\"t equals, t sub p\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><msub><mi>t</mi><mi>p</mi></msub></math></span></span> the cars pass each other. The velocities <span class=\"math_expression\"><span aria-label=\"v\"><math alttext=\"v\" display=\"inline\" overflow=\"scroll\"><mi>v</mi></math></span></span> of the cars are given as functions of time are shown in the graph. Which of the following graphs represents the distance <span class=\"math_expression\"><span aria-label=\"d\"><math alttext=\"d\" display=\"inline\" overflow=\"scroll\"><mi>d</mi></math></span></span> between the cars as a function of time?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The curve begins near the top of the vertical axis and moves steeply downward and to the right at first. As it approaches the horizontal axis, the curve begins to level out and is nearly horizontal as it ends on the horizontal axis at t sub p.\" src=\"https://assets.learnosity.com/organisations/578/VR785805.g26.svg\"/></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The curve begins near the top of the vertical axis and moves nearly horizontally to the right, but slightly downward at first. As it approaches the horizontal axis, the curve begins to move more steeply downward until it ends on the horizontal axis at t sub p.\" src=\"https://assets.learnosity.com/organisations/578/VR785805.g23.svg\"/></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line segment in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The line segment begins near the top of the vertical axis and moves steadily downward and to the right until it ends on the horizontal axis at t sub p.\" src=\"https://assets.learnosity.com/organisations/578/VR785805.g24.svg\"/></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line segment in the first quadrant of a coordinate plane. The horizontal axis is labeled “t,” and the value t sub p is indicated near the end of the axis. The vertical axis is labeled “d.” The line begins at the origin and moves horizontally to the right along the horizontal axis until it ends at t sub p.\" src=\"https://assets.learnosity.com/organisations/578/VR785805.g25.svg\"/></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35628",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows an object with mass m moving in the first and second quadrants of a coordinate plane with the origin labeled O. The horizontal axis is labeled “x, in meters,” and there are six evenly spaced tick marks on the axis such that there are three tick marks to the left of the vertical axis, and three tick marks to the right of the vertical axis the last tick mark is labeled 3.0 meters. The vertical axis is labeled “y, in meters,” and there are 3 evenly spaced tick marks on the axis. The object is shown at coordinates negative 3 meters comma 4 meters and is moving at speed v horizontally in the positive x direction along the line y equals 4.0 meters.\" src=\"https://assets.learnosity.com/organisations/578/VR785806.g09.svg\"/></div></div></div><p class=\"stem_paragraph\">An object of mass <span class=\"math_expression\"><span aria-label=\"m equals 2.0 kilograms\"><math alttext=\"m equals 2.0 kilograms\" display=\"inline\" overflow=\"scroll\"><mi>m</mi><mo>=</mo><mn>2.0</mn><mo> </mo><mi>kg</mi></math></span></span> is moving in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\"><mi>x</mi><mi>y</mi></math></span></span>-plane at a constant speed <span class=\"math_expression\"><span aria-label=\"v equals 0.80 meter per second\"><math alttext=\"v equals 0.80 meter per second\" display=\"inline\" overflow=\"scroll\"><mi>v</mi><mo>=</mo><mn>0.80</mn><mo> </mo><mtext>m/s</mtext></math></span></span> in the <span class=\"math_expression\"><span aria-label=\"positive x\"><math alttext=\"positive x\" display=\"inline\" overflow=\"scroll\"><mpadded><mo>+</mo><mi>x</mi></mpadded></math></span></span>-direction along the line <span class=\"math_expression\"><span aria-label=\"y equals 4.0 meters\"><math alttext=\"y equals 4.0 meters\" display=\"inline\" overflow=\"scroll\"><mi>y</mi><mo>=</mo><mn>4.0</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></math></span></span>. When the object is at the location <span class=\"math_expression\"><span aria-label=\"with coordinates 3.0 meters comma 4.0 meters\"><math alttext=\"with coordinates 3.0 meters comma 4.0 meters\" display=\"inline\" overflow=\"scroll\"><mpadded><mo>(</mo><mpadded><mn>3</mn><mo>.</mo><mn>0</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mpadded><mo>,</mo><mo> </mo><mpadded><mn>4</mn><mo>.</mo><mn>0</mn><mo> </mo><mi mathvariant=\"normal\">m</mi></mpadded><mo>)</mo></mpadded></math></span></span>, what is the magnitude of its angular momentum with respect to the origin?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0\"><math alttext=\"0\" display=\"inline\" overflow=\"scroll\"><mn>0</mn></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"4.8 kilogram meters squared per second\"><math alttext=\"4.8 kilogram meters squared per second\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>4.8</mn><mstyle displaystyle=\"false\"><mo> </mo></mstyle><mi>kg</mi><mo>⋅</mo><msup><mtext>m</mtext><mn>2</mn></msup><mo>/</mo><mtext>s</mtext></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"6.4 kilogram meters squared per second\"><math alttext=\"6.4 kilogram meters squared per second\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>6.4</mn><mstyle displaystyle=\"false\"><mo> </mo></mstyle><mi>kg</mi><mo>⋅</mo><msup><mtext>m</mtext><mn>2</mn></msup><mo>/</mo><mtext>s</mtext></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"8.0 kilogram meters squared per second\"><math alttext=\"8.0 kilogram meters squared per second\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mn>8.0</mn><mstyle displaystyle=\"false\"><mo> </mo></mstyle><mi>kg</mi><mo>⋅</mo><msup><mtext>m</mtext><mn>2</mn></msup><mo>/</mo><mtext>s</mtext></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35716",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows two scenarios, labeled 1 and 2, of a block of mass m moving at speed v sub 0 on an incline. Scenario 1 shows the block traveling down the incline. Scenario 2 shows the block traveling up the incline.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g21.svg\"/></div></div></div><p class=\"stem_paragraph\">A block on an incline is initially at rest. There is nonnegligible friction between the block and the incline. In Scenario <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span>, the block is given a brief push at time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>, and begins to slide <span class=\"formatted_text text_decoration:underline\">down</span> the incline with speed <span class=\"math_expression\"><span aria-label=\"v sub 0\"><math alttext=\"v sub 0\" display=\"inline\" overflow=\"scroll\"><msub><mi>v</mi><mn>0</mn></msub></math></span></span>. In Scenario <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span>, the block is placed at the same initial position, is given a brief push at time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span>, and begins to slide <span class=\"formatted_text text_decoration:underline\">up</span> the incline with initial speed <span class=\"math_expression\"><span aria-label=\"v sub 0\"><math alttext=\"v sub 0\" display=\"inline\" overflow=\"scroll\"><msub><mi>v</mi><mn>0</mn></msub></math></span></span>, as shown. The direction down the ramp corresponds to positive velocity. Which of the following pairs of velocity-time graphs could correctly represent the motion of the block in Scenario <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span> and Scenario <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span> ?</p><div class=\"table_wrapper\"><table class=\"tgroup align:center cols:3 colsep:0 frame:none rowsep:0\"><col class=\"colspec align:center colname:col1 colnum:1 colsep:1 colwidth:35\"/><col class=\"colspec align:center colname:col2 colnum:2 colwidth:220\"/><col class=\"colspec align:center colname:col3 colnum:3 colwidth:220\"/><thead class=\"thead\"><tr class=\"row rowsep:1\"><th class=\"entry colname:col1\"></th><th class=\"entry colname:col2\">Scenario <span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mn>1</mn></math></span></span>:Block Travels <span class=\"formatted_text text_decoration:underline\">Down</span> Incline</th><th class=\"entry colname:col3\">Scenario <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mn>2</mn></math></span></span>:Block Travels <span class=\"formatted_text text_decoration:underline\">Up</span> Incline</th></tr></thead><tbody class=\"tbody\"><tr class=\"row\"><td class=\"entry colname:col1\">A</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis 2 and a half units above the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g03.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g05.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">B</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis 2 and a half units above the horizontal axis. It extends horizontally to the right and ends at the end of the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g07.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, ending at the end of the horizontal axis, approximately 1 unit below the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g09.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">C</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows a velocity-time graph in a gridded plane for Scenario 1. The horizontal axis is labeled t, and the vertical axis is labeled v. A line is graphed approximately from coordinates 0 comma 2.5 to coordinates 8 comma 0.8.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g11.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the fourth quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, ending at the end of the horizontal axis, approximately 1 unit below the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g13.svg\"/></span></td></tr><tr class=\"row\"><td class=\"entry colname:col1\">D</td><td class=\"entry colname:col2\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the first quadrant of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units above the horizontal axis. It moves down and to the right, ending at the end of the horizontal axis, approximately 1 unit above the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g15.svg\"/></span></td><td class=\"entry colname:col3\"><span class=\"inline_image\"><img alt=\"The figure shows the graph of a line in the first and fourth quadrants of a coordinate plane. The horizontal axis is labeled t, and the vertical axis is labeled v. The line begins on the vertical axis, 2 and a half units below the horizontal axis. It moves up and to the right, intersecting the horizontal axis at 4 units, and ends at the end of the horizontal axis 2 and a half units above the horizontal axis\" src=\"https://assets.learnosity.com/organisations/578/VR785808.g17.svg\"/></span></td></tr></tbody></table></div>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">A</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">B</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">C</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">D</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35604",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A linear graph of the acceleration of an object as a function of time has a slope <span class=\"math_expression\"><span aria-label=\"S\"><math alttext=\"S\" display=\"inline\" overflow=\"scroll\"><mi>S</mi></math></span></span>. The area bounded by the line and the time axis from <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span> to <span class=\"math_expression\"><span aria-label=\"t equals t sub 1\"><math alttext=\"t equals t sub 1\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><msub><mi>t</mi><mn>1</mn></msub></math></span></span> is <span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mi>A</mi></math></span></span>. The velocity of the object at <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mi>t</mi><mo>=</mo><mn>0</mn></math></span></span> is <span class=\"math_expression\"><span aria-label=\"v sub 0\"><math alttext=\"v sub 0\" display=\"inline\" overflow=\"scroll\"><msub><mi>v</mi><mn>0</mn></msub></math></span></span>. Which of the following expressions represent the velocity <span class=\"math_expression\"><span aria-label=\"v sub 1\"><math alttext=\"v sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>v</mi><mn>1</mn></msub></math></span></span> of the object at time <span class=\"math_expression\"><span aria-label=\"t sub 1\"><math alttext=\"t sub 1\" display=\"inline\" overflow=\"scroll\"><msub><mi>t</mi><mn>1</mn></msub></math></span></span>?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v sub 0 plus A\"><math alttext=\"v sub 0 plus A\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>v</mi><mn>0</mn></msub><mo>+</mo><mi>A</mi></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v sub 0 plus A times t sub 1\"><math alttext=\"v sub 0 plus A times t sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>v</mi><mn>0</mn></msub><mo>+</mo><mi>A</mi><msub><mi>t</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"S times v sub 0\"><math alttext=\"S times v sub 0\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mi>S</mi><msub><mi>v</mi><mn>0</mn></msub></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"v sub 0 plus S, times t sub 1\"><math alttext=\"v sub 0 plus S, times t sub 1\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><msub><mi>v</mi><mn>0</mn></msub><mo>+</mo><mi>S</mi><msub><mi>t</mi><mn>1</mn></msub></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35798",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35798",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35798",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35631",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35631",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35631",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35631",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35726",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35657",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35657",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35657",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

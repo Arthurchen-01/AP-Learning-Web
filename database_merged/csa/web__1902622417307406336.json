@@ -1,0 +1,1224 @@
+{
+  "examId": "1902622417307406336",
+  "title": "AP CSA 真题拼题1",
+  "subjectName": "计算机科学A",
+  "yearLabel": "",
+  "description": "AP AP CSA 真题拼题1",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "3346",
+          "type": "single",
+          "prompt": "<p>Refer to the following code fragment:</p> <pre> double answer = 13 / 5; System.out.println(\"13 / 5 = \" + answer); </pre> <p>The output is:</p> <p style=\"padding-left: 40px;\"><span id=\"output\">13 / 5 = 2.0</span></p> <p>The programmer intends the output to be:</p> <p style=\"padding-left: 40px;\"><span id=\"intended-output\">13 / 5 = 2.6</span></p> <p>Which of the following replacements for the first line of code will <em>not</em> fix the problem?</p> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>double answer=(double)13 / 5;</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>double answer=13 / (double) 5;</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>double answer=13.0 / 5;</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>double answer=13 / 5.0;</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>double answer=(double) (13 / 5);</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3347",
+          "type": "single",
+          "prompt": "<p> /** @param n a 4-digit integer</p> <pre> * @return true if n is valid, false otherwise */ boolean checkNumber(int n) { int d1,d2,d3,checkDigit,nRemaining,rem; //strip off digits checkDigit = n % 10; nRemaining = n / 10; d3 = nRemaining % 10; nRemaining /= 10; d2 = nRemaining % 10; nRemaining /= 10; d1 = nRemaining % 10; //check validity rem = (d1 + d2 + d3) % 7; return rem == checkDigit; } </pre> <p>A program invokes method checkNumber with the statement:</p> <pre>boolean valid = checkNumber(num);</pre> <p>Which of the following values of num will result in valid having a value of true?</p> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>6143</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>6144</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>6145</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>6146</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>6147</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3348",
+          "type": "single",
+          "prompt": "<p>Suppose that <code>strA = \"TOMATO\"</code>, <code>strB = \"tomato\"</code>, and <code>strC = \"tom\"</code>. Given that \"A\" comes before \"a\" in dictionary order, which is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>strA.compareTo(strB) &lt; 0 &amp;&amp; strB.compareTo(strC) &lt; 0</code><code></code></p> <p id=\"result\"> </p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>strB.compareTo(strA) &lt; 0 || strC.compareTo(strA) &lt; 0</code></p> <p><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>strC.compareTo(strA) &lt; 0 &amp;&amp; strA.compareTo(strB) &lt; 0</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>!(strA.equals(strB)) &amp;&amp; strC.compareTo(strB) &lt; 0</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>!(strA.equals(strB)) &amp;&amp; strC.compareTo(strA) &lt; 0</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3349",
+          "type": "single",
+          "prompt": "<p>This question refers to the following declaration:</p> <pre style=\"padding-left: 40px;\">String line = \"Some more silly stuff on strings!\";</pre> <pre style=\"padding-left: 40px;\">// the words are separated by a single space</pre> <h3>What string will <code>str</code> refer to after execution of the following?</h3> <pre> int x = line.indexOf(\"m\"); String str = line.substring(10, 15) + line.substring(25, 25 + x)</pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>\"sillyst\"</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>\"sillystr\"</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>\"silly st\"</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>\"silly str\"</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>\"sillystrin\"</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3350",
+          "type": "single",
+          "prompt": "<p>What will the output be for the following poorly formatted program segment, if the input value for <code>num</code> is 22?</p> <pre> int num = call to a method that reads an integer; if (num &gt; 0) if (num % 5 == 0) System.out.println(num); else System.out.println(num + \" is negative\"); </pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>22</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>4</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>2 is negative</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>22 is negative</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>Nothing will be output.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3351",
+          "type": "single",
+          "prompt": "<p>Which of the following will evaluate to true only if boolean expressions A, B, and C are all false?<code></code></p> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>!A &amp;&amp; !(B &amp;&amp; !C)</code><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>!A || !B || !C</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>!(A || B || C)</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>!(A &amp;&amp; B &amp;&amp; C)</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>!A || !(B || !C)</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3352",
+          "type": "single",
+          "prompt": "<p>Given that <code>a</code>, <code>b</code>, and <code>c</code> are integers, consider the boolean expression:</p> <pre> (a &lt; b) || !( (c == a * b) &amp;&amp; (c &lt; a) )</pre> <h3>Which of the following will guarantee that the expression is true?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>c &lt; a</code> is false.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>c &lt; a</code> is true.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>a &lt; b</code> is false.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>c == a * b</code> is true.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>c == a * b</code> is true, and <code>c &lt; a</code> is true.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3353",
+          "type": "single",
+          "prompt": "<p>Consider the following code segment:</p> <pre> int x = 7; int y = 3; if ((x &lt; 10) &amp;&amp; (y &lt; 0)) System.out.println(\"Value is: \" + x * y); else System.out.println(\"Value is: \" + x / y); </pre> <h3>What is printed as a result of executing the code segment?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>Value is: 21</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>Value is: 2.333333</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>Value is: 2</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>Value is: 0</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>Value is: 1</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3354",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre> /** Precondition: y &gt; 0 * x * y &lt; Integer.MAX_VALUE */ public int doCalculation(int x, int y) { int result = 0; if (x &gt; 0) { if (x % y == 0) { result = x * y; } } else { result = Math.abs(x); } return result; } </pre> <h3>Which of the following best describes the return value when the method is executed?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>The method returns the product of x and y when x is positive and greater than y;<br />otherwise it returns the absolute value of x.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>The method returns the product of x and y when x is positive and greater than y;<br />it returns the absolute value of x when x is negative, otherwise it returns 0.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>The method returns the product ofx and y when x is positive and a multiple of y, otherwise it returns 0.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>The method returns the product of x and y when x is positive and a multiple of y;<br />it returns the absolute value of x when x is negative,v otherwise it returns 0.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>The method always returns 0.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3357",
+          "type": "single",
+          "prompt": "<p>Consider the following methods:</p> <pre> public boolean checker1(int x, double y) { return ((x / 3) == (y / 3)); } public boolean checker2(double x, int y) { return ((x / 3) == (y / 3)); } </pre> <h3>Consider the following expression, which appears in a method in the same class as <code>checker1</code> and <code>checker2</code>:</h3> <pre> checker1(5, 5.0) == checker2(5.0, 5) </pre> <h3>Which of the following best describes the result when the expression is evaluated?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>The expression evaluates to <code>true</code> because both method calls return <code>true</code>.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>The expression evaluates to <code>true</code> because both method calls return <code>false</code>.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>The expression evaluates to <code>false</code> because the <code>checker1</code> method call returns <code>true</code> and the <code>checker2</code> method call returns <code>false</code>.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>The expression evaluates to <code>false</code> because the <code>checker1</code> method call returns <code>false</code> and the <code>checker2</code> method call returns <code>true</code>.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>The expression cannot be evaluated because a runtime error occurs.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3359",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre>/** Precondition: x &gt; 0, y &gt; 0 */ public boolean checkStuff(int x, int y) { return ((x % 10) == y); } </pre> <h3>Which of the following best describes the behavior of the method?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>It returns <code>true</code> when <code>x</code> is 10 times <code>y</code> and <code>false</code> otherwise.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>It returns <code>true</code> when <code>x</code> is 10 more than <code>y</code> and <code>false</code> otherwise.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>It returns <code>true</code> when <code>x</code> is 10 more than a multiple of <code>y</code> and <code>false</code> otherwise.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>It returns <code>true</code> when <code>y</code> is equal to the leftmost digit of <code>x</code> and <code>false</code> otherwise.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>It returns <code>true</code> when <code>y</code> is equal to the rightmost digit of <code>x</code> and <code>false</code> otherwise.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3360",
+          "type": "single",
+          "prompt": "<p>Given that <code>n</code> and <code>count</code> are both of type <code>int</code>, which statement is true about the following code segments?</p> <h3>I:</h3> <pre> for (count = 1; count &lt;= n; count++) System.out.println(count); </pre> <h3>II:</h3> <pre> count = 1; while (count &lt;= n) { System.out.println(count); count++; } </pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I and II are exactly equivalent for all input values <code>n</code>.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>I and II are exactly equivalent for all input values <code>n &ge; 1</code>, but differ when <code>n &le; 0</code>.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>I and II are exactly equivalent only when <code>n = 0</code>.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and II are exactly equivalent only when <code>n</code> is even.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I and II are not equivalent for any input values of <code>n</code>.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3361",
+          "type": "single",
+          "prompt": "<p>Which of the following program fragments will produce this output? (Ignore spacing.)</p> <pre> 2 - - - - - - 4 - - - - - - 6 - - - - - - 8 - - - - - - 10 - - - - - - 12 </pre> <h4>I</h4> <pre> for (int i = 1; i &lt;= 6; i++) { for (int k = 1; k &lt;= 6; k++) if (k == i) System.out.print(2 * k); else System.out.print(\"-\"); System.out.println(); } </pre> <h4>II</h4> <pre> for (int i = 1; i &lt;= 6; i++) { for (int k = 1; k &lt;= i - 1; k++) System.out.print(\"-\"); System.out.print(2 * i); for (int k = 1; k &lt;= 6 - i; k++) System.out.print(\"-\"); System.out.println(); } </pre> <h4>III</h4> <pre> for (int i = 1; i &lt;= 6; i++) { for (int k = 1; k &lt;= i - 1; k++) System.out.print(\"-\"); System.out.print(2 * i); for (int k = i + 1; k &lt;= 6; k++) System.out.print(\"-\"); System.out.println(); }</pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and II only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I, II, and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3362",
+          "type": "single",
+          "prompt": "<p>Consider the following code segment:</p> <pre> int count = 1; int value = 31; while (value &gt;= 10) { value = value - count; count = count + 3; } System.out.println(value); </pre> <h3>What is printed as a result of executing the code segment?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>4</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>9</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>10</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>13</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>31</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3363",
+          "type": "single",
+          "prompt": "<p>Which of the following code segments will print exactly eight \"$\" symbols?</p> <h4>I.</h4> <pre> for (int i = 0; i &lt; 8; i++) { System.out.print(\"$\"); } </pre> <h4>II.</h4> <pre> int i = 0; while (i &lt; 8) { System.out.print(\"$\"); i++; } </pre> <h4>III.</h4> <pre> for (int i = 7; i &lt;= 30; i += 3) { System.out.print(\"$\"); } </pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>I and II only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and III only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I, I, and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3364",
+          "type": "single",
+          "prompt": "<p>Which of the following three code segments will produce the same output?</p> <h4>I.</h4> <pre> int i = 1; while (i &lt; 12) { System.out.print(i + \" \"); i *= 2; } </pre> <h4>II.</h4> <pre> for (int i = 4; i &gt; 0; i--) { System.out.print((4 - i) * 2 + 1 + \" \"); } </pre> <h4>III.</h4> <pre> for (int i = 0; i &lt; 4; i++) { System.out.print((int)Math.pow(2, i) + \" \"); } </pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I and II only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II and III only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>I and III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I, II, and III</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>All three outputs are different.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3365",
+          "type": "single",
+          "prompt": "<p>Consider the following loop, where <code>n</code> is some positive integer:</p> <pre> for (int i = 0; i &lt; n; i += 2) { if (/* test */) /* perform some action */ } </pre> <h3>In terms of <code>n</code>, which Java expression represents the maximum number of times that <code>/* perform some action */</code> could be executed?<code></code></h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>n / 2</code><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>(n + 1) / 2</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>n</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>n - 1</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>(n - 1) / 2</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3366",
+          "type": "single",
+          "prompt": "<p>Consider the following code segment:</p> <pre> int x = 1; while (/* missing code */) { System.out.print(x + \" \"); x = x + 2; } </pre> <h3>Consider the following possible replacements for <code>/* missing code */</code>.</h3> <ul> <li>I. <code>x &lt; 6</code></li> <li>II. <code>x != 6</code></li> <li>III. <code>x &lt; 7</code></li> </ul> <h3>Which of the proposed replacements for <code>/* missing code */</code> will cause the code segment to print only the values 1 3 5?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>I and II only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and III only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I, II, and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3367",
+          "type": "single",
+          "prompt": "<p>Consider the following code segment, which is intended to print the sum of the first twenty positive even integers, beginning with 2.</p> <pre> int evenSum = 0; int val = 2; while (/* missing condition */) { evenSum += val; val += 2; } System.out.println(evenSum); </pre> <h3>Which of the following expressions can replace <code>/* missing condition */</code> so that the code segment works as intended?</h3> <ul> <li>I. <code>val &lt;= 20</code></li> <li>II. <code>val &lt;= 40</code></li> <li>III. <code>val &lt; 41</code></li> </ul> <p> </p> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and II</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>II and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3368",
+          "type": "single",
+          "prompt": "<p>Which of the following is a valid constructor declaration for the <code>Cube</code> class?</p> <ul> <li>I. <code>public static Cube()</code></li> <li>II. <code>public void Cube()</code></li> <li>III. <code>public Cube()</code></li> <li>IV. <code>public Cube(int side)</code></li> </ul> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and II only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>III and IV only</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3369",
+          "type": "single",
+          "prompt": "<p>Consider the following class definition:</p> <pre> public class Example { private int x; // Constructor not shown. } </pre> <h3>Which of the following is a correct header for a method of the <code>Example</code> class that would return the value of the <code>private</code> instance variable <code>x</code> so that it can be used in a class other than <code>Example</code>?<code></code></h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>private int getX()</code><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>private void getX()</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>public int getX()</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>public void getX()</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>public void getX(int x)</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3370",
+          "type": "single",
+          "prompt": "<p>What output will be produced by this program?</p> <pre> public class Mystery { public static void strangeMethod(int x, int y) { x += y; y *= x; System.out.println(x + \" \" + y); } public static void main(String[] args) { int a = 6, b = 3; strangeMethod(a, b); System.out.println(a + \" \" + b); } }</pre>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>36</p> <p>9</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>3 6</p> <p>9</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>9 27</p> <p>9 27</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>6 3</p> <p>9 27</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>9 27</p> <p>6 3</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3371",
+          "type": "single",
+          "prompt": "<p>Refer to the following code segment. You may assume that <code>arr</code> is an array of <code>int</code> values.</p> <pre> int sum = arr[0], i = 0; while (i &lt; arr.length) { i++; sum += arr[i]; } </pre> <h3>Which of the following will be the result of executing the segment?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>Sum of <code>arr[0], arr[1], ..., arr[arr.length-1]</code> will be stored in <code>sum</code>.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>Sum of <code>arr[1], arr[2], ..., arr[arr.length-1]</code> will be stored in <code>sum</code>.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>Sum of <code>arr[0], arr[1], ..., arr[arr.length]</code> will be stored in <code>sum</code>.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>An infinite loop will occur.</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>A run-time error will occur.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3372",
+          "type": "single",
+          "prompt": "<p>Consider the following code segment:</p> <pre> int[] arr = {1, 2, 3, 4, 5, 6, 7}; for (int k = 3; k &lt; arr.length - 1; k++) arr[k] = arr[k + 1]; </pre> <h3>Which of the following represents the contents of <code>arr</code> as a result of executing the code segment?<code></code></h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>{1, 2, 3, 4, 5, 6, 7}</code></p> <p><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>{1, 2, 3, 5, 6, 7}</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>{1, 2, 3, 5, 6, 7, 7}</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>{1, 2, 3, 5, 6, 7, 8}</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>{2, 3, 4, 5, 6, 7, 7}</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3373",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre> public void mystery(int[] data) { for (int k = 0; k &lt; data.length - 1; k++) data[k + 1] = data[k] + data[k + 1]; } </pre> <h3>The following code segment appears in another method in the same class:</h3> <pre> int[] values = {5, 2, 1, 3, 8}; mystery(values); for (int v : values) System.out.print(v + \" \"); System.out.println(); </pre> <h3>What is printed as a result of executing the code segment?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>5 2 3 1 8</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>5 7 3 4 11</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>5 7 8 11 19</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>7 3 4 11 8</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>Nothing is printed because an <code>ArrayIndexOutOfBoundsException</code> is thrown during the execution of method <code>mystery</code>.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3374",
+          "type": "single",
+          "prompt": "<p>Consider the following method, which is intended to return the maximum integer value contained in <code>ranges</code>.</p> <pre> public int findMaxValue(int[] ranges) { int max = 0; for (int value : ranges) { if (value &gt; max) { max = value; } } return max; } </pre> <h3>The method does not always work as intended. Which of the following initializations for <code>ranges</code> can be used to show that <code>findMaxValue</code> does not work as intended?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>An array containing consecutive integers from <code>-75 to -25</code>, inclusive</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>An array containing consecutive integers from <code>-50 to 0</code>, inclusive</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>An array containing consecutive integers from <code>-25 to 25</code>, inclusive</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>An array containing consecutive integers from <code>0 to 50</code>, inclusive</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>An array containing consecutive integers from <code>25 to 75</code>, inclusive</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3375",
+          "type": "single",
+          "prompt": "<p>Assume that <code>cities</code> is an <code>ArrayList&lt;String&gt;</code> that has been correctly constructed and populated with the following items:</p> <pre>[\"Oakland\", \"Chicago\", \"Milwaukee\", \"Seattle\", \"Denver\", \"Boston\"]</pre> <h3>Consider the following code segment:</h3> <pre> cities.remove(2); cities.add(\"Detroit\"); cities.remove(4); cities.add(\"Cleveland\"); </pre> <h3>What items does <code>cities</code> contain after executing the code segment?</h3> <p><code></code></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>[\"Cleveland\", \"Detroit\", \"Oakland\", \"Chicago\", \"Seattle\", \"Denver\", \"Boston\"]</code></p> <p><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>[\"Oakland\", \"Milwaukee\", \"Seattle\", \"Boston\", \"Detroit\", \"Cleveland\"]</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>[\"Oakland\", \"Chicago\", \"Seattle\", \"Boston\", \"Detroit\", \"Cleveland\"]</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>[\"Oakland\", \"Milwaukee\", \"Denver\", \"Boston\", \"Detroit\"]</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>[\"Oakland\", \"Chicago\", \"Seattle\", \"Denver\", \"Detroit\", \"Cleveland\"]</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3376",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre> public void indirect(ArrayList&lt;Integer&gt; aList) { for (int i = 0; i &lt; aList.size(); i++) { if (aList.get(aList.get(i)) == i) { aList.set(i, 5); } else { aList.set(i, 6); } } } </pre> <h3>The <code>indirect</code> method is called with an <code>ArrayList</code> containing the values <code>3, 2, 1, 0</code>, in that order. Which of the following represents the contents of the <code>ArrayList</code> after executing the method?</h3>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>[6, 6, 6, 6]</code><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>[6, 6, 5, 5]</code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>[5, 6, 5, 6]</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>[5, 5, 6, 6]</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>[5, 5, 5, 5]</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3377",
+          "type": "single",
+          "prompt": "<p>Consider the following method that will alter the matrix <code>mat</code>:</p> <pre> /** * @param mat the initialized matrix * @param row the row number */ public static void matStuff(int[][] mat, int row) { int numCols = mat[0].length; for (int col = 0; col &lt; numCols; col++) mat[row][col] = row; } </pre> <h3>Suppose <code>mat</code> is originally:</h3> <pre> 1 4 9 0 2 7 8 6 5 1 4 3 </pre> <h3>After the method call <code>matStuff(mat, 2)</code>, matrix <code>mat</code> will be:</h3> <p><code></code></p> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>1 4 9 0</code><br /><code>2 7 8 6</code><br /><code>2 2 2 2</code></p> <p><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>1 4 9 0</code><br /><code>2 2 2 2</code><br /><code>5 1 4 3</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>2 2 2 2</code><br /><code>2 2 2 2</code><br /><code>2 2 2 2</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>1 4 2 0</code><br /><code>2 7 6 2</code><br /><code>1 2 3 3</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>1 2 9 0</code><br /><code>2 8 6 6</code><br /><code>5 2 4 3</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3378",
+          "type": "single",
+          "prompt": "<p>Consider the following method of the <code>MatrixOp</code> class (not shown). The <code>MatrixOp</code> class instance variable <code>mat</code> has been properly declared and initialized as a two-dimensional <code>int</code> array with 20 rows and 20 columns. Each element of <code>mat</code> has the value 1.</p> <pre> public void doUnknown(int intended) { for (int r = 1; r &lt; mat.length; r++) { for (int c = 0; c &lt; mat[0].length; c++) { mat[r][c] += mat[r - 1][c]; } } for (int j = 0; j &lt; 5; j++) { System.out.print(mat[j][intended] + \" \"); } } </pre> <h3>Assume that the contents of <code>mat</code> have not changed since its initialization. What is printed when the <code>doUnknown</code> method is called with parameter 7?<code></code></h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>1 2 3 4 5</code></p> <p><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>1 3 6 10 15</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>2 2 2 2 2</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>8 8 8 8 8</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>8 9 10 11 12</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3379",
+          "type": "single",
+          "prompt": "<p>Consider the following methods, which appear in a single class:</p> <pre> public int processArray(String[][] arr) { int result = 0; for (int i = 0; i &lt; arr.length; i++) { result += rowCheck(arr[i]); } return result; } public int rowCheck(String[] rowArr) { int maxLength = 0; for (int k = 0; k &lt; rowArr.length; k++) { if (rowArr[k].length() &gt; maxLength) { maxLength = rowArr[k].length(); } } return maxLength; } </pre> <h3>The two-dimensional <code>String</code> array <code>inputArr</code> is properly declared and initialized to have three rows and two columns. The following shows the contents of <code>inputArr</code>:</h3> <pre> {{\"hat\", \"hop\"}, {\"paper\", \"plan\"}, {\"bark\", \"bat\"}} </pre> <h3>Which of the following values is returned when the <code>processArray</code> method is called with the parameter <code>inputArr</code>?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>5</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>9</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>10</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>12</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>22</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3380",
+          "type": "single",
+          "prompt": "<p>Consider the code fragment:</p> <pre> Object intObj = new Integer(9); System.out.println((String) intObj); </pre> <h3>What will be output as a result of running the fragment?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>No output. A <code>ClassCastException</code> will be thrown.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>No output. An <code>ArithmeticException</code> will be thrown.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>9</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>\"9\"</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>nine</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3381",
+          "type": "single",
+          "prompt": "<p>Consider the following class hierarchy:</p> <pre> public class BankAccount { private double balance; public BankAccount() { balance = 0; } public BankAccount(double acctBalance) { balance = acctBalance; } public void deposit(double amount) { balance += amount; } public void withdraw(double amount) { balance -= amount; } public double getBalance() { return balance; } } public class SavingsAccount extends BankAccount { private double interestRate; public SavingsAccount() { /* implementation not shown */ } public SavingsAccount(double acctBalance, double rate) { /* implementation not shown */ } public void addInterest() // Add interest to balance { /* implementation not shown */ } } public class CheckingAccount extends BankAccount { private static final double FEE = 2.0; private static final double MIN_BALANCE = 50.0; public CheckingAccount(double acctBalance) { /* implementation not shown */ }<br /> /** FEE of $2 deducted if withdrawal leaves balance less * than MIN_BALANCE. Allows for negative balance. */ public void withdraw(double amount) { /* implementation not shown */ } } </pre> <p></p> <h3>Which of the following correctly implements the default constructor of the <code>SavingsAccount</code> class?</h3> <pre> I interestRate = 0; super(); </pre> <pre> II super(); interestRate = 0; </pre> <pre> III super(); </pre>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>II only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>I and II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>II and III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>III only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I, II, and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3382",
+          "type": "single",
+          "prompt": "<p>Consider the following class hierarchy:</p> <pre> public class BankAccount { private double balance; public BankAccount() { balance = 0; } public BankAccount(double acctBalance) { balance = acctBalance; } public void deposit(double amount) { balance += amount; } public void withdraw(double amount) { balance -= amount; } public double getBalance() { return balance; } } public class SavingsAccount extends BankAccount { private double interestRate; public SavingsAccount() { /* implementation not shown */ } public SavingsAccount(double acctBalance, double rate) { /* implementation not shown */ } public void addInterest() // Add interest to balance { /* implementation not shown */ } } public class CheckingAccount extends BankAccount { private static final double FEE = 2.0; private static final double MIN_BALANCE = 50.0; public CheckingAccount(double acctBalance) { /* implementation not shown */ }<br /> /** FEE of $2 deducted if withdrawal leaves balance less * than MIN_BALANCE. Allows for negative balance. */ public void withdraw(double amount) { /* implementation not shown */ } } </pre> <p> </p> <p></p> <h3>Redefining the <code>withdraw</code> method in the <code>CheckingAccount</code> class is an example of</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>method overloading.</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>method overriding.</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>downcasting.</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>dynamic binding (late binding).</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>static binding (early binding).</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3383",
+          "type": "single",
+          "prompt": "<p>Consider the following two classes:</p> <pre> public class Bird { public void act() { System.out.print(\"fly \"); makeNoise(); } public void makeNoise() { System.out.print(\"chirp \"); } } public class Dove extends Bird { public void act() { super.act(); System.out.print(\"waddle \"); } public void makeNoise() { super.makeNoise(); System.out.print(\"coo \"); } } </pre> <h3>Suppose the following declaration appears in a class other than <code>Bird</code> or <code>Dove</code>:</h3> <pre> Bird pigeon = new Dove(); </pre> <h3>What is printed as a result of the call <code>pigeon.act()</code>?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>fly</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>fly chirp</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>fly chirp waddle</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>fly chirp waddle coo</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>fly chirp coo waddle</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3384",
+          "type": "single",
+          "prompt": "<p>Which of the following, when used as the <code>/* body */</code> of method <code>sum</code>, will enable that method to compute 1 + 2 + ... + <em>n</em> correctly for any n &gt; 0?</p> <pre> /** @param n a positive integer * @return 1 + 2 + ... + n */ public int sum(int n) { /* body */ } </pre> <pre> I return n + sum(n - 1); </pre> <pre> II if (n == 1) return 1; else return n + sum(n - 1); </pre> <pre> III if (n == 1) return 1; else return sum(n) + sum(n - 1); </pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>I only</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>II only</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>III only</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>I and II only</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>I, II, and III</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3385",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre> public void doSomething(int n) { if (n &gt; 0) { doSomething(n - 1); System.out.print(n); doSomething(n - 1); } } </pre> <h3>What would be output following the call <code>doSomething(3)</code>?</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>3211211</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>1121213</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>1213121</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>1211213</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>1123211</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3386",
+          "type": "single",
+          "prompt": "<p>Consider the following class:</p> <pre> /** A class that sorts an array of Integer objects from * largest to smallest using a selection sort. */ public class Sorter { private Integer[] a; public Sorter(Integer[] arr) { a = arr; } /** Swap a[i] and a[j] in array a. */ private void swap(int i, int j) { /* implementation not shown */ } /** Sort array a from largest to smallest using selection sort. * Precondition: a is an array of Integer objects. */ public void selectionSort() { for (int i = 0; i &lt; a.length - 1; i++) { // find max element in a[i+1] to a[n-1] Integer max = a[i]; int maxPos = i; for (int j = i + 1; j &lt; a.length; j++) if (max.compareTo(a[j]) &lt; 0) // max less than a[j] { max = a[j]; maxPos = j; } swap(i, maxPos); // swap a[i] and a[maxPos] } } } </pre> <h3>If an array of Integer contains the following elements, what would the array look like after the third pass of <code>selectionSort</code>, sorting from high to low?</h3> <pre> 89 42 -3 13 109 70 2</pre> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>109 89 70 13 42 -3 2</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>109 89 70 42 13 2 -3</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>109 89 70 -3 2 13 42</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>89 42 13 -3 109 70 2</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>109 89 42 -3 13 70 2</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3387",
+          "type": "single",
+          "prompt": "<p>Consider the following method:</p> <pre> public static int mystery(int[] array, int a) { int low = 0; int high = array.length - 1; while (low &lt;= high) { int mid = (high + low) / 2; if (a &lt; array[mid]) high = mid - 1; else if (a &gt; array[mid]) low = mid + 1; else return mid; } return -1; } </pre> <h3>The algorithm implemented by the method can best be described as:</h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p>Insertion Sort</p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p>Selection Sort</p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p>Binary Search</p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p>Merge Sort</p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p>Sequential Sort</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3388",
+          "type": "single",
+          "prompt": "<p>Consider the following class declarations:</p> <pre> public class Beverage { public String getSize() { /* implementation not shown public String getType() { /* implementation not shown */ } } public class Coffee extends Beverage { public boolean isDecaf() { /* implementation not shown */ } } public class Juice extends Beverage { public int getFlavor() { /* implementation not shown */ } public String getSize() { /* implementation not shown */ } } </pre> <h3>Consider the following code segment that appears in a class other than <code>Beverage</code>, <code>Coffee</code>, or <code>Juice</code>:</h3> <pre> Coffee c = new Coffee(); Juice j = new Juice(); /* missing code */ </pre> <h3>Which of the following replacements for <code>/* missing code */</code> will cause a compile-time error?<code></code></h3> <p id=\"result\"> </p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "A. <p><code>boolean d = c.isDecaf();</code><code></code></p>"
+            },
+            {
+              "key": "B",
+              "content": "B. <p><code>int f = c.getFlavor();</code><code></code></p>"
+            },
+            {
+              "key": "C",
+              "content": "C. <p><code>int f = j.getFlavor();</code><code></code></p>"
+            },
+            {
+              "key": "D",
+              "content": "D. <p><code>String s = c.getSize();</code></p>"
+            },
+            {
+              "key": "E",
+              "content": "E. <p><code>String t = j.getType();</code></p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31285",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31285",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10866",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11060",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11345",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

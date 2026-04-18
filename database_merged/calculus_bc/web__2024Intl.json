@@ -1,0 +1,731 @@
+{
+  "examId": "2024Intl",
+  "title": "AP 微积分BC 2024年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2024",
+  "description": "AP 微积分BC 2024年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2024Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "$\\frac{d}{d x}\\left(\\left(x^{2}-11 x+24\\right)^{7}\\right)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$7(2 x-11)^{6}$"
+            },
+            {
+              "key": "B",
+              "content": "$7(2 x-11)^{6}\\left(x^{2}-11 x+24\\right)$"
+            },
+            {
+              "key": "C",
+              "content": "$7\\left(x^{2}-11 x+24\\right)^{6}$"
+            },
+            {
+              "key": "D",
+              "content": "$7\\left(x^{2}-11 x+24\\right)^{6}(2 x-11)$\n$$\nf(x)= \\begin{cases}x^{3} & \\text { for } x2\\end{cases}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "If the function $f$ is defined as shown, then $f$ is differentiable for",
+          "options": [
+            {
+              "key": "A",
+              "content": "all values of $x$"
+            },
+            {
+              "key": "B",
+              "content": "all values of $x$ except $x=0$"
+            },
+            {
+              "key": "C",
+              "content": "all values of $x$ except $x=2$"
+            },
+            {
+              "key": "D",
+              "content": "all values of $x$ except $x=0$ and $x=2$\n![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=433&width=526&top_left_y=296&top_left_x=715)\n\nD"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "The graph of $f^{\\prime}$, the derivative of the function $f$, is shown. Which of the following could be the graph of $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=385&width=394&top_left_y=847&top_left_x=340)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=387&width=389&top_left_y=845&top_left_x=941)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=383&width=394&top_left_y=1338&top_left_x=344)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=387&width=387&top_left_y=1334&top_left_x=943)\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAA AA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "If $a$ is a nonzero constant, then $\\lim _{x \\rightarrow a} \\frac{x-a}{a^{2}-x^{2}}$ is $$ =\\lim _{x \\rightarrow a} \\frac{x-9}{(a+x)(a-x)}=\\lim _{x \\rightarrow a}-\\frac{1}{x+a} $$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$-\\frac{1}{2 a}$"
+            },
+            {
+              "key": "C",
+              "content": "$-\\frac{1}{a}$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent\n![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-05.jpg?height=687&width=687&top_left_y=335&top_left_x=638)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "The figure shown is a slope field for which of the following differential equations?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{d y}{d x}=\\frac{y^{2}}{(x-2)^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{d y}{d x}=\\frac{1}{(x-2)^{3}}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{d y}{d x}=\\frac{1}{(x+2)^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{d y}{d x}=\\frac{1}{(x-2)^{2}}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAANA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "For $x \\geq 0$, the function $g$ is continuous and $g(x)>0$. If the area bounded by the graph of $y=g(x)$ and I'se $x$-axis from $x=0$ to $x=2$ is 3 , what is the average value of $g$ on the interval $[0,2]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{2}{3}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{3}{2}$"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "3\n$$\n\\int_{0}^{2} g(x) d x=3\n$$\n\n\\begin{tabular}{|c||c|c|c|c|c|c|}\n\\hline$x$ & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\hline$f^{\\prime}(x)$ & 1 & -2 & 3 & 0 & 5 & 0 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "$\\lim _{h \\rightarrow 0} \\frac{e^{-(1+h)}-e^{-(1)}}{h}$ is $\\left.\\left(e^{-x}\\right)^{\\prime}\\right|_{x=1}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-\\frac{1}{e}$"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{e}$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined by $f(x)=\\sin \\left(x^{2}\\right)$. What are the first three nonzero terms of the Maclaurin series for $f^{\\prime}$, the derivative of $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-2 x^{3}+\\frac{x^{7}}{3}-\\frac{x^{11}}{60}$"
+            },
+            {
+              "key": "B",
+              "content": "$1-\\frac{x^{4}}{2}+\\frac{x^{8}}{24}$"
+            },
+            {
+              "key": "C",
+              "content": "$2 x-x^{5}+\\frac{x^{9}}{12}$\n$$\n\\begin{aligned}\n& \\sin x=x-\\frac{x^{3}}{3!}+\\frac{x^{5}}{5!}- \\\\\n& f(x)=\\sin \\left(x^{2}\\right)=x^{2}-\\frac{x^{6}}{3!}+\\frac{x^{10}}{5!} \\\\\n& f^{\\prime}(x)=2 x-\\frac{6}{3!} x^{5}+\\frac{10}{5!} x^{9}\n\\end{aligned}\n$$"
+            },
+            {
+              "key": "D",
+              "content": "$2 x+2 x^{3}+x^{5}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "For time $t>0$, the position of a particle moving along a curve is given by $(x(t), y(t))$, where $x(t)$ and $y(t)$ are differentiable functions of $t$. An equation of the line tangent to the curve at the point where $t=1$ is $y=4+3 x$. If $x^{\\prime}(t)=12 \\sin \\left(\\frac{\\pi t}{2}\\right)$, what is the value of $y^{\\prime}(1)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3"
+            },
+            {
+              "key": "B",
+              "content": "4"
+            },
+            {
+              "key": "C",
+              "content": "36"
+            },
+            {
+              "key": "D",
+              "content": "40\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=3 \\\\\n& x^{\\prime}(1)=\\left(2 \\cdot \\sin \\left(\\frac{\\pi}{2}\\right)=12\\right. \\\\\n& y^{\\prime}(1)=36\n\\end{aligned}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "A cell phone was plugged into a charger. The battery life of the cell phone, in percent of battery life remaining, can be modeled by a differentiable function $P(t)$, where $t$ is the number of minutes after the phone was plugged into the charger and $0 \\leq t \\leq 20$. Which of the following is the best interpretation of $P^{\\prime}(10)=1.5$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Ten minutes after the phone was plugged into the charger, the battery life was changing at a rate of 1.5 percent per minute."
+            },
+            {
+              "key": "B",
+              "content": "Ten minutes after the phone was plugged into the charger, the rate of change in the battery life was changing by 1.5 percent per minute per minute."
+            },
+            {
+              "key": "C",
+              "content": "During the first ten minutes that the phone was plugged into the charger, the battery life of the phone was changing at an average rate of 1.5 percent per minute."
+            },
+            {
+              "key": "D",
+              "content": "During the first ten minutes that the phone was plugged into the charger, the rate of change in the battery life was changing at an average rate of 1.5 percent per minute per minute."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "电场/电荷"
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "What are all values of $x$ for which the series $\\sum_{n=0}^{\\infty}(-1)^{n}(3 x+1)^{n}$ converges?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-\\frac{1}{3} \\leq x"
+            },
+            {
+              "key": "B",
+              "content": "$-\\frac{1}{3}"
+            },
+            {
+              "key": "C",
+              "content": "$-\\frac{2}{3} \\leq x"
+            },
+            {
+              "key": "D",
+              "content": "$-\\frac{2}{3}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "For $-4 \\leq x \\leq 6$, the graph of the function $f$ is piecewise linear, as shown. If $g(x)=\\int_{0}^{x} f(t) d t$, what values of $x$ in the closed interval $-4 \\leq x \\leq 6$ satisfy the equation $g(x)=0 ?$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 only"
+            },
+            {
+              "key": "B",
+              "content": "0, 2, and 6 only"
+            },
+            {
+              "key": "C",
+              "content": "$-2,1$, and 4"
+            },
+            {
+              "key": "D",
+              "content": "$-4,-2,0,2$, and 6"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "A particle moves in the $x y$-plane so that its position at any time $t,-10 \\leq t \\leq 10$, is given by the parametric equations $x(t)=t^{4}-4 t^{3}+3$ and $y(t)=t^{3}-27 t+26$. For what values of $t$ is the particle at rest?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3 only"
+            },
+            {
+              "key": "B",
+              "content": "-3 and 3 only"
+            },
+            {
+              "key": "C",
+              "content": "0 and 3 only"
+            },
+            {
+              "key": "D",
+              "content": "$-3,0$, and 3\n```\n$V=0$\n$\\frac{d y}{d t}=3 t^{2}-27$\n```"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "Let $f$ and $g$ be twice-differentiable functions such that $\\lim _{x \\rightarrow \\infty} f(x)=\\infty, \\lim _{x \\rightarrow \\infty} g(x)=\\infty, \\lim _{x \\rightarrow \\infty} f^{\\prime}(x)=8$, and C $\\lim _{x \\rightarrow \\infty} g^{\\prime}(x)=2$. What is $\\lim _{x \\rightarrow \\infty}\\left(\\frac{f(x)}{g(x)}+6\\right) ?=\\lim _{x \\rightarrow 0}^{x \\rightarrow \\infty} \\frac{f^{\\prime}(x)}{q^{\\prime}(x)}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "4"
+            },
+            {
+              "key": "B",
+              "content": "7"
+            },
+            {
+              "key": "C",
+              "content": "10"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=2 x(y-x)$ with the initial condition $f(1)=0$.  What is the approximation for $f(0)$ if Euler's method is used, starting at $x=1$ with two steps of equal size?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-\\frac{9}{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-\\frac{7}{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{3}{4}$"
+            },
+            {
+              "key": "D",
+              "content": "2"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "$\\int_{3}^{5} \\frac{x}{x^{2}-9} d x$ is $\\quad \\frac{1}{2} \\ln 16-\\frac{1}{2} \\ln 0$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{2} \\ln \\left(\\frac{5}{3}\\right)$"
+            },
+            {
+              "key": "B",
+              "content": "$\\ln \\left(\\frac{5}{3}\\right)$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{2} \\ln (16)$"
+            },
+            {
+              "key": "D",
+              "content": "divergent\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}\n![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-13.jpg?height=499&width=458&top_left_y=278&top_left_x=756)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Which of the following is the solution to the differential equation $\\frac{d y}{d x}=x(y-2)$ with the initial condition $y(2)=3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$y=2-e^{\\left(x^{2} / 2\\right)-2}$"
+            },
+            {
+              "key": "B",
+              "content": "$y=2+e^{\\left(x^{2} / 2\\right)-2}$"
+            },
+            {
+              "key": "C",
+              "content": "$y=2+e^{2-\\left(x^{2} / 2\\right)}$"
+            },
+            {
+              "key": "D",
+              "content": "$y=3-e^{2}+e^{x^{2} / 2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "$\\int_{0}^{\\sqrt{\\pi} / 2} x \\cos \\left(x^{2}\\right) d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-\\frac{\\sqrt{2}}{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-\\frac{\\sqrt{2}}{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{\\sqrt{2}}{4}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{\\sqrt{2}}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The first derivative of the function $f$ is given by $f^{\\prime}(x)=4 x-8$. At what value of $x$ does $f$ attain an absolute maximum on the closed interval $[0,3]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{3}{2}$"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "3"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "$\\int x^{2} e^{2 x} d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{2} x^{2} e^{2 x}-\\frac{1}{2} x e^{2 x}+\\frac{1}{4} e^{2 x}+C$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{2} x^{2} e^{2 x}+\\frac{1}{2} x e^{2 x}+\\frac{1}{4} e^{2 x}+C$"
+            },
+            {
+              "key": "C",
+              "content": "$x^{2} e^{2 x}-2 x e^{2 x}+2 e^{2 x}+C$"
+            },
+            {
+              "key": "D",
+              "content": "$2 x^{2} e^{2 x}-8 x e^{2 x}+16 e^{2 x}+C$\n$$\nf(x)= \\begin{cases}\\frac{\\tan (5 x)}{x} & \\text { for } x \\neq 0 \\\\ b & \\text { for } x=0\\end{cases}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined as shown. For what value of $b$ is $f$ continuous at $x=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{5}$"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "5\n$$\nf(0)=0 \\quad \\lim _{x \\rightarrow-1} f(x)=\\frac{2}{5} \\quad \\lim _{x \\rightarrow-1} \\frac{f(x)-f(-1)}{x+1}=-\\frac{3}{5}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "The function $f$ satisfies the properties shown. What is the slope of the line tangent to the graph of $f$ at $x=-1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-\\frac{3}{5}$"
+            },
+            {
+              "key": "B",
+              "content": "$-\\frac{2}{5}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{2}{5}$"
+            },
+            {
+              "key": "D",
+              "content": "1\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "Which of the following series diverges by the $n$th term test?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{n^{2}+\\sin n}{3 n^{2}+1}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{\\cos (n \\pi)}{n}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{n^{2}}{n^{3}+1}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{3 n+1}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(\\frac{1}{2+\\frac{k}{2 n}} \\cdot \\frac{1}{n}\\right)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\int_{0}^{1 / 2} \\frac{1}{2+\\frac{x}{2}} d x$"
+            },
+            {
+              "key": "B",
+              "content": "$\\int_{0}^{1 / 2} \\frac{1}{2+x} d x$"
+            },
+            {
+              "key": "C",
+              "content": "$\\int_{0}^{1} \\frac{1}{2+\\frac{x}{2}} d x$"
+            },
+            {
+              "key": "D",
+              "content": "$\\int_{0}^{1} \\frac{1}{2+x} d x$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "If $f$ is the function defined by $f(x)=\\int_{5}^{x^{3}} \\tan (t) d t$, then $f^{\\prime}(x)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\sec ^{2}\\left(x^{3}\\right)$"
+            },
+            {
+              "key": "B",
+              "content": "$\\tan \\left(x^{3}\\right)$"
+            },
+            {
+              "key": "C",
+              "content": "$3 x^{2} \\sec ^{2}\\left(x^{3}\\right)$"
+            },
+            {
+              "key": "D",
+              "content": "$3 x^{2} \\tan \\left(x^{3}\\right)$\n$$\n\\sec ^{2}\\left(x^{3}\\right) \\cdot 3 x^{2}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "$\\int \\frac{1}{x^{2}-4 x+3} d x=\\quad \\frac{A}{x+1}+\\frac{B}{x-3}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\ln \\left|x^{2}-4 x+3\\right|+C$"
+            },
+            {
+              "key": "A",
+              "content": "$\\ln \\left|x^{2}-4 x+3\\right|+C$"
+            },
+            {
+              "key": "B",
+              "content": "$\\ln |x-3|-\\ln |x-1|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{2} \\ln |x-3|-\\frac{1}{2} \\ln |x-1|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$2 \\ln |x-3|-2 \\ln |x-1|+C$\n\n\\section*{END OF PART-A}\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON-PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{B B B B B B B B B}\n\n\\section*{"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        }
+      ]
+    }
+  ]
+}

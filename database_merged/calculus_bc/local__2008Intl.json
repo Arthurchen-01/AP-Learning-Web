@@ -1,0 +1,1475 @@
+{
+  "examId": "2008Intl",
+  "title": "AP Calculus BC 2008年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2008",
+  "description": "AP Calculus BC 2008年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 45,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "single",
+          "prompt": "If $f(x)=3 x-2{2 x+3}$, then $f^{}(x)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-13{(2 x+3)^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$3{(2 x+3)^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$5{(2 x+3)^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$13{(2 x+3)^{2}}$\n(E) $12 x+5{(2 x+3)^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "101",
+          "type": "single",
+          "prompt": "A particle moves along the $x$-axis so that at any time $t 0$, its velocity is given by $v(t)= (2 t)$. If the position of the particle at time $t={2}$ is $x=4$, what is the particle's position at time $t=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{2}$"
+            },
+            {
+              "key": "B",
+              "content": "2"
+            },
+            {
+              "key": "C",
+              "content": "3"
+            },
+            {
+              "key": "D",
+              "content": "5\n(E) 8"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "102",
+          "type": "single",
+          "prompt": "What is the value of $_{n=0}^{}(-2{3})^{n}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "$-2{5}$"
+            },
+            {
+              "key": "C",
+              "content": "$3{5}$"
+            },
+            {
+              "key": "D",
+              "content": "3\n(E) The series diverges."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "103",
+          "type": "single",
+          "prompt": "For values of $h$ very close to 0 , which of the following functions best approximates\n$$\nf(x)= (x+h)- x{h} ?\n$$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ x$"
+            },
+            {
+              "key": "B",
+              "content": "$ x{x}$"
+            },
+            {
+              "key": "C",
+              "content": "$ x{x}$"
+            },
+            {
+              "key": "D",
+              "content": "$ x$\n(E) $ ^{2} x$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "104",
+          "type": "single",
+          "prompt": "The length of the curve $y=x^{4}$ from $x=1$ to $x=5$ is given by",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{1}^{5} 1+4 x^{3} d x$"
+            },
+            {
+              "key": "B",
+              "content": "$_{1}^{5} 1+x^{4} d x$"
+            },
+            {
+              "key": "C",
+              "content": "$_{1}^{5} 1+4 x^{6} d x$"
+            },
+            {
+              "key": "D",
+              "content": "$_{1}^{5} 1+16 x^{6} d x$\n(E) $_{1}^{5} 1+x^{8} d x$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "105",
+          "type": "single",
+          "prompt": "$ e^{x}{1+e^{x}} d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ (1{e^{x}}+1)+C$"
+            },
+            {
+              "key": "B",
+              "content": "$ (1+e^{x})+C$"
+            },
+            {
+              "key": "C",
+              "content": "$x- (1+e^{x})+C$"
+            },
+            {
+              "key": "D",
+              "content": "$e^{x}+x+C$\n(E) $ ^{-1}(e^{x})+C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "106",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $d y{d x}=x-y-1$ with the initial condition $f(1)=-2$. What is the approximation for $f(1.4)$ if Euler's method is used, starting at $x=1$ with two steps of equal size?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "-1.24"
+            },
+            {
+              "key": "C",
+              "content": "-1.2"
+            },
+            {
+              "key": "D",
+              "content": "-0.64\n(E) 0.2\n\n|$x$ & 0 & 2 & 4 & 6 \\\\ |$f(x)$ & 4 & $k$ & 8 & 12 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "107",
+          "type": "single",
+          "prompt": "The function $f$ is continuous on the closed interval $[0,6]$ and has the values given in the table above. The trapezoidal approximation for $_{0}^{6} f(x) d x$ found with 3 subintervals of equal length is 52 . What is the value of $k$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "6"
+            },
+            {
+              "key": "C",
+              "content": "7"
+            },
+            {
+              "key": "D",
+              "content": "10\n(E) 14"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "108",
+          "type": "single",
+          "prompt": "The function $f$ is twice differentiable, and the graph of $f$ has no points of inflection. If $f(6)=3, f^{}(6)=-1{2}$, and $f^{ }(6)=-2$, which of the following could be the value of $f(7)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "5"
+            },
+            {
+              "key": "C",
+              "content": "9"
+            },
+            {
+              "key": "D",
+              "content": "3\n(E) 4"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "109",
+          "type": "single",
+          "prompt": "A function $f$ has Maclaurin series given by $1+x^{2}{2!}+x^{4}{4!}+x^{6}{6!}++x^{2 n}{(2 n)!}+$. Which of the following is an expression for $f(x)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ x$"
+            },
+            {
+              "key": "B",
+              "content": "$e^{x}- x$"
+            },
+            {
+              "key": "C",
+              "content": "$e^{x}+ x$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2}(e^{x}+e^{-x})$\n(E) $e^{x^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "110",
+          "type": "single",
+          "prompt": "The sides and diagonal of the rectangle above are strictly increasing with time. At the instant when $x=4$ and $y=3, d x{d t}=d z{d t}$ and $d y{d t}=k d z{d t}$. What is the value of $k$ at that instant?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{4}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{3}$"
+            },
+            {
+              "key": "C",
+              "content": "3"
+            },
+            {
+              "key": "D",
+              "content": "4\n(E) It cannot be determined from the information given."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "111",
+          "type": "single",
+          "prompt": "If $f^{}(x)=2{x}$ and $f(e)=5$, then $f(e)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "$ 25$"
+            },
+            {
+              "key": "C",
+              "content": "$5+2{e}-2{e^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "6\n(E) 25"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "112",
+          "type": "single",
+          "prompt": "For time $t>0$, the position of a particle moving in the $x y$-plane is given by the parametric equations $x=4 t+t^{2}$ and $y=1{3 t+1}$. What is the acceleration vector of the particle at time $t=1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$(2, 1{32})$"
+            },
+            {
+              "key": "B",
+              "content": "$(2, 9{32})$"
+            },
+            {
+              "key": "C",
+              "content": "$(5, 1{4})$"
+            },
+            {
+              "key": "D",
+              "content": "$(6,-3{16})$\n(E) $(6,-1{16})$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "113",
+          "type": "single",
+          "prompt": "$ 8{x^{2}-4} d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$4 ^{-1}(x{2})+C$"
+            },
+            {
+              "key": "B",
+              "content": "$8 |x^{2}-4|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$2 |x-2{x+2}|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$2 |x+2{x-2}|+C$\n(E) $ 2 |x+2|+2 |x-2|+C$\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-13.jpg?height=719&width=892&top_left_y=343&top_left_x=612)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "114",
+          "type": "single",
+          "prompt": "The slope field for a certain differential equation is shown above. Which of the following could be a solution to the differential equation with the initial condition $y(0)=1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$y= x$"
+            },
+            {
+              "key": "B",
+              "content": "$y=1-x^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$y=e^{x}$"
+            },
+            {
+              "key": "D",
+              "content": "$y=1-x^{2}$\n(E) $y=1{1+x^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "115",
+          "type": "frq",
+          "prompt": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\nfigure\n\n[alt={},max width=]{https://c",
+          "options": [
+            {
+              "key": "a",
+              "content": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\n![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-14.jpg?height=368&width=475&top_left_y=442&top_left_x=292)\n\nfigure\n\n[alt={},max width=]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e7"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "116",
+          "type": "single",
+          "prompt": "The radius of convergence for the power series $_{n=1}^{} (x-3)^{2 n}{n}$ is equal to 1 . What is the interval of convergence?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-4 x<-2$"
+            },
+            {
+              "key": "B",
+              "content": "$-1<x<1$"
+            },
+            {
+              "key": "C",
+              "content": "$-1 x<1$"
+            },
+            {
+              "key": "D",
+              "content": "$2<x<4$\n(E) $2 x<4$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "117",
+          "type": "single",
+          "prompt": "If $f(x)= (x^{2})$, then $f^{}(x)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{1-x^{4}}$"
+            },
+            {
+              "key": "B",
+              "content": "$-2 x{1-x^{4}}$"
+            },
+            {
+              "key": "C",
+              "content": "$2 x{1-x^{4}}$"
+            },
+            {
+              "key": "D",
+              "content": "$-4 x^{3}{1-x^{4}}$\n(E) $4 x^{3}{1-x^{4}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "118",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the curve $y+2=x^{2}{2}-2 y$ at the point $(2,0)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$2{3}$\n(E) 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "119",
+          "type": "single",
+          "prompt": "Which of the following series converge?\nI. $_{n=1}^{} 1{n}$\nII. $_{n=1}^{} 3^{n}{n!}$\nIII. $_{n=1}^{}(e{})^{n}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "None"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II only\n(E) II and III only"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "120",
+          "type": "single",
+          "prompt": "The function $f$ given by $f(x)=9 x^{2 / 3}+3 x-6$ has a relative minimum at $x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "-8"
+            },
+            {
+              "key": "B",
+              "content": "$-[3]{2}$"
+            },
+            {
+              "key": "C",
+              "content": "-1"
+            },
+            {
+              "key": "D",
+              "content": "$-1{8}$\n(E) 0\n\n|$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 2 & 5 \\\\ | 4 & -3 & 11 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "121",
+          "type": "single",
+          "prompt": "The function $f$ has a continuous derivative. The table above gives values of $f$ and its derivative for $x=0$ and $x=4$. If $_{0}^{4} f(x) d x=8$, what is the value of $_{0}^{4} x f^{}(x) d x$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-20"
+            },
+            {
+              "key": "B",
+              "content": "-13"
+            },
+            {
+              "key": "C",
+              "content": "-12"
+            },
+            {
+              "key": "D",
+              "content": "-7\n(E) 36"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "122",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=2 $ at the point $={2}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-2{}$"
+            },
+            {
+              "key": "C",
+              "content": "0"
+            },
+            {
+              "key": "D",
+              "content": "${2}$\n(E) 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "123",
+          "type": "single",
+          "prompt": "The radius of a circle is increasing. At a certain instant, the rate of increase in the area of the circle is numerically equal to twice the rate of increase in its circumference. What is the radius of the circle at that instant?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "B",
+              "content": "1"
+            },
+            {
+              "key": "C",
+              "content": "$2$"
+            },
+            {
+              "key": "D",
+              "content": "2\n(E) 4\n\n|$n$ & $_{k=1}^{n}({x_{k}})({n})$ \\\\ | | 100 & 5.19 \\\\ | 200 & 5.88 \\\\ | 300 & 6.28 \\\\ | 400 & 6.57 \\\\ | 500 & 6.79 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "124",
+          "type": "single",
+          "prompt": "The table above shows several Riemann sum approximations to $_{0}^{1} 1{x} d x$ using right-hand endpoints of $n$ subintervals of equal length of the interval $[0,1]$. Which of the following statements best describes the limit of the Riemann sums as $n$ approaches infinity?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The limit of the Riemann sums is a finite number less than 10 ."
+            },
+            {
+              "key": "B",
+              "content": "The limit of the Riemann sums is a finite number greater than 10 ."
+            },
+            {
+              "key": "C",
+              "content": "The limit of the Riemann sums does not exist because $(1{x_{n}})(1{n})$ does not approach 0 ."
+            },
+            {
+              "key": "D",
+              "content": "The limit of the Riemann sums does not exist because it is a sum of infinitely many positive numbers.\n(E) The limit of the Riemann sums does not exist because $_{0}^{1} 1{x} d x$ does not exist."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "125",
+          "type": "single",
+          "prompt": "The coefficients of the power series $_{n=0}^{} a_{n}(x-2)^{n}$ satisfy $a_{0}=5$ and $a_{n}=(2 n+1{3 n-1}) a_{n-1}$ for all $n 1$. The radius of convergence of the series is",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$2{3}$"
+            },
+            {
+              "key": "C",
+              "content": "$3{2}$"
+            },
+            {
+              "key": "D",
+              "content": "2\n(E) infinite"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "126",
+          "type": "single",
+          "prompt": "If $f$ is the function given by $f(x)=_{4}^{2 x} t^{2-t} d t$, then $f^{}(2)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$7{2 12}$"
+            },
+            {
+              "key": "C",
+              "content": "$2$"
+            },
+            {
+              "key": "D",
+              "content": "$12$\n(E) $2 12$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "127",
+          "type": "single",
+          "prompt": "The function $f$ is given by $f(x)= (x+1{x^{2}})$. Which of the following statements are true?\nI. The graph of $f$ has a horizontal asymptote at $y=0$.\nII. The graph of $f$ has a horizontal asymptote at $y=1$.\nIII. The graph of $f$ has a vertical asymptote at $x=0$.",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and III only\n(E) II and III only\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "128",
+          "type": "single",
+          "prompt": "If $_{0}^{1} f(x) d x=2$ and $_{0}^{4} f(x) d x=-3$, then $_{1}^{4}(3 f(x)+2) d x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "-13"
+            },
+            {
+              "key": "B",
+              "content": "-9"
+            },
+            {
+              "key": "C",
+              "content": "-7"
+            },
+            {
+              "key": "D",
+              "content": "3\n(E) 21\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-23.jpg?height=753&width=869&top_left_y=956&top_left_x=629)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "129",
+          "type": "single",
+          "prompt": "The figure above shows the graph of the polynomial function $f$. For which value of $x$ is it true that $f^{ }(x)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$a$"
+            },
+            {
+              "key": "B",
+              "content": "$b$"
+            },
+            {
+              "key": "C",
+              "content": "$c$"
+            },
+            {
+              "key": "D",
+              "content": "$d$\n(E) $e$\n\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-24.jpg?height=291&width=501&top_left_y=369&top_left_x=812)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "130",
+          "type": "single",
+          "prompt": "The graph above shows the polar curve $r=2 + $ for $0 $. What is the area of the region bounded by the curve and the $x$-axis?",
+          "options": [
+            {
+              "key": "A",
+              "content": "069"
+            },
+            {
+              "key": "B",
+              "content": "935"
+            },
+            {
+              "key": "C",
+              "content": "870"
+            },
+            {
+              "key": "D",
+              "content": "456\n(E) 34.912"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "131",
+          "type": "single",
+          "prompt": "If $f$ is a differentiable function such that $f(3)=8$ and $f^{}(3)=5$, which of the following statements could be false?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ _{x 3} f(x)=8$"
+            },
+            {
+              "key": "B",
+              "content": "$ _{x 3^{+}} f(x)= _{x 3^{-}} f(x)$"
+            },
+            {
+              "key": "C",
+              "content": "$ _{x 3} f(x)-8{x-3}=5$"
+            },
+            {
+              "key": "D",
+              "content": "$ _{h 0} f(3+h)-8{h}=5$\n(E) $ _{x 3} f^{}(x)=5$\n\n { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B }$}\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-25.jpg?height=530&width=977&top_left_y=326&top_left_x=575)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "132",
+          "type": "single",
+          "prompt": "The figure above shows the graph of $f^{}$, the derivative of the function $f$, on the interval $[-3,6]$. If the derivative of the function $h$ is given by $h^{}(x)=2 f^{}(x)$, how many points of inflection does the graph of $h$ have on the interval $[-3,6]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "One"
+            },
+            {
+              "key": "B",
+              "content": "Two"
+            },
+            {
+              "key": "C",
+              "content": "Three"
+            },
+            {
+              "key": "D",
+              "content": "Four\n(E) Five"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "133",
+          "type": "single",
+          "prompt": "Let $R$ be the region in the first quadrant bounded by the $y$-axis, the $x$-axis, the graph of $y=e^{-x^{2} / 2}$, and the line $x=3$. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is a square. What is the volume of the solid?",
+          "options": [
+            {
+              "key": "A",
+              "content": "886"
+            },
+            {
+              "key": "B",
+              "content": "906"
+            },
+            {
+              "key": "C",
+              "content": "078"
+            },
+            {
+              "key": "D",
+              "content": "245\n(E) 2.784"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "134",
+          "type": "frq",
+          "prompt": "If $f$ is a continuous function on the closed interval $[a, b]$, which of the following must be true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "There is a number $c$ in the open interval $(a, b)$ such that $f"
+            },
+            {
+              "key": "B",
+              "content": "There is a number $c$ in the open interval $(a, b)$ such that $f"
+            },
+            {
+              "key": "C",
+              "content": "There is a number $c$ in the closed interval $[a, b]$ such that $f"
+            },
+            {
+              "key": "c",
+              "content": "f(x)$ for all $x$ in $[a, b]$."
+            },
+            {
+              "key": "D",
+              "content": "There is a number $c$ in the open interval $(a, b)$ such that $f^{}"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "135",
+          "type": "single",
+          "prompt": "The function $f$ is differentiable and has values as shown in the table above. Both $f$ and $f^{}$ are strictly increasing on the interval $0 x 5$. Which of the following could be the value of $f^{}(3)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "20"
+            },
+            {
+              "key": "B",
+              "content": "5"
+            },
+            {
+              "key": "C",
+              "content": "29"
+            },
+            {
+              "key": "D",
+              "content": "30\n(E) 30.5"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "136",
+          "type": "single",
+          "prompt": "The rate of change, $d P{d t}$, of the number of people on an ocean beach is modeled by a logistic differential equation. The maximum number of people allowed on the beach is 1200 . At 10 A.M., the number of people on the beach is 200 and is increasing at the rate of 400 people per hour. Which of the following differential equations describes the situation?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$d P{d t}=1{400}(1200-P)+200$"
+            },
+            {
+              "key": "B",
+              "content": "$d P{d t}=2{5}(1200-P)$"
+            },
+            {
+              "key": "C",
+              "content": "$d P{d t}=1{500} P(1200-P)$"
+            },
+            {
+              "key": "D",
+              "content": "$d P{d t}=1{400} P(1200-P)$\n(E) $d P{d t}=400 P(1200-P)$\n\n|$x$ & $f(x)$ & $f^{}(x)$ & $f^{ }(x)$ & $f^{ }(x)$ \\\\ | 2 & 0 & 0 & 5 & 7 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "137",
+          "type": "single",
+          "prompt": "The third derivative of the function $f$ is continuous on the interval $(0,4)$. Values for $f$ and its first three derivatives at $x=2$ are given in the table above. What is $ _{x 2} f(x){(x-2)^{2}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$5{2}$"
+            },
+            {
+              "key": "C",
+              "content": "5"
+            },
+            {
+              "key": "D",
+              "content": "7\n(E) The limit does not exist."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "138",
+          "type": "single",
+          "prompt": "The Taylor polynomial of degree 100 for the function $f$ about $x=3$ is given by $P(x)=(x-3)^{2}-(x-3)^{4}{2!}+(x-3)^{6}{3!}++(-1)^{n+1} (x-3)^{2 n}{n!}+-(x-3)^{100}{50!}$. What is the value of $f^{(30)}(3)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-30!{15!}$"
+            },
+            {
+              "key": "B",
+              "content": "$-1{30!}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{30!}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{15!}$\n(E) $30!{15!}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "139",
+          "type": "single",
+          "prompt": "The function $f$ has derivatives of all orders for all real numbers, and $f^{(4)}(x)=e^{ x}$. If the third-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f$ on the interval $[0,1]$, what is the Lagrange error bound for the maximum error on the interval $[0,1]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "019"
+            },
+            {
+              "key": "B",
+              "content": "097"
+            },
+            {
+              "key": "C",
+              "content": "113"
+            },
+            {
+              "key": "D",
+              "content": "399\n(E) 0.417"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "140",
+          "type": "single",
+          "prompt": "The rate at which water is sprayed on a field of vegetables is given by $R(t)=2 1+5 t^{3}$, where $t$ is in minutes and $R(t)$ is in gallons per minute. During the time interval $0 t 4$, what is the average rate of water flow, in gallons per minute?",
+          "options": [
+            {
+              "key": "A",
+              "content": "458"
+            },
+            {
+              "key": "B",
+              "content": "395"
+            },
+            {
+              "key": "C",
+              "content": "691"
+            },
+            {
+              "key": "D",
+              "content": "916\n(E) 35.833\n\n![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-29.jpg?height=629&width=613&top_left_y=1024&top_left_x=756)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "141",
+          "type": "single",
+          "prompt": "The figure above shows the graph of a function $f$. Which of the following has the greatest value?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$f"
+            },
+            {
+              "key": "B",
+              "content": "$f^{}"
+            },
+            {
+              "key": "C",
+              "content": "$f^{}"
+            },
+            {
+              "key": "D",
+              "content": "$f"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "142",
+          "type": "single",
+          "prompt": "The $n$th derivative of a function $f$ at $x=0$ is given by $f^{(n)}(0)=(-1)^{n} n+1{(n+2) 2^{n}}$ for all $n 0$. Which of the following is the Maclaurin series for $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{2}+1{3} x-3{32} x^{2}+1{60} x^{3}-$"
+            },
+            {
+              "key": "B",
+              "content": "$1{2}-1{3} x+3{16} x^{2}-1{10} x^{3}+$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2}+1{3} x+3{32} x^{2}+1{60} x^{3}+$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2}-1{3} x+3{32} x^{2}-1{60} x^{3}+$\n(E) $1{2}-3 x+32{3} x^{2}-60 x^{3}+$\n\nB & B & B & B & B & B & B & B & B$}\n\n|$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 1 & 1 \\\\ | 1 & 3 & 4 \\\\ | 2 & 11 & 13 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "143",
+          "type": "single",
+          "prompt": "The table above gives selected values for a differentiable and increasing function $f$ and its derivative. If $g$ is the inverse function of $f$, what is the value of $g^{}(3)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{13}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{4}$"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "4\n(E) 13"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "144",
+          "type": "single",
+          "prompt": "Let $f$ be the function with first derivative defined by $f^{}(x)= (x^{3})$ for $0 x 2$. At what value of $x$ does $f$ attain its maximum value on the closed interval $0 x 2$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "162"
+            },
+            {
+              "key": "C",
+              "content": "465"
+            },
+            {
+              "key": "D",
+              "content": "845\n(E) 2\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.\n\n^{®}$ Calculus \\\\ Instructions for Section II Free-Response Questions}\n\nWrite clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be graded.\nManage your time carefully. During the timed portion for Part A, work"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "145",
+          "type": "frq",
+          "prompt": "The rate at which raw sewage enters a treatment tank is given by $E(t)=850+715 ( t^{2}{9})$ gallons per hour for $0 t 4$ hours. Treated sewage is removed from the tank at the constant rate of 645 gallons per hour. The treatment tank is empty at time $t=0$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "How many gallons of sewage enter the treatment tank during the time interval $0 t 4$ ? Round your answer to the nearest gallon."
+            },
+            {
+              "key": "b",
+              "content": "For $0 t 4$, at what time $t$ is the amount of sewage in the treatment tank greatest? To the nearest gallon, what is the maximum amount of sewage in the tank? Justify your answers."
+            },
+            {
+              "key": "c",
+              "content": "For $0 t 4$, the cost of treating the raw sewage that enters the tank at time $t$ is $(0.15-0.02 t)$ dollars per gallon. To the nearest dollar, what is the total cost of treating all the sewage that enters the tank during the time interval $0 t 4$ ?"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "146",
+          "type": "frq",
+          "prompt": "A particle moving along a curve in the $x y$-plane has position $(x(t), y(t))$ at time $t>0$, where\n$$\nd x{d t}=(6{t}-3)^{1 / 3} { and } d y{d t}=t e^{-t}\n$$\n\nAt time $t=3$, the particle is at the point $(5,4)$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Find the speed of the particle at time $t=3$."
+            },
+            {
+              "key": "b",
+              "content": "Write an equation for the line tangent to the path of the particle at time $t=3$."
+            },
+            {
+              "key": "c",
+              "content": "Is there a time $t$ at which the particle is farthest to the right? If yes, explain why and give the value of $t$ and the $x$-coordinate of the position of the particle at that time. If no, explain why not."
+            },
+            {
+              "key": "d",
+              "content": "Describe the behavior of the path of the particle as $t$ increases without bound.\n\n|$t$ (minutes) & 0 & 4 & 8 & 12 & 16 \\\\ |$H(t)({ }^{} )$ & 65 & 68 & 73 & 80 & 90 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "147",
+          "type": "frq",
+          "prompt": "The temperature, in degrees Celsius ( ${ }^{} C$ ), of an oven being heated is modeled by an increasing differentiable function $H$ of time $t$, where $t$ is measured in minutes. The table above gives the temperature as recorded every 4 minutes over a 16 -minute period.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Use the data in the table to estimate the instantaneous rate at which the temperature of the oven is changing at time $t=10$. Show the computations that lead to your answer. Indicate units of measure."
+            },
+            {
+              "key": "b",
+              "content": "Write an integral expression in terms of $H$ for the average temperature of the oven between time $t=0$ and time $t=16$. Estimate the average temperature of the oven using a left Riemann sum with four subintervals of equal length. Show the computations that lead to your answer."
+            },
+            {
+              "key": "c",
+              "content": "Is your approximation in part"
+            },
+            {
+              "key": "b",
+              "content": "an underestimate or an overestimate of the average temperature? Give a reason for your answer."
+            },
+            {
+              "key": "d",
+              "content": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer.\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-45 minutes \\\\ Number of problems-3\n\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-36.jpg?height=669&width=991&top_left_y=588&top_left_x=571)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "148",
+          "type": "frq",
+          "prompt": "Let $f$ be the function given by $f(x)=( x)( x)$. The figure above shows the graph of $f$ for $0",
+          "options": [
+            {
+              "key": "a",
+              "content": "Find $g(1)$ and $g^{}(1)$."
+            },
+            {
+              "key": "b",
+              "content": "On what intervals, if any, is $g$ increasing? Justify your answer."
+            },
+            {
+              "key": "c",
+              "content": "For $0<x 2 $, find the value of $x$ at which $g$ has an absolute minimum. Justify your answer."
+            },
+            {
+              "key": "d",
+              "content": "For $0<x<2 $, is there a value of $x$ at which the graph of $g$ is tangent to the $x$-axis? Explain why or why not."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "149",
+          "type": "frq",
+          "prompt": "Let $f$ be the function satisfying $f^{}(x)=4 x-2 x f(x)$ for all real numbers $x$, with $f(0)=5$ and $ _{x } f(x)=2$.",
+          "options": [
+            {
+              "key": "a",
+              "content": "Find the value of $_{0}^{}(4 x-2 x f(x)) d x$. Show the work that leads to your answer."
+            },
+            {
+              "key": "b",
+              "content": "Use Euler's method to approximate $f(-1)$, starting at $x=0$, with two steps of equal size."
+            },
+            {
+              "key": "c",
+              "content": "Find the particular solution $y=f(x)$ to the differential equation $d y{d x}=4 x-2 x y$ with the initial condition $f(0)=5$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "150",
+          "type": "frq",
+          "prompt": "The function $g$ is continuous for all real numbers $x$ and is defined by\n$$\ng(x)= (2 x)-1{x^{2}} { for } x 0\n$$",
+          "options": [
+            {
+              "key": "a",
+              "content": "Use L'Hospital's Rule to find the value of $g(0)$. Show the work that leads to your answer."
+            },
+            {
+              "key": "b",
+              "content": "Let $f$ be the function given by $f(x)= (2 x)$. Write the first four nonzero terms and the general term of the Taylor series for $f$ about $x=0$."
+            },
+            {
+              "key": "c",
+              "content": "Use your answer from part"
+            },
+            {
+              "key": "b",
+              "content": "to write the first three nonzero terms and the general term of the Taylor series for $g$ about $x=0$."
+            },
+            {
+              "key": "d",
+              "content": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer.\n\nName: $____$\n\ntable\n\n^{®}$ Calculus BC\nStudent Answer Sheet for Multiple-Choice Section}\ntabular{|l|l|}\n No. & Answer \\\\\n 1 & \\\\\n 2 & \\\\\n 3 & \\\\\n 4 & \\\\\n 5 & \\\\\n 6 & \\\\\n 7 & \\\\\n 8 & \\\\\n 9 & \\\\\n 10 & \\\\\n 11 & \\\\\n 12 & \\\\\n 13 & \\\\\n 14"
+            },
+            {
+              "key": "a",
+              "content": "How many gallons of sewage enter the treatment tank during the time interval $0 t 4$ ? Round your answer to the nearest gallon."
+            },
+            {
+              "key": "b",
+              "content": "For $0 t 4$, at what time $t$ is the amount of sewage in the treatment tank greatest? To the nearest gallon, what is the maximum amount of sewage in the tank? Justify your answers."
+            },
+            {
+              "key": "c",
+              "content": "For $0 t 4$, the cost of treating the raw sewage that enters the tank at time $t$ is $(0.15-0.02 t)$ dollars per gallon. To the nearest dollar, what is the total cost of treating all the sewage that enters the tank during the time interval $0 t 4$ ?"
+            },
+            {
+              "key": "a",
+              "content": "$_{0}^{4} E(t) d t 3981$ gallons"
+            },
+            {
+              "key": "b",
+              "content": "Let $S(t)$ be the amount of sewage in the treatment tank at time $t$. Then $S^{}(t)=E(t)-645$ and $S^{}(t)=0$ when $E(t)=645$. On the interval $0 t 4, E(t)=645$ when $t=2.309$ and $t=3.559$.\n\ntabular{|l|l|}\n $t$ (hours) & amount of sewage in treatment tank \\\\\n 0 & 0 \\\\\n 2.309 & $_{0}^{2.309} E(t) d t-645(2.309)=1637.178$ \\\\\n 3.559 & $_{0}^{3.559} E(t) d t-645(3.559)=1228.520$ \\\\\n 4 & $3981.022-645(4)=1401.022$ \\\\\n\n{tab"
+            },
+            {
+              "key": "c",
+              "content": "Total cost $=_{0}^{4}(0.15-0.02 t) E(t) d t=474.320$\n\nThe total cost of treating the sewage that enters the tank during the time interval $0 t 4$, to the nearest dollar, is $\\$ 474$.\n$2:{l1: { integral } \\\\ 1: { answer }.$\n$4:{aligned 1: & { sets } E(t)=645 \\\\ 1: & { identifies } t=2.309 { as } \\\\ & { a candidate } \\\\ 1: & { amount of sewage at } t=2.309 \\\\ 1: & { conclusion }{al"
+            },
+            {
+              "key": "a",
+              "content": "Find the speed of the particle at time $t=3$."
+            },
+            {
+              "key": "b",
+              "content": "Write an equation for the line tangent to the path of the particle at time $t=3$."
+            },
+            {
+              "key": "c",
+              "content": "Is there a time $t$ at which the particle is farthest to the right? If yes, explain why and give the value of $t$ and the $x$-coordinate of the position of the particle at that time. If no, explain why not."
+            },
+            {
+              "key": "d",
+              "content": "Describe the behavior of the path of the particle as $t$ increases without bound."
+            },
+            {
+              "key": "a",
+              "content": "Speed $=(x^{(3))^{2}+(y^{}(3))^{2}}=1.011$"
+            },
+            {
+              "key": "b",
+              "content": "At $t=3, d y{d x}=y^{(3)}{x^{}(3)}=3 e^{-3}{-1}=-3{e^{3}}$\n$$\n=-0.149\n$$\n\nAn equation for the line tangent to the path at the point $(5,4)$ is $y-4=-3{e^{3}}(x-5)$."
+            },
+            {
+              "key": "c",
+              "content": "Since $d x{d t}>0$ for $02$, the particle is farthest to the right at $t=2$. The $x$-coordinate of the position is\n$$\nx(2)=5+_{3}^{2}(6{t}-3)^{1 / 3} d t=5.791 { or } 5.792\n$$"
+            },
+            {
+              "key": "d",
+              "content": "Since $ _{t } d x{d t}=(-3)^{1 / 3}$ and $ _{t } d y{d t}=0$, the particle will continue moving farther to the left while approaching a horizontal asymptote.\n\n1 : answer\n$$\n2:{l\n1: { slope } \\\\\n1: { equation of tangent line }\n.\n$$\n$4:{l1: { \"yes\" with explanation } \\\\ 1: t=2 ~ array{l}2:{array{l}1: { integral for } x(2) \\\\ 1"
+            },
+            {
+              "key": "a",
+              "content": "Use the data in the table to estimate the instantaneous rate at which the temperature of the oven is changing at time $t=10$. Show the computations that lead to your answer. Indicate units of measure."
+            },
+            {
+              "key": "b",
+              "content": "Write an integral expression in terms of $H$ for the average temperature of the oven between time $t=0$ and time $t=16$. Estimate the average temperature of the oven using a left Riemann sum with four subintervals of equal length. Show the computations that lead to your answer."
+            },
+            {
+              "key": "c",
+              "content": "Is your approximation in part"
+            },
+            {
+              "key": "b",
+              "content": "an underestimate or an overestimate of the average temperature? Give a reason for your answer."
+            },
+            {
+              "key": "d",
+              "content": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer."
+            },
+            {
+              "key": "a",
+              "content": "$H^{}(10) H(12)-H(8){12-8}=80-73{4}=7{4}{ }^{} C / min$"
+            },
+            {
+              "key": "b",
+              "content": "Average temperature is $1{16} _{0}^{16} H(t) d t$\n$_{0}^{16} H(t) d t 4 (65+68+73+80)$\nAverage temperature $ 4 286{16}=71.5^{} C$"
+            },
+            {
+              "key": "c",
+              "content": "The left Riemann sum approximation is an underestimate of the integral because the graph of $H$ is increasing. Dividing by 16 will not change the inequality, so $71.5^{} C$ is an underestimate of the average temperature."
+            },
+            {
+              "key": "d",
+              "content": "If a continuous function is increasing at an increasing rate, then the slopes of the secant lines of the graph of the function are increasing. The slopes of the secant lines for the four intervals in the table are $3{4}, 5{4}, 7{4}$, and $10{4}$, respectively.\n\nSince the slopes are increasing, the data are consistent with the claim.\n\nBy the Mean Value Theorem, the slopes are also the values of $H^{}(c_{k})$ for some times $c_{1}<c_{2}<c"
+            },
+            {
+              "key": "a",
+              "content": "Find $g(1)$ and $g^{}(1)$."
+            },
+            {
+              "key": "b",
+              "content": "On what intervals, if any, is $g$ increasing? Justify your answer."
+            },
+            {
+              "key": "c",
+              "content": "For $0<x 2 $, find the value of $x$ at which $g$ has an absolute minimum. Justify your answer."
+            },
+            {
+              "key": "d",
+              "content": "For $0<x<2 $, is there a value of $x$ at which the graph of $g$ is tangent to the $x$-axis? Explain why or why not."
+            },
+            {
+              "key": "a",
+              "content": "$ g(1)=_{1}^{1} f(t) d t=0$ and $g^{}(1)=f(1)=0$"
+            },
+            {
+              "key": "b",
+              "content": "Since $g^{}(x)=f(x), g$ is increasing on the interval $1 x $ because $f(x)>0$ for $1<x<$."
+            },
+            {
+              "key": "c",
+              "content": "For $0<x<2 , g^{}(x)=f(x)=0$ when $x=1, $. $g^{}=f$ changes from negative to positive only at $x=1$. The absolute minimum must occur at $x=1$ or at the right endpoint. Since $g(1)=0$ and $g(2 )=_{1}^{2 } f(t) d t=_{1}^{} f(t) d t+_{}^{2 } f(t) d t<0$ by comparison of the two areas, the absolute minimum occurs at $x=2 $."
+            },
+            {
+              "key": "d",
+              "content": "Yes, the graph of $g$ is tangent to the $x$-axis at $x=1$ since $g(1)=0$ and $g^{}(1)=0$.\n$$\n2:{l\n1: g(1) \\\\\n1: g^{}(1)\n.\n$$\n$2:{l1: { interval } \\\\ 1: { reason }.$\n$3:{aligned & 1: { identifies } 1 { and } 2 { as candidates } \\\\ & { or - } \\\\ & { indicates that the graph of } g \\\\ & { decreases, increases, then decreases } \\\\ & 1:"
+            },
+            {
+              "key": "a",
+              "content": "Find the value of $_{0}^{}(4 x-2 x f(x)) d x$. Show the work that leads to your answer."
+            },
+            {
+              "key": "b",
+              "content": "Use Euler's method to approximate $f(-1)$, starting at $x=0$, with two steps of equal size."
+            },
+            {
+              "key": "c",
+              "content": "Find the particular solution $y=f(x)$ to the differential equation $d y{d x}=4 x-2 x y$ with the initial condition $f(0)=5$."
+            },
+            {
+              "key": "a",
+              "content": "$_{0}^{}(4 x-2 x f(x)) d x$\n$=_{0}^{} f^{}(x) d x= _{b } _{0}^{b} f^{}(x) d x= _{b }[.f(x)|_{0} ^{b}]$\n$= _{b }(f"
+            },
+            {
+              "key": "b",
+              "content": "$f(-1{2}) f(0)+f^{}(0) (-1{2})=5+0 (-1{2})=5$\n$f(-1) f(-1{2})+f^{}(-1{2}) (-1{2})=5+3 (-1{2})=7{2}$"
+            },
+            {
+              "key": "c",
+              "content": "$1{4-2 y} d y=x d x$\n$-1{2} |4-2 y|=1{2} x^{2}+A$\n$ |4-2 y|=-x^{2}+B$\n$2 y-4=C e^{-x^{2}}$\n$C=6$\n$y=2+3 e^{-x^{2}}$ for all real numbers $x$\n$2:{l1: { use of FTC } \\\\ 1: { answer from limiting process }.$\n$2:{l1: { Euler's method with two steps } \\\\ 1: { Euler's approximation to } f(-1).$\n$5:{array{l}1: { separates variables } \\\\ 1: { antideriv"
+            },
+            {
+              "key": "a",
+              "content": "Use L'Hospital's Rule to find the value of $g(0)$. Show the work that leads to your answer."
+            },
+            {
+              "key": "b",
+              "content": "Let $f$ be the function given by $f(x)= (2 x)$. Write the first four nonzero terms and the general term of the Taylor series for $f$ about $x=0$."
+            },
+            {
+              "key": "c",
+              "content": "Use your answer from part"
+            },
+            {
+              "key": "b",
+              "content": "to write the first three nonzero terms and the general term of the Taylor series for $g$ about $x=0$."
+            },
+            {
+              "key": "d",
+              "content": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer."
+            },
+            {
+              "key": "a",
+              "content": "Since $g$ is continuous,\n$$\n\ng(0) & = _{x 0} g(x)= _{x 0} (2 x)-1{x^{2}} \\\\\n& = _{x 0} -2 (2 x){2 x} \\\\\n& = _{x 0} -4 (2 x){2}=-2\n\n$$"
+            },
+            {
+              "key": "b",
+              "content": "$ (2 x)=1-(2 x)^{2}{2!}+(2 x)^{4}{4!}-(2 x)^{6}{6!}++(-1)^{n} (2 x)^{2 n}{(2 n)!}+$\n$$\n=1-4{2!} x^{2}+16{4!} x^{4}-64{6!} x^{6}++(-1)^{n} 2^{2 n}{(2 n)!} x^{2 n}+\n$$"
+            },
+            {
+              "key": "c",
+              "content": "$g(x)=-4{2!}+16{4!} x^{2}-64{6!} x^{4}++(-1)^{n} 2^{2 n}{(2 n)!} x^{2 n-2}+$"
+            },
+            {
+              "key": "d",
+              "content": "$g^{}(x)=2 16{4!} x-4 64{6!} x^{3}+$, so $g^{}(0)=0$.\n$$\ng^{ }(x)=2 16{4!}-3 4 64{6!} x^{2}+, { so } g^{ }(0)>0\n$$\n\nTherefore, $g$ has a relative minimum at $x=0$ by the Second Derivative Test.\n$2: 1 & : { uses L'Hospital's Rule \\\\ & { correctly at least once } \\\\ 1 & : { answer }.$\n$3:{array{l}1: { first"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "examId": "2014Intl",
+  "title": "AP Physics C: Electricity and Magnetism 2014年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2014",
+  "description": "AP Physics C: Electricity and Magnetism 2014年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "Which of the following Gaussian surfaces would be the simplest to use to determine the electric field intensity near a long, straight, charged wire? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-03.jpg?height=428&amp;width=505&amp;top_left_y=205&amp;top_left_x=499) ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-03.jpg?height=383&amp;width=461&amp;top_left_y=226&amp;top_left_x=1163) A uniform electric field exists between two parallel plates that are perpendicular to an $x$-axis and separated by 0.01 m , as shown above on the left. The graph above on the right shows the electric potential between the plates as a function of position $x$ on the $x$-axis.",
+          "options": [
+            {
+              "key": "A",
+              "content": "A cylinder whose axis coincides with the wire"
+            },
+            {
+              "key": "B",
+              "content": "A cylinder whose axis is perpendicular to the wire and passes through the wire"
+            },
+            {
+              "key": "C",
+              "content": "A sphere with the wire through its center"
+            },
+            {
+              "key": "D",
+              "content": "A cube with the wire passing through the centers of opposite faces"
+            },
+            {
+              "key": "E",
+              "content": "A cube with the wire along a diagonal"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "What is the electric potential energy of an object with a $1.0 C$ charge located at $x=0.005 ~m$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-20 ~J$"
+            },
+            {
+              "key": "B",
+              "content": "$-10 ~J$"
+            },
+            {
+              "key": "C",
+              "content": "Zero"
+            },
+            {
+              "key": "D",
+              "content": "$10 ~J$"
+            },
+            {
+              "key": "E",
+              "content": "$20 ~J$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "What is the magnitude of the electric field between the plates at $x=0.005 ~m$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "$0.1 ~V / m$"
+            },
+            {
+              "key": "C",
+              "content": "$0.2 ~V / m$"
+            },
+            {
+              "key": "D",
+              "content": "$1000 ~V / m$"
+            },
+            {
+              "key": "E",
+              "content": "$2000 ~V / m$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "What is the direction of the electric field between the plates at points on the $x$-axis? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-04.jpg?height=265&amp;width=787&amp;top_left_y=233&amp;top_left_x=191)",
+          "options": [
+            {
+              "key": "A",
+              "content": "To the left at all points"
+            },
+            {
+              "key": "B",
+              "content": "To the right at all points"
+            },
+            {
+              "key": "C",
+              "content": "To the left for $x0.005 ~m$"
+            },
+            {
+              "key": "D",
+              "content": "To the right for $x0.005 ~m$"
+            },
+            {
+              "key": "E",
+              "content": "It is undefined because the field is zero at all points."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Two particles with the same speed $v_{0}$ enter a region of uniform magnetic field $B$ directed into the page and are initially traveling perpendicular to $B$, as shown above. Particle $Y$ has charge $-Q$ and mass $M$; particle $Z$ has charge $+Q$ and mass $2 M$. Which of the following pairs of paths shown is possible for the subsequent motion of the particles? &amp; Particle $Y$ &amp; Particle $Z$ \\\\ &amp; $-Q, M{+Q, 2 M}$ &amp; \\\\ { 2 - 2 } (A) &amp; 1 &amp; \\\\ ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-04.jpg?height=448&amp;width=406&amp;top_left_y=222&amp;top_left_x=1344) A region contains a uniform electric field of strength $E$ in the $+x$-direction and a uniform magnetic field of strength $B$ in the $+y$-direction, relative to the axes shown above. A positively charged particle passes through these two fields in a straight line at a constant speed $v$.",
+          "options": [
+            {
+              "key": "A",
+              "content": "&amp; 2 &amp; \\\\"
+            },
+            {
+              "key": "B",
+              "content": "&amp; 3 &amp; \\\\"
+            },
+            {
+              "key": "C",
+              "content": "&amp; 4 &amp; \\\\"
+            },
+            {
+              "key": "D",
+              "content": "&amp; 4 &amp; \\\\"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "The velocity of the particle is in which direction?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$+y$"
+            },
+            {
+              "key": "B",
+              "content": "$+x$"
+            },
+            {
+              "key": "C",
+              "content": "$-x$"
+            },
+            {
+              "key": "D",
+              "content": "$+z$"
+            },
+            {
+              "key": "E",
+              "content": "$-z$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "The magnetic field strength $B$ is equal to ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-05.jpg?height=417&amp;width=577&amp;top_left_y=218&amp;top_left_x=774)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$E$"
+            },
+            {
+              "key": "B",
+              "content": "$Ev$"
+            },
+            {
+              "key": "C",
+              "content": "$E{v}$"
+            },
+            {
+              "key": "D",
+              "content": "$v{E}$"
+            },
+            {
+              "key": "E",
+              "content": "$Ev^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Two long, straight, parallel wires in the plane of the page carry equal currents $I$ in opposite directions, as shown above. What are the directions of the resultant magnetic field $B$, if any, at each of the points $R, S$, and $T$ ? 1{c}{$R$} &amp; 1{c}{$S$} &amp; 1{c}{$T$} \\\\ ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-06.jpg?height=498&amp;width=1586&amp;top_left_y=338&amp;top_left_x=273) Note: Figure at left above not drawn to scale. A square wire loop of side 0.2 m moves with a constant speed of $v=25 ~m / s$ through a region containing a magnetic field of strength $B=0.15 ~T$, as shown above left. A graph of the magnetic flux $$ through the loop as a function of time $t$ is shown above right. Time $t=0$ occurs when the right edge of the loop just begins to enter the field.",
+          "options": [
+            {
+              "key": "A",
+              "content": "Out of the page &amp; Into the page &amp; Out of the page \\\\"
+            },
+            {
+              "key": "B",
+              "content": "Out of the page &amp; None, $B=0$ &amp; Out of the page \\\\"
+            },
+            {
+              "key": "C",
+              "content": "Out of the page &amp; None, $B=0$ &amp; Into the page \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Into the page &amp; None, $B=0$ &amp; Out of the page \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Into the page &amp; Out of the page &amp; Into the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "What is the magnitude of the induced emf in the wire loop at $t=4 ~ms$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 V"
+            },
+            {
+              "key": "B",
+              "content": "50 V"
+            },
+            {
+              "key": "C",
+              "content": "75 V"
+            },
+            {
+              "key": "D",
+              "content": "0 V"
+            },
+            {
+              "key": "E",
+              "content": "0 V"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "What is the total width of the magnetic field through which the loop moves? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-07.jpg?height=583&amp;width=583&amp;top_left_y=121&amp;top_left_x=293)",
+          "options": [
+            {
+              "key": "A",
+              "content": "1 m"
+            },
+            {
+              "key": "B",
+              "content": "2 m"
+            },
+            {
+              "key": "C",
+              "content": "4 m"
+            },
+            {
+              "key": "D",
+              "content": "6 m"
+            },
+            {
+              "key": "E",
+              "content": "8 m"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "A conducting rod of length $L$ is pivoted at point $P$. The other end slides with negligible friction on a conducting rail in the shape of a circular arc. The plane of the rail and rod is perpendicular to a uniform magnetic field of magnitude $B$ directed into the page, as shown in the figure above. The rod rotates counterclockwise at constant angular velocity $$. Assume that all the resistance of the circuit is contained in the resistor $R$. Which of the following describes the induced current in the view shown? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-07.jpg?height=408&amp;width=411&amp;top_left_y=210&amp;top_left_x=1335) A charge $+Q$ is uniformly distributed throughoutanonconducting spherical shell of inner radius $R_{1}$ and outer radius $R_{2}$, as shown above. The electric field is determined at a distance $r$ from the center of the spherical shell.",
+          "options": [
+            {
+              "key": "A",
+              "content": "It is counterclockwise and constant."
+            },
+            {
+              "key": "B",
+              "content": "It is counterclockwise and increasing."
+            },
+            {
+              "key": "C",
+              "content": "It is clockwise and constant."
+            },
+            {
+              "key": "D",
+              "content": "It is clockwise and increasing."
+            },
+            {
+              "key": "E",
+              "content": "It is oscillating."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "The electric field for $r",
+          "options": [
+            {
+              "key": "A",
+              "content": "zero"
+            },
+            {
+              "key": "B",
+              "content": "$1{4 _{0}} Q{R_{1}{ }^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{4 _{0}} Q{R_{2}{ }^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{4 _{0}} Q{(R_{2}-R_{1})^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$1{4 _{0}} Q{R_{2}{ }^{2}-R_{1}{ }^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "The electric field for $r&gt;R_{2}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{4 _{0}} Q{R_{1}{ }^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{4 _{0}} Q{R_{2}{ }^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{4 _{0}} Q{r^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{4 _{0}} Q{r^{2}-R_{2}{ }^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$1{4 _{0}} Q{R_{2}{ }^{2}-R_{1}{ }^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "The maximum charge a capacitor can store on one plate is limited by which of the following? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-08.jpg?height=244&amp;width=528&amp;top_left_y=693&amp;top_left_x=319)",
+          "options": [
+            {
+              "key": "A",
+              "content": "How much charge can physically fit on the conducting plates"
+            },
+            {
+              "key": "B",
+              "content": "The maximum time rate of change of the charge on the other plate"
+            },
+            {
+              "key": "C",
+              "content": "The nonzero energy needed to remove an electron from the conducting plates"
+            },
+            {
+              "key": "D",
+              "content": "The finite value of the capacitance"
+            },
+            {
+              "key": "E",
+              "content": "The electrical discharge when the electric field between the plates becomes too great"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "The four capacitors in the combination illustrated above each have capacitance $C$. If all the capacitors are then filled with a dielectric having dielectric constant 2, what is the new total capacitance of the combination?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$(2 / 5) C$"
+            },
+            {
+              "key": "B",
+              "content": "$(4 / 5) C$"
+            },
+            {
+              "key": "C",
+              "content": "$(5 / 4) C$"
+            },
+            {
+              "key": "D",
+              "content": "$(5 / 2) C$"
+            },
+            {
+              "key": "E",
+              "content": "$5 C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Circuit $P$ consists of three identical capacitors connected in parallel with a battery. Circuit $S$ consists of the same three capacitors connected in series with the same battery. When the capacitors are fully charged, what is the ratio of the total energy stored in circuit $P$ to the total energy stored in circuit $S$ ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=249&amp;width=522&amp;top_left_y=123&amp;top_left_x=321)",
+          "options": [
+            {
+              "key": "A",
+              "content": "9"
+            },
+            {
+              "key": "B",
+              "content": "3"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "$1 / 3$"
+            },
+            {
+              "key": "E",
+              "content": "$1 / 9$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Capacitor $C$ and resistors $R_{1}$ and $R_{2}$ are connected to a battery as illustrated above. The capacitor is initially uncharged. The battery supplies constant voltage $V$ after the switch $S$ is closed at time $t=0$. Which of the following graphs best represents the current $I_{1}$ through the resistor $R_{1}$ as a function of $t$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=255&amp;width=421&amp;top_left_y=777&amp;top_left_x=291)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=253&amp;width=421&amp;top_left_y=1068&amp;top_left_x=291)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=255&amp;width=423&amp;top_left_y=1360&amp;top_left_x=289)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=259&amp;width=421&amp;top_left_y=1650&amp;top_left_x=291)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-09.jpg?height=257&amp;width=416&amp;top_left_y=1940&amp;top_left_x=294)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Four identical capacitors of capacitance $C$ are connected as illustrated above. What is their equivalent capacitance? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=330&amp;width=530&amp;top_left_y=214&amp;top_left_x=793)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$3 C / 5$"
+            },
+            {
+              "key": "B",
+              "content": "$4 C / 3$"
+            },
+            {
+              "key": "C",
+              "content": "$5 C / 3$"
+            },
+            {
+              "key": "D",
+              "content": "$3 C$"
+            },
+            {
+              "key": "E",
+              "content": "$4 C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The circuit shown above consists of a battery of emf $ { E }$ and internal resistance $r$, a resistor $R$, an inductor $L$, and a switch $S$, initially in position 1 . After the current $i$ in the inductor reaches its maximum value $I_{0}, S$ is switched instantaneously from position 1 to position 2 at time $t=0$. Subsequent variation of $i$ with $t$ is best represented by which of the following graphs?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=360&amp;top_left_y=953&amp;top_left_x=676)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=354&amp;width=362&amp;top_left_y=949&amp;top_left_x=1180)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=355&amp;top_left_y=1360&amp;top_left_x=678)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=352&amp;width=358&amp;top_left_y=1360&amp;top_left_x=1184)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-10.jpg?height=354&amp;width=358&amp;top_left_y=1772&amp;top_left_x=676)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "Two conducting loops that are centered on the same axis carry equal currents $I$ in the same direction as shown in the diagram above. If the current in the upper loop suddenly decreases to zero, what happens to the current in the lower loop according to Lenz&#x27;s law? A meter that registers 0.20 mA at full scale has an internal resistance of $500 $.",
+          "options": [
+            {
+              "key": "A",
+              "content": "It also decreases to zero."
+            },
+            {
+              "key": "B",
+              "content": "It decreases, but not to zero."
+            },
+            {
+              "key": "C",
+              "content": "It does not change."
+            },
+            {
+              "key": "D",
+              "content": "It increases."
+            },
+            {
+              "key": "E",
+              "content": "Its direction is reversed."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "To use this meter as an ammeter with a range of 0 to 1 A , one should connect an additional resistance of approximately",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.10 $ in parallel with the meter"
+            },
+            {
+              "key": "B",
+              "content": "$0.10 $ in series with the meter"
+            },
+            {
+              "key": "C",
+              "content": "$500 $ in series with the meter"
+            },
+            {
+              "key": "D",
+              "content": "$4,500 $ in series with the meter"
+            },
+            {
+              "key": "E",
+              "content": "$5,000 $ in parallel with the meter"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "To use this meter as a voltmeter with a range of 0 to 1 V , one should connect an additional resistance of approximately",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.10 $ in parallel with the meter"
+            },
+            {
+              "key": "B",
+              "content": "$0.10 $ in series with the meter"
+            },
+            {
+              "key": "C",
+              "content": "$500 $ in series with the meter"
+            },
+            {
+              "key": "D",
+              "content": "$4,500 $ in series with the meter"
+            },
+            {
+              "key": "E",
+              "content": "$5,000 $ in parallel with the meter"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "Copper wire $A$ has twice the length and half the diameter of copper wire $B$, but carries the same current $I$. If $P$ is the rate at which energy is dissipated in wire $B$, what is the rate at which energy is dissipated in wire $A$ ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-12.jpg?height=377&amp;width=568&amp;top_left_y=239&amp;top_left_x=302) Two parallel wires that lie in the plane of the page, as shown above, are a distance of 0.20 m apart. Wire I carries a current of 15 A toward the top of the page, and wire II carries a current of 5 A toward the bottom of the page.",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{8} P$"
+            },
+            {
+              "key": "B",
+              "content": "$1{4} P$"
+            },
+            {
+              "key": "C",
+              "content": "$P$"
+            },
+            {
+              "key": "D",
+              "content": "$4 P$"
+            },
+            {
+              "key": "E",
+              "content": "$8 P$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "What is the magnitude of the net magnetic field at point $P$, located 0.20 m to the right of wire II ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.5 ~T$"
+            },
+            {
+              "key": "B",
+              "content": "$1.0 ~T$"
+            },
+            {
+              "key": "C",
+              "content": "$2.5 ~T$"
+            },
+            {
+              "key": "D",
+              "content": "$5.0 ~T$"
+            },
+            {
+              "key": "E",
+              "content": "$7.5 ~T$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "What is the magnitude of the force per meter that wire I exerts on wire II ? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-12.jpg?height=366&amp;width=669&amp;top_left_y=237&amp;top_left_x=1209) A circular conducting ring of area $0.20 ~m^{2}$ lies in the plane of the page inside a spatially uniform magnetic field that is perpendicular to the page. Clockwise Counterclockwise Clockwise Counterclockwise Undefined, since the current is zero The field changes smoothly from 1.5 T directed out of the page, as shown above on the left, to 1.5 T directed into the page, as shown above on the right. The change takes place at a constant rate during a total time interval of 0.6 s .",
+          "options": [
+            {
+              "key": "A",
+              "content": "$25 ~N / m$"
+            },
+            {
+              "key": "B",
+              "content": "$50 ~N / m$"
+            },
+            {
+              "key": "C",
+              "content": "$75 ~N / m$"
+            },
+            {
+              "key": "D",
+              "content": "$100 ~N / m$"
+            },
+            {
+              "key": "E",
+              "content": "$150 ~N / m$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "What is the magnitude of the average emf induced during the 0.6 s time interval?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 V"
+            },
+            {
+              "key": "B",
+              "content": "5 V"
+            },
+            {
+              "key": "C",
+              "content": "0 V"
+            },
+            {
+              "key": "D",
+              "content": "5 V"
+            },
+            {
+              "key": "E",
+              "content": "0 V"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "An electron moving to the right with constant velocity enters a region with a uniform magnetic field $B$ directed toward the top of the page, as shown above. In what direction will the electron initially be deflected? ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-13.jpg?height=349&amp;width=817&amp;top_left_y=147&amp;top_left_x=1134)",
+          "options": [
+            {
+              "key": "A",
+              "content": "Toward the top of the page"
+            },
+            {
+              "key": "B",
+              "content": "Toward the bottom of the page"
+            },
+            {
+              "key": "C",
+              "content": "Into the page"
+            },
+            {
+              "key": "D",
+              "content": "Out of the page"
+            },
+            {
+              "key": "E",
+              "content": "Toward the left"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "A wire is placed parallel to a bar magnet, as shown above, and carries current to the right. Several magnetic field lines outside the bar magnet are shown. Which of the following correctly describes the net magnetic force and torque on the wire? 2{l}{ Net Force } \\\\ Zero $|$",
+          "options": [
+            {
+              "key": "A",
+              "content": "Toward the top of the page"
+            },
+            {
+              "key": "B",
+              "content": "Toward the bottom of the page &amp; Zero \\\\"
+            },
+            {
+              "key": "C",
+              "content": "Toward the right &amp; Nonzero \\\\"
+            },
+            {
+              "key": "D",
+              "content": "Zero &amp; Zero \\\\"
+            },
+            {
+              "key": "E",
+              "content": "Zero &amp; Nonzero"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "Two identical spheres are 10.0 cm apart and carry equal charges that create a force of $4.00 10^{-8} ~N$ on each. Their diameters are much smaller than their separation distance. First one sphere is completely discharged. The spheres are then moved together until they touch, and finally they are moved to 5.00 cm apart. The new force between the spheres is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$16.0 10^{-8} ~N$"
+            },
+            {
+              "key": "B",
+              "content": "$8.00 10^{-8} ~N$"
+            },
+            {
+              "key": "C",
+              "content": "$4.00 10^{-8} ~N$"
+            },
+            {
+              "key": "D",
+              "content": "$2.00 10^{-8} ~N$"
+            },
+            {
+              "key": "E",
+              "content": "$1.00 10^{-8} ~N$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "A positively charged particle is at the origin of an $x$-axis. The potential difference between the points on the axis at $x=1.0 ~m$ and $x=2.0 ~m$ due to the particle is 0.90 V . The value of the charge is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1.0 10^{-10} C$"
+            },
+            {
+              "key": "B",
+              "content": "$1.3 10^{-10} C$"
+            },
+            {
+              "key": "C",
+              "content": "$2.0 10^{-10} C$"
+            },
+            {
+              "key": "D",
+              "content": "$3.0 10^{-10} C$"
+            },
+            {
+              "key": "E",
+              "content": "$4.0 10^{-10} C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "If the charge on a parallel-plate capacitor is decreased from 6 pC to 2 pC and the plate separation is increased from 1 mm to 3 mm , the energy stored in the capacitor will change from $U_{0}$ to",
+          "options": [
+            {
+              "key": "A",
+              "content": "$U_{0} / 4$"
+            },
+            {
+              "key": "B",
+              "content": "$U_{0} / 3$"
+            },
+            {
+              "key": "C",
+              "content": "$3 U_{0}$"
+            },
+            {
+              "key": "D",
+              "content": "$8 U_{0}$"
+            },
+            {
+              "key": "E",
+              "content": "$27 U_{0}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "A solid metal sphere is in equilibrium and has a net charge $Q$ placed on it. If the sphere is heated so that it expands uniformly without affecting the amount of charge and so that it is still in equilibrium, which of the following will be unaffected by the expansion? I. The surface charge density II. The electric potential inside the sphere III. The electric field inside the sphere",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "I and II"
+            },
+            {
+              "key": "E",
+              "content": "II and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "A conducting spherical shell $S$ has a charge $Q$ distributed over its surface. The total electric flux through any imaginary concentric spherical shell of radius $r$ that encloses $S$ is ![](https://cdn.mathpix.com/cropped/95bd388e-3e70-4809-b64c-96385cb226cd-15.jpg?height=244&amp;width=459&amp;top_left_y=155&amp;top_left_x=1310)",
+          "options": [
+            {
+              "key": "A",
+              "content": "inversely proportional to $r$"
+            },
+            {
+              "key": "B",
+              "content": "inversely proportional to $r^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "directly proportional to $r$"
+            },
+            {
+              "key": "D",
+              "content": "directly proportional to $r^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "independent of $r$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "The diagram above shows a uniform horizontal electric field and three points that lie in the field. Which of the following is true of the electric potential at the points shown? I. It is lower at point $A$ than at point $B$. II. It is lower at point $A$ than at point $C$. III. It is the same at points $A$ and $B$. IV. It is the same at points $B$ and $C$.",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "III only"
+            },
+            {
+              "key": "C",
+              "content": "IV only"
+            },
+            {
+              "key": "D",
+              "content": "II and III"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and IV"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

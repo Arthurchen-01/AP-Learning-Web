@@ -1,0 +1,249 @@
+{
+  "examId": "em2025Intl_EM",
+  "title": "AP 物理C电磁 2025年国际卷",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2025",
+  "description": "AP Physics C: Electricity and Magnetism 2025年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the absolute value of the potential difference between labeled points X and Y ? The circuit shown consists of a battery of emf $\\varepsilon$ and four identical capacitors. The top horizontal branch has a battery with emf script uppercase E. From left to right, the bottom horizontal branch has a point labeled X, a capacitor, and a point labeled Y. To the right of point $Y$, the bottom horizontal branch splits into two horizontal subbranches. The top subbranch has two capacitors. The bottom subbranch has one capacitor. A. $\\varepsilon 3$ B. $2 \\varepsilon 5$ C. $3 \\varepsilon 5$ D. $2 \\varepsilon 3$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which figure represents possible magnetic field lines and provides a valid justification? Figures 1 and 2 both show a spherical Gaussian surface in the region of a field. The field lines are indicated in each figure. A. Figure 1, because the field in Figure 1 could originate from a U-shaped bar magnet that is inside of the surface. B. Figure 1, because the lines in Figure 1 get farther apart as the radial distance from the surface increases. C. Figure 2, because the lines in Figure 2 are parallel and only magnetic fields can have parallel field lines. D. Figure 2, because the number of field lines that enter the surface in Figure 2 is equal to the number of field lines that exit the surface.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following correctly describes the induced emf $\\varepsilon$ in the loop as $t$ increases? A conducting loop is held fixed in a time-varying magnetic field that is directed along the $x$-axis. The area vector of the loop is directed along the $x$-axis. The $x$-component of the field as a function of time $t$ is described by $B x=\\alpha-\\beta t$, where $\\alpha$ and $\\beta$ are constants. A. ɛ increases. B. $\\varepsilon$ decreases. C. $\\varepsilon$ is constant and nonzero. D. $\\varepsilon$ is constant and zero.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the equivalent resistance of the circuit after the switch has been closed for a long time? The circuit shown consists of a battery; a capacitor of capacitance $C$; resistors of resistances $R, 2 R$, and 3 R ; and a switch that has been closed for a long time. The circuit has three vertical branches and two horizontal branches. The left vertical branch has a resistor with resistance $R$. The inner vertical branch has a capacitor with capacitance $C$. The right vertical branch has a battery. The top horizontal branch has a resistor with resistance 2 R between the inner and right vertical branches. From left to right, the bottom horizontal branch has a resistor with resistance 3 R and a closed switch between the inner and right vertical branches. A. Zero B. 11 R 5 C. 5 R D. $6 R$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The switch is then opened. The absolute value of the potential difference across the capacitor as a function of time is $\\Delta$ VC. Which of the following indicates how $\\Delta$ VC changes after the switch is opened, if at all, and provides a valid The circuit shown consists of a battery; a capacitor of capacitance $C$; resistors of resistances $R, 2 R$, and 3 R ; and a switch that has been closed for a long time. The circuit has three vertical branches and two horizontal branches. The left vertical branch has a resistor with resistance $R$. The inner vertical branch has a capacitor with capacitance $C$. The right vertical branch has a battery. The top horizontal branch has a resistor with resistance 2 R between the inner and right vertical branches. From left to right, the bottom horizontal branch has a resistor with resistance 3 R and a closed switch between the inner and right vertical branches. A. $\\Delta V C$ is constant because the charge on the positive capacitor plate is constant. B. $\\Delta VC$ is constant because the capacitor is in parallel with the battery. C. $\\Delta$ VC decreases because the capacitor is in series with the battery. D. $\\Delta V C$ decreases because the charge on the positive capacitor plate decreases.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A solid conducting sphere has radius $a$ and net charge $Q$. Which expression is equal to the magnitude of the electric field due to the sphere at a distance $3 a$ from the surface of the A. 116 kQa 2 B. 19 kQa 2 C. $14 k Q a 2$ D. 13 kQa 2</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the electric potential at Point A thin ring of radius $a$ has uniformly distributed net charge $Q$. Point P is a distance $b$ above the center of the ring, as shown. A. $12 \\pi kQa 2+b 2$ B. $kQa 2+b 2$ C. $12 \\pi kQa$ D. $kQa 2+b 2$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the energy stored in the capacitor after steady-state conditions are established in In Circuit 1, a battery of emf $\\varepsilon$, a resistor of resistance $R$, and an initially uncharged capacitor of capacitance $C$ are connected in series. After steady-state conditions are established, the energy stored in the capacitor is $U$. In Circuit 2 , a battery of emf $2 \\varepsilon$, a resistor of resistance $3 R$, and an initially uncharged capacitor of capacitance $C$ are connected in A. 2 U B. 4 U C. 6 U D. 9 U</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the resistance of the wire? A straight wire is placed along the $x$-axis with one end at the origin and the other end at position $x=L$. The wire has crosssectional area $A$. The resistivity of the wire as a function of $x$ is described by $\\rho=\\alpha x$, where $\\alpha$ is a constant. A. $\\alpha$ L2A B. $\\alpha$ LA C. ${ }_{\\text {L L2A }}$ D. $\\alpha$ L22A</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the approximate magnitude of the net electric field at Point P? Small charged spheres S and T are held fixed on the $x y^{-}$ coordinate system shown. The position and charge of each sphere are indicated. The position of Point P is also indicated. Sphere $S$ is at the origin with coordinates 0.00 meters comma 0.00 meters and has a charge of positive 7 nanocoulombs. Sphere T has coordinates 0.05 meter comma 0.03 meter and has a charge of negative 4 nanocoulombs. A point labeled P is located at 0.05 meter comma 0.0 meter on the x axis, directly below Sphere T. A. $2 \\times 103 ~N / C$ B. $1 \\times 104 ~N / C$ C. $5 \\times 104 ~N / C$ D. $7 \\times 104 ~N / C$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A positive test charge is held fixed at Point P. Which of the following correctly indicates the signs of the $x^{-}$and $y^{-}$ components of the net electric force $F \\rightarrow$ exerted on the test charge and provides a valid justification? Small charged spheres S and T are held fixed on the $x y^{-}$ coordinate system shown. The position and charge of each sphere are indicated. The position of Point $P$ is also indicated. Sphere $S$ is at the origin with coordinates 0.00 meters comma 0.00 meters and has a charge of positive 7 nanocoulombs. Sphere T has coordinates 0.05 meter comma 0.03 meter and has a charge of negative 4 nanocoulombs. A point labeled $P$ is located at 0.05 meter comma 0.0 meter on the x axis, directly below Sphere T. A. $F \\rightarrow$ has negative $x^{-}$and $y$-components because $F \\rightarrow$ is in the same direction as the net electric field at Point P. B. $F \\rightarrow$ has negative $x^{-}$and $y$-components because $F \\rightarrow$ is in the opposite direction of the net electric field at Point $P$. C. $F \\rightarrow$ has positive $x^{-}$and $y$-components because $F \\rightarrow$ is in the same direction as the net electric field at Point P. D. $F \\rightarrow$ has positive $x^{-}$and $y$-components because $F \\rightarrow$ is in the opposite direction of the net electric field at Point $P$.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An electron moves undeflected through a region that has perpendicular electric and magnetic fields of magnitudes $800 ~V / m$ and $4.0 \\times 10-3 ~T$, respectively. What is the speed of the electron? A. $5.0 \\times 10-6 ~m / s$ B. $3.2 ~m / s$ C. $2.0 \\times 105 ~m / s$ D. $1.7 \\times 107 ~m / s$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the magnitude of the magnetic force exerted on the right side of the loop in Scenario 2? In Scenario 1, a rigid wire loop with nonnegligible resistance is moving to the right at constant speed $v$ while entering an external uniform magnetic field that is out of the page, as shown in Figure 1. In Scenario 2, the loop is moving to the right at constant speed 2 v while entering the field, as shown in Figure In each figure, a rectangular loop moves horizontally right towards a region of a uniform magnetic field, with the loop partially in the magnetic field and the field directed out of the page. In Scenario 1, the loop moves with velocity v. In Scenario 2, the loop moves with velocity 2 v . In Scenario 1, the magnitude of the magnetic force exerted on the right side of the loop is $F$. A. Zero B. F2 C. $F$ D. 2 F</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the approximate capacitance of the capacitor with the material inserted between the plates? An air-filled, charged parallel-plate capacitor is isolated. The area of each plate is $2.0 \\times 10-2 ~m 2$. The plates are separated by a distance of $4.0 \\times 10-4 ~m$. The magnitude of the electric field between the plates is $5.0 \\times 10-5 ~V / m$. Later, a dielectric material is fully inserted between the plates and the new magnitude of the electric field between the plates is $3.0 \\times 10^{-}$ A. $2.7 \\times 10-10 \\quad ~F$ B. $4.4 \\times 10-10 \\quad ~F$ C. $7.4 \\times 10-10 \\quad ~F$ D. $8.8 \\times 10-10 ~F$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the approximate value of the ratio $\\Phi 2 \\Phi 1$ ? Uniform electric field $E \\rightarrow$ is directed along the horizontal and through a loop that has area vector $A \\rightarrow$ that is initially directed $37^{\\circ}$ above the horizontal, as shown in Figure 1. The loop is then rotated so that $A \\rightarrow$ is directed $53^{\\circ}$ above the horizontal, as shown in Figure 2. The electric fluxes through the loop in figures 1 and 2 are $\\Phi 1$ and $\\Phi 2$, respectively. Each figure shows a side view of a loop, represented by a line segment, that has an area vector A perpendicular to that line segment. Uniform electric field vector E is directed horizontally right, through the loop. In Figure 1, the loop is oriented so that its area vector A points upward and to the right at a 37 degree angle above In Figure 2, the loop is rotated counterclockwise so that its area vector A points upward and to the right at a 53 degree angle above horizontal. A. 0.60 B. 0.75 C. 0.80 D. 1.3</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following indicates how the magnitude $a$ of the acceleration of the electron changes as the electron moves and provides a valid justification? Points A and B are on the equipotential lines shown. An electron moves freely from Point A to Point B. From left to right, the lines are labeled negative 10 volts, negative 5 volts, 0 volts, and 5 volts. The distance between the 0 volt and 5 volt lines is the The distance between the negative 5 volt and 0 volt lines is about one half the of the distance between the 0 volt and 5 volt lines. The distance between the negative 10 volt and negative 5 volt lines is about one half the of the distance between the negative 5 volt and 0 volt lines. A point labeled A is shown on the negative 10 volt line. $A$ point labeled $B$ is shown on the 5 volt line. A. a increases because the electron moves from a negative to a positive electric potential. B. $a$ increases because the change in the electric potential per unit distance increases as the electron moves. C. a decreases because the magnitude of the electric field decreases as the electron moves. D. a decreases because the total change in the electric potential from Point A to Point B is positive.</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the ratio L2L1 ? Long, air-filled solenoids 1 and 2 have the same diameter and length. Solenoid 1 has 100 loops. Solenoid 2 has 200 loops. The inductances of solenoids 1 and 2 are L1 and L2, respectively. A. 14 B. 12 C. 2 D. 4</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following correctly compares F1, F2, A wire carrying current $I$ is in the $x y$-plane. The current is directed $30^{\\circ}$ above the $x$-axis, as shown. The wire is in an external uniform magnetic field of magnitude $B$ in scenarios 1,2 , and 3 , as described. Scenario 1: The field is directed in the +x -direction. Scenario 2: The field is directed in the +y-direction. Scenario 3: The field is directed in the +z-direction. A coordinate basis indicates that the positive x direction points horizontally to the right, the positive y direction points vertically upward, and the positive z direction points out of the page. The wire passes diagonally through the origin at an angle of 30 degrees above horizontal. A current I is directed upward and to the right through the The magnitudes of the magnetic forces exerted on the wire in scenarios 1, 2, and 3 are F1, F2, and F3, respectively. A. $F 1>F 2>F 3$ B. $F 1>F 3>F 2$ C. $F 3>F 1>F 2$ D. $F 3>F 2>F 1$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the absolute value of the electric flux through the shaded top half of the Gaussian A small charged sphere is at the center of a spherical Gaussian surface of radius $r$. The top half of the Gaussian surface is shaded, as shown. The magnitude of the electric field at the Gaussian surface is A. $12 \\pi r 2 E$ B. $\\pi r 2 E$ C. $2 \\pi r 2 E$ D. $4 \\pi r 2 E$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following correctly compares IX, IY, and IZ? Circuits X, Y, and Z each consist of a battery of emf $\\varepsilon$ and three resistors. The resistances of the resistors and the currents in the right branches of circuits $X, Y$ and $Z$ are In each circuit, there are two horizontal branches and three vertical branches. Each circuit consists of one battery and three resistors, with each left vertical branch having a battery with emf script uppercase E. Each diagram is as follows: Circuit X: The inner vertical branch has a resistor with resistance From top to bottom, the right vertical branch has a resistor with resistance 3 R , followed by a current I subscript X directed downward, followed by a resistor with resistance 2 R. Circuit Y: The inner vertical branch has a resistor with resistance 3 R. From top to bottom, the right vertical branch has a resistor with resistance R , followed by a current I subscript y directed downward, followed by a resistor with resistance 2 R . Circuit Z: The inner vertical branch has a resistor with resistance 2 R. From top to bottom, the right vertical branch has a resistor with resistance R , followed by a current I subscript Z directed downward, followed by a resistor with resistance 3 R. A. $IX>IZ>IY$ B. IX $>$ IY $>$ IZ C. $IY>IZ>IX$ D. $IZ>IX>IY$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following correctly compares VR, VS, Three small nonconducting spheres with the charges indicated are evenly spaced and held fixed on the $x$-axis. Points R , S , and T are evenly spaced such that points $S$ and $T$ are midway between the centers of the spheres, as shown. From left to right, the objects along the x axis are as A point labeled R A sphere with charge positive Q A point labeled $S$ A sphere with charge positive Q A point labeled T A sphere with charge negative Q The electric potentials due to the three spheres at points $R, S$, and T are VR, VS, and VT, respectively. A. $VR>VS>VT$ B. $VS>VR>VT$ C. $VT>VR>VS$ D. VT $>$ VS $>$ VR</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the magnitude of the magnetic force exerted on the bar as a function of $t$ as the bar moves? A bar with resistance $R$ is moved in the +x -direction by an external force along a U-shaped loop of conducting rails. The rails are a distance $D$ apart. The bar and the rails are in a uniform magnetic field of magnitude $B$ that is directed out of the page, as shown. The position of the bar as a function of time $t$ is described by $x=\\alpha$ t2, where $\\alpha$ is a positive constant. A. 2 a B2D2tR B. $\\quad a ~B 2 D 2 t 2 R$ C. 2 a B 2 D 2 t D. $a B2D 2 t 2$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the approximate radius of Segment Y? A wire is made of cylindrical segments $X$ and $Y$ that are connected in series. The uniform current density in Segment $X$ is $3.8 \\times 106 ~A / m 2$, and the uniform current density in Segment Y is $1.9 \\times 106 ~A / m 2$. The radius of Segment $X$ is $5.0 \\times 10-4 ~m$. A. $5.0 \\times 10-7 ~m$ B. $3.5 \\times 10-4 ~m$ C. $7.1 \\times 10-4 ~m$ D. $1.0 \\times 10-3 ~m$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the absolute value of the electric flux through the Gaussian sphere? An object with a charge of $+3.54 \\times 10-5 C$ is enclosed by a Gaussian sphere that has a radius of 1.0 m . A second object, which has a charge of $-3.54 \\times 10-5 C$, is 2.0 m from the center of the same Gaussian sphere. A. Zero B. $3.2 \\times 105 ~N \\cdot ~m 2 C$ C. $4.0 \\times 106 ~N \\cdot ~m 2 C$ D. $8.0 \\times 106 ~N \\cdot ~m 2 C$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A wire of radius a carries current $I$ with uniform current density. Which expression is equal to the magnitude of the magnetic field at a distance $r$ from the center of the wire, A. $\\mu 0 I 4 \\pi r$ B. $\\mu 012 \\pi r$ C. $\\mu 0 Ir 4 \\pi a 2$ D. $\\mu OIr 2 \\pi a 2$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following provides a diagram that represents the correct placement of the ammeter in the circuit and correctly compares $I$ to $\\varepsilon R$ ? A circuit consists of a battery of emf $\\varepsilon$, a resistor of resistance $R$, and a nonideal ammeter that has a resistance that is less than $R$. A student is asked to connect the ammeter in the circuit to measure the current $I$ in the resistor. A. Circuit Comparison of $I$ to $\\varepsilon R$ $$ I=\\varepsilon R $$ B. Circuit Comparison of $I$ to $\\varepsilon R$ $$ I<\\varepsilon R $$ C. Circuit Comparison of $I$ to $\\varepsilon R$ $$ I=\\varepsilon R $$ D. Circuit Comparison of $I$ to $\\varepsilon R$ $$ I<\\varepsilon R $$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the magnitude of $E \\rightarrow$ ? At time $t=0$, a small sphere with mass $M$ and positive charge $+Q$ is moving with speed $v$ to the right midway between two large, charged parallel plates. The plates are a distance $D$ The electric field $E \\rightarrow$ between the plates is uniform and constant. Gravitational effects are negligible. The sphere reaches one plate at time tf. A. $12 MDQtf2$ B. MDQtf 2 C. 12 Mv 2 QD D. Mv 2 QD</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following correctly compares $\\Phi 2$ to $\\Phi 1$ ? In Scenario 1, a circular wire loop of radius $r$ is placed in a uniform magnetic field of magnitude $B$. In Scenario 2, a circular wire loop of radius 2 r is placed in a uniform magnetic field of magnitude B 2 . In both scenarios, the area vectors of both loops are in the same direction as the magnetic fields. The magnetic fluxes through the loops in scenarios 1 and 2 are $\\Phi 1$ and $\\Phi 2$, respectively. A. $\\Phi 2>\\Phi 1$ B. $\\Phi 2<\\Phi 1$ C. $\\Phi 2=\\Phi 1>0$ D. $\\Phi 2=\\Phi 1=0$</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which expression is equal to the experimental value of mass Small spheres, each of the same unknown mass $m$ but with different amounts of charge $q$, are launched at speed $v$ toward a region with an external uniform magnetic field of magnitude $B$. The field is perpendicular to the direction that the spheres are launched. The spheres move along circular paths after entering the field, as shown in Figure 1. Figure 2 shows values of the radius $r$ of each circular path for each tested value of $1 / q$. The slope of the dashed best-fit line in Figure 2 is $s$. Each figure is as follows: Figure 1: A sphere of mass $m$ and charge $q$ moves horizontally to the right with velocity v, entering the top left of a uniform magnetic field $B$. The field is directed out of the page, and the left side of the field is a vertical line. The sphere enters the magnetic field, then moves downward and to the right along a semicircular path with radius $r$ through the interior of the field, and would exit the field moving horizontally to the left. Figure 2: A scatterplot with a line of best fit in the first quadrant of a coordinate plane. The horizontal axis is labeled 1 over q , times 10 to the power of 18 inverse coulombs, and the numbers 0 through 7, in increments of 1 , are indicated. The vertical axis is labeled r in meters, and the numbers 0.000 through 0.005 , in increments of 0.001 , are The line of best fit begins near the origin, slants upward and to the right, and ends at approximately the point with coordinates 6.2 comma 0.005 . A. $s$ B. 1 s C. Bsv D. sBv</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

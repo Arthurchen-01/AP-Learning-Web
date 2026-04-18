@@ -1,0 +1,724 @@
+{
+  "examId": "2023Intl",
+  "title": "AP Calculus BC 2023年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2023",
+  "description": "AP Calculus BC 2023年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "If $g(x)=x^{2} x+1$, then $g^{}(3)={}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$3{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$39{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$57{4}$"
+            },
+            {
+              "key": "D",
+              "content": "36 $$ 2 x {x+1+x^{2} 1{2} 1{x+1}}{62+91{2} 1{2}} \\\\ 12+9{4}=57{4} $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "$_{0}^{4} 100 e^{x / 4} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$25(e-1)$"
+            },
+            {
+              "key": "B",
+              "content": "$100(e-1)$"
+            },
+            {
+              "key": "C",
+              "content": "$400(e-1)$"
+            },
+            {
+              "key": "D",
+              "content": "$400(e^{4}-1)$ $.4 100 e^{x{4}}|_{0} ^{4}$ $46{4} 100 e- 4$ ![](https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-04.jpg?height=834&amp;width=900&amp;top_left_y=69&amp;top_left_x=488)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "An airplane&#x27;s height above sea level is modeled by the differentiable function $y=h(t)$, where $t$ is the number of minutes after takeoff and $h(t)$ is measured in feet. The graph of $h$ is shown in the figure for $0 t 15$. Of the following, which is the best estimate of the rate at which the plane is rising above sea level, in feet per minute, at time $t=9$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$37,275-150{15-0}$"
+            },
+            {
+              "key": "B",
+              "content": "$37,275-9,775{15-5}$"
+            },
+            {
+              "key": "C",
+              "content": "$37,275-16,859{15-7}$"
+            },
+            {
+              "key": "D",
+              "content": "$30,763-16,859{11-7}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "Let $f$ be a vector-valued function with $f(0)=(-2,3)$. If the instantaneous rate of change of $f$ with to $t$ is given by $3 t^{2+4 t+1,2 t^{3}+t-2}$, what is $f(I)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ 2,2$"
+            },
+            {
+              "key": "B",
+              "content": "$(4,-1)$"
+            },
+            {
+              "key": "C",
+              "content": "$(8,10)$"
+            },
+            {
+              "key": "D",
+              "content": "$ 10,7$ $$ &amp; _{0}^{1} 3{4} t^{2}+4 t+1 dx \\\\ &amp; 3{4} t^{3}+2 t^{2}+t+.|_{0} ^{1} $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "A portion of the slope field for the differential equation $dy{dx}=x-y$ is shown in the figure. If the linear function $y=f(x)$ is the solution to the differential equation such that $f(-1)=-2$, then $f(3)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "1"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "3"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "If $f(x)= (e^{3 x})$, then $f^{}(x)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ (e^{3 x})$"
+            },
+            {
+              "key": "B",
+              "content": "$ (3 e^{3 })$"
+            },
+            {
+              "key": "C",
+              "content": "$e^{3 x} (e^{3 x})$"
+            },
+            {
+              "key": "D",
+              "content": "$3 e^{3 x} (e^{3 x})$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "If the series $_{n=0}^{}(-1)^{n} B^{n+1}{A^{n}}$ converges, where $A 0$ and $B 0$, what is the sum of the series?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$AB{A-B}$"
+            },
+            {
+              "key": "B",
+              "content": "$AB{A+B}$"
+            },
+            {
+              "key": "C",
+              "content": "$A{A-B}$"
+            },
+            {
+              "key": "D",
+              "content": "$A{A+B}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Of the following series, which can be used with the comparison test to show that $_{n-3}^{} n{n}$ diverges?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{n=3}^{} 1{n}$"
+            },
+            {
+              "key": "B",
+              "content": "$_{n=3}^{} 1{n+n}$"
+            },
+            {
+              "key": "C",
+              "content": "$_{n=3}^{} 1{n^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$_{n=3}^{} n$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "A particle moves in the $xy$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{2}-t^{3}$ and $y(t)=9-6 t$. What is the speed of the particle at time $t=2$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$3{4}$"
+            },
+            {
+              "key": "B",
+              "content": "5"
+            },
+            {
+              "key": "C",
+              "content": "10"
+            },
+            {
+              "key": "D",
+              "content": "14"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "Which of the following is the solution to the differential equation $dy{dx}=-3 y$ with the initial condition $y(0)=7$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$y=7 e^{-3 t}$"
+            },
+            {
+              "key": "B",
+              "content": "$y=e^{-3 x}+6$"
+            },
+            {
+              "key": "C",
+              "content": "$y=-3{2} x^{2}+7$"
+            },
+            {
+              "key": "D",
+              "content": "$y=49-6 x$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "Consider the series $_{n=1}^{} (-1)^{n}{ (1{n})}$. Which of the following statements is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The series converges absolutely."
+            },
+            {
+              "key": "B",
+              "content": "The series converges conditionally."
+            },
+            {
+              "key": "C",
+              "content": "The series diverges."
+            },
+            {
+              "key": "D",
+              "content": "It cannot be determined whether the series converges or diverges from the information given."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "If $f$ is a function such that $ f(x)=0$, which of the following could be an expression for $f(x)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$x^{2}{x^{2}+4}$"
+            },
+            {
+              "key": "B",
+              "content": "$ x{x}$"
+            },
+            {
+              "key": "C",
+              "content": "$ x$"
+            },
+            {
+              "key": "D",
+              "content": "$e^{x}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "$ x+1{x(x+3)} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{3} |x|+2{3} |x+3|+C$"
+            },
+            {
+              "key": "B",
+              "content": "$1{3} |x|+2{9} |x+3|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$2{3} |x|+1{3} |x+3|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$2{3} |x|+1{9} |x+3|+C$ $$ f(x)= x^{2} &amp; 2 x \\\\ g(x) &amp; { for } x 4 \\\\ { for } x&gt;4 $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined as shown. If $f$ is differentiable, which of the following could define $g(x)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$6 x$"
+            },
+            {
+              "key": "B",
+              "content": "$x^{3 / 2}$"
+            },
+            {
+              "key": "C",
+              "content": "$x^{2}-8$"
+            },
+            {
+              "key": "D",
+              "content": "$1{8} x^{3}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "The function $y=f(x)$-satisfies the differential equation $dy{dx}=2 x$ with the initial condition $f(0)=5$. What i the value of $f(2)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$5{21}$"
+            },
+            {
+              "key": "B",
+              "content": "$33$"
+            },
+            {
+              "key": "C",
+              "content": "$4+e^{4}$"
+            },
+            {
+              "key": "D",
+              "content": "$5 e^{4}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Wrich of the following gives the length of the curve $y= x$ from $x=-{4}$ to $x={4}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{- / 4}^{ / 4} 1- xdx$"
+            },
+            {
+              "key": "B",
+              "content": "$_{- / 4}^{ / 4} 1+ ^{2 x} dx$"
+            },
+            {
+              "key": "C",
+              "content": "$_{- / 4}^{ / 4} 1+ ^{2 x} dx$"
+            },
+            {
+              "key": "D",
+              "content": "$_{- / 4}^{ / 4} 1+ ^{4 x} dx$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "If $y=f(x)$ is a function such that $dy{dx}=2 x-y{x}$, then $d^{2 y}{dx^{2}}=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2 y-2 x{x^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$y-xy{x^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$y-x{x^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$y{x^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Which of the following series converges to $1{e}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{n=0}^{} 1{n!}$"
+            },
+            {
+              "key": "B",
+              "content": "$_{n=0}^{} (-1)^{n}{n!}$"
+            },
+            {
+              "key": "C",
+              "content": "$_{n=0}^{n} (-1)^{n}{(2 n)^{n}}$"
+            },
+            {
+              "key": "D",
+              "content": "$_{n=0}^{} (-1)^{n+1}{(2 n+1)!}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The function $g$ has a continuous second derivative. If $g(0)=2, g^{}(0)-4, g(3)=5$, and $g^{}(3)=6$, what is the value of $_{0}^{3} xg^{n}(x) dx$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "9"
+            },
+            {
+              "key": "B",
+              "content": "15"
+            },
+            {
+              "key": "C",
+              "content": "21"
+            },
+            {
+              "key": "D",
+              "content": "27"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "The Maclaurin scries for the function $f$ is given by $_{n=1}^{n} (-2)^{nx^{2 n}}{n}$ What is the value of $f^{(4)}(0)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "4"
+            },
+            {
+              "key": "C",
+              "content": "8"
+            },
+            {
+              "key": "D",
+              "content": "48"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "$ dx{x^{2}+4 x+5}=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ ^{-1}(x+2)+c$"
+            },
+            {
+              "key": "B",
+              "content": "$ |x^{2}+4 x+5|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2 x+4} |x^{2}+4 x+5|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$1{1{3} x^{3}+2 x^{2}+5 x}+C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined by $f(x)=x^{3}+x$. If $g$ is the inverse function of $f$, what is the slope of the line tangent to the graph of $g$ at the point $(2,1)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{4}$"
+            },
+            {
+              "key": "B",
+              "content": "$-1{13}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{13}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{4}$ |$x$ &amp; 0 &amp; 2 &amp; 3 &amp; 5 \\\\ |$f(x)$ &amp; 2 &amp; 3 &amp; 6 &amp; 12 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "The function $f$ is continuous on the closed interval $[0,5]$ and differentiable on the open interval $(0,5)$. Selected values of $f$ are given in the table shown. The value $c=4$ satisfies the conclusion of the Mean Valoc Theorem for $f$ on the closed interval $[0,5]$. What is the slope of the line tangent to the graph of $f$ at $x=4$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "8"
+            },
+            {
+              "key": "C",
+              "content": "5"
+            },
+            {
+              "key": "D",
+              "content": "10"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Let $f$ be the function with $f(0)=0$ and denvative given by $f^{}(x)- (x^{2})$. Which of the following is the Maclaurin series for $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{n=0}^{} (-1)^{nr^{2 n}}{(2 n)!}$"
+            },
+            {
+              "key": "B",
+              "content": "$_{n=0}^{} (-1)^{nx^{4 n}}{(2 n)!}$"
+            },
+            {
+              "key": "C",
+              "content": "$_{n-0}^{} (-1)^{nx^{4 n+1}}{(4 n+1)(2 n)!}$"
+            },
+            {
+              "key": "D",
+              "content": "$_{n=0}^{} (-1)^{n(4 n) x^{4 n-1}}{(2 n)!}$ AAAAAAAAAAAAAAAAAAAAAAAAA_{A} A_{A}$} ![](https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-21.jpg?height=312&amp;width=693&amp;top_left_y=162&amp;top_left_x=650)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "$_{1}^{x^{2}} xdx$ II. $_{0}^{2} e^{y} dy$ III $_{0}^{2}(e^{2}-e^{y}) dy$",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "III only"
+            },
+            {
+              "key": "C",
+              "content": "Tand II only"
+            },
+            {
+              "key": "D",
+              "content": "I and III only"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "$ _{n } _{k=1}^{n}(3{n} k)^{2}(3{n})$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "1"
+            },
+            {
+              "key": "B",
+              "content": "3"
+            },
+            {
+              "key": "C",
+              "content": "9"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent { B } &amp; { B } &amp; { B } &amp; { B } &amp; { B } &amp; { B } &amp; { B } &amp; { B } &amp; { B }$} CALCULUSBC SECTION I. Part B Time- 45 minutes 15 Questions Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem. BE SURE YOUFILL IN THE CIRCIES ON THE ANSWER SHEET THAT CORRESPOND TO QUESTIONS NUMBERED 76-90."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "If $f^{}(x)=1+2 x-x^{3}-x^{4+1}$, then $f$ has a local minimem at $x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "-1.836"
+            },
+            {
+              "key": "B",
+              "content": "-1.113"
+            },
+            {
+              "key": "C",
+              "content": "0"
+            },
+            {
+              "key": "D",
+              "content": "1181 ![](https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=438&amp;width=513&amp;top_left_y=263&amp;top_left_x=708)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "The function $f$ has derivatives of all orders for all real rumbers. The table shown gives values of $f$ and its first three derivatives at selected values of $x$. What is the value of $_{-1}^{1} f^{ }(x) dx$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-36"
+            },
+            {
+              "key": "B",
+              "content": "-10"
+            },
+            {
+              "key": "C",
+              "content": "-8"
+            },
+            {
+              "key": "D",
+              "content": "48"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

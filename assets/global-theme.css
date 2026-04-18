@@ -1,0 +1,666 @@
+/**
+ * AP Learning - Global Warm Theme
+ * Single source of truth for all page colors.
+ * All pages must use these CSS variables — no more scattered inline themes.
+ */
+
+/* ============================================
+   WARM THEME (Light Mode) - Default
+   ============================================ */
+:root,
+[data-theme="light"] {
+  /* Core palette - warm earth tones */
+  --bg: #fff8f1;
+  --bg-elevated: #fffdf9;
+  --panel: rgba(255, 251, 246, 0.94);
+  --text: #533624;
+  --text-muted: #86624c;
+  --text-soft: #9a7a64;
+
+  /* Brand colors */
+  --accent: #e89255;
+  --accent-strong: #c96e34;
+  --accent-soft: #ffe4cf;
+
+  /* Borders & shadows */
+  --line: #f0d2b8;
+  --line-strong: #dea981;
+  --border: #f0d2b8;
+  --border-strong: #dea981;
+  --shadow: 0 22px 60px rgba(188, 124, 76, 0.14);
+  --shadow-soft: 0 12px 30px rgba(188, 124, 76, 0.09);
+
+  /* UI element overrides */
+  --card-bg: #fffdf9;
+  --card-bg-elevated: #fff8f1;
+  --primary: #e89255;
+  --primary-strong: #c96e34;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  /* Layout */
+  --radius-xl: 30px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --max-width: 1180px;
+}
+
+/* ============================================
+   DARK THEME (Dark Mode)
+   Used for: v2 pages (intentionally dark for exam focus)
+   ============================================ */
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --bg-elevated: #1e293b;
+  --panel: rgba(15, 23, 42, 0.94);
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-soft: #64748b;
+
+  --accent: #3b82f6;
+  --accent-strong: #60a5fa;
+  --accent-soft: #1e3a5f;
+
+  --line: #334155;
+  --line-strong: #475569;
+  --border: #334155;
+  --border-strong: #475569;
+  --shadow: 0 22px 60px rgba(0, 0, 0, 0.3);
+  --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.2);
+
+  --card-bg: #1e293b;
+  --card-bg-elevated: #0f172a;
+  --primary: #3b82f6;
+  --primary-strong: #60a5fa;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  --radius-xl: 30px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --max-width: 1180px;
+}
+
+/* ============================================
+   BASE RESET
+   ============================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+img { max-width: 100%; height: auto; }
+
+/* ============================================
+   SHELL LAYOUT
+   ============================================ */
+.shell {
+  width: min(calc(100% - 32px), var(--max-width));
+  margin: 0 auto;
+}
+
+.page-main {
+  padding: 18px 0 56px;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+/* ============================================
+   HEADER / NAVBAR
+   ============================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 248, 241, 0.84);
+  border-bottom: 1px solid rgba(222, 169, 129, 0.3);
+}
+
+[data-theme="dark"] .site-header {
+  background: rgba(15, 23, 42, 0.84);
+  border-bottom-color: rgba(51, 65, 85, 0.5);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 84px;
+  padding: 14px 0;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f5c28f, #df8547);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: var(--shadow-soft);
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brand-title {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.brand-subtitle {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.nav-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid rgba(222, 169, 129, 0.42);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+
+[data-theme="dark"] .nav-main {
+  background: rgba(30, 41, 59, 0.92);
+  border-color: rgba(51, 65, 85, 0.5);
+}
+
+.nav-main a {
+  padding: 10px 16px;
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.96rem;
+  font-weight: 700;
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.nav-main a:hover,
+.nav-main a:focus-visible,
+.nav-main a.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+[data-theme="dark"] .nav-main a:hover,
+[data-theme="dark"] .nav-main a:focus-visible,
+[data-theme="dark"] .nav-main a.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.avatar-entry {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px 10px 10px;
+  border: 1px solid rgba(222, 169, 129, 0.42);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.92);
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+}
+
+[data-theme="dark"] .avatar-entry {
+  background: rgba(30, 41, 59, 0.92);
+  border-color: rgba(51, 65, 85, 0.5);
+}
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ebb688, #d77435);
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.avatar-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.avatar-meta strong {
+  font-size: 0.92rem;
+}
+
+.avatar-meta span {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+/* ============================================
+   CARDS & PANELS
+   ============================================ */
+.hero,
+.page-panel,
+.dashboard-card,
+.subject-shell,
+.entry-card,
+.summary-card {
+  border: 1px solid rgba(222, 169, 129, 0.44);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow-soft);
+}
+
+[data-theme="dark"] .hero,
+[data-theme="dark"] .page-panel,
+[data-theme="dark"] .dashboard-card,
+[data-theme="dark"] .subject-shell,
+[data-theme="dark"] .entry-card,
+[data-theme="dark"] .summary-card {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(51, 65, 85, 0.5);
+}
+
+.card-link,
+.dashboard-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 0.92rem;
+  font-weight: 800;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.card-link:hover,
+.dashboard-button:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* ============================================
+   CHIPS & BADGES
+   ============================================ */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(255, 235, 215, 0.9);
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .chip {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.badge-mcq { background: rgba(59, 130, 246, 0.12); color: #3b82f6; }
+.badge-calc { background: rgba(245, 158, 11, 0.12); color: #f59e0b; }
+
+/* ============================================
+   GRID UTILITIES
+   ============================================ */
+.home-grid,
+.subject-grid,
+.dashboard-list,
+.summary-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.home-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 24px;
+}
+
+.subject-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* ============================================
+   PROGRESS BAR
+   ============================================ */
+.progress-track {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(236, 213, 193, 0.7);
+  overflow: hidden;
+}
+
+[data-theme="dark"] .progress-track {
+  background: rgba(51, 65, 85, 0.6);
+}
+
+.progress-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+/* ============================================
+   SUBJECT TABS
+   ============================================ */
+.subject-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subject-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid rgba(222, 169, 129, 0.42);
+  border-radius: 999px;
+  background: rgba(255, 251, 246, 0.92);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: all 160ms ease;
+  cursor: pointer;
+}
+
+[data-theme="dark"] .subject-tab {
+  background: rgba(30, 41, 59, 0.92);
+  border-color: rgba(51, 65, 85, 0.5);
+  color: #94a3b8;
+}
+
+.subject-tab:hover,
+.subject-tab.is-active {
+  border-color: rgba(201, 110, 52, 0.4);
+  color: var(--accent-strong);
+  transform: translateY(-1px);
+}
+
+.subject-tab.is-active {
+  background: linear-gradient(180deg, rgba(255, 228, 207, 0.98), rgba(255, 241, 228, 0.96));
+  box-shadow: 0 12px 24px rgba(188, 124, 76, 0.12);
+}
+
+[data-theme="dark"] .subject-tab.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+/* ============================================
+   ENTRY CARD (used in mock/training listings)
+   ============================================ */
+.entry-card {
+  padding: 22px;
+  border: 1px solid rgba(222, 169, 129, 0.44);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow-soft);
+}
+
+[data-theme="dark"] .entry-card {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(51, 65, 85, 0.5);
+}
+
+.entry-card h2 { margin: 0; letter-spacing: -0.03em; }
+.entry-card p { margin: 10px 0 0; color: var(--text-muted); line-height: 1.7; }
+
+.entry-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: 18px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
+/* ============================================
+   EXAM CARD
+   ============================================ */
+.exam-card {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 249, 243, 0.92));
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+[data-theme="dark"] .exam-card {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(51, 65, 85, 0.4);
+}
+
+.exam-card:hover {
+  border-color: rgba(201, 110, 52, 0.45);
+  transform: translateY(-2px);
+}
+
+.exam-card h3 { margin: 0; font-size: 1rem; line-height: 1.45; }
+.exam-card p { margin: 0; color: var(--text-muted); font-size: 0.92rem; }
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ============================================
+   PAGE HEADING
+   ============================================ */
+.page-heading {
+  margin-bottom: 18px;
+}
+
+.page-heading h1 {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin: 0;
+}
+
+.page-heading p {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   MASTERy BADGE
+   ============================================ */
+.mastery-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.mastery-badge.mastered { background: rgba(34, 197, 94, 0.15); color: var(--success); }
+.mastery-badge.learning { background: rgba(59, 130, 246, 0.15); color: var(--primary); }
+.mastery-badge.not-started { background: rgba(156, 163, 175, 0.15); color: var(--text-muted); }
+
+/* ============================================
+   EMPTY STATE
+   ============================================ */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
+
+.loading-state {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer {
+  padding: 0 0 40px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE
+   ============================================ */
+@media (max-width: 860px) {
+  .nav { flex-direction: column; align-items: stretch; }
+  .nav-main, .avatar-entry { width: 100%; justify-content: space-between; }
+}
+
+@media (max-width: 720px) {
+  .shell { width: min(calc(100% - 20px), var(--max-width)); }
+  .nav-main { overflow-x: auto; }
+  .nav-main a, .subject-tab { white-space: nowrap; }
+  .home-grid, .subject-grid, .path-grid, .page-section-grid,
+  .unit-grid, .skill-grid, .frq-columns, .summary-grid-five,
+  .mastery-legend, .dashboard-home-metrics,
+  .unit-map-grid, .skill-map-grid, .profile-shell {
+    grid-template-columns: 1fr;
+  }
+  .dashboard-cards { grid-template-columns: 1fr; }
+  .dashboard-home-card, .dashboard-home-card.is-wide { grid-column: auto; }
+  .subject-tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; }
+  .overview-head, .section-card-head, .frq-header, .training-footer, .summary-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ============================================
+   MASTER Y COLORS (5-tier mastery)
+   ============================================ */
+.tone-muted {
+  color: #9a7a64;
+  background: rgba(248, 240, 234, 0.92);
+}
+.tone-warm { color: #b96f3d; background: rgba(255, 239, 226, 0.92); }
+.tone-strong { color: #8c5a2d; background: rgba(255, 229, 205, 0.96); }
+.tone-crown { color: #9b5f16; background: rgba(255, 220, 171, 0.96); }
+
+[data-theme="dark"] .tone-muted { color: #64748b; background: rgba(51, 65, 85, 0.5); }
+[data-theme="dark"] .tone-warm { color: #60a5fa; background: rgba(30, 58, 95, 0.6); }
+[data-theme="dark"] .tone-strong { color: #93c5fd; background: rgba(30, 41, 59, 0.7); }
+[data-theme="dark"] .tone-crown { color: #60a5fa; background: rgba(30, 58, 95, 0.7); }
+
+/* Rubric states */
+[data-theme="dark"] .rubric-item.is-earned {
+  border-color: rgba(34, 197, 94, 0.4);
+  background: rgba(34, 197, 94, 0.1);
+}
+[data-theme="dark"] .rubric-item.is-missed {
+  border-color: rgba(239, 68, 68, 0.4);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+/* Official/AI track panels */
+[data-theme="dark"] .official-track {
+  background: rgba(51, 65, 85, 0.5);
+  border-color: rgba(51, 65, 85, 0.5);
+}
+[data-theme="dark"] .ai-track {
+  background: rgba(30, 58, 95, 0.5);
+  border-color: rgba(59, 130, 246, 0.3);
+}

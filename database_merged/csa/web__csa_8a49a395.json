@@ -1,0 +1,1256 @@
+{
+  "examId": "csa_8a49a395",
+  "title": "AP CSA 2020年样题",
+  "subjectName": "计算机科学A",
+  "yearLabel": "2020",
+  "description": "AP Computer Science A 2020年样题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "csa_8a49a395-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_mcq_0",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int a = 3 + 2 * 3;<br/>int b = 4 + 3 / 2;<br/>int c = 7 % 4 + 3;<br/>double d = a + b + c;</code></pre><br/><br/>What is the value of d after the code segment is executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">14.0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">18.0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">20.0</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">20.5</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">26.0</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment. Assume num is a properly declared and initialized int variable.<br/><pre><code class=\"language-\">if (num &gt; 0)<br/>{<br/>    if (num % 2 == 0)<br/>    {<br/>        System.out.println(\"A\");<br/>    }<br/>    else<br/>    {<br/>        System.out.println(\"B\");<br/>    }<br/>}</code></pre><br/><br/>Which of the following best describes the result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">When num is a negative odd integer, \" B \" is printed; otherwise, \" A \" is printed.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">When num is a negative even integer, \" B\" is printed; otherwise, nothing is printed.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">When num is a positive even integer, \" A \" is printed; otherwise, \" B \" is printed.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">When num is a positive even integer, \" A \" is printed; when num is a positive odd integer, \" B \" is printed; otherwise, nothing is printed.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">When num is a positive odd integer, \" A \" is printed; when num is a positive even integer, \" B \" is printed; otherwise, nothing is printed.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the method getHours, which is intended to calculate the number of hours that a vehicle takes to travel between two mile markers on a highway if the vehicle travels at a constant speed of 60 miles per hour. A mile marker is a sign showing the number of miles along a road between some fixed location (for example, the beginning of a highway) and the current location.<br/><br/>The following table shows two examples of the intended behavior of getHours, based on the int parameters marker1 and marker2.<br/><br/>{|c|c|c|}<br/> marker1 & marker2 & Return Value <br/><br/> 100 & 220 & 2.0 <br/><br/> 100 & 70 & 0.5 <br/><br/><br/>Consider the following implementation of getHours.<br/><pre><code class=\"language-\">public static double getHours(int marker1, int marker2)<br/>{<br/>    /* missing statement */<br/>    return hours;<br/>}</code></pre><br/><br/>Which of the following statements can replace /* missing statement */ so getHours works as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">double hours = (Math.abs(marker1) - Math.abs(marker2)) / 60.0;</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">double hours = Math.abs(marker1 - marker2 / 60.0);</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">double hours = Math.abs(marker1 - marker2) / 60.0;</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">double hours = Math.abs((marker1 - marker2) / 60);</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">double hours = (double) (Math.abs(marker1 - marker2) / 60);</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static void message(int a, int b, int c)<br/>{<br/>    if (a &lt; 10)<br/>    {<br/>        if (b &lt; 10)<br/>        {<br/>            System.out.print(\"X\");<br/>        }<br/>        System.out.print(\"Y\");<br/>    }<br/>    if (c &lt; 10)<br/>    {<br/>        if (b &gt; 10)<br/>        {<br/>            System.out.print(\"Y\");<br/>        }<br/>        else<br/>        {<br/>            System.out.print(\"Z\");<br/>        }<br/>    }<br/>}</code></pre><br/><br/>What is printed as a result of the call message $(5,15,5)$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">XY</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">XYZ</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Y</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">YY</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Z</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_4",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><pre><code class=\"language-\">public class Bird<br/>{<br/>    private String species;<br/>    private String color;<br/>    private boolean canFly;<br/>    public Bird(String str, String col, boolean cf)<br/>    {<br/>        species = str;<br/>        color = col;<br/>        canFly = cf;<br/>    }<br/>}</code></pre><br/><br/>Which of the following constructors, if added to the Bird class, will cause a compilation error?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">public Bird()<br/>    {<br/>        species = \"unknown\";<br/>        color = \"unknown\";<br/>        canFly = false;<br/>    }</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">public Bird(boolean cf)<br/>    {<br/>        species = \"unknown\";<br/>        color = \"unknown\";<br/>        canFly = cf;<br/>    }</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">public Bird(String col, String str)<br/>    {<br/>        species = str;<br/>        color = col;<br/>        canFly = false;<br/>    }<br/><pre><code class=\"language-\"></code></pre></div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">public Bird(boolean cf, String str, String col)<br/>    {<br/>        species = str;<br/>        color = col;<br/>        canFly = cf;<br/>    }</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">public Bird(String col, String str, boolean cf)<br/>    {<br/>        species = str;<br/>        color = col;<br/>        canFly = cf;<br/>    }<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_5",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following expressions evaluate to 3.5 ?<br/>I. (double) $2 / 4+3$<br/>II. (double) $(2 / 4)+3$<br/>III. (double) (2/4 + 3)</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">II and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_6",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int num = /* initial value not shown */;<br/>boolean b1 = true;<br/>if (num &gt; 0)<br/>{<br/>    if (num &gt;= 100)<br/>    {<br/>        b1 = false;<br/>    }<br/>}<br/>else<br/>{<br/>    if (num &gt;= -100)<br/>    {<br/>        b1 = false;<br/>    }<br/>}</code></pre><br/><br/>Which of the following statements assigns the same value to b 2 as the code segment assigns to b 1 for all values of num ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">boolean b2 = (num > -100) && (num < 100);</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">boolean b2 = (num > -100) || (num < 100);</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">boolean b2 = (num < -100) || (num > 100);</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">boolean b2 = (num < -100) && (num > 0 || num < 100);</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">boolean b2 = (num < -100) || (num > 0 && num < 100);</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_7",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><pre><code class=\"language-\">public class Points<br/>{<br/>    private double num1;<br/>    private double num2;<br/>    public Points(int n1, int n2) // Line 6<br/>    {<br/>        num1 = n1; // Line 8<br/>        num2 = n2; // Line 9<br/>    }<br/>    public void incrementPoints(int value) // Line 12<br/>    {<br/>        n1 += value; // Line 14<br/>        n2 += value; // Line 15<br/>    }<br/>}</code></pre><br/><br/>The class does not compile. Which of the following identifies the error in the class definition?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">In line 6, the Points constructor must have a void return type.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">In lines 8 and 9, int values cannot be assigned to double variables.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">In line 12, the incrementPoints method must have a non-void return type.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">In lines 14 and 15, the variables n 1 and n 2 are not defined.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">In lines 14 and 15, the variable value is not defined.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_8",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">ArrayList&lt;Integer&gt; numList = new ArrayList&lt;Integer&gt;();<br/>numList.add(3);<br/>numList.add(2);<br/>numList.add(1);<br/>numList.add(1, 0);<br/>numList.set(0, 2);<br/>System.out.print(numList);</code></pre><br/><br/>What is printed by the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">[1, 3, 0, 1]</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$[2,0,2,1]$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$[2,0,2,3]$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$[2,3,2,1]$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$[3,0,0,1]$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_9",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static void printSome(int num1, int num2)<br/>{<br/>    for (int i = 0; i &lt; num1; i++)<br/>    {<br/>        if (i % num2 == 0 &amp;&amp; i % 2 == 0)<br/>        {<br/>            System.out.print(i + \" \");<br/>        }<br/>    }<br/>}</code></pre><br/><br/>Which of the following method calls will cause \" 010 \" to be printed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">printSome(0, 20)</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">printSome(5, 10)</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">printSome(10, 5)</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">printSome(20, 5)</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">printSome(25, 5)</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_10",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following code segments produces the output \"987654321\" ?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">int num = 10;<br/>    while (num > 0)<br/>    {<br/>        System.out.print(num);<br/>        num--;<br/>    }</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">int num = 10;<br/>    while (num >= 0)<br/>    {<br/>        System.out.print(num);<br/>        num--;<br/>    }</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">int num = 10;<br/>    while (num > 1)<br/>    {<br/>        num--;<br/>        System.out.print(num);<br/>    }</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">int num = 10;<br/>    while (num >= 1)<br/>    {<br/>        num--;<br/>        System.out.print(num);<br/>    }</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">int num = 0;<br/>    while (num <= 9)<br/>    {<br/>        System.out.print(10 - num);<br/>        num++;<br/>    }<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_11",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definitions.<br/><pre><code class=\"language-\">public class Person<br/>{<br/>    private String name;<br/>    public String getName()<br/>    { return name; }<br/>}<br/>public class Book<br/>{<br/>    private String author;<br/>    private String title;<br/>    private Person borrower;<br/>    public Book(String a, String t)<br/>    {<br/>        author = a;<br/>        title = t;<br/>        borrower = null;<br/>    }<br/>    public void printDetails()<br/>    {<br/>        System.out.print(\"Author: \" + author + \" Title: \" + title);<br/>        if ( /* missing condition */ )<br/>        {<br/>            System.out.println(\" Borrower: \" + borrower.getName());<br/>        }<br/>    }<br/>    public void setBorrower(Person b)<br/>    { borrower = b; }<br/>}</code></pre><br/><br/>Which of the following can replace /* missing condition */ so that the printDetails method CANNOT cause a run-time error?<br/>I. !borrower.equals (null)<br/>II. borrower != null<br/>III. borrower.getName() != null</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">II and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_12",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Assume that a, b, and c are boolean variables that have been properly declared and initialized. Which of the following boolean expressions is equivalent to ! (a $& & ~b)| c$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$a  & &  ~b  & &  C$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$a\\|b\\| c$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">! a $ & & !b | |  c$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">! a $ & & !b  & &  c$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">$$ a || ! b || c</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_13",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following categories are used by some researchers to categorize zip codes as urban, suburban, or rural based on population density.<br/>- An urban zip code is a zip code with more than 3,000 people per square mile.<br/>- A suburban zip code is a zip code with between 1,000 and 3,000 people, inclusive, per square mile.<br/>- A rural zip code is a zip code with fewer than 1,000 people per square mile.<br/><br/>Consider the following method, which is intended to categorize a zip code as urban, suburban, or rural based on the population density of the area included in the zip code.<br/><pre><code class=\"language-\">public static String getCategory(int density)<br/>{<br/>    /* missing code */<br/>}</code></pre><br/><br/>Which of the following code segments can replace /* missing code */ so the getCategory method works as intended?<br/>I. String cat;<br/><pre><code class=\"language-\">if (density &gt; 3000)<br/>{<br/>    cat = \"urban\";<br/>}<br/>else if (density &gt; 999)<br/>{<br/>    cat = \"suburban\";<br/>}<br/>else<br/>{<br/>    cat = \"rural\";<br/>}<br/>return cat;</code></pre><br/><br/>II. String cat;<br/>if (density > 3000)<br/>\\{<br/>    cat = \"urban\";<br/>\\}<br/>if (density > 999)<br/>\\{<br/>    cat = \"suburban\";<br/>\\}<br/>cat = \"rural\";<br/>return cat;<br/><pre><code class=\"language-\">III. if (density &gt; 3000)<br/>    {<br/>        return \"urban\";<br/>    }<br/>    if (density &gt; 999)<br/>    {<br/>        return \"suburban\";<br/>    }<br/>    return \"rural\";</code></pre></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_14",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment. Assume that a is greater than zero.<br/><pre><code class=\"language-\">int a = /* value not shown */;<br/>int b = a + (int) (Math.random() * a);</code></pre><br/><br/>Which of the following best describes the value assigned to b when the code segment is executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">a</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$2 * a$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">A random integer between 0 and $a-1$, inclusive</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">A random integer between a and $2 * a$, inclusive</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">A random integer between a and $2 * a-1$, inclusive</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_15",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following recursive method.<br/><pre><code class=\"language-\">public static void stars(int num)<br/>{<br/>    if (num == 1)<br/>    {<br/>        return;<br/>    }<br/>    stars(num - 1);<br/>    for (int i = 0; i &lt; num; i++)<br/>    {<br/>        System.out.print(\"*\");<br/>    }<br/>    System.out.println();<br/>}</code></pre><br/><br/>What is printed as a result of the method call stars (5)?<br/><br/>{ll}</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">& $* * * * *$ <br/></div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">& $* *$ <br/><br/>& $* * *$ <br/><br/>& $* * * *$ <br/><br/>& $* * * * *$ <br/></div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">& $*$ <br/><br/>& $* *$ <br/><br/>& $* * *$ <br/><br/>& $* * * *$ <br/><br/>& $* * * * *$ <br/></div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">& $* * * * *$ <br/><br/>& $* * * *$ <br/><br/>& $* * *$ <br/><br/>& $* *$ <br/></div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">& $* * * * *$ <br/><br/>& $* * * *$ <br/><br/>& $* * *$ <br/><br/>& $* *$ <br/><br/>& $*$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_16",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definitions.<br/><pre><code class=\"language-\">public class Hero<br/>{<br/>    private String name;<br/>    private int power;<br/>    public Hero(String n, int p)<br/>    {<br/>        name = n;<br/>        power = p;<br/>    }<br/>    public void powerUp(int p)<br/>    {<br/>        power += p;<br/>    }<br/>    public int showPower()<br/>    { return power; }<br/>}<br/>public class SuperHero extends Hero<br/>{<br/>    public SuperHero(String n, int p)<br/>    {<br/>        super(n, p);<br/>    }<br/>    public void powerUp(int p)<br/>    {<br/>        super.powerUp(p * 2);<br/>    }<br/>}</code></pre><br/><br/>The following code segment appears in a class other than Hero and SuperHero.<br/><pre><code class=\"language-\">Hero j = new SuperHero(\"JavaHero\", 50);<br/>j.powerUp(10);<br/>System.out.println(j.showPower());</code></pre><br/><br/>What is printed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">10</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">20</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">60</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">70</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">100</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_17",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method, which is intended to return the number of local maximum values in an array. Local maximum values are array elements that are greater than both adjacent array elements. The first and last elements of an array have only a single adjacent element, so neither the first nor the last array element is counted by this method. For example, an array containing the values $\\{3,9,7,4,10,12,3,8\\}$ has two local maximum values: 9 and 12.<br/><pre><code class=\"language-\">public static int countPeaks(int[] data)<br/>{<br/>    int numPeaks = 0;<br/>    for ( /* missing loop header */ )<br/>    {<br/>        if (data[p - 1] &lt; data[p] &amp;&amp; data[p] &gt; data[p + 1])<br/>        {<br/>            numPeaks++;<br/>        }<br/>    }<br/>    return numPeaks;<br/>}</code></pre><br/><br/>Which of the following can replace /* missing loop header */ so the method countPeaks works as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">int $p=$ data.length - 1; $p>0$; p --</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">int $p=0$; p < data.length; $p++$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">int $p=0 ; p<$ data.length - 1; $p++$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">int $p=1 ; p<$ data.length; $p++$</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">int $p=1 ; p<$ data.length - 1; $p++$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_18",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">int[][] values = {{1, 2, 3}, {4, 5, 6}};<br/>int x = 0;<br/>for (int j = 0; j &lt; values.length; j++)<br/>{<br/>    for (int k = 0; k &lt; values[0].length; k++)<br/>    {<br/>        if (k == 0)<br/>        {<br/>            values[j][k] *= 2;<br/>        }<br/>        x += values[j][k];<br/>    }<br/>}</code></pre><br/><br/>What is the value of x after the code segment is executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">7</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">17</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">21</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">26</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">27</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_19",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><pre><code class=\"language-\">public class Book<br/>{<br/>    private int pages;<br/>    public int getPages()<br/>    {<br/>        return pages;<br/>    }<br/>    // There may be instance variables, constructors, and methods not shown.<br/>}</code></pre><br/><br/>The following code segment is intended to store in maxPages the greatest number of pages found in any Book object in the array bookArr.<br/><pre><code class=\"language-\">Book[] bookArr = { /* initial values not shown */ };<br/>int maxPages = bookArr[0].getPages();<br/>for (Book b : bookArr)<br/>{<br/>    /* missing code */<br/>}</code></pre><br/><br/>Which of the following can replace /* missing code */ so the code segment works as intended?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">if (b.pages > maxPages)<br/>    {<br/>        maxPages = b.pages;<br/>    }</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">if (b.getPages() > maxPages)<br/>    {<br/>        maxPages = b.getPages();<br/>    }</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">if (Book[b].pages > maxPages)<br/>    {<br/>        maxPages = Book[b].pages;<br/>    }</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">if (bookArr[b].pages > maxPages)<br/>    {<br/>        maxPages = bookArr[b].pages;<br/>    }</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">if (bookArr[b].getPages() > maxPages)<br/>    {<br/>        maxPages = bookArr[b].getPages();<br/>    }<br/><pre><code class=\"language-\">Consider the following method.</code></pre><br/>public static String[] strArrMethod(String[] arr)<br/>{<br/>    String[] result = new String[arr.length];<br/>    for (int j = 0; j < arr.length; j++)<br/>    {<br/>        String sm = arr[j];<br/>        for (int k = j + 1; k < arr.length; k++)<br/>        {<br/>            if (arr[k].length() < sm.length())<br/>            {<br/>                sm = arr[k]; // Line 12<br/>            }<br/>        }<br/>        result[j] = sm;<br/>    }<br/>    return result;<br/>}<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_20",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">String[] testOne = {\"first\", \"day\", \"of\", \"spring\"};<br/>String[] resultOne = strArrMethod(testOne);</code></pre><br/><br/>What are the contents of resultone when the code segment has been executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\\{\"day\", \"first\", \"of\", \"spring\"\\}</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\\{\"of\", \"day\", \"first\", \"spring\"\\}</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\\{\"of\", \"day\", \"of\", \"spring\"\\}</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\\{\"of\", \"of\", \"of\", \"spring\"\\}</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">\\{\"spring\", \"first\", \"day\", \"of\"\\}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_21",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">String[] testTwo = {\"last\", \"day\", \"of\", \"the\", \"school\", \"year\"};<br/>String[] resultTwo = strArrMethod(testTwo);</code></pre><br/><br/>How many times is the line labeled // Line 12 in the strArrMethod executed as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">4 times</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">5 times</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">6 times</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">15 times</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">30 times</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_22",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method, which is intended to print the values in its two-dimensional integer array parameter in row-major order.<br/><pre><code class=\"language-\">public static void rowMajor(int[][] arr)<br/>{<br/>    /* missing code */<br/>}</code></pre><br/><br/>As an example, consider the following code segment.<br/><pre><code class=\"language-\">int[][] theArray = {{1, 2}, {3, 4}, {5, 6}, {7, 8}};<br/>rowMajor(theArray);</code></pre><br/><br/>When executed, the code segment should produce the following output.<br/><pre><code class=\"language-\">12345678</code></pre><br/><br/>Which of the following code segments can replace /* missing code */ so that the rowMajor method works as intended?<br/>```</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">for (int j : arr)<br/>    {<br/>        for (int k : j)<br/>        {<br/>            System.out.print(j + \" \");<br/>        }<br/>    }</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">for (int j : arr)<br/>    {<br/>        for (int k : j)<br/>        {<br/>            System.out.print(k + \" \");<br/>        }<br/>    }</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">for (int[] j : arr)<br/>    {<br/>        for (int k : j)<br/>        {<br/>            System.out.print(j + \" \");<br/>        }<br/>    }</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">for (int[] j : arr)<br/>    {<br/>        for (int k : j)<br/>        {<br/>            System.out.print(k + \" \");<br/>        }<br/>    }</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">for (int[] j : arr)<br/>    {<br/>        for (int k : j)<br/>        {<br/>            System.out.print(arr[k] + \" \");<br/>        }<br/>    }<br/>```</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_23",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><pre><code class=\"language-\">public class SomeClass<br/>{<br/>    private int x = 0;<br/>    private static int y = 0;<br/>    public SomeClass(int pX)<br/>    {<br/>        x = pX;<br/>        Y++;<br/>    }<br/>    public void incrementY()<br/>    { y++; }<br/>    public void incrementY(int inc)<br/>    { y += inc; }<br/>    public int getY()<br/>    { return y; }<br/>}</code></pre><br/><br/>The following code segment appears in a class other than SomeClass.<br/><pre><code class=\"language-\">SomeClass first = new SomeClass(10);<br/>SomeClass second = new SomeClass(20);<br/>SomeClass third = new SomeClass(30);<br/>first.incrementY();<br/>second.incrementY(10);<br/>System.out.println(third.getY());</code></pre><br/><br/>What is printed as a result of executing the code segment if the code segment is the first use of a SomeClass object?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">11</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">14</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">30</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_24",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static String rearrange(String str)<br/>{<br/>    String temp = \"\";<br/>    for (int i = str.length() - 1; i &gt; 0; i--)<br/>    {<br/>        temp += str.substring(i - 1, i);<br/>    }<br/>    return temp;<br/>}</code></pre><br/><br/>What, if anything, is returned by the method call rearrange(\"apple\")?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\"appl\"</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\"apple\"</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\"elppa\"</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\"lppa\"</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is returned due to a run-time error.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_25",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following two code segments. Assume that the int variables $m$ and $n$ have been properly declared and initialized and are both greater than 0 .<br/><pre><code class=\"language-\">I. for (int i = 0; i &lt; m * n; i++)<br/>    {<br/>        System.out.print(\"A\");<br/>    }<br/>II. for (int j = 1; j &lt;= m; j++)<br/>    {<br/>        for (int k = 1; k &lt; n; k++)<br/>        {<br/>            System.out.print(\"B\");<br/>        }<br/>    }</code></pre><br/><br/>Assume that the initial values of $m$ and $n$ are the same in code segment $I$ as they are in code segment II. Which of the following correctly compares the number of times that \"A\" and \"B\" are printed when each code segment is executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\" A \" is printed m fewer times than \" B \".</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\" A \" is printed n fewer times than \" B \".</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\" A \" is printed m more times than \" B \".</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\" A \" is printed n more times than \" B \".</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">\" A \" and \" B \" are printed the same number of times.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_26",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following statement. Assume that a and b are properly declared and initialized boolean variables.<br/><pre><code class=\"language-\">boolean c = (a &amp;&amp; b) || (!a &amp;&amp; b);</code></pre><br/><br/>Under which of the following conditions will c be assigned the value false ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Always</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Never</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">When a and b have the same value</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">When a has the value false</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">When b has the value false</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_27",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static String abMethod(String a, String b)<br/>{<br/>    int x = a.indexOf(b);<br/>    while (x &gt;= 0)<br/>    {<br/>        a = a.substring(0, x) + a.substring(x + b.length());<br/>        x = a.indexOf(b);<br/>    }<br/>    return a;<br/>}</code></pre><br/><br/>What, if anything, is returned by the method call abMethod(\"sing the song\", \"ng\")?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">\"si\"</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">\"si the so\"</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">\"si the song\"</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">\"sig the sog\"</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is returned because a StringIndexOutOfBoundsException is thrown.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_28",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following method.<br/><pre><code class=\"language-\">public static int calcMethod(int num)<br/>{<br/>    if (num == 0)<br/>    {<br/>        return 10;<br/>    }<br/>    return num + calcMethod(num / 2);<br/>}</code></pre><br/><br/>What value is returned by the method call calcMethod(16)?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">10</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">26</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">31</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">38</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">41</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_29",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definitions.<br/><pre><code class=\"language-\">public class Rectangle<br/>{<br/>    private int height;<br/>    private int width;<br/>    public Rectangle()<br/>    {<br/>        height = 1;<br/>        width = 1;<br/>    }<br/>    public Rectangle(int x)<br/>    {<br/>        height = x;<br/>        width = x;<br/>    }<br/>    public Rectangle(int h, int w)<br/>    {<br/>        height = h;<br/>        width = w;<br/>    }<br/>    // There may be methods that are not shown.<br/>}<br/>public class Square extends Rectangle<br/>{<br/>    public Square(int x)<br/>    {<br/>        /* missing code */<br/>    }<br/>}</code></pre><br/><br/>Which of the following code segments can replace /* missing code */ so that the Square class constructor initializes the Rectangle class instance variables height and width to x ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">super();</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">super (x) ;</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Rectangle(x);</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Square(x, x);</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">height = x;<br/>width = x;</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_30",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider an integer array nums, which has been properly declared and initialized with one or more values. Which of the following code segments counts the number of negative values found in nums and stores the count in counter?<br/>I. int counter = 0;<br/>int i = -1;<br/>while (i <= nums.length - 2)<br/>\\{<br/>i++;<br/>if (nums[i] < 0)<br/>\\{<br/>counter++;<br/>\\}<br/>\\}<br/>II. int counter = 0;<br/>for (int i = 1; i < nums.length; i++)<br/>\\{<br/>if (nums[i] < 0)<br/>\\{<br/>counter++;<br/>\\}<br/>\\}<br/>III. int counter = 0;<br/>for (int i : nums)<br/>\\{<br/>if (nums[i] < 0)<br/>\\{<br/>counter++;<br/>\\}<br/>\\}</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">I and II only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and III only</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I, II, and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_31",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definitions.<br/><pre><code class=\"language-\">public class ClassA<br/>{<br/>    public String getValue()<br/>    {<br/>        return \"A\";<br/>    }<br/>    public void showValue()<br/>    {<br/>        System.out.print(getValue());<br/>    }<br/>}<br/>public class ClassB extends ClassA<br/>{<br/>    public String getValue()<br/>    {<br/>        return \"B\";<br/>    }<br/>}</code></pre><br/><br/>The following code segment appears in a class other than ClassA or ClassB.<br/><pre><code class=\"language-\">ClassA obj = new ClassB();<br/>obj.showValue();</code></pre><br/><br/>What, if anything, is printed when the code segment is executed?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">A</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">B</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">AB</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">BA</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">Nothing is printed because the code does not compile.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_32",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment.<br/><pre><code class=\"language-\">String[][] letters = {{\"A\", \"B\", \"C\", \"D\"},<br/>            {\"E\", \"F\", \"G\", \"H\"},<br/>            {\"I\", \"J\", \"K\", \"L\"}};<br/>for (int col = 1; col &lt; letters[0].length; col++)<br/>{<br/>    for (int row = 1; row &lt; letters.length; row++)<br/>    {<br/>        System.out.print(letters[row][col] + \" \");<br/>    }<br/>    System.out.println();<br/>}</code></pre><br/><br/>What is printed as a result of executing this code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">A E I<br/><br/>F J<br/>K</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$B F J$<br/><br/>C G K<br/>D H L</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">E I<br/><br/>F J<br/>G K<br/>H L</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$F G H$<br/><br/>J K L</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">FJ<br/><br/>G K<br/>H L</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_33",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The following method is intended to remove all elements of an ArrayList of integers that are divisible by key and add the removed elements to a new ArrayList, which the method returns.<br/><pre><code class=\"language-\">public static ArrayList&lt;Integer&gt; match(ArrayList&lt;Integer&gt; numList, int key)<br/>{<br/>    ArrayList&lt;Integer&gt; returnList = new ArrayList&lt;Integer&gt;();<br/>    int i = 0;<br/>    while (i &lt; numList.size())<br/>    {<br/>        int num = numList.get(i);<br/>        if (num % key == 0)<br/>        {<br/>            numList.remove(i);<br/>            returnList.add(num);<br/>        }<br/>        i++;<br/>    }<br/>    return returnList;<br/>}</code></pre><br/><br/>As an example, if the method is called with an ArrayList containing the values [5, 2, 10, 20, 16] and the parameter key has the value 5 , then numList should contain [2, 16] at the end of the method and an ArrayList containing [5, 10, 20] should be returned.<br/><br/>Which of the following best explains why the method does not always work as intended?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The method attempts to add an element to returnList after that element has already been removed from numList.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The method causes a NullPointerException to be thrown when no matches are found.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The method causes an IndexOutOfBoundsException to be thrown.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The method fails to correctly determine whether an element of numList is divisible by key.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The method skips some elements of numList during the traversal.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_34",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the mode method, which is intended to return the most frequently occurring value (mode) in its int [] parameter arr. For example, if the parameter of the mode method has the contents $\\{6,5,1,5,2,6,5\\}$, then the method is intended to return 5 .<br/><pre><code class=\"language-\">/** Precondition: arr.length &gt;= 1 */<br/>public static int mode(int[] arr)<br/>{<br/>    int modeCount = 1;<br/>    int mode = arr[0];<br/>    for (int j = 0; j &lt; arr.length; j++)<br/>    {<br/>        int valCount = 0;<br/>        for (int k = 0; k &lt; arr.length; k++)<br/>        {<br/>            if ( /* missing condition l */ )<br/>            {<br/>                valCount++;<br/>            }<br/>        }<br/>        if ( /* missing condition 2 */ )<br/>        {<br/>            modeCount = valCount;<br/>            mode = arr[j];<br/>        }<br/>    }<br/>    return mode;<br/>}</code></pre><br/><br/>Which of the following can replace /* missing condition $1 * /$ and /* missing condition $2 * /$ so the code segment works as intended?<br/>/* missing condition 1 */ /* missing condition 2 */</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">arr[j] == arr[k] valCount > modeCount</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$arr[j]$ == arr[k] modeCount > valCount</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">arr[j] != arr[k] valCount > modeCount</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">arr[j] != arr[k] modeCount > valCount</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">arr[j] != arr[k] modeCount != valCount</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_35",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following methods.<br/><pre><code class=\"language-\">/** Precondition: a &gt; 0 and b &gt; 0 */<br/>public static int methodOne(int a, int b)<br/>{<br/>    int loopCount = 0;<br/>    for (int i = 0; i &lt; a / b; i++)<br/>    {<br/>        loopCount++;<br/>    }<br/>    return loopCount;<br/>}<br/>/** Precondition: a &gt; 0 and b &gt; 0 */<br/>public static int methodTwo(int a, int b)<br/>{<br/>    int loopCount = 0;<br/>    int i = 0;<br/>    while (i &lt; a)<br/>    {<br/>        loopCount++;<br/>        i += b;<br/>    }<br/>    return loopCount;<br/>}</code></pre><br/><br/>Which of the following best describes the conditions under which methodOne and methodTwo return the same value?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">When a and b are both even</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">When a and b are both odd</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">When $a$ is even and $b$ is odd</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">When $a % ~b$ is equal to zero</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">When $a % b$ is equal to one</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_36",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following code segment. Assume that num3 $>$ num2 $>0$.<br/><pre><code class=\"language-\">int num1 = 0;<br/>int num2 = /* initial value not shown */;<br/>int num3 = /* initial value not shown */;<br/>while (num2 &lt; num3)<br/>{<br/>    num1 += num2;<br/>    num2++;<br/>}</code></pre><br/><br/>Which of the following best describes the contents of num1 as a result of executing the code segment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The product of num2 and num3</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The product of num2 and num3-1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The sum of num2 and num3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The sum of all integers from num2 to num3, inclusive</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The sum of all integers from num2 to num3-1, inclusive</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_37",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definition.<br/><pre><code class=\"language-\">public class Value<br/>{<br/>    private int num;<br/>    public int getNum()<br/>    {<br/>        return num;<br/>    }<br/>    // There may be instance variables, constructors, and methods not shown.<br/>}</code></pre><br/><br/>The following method appears in a class other than Value. It is intended to sum all the num instance variables of the Value objects in its ArrayList parameter.<br/><pre><code class=\"language-\">/** Precondition: valueList is not null */<br/>public static int getTotal(ArrayList&lt;Value&gt; valueList)<br/>{<br/>    int total = 0;<br/>    /* missing code */<br/>    return total;<br/>}</code></pre><br/><br/>Which of the following code segments can replace /* missing code */ so the getTotal method works as intended?<br/><pre><code class=\"language-\">I. for (int x = 0; x &lt; valueList.size(); x++)<br/>    {<br/>        total += valueList.get(x).getNum();<br/>    }</code></pre><br/><br/>II. for (Value v : valueList)<br/>    \\{<br/>        total += v.getNum();<br/>    \\}<br/>III. for (Value v : valueList)<br/>    \\{<br/>        total += getNum(v);<br/>    \\}</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">I only</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">II only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">III only</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">I and II</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">I and III</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_38",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following recursive method.<br/><pre><code class=\"language-\">public static boolean recurMethod(String str)<br/>{<br/>    if (str.length() &lt;= 1)<br/>    {<br/>        return true;<br/>    }<br/>    else if (str.substring(0, 1).compareTo(str.substring(1, 2)) &gt; 0)<br/>    {<br/>        return recurMethod(str.substring(1));<br/>    }<br/>    else<br/>    {<br/>        return false;<br/>    }<br/>}</code></pre><br/><br/>Which of the following method calls will return true ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">recurMethod(\"abcba\")</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">recurMethod(\"abcde\")</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">recurMethod(\"bcdab\")</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">recurMethod(\"edcba\")</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">recurMethod(\"edcde\")</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "csa_mcq_39",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the following class definitions.<br/><pre><code class=\"language-\">public class A<br/>{<br/>    public String message(int i)<br/>    {<br/>        return \"A\" + i;<br/>    }<br/>}<br/>public class B extends A<br/>{<br/>    public String message(int i)<br/>    {<br/>        return \"B\" + i;<br/>    }<br/>}</code></pre><br/><br/>The following code segment appears in a class other than A or B .<br/><pre><code class=\"language-\">A obj1 = new B(); // Line 1<br/>B obj2 = new B(); // Line 2<br/>System.out.println(obj1.message(3)); // Line 3<br/>System.out.println(obj2.message(2)); // Line 4</code></pre><br/><br/>Which of the following best explains the difference, if any, in the behavior of the code segment that will result from removing the message method from class A ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The statement in line 3 will cause a compiler error because the message method for obj 1 cannot be found.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The statement in line 4 will cause a compiler error because the message method for obj 2 cannot be found.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">As a result of the method call in line 3 , the message method in class $B$ will be executed instead of the message method in class $A$.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">As a result of the method call in line 4 , the message method in class $B$ will be executed instead of the message method in class $A$.</div>"
+            },
+            {
+              "key": "E",
+              "content": "<div class=\"choiceTxt\">The behavior of the code segment will remain unchanged.<br/><br/>DO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.<br/><br/>MAKE SURE YOU HAVE DONE THE FOLLOWING:<br/>- PLACED YOUR AP ID LABEL ON YOUR ANSWER SHEET<br/>- WRITTEN AND GRIDDED YOUR AP ID CORRECTLY ON YOUR ANSWER SHEET<br/>- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET<br/><br/>^{ {® }}$ Computer Science A Exam}<br/><br/>1 hour and 30 minutes<br/>Number of Questions<br/>4<br/>Percent of Total Score 50%<br/>Writing Instrument Pencil<br/>Electronic Device<br/>None allowed Weight<br/>The questions are weighted equally.<br/><br/>The questions for Section II are printed in this booklet. You may use the pages in this booklet to organize your answers and for scratch work, but you must write your answers in the blank space provided for each question.<br/><br/>The Java Quick Reference is located inside the front cover of this booklet.<br/>Write your answer to each question in the blank space provided. Begin your response to each question at the top of a new page and completely fill in the circle at the top of each page that corresponds to the question you are answering.<br/><br/>All program segments must be written in Java. Show all your work. Credit for partial solutions will be given. Write clearly and legibly. Erased or crossed-out work will not be scored.<br/><br/>Manage your time carefully. Do not spend too much time on any one question. You may proceed freely from one question to the next. You may review your responses if you finish before the end of the exam is announced.<br/><br/>Accessible methods from the Java library that may be included in the exam<br/><br/>{|l|l|}<br/> Class Constructors and Methods & Explanation <br/><br/> 2{|c|}{String Class} <br/><br/> String(String str) & Constructs a new String object that represents the same sequence of characters as str <br/><br/> int length() & Returns the number of characters in a String object <br/><br/> String substring(int from, int to) & Returns the substring beginning at index from and ending at index to - 1 <br/><br/> String substring(int from) & Returns substring(from, length()) <br/><br/> int indexOf(String str) & Returns the index of the first occurrence of str; returns -1 if not found <br/><br/> boolean equals(String other) & Returns true if this is equal to other; returns false otherwise <br/><br/> int compareTo(String other) & Returns a value <0 if this is less than other; returns zero if this is equal to other; returns a value $>0$ if this is greater than other <br/><br/> 2{|c|}{Integer Class} <br/><br/> Integer(int value) & Constructs a new Integer object that represents the specified int value <br/><br/> Integer.MIN_VALUE & The minimum value represented by an int or Integer <br/><br/> Integer.MAX_VALUE & The maximum value represented by an int or Integer <br/><br/> int intValue() & Returns the value of this Integer as an int <br/><br/> 2{|c|}{Double Class} <br/><br/> Double(double value) & Constructs a new Double object that represents the specified double value <br/><br/> double doubleValue() & Returns the value of this Double as a double <br/><br/> 2{|c|}{Math Class} <br/><br/> static int abs(int x) & Returns the absolute value of an int value <br/><br/> static double abs(double x) & Returns the absolute value of a double value <br/><br/> static double pow(double base, double exponent) & Returns the value of the first parameter raised to the power of the second parameter <br/><br/> static double sqrt(double x) & Returns the positive square root of a double value <br/><br/> static double random() & Returns a double value greater than or equal to 0.0 and less than 1.0 <br/><br/> 2{|c|}{ArrayList Class} <br/><br/> int size() & Returns the number of elements in the list <br/><br/> boolean add(E obj) & Appends obj to end of list; returns true <br/><br/> void add(int index, E obj) & Inserts obj atposition index ( 0 <= index <= size), moving elements at position index and higher to the right (adds 1 to their indices) and adds 1 to size <br/><br/> E get(int index) & Returns the element at position index in the list <br/><br/> E set(int index, E obj) & Replaces the element at position index with obj; returns the element formerly at position index <br/><br/> E remove(int index) & Removes element from position index, moving elements at position index +1 and higher to the left (subtracts 1 from their indices) and subtracts 1 from size; returns the element formerly at position index <br/><br/> 2{|c|}{Object Class} <br/><br/> 2{|l|}{boolean equals(Object other)} <br/><br/> 2{|l|}{String toString()} <br/><br/><br/><h2><br/>COMPUTER SCIENCE A SECTION II<br/></h2><br/><br/>Directions: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE<br/>WRITTEN IN JAVA. You may plan your answers in this Questions booklet, but no credit will be given for anything written in this booklet. You will only earn credit for what you write in the Free Response booklet.<br/><br/>Notes:<br/>- Assume that the classes listed in the Java Quick Reference have been imported where appropriate.<br/>- Unless otherwise noted in the question, assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied.<br/>- In writing solutions for each question, you may use any of the accessible methods that are listed in classes defined in that question. Writing significant amounts of code that can be replaced by a call to one of these methods will not receive full credit.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    },
+    {
+      "id": "csa_8a49a395-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_frq_0",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A mathematical sequence is an ordered list of numbers. This question involves a sequence called a hailstone sequence. If $n$ is the value of a term in the sequence, then the following rules are used to find the next term, if one exists.<br/>- If $n$ is 1 , the sequence terminates.<br/>- If $n$ is even, then the next term is $n{2}$.<br/>- If $n$ is odd, then the next term is $3 n+1$.<br/><br/>For this question, assume that when the rules are applied, the sequence will eventually terminate with the term $n=1$.<br/><br/>The following are examples of hailstone sequences.<br/>Example 1: 5, 16, 8, 4, 2, 1<br/>- The first term is 5 , so the second term is $5 * 3+1=16$.<br/>- The second term is 16 , so the third term is $16{2}=8$.<br/>- The third term is 8 , so the fourth term is $8{2}=4$.<br/>- The fourth term is 4 , so the fifth term is $4{2}=2$.<br/>- The fifth term is 2 , so the sixth term is $2{2}=1$.<br/>- Since the sixth term is 1 , the sequence terminates.<br/><br/>Example 2: 8, 4, 2, 1<br/>- The first term is 8 , so the second term is $8{2}=4$.<br/>- The second term is 4 , so the third term is $4{2}=2$.<br/>- The third term is 2 , so the fourth term is $2{2}=1$.<br/>- Since the fourth term is 1 , the sequence terminates.<br/><br/>The Hailstone class, shown below, is used to represent a hailstone sequence. You will write three methods in the Hailstone class.<br/><pre><code class=\"language-\">public class Hailstone<br/>{<br/>    /** Returns the length of a hailstone sequence that starts with n,<br/>        * as described in part (a).<br/>        * Precondition: n &gt; 0<br/>        */<br/>    public static int hailstoneLength(int n)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Returns true if the hailstone sequence that starts with n is considered long<br/>        * and false otherwise, as described in part (b).<br/>        * Precondition: n &gt; 0<br/>        */<br/>    public static boolean isLongSeq(int n)<br/>    { /* to be implemented in part (b) */ }<br/>    /** Returns the proportion of the first n hailstone sequences that are considered long,<br/>        * as described in part (c).<br/>        * Precondition: n &gt; 0<br/>        */<br/>    public static double propLong(int n)<br/>    { /* to be implemented in part (c) */ }<br/>    / / There may be instance variables, constructors, and methods not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "he length of a hailstone sequence is the number of terms it contains. For example, the hailstone sequence in example $1(5,16,8,4,2,1)$ has a length of 6 and the hailstone sequence in example 2 $(8,4,2,1)$ has a length of 4.<br/><br/>Write the method hailstoneLength (int n), which returns the length of the hailstone sequence that starts with n .<br/><pre><code class=\"language-\">/** Returns the length of a hailstone sequence that starts with n, as described in part (a).<br/>    * Precondition: n &gt; 0<br/>    */<br/>public static int hailstoneLength(int n)</code></pre><br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.<br/><br/>Class information for this question<br/><pre><code class=\"language-\">public class Hailstone<br/>public static int hailstoneLength(int n)<br/>public static boolean isLongSeq(int n)<br/>public static double propLong(int n)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "hailstone sequence is considered long if its length is greater than its starting value. For example, the hailstone sequence in example $1(5,16,8,4,2,1)$ is considered long because its length (6) is greater than its starting value (5). The hailstone sequence in example $2(8,4,2,1)$ is not considered long because its length (4) is less than or equal to its starting value (8).<br/><br/>Write the method isLongSeq (int n), which returns true if the hailstone sequence starting with $n$ is considered long and returns false otherwise. Assume that hailstoneLength works as intended, regardless of what you wrote in part (a). You must use hailstoneLength appropriately to receive full credit.<br/><pre><code class=\"language-\">/** Returns true if the hailstone sequence that starts with n is considered long<br/>    * and false otherwise, as described in part (b).<br/>    * Precondition: n &gt; 0<br/>    */<br/>public static boolean isLongSeq(int n)</code></pre><br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
+            },
+            {
+              "partSign": "c",
+              "partContent": "he method propLong (int n) returns the proportion of long hailstone sequences with starting values between 1 and n , inclusive.<br/><br/>Consider the following table, which provides data about the hailstone sequences with starting values between 1 and 10, inclusive.<br/><br/>{|l|l|l|l|}<br/> Starting Value & Terms in the Sequence & Length of the Sequence & Long? <br/><br/> 1 & 1 & 1 & No <br/><br/> 2 & 2, 1 & 2 & No <br/><br/> 3 & 3, 10, 5, 16, 8, 4, 2, 1 & 8 & Yes <br/><br/> 4 & 4, 2, 1 & 3 & No <br/><br/> 5 & 5, 16, 8, 4, 2, 1 & 6 & Yes <br/><br/> 6 & 6, 3, 10, 5, 16, 8, 4, 2, 1 & 9 & Yes <br/><br/> 7 & 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1 & 17 & Yes <br/><br/> 8 & 8, 4, 2, 1 & 4 & No <br/><br/> 9 & 9, 28, 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1 & 20 & Yes <br/><br/> 10 & 10, 5, 16, 8, 4, 2, 1 & 7 & No <br/><br/><br/>The method call Hailstone.propLong(10) returns 0.5 , since 5 of the 10 hailstone sequences shown in the table are considered long.<br/><br/>Write the propLong method. Assume that hailstoneLength and isLongSeq work as intended, regardless of what you wrote in parts (a) and (b). You must use isLongSeq appropriately to receive full credit.<br/>/** Returns the proportion of the first n hailstone sequences that are considered long,<br/>* as described in part (c).<br/>* Precondition: $n>0$<br/>*/<br/>public static double propLong(int n)<br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.<br/><br/>Class information for this question<br/>public class Hailstone<br/>public static int hailstoneLength(int n)<br/>public static boolean isLongSeq(int n)<br/>public static double propLong(int n)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">This question involves the creation and use of a spinner to generate random numbers in a game. A GameSpinner object represents a spinner with a given number of sectors, all equal in size. The GameSpinner class supports the following behaviors.<br/>- Creating a new spinner with a specified number of sectors<br/>- Spinning a spinner and reporting the result<br/>- Reporting the length of the current run, the number of consecutive spins that are the same as the most recent spin<br/><br/>The following table contains a sample code execution sequence and the corresponding results.<br/><br/>{|l|l|l|}<br/> Statements & Value Returned (blank if no value returned) & Comment <br/><br/> GameSpinner g = new GameSpinner (4) ; & & Creates a new spinner with four sectors <br/><br/> g.currentRun(); & 0 & Returns the length of the current run. The length of the current run is initially 0 because no spins have occurred. <br/><br/> g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. <br/><br/> g.currentRun(); & 1 & The length of the current run is 1 because there has been one spin of 3 so far. <br/><br/> g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. <br/><br/> g.currentRun(); & 2 & The length of the current run is 2 because there have been two 3 s in a row. <br/><br/> g.spin(); & 4 & Returns a random integer between 1 and 4, inclusive. In this case, 4 is returned. <br/><br/> g.currentRun(); & 1 & The length of the current run is 1 because the spin of 4 is different from the value of the spin in the previous run of two 3 s . <br/><br/> g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. <br/><br/> g.currentRun(); & 1 & The length of the current run is 1 because the spin of 3 is different from the value of the spin in the previous run of one 4. <br/><br/> g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. <br/><br/> g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. <br/><br/> g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. <br/><br/> g.currentRun(); & 3 & The length of the current run is 3 because there have been three consecutive 1 s since the previous run of one 3. <br/><br/><br/>Write the complete GameSpinner class. Your implementation must meet all specifications and conform to the example.<br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number.<br/>If there are multiple parts to this question, write the part letter with your response.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A student plans to analyze product reviews found on a Web site by looking for keywords in posted reviews. The ProductReview class, shown below, is used to represent a single review. A product review consists of a product name and a review of that product.<br/><pre><code class=\"language-\">public class ProductReview<br/>{<br/>    private String name;<br/>    private String review;<br/>    /** Constructs a ProductReview object and initializes the instance variables. */<br/>    public ProductReview(String pName, String pReview)<br/>    {<br/>        name = pName;<br/>        review = pReview;<br/>    }<br/>    /** Returns the name of the product. */<br/>    public String getName()<br/>    { return name; }<br/>    /** Returns the review of the product. */<br/>    public String getReview()<br/>    { return review; }<br/>}</code></pre><br/><br/>The ReviewCollector class, shown below, is used to represent a collection of reviews to be analyzed.<br/><pre><code class=\"language-\">public class ReviewCollector<br/>{<br/>    private ArrayList&lt;ProductReview&gt; reviewList;<br/>    private ArrayList&lt;String&gt; productList;<br/>    /** Constructs a ReviewCollector object and initializes the instance variables. */<br/>    public ReviewCollector()<br/>    {<br/>        reviewList = new ArrayList&lt;ProductReview&gt;();<br/>        productList = new ArrayList&lt;String&gt;();<br/>    }<br/>    /** Adds a new review to the collection of reviews, as described in part (a). */<br/>    public void addReview(ProductReview prodReview)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Returns the number of good reviews for a given product name, as described in part (b). */<br/>    public int getNumGoodReviews(String prodName)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the addReview method, which adds a single product review, represented by a ProductReview object, to the ReviewCollector object. The addReview method does the following when it adds a product review.<br/>- The ProductReview object is added to the reviewList instance variable.<br/>- The product name from the ProductReview object is added to the productList instance variable if the product name is not already found in productList.<br/><br/>Elements may be added to reviewList and productList in any order.<br/>Complete method addReview.<br/>/** Adds a new review to the collection of reviews, as described in part (a). */ public void addReview(ProductReview prodReview)<br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number.<br/>If there are multiple parts to this question, write the part letter with your response."
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the getNumGoodReviews method, which returns the number of good reviews for a given product name. A review is considered good if it contains the string \"best\" (all lowercase). If there are no reviews with a matching product name, the method returns 0 . Note that a review that contains \"BEST\" or \"Best\" is not considered a good review (since not all the letters of \"best\" are lowercase), but a review that contains \"asbestos\" is considered a good review (since all the letters of \"best\" are lowercase).<br/><br/>Complete method getNumGoodReviews.<br/><pre><code class=\"language-\">/** Returns the number of good reviews for a given product name, as described in part (b). */<br/>public int getNumGoodReviews(String prodName)</code></pre><br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.<br/><br/>Class information for this question<br/><pre><code class=\"language-\">public class ProductReview<br/>private String name<br/>private String review<br/>public ProductReview(String pName, String pReview)<br/>public String getName()<br/>public String getReview()<br/>public class ReviewCollector<br/>private ArrayList&lt;ProductReview&gt; reviewList<br/>private ArrayList&lt;String&gt; productList<br/>public ReviewCollector()<br/>public void addReview(ProductReview prodReview)<br/>public int getNumGoodReviews(String prodName)</code></pre>"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">A theater contains rows of seats with the same number of seats in each row. Some rows contain tier 1 seats, and the remaining rows contain tier 2 seats. Tier 1 seats are closer to the stage and are more desirable. All seats in a row share the same tier.<br/><br/>The Seat class, shown below, represents seats in the theater. The boolean instance variable available is false if a ticket for the seat has been sold (the seat is no longer available). The int instance variable tier indicates whether the seat is a tier 1 or tier 2 seat.<br/><pre><code class=\"language-\">public class Seat<br/>{<br/>    private boolean available;<br/>    private int tier;<br/>    public Seat(boolean isAvail, int tierNum)<br/>    {<br/>        available = isAvail;<br/>        tier = tierNum;<br/>    }<br/>    public boolean isAvailable()<br/>    { return available; }<br/>    public int getTier()<br/>    { return tier; }<br/>    public void setAvailability(boolean isAvail)<br/>    { available = isAvail; }<br/>}</code></pre><br/><br/>The Theater class represents a theater of seats. The number of seats per row and the number of tier 1 and tier 2 rows are determined by the parameters of the Theater constructor. Row 0 of the theaterSeats array represents the row closest to the stage.<br/><pre><code class=\"language-\">public class Theater<br/>{<br/>    private Seat[][] theaterSeats;<br/>    /** Constructs a Theater object, as described in part (a).<br/>        * Precondition: seatsPerRow &gt; 0; tier1Rows &gt; 0; tier2Rows &gt;= 0<br/>        */<br/>    public Theater(int seatsPerRow, int tier1Rows, int tier2Rows)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Returns true if a seat holder was reassigned from the seat at fromRow, fromCol<br/>        * to the seat at toRow, toCol; otherwise it returns false, as described in part (b).<br/>        * Precondition: fromRow, fromCol, toRow, and toCol represent valid row and<br/>        * column positions in the theater.<br/>        * The seat at fromRow, fromCol is not available.<br/>        */<br/>    public boolean reassignSeat(int fromRow, int fromCol,<br/>                int toRow, int toCol)<br/>    { /* to be implemented in part (b) */ }<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the constructor for the Theater class. The constructor takes three int parameters, representing the number of seats per row, the number of tier 1 rows, and the number of tier 2 rows, respectively. The constructor initializes the theaterSeats instance variable so that it has the given number of seats per row and the given number of tier 1 and tier 2 rows and all seats are available and have the appropriate tier designation.<br/><br/>Row 0 of the theaterSeats array represents the row closest to the stage. All tier 1 seats are closer to the stage than tier 2 seats.<br/><br/>Complete the Theater constructor.<br/><pre><code class=\"language-\">/** Constructs a Theater object, as described in part (a).<br/>    * Precondition: seatsPerRow &gt; 0; tier1Rows &gt; 0; tier2Rows &gt;= 0<br/>    */<br/>public Theater(int seatsPerRow, int tier1Rows, int tier2Rows)</code></pre><br/><br/>Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the reassignSeat method, which attempts to move a person from a source seat to a destination seat. The reassignment can be made if the destination seat is available and has the same or greater tier than the source seat (that is, it is equally or less desirable). For example, a person in a tier 1 seat can be moved to a different tier 1 seat or to a tier 2 seat, but a person in a tier 2 seat can only be moved to a different tier 2 seat.<br/><br/>The reassignseat method has four int parameters representing the row and column indexes of the source (\"from\") and destination (\"to\") seats. If the reassignment is possible, the source seat becomes available, the destination seat becomes unavailable, and the method returns true. If the seat reassignment is not possible, no changes are made to either seat and the method returns false. Assume that the source seat is occupied when the method is called.<br/><br/>Complete method reassignseat.<br/><pre><code class=\"language-\">/** Returns true if a seat holder was reassigned from the seat at fromRow, fromCol<br/>    * to the seat at toRow, toCol; otherwise it returns false, as described in part (b).<br/>    * Precondition: fromRow, fromCol, toRow, and toCol represent valid row and<br/>    * column positions in the theater.<br/>    * The seat at fromRow, fromCol is not available.<br/>    */<br/>public boolean reassignSeat(int fromRow, int fromCol,<br/>            int toRow, int toCol)</code></pre><br/><br/>> Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "examId": "em2025NA_EM",
+  "title": "AP 物理C电磁 2025年北美卷",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2025",
+  "description": "AP Physics C: Electricity and Magnetism 2025年",
+  "answerKeyAvailable": false,
+  "scoring": null,
+  "sections": [
+    {
+      "title": "Section I: Multiple Choice",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An isolated, air-filled, charged capacitor consists of two conducting, coaxial, cylindrical shells that each have length $L$. The inner shell has radius $R_{1}$ and the outer shell has radius $R_{2}$, as shown in Figure 1, where $R_{1}<R_{2} \\ll L$. The surface charge densities (amounts of charge per unit area) of the inner and outer shells are $+\\sigma_{1}$ and $-\\sigma_{2}$, respectively. The absolute values of the total charges on the shells are equal. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-03.jpg?height=606&width=1159&top_left_y=696&top_left_x=485 /> Figure 1 A. i. Using Gauss's law, derive an expression for the magnitude $E$ of the electric field as a function of the radial distance $r$ from the center of the capacitor for the region $R_{1}<r<R_{2}$. Express your answer in terms of $R_{1}, \\sigma_{1}, r$, and physical constants, as appropriate. ii. Derive an expression for the absolute value $|\\Delta V|$ of the potential difference between the outer and inner shells in terms of $R_{1}, R_{2}, \\sigma_{1}$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information. iii. On the axes shown in Figure 2, sketch a graph of $E$ as a function of $r$ from $r=0$ to a position that is outside the outer shell. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=723&width=1019&top_left_y=431&top_left_x=552 /> B. A material of dielectric constant $\\kappa$ is inserted into the isolated, charged capacitor such that the material fills the region $R_{1}<r<R_{2}$, as shown in Figure 3. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=458&width=521&top_left_y=1452&top_left_x=801 /> Figure 3 Derive an expression for the capacitance $C$ of the capacitor with the material inserted in terms of $L, R_{1}, R_{2}, \\kappa$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information. \\section*{Question 2: Version J}</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A rotating, circular, conducting loop of area $A$ and resistance $R$ is in an external uniform magnetic field of magnitude $B$ that is directed in the $-z$-direction. At time $t=0$, the magnetic field is perpendicular to the plane of the loop, as shown in Figure 1. The loop is rotating with constant angular speed $\\omega$ and period $T$ about the dashed line that is along the diameter of the loop. The value of the magnetic flux through the loop as a function of time $t$ is $\\Phi=B A \\cos (\\omega t)$. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-05.jpg?height=665&width=689&top_left_y=689&top_left_x=717 /> A. The absolute value of the induced emf in the loop is $|\\varepsilon|$. The partially completed bar chart in Figure 2 shows a bar that represents $|\\varepsilon|$ at $t=3{4} T$. In Figure 2, draw bars to represent $|\\varepsilon|$ at times $t=0, 1{4} T$, and $1{2} T$ relative to $|\\varepsilon|$ shown at $3{4} T$. If $|\\varepsilon|=0$, write a \" 0 \" in that column. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-05.jpg?height=661&width=1114&top_left_y=1761&top_left_x=504 /> B. Derive an expression for the maximum induced current in the loop in terms of $A, R, B$, $\\omega$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information. C. On the axes shown in Figure 3, sketch a graph of the instantaneous power $P$ dissipated by the loop as a function of $t$ during the time interval $0 \\leq t \\leq T$. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-06.jpg?height=837&width=1389&top_left_y=569&top_left_x=369 /> D. Indicate whether the sketch you drew in part C is or is not consistent with the bars that you drew in part A. Briefly justify your answer by referencing the functional dependence between $P$ and $|\\varepsilon|$. \\section*{Question 3}</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">In Experiment 1, students are asked to use a graph to determine the resistivity $\\rho_{1}$ of a circuit element that is connected to a variable power supply, as shown in Figure 1. The circuit element is cylindrical and has uniform resistivity. The students have access to a voltmeter, an ammeter, and a ruler. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-07.jpg?height=351&width=364&top_left_y=743&top_left_x=880 /> A. Describe a procedure for collecting data that would allow the students to use a graph to determine $\\rho_{1}$, including any steps necessary to reduce experimental uncertainty. B. Describe how the collected data could be graphed and how that graph would be analyzed to determine $\\rho_{1}$. In Experiment 2, the students are asked to use a graph to determine the resistivity $\\rho_{2}$ of solid, cylindrical resistors made of the same material but of different lengths $L$. The cross-sectional area of each resistor is $5.0 \\times 10^{-6} ~m^{2}$. The students directly measure the resistance $R$ between the ends of each resistor. Table 1 provides $L$ and $R$ for each resistor. table \\hline$L(~m)$ & $R(\\Omega)$ \\\\ \\hline 0.010 & 0.90 \\\\ \\hline 0.020 & 1.6 \\\\ \\hline 0.030 & 2.5 \\\\ \\hline 0.040 & 3.2 \\\\ \\hline 0.050 & 4.0 \\\\ \\hline table \\section*{c.} i. Indicate two quantities, either measured quantities from Table 1 or additional calculated quantities, that could be graphed to produce a straight line that could be used to determine $\\rho_{2}$. Vertical axis: $\\_\\_\\_\\_$ Horizontal axis: $\\_\\_\\_\\_$ ii. On the grid provided, create a graph of the quantities indicated in part C (i). - Use Table 2 to record the measured or calculated quantities that you will plot. - Clearly label the axes, including units as appropriate. - Plot the points you recorded in Table 2. <img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-08.jpg?height=834&width=837&top_left_y=595&top_left_x=644\" /> iii. Draw a best-fit line for the data graphed in part C (ii). D. Using the best-fit line that you drew in part C (iii), calculate an experimental value for $\\rho_{2}$. \\section*{Question 4}</p>",
+          "options": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

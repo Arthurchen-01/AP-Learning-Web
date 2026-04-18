@@ -1,0 +1,1348 @@
+{
+  "examId": "2025Intl",
+  "title": "AP 微积分BC 2025年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2025",
+  "description": "AP 微积分BC 2025年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2025Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "588",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">$\\frac{d}{d x}\\left(3+5 x^{2}\\right)^{1 / 4}=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{4}\\left(3+5 x^{2}\\right)^{3 / 4}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{4}\\left(3+5 x^{2}\\right)^{3 / 4}(10 x)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{4}\\left(3+5 x^{2}\\right)^{-3 / 4}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{4}\\left(3+5 x^{2}\\right)^{-3 / 4}(10 x)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "589",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $f^{\\prime}(x)=6 x^{2}-2 x+5$ and $f(1)=-3$, then $f(2)=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">-19</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">8</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">13</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">22</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "590",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The function $f$ is given by $f(x)=\\frac{\\sin x}{x}$. What is the instantaneous rate of change of $f$ at $x=\\frac{\\pi}{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$-\\frac{4}{\\pi^{2}}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{2}{\\pi}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{4}{\\pi^{2}}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "591",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Using a midpoint Riemann sum with subintervals $[1,1.5],[1.5,3]$, and $[3,4]$, what is the approximate distance, in miles, the car traveled from time $t=1$ to time $t=4$ ?\n\nThe table shown gives the speed $s(t)$, in miles per hour, of a car at selected times $t$, in hours.\n\n\\begin{tabular}{cllllll}\n$\\boldsymbol{t}$ (hours) & 1 & 1.25 & 1.5 & 2.25 & 3 & 3.5 \\\\\n& & & & & & \\\\\n$s(t)$ (miles per hour) & 55 & 50 & 65 & 70 & 55 & 60 \\\\\n& & 55\n\\end{tabular}</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">170</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">175</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">180</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">190</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "592",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following statements is true?\n\nLet $f$ be the function defined as shown.\n$$\nf(x)= \\begin{cases}1 & \\text { if } x<0 \\\\ x^{2}+1 & \\text { if } 0 \\leq x \\leq 1 \\\\ x+1 & \\text { if } x>1\\end{cases}\n$$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$f$ is continuous and differentiable for all $x$.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$f$ is continuous for all $x$ and differentiable except at $x=1$.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$f$ is continuous for all $x$ and differentiable except at $x=0$ and $x=1$.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$f$ is continuous except at $x=1$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "593",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $f$ be a differentiable function that is decreasing on the interval ( $-1,1$ ) and increasing on the intervals $(-2,-1)$ and $(1,2)$. Which of the following could be the graph of $f^{\\prime}$, the derivative of $f$, on the interval $(-2,2)$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">- The curve is nearly horizontal as it begins at a maximum at the point with coordinates negative 2 comma 2 .\n- It then moves steeply downward and to the right. Just as it approaches the x axis, the curve moves more gradually downward and to the right briefly as it crosses the x axis at negative 1.\n- From here, it moves steeply downward and to the right again until it levels off and reaches a minimum on the y axis at negative 1 .\n- The curve then moves steeply upward and to the right. Just as it approaches the x axis, the curve moves more gradually upward and to the right briefly as it crosses the x axis at 1 .\n- From here, it moves steeply upward and to the right again until it levels off and reaches a maximum at the point with coordinates 2 comma 2.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">- The curve begins on the x axis at negative 2 and moves upward and to the right until it levels off and reaches a maximum at the point with approximate coordinates negative 0.9 comma 2.2.\n- It then moves downward and to the right, passes through the origin, and levels off as it reaches a minimum at the point with approximate coordinates 0.9 comma negative 2.2.\n- The curve then moves upward and to the right until it ends on the x axis at 2 .</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">- Two vertical dashed lines are shown at x equals negative 1 and x equals 1 .\n- The leftmost curve begins just above the x axis at x equals negative 2 .\n- The curve moves steeply upward and to the right, becoming increasingly steep as it approaches the dashed vertical line at x equals negative 1 .\n- The curve is nearly vertical as it ends, high above the x axis, just to the left of x equals negative 1 .\n- The second curve begins far below the x axis, just to the right of x equals negative 1 .\n- The curve moves upward and to the right until it levels off and reaches a maximum on the y axis at negative 1.\n- It then moves downward and to the right until it ends just to the left of x equals 1 and far below the x axis.\n- The third curve begins high above the x axis, just to the right of x equals 1 .\n- The curve is nearly vertical initially.\n- It then moves steeply downward and to the right, levelling off as it approaches the $x$ axis and ending just above the $x$ axis at $x$ equals 2 .</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">- The curve is nearly horizontal as it begins at a minimum at the point with coordinates negative 2 comma negative 2 .\n- It then moves steeply upward and to the right, crosses the x axis at negative 1 , and ends at a maximum on the y axis at 2 .\n- The curve continues downward and to the right, crosses the x axis at 1 , and is nearly horizontal as it ends at a minimum at the point with coordinates 2 comma negative 2 .</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "594",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For $t>0$, a parametric curve in the $x y$-plane is defined by $x(t)=t^{2}-4 t+5$ and $y(t)=t^{2}-6 t$. For what value of $t$ does the curve have a vertical tangent?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">5</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">There is no such value of $t$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "595",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $f$ be a function with second derivative given by $f^{\\prime \\prime}(x)=(x-1)^{2}(x-2)(x-3)^{3}$. How many points of inflection does the graph of $f$ have?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Two</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Three</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Five</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Six</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "596",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If at any time $t$ the position vector of a particle moving in the $x y$-plane is $\\langle\\sin (\\pi t), \\cos (\\pi t)\\rangle$, what is the acceleration vector of the particle at time $t=\\frac{1}{2}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\left\\langle-\\pi^{2}, 0\\right\\rangle$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\left\\langle 0,-\\pi^{2}\\right\\rangle$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\langle-1,0\\rangle$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\langle 0,1\\rangle$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "597",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What are all values of $p$ for which the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{4 p-1}}$ converges?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$p \\leq \\frac{1}{2}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$p \\leq 1$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$p>\\frac{1}{2}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$p>1$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "598",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If 10 people have heard the news at time $t=0$, how many people have heard the news when the rate at which the news is spreading changes from increasing to decreasing?\n\nThe number of people at a business who have heard a piece of news at time $t$ days is modeled by the function $P$. The rate at which the news is spreading is modeled by the logistic differential equation $\\frac{d P}{d t}=144 P\\left(1-\\frac{P}{4800}\\right)$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">72</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">144</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">2400</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">4800</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "599",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $x^{2}-x y-3 y^{2}=6$, then $\\frac{d y}{d x}=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{2 x}{1+6 y}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{2 x-y}{x+6 y}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{2 x+y}{x+6 y}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{y-2 x}{x+6 y}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "600",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the radius of convergence of the series $\\sum_{n=0}^{\\infty} \\frac{3 n x^{n}}{(n+2)^{2}}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{3}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Infinite</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "601",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If the area of each region is 3 , what is the value of $\\int_{0}^{4} f(x) d x+\\int_{0}^{7} f(x) d x$ ?\n\nRegions $A$ and $B$ in the figure shown are bounded by the graph of the function $f$ and the $x$ axis.\n- The curve is labeled $y$ equals $f$ open parentheses $x$ close parentheses and begins above the $x$ axis, just to the left of the $y$ axis, and moves downward and to the right.\n- It passes through the origin then levels off as it reaches a local minimum slightly below the x axis at x equals 2 .\n- The curve then moves upward and to the right, crosses the $x$ axis at 4 and levels off as it reaches a local maximum above the x axis at x equals 5.5.\n- It then moves downward and to the right, crosses the x axis at 7 , and continues downward and to the right until it ends at a point far below the x axis, far to the right of the y axis.\n- The region bounded from above by the x axis and from below by the curve from x equals 0 to $x$ equals 4 is labeled $A$.\n- The region bounded from above by the curve from $x$ equals 4 to $x$ equals 7 and bounded from below by the $x$ axis is labeled $B$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">-3</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">9</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "602",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $y=\\sin ^{-1}(x-1)$, then $\\frac{d y}{d x}=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2-x}}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{1-x^{2}}}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2 x-x^{2}}}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{x^{2}-2 x+2}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "603",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following statements about the series $\\sum_{n=1}^{\\infty} \\frac{n^{2}+n}{n^{3}+3 n^{2}-1}$ is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The series converges because $\\lim _{n \\rightarrow \\infty} \\frac{n^{2}+n}{n^{3}+3 n^{2}-1}=0$.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">The series converges by limit comparison to the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}$.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The series diverges by the ratio test.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">The series diverges by limit comparison to the series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "604",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following satisfies the differential equation $\\frac{d y}{d x}=\\cos \\left(\\frac{\\pi}{2} x^{2}\\right)$ with the initial condition $y(0)=2$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$y=2+\\sin \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$y=2+\\frac{1}{\\pi x} \\sin \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$y=\\int_{2}^{x} \\cos \\left(\\frac{\\pi}{2} t^{2}\\right) d t$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$y=2+\\int_{0}^{x} \\cos \\left(\\frac{\\pi}{2} t^{2}\\right) d t$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "605",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The second and third terms of the geometric series $\\sum_{n=1}^{\\infty} a_{n}$ are $a_{2}=-\\frac{3}{4}$ and $a_{3}=\\frac{1}{4}$, respectively. What is the sum of the series $\\sum_{n=1}^{\\infty} a_{n}$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$-\\frac{9}{16}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{16}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{27}{16}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{27}{8}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "606",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=3 y-4 x$ with initial condition $f(1)=2$. What is the approximation for $f(2)$ if Euler's method is used, starting at $x=1$ with a step size of 0.5 ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">4.5</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">5.5</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "607",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $g$ be the function given by $g(x)=\\int_{2}^{x} f(t) d t$. At what value of $x$ in the closed interval $[-3,5]$ does $g$ have an absolute minimum?\n\nThe graph of the function $f$ on the closed interval $[-3,5]$ is shown.\n- The numbers negative 3 through 5 , in increments of 1 , are indicated on the horizontal axis.\n- The numbers negative 2 through 3 , in increments of 1 , are indicated on the vertical axis.\n- The graph consists of three line segments.\n- The first line segment begins at the point with coordinates negative 3 comma 2, and moves horizontally to the right until it ends at the point with coordinates negative 1 comma 2.\n- The second line segment begins where the first segment ends, and slants downward and to the right. It crosses the vertical axis at 1, crosses the horizontal axis at 1 , and ends at the point with coordinates 3 comma negative 2 .\n- The third line segment begins where the second segment ends, and slants upward and to the right. It crosses the horizontal axis at 4 and ends at the point with coordinates 5 comma 2 .</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">-3</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">3</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "608",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">$\\int_{2}^{3} \\frac{4}{(x+3)(x-1)} d x=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\ln \\left(\\frac{3}{5}\\right)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\ln \\left(\\frac{5}{3}\\right)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{4} \\ln \\left(\\frac{12}{5}\\right)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$4 \\ln \\left(\\frac{12}{5}\\right)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "609",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $y=f(x)$ be the particular solution to the differential equation $\\frac{d y}{d x}=3 x^{2} y$ with initial condition $f(0)=6$. Which of the following is an expression for $f(x)$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$e^{x^{3}}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$e^{x^{3}}+5$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$e^{x^{3}}+6$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$6 e^{x^{3}}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "610",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The line $y=2$ is a horizontal asymptote to the graph of which of the following functions?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$y=\\frac{x+2 \\sin x}{x-2}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+\\sin x}{x^{2}}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+\\sin x}{4-x^{2}}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2^{x}+2 \\sin x}{2^{x}}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "611",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the perimeter of the region enclosed by the graphs of $y=3$ and $y=x^{2}-2 x$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3}\\left(x^{2}-2 x\\right) d x$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{(2 x-1)^{2}} d x$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{1+\\left(x^{2}-2 x\\right)^{2}} d x$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{1+(2 x-2)^{2}} d x$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "612",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $F$ is an antiderivative of a continuous function $f$, then $\\int_{-1}^{2} f(3 x+4) d x=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{3} F(10)-\\frac{1}{3} F(1)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{3} F(2)-\\frac{1}{3} F(-1)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$F(10)-F(1)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$F(2)-F(-1)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "613",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">$\\lim _{x \\rightarrow \\pi / 4} \\frac{\\int_{\\pi / 4}^{x} \\tan (t) d t}{x^{2}-\\frac{\\pi^{2}}{16}}$ is</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{2}{\\pi}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{4}{\\pi}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">nonexistent</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "614",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">$\\int \\frac{x^{2}+4 x-1}{x+2} d x=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{\\frac{1}{3} x^{3}+2 x^{2}-x}{\\frac{1}{2} x^{2}+2 x}+C$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$x+2-5 \\ln |x+2|+C$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{2} x^{2}+2 x-5 \\ln |x+2|+C$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{2} x^{2}+2 x+\\frac{5}{2}(x+2)^{-2}+C$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "615",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">$\\int_{1}^{\\infty} x e^{-x} d x$ is</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{e}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{2}{e}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">nonexistent</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "616",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the slope of the line tangent to the polar curve $r=\\theta^{2}$ at the point where $\\theta=\\pi$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$2 \\pi$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{\\pi}{2}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{2}{\\pi}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">0</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "617",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the sum of the series shown?\n$$\n1-\\frac{\\left(\\frac{\\pi}{3}\\right)^{2}}{2!}+\\frac{\\left(\\frac{\\pi}{3}\\right)^{4}}{4!}-\\frac{\\left(\\frac{\\pi}{3}\\right)^{6}}{6!}+\\cdots+\\frac{(-1)^{n}\\left(\\frac{\\pi}{3}\\right)^{2 n}}{(2 n)!}+\\cdots\n$$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{2}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{\\sqrt{3}}{2}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$e^{-(\\pi / 3)^{2}}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{1+\\frac{1}{2}\\left(\\frac{\\pi}{3}\\right)^{2}}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "618",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following is the graph of a function $f$ such that $\\lim _{x \\rightarrow 2^{-}} f(x)$ and $\\lim _{x \\rightarrow 2^{+}} f(x)$ both exist, but $\\lim _{x \\rightarrow 2} f(x)$ does not exist?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">- Two open circles and one closed circle are also in the graph.\n- The first line segment begins below the $x$ axis, to the left of the $y$ axis, and slants upward and to the right. It crosses the origin and ends at an open circle above the x axis at $x$ equals 2 .\n- A closed circle is indicated on the x axis at 2 .\n- The second line segment begins at an open circle below the x axis at x equals 2 , and slants upward and to the right until it ends at a point above the $x$ axis, far to the right of the y axis.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">- One open circle and one closed circle are also in the graph.\n- The curve is nearly horizontal as it begins at a minimum point below the x axis, to the left of the $y$ axis.\n- It then moves steeply upward and to the right, crosses the origin, and ends at a maximum at an open circle above the x axis at x equals 2 .\n- The curve continues downward and to the right, crosses the x axis, and is nearly horizontal as it ends at a minimum point below the $x$ axis, to the right of the $y$ axis.\n- A closed circle is indicated at x equals 2 , between the x axis and the open circle at x equals 2 .</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">- The curve begins below the x axis, to the left of the y axis, and moves upward and to the right.\n- It crosses the y axis below the origin and crosses the x axis at approximately 1 .\n- The curve becomes nearly vertical as it reaches x equals 2 , above the x axis.\n- The curve then moves nearly vertically downward initially, then downward and to the right.\n- It crosses the x axis at approximately 3 , and ends at a point below the x axis, to the right of the y axis.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">- A vertical dashed line is drawn at $x$ equals 2 .\n- The first curve begins just above the x axis, to the left of the y axis.\n- The curve moves gradually upward and to the right at first.\n- It crosses the y axis just above the origin and becomes increasingly steep as it approaches the dashed vertical line at $x$ equals 2 .\n- The curve is nearly vertical as it ends, high above the x axis, just to the left of x equals 2 .\n- The second curve begins high above the x axis, just to the right of x equals 2 .\n- The curve is nearly vertical initially.\n- It then moves steeply downward and to the right, levelling off as it approaches the $x$ axis.\n- The curve continues gradually downward and to the right until it ends at a point just above the $x$ axis, far to the right of the $y$ axis.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "619",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following gives the area of $R$ ?\n\nLet $R$ be the region bounded on the left by the graph of $x=f(y)$ and on the right by the graph of $x=g(y)$, as shaded in the figure.\n- The graph shows a shaded region bounded on the left by the graph of $x$ equals $f$ open parentheses $y$ close parentheses, and bounded on the right by the graph of $x$ equals $g$ open parentheses y close parentheses.\n- The graph of each function is a curve.\n- The graph of $x$ equals $f$ open parentheses $y$ close parentheses begins slightly to the right of the y axis, below the x axis.\n- The curve moves upward and to the left until it becomes vertical as it reaches the point with coordinates 0 comma negative 1 on the $y$ axis.\n- It then moves upward and to the right, crosses the x axis slightly to the right of the origin, and passes through the point with coordinates 2 comma 1.\n- The graph of x equals g open parentheses y close parentheses begins slightly to the left of the y axis, below the x axis.\n- The curve moves upward and to the right.\n- It crosses the $y$ axis and intersects the $x$ equals $f$ open parentheses $y$ close parentheses curve at the point with coordinates 0 comma negative 1 .\n- It continues upward and to the right, crosses the x axis to the right of the origin, and intersects the $x$ equals $f$ open parentheses $y$ close parentheses curve again at the point with coordinates 2 comma 1.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\int_{-1}^{1}(f(y)-g(y)) d y$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\int_{-1}^{1}(g(y)-f(y)) d y$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\int_{0}^{2}(f(y)-g(y)) d y$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\int_{0}^{2}(g(y)-f(y)) d y$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "620",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $f$ be a function that is continuous on the closed interval $[0,2]$ with $f(0)=-2$, $f(1)=5$, and $f(2)=0$. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">The maximum value of $f$ on the closed interval $[0,2]$ is 5 .</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">There is a number $c, 0<c<2$, with $f(c)=-1$.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">There is a number $c, 0<c<2$, with $f(c)=7$.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">There is a number $c, 0<c<2$, with $f^{\\prime}(c)=1$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "621",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let $f$ be the function with first derivative defined by $f^{\\prime}(x)=3 \\cos \\left(e^{2 x}\\right)$ on the interval $0<x<1.5$. What is the smallest value of $x$ at which $f$ has a relative minimum on $0<x<1.5$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0.226</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">0.572</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">0.775</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">1.199</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "622",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the total area of the region enclosed by the curve?\n\nThe figure shows the polar curve $r=3 \\sin (5 \\theta)$ for $0 \\leq \\theta \\leq \\pi$.\n- The curve consists of five elongated loops, each of which begins and ends at the origin.\n◯ - One loop is located in quadrant 1.\n- One loop is located on the positive portion of the $y$ axis.\n- One loop is located in quadrant 2.\n- One loop is located in quadrant 3.\n- One loop is located in quadrant 4.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0.600</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1.200</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">7.069</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">14.137</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "623",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the series $\\sum_{n=1}^{\\infty} a_{n}$, where $a_{n}>0$ for all $n$. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} a_{n}$ converges.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} a_{n}$ diverges.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $\\sum_{n=1}^{\\infty} a_{n}$ converges.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $\\sum_{n=1}^{\\infty} a_{n}$ diverges.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "624",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following equations describes the situation?\n\nThe rate at which people register for a new social networking site is given by $g(t)$, where $t$ is measured in minutes and $g(t)$ is measured in people per minute. The average rate of registration during the first 60 minutes is equal to the rate of registration at time $t=30$ minutes.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\int_{0}^{60} g(t) d t=g^{\\prime}(30)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\int_{0}^{60} g^{\\prime}(t) d t=g^{\\prime}(30)$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{60} \\int_{0}^{60} g(t) d t=g(30)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{60} \\int_{0}^{60} g^{\\prime}(t) d t=g(30)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "625",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">At time $t \\geq 0$, a particle moving in the $x y$-plane has a velocity vector given by $v(t)=\\left\\langle\\sin (2 t), e^{t}\\right\\rangle$. What is the total distance the particle travels over the interval $0 \\leq t \\leq 1$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">1.536</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">1.867</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">2.185</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">3.789</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "626",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the volume of the solid formed when the region bounded by the graphs of $f(x)=\\frac{1}{2} x^{2}-x+1$ and $g(x)=5 \\sin \\left(\\frac{x}{3}\\right)$ is revolved about the $x$-axis?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">5.006</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">23.815</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">26.738</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">74.816</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "627",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">How many critical points does the function $f$ have on the interval $0<x<14$ ?\n\nThe function $f$ is continuous on the interval $0<x<14$. Shown in the figure is the graph of $f^{\\prime}$, the derivative of $f$, on the interval $0<x<14$. The graph of $f^{\\prime}$ is tangent to the $x$-axis at $x=9$.\n- The graph consists of two curves.\n- Two open circles are included in the graph.\n- The first curve begins on the $y$ axis, below the origin.\n- The curve moves upward and to the right.\n- It reaches a local maximum just below the x axis, then moves downward and reaches a minimum.\n- The curve then moves upward and to the right, crosses the $x$ axis, and ends above the x axis at an open circle at a point to the left of x equals 9 .\n- The second curve begins at a second open circle located directly above the first.\n- The curve moves downward and to the right until it reaches a minimum on the x axis at 9 .\n- It then moves upward and reaches a maximum before moving briefly downward and to the right until it ends at x equals 14 , and above the x axis.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">One</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Two</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Three</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Four</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "628",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A particle moves along a straight line with velocity given by $v(t)=t^{2}-3 t+e^{-t / 2}$ and acceleration given by $a(t)=2 t-3-\\frac{1}{2} e^{-t / 2}$ for time $0 \\leq t \\leq 4$. On which open intervals is the speed of the particle increasing?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$(0,0.318)$ and $(2.921,4)$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$(1.612,4)$ only</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$(0,0.318)$ and $(1.612,2.921)$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$(0.318,1.612)$ and $(2.921,4)$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "629",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Using the third-degree Taylor polynomial for $f$ about $x=1$, what is the approximation for $f(0.7)$ ?\n\nLet $f$ be a function with derivatives of all orders for all values of $x$. Selected values of $f$ and its first three derivatives are indicated in the table shown.\n$$\n\\begin{array}{ccccc}\nx & f(x) & f^{\\prime}(x) & f^{\\prime \\prime}(x) & f^{\\prime \\prime \\prime}(x) \\\\\n0 & 0.2 & 0 & 0 & 6 \\\\\n1 & 1 & 2.2 & 3 & -2.3\n\\end{array}\n$$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">0.485</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">0.496</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">0.543</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">0.672</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "630",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $\\int_{a}^{b} 2 f(x) d x+\\int_{c}^{b} f(x) d x=5$ and $\\int_{a}^{c} f(x) d x=1$, then $\\int_{a}^{b} f(x) d x=$</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">4</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">2</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">1</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">-1</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "631",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">At what rate is the volume of the cylinder changing, in cubic inches per minute, at that instant?\n\nThe volume of a cylinder with radius $r$ inches is given by $V=\\pi r^{2}\\left(4 r+\\sin \\left(0.2 r^{2}\\right)\\right)$. At the instant when the radius is 2.7 inches, the radius is increasing at a rate of 0.75 inch per minute.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">202.575</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">220.851</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">270.101</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">294.467</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "632",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If $T_{3}(0.3)$ is used to approximate $f(0.3)$, what is the maximum possible error guaranteed by the Lagrange error bound?\n\nLet $f$ be a function that has derivatives of all orders for all real numbers, and let $T_{3}(x)$ be the third-degree Taylor polynomial for $f$ about $x=0$. The graph of $y=f^{(4)}(x)$, the fourth derivative of $f$, is shown for $0 \\leq x \\leq 0.3$.\n- The graph is an upward-opening parabola.\n- The parabola begins on the $y$ axis at negative 2 and moves downward and to the right until it reaches a minimum at the point with coordinates 0.1 comma negative 3 .\n- It then moves upward and to the right, passes through the point with coordinates 0.2 comma negative 2 and ends at the point with coordinates 0.3 comma 1 .</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">$\\frac{1 \\cdot(0.3)^{3}}{3!}$</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">$\\frac{3 \\cdot(0.3)^{3}}{3!}$</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">$\\frac{1 \\cdot(0.3)^{4}}{4!}$</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">$\\frac{3 \\cdot(0.3)^{4}}{4!}$</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "633",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A tank contains 30 liters of water at time $t=0$. For time $0 \\leq t \\leq 20$ minutes, water flows into the tank at a rate modeled by the function $f$ defined by $f(t)=2 \\ln (t+3)-1.6$. For time $20<t \\leq 45$ minutes, water flows into the tank at a rate modeled by the function $g$ defined by $g(t)=\\frac{7.5}{\\ln t}+2.2$. Both $f(t)$ and $g(t)$ are measured in liters per minute.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Find the rate of change of $g$ at time $t=23$ minutes. Show the setup for your calculations, and indicate units of measure.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">How many liters of water are in the tank at time $t=20$ minutes? Show the setup for your calculations.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Let $w$ be the function defined by $w(t)=\\left\\{\\begin{array}{ll}f(t) & \\text { for } 0 \\leq t \\leq 20 \\\\ g(t) & \\text { for } 20<t \\leq 45\\end{array}\\right.$. Find $\\lim _{t \\rightarrow 20^{+}} w(t)$. Is $w$ continuous at $t=20$ ? Use the definition of continuity to justify your answer.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Consider the function $w$ defined in part C . Find the average value of $w$ from time $t=15$ minutes to time $t=30$ minutes. Show the setup for your calculations.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "634",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A. Let $R$ be the shaded region that is inside the curve $r=g(\\theta)$ for $0 \\leq \\theta \\leq 2 \\pi$. Find the area of region $R$. Show the setup for your calculations.\nB. For each $\\theta$ in the interval $0 \\leq \\theta \\leq 2 \\pi$, the ray from the origin with angle $\\theta$ intersects the curve $r=f(\\theta)$ and the curve $r=g(\\theta)$. For any value of $\\theta$, the distance between the curves is the difference between the $r$-values of the outer curve and the inner curve. Find the average distance between the two curves for $0 \\leq \\theta \\leq 2 \\pi$. Show the setup for your calculations.\nC. Find the value of $\\theta$ in the interval $\\frac{\\pi}{4} \\leq \\theta \\leq \\frac{\\pi}{2}$ that corresponds to the point on the curve $r=g(\\theta)$ with greatest distance from the origin. Justify your answer.\nD. There is a point $P$ on the curve $r=f(\\theta)$ where the slope of the line tangent to the curve at $P$ is equal to $\\sqrt{2}-1$. At point $P$, the rate of change of the $x$-coordinate with respect to $\\theta$ is $\\frac{\\sqrt{2}}{2}$. Find the rate of change of the $y$-coordinate with respect to $\\theta$ at point $P$. Show the work that leads to your answer.\n\nThe graph shows the polar curves $r=f(\\theta)=1+\\sin \\theta$ and $r=g(\\theta)=1+\\sin \\theta+\\cos ^{2}(3 \\theta)$ . The derivative of $g(\\theta)$ with respect to $\\theta$ is $g^{\\prime}(\\theta)=\\cos \\theta-3 \\sin (6 \\theta)$.\n\n\\section*{(Note: Your calculator should be in radian mode.)}\n- The curves are labeled $r$ equals $f$ open parentheses theta close parentheses and $r$ equals g open parentheses theta close parentheses.\n- The curve labeled $r$ equals $f$ open parentheses theta close parentheses begins at the origin.\n- The curve moves briefly downward and to the right until it reaches a minimum just below the x axis at approximately x equals one half.\n- It then moves upward and to the right, crosses the x axis at 1, and becomes increasingly steep until it is vertical at the point with approximate coordinates 1.2 comma 0.75.\n- It then moves upward and to the left until it levels off and reaches a maximum on the y axis at 2 .\n- The curve then moves downward and to the left and becomes increasingly steep until it is vertical at the point with approximate coordinates negative 1.2 comma 0.75.\n- It then moves downward and to the right, crosses the x axis at negative 1, and levels off as it reaches a minimum just below the $x$ axis at approximately $x$ equals negative one half.\n- The curve then moves upward and to the right until it ends where it began at the origin.\n- The curve labeled $r$ equals $g$ open parentheses theta close parentheses begins at the origin.\n- The curve moves steeply downward and to the right until it levels off and reaches a minimum at the point with approximate coordinates 0.6 comma negative 1 .\n- It then moves upward and to the right and then left until it reaches a minimum point of the $r$ equals $f$ open parentheses theta close parentheses curve just below the x axis at approximately x equals one half.\n- It then moves to the right and curves slightly upward until it is nearly vertical as it crosses the x axis at 2 .\n- The curve then moves upward and to the left until it is nearly vertical as it reaches the $r$ equals $f$ open parentheses theta close parentheses curve at the point with approximate coordinates 1.2 comma 0.75.\n- It then moves upward and to the right and then left until it reaches a maximum at the point with approximate coordinates 1.2 comma 2.5.\n- The curve then moves downward and to the left until it reaches the maximum of the $r$ equals $f$ open parentheses theta close parentheses curve on the $y$ axis at 2 .\n- It then moves upward and to the left until it reaches a maximum at the point with approximate coordinates negative 1.2 comma 2.5.\n- The curve then moves downward and to the left and then right until it is nearly vertical as it reaches the $r$ equals $f$ open parentheses theta close parentheses curve at the point with approximate coordinates negative 1.2 comma 0.75 .\n- It then moves downward and to the left until it is nearly vertical as it crosses the x axis at negative 2 .\n- The curve then moves to the right until it reaches a minimum of the $r$ equals $f$ open parentheses theta close parentheses curve just below the x axis at approximately x equals negative one half.\n- It then moves downward and to the left and then right until it reaches a minimum at the point with approximate coordinates negative 0.6 comma negative 1 .\n- It then moves upward and to the right until it ends where it began at the origin.\n- The regions inside each curve are shaded.\n635.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">On what open intervals contained in $0<x<7$, if any, is the graph of $f$ both increasing and concave down? Give a reason for your answer.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Find the average rate of change of $f$ over the interval $0 \\leq x \\leq 4$. Can the Mean Value Theorem be applied to $f$ on the interval $0 \\leq x \\leq 4$ to guarantee a value of $c$, for $0<c<4$, such that $f^{\\prime}(c)$ is equal to this average rate of change? Give a reason for your answer.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">Use a left Riemann sum with the three subintervals indicated by the data in the table to approximate the value of $\\int_{0}^{7} f(x) d x$.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Let $g$ be the function defined by $g(x)=x \\cdot f(x)$. Is $g$ increasing or decreasing at $x=1$ ? Give a reason for your answer.\n\nLet $f$ be a continuous function defined on the interval $0 \\leq x \\leq 7$. The function $f$ and its derivatives have the properties indicated in the table shown, where DNE indicates the $x$ values at which the derivatives of $f$ do not exist.\n\n\\begin{tabular}{|l|l|l|l|l|l|l|l|}\n\\hline \\multicolumn{8}{|r|}{x $\\quad x=00<x<2 x=22<x<4 x=44<x<7 x=7$} \\\\\n\\hline $f(x)$ & -1 & Negative & -4 & Negative & -2 & Negative & 0 \\\\\n\\hline $f^{\\prime}(x)$ & DNE & Negative & DNE & Positive & 0 & Positive & DNE \\\\\n\\hline $f^{\\prime \\prime}(x)$ & DNE & Positive & DNE & Negative & 0 & Positive & DNE \\\\\n\\hline\n\\end{tabular}</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "636",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For $0 \\leq t \\leq 120$, the temperature of a bowl of soup at time $t$ is modeled by the function $S$ that satisfies the differential equation $\\frac{d S}{d t}=-\\frac{1}{20}(S-68)$, where $S(t)$ is measured in degrees Fahrenheit ( ${ }^{\\circ} \\mathrm{F}$ ) and $t$ is measured in minutes. The temperature of the bowl of soup is always greater than $68^{\\circ} \\mathrm{F}$ and is $148^{\\circ} \\mathrm{F}$ at time $t=0$.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Explain why the following could not be a slope field for the differential equation $\\frac{d S}{d t}=-\\frac{1}{20}(S-68)$.\n- The slope field consists of short line segments representing the slope at various points on the plane.\n- The line segments are horizontal at $S$ equals 68.\n- As $S$ increases, the line segments become increasingly steep upward and to the right.\n- As t increases, the behavior of the line segments is unchanged.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Use the line tangent to the graph of $S$ at $t=0$ to approximate the temperature of the soup at time $t=5$ minutes.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">According to the model, is the approximation found in part B an overestimate or an underestimate of the temperature of the soup at time $t=5$ minutes? Give a reason for your answer.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Using separation of variables, find the particular solution $y=S(t)$ to the differential equation $\\frac{d S}{d t}=-\\frac{1}{20}(S-68)$ with initial condition $S(0)=148$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "637",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A. For each of $x^{\\prime \\prime}(2)$ and $x^{\\prime \\prime}(4)$, find the value or explain why it does not exist.\nB. On what open intervals contained in $6<t<10$, if any, is the graph of $x(t)$ concave down? Give a reason for your answer.\nC. A particle moving in the $x y$-plane has position $(x(t), y(t))$ with velocity vector $\\left\\langle x^{\\prime}(t), y^{\\prime}(t)\\right\\rangle$ for $0 \\leq t \\leq 10$, where $x^{\\prime}(t)$ is defined by the given graph and $y^{\\prime}(t)=t e^{5 t}$. The particle is at position $(5,1)$ at time $t=0$. Find the $y$-coordinate of the position of the particle at time $t=10$. Show the work that leads to your answer.\nD. For the particle defined in part C , find the speed of the particle at time $t=2$. Show the work that leads to your answer.\n\nLet $x$ be a differentiable function of $t$ for $0 \\leq t \\leq 10$. The graph of $x^{\\prime}(t)$, the derivative of $x(t)$, consists of two line segments and a semicircle, as shown in the figure.\n- The graph consists of two line segments and a semicircle.\n- The first line segment begins at the origin and slants downward and to the right until it ends at the point with coordinates 4 comma negative 2 .\n- The second line segment begins where the first segment ends, and slants upward and to the right. It crosses the horizontal axis at 5 and ends at the point with coordinates 6 comma 2.\n- The semicircle begins where the second segment ends and opens upward. It reaches a minimum on the horizontal axis at 8 and ends at the point with coordinates 10 comma 2.</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<div class=\"choiceTxt\">Use the ratio test to determine the interval of convergence of the power series for $f$.</div>"
+            },
+            {
+              "key": "B",
+              "content": "<div class=\"choiceTxt\">Determine whether $f$ has a relative minimum, a relative maximum, or neither at $x=0$. Give a reason for your answer.</div>"
+            },
+            {
+              "key": "C",
+              "content": "<div class=\"choiceTxt\">The first two nonzero terms of the power series for $f$ are used to approximate $f\\left(\\frac{1}{2}\\right)$. Use the alternating series error bound to determine an upper bound on the error of the approximation.</div>"
+            },
+            {
+              "key": "D",
+              "content": "<div class=\"choiceTxt\">Write the first three nonzero terms and the general term for an infinite series that represents $\\int_{0}^{x} f(t) d t$.</div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

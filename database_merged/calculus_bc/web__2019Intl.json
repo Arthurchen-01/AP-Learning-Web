@@ -1,0 +1,2204 @@
+{
+  "examId": "2019Intl",
+  "title": "AP 微积分BC 2019年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2019",
+  "description": "AP 微积分BC 2019年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2019Intl-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "free-response",
+          "prompt": "\\section*{AP Calculus AB/BC Exams}\n\n\\section*{Regularly Scheduled Exam Date: Tuesday morning, May 14, 2019}\n\n\\section*{Late-Testing Exam Date: Friday morning, May 24, 2019}\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline \\multirow[t]{2}{*}{Section I} & \\multirow[t]{2}{*}{\\begin{tabular}{l}\nTotal Time: 1 hour and 45 minutes \\\\\nNumber of Questions: 45 \\\\\n(The number of questions may vary slightly depending on the form of the exam.) \\\\\nPercent of Total Score: 50\\% \\\\\nWriting Instrument: Pencil required\n\\end{tabular}} & \\begin{tabular}{l}\nPart A: \\\\\nNumber of Questions: 30\n\\end{tabular} & \\begin{tabular}{l}\nTime: 1 hour \\\\\nNo calculator allowed\n\\end{tabular} \\\\\n\\hline & & \\begin{tabular}{l}\nPart B: \\\\\nNumber of Questions: 15\n\\end{tabular} & \\begin{tabular}{l}\nTime: 45 minutes \\\\\nGraphing calculator required\n\\end{tabular} \\\\\n\\hline \\multirow[t]{2}{*}{Section II} & & \\begin{tabular}{l}\nPart A: \\\\\nNumber of Questions: 2\n\\end{tabular} & \\begin{tabular}{l}\nTime: 30 minutes \\\\\nPercent of Section II Score: 33.33\\% \\\\\nGraphing calculator required\n\\end{tabular} \\\\\n\\hline & \\begin{tabular}{l}\nTotal Time: 1 hour and 30 minutes \\\\\nNumber of Questions: 6 \\\\\nPercent of Total Score: 50\\% \\\\\nWriting Instrument: Either pencil or pen with black or dark blue ink \\\\\nNote: For Section II, if students finish Part A before the end of the timed 30 minutes for Part A, they cannot begin working on Part B. Students must wait until the beginning of the timed 1 hour for Part B. However, during the timed portion for Part B, students may work on the questions in Part A without the use of a calculator.\n\\end{tabular} & \\begin{tabular}{l}\nPart B: \\\\\nNumber of Questions: 4\n\\end{tabular} & \\begin{tabular}{l}\nTime: 1 hour \\\\\nPercent of Section II \\\\\nScore: 66.67\\% \\\\\nNo calculator allowed\n\\end{tabular} \\\\\n\\hline\n\\end{tabular}\n\nBefore Distributing Exams: Check that the title on all exam covers is Calculus $\\boldsymbol{A} \\boldsymbol{B}$ or Calculus $\\boldsymbol{B} \\boldsymbol{C}$. Be sure to distribute the correct exam- AB or BC -to the students. If there are any exam booklets with a different title, contact the AP coordinator immediately.\n\n\\section*{What Proctors Need to Bring to This Exam}\n\nExam packets\nAnswer sheets\nAP Student Packs\n2018-19 AP Coordinator's Manual\nThis book-2018-19 AP Exam Instructions\nAP Exam Seating Chart template\nSchool Code and Homeschool/Self-Study Codes\nExtra graphing calculators\nPencil sharpener\n□ Container for students' electronic devices (if needed)\n□ Extra No. 2 pencils with erasers\n□ Extra pens with black or dark blue ink\n□ Extra paper\n□ Stapler\n□ Watch\n□ Signs for the door to the testing room\n- \"Exam in Progress\"\n- \"Phones of any kind are prohibited during the test administration, including breaks\"\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{SEATING POLICY FOR AP CALCULUS AB AND CALCULUS BC EXAMS}\n\\begin{tabular}{|l|l|l|}\n\\hline Testing Window & Exams Administered at Schools in the United States, Canada, Puerto Rico, and the U.S. Virgin Islands & Exams Administered at Schools Outside the United States, Canada, Puerto Rico, and the U.S. Virgin Islands \\\\\n\\hline Regularly Scheduled Exams & Students must be seated no less than 4 feet apart. & \\multirow[t]{2}{*}{Students must be seated no less than 5 feet apart.} \\\\\n\\hline Late-Testing Exams & Students must be seated no less than 5 feet apart. & \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nGraphing calculators are required to answer some of the questions on the AP Calculus Exams. Before starting the exam administration, make sure each student has a graphing calculator from the approved list on page 53 of the 2018-19 AP Coordinator's Manual. If a student does not have a graphing calculator from the approved list, you may provide one from your supply. If the student does not want to use the calculator you provide or does not want to use a calculator at all, he or she must hand copy, date, and sign the release statement on page 52 of the AP Coordinator's Manual.\n\nDuring the administration of Section I, Part B, and Section II, Part A, students may have no more than two graphing calculators on their desks. Calculators may not be shared.\nCalculator memories do not need to be cleared before or after the exam. Students with Hewlett-Packard 48-50 Series and Casio FX-9860 graphing calculators may use cards designed for use with these calculators. Proctors should make sure infrared ports (Hewlett-Packard) are not facing each other. Since graphing calculators can be used to store data, including text, proctors should monitor that students are using their calculators appropriately. Attempts by students to use the calculator to remove exam questions and/or answers from the room may result in the cancellation of AP Exam scores.\n\nThe AP Calculus AB Exam and the AP Calculus BC Exam should be administered simultaneously. They may be administered in separate rooms, or in the same room if it is more convenient.\n\n\\section*{section i: Multiple Choice}\n- Do not begin the exam instructions below until you have completed the appropriate General Instructions for your group.\n\nThese exams include survey questions. The time allowed for the survey questions is in addition to the actual test-taking time.\n\nMake sure you begin the exams at the designated time. Remember, you must complete a seating chart for this exam. See pages 295-296 for a seating chart template and instructions. See the 2018-19 AP Coordinator's Manual for exam seating requirements (pages 56-59).\n\nIf you are giving the regularly scheduled exam, say:\nIt is Tuesday morning, May 14, and you will be taking either the AP Calculus AB Exam or the AP Calculus BC Exam.\n\nIf you are giving the alternate exam for late testing, say:\nIt is Friday morning, May 24, and you will be taking either the AP Calculus AB\nExam or the AP Calculus BC Exam.\n\n\\section*{If you are giving the $\\boldsymbol{A} \\boldsymbol{P}$ Calculus $\\boldsymbol{A} \\boldsymbol{B}$ Exam, say:}\n\nLook at your exam packet and confirm that the exam title is \"AP Calculus AB.\" Raise your hand if your exam packet contains any title other than \"AP Calculus AB,\" and I will help you.\n\n\\section*{If you are giving the $\\boldsymbol{A} \\boldsymbol{P}$ Calculus $\\boldsymbol{B} \\boldsymbol{C}$ Exam, say:}\n\nLook at your exam packet and confirm that the exam title is \"AP Calculus BC.\" Raise your hand if your exam packet contains any title other than \"AP Calculus BC,\" and I will help you.\n\nIf you are giving both the $\\boldsymbol{A} \\boldsymbol{P}$ Calculus $\\boldsymbol{A} \\boldsymbol{B}$ Exam and $\\boldsymbol{A} \\boldsymbol{P}$ Calculus $\\boldsymbol{B} \\boldsymbol{C}$ Exam in the same room, say:\nLook at your exam packet and confirm that the exam title is \"AP Calculus AB\" or \"AP Calculus BC,\" depending upon which exam you are taking today. Raise your hand if your exam packet contains any other title and I will help you.\n\n\\section*{Once you confirm that all students have the correct exam, say:}\n\nIn a moment, you will open the exam packet. By opening this packet, you agree to all of the AP Program's policies and procedures outlined in the 2018-19 Bulletin for AP Students and Parents.\n\nYou may now remove the shrinkwrap from the outside only of your exam packet. Do not open the Section I booklet; do not remove the shrinkwrap from the Section II materials. Put the white seals and the shrinkwrapped Section II booklet aside....\n\nCarefully remove the AP Exam label found near the top left of your exam booklet cover. Place it on page 1 of your answer sheet on the light blue box near the top right corner that reads \"AP Exam Label.\"\n\nIf students accidentally place the exam label in the space for the number label or vice versa, advise them to leave the labels in place. They should not try to remove the label; their exam can still be processed correctly.\n\nListen carefully to all my instructions. I will give you time to complete each step. Please look up after completing each step. Raise your hand if you have any questions.\n\nGive students enough time to complete each step. Don't move on until all students are ready.\nRead the statements on the front cover of the Section I booklet. . . .\nSign your name and write today's date....\nNow print your full legal name where indicated. . . .\nTurn to the back cover of your exam booklet and read it completely....\nGive students a few minutes to read the entire cover.\n\n\\section*{Are there any questions?...}\n\nYou will now take the multiple-choice portion of the exam. You should have in front of you the multiple-choice booklet and your answer sheet. You may never discuss the multiple-choice exam content at any time in any form with anyone, including your teacher and other students. If you disclose the multiple-choice exam content through any means, your AP Exam score will be canceled.\n\nOpen your answer sheet to page 2. You must complete the answer sheet using a No. $\\mathbf{2}$ pencil only. Mark all of your responses beginning on page $\\mathbf{2}$ of your answer sheet, one response per question. Completely fill in the circles. If you need to erase, do so carefully and completely. No credit will be given for\nanything written in the exam booklet. Scratch paper is not allowed, but you may use the margins or any blank space in the exam booklet for scratch work.\n\nSection I is divided into two parts. Each part is timed separately, and you may work on each part only during the time allotted for it. Calculators are not allowed in Part A. Please put your calculators under your chair. Are there any questions? ...\n\nYou have 1 hour for Part A. Part A questions are numbered 1 through 30. Mark your responses for these questions on page 2 of your answer sheet. Open your Section I booklet and begin.\n\nNote Start Time $\\_\\_\\_\\_$ . Note Stop Time $\\_\\_\\_\\_$ .\n\nCheck that students are marking their answers in pencil on page 2 of their answer sheets and that they are not looking beyond Part A. The line of A's at the top of each page will assist you in monitoring students' work.\n\nAfter 50 minutes, say:\nThere are 10 minutes remaining.\nAfter 10 minutes, say:\nStop working on Part A and turn to page 24 in your Section I booklet. . . .\nOn that page, you should see an area marked \"PLACE SEAL HERE.\" Making sure all of your other exam materials, including your answer sheet, are out of the way, take one of your seals and press it on that area and then fold the seal over the open edge to the front cover. Be sure you don't seal the Part B section of the booklet or let the seal touch anything except the marked areas....\n\nAfter all students have sealed Part A, say:\nGraphing calculators are required for Part B. You may get your calculators from under your chair and place them on your desk. Part B questions are numbered 76 through 90. Fold your answer sheet so only page 3 is showing and mark your responses for these questions on that page. You have $\\mathbf{4 5}$ minutes for Part B. You may begin.\n\nNote Start Time $\\_\\_\\_\\_$ . Note Stop Time $\\_\\_\\_\\_$ .\n\nCheck that students have sealed their booklets properly and are now working on Part B. The large B's in an alternating shaded pattern at the top of each page will assist you in monitoring their work. Proctors should make sure that students are using their calculators appropriately. Proctors should also make sure Hewlett-Packard calculators' infrared ports are not facing each other.\n\nAfter 35 minutes, say:\nThere are 10 minutes remaining.\nAfter 10 minutes, say:\nStop working and turn to page $\\mathbf{3 8}$. You have $\\mathbf{3}$ minutes to answer Questions 91-94. These are survey questions and will not affect your score. Note that each survey question has five answer options. You may not go back to work on any of the exam questions. . . .\n\nGive students approximately 3 minutes to answer the survey questions.\n\n\\section*{Then say:}\n\nClose your booklet and put your answer sheet on your desk, faceup. Make sure you have your AP number label and an AP Exam label on page 1 of your answer sheet. Sit quietly while I collect your answer sheets.\n\nCollect an answer sheet from each student. Check that each answer sheet has an AP number label and an AP Exam label.\n\n\\section*{After all answer sheets have been collected, say:}\n\nNow you must seal your Section I booklet. Remove the remaining white seals from the backing and press one on each area of your exam booklet cover marked \"PLACE SEAL HERE.\" Fold each seal over the back cover. When you have finished, place the booklet on your desk, faceup. I will now collect your Section I booklet...\n\nCollect a Section I booklet from each student. Check that each student has signed the front cover of the sealed Section I booklet.\n\nThere is a 10 -minute break between Sections I and II.\nWhen all Section I materials have been collected and accounted for and you are ready for the break, say:\n\nPlease listen carefully to these instructions before we take a $\\mathbf{1 0}$-minute break. All items you placed under your chair at the beginning of this exam, including your Student Pack, must stay there, and you are not permitted to open or access them in any way. Leave your shrinkwrapped Section II packet on top of your desk during the break. You are not allowed to consult teachers, other students, notes, textbooks, or any other resources during the break. You may not make phone calls, send text messages, use your calculators, check email, use a social networking site, or access any electronic or communication device. You may not leave the designated break area. Remember, you may never discuss the multiple-choice exam content with anyone, and if you disclose the content through any means, your AP Exam score will be canceled. Are there any questions?...\n\nYou may begin your break. Testing will resume at $\\_\\_\\_\\_$ .\n\n\\section*{section II: Free Response}\n\n\\section*{After the break, say:}\n\nMay I have everyone's attention? Place your Student Pack on your desk…\nYou may now remove the shrinkwrap from the Section II packet, but do not open the Section II exam booklet until you are told to do so....\n\nRead the bulleted statements on the front cover of the exam booklet. Look up when you have finished. . . .\n\nNow take an AP number label from your Student Pack and place it on the shaded box. If you don't have any AP number labels, write your AP number in the box. Look up when you have finished....\n\nRead the last statement. . . .\nUsing your pen, print the first, middle, and last initials of your legal name in the boxes and print today's date where indicated. This constitutes your signature and your agreement to the statements on the front cover. . . .\n\nNow turn to the back cover. Using your pen, complete Items 1 through 3 under \"Important Identification Information.\"...\n\nRead Item 4....\nAre there any questions?...\nIf this is your last AP Exam, you may keep your Student Pack. Place it under your chair for now. Otherwise if you are taking any other AP Exams this year, leave your Student Pack on your desk and I will collect it now. . . .\n\nRead the remaining information on the back cover of the exam booklet, paying careful attention to the bulleted statements in the instructions. Do not open the exam booklet or break the seals in the exam booklet until you are told to do so. Look up when you have finished. . . .\n\nCollect the Student Packs from students who are taking any other AP Exams this year.\n\n\\section*{Then say:}\n\nAre there any questions? $\\_\\_\\_\\_$\nSection II also has two parts that are timed separately. You are responsible for pacing yourself and may proceed freely from one question to the next within each part. Graphing calculators are required for Part A, so you may keep your calculators on your desk. You must write your answers in the appropriate space in the exam booklet using a No. 2 pencil or a pen with black or dark blue ink. Do not break the seals for Part B at this time. Are there any questions? . . .\n\nYou have $\\mathbf{3 0}$ minutes to answer the questions in Part A. If you need more paper to complete your responses, raise your hand. At the top of each extra sheet of paper you use, write only:\n- your AP number,\n- the exam title, and\n- the question number you are working on.\n\nDo not write your name. Open your exam booklet and begin.\nNote Start Time $\\_\\_\\_\\_$ . Note Stop Time $\\_\\_\\_\\_$ .\n\nCheck that students are working on Part A only and writing their answers in their exam booklets using pencils or pens with black or dark blue ink. The pages for the Part A questions are marked with large 1's or 2's at the top of each page to assist you in monitoring their work.\n\nAfter 20 minutes, say:\nThere are $\\mathbf{1 0}$ minutes remaining in Part A.\nAfter 10 minutes, say:\nStop working on Part A. Calculators are not allowed for Part B. Please put all of your calculators under your chair. . . .\n\nTurn to page 13. You have 1 hour for Part B. During this time you may go back to Part A, but you may not use your calculator. Remember to show your work and write your answer to each part of each problem in the appropriate space in the exam booklet. Are there any questions? . . .\n\nUsing your finger, break open the seals on Part B. Do not peel the seals away from the booklet. You may go on to the next page and begin Part B.\n\nNote Start Time $\\_\\_\\_\\_$ . Note Stop Time $\\_\\_\\_\\_$ .\n\n\\section*{After 50 minutes, say:}\n\n\\section*{There are $\\mathbf{1 0}$ minutes remaining in Part B.}\n\n\\section*{After 10 minutes, say:}\n\n\\section*{Stop working and close your exam booklet. Place it on your desk, faceup. . . .}\n\nIf any students used extra paper for a question in the free-response section, have those students staple the extra sheet(s) to the first page corresponding to that question in their free-response exam booklets. Complete an Incident Report after the exam and return these free-response booklets with the extra sheets attached in the Incident Report return envelope (see page 68 of the 2018-19 AP Coordinator's Manual for complete details).\n\n\\section*{Then say:}\n\n\\section*{Remain in your seat, without talking, while the exam materials are collected. . . .}\n\nCollect a Section II exam booklet from each student. Check for the following:\n- Exam booklet front cover: The student placed an AP number label on the shaded box and printed their initials and today's date.\n- Exam booklet back cover: The student completed the \"Important Identification Information\" area.\n\nWhen all exam materials have been collected and accounted for, return to students any electronic devices you may have collected before the start of the exam.\n\nIf you are giving the regularly scheduled exam, say:\nYou may not discuss or share the free-response exam content with anyone unless it is released on the College Board website in about two days. Your AP Exam score results will be available online in July.\n\nIf you are giving the alternate exam for late testing, say:\nNone of the content in this exam may ever be discussed or shared in any way at any time. Your AP Exam score results will be available online in July.\n\nIf any students completed the AP number card at the beginning of this exam, say:\nPlease remember to take your AP number card with you. You will need the information on this card to view your scores and order AP score reporting services online.\n\n\\section*{Then say:}\n\n\\section*{You are now dismissed.}\n\n\\section*{After-Exam Tasks}\n\nBe sure to give the completed seating chart to the AP coordinator. Schools must retain seating charts for at least six months (unless the state or district requires that they be retained for a longer period of time). Schools should not return any seating charts in their exam shipments unless they are required as part of an Incident Report.\n\nNOTE: If you administered exams to students with accommodations, review the 2018-19 AP Coordinator's Manual and the 2018-19 AP SSD Guidelines for information about completing the Nonstandard Administration Report (NAR) form, and returning these exams.\n\nThe exam proctor should complete the following tasks if asked to do so by the AP coordinator. Otherwise, the AP coordinator must complete these tasks:\n- Complete an Incident Report for any students who used extra paper for the free-response section. (Incident Report forms are provided in the coordinator packets sent with the exam shipments.) These forms must be completed with a No. 2 pencil. It is best to complete a single Incident Report for multiple students per exam subject, per administration (regular or late testing), as long as all required information is provided. Include all exam booklets with extra sheets of paper in an Incident Report return envelope (see page 68 of the 2018-19 AP Coordinator's Manual for complete details).\n- Return all exam materials to secure storage until they are shipped back to the AP Program. (See page 27 of the 2018-19 AP Coordinator's Manual for more information about secure storage.) Before storing materials, check the \"School Use Only\" section on page 1 of the answer sheet and:\n- Fill in the appropriate section number circle in order to access a separate AP Instructional Planning Report (for regularly scheduled exams only) or subject score roster at the class section or teacher level. See \"Post-Exam Activities\" in the 2018-19 AP Coordinator's Manual.\n- Check your list of students who are eligible for fee reductions and fill in the appropriate circle on their registration answer sheets.\n$\\_\\_\\_\\_$\n\n\\section*{Answer Sheet for AP Calculus BC Practice Exam, Section I}\n\n\\begin{tabular}{|l|l|}\n\\hline No. & Answer \\\\\n\\hline 1 & \\\\\n\\hline 2 & \\\\\n\\hline 3 & \\\\\n\\hline 4 & \\\\\n\\hline 5 & \\\\\n\\hline 6 & \\\\\n\\hline 7 & \\\\\n\\hline 8 & \\\\\n\\hline 9 & \\\\\n\\hline 10 & \\\\\n\\hline 11 & \\\\\n\\hline 12 & \\\\\n\\hline 13 & \\\\\n\\hline 14 & \\\\\n\\hline 15 & \\\\\n\\hline 16 & \\\\\n\\hline 17 & \\\\\n\\hline 18 & \\\\\n\\hline 19 & \\\\\n\\hline 20 & \\\\\n\\hline 21 & \\\\\n\\hline 22 & \\\\\n\\hline 23 & \\\\\n\\hline 24 & \\\\\n\\hline 25 & \\\\\n\\hline 26 & \\\\\n\\hline 27 & \\\\\n\\hline 28 & \\\\\n\\hline 29 & \\\\\n\\hline 30 & \\\\\n\\hline\n\\end{tabular}\n\n\\begin{tabular}{|c|c|}\n\\hline No. & Answer \\\\\n\\hline 76 & \\\\\n\\hline 77 & \\\\\n\\hline 78 & \\\\\n\\hline 79 & \\\\\n\\hline 80 & \\\\\n\\hline 81 & \\\\\n\\hline 82 & \\\\\n\\hline 83 & \\\\\n\\hline 84 & \\\\\n\\hline 85 & \\\\\n\\hline 86 & \\\\\n\\hline 87 & \\\\\n\\hline 88 & \\\\\n\\hline 89 & \\\\\n\\hline 90 & \\\\\n\\hline\n\\end{tabular}\n\n\\section*{AP ${ }^{\\text {® }}$ Calculus BC Exam \\\\ SECTION I: Multiple Choice}\n\n\\section*{DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.}\n\n\\section*{At a Glance}\n\n\\section*{Total Time}\n\n\\section*{1 hour and 45 minutes}\n\nNumber of Questions\n\n\\section*{45}\n\nPercent of Total Score\n50\\%\n\n\\section*{Writing Instrument}\n\nPencil required\n\n\\section*{Part A}\n\n\\section*{Number of Questions}\n\n30\nTime\n1 hour\nElectronic Device\nNone allowed\n\n\\section*{Part B}\n\nNumber of Questions\n15\nTime\n45 minutes\nElectronic Device\nGraphing calculator required\n\n\\section*{Sample Question}\n\nChicago is a",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "state"
+            },
+            {
+              "partSign": "B",
+              "partContent": "city"
+            },
+            {
+              "partSign": "C",
+              "partContent": "country"
+            },
+            {
+              "partSign": "D",
+              "partContent": "continent\n\nSample Answer"
+            },
+            {
+              "partSign": "A",
+              "partContent": ""
+            },
+            {
+              "partSign": "C",
+              "partContent": ""
+            },
+            {
+              "partSign": "D",
+              "partContent": "(E)\n\nA\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-013.jpg?height=49&width=191&top_left_y=1279&top_left_x=1007)\n\n\\section*{Instructions}\n\nSection I of this exam contains 45 multiple-choice questions and 4 survey questions. For Part A, fill in only the circles for numbers 1 through 30 on the answer sheet. For Part B, fill in only the circles for numbers 76 through 90 on the answer sheet. Because Part A and Part B offer only four answer options for each question, do no"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "$\\int_{1}^{2}\\left(4 x^{3}-x\\right) d x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{27}{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "27"
+            },
+            {
+              "partSign": "C",
+              "partContent": "36"
+            },
+            {
+              "partSign": "D",
+              "partContent": "57"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "102",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function defined by $f(x)=x^{3}-3 x^{2}-9 x+11$. At which of the following values of $x$ does $f$ attain a local minimum?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "3"
+            },
+            {
+              "partSign": "B",
+              "partContent": "1"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-1"
+            },
+            {
+              "partSign": "D",
+              "partContent": "-3\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "103",
+          "type": "free-response",
+          "prompt": "$\\frac{d}{d x}\\left(2(\\sin \\sqrt{x})^{2}\\right)=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\quad 4 \\cos \\left(\\frac{1}{2 \\sqrt{x}}\\right)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$4 \\sin \\sqrt{x} \\cos \\sqrt{x}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{2 \\sin \\sqrt{x}}{\\sqrt{x}}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{2 \\sin \\sqrt{x} \\cos \\sqrt{x}}{\\sqrt{x}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "104",
+          "type": "free-response",
+          "prompt": "The position of a particle is given by the parametric equations $x(t)=\\ln \\left(t^{2}+1\\right)$ and $y(t)=e^{3-t}$. What is the velocity vector at time $t=1$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\left\\langle 1, e^{2}\\right\\rangle$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\left\\langle 1,-e^{2}\\right\\rangle$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\left\\langle\\frac{1}{2}, e^{2}\\right\\rangle$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\left\\langle\\frac{1}{2},-e^{2}\\right\\rangle$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "105",
+          "type": "free-response",
+          "prompt": "$\\quad \\sum_{n=1}^{\\infty} \\frac{e^{n}}{\\pi^{n}}$ is",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{\\pi}{\\pi-e}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{e}{\\pi-e}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{e}{\\pi \\ln \\left(\\frac{\\pi}{e}\\right)}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "divergent\n\n\\begin{tabular}{|c||c|c|c|c|c|c|}\n\\hline$x$ & $f(x)$ & $f^{\\prime}(x)$ & $f^{\\prime \\prime}(x)$ & $g(x)$ & $g^{\\prime}(x)$ & $g^{\\prime \\prime}(x)$ \\\\\n\\hline 2 & 4 & -3 & 3 & -2 & 5 & 1 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "106",
+          "type": "free-response",
+          "prompt": "The table above gives values of the twice-differentiable functions $f$ and $g$ and their derivatives at $x=2$. If $h$ is the function defined by $h(x)=\\frac{f^{\\prime}(x)}{g(x)}$, what is the value of $h^{\\prime}(2)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{9}{4}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{3}{5}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$-\\frac{3}{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$-\\frac{21}{4}$\n\n\\section*{ÅÅÅÅÅAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "107",
+          "type": "free-response",
+          "prompt": "Which of the following is the Maclaurin series for $x \\cos \\left(x^{2}\\right)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$x-\\frac{x^{5}}{2!}+\\frac{x^{9}}{4!}-\\frac{x^{13}}{6!}+\\cdots$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$x-\\frac{x^{3}}{2!}+\\frac{x^{5}}{4!}-\\frac{x^{7}}{6!}+\\cdots$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$x^{3}-\\frac{x^{7}}{3!}+\\frac{x^{11}}{5!}-\\frac{x^{15}}{7!}+\\cdots$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$x^{3}-\\frac{x^{5}}{3!}+\\frac{x^{7}}{5!}-\\frac{x^{9}}{7!}+\\cdots$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "108",
+          "type": "free-response",
+          "prompt": "$\\lim _{x \\rightarrow \\infty} \\frac{10-6 x^{2}}{5+3 e^{x}}$ is",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "0"
+            },
+            {
+              "partSign": "C",
+              "partContent": "2"
+            },
+            {
+              "partSign": "D",
+              "partContent": "nonexistent\n\n\\section*{ÅÅÅÅÅAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "109",
+          "type": "free-response",
+          "prompt": "The function $f$ is not differentiable at $x=5$. Which of the following statements must be true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$f$ is not continuous at $x=5$."
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\lim _{x \\rightarrow 5} f(x)$ does not exist."
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\lim _{x \\rightarrow 5} \\frac{f(x)-f(5)}{x-5}$ does not exist."
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\int_{0}^{5} f(x) d x$ does not exist."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "110",
+          "type": "free-response",
+          "prompt": "The second derivative of a function $f$ is given by $f^{\\prime \\prime}(x)=x(x-3)^{5}(x-10)^{2}$. At which of the following values of $x$ does the graph of $f$ have a point of inflection?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "3 only"
+            },
+            {
+              "partSign": "B",
+              "partContent": "0 and 3 only"
+            },
+            {
+              "partSign": "C",
+              "partContent": "3 and 10 only"
+            },
+            {
+              "partSign": "D",
+              "partContent": "0, 3, and 10\n\n\\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "111",
+          "type": "free-response",
+          "prompt": "$\\int_{0}^{\\pi} \\frac{e^{x}-1}{e^{x}-x} d x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$e^{\\pi}-\\pi-1$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\quad \\ln \\left(e^{\\pi}-\\pi\\right)-1$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\pi-\\ln \\pi$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\quad \\ln \\left(e^{\\pi}-\\pi\\right)$\n\n\\begin{tabular}{|c||c|c|c|c|c|}\n\\hline$x$ & 0 & 4 & 8 & 12 & 16 \\\\\n\\hline$f(x)$ & 8 & 0 & 2 & 10 & 1 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "112",
+          "type": "free-response",
+          "prompt": "The table above gives selected values for the differentiable function $f$. In which of the following intervals must there be a number $c$ such that $f^{\\prime}(c)=2$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$(0,4)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$(4,8)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$(8,12)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$(12,16)$\n\n\\section*{ÅÅÅÅÅAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "113",
+          "type": "free-response",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=x+2 y$ with initial condition $f(0)=2$. What is the approximation for $f(-0.4)$ obtained by using Euler's method with two steps of equal length starting at $x=0$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "76"
+            },
+            {
+              "partSign": "B",
+              "partContent": "20"
+            },
+            {
+              "partSign": "C",
+              "partContent": "29"
+            },
+            {
+              "partSign": "D",
+              "partContent": "96"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "114",
+          "type": "free-response",
+          "prompt": "What is the slope of the line tangent to the curve $\\sqrt{x}+\\sqrt{y}=2$ at the point $\\left(\\frac{9}{4}, \\frac{1}{4}\\right)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-3"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\frac{1}{3}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "1"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{4}{3}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "115",
+          "type": "free-response",
+          "prompt": "$\\int_{1}^{\\infty} \\frac{6}{(x+3)^{3 / 2}} d x$ is",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{3}{4}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "3"
+            },
+            {
+              "partSign": "C",
+              "partContent": "6"
+            },
+            {
+              "partSign": "D",
+              "partContent": "divergent"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "116",
+          "type": "free-response",
+          "prompt": "If $\\frac{d y}{d x}=2-y$, and if $y=1$ when $x=1$, then $y=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$2-e^{x-1}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$2-e^{1-x}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$2-e^{-x}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$2+e^{-x}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "117",
+          "type": "free-response",
+          "prompt": "Which of the following series converges?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{1-n}{n}\\right)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{n+1}{2 n}\\right)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\quad \\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{n^{2}}{3 \\sqrt{n}}\\right)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{2 \\sqrt{n}}{n}\\right)$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-024.jpg?height=533&width=704&top_left_y=518&top_left_x=683)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "118",
+          "type": "free-response",
+          "prompt": "Let $R$ be the region in the first and second quadrants between the graphs of the polar curves $f(\\theta)=3+3 \\cos \\theta$ and $g(\\theta)=4+2 \\cos \\theta$, as shaded in the figure above. Which of the following integral expressions gives the area of $R$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\int_{-2}^{6}(g(\\theta)-f(\\theta)) d \\theta$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\int_{0}^{\\pi}(g(\\theta)-f(\\theta)) d \\theta$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{1}{2} \\int_{0}^{\\pi}(g(\\theta)-f(\\theta))^{2} d \\theta$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{1}{2} \\int_{0}^{\\pi}\\left((g(\\theta))^{2}-(f(\\theta))^{2}\\right) d \\theta$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "119",
+          "type": "free-response",
+          "prompt": "Which of the following statements about the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n}{n^{2}+1}$ is true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "The series can be shown to diverge by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+            },
+            {
+              "partSign": "B",
+              "partContent": "The series can be shown to diverge by limit comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+            },
+            {
+              "partSign": "C",
+              "partContent": "The series can be shown to converge by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
+            },
+            {
+              "partSign": "D",
+              "partContent": "The series can be shown to converge by the alternating series test.\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "120",
+          "type": "free-response",
+          "prompt": "If $\\int_{1}^{4} f(x) d x=8$ and $\\int_{1}^{4} g(x) d x=-2$, which of the following cannot be determined from the information given?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\int_{4}^{1} g(x) d x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\int_{1}^{4} 3 f(x) d x$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\int_{1}^{4} 3 f(x) g(x) d x$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\int_{1}^{4}(3 f(x)+g(x)) d x$\n\n\\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "121",
+          "type": "free-response",
+          "prompt": "Which of the following is the interval of convergence for the series $\\sum_{n=1}^{\\infty} \\frac{(x+4)^{n}}{n \\cdot 5^{n+1}}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$[-9,1)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$[-5,5)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$[1,9)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$(-\\infty, \\infty)$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "122",
+          "type": "free-response",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=3 \\theta$ at the point where $\\theta=\\frac{\\pi}{2}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{\\pi}{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\frac{2}{\\pi}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "0"
+            },
+            {
+              "partSign": "D",
+              "partContent": "3\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "123",
+          "type": "free-response",
+          "prompt": "The definite integral $\\int_{0}^{4} \\sqrt{x} d x$ is approximated by a left Riemann sum, a right Riemann sum, and a trapezoidal sum, each with 4 subintervals of equal width. If $L$ is the value of the left Riemann sum, $R$ is the value of the right Riemann sum, and $T$ is the value of the trapezoidal sum, which of the following inequalities is true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$L<\\int_{0}^{4} \\sqrt{x} d x<T<R$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$L<T<\\int_{0}^{4} \\sqrt{x} d x<R$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$R<\\int_{0}^{4} \\sqrt{x} d x<T<L$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$R<T<\\int_{0}^{4} \\sqrt{x} d x<L$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-029.jpg?height=728&width=889&top_left_y=520&top_left_x=589)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "124",
+          "type": "free-response",
+          "prompt": "The graph of the piecewise linear function $f$ is shown above. What is the value of $\\int_{0}^{12} f^{\\prime}(x) d x$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-8"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-6"
+            },
+            {
+              "partSign": "C",
+              "partContent": "0"
+            },
+            {
+              "partSign": "D",
+              "partContent": "22\n\n\\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "125",
+          "type": "free-response",
+          "prompt": "The function $f$ has a continuous derivative. If $f(0)=1, f(2)=5$, and $\\int_{0}^{2} f(x) d x=7$, what is $\\int_{0}^{2} x \\cdot f^{\\prime}(x) d x$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "3"
+            },
+            {
+              "partSign": "B",
+              "partContent": "6"
+            },
+            {
+              "partSign": "C",
+              "partContent": "10"
+            },
+            {
+              "partSign": "D",
+              "partContent": "17"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "126",
+          "type": "free-response",
+          "prompt": "Which of the following series are conditionally convergent?\nI. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n!}$\nII. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{\\sqrt{n}}$\nIII. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{n+2}$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "I only"
+            },
+            {
+              "partSign": "B",
+              "partContent": "II only"
+            },
+            {
+              "partSign": "C",
+              "partContent": "II and III only"
+            },
+            {
+              "partSign": "D",
+              "partContent": "I, II, and III\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "127",
+          "type": "free-response",
+          "prompt": "Let $R$ be the region in the first quadrant bounded by the graph of $y=\\sqrt{x-1}$, the $x$-axis, and the vertical line $x=10$. Which of the following integrals gives the volume of the solid generated by revolving $R$ about the $y$-axis?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\pi \\int_{1}^{10}(x-1) d x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\quad \\pi \\int_{1}^{10}(100-(x-1)) d x$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\pi \\int_{0}^{3}\\left(10-\\left(y^{2}+1\\right)\\right)^{2} d y$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\pi \\int_{0}^{3}\\left(100-\\left(y^{2}+1\\right)^{2}\\right) d y$\n\n\\section*{ÅÅÅÅÅAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "128",
+          "type": "free-response",
+          "prompt": "If $\\frac{d x}{d t}=5$ and $\\frac{d y}{d t}=\\sin \\left(t^{2}\\right)$, then $\\frac{d^{2} y}{d x^{2}}$ is",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$2 t \\cos \\left(t^{2}\\right)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{2 t \\cos \\left(t^{2}\\right)}{5}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{2 t \\cos \\left(t^{2}\\right)}{25}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "undefined\n\n\\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "129",
+          "type": "free-response",
+          "prompt": "Which of the following expressions is equal to $\\lim _{n \\rightarrow \\infty} \\frac{1}{n}\\left(\\frac{1}{2+\\frac{1}{n}}+\\frac{1}{2+\\frac{2}{n}}+\\frac{1}{2+\\frac{3}{n}}+\\cdots+\\frac{1}{2+\\frac{n}{n}}\\right)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\int_{1}^{2} \\frac{1}{x} d x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\int_{0}^{1} \\frac{1}{2+x} d x$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\int_{0}^{2} \\frac{1}{2+x} d x$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\int_{2}^{3} \\frac{1}{2+x} d x$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "130",
+          "type": "free-response",
+          "prompt": "A function $f$ has a Maclaurin series given by $2+3 x+x^{2}+\\frac{1}{3} x^{3}+\\cdots$, and the Maclaurin series converges to $f(x)$ for all real numbers $x$. If $g$ is the function defined by $g(x)=e^{f(x)}$, what is the coefficient of $x^{2}$ in the Maclaurin series for $g$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{1}{2} e^{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$e^{2}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{5}{2} e^{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{11}{2} e^{2}$\n\nEND OF PART A\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}\n\n\\section*{CALCULUS BC}\n\n\\section*{SECTION I, Part B}\n\n\\section*{Time-45 minutes}\n\n\\section*{Number of questions-15}\n\n\\section*{A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON THIS PART OF THE EXAM.}\n\nDirections: Solve each of the following problems, using the available sp"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "131",
+          "type": "free-response",
+          "prompt": "The function $f$ is continuous on the closed interval $[0,5]$. The graph of $f^{\\prime}$, the derivative of $f$, is shown above. On which of the following intervals is $f$ increasing?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$[0,1]$ and $[2,4]$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$[0,1]$ and $[3,5]$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$[0,1]$ and $[4,5]$ only"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$[0,2]$ and $[4,5]$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "132",
+          "type": "free-response",
+          "prompt": "If $\\frac{d y}{d t}=6 e^{-0.08(t-5)^{2}}$, by how much does $y$ change as $t$ changes from $t=1$ to $t=6$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "870"
+            },
+            {
+              "partSign": "B",
+              "partContent": "341"
+            },
+            {
+              "partSign": "C",
+              "partContent": "017"
+            },
+            {
+              "partSign": "D",
+              "partContent": "583\n\n\\section*{$\\begin{array}{lllllllll}\\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B }\\end{array}$}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "133",
+          "type": "free-response",
+          "prompt": "The function $f$ has the property that $\\lim _{x \\rightarrow 1^{-}} f(x)=+\\infty, \\lim _{x \\rightarrow 1^{+}} f(x)=-\\infty, \\lim _{x \\rightarrow-\\infty} f(x)=2$, and $\\lim _{x \\rightarrow+\\infty} f(x)=2$. Of the following, which could be the graph of $f$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=649&width=650&top_left_y=660&top_left_x=315)"
+            },
+            {
+              "partSign": "B",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=649&width=645&top_left_y=660&top_left_x=1181)"
+            },
+            {
+              "partSign": "C",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=652&width=645&top_left_y=1379&top_left_x=315)"
+            },
+            {
+              "partSign": "D",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=648&width=645&top_left_y=1379&top_left_x=1181)\n\n\\section*{$\\begin{array}{lllllllll}\\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B }\\end{array}$}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "134",
+          "type": "free-response",
+          "prompt": "Tara's heart rate during a workout is modeled by the differentiable function $h$, where $h(t)$ is measured in beats per minute and $t$ is measured in minutes from the start of the workout. Which of the following expressions gives Tara's average heart rate from $t=30$ to $t=60$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\int_{30}^{60} h(t) d t$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{1}{30} \\int_{30}^{60} h(t) d t$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{1}{30} \\int_{30}^{60} h^{\\prime}(t) d t$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{h^{\\prime}(30)+h^{\\prime}(60)}{2}$\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "135",
+          "type": "free-response",
+          "prompt": "The function $f$ has derivatives of all orders for all real numbers with $f(2)=-1, f^{\\prime}(2)=4, f^{\\prime \\prime}(2)=6$, and $f^{\\prime \\prime \\prime}(2)=12$. Using the third-degree Taylor polynomial for $f$ about $x=2$, what is the approximation of $f(2.1)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-0.570"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-0.568"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-0.566"
+            },
+            {
+              "partSign": "D",
+              "partContent": "-0.528"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "136",
+          "type": "free-response",
+          "prompt": "Let $f$ be a function with derivative given by $f^{\\prime}(x)=\\sqrt{x^{3}+1}$. What is the length of the graph of $y=f(x)$ from $x=0$ to $x=1.5$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "266"
+            },
+            {
+              "partSign": "B",
+              "partContent": "497"
+            },
+            {
+              "partSign": "C",
+              "partContent": "278"
+            },
+            {
+              "partSign": "D",
+              "partContent": "976\n\n\\section*{B B B B B B B B B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "137",
+          "type": "free-response",
+          "prompt": "Let $h$ be a continuous function of $x$. Which of the following could be a slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=520&width=524&top_left_y=680&top_left_x=315)"
+            },
+            {
+              "partSign": "B",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=522&width=522&top_left_y=678&top_left_x=1062)"
+            },
+            {
+              "partSign": "C",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=524&width=519&top_left_y=1274&top_left_x=315)"
+            },
+            {
+              "partSign": "D",
+              "partContent": "![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=524&width=522&top_left_y=1274&top_left_x=1062)\n\n\\section*{$\\begin{array}{lllllllll}\\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B }\\end{array}$}\n$$\nf(x)= \\begin{cases}k^{3}+x & \\text { for } x<3 \\\\ \\frac{16}{k^{2}-x} & \\text { for } x \\geq 3\\end{cases}\n$$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "138",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function defined above, where $k$ is a positive constant. For what value of $k$, if any, is $f$ continuous?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "081"
+            },
+            {
+              "partSign": "B",
+              "partContent": "646"
+            },
+            {
+              "partSign": "C",
+              "partContent": "550"
+            },
+            {
+              "partSign": "D",
+              "partContent": "There is no such value of $k$.\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-041.jpg?height=460&width=456&top_left_y=1283&top_left_x=808)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "139",
+          "type": "free-response",
+          "prompt": "Let $f$ be a differentiable function. The figure above shows the graph of the line tangent to the graph of $f$ at $x=0$. Of the following, which must be true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$f^{\\prime}(0)=-f(0)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$f^{\\prime}(0)<f(0)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$f^{\\prime}(0)=f(0)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$f^{\\prime}(0)>f(0)$\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "140",
+          "type": "free-response",
+          "prompt": "A referee moves along a straight path on the side of an athletic field. The velocity of the referee is given by $v(t)=4(t-6) \\cos (2 t+5)$, where $t$ is measured in minutes and $v(t)$ is measured in meters per minute. What is the total distance traveled by the referee, in meters, from time $t=2$ to time $t=6$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "933"
+            },
+            {
+              "partSign": "B",
+              "partContent": "578"
+            },
+            {
+              "partSign": "C",
+              "partContent": "667"
+            },
+            {
+              "partSign": "D",
+              "partContent": "156\n\n\\section*{B B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-043.jpg?height=595&width=992&top_left_y=468&top_left_x=539)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "141",
+          "type": "free-response",
+          "prompt": "The graph of the function $f$ shown above consists of three line segments. Let $h$ be the function defined by $h(x)=\\int_{0}^{x} f(t) d t$. At what value of $x$ does $h$ attain its absolute maximum on the interval $[-4,3]$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-4"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-2"
+            },
+            {
+              "partSign": "C",
+              "partContent": "0"
+            },
+            {
+              "partSign": "D",
+              "partContent": "3\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "142",
+          "type": "free-response",
+          "prompt": "The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=e^{-t}$ and $y(t)=\\sin (4 t)$ for time $t \\geq 0$. What is the speed of the particle at time $t=1.2$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "162"
+            },
+            {
+              "partSign": "B",
+              "partContent": "041"
+            },
+            {
+              "partSign": "C",
+              "partContent": "462"
+            },
+            {
+              "partSign": "D",
+              "partContent": "221"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "143",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function defined by $f(x)=\\frac{1}{4} x^{4}-\\frac{2}{3} x^{3}+\\frac{1}{2} x^{2}-\\frac{1}{2} x$. For how many values of $x$ in the open interval ( $0,1.565$ ) is the instantaneous rate of change of $f$ equal to the average rate of change of $f$ on the closed interval $[0,1.565]$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "Zero"
+            },
+            {
+              "partSign": "B",
+              "partContent": "One"
+            },
+            {
+              "partSign": "C",
+              "partContent": "Three"
+            },
+            {
+              "partSign": "D",
+              "partContent": "Four\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "144",
+          "type": "free-response",
+          "prompt": "The population $P$ of rabbits on a small island grows at a rate that is jointly proportional to the size of the rabbit population and the difference between the rabbit population and the carrying capacity of the population. If the carrying capacity of the population is 2400 rabbits, which of the following differential equations best models the growth rate of the rabbit population with respect to time $t$, where $k$ is a constant?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{d P}{d t}=2400-k P$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{d P}{d t}=k(2400-P)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{d P}{d t}=k \\frac{1}{P}(2400-P)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{d P}{d t}=k P(2400-P)$\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-045.jpg?height=305&width=310&top_left_y=1555&top_left_x=881)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "145",
+          "type": "free-response",
+          "prompt": "A region is bounded by two concentric circles, as shown by the shaded region in the figure above. The radius of the outer circle, $R$, is increasing at a constant rate of 2 inches per second. The radius of the inner circle, $r$, is decreasing at a constant rate of 1 inch per second. What is the rate of change, in square inches per second, of the area of the region at the instant when $R$ is 4 inches and $r$ is 3 inches?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$3 \\pi$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$6 \\pi$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$10 \\pi$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$22 \\pi$\n\n\\section*{B B B B B B B B B}\n\nEND OF SECTION I\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n\\section*{AP ${ }^{\\text {® }}$ Calculus BC Exam}\n\n\\secti"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "146",
+          "type": "free-response",
+          "prompt": "First two letters of your last name\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=64&width=95&top_left_y=731&top_left_x=1146)\n\nFirst letter of your first name",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "First two letters of your last name\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=64&width=95&top_left_y=731&top_left_x=1146)\n\nFirst letter of your first name □"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "147",
+          "type": "free-response",
+          "prompt": "Date of birth\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=63&width=99&top_left_y=904&top_left_x=735)\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Date of birth\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=63&width=99&top_left_y=904&top_left_x=735)\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=72&width=99&top_left_y=904&top_left_x=845)\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=81&width=186&top_left_y=904&top_left_x=959)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "148",
+          "type": "free-response",
+          "prompt": "Six-digit school code\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=65&width=275&top_left_y=1041&top_left_x=737)",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Six-digit school code\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=65&width=275&top_left_y=1041&top_left_x=737)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "149",
+          "type": "free-response",
+          "prompt": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □\n\n\\section*{IMPORTANT Identification Infor"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
+        },
+        {
+          "id": "150",
+          "type": "free-response",
+          "prompt": "The rate at which cars enter a parking lot is modeled by $E(t)=30+5(t-2)(t-5) e^{-0.2 t}$. The rate at which cars leave the parking lot is modeled by the differentiable function $L$. Selected values of $L(t)$ are given in the table above. Both $E(t)$ and $L(t)$ are measured in cars per hour, and time $t$ is measured in hours after 5 A.M. $(t=0)$. Both functions are defined for $0 \\leq t \\leq 12$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "What is the rate of change of $E(t)$ at time $t=7$ ? Indicate units of measure."
+            },
+            {
+              "partSign": "b",
+              "partContent": "How many cars enter the parking lot from time $t=0$ to time $t=12$ ? Give your answer to the nearest whole number.\n\n\\section*{$\\begin{array}{llllllllll}1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1\\end{array}$}"
+            },
+            {
+              "partSign": "c",
+              "partContent": "Use a trapezoidal sum with the four subintervals indicated by the data in the table to approximate $\\int_{2}^{12} L(t) d t$. Using correct units, explain the meaning of $\\int_{2}^{12} L(t) d t$ in the context of this problem."
+            },
+            {
+              "partSign": "d",
+              "partContent": "For $0 \\leq t<6,5$ dollars are collected from each car entering the parking lot. For $6 \\leq t \\leq 12,8$ dollars are collected from each car entering the parking lot. How many dollars are collected from the cars entering the parking lot from time $t=0$ to time $t=12$ ? Give your answer to the nearest whole dollar.\n\n\\section*{\\begin{tabular}{lllllllll|l}\n2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2\n\\end{tabular}}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-051.jpg?height=64"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "151",
+          "type": "free-response",
+          "prompt": "A laser is a device that produces a beam of light. A design, shown above, is etched onto a flat piece of metal using a moving laser. The position of the laser at time $t$ seconds is represented by $(x(t), y(t))$ in the $x y$-plane. Both $x$ and $y$ are measured in centimeters, and $t$ is measured in seconds. The laser starts at position ( 0,0 ) at time $t=0$, and the design takes 3.1 seconds to complete. For $0 \\leq t \\leq 3.1, \\frac{d x}{d t}=3 \\cos \\left(t^{2}\\right)$ and $\\frac{d y}{d t}=4 \\cos (2.5 t)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the speed of the laser at time $t=3$ seconds."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Find the total distance traveled by the laser from time $t=1$ to time $t=3$ seconds."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The laser is farthest to the right at time $t=1.253$ seconds. Find the $x$-coordinate of the laser's rightmost position."
+            },
+            {
+              "partSign": "d",
+              "partContent": "What is the difference between the $y$-coordinates of the laser's highest position and lowest position for $0 \\leq t \\leq 3.1$ ? Justify your answer.\n\n\\section*{END OF PART A}\n\n\\section*{IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.}\n\n\\title{\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-1 hour \\\\ Number of questions-4\n}\n\nNO CALCULATOR IS ALLOWED FOR THESE QUESTIONS.\n\nDO NOT BREAK THE SEALS UNTIL YOU ARE TOLD TO DO SO"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "152",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function defined above.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the average rate of change of $f$ on the interval $-3 \\leq x \\leq 4$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write an equation for the line tangent to the graph of $f$ at $x=3$.\n\n\\section*{NO CALCULATOR ALLOWED}"
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the average value of $f$ on the interval $-3 \\leq x \\leq 4$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Must there be a value of $x$ at which $f(x)$ attains an absolute maximum on the closed interval $-3 \\leq x \\leq 4$ ? Justify your answer.\n\n\\section*{NO CALCULATOR ALLOWED}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-057.jpg?height=796&width=963&top_left_y=443&top_left_x=566)\n\nGraph of $f$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "153",
+          "type": "free-response",
+          "prompt": "The continuous function $f$ is defined for $-4 \\leq x \\leq 4$. The graph of $f$, shown above, consists of two line segments and portions of three parabolas. The graph has horizontal tangents at $x=-\\frac{1}{2}, x=\\frac{1}{2}$, and $x=\\frac{5}{2}$. It is known that $f(x)=-x^{2}+5 x-4$ for $1 \\leq x \\leq 4$. The areas of regions $A$ and $B$ bounded by the graph of $f$ and the $x$-axis are 3 and 5, respectively. Let $g$ be the function defined by $g(x)=\\int_{-4}^{x} f(t) d t$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find $g(0)$ and $g(4)$.\n\n\\section*{NO CALCULATOR ALLOWED}"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Find the absolute minimum value of $g$ on the closed interval $[-4,4]$. Justify your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find all intervals on which the graph of $g$ is concave down. Give a reason for your answer.\n\n\\section*{NO CALCULATOR ALLOWED}\n![](https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-059.jpg?height=666&width=622&top_left_y=438&top_left_x=735)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "154",
+          "type": "free-response",
+          "prompt": "The graph of the curve $C$, given by $4 x^{2}+3 y^{2}+6 y=9$, is shown in the figure above.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Show that $\\frac{d y}{d x}=\\frac{-4 x}{3(y+1)}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Using the information from part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "In polar coordinates, the curve $C$ is given by $r=\\frac{3}{2+\\sin \\theta}$ for $0 \\leq \\theta \\leq 2 \\pi$. Find $\\frac{d r}{d \\theta}$.\n\nAs $\\theta$ increases, on what intervals is the distance between the origin and the point $(r, \\theta)$ increasing?\nGive a reason for your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Let $S$ be the region inside curve $C$, as defined in part"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "155",
+          "type": "free-response",
+          "prompt": "Consider the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}(x-3)^{n}}{5^{n} \\cdot n^{p}}$, where $p$ is a constant and $p>0$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "For $p=3$ and $x=8$, does the series converge absolutely, converge conditionally, or diverge? Explain your reasoning."
+            },
+            {
+              "partSign": "b",
+              "partContent": "For $p=1$ and $x=8$, does the series converge absolutely, converge conditionally, or diverge? Explain your reasoning.\n\n\\section*{NO CALCULATOR ALLOWED}"
+            },
+            {
+              "partSign": "c",
+              "partContent": "When $x=-2$, for what values of $p$ does the series converge? Explain your reasoning."
+            },
+            {
+              "partSign": "d",
+              "partContent": "When $p=1$ and $x=3.1$, the series converges to a value $S$. Use the first two terms of the series to approximate $S$. Use the alternating series error bound to show that this approximation differs from $S$ by less than $\\frac{1}{300,000}$.\n\nSTOP\nEND OF EXAM\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Correct. This question involves using the basic power rule for antidifferentiation and correctly substituting the endpoints and evaluating, as follows.\n$$\n\\int_{1}^{2}\\left(4 x^{3}-x\\right) d x=x^{4}-\\left.\\frac{1}{2} x^{2}\\right|_{1} ^{2}=(16-2)-\\left(1-\\frac{1}{2}\\right)=14-\\frac{1}{2}=\\frac{27}{2}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if the antidifferentiation was not done and the endpoints were substituted directly into the integrand, as follows.\n$$\n4 x^{3}-\\left.x\\right|_{1} ^{2}=(32-2)-(4-1)=30-3=27\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the integrand was differentiated rather than antidifferentiated, as follows.\n$$\n12 x^{2}-\\left.1\\right|_{1} ^{2}=(48-1)-(12-1)=47-11=36\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the powers of $x$ were not divided by the new exponent when the power rule for antiderivatives was applied, as follows.\n$$\n4 x^{4}-\\left.x^{2}\\right|_{1} ^{2}=(64-4)-(4-1)=60-3=57\n$$ \\\\\n\\hline\n\\end{tabular}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 2}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 3.D & FUN-4.A \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. A local minimum for $f$ will occur where the derivative $f^{\\prime}$ changes sign from negative to positive.\n$$\nf^{\\prime}(x)=3 x^{2}-6 x-9=3\\left(x^{2}-2 x-3\\right)=3(x+1)(x-3)\n$$ \\\\\nThe zeros of $f^{\\prime}$ are at $x=-1$ and $x=3$. A sign chart shows that $f^{\\prime}$ changes from negative to positive at $x=3$. Another way to see this is to observe that the graph of $f^{\\prime}$ is a parabola opening up so that the graph crosses the $x$-axis from negative to posi"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This is a zero of the second derivative $f^{\\prime \\prime}(x)=6 x-6=6(x-1)$ where $f^{\\prime \\prime}$ changes sign from negative to positive. Therefore, $x=1$ is a point of inflection of the graph of $f$, not the location of a local minimum. This response might also have been chosen if the derivative had been incorrectly factored as $3(x-1)(x+3)$. Then $x=1$ is a zero of this expression where the sign changes from negative to positive. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This is a zero of the derivative $f^{\\prime}$ where $f^{\\prime}$ changes sign from positive to negative. Therefore, $x=-1$ is the location of a local maximum of $f$, not a local minimum. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response might have been chosen if the derivative had been incorrectly factored as $3(x-1)(x+3)$ and the zero where the derivative changes sign from positive to negative was selected. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 3\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 1.E & FUN-3.C \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response might come from incorrectly applying the chain rule twice as $\\frac{d}{d x}(f(g(x)))=f^{\\prime}\\left(g^{\\prime}(x)\\right)$, as follows.\n$$\n\\frac{d}{d x}\\left(2(\\sin \\sqrt{x})^{2}\\right)=2 \\cdot\\left(2 \\cdot \\frac{d}{d x}(\\sin \\sqrt{x})\\right)=2 \\cdot 2 \\cdot \\cos \\left(\\frac{d}{d x}(\\sqrt{x})\\right)=4 \\cos \\left(\\frac{1}{2 \\sqrt{x}}\\right)\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response might come from correctly applying the chain rule the first time but not the second, as follows.\n$$\n\\frac{d}{d x}\\left(2(\\sin \\sqrt{x})^{2}\\right)=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot \\frac{d}{d x}(\\sin \\sqrt{x})=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot \\cos \\sqrt{x}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response might come from using the chain rule only once, with the innermost \"inside\" function, $\\sqrt{x}$, as follows.\n$$\n\\frac{d}{d x}\\left(2(\\sin \\sqrt{x})^{2}\\right)=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot \\frac{d}{d x}(\\sqrt{x})=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot \\frac{1}{2 \\sqrt{x}}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The chain rule must be used twice for this composition of three functions.\n$$\n\\frac{d}{d x}\\left(2(\\sin \\sqrt{x})^{2}\\right)=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot\\left(\\frac{d}{d x}(\\sin \\sqrt{x})\\right)\n$$ \\\\\n$=2 \\cdot 2(\\sin \\sqrt{x}) \\cdot\\left(\\cos \\sqrt{x} \\cdot \\frac{d}{d x}(\\sqrt{x})\\right)$\n$$\n\\begin{aligned}\n& =2 \\cdot 2(\\sin \\sqrt{x}) \\cdot \\\\\n& =\\frac{2 \\sin \\sqrt{x} \\cos \\sqrt{x}}{\\sqrt{x}}\n\\end{aligned}\n$$\n\\end{tabular} \\\\\n\\hline\n\\end{tabular}\n\n\\begin{table}\n\\"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response would result if the chain rule was not used during the differentiation of the $y(t)$ component of the position vector resulting in the loss of the negative sign, as follows.\n$$\nv(t)=\\left\\langle\\frac{d}{d t} \\ln \\left(t^{2}+1\\right), \\frac{d}{d t} e^{3-t}\\right\\rangle=\\left\\langle\\frac{2 t}{t^{2}+1}, e^{3-t}\\right\\rangle \\Rightarrow v(1)=\\left\\langle 1, e^{2}\\right\\rangle\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The components of the velocity vector are the derivatives of the components of the position vector.\n$$\nv(t)=\\left\\langle\\frac{d}{d t} \\ln \\left(t^{2}+1\\right), \\frac{d}{d t} e^{3-t}\\right\\rangle=\\left\\langle\\frac{2 t}{t^{2}+1},-e^{3-t}\\right\\rangle \\Rightarrow v(1)=\\left\\langle 1,-e^{2}\\right\\rangle\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the chain rule was not used during the differentiation of both components of the position vector, as follows.\n$$\nv(t)=\\left\\langle\\frac{d}{d t} \\ln \\left(t^{2}+1\\right), \\frac{d}{d t} e^{3-t}\\right\\rangle=\\left\\langle\\frac{1}{t^{2}+1}, e^{3-t}\\right\\rangle \\Rightarrow v(1)=\\left\\langle\\frac{1}{2}, e^{2}\\right\\rangle\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the chain rule was not used during the differentiation of the $x(t)$ component of the position vector, as follows.\n$$\nv(t)=\\left\\langle\\frac{d}{d t} \\ln \\left(t^{2}+1\\right), \\frac{d}{d t} e^{3-t}\\right\\rangle=\\left\\langle\\frac{1}{t^{2}+1},-e^{3-t}\\right\\rangle \\Rightarrow v(1)=\\left\\langle\\frac{1}{2},-e^{2}\\right\\rangle\n$$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 5}\n\\begin{tabular}{|l|l|}\n\\hl"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response might be chosen if the series is correctly identified as a convergent geometric series with common ratio $r=\\frac{e}{\\pi}$, but the first term was taken to be 1 rather than $\\frac{e}{\\pi}$, resulting in $\\frac{1}{1-r}=\\frac{1}{1-\\frac{e}{\\pi}}=\\frac{\\pi}{\\pi-e}$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The series is a geometric series with first term $a=\\frac{e}{\\pi}$ and common ratio $r=\\frac{e}{\\pi}$. Since this ratio is less than 1 , the series converges to $\\frac{a}{1-r}=\\frac{\\frac{e}{\\pi}}{1-\\frac{e}{\\pi}}=\\frac{e}{\\pi-e}$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. The sum of the series might have been taken to be the value of the definite integral used in performing the integral test for convergence. Let $f(x)=\\left(\\frac{e}{\\pi}\\right)^{x}$.\n$$\n\\begin{aligned}\n& \\int_{1}^{\\infty} f(x) d x=\\int_{1}^{\\infty}\\left(\\frac{e}{\\pi}\\right)^{x} d x=\\lim _{b \\rightarrow \\infty} \\int_{1}^{b}\\left(\\frac{e}{\\pi}\\right)^{x} d x=\\left.\\lim _{b \\rightarrow \\infty} \\frac{\\left(\\frac{e}{\\pi}\\right)^{x}}{\\ln \\left(\\frac{e}{\\pi}\\right)}\\right|_{1} ^{b} \\\\\n& =\\l"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response might be chosen if the series is correctly identified as a geometric series with common ratio $r=\\frac{e}{\\pi}$, but the ratio is thought to be greater than 1 . \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 6}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 1.E & FUN-3.B \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The derivative of $h$ is found by using the quotient rule.\n$$\nh^{\\prime}(x)=\\frac{f^{\\prime \\prime}(x) g(x)-f^{\\prime}(x) g^{\\prime}(x)}{(g(x))^{2}}\n$$ \\\\\nThe values for the functions and derivatives at $x=2$ are obtained from the table.\n$$\nh^{\\prime}(2)=\\frac{f^{\\prime \\prime}(2) g(2)-f^{\\prime}(2) g^{\\prime}(2)}{(g(2))^{2}}=\\frac{(3)(-2)-(-3)(5)}{(-2)^{2}}=\\frac{-6+15}{4}=\\frac{9}{4}\n$$\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if the derivative of a quotient was taken to be the quotient of the derivatives, as follows.\n$$\nh^{\\prime}(x)=\\frac{f^{\\prime \\prime}(x)}{g^{\\prime}(x)} \\Rightarrow h^{\\prime}(2)=\\frac{f^{\\prime \\prime}(2)}{g^{\\prime}(2)}=\\frac{3}{5}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response comes from only differentiating the numerator in the quotient, as follows.\n$$\nh^{\\prime}(x)=\\frac{f^{\\prime \\prime}(x)}{g(x)} \\Rightarrow h^{\\prime}(2)=\\frac{f^{\\prime \\prime}(2)}{g(2)}=\\frac{3}{-2}=-\\frac{3}{2}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the terms in the numerator were added rather than subtracted in the quotient rule, as follows.\n$$\nh^{\\prime}(x)=\\frac{f^{\\prime \\prime}(x) g(x)+f^{\\prime}(x) g^{\\prime}(x)}{(g(x))^{2}} \\Rightarrow h^{\\prime}(2)=\\frac{(3)(-2)+(-3)(5)}{(-2)^{2}}=\\frac{-6-15}{4}=-\\frac{21}{4}\n$$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 7}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 2.C & LI"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Correct. Beginning with the Maclaurin series for $\\cos x, x^{2}$ is substituted to obtain the Maclaurin series for $\\cos \\left(x^{2}\\right)$. This series is then multiplied term-by-term by $x$.\n$$\n\\begin{aligned}\n& \\cos x=1-\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}-\\frac{x^{6}}{6!}+\\cdots \\\\\n& \\cos \\left(x^{2}\\right)=1-\\frac{\\left(x^{2}\\right)^{2}}{2!}+\\frac{\\left(x^{2}\\right)^{4}}{4!}-\\frac{\\left(x^{2}\\right)^{6}}{6!}+\\cdots=1-\\frac{x^{4}}{2!}+\\frac{x^{8}}{4!}-\\frac{x^{12}}{6!}+\\cdots \\\\\n& x \\cos \\le"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if the Maclaurin series for $\\cos x$ was used, but there was no substitution of $x^{2}$ before multiplication by $x$.\n$$\n\\begin{aligned}\n& \\cos x=1-\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}-\\frac{x^{6}}{6!}+\\cdots \\\\\n& x \\cos x=x\\left(1-\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}-\\frac{x^{6}}{6!}+\\cdots\\right)=x-\\frac{x^{3}}{2!}+\\frac{x^{5}}{4!}-\\frac{x^{7}}{6!}+\\cdots\n\\end{aligned}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the Maclaurin series for $\\sin x$ was used instead of the series for $\\cos x$.\n$$\n\\begin{aligned}\n& \\sin x=x-\\frac{x^{3}}{3!}+\\frac{x^{5}}{5!}-\\frac{x^{7}}{7!}+\\cdots \\\\\n& \\sin \\left(x^{2}\\right)=\\left(x^{2}\\right)-\\frac{\\left(x^{2}\\right)^{3}}{3!}+\\frac{\\left(x^{2}\\right)^{5}}{5!}-\\frac{\\left(x^{2}\\right)^{7}}{7!}+\\cdots=x^{2}-\\frac{x^{6}}{3!}+\\frac{x^{10}}{5!}-\\frac{x^{14}}{7!}+\\cdots \\\\\n& x \\sin \\left(x^{2}\\right)=x\\left(x^{2}-\\frac{x^{6}}{3!}+\\frac{"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the Maclaurin series for $\\sin x$ was used, and the series was multiplied by $x^{2}$.\n$$\n\\begin{aligned}\n& \\sin x=x-\\frac{x^{3}}{3!}+\\frac{x^{5}}{5!}-\\frac{x^{7}}{7!}+\\cdots \\\\\n& x^{2} \\sin x=x^{2}\\left(x-\\frac{x^{3}}{3!}+\\frac{x^{5}}{5!}-\\frac{x^{7}}{7!}+\\cdots\\right)=x^{3}-\\frac{x^{5}}{3!}+\\frac{x^{7}}{5!}-\\frac{x^{9}}{7!}+\\cdots\n\\end{aligned}\n$$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 8}\n\\"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response might come from treating the problem like the limit of a rational function as $x$ goes to infinity when the numerator and denominator are polynomials of the same degree. If only the coefficients of the $x^{2}$ term and the $e^{x}$ term are considered, it might be thought that the limit would be $\\frac{-6}{3}=-2$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The numerator of $\\frac{10-6 x^{2}}{5+3 e^{x}}$ is a translated power function and the denominator is a translated exponential function. Since the exponential function $e^{x}$ grows faster than the power function $x^{2}$, the relative magnitude of the denominator compared to the numerator will result in this expression converging to 0 as $x$ goes to infinity. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response might come from treating the problem like the limit of a rational function as $x$ goes to $\\mathbf{0}$. If only the constant terms are considered, it might be thought that the limit would be $\\frac{10}{5}=2$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. It might be thought that the limit is nonexistent since the numerator goes to $-\\infty$ and the denominator goes to $+\\infty$ as $x$ goes to infinity, but this does not take into account the relative magnitude of the exponential function in the denominator compared to the quadratic term in the numerator as $x$ gets larger. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 9}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This statement could be false. A function can be continuous at a point without it being differentiable at that point. For example, $f(x)=|x-5|$ is continuous at $x=5$ but not differentiable there. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This statement could be false. For example, if $f(x)=|x-5|$, then $f$ is not differentiable at $x=5$ but $\\lim _{x \\rightarrow 5} f(x)=0$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. The expression $\\lim _{x \\rightarrow 5} \\frac{f(x)-f(5)}{x-5}$ is one form of the definition of the derivative of $f$ at $x=5$. Since $f$ is not differentiable at $x=5$, however, this limit does not exist. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This statement could be false. The definite integral can be found if $f$ is continuous even if $f$ is not differentiable at one of the endpoints. For example, if $f(x)=|x-5|$, then $f$ is not differentiable at $x=5$ but $\\int_{0}^{5} f(x) d x=\\frac{1}{2}(5)(5)=\\frac{25}{2}$. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 10\n\n\\begin{tabular}{|l|l|l|l|}\n\\hline Skill & & Learning Objective & Topic \\\\\n\\hline \\multicolumn{2}{|l|}{2.B} & FUN-4.A & Determining Concavity of Functions over Th"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\multicolumn{3}{|c|}{Incorrect. This response would result if the change of sign of the second derivative $f^{\\prime \\prime}$ at $x=3$ is detected, but the change in sign at $x=0$ is overlooked.} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\multicolumn{3}{|c|}{Correct. A point of inflection occurs where the second derivative $f^{\\prime \\prime}$ changes sign. The zeros of $f^{\\prime \\prime}(x)$ occur at $x=0, x=3$, and $x=10$. Constructing a sign chart with the three factors $x$, $(x-3)^{5}$, and $(x-10)^{2}$ shows that $f^{\\prime \\prime}(x)$ is positive for $x10$. Therefore, the graph of $f$ has a point of inflection only at $x=0$ and $x=3$, where $f^{\\prime \\"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\multicolumn{3}{|c|}{Incorrect. The second derivative $f^{\\prime \\prime}$ is positive both to the left and to the right of $x=10$, so there is no sign change in $f^{\\prime \\prime}(x)$ at $x=10$. Therefore, the graph of $f$ does not have a point of inflection at $x=10$. There is a sign change in $f^{\\prime \\prime}(x)$ from positive to negative at $x=0$, so the graph of $f$ does have a point of inflection at $x=0$ in addition to the one at $x=3$.} \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\multicolumn{3}{|c|}{Incorrect. These are the three zeros of the second derivative $f^{\\prime \\prime}$, but $f^{\\prime \\prime}(x)$ only changes sign at $x=0$ and $x=3$.} \\\\\n\\hline\n\\end{tabular}\n\nQuestion 11\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 1.E & FUN-6.D \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the substitution $u=e^{x}-x$ was used in an attempt to evaluate the definite integral. \\\\\n$u=e^{x}-x \\Rightarrow \\frac{d u}{d x}=e^{x}-1 \\Rightarrow d x=\\frac{d u}{e^{x}-1}$ When $x=0, u=e^{0}-0=1$. \\\\\nWhen $x=\\pi, u=e^{\\pi}-\\pi$. \\\\\nOnly the substitutions for $d x$ and for the limits of integration were made, however, and not for $e^{x}-x$, as follows.\n$$\n\\int_{0}^{\\pi} \\frac{e^{x}-1}{e^{x}-x} d x=\\int_{1}^{e^{\\pi}-\\pi} d u=\\left.u\\r"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the substitution $u=e^{x}-x$ was correctly used in an attempt to evaluate the definite integral, but the evaluation used $\\ln 1=1$ rather than $\\ln 1=0$.\n$$\nu=e^{x}-x \\Rightarrow \\frac{d u}{d x}=e^{x}-1 \\Rightarrow d x=\\frac{d u}{e^{x}-1} \\text { When } x=0, u=e^{0}-0=1\n$$ \\\\\nWhen $x=\\pi, u=e^{\\pi}-\\pi$. \\\\\nSubstituting for $e^{x}-x$, for $d x$, and for the limits of integration gives\n$$\n\\int_{0}^{\\pi} \\frac{e^{x}-1}{e^{x}-x} d x=\\int"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the integrand was incorrectly simplified as $1-\\frac{1}{x}$ and then either the antiderivative was only evaluated at the upper limit or $\\ln 0$ was taken to equal 0 , as follows.\n$$\n\\int_{0}^{\\pi} \\frac{e^{x}-1}{e^{x}-x} d x=\\int_{0}^{\\pi}\\left(1-\\frac{1}{x}\\right) d x=\\left.(x-\\ln x)\\right|_{0} ^{\\pi}=\\pi-\\ln \\pi\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. This integral can be evaluated by using substitution of variables with $u=e^{x}-x$.\n$$\nu=e^{x}-x \\Rightarrow \\frac{d u}{d x}=e^{x}-1 \\Rightarrow d x=\\frac{d u}{e^{x}-1} \\text { When } x=0, u=e^{0}-0=1 \\text {. }\n$$ \\\\\nWhen $x=\\pi, u=e^{\\pi}-\\pi$. \\\\\nSubstituting for $e^{x}-x$, for $d x$, and for the limits of integration gives\n$$\n\\begin{aligned}\n& \\int_{0}^{\\pi} \\frac{e^{x}-1}{e^{x}-x} d x=\\int_{1}^{e^{\\pi}-\\pi} \\frac{1}{u} d u=\\left.\\ln u\\right|_{0} ^{e^{\\pi}-\\pi}="
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This interval might be chosen because of an error in computing the average rate of change over the interval as\n$$\n\\begin{aligned}\n& \\frac{f(0)-f(4)}{4}=\\frac{8-0}{4}=2 \\text { rather than } \\\\\n& \\frac{f(0)-f(4)}{0-4}=\\frac{8-0}{-4}=-2 .\n\\end{aligned}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This interval might be chosen because of an error in computing the average rate of change over the interval as\n$$\n\\frac{8-4}{f(8)-f(4)}=\\frac{4}{2-0}=2 \\text { rather than } \\frac{f(8)-f(4)}{8-4}=\\frac{2-0}{4}=\\frac{1}{2} .\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. The function $f$ is continuous on the closed interval [8, 12] and differentiable on the open interval (8, 12). By the Mean Value Theorem, there is a number $c_{c}$ in the interval $(8,12)$ such that\n$$\nf^{\\prime}"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the Intermediate Value Theorem was used instead of the Mean Value Theorem to select the open interval $(12,16)$ where $f"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Correct. Euler's method for the differential equation $\\frac{d y}{d x}=f(x, y)=x+2 y$ can be written as $y_{k+1}=y_{k}+f\\left(x_{k}, y_{k}\\right) \\Delta x$, where $\\Delta x$ is the step size. Then $y_{k}$ is an approximation for $f\\left(x_{k}\\right)$. Here the step size is $\\Delta x=\\frac{-0.4-0}{2}=-0.2$, since there are two steps of equal length.\n$$\n\\begin{aligned}\n& x_{0}=0 ; y_{0}=2 \\\\\n& x_{1}=-0.2 ; y_{1}=y_{0}+f\\left(x_{0}, y_{0}\\right) \\Delta x=2+(0+2(2))(-0.2)=2+(4)(-0.2)=1.2 \\\\\n& x_{2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if only the first step was done using Euler's method for the differential equation $\\frac{d y}{d x}=f(x, y)=x+2 y$.\n$$\n\\begin{aligned}\n& x_{0}=0 ; \\quad y_{0}=2 \\\\\n& x_{1}=-0.2 ; \\quad y_{1}=y_{0}+f\\left(x_{0}, y_{0}\\right) \\Delta x=2+(0+2(2))(-0.2)=2+(4)(-0.2)=1.2\n\\end{aligned}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the step size was taken to be $\\Delta x=-0.1$ rather than $\\Delta x=-0.2$. As a result, this response was the approximation for $f(-0.2)$ rather than for $f(-0.4)$. \\\\\n$x_{0}=0 ; y_{0}=2$\n$$\n\\begin{aligned}\n& x_{1}=-0.1 ; y_{1}=y_{0}+f\\left(x_{0}, y_{0}\\right) \\Delta x=2+(0+2(2))(-0.1)=2+(4)(-0.1)=1.6 \\\\\n& x_{2}=-0.2 ; \\\\\n& y_{2}=y_{1}+f\\left(x_{1}, y_{1}\\right) \\Delta x=1.6+(-0.1+2(1.6))(-0.1)=1.6+(3.1)(-0.1)=1.29\n\\end{aligned}\n$$\n\\e"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the step size was taken to be $\\Delta x=0.2$ rather than $\\Delta x=-0.2$. As a result, this response was the approximation for $f(0.4)$ rather than for $f(-0.4)$.\n$$\n\\begin{aligned}\n& x_{0}=0 ; y_{0}=2 \\\\\n& x_{1}=0.2 ; y_{1}=y_{0}+f\\left(x_{0}, y_{0}\\right) \\Delta x=2+(0+2(2))(0.2)=2+(4)(0.2)=2.8 \\\\\n& x_{2}=0.4 ; \\\\\n& y_{2}=y_{1}+f\\left(x_{1}, y_{1}\\right) \\Delta x=2.8+(0.2+2(2.8))(0.2)=2.8+(5.8)(0.2)=3.96\n\\end{aligned}\n$$ \\\\\n\\hline\n\\end{tabular}\n\n\\begi"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the equation obtained by implicit differentiation was solved incorrectly for $\\frac{d y}{d x}$, as follows.\n$$\n\\frac{1}{2 \\sqrt{x}}+\\frac{1}{2 \\sqrt{y}} \\frac{d y}{d x}=0 \\Rightarrow \\frac{d y}{d x}=-\\frac{\\sqrt{x}}{\\sqrt{y}}\n$$ \\\\\n$\\left.\\frac{d y}{d x}\\right|_{\\left(\\frac{9}{4}, \\frac{1}{4}\\right)}=-\\frac{\\sqrt{\\frac{9}{4}}}{\\sqrt{\\frac{1}{4}}}=-\\frac{\\frac{3}{2}}{\\frac{1}{2}}=-3$ \\\\\nIt would also be obtained if the expression for $"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The slope of the tangent line is the value of $\\frac{d y}{d x}$ at the point $\\left(\\frac{9}{4}, \\frac{1}{4}\\right)$. During the implicit differentiation to find $\\frac{d y}{d x}$, both the power rule and the chain rule are needed.\n$$\n\\frac{1}{2 \\sqrt{x}}+\\frac{1}{2 \\sqrt{y}} \\frac{d y}{d x}=0\n$$ \\\\\nThe point $\\left(\\frac{9}{4}, \\frac{1}{4}\\right)$ is on the curve, since $x=\\frac{9}{4}$ and $y=\\frac{1}{2}$ satisfy the equation $\\sqrt{x}+\\sqrt{y}=2$. At this point,\n$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response might come from observing the symmetry of the expressions for $x$ and $y$ in the equation of the curve and concluding that the derivative expressions will be symmetric, leading to a slope of 1 , without considering that the $x$ - and $y$-coordinates of the given point are not the same. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the method of implicit differentiation was incorrectly applied by taking the derivative of the expression $\\sqrt{x}+\\sqrt{y}$ without consideration of the chain rule and setting the result equal to $\\frac{d y}{d x}$, as follows.\n$$\n\\frac{d y}{d x}=\\frac{1}{2 \\sqrt{x}}+\\left.\\frac{1}{2 \\sqrt{y}} \\Rightarrow \\frac{d y}{d x}\\right|_{\\left(\\frac{9}{4}, \\frac{1}{4}\\right)}=\\frac{1}{2 \\sqrt{\\frac{9}{4}}}+\\frac{1}{2 \\sqrt{\\frac{1}{4}}}=\\frac{1}{3}+1=\\frac{4}{3"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response would result if the integrand was just evaluated at the lower limit, $x=1$, rather than antidifferentiated, as follows.\n$$\n\\left.\\frac{6}{(x+3)^{\\frac{3}{2}}}\\right|_{x=1}=\\frac{6}{4^{\\frac{3}{2}}}=\\frac{6}{8}=\\frac{3}{4}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if in applying the power rule for antiderivatives, the power of ( $x+3$ ) was not divided by the new exponent, as follows.\n$$\n\\begin{aligned}\n& \\int_{1}^{\\infty} \\frac{6}{(x+3)^{\\frac{3}{2}}} d x=\\lim _{b \\rightarrow \\infty} \\int_{1}^{b} \\frac{6}{(x+3)^{\\frac{3}{2}}} d x=\\lim _{b \\rightarrow \\infty}\\left(-\\left.\\frac{6}{(x+3)^{\\frac{1}{2}}}\\right|_{1} ^{b}\\right) \\\\\n& =\\lim _{b \\rightarrow \\infty}\\left(-\\frac{6}{(b+3)^{\\frac{1}{2}}}+\\frac{6}{4^{\\frac{1}{2}"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. This is an improper integral, since the region over which the integrand is being integrated is unbounded. The antidifferentiation is an application of the power rule.\n$$\n\\begin{aligned}\n& \\int_{1}^{\\infty} \\frac{6}{(x+3)^{\\frac{3}{2}}} d x=\\lim _{b \\rightarrow \\infty} \\int_{1}^{b} \\frac{6}{(x+3)^{\\frac{3}{2}}} d x=\\lim _{b \\rightarrow \\infty}\\left(-\\left.\\frac{12}{(x+3)^{\\frac{1}{2}}}\\right|_{1} ^{b}\\right) \\\\\n& =\\lim _{b \\rightarrow \\infty}\\left(-\\frac{12}{(b+3)^{\\frac{1}{2}}}+\\frac{"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response might come from assuming that the definite integral of a function integrated over an unbounded region will always diverge. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 16\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{1.E} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if a chain rule error was made during the antidifferentiation of the $d y$ term.\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=2-y \\Rightarrow \\frac{d y}{2-y}=d x \\\\\n& \\int \\frac{1}{2-y} d y=\\int d x \\Rightarrow \\ln |2-y|=x+C \\\\\n& \\ln |1|=1+C \\Rightarrow C=-1 \\\\\n& \\ln |2-y|=x-1 \\Rightarrow|2-y|=e^{x-1}\n\\end{aligned}\n$$ \\\\\nSince $2-y>0$ at the initial value $y=1$, the solution would be $2-y=e^{x-1}$, or $y=2-e^{x-1}$.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The differential equation can be solved using separation of variables and the initial condition to determine the appropriate value for the arbitrary constant.\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=2-y \\Rightarrow \\frac{d y}{2-y}=d x \\\\\n& \\int \\frac{1}{2-y} d y=\\int d x \\Rightarrow-\\ln |2-y|=x+C \\\\\n& -\\ln |1|=1+C \\Rightarrow C=-1 \\\\\n& -\\ln |2-y|=x-1 \\Rightarrow \\ln |2-y|=-x+1 \\Rightarrow|2-y|=e^{1-x}\n\\end{aligned}\n$$ \\\\\nSince $2-y>0$ at the initial value $y=1$, the so"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if an arbitrary constant was not included during the antidifferentiation.\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=2-y \\Rightarrow \\frac{d y}{2-y}=d x \\\\\n& \\int \\frac{1}{2-y} d y=\\int d x \\Rightarrow-\\ln |2-y|=x \\Rightarrow|2-y|=e^{-x}\n\\end{aligned}\n$$ \\\\\nSince $2-y>0$ at the initial value $y=1$, the solution would be $2-y=e^{-x}$, or $y=2-e^{-x}$.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if an arbitrary constant was not included during the antidifferentiation and the incorrect sign was taken for the absolute value when solving for $y$.\n$$\n\\begin{aligned}\n& \\frac{d y}{d x}=2-y \\Rightarrow \\frac{d y}{2-y}=d x \\\\\n& \\int \\frac{1}{2-y} d y=\\int d x \\Rightarrow-\\ln |2-y|=x \\Rightarrow|2-y|=e^{-x} \\\\\n& 2-y=-e^{-x} \\Rightarrow y=2+e^{-x}\n\\end{aligned}\n$$ \\\\\n\\hline\n\\end{tabular}\n\nQuestion 17\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This series diverges by the $n$th term test since\n$$\n\\lim _{n \\rightarrow \\infty}\\left|(-1)^{n} \\frac{1-n}{n}\\right|=\\lim _{n \\rightarrow \\infty}\\left|\\frac{1-n}{n}\\right|=1 \\neq 0 .\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This series diverges by the $n$th term test since\n$$\n\\lim _{n \\rightarrow \\infty}\\left|(-1)^{n} \\frac{n+1}{2 n}\\right|=\\lim _{n \\rightarrow \\infty} \\frac{n+1}{2 n}=\\frac{1}{2} \\neq 0 .\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This series diverges by the $n$th term test since\n$$\n\\lim _{n \\rightarrow \\infty}\\left|(-1)^{n} \\frac{n^{2}}{3 \\sqrt{n}}\\right|=\\lim _{n \\rightarrow \\infty} \\frac{\\sqrt{n}}{3} \\text { does not exist. }\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The series $\\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{2 \\sqrt{n}}{n}\\right)=\\sum_{n=1}^{\\infty}(-1)^{n}\\left(\\frac{2}{\\sqrt{n}}\\right)$ satisfies the three conditions: (1) the series is alternating, (2) $\\lim _{n \\rightarrow \\infty} \\frac{2}{\\sqrt{n}}=0$, and (3) the terms $a_{n}=\\frac{2}{\\sqrt{n}}$ are decreasing since $\\frac{2}{\\sqrt{n+1}}<\\frac{2}{\\sqrt{n}}$ for all $n \\geq 1$. Therefore, the series converges by the alternating series test. \\\\\n\\hline\n\\end{tabular}\n\nQuestion 18\n\n\\begin"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response comes from using a rectangular form for area instead of a polar form for area, as if the curves were treated as functions of $y$ in terms of $x$. The region appears to lie above the interval $[-2,6]$ on the $x$-axis.\n$$\n\\int_{-2}^{6}\\left(y_{2}(x)-y_{1}(x)\\right) d x=\\int_{-2}^{6}(g(x)-f(x)) d x\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response comes from using a rectangular form of the area instead of a polar form for area, as if the curves were treated as functions of $y$ in terms of $x$, but expressing the limits in terms of the polar angle $\\theta$.\n$$\n\\int_{0}^{\\pi}\\left(y_{2}(x)-y_{1}(x)\\right) d x=\\int_{0}^{\\pi}(g(x)-f(x)) d x\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. The square of the difference between the two polar curves was integrated rather than the difference of the squares.\n$$\n\\frac{1}{2} \\int_{0}^{\\pi}\\left(r_{2}(\\theta)-r_{1}(\\theta)\\right)^{2} d \\theta=\\frac{1}{2} \\int_{0}^{\\pi}(g(\\theta)-f(\\theta))^{2} d \\theta\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The area bounded by the two polar curves can be found with a definite integral. Let $r_{1}$ be the smaller radius, and let $r_{2}$ be the larger radius. The graphs of the two polar curves bound the region $R$ over the domain $0 \\leq \\theta \\leq \\pi$. Then the area of $R$ is given by\n$$\n\\begin{aligned}\n& \\frac{1}{2} \\int_{0}^{\\pi}\\left(r_{2}(\\theta)\\right)^{2} d \\theta-\\frac{1}{2} \\int_{0}^{\\pi}\\left(r_{1}(\\theta)\\right)^{2} d \\theta=\\frac{1}{2} \\int_{0}^{\\pi}\\left(\\left(r_{2}(\\theta)\\"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. The series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$ is the divergent harmonic series. However, $\\frac{n}{n^{2}+1}<\\frac{1}{n}$, so this inequality goes the wrong way to use the comparison test to show that the series $\\sum_{n=1}^{\\infty} \\frac{n}{n^{2}+1}$ diverges. In addition, the divergence of the positive series $\\sum_{n=1}^{\\infty}\\left|a_{n}\\right|$ does not imply that the series $\\sum_{n=1}^{\\infty} a_{n}$ diverges. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. The series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$ is the divergent harmonic series. Since $\\lim _{n \\rightarrow \\infty} \\frac{\\frac{n}{n^{2}+1}}{\\frac{1}{n}}=\\lim _{n \\rightarrow \\infty} \\frac{n^{2}}{n^{2}+1}=1$, the limit comparison test shows that the series $\\sum_{n=1}^{\\infty} \\frac{n}{n^{2}+1}$ also diverges. However, it cannot be concluded from that the alternating series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n}{n^{2}+1}$ diverges. The divergence of the positive series $\\sum_{n=1}^{\\"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. The series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$ is a convergent $p$-series with $p=2>1$. However, $\\frac{1}{n^{2}}1$, so this inequality goes the wrong way to use the comparison test to show that the series $\\sum_{n=1}^{\\infty} \\frac{n}{n^{2}+1}$ converges and that therefore $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n}{n^{2}+1}$ is absolutely convergent. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 19 (continued)\n\n\\begin{tabular}{|l|l|}\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n} n}{n^{2}+1}$ satisfies the three conditions: (1) the series is alternating, (2) $\\lim _{n \\rightarrow \\infty} \\frac{n}{n^{2}+1}=0$, and (3) the terms $a_{n}=\\frac{n}{n^{2}+1}$ are decreasing. Therefore, the series converges by the alternating series test. \\\\\nTo verify that the terms $a_{n}=\\frac{n}{n^{2}+1}$ are decreasing, consider the following.\n$$\na_{n+1}<a_{n} \\Leftrightarrow \\frac{n+1}{(n+1)^{2}+1}<\\frac{n}{n^{2}+1"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows.\n$$\n\\int_{4}^{1} g(x) d x=-\\int_{1}^{4} g(x) d x=-(-2)=2\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows.\n$$\n\\int_{1}^{4} 3 f(x) d x=3 \\cdot \\int_{1}^{4} f(x) d x=3 \\cdot 8=24\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. It is not true in general that \\\\\n$\\int_{1}^{4} 3 f(x) g(x) d x=\\int_{1}^{4} 3 f(x) d x \\cdot \\int_{1}^{4} g(x) d x$, so the individual values of $\\int_{1}^{4} f(x) d x$ and $\\int_{1}^{4} g(x) d x$ cannot be used to determine the value of $\\int_{1}^{4} 3 f(x) g(x) d x$. For example, if $f(x)=\\frac{8}{3}$ and $g(x)=-\\frac{2}{3}$, then $\\int_{1}^{4} f(x) d x=8, \\int_{1}^{4} g(x) d x=-2$, and $\\int_{1}^{4} 3 f(x) g(x) d x=\\int_{1}^{4}-\\frac{16}{3} d x=-16$. However, if"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows.\n$$\n\\begin{aligned}\n& \\int_{1}^{4}(3 f(x)+g(x)) d x=\\int_{1}^{4} 3 f(x) d x+\\int_{1}^{4} g(x) d x \\\\\n& =3 \\cdot \\int_{1}^{4} f(x) d x+\\int_{1}^{4} g(x) d x=3 \\cdot 8+(-2)=22\n\\end{aligned}\n$$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 21\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 3.D & LIM-8.D \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The ratio test can be used to determine the interval of convergence.\n$$\n\\begin{aligned}\n& \\lim _{n \\rightarrow \\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|=\\lim _{n \\rightarrow \\infty}\\left|\\frac{(x+4)^{n+1}}{(n+1) \\cdot 5^{n+2}} \\cdot \\frac{n \\cdot 5^{n+1}}{(x+4)^{n}}\\right|=\\lim _{n \\rightarrow \\infty}\\left|\\frac{n}{n+1} \\cdot \\frac{x+4}{5}\\right|=\\frac{1}{5}|x+4|<1 \\\\\n& \\Rightarrow|x+4|<5 \\Rightarrow-9<x<1\n\\end{aligned}\n$$ \\\\\nNow check the endpoints of the interval."
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. The ratio test might have been used to correctly determine that the radius of convergence $R$ is 5 , but the interval was taken to be centered at 0 .\n$$\n\\lim _{n \\rightarrow \\infty}\\left|\\frac{a_{n+1}}{a_{n}}\\right|=\\lim _{n \\rightarrow \\infty}\\left|\\frac{1}{(n+1) \\cdot 5^{n+2}} \\cdot \\frac{n \\cdot 5^{n+1}}{1}\\right|=\\lim _{n \\rightarrow \\infty}\\left|\\frac{n}{n+1} \\cdot \\frac{1}{5}\\right|=\\frac{1}{5} \\Rightarrow R=5\n$$ \\\\\nAt $x=-5$, the series is $\\sum_{n=1}^{\\inf"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the ratio test was not used to determine the radius of convergence. Looking at the form of the general term, the center was thought to be at $x=5$ and the radius of convergence was taken to be 4 . It was assumed that the series must converge at one endpoint and diverge at the other. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. Errors in applying the ratio test might have led to the conclusion that the radius of convergence was infinite. \\\\\n\\hline\n\\end{tabular}\n\nQuestion 22\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|c|}{\\begin{tabular}{l}\n(BC ONLY) Defining Polar \\\\"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "156",
+          "type": "free-response",
+          "prompt": "Since $k \\Delta x=2+\\frac{1}{n}$ for the initial value $k=1$, the interval starts at 2 . Therefore, the limit of the Riemann sum would be equal to $\\int_{2}^{3} f(x) d x=\\int_{2}^{3} \\frac{1}{x} d x$, not $\\int_{1}^{2} \\frac{1}{x} d x$. \\\\\n\\hline",
+          "parts": [
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The sum inside the limit can be interpreted as a right Riemann sum in the form $\\sum_{k=1}^{n}\\left(\\frac{1}{2+\\frac{k}{n}}\\right) \\frac{1}{n}=\\sum_{k=1}^{n} f(k \\Delta x) \\Delta x$, where $f(x)=\\frac{1}{2+x}$ and $\\Delta x=\\frac{1}{n}$. The value of $\\Delta x$ corresponds to an interval of length 1. Since $k \\Delta x=\\frac{1}{n}$ for the initial value $k=1$, the interval starts at 0 . Therefore, the limit of the Riemann sum is equal to the definite integral $\\int_{0}^{1} f(x) d x=\\in"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. The sum inside the limit can be interpreted as a right Riemann sum in the form $\\sum_{k=1}^{n}\\left(\\frac{1}{2+\\frac{k}{n}}\\right) \\frac{1}{n}=\\sum_{k=1}^{n} f(k \\Delta x) \\Delta x$, where $f(x)=\\frac{1}{2+x}$ and $\\Delta x=\\frac{1}{n}$. The value of $\\Delta x$ corresponds to an interval of length 1. Since $k \\Delta x=\\frac{1}{n}$ for the initial value $k=1$, the interval starts at 0 and therefore the limits on the definite integral should go from 0 to 1 , not 0 to 2. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. The sum inside the limit was correctly interpreted as a right Riemann sum on an interval of length 1 starting at $x=2$. With that choice of interval, however, the Riemann sum would be written as $\\sum_{k=1}^{n}\\left(\\frac{1}{2+\\frac{k}{n}}\\right) \\frac{1}{n}=\\sum_{k=1}^{n} f(2+k \\Delta x) \\Delta x$, where $f(x)=\\frac{1}{x}$. The right Riemann sum using $f(x)=\\frac{1}{2+x}$ would correspond to an interval starting at $x=0$, not $x=2$. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response would result if the chain rule was never used in finding the first and second derivatives of $g$ leading to $g^{\\prime}(x)=e^{f(x)}$ and $g^{\\prime \\prime}(x)=e^{f(x)}$. As a result, the coefficient of $x^{2}$ in the Maclaurin series for $g$ was computed as $\\frac{1}{2!} g^{\\prime \\prime}(0)=\\frac{1}{2} e^{f(0)}=\\frac{1}{2} e^{2}$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if the coefficient of $x^{2}$ in the Maclaurin series for $g$ was taken to be $g^{\\prime \\prime}(0)$ without dividing by $2!$. In addition, the chain rule was never used in finding the first and second derivatives of $g$, leading to $g^{\\prime \\prime}(0)=e^{f(0)}=e^{2}$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the chain rule was correctly used in finding $g^{\\prime}(x)$ but was not used again when the product rule was used during the computation of the second derivative, as follows.\n$$\ng^{\\prime}(x)=f^{\\prime}(x) e^{f(x)}\n$$ \\\\\n$g^{\\prime \\prime}(x)=f^{\\prime \\prime}(x) e^{f(x)}+f^{\\prime}(x) e^{f(x)}$\n$$\ng^{\\prime \\prime}(0)=f^{\\prime \\prime}(0) e^{f(0)}+f^{\\prime}(0) e^{f(0)}=2 e^{2}+3 e^{2}=5 e^{2}\n$$ \\\\\nThe coefficient of $x^{2}$ in the"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The coefficient of $x^{2}$ in the Maclaurin series for $g$ is $\\frac{1}{2!} g^{\\prime \\prime}(0)$. Since $g(x)=e^{f(x)}$, the chain rule gives $g^{\\prime}(x)=f^{\\prime}(x) e^{f(x)}$. Using the product rule and the chain rule again gives\n$$\ng^{\\prime \\prime}(x)=f^{\\prime \\prime}(x) e^{f(x)}+f^{\\prime}(x)\\left(f^{\\prime}(x) e^{f(x)}\\right)=\\left(f^{\\prime \\prime}(x)+\\left(f^{\\prime}(x)\\right)^{2}\\right) e^{f(x)}\n$$ \\\\\nThe values of $f(0), f^{\\prime}(0)$, and $f^{\\prim"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. The graph of $f$ is concave up where $f^{\\prime}$ is increasing. This response might come from switching the roles of the function and its derivative and thinking that $f$ is increasing where the graph of $f^{\\prime}$ is concave up. The graph of $f^{\\prime}$ is concave up on the intervals $(0,1)$ and $(2,4)$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response might come from treating the given graph as the graph of $f$ rather than the graph of $f^{\\prime}$. These are the two intervals where $f^{\\prime}$ is increasing. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. These are the intervals where both $f$ and $f^{\\prime}$ are increasing. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The function $f$ is increasing on closed intervals where $f^{\\prime}$ is positive on the corresponding open intervals. The graph indicates that $f^{\\prime}(x)>0$ on the intervals $(0,2)$ and $(4,5)$, so $f$ is increasing on the intervals $[0,2]$ and $[4,5]$. \\\\\n\\hline\n\\end{tabular}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 77}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{1.E} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response is how much $\\frac{d y}{d t}$ changes from $t=1$ to $t=6$; that is, $y^{\\prime}(6)-y^{\\prime}(1)=3.870$. The amount by which $y$ changes from $t=1$ to $t=6$ is $y(6)-y(1)$, which can be computed by using the Fundamental Theorem of Calculus. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response is the approximation to the change in $y$ along the line tangent to the graph of $y$ at $t=1$. It can also be interpreted as the approximation to the integral $\\int_{1}^{6} y^{\\prime}(t) d t=y(6)-y(1)$ by using a left Riemann sum with one interval of length $\\Delta t=5$.\n$$\n\\Delta y \\approx y^{\\prime}(1) \\Delta t=y^{\\prime}(1) \\cdot 5=8.341\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response is the approximation to the integral $\\int_{1}^{6} y^{\\prime}(t) d t=y(6)-y(1)$ by using the trapezoidal sum approximation over one interval of length $\\Delta t=5$.\n$$\n\\left(\\frac{y^{\\prime}(1)+y^{\\prime}(6)}{2}\\right) \\cdot \\Delta t=\\left(\\frac{y^{\\prime}(1)+y^{\\prime}(6)}{2}\\right) \\cdot 5=18.017\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The change in $y$ from $t=1$ to $t=6$ is $y(6)-y(1)$. By the Fundamental Theorem of Calculus, $y(6)-y(1)=\\int_{1}^{6} y^{\\prime}(t) d t=\\int_{1}^{6} 6 e^{-0.08(t-5)^{2}} d t=22.583$, where the numerical integration is done with the calculator. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 78\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{2.D} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This graph displays the appropriate behavior as it approaches the horizontal asymptote at $y=2$, but in this graph $\\lim _{x \\rightarrow 1^{-}} f(x)=-\\infty$ and $\\lim _{x \\rightarrow 1^{+}} f(x)=+\\infty$, which is the opposite behavior for what the graph of $f$ should be doing as it approaches the vertical asymptote at $x=1$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This graph displays the appropriate behavior as it approaches the vertical asymptote at $x=1$, but it has $y=-2$ as a horizontal asymptote rather than $y=2$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. Since $\\lim _{x \\rightarrow 1^{-}} f(x)=+\\infty$ and $\\lim _{x \\rightarrow 1^{+}} f(x)=-\\infty$, the graph of $f$ approaches the vertical asymptote at $x=1$ in the upward direction as $x$ approaches 1 from the left and approaches the vertical asymptote in the downward direction as $x$ approaches 1 from the right. Since $\\lim _{x \\rightarrow-\\infty} f(x)=2$ and $\\lim _{x \\rightarrow+\\infty} f(x)=2$, the graph of $f$ approaches the horizontal asymptote at $y=2$ in both horizontal direct"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This graph has a vertical asymptote at $x=2$ and a horizontal asymptote at $y=1$ rather than a vertical asymptote at $x=1$ and a horizontal asymptote at $y=2$. \\\\\n\\hline\n\\end{tabular}\n\nQuestion 79\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{3.F} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. The definite integral was not divided by the length of the interval [30,60] over which the averaging is done. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The average value of a function $f$ over an interval $[a, b]$ is $\\frac{1}{b-a} \\int_{a}^{b} f(x) d x$. Tara's average heart rate from $t=30$ to $t=60$ is the average value of the function $h$ over the interval [30,60] and would therefore be given by the expression $\\frac{1}{60-30} \\int_{30}^{60} h(t) d t$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response is the average rate of change of Tara's heart rate from $t=30$ to $t=60$, not the average of her heart rate over that interval. By the Fundamental Theorem of Calculus, this expression is equal to $\\frac{h(60)-h(30)}{60-30}$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response is the average of the rate of change of Tara's heart rate at the two times $t=30$ and $t=60$, not the average of her heart rate over the interval from $t=30$ to $t=60$. \\\\\n\\hline\n\\end{tabular}\n\nQuestion 80\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 1.E & LIM-8.B \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response comes from only using three terms of the Taylor polynomial rather than the Taylor polynomial of degree 3.\n$$\n\\left.\\left(-1+4(x-2)+\\frac{6}{2}(x-2)^{2}\\right)\\right|_{x=2.1}=-0.570\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Correct. The third-degree Taylor polynomial for $f$ about $x=2$ is the following.\n$$\n\\begin{aligned}\n& P_{3}(x)=f(2)+f^{\\prime}(2)(x-2)+\\frac{1}{2!} f^{\\prime \\prime}(2)(x-2)^{2}+\\frac{1}{3!} f^{\\prime \\prime \\prime}(2)(x-2)^{3} \\\\\n& =-1+4(x-2)+\\frac{6}{2}(x-2)^{2}+\\frac{12}{6}(x-2)^{3} \\\\\n& =-1+4(x-2)+3(x-2)^{2}+2(x-2)^{3} \\\\\n& f(2.1) \\approx P_{3}(2.1)=-1+4(0.1)+3(0.1)^{2}+2(0.1)^{3}=-0.568\n\\end{aligned}\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the coefficient of the degree $n$ term was taken to be $\\frac{f^{(n)}(2)}{n}$ rather than $\\frac{f^{(n)}(2)}{n!}$.\n$$\n\\left.\\left(-1+4(x-2)+\\frac{6}{2}(x-2)^{2}+\\frac{12}{3}(x-2)^{3}\\right)\\right|_{x=2.1}=-0.566\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. The coefficient of the degree ${ }_{n}$ term was taken to be $f^{(n)}(2)$ rather than $\\frac{f^{(n)}(2)}{n!}$.\n$$\n\\left.\\left(-1+4(x-2)+6(x-2)^{2}+12(x-2)^{3}\\right)\\right|_{x=2.1}=-0.528\n$$ \\\\\n\\hline\n\\end{tabular}\n\nQuestion 81\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{1.E} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response comes from not taking the square root in the integrand of the definite integral for the length of a curve, as follows.\n$$\n\\int_{0}^{1.5}\\left(1+\\left(f^{\\prime}(x)\\right)^{2}\\right) d x=\\int_{0}^{1.5}\\left(1+\\left(\\sqrt{x^{3}+1}\\right)^{2}\\right) d x=\\int_{0}^{1.5}\\left(x^{3}+2\\right) d x=4.266\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The length of the graph of $y=f(x)$ from $x=0$ to $x=1.5$ is given by the definite integral\n$$\n\\int_{0}^{1.5} \\sqrt{1+\\left(f^{\\prime}(x)\\right)^{2}} d x=\\int_{0}^{1.5} \\sqrt{1+\\left(\\sqrt{x^{3}+1}\\right)^{2}} d x=\\int_{0}^{1.5} \\sqrt{x^{3}+2} d x=2.497\n$$ \\\\\nwhere the numerical integration is done with the calculator.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response comes from not squaring the derivative in the integrand of the definite integral for the length of a curve, as follows.\n$$\n\\int_{0}^{1.5} \\sqrt{1+f^{\\prime}(x)} d x=\\int_{0}^{1.5} \\sqrt{1+\\left(\\sqrt{x^{3}+1}\\right)} d x=2.278\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response is the change in $y$ from $x=0$ to $x=1.5$.\n$$\nf(1.5)-f(0)=\\int_{0}^{1.5} f^{\\prime}(x) d x=\\int_{0}^{1.5} \\sqrt{x^{3}+1} d x=1.976\n$$ \\\\\n\\hline\n\\end{tabular}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 82}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 2.D & FUN-7.C \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Correct. In the slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field show that behavior and therefore this could be a slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. In the slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slopes of the line segments depend on both the $x$-and the $y$-values. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. In the slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slope of the line segment at a point depends only on the value of $y$. This could be a slope field for a differential equation"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. In the slope field for a differential equation of the form $\\frac{d y}{d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slopes of the line segments depend on both the $x$-and the $y$-values. \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\cap"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. The limit at $x=3$ exists if the left-hand and right-hand limits are equal.\n$$\n\\lim _{x \\rightarrow 3^{-}} f(x)=\\lim _{x \\rightarrow 3^{+}} f(x) \\Rightarrow k^{3}+3=\\frac{16}{k^{2}-3}\n$$ \\\\\nThe solution to this equation for $k>0$ is $k=2.081$. With this value of $k, \\lim _{x \\rightarrow 3} f(x)$ exists and is equal to $f(3)$. Therefore, $f$ is continuous at $x=3$.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response comes from trying to make the left-hand and right-hand limits of the derivative equal at $x=3$, as follows.\n$$\nf^{\\prime}(x)= \\begin{cases}1 & \\text { for } x3\\end{cases}\n$$\n$$\n\\lim _{x \\rightarrow 3^{-}} f^{\\prime}(x)=\\lim _{x \\rightarrow 3^{+}} f^{\\prime}(x) \\Rightarrow 1=\\frac{16}{\\left(k^{2}-3\\right)^{2}}\n$$ \\\\\nThe solution to this equation for $k>0$ is $k=2.646$.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. In trying to set the left-hand and right-hand limits of $f$ equal at $x=3$, the 3 might have been substituted for the parameter $k$ rather than the variable $x$, as follows.\n$$\n27+x=\\frac{16}{9-x}\n$$ \\\\\nThe positive solution to this equation is $x=8.550$.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response might come from errors that lead to an equation that has no positive solution. For example, it might come from trying to make the left-hand and right-hand limits of the derivative equal at $x=3$ but also making a chain rule error in the derivative of the piece for $x>3$, as follows.\n$$\n\\begin{aligned}\n& f^{\\prime}(x)= \\begin{cases}1 & \\text { for } x3\\end{cases} \\\\\n& \\lim _{x \\rightarrow 3^"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\multicolumn{3}{|l|}{Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{\\prime}(0)$. Therefore, $f^{\\prime}(0)$ is negative. Since the tangent line goes through the point $(0, f(0)), f(0)$ is also negative. Therefore, it cannot be true that $f^{\\prime}(0)=-f(0)$ since both are negative.} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& \\multicolumn{3}{|c|}{Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{\\prime}(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{\\prime}(0)=-2$ and $f(0)=-2$, so it is not true that $f^{\\prime}(0)<f(0)$.} \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& \\multicolumn{3}{|c|}{Correct. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{\\prime}(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{\\prime}(0)=-2$ and $f(0)=-2$, so $f^{\\prime}(0)=f(0)$.} \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& \\multicolumn{3}{|c|}{Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{\\prime}(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{\\prime}(0)=-2$ and $f(0)=-2$, so it is not true that $f^{\\prime}(0)>f(0)$.} \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 85}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{1.E} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response is the referee's displacement over the time interval $2 \\leq t \\leq 6$ rather than the total distance the referee traveled.\n$$\n\\int_{2}^{6} v(t) d t=\\int_{2}^{6} 4(t-6) \\cos (2 t+5) d t=3.933\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response is the absolute value of the referee's change in velocity from time $t=2$ to time $t=6$.\n$$\n|v(6)-v(2)|=14.578\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. The referee's total distance traveled on the time interval $2 \\leq t \\leq 6$ is $\\int_{2}^{6}|v(t)| d t=\\int_{2}^{6}|4(t-6) \\cos (2 t+5)| d t=21.667$, where the numerical integration is done with the calculator. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response comes from averaging the referee's initial and final velocities on the time interval $2 \\leq t \\leq 6$, then multiplying by the length of the time interval.\n$$\n\\frac{v(2)+v(6)}{2} \\cdot \\Delta t=\\frac{v(2)+v(6)}{2} \\cdot 4=29.156\n$$ \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\nQuestion 86\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline 2.B & FUN-5.A \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nCorrect. Because $h$ is continuous, the Extreme Value Theorem guarantees the existence of an absolute maximum on the closed interval $[-4,3]$ and that the maximum will occur at a critical value or at one of the endpoints. Since $h$ is an antiderivative of $f, h^{\\prime}(x)=f(x)=0$ at $x=-2$ and $x=0$. Therefore, the candidates are $x=-4, x=-2, x=0$, and $x=3$. Evaluate $h$ at each candidate and select the largest. \\\\\n$h(-4)=\\int_{0}^{-4} f(t) d t=-\\int_{-4}^{0} f(t) d t=-\\le"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. Both critical values might have been found, and the relative minimum was picked while not accounting for the endpoints. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. Both critical values might have been found, and the relative maximum was picked while not accounting for the endpoints. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. The four candidates might have been identified, but the computation of $h(3)$ found the area of the region from $x=0$ to $x=3$ and did not account for the region being below the horizontal axis, as follows.\n$$\nh(3)=\\int_{0}^{3} f(t) d t=\\left(\\frac{1}{2}(2)(2)+\\frac{1}{2}(2+1)\\right)=(2+1.5)=3.5\n$$ \\\\\n\\hline\n\\end{tabular}\n\nQuestion 87\n\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{1.E} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& \\begin{tabular}{l}\nIncorrect. This response would result if the problem was treated like rectilinear motion. The velocity of the particle was taken to be the value of the derivative $\\frac{d y}{d x}$ at time $t=1.2$.\n$$\n\\left.\\frac{d y}{d x}\\right|_{t=1.2}=\\left.\\frac{\\frac{d y}{d t}}{\\frac{d x}{d t}}\\right|_{t=1.2}=\\left.\\frac{4 \\cos (4 t)}{-e^{-t}}\\right|_{t=1.2}=\\frac{4 \\cos (4.8)}{-e^{-1.2}}=-1.162\n$$ \\\\\nThen the speed was taken to be the absolute value of velocity.\n\\end{tabular} \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response is the magnitude of the position vector at time $t=1.2$, not the magnitude of the velocity vector at that time.\n$$\n\\left.\\sqrt{(x(t))^{2}+(y(t))^{2}}\\right|_{t=1.2}=\\sqrt{\\left(e^{-1.2}\\right)^{2}+(\\sin (4 \\cdot 1.2))^{2}}=1.041\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. The speed of the particle at time $t$ is the magnitude of the velocity vector $\\left\\langle x^{\\prime}(t), y^{\\prime}(t)\\right\\rangle=\\left\\langle-e^{-t}, 4 \\cos (4 t)\\right\\rangle$ at time $t$.\n$$\n\\left.\\sqrt{\\left(x^{\\prime}(t)\\right)^{2}+\\left(y^{\\prime}(t)\\right)^{2}}\\right|_{t=1.2}=\\sqrt{\\left(-e^{-1.2}\\right)^{2}+(4 \\cos (4 \\cdot 1.2))^{2}}=0.462\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response would result if the components of the vector $\\left\\langle x^{\\prime}(t), y^{\\prime}(t)\\right\\rangle=\\left\\langle-e^{-t}, 4 \\cos (4 t)\\right\\rangle$ were not squared when finding the magnitude of the vector at $t=1.2$.\n$$\n\\left.\\sqrt{x^{\\prime}(t)+y^{\\prime}(t)}\\right|_{t=1.2}=\\sqrt{\\left(-e^{-1.2}\\right)+(4 \\cos (4 \\cdot 1.2))}=0.221\n$$ \\\\\n\\hline\n\\end{tabular}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 88}\n\\begin{tabular}{|l|l|}\n\\hline Skill & L"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response might be chosen if the calculation of the average rate of change resulted in a value that was greater than 0 or less than -0.5 . It would also be chosen if the average rate of change was correctly found to be -0.39206 , but the instantaneous rate of change was taken to be the second derivative of $f$, not the first derivative. In either case, the resulting equation would have no solution in the interval [0,1.565]. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would be chosen if the average rate of change was correctly found to be -0.39206 , but the graph of $f$, not $f^{\\prime}$, was drawn to determine the number of intersection points with the horizontal line $y=-0.39206$. It would also be chosen if the instantaneous rate of change was correctly identified as the derivative of $f$, but the average rate of change over the interval $[0,1.565]$ was thought to be the average at the endpoints,\n$$\n\\frac{f(0)+f(1.565)}{2}=-0.3067"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Correct. The average rate of change of $f$ on the closed interval $[0,1.565]$ is $\\frac{f(1.565)-f(0)}{1.565-0}=-0.39206$. The instantaneous rate of change of $f$ is the derivative, $f^{\\prime}(x)=x^{3}-2 x^{2}+x-\\frac{1}{2}$. The graph of $f^{\\prime}$, produced using the calculator, intersects the horizontal line $y=-0.39206$ three times in the open interval $(0,1.565)$. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Incorrect. This response might be chosen because the function $f$ is a polynomial of degree 4 . \\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{Question 89}\n\\begin{tabular}{|l|l|}\n\\hline Skill & Learning Objective \\\\\n\\hline \\multicolumn{2}{|l|}{3.F} \\\\\n\\hline"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This differential equation is for a rate of change that is equal to the difference between the carrying capacity and a term that is proportional to the size of the population. There is no joint proportionality with the size of the population and the difference between the size of the population and the carrying capacity. \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This differential equation would be for a model where the population grows at a rate that is only proportional to the difference between the carrying capacity and the size of the population. There is no joint proportionality with the size of the population. \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This differential equation would be for a model where the population grows at a rate that is jointly proportional to the reciprocal of the size of the population, not the population itself, and the difference between the carrying capacity and the size of the population. \\\\\n\\hline"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The model for logistic growth that arises from the statement \"The rate of change of a quantity is jointly proportional to the size of the quantity and the difference between the quantity and the carrying capacity\" is $\\frac{d y}{d t}=k y(a-y)$, where $y$ represents the quantity that is changing and $a$ is the carrying capacity. Here the population $P$ is changing according to the logistic growth model with carrying capacity 2400 . Therefore, the differential equation for the model wou"
+            },
+            {
+              "partSign": "A",
+              "partContent": "& Incorrect. This response would result if the area of the region was taken to be $A=\\pi(R-r)^{2}$ instead of $\\pi R^{2}-\\pi r^{2}$. In addition, an error was made in the power rule when doing the differentiation, as follows.\n$$\n\\frac{d A}{d t}=\\pi(R-r)\\left(\\frac{d R}{d t}-\\frac{d r}{d t}\\right)=\\pi(4-3)(2-(-1))=3 \\pi\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "B",
+              "partContent": "& Incorrect. This response would result if the area of the region was taken to be $A=\\pi(R-r)^{2}$ instead of $\\pi R^{2}-\\pi r^{2}$. It is given that $\\frac{d R}{d t}=2$ and $\\frac{d r}{d t}=-1$ (since the inner radius $r$ is decreasing). At the instant when $R=4$ and $r=3$, this gave\n$$\n\\frac{d A}{d t}=2 \\pi(R-r)\\left(\\frac{d R}{d t}-\\frac{d r}{d t}\\right)=2 \\pi(4-3)(2-(-1))=6 \\pi .\n$$ \\\\\n\\hline"
+            },
+            {
+              "partSign": "C",
+              "partContent": "& Incorrect. This response would result if the area of the region was correctly taken as $A=\\pi R^{2}-\\pi r^{2}$. Using the chain rule gave the rate of change of the area with respect to time $t$ as $\\frac{d A}{d t}=2 \\pi R \\frac{d R}{d t}-2 \\pi r \\frac{d r}{d t}$. It is given that $\\frac{d R}{d t}=2$, but $\\frac{d r}{d t}$ was taken to be 1 rather than -1 by not taking into account that the inner radius $r$ is decreasing. At the instant when $R=4$ and $r=3$, this gave $\\frac{d A}{d t}=2 \\pi(4)"
+            },
+            {
+              "partSign": "D",
+              "partContent": "& Correct. The area of the region is $A=\\pi R^{2}-\\pi r^{2}$. Using the chain rule gives the rate of change of the area with respect to time $t$ as $\\frac{d A}{d t}=2 \\pi R \\frac{d R}{d t}-2 \\pi r \\frac{d r}{d t}$. It is given that $\\frac{d R}{d t}=2$ and $\\frac{d r}{d t}=-1$ (since the inner radius $r$ is decreasing). At the instant when $R=4$ and $r=3$,\n$$\n\\frac{d A}{d t}=2 \\pi(4) \\frac{d R}{d t}-2 \\pi(3) \\frac{d r}{d t}=2 \\pi(4(2)-3(-1))=22 \\pi .\n$$ \\\\\n\\hline\n\\end{tabular}\n\n\\section*{AP ${ }^"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$E^{\\prime}(7)=6.164924$\n\nThe rate of change of $E(t)$ at time $t=7$ is 6.165 (or 6.164) cars per hour per hour."
+            },
+            {
+              "partSign": "b",
+              "partContent": "$\\int_{0}^{12} E(t) d t=520.070489$\n\nTo the nearest whole number, 520 cars enter the parking lot from time $t=0$ to time $t=12$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "$\\int_{2}^{12} L(t) d t \\approx(5-2) \\cdot \\frac{L(2)+L(5)}{2}+(9-5) \\cdot \\frac{L(5)+L(9)}{2}$\n$$\n\\begin{aligned}\n& +(11-9) \\cdot \\frac{L(9)+L(11)}{2}+(12-11) \\cdot \\frac{L(11)+L(12)}{2} \\\\\n= & 3 \\cdot \\frac{15+40}{2}+4 \\cdot \\frac{40+24}{2}+2 \\cdot \\frac{24+68}{2}+1 \\cdot \\frac{68+18}{2} \\\\\n= & 345.5\n\\end{aligned}\n$$\n$\\int_{2}^{12} L(t) d t$ is the number of cars that leave the parking lot in the 10 hours between 7 A.M. ( $t=2$ ) and 5 P.M. ( $t=12$ )."
+            },
+            {
+              "partSign": "d",
+              "partContent": "$5 \\int_{0}^{6} E(t) d t+8 \\int_{6}^{12} E(t) d t=3530.1396$\n\nTo the nearest dollar, 3530 dollars are collected from time $t=0$ to time $t=12$.\n\n1 : answer with units\n$2:\\left\\{\\begin{array}{l}1: \\text { integrand } \\\\ 1: \\text { answer }\\end{array}\\right.$\n$3:\\left\\{\\begin{array}{l}1: \\text { trapezoidal sum } \\\\ 1: \\text { approximation } \\\\ 1: \\text { explanation }\\end{array}\\right.$\n$3:\\left\\{\\begin{array}{l}1: \\text { integrand } \\\\ 1: \\text { limits and constants } \\\\ 1: \\text { answer }\\e"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$\\sqrt{\\left(x^{\\prime}(3)\\right)^{2}+\\left(y^{\\prime}(3)\\right)^{2}}=3.064951$\n\nThe speed of the laser at time $t=3$ seconds is 3.065 (or 3.064) centimeters per second."
+            },
+            {
+              "partSign": "b",
+              "partContent": "$\\int_{1}^{3} \\sqrt{\\left(x^{\\prime}(t)\\right)^{2}+\\left(y^{\\prime}(t)\\right)^{2}} d t=7.090427$\n\nThe total distance traveled by the laser from time $t=1$ to time $t=3$ seconds is 7.090 centimeters."
+            },
+            {
+              "partSign": "c",
+              "partContent": "$x(1.253)=0+\\int_{0}^{1.253} \\frac{d x}{d t} d t=2.932354$\n\nThe $x$-coordinate of the laser's rightmost position is 2.932 ."
+            },
+            {
+              "partSign": "d",
+              "partContent": "$\\frac{d y}{d t}=0 \\Rightarrow t=t_{1}=0.628319$ or $t=t_{2}=1.884956$\n$$\n\\begin{aligned}\n& y(0)=0 \\\\\n& y\\left(t_{1}\\right)=0+\\int_{0}^{t_{1}} \\frac{d y}{d t} d t=1.6 \\\\\n& y\\left(t_{2}\\right)=0+\\int_{0}^{t_{2}} \\frac{d y}{d t} d t=-1.6 \\\\\n& y(3.1)=0+\\int_{0}^{3.1} \\frac{d y}{d t} d t=1.591358\n\\end{aligned}\n$$\n\nThe difference between the $y$-coordinates of the laser's highest position and lowest position is $y\\left(t_{1}\\right)-y\\left(t_{2}\\right)=3.2$.\n\n1 : answer\n$2:\\left\\{\\begin{array}{l}1: \\t"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Average rate of change $=\\frac{f(4)-f(-3)}{4-(-3)}=\\frac{-1-0}{7}=-\\frac{1}{7}$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$f(3)=-3+3 \\cos \\left(\\frac{3 \\pi}{2}\\right)=-3$\n\nFor $0<x<4, f^{\\prime}(x)=-1+\\left(-3 \\sin \\left(\\frac{\\pi x}{2}\\right)\\right) \\cdot \\frac{\\pi}{2}$\n$f^{\\prime}(3)=-1+\\left(-3 \\sin \\left(\\frac{3 \\pi}{2}\\right)\\right) \\cdot \\frac{\\pi}{2}=-1+\\frac{3 \\pi}{2}$\nAn equation for the tangent line is $y=-3+\\left(-1+\\frac{3 \\pi}{2}\\right)(x-3)$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The average value of $f$ on the interval $-3 \\leq x \\leq 4$ is\n$\\frac{1}{4-(-3)} \\int_{-3}^{4} f(x) d x$.\n$\\int_{-3}^{4} f(x) d x=\\int_{-3}^{0} f(x) d x+\\int_{0}^{4} f(x) d x$\n$\\int_{-3}^{0} f(x) d x=\\int_{-3}^{0} \\sqrt{9-x^{2}} d x=\\frac{9 \\pi}{4}$\n$\\int_{0}^{4} f(x) d x=\\int_{0}^{4}\\left(-x+3 \\cos \\left(\\frac{\\pi x}{2}\\right)\\right) d x=\\left[-\\frac{1}{2} x^{2}+\\frac{6}{\\pi} \\sin \\left(\\frac{\\pi x}{2}\\right)\\right]_{0}^{4}=-8$\n$\\frac{1}{4-(-3)} \\int_{-3}^{4} f(x) d x=\\frac{1}{7}\\left(\\frac{9 \\"
+            },
+            {
+              "partSign": "d",
+              "partContent": "$\\lim _{x \\rightarrow 0^{-}} f(x)=f(0)=3$ and $\\lim _{x \\rightarrow 0^{+}} f(x)=3$, so $f$ is continuous at $x=0$.\n\nBecause $f$ is continuous on [-3,4], the Extreme Value Theorem guarantees that $f$ attains an absolute maximum on $[-3,4]$.\n\n1 : answer\n$2:\\left\\{\\begin{array}{l}1: f^{\\prime}(3) \\\\ 1: \\text { equation }\\end{array}\\right.$\n$4:\\left\\{\\begin{array}{l}1: \\text { integrals of } f \\text { over } \\\\ \\quad-3 \\leq x \\leq 0 \\text { and } 0 \\leq x \\leq 4 \\\\ 1: \\text { value of } \\int_{-3}^{0"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$g(0)=\\int_{-4}^{0} f(t) d t=\\frac{9}{2}-3=\\frac{3}{2}$\n$$\n\\begin{aligned}\ng(4) & =\\int_{-4}^{4} f(t) d t \\\\\n& =\\int_{-4}^{0} f(t) d t+\\int_{0}^{1} f(t) d t+\\int_{1}^{4} f(t) d t \\\\\n& =\\frac{3}{2}+5+\\int_{1}^{4}\\left(-t^{2}+5 t-4\\right) d t \\\\\n& =\\frac{3}{2}+5+\\left[-\\frac{1}{3} t^{3}+\\frac{5}{2} t^{2}-4 t\\right]_{1}^{4} \\\\\n& =\\frac{3}{2}+5+\\left[\\left(-\\frac{1}{3} \\cdot 4^{3}+\\frac{5}{2} \\cdot 4^{2}-4 \\cdot 4\\right)-\\left(-\\frac{1}{3} \\cdot 1^{3}+\\frac{5}{2} \\cdot 1^{2}-4 \\cdot 1\\right)\\right]"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$g^{\\prime}(x)=f(x)$ is negative for $-1<x<0$, and nonnegative elsewhere. Thus, the absolute minimum value of $g$ on $[-4,4]$ can only occur at $x=-4$ or $x=0$.\n$$\n\\begin{aligned}\n& g(-4)=0 \\\\\n& g(0)=\\frac{3}{2}\n\\end{aligned}\n$$\n\nThe absolute minimum value of $g$ on $[-4,4]$ is $g(-4)=0$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The graph of $g$ is concave down on the intervals $-2<x<-\\frac{1}{2}$, $\\frac{1}{2}<x<1$, and $\\frac{5}{2}<x<4$ because $g^{\\prime}(x)=f(x)$ is decreasing on these intervals.\n$3:\\left\\{\\begin{array}{l}1: g^{\\prime}(x)=f(x) \\\\ 1: \\text { identifies } x=-4 \\text { and } x=0 \\\\ \\quad \\text { as candidates } \\\\ 1: \\text { answer with justification }\\end{array}\\right.$\n$$\n2:\\left\\{\\begin{array}{l}\n1: \\text { intervals } \\\\\n1: \\text { reason }\n\\end{array}\\right.\n$$\n\n\\section*{AP ${ }^{\\text {® }}$ CAL"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$\\frac{d}{d x}\\left(4 x^{2}+3 y^{2}+6 y\\right)=\\frac{d}{d x}$\n$$\n\\begin{equation*}\n\\Rightarrow 8 x+6 y \\frac{d y}{d x}+6 \\frac{d y}{d x}=0 \\tag{9}\n\\end{equation*}\n$$\n$\\Rightarrow(6 y+6) \\frac{d y}{d x}=-8 x$\n$\\Rightarrow \\frac{d y}{d x}=\\frac{-8 x}{6 y+6}=\\frac{-4 x}{3(y+1)}$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$\\frac{d^{2} y}{d x^{2}}=\\frac{-4 \\cdot 3(y+1)-(-4 x) \\cdot 3 \\frac{d y}{d x}}{(3(y+1))^{2}}=\\frac{-12(y+1)-\\frac{16 x^{2}}{y+1}}{(3(y+1))^{2}}$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "$r=\\frac{3}{2+\\sin \\theta}>0$ for $0 \\leq \\theta \\leq 2 \\pi$.\n$\\frac{d r}{d \\theta}=\\frac{-3}{(2+\\sin \\theta)^{2}} \\cdot \\cos \\theta$\n$(2+\\sin \\theta)^{2}>0$ for all $\\theta$.\nFor $\\frac{\\pi}{2}0$.\nThe distance between the origin and the point $(r, \\theta)$ is increasing for $\\frac{\\pi}{2} \\leq \\theta \\leq \\frac{3 \\pi}{2}$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "$2=\\frac{3}{2+\\sin \\theta} \\Rightarrow 2+\\sin \\theta=\\frac{3}{2} \\Rightarrow \\sin \\theta=-\\frac{1}{2} \\Rightarrow \\theta=\\frac{7 \\pi}{6}$ or $\\theta=\\frac{11 \\pi}{6}$\n\nArea $=\\frac{1}{2} \\int_{\\frac{7 \\pi}{6}}^{\\frac{11 \\pi}{6}}\\left(\\left(\\frac{3}{2+\\sin \\theta}\\right)^{2}-2^{2}\\right) d \\theta$\n$2:\\left\\{\\begin{array}{l}1: \\text { implicit differentiation } \\\\ 1: \\text { verification }\\end{array}\\right.$\n$2:\\left\\{\\begin{array}{l}1: \\text { form of quotient rule } \\\\ 1: \\frac{d^{2} y}{d x^{2}}"
+            },
+            {
+              "partSign": "a",
+              "partContent": "The series with $p=3$ and $x=8$ is $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} 5^{n}}{5^{n} \\cdot n^{3}}=\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n^{3}}$. $\\sum_{n=1}^{\\infty}\\left|\\frac{(-1)^{n+1}}{n^{3}}\\right|=\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}$ is a $p$-series with $p=3>1$, which converges.\nTherefore, the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} 5^{n}}{5^{n} \\cdot n^{3}}$ converges absolutely."
+            },
+            {
+              "partSign": "b",
+              "partContent": "The series with $p=1$ and $x=8$ is $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} 5^{n}}{5^{n} \\cdot n}=\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$. $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n}$ converges by the alternating series test. $\\sum_{n=1}^{\\infty}\\left|\\frac{(-1)^{n+1}}{n}\\right|=\\sum_{n=1}^{\\infty} \\frac{1}{n}$ is the harmonic series, which diverges.\nTherefore, the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} 5^{n}}{5^{n} \\cdot n}$ converges conditionally."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The series with $x=-2$ is $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}(-5)^{n}}{5^{n} \\cdot n^{p}}=\\sum_{n=1}^{\\infty} \\frac{-1}{n^{p}}=-\\sum_{n=1}^{\\infty} \\frac{1}{n^{p}}$. $\\sum_{n=1}^{\\infty} \\frac{1}{n^{p}}$ is a $p$-series, which converges if and only if $p>1$.\nTherefore, the series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}(-5)^{n}}{5^{n} \\cdot n^{p}}$ converges for $p>1$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "The series with $p=1$ and $x=3.1$ is\n$\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{5^{n} \\cdot n}(3.1-3)^{n}=\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}(0.1)^{n}}{5^{n} \\cdot n}$.\nUsing two terms, $S \\approx \\frac{0.1}{5}-\\frac{(0.1)^{2}}{5^{2} \\cdot 2}=\\frac{99}{5000}$.\n$\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}(0.1)^{n}}{5^{n} \\cdot n}$ is an alternating series with terms that decrease in magnitude to 0 .\nBy the alternating series error bound, the approximation $S \\approx \\frac{99}{5000}$ has absolute error boun"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

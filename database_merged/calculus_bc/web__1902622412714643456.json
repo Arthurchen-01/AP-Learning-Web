@@ -1,0 +1,1341 @@
+{
+  "examId": "1902622412714643456",
+  "title": "AP 微积分BC 2021年国际卷",
+  "subjectName": "微积分BC",
+  "yearLabel": "",
+  "description": "AP AP 微积分BC 2021年国际卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 102,
+      "directions": "",
+      "questions": [
+        {
+          "id": "22132",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 1 to 3, of, open parenthesis, 4 times x cubed, minus 6 x, plus 5, close parenthesis, d x, equals\"><math alttext=\"the integral from 1 to 3, of, open parenthesis, 4 times x cubed, minus 6 x, plus 5, close parenthesis, d x, equals\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><mstyle><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></msubsup><mrow><mo>(</mo><mn>4</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>5</mn><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></mstyle><mo>=</mo></mrow></mstyle></math></span></span></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"66\"><math alttext=\"66\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>66</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"92\"><math alttext=\"92\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>92</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"96\"><math alttext=\"96\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>96</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"282\"><math alttext=\"282\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>282</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22124",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be the function defined by <span class=\"math_expression\"><span aria-label=\"f of x, equals, b times x squared, plus 3 b x, plus b squared, plus, the fraction 1 over x squared, end fraction\"><math alttext=\"f of x, equals, b times x squared, plus 3 b x, plus b squared, plus, the fraction 1 over x squared, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>b</mi><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mi>b</mi><mi>x</mi><mo>+</mo><msup><mrow><mi>b</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"b\"><math alttext=\"b\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>b</mi></mrow></mstyle></math></span></span> is a nonzero constant. Which of the following is an expression for <span class=\"math_expression\"><span aria-label=\"f prime of x\"><math alttext=\"f prime of x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></mstyle></math></span></span>, the derivative of <span class=\"math_expression\"><span aria-label=\"f of x\"><math alttext=\"f of x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 b x, plus 3 b, minus the fraction 2 over x\"><math alttext=\"2 b x, plus 3 b, minus the fraction 2 over x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn><mi>b</mi><mi>x</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>−</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mi>x</mi></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 b x, plus 3 b, minus the fraction 2 over x cubed, end fraction\"><math alttext=\"2 b x, plus 3 b, minus the fraction 2 over x cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn><mi>b</mi><mi>x</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>−</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 b x, plus 3 b, plus b squared, minus the fraction 2 over x cubed, end fraction\"><math alttext=\"2 b x, plus 3 b, plus b squared, minus the fraction 2 over x cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn><mi>b</mi><mi>x</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>+</mo><msup><mrow><mi>b</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>−</mo><mfrac><mrow><mn>2</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x squared, plus 3 x, plus 2 b\"><math alttext=\"x squared, plus 3 x, plus 2 b\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>b</mi></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22178",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If <span class=\"math_expression\"><span aria-label=\"f prime of x, equals, x squared\"><math alttext=\"f prime of x, equals, x squared\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"g prime of x, equals, 3 times e to the x power\"><math alttext=\"g prime of x, equals, 3 times e to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mrow><mn>3</mn><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></mrow></math></span></span> and if <span class=\"math_expression\"><span aria-label=\"h of x, equals, f of x, times, g of x\"><math alttext=\"h of x, equals, f of x, times, g of x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>h</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></mrow></mrow></math></span></span>, then <span class=\"math_expression\"><span aria-label=\"h prime of x\"><math alttext=\"h prime of x\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>h</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> could be</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3 times x squared, times e to the x power\"><math alttext=\"3 times x squared, times e to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x cubed, times e to the x power, plus, 3 times x squared, times e to the x power\"><math alttext=\"x cubed, times e to the x power, plus, 3 times x squared, times e to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup><mo>+</mo><msup><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x cubed, times e to the x power, plus x squared, times e to the x power\"><math alttext=\"x cubed, times e to the x power, plus x squared, times e to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3 times x squared, times e to the x power, plus 6 x times e to the x power\"><math alttext=\"3 times x squared, times e to the x power, plus 6 x times e to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup><mo>+</mo><mn>6</mn><msup><mrow><mi>x</mi><mi>e</mi></mrow><mrow><mi>x</mi></mrow></msup></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22139",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be the function defined by <span class=\"math_expression\"><span aria-label=\"f of x, equals, 4 plus, the integral from 1 to x, of, the fraction with numerator 1 and denominator 1 plus t, end fraction, d t\"><math alttext=\"f of x, equals, 4 plus, the integral from 1 to x, of, the fraction with numerator 1 and denominator 1 plus t, end fraction, d t\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>4</mn><mo>+</mo><mrow><msubsup><mrow><mo stretchy=\"true\">∫</mo></mrow><mrow><mn>1</mn></mrow><mrow><mi>x</mi></mrow></msubsup><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>1</mn><mo>+</mo><mi>t</mi></mrow></mfrac></mrow></mstyle><mo>ⅆ</mo><mrow><mi>t</mi></mrow></mrow></mrow></mstyle></mrow></math></span></span>. Which of the following is an equation for the line tangent to the graph of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> at <span class=\"math_expression\"><span aria-label=\"x equals 1\"><math alttext=\"x equals 1\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"y equals 4\"><math alttext=\"y equals 4\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"y minus 4 equals, one half times, open parenthesis, x minus 1, close parenthesis\"><math alttext=\"y minus 4 equals, one half times, open parenthesis, x minus 1, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>−</mo><mn>4</mn><mo>=</mo><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"y minus 4 equals, one fourth times, open parenthesis, x minus 1, close parenthesis\"><math alttext=\"y minus 4 equals, one fourth times, open parenthesis, x minus 1, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>−</mo><mn>4</mn><mo>=</mo><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"y minus 4 equals, the fraction 9 over 2, end fraction, times, open parenthesis, x minus 1, close parenthesis\"><math alttext=\"y minus 4 equals, the fraction 9 over 2, end fraction, times, open parenthesis, x minus 1, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>−</mo><mn>4</mn><mo>=</mo><mstyle><mrow><mfrac><mrow><mn>9</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22128",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"y equals, f of x\"><math alttext=\"y equals, f of x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> be the solution to the differential equation <span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to x, equals x times, open parenthesis, y plus 1, close parenthesis\"><math alttext=\"the derivative of y, with respect to x, equals x times, open parenthesis, y plus 1, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mi>x</mi><mrow><mo>(</mo><mi>y</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mrow></math></span></span> with initial condition <span class=\"math_expression\"><span aria-label=\"f of 2 equals 1\"><math alttext=\"f of 2 equals 1\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mn>1</mn></mrow></math></span></span>. What is the approximation for <span class=\"math_expression\"><span aria-label=\"f of 3\"><math alttext=\"f of 3\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mo>(</mo><mn>3</mn><mo>)</mo></mrow></math></span></span> obtained by using Euler's method, starting at <span class=\"math_expression\"><span aria-label=\"x equals 2\"><math alttext=\"x equals 2\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math></span></span> with a step size of <span class=\"math_expression\"><span aria-label=\"0.5\"><math alttext=\"0.5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0.5</mn></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 1\"><math alttext=\"negative 1\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>1</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"5\"><math alttext=\"5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>5</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"8\"><math alttext=\"8\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>8</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"20\"><math alttext=\"20\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>20</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22112",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What is the area of the region in the first quadrant that is bounded by the graph of <span class=\"math_expression\"><span aria-label=\"y equals, 2 to the x power\"><math alttext=\"y equals, 2 to the x power\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><msup><mrow><mn>2</mn></mrow><mrow><mi>x</mi></mrow></msup></mrow></math></span></span>, the horizontal line <span class=\"math_expression\"><span aria-label=\"y equals 4\"><math alttext=\"y equals 4\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math></span></span>, and the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi></mrow></mstyle></math></span></span>-axis?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"8 minus, the fraction with numerator 3, and denominator the natural log of 2, end fraction\"><math alttext=\"8 minus, the fraction with numerator 3, and denominator the natural log of 2, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mn>8</mn><mo>−</mo><mfrac><mrow><mn>3</mn></mrow><mrow><mi>ln</mi><mo>⁡</mo><mn>2</mn></mrow></mfrac></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 3, and denominator the natural log of 2, end fraction\"><math alttext=\"the fraction with numerator 3, and denominator the natural log of 2, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><mi>ln</mi><mo>⁡</mo><mn>2</mn></mrow></mfrac></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction 22 over 3\"><math alttext=\"the fraction 22 over 3\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mn>22</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the fraction with numerator 15, and denominator the natural log of 2, end fraction\"><math alttext=\"the fraction with numerator 15, and denominator the natural log of 2, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mn>15</mn></mrow><mrow><mi>ln</mi><mo>⁡</mo><mn>2</mn></mrow></mfrac></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22175",
+          "type": "single",
+          "prompt": "<div> <div class=\"stimulus_reference\"> <div class=\"standalone_image\"><img alt=\"The figure shows the graph of a polar curve in the x y coordinate plane, with the origin labeled O. The curve consists of an elongated loop which begins and ends at the origin and is located in the first quadrant. The region inside the loop is labeled R.\" height=\"908\" src=\"https://assets.learnosity.com/organisations/537/VR187150.g05.png\" width=\"927\" /></div> </div> </div> <p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" overflow=\"scroll\"><mstyle><mrow><mi>R</mi></mrow></mstyle></math></span></span> be the region in the first quadrant that is bounded by the polar curve <span class=\"math_expression\"><span aria-label=\"r equals, the square root of, 6 times, the sine of, open parenthesis, 3 times theta, close parenthesis, end root\"><math alttext=\"r equals, the square root of, 6 times, the sine of, open parenthesis, 3 times theta, close parenthesis, end root\" overflow=\"scroll\"> <mrow> <mi>r</mi> <mo>=</mo> <msqrt> <mrow> <mn>6</mn> <mi>sin</mi> <mo>⁡</mo> <mo>(</mo> <mn>3</mn> <mi>θ</mi> <mo>)</mo> </mrow> </msqrt> </mrow> </math></span></span>, as shown in the figure above. What is the area of <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" overflow=\"scroll\"><mstyle><mrow><mi>R</mi></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" overflow=\"scroll\"><mstyle><mrow><mn>1</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"4\"><math alttext=\"4\" overflow=\"scroll\"><mstyle><mrow><mn>4</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"6\"><math alttext=\"6\" overflow=\"scroll\"><mstyle><mrow><mn>6</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22163",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\"><span class=\"math_expression\"><span aria-label=\"the indefinite integral of, the fraction with numerator 1, and denominator x times, open parenthesis, x plus 1, close parenthesis, end fraction, d x, equals\"><math alttext=\"the indefinite integral of, the fraction with numerator 1, and denominator x times, open parenthesis, x plus 1, close parenthesis, end fraction, d x, equals\" display=\"inline\" overflow=\"scroll\"><mrow><mo stretchy=\"true\">∫</mo><mrow><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>x</mi><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mrow></mfrac></mrow></mstyle></mrow><mo>ⅆ</mo><mrow><mi>x</mi><mo>=</mo></mrow></mrow></math></span></span></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the natural log of, the absolute value of x, end absolute value, plus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\"><math alttext=\"the natural log of, the absolute value of x, end absolute value, plus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\" display=\"inline\" overflow=\"scroll\"><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>+</mo><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi></mrow></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the natural log of, the absolute value of x, end absolute value, minus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\"><math alttext=\"the natural log of, the absolute value of x, end absolute value, minus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\" display=\"inline\" overflow=\"scroll\"><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>−</mo><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi></mrow></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the natural log of, the absolute value of, x plus 1, end absolute value, minus, the natural log of, the absolute value of x, end absolute value, plus C\"><math alttext=\"the natural log of, the absolute value of, x plus 1, end absolute value, minus, the natural log of, the absolute value of x, end absolute value, plus C\" display=\"inline\" overflow=\"scroll\"><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>|</mo><mo>−</mo><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>+</mo><mi>C</mi></mrow></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times the natural log of, the absolute value of x, end absolute value, minus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\"><math alttext=\"2 times the natural log of, the absolute value of x, end absolute value, minus, the natural log of, the absolute value of, x plus 1, end absolute value, plus C\" display=\"inline\" overflow=\"scroll\"><mrow><mn>2</mn><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>−</mo><mi>ln</mi><mo>⁡</mo><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>|</mo><mo>+</mo><mi>C</mi></mrow></mrow></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22059",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the series <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mroot><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></mroot></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></math></span></span>. Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Both series converge absolutely.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Both series converge conditionally.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mroot><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></mroot></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></mstyle></math></span></span> converges absolutely, and <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></mstyle></math></span></span> converges conditionally.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator the cube root of n, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mroot><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></mroot></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></mstyle></math></span></span> converges conditionally, and <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator n cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><msup><mrow><mi>n</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mrow></mstyle></mrow></mstyle></mrow></mstyle></math></span></span> converges absolutely.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22171",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A particle moves in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mi>y</mi></mrow></mstyle></math></span></span>-plane so that its position at time <span class=\"math_expression\"><span aria-label=\"t is greater than 0\"><math alttext=\"t is greater than 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>&gt;</mo><mn>0</mn></mrow></mstyle></math></span></span> is given by <span class=\"math_expression\"><span aria-label=\"x of t, equals, 2 times the natural log of t\"><math alttext=\"x of t, equals, 2 times the natural log of t\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>ln</mi><mo>⁡</mo><mi>t</mi></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"y of t, equals, the fraction with numerator 4, and denominator t plus 1, end fraction\"><math alttext=\"y of t, equals, the fraction with numerator 4, and denominator t plus 1, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><mn>4</mn></mrow><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math></span></span>. What is the speed of the particle when <span class=\"math_expression\"><span aria-label=\"t equals 1\"><math alttext=\"t equals 1\" display=\"inline\" overflow=\"scroll\"><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>1</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the square root of 2\"><math alttext=\"the square root of 2\" display=\"inline\" overflow=\"scroll\"><mrow><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the square root of 5\"><math alttext=\"the square root of 5\" display=\"inline\" overflow=\"scroll\"><mrow><msqrt><mrow><mn>5</mn></mrow></msqrt></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22152",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be a differentiable function such that <span class=\"math_expression\"><span aria-label=\"the indefinite integral of, e raised to the negative x power, times, f of x, d x, equals, the negative of e raised to the negative x power, times, f of x, plus, the indefinite integral of, 2 x times, e raised to the negative x power, d x\"><math alttext=\"the indefinite integral of, e raised to the negative x power, times, f of x, d x, equals, the negative of e raised to the negative x power, times, f of x, plus, the indefinite integral of, 2 x times, e raised to the negative x power, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mo>∫</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>−</mo><mi>x</mi></mrow></msup><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi><mo>=</mo><msup><mrow><mo>−</mo><mi>e</mi></mrow><mrow><mo>−</mo><mi>x</mi></mrow></msup><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>+</mo><mrow><mo>∫</mo><mrow><mn>2</mn><mi>x</mi><msup><mrow><mi>e</mi></mrow><mrow><mo>−</mo><mi>x</mi></mrow></msup></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mrow></mstyle></mrow></math></span></span>. Which of the following could be <span class=\"math_expression\"><span aria-label=\"f of x\"><math alttext=\"f of x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 x\"><math alttext=\"2 x\" display=\"inline\" overflow=\"scroll\"><mrow><mn>2</mn><mi>x</mi></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x squared\"><math alttext=\"x squared\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the negative of e raised to the negative x power\"><math alttext=\"the negative of e raised to the negative x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mrow><mo>−</mo><mi>e</mi></mrow></mrow><mrow><mrow><mo>−</mo><mi>x</mi></mrow></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"e raised to the negative x power\"><math alttext=\"e raised to the negative x power\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>e</mi></mrow><mrow><mrow><mo>−</mo><mi>x</mi></mrow></mrow></msup></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22155",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> is continuous, and <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> is a function such that <span class=\"math_expression\"><span aria-label=\"g prime of x, equals f of x\"><math alttext=\"g prime of x, equals f of x\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span>. Which of the following is equal to <span class=\"math_expression\"><span aria-label=\"the integral from 6 to 10, of, f of, open parenthesis, one half x, close parenthesis, d x \"><math alttext=\"the integral from 6 to 10, of, f of, open parenthesis, one half x, close parenthesis, d x \" display=\"inline\" overflow=\"scroll\"><mrow><mstyle><mrow><msubsup><mrow><mo stretchy=\"true\">∫</mo></mrow><mrow><mn>6</mn></mrow><mrow><mn>10</mn></mrow></msubsup><mrow><mi>f</mi><mrow><mo>(</mo><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>x</mi></mrow><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span> in terms of <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half times g of 5, minus, one half times g of 3\"><math alttext=\"one half times g of 5, minus, one half times g of 3\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>g</mi></mrow></mstyle><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>g</mi><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow></mrow></mstyle><mspace depth=\"0.0ex\" height=\"4.0ex\" width=\"0.0em\"></mspace></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half times g of 10, minus, one half times g of 6\"><math alttext=\"one half times g of 10, minus, one half times g of 6\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>g</mi><mrow><mo>(</mo><mn>10</mn><mo>)</mo></mrow></mrow></mstyle><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac><mi>g</mi><mrow><mo>(</mo><mn>6</mn><mo>)</mo><mo>⁢</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times g of 5, minus, 2 times g of 3\"><math alttext=\"2 times g of 5, minus, 2 times g of 3\" display=\"inline\" overflow=\"scroll\"><mrow><mn>2</mn><mi>g</mi><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow><mo>−</mo><mn>2</mn><mrow><mi>g</mi><mo>(</mo><mn>3</mn><mo>)</mo></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2 times g of 10, minus, 2 times g of 6\"><math alttext=\"2 times g of 10, minus, 2 times g of 6\" display=\"inline\" overflow=\"scroll\"><mrow><mn>2</mn><mi>g</mi><mrow><mo>(</mo><mn>10</mn><mo>)</mo></mrow><mo>−</mo><mn>2</mn><mi>g</mi><mrow><mo>(</mo><mn>6</mn><mo>)</mo></mrow></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22198",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> be the functions defined by <span class=\"math_expression\"><span aria-label=\"f of x, equals, the fraction with numerator x squared minus 25, and denominator x squared minus 29, end fraction\"><math alttext=\"f of x, equals, the fraction with numerator x squared minus 25, and denominator x squared minus 29, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>−</mo><mn>25</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>−</mo><mn>29</mn></mrow></mfrac></mrow></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"g of x, equals, the fraction with numerator x plus 5, and denominator 2 x plus 4, end fraction\"><math alttext=\"g of x, equals, the fraction with numerator x plus 5, and denominator 2 x plus 4, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac></mrow></mstyle></math></span></span>. If the function <span class=\"math_expression\"><span aria-label=\"h\"><math alttext=\"h\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>h</mi></mrow></mstyle></math></span></span> satisfies <span class=\"math_expression\"><span aria-label=\"f of x, is less than or equal to, h of x, is less than or equal to, g of x\"><math alttext=\"f of x, is less than or equal to, h of x, is less than or equal to, g of x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>≤</mo><mi>h</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>≤</mo><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></mstyle></math></span></span> for <span class=\"math_expression\"><span aria-label=\"1 less than or equal to x, less than or equal to 5\"><math alttext=\"1 less than or equal to x, less than or equal to 5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>1</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>5</mn></mrow></mstyle></math></span></span>, what is <span class=\"math_expression\"><span aria-label=\"the limit as x approaches 3, of, h of x\"><math alttext=\"the limit as x approaches 3, of, h of x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mn>3</mn></mrow></munder><mi>h</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half\"><math alttext=\"one half\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"four fifths\"><math alttext=\"four fifths\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>1</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The limit cannot be determined from the given information.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22188",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Paint spills onto a floor in a circular pattern. The radius of the spill increases at a constant rate of <span class=\"math_expression\"><span aria-label=\"2.5\"><math alttext=\"2.5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2.5</mn></mrow></mstyle></math></span></span> inches per minute. How fast is the area of the spill increasing when the radius of the spill is <span class=\"math_expression\"><span aria-label=\"18\"><math alttext=\"18\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>18</mn></mrow></mstyle></math></span></span> inches?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"5 pi square inches per minute\"><math alttext=\"5 pi square inches per minute\" display=\"inline\" overflow=\"scroll\"><mrow><mn>5</mn><mi>π</mi><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.45em\"></mspace><msup><mrow><mtext>in</mtext></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mtext>min</mtext></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"36 pi square inches per minute\"><math alttext=\"36 pi square inches per minute\" display=\"inline\" overflow=\"scroll\"><mrow><mn>36</mn><mi>π</mi><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.45em\"></mspace><msup><mrow><mtext>in</mtext></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mtext>min</mtext></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"45 pi square inches per minute\"><math alttext=\"45 pi square inches per minute\" display=\"inline\" overflow=\"scroll\"><mrow><mn>45</mn><mi>π</mi><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.45em\"></mspace><msup><mrow><mtext>in</mtext></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mtext>min</mtext></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"90 pi square inches per minute\"><math alttext=\"90 pi square inches per minute\" display=\"inline\" overflow=\"scroll\"><mrow><mn>90</mn><mi>π</mi><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.45em\"></mspace><msup><mrow><mtext>in</mtext></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mtext>min</mtext></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22241",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The series <span class=\"math_expression\"><span aria-label=\"x plus, x cubed, plus the fraction with numerator x raised to the fifth power, and denominator 2 factorial, end fraction, plus the fraction with numerator x to the seventh power, and denominator 3 factorial, end fraction, plus dot dot dot, plus the fraction with numerator x raised to the 2 n plus 1 power, and denominator n factorial, end fraction, plus dot dot dot\"><math alttext=\"x plus, x cubed, plus the fraction with numerator x raised to the fifth power, and denominator 2 factorial, end fraction, plus the fraction with numerator x to the seventh power, and denominator 3 factorial, end fraction, plus dot dot dot, plus the fraction with numerator x raised to the 2 n plus 1 power, and denominator n factorial, end fraction, plus dot dot dot\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>+</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup><mo>+</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>5</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>7</mn></mrow></msup></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac><mo>+</mo><mo>⋯</mo><mo>+</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mi>n</mi><mo>!</mo></mrow></mfrac><mo>+</mo><mo>⋯</mo></mrow></mstyle></mrow></mstyle></mrow></mstyle></mrow></math></span></span> is the Maclaurin series for what function?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"sine x\"><math alttext=\"sine x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>sin</mi><mo>⁡</mo><mi>x</mi></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sine of negative x\"><math alttext=\"the sine of negative x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mo>−</mo><mi>x</mi></mrow><mo>)</mo></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x times, e raised to the x squared power\"><math alttext=\"x times, e raised to the x squared power\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>⁢</mo><msup><mrow><mi>e</mi></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></msup></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"x times, cosine x\"><math alttext=\"x times, cosine x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mi>cos</mi><mo>⁡</mo><mi>x</mi></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22240",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Information is spreading through a population. The number of people who have the information at time <span class=\"math_expression\"><span aria-label=\"t\"><math alttext=\"t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi></mrow></mstyle></math></span></span> hours is modeled by an increasing function <span class=\"math_expression\"><span aria-label=\"y of t\"><math alttext=\"y of t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow></mstyle></math></span></span> that satisfies a logistic differential equation. If the information is spreading most rapidly when <span class=\"math_expression\"><span aria-label=\"7,500\"><math alttext=\"7,500\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>7</mn><mtext>,500</mtext></mrow></mstyle></math></span></span> people have the information, which of the following differential equations could represent this model?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to t, equals, k times, open parenthesis, 7,500 minus y, close parenthesis\"><math alttext=\"the derivative of y, with respect to t, equals, k times, open parenthesis, 7,500 minus y, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>k</mi><mrow><mo>(</mo><mn>7</mn><mtext>,</mtext><mn>500</mn><mo>−</mo><mi>y</mi><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to t, equals, k times, open parenthesis, 15,000 minus y, close parenthesis\"><math alttext=\"the derivative of y, with respect to t, equals, k times, open parenthesis, 15,000 minus y, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>k</mi><mrow><mo>(</mo><mn>15</mn><mtext>,</mtext><mn>000</mn><mo>−</mo><mi>y</mi><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to t, equals, k y times, open parenthesis, 7,500 minus y, close parenthesis\"><math alttext=\"the derivative of y, with respect to t, equals, k y times, open parenthesis, 7,500 minus y, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>k</mi><mi>y</mi><mrow><mo>(</mo><mn>7</mn><mtext>,</mtext><mn>500</mn><mo>−</mo><mi>y</mi><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to t, equals, k y times, open parenthesis, 15,000 minus y, close parenthesis\"><math alttext=\"the derivative of y, with respect to t, equals, k y times, open parenthesis, 15,000 minus y, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>k</mi><mi>y</mi><mrow><mo>(</mo><mn>15</mn><mtext>,</mtext><mn>000</mn><mo>−</mo><mi>y</mi><mo>)</mo></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22061",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Consider the series <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, equals 1 minus one third, plus one fifth, minus dot dot dot\"><math alttext=\"the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, equals 1 minus one third, plus one fifth, minus dot dot dot\" display=\"inline\" overflow=\"scroll\"><mrow><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mstyle></mrow></mrow><mo>=</mo><mn>1</mn><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></mstyle><mo>+</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>5</mn></mrow></mfrac></mrow></mstyle><mo>−</mo><mo>⋯</mo></mrow></math></span></span>. Which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The series converges, and <span class=\"math_expression\"><span aria-label=\"one third is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, which is less than two thirds\"><math alttext=\"one third is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, which is less than two thirds\" display=\"inline\" overflow=\"scroll\"><mrow><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>&lt;</mo></mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow><mo>&lt;</mo><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></mrow></math></span></span>.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The series converges, and <span class=\"math_expression\"><span aria-label=\"two thirds is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, which is less than 1\"><math alttext=\"two thirds is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction, which is less than 1\" display=\"inline\" overflow=\"scroll\"><mrow><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mo>&lt;</mo></mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow><mo>&lt;</mo><mn>1</mn></mrow></math></span></span>.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The series converges, and <span class=\"math_expression\"><span aria-label=\"1 is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction\"><math alttext=\"1 is less than, the sum, from n equals 0 to infinity, of, the fraction with numerator, open parenthesis, negative 1, close parenthesis, to the n power, and denominator 2 n plus 1, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mn>1</mn><mo>&lt;</mo><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mstyle></mrow></mrow></math></span></span>.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The series diverges.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22221",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of f in the x y coordinate plane, with the origin labeled O. The numbers negative 1 and 1 are indicated on the x axis. The graph is a curve. The curve begins below the x axis, to the left of the y axis, and moves steeply upward and to the right until it reaches a local maximum on the x axis at negative 1. It then moves downward and to the right, reaching a local minimum on the y axis, far below the origin. It then moves upward and to the right, crosses the x axis at 1, and ends above the x axis, to the right of the y axis.\" src=\"https://assets.learnosity.com/organisations/537/VR187187.g04.png\"/></div></div></div><p class=\"stem_paragraph\">The figure above shows the graph of a differentiable function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span>. If <span class=\"math_expression\"><span aria-label=\"g of x, equals, f of ,open parenthesis, x squared, close parenthesis\"><math alttext=\"g of x, equals, f of ,open parenthesis, x squared, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mo>(</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></mrow></math></span></span>, which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of negative 1, is less than 0\"><math alttext=\"g prime of negative 1, is less than 0\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mo>&lt;</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of negative 1, is greater than 0\"><math alttext=\"g prime of negative 1, is greater than 0\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mo>&gt;</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of 1, is less than 0\"><math alttext=\"g prime of 1, is less than 0\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mo>&lt;</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of 1 equals 0\"><math alttext=\"g prime of 1 equals 0\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>1</mn><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22074",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">What are all values of <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi></mrow></mstyle></math></span></span> for which the series <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of open parenthesis, negative 1, close parenthesis, raised to the n plus 1 power, times, the fraction with numerator x raised to the 2 n power, and denominator n\"><math alttext=\"the sum, from n equals 1 to infinity, of open parenthesis, negative 1, close parenthesis, raised to the n plus 1 power, times, the fraction with numerator x raised to the 2 n power, and denominator n\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover><mrow><msup><mrow><mo>(</mo><mrow><mo>−</mo><mn>1</mn></mrow><mo>)</mo></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>⁢</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn><mi>n</mi></mrow></msup></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mstyle></mrow></mrow></mstyle></math></span></span> converges?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 1 is less than x, is less than 1\"><math alttext=\"negative 1 is less than x, is less than 1\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mrow></math></span></span> only</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 1 is less than x, is less than or equal to 1\"><math alttext=\"negative 1 is less than x, is less than or equal to 1\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>≤</mo><mn>1</mn></mrow></math></span></span> only</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 1 is less than or equal to x, is less than or equal to 1\"><math alttext=\"negative 1 is less than or equal to x, is less than or equal to 1\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>1</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>1</mn></mrow></math></span></span> only</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative infinity is less than x, is less than infinity\"><math alttext=\"negative infinity is less than x, is less than infinity\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mi>∞</mi><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>∞</mi></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22130",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be the function given by <span class=\"math_expression\"><span aria-label=\"f of x, equals x squared, times the natural log of x\"><math alttext=\"f of x, equals x squared, times the natural log of x\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.1em\"></mspace><mi>ln</mi><mo>⁡</mo><mi>x</mi></mrow></math></span></span> for <span class=\"math_expression\"><span aria-label=\"x greater than 0\"><math alttext=\"x greater than 0\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math></span></span>. On which of the following intervals is the graph of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> concave down?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0 comma e raised to the negative three halves power\"><math alttext=\"0 comma e raised to the negative three halves power\" display=\"inline\" overflow=\"scroll\"><mrow><mo>(</mo><mrow><mn>0</mn></mrow><mo>,</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><mstyle displaystyle=\"true\"><mrow><mo>−</mo><mn>3</mn><mo largeop=\"true\">/</mo><mn>2</mn></mrow></mstyle></mrow></msup></mrow><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></math></span></span> only</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0 comma e raised to the negative one half power\"><math alttext=\"0 comma e raised to the negative one half power\" display=\"inline\" overflow=\"scroll\"><mrow><mo>(</mo><mrow><mn>0</mn></mrow><mo>,</mo><mrow><msup><mrow><mi>e</mi></mrow><mrow><mstyle displaystyle=\"true\"><mrow><mo>−</mo><mn>1</mn><mo largeop=\"true\">/</mo><mn>2</mn></mrow></mstyle></mrow></msup></mrow><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"e raised to the negative three halves power comma infinity\"><math alttext=\"e raised to the negative three halves power comma infinity\" display=\"inline\" overflow=\"scroll\"><mrow><mo>(</mo><msup><mrow><mi>e</mi></mrow><mrow><mstyle displaystyle=\"true\"><mrow><mo>−</mo><mn>3</mn><mo largeop=\"true\">/</mo><mn>2</mn></mrow></mstyle></mrow></msup><mo>,</mo><mi>∞</mi><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"e raised to the negative one half power comma infinity\"><math alttext=\"e raised to the negative one half power comma infinity\" display=\"inline\" overflow=\"scroll\"><mrow><mo>(</mo><msup><mrow><mi>e</mi></mrow><mrow><mstyle displaystyle=\"true\"><mrow><mo>−</mo><mn>1</mn><mo largeop=\"true\">/</mo><mn>2</mn></mrow></mstyle></mrow></msup><mo>,</mo><mi>∞</mi><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></math></span></span> only</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22140",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If <span class=\"math_expression\"><span aria-label=\"the cosine of b equals, one third\"><math alttext=\"the cosine of b equals, one third\" display=\"inline\" overflow=\"scroll\"><mrow><mi>cos</mi><mo>⁡</mo><mo>⁢</mo><mi>b</mi><mo>=</mo><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span> for a constant <span class=\"math_expression\"><span aria-label=\"b\"><math alttext=\"b\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>b</mi></mrow></mstyle></math></span></span>, then <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 0 to infinity, of, open parenthesis, the sine squared of b, close parenthesis, to the n power, equals\"><math alttext=\"the sum, from n equals 0 to infinity, of, open parenthesis, the sine squared of b, close parenthesis, to the n power, equals\" display=\"inline\" overflow=\"scroll\"><mrow><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><msup><mrow><mo>(</mo><msup><mrow><mi>sin</mi></mrow><mrow><mn>2</mn></mrow></msup><mi>b</mi><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow><mrow><mi>n</mi></mrow></msup></mrow></mrow><mo>=</mo></mrow></math></span></span></p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one ninth\"><math alttext=\"one ninth\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"eight ninths\"><math alttext=\"eight ninths\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle><mrow><mfrac><mrow><mn>8</mn></mrow><mrow><mn>9</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"nine eighths\"><math alttext=\"nine eighths\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle><mrow><mfrac><mrow><mn>9</mn></mrow><mrow><mn>8</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"9\"><math alttext=\"9\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>9</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22084",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following could be the graph of a solution of the differential equation <span class=\"math_expression\"><span aria-label=\"the derivative of y, with respect to x, equals open parenthesis, x minus 1, close parenthesis, times y squared\"><math alttext=\"the derivative of y, with respect to x, equals open parenthesis, x minus 1, close parenthesis, times y squared\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mo>ⅆ</mo><mi>y</mi></mrow><mrow><mo>ⅆ</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mrow><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><msup><mrow><mi>y</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></math></span></span> near the point <span class=\"math_expression\"><span aria-label=\"with coordinates 1 comma 1\"><math alttext=\"with coordinates 1 comma 1\" display=\"inline\" overflow=\"scroll\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of the x y coordinate plane, with origin labeled O. The number 1 is shown on both axes. The curve moves upward and to the right and passes through the point with coordinates 1 comma 1.\" src=\"https://assets.learnosity.com/organisations/537/VR187201.g14.png\"/></div></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of the x y coordinate plane, with origin labeled O. The number 1 is shown on both axes. The curve has the behavior of a portion of an upward opening parabola with vertex at the point with coordinates 1 comma 1.\" src=\"https://assets.learnosity.com/organisations/537/VR187201.g16.png\"/></div></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of the x y coordinate plane, with origin labeled O. The number 1 is shown on both axes. The curve begins just to the right of the y axis, just below y equals 1. The curve is concave down and moves upward and to the right at first. It levels off and becomes horizontal at the point with coordinates 1 comma 1. From here, the graph is concave up and moves upward and to the right until it ends.\" src=\"https://assets.learnosity.com/organisations/537/VR187201.g18.png\"/></div></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the first quadrant of the x y coordinate plane, with origin labeled O. The number 1 is shown on both axes. The curve has the behavior of a portion of a downward opening parabola with vertex at the point with coordinates 1 comma 1.\" src=\"https://assets.learnosity.com/organisations/537/VR187201.g20.png\"/></div></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22147",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 10 to infinity, of, the fraction with numerator 1000, and denominator x squared, end fraction, d x\"><math alttext=\"the integral from 10 to infinity, of, the fraction with numerator 1000, and denominator x squared, end fraction, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mrow><msubsup><mo stretchy=\"true\">∫</mo><mrow><mn>10</mn></mrow><mrow><mi>∞</mi></mrow></msubsup><mrow><mfrac><mrow><mn>1000</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfrac></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mrow></math></span></span> is</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one third\"><math alttext=\"one third\" display=\"inline\" overflow=\"scroll\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"100\"><math alttext=\"100\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>100</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">divergent</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22158",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\"><span class=\"math_expression\"><span aria-label=\"the limit as x approaches 0, of, the fraction with numerator, the integral from 0 to x, of, the sine of, open parenthesis, 3 times t squared, close parenthesis, d t, and denominator 4 times x cubed, end fraction\"><math alttext=\"the limit as x approaches 0, of, the fraction with numerator, the integral from 0 to x, of, the sine of, open parenthesis, 3 times t squared, close parenthesis, d t, and denominator 4 times x cubed, end fraction\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>x</mi><mo>→</mo><mn>0</mn></mrow></munder><mfrac><mstyle displaystyle=\"true\"><mrow><mstyle><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>0</mn></mrow><mrow><mi>x</mi></mrow></msubsup><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mn>3</mn><msup><mrow><mi>t</mi></mrow><mrow><mn>2</mn></mrow></msup><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>t</mi></mrow></mrow></mstyle></mrow></mstyle><mrow><mn>4</mn><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfrac></mrow></mstyle></math></span></span> is</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative one fourth\"><math alttext=\"negative one fourth\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0\"><math alttext=\"0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one fourth\"><math alttext=\"one fourth\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">nonexistent</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22165",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be a differentiable function with <span class=\"math_expression\"><span aria-label=\"f of 2 equals 3\"><math alttext=\"f of 2 equals 3\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn></mrow></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"f prime of 2, equals one half\"><math alttext=\"f prime of 2, equals one half\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow><mo>=</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mstyle></mrow></mrow></math></span></span>. Using the line tangent to the graph of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> at <span class=\"math_expression\"><span aria-label=\"x equals 2\"><math alttext=\"x equals 2\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math></span></span> as a local linear approximation for <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span>, what is the estimate for <span class=\"math_expression\"><span aria-label=\"f of 1.8\"><math alttext=\"f of 1.8\" display=\"inline\" overflow=\"scroll\"><mrow><mi>f</mi><mrow><mo>(</mo><mn>1.8</mn><mo>)</mo></mrow></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2.5\"><math alttext=\"2.5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2.5</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2.8\"><math alttext=\"2.8\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2.8</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2.9\"><math alttext=\"2.9\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2.9</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3.1\"><math alttext=\"3.1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>3.1</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22065",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Which of the following series converge?</p><ol class=\"ordered_list style:1\"><li class=\"list_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of, the fraction with numerator 10 to the n power, and denominator n factorial, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of, the fraction with numerator 10 to the n power, and denominator n factorial, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mfrac><mrow><msup><mrow><mn>10</mn></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mi>n</mi><mo>!</mo></mrow></mfrac></mrow></mrow></math></span></span></li><li class=\"list_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of, e raised to the negative n power\"><math alttext=\"the sum, from n equals 1 to infinity, of, e raised to the negative n power\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><msup><mrow><mi>e</mi></mrow><mrow><mo>−</mo><mi>n</mi></mrow></msup></mrow></mrow></math></span></span></li><li class=\"list_paragraph\"><span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of, the fraction with numerator 2 to the n power, and denominator n times, open parenthesis, n plus 1, close parenthesis, end fraction\"><math alttext=\"the sum, from n equals 1 to infinity, of, the fraction with numerator 2 to the n power, and denominator n times, open parenthesis, n plus 1, close parenthesis, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><mrow><mfrac><mrow><msup><mrow><mn>2</mn></mrow><mrow><mi>n</mi></mrow></msup></mrow><mrow><mi>n</mi><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mrow></mfrac></mrow></mrow></math></span></span></li></ol>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">I only</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">II only</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">I and II only</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">I, II, and III</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22196",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If <span class=\"math_expression\"><span aria-label=\"x equals, t to the fourth power, minus 1\"><math alttext=\"x equals, t to the fourth power, minus 1\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mi>t</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"y equals, 4 t plus 1\"><math alttext=\"y equals, 4 t plus 1\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn><mi>t</mi><mo>+</mo><mn>1</mn></mrow></math></span></span>, what is <span class=\"math_expression\"><span aria-label=\"the second derivative of y, with respect to x\"><math alttext=\"the second derivative of y, with respect to x\" display=\"inline\" overflow=\"scroll\"><mstyle displaystyle=\"true\"><mfrac><mrow><msup><mo>ⅆ</mo><mn>2</mn></msup><mi>y</mi></mrow><mrow><mo>ⅆ</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mstyle></math></span></span> in terms of <span class=\"math_expression\"><span aria-label=\"t\"><math alttext=\"t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0\"><math alttext=\"0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the negative of the fraction 3 over t to the fourth power, end fraction\"><math alttext=\"the negative of the fraction 3 over t to the fourth power, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><msup><mrow><mi>t</mi></mrow><mrow><mn>4</mn></mrow></msup></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the negative of the fraction 3 over 4 times t to the fifth power, end fraction\"><math alttext=\"the negative of the fraction 3 over 4 times t to the fifth power, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><msup><mrow><mn>4</mn><mi>t</mi></mrow><mrow><mn>5</mn></mrow></msup></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the negative of the fraction 3 over 4 times t to the seventh power, end fraction\"><math alttext=\"the negative of the fraction 3 over 4 times t to the seventh power, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>3</mn></mrow><mrow><msup><mrow><mn>4</mn><mi>t</mi></mrow><mrow><mn>7</mn></mrow></msup></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22214",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><p class=\"standalone_statement style:1\"><span class=\"math_expression\"><span aria-label=\"The figure shows a two row table with five columns of data. The heading for row 1 is “x.” The heading for row 2 is “f of x.” The data in the table are as follows. Column 1. x is 0. f of x is negative 8. Column 2. x is 2. f of x is negative 2. Column 3. x is 6. f of x is 0. Column 4. x is 12. f of x is 2. Column 5. x is 20. f of x is negative 18.\"><math alttext=\"The figure shows a two row table with five columns of data. The heading for row 1 is “x.” The heading for row 2 is “f of x.” The data in the table are as follows. Column 1. x is 0. f of x is negative 8. Column 2. x is 2. f of x is negative 2. Column 3. x is 6. f of x is 0. Column 4. x is 12. f of x is 2. Column 5. x is 20. f of x is negative 18.\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle><mrow><mtable columnlines=\"solid\" columnspacing=\"0.0em\" columnwidth=\"3em 0.05em 3em 3em 3em 3em 3em\" equalrows=\"true\" frame=\"solid\" framespacing=\"0.0em 0.5ex\" rowlines=\"solid\" rowspacing=\"1ex\" width=\"auto\"><mtr><mtd><mi>x</mi></mtd><mtd><mspace depth=\"1.0ex\" height=\"2.25ex\" width=\"0.0em\"></mspace></mtd><mtd><mn>0</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>6</mn></mtd><mtd><mn>12</mn></mtd><mtd><mn>20</mn></mtd></mtr><mtr><mtd><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mtd><mtd><mspace depth=\"1.0ex\" height=\"2.25ex\" width=\"0.0em\"></mspace></mtd><mtd><mrow><mo>−</mo><mn>8</mn></mrow></mtd><mtd><mrow><mo>−</mo><mn>2</mn></mrow></mtd><mtd><mn>0</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>18</mn></mtd></mtr></mtable></mrow></mstyle></mrow></mstyle></math></span></span></p></div></div><p class=\"stem_paragraph\">The function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> is differentiable and has values as shown in the table above. Of the following, on which interval is the average rate of change of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> greatest?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"open bracket, 0 comma 2, close bracket\"><math alttext=\"open bracket, 0 comma 2, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"open bracket, 2 comma 6, close bracket\"><math alttext=\"open bracket, 2 comma 6, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"open bracket, 6 comma 12, close bracket\"><math alttext=\"open bracket, 6 comma 12, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>6</mn><mo>,</mo><mn>12</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"open bracket, 12 comma 20, close bracket\"><math alttext=\"open bracket, 12 comma 20, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>12</mn><mo>,</mo><mn>20</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22210",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For time <span class=\"math_expression\"><span aria-label=\"0 less than or equal to t, less than or equal to 4\"><math alttext=\"0 less than or equal to t, less than or equal to 4\" display=\"inline\" overflow=\"scroll\"><mrow><mn>0</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>4</mn></mrow></math></span></span>, four particles—<span class=\"math_expression\"><span aria-label=\"A\"><math alttext=\"A\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>A</mi></mrow></mstyle></math></span></span>, <span class=\"math_expression\"><span aria-label=\"B\"><math alttext=\"B\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>B</mi></mrow></mstyle></math></span></span>, <span class=\"math_expression\"><span aria-label=\"C\"><math alttext=\"C\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>C</mi></mrow></mstyle></math></span></span>, and <span class=\"math_expression\"><span aria-label=\"D\"><math alttext=\"D\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>D</mi></mrow></mstyle></math></span></span>—move along parallel horizontal lines in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mi>y</mi></mrow></mstyle></math></span></span>-plane. At time <span class=\"math_expression\"><span aria-label=\"t equals 0\"><math alttext=\"t equals 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>=</mo><mn>0</mn></mrow></mstyle></math></span></span>, the <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi></mrow></mstyle></math></span></span>-coordinate of the position of each particle is <span class=\"math_expression\"><span aria-label=\"x equals 0\"><math alttext=\"x equals 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></mstyle></math></span></span>. The graphs of the velocity of each particle, in meters per second, are shown below. Which is the graph of the velocity of the particle that is farthest to the right at time <span class=\"math_expression\"><span aria-label=\"t equals 4\"><math alttext=\"t equals 4\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>=</mo><mn>4</mn></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y coordinate plane, with the origin labeled O. The graph is labeled “Velocity of Particle A.” The horizontal axis is labeled t, and the numbers 0 through 4, in increments of 1, are indicated. The vertical axis is labeled v sub A, of t, and the numbers negative 3 through 3, in increments of 1, are indicated. The curve begins at a local maximum on the vertical axis at 1, and moves downward and to the right. It crosses the horizontal axis at approximately 0.7, and reaches a minimum at the point with coordinates 2 comma negative 3. The curve then moves upward and to the right, crosses the horizontal axis at approximately 3.3, and reaches a local maximum at the point with coordinates 4 comma 1.\" src=\"https://assets.learnosity.com/organisations/537/VR187233.g13.png\"/></div></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a line in the x y coordinate plane, with the origin labeled O. The graph is labeled Velocity of Particle B. The horizontal axis is labeled t, and the numbers 0 through 4, in increments of 1, are indicated. The vertical axis is labeled v sub B, of t, and the numbers negative 3 through 3, in increments of 1, are indicated. The line begins on the vertical axis at 1, and moves horizontally to the right until it ends at the point with coordinates 4 comma 1.\" src=\"https://assets.learnosity.com/organisations/537/VR187233.g15.png\"/></div></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y coordinate plane, with the origin labeled O. The graph is labeled Velocity of Particle C. The horizontal axis is labeled t, and the numbers 0 through 4, in increments of 1, are indicated. The vertical axis is labeled v sub C, of t, and the numbers negative 3 through 3, in increments of 1, are indicated. The curve begins at the origin and moves upward to the right until it reaches a maximum at the point with coordinates 1 comma 1. It then moves downward and to the right, crosses the x axis at 2, and reaches a minimum at the point with coordinates 3 comma negative 1. The curve then moves upward and to the right until it ends on the x axis at 4.\" src=\"https://assets.learnosity.com/organisations/537/VR187233.g17.png\"/></div></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y coordinate plane, with the origin labeled O. The graph is labeled Velocity of Particle D. The horizontal axis is labeled t, and the numbers 0 through 4, in increments of 1, are indicated. The vertical axis is labeled v sub D, of t, and the numbers negative 3 through 3, in increments of 1, are indicated. The curve begins on the vertical axis at the point with coordinates 0 comma negative 1, and moves upward and to the right. It crosses the horizontal axis at approximately 0.3, and continues upward until it reaches a maximum at the point with coordinates 2 comma 3. The curve then moves downward and to the right until it ends on the horizontal axis at 4.\" src=\"https://assets.learnosity.com/organisations/537/VR187233.g19.png\"/></div></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22058",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For which of the following integrals is <span class=\"math_expression\"><span aria-label=\"the sum from k equals 1 to n, of, the natural log of, open parenthesis, 2 plus the fraction 5 over n, end fraction, times k, close parenthesis, times the fraction 5 over n\"><math alttext=\"the sum from k equals 1 to n, of, the natural log of, open parenthesis, 2 plus the fraction 5 over n, end fraction, times k, close parenthesis, times the fraction 5 over n\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover></mrow></mstyle><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.1em\"></mspace><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mstyle><mrow><mfrac><mrow><mn>5</mn></mrow><mrow><mi>n</mi></mrow></mfrac><mi>k</mi></mrow></mstyle><mo>)</mo></mrow></mrow><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\".15em\"></mspace><mfrac><mrow><mn>5</mn></mrow><mrow><mi>n</mi></mrow></mfrac></mrow></mstyle></mrow></mstyle></math></span></span> the right Riemann sum approximation with <span class=\"math_expression\"><span aria-label=\"n\"><math alttext=\"n\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>n</mi></mrow></mstyle></math></span></span> subintervals of equal length?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 2 to 7, of, the natural log of x, d x\"><math alttext=\"the integral from 2 to 7, of, the natural log of x, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msubsup><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 2 to 7, of, the natural log of open parenthesis, 2 plus x, close parenthesis, d x\"><math alttext=\"the integral from 2 to 7, of, the natural log of open parenthesis, 2 plus x, close parenthesis, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msubsup><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 0 to 5, of, the natural log of open parenthesis, 2 plus 5 x, close parenthesis, d x\"><math alttext=\"the integral from 0 to 5, of, the natural log of open parenthesis, 2 plus 5 x, close parenthesis, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>0</mn></mrow><mrow><mn>5</mn></mrow></msubsup><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mn>5</mn><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the integral from 2 to 7, of, the natural log of open parenthesis, 2 plus 5 x, close parenthesis, d x\"><math alttext=\"the integral from 2 to 7, of, the natural log of open parenthesis, 2 plus 5 x, close parenthesis, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>2</mn></mrow><mrow><mn>7</mn></mrow></msubsup><mrow><mi>ln</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mn>5</mn><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22216",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of f in a coordinate plane, with the origin labeled O. The graph consists of five line segments. Six closed circles are included in the graph. The first line segment begins at a closed circle on the horizontal axis at negative 5, and moves upward and to the right until it ends at a closed circle at the point with coordinates negative 4 comma 2. The second line segment begins where the first ends, and moves downward and to the right. It crosses the horizontal axis at negative 3.5 and ends at a closed circle at the point with coordinates negative 3 comma negative 2. The third line segment begins where the second ends, and moves upward and to the right. It crosses the horizontal axis at negative 2 and ends at a closed circle on the vertical axis at 4. The fourth line segment begins where the third ends, and moves downward and to the right. It crosses the horizontal axis at 2 and ends at a closed circle at the point with coordinates 4 comma negative 4. The fifth line segment begins where the fourth ends, and moves upward and to the right until it ends at a closed circle on the horizontal axis at 6.\" src=\"https://assets.learnosity.com/organisations/537/VR187243.g06.png\"/></div></div></div><p class=\"stem_paragraph\">The graph of the piecewise linear function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> is shown in the figure above. If <span class=\"math_expression\"><span aria-label=\"g of x, equals, the integral from negative 5 to x, of, f of t, d t\"><math alttext=\"g of x, equals, the integral from negative 5 to x, of, f of t, d t\" display=\"inline\" overflow=\"scroll\"><mrow><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mo>−</mo><mn>5</mn></mrow><mrow><mi>x</mi></mrow></msubsup><mrow><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.05em\"></mspace><mi>f</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>t</mi></mrow></mrow></mstyle></mrow></math></span></span>, how many zeros does <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> have on the closed interval <span class=\"math_expression\"><span aria-label=\"open bracket, negative 5 comma 6, close bracket\"><math alttext=\"open bracket, negative 5 comma 6, close bracket\" display=\"inline\" overflow=\"scroll\"><mrow><mo>[</mo><mrow><mo>−</mo><mn>5</mn><mo>,</mo><mo>⁢</mo><mn>6</mn></mrow><mo>]</mo></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">One</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Three</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Four</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Five</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22246",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">The first derivative of the function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> is given by <span class=\"math_expression\"><span aria-label=\"f prime of x, equals, x times, e raised to the sine x power\"><math alttext=\"f prime of x, equals, x times, e raised to the sine x power\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>x</mi><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.05em\"></mspace><msup><mrow><mi>e</mi></mrow><mrow><mi>sin</mi><mo>⁡</mo><mi>x</mi></mrow></msup></mrow></mstyle></math></span></span>. How many points of inflection does the graph of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> have on the interval <span class=\"math_expression\"><span aria-label=\"negative 3 less than x, less than 6\"><math alttext=\"negative 3 less than x, less than 6\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>−</mo><mn>3</mn></mrow><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>6</mn></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">One</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Two</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Three</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Four</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22105",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">In a small town, water is being used at a rate of <span class=\"math_expression\"><span aria-label=\"r of t equals, 12 plus, 9 times the sine of open parenthesis, 0.5 t, minus 1.6, close parenthesis\"><math alttext=\"r of t equals, 12 plus, 9 times the sine of open parenthesis, 0.5 t, minus 1.6, close parenthesis\" display=\"inline\" overflow=\"scroll\"><mrow><mi>r</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mn>12</mn><mo>+</mo><mn>9</mn><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mn>0.5</mn><mi>t</mi><mo>−</mo><mn>1.6</mn><mo>)</mo></mrow></mrow></math></span></span> thousand gallons per hour, where <span class=\"math_expression\"><span aria-label=\"t\"><math alttext=\"t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi></mrow></mstyle></math></span></span> is measured in hours since midnight. To the nearest integer, how much water, in thousands of gallons, is used in the town during the <span class=\"math_expression\"><span aria-label=\"6\"><math alttext=\"6\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>6</mn></mrow></mstyle></math></span></span>-hour period from <span class=\"math_expression\"><span aria-label=\"3\"><math alttext=\"3\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>3</mn></mrow></mstyle></math></span></span> <span class=\"time_abbreviation\">A.M.</span> (<span class=\"math_expression\"><span aria-label=\"t equals 3\"><math alttext=\"t equals 3\" display=\"inline\" overflow=\"scroll\"><mrow><mi>t</mi><mo>=</mo><mn>3</mn></mrow></math></span></span>) to <span class=\"math_expression\"><span aria-label=\"9\"><math alttext=\"9\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>9</mn></mrow></mstyle></math></span></span> <span class=\"time_abbreviation\">A.M.</span> (<span class=\"math_expression\"><span aria-label=\"t equals 9\"><math alttext=\"t equals 9\" display=\"inline\" overflow=\"scroll\"><mrow><mi>t</mi><mo>=</mo><mn>9</mn></mrow></math></span></span>) ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3\"><math alttext=\"3\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>3</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"76\"><math alttext=\"76\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>76</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"107\"><math alttext=\"107\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>107</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"125\"><math alttext=\"125\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>125</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22108",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">An ellipse is defined parametrically by <span class=\"math_expression\"><span aria-label=\"x of t, equals,1 plus, 2 times cosine t\"><math alttext=\"x of t, equals,1 plus, 2 times cosine t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>cos</mi><mo>⁡</mo><mi>t</mi></mrow></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"y of t, equals 3 times sine t\"><math alttext=\"y of t, equals 3 times sine t\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi><mrow><mo>(</mo><mi>t</mi><mo>)</mo></mrow><mo>=</mo><mn>3</mn><mi>sin</mi><mo>⁡</mo><mi>t</mi></mrow></mstyle></math></span></span> for <span class=\"math_expression\"><span aria-label=\"0 less than or equal to t, less than or equal to 2 pi\"><math alttext=\"0 less than or equal to t, less than or equal to 2 pi\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0</mn><mo>≤</mo><mi>t</mi><mo>≤</mo><mn>2</mn><mi>π</mi></mrow></mstyle></math></span></span>. What is the perimeter of the ellipse?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"6.283\"><math alttext=\"6.283\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>6.283</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"15.865\"><math alttext=\"15.865\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>15.865</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"16.574\"><math alttext=\"16.574\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>16.574</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"40.841\"><math alttext=\"40.841\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>40.841</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22234",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><p class=\"standalone_statement style:1\"><span class=\"math_expression\"><span aria-label=\"The figure shows a 3-row table. The heading for row 1 is “x.” The heading for row 2 is “f prime of x.” The heading for row 3 is “f double prime of x.” There are 6 columns of data in the table. The data in the table are as follows. Column 1. x is 0. f prime of x is 0. f double prime of x is negative. Column 2. 0 is less than x, which is less than 2. f prime of x is negative. f double prime of x is negative. Column 3. x is 2. f prime of x does not exist. f double prime of x does not exist. Column 4. 2 is less than x, which is less than 4. f prime of x is positive. f double prime of x is negative. Column 5. x is 4. f prime of x does not exist. f double prime of x does not exist. Column 6. 4 is less than x, which is less than 8. f prime of x is negative. f double prime of x is positive.\"><math alttext=\"The figure shows a 3-row table. The heading for row 1 is “x.” The heading for row 2 is “f prime of x.” The heading for row 3 is “f double prime of x.” There are 6 columns of data in the table. The data in the table are as follows. Column 1. x is 0. f prime of x is 0. f double prime of x is negative. Column 2. 0 is less than x, which is less than 2. f prime of x is negative. f double prime of x is negative. Column 3. x is 2. f prime of x does not exist. f double prime of x does not exist. Column 4. 2 is less than x, which is less than 4. f prime of x is positive. f double prime of x is negative. Column 5. x is 4. f prime of x does not exist. f double prime of x does not exist. Column 6. 4 is less than x, which is less than 8. f prime of x is negative. f double prime of x is positive.\" display=\"inline\" overflow=\"scroll\"><mtable columnlines=\"solid solid solid solid solid solid none\" frame=\"solid\" rowlines=\"solid solid none\"><mtr><mtd><mi>x</mi></mtd><mtd><mn>0</mn></mtd><mtd><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>2</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>2</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>4</mn></mtd><mtd><mn>4</mn></mtd><mtd><mn>4</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>8</mn></mtd></mtr><mtr><mtd><msup><mi>f</mi><mo>′</mo></msup><mpadded><mo>(</mo><mpadded><mi>x</mi></mpadded><mo>)</mo></mpadded></mtd><mtd><mn>0</mn></mtd><mtd><mtext>Negative</mtext></mtd><mtd><mtext>Does not exist</mtext></mtd><mtd><mtext>Positive</mtext></mtd><mtd><mtext>Does not exist</mtext></mtd><mtd><mtext>Negative</mtext></mtd></mtr><mtr><mtd><msup><mi>f</mi><mo>″</mo></msup><mpadded><mo>(</mo><mpadded><mi>x</mi></mpadded><mo>)</mo></mpadded></mtd><mtd><mtext>Negative</mtext></mtd><mtd><mtext>Negative</mtext></mtd><mtd><mtext>Does not exist</mtext></mtd><mtd><mtext>Negative</mtext></mtd><mtd><mtext>Does not exist</mtext></mtd><mtd><mtext>Positive</mtext></mtd></mtr></mtable></math></span></span></p></div></div><p class=\"stem_paragraph\">The first and second derivatives of a function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> have the properties given in the table above. Which of the following could be the graph of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y plane, with the origin labeled O. The numbers negative 1 through 8, in increments of 1, are indicated on the x axis. The numbers negative 3 through 6, in increments of 1, are indicated on the y axis. The curve begins as concave up at the point with coordinates negative 1 comma 0.5, and curves downward and to the right until it levels off and reaches a minimum at the origin. It then moves upward and to the right to reach a sharp local maximum at the point with coordinates 2 comma 2. The curve then moves downward and to the right while remaining concave up until it levels off and reaches a minimum at the point with coordinates 4 comma 0. The curve then changes to concave down and moves sharply upward and to the right, and levels off as it reaches a maximum at the point with coordinates 8 comma 4.\" src=\"https://assets.learnosity.com/organisations/537/VR187062.g12.png\"/></div></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y plane, with the origin labeled O. The numbers negative 1 through 8, in increments of 1, are indicated on the x axis. The numbers negative 3 through 6, in increments of 1, are indicated on the y axis. The curve begins as concave down at the point with coordinates negative 1 comma 3, and moves upward and to the right until it levels off and reaches a maximum at the point with coordinates 0 comma 4. It then curves downward and to the right while remaining concave down until it reaches a sharp local minimum at the point with coordinates 2 comma 0. The curve then moves sharply upward and to the right while remaining concave down until it levels off and reaches a local maximum at the point with coordinates 4 comma 2. The curve then changes to concave up and moves sharply downward and to the right, crosses the x axis, and levels off as it reaches a minimum at the point with coordinates 8 comma negative 2.\" src=\"https://assets.learnosity.com/organisations/537/VR187062.g24.png\"/></div></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y plane, with the origin labeled O. The numbers negative 1 through 8, in increments of 1, are indicated on the x axis. The numbers negative 3 through 6, in increments of 1, are indicated on the y axis. The curve begins as concave down at the point with coordinates negative 1 comma 1.5, and moves upward and to the right until it levels off and reaches a local maximum at the point with coordinates 0 comma 2. It then moves downward and to the right while remaining concave down until it reaches a sharp minimum at the point with coordinates 2 comma 0. The curve then changes to concave up and moves upward and to the right until it reaches a sharp maximum at the point with coordinates 4 comma 4. The curve then moves sharply downward and to the right while remaining concave up, and levels off as it reaches a minimum at the point with coordinates 8 comma 0.\" src=\"https://assets.learnosity.com/organisations/537/VR187062.g26.png\"/></div></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"standalone_image\"><img alt=\"The figure shows the graph of a curve in the x y plane, with the origin labeled O. The numbers negative 1 through 8, in increments of 1, are indicated on the x axis. The numbers negative 3 through 6, in increments of 1, are indicated on the y axis. The curve begins as concave down at the point with coordinates negative 1 comma negative 2.5, and moves upward and to the right. It passes through the origin, then levels off as it approaches a local maximum at the point with coordinates 2 comma 2. The curve then changes to concave up and moves sharply downward and to the right until it levels off and reaches a local minimum at the point with coordinates 4 comma 0. The curve then changes to concave down and moves sharply upward and to the right, and levels off as it reaches a maximum at the point with coordinates 8 comma 4.\" src=\"https://assets.learnosity.com/organisations/537/VR187062.g18.png\"/></div></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22072",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For a car driven <span class=\"math_expression\"><span aria-label=\"100\"><math alttext=\"100\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>100</mn></mrow></mstyle></math></span></span> kilometers at a constant speed, the amount of fuel used as a function of the speed is modeled by a differentiable function <span class=\"math_expression\"><span aria-label=\"F\"><math alttext=\"F\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>F</mi></mrow></mstyle></math></span></span>. Fuel is measured in liters, and speed is measured in kilometers per hour (<span class=\"math_expression\"><span aria-label=\"kilometers per hour\"><math alttext=\"kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mtext>km/hr</mtext></mrow></mstyle></math></span></span>). In this context, which of the following is a correct interpretation of the statement <span class=\"math_expression\"><span aria-label=\"F prime of 50, is greater than F prime of 80\"><math alttext=\"F prime of 50, is greater than F prime of 80\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>F</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mrow><mo>(</mo><mn>50</mn><mo>)</mo></mrow><mo>&gt;</mo><msup><mrow><mi>F</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>80</mn><mo>)</mo></mrow></mrow></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">Driving at <span class=\"math_expression\"><span aria-label=\"50 kilometers per hour\"><math alttext=\"50 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>50</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span> uses more fuel than driving at <span class=\"math_expression\"><span aria-label=\"80 kilometers per hour\"><math alttext=\"80 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>80</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span>.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The rate at which <span class=\"math_expression\"><span aria-label=\"50\"><math alttext=\"50\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>50</mn></mrow></mstyle></math></span></span> liters of fuel is used is greater than the rate at which <span class=\"math_expression\"><span aria-label=\"80\"><math alttext=\"80\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>80</mn></mrow></mstyle></math></span></span> liters of fuel is used.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The rate of change of the speed is greater when driving at <span class=\"math_expression\"><span aria-label=\"50 kilometers per hour\"><math alttext=\"50 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>50</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span> than when driving at <span class=\"math_expression\"><span aria-label=\"80 kilometers per hour\"><math alttext=\"80 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>80</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span>.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The rate of change of liters of fuel used with respect to the speed is greater when driving at <span class=\"math_expression\"><span aria-label=\"50 kilometers per hour\"><math alttext=\"50 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>50</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span> than when driving at <span class=\"math_expression\"><span aria-label=\"80 kilometers per hour\"><math alttext=\"80 kilometers per hour\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>80</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.4em\"></mspace><mtext>km/hr</mtext></mrow></mstyle></math></span></span>.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22070",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><p class=\"standalone_statement style:1\"><span class=\"math_expression\"><span aria-label=\"The figure shows a two row table with three columns of data. The heading for row 1 is “x.” The heading for row 2 is “g of x.” The data in the table are as follows. Column 1. x is 2. g of x is negative 2. Column 2. x is 3. g of x is 1. Column 3. x is 4. g of x is negative 4.\"><math alttext=\"The figure shows a two row table with three columns of data. The heading for row 1 is “x.” The heading for row 2 is “g of x.” The data in the table are as follows. Column 1. x is 2. g of x is negative 2. Column 2. x is 3. g of x is 1. Column 3. x is 4. g of x is negative 4.\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mtable columnlines=\"solid\" equalcolumns=\"true\" equalrows=\"true\" frame=\"solid\" rowlines=\"solid\" width=\"auto\"><mtr><mtd><mi>x</mi></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mtd><mtd><mrow><mo>−</mo><mn>2</mn></mrow></mtd><mtd><mn>1</mn></mtd><mtd><mrow><mo>−</mo><mn>4</mn></mrow></mtd></mtr></mtable></mrow></mstyle></math></span></span></p></div></div><p class=\"stem_paragraph\">Selected values of the continuous function <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> are given in the table above. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">The minimum value of <span class=\"math_expression\"><span aria-label=\"g\"><math alttext=\"g\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi></mrow></mstyle></math></span></span> on the interval <span class=\"math_expression\"><span aria-label=\"open bracket, 2 comma 4, close bracket\"><math alttext=\"open bracket, 2 comma 4, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span> is <span class=\"math_expression\"><span aria-label=\"negative 4\"><math alttext=\"negative 4\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>−</mo><mn>4</mn></mrow></mrow></mstyle></math></span></span>.</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of x equals negative 1\"><math alttext=\"g prime of x equals negative 1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mrow><mo>−</mo><mn>1</mn></mrow></mrow></mstyle></math></span></span> has at least one solution in the interval <span class=\"math_expression\"><span aria-label=\"open bracket, 2 comma 4, close bracket\"><math alttext=\"open bracket, 2 comma 4, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span>.</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g prime of x equals 0\"><math alttext=\"g prime of x equals 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><msup><mrow><mi>g</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></mstyle></math></span></span> has at least two solutions in the interval <span class=\"math_expression\"><span aria-label=\"open bracket, 2 comma 4, close bracket\"><math alttext=\"open bracket, 2 comma 4, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span>.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"g of x equals 0\"><math alttext=\"g of x equals 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>g</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mn>0</mn></mrow></mstyle></math></span></span> has at least two solutions in the interval <span class=\"math_expression\"><span aria-label=\"open bracket, 2 comma 4, close bracket\"><math alttext=\"open bracket, 2 comma 4, close bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>]</mo></mrow></mrow></mstyle></math></span></span>.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22181",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be a continuous function such that <span class=\"math_expression\"><span aria-label=\"f of x equals, f of negative x\"><math alttext=\"f of x equals, f of negative x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mrow><mo>−</mo><mi>x</mi></mrow><mo>)</mo></mrow></mrow></mstyle></math></span></span> for all <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi></mrow></mstyle></math></span></span>. If <span class=\"math_expression\"><span aria-label=\"the integral from negative 2 to 0, of, f of x, d x, equals 4\"><math alttext=\"the integral from negative 2 to 0, of, f of x, d x, equals 4\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mo>−</mo><mn>2</mn></mrow><mrow><mn>0</mn></mrow></msubsup><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle><mo>=</mo><mn>4</mn></mrow></math></span></span> and <span class=\"math_expression\"><span aria-label=\"the integral from 1 to 2, of, f of x, d x, equals 1\"><math alttext=\"the integral from 1 to 2, of, f of x, d x, equals 1\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></msubsup><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle><mo>=</mo><mn>1</mn></mrow></math></span></span>, what is the value of <span class=\"math_expression\"><span aria-label=\"the integral from 0 to 1, of, f of x, d x\"><math alttext=\"the integral from 0 to 1, of, f of x, d x\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mn>0</mn></mrow><mrow><mn>1</mn></mrow></msubsup><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 5\"><math alttext=\"negative 5\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>5</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"3\"><math alttext=\"3\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>3</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"5\"><math alttext=\"5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>5</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22215",
+          "type": "single",
+          "prompt": "<div> <div class=\"stimulus_reference\"> <div class=\"standalone_image text-left\"> </div> <div class=\"standalone_image text-left\"> </div> <div class=\"standalone_image text-left\"> </div> <div class=\"standalone_image\"><img alt=\"The figure shows three graphs labeled 1, 2, and 3. Each graph is in a separate x y coordinate plane, each with the origin labeled O. In each graph, the values a, and b are indicated on the x axis, to the right of the origin, such that b is to the right of a. Graph 1 consists of a line segment that begins at a point where x equals a, just above the x axis. It moves upward and to the right until it ends at a point where x equals b, high above the x axis. Graph 2 consists of a parabola that opens downward. The parabola begins at a point where x equals a, just above the x axis, reaches a maximum approximately halfway between x equals a, and x equals b, high above the x axis, and ends at a point where x equals b, just above the x axis. Graph 3 consists of a curve that begins at a point where x equals a, high above the x axis. It moves steeply downward and to the right initially, then moves more slowly downward and to the right until it ends at a point where x equals b, just above the x axis.\" class=\"text-left\" src=\"https://assets.learnosity.com/organisations/537/VR187285.g08.png\" /></div> </div> </div> <p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be a continuous function that satisfies the condition <span class=\"math_expression\"><span aria-label=\"the fraction with numerator 1, and denominator b minus a, end fraction, times the integral from a, to b, of, f of x, d x, equals f of c\"><math alttext=\"the fraction with numerator 1, and denominator b minus a, end fraction, times the integral from a, to b, of, f of x, d x, equals f of c\" overflow=\"scroll\"><mrow><mstyle><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow></mfrac><mo>⁢</mo><mstyle displaystyle=\"true\"><mrow><msubsup><mrow><mo>∫</mo></mrow><mrow><mi>a</mi></mrow><mrow><mi>b</mi></mrow></msubsup><mrow><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow><mo>ⅆ</mo><mrow><mi>x</mi></mrow></mrow></mstyle></mrow></mstyle><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mi>c</mi><mo>)</mo></mrow></mrow></math></span></span> for exactly one value of <span class=\"math_expression\"><span aria-label=\"c\"><math alttext=\"c\" overflow=\"scroll\"><mstyle><mrow><mi>c</mi></mrow></mstyle></math></span></span>, where <span class=\"math_expression\"><span aria-label=\"a, is less than c, which is less than b\"><math alttext=\"a, is less than c, which is less than b\" overflow=\"scroll\"><mrow><mi>a</mi><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mi>b</mi></mrow></math></span></span>. Which of the graphs above could be the graph of <span class=\"math_expression\"><span aria-label=\"y equals f of x\"><math alttext=\"y equals f of x\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">I only</p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">II only</p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">I and III only</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">II and III only</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22174",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">For time <span class=\"math_expression\"><span aria-label=\"t greater than or equal to 0\"><math alttext=\"t greater than or equal to 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>≥</mo><mn>0</mn></mrow></mstyle></math></span></span>, the velocity of a particle moving in the <span class=\"math_expression\"><span aria-label=\"x y\"><math alttext=\"x y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mi>y</mi></mrow></mstyle></math></span></span>-plane is given by the vector <span class=\"math_expression\"><span aria-label=\"open angled bracket, t to the fifth power, comma, open parenthesis, 1 plus the square root of t, close parenthesis, squared, close angled bracket\"><math alttext=\"open angled bracket, t to the fifth power, comma, open parenthesis, 1 plus the square root of t, close parenthesis, squared, close angled bracket\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mo>⟨</mo><msup><mrow><mi>t</mi></mrow><mrow><mn>5</mn></mrow></msup><mo>,</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><msqrt><mrow><mi>t</mi></mrow></msqrt><mo>)</mo></mrow><mrow><mn>2</mn></mrow></msup><mo>⟩</mo></mrow></mstyle></math></span></span>. At time <span class=\"math_expression\"><span aria-label=\"t equals 1\"><math alttext=\"t equals 1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow></mstyle></math></span></span>, the position of the particle is <span class=\"math_expression\"><span aria-label=\"4 comma 3\"><math alttext=\"4 comma 3\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></mstyle></math></span></span>. What is the distance between the position of the particle at time <span class=\"math_expression\"><span aria-label=\"t equals 1\"><math alttext=\"t equals 1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow></mstyle></math></span></span> and the position of the particle at time <span class=\"math_expression\"><span aria-label=\"t equals 2\"><math alttext=\"t equals 2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></mstyle></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"11.603\"><math alttext=\"11.603\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>11.603</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"12.129\"><math alttext=\"12.129\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>12.129</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"28.142\"><math alttext=\"28.142\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>28.142</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"76.011\"><math alttext=\"76.011\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>76.011</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22207",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>R</mi></mrow></mstyle></math></span></span> be the region in the first quadrant bounded by the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi></mrow></mstyle></math></span></span>-axis, the line <span class=\"math_expression\"><span aria-label=\"y equals 2\"><math alttext=\"y equals 2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></mstyle></math></span></span>, and the curve <span class=\"math_expression\"><span aria-label=\"y equals, 2 times the cube root of x\"><math alttext=\"y equals, 2 times the cube root of x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mspace depth=\"0.0ex\" height=\"0.0ex\" width=\"0.15em\"></mspace><mroot><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></mroot></mrow></mstyle></math></span></span>. What is the volume of the solid formed by revolving <span class=\"math_expression\"><span aria-label=\"R\"><math alttext=\"R\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>R</mi></mrow></mstyle></math></span></span> about the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi></mrow></mstyle></math></span></span>-axis?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.500\"><math alttext=\"0.500\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0.500</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"0.898\"><math alttext=\"0.898\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>0.898</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1.571\"><math alttext=\"1.571\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>1.571</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"23.937\"><math alttext=\"23.937\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>23.937</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22123",
+          "type": "single",
+          "prompt": "<div><div class=\"stimulus_reference\"><p class=\"standalone_statement style:1\"><span class=\"math_expression\"><span aria-label=\"The figure shows a 3 column table. The heading for column 1 is “x.” The heading for column 2 is “f of x.” The heading for column 3 is “f prime of x.” There are 3 rows of data in the table. The data are as follows. Row 1. x is 1. f of x is 2. f prime of x is 3. Row 2. x is 2. f of x is 3. f prime of x is 4. Row 3. x is 3. f of x is 5. f prime of x is 2.\"><math alttext=\"The figure shows a 3 column table. The heading for column 1 is “x.” The heading for column 2 is “f of x.” The heading for column 3 is “f prime of x.” There are 3 rows of data in the table. The data are as follows. Row 1. x is 1. f of x is 2. f prime of x is 3. Row 2. x is 2. f of x is 3. f prime of x is 4. Row 3. x is 3. f of x is 5. f prime of x is 2.\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mtable columnlines=\"solid\" equalcolumns=\"true\" equalrows=\"true\" frame=\"solid\" rowlines=\"solid\" width=\"auto\"><mtr><mtd><mi>x</mi></mtd><mtd><mi>f</mi><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mtd><mtd><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mtd></mtr><mtr><mtd><mrow><mn>1</mn></mrow></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd><mtd><mn>5</mn></mtd><mtd><mrow><mn>2</mn></mrow></mtd></mtr></mtable></mrow></mstyle></math></span></span></p></div></div><p class=\"stem_paragraph\">The function <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> is increasing and differentiable. Selected values of <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> and its derivative <span class=\"math_expression\"><span aria-label=\"f prime\"><math alttext=\"f prime\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo></mrow></msup></mrow></math></span></span> are given in the table above. What is the value of <span class=\"math_expression\"><span aria-label=\"f inverse, prime, of 3\"><math alttext=\"f inverse, prime, of 3\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><mo>(</mo><msup><mrow><mi>f</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mspace depth=\"0.0ex\" height=\"2.4ex\" width=\"0.0em\"></mspace><mo>)</mo></mrow><mrow><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow></mrow></math></span></span> ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one fourth\"><math alttext=\"one fourth\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"one half\"><math alttext=\"one half\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"1\"><math alttext=\"1\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>1</mn></mrow></mstyle></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22080",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">If <span class=\"math_expression\"><span aria-label=\"the sum, from n equals 1 to infinity, of, a, sub n, equals 5\"><math alttext=\"the sum, from n equals 1 to infinity, of, a, sub n, equals 5\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mstyle displaystyle=\"true\"><mrow><munderover><mrow><mo>∑</mo></mrow><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mrow><mi>∞</mi></mrow></munderover></mrow></mstyle><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mn>5</mn></mrow></mstyle></math></span></span> and <span class=\"math_expression\"><span aria-label=\"a, sub n is greater than 0\"><math alttext=\"a, sub n is greater than 0\" display=\"inline\" overflow=\"scroll\"><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>&gt;</mo><mn>0</mn></mrow></math></span></span> for all <span class=\"math_expression\"><span aria-label=\"n\"><math alttext=\"n\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>n</mi></mrow></mstyle></math></span></span>, which of the following must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the limit as n approaches infinity, of, a, sub n, equals 0\"><math alttext=\"the limit as n approaches infinity, of, a, sub n, equals 0\" display=\"inline\" overflow=\"scroll\"><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the limit as n approaches infinity, of, a, sub n, equals 5\"><math alttext=\"the limit as n approaches infinity, of, a, sub n, equals 5\" display=\"inline\" overflow=\"scroll\"><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub><mo>=</mo><mn>5</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the limit as n approaches infinity, of the absolute value of, the fraction with numerator a, sub n plus 1, end sub, and denominator a, sub n, end fraction, end absolute value, equals 0\"><math alttext=\"the limit as n approaches infinity, of the absolute value of, the fraction with numerator a, sub n plus 1, end sub, and denominator a, sub n, end fraction, end absolute value, equals 0\" display=\"inline\" overflow=\"scroll\"><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo>|</mo><mstyle><mrow><mfrac><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow></mfrac></mrow></mstyle><mo>|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"the limit as n approaches infinity, of the absolute value of, the fraction with numerator a, sub n plus 1, end sub, and denominator a, sub n, end fraction, end absolute value, equals 1\"><math alttext=\"the limit as n approaches infinity, of the absolute value of, the fraction with numerator a, sub n plus 1, end sub, and denominator a, sub n, end fraction, end absolute value, equals 1\" display=\"inline\" overflow=\"scroll\"><mrow><munder><mrow><mi>lim</mi></mrow><mrow><mi>n</mi><mo>→</mo><mi>∞</mi></mrow></munder><mrow><mo>|</mo><mstyle><mrow><mfrac><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><mrow><msub><mrow><mi>a</mi></mrow><mrow><mi>n</mi></mrow></msub></mrow></mfrac></mrow></mstyle><mo>|</mo></mrow><mo>=</mo><mn>1</mn></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22187",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">A particle moves along the curve <span class=\"math_expression\"><span aria-label=\"y equals, the fraction with numerator 15, and denominator x squared, plus 1.3 to the x power, end fraction\"><math alttext=\"y equals, the fraction with numerator 15, and denominator x squared, plus 1.3 to the x power, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>15</mn></mrow><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mn>1.3</mn></mrow><mrow><mi>x</mi></mrow></msup></mrow></mfrac></mrow></math></span></span> for <span class=\"math_expression\"><span aria-label=\"x greater than 0\"><math alttext=\"x greater than 0\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></mstyle></math></span></span>. The <span class=\"math_expression\"><span aria-label=\"x\"><math alttext=\"x\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>x</mi></mrow></mstyle></math></span></span>-coordinate of the particle changes at a constant rate of <span class=\"math_expression\"><span aria-label=\"3\"><math alttext=\"3\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>3</mn></mrow></mstyle></math></span></span> units per second. At the instant when the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi></mrow></mstyle></math></span></span>-coordinate of the particle is <span class=\"math_expression\"><span aria-label=\"2\"><math alttext=\"2\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mn>2</mn></mrow></mstyle></math></span></span>, what is the rate of change of the <span class=\"math_expression\"><span aria-label=\"y\"><math alttext=\"y\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>y</mi></mrow></mstyle></math></span></span>-coordinate of the particle, in units per second?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 0.466\"><math alttext=\"negative 0.466\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>0.466</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 0.787\"><math alttext=\"negative 0.787\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>0.787</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 1.397\"><math alttext=\"negative 1.397\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>1.397</mn></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"negative 4.190\"><math alttext=\"negative 4.190\" display=\"inline\" overflow=\"scroll\"><mrow><mo>−</mo><mn>4.190</mn></mrow></math></span></span></p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22254",
+          "type": "single",
+          "prompt": "<p class=\"stem_paragraph\">Let <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> be a function with derivatives of all orders. If <span class=\"math_expression\"><span aria-label=\"P sub 3, of x\"><math alttext=\"P sub 3, of x\" display=\"inline\" overflow=\"scroll\"><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> is the third-degree Taylor polynomial for <span class=\"math_expression\"><span aria-label=\"f\"><math alttext=\"f\" display=\"inline\" overflow=\"scroll\"><mstyle><mrow><mi>f</mi></mrow></mstyle></math></span></span> about <span class=\"math_expression\"><span aria-label=\"x equals 0\"><math alttext=\"x equals 0\" display=\"inline\" overflow=\"scroll\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math></span></span>, which of the following statements about <span class=\"math_expression\"><span aria-label=\"P sub 3, of x\"><math alttext=\"P sub 3, of x\" display=\"inline\" overflow=\"scroll\"><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"P sub 3, triple prime, of 0, equals f triple prime of 0\"><math alttext=\"P sub 3, triple prime, of 0, equals f triple prime of 0\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub></mrow><mrow><mo>′</mo><mo>′</mo><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow><mo>=</mo><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo><mo>′</mo><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "B",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\"><span class=\"math_expression\"><span aria-label=\"P sub 3, triple prime, of 0, equals, the fraction with numerator f triple prime of 0, and denominator 3 factorial, end fraction\"><math alttext=\"P sub 3, triple prime, of 0, equals, the fraction with numerator f triple prime of 0, and denominator 3 factorial, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><msup><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub></mrow><mrow><mo>′</mo><mo>′</mo><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><msup><mrow><mi>f</mi></mrow><mrow><mo>′</mo><mo>′</mo><mo>′</mo></mrow></msup><mrow><mo>(</mo><mn>0</mn><mo>)</mo></mrow></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac></mrow></math></span></span></p></div>"
+            },
+            {
+              "key": "C",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">One of the terms of <span class=\"math_expression\"><span aria-label=\"P sub 3, of x\"><math alttext=\"P sub 3, of x\" display=\"inline\" overflow=\"scroll\"><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> is <span class=\"math_expression\"><span aria-label=\"the fraction x squared, over 2\"><math alttext=\"the fraction x squared, over 2\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mstyle></mrow></math></span></span>.</p></div>"
+            },
+            {
+              "key": "D",
+              "content": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p class=\"choice_paragraph\">One of the terms of <span class=\"math_expression\"><span aria-label=\"P sub 3, of x\"><math alttext=\"P sub 3, of x\" display=\"inline\" overflow=\"scroll\"><mrow><msub><mrow><mi>P</mi></mrow><mrow><mn>3</mn></mrow></msub><mrow><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mrow></math></span></span> is <span class=\"math_expression\"><span aria-label=\"the fraction with numerator x cubed, and denominator 3 factorial, end fraction\"><math alttext=\"the fraction with numerator x cubed, and denominator 3 factorial, end fraction\" display=\"inline\" overflow=\"scroll\"><mrow><mstyle displaystyle=\"true\"><mrow><mfrac><mrow><msup><mrow><mi>x</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow><mrow><mn>3</mn><mo>!</mo></mrow></mfrac></mrow></mstyle></mrow></math></span></span>.</p></div>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22091",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22091",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22091",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22091",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22097",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22097",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22097",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22097",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22041",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22041",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22041",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22041",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22048",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22048",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22048",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22048",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22053",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22053",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22053",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22053",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22260",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22260",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22260",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22260",
+          "type": "single",
+          "prompt": "",
+          "options": [],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

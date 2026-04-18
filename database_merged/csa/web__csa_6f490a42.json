@@ -1,0 +1,123 @@
+{
+  "examId": "csa_6f490a42",
+  "title": "AP CSA 2019年北美卷",
+  "subjectName": "计算机科学A",
+  "yearLabel": "2019",
+  "description": "AP Computer Science A 2019年北美卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "csa_6f490a42-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "csa_frq_0",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">The APCalendar class contains methods used to calculate information about a calendar. You will write two methods of the class.<br/><pre><code class=\"language-\">public class APCalendar<br/>{<br/>    /** Returns true if year is a leap year and false otherwise. */<br/>    private static boolean isLeapYear(int year)<br/>    { /* implementation not shown */ }<br/>    /** Returns the number of leap years between year1 and year2, inclusive.<br/>        * Precondition: 0 &lt;= year1 &lt;= year2<br/>        */<br/>    public static int numberOfLeapYears(int year1, int year2)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Returns the value representing the day of the week for the first day of year,<br/>        * where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday.<br/>        */<br/>    private static int firstDayOfYear(int year)<br/>    { /* implementation not shown */ }<br/>    /** Returns n, where month, day, and year specify the nth day of the year.<br/>        * Returns 1 for January 1(month = 1, day = 1) of any year.<br/>        * Precondition: The date represented by month, day, year is a valid date.<br/>        */<br/>    private static int dayOfYear(int month, int day, int year)<br/>    { /* implementation not shown */ }<br/>    /** Returns the value representing the day of the week for the given date<br/>        * (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ...,<br/>        * and 6 denotes Saturday.<br/>        * Precondition: The date represented by month, day, year is a valid date.<br/>        */<br/>    public static int dayOfWeek(int month, int day, int year)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and other methods not shown.<br/>}</code></pre><br/><br/>^{ {® }}$ COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS}</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the static method numberOfLeapYears, which returns the number of leap years between year1 and year2, inclusive.<br/><br/>In order to calculate this value, a helper method is provided for you.<br/>- isLeapYear(year) returns true if year is a leap year and false otherwise.<br/><br/>Complete method numberOfLeapYears below. You must use isLeapYear appropriately to receive full credit.<br/><pre><code class=\"language-\">/** Returns the number of leap years between year1 and year2, inclusive.<br/>    * Precondition: 0 &lt;= year1 &lt;= year2<br/>    */<br/>public static int numberOfLeapYears(int year1, int year2)</code></pre>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the static method dayOfWeek, which returns the integer value representing the day of the week for the given date (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday. For example, 2019 began on a Tuesday, and January 5 is the fifth day of 2019. As a result, January 5, 2019, fell on a Saturday, and the method call dayOfWeek (1, 5, 2019)<br/>returns 6.<br/>As another example, January 10 is the tenth day of 2019. As a result, January 10, 2019, fell on a Thursday, and the method call dayOfWeek ( $1,10,2019$ ) returns 4.<br/><br/>In order to calculate this value, two helper methods are provided for you.<br/>- firstDayOfYear (year) returns the integer value representing the day of the week for the first day of year, where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday. For example, since 2019 began on a Tuesday, firstDayOfYear (2019) returns 2.<br/>- dayOfYear(month, day, year) returns $n$, where month, day, and year specify the $n$th day of the year. For the first day of the year, January 1 (month $=1$, day $=1$ ), the value 1 is returned. This method accounts for whether year is a leap year. For example, dayOfYear ( 3 , 1, 2017) returns 60, since 2017 is not a leap year, while dayOfYear ( 3 , 1, 2016) returns 61, since 2016 is a leap year.<br/><br/>Class information for this question<br/><pre><code class=\"language-\">public class APCalendar<br/>private static boolean isLeapYear(int year)<br/>public static int numberOfLeapYears(int year1, int year2)<br/>private static int firstDayOfYear(int year)<br/>private static int dayOfYear(int month, int day, int year)<br/>public static int dayOfWeek(int month, int day, int year)</code></pre><br/><br/>Complete method dayO£Week below. You must use firstDayOfYear and dayOfYear appropriately to receive full credit.<br/>/** Returns the value representing the day of the week for the given date<br/>* (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ...,<br/>* and 6 denotes Saturday.<br/>* Precondition: The date represented by month, day, year is a valid date.<br/>*/<br/>public static int dayOfWeek(int month, int day, int year)"
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_1",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">This question involves the implementation of a fitness tracking system that is represented by the StepTracker class. A StepTracker object is created with a parameter that defines the minimum number of steps that must be taken for a day to be considered active.<br/><br/>The StepTracker class provides a constructor and the following methods.<br/>- addDailySteps, which accumulates information about steps, in readings taken once per day<br/>- activeDays, which returns the number of active days<br/>- averageSteps, which returns the average number of steps per day, calculated by dividing the total number of steps taken by the number of days tracked<br/><br/>The following table contains a sample code execution sequence and the corresponding results.<br/><br/>{|l|l|l|}<br/> Statements and Expressions & Value Returned (blank if no value) & Comment <br/><br/> StepTracker tr = new StepTracker(10000); & & Days with at least 10,000 steps are considered active. Assume that the parameter is positive. <br/><br/> tr.activeDays(); & 0 & No data have been recorded yet. <br/><br/> tr.averageSteps(); & 0.0 & When no step data have been recorded, the averageSteps method returns 0.0. <br/><br/> tr.addDailySteps(9000); & & This is too few steps for the day to be considered active. <br/><br/> tr.addDailySteps(5000); & & This is too few steps for the day to be considered active. <br/><br/> tr.activeDays(); & 0 & No day had at least 10,000 steps. <br/><br/> tr.averageSteps(); & 7000.0 & The average number of steps per day is ( 14000 / 2). <br/><br/> tr.addDailySteps(13000); & & This represents an active day. <br/><br/> tr.activeDays(); & 1 & Of the three days for which step data were entered, one day had at least 10,000 steps. <br/><br/> tr.averageSteps(); & 9000.0 & The average number of steps per day is (27000 / 3). <br/><br/> tr.addDailySteps(23000); & & This represents an active day. <br/><br/> tr.addDailySteps(1111); & & This is too few steps for the day to be considered active. <br/><br/> tr.activeDays(); & 2 & Of the five days for which step data were entered, two days had at least 10,000 steps. <br/><br/> tr.averageSteps(); & 10222.2 & The average number of steps per day is (51111 / 5). <br/><br/><br/>Write the complete StepTracker class, including the constructor and any required instance variables and methods. Your implementation must meet all specifications and conform to the example.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_2",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Many encoded strings contain delimiters. A delimiter is a non-empty string that acts as a boundary between different parts of a larger string. The delimiters involved in this question occur in pairs that must be balanced, with each pair having an open delimiter and a close delimiter. There will be only one type of delimiter for each string. The following are examples of delimiters.<br/><br/>Example 1<br/>Expressions in mathematics use open parentheses \" (\" and close parentheses \") \" as delimiters. For each open parenthesis, there must be a matching close parenthesis.<br/>$$<br/>{ll}<br/>(x+y) * 5 &  { is a valid mathematical expression. } <br/><br/>(x+(y) & {l}<br/> { is NOT a valid mathematical expression because there are more open delimiters } <br/><br/> { than close delimiters. }<br/><br/>$$<br/><br/>Example 2<br/>HTML uses <B> and </B> as delimiters. For each open delimiter <B>, there must be a matching close delimiter </B>.<br/><pre><code class=\"language-\">&lt;B&gt; Make this text bold &lt;/B&gt; is valid HTML.<br/>&lt;B&gt; Make this text bold &lt;/UB&gt; is NOT valid HTML because there is one open delimiter and no matching close delimiter.</code></pre><br/><br/>In this question, you will write two methods in the following Delimiters class.<br/><pre><code class=\"language-\">public class Delimiters<br/>{<br/>    /** The open and close delimiters. */<br/>    private String openDel;<br/>    private String closeDel;<br/>    /** Constructs a Delimiters object where open is the open delimiter and close is the<br/>        * close delimiter.<br/>        * Precondition: open and close are non-empty strings.<br/>        */<br/>    public Delimiters(String open, String close)<br/>    {<br/>            openDel = open;<br/>            closeDel = close;<br/>    }<br/>    /** Returns an ArrayList of delimiters from the array tokens, as described in part (a). */<br/>    public ArrayList&lt;String&gt; getDelimitersList(String[] tokens)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Returns true if the delimiters are balanced and false otherwise, as described in part (b).<br/>        * Precondition: delimiters contains only valid open and close delimiters.<br/>        */<br/>    public boolean isBalanced(ArrayList&lt;String&gt; delimiters)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be instance variables, constructors, and methods that are not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "string containing text and possibly delimiters has been split into tokens and stored in String[] tokens. Each token is either an open delimiter, a close delimiter, or a substring that is not a delimiter. You will write the method getDelimitersList, which returns an ArrayList containing all the open and close delimiters found in tokens in their original order.<br/><br/>The following examples show the contents of an ArrayList returned by getDelimitersList for different open and close delimiters and different tokens arrays.<br/><br/><pre><code class=\"language-\">openDel: \"(\"<br/>closeDel: \")\"</code></pre><br/><br/>tokens: ArrayList<br/>of delimiters:<br/><br/>{|l|l|l|l|}<br/> \" (\" & \" $x+y$ \" & \")\" & \" * 5\" <br/><br/><br/>of delimiters:<br/>□<br/>\" (\"<br/><br/>\" ) \"<br/><br/><pre><code class=\"language-\">openDel: \"&lt;q&gt;\"<br/>closeDel: \"&lt;/q&gt;\"<br/>    tokens:<br/><br/>\\begin{tabular}{|r|c|c|c|c|}<br/>\\hline \"&lt;q&gt;\" &amp; \"yy\" &amp; \"&lt;/q&gt;\" &amp; \"zz\" &amp; \"&lt;/q&gt;\" \\\\<br/>\\hline<br/>\\end{tabular}<br/>ArrayList<br/>of delimiters:<br/><br/>\\begin{tabular}{|l|l|l|}<br/>\\hline \"&lt;q&gt;\" &amp; \"&lt;/q&gt;\" &amp; \"&lt;/q&gt;\" \\\\<br/>\\hline<br/>\\end{tabular}</code></pre><br/><br/>Complete method getDelimitersList below.<br/>/** Returns an ArrayList of delimiters from the array tokens, as described in part (a). */ public ArrayList<String> getDelimitersList(String[] tokens)"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the method isBalanced, which returns true when the delimiters are balanced and returns false otherwise. The delimiters are balanced when both of the following conditions are satisfied; otherwise, they are not balanced."
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_3",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">When traversing the ArrayList from the first element to the last element, there is no point at which there are more close delimiters than open delimiters at or before that point.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_4",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">The total number of open delimiters is equal to the total number of close delimiters.<br/><br/>Consider a Delimiters object for which openDel is \"<sup>\" and closeDel is \"</sup>\". The examples below show different ArrayList objects that could be returned by calls to getDelimitersList and the value that would be returned by call to isBalanced.<br/><br/>The following example shows an ArrayList for which isBalanced returns true. As tokens are examined from first to last, the number of open delimiters is always greater than or equal to the number of close delimiters. After examining all tokens, there are an equal number of open and close delimiters.<br/><br/>{|l|l|l|l|l|l|}<br/> \"<sup>\" & \"<sup>\" & \"</sup>\" & \"<sup>\" & \"</sup>\" & \"</sup>\" <br/><br/><br/>The following example shows an ArrayList for which isBalanced returns false.<br/><br/>{|c|c|c|c|}<br/> \"<sup>\" & \"</sup>\" & \"</sup>\" & \"<sup>\" <br/><br/> 4{|c}{$$}<br/><br/>labelformat=empty<br/>When starting from the left, at this point, condition 1 is violated.<br/><br/>The following example shows an ArrayList for which isBalanced returns false.<br/>![](https://cdn.mathpix.com/cropped/0ac82fad-7258-44e0-9e0a-1b54972b1ef5-13.jpg?height=113&width=240&top_left_y=1553&top_left_x=283)<br/><br/>At this point, condition 1 is violated.<br/><br/>The following example shows an ArrayList for which isBalanced returns false because the second condition is violated. After examining all tokens, there are not an equal number of open and close delimiters.<br/><br/>{|l|l|l|}<br/> \"<sup>\" & \"<sup>\" & \"</sup>\" <br/><br/><br/><pre><code class=\"language-\">Class information for this question<br/>public class Delimiters<br/>private String openDel<br/>private String closeDel<br/>public Delimiters(String open, String close)<br/>public ArrayList&lt;String&gt; getDelimitersList(String[] tokens)<br/>public boolean isBalanced(ArrayList&lt;String&gt; delimiters)</code></pre><br/><br/>Complete method isBalanced below.<br/><pre><code class=\"language-\">/** Returns true if the delimiters are balanced and false otherwise, as described in part (b).<br/>    * Precondition: delimiters contains only valid open and close delimiters.<br/>    */<br/>public boolean isBalanced(ArrayList&lt;String&gt; delimiters)</code></pre></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_5",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">The LightBoard class models a two-dimensional display of lights, where each light is either on or off, as represented by a Boolean value. You will implement a constructor to initialize the display and a method to evaluate a light.<br/><pre><code class=\"language-\">public class LightBoard<br/>{<br/>    /** The lights on the board, where true represents on and false represents off.<br/>        */<br/>    private boolean[][] lights;<br/>    /** Constructs a LightBoard object having numRows rows and numCols columns.<br/>        * Precondition: numRows &gt; 0, numCols &gt; 0<br/>        * Postcondition: each light has a 40% probability of being set to on.<br/>        */<br/>    public LightBoard(int numRows, int numCols)<br/>    { /* to be implemented in part (a) */ }<br/>    /** Evaluates a light in row index row and column index col and returns a status<br/>        * as described in part (b).<br/>        * Precondition: row and col are valid indexes in lights.<br/>        */<br/>    public boolean evaluateLight(int row, int col)<br/>    { /* to be implemented in part (b) */ }<br/>    // There may be additional instance variables, constructors, and methods not shown.<br/>}</code></pre></p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "rite the constructor for the LightBoard class, which initializes lights so that each light is set to on with a $40 %$ probability. The notation lights [r] [c] represents the array element at row $r$ and column c.<br/><br/>Complete the LightBoard constructor below.<br/>/** Constructs a LightBoard object having numRows rows and numCols columns.<br/>* Precondition: numRows > 0, numCols > 0<br/>* Postcondition: each light has a $40 %$ probability of being set to on.<br/>*/<br/>public LightBoard(int numRows, int numCols)"
+            },
+            {
+              "partSign": "b",
+              "partContent": "rite the method evaluateLight, which computes and returns the status of a light at a given row and column based on the following rules."
+            }
+          ],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_6",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">If the light is on, return false if the number of lights in its column that are on is even, including the current light.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_7",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">If the light is off, return true if the number of lights in its column that are on is divisible by three.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        },
+        {
+          "id": "csa_frq_8",
+          "type": "free-response",
+          "prompt": "<p class=\"stem_paragraph\">Otherwise, return the light's current status.<br/><br/>For example, suppose that LightBoard sim = new LightBoard(7, 5) creates a light board with the initial state shown below, where true represents a light that is on and false represents a light that is off. Lights that are off are shaded.<br/>lights<br/><br/>{|l|l|l|l|l|l|}<br/> & 0 & 1 & 2 & 3 & 4 <br/><br/> 0 & true & true & false & true & true <br/><br/> 1 & true & false & false & true & false <br/><br/> 2 & true & false & false & true & true <br/><br/> 3 & true & false & false & false & true <br/><br/> 4 & true & false & false & false & true <br/><br/> 5 & true & true & false & true & true <br/><br/> & false & false & false & false & false <br/><br/><br/>Sample calls to evaluateLight are shown below.<br/><br/>{|l|l|l|}<br/> Call to evaluateLight & Value Returned & Explanation <br/><br/> sim.evaluateLight(0, 3); & false & The light is on, and the number of lights that are on in its column is even. <br/><br/> sim.evaluateLight(6, 0); & true & The light is off, and the number of lights that are on in its column is divisible by 3 . <br/><br/> sim.evaluateLight(4, 1); & false & Returns the light's current status. <br/><br/> sim.evaluateLight(5, 4); & true & Returns the light's current status. <br/><br/><br/>© 2019 The College Board.<br/><pre><code class=\"language-\">Class information for this question<br/>public class LightBoard<br/>private boolean[][] lights<br/>public LightBoard(int numRows, int numCols)<br/>public boolean evaluateLight(int row, int col)</code></pre><br/><br/>Complete the evaluateLight method below.<br/>/** Evaluates a light in row index row and column index col and returns a status<br/>* as described in part (b).<br/>* Precondition: row and col are valid indexes in lights.<br/>*/<br/>public boolean evaluateLight(int row, int col)<br/><br/><h2><br/>STOP <br/> END OF EXAM<br/></h2></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

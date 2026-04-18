@@ -7,18 +7,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <style>
     /* ========== CSS Reset & Variables ========== */
-    :root {
-      --bg: #0a0f1c;
-      --card-bg: #111827;
-      --primary: #3b82f6;
-      --success: #22c55e;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
-      --border: #1f2937;
-      --border-light: #374151;
-    }
+    /* Colors from global-theme.css */
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -376,6 +365,7 @@
       .quick-actions { grid-template-columns: 1fr; }
     }
   </style>
+  <link rel="stylesheet" href="../assets/global-theme.css">
 </head>
 <body>
   <!-- Top Navigation -->
@@ -639,6 +629,60 @@
       return String(left.name || '').localeCompare(String(right.name || ''));
     }
 
+    // --- MCQ Accuracy from answer keys ---
+    const CALC_BC_ANSWER_KEY_PATHS = {
+      '1902622411338911744': '../v2/data/calc-bc-2017-intl/questions.json',
+      '1902622411800285184': '../v2/data/calc-bc-2018-intl/questions.json'
+    };
+
+    let dashboardAnswerKeyCache = {};
+
+    async function loadDashboardAnswerKey(examKey) {
+      if (dashboardAnswerKeyCache[examKey] !== undefined) return dashboardAnswerKeyCache[examKey];
+      const path = CALC_BC_ANSWER_KEY_PATHS[examKey];
+      if (!path) { dashboardAnswerKeyCache[examKey] = null; return null; }
+      try {
+        const resp = await fetch(path);
+        if (!resp.ok) { dashboardAnswerKeyCache[examKey] = null; return null; }
+        const questions = await resp.json();
+        const map = {};
+        if (Array.isArray(questions)) {
+          questions.forEach(q => {
+            if (q.question_id && q.correct_answer) {
+              map[String(q.question_id)] = String(q.correct_answer).trim().toUpperCase();
+            }
+          });
+        }
+        dashboardAnswerKeyCache[examKey] = Object.keys(map).length > 0 ? map : null;
+        return dashboardAnswerKeyCache[examKey];
+      } catch { dashboardAnswerKeyCache[examKey] = null; return null; }
+    }
+
+    function computeDashboardMcqAccuracy(attemptState, examKey, answerKey) {
+      if (!attemptState || !answerKey) return null;
+      let totalMcq = 0, correctMcq = 0;
+      const sections = attemptState.sectionStates || [];
+      let seq = 0;
+      sections.forEach((ss) => {
+        const answers = Array.isArray(ss.answers) ? ss.answers : [];
+        answers.forEach((answer) => {
+          seq += 1;
+          const qId = `q${seq}`;
+          const correct = answerKey[qId];
+          if (!correct) return; // no answer key for this question (FRQ or missing)
+          totalMcq += 1;
+          if (isDashboardAnswerFilled(answer)) {
+            const userAns = String(Array.isArray(answer) ? answer.join(',') : answer).trim().toUpperCase();
+            if (userAns === correct) correctMcq += 1;
+          }
+        });
+      });
+      if (totalMcq === 0) return null;
+      const rate = Math.round((correctMcq / totalMcq) * 100);
+      const estimatedScore = (correctMcq / totalMcq) >= 0.85 ? 5 : (correctMcq / totalMcq) >= 0.70 ? 4 : (correctMcq / totalMcq) >= 0.55 ? 3 : (correctMcq / totalMcq) >= 0.40 ? 2 : 1;
+      return { totalMcq, correctMcq, rate, estimatedScore };
+    }
+
     function buildCalcBcDashboardOverlay(attemptState, resources, trainingCompletions) {
       // Build trained branch set from completions
       const trainedBranchIds = new Set();
@@ -757,6 +801,20 @@
         calcBcSubject.units = overlay.units;
         calcBcSubject.recentActivity = overlay.recentActivity;
         calcBcSubject.dashboardSource = 'local';
+      }
+
+      // Load real MCQ accuracy from answer keys
+      if (examKey) {
+        const answerKey = await loadDashboardAnswerKey(examKey);
+        if (answerKey) {
+          const accuracy = computeDashboardMcqAccuracy(attemptState, examKey, answerKey);
+          if (accuracy) {
+            calcBcSubject.mcqScore = accuracy.correctMcq;
+            calcBcSubject.mcqTotal = accuracy.totalMcq;
+            calcBcSubject.fiveProbability = accuracy.rate;
+            calcBcSubject.predictedScore = accuracy.estimatedScore;
+          }
+        }
       }
 
       return subjects;

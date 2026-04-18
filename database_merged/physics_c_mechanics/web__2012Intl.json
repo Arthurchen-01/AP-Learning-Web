@@ -1,0 +1,1270 @@
+{
+  "examId": "2012Intl",
+  "title": "AP 物理C力学 2012年真题",
+  "subjectName": "物理C力学",
+  "subjectId": "physics-c-mech",
+  "yearLabel": "2012",
+  "description": "AP 物理C力学 2012年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2012Intl-mcq",
+      "title": "Section I: Multiple Choice",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 95,
+      "directions": "",
+      "questions": [
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "An object with initial velocity $\\mathbf{v}_{0}$, as shown above, slides up and then down a long, frictionless, inclined plane. Which of the following is true of the object as it moves?",
+          "options": [
+            {
+              "key": "A",
+              "content": "It has a constant acceleration while moving up the plane and a greater acceleration when moving down the plane."
+            },
+            {
+              "key": "B",
+              "content": "It has a constant acceleration while moving up the plane and a smaller acceleration when moving down the plane."
+            },
+            {
+              "key": "C",
+              "content": "It moves with a constant velocity both up and down the plane."
+            },
+            {
+              "key": "D",
+              "content": "It has the same acceleration as it moves up and down the plane."
+            },
+            {
+              "key": "E",
+              "content": "It has a continually varying acceleration as it moves up and down the plane. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-21.jpg?height=431&width=270&top_left_y=109&top_left_x=449)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "Two blocks of masses $m_{1}$ and $m_{2}$ are connected by a massless string that passes over a wheel of mass $m$, as shown above. The string does not slip on the wheel and exerts forces $T_{1}$ and $T_{2}$ on the blocks. When the wheel is released from rest in the position shown, it undergoes an angular acceleration and rotates clockwise. Which of the following statements about $T_{1}$ and $T_{2}$ is correct?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$T_{1}=T_{2}$ because the wheel has mass."
+            },
+            {
+              "key": "B",
+              "content": "$T_{1}=T_{2}$ because both blocks have the same acceleration."
+            },
+            {
+              "key": "C",
+              "content": "$T_{1}>T_{2}$ because $m_{1}$ is farther from the wheel than $m_{2}$."
+            },
+            {
+              "key": "D",
+              "content": "$T_{1}>T_{2}$ because $m_{1}$ accelerates upward."
+            },
+            {
+              "key": "E",
+              "content": "$T_{2}>T_{1}$ because an unbalanced clockwise torque is needed to accelerate the wheel clockwise. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-21.jpg?height=112&width=652&top_left_y=1474&top_left_x=258)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Three objects are located along the $x$-axis as shown above. The center of mass of the objects is at $x=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 m"
+            },
+            {
+              "key": "B",
+              "content": "5 m"
+            },
+            {
+              "key": "C",
+              "content": "0 m"
+            },
+            {
+              "key": "D",
+              "content": "5 m"
+            },
+            {
+              "key": "E",
+              "content": "0 m"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "Which of the following is equivalent to a unit of momentum?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Joule"
+            },
+            {
+              "key": "B",
+              "content": "Newton"
+            },
+            {
+              "key": "C",
+              "content": "Joule ⋅ second"
+            },
+            {
+              "key": "D",
+              "content": "Newton ⋅ second"
+            },
+            {
+              "key": "E",
+              "content": "Newton $\\cdot$ meter"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "动量"
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "Two objects are dropped from rest from the same height. Object $A$ falls through a distance $d_{A}$ during a time $t$, and object $B$ falls through a distance $d_{B}$ during a time $2 t$. If air resistance is negligible, what is the relationship between $d_{A}$ and $d_{B}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$d_{A}=\\frac{1}{4} d_{B}$"
+            },
+            {
+              "key": "B",
+              "content": "$d_{A}=\\frac{1}{2} d_{B}$"
+            },
+            {
+              "key": "C",
+              "content": "$d_{A}=2 d_{B}$"
+            },
+            {
+              "key": "D",
+              "content": "$d_{A}=4 d_{B}$"
+            },
+            {
+              "key": "E",
+              "content": "It cannot be determined from the information given."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "The maximum mass that can be hung vertically from a string without breaking the string is 10 kg . A length of this string that is 2 m long is used to rotate a 0.5 kg object in a circle on a frictionless table with the string horizontal. The maximum speed that the mass can attain under these conditions without the string breaking is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$5 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$10 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$14 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$20 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$100 \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "An object moving on a horizontal, frictionless surface makes a glancing collision with another object initially at rest on the surface. In this case which of the following is true about momentum and kinetic energy?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Momentum is always conserved, and kinetic energy may be conserved."
+            },
+            {
+              "key": "B",
+              "content": "Kinetic energy is always conserved, and momentum may be conserved."
+            },
+            {
+              "key": "C",
+              "content": "Momentum is always conserved, and kinetic energy is never conserved."
+            },
+            {
+              "key": "D",
+              "content": "Both momentum and kinetic energy are always conserved."
+            },
+            {
+              "key": "E",
+              "content": "Neither momentum nor kinetic energy is conserved."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "A particle of mass $m$ starts from rest at position $x=0$ and time $t=0$. It moves along the positive $x$-axis under the influence of a single force $F_{x}=b t$, where $b$ is a constant. The velocity $v$ of the particle is given by",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{b t}{m}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{b t^{2}}{2 m}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{b t^{2}}{m}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{b \\sqrt{t}}{m}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{b}{m t}$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-22.jpg?height=200&width=665&top_left_y=109&top_left_x=1211)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "Three blocks, $A, B$, and $C$, of masses 1, 2, and 3 kg , respectively, are initially at rest on a frictionless surface as indicated in the figure above. What force $F$ has to be applied on block $C$ to accelerate the three blocks at $2 \\mathrm{~m} / \\mathrm{s}^{2}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "33 N"
+            },
+            {
+              "key": "B",
+              "content": "5 N"
+            },
+            {
+              "key": "C",
+              "content": "0 N"
+            },
+            {
+              "key": "D",
+              "content": "0 N"
+            },
+            {
+              "key": "E",
+              "content": "12 N"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "An electrical motor provides 0.50 W of mechanical power. How much time will it take the motor to lift a 0.1 kg mass at constant speed from the floor to a shelf 2.0 m above the floor?",
+          "options": [
+            {
+              "key": "A",
+              "content": "25 s"
+            },
+            {
+              "key": "B",
+              "content": "40 s"
+            },
+            {
+              "key": "C",
+              "content": "0 s"
+            },
+            {
+              "key": "D",
+              "content": "0 s"
+            },
+            {
+              "key": "E",
+              "content": "0 s ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-22.jpg?height=255&width=766&top_left_y=1354&top_left_x=1127)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "电场/电荷"
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "A block slides from rest with negligible friction down the track above, descending a vertical height of 5.0 m to point $P$ at the bottom. It then slides on the horizontal surface. The coefficient of friction between the block and the horizontal surface is 0.20 . How far does the block slide on the horizontal surface before it comes to rest?",
+          "options": [
+            {
+              "key": "A",
+              "content": "40 m"
+            },
+            {
+              "key": "B",
+              "content": "0 m"
+            },
+            {
+              "key": "C",
+              "content": "5 m"
+            },
+            {
+              "key": "D",
+              "content": "10 m"
+            },
+            {
+              "key": "E",
+              "content": "25 m ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-23.jpg?height=328&width=717&top_left_y=111&top_left_x=226)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "The graph above shows velocity as a function of time for an object moving along a straight line. For which of the following sections of the graph is the acceleration constant and nonzero?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$Q R$ only"
+            },
+            {
+              "key": "B",
+              "content": "$S T$ only"
+            },
+            {
+              "key": "C",
+              "content": "$P Q$ and $T U$ only"
+            },
+            {
+              "key": "D",
+              "content": "$R S$ and $S T$ only"
+            },
+            {
+              "key": "E",
+              "content": "$P Q, R S, S T$, and $T U$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "The velocity of a particle moving along the $x$-axis is given as a function of time by the expression $v(t)=3.0 t^{2}-2.0 t+4.0$, where $v$ is in meters per second and $t$ is in seconds. What is the acceleration of the particle at $t=2.0 \\mathrm{~s}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$4.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$6.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$8.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$10.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$12.0 \\mathrm{~m} / \\mathrm{s}^{2}$  \\section*{Questions 16-17} ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-23.jpg?height=457&width=843&top_left_y=197&top_left_x=1125)  An unstretched ideal spring hangs vertically from a fixed support. A 0.4 kg object is then attached to the lower end of the spring. The object is pulled down to a distance of 0.35 m below the unstretched position and released from rest at time $t=0$. A graph of the subsequent vertical position $y$ of the lower end of the spring as a function of $t$ is given above, where $y=0$ when the spring was initially unstretched."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "At which of the following times is the upward velocity of the object the greatest?",
+          "options": [
+            {
+              "key": "A",
+              "content": "00 s"
+            },
+            {
+              "key": "B",
+              "content": "25 s"
+            },
+            {
+              "key": "C",
+              "content": "50 s"
+            },
+            {
+              "key": "D",
+              "content": "75 s"
+            },
+            {
+              "key": "E",
+              "content": "00 s"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "What is the spring constant of the spring?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$16 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "key": "B",
+              "content": "$20 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "key": "C",
+              "content": "$32 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "key": "D",
+              "content": "$40 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "key": "E",
+              "content": "$64 \\mathrm{~N} / \\mathrm{m}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "弹簧/振动"
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "Identical net forces act for the same length of time on two different spherical masses. Which of the following describes the change in linear momentum of the smaller mass compared to that of the larger mass?",
+          "options": [
+            {
+              "key": "A",
+              "content": "It is smaller than the change in linear momentum of the larger mass but not zero."
+            },
+            {
+              "key": "B",
+              "content": "It is larger than the change in linear momentum of the larger mass."
+            },
+            {
+              "key": "C",
+              "content": "It is equal to the change in linear momentum of the larger mass."
+            },
+            {
+              "key": "D",
+              "content": "It is zero."
+            },
+            {
+              "key": "E",
+              "content": "It depends on the relative diameters of the two masses. ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-24.jpg?height=217&width=396&top_left_y=810&top_left_x=388)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The uniform thin rod shown above has mass $m$ and length $\\ell$. The moment of inertia of the rod about an axis through its center and perpendicular to the rod is $(1 / 12) m \\ell^{2}$. What is the moment of inertia of the rod about an axis perpendicular to the rod and passing through point $P$, which is halfway between the center and the end of the rod?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{3} m \\ell^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{6} m \\ell^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{1}{12} m \\ell^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{1}{48} m \\ell^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$\\frac{7}{48} m \\ell^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "A certain one-dimensional conservative force is given as a function of $x$ by the expression $F=-k x^{3}$, where $F$ is in newtons and $x$ is in meters. A possible potential energy function $U$ for this force is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$U=-\\frac{1}{2} k x^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$U=\\frac{1}{2} k x^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$U=-\\frac{1}{4} k x^{4}$"
+            },
+            {
+              "key": "D",
+              "content": "$U=\\frac{1}{4} k x^{4}$"
+            },
+            {
+              "key": "E",
+              "content": "$U=-3 k x^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Which of the following is a differential equation that correctly describes Newton's second law for a simple harmonic oscillator of mass $m$ and restoring force constant $k$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$k x=m \\frac{d^{2} x}{d t^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$-k x=m \\frac{d^{2} x}{d t^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$-k v=m \\frac{d v}{d t}$"
+            },
+            {
+              "key": "D",
+              "content": "$k x=m \\frac{d x}{d t}$"
+            },
+            {
+              "key": "E",
+              "content": "$m g-k v=m \\frac{d v}{d t}$  \\section*{Questions 22-24} ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=305&width=622&top_left_y=193&top_left_x=275)  Note: Figure not drawn to scale. The elliptical orbit of a comet is shown above. Positions 1 and 2 are, respectively, the farthest and nearest positions to the Sun, and at position 1 the distance from the comet to the Sun is 10 times that at position 2."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "At position 2, the comet's kinetic energy is",
+          "options": [
+            {
+              "key": "A",
+              "content": "the same as at position 1"
+            },
+            {
+              "key": "B",
+              "content": "less than at position 1"
+            },
+            {
+              "key": "C",
+              "content": "at its maximum value for the orbit"
+            },
+            {
+              "key": "D",
+              "content": "at its minimum value for the orbit, but greater than zero"
+            },
+            {
+              "key": "E",
+              "content": "equal to zero"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "What is the ratio $v_{1} / v_{2}$ of the speed of the comet at position 1 to the speed at position 2 ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 / 100$"
+            },
+            {
+              "key": "B",
+              "content": "$1 / 10$"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "10"
+            },
+            {
+              "key": "E",
+              "content": "100"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "What is the ratio $F_{1} / F_{2}$ of the force on the comet at position 1 to the force on the comet at position 2 ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 / 100$"
+            },
+            {
+              "key": "B",
+              "content": "$1 / 10$"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "10"
+            },
+            {
+              "key": "E",
+              "content": "100 ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=288&width=503&top_left_y=111&top_left_x=1293)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "A block of mass $m$ is pulled across a rough surface, as shown above. The coefficient of friction between the block and the surface is $\\mu_{k}$. The force $F$ that pulls the block is exerted at the angle $\\phi$ shown. Which of the following is an expression for the magnitude of the frictional force on the block if it is moving at constant speed?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\mu_{k} m g$"
+            },
+            {
+              "key": "B",
+              "content": "$\\mu_{k} F \\cos \\phi$"
+            },
+            {
+              "key": "C",
+              "content": "$\\mu_{k}(F \\sin \\phi+m g)$"
+            },
+            {
+              "key": "D",
+              "content": "$\\mu_{k}(F \\sin \\phi-m g)$"
+            },
+            {
+              "key": "E",
+              "content": "$\\mu_{k}(m g-F \\sin \\phi)$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-25.jpg?height=324&width=725&top_left_y=1228&top_left_x=1180)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "Two 4 kg blocks hang from a rope that passes over two frictionless pulleys, as shown in the figure above. What is the tension in the horizontal portion of the rope if the blocks are not moving and the rope and the two pulleys have negligible mass?",
+          "options": [
+            {
+              "key": "A",
+              "content": "4 N"
+            },
+            {
+              "key": "B",
+              "content": "8 N"
+            },
+            {
+              "key": "C",
+              "content": "20 N"
+            },
+            {
+              "key": "D",
+              "content": "40 N"
+            },
+            {
+              "key": "E",
+              "content": "80 N"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "A person throws a ball of mass 0.20 kg . The ball starts from rest, accelerates horizontally and uniformly through a distance of 0.90 m , and leaves the person's hand at $30 \\mathrm{~m} / \\mathrm{s}$. The average horizontal force applied to the ball by the person's hand is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\quad 3.3 \\mathrm{~N}$"
+            },
+            {
+              "key": "B",
+              "content": "7 N"
+            },
+            {
+              "key": "C",
+              "content": "81 N"
+            },
+            {
+              "key": "D",
+              "content": "100 N"
+            },
+            {
+              "key": "E",
+              "content": "200 N"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "A railroad car of mass 1500 kg rolls to the right at $4 \\mathrm{~m} / \\mathrm{s}$ and collides with another railroad car of mass 3000 kg that is rolling to the left at $3 \\mathrm{~m} / \\mathrm{s}$. The cars stick together. Their speed immediately after the collision is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{2}{3} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "B",
+              "content": "$1 \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{5}{3} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "D",
+              "content": "$\\frac{10}{3} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "key": "E",
+              "content": "$7 \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "A meterstick of negligible mass is placed on a fulcrum at the 0.4 m mark, with a 1 kg mass hung at the zero mark and a 0.5 kg mass hung at the 1.0 m mark. The meterstick is held horizontal and released. Immediately after release, the magnitude of the net torque on the meterstick about the fulcrum is most nearly",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1 \\mathrm{~N} \\cdot \\mathrm{~m}$"
+            },
+            {
+              "key": "B",
+              "content": "$2 \\mathrm{~N} \\cdot \\mathrm{~m}$"
+            },
+            {
+              "key": "C",
+              "content": "$2.5 \\mathrm{~N} \\cdot \\mathrm{~m}$"
+            },
+            {
+              "key": "D",
+              "content": "$7 \\mathrm{~N} \\cdot \\mathrm{~m}$"
+            },
+            {
+              "key": "E",
+              "content": "$7.5 \\mathrm{~N} \\cdot \\mathrm{~m}$ ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=64&width=415&top_left_y=123&top_left_x=1335)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "An object undergoes simple harmonic motion along the $x$-axis shown above, where $x=0$ is the object's equilibrium position. Which of the following graphs best shows the relationship between the object's acceleration $a$ and its displacement $x$ from equilibrium? (Assume positive $a$ to be acceleration directed to the right.)",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=291&width=419&top_left_y=598&top_left_x=1247)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=288&width=413&top_left_y=903&top_left_x=1249)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=287&width=417&top_left_y=1213&top_left_x=1249)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=284&width=419&top_left_y=1518&top_left_x=1247)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-26.jpg?height=283&width=413&top_left_y=1820&top_left_x=1249) ![](https://cdn.mathpix.com/cropped/c86de30e-70d7-4c41-a1a7-d65f6d114027-27.jpg?height=373&width=330&top_left_y=117&top_left_x=420)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "Ball 1 is dropped from rest at time $t=0$ from a tower of height $h$, as shown above. At the same instant, ball 2 is launched upward from the ground with initial speed $v_{0}$. If air resistance is negligible, at what time $t$ will the two balls pass each other?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{1}{4} \\frac{h}{v_{0}}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{1}{2} \\frac{h}{v_{0}}$"
+            },
+            {
+              "key": "C",
+              "content": "$\\frac{h}{v_{0}}$"
+            },
+            {
+              "key": "D",
+              "content": "$2 \\frac{\\mathrm{~h}}{v_{0}}$"
+            },
+            {
+              "key": "E",
+              "content": "$4 \\frac{h}{v_{0}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "Suppose that the potential energy of a particle constrained to move along the $x$-axis can be described by the function $U(x)=\\frac{1}{2} k x^{2}-\\alpha x$, where both $k$ and $\\alpha$ are positive constants. Stable equilibrium points, about which the particle oscillates, are located at",
+          "options": [
+            {
+              "key": "A",
+              "content": "$x=0$ only"
+            },
+            {
+              "key": "B",
+              "content": "$x=\\frac{\\alpha}{k}$ only"
+            },
+            {
+              "key": "C",
+              "content": "$x=\\frac{2 \\alpha}{k}$ only"
+            },
+            {
+              "key": "D",
+              "content": "$x=0$ and $\\frac{\\alpha}{k}$"
+            },
+            {
+              "key": "E",
+              "content": "$x=0$ and $\\frac{2 \\alpha}{k}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "A ball of mass $m$ falls vertically, hits the floor with a speed $v_{i}$, and rebounds with a speed $v_{f}$. What is the magnitude of the impulse exerted on the ball by the floor?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2 m\\left(v_{f}-v_{i}\\right)$"
+            },
+            {
+              "key": "B",
+              "content": "$m\\left(v_{f}-v_{i}\\right)$"
+            },
+            {
+              "key": "C",
+              "content": "$m\\left(v_{f}+v_{i}\\right)$"
+            },
+            {
+              "key": "D",
+              "content": "$m v_{i}$"
+            },
+            {
+              "key": "E",
+              "content": "$m v_{f}$  Questions 34-35 A particle moves in a circle in such a way that the $x$ - and $y$-coordinates of its motion, given in meters as functions of time $t$ in seconds, are: $$ \\begin{aligned} & x=5 \\cos (3 t) \\\\ & y=5 \\sin (3 t) \\end{aligned} $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "What is the radius of the circle?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$\\frac{5}{3} \\mathrm{~m}$"
+            },
+            {
+              "key": "B",
+              "content": "$\\frac{5}{2} \\mathrm{~m}$"
+            },
+            {
+              "key": "C",
+              "content": "5 m"
+            },
+            {
+              "key": "D",
+              "content": "10 m"
+            },
+            {
+              "key": "E",
+              "content": "15 m"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "Which of the following is true of the speed of the particle?",
+          "options": [
+            {
+              "key": "A",
+              "content": "It is always equal to $5 \\mathrm{~m} / \\mathrm{s}$."
+            },
+            {
+              "key": "B",
+              "content": "It is always equal to $15 \\mathrm{~m} / \\mathrm{s}$."
+            },
+            {
+              "key": "C",
+              "content": "It oscillates with a range of 0 to $5 \\mathrm{~m} / \\mathrm{s}$."
+            },
+            {
+              "key": "D",
+              "content": "It oscillates with a range of 0 to $15 \\mathrm{~m} / \\mathrm{s}$."
+            },
+            {
+              "key": "E",
+              "content": "It oscillates with a range of 5 to $15 \\mathrm{~m} / \\mathrm{s}$.  \\section*{STOP}  \\section*{END OF MECHANICS SECTION I}  IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.  \\section*{DO NOT TURN TO ANY OTHER TEST MATERIALS.}  MAKE SURE YOU HAVE DONE THE FOLLOWING. - PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET  \\section*{"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": "2012Intl-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "36",
+          "type": "free-response",
+          "prompt": "Experiment 1. A block of mass 0.30 kg is placed on a frictionless table and is attached to one end of a horizontal spring of spring constant $k$, as shown above. The other end of the spring is attached to a fixed wall. The block is set into oscillatory motion by stretching the spring and releasing the block from rest at time $t=0$. A motion detector is used to record the position of the block as it oscillates. The resulting graph of velocity $v$ versus time $t$ is shown below. The positive direction for all quantities is to the right.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Determine the equation for $v(t)$, including numerical values for all constants."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Given that the equilibrium position is at $x=0$, determine the equation for $x(t)$, including numerical values for all constants."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Calculate the value of $k$.\n\nExperiment 2. The block and spring arrangement is now placed on a rough surface, as shown below. The block is displaced so that the spring is compressed a distance $d$ and released from rest."
+            },
+            {
+              "partSign": "d",
+              "partContent": "On the dots below that represent the block, draw and label the forces (not components) that act on the block when the spring is compressed a distance $x=d / 2$ and the block is moving in the direction indicated below each dot.\n\n\\author{\nToward the equilibrium position\n}\nAway from\nthe equilibrium position\n\nAway from the equilibrium position"
+            },
+            {
+              "partSign": "e",
+              "partContent": "Draw a sketch of $v$ versus $t$ in this case. Assume that there is a negligible change in the period and that the positive direction is still to the right."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "37",
+          "type": "free-response",
+          "prompt": "You are to perform an experiment investigating the conservation of mechanical energy involving a transformation from initial gravitational potential energy to translational kinetic energy.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "You are given the equipment listed below, all the supports required to hold the equipment, and a lab table. On the list below, indicate each piece of equipment you would use by checking the line next to each item.\n$\\_\\_\\_\\_$ Track\n$\\_\\_\\_\\_$ Cart\n$\\_\\_\\_\\_$ String\n$\\_\\_\\_\\_$ Meterstick\n$\\_\\_\\_\\_$ Electronic balance\n$\\_\\_\\_\\_$ Stopwatch\n$\\_\\_\\_\\_$ Set of objects of different masses\n___ Lightweight low-friction pulley"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Outline a procedure for performing the experiment. Include a diagram of your experimental setup. Label the equipment in your diagram. Also include a description of the measurements you would make and a symbol for each measurement."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Give a detailed account of the calculations of gravitational potential energy and translational kinetic energy both before and after the transformation, in terms of the quantities measured in part"
+            },
+            {
+              "partSign": "d",
+              "partContent": "After your first trial, your calculations show that the energy increased during the experiment. Assuming you made no mathematical errors, give a reasonable explanation for this result."
+            },
+            {
+              "partSign": "e",
+              "partContent": "On all other trials, your calculations show that the energy decreased during the experiment. Assuming you made no mathematical errors, give a reasonable physical explanation for the fact that the average energy you determined decreased. Include references to conservative and nonconservative forces, as appropriate."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
+        },
+        {
+          "id": "38",
+          "type": "free-response",
+          "prompt": "A ring of mass $M$, radius $R$, and rotational inertia $M R^{2}$ is initially sliding on a frictionless surface at constant velocity $v_{0}$ to the right, as shown above. At time $t=0$ it encounters a surface with coefficient of friction $\\mu$ and begins sliding and rotating. After traveling a distance $L$, the ring begins rolling without sliding. Express all answers to the following in terms of $M, R, v_{0}, \\mu$, and fundamental constants, as appropriate.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Starting from Newton's second law in either translational or rotational form, as appropriate, derive a differential equation that can be used to solve for the magnitude of the following as the ring is sliding and rotating.\ni. The linear velocity $v$ of the ring as a function of time $t$\nii. The angular velocity $\\omega$ of the ring as a function of time $t$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Derive an expression for the magnitude of the following as the ring is sliding and rotating.\ni. The linear velocity $v$ of the ring as a function of time $t$\nii. The angular velocity $\\omega$ of the ring as a function of time $t$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "Derive an expression for the time it takes the ring to travel the distance $L$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Derive an expression for the magnitude of the velocity of the ring immediately after it has traveled the distance $L$."
+            },
+            {
+              "partSign": "e",
+              "partContent": "Derive an expression for the distance $L$.\n\nSTOP\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN THE BOX(ES) ON THE COVER(S).\n- MAKE SURE YOU HAVE USED THE SAME SET OF AP NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN THIS YEAR."
+            },
+            {
+              "partSign": "a",
+              "partContent": "is correctly substituted into an otherwise correct solution to part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "4 points\n\nDistribution of points\n\nFor writing a correct trigonometric equation for velocity as a function of time, including the negative sign\n$v(t)=-v_{\\text {max }} \\sin (\\omega t)=-v_{\\text {max }} \\sin (2 \\pi t / T)$\nFor using $\\omega=2 \\pi f$ or $\\omega=\\frac{2 \\pi}{T}$ to solve for $\\omega$\n\nFor using the correct period of 0.70 s from the graph\n$\\omega=\\frac{2 \\pi}{0.70 \\mathrm{~s}}=9.0 \\mathrm{rad} / \\mathrm{s}$\nFor using the correct value of the maximum speed from the graph (acceptable range of values for $v_{\\text {max }}: 0.15 \\mathrm{~m} / \\mathrm{s}$ to $0.17 \\mathrm{~m} / \\mathrm{s}$ )\n$v(t)=(-0.16) \\sin (9.0 t)$\nNote: One point is deducted if incorrect phase shift $\\phi$ is used. Full credit is awarded for a correct answer with no work shown. Students are also given credit if the value of $k$ from part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "is used to calculate $\\omega$ using $\\omega=\\sqrt{k / m}$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "2 points\n\nTake the integral of the velocity determined in part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$x(t)=\\int v(t) d t=\\int(-0.16 \\mathrm{~m} / \\mathrm{s}) \\sin ((9.0 \\mathrm{rad} / \\mathrm{s}) t) d t$\nFor a correct trigonometric expression consistent with integrating the answer from part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "For a correct $x_{\\text {max }}$ consistent with the integrating the answer from part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$x_{\\text {max }}=(0.16 \\mathrm{~m} / \\mathrm{s}) /(9.0 \\mathrm{rad} / \\mathrm{s})=0.018 \\mathrm{~m}$\n$x(t)=(0.018) \\cos (9.0 t)$"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$$\n\n$$\n\nFor a correct trigonometric expression consistent with the answer from part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$$\nx(t)=(0.018) \\cos (9.0 t)\n$$\n\nNote: Full credit is awarded for a correct answer with no work shown. One earned point is deducted for incorrect initial conditions (e.g., subtracting a constant from the cosine function)."
+            },
+            {
+              "partSign": "c",
+              "partContent": "2 points\n\nFor a correct relationship between the period and the spring constant\n$$\nT=2 \\pi \\sqrt{\\frac{m}{k}}\n$$\n\nFor substituting correct values from previous parts into a correct expression\n$k=\\frac{4 \\pi^{2} m}{T^{2}}=\\frac{\\left(4 \\pi^{2}\\right)(0.30 \\mathrm{~kg})}{(0.70 \\mathrm{~s})^{2}}$\n$k=24 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "continued\n\nAlternate solution \\#2\nFor a correct statement of the conservation of energy, applied to the position of\n\nmaximum displacement and the equilibrium position\n$\\frac{1}{2} k x_{\\text {max }}^{2}=\\frac{1}{2} m v_{\\text {max }}^{2}$\nFor substituting correct values from previous parts into a correct expression\n$k=\\frac{m v_{\\text {max }}^{2}}{x_{\\text {max }}^{2}}=\\frac{(0.30 \\mathrm{~kg})(0.16 \\mathrm{~m} / \\mathrm{s})^{2}}{(0.018 \\mathrm{~m})^{2}}$\n\nAway from the equilibrium position\n$k=24 \\mathrm{~N} / \\mathrm{m}$"
+            },
+            {
+              "partSign": "d",
+              "partContent": "4 points\n\nAlternate points\n1 point\n\n1 point\n\nFor drawing and labeling $F_{N}$ and $m g$ correctly on both diagrams\nOn diagram of the block moving toward the equilibrium position:\nFor a correctly drawn and labeled spring force to the right 1 point\n\nFor a correctly drawn and labeled friction force to the left\n\nOn diagram of the block moving away from the equilibrium position:\nFor a correctly drawn and labeled spring force and friction force to the right\n\nNotes\n- Length of vectors is not considered, only direction.\n- There is a 1 -point maximum deduction for any vectors not touching (or at least almost touching) the dot or for any extraneous forces.Vectors can be drawn from the dot outward OR toward the dot, pointing inward and touching the dot."
+            },
+            {
+              "partSign": "e",
+              "partContent": "3 points & Distribution of points \\\\\n\\hline &  & \\\\\n\\hline & For a graph passing through equilibrium at 0.35 s intervals & 1 point \\\\\n\\hline & For a graph displaying damped oscillations & 1 point \\\\\n\\hline & For a graph that starts at zero with an increasing positive velocity & 1 point \\\\\n\\hline\n\\end{tabular}"
+            },
+            {
+              "partSign": "a",
+              "partContent": "1 point\n\nDistribution of points\n\nFor choosing the meterstick and stopwatch, regardless of what else is checked\n1 point"
+            },
+            {
+              "partSign": "b",
+              "partContent": "4 points\n\nFor a procedure that indicates the height needed to calculate gravitational potential energy\n\nFor a procedure that indicates distance and time measurements to calculate velocity\n\nFor a diagram and a clear indication of the height measurement\n\nFor a diagram and a clear indication of the distance measurement\n\nExample \\#1\n\n- Use the electronic balance to determine the mass $m_{c}$ of the cart and the mass $m_{b}$ of one object.\n- Attach the object to the cart using the string.\n- Place the cart on the track and hang the object so that the string passes through the pulley.\n- Allow the object to fall a distance $h$ from its initial position to the floor, using the meterstick to measure the distance fallen.\n- Use the stopwatch to measure the time $t$ it takes the object to fall the distance $h$.\n- Measure the height $H$ of the table."
+            },
+            {
+              "partSign": "b",
+              "partContent": "continued\n\\end{abstract}\n\nExample \\#2\n\n- Use the electronic balance to determine the mass $m$ of the cart.\n- Set the track at an incline, and measure the height $h$ of the incline.\n- Place the cart at the top of the incline, and release from rest.\n- Using the stopwatch, measure the time $t$ it takes for the cart to move down the incline.\n- Measure the distance $d$ that the cart moves down the incline."
+            },
+            {
+              "partSign": "c",
+              "partContent": "6 points\n\nFor a clear indication of the initial potential energy of the system\n\nFor a clear indication of the final potential energy of the system\n\nFor a clear indication of the initial kinetic energy of the system\n\nFor a clear indication of the final kinetic energy of the system\n\nFor a correct calculation of the instantaneous velocity of the system"
+            },
+            {
+              "partSign": "c",
+              "partContent": "continued\n\nExample \\#2\nInitial gravitational potential energy: $U_{g 0}=m g h$\nFinal gravitational potential energy $U_{g f}=0$\nInitial kinetic energy $K_{0}=0$\nFinal kinetic energy $K_{f}=\\frac{1}{2} m v_{f}^{2}$\nAcceleration is constant, so $d=\\frac{1}{2}\\left(v_{0}+v_{f}\\right) t$.\n$v_{f}=\\frac{2 d}{t}$"
+            },
+            {
+              "partSign": "d",
+              "partContent": "2 points\n\nFor identifying a reasonable cause for the increase in energy\n\nFor a reasonable explanation related to the cause identified\n\nExample\nAn unintentional push was applied to the cart, thus increasing the initial energy."
+            },
+            {
+              "partSign": "e",
+              "partContent": "2 points\n\nFor identifying a reasonable cause for the decrease in energy related to the nonconservative forces acting on the system\n\nFor a reasonable explanation related to the cause identified\n\nExample\nFriction acting on the object decreases the speed, thereby decreasing the energy."
+            },
+            {
+              "partSign": "a",
+              "partContent": "i. 3 points\n\nDistribution of points\n\nFor starting with Newton's second law for translation, with friction as the net force\n$\\Sigma F=-f=M a$\nFor a correct expression for the frictional force\n$\\Sigma F=-f=M a$\n$f=\\mu M g$\n\n1 point\n\n1 point\n\nFor indicating that linear acceleration is the time derivative of velocity\n$$\n\n$$\nii. 3 points\n\nFor starting with Newton's second law for rotation, with a correct substitution for the rotational inertia\n$\\tau=M R^{2} \\alpha$\nFor a correct expression for the torque, using the frictional force\n$\\tau=\\mu M g R$\nFor indicating that the angular acceleration is the time derivative of the angular velocity\n$$\n\n$$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "i. $\\quad 2$ points\n\nFor setting up the integral of the function determined in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "continued\nii. 2 points\n\nFor setting up the integral of the function determined in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "2 points}\n\nFor indicating that the linear speed is equal to $R \\omega$ when the slipping stops\n$$\nv=R \\omega\n$$\n$$\nv_{0}-\\mu g t=R\\left(\\frac{\\mu g t}{R}\\right)\n$$\n\nFor the correct answer\n$$\nt=\\frac{v_{0}}{2 \\mu g}\n$$"
+            },
+            {
+              "partSign": "d",
+              "partContent": "1 point}\n\nFor substituting the time found in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "into a correct kinematics equation\n$v=v_{0}-\\mu g\\left(\\frac{v_{0}}{2 \\mu g}\\right)$\n$v=v_{0} / 2$"
+            },
+            {
+              "partSign": "e",
+              "partContent": "2 points\nFor setting up the integral of the velocity function determined in part"
+            },
+            {
+              "partSign": "d",
+              "partContent": "and the acceleration from part"
+            },
+            {
+              "partSign": "d",
+              "partContent": "and the acceleration from part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "must also be substituted.\n$\\Delta x=v_{0} t+\\frac{1}{2} a t^{2}$\n$L=v_{0}\\left(\\frac{v_{0}}{2 \\mu g}\\right)+\\frac{1}{2}(-\\mu g)\\left(\\frac{v_{0}}{2 \\mu g}\\right)^{2}$\nFor the correct answer, with correct supporting work\n$L=\\frac{3 v_{0}^{2}}{8 \\mu g}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

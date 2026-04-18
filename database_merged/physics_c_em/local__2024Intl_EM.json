@@ -1,0 +1,1010 @@
+{
+  "examId": "2024Intl",
+  "title": "AP Physics C: Electricity and Magnetism 2024年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2024",
+  "description": "AP Physics C: Electricity and Magnetism 2024年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "The circuit shown consists of four identical lightbulbs and a battery. Which of the following diagrams b/ represents the circuit?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&amp;width=352&amp;top_left_y=1606&amp;top_left_x=376)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=282&amp;width=313&amp;top_left_y=1615&amp;top_left_x=1054)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=277&amp;width=346&amp;top_left_y=1928&amp;top_left_x=378)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=318&amp;width=325&amp;top_left_y=1930&amp;top_left_x=1047)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-01.jpg?height=286&amp;width=352&amp;top_left_y=2284&amp;top_left_x=365)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "A solid, nonconducting sphere of radius $R$ has charge $Q$ distributed uniformly throughout its volume. Which of the following is equal to the magnitude of the electric field at distance $R{2}$ from the center of the sphere? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=336&amp;width=546&amp;top_left_y=214&amp;top_left_x=931)",
+          "options": [
+            {
+              "key": "A",
+              "content": "Zero"
+            },
+            {
+              "key": "B",
+              "content": "$1{2} kQ{R^{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$kQ{R^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$2 kQ{R^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$4 kQ{R^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "A resistor of resistance $R$ and a capacitor of capacitance $C$ are connected to an ideal battery, as shown. circuit has time constant $$. Which of the following circuits also has time constant $$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-04.jpg?height=665&amp;width=621&amp;top_left_y=314&amp;top_left_x=340)",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=389&amp;width=542&amp;top_left_y=698&amp;top_left_x=467)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=398&amp;width=574&amp;top_left_y=700&amp;top_left_x=1309)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=382&amp;width=544&amp;top_left_y=1127&amp;top_left_x=463)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=428&amp;width=571&amp;top_left_y=1136&amp;top_left_x=1305)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-03.jpg?height=407&amp;width=538&amp;top_left_y=1579&amp;top_left_x=460)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "A conducting spherical shell has a net positive charge $+Q$, as shown. Which of the following indicates the net charge on the inner surface of the shell and the net charge inside of the shell (shaded region)? &amp; Inner Surface &amp; Inside Shell \\\\ A &amp; Zero &amp; Zero \\\\ B &amp; $-Q$ &amp; $-Q$ \\\\ C &amp; Zero &amp; $-Q$ \\\\ D &amp; $-Q$ &amp; Zero \\\\ E &amp; $+Q$ &amp; Zero",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "An air-filled parallel plate capacitor stores $8.85 10^{-10} ~J$ of energy when the potential difference across the plates is 20.0 V and the plates are separated by a distance of $1.00 10^{-3} ~m$. What is the area of each plate of the capacitor? $d(~m)$ &amp; $a(~m / s^{2})$ \\\\ 0.1 &amp; 90 \\\\ 0.2 &amp; 90 \\\\ 0.3 &amp; 90 \\\\ 0.4 &amp; 90 \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1.25 10^{-4} ~m^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$2.50 10^{-4} ~m^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$5.00 10^{-4} ~m^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$1.00 10^{-3} ~m^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$1.50 10^{-3} ~m^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "Identicalnonconducting spheres 1 and 2 , each with equal amounts of positive net charge, are initially held at rest near each other so that the force between the spheres is nonnegligible. Sphere 2 is then released while Sphere 1 remains at rest. The table shows the acceleration $a$ of Sphere 2 along a straight path as a function of the separation distance $d$ between the centers of the spheres. Which of the following claims can be supported by data in the table? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-05.jpg?height=537&amp;width=733&amp;top_left_y=319&amp;top_left_x=1305)",
+          "options": [
+            {
+              "key": "A",
+              "content": "The spheres are isolated from other objects and fields."
+            },
+            {
+              "key": "B",
+              "content": "The spheres are in a region of external uniform electric field only."
+            },
+            {
+              "key": "C",
+              "content": "The spheres are in a region of externalnonuniform electric field only."
+            },
+            {
+              "key": "D",
+              "content": "The spheres are in a region of external uniform magnetic field only."
+            },
+            {
+              "key": "E",
+              "content": "The spheres are in a region of external uniform electric and magnetic fields only."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "The figure shows equipotential lines in a $FA, B, C, D, E$, and F are points in the pla Which of the following claims is correct? $d(~m)$ &amp; $a(~m / s^{2})$ \\\\ 0.1 &amp; 90 \\\\ 0.2 &amp; 90 \\\\ 0.3 &amp; 90 \\\\ 0.4 &amp; 90 \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "The electric field at Point A is direct toward Point B."
+            },
+            {
+              "key": "B",
+              "content": "The electric field at Point C is direct toward Point D."
+            },
+            {
+              "key": "C",
+              "content": "The magnitude of the electric field is greater at Point B than at Point E."
+            },
+            {
+              "key": "D",
+              "content": "The magnitude of the average electri is greater between points F and E between points A and B ."
+            },
+            {
+              "key": "E",
+              "content": "The magnitude of the average electri is greater between points B and C between points E and D ."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "Identicalnonconducting spheres 1 and 2 , each with equal amounts of positive net charge, are initially held at rest near each other so that the force between the spheres is nonnegligible. Sphere 2 is then released while Sphere 1 remains at rest. The table shows the acceleration $a$ of Sphere 2 along a straight path as a function of the separation distance $d$ between the centers of the spheres. Which of the following claims can be supported by data in the table? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-06.jpg?height=535&amp;width=727&amp;top_left_y=314&amp;top_left_x=1316)",
+          "options": [
+            {
+              "key": "A",
+              "content": "The spheres are isolated from other objects and fields."
+            },
+            {
+              "key": "B",
+              "content": "The spheres are in a region of external uniform electric field only."
+            },
+            {
+              "key": "C",
+              "content": "The spheres are in a region of externalnonuniform electric field only."
+            },
+            {
+              "key": "D",
+              "content": "The spheres are in a region of external uniform magnetic field only."
+            },
+            {
+              "key": "E",
+              "content": "The spheres are in a region of external uniform electric and magnetic fields only."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "The figure shows equipotential lines in a $IA, B, C, D, E$, and F are points in the pla Which of the following claims is correct?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The electric field at Point A is direct toward Point B."
+            },
+            {
+              "key": "B",
+              "content": "The electric field at Point C is direct toward Point D."
+            },
+            {
+              "key": "C",
+              "content": "The magnitude of the electric field is greater at Point B than at Point E."
+            },
+            {
+              "key": "D",
+              "content": "The magnitude of the average electri is greater between points F and E between points A and B ."
+            },
+            {
+              "key": "E",
+              "content": "The magnitude of the average electri is greater between points B and C between points E and D ."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Nonconducting Sphere 1 has a positive net charge and is held at rest. Conducting Sphere 2, which is near Sphere 1, has no net charge and is given an initial speed moving away from Sphere 1. All forces other than the electric force are negligible. Which of the following claims is correct for when Sphere 2 moves away from Sphere 1? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-08.jpg?height=158&amp;width=182&amp;top_left_y=292&amp;top_left_x=1455) ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-08.jpg?height=307&amp;width=795&amp;top_left_y=447&amp;top_left_x=750)",
+          "options": [
+            {
+              "key": "A",
+              "content": "The acceleration of Sphere 2 is toward Sphere 1."
+            },
+            {
+              "key": "B",
+              "content": "The momentum of Sphere 2 is increasing."
+            },
+            {
+              "key": "C",
+              "content": "The net force exerted on Sphere 2 is zero."
+            },
+            {
+              "key": "D",
+              "content": "The kinetic energy of Sphere 2 is constant."
+            },
+            {
+              "key": "E",
+              "content": "The electric potential energy of the Sphere 1-Sphere 2 system is decreasing."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "A conducting loop is beneath a long, straight, insulated wire. The loop and the wire are in the plane of the At the instant shown, the current in the wire and the current in Segment PQ of the loop are $I$ in the $+x$-direction. Which of the following indicates the direction, if any, of the net magnetic force $F_{M}$ exer Segment RS of the loop and provides a valid justification? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-09.jpg?height=336&amp;width=528&amp;top_left_y=390&amp;top_left_x=559 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "$+y$, because the currents in Segment RS and the wire create magnetic fields that produce an attractiv force."
+            },
+            {
+              "key": "B",
+              "content": "$+y$, because the currents in segments RS and PQ create magnetic fields that produce an attractive f"
+            },
+            {
+              "key": "C",
+              "content": "No direction, because the currents in Segment RS and the wire are constant."
+            },
+            {
+              "key": "D",
+              "content": "$-y$, because the currents in Segment RS and the wire create magnetic fields that produce a repulsivs force."
+            },
+            {
+              "key": "E",
+              "content": "$-y$, because in the region between Segment RS and the wire, the magnetic field from Segment RS directed in the opposite direction from the magnetic field from the wire."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "Circuits 1 and 2 shown each consist of an ideal battery of cmf $E$ and resistors with resistances of $R, 2 R$, and $3 R$. The rates at which thermal energy is dissipated by the resistor with resistance $R$ in circuits 1 and 2 are $P_{1}$ and $P_{2}$, respectively. Which of the following correctly compares $P_{2}$ to $P_{1}$ and provides a valid justification? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-10.jpg?height=558&amp;width=975&amp;top_left_y=281&amp;top_left_x=673)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$P_{2}=P_{1}$, because the resistance of the resistor is the same in each circuit."
+            },
+            {
+              "key": "B",
+              "content": "$P_{2}&gt;P_{1}$, because the equivalent resistance of Circuit 1 is smaller than the equivalent resistance of Circuit 2."
+            },
+            {
+              "key": "C",
+              "content": "$P_{2}&gt;P_{1}$, because the current in the resistor for Circuit 1 is smaller than the current in the resistor for Circuit 2."
+            },
+            {
+              "key": "D",
+              "content": "$P_{2}"
+            },
+            {
+              "key": "E",
+              "content": "$P_{2}"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "The resistance between the left side $X$ and right side $Y$ of two separate pleces, 1 and 2 , of the same resistimaterial is measured. The dimensions of the pieces are shown. The resistances of pieces 1 and 2 are $R_{1}$ and $R_{2}$, respectively. Which of the following correctly relates $R_{2}$ and $R_{1} ?$ ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-11.jpg?height=387&amp;width=350&amp;top_left_y=246&amp;top_left_x=447)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$R_{2}=1{4} R_{1}$"
+            },
+            {
+              "key": "B",
+              "content": "$R_{2}=1{2} R_{1}$"
+            },
+            {
+              "key": "C",
+              "content": "$R_{2}=R_{1}$"
+            },
+            {
+              "key": "D",
+              "content": "$R_{2}=2 R_{1}$"
+            },
+            {
+              "key": "E",
+              "content": "$R_{2}=4 R_{1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "Wires $T, U$, and $V$ each carry current and are oriented perpendicular to the plane of the page. Wire T carries current $I$ out of the page. Wire U carries current $2 I$ into the page. The value and direction of the current in Wire V are unknown. The line integral of the magnetic field $B$ taken counterclockwise around the dashed path shown, $ Bdl$, is equal to $2 _{0} I$. Which of the following indicates the value and direction of the current in Wire V ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "I out of the page"
+            },
+            {
+              "key": "B",
+              "content": "$2 I$ out of the page"
+            },
+            {
+              "key": "C",
+              "content": "$2 I$ into the page"
+            },
+            {
+              "key": "D",
+              "content": "$3 I$ out of thé page"
+            },
+            {
+              "key": "E",
+              "content": "$3 I$ into the page"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "A metal rod of mass $m$ and resistance $R$ is in contact with the rails of aU-shaped conductor of width $d$ and negligible resistance. The rails rest on a horizontal surface. The coefficient of kinetic friction between the rod and rails is $$. The rod and rails are in a uniform magnetic field of magnitude $B$ that is directed into the surface, as shown. An external force of magnitude $F$ is exerted on the rod so that the rod has constant speed $v$ to the left. Which of the following expressions is equal to the power delivered to the rod by the force? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-12.jpg?height=539&amp;width=515&amp;top_left_y=205&amp;top_left_x=953) Point &amp; Direction of $E$ \\\\ X &amp; No direction \\\\ Y &amp; Toward Sphere 4 \\\\",
+          "options": [
+            {
+              "key": "A",
+              "content": "$Bdv{R^{}}$"
+            },
+            {
+              "key": "B",
+              "content": "$Bdv{R}+ mgv$"
+            },
+            {
+              "key": "C",
+              "content": "$B^{2 d^{2} v^{2}}{R}$"
+            },
+            {
+              "key": "D",
+              "content": "$B^{2 d^{2} v^{2}}{R}+ mgv$"
+            },
+            {
+              "key": "E",
+              "content": "$B^{2 d^{2} v^{2}}{R}- mgv$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "The figure shown represents the electric field resulting from the square arrangement of charged spheres 1 and 4. The directions, if any, of the electric field $E$ at points $X$ and $Y$ are given in the table. Which of th following identifies the signs of the charges on the spheres, consistent with the collected data? &amp; Positively Charged &amp; Negatively Charged \\\\ A &amp; $1,2,3$, and 4 &amp; None \\\\ B &amp; 1,2 , and 3 &amp; 4 \\\\ C &amp; 1 and 4 &amp; 2 and 3 \\\\ D &amp; 2 and 3 &amp; 1 and 4 \\\\ E &amp; None &amp; $1,2,3$, and 4 \\\\ ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-13.jpg?height=491&amp;width=665&amp;top_left_y=324&amp;top_left_x=305) Note: Figure not drawn to scale.",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Conducting spheres I and 2 are each on an insulating stand. The distance between the spheres is large compared to their diameters. Sphere 1 has a known amount of charge on it, and Sphere 2 is initially neutral. A wire is then connected between the spheres for a long time, as shown. Which of the following indicates the fewest measurable quantities necessary to calculate the electric potential at the surface of each sphere?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The diameter of Sphere 1"
+            },
+            {
+              "key": "B",
+              "content": "The diameter of Sphere 2"
+            },
+            {
+              "key": "C",
+              "content": "The diameters of both spheres"
+            },
+            {
+              "key": "D",
+              "content": "The diameters of both spheres and the length of the wire"
+            },
+            {
+              "key": "E",
+              "content": "The diameters of both spheres, the length of the wire, and the heights of both stands"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "A long, cylindrical-shaped solenoid has length $$ and $N$ loops. The diameter of one loop is $d$. Which of the following expressions is equal to the inductance of the solenoid? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=314&amp;width=314&amp;top_left_y=232&amp;top_left_x=1008)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{4} N _{0 d^{2}}{}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{2} N _{0 d^{2}}{}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{4} N^{2 _{0} d^{2}}{}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2} N^{2 _{0} d^{2}}{}$"
+            },
+            {
+              "key": "E",
+              "content": "$N^{2 _{0} d^{2}}{}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "The circuit shown consists of a battery and four identical resistors. Which of the following circuits correctl shows how a fifth identical resistor can be added to the circuit such that the equivalent resistance of the circ is doubled? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-15.jpg?height=418&amp;width=718&amp;top_left_y=292&amp;top_left_x=426 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=437&amp;width=321&amp;top_left_y=762&amp;top_left_x=442)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&amp;width=327&amp;top_left_y=766&amp;top_left_x=1273)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=332&amp;width=380&amp;top_left_y=1277&amp;top_left_x=444)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=350&amp;width=325&amp;top_left_y=1282&amp;top_left_x=1277)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-14.jpg?height=334&amp;width=321&amp;top_left_y=1649&amp;top_left_x=442)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "The circuit represented in Figure 1 consists of a battery, a resistor, a switch that has been closed for a long time, and a capacitor. Electric potentials $V_{X}$ and $V_{Y}$ are measured at positions X and Y , respectively, at the terminals of the battery. Figure 2 shows the direction of the electric field $E$ between plates 1 and 2 of the capacitor. Which of the following correctly indicates whether Plate 1 or Plate 2 contains positive charge and indicates the correct sign, if any, of the potential difference $ V_{XY}=V_{X}-V_{Y}$ ? &amp; Plate Containing Positive Charge &amp; Sign of $ V_{XY}$ \\\\ A &amp; 1 &amp; + \\\\ B &amp; 1 . &amp; - \\\\ C &amp; 2 &amp; None \\\\ D &amp; 2 &amp; + \\\\ E &amp; 2 &amp; - \\\\ ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-16.jpg?height=490&amp;width=419&amp;top_left_y=355&amp;top_left_x=533 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "A sphere of charge $+2.0 10^{-8} C$ is launched with different speeds $v$ in the $4 x$-direction toward a region of external uniform magnetic field of magnitude $B$ represented by the dashed square in Figure 1. The magnetic field is perpendicular to the velocity of the sphere but not shown. The resulting magnetic force exerted on th sphere has magnitude $F_{M}$ and is directed in the $+y$-direction immediately after the sphere enters the region. The trend line in Figure 2 represents the best-fit line to the graph of $F_{M}$ as a function of $v$ immediately afte the sphere enters the region. Which of the following best approximates $B$ and indicates the direction of the magnetic field? &amp; $B(~T)$ &amp; Direction \\\\ A &amp; 0.5 &amp; +z \\\\ B &amp; 0.5 &amp; -z \\\\ C &amp; 1.0 &amp; +z \\\\ D &amp; 1.0 &amp; -2 \\\\ E &amp; 1.0 &amp; +y \\\\ ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-17.jpg?height=845&amp;width=729&amp;top_left_y=351&amp;top_left_x=264)",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "An external force moves a sphere with negative charge $-Q$ at a constant speed through a . uniform electric field of magnitude $E$ that is directed $60^{}$ above the horizontal, as shown. Which of the following represents the work done by the external force to move the sphere a horizontal distance $L$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-3{2} QEL$"
+            },
+            {
+              "key": "B",
+              "content": "$-QEL$"
+            },
+            {
+              "key": "C",
+              "content": "$-1{2} QEL$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2} QEL$"
+            },
+            {
+              "key": "E",
+              "content": "$3{2} QEL$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Spheres 1, 2, and 3 each have net positive charge $+Q$ and radius $r$. Sphere 1 is a thin conducting shell. Sphere 2 is a solid conductor. Sphere 3 is a solid nonconductor with uniform charge distribution throughout its volume. Each sphere is isolated from the other spheres. The magnitudes of the electric fields at a distance $r{5}$ from the centers of the spheres are $E_{1}, E_{2}$, and $E_{3}$ for spheres 1,2 , and 3 , respectively. Which of the following correctly compares $E_{1}, E_{2}$, and $E_{3}$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=448&amp;width=387&amp;top_left_y=157&amp;top_left_x=1017)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$E_{1}=E_{2}=E_{3}$"
+            },
+            {
+              "key": "B",
+              "content": "$(E_{1}=E_{2})"
+            },
+            {
+              "key": "C",
+              "content": "$E_{1}"
+            },
+            {
+              "key": "D",
+              "content": "$E_{1}"
+            },
+            {
+              "key": "E",
+              "content": "$E_{1}&gt;(E_{2}=E_{3})$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "A student connects resistors $R_{1}$ and $R_{2}$ separately to a power supply of variable potential difference $ V$. Fo: each circuit, the student measures the current $I$ in the power supply for different values of $ V$. The student then creates the graph shown of $ V$ as a function of $I$ for Circuit 1 , which contains only Resistor $R_{1}$, and Circuit 2 , which contains only Resistor $R_{2}$. The student then creates Circuit $S$ with resistors $R_{1}$ and $R_{2}$ in series and Circuit $P$ with resistors $R_{1}$ and $R_{2}$ in parallel and repeats the measurements. Which of the follow graphs best represents $ V$ as a function of $I$ for circuits $S$ and $P$ ? (The lines for circuits $I$ and 2 are inclu for reference.) A parallel plate capacitor is connected to a battery for a long time and stores 5 J of energy. The separation distance between the plates is $d$. The battery is then disconnected from the capacitor. Which of the following is equal to the work required to move the plates to separation distance $2 d$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-20.jpg?height=480&amp;width=382&amp;top_left_y=317&amp;top_left_x=794) ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-20.jpg?height=214&amp;width=227&amp;top_left_y=330&amp;top_left_x=1223)",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=446&amp;width=416&amp;top_left_y=1026&amp;top_left_x=518)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&amp;width=392&amp;top_left_y=1026&amp;top_left_x=1204)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&amp;width=393&amp;top_left_y=1519&amp;top_left_x=518)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=423&amp;width=394&amp;top_left_y=1510&amp;top_left_x=1204)"
+            },
+            {
+              "key": "E",
+              "content": "![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-18.jpg?height=437&amp;width=391&amp;top_left_y=2008&amp;top_left_x=506)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "A conducting loop with labeled sides 1 and 2 is held at rest in a region of an external uniform magnetic field magnitude $B$ that is directed in the $-z$-direction, as shown. Starting at time $t=0, B$ is increased linearly as : function of $t$. The magnetic forces exerted on sides 1 and 2 are $F_{1}$ and $F_{2}$, respectively. Which of the follow best describes $F_{1}$ and $F_{2}$ immediately after $t=0$ ? &amp; $F_{1}$ &amp; $F_{2}$ \\\\ A &amp; In the $+x$-direction and increasing &amp; In the $-y$-direction and increasing \\\\ B &amp; In the $+y$-direction and increasing &amp; In the $+x$-direction and increasing \\\\ C &amp; In the $-y$-direction and increasing &amp; In the $-x$-direction and increasing \\\\ D &amp; In the $+x$-direction and decreasing &amp; In the $-y$-direction and decreasing \\\\ E &amp; In the $-y$-direction and decreasing &amp; In the $-x$-direction and decreasing \\\\ ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-21.jpg?height=241&amp;width=638&amp;top_left_y=319&amp;top_left_x=200 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "A rectangular loop of wire has side lengths of 0.40 m and 0.20 m , as shown in Figure 1. The loop is placed ir uniform magnetic field $B$ of magnitude 10.0 mT that is directed at an angle of $37^{}$ to the plane of and throu the loop, as shown in Figure 2. What is the magnetic flux through the loop?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.48 mT m^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$0.60 mT m^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$0.64 mT m^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$0.80 mT m^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$1.39 mT m^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "Parallel-plate capacitors 1 and 2 each have identical plate areas. Capacitor 1 is filled with air, has a plate separation of $4.0 10^{-3} ~m$, and has a capacitance of $2.0 ~F$. Capacitor 2 is filled with a material of dielectric constant $x=3$, and the plates are separated by a distance of $2.0 10^{-3} ~m$. Which of the following is equal to the capacitance of Capacitor 2 ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-23.jpg?height=640&amp;width=360&amp;top_left_y=214&amp;top_left_x=200 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "$0.20 ~F$"
+            },
+            {
+              "key": "B",
+              "content": "$0.30 ~F$"
+            },
+            {
+              "key": "C",
+              "content": "$2.0 ~F$"
+            },
+            {
+              "key": "D",
+              "content": "$6.0 ~F$"
+            },
+            {
+              "key": "E",
+              "content": "$12 ~F$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "The graph shows the electric potential $V$ in a region of space as a function of position $x$. The electric field is parallel to the $x$-axis. Which of the following claims about the electric field is correct? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-25.jpg?height=674&amp;width=611&amp;top_left_y=269&amp;top_left_x=314 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "The electric field is zero at $x=1.0 ~m$."
+            },
+            {
+              "key": "B",
+              "content": "The electric field changes direction between $x=2.0 ~m$ and $x=4.0 ~m$."
+            },
+            {
+              "key": "C",
+              "content": "The magnitude of the electric field is a maximum at $x=4.0 ~m$."
+            },
+            {
+              "key": "D",
+              "content": "The electric field is zero at $x=5.0 ~m$."
+            },
+            {
+              "key": "E",
+              "content": "The magnitude of the electric field is a maximum at $x=5.0 ~m$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "An isolated sphere with positive charge $+Q$ is positioned at the origin of an $xy$-coordinate system. Point P has coordinates $(0, d)$, as shown in Figure 1. The magnitude of the electric field at Point P due to the sphere is $E_{0}$ Additional points $A, B, C, D$, and E and their respective coordinates are labeled in Figure 2. At which of the following labeled points should the sphere be placed so the magnitude of the electric field at Point P is $E_{0}{2}$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-26.jpg?height=282&amp;width=624&amp;top_left_y=273&amp;top_left_x=378)",
+          "options": [
+            {
+              "key": "A",
+              "content": "A"
+            },
+            {
+              "key": "B",
+              "content": "B"
+            },
+            {
+              "key": "C",
+              "content": "C"
+            },
+            {
+              "key": "D",
+              "content": "D"
+            },
+            {
+              "key": "E",
+              "content": "E"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "An air-filled capacitor is connected in series to another capacitor that contains a dielectric material of dielectric constant $x$ that completely fills the region between the plates. The plates of each capacitor are separated by distance $d$ and each plate has area $A$, as shown. Which of the following is equal to the equivalent capacitance of the capacitors? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-26.jpg?height=437&amp;width=435&amp;top_left_y=278&amp;top_left_x=1419)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2} _{0 A}{d}$"
+            },
+            {
+              "key": "B",
+              "content": "$_{0 A}{d}(1+)$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2} _{0 A}{d}(+1)$."
+            },
+            {
+              "key": "D",
+              "content": "$_{0 A}{d}(+1)$"
+            },
+            {
+              "key": "E",
+              "content": "$_{0 A}{d}(+1{})$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "A charged particle of mass $m$, charge $q$, and with speed $v$ enters a region of uniform magnetic field of magnitude $B_{0}$ that is directe into the page. The particle travels in a circula path of radius $R_{1}$, as shown. A second particl mass $m$, charge $3 q$, and with speed $v{2}$ then enters the field along the same direction as t first particle. The second particle moves in : circular path of radius $R_{2}$. Which of the following correctly relates $R_{2}$ and $R_{1}$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-27.jpg?height=487&amp;width=802&amp;top_left_y=264&amp;top_left_x=123)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$R_{2}=6 R_{1}$"
+            },
+            {
+              "key": "B",
+              "content": "$R_{2}=3{2} R_{1}$"
+            },
+            {
+              "key": "C",
+              "content": "$R_{2}=2{3} R_{1}$"
+            },
+            {
+              "key": "D",
+              "content": "$R_{2}=1{5} R_{1}$"
+            },
+            {
+              "key": "E",
+              "content": "$R_{2}=1{6} R_{1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "Two resistors, each of resistance $R$, are connected to a rectangular loop of wire that has height $h$ and width $w$. The loop moves with speed $v$ toward a region of external uniform magnetic field of magnitude $B$ that is directed out of the page, as shown. Point $P$ is located on the side of the loop that is closest to the magnetic field, as shown. A magnetic force of magnitude $F_{M}$ is exerted on the loop. immediately after Point P enters the magnetic field. Which of the following expressions is equal to $F_{M}$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-27.jpg?height=350&amp;width=355&amp;top_left_y=264&amp;top_left_x=1131 /&gt;",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2} B^{2 w^{2} v}{R}$."
+            },
+            {
+              "key": "B",
+              "content": "$2 B^{2 w^{2} v}{R}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2} B^{2 h^{2} v}{R}$"
+            },
+            {
+              "key": "D",
+              "content": "$2 B^{2 h^{2} v}{R}$"
+            },
+            {
+              "key": "E",
+              "content": "$2 B^{2 whv}{R}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "The circuit in Figure 1 consists of an ideal battery, two resistors, each of resistance $R$, and ammeter A that measures current $I_{1}$. The circuit in Figure 2 consists of the battery, three resistors, each of resistance $R$, and ammeter A that measures current $I_{2}$. Which of the following is equal to $I_{2}$ ? ![](https://cdn.mathpix.com/cropped/f4817aae-1e9b-4e9c-bc6b-bee8a2cec98b-28.jpg?height=505&amp;width=724&amp;top_left_y=255&amp;top_left_x=310)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{3} I_{1}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{2} I_{1}$"
+            },
+            {
+              "key": "C",
+              "content": "$3{4} I_{1}$"
+            },
+            {
+              "key": "D",
+              "content": "$I_{1}$"
+            },
+            {
+              "key": "E",
+              "content": "$4{3} I_{1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "A circular conducting loop of radius $r$ rotates with angular frequency $$ about a central axis that is parallel to the $y$-axis. The loop is in a region of external uniform magnetic field of magnitude $B$ that is in the $+z$-direction, as shown. Which of the following expressions is equal to the maximum induced emf in the loop? Begin your response to QUESTION 1 on this page. PHYSICS C: ELECTRICITY AND MAGNETISM SECTION II Time-45 minutes 3 Questions Directions: Answer all three questions. The suggested time is about 15 minutes for answering each of the questions, which are worth 15 points each. The parts within a question may not have equal weight. Show all your work in this booklet in the spaces provided after each part. Note: Figure not drawn to scale.",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{4} Br^{2} $"
+            },
+            {
+              "key": "B",
+              "content": "$1{2} Br^{2} $"
+            },
+            {
+              "key": "C",
+              "content": "$Br^{2} $"
+            },
+            {
+              "key": "D",
+              "content": "$2 Br^{2} $"
+            },
+            {
+              "key": "E",
+              "content": "$4 Br^{2} $"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

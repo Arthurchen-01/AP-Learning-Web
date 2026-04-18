@@ -1,0 +1,1578 @@
+{
+  "examId": "2008Intl",
+  "title": "AP 微积分BC 2008年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2008",
+  "description": "AP 微积分BC 2008年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2008Intl-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "free-response",
+          "prompt": "If $f(x)=\\frac{3 x-2}{2 x+3}$, then $f^{\\prime}(x)=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{13}{(2 x+3)^{2}}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{3}{(2 x+3)^{2}}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{5}{(2 x+3)^{2}}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{13}{(2 x+3)^{2}}$\n(E) $\\frac{12 x+5}{(2 x+3)^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "101",
+          "type": "free-response",
+          "prompt": "A particle moves along the $x$-axis so that at any time $t \\geq 0$, its velocity is given by $v(t)=\\sin (2 t)$. If the position of the particle at time $t=\\frac{\\pi}{2}$ is $x=4$, what is the particle's position at time $t=0$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{1}{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "2"
+            },
+            {
+              "partSign": "C",
+              "partContent": "3"
+            },
+            {
+              "partSign": "D",
+              "partContent": "5\n(E) 8\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "102",
+          "type": "free-response",
+          "prompt": "What is the value of $\\sum_{n=0}^{\\infty}\\left(-\\frac{2}{3}\\right)^{n}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\frac{2}{5}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{3}{5}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "3\n(E) The series diverges."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "103",
+          "type": "free-response",
+          "prompt": "For values of $h$ very close to 0 , which of the following functions best approximates\n$$\nf(x)=\\frac{\\tan (x+h)-\\tan x}{h} ?\n$$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\sin x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{\\sin x}{x}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{\\tan x}{x}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\sec x$\n(E) $\\sec ^{2} x$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "104",
+          "type": "free-response",
+          "prompt": "The length of the curve $y=x^{4}$ from $x=1$ to $x=5$ is given by",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\int_{1}^{5} \\sqrt{1+4 x^{3}} d x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\int_{1}^{5} \\sqrt{1+x^{4}} d x$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\int_{1}^{5} \\sqrt{1+4 x^{6}} d x$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\int_{1}^{5} \\sqrt{1+16 x^{6}} d x$\n(E) $\\int_{1}^{5} \\sqrt{1+x^{8}} d x$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "105",
+          "type": "free-response",
+          "prompt": "$\\int \\frac{e^{x}}{1+e^{x}} d x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\ln \\left(\\frac{1}{e^{x}}+1\\right)+C$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\quad \\ln \\left(1+e^{x}\\right)+C$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$x-\\ln \\left(1+e^{x}\\right)+C$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$e^{x}+x+C$\n(E) $\\tan ^{-1}\\left(e^{x}\\right)+C$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "106",
+          "type": "free-response",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=x-y-1$ with the initial condition $f(1)=-2$. What is the approximation for $f(1.4)$ if Euler's method is used, starting at $x=1$ with two steps of equal size?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-1.24"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-1.2"
+            },
+            {
+              "partSign": "D",
+              "partContent": "-0.64\n(E) 0.2\n\n\\begin{tabular}{|c||c|c|c|c|}\n\\hline$x$ & 0 & 2 & 4 & 6 \\\\\n\\hline$f(x)$ & 4 & $k$ & 8 & 12 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "107",
+          "type": "free-response",
+          "prompt": "The function $f$ is continuous on the closed interval $[0,6]$ and has the values given in the table above. The trapezoidal approximation for $\\int_{0}^{6} f(x) d x$ found with 3 subintervals of equal length is 52 . What is the value of $k$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "6"
+            },
+            {
+              "partSign": "C",
+              "partContent": "7"
+            },
+            {
+              "partSign": "D",
+              "partContent": "10\n(E) 14\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "108",
+          "type": "free-response",
+          "prompt": "The function $f$ is twice differentiable, and the graph of $f$ has no points of inflection. If $f(6)=3, f^{\\prime}(6)=-\\frac{1}{2}$, and $f^{\\prime \\prime}(6)=-2$, which of the following could be the value of $f(7)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "5"
+            },
+            {
+              "partSign": "C",
+              "partContent": "9"
+            },
+            {
+              "partSign": "D",
+              "partContent": "3\n(E) 4"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "109",
+          "type": "free-response",
+          "prompt": "A function $f$ has Maclaurin series given by $1+\\frac{x^{2}}{2!}+\\frac{x^{4}}{4!}+\\frac{x^{6}}{6!}+\\cdots+\\frac{x^{2 n}}{(2 n)!}+\\cdots$. Which of the following is an expression for $f(x)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\cos x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$e^{x}-\\sin x$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$e^{x}+\\sin x$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{1}{2}\\left(e^{x}+e^{-x}\\right)$\n(E) $e^{x^{2}}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "110",
+          "type": "free-response",
+          "prompt": "The sides and diagonal of the rectangle above are strictly increasing with time. At the instant when $x=4$ and $y=3, \\frac{d x}{d t}=\\frac{d z}{d t}$ and $\\frac{d y}{d t}=k \\frac{d z}{d t}$. What is the value of $k$ at that instant?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{1}{4}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{1}{3}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "3"
+            },
+            {
+              "partSign": "D",
+              "partContent": "4\n(E) It cannot be determined from the information given."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "111",
+          "type": "free-response",
+          "prompt": "If $f^{\\prime}(x)=\\frac{2}{x}$ and $f(\\sqrt{e})=5$, then $f(e)=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\ln 25$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$5+\\frac{2}{e}-\\frac{2}{e^{2}}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "6\n(E) 25\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "112",
+          "type": "free-response",
+          "prompt": "For time $t>0$, the position of a particle moving in the $x y$-plane is given by the parametric equations $x=4 t+t^{2}$ and $y=\\frac{1}{3 t+1}$. What is the acceleration vector of the particle at time $t=1$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\left(2, \\frac{1}{32}\\right)$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\left(2, \\frac{9}{32}\\right)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\left(5, \\frac{1}{4}\\right)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\left(6,-\\frac{3}{16}\\right)$\n(E) $\\left(6,-\\frac{1}{16}\\right)$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "113",
+          "type": "free-response",
+          "prompt": "$\\int \\frac{8}{x^{2}-4} d x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$4 \\tan ^{-1}\\left(\\frac{x}{2}\\right)+C$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$8 \\ln \\left|x^{2}-4\\right|+C$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$2 \\ln \\left|\\frac{x-2}{x+2}\\right|+C$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$2 \\ln \\left|\\frac{x+2}{x-2}\\right|+C$\n(E) $\\quad 2 \\ln |x+2|+2 \\ln |x-2|+C$\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-13.jpg?height=719&width=892&top_left_y=343&top_left_x=612)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "114",
+          "type": "free-response",
+          "prompt": "The slope field for a certain differential equation is shown above. Which of the following could be a solution to the differential equation with the initial condition $y(0)=1$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$y=\\cos x$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$y=1-x^{2}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$y=e^{x}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$y=\\sqrt{1-x^{2}}$\n(E) $y=\\frac{1}{1+x^{2}}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "115",
+          "type": "free-response",
+          "prompt": "If $f^{\\prime}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\n\\begin{figure}\n\\captionsetup{labelformat=empty}\n\\caption{(A)}\n\\includegraphics[alt={},max width=\\textwidth]{https://c",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "If $f^{\\prime}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\n\\begin{figure}\n\\captionsetup{labelformat=empty}\n\\caption{(A)}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-14.jpg?height=368&width=475&top_left_y=442&top_left_x=292}\n\\end{figure}\n\n\\begin{figure}\n\\captionsetup{labelformat=empty}\n\\caption{(B)}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e7"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "116",
+          "type": "free-response",
+          "prompt": "The radius of convergence for the power series $\\sum_{n=1}^{\\infty} \\frac{(x-3)^{2 n}}{n}$ is equal to 1 . What is the interval of convergence?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-4 \\leq x<-2$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-1<x<1$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$-1 \\leq x<1$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$2<x<4$\n(E) $2 \\leq x<4$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "117",
+          "type": "free-response",
+          "prompt": "If $f(x)=\\arccos \\left(x^{2}\\right)$, then $f^{\\prime}(x)=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{1}{\\sqrt{1-x^{4}}}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{-2 x}{\\sqrt{1-x^{4}}}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{2 x}{\\sqrt{1-x^{4}}}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{-4 x^{3}}{\\sqrt{1-x^{4}}}$\n(E) $\\frac{4 x^{3}}{\\sqrt{1-x^{4}}}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "118",
+          "type": "free-response",
+          "prompt": "What is the slope of the line tangent to the curve $y+2=\\frac{x^{2}}{2}-2 \\sin y$ at the point $(2,0)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-2"
+            },
+            {
+              "partSign": "B",
+              "partContent": "0"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{1}{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{2}{3}$\n(E) 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "119",
+          "type": "free-response",
+          "prompt": "Which of the following series converge?\nI. $\\sum_{n=1}^{\\infty} \\frac{1}{\\sqrt{n}}$\nII. $\\sum_{n=1}^{\\infty} \\frac{3^{n}}{n!}$\nIII. $\\sum_{n=1}^{\\infty}\\left(\\frac{e}{\\pi}\\right)^{n}$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "None"
+            },
+            {
+              "partSign": "B",
+              "partContent": "II only"
+            },
+            {
+              "partSign": "C",
+              "partContent": "III only"
+            },
+            {
+              "partSign": "D",
+              "partContent": "I and II only\n(E) II and III only\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "120",
+          "type": "free-response",
+          "prompt": "The function $f$ given by $f(x)=9 x^{2 / 3}+3 x-6$ has a relative minimum at $x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-8"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\sqrt[3]{2}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-1"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$-\\frac{1}{8}$\n(E) 0\n\n\\begin{tabular}{|c||c|c|}\n\\hline$x$ & $f(x)$ & $f^{\\prime}(x)$ \\\\\n\\hline \\hline 0 & 2 & 5 \\\\\n\\hline 4 & -3 & 11 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "121",
+          "type": "free-response",
+          "prompt": "The function $f$ has a continuous derivative. The table above gives values of $f$ and its derivative for $x=0$ and $x=4$. If $\\int_{0}^{4} f(x) d x=8$, what is the value of $\\int_{0}^{4} x f^{\\prime}(x) d x$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-20"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-13"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-12"
+            },
+            {
+              "partSign": "D",
+              "partContent": "-7\n(E) 36"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "122",
+          "type": "free-response",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=2 \\theta$ at the point $\\theta=\\frac{\\pi}{2}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{\\pi}{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\frac{2}{\\pi}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "0"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{\\pi}{2}$\n(E) 2"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "123",
+          "type": "free-response",
+          "prompt": "The radius of a circle is increasing. At a certain instant, the rate of increase in the area of the circle is numerically equal to twice the rate of increase in its circumference. What is the radius of the circle at that instant?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{1}{2}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "1"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\sqrt{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "2\n(E) 4\n\n\\begin{tabular}{|c|c|}\n\\hline$n$ & $\\sum_{k=1}^{n}\\left(\\frac{1}{x_{k}}\\right)\\left(\\frac{1}{n}\\right)$ \\\\\n\\hline \\hline 100 & 5.19 \\\\\n\\hline 200 & 5.88 \\\\\n\\hline 300 & 6.28 \\\\\n\\hline 400 & 6.57 \\\\\n\\hline 500 & 6.79 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "124",
+          "type": "free-response",
+          "prompt": "The table above shows several Riemann sum approximations to $\\int_{0}^{1} \\frac{1}{x} d x$ using right-hand endpoints of $n$ subintervals of equal length of the interval $[0,1]$. Which of the following statements best describes the limit of the Riemann sums as $n$ approaches infinity?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "The limit of the Riemann sums is a finite number less than 10 ."
+            },
+            {
+              "partSign": "B",
+              "partContent": "The limit of the Riemann sums is a finite number greater than 10 ."
+            },
+            {
+              "partSign": "C",
+              "partContent": "The limit of the Riemann sums does not exist because $\\left(\\frac{1}{x_{n}}\\right)\\left(\\frac{1}{n}\\right)$ does not approach 0 ."
+            },
+            {
+              "partSign": "D",
+              "partContent": "The limit of the Riemann sums does not exist because it is a sum of infinitely many positive numbers.\n(E) The limit of the Riemann sums does not exist because $\\int_{0}^{1} \\frac{1}{x} d x$ does not exist.\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "125",
+          "type": "free-response",
+          "prompt": "The coefficients of the power series $\\sum_{n=0}^{\\infty} a_{n}(x-2)^{n}$ satisfy $a_{0}=5$ and $a_{n}=\\left(\\frac{2 n+1}{3 n-1}\\right) a_{n-1}$ for all $n \\geq 1$. The radius of convergence of the series is",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "0"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{2}{3}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{3}{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "2\n(E) infinite"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
+        },
+        {
+          "id": "126",
+          "type": "free-response",
+          "prompt": "If $f$ is the function given by $f(x)=\\int_{4}^{2 x} \\sqrt{t^{2}-t} d t$, then $f^{\\prime}(2)=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "0"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{7}{2 \\sqrt{12}}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\sqrt{2}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\sqrt{12}$\n(E) $2 \\sqrt{12}$\n\n\\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "127",
+          "type": "free-response",
+          "prompt": "The function $f$ is given by $f(x)=\\sin \\left(\\frac{x+1}{x^{2}}\\right)$. Which of the following statements are true?\nI. The graph of $f$ has a horizontal asymptote at $y=0$.\nII. The graph of $f$ has a horizontal asymptote at $y=1$.\nIII. The graph of $f$ has a vertical asymptote at $x=0$.",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "I only"
+            },
+            {
+              "partSign": "B",
+              "partContent": "II only"
+            },
+            {
+              "partSign": "C",
+              "partContent": "III only"
+            },
+            {
+              "partSign": "D",
+              "partContent": "I and III only\n(E) II and III only\n\n\\section*{B}\n\n\\section*{CALCULUS BC}\n\n\\section*{SECTION I, Part B}\n\n\\section*{Time-50 minutes}\n\n\\section*{Number of questions-17}\n\n\\section*{A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON THIS PART OF THE EXAM.}\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "128",
+          "type": "free-response",
+          "prompt": "If $\\int_{0}^{1} f(x) d x=2$ and $\\int_{0}^{4} f(x) d x=-3$, then $\\int_{1}^{4}(3 f(x)+2) d x=$",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "-13"
+            },
+            {
+              "partSign": "B",
+              "partContent": "-9"
+            },
+            {
+              "partSign": "C",
+              "partContent": "-7"
+            },
+            {
+              "partSign": "D",
+              "partContent": "3\n(E) 21\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-23.jpg?height=753&width=869&top_left_y=956&top_left_x=629)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
+        },
+        {
+          "id": "129",
+          "type": "free-response",
+          "prompt": "The figure above shows the graph of the polynomial function $f$. For which value of $x$ is it true that $f^{\\prime \\prime}(x)",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$a$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$b$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$c$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$d$\n(E) $e$\n\n\\section*{B B B B B B B B B}\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-24.jpg?height=291&width=501&top_left_y=369&top_left_x=812)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "130",
+          "type": "free-response",
+          "prompt": "The graph above shows the polar curve $r=2 \\theta+\\cos \\theta$ for $0 \\leq \\theta \\leq \\pi$. What is the area of the region bounded by the curve and the $x$-axis?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "069"
+            },
+            {
+              "partSign": "B",
+              "partContent": "935"
+            },
+            {
+              "partSign": "C",
+              "partContent": "870"
+            },
+            {
+              "partSign": "D",
+              "partContent": "456\n(E) 34.912"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "131",
+          "type": "free-response",
+          "prompt": "If $f$ is a differentiable function such that $f(3)=8$ and $f^{\\prime}(3)=5$, which of the following statements could be false?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\lim _{x \\rightarrow 3} f(x)=8$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\lim _{x \\rightarrow 3^{+}} f(x)=\\lim _{x \\rightarrow 3^{-}} f(x)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\lim _{x \\rightarrow 3} \\frac{f(x)-8}{x-3}=5$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\lim _{h \\rightarrow 0} \\frac{f(3+h)-8}{h}=5$\n(E) $\\lim _{x \\rightarrow 3} f^{\\prime}(x)=5$\n\n\\section*{$\\begin{array}{lllllllll}\\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B } & \\text { B }\\end{array}$}\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-25.jpg?height=530&width=977&top_left_y=326&top_left_x=575)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "132",
+          "type": "free-response",
+          "prompt": "The figure above shows the graph of $f^{\\prime}$, the derivative of the function $f$, on the interval $[-3,6]$. If the derivative of the function $h$ is given by $h^{\\prime}(x)=2 f^{\\prime}(x)$, how many points of inflection does the graph of $h$ have on the interval $[-3,6]$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "One"
+            },
+            {
+              "partSign": "B",
+              "partContent": "Two"
+            },
+            {
+              "partSign": "C",
+              "partContent": "Three"
+            },
+            {
+              "partSign": "D",
+              "partContent": "Four\n(E) Five"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "133",
+          "type": "free-response",
+          "prompt": "Let $R$ be the region in the first quadrant bounded by the $y$-axis, the $x$-axis, the graph of $y=e^{-x^{2} / 2}$, and the line $x=3$. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is a square. What is the volume of the solid?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "886"
+            },
+            {
+              "partSign": "B",
+              "partContent": "906"
+            },
+            {
+              "partSign": "C",
+              "partContent": "078"
+            },
+            {
+              "partSign": "D",
+              "partContent": "245\n(E) 2.784\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "134",
+          "type": "free-response",
+          "prompt": "If $f$ is a continuous function on the closed interval $[a, b]$, which of the following must be true?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "There is a number $c$ in the open interval $(a, b)$ such that $f"
+            },
+            {
+              "partSign": "B",
+              "partContent": "There is a number $c$ in the open interval $(a, b)$ such that $f"
+            },
+            {
+              "partSign": "C",
+              "partContent": "There is a number $c$ in the closed interval $[a, b]$ such that $f"
+            },
+            {
+              "partSign": "c",
+              "partContent": "\\geq f(x)$ for all $x$ in $[a, b]$."
+            },
+            {
+              "partSign": "D",
+              "partContent": "There is a number $c$ in the open interval $(a, b)$ such that $f^{\\prime}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "135",
+          "type": "free-response",
+          "prompt": "The function $f$ is differentiable and has values as shown in the table above. Both $f$ and $f^{\\prime}$ are strictly increasing on the interval $0 \\leq x \\leq 5$. Which of the following could be the value of $f^{\\prime}(3)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "20"
+            },
+            {
+              "partSign": "B",
+              "partContent": "5"
+            },
+            {
+              "partSign": "C",
+              "partContent": "29"
+            },
+            {
+              "partSign": "D",
+              "partContent": "30\n(E) 30.5\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "136",
+          "type": "free-response",
+          "prompt": "The rate of change, $\\frac{d P}{d t}$, of the number of people on an ocean beach is modeled by a logistic differential equation. The maximum number of people allowed on the beach is 1200 . At 10 A.M., the number of people on the beach is 200 and is increasing at the rate of 400 people per hour. Which of the following differential equations describes the situation?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{d P}{d t}=\\frac{1}{400}(1200-P)+200$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{d P}{d t}=\\frac{2}{5}(1200-P)$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{d P}{d t}=\\frac{1}{500} P(1200-P)$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{d P}{d t}=\\frac{1}{400} P(1200-P)$\n(E) $\\frac{d P}{d t}=400 P(1200-P)$\n\n\\begin{tabular}{|c||c|c|c|c|}\n\\hline$x$ & $f(x)$ & $f^{\\prime}(x)$ & $f^{\\prime \\prime}(x)$ & $f^{\\prime \\prime \\prime}(x)$ \\\\\n\\hline 2 & 0 & 0 & 5 & 7 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "137",
+          "type": "free-response",
+          "prompt": "The third derivative of the function $f$ is continuous on the interval $(0,4)$. Values for $f$ and its first three derivatives at $x=2$ are given in the table above. What is $\\lim _{x \\rightarrow 2} \\frac{f(x)}{(x-2)^{2}}$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "0"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{5}{2}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "5"
+            },
+            {
+              "partSign": "D",
+              "partContent": "7\n(E) The limit does not exist.\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "138",
+          "type": "free-response",
+          "prompt": "The Taylor polynomial of degree 100 for the function $f$ about $x=3$ is given by $P(x)=(x-3)^{2}-\\frac{(x-3)^{4}}{2!}+\\frac{(x-3)^{6}}{3!}+\\cdots+(-1)^{n+1} \\frac{(x-3)^{2 n}}{n!}+\\cdots-\\frac{(x-3)^{100}}{50!}$. What is the value of $f^{(30)}(3)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{30!}{15!}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$-\\frac{1}{30!}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{1}{30!}$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{1}{15!}$\n(E) $\\frac{30!}{15!}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "139",
+          "type": "free-response",
+          "prompt": "The function $f$ has derivatives of all orders for all real numbers, and $f^{(4)}(x)=e^{\\sin x}$. If the third-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f$ on the interval $[0,1]$, what is the Lagrange error bound for the maximum error on the interval $[0,1]$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "019"
+            },
+            {
+              "partSign": "B",
+              "partContent": "097"
+            },
+            {
+              "partSign": "C",
+              "partContent": "113"
+            },
+            {
+              "partSign": "D",
+              "partContent": "399\n(E) 0.417\n\n\\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "140",
+          "type": "free-response",
+          "prompt": "The rate at which water is sprayed on a field of vegetables is given by $R(t)=2 \\sqrt{1+5 t^{3}}$, where $t$ is in minutes and $R(t)$ is in gallons per minute. During the time interval $0 \\leq t \\leq 4$, what is the average rate of water flow, in gallons per minute?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "458"
+            },
+            {
+              "partSign": "B",
+              "partContent": "395"
+            },
+            {
+              "partSign": "C",
+              "partContent": "691"
+            },
+            {
+              "partSign": "D",
+              "partContent": "916\n(E) 35.833\n\n\\begin{figure}\n\\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-29.jpg?height=629&width=613&top_left_y=1024&top_left_x=756}\n\\captionsetup{labelformat=empty}\n\\caption{Graph of $f$}\n\\end{figure}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "141",
+          "type": "free-response",
+          "prompt": "The figure above shows the graph of a function $f$. Which of the following has the greatest value?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$f"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$f^{\\prime}"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$f^{\\prime}"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$f"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "142",
+          "type": "free-response",
+          "prompt": "The $n$th derivative of a function $f$ at $x=0$ is given by $f^{(n)}(0)=(-1)^{n} \\frac{n+1}{(n+2) 2^{n}}$ for all $n \\geq 0$. Which of the following is the Maclaurin series for $f$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$-\\frac{1}{2}+\\frac{1}{3} x-\\frac{3}{32} x^{2}+\\frac{1}{60} x^{3}-\\cdots$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{1}{2}-\\frac{1}{3} x+\\frac{3}{16} x^{2}-\\frac{1}{10} x^{3}+\\cdots$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "$\\frac{1}{2}+\\frac{1}{3} x+\\frac{3}{32} x^{2}+\\frac{1}{60} x^{3}+\\cdots$"
+            },
+            {
+              "partSign": "D",
+              "partContent": "$\\frac{1}{2}-\\frac{1}{3} x+\\frac{3}{32} x^{2}-\\frac{1}{60} x^{3}+\\cdots$\n(E) $\\frac{1}{2}-3 x+\\frac{32}{3} x^{2}-60 x^{3}+\\cdots$\n\n\\section*{$\\begin{array}{lllllllll}\\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B} & \\mathbf{B}\\end{array}$}\n\n\\begin{tabular}{|c||c|c|}\n\\hline$x$ & $f(x)$ & $f^{\\prime}(x)$ \\\\\n\\hline \\hline 0 & 1 & 1 \\\\\n\\hline 1 & 3 & 4 \\\\\n\\hline 2 & 11 & 13 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "143",
+          "type": "free-response",
+          "prompt": "The table above gives selected values for a differentiable and increasing function $f$ and its derivative. If $g$ is the inverse function of $f$, what is the value of $g^{\\prime}(3)$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "$\\frac{1}{13}$"
+            },
+            {
+              "partSign": "B",
+              "partContent": "$\\frac{1}{4}$"
+            },
+            {
+              "partSign": "C",
+              "partContent": "1"
+            },
+            {
+              "partSign": "D",
+              "partContent": "4\n(E) 13"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "144",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function with first derivative defined by $f^{\\prime}(x)=\\sin \\left(x^{3}\\right)$ for $0 \\leq x \\leq 2$. At what value of $x$ does $f$ attain its maximum value on the closed interval $0 \\leq x \\leq 2$ ?",
+          "parts": [
+            {
+              "partSign": "A",
+              "partContent": "0"
+            },
+            {
+              "partSign": "B",
+              "partContent": "162"
+            },
+            {
+              "partSign": "C",
+              "partContent": "465"
+            },
+            {
+              "partSign": "D",
+              "partContent": "845\n(E) 2\n\n\\section*{END OF SECTION I}\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.\n\n\\section*{Section II}\n\n\\section*{Free-Response Questions}\n\n\\section*{AP ${ }^{®}$ Calculus \\\\ Instructions for Section II Free-Response Questions}\n\nWrite clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be graded.\nManage your time carefully. During the timed portion for Part A, work"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
+        },
+        {
+          "id": "145",
+          "type": "free-response",
+          "prompt": "The rate at which raw sewage enters a treatment tank is given by $E(t)=850+715 \\cos \\left(\\frac{\\pi t^{2}}{9}\\right)$ gallons per hour for $0 \\leq t \\leq 4$ hours. Treated sewage is removed from the tank at the constant rate of 645 gallons per hour. The treatment tank is empty at time $t=0$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "How many gallons of sewage enter the treatment tank during the time interval $0 \\leq t \\leq 4$ ? Round your answer to the nearest gallon."
+            },
+            {
+              "partSign": "b",
+              "partContent": "For $0 \\leq t \\leq 4$, at what time $t$ is the amount of sewage in the treatment tank greatest? To the nearest gallon, what is the maximum amount of sewage in the tank? Justify your answers."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $0 \\leq t \\leq 4$, the cost of treating the raw sewage that enters the tank at time $t$ is $(0.15-0.02 t)$ dollars per gallon. To the nearest dollar, what is the total cost of treating all the sewage that enters the tank during the time interval $0 \\leq t \\leq 4$ ?"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "146",
+          "type": "free-response",
+          "prompt": "A particle moving along a curve in the $x y$-plane has position $(x(t), y(t))$ at time $t>0$, where\n$$\n\\frac{d x}{d t}=\\left(\\frac{6}{t}-3\\right)^{1 / 3} \\text { and } \\frac{d y}{d t}=t e^{-t}\n$$\n\nAt time $t=3$, the particle is at the point $(5,4)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the speed of the particle at time $t=3$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write an equation for the line tangent to the path of the particle at time $t=3$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Is there a time $t$ at which the particle is farthest to the right? If yes, explain why and give the value of $t$ and the $x$-coordinate of the position of the particle at that time. If no, explain why not."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Describe the behavior of the path of the particle as $t$ increases without bound.\n\n\\begin{tabular}{|c||c|c|c|c|c|}\n\\hline$t$ (minutes) & 0 & 4 & 8 & 12 & 16 \\\\\n\\hline$H(t)\\left({ }^{\\circ} \\mathrm{C}\\right)$ & 65 & 68 & 73 & 80 & 90 \\\\\n\\hline\n\\end{tabular}"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "147",
+          "type": "free-response",
+          "prompt": "The temperature, in degrees Celsius ( ${ }^{\\circ} \\mathrm{C}$ ), of an oven being heated is modeled by an increasing differentiable function $H$ of time $t$, where $t$ is measured in minutes. The table above gives the temperature as recorded every 4 minutes over a 16 -minute period.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Use the data in the table to estimate the instantaneous rate at which the temperature of the oven is changing at time $t=10$. Show the computations that lead to your answer. Indicate units of measure."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write an integral expression in terms of $H$ for the average temperature of the oven between time $t=0$ and time $t=16$. Estimate the average temperature of the oven using a left Riemann sum with four subintervals of equal length. Show the computations that lead to your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Is your approximation in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "an underestimate or an overestimate of the average temperature? Give a reason for your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer.\n\n\\section*{END OF PART A OF SECTION II}\n\n\\title{\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-45 minutes \\\\ Number of problems-3\n}\n\n\\section*{No calculator is allowed for these problems.}\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-36.jpg?height=669&width=991&top_left_y=588&top_left_x=571)"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "148",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function given by $f(x)=(\\ln x)(\\sin x)$. The figure above shows the graph of $f$ for $0",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find $g(1)$ and $g^{\\prime}(1)$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On what intervals, if any, is $g$ increasing? Justify your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $0<x \\leq 2 \\pi$, find the value of $x$ at which $g$ has an absolute minimum. Justify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "For $0<x<2 \\pi$, is there a value of $x$ at which the graph of $g$ is tangent to the $x$-axis? Explain why or why not."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "149",
+          "type": "free-response",
+          "prompt": "Let $f$ be the function satisfying $f^{\\prime}(x)=4 x-2 x f(x)$ for all real numbers $x$, with $f(0)=5$ and $\\lim _{x \\rightarrow \\infty} f(x)=2$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the value of $\\int_{0}^{\\infty}(4 x-2 x f(x)) d x$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use Euler's method to approximate $f(-1)$, starting at $x=0$, with two steps of equal size."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the particular solution $y=f(x)$ to the differential equation $\\frac{d y}{d x}=4 x-2 x y$ with the initial condition $f(0)=5$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "150",
+          "type": "free-response",
+          "prompt": "The function $g$ is continuous for all real numbers $x$ and is defined by\n$$\ng(x)=\\frac{\\cos (2 x)-1}{x^{2}} \\text { for } x \\neq 0\n$$",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Use L'Hospital's Rule to find the value of $g(0)$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Let $f$ be the function given by $f(x)=\\cos (2 x)$. Write the first four nonzero terms and the general term of the Taylor series for $f$ about $x=0$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Use your answer from part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "to write the first three nonzero terms and the general term of the Taylor series for $g$ about $x=0$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer.\n\nName: $\\_\\_\\_\\_$\n\n\\begin{table}\n\\captionsetup{labelformat=empty}\n\\caption{AP ${ }^{®}$ Calculus BC\nStudent Answer Sheet for Multiple-Choice Section}\n\\begin{tabular}{|l|l|}\n\\hline No. & Answer \\\\\n\\hline 1 & \\\\\n\\hline 2 & \\\\\n\\hline 3 & \\\\\n\\hline 4 & \\\\\n\\hline 5 & \\\\\n\\hline 6 & \\\\\n\\hline 7 & \\\\\n\\hline 8 & \\\\\n\\hline 9 & \\\\\n\\hline 10 & \\\\\n\\hline 11 & \\\\\n\\hline 12 & \\\\\n\\hline 13 & \\\\\n\\hline 14"
+            },
+            {
+              "partSign": "a",
+              "partContent": "How many gallons of sewage enter the treatment tank during the time interval $0 \\leq t \\leq 4$ ? Round your answer to the nearest gallon."
+            },
+            {
+              "partSign": "b",
+              "partContent": "For $0 \\leq t \\leq 4$, at what time $t$ is the amount of sewage in the treatment tank greatest? To the nearest gallon, what is the maximum amount of sewage in the tank? Justify your answers."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $0 \\leq t \\leq 4$, the cost of treating the raw sewage that enters the tank at time $t$ is $(0.15-0.02 t)$ dollars per gallon. To the nearest dollar, what is the total cost of treating all the sewage that enters the tank during the time interval $0 \\leq t \\leq 4$ ?"
+            },
+            {
+              "partSign": "a",
+              "partContent": "$\\int_{0}^{4} E(t) d t \\approx 3981$ gallons"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Let $S(t)$ be the amount of sewage in the treatment tank at time $t$. Then $S^{\\prime}(t)=E(t)-645$ and $S^{\\prime}(t)=0$ when $E(t)=645$. On the interval $0 \\leq t \\leq 4, E(t)=645$ when $t=2.309$ and $t=3.559$.\n\n\\begin{tabular}{|l|l|}\n\\hline $t$ (hours) & amount of sewage in treatment tank \\\\\n\\hline 0 & 0 \\\\\n\\hline 2.309 & $\\int_{0}^{2.309} E(t) d t-645(2.309)=1637.178$ \\\\\n\\hline 3.559 & $\\int_{0}^{3.559} E(t) d t-645(3.559)=1228.520$ \\\\\n\\hline 4 & $3981.022-645(4)=1401.022$ \\\\\n\\hline\n\\end{tab"
+            },
+            {
+              "partSign": "c",
+              "partContent": "Total cost $=\\int_{0}^{4}(0.15-0.02 t) E(t) d t=474.320$\n\nThe total cost of treating the sewage that enters the tank during the time interval $0 \\leq t \\leq 4$, to the nearest dollar, is $\\$ 474$.\n$2:\\left\\{\\begin{array}{l}1: \\text { integral } \\\\ 1: \\text { answer }\\end{array}\\right.$\n$4:\\left\\{\\begin{aligned} 1: & \\text { sets } E(t)=645 \\\\ 1: & \\text { identifies } t=2.309 \\text { as } \\\\ & \\text { a candidate } \\\\ 1: & \\text { amount of sewage at } t=2.309 \\\\ 1: & \\text { conclusion }\\end{al"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Find the speed of the particle at time $t=3$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write an equation for the line tangent to the path of the particle at time $t=3$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Is there a time $t$ at which the particle is farthest to the right? If yes, explain why and give the value of $t$ and the $x$-coordinate of the position of the particle at that time. If no, explain why not."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Describe the behavior of the path of the particle as $t$ increases without bound."
+            },
+            {
+              "partSign": "a",
+              "partContent": "Speed $=\\sqrt{\\left(x^{\\prime}(3)\\right)^{2}+\\left(y^{\\prime}(3)\\right)^{2}}=1.011$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "At $t=3, \\frac{d y}{d x}=\\frac{y^{\\prime}(3)}{x^{\\prime}(3)}=\\frac{3 e^{-3}}{-1}=-\\frac{3}{e^{3}}$\n$$\n=-0.149\n$$\n\nAn equation for the line tangent to the path at the point $(5,4)$ is $y-4=-\\frac{3}{e^{3}}(x-5)$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Since $\\frac{d x}{d t}>0$ for $02$, the particle is farthest to the right at $t=2$. The $x$-coordinate of the position is\n$$\nx(2)=5+\\int_{3}^{2}\\left(\\frac{6}{t}-3\\right)^{1 / 3} d t=5.791 \\text { or } 5.792\n$$"
+            },
+            {
+              "partSign": "d",
+              "partContent": "Since $\\lim _{t \\rightarrow \\infty} \\frac{d x}{d t}=(-3)^{1 / 3}$ and $\\lim _{t \\rightarrow \\infty} \\frac{d y}{d t}=0$, the particle will continue moving farther to the left while approaching a horizontal asymptote.\n\n1 : answer\n$$\n2:\\left\\{\\begin{array}{l}\n1: \\text { slope } \\\\\n1: \\text { equation of tangent line }\n\\end{array}\\right.\n$$\n$4:\\left\\{\\begin{array}{l}1: \\text { \"yes\" with explanation } \\\\ 1: t=2\\end{array} ~ \\begin{array}{l}2:\\left\\{\\begin{array}{l}1: \\text { integral for } x(2) \\\\ 1"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Use the data in the table to estimate the instantaneous rate at which the temperature of the oven is changing at time $t=10$. Show the computations that lead to your answer. Indicate units of measure."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write an integral expression in terms of $H$ for the average temperature of the oven between time $t=0$ and time $t=16$. Estimate the average temperature of the oven using a left Riemann sum with four subintervals of equal length. Show the computations that lead to your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Is your approximation in part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "an underestimate or an overestimate of the average temperature? Give a reason for your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer."
+            },
+            {
+              "partSign": "a",
+              "partContent": "$H^{\\prime}(10) \\approx \\frac{H(12)-H(8)}{12-8}=\\frac{80-73}{4}=\\frac{7}{4}{ }^{\\circ} \\mathrm{C} / \\mathrm{min}$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Average temperature is $\\frac{1}{16} \\int_{0}^{16} H(t) d t$\n$\\int_{0}^{16} H(t) d t \\approx 4 \\cdot(65+68+73+80)$\nAverage temperature $\\approx \\frac{4 \\cdot 286}{16}=71.5^{\\circ} \\mathrm{C}$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "The left Riemann sum approximation is an underestimate of the integral because the graph of $H$ is increasing. Dividing by 16 will not change the inequality, so $71.5^{\\circ} \\mathrm{C}$ is an underestimate of the average temperature."
+            },
+            {
+              "partSign": "d",
+              "partContent": "If a continuous function is increasing at an increasing rate, then the slopes of the secant lines of the graph of the function are increasing. The slopes of the secant lines for the four intervals in the table are $\\frac{3}{4}, \\frac{5}{4}, \\frac{7}{4}$, and $\\frac{10}{4}$, respectively.\n\nSince the slopes are increasing, the data are consistent with the claim.\n\n\\section*{OR}\n\nBy the Mean Value Theorem, the slopes are also the values of $H^{\\prime}\\left(c_{k}\\right)$ for some times $c_{1}<c_{2}<c"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Find $g(1)$ and $g^{\\prime}(1)$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "On what intervals, if any, is $g$ increasing? Justify your answer."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $0<x \\leq 2 \\pi$, find the value of $x$ at which $g$ has an absolute minimum. Justify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "For $0<x<2 \\pi$, is there a value of $x$ at which the graph of $g$ is tangent to the $x$-axis? Explain why or why not."
+            },
+            {
+              "partSign": "a",
+              "partContent": "$\\quad g(1)=\\int_{1}^{1} f(t) d t=0$ and $g^{\\prime}(1)=f(1)=0$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "Since $g^{\\prime}(x)=f(x), g$ is increasing on the interval $1 \\leq x \\leq \\pi$ because $f(x)>0$ for $1<x<\\pi$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $0<x<2 \\pi, g^{\\prime}(x)=f(x)=0$ when $x=1, \\pi$. $g^{\\prime}=f$ changes from negative to positive only at $x=1$. The absolute minimum must occur at $x=1$ or at the right endpoint. Since $g(1)=0$ and $g(2 \\pi)=\\int_{1}^{2 \\pi} f(t) d t=\\int_{1}^{\\pi} f(t) d t+\\int_{\\pi}^{2 \\pi} f(t) d t<0$ by comparison of the two areas, the absolute minimum occurs at $x=2 \\pi$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Yes, the graph of $g$ is tangent to the $x$-axis at $x=1$ since $g(1)=0$ and $g^{\\prime}(1)=0$.\n$$\n2:\\left\\{\\begin{array}{l}\n1: g(1) \\\\\n1: g^{\\prime}(1)\n\\end{array}\\right.\n$$\n$2:\\left\\{\\begin{array}{l}1: \\text { interval } \\\\ 1: \\text { reason }\\end{array}\\right.$\n$3:\\left\\{\\begin{aligned} & 1: \\text { identifies } 1 \\text { and } 2 \\pi \\text { as candidates } \\\\ & \\quad \\text { or - } \\\\ & \\text { indicates that the graph of } g \\\\ & \\quad \\text { decreases, increases, then decreases } \\\\ & 1:"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Find the value of $\\int_{0}^{\\infty}(4 x-2 x f(x)) d x$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Use Euler's method to approximate $f(-1)$, starting at $x=0$, with two steps of equal size."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Find the particular solution $y=f(x)$ to the differential equation $\\frac{d y}{d x}=4 x-2 x y$ with the initial condition $f(0)=5$."
+            },
+            {
+              "partSign": "a",
+              "partContent": "$\\int_{0}^{\\infty}(4 x-2 x f(x)) d x$\n$=\\int_{0}^{\\infty} f^{\\prime}(x) d x=\\lim _{b \\rightarrow \\infty} \\int_{0}^{b} f^{\\prime}(x) d x=\\lim _{b \\rightarrow \\infty}\\left[\\left.f(x)\\right|_{0} ^{b}\\right]$\n$=\\lim _{b \\rightarrow \\infty}(f"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$f\\left(-\\frac{1}{2}\\right) \\approx f(0)+f^{\\prime}(0) \\cdot\\left(-\\frac{1}{2}\\right)=5+0 \\cdot\\left(-\\frac{1}{2}\\right)=5$\n$f(-1) \\approx f\\left(-\\frac{1}{2}\\right)+f^{\\prime}\\left(-\\frac{1}{2}\\right) \\cdot\\left(-\\frac{1}{2}\\right)=5+3 \\cdot\\left(-\\frac{1}{2}\\right)=\\frac{7}{2}$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "$\\frac{1}{4-2 y} d y=x d x$\n$-\\frac{1}{2} \\ln |4-2 y|=\\frac{1}{2} x^{2}+A$\n$\\ln |4-2 y|=-x^{2}+B$\n$2 y-4=C e^{-x^{2}}$\n$C=6$\n$y=2+3 e^{-x^{2}}$ for all real numbers $x$\n$2:\\left\\{\\begin{array}{l}1: \\text { use of FTC } \\\\ 1: \\text { answer from limiting process }\\end{array}\\right.$\n$2:\\left\\{\\begin{array}{l}1: \\text { Euler's method with two steps } \\\\ 1: \\text { Euler's approximation to } f(-1)\\end{array}\\right.$\n$5:\\left\\{\\begin{array}{l}1: \\text { separates variables } \\\\ 1: \\text { antideriv"
+            },
+            {
+              "partSign": "a",
+              "partContent": "Use L'Hospital's Rule to find the value of $g(0)$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Let $f$ be the function given by $f(x)=\\cos (2 x)$. Write the first four nonzero terms and the general term of the Taylor series for $f$ about $x=0$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Use your answer from part"
+            },
+            {
+              "partSign": "b",
+              "partContent": "to write the first three nonzero terms and the general term of the Taylor series for $g$ about $x=0$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer."
+            },
+            {
+              "partSign": "a",
+              "partContent": "Since $g$ is continuous,\n$$\n\\begin{aligned}\ng(0) & =\\lim _{x \\rightarrow 0} g(x)=\\lim _{x \\rightarrow 0} \\frac{\\cos (2 x)-1}{x^{2}} \\\\\n& =\\lim _{x \\rightarrow 0} \\frac{-2 \\sin (2 x)}{2 x} \\\\\n& =\\lim _{x \\rightarrow 0} \\frac{-4 \\cos (2 x)}{2}=-2\n\\end{aligned}\n$$"
+            },
+            {
+              "partSign": "b",
+              "partContent": "$\\cos (2 x)=1-\\frac{(2 x)^{2}}{2!}+\\frac{(2 x)^{4}}{4!}-\\frac{(2 x)^{6}}{6!}+\\cdots+(-1)^{n} \\frac{(2 x)^{2 n}}{(2 n)!}+\\cdots$\n$$\n=1-\\frac{4}{2!} x^{2}+\\frac{16}{4!} x^{4}-\\frac{64}{6!} x^{6}+\\cdots+(-1)^{n} \\frac{2^{2 n}}{(2 n)!} x^{2 n}+\\cdots\n$$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "$g(x)=-\\frac{4}{2!}+\\frac{16}{4!} x^{2}-\\frac{64}{6!} x^{4}+\\cdots+(-1)^{n} \\frac{2^{2 n}}{(2 n)!} x^{2 n-2}+\\cdots$"
+            },
+            {
+              "partSign": "d",
+              "partContent": "$g^{\\prime}(x)=\\frac{2 \\cdot 16}{4!} x-\\frac{4 \\cdot 64}{6!} x^{3}+\\cdots$, so $g^{\\prime}(0)=0$.\n$$\ng^{\\prime \\prime}(x)=\\frac{2 \\cdot 16}{4!}-\\frac{3 \\cdot 4 \\cdot 64}{6!} x^{2}+\\cdots, \\text { so } g^{\\prime \\prime}(0)>0\n$$\n\nTherefore, $g$ has a relative minimum at $x=0$ by the Second Derivative Test.\n$2:\\left\\{\\begin{aligned} 1 & : \\text { uses L'Hospital's Rule } \\\\ & \\text { correctly at least once } \\\\ 1 & : \\text { answer }\\end{aligned}\\right.$\n$3:\\left\\{\\begin{array}{l}1: \\text { first"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
