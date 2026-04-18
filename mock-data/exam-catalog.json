@@ -2,7 +2,8 @@
   "generatedAt": "2026-04-18",
   "total": 19,
   "subjects": [
-    "微积分BC"
+    "微积分BC",
+    "AP Physics C: Mechanics"
   ],
   "years": [
     "2008",
@@ -215,6 +216,17 @@
       "questionCount": 6,
       "sectionCount": 1,
       "subjectId": "calculus_bc"
+    },
+    {
+      "examId": "2018Intl_MECH",
+      "v2ExamId": "physics-c-mech-2018-intl",
+      "title": "AP Physics C: Mechanics 2018年国际卷",
+      "subject": "AP Physics C: Mechanics",
+      "year": "2018",
+      "paperType": "国际卷",
+      "questionCount": 35,
+      "sectionCount": 1,
+      "subjectId": "physics_c_mechanics"
     }
   ]
 }

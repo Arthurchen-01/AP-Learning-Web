@@ -127,8 +127,15 @@ async function renderMathAfterMount() {
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl"]);
-const CALC_BC_TRUNK_CONTRACT_PATH = "/v2/data/contracts/ap-calculus-bc-trunk-contract.json";
+const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl"]);
+const TRUNK_CONTRACT_PATHS = {
+  'calc-bc-2018-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
+  'calc-bc-2017-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
+  'calc-bc-2016-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
+  'calc-bc-2015-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
+  'physics-c-mech-2018-intl': '/v2/data/contracts/ap-physics-c-mechanics-trunk-contract.json'
+};
+const CALC_BC_TRUNK_CONTRACT_PATH = TRUNK_CONTRACT_PATHS['calc-bc-2018-intl'];
 
 function getBranchMappingPath() {
   const examIdStr = String(examId || "");
@@ -140,6 +147,9 @@ function getBranchMappingPath() {
   }
   if (examIdStr === "2015Intl" || examIdStr === "calc-bc-2015-intl") {
     return "/v2/data/calc-bc-2015-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "2018Intl_MECH" || examIdStr === "physics-c-mech-2018-intl") {
+    return "/v2/data/physics-c-mech-2018-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -563,7 +573,7 @@ async function loadBranchDiagnosticsResources() {
 }
 
 function isCalcBcResultsExam() {
-  return CALC_BC_RESULTS_EXAM_IDS.has(String(examId || ""));
+  return RESULTS_EXAM_IDS.has(String(examId || ""));
 }
 
 const ANSWER_KEY_PATHS = {

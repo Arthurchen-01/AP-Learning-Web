@@ -1,0 +1,84 @@
+{
+  "examId": "statistics-2023-na",
+  "title": "AP Statistics 2023 北美卷",
+  "subjectName": "统计学",
+  "yearLabel": "2023",
+  "description": "AP Statistics 2023 北美卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>As part of a study on the chemistry of Alaskan streams, researchers took water samples from many streams with temperatures colder than $8^{} C$ and from many streams with temperatures warmer than $8^{} C$. For each sample, the researchers measured the dissolved oxygen concentration, in milligrams per liter ( $mg / l$ ).</p><p><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-09.jpg?height=356&amp;width=1458&amp;top_left_y=1161&amp;top_left_x=262\" alt=\"\" /></p><p>(a) The researchers constructed the histogram shown for the dissolved oxygen concentration in streams from the sample with water temperatures colder than $8^{} C$. Based on the histogram, describe the distribution of dissolved oxygen concentration in streams with water temperatures colder than $8^{} C$.</p><p>Continue your response to QUESTION 1 on this page.</p><table><tr><td>Min</td><td>Q1</td><td>Median</td><td>Q3</td><td>Max</td><td>Mean</td><td>Std. Dev.</td></tr><tr><td>2.10</td><td>4.39</td><td>5.43</td><td>6.12</td><td>13.45</td><td>5.54</td><td>1.64</td></tr></table><p>(b) The researchers computed the summary statistics shown in the table for the dissolved oxygen concentration in streams from the sample with water temperatures warmer than $8^{} C$. Use the summary statistics to construct a box plot for the dissolved oxygen concentration in streams with water temperatures warmer than $8^{} C$. Do not indicate outliers.<br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-10.jpg?height=452&amp;width=1549&amp;top_left_y=699&amp;top_left_x=304\" alt=\"\" /><br>(c) The researchers believe that streams with higher dissolved oxygen concentration are generally healthier for wildlife. Which streams are generally healthier for wildlife, those with water temperature colder than $8^{} C$ or those with water temperature warmer than $8^{} C$ ? Using characteristics of the distribution of dissolved oxygen concentration for temperatures colder than $8^{} C$ and characteristics of the distribution of dissolved oxygen concentration for temperatures warmer than $8^{} C$, justify your answer.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>A developer wants to know whether adding fibers to concrete used in paving driveways will reduce the severity of cracking, because any driveway with severe cracks will have to be repaired by the developer. The developer conducts a completely randomized experiment with 60 new homes that need driveways. Thirty of the driveways will be randomly assigned to receive concrete that contains fibers, and the other 30 driveways will receive concrete that does not contain fibers. After one year, the developer will record the severity of cracks in each driveway on a scale of 0 to 10 , with 0 representing not cracked at all and 10 representing severely cracked.<br>(a) Based on the information provided about the developer&#x27;s experiment, identify each of the following.<br>- Experimental units<br>- Treatments<br>- Response variable<br>(b) Describe an appropriate method the developer could use to randomly assign concrete that contains fibers and concrete that does not contain fibers to the 60 driveways.</p><p>Suppose the developer finds that there is a statistically significant reduction in the mean severity of cracks in driveways using the concrete that contains fibers compared to the driveways using concrete that does not contain fibers.<br>(c) In terms of the developer&#x27;s conclusion, what is the benefit of randomly assigning the driveways to either the concrete that contains fibers or the concrete that does not contain fibers?</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>Bath fizzies are mineral tablets that dissolve and create bubbles when added to bathwater. In order to increase sales, the Fizzy Bath Company has produced a new line of bath fizzies that have a cash prize in every bath fizzy. Let the random variable, $X$, represent the dollar value of the cash prize in a bath fizzy. The probability distribution of $X$ is shown in the table.</p><table><tr><td>Cash prize, $x$</td><td>$\\$ 1$</td><td>$\\$ 5$</td><td>$\\$ 10$</td><td>$\\$ 20$</td><td>$\\$ 50$</td><td>$\\$ 100$</td></tr><tr><td>{l} Probability of cash prize,</td></tr><tr><td>$P(X=x)$</td><td>$P(X=\\$ 1)$</td><td>0.2</td><td>0.05</td><td>0.05</td><td>0.01</td><td>0.01</td></tr></table><p>(a) Based on the probability distribution of $X$, answer the following. Show your work.<br>(i) Calculate the proportion of bath fizzies that contain $\\$ 1$.<br>(ii) Calculate the proportion of bath fizzies that contain at least $\\$ 10$.<br>(b) Based on the probability distribution of $X$, calculate the probability that a randomly selected bath fizzy contains $\\$ 100$, given that it contains at least $\\$ 10$. Show your work.</p><p>(c) Based on the probability distribution of $X$, calculate and interpret the expected value of the distribution of the cash prize in the bath fizzies. Show your work.<br>(d) The Fizzy Bath Company would like to sell the bath fizzies in France, where the currency is euros. Suppose the conversion rate for dollars to euros is 1 dollar $=0.89$ euros. Using your expected value from part (c), calculate the expected value, in euros, of the distribution of the cash prize in the bath fizzies. Show your work.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>A medical researcher completed a study comparing an omega-3 fatty acids supplement to a placebo in the treatment of irritability in patients with a certain medical condition. Nineteen patients with the medical condition volunteered to participate in the study. The study was conducted using the following weekly schedule.<br>- Week 1: Each patient took a randomly assigned treatment, omega-3 supplement or placebo.<br>- Week 2: The patients did not take either the omega-3 supplement or the placebo. This was necessary to reduce the possibility of any carryover effect from the assigned treatment taken during week 1.<br>- Week 3: Each patient took the treatment, omega-3 supplement or placebo, that they did not take during week 1.</p><p>At the end of week 1 and week 3, each patient&#x27;s irritability was given a score on a scale of 0 to 10 , with 0 representing no irritability and 10 representing the highest level of irritability.</p><p>For each patient, the two irritability scores and the difference in their scores (placebo minus omega-3) were recorded. The results are summarized in the table and boxplots.</p><table><tr><td>$n$</td><td>Mean</td><td>Standard Deviation</td></tr><tr><td>Placebo</td><td>19</td><td>5.421</td><td>2.987</td></tr><tr><td>Omega-3</td><td>19</td><td>3.632</td><td>1.739</td></tr><tr><td>Difference (placebo minus omega-3)</td><td>19</td><td>1.789</td><td>2.485</td></tr></table><p>Placebo<br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-15.jpg?height=750&amp;width=923&amp;top_left_y=1386&amp;top_left_x=627\" alt=\"\" /></p><p>The researcher claims the omega-3 supplement will decrease the mean irritability score of all patients with the medical condition similar to the volunteers who participated in the study. Is there convincing statistical evidence to support the researcher&#x27;s claim at a significance level of $=0.05$ ? Complete the appropriate inference procedure to support your answer.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>Wildlife biologists are interested in the health of tule elk, a species of deer found in California. An important measurement of tule elk health is their weight. The weight of a tule elk is difficult to measure in the wild. However, chest circumference, which is believed to be related to the weight of a tule elk, can easily be measured from a safe distance using a harmless laser. A study was done to investigate whether chest circumference, in centimeters (cm), could be used to accurately estimate the weight, in kilograms (kg), of male tule elk. For the study, wildlife biologists captured 30 male tule elk, measured their chest circumference and weight, and then released the elk. The data for the 30 male tule elk are shown in the scatterplot.<br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-17.jpg?height=913&amp;width=1534&amp;top_left_y=625&amp;top_left_x=260\" alt=\"\" /><br>(a) Describe the relationship between chest circumference and weight of male tule elk in context.</p><p>Following is the equation of the least-squares regression line relating chest circumference and weight for male tule elk.</p><p>{ predicted weight }=-350.3+3.7455( { chest circumference })</p><p>(b) The weight of one male tule elk with a chest circumference of 145.9 cm is 204.3 kg .<br>(i) Using the equation of the least-squares regression line, calculate the predicted weight for this male tule elk. Show your work.<br>(ii) Calculate the residual for this male tule elk. Show your work.</p><p>The equation of the least-squares regression line relating chest circumference and weight for male tule elk is repeated here.</p><p>{ predicted weight }=-350.3+3.7455( { chest circumference })</p><p>(c) Interpret the slope of the least-squares regression line in context.<br>(d) The sambar, another species of deer, is similar in size to the tule elk. The slope of the population regression line relating chest circumference and weight for all male sambars is 4.5 kilograms per centimeter. A wildlife biologist wants to determine whether the slope of the population regression line for male tule elk is different than that for male sambars. Let $$ represent the slope of the population regression line for male tule elk. The wildlife biologist conducted a test of the following hypotheses using the sample of 30 tule elk.</p><table><tr><td>H_{0}: =4.5</td></tr><tr><td>H_{a}:   4.5</td></tr></table><p>The test statistic was calculated to be 3.408 . Assume all conditions for inference were met.<br>(i) Determine the $p$-value of the test.</p><p>Continue your response to QUESTION 5 on this page.<br>(ii) At a significance level of $=0.05$, what conclusion should the wildlife biologist make regarding the slope of the population regression line for male tule elk? Justify your response.</p><table><tr><td>Begin your response to QUESTION 6 on this page.</td></tr><tr><td>STATISTICS</td></tr></table><p>Directions: Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>A jewelry company uses a machine to apply a coating of gold on a certain style of necklace. The amount of gold applied to a necklace is approximately normally distributed. When the machine is working properly, the amount of gold applied to a necklace has a mean of 300 milligrams ( mg ) and standard deviation of 5 mg .<br>(a) A necklace is randomly selected from the necklaces produced by the machine. Assuming that the machine is working properly, calculate the probability that the amount of gold applied to the necklace is between 296 mg and 304 mg .</p><p>The jewelry company wants to make sure the machine is working properly. Each day, Cleo, a statistician at the jewelry company, will take a random sample of the necklaces produced that day. Each selected necklace will be melted down and the amount of the gold applied to that necklace will be determined. Because a necklace must be destroyed to determine the amount of gold that was applied, Cleo will use random samples of size $n=2$ necklaces.</p><p>Cleo starts by considering the mean amount of gold being applied to the necklaces. After Cleo takes a random sample of $n=2$ necklaces, she computes the sample mean amount of gold applied to the two necklaces.<br>(b) Suppose the machine is working properly with a population mean amount of gold being applied of 300 mg and a population standard deviation of 5 mg .<br>(i) Calculate the probability that the sample mean amount of gold applied to a random sample of $n=2$ necklaces will be greater than 303 mg .<br>(ii) Suppose Cleo took a random sample of $n=2$ necklaces that resulted in a sample mean amount of gold applied of 303 mg . Would that result indicate that the population mean amount of gold being applied by the machine is different from 300 mg ? Justify your answer without performing an inference procedure.</p><p>Now, Cleo will consider the variation in the amount of gold the machine applies to the necklaces. Because of the small sample size, $n=2$, Cleo will use the sample range of the data for the two randomly selected necklaces, rather than the sample standard deviation.</p><p>Cleo will investigate the behavior of the range for samples of size $n=2$. She will simulate the sampling distribution of the range of the amount of gold applied to two randomly sampled necklaces. Cleo generates 100,000 random samples of size $n=2$ independent values from a normal distribution with mean $=300$ and standard deviation $=5$. The range is calculated for the two observations in each sample. The simulated sampling distribution of the range is shown in Graph I. This process is repeated using $=8$, as shown in Graph II, and again using $=12$, as shown in Graph III.<br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-23.jpg?height=509&amp;width=1398&amp;top_left_y=791&amp;top_left_x=327\" alt=\"\" /><br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-23.jpg?height=507&amp;width=1396&amp;top_left_y=1335&amp;top_left_x=329\" alt=\"\" /></p><p>Continue your response to QUESTION 6 on this page.<br><img src=\"https://cdn.mathpix.com/cropped/cd477460-d4c6-47d1-8bd1-1f3f41ceac1b-24.jpg?height=513&amp;width=1404&amp;top_left_y=241&amp;top_left_x=352\" alt=\"\" /><br>(c) Use the information in the graphs to complete the following.<br>(i) Describe the sampling distribution of the sample range for random samples of size $n=2$ from a normal distribution with standard deviation $=5$, as shown in Graph I.<br>(ii) Describe how the sampling distribution of the sample range for samples of size $n=2$ changes as the value of the population standard deviation $$ increases.</p><p>Recall that Cleo needs to consider both the mean and standard deviation of the amount of gold applied to necklaces to determine whether the machine is working properly. Suppose that one month later, Cleo is again checking the machine to make sure it is working properly. Cleo takes a random sample of 2 necklaces and calculates the sample mean amount of gold applied as 303 mg and the sample range as 10 mg .<br>(d) Recall that the machine is working properly if the amount of gold applied to the necklaces has a mean of 300 mg and standard deviation of 5 mg .<br>(i) Consider Cleo&#x27;s range of 10 mg from the sample of size $n=2$. If the machine is working properly with a standard deviation of 5 mg , is a sample range of 10 mg unusual? Justify your answer.<br>(ii) Do Cleo&#x27;s sample mean of 303 mg and range of 10 mg indicate that the machine is not working properly? Explain your answer.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

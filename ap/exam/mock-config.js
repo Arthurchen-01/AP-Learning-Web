@@ -52,6 +52,8 @@ const NORMALIZED_EXAM_SOURCES = {
   "calc-bc-2015-intl": "calc-bc-2015-intl",
   "2016Intl": "calc-bc-2016-intl",
   "calc-bc-2016-intl": "calc-bc-2016-intl",
+  "2018Intl_MECH": "physics-c-mech-2018-intl",
+  "physics-c-mech-2018-intl": "physics-c-mech-2018-intl",
   "1902622413180211200": "statistics-2017-intl",
   "statistics-2017-intl": "statistics-2017-intl",
   "1902622413633196032": "statistics-2018-intl",
@@ -145,16 +147,20 @@ function buildExamShellData(packet, questions, requestedExamId) {
 }
 
 function mapNormalizedQuestion(question) {
+  const rawOptions = Array.isArray(question.options)
+    ? question.options
+    : Array.isArray(question.choices)
+      ? question.choices
+      : [];
+
   return {
     id: question.question_id,
     type: mapNormalizedQuestionType(question),
-    prompt: normalizeExamText(question.question_html || ""),
-    options: Array.isArray(question.options)
-      ? question.options.map((option) => ({
-          key: option.key,
-          content: normalizeExamText(option.html || option.text || "")
-        }))
-      : [],
+    prompt: String(question.question_html || question.prompt_html || question.prompt || ""),
+    options: rawOptions.map((option) => ({
+      key: option.key,
+      content: String(option.html || option.content || option.text || "")
+    })),
     answer: "",
     correctAnswer: question.correct_answer || "",
     explanation: question.correct_answer ? `Correct answer: ${question.correct_answer}` : "Answer key not available yet for this imported exam."
@@ -168,7 +174,7 @@ function mapNormalizedQuestionType(question) {
   if (question.question_type === "free_response" || question.question_type === "frq") {
     return "frq";
   }
-  if (Array.isArray(question.options) && question.options.length) {
+  if ((Array.isArray(question.options) && question.options.length) || (Array.isArray(question.choices) && question.choices.length)) {
     return "single";
   }
   return "frq";

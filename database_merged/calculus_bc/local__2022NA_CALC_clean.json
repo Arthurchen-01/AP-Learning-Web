@@ -1,0 +1,84 @@
+{
+  "examId": "2022NA",
+  "title": "AP Calculus BC 2022年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2022",
+  "description": "AP Calculus BC 2022年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>From 5 A.M. to 10 A.M., the rate at which vehicles arrive at a certain toll plaza is given by $A(t)=450  (0.62 t)$, where $t$ is the number of hours after 5 A.M. and $A(t)$ is measured in vehicles per hour. Traffic is flowing smoothly at 5 A.M. with no vehicles waiting in line.<br>(a) Write, but do not evaluate, an integral expression that gives the total number of vehicles that arrive at the toll plaza from 6 A.M. $(t=1)$ to 10 A.M. $(t=5)$.<br>(b) Find the average value of the rate, in vehicles per hour, at which vehicles arrive at the toll plaza from 6 A.M. $(t=1)$ to 10 A.M. $(t=5)$.<br>(c) Is the rate at which vehicles arrive at the toll plaza at 6 A.M. ( $t=1$ ) increasing or decreasing? Give a reason for your answer.<br>(d) A line forms whenever $A(t)  400$. The number of vehicles in line at time $t$, for $a  t  4$, is given by $N(t)=_{a}^{t}(A(x)-400) d x$, where $a$ is the time when a line first begins to form. To the nearest whole number, find the greatest number of vehicles in line at the toll plaza in the time interval $a  t  4$. Justify your answer.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>A particle moving along a curve in the $x y$-plane is at position $(x(t), y(t))$ at time $t&gt;0$. The particle moves in such a way that $d x{d t}=1+t^{2}$ and $d y{d t}= (2+t^{2})$. At time $t=4$, the particle is at the point $(1,5)$.<br>(a) Find the slope of the line tangent to the path of the particle at time $t=4$.<br>(b) Find the speed of the particle at time $t=4$, and find the acceleration vector of the particle at time $t=4$.<br>(c) Find the $y$-coordinate of the particle&#x27;s position at time $t=6$.<br>(d) Find the total distance the particle travels along the curve from time $t=4$ to time $t=6$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><p>CALCULUS BC SECTION II, Part B</p><p>Time-1 hour<br>4 Questions</p><p><img src=\"https://cdn.mathpix.com/cropped/f795e8e9-efcb-42ff-9c33-85b504f23461-07.jpg?height=448&amp;width=604&amp;top_left_y=222&amp;top_left_x=722\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be a differentiable function with $f(4)=3$. On the interval $0  x  7$, the graph of $f^{}$, the derivative of $f$, consists of a semicircle and two line segments, as shown in the figure above.<br>(a) Find $f(0)$ and $f(5)$.<br>(b) Find the $x$-coordinates of all points of inflection of the graph of $f$ for $0&lt;x&lt;7$. Justify your answer.<br>(c) Let $g$ be the function defined by $g(x)=f(x)-x$. On what intervals, if any, is $g$ decreasing for $0  x  7$ ? Show the analysis that leads to your answer.<br>(d) For the function $g$ defined in part (c), find the absolute minimum value on the interval $0  x  7$. Justify your answer.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><table><tr><td>{c} $t$</td></tr><tr><td>(days)</td><td>0</td><td>3</td><td>7</td><td>10</td><td>12</td></tr><tr><td>$r^{}(t)$</td></tr><tr><td>(centimeters per day)</td><td>-6.1</td><td>-5.0</td><td>-4.4</td><td>-3.8</td><td>-3.5</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>An ice sculpture melts in such a way that it can be modeled as a cone that maintains a conical shape as it decreases in size. The radius of the base of the cone is given by a twice-differentiable function $r$, where $r(t)$ is measured in centimeters and $t$ is measured in days. The table above gives selected values of $r^{}(t)$, the rate of change of the radius, over the time interval $0  t  12$.<br>(a) Approximate $r^{ }(8.5)$ using the average rate of change of $r^{}$ over the interval $7  t  10$. Show the computations that lead to your answer, and indicate units of measure.<br>(b) Is there a time $t, 0  t  3$, for which $r^{}(t)=-6$ ? Justify your answer.<br>(c) Use a right Riemann sum with the four subintervals indicated in the table to approximate the value of $_{0}^{12} r^{}(t) d t$.<br>(d) The height of the cone decreases at a rate of 2 centimeters per day. At time $t=3$ days, the radius is 100 centimeters and the height is 50 centimeters. Find the rate of change of the volume of the cone with respect to time, in cubic centimeters per day, at time $t=3$ days. (The volume $V$ of a cone with radius $r$ and height $h$ is $V=1{3}  r^{2} h$.)</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><p><img src=\"https://cdn.mathpix.com/cropped/f795e8e9-efcb-42ff-9c33-85b504f23461-09.jpg?height=622&amp;width=637&amp;top_left_y=214&amp;top_left_x=344\" alt=\"\" /></p><p><img src=\"https://cdn.mathpix.com/cropped/f795e8e9-efcb-42ff-9c33-85b504f23461-09.jpg?height=616&amp;width=633&amp;top_left_y=220&amp;top_left_x=1071\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>Figures 1 and 2, shown above, illustrate regions in the first quadrant associated with the graphs of $y=1{x}$ and $y=1{x^{2}}$, respectively. In Figure 1 , let $R$ be the region bounded by the graph of $y=1{x}$, the $x$-axis, and the vertical lines $x=1$ and $x=5$. In Figure 2, let $W$ be the unbounded region between the graph of $y=1{x^{2}}$ and the $x$-axis that lies to the right of the vertical line $x=3$.<br>(a) Find the area of region $R$.<br>(b) Region $R$ is the base of a solid. For the solid, at each $x$ the cross section perpendicular to the $x$-axis is a rectangle with area given by $x e^{x / 5}$. Find the volume of the solid.<br>(c) Find the volume of the solid generated when the unbounded region $W$ is revolved about the $x$-axis.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>The function $f$ is defined by the power series $f(x)=x-x^{3}{3}+x^{5}{5}-x^{7}{7}++(-1)^{n x^{2 n+1}}{2 n+1}+$ for all real numbers $x$ for which the series converges.<br>(a) Using the ratio test, find the interval of convergence of the power series for $f$. Justify your answer.<br>(b) Show that $|f(1{2})-1{2}|&lt;1{10}$. Justify your answer.<br>(c) Write the first four nonzero terms and the general term for an infinite series that represents $f^{}(x)$.<br>(d) Use the result from part (c) to find the value of $f^{}(1{6})$.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

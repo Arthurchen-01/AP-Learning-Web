@@ -1,0 +1,366 @@
+{
+  "version": "1.0.0",
+  "subject": {
+    "subjectSlug": "ap_physics_c_mechanics",
+    "subjectDisplayName": "AP Physics C: Mechanics",
+    "examSystem": "ap",
+    "defaultExamIds": [
+      "2018Intl_MECH"
+    ]
+  },
+  "mainModel": {
+    "id": "physics-c-mech-breakthrough-core",
+    "name": "Physics C: Mechanics Breakthrough Core",
+    "modelType": "single-route",
+    "description": "第一版按单路型主干结构组织 Physics C: Mechanics 题目：先识别主题主干，再落到可训练的 branch 与 skill node。"
+  },
+  "trunks": [
+    {
+      "id": "trunk-kinematics",
+      "name": "Kinematics and Motion Analysis",
+      "description": "运动学、运动分析与运动图解。",
+      "branchIds": [
+        "branch-1d-motion",
+        "branch-2d-projectile",
+        "branch-graphical-analysis"
+      ]
+    },
+    {
+      "id": "trunk-forces-dynamics",
+      "name": "Forces and Newton's Laws",
+      "description": "力、牛顿定律与动力学分析。",
+      "branchIds": [
+        "branch-free-body-diagram",
+        "branch-newton-laws-application",
+        "branch-friction-contact"
+      ]
+    },
+    {
+      "id": "trunk-energy-momentum",
+      "name": "Work, Energy, and Momentum",
+      "description": "功、能量、动量与守恒定律。",
+      "branchIds": [
+        "branch-work-energy-theorem",
+        "branch-potential-energy-fields",
+        "branch-linear-momentum",
+        "branch-center-of-mass"
+      ]
+    },
+    {
+      "id": "trunk-rotation-oscillation",
+      "name": "Rotation, Oscillation, and Gravitation",
+      "description": "转动、振荡与引力场。",
+      "branchIds": [
+        "branch-torque-angular",
+        "branch-rotation-energy-angular-momentum",
+        "branch-rolling-motion",
+        "branch-oscillations",
+        "branch-gravitation-orbits"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-1d-motion",
+      "trunkId": "trunk-kinematics",
+      "name": "1D Linear Motion",
+      "description": "一维直线运动、匀加速运动与自由落体。",
+      "skillNodeIds": [
+        "skill-1d-kinematics-equations",
+        "skill-free-fall-analysis"
+      ]
+    },
+    {
+      "id": "branch-2d-projectile",
+      "trunkId": "trunk-kinematics",
+      "name": "2D Motion and Projectile Analysis",
+      "description": "二维运动、抛体运动与运动分解。",
+      "skillNodeIds": [
+        "skill-projectile-motion",
+        "skill-2d-vector-decomposition"
+      ]
+    },
+    {
+      "id": "branch-graphical-analysis",
+      "trunkId": "trunk-kinematics",
+      "name": "Velocity/Acceleration Graph Interpretation",
+      "description": "速度/加速度图解分析与运动状态推断。",
+      "skillNodeIds": [
+        "skill-velocity-time-graphs",
+        "skill-acceleration-time-graphs"
+      ]
+    },
+    {
+      "id": "branch-free-body-diagram",
+      "trunkId": "trunk-forces-dynamics",
+      "name": "Free-Body Diagrams and Force Decomposition",
+      "description": "自由体图、力分解与受力分析。",
+      "skillNodeIds": [
+        "skill-fbd-construction",
+        "skill-force-decomposition"
+      ]
+    },
+    {
+      "id": "branch-newton-laws-application",
+      "trunkId": "trunk-forces-dynamics",
+      "name": "Newton's Laws in Linear and Combined Systems",
+      "description": "牛顿定律在线性系统与组合系统中的应用。",
+      "skillNodeIds": [
+        "skill-newton-second-law",
+        "skill-systems-of-masses"
+      ]
+    },
+    {
+      "id": "branch-friction-contact",
+      "trunkId": "trunk-forces-dynamics",
+      "name": "Friction, Normal Force, and Contact Forces",
+      "description": "摩擦力、法向力与接触力分析。",
+      "skillNodeIds": [
+        "skill-static-kinetic-friction",
+        "skill-normal-force-analysis"
+      ]
+    },
+    {
+      "id": "branch-work-energy-theorem",
+      "trunkId": "trunk-energy-momentum",
+      "name": "Work-Energy Theorem and Conservation of Energy",
+      "description": "功-能定理与能量守恒定律。",
+      "skillNodeIds": [
+        "skill-work-calculation",
+        "skill-energy-conservation"
+      ]
+    },
+    {
+      "id": "branch-potential-energy-fields",
+      "trunkId": "trunk-energy-momentum",
+      "name": "Gravitational and Elastic Potential Energy",
+      "description": "重力势能与弹性势能。",
+      "skillNodeIds": [
+        "skill-gravitational-pe",
+        "skill-elastic-pe"
+      ]
+    },
+    {
+      "id": "branch-linear-momentum",
+      "trunkId": "trunk-energy-momentum",
+      "name": "Impulse, Momentum, and Collisions",
+      "description": "冲量、动量与碰撞分析。",
+      "skillNodeIds": [
+        "skill-impulse-momentum",
+        "skill-collision-analysis"
+      ]
+    },
+    {
+      "id": "branch-center-of-mass",
+      "trunkId": "trunk-energy-momentum",
+      "name": "Center of Mass and Systems of Particles",
+      "description": "质心与粒子系统分析。",
+      "skillNodeIds": [
+        "skill-center-of-mass-calculation",
+        "skill-systems-of-particles"
+      ]
+    },
+    {
+      "id": "branch-torque-angular",
+      "trunkId": "trunk-rotation-oscillation",
+      "name": "Torque, Angular Acceleration, and Moment of Inertia",
+      "description": "扭矩、角加速度与转动惯量。",
+      "skillNodeIds": [
+        "skill-torque-calculation",
+        "skill-moment-of-inertia"
+      ]
+    },
+    {
+      "id": "branch-rotation-energy-angular-momentum",
+      "trunkId": "trunk-rotation-oscillation",
+      "name": "Rotational Energy and Angular Momentum Conservation",
+      "description": "转动能量与角动量守恒。",
+      "skillNodeIds": [
+        "skill-rotational-kinetic-energy",
+        "skill-angular-momentum-conservation"
+      ]
+    },
+    {
+      "id": "branch-rolling-motion",
+      "trunkId": "trunk-rotation-oscillation",
+      "name": "Rolling Without Slipping",
+      "description": "无滑滚动运动分析。",
+      "skillNodeIds": [
+        "skill-rolling-constraints",
+        "skill-rolling-dynamics"
+      ]
+    },
+    {
+      "id": "branch-oscillations",
+      "trunkId": "trunk-rotation-oscillation",
+      "name": "Simple Harmonic Motion",
+      "description": "简谐运动（弹簧、摆）。",
+      "skillNodeIds": [
+        "skill-spring-oscillation",
+        "skill-pendulum-analysis"
+      ]
+    },
+    {
+      "id": "branch-gravitation-orbits",
+      "trunkId": "trunk-rotation-oscillation",
+      "name": "Gravitational Fields and Orbital Mechanics",
+      "description": "引力场与轨道力学。",
+      "skillNodeIds": [
+        "skill-gravitational-field",
+        "skill-orbital-mechanics"
+      ]
+    }
+  ],
+  "skillNodes": [
+    {
+      "id": "skill-1d-kinematics-equations",
+      "branchId": "branch-1d-motion",
+      "name": "Apply 1D kinematics equations"
+    },
+    {
+      "id": "skill-free-fall-analysis",
+      "branchId": "branch-1d-motion",
+      "name": "Analyze free fall motion"
+    },
+    {
+      "id": "skill-projectile-motion",
+      "branchId": "branch-2d-projectile",
+      "name": "Analyze projectile motion"
+    },
+    {
+      "id": "skill-2d-vector-decomposition",
+      "branchId": "branch-2d-projectile",
+      "name": "Decompose 2D motion vectors"
+    },
+    {
+      "id": "skill-velocity-time-graphs",
+      "branchId": "branch-graphical-analysis",
+      "name": "Interpret velocity-time graphs"
+    },
+    {
+      "id": "skill-acceleration-time-graphs",
+      "branchId": "branch-graphical-analysis",
+      "name": "Interpret acceleration-time graphs"
+    },
+    {
+      "id": "skill-fbd-construction",
+      "branchId": "branch-free-body-diagram",
+      "name": "Construct free-body diagrams"
+    },
+    {
+      "id": "skill-force-decomposition",
+      "branchId": "branch-free-body-diagram",
+      "name": "Decompose forces into components"
+    },
+    {
+      "id": "skill-newton-second-law",
+      "branchId": "branch-newton-laws-application",
+      "name": "Apply Newton's second law"
+    },
+    {
+      "id": "skill-systems-of-masses",
+      "branchId": "branch-newton-laws-application",
+      "name": "Analyze systems of connected masses"
+    },
+    {
+      "id": "skill-static-kinetic-friction",
+      "branchId": "branch-friction-contact",
+      "name": "Analyze static and kinetic friction"
+    },
+    {
+      "id": "skill-normal-force-analysis",
+      "branchId": "branch-friction-contact",
+      "name": "Analyze normal forces"
+    },
+    {
+      "id": "skill-work-calculation",
+      "branchId": "branch-work-energy-theorem",
+      "name": "Calculate work done by forces"
+    },
+    {
+      "id": "skill-energy-conservation",
+      "branchId": "branch-work-energy-theorem",
+      "name": "Apply energy conservation"
+    },
+    {
+      "id": "skill-gravitational-pe",
+      "branchId": "branch-potential-energy-fields",
+      "name": "Calculate gravitational potential energy"
+    },
+    {
+      "id": "skill-elastic-pe",
+      "branchId": "branch-potential-energy-fields",
+      "name": "Calculate elastic potential energy"
+    },
+    {
+      "id": "skill-impulse-momentum",
+      "branchId": "branch-linear-momentum",
+      "name": "Apply impulse-momentum theorem"
+    },
+    {
+      "id": "skill-collision-analysis",
+      "branchId": "branch-linear-momentum",
+      "name": "Analyze elastic and inelastic collisions"
+    },
+    {
+      "id": "skill-center-of-mass-calculation",
+      "branchId": "branch-center-of-mass",
+      "name": "Calculate center of mass"
+    },
+    {
+      "id": "skill-systems-of-particles",
+      "branchId": "branch-center-of-mass",
+      "name": "Analyze systems of particles"
+    },
+    {
+      "id": "skill-torque-calculation",
+      "branchId": "branch-torque-angular",
+      "name": "Calculate torque"
+    },
+    {
+      "id": "skill-moment-of-inertia",
+      "branchId": "branch-torque-angular",
+      "name": "Calculate moment of inertia"
+    },
+    {
+      "id": "skill-rotational-kinetic-energy",
+      "branchId": "branch-rotation-energy-angular-momentum",
+      "name": "Calculate rotational kinetic energy"
+    },
+    {
+      "id": "skill-angular-momentum-conservation",
+      "branchId": "branch-rotation-energy-angular-momentum",
+      "name": "Apply angular momentum conservation"
+    },
+    {
+      "id": "skill-rolling-constraints",
+      "branchId": "branch-rolling-motion",
+      "name": "Analyze rolling constraints"
+    },
+    {
+      "id": "skill-rolling-dynamics",
+      "branchId": "branch-rolling-motion",
+      "name": "Analyze rolling dynamics"
+    },
+    {
+      "id": "skill-spring-oscillation",
+      "branchId": "branch-oscillations",
+      "name": "Analyze spring oscillation"
+    },
+    {
+      "id": "skill-pendulum-analysis",
+      "branchId": "branch-oscillations",
+      "name": "Analyze pendulum motion"
+    },
+    {
+      "id": "skill-gravitational-field",
+      "branchId": "branch-gravitation-orbits",
+      "name": "Calculate gravitational field strength"
+    },
+    {
+      "id": "skill-orbital-mechanics",
+      "branchId": "branch-gravitation-orbits",
+      "name": "Analyze orbital mechanics"
+    }
+  ]
+}

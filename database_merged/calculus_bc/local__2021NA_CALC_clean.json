@@ -1,0 +1,84 @@
+{
+  "examId": "2021NA",
+  "title": "AP Calculus BC 2021年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2021",
+  "description": "AP Calculus BC 2021年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>The density of a bacteria population in a circular petri dish at a distance $r$ centimeters from the center of the dish is given by an increasing, differentiable function $f$, where $f(r)$ is measured in milligrams per square centimeter. Values of $f(r)$ for selected values of $r$ are given in the table above.<br>(a) Use the data in the table to estimate $f^{}(2.25)$. Using correct units, interpret the meaning of your answer in the context of this problem.<br>(b) The total mass, in milligrams, of bacteria in the petri dish is given by the integral expression $2  _{0}^{4} r f(r) d r$. Approximate the value of $2  _{0}^{4} r f(r) d r$ using a right Riemann sum with the four subintervals indicated by the data in the table.<br>(c) Is the approximation found in part (b) an overestimate or underestimate of the total mass of bacteria in the petri dish? Explain your reasoning.<br>(d) The density of bacteria in the petri dish, for $1  r  4$, is modeled by the function $g$ defined by $g(r)=2-16( (1.57 r))^{3}$. For what value of $k, 1&lt;k&lt;4$, is $g(k)$ equal to the average value of $g(r)$ on the interval $1  r  4$ ?</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>For time $t  0$, a particle moves in the $x y$-plane with position $(x(t), y(t))$ and velocity vector $(t-1) e^{t^{2}},  (t^{1.25})$. At time $t=0$, the position of the particle is $(-2,5)$.<br>(a) Find the speed of the particle at time $t=1.2$. Find the acceleration vector of the particle at time $t=1.2$.<br>(b) Find the total distance traveled by the particle over the time interval $0  t  1.2$.<br>(c) Find the coordinates of the point at which the particle is farthest to the left for $t  0$. Explain why there is no point at which the particle is farthest to the right for $t  0$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><p>CALCULUS BC SECTION II, Part B</p><p>Time-1 hour<br>4 Questions</p><p><img src=\"https://cdn.mathpix.com/cropped/5a124659-c06e-409f-9372-5ad131429d46-07.jpg?height=358&amp;width=761&amp;top_left_y=304&amp;top_left_x=644\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>A company designs spinning toys using the family of functions $y=c x 4-x^{2}$, where $c$ is a positive constant. The figure above shows the region in the first quadrant bounded by the $x$-axis and the graph of $y=c x 4-x^{2}$, for some $c$. Each spinning toy is in the shape of the solid generated when such a region is revolved about the $x$-axis. Both $x$ and $y$ are measured in inches.<br>(a) Find the area of the region in the first quadrant bounded by the $x$-axis and the graph of $y=c x 4-x^{2}$ for $c=6$.<br>(b) It is known that, for $y=c x 4-x^{2}, d y{d x}=c(4-2 x^{2)}{4-x^{2}}$. For a particular spinning toy, the radius of the largest cross-sectional circular slice is 1.2 inches. What is the value of $c$ for this spinning toy?<br>(c) For another spinning toy, the volume is $2 $ cubic inches. What is the value of $c$ for this spinning toy?</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><p><img src=\"https://cdn.mathpix.com/cropped/5a124659-c06e-409f-9372-5ad131429d46-08.jpg?height=682&amp;width=708&amp;top_left_y=289&amp;top_left_x=672\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be a continuous function defined on the closed interval $-4  x  6$. The graph of $f$, consisting of four line segments, is shown above. Let $G$ be the function defined by $G(x)=_{0}^{x} f(t) d t$.<br>(a) On what open intervals is the graph of $G$ concave up? Give a reason for your answer.<br>(b) Let $P$ be the function defined by $P(x)=G(x)  f(x)$. Find $P^{}(3)$.<br>(c) Find $ _{x  2} G(x){x^{2}-2 x}$.<br>(d) Find the average rate of change of $G$ on the interval $[-4,2]$. Does the Mean Value Theorem guarantee a value $c,-4&lt;c&lt;2$, for which $G^{}(c)$ is equal to this average rate of change? Justify your answer.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>Let $y=f(x)$ be the particular solution to the differential equation $d y{d x}=y (x  x)$ with initial condition $f(1)=4$. It can be shown that $f^{ }(1)=4$.<br>(a) Write the second-degree Taylor polynomial for $f$ about $x=1$. Use the Taylor polynomial to approximate $f(2)$.<br>(b) Use Euler&#x27;s method, starting at $x=1$ with two steps of equal size, to approximate $f(2)$. Show the work that leads to your answer.<br>(c) Find the particular solution $y=f(x)$ to the differential equation $d y{d x}=y (x  x)$ with initial condition $f(1)=4$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>The function $g$ has derivatives of all orders for all real numbers. The Maclaurin series for $g$ is given by $g(x)=_{n=0}^{} (-1)^{n x^{n}}{2 e^{n}+3}$ on its interval of convergence.<br>(a) State the conditions necessary to use the integral test to determine convergence of the series $_{n=0}^{} 1{e^{n}}$. Use the integral test to show that $_{n=0}^{} 1{e^{n}}$ converges.<br>(b) Use the limit comparison test with the series $_{n=0}^{} 1{e^{n}}$ to show that the series $g(1)=_{n=0}^{} (-1)^{n}{2 e^{n}+3}$ converges absolutely.<br>(c) Determine the radius of convergence of the Maclaurin series for $g$.<br>(d) The first two terms of the series $g(1)=_{n=0}^{} (-1)^{n}{2 e^{n}+3}$ are used to approximate $g(1)$. Use the alternating series error bound to determine an upper bound on the error of the approximation.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "version": "1.0.0",
+  "subjectSlug": "ap_physics_c_mechanics",
+  "examId": "physics-c-mech-2018-intl",
+  "mainModelId": "physics-c-mech-breakthrough-core",
+  "modelType": "single-route",
+  "breakthroughVersion": "2026-04-18-v1",
+  "mappingSource": "manual-builder-v1-keyword",
+  "coverage": {
+    "mappedQuestionCount": 35,
+    "totalQuestionCount": 35,
+    "mappedSequenceRanges": [
+      "1-35"
+    ]
+  },
+  "mappings": [
+    {
+      "questionId": "q1",
+      "sequenceInExam": 1,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-graphical-analysis",
+      "branchIds": [
+        "branch-graphical-analysis"
+      ],
+      "primarySkillId": "skill-graph-interpretation",
+      "skillIds": [
+        "skill-graph-interpretation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q2",
+      "sequenceInExam": 2,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q3",
+      "sequenceInExam": 3,
+      "trunkId": "trunk-rotation-oscillation",
+      "branchId": "branch-gravitation-orbits",
+      "branchIds": [
+        "branch-gravitation-orbits"
+      ],
+      "primarySkillId": "skill-gravitational-force",
+      "skillIds": [
+        "skill-gravitational-force"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q4",
+      "sequenceInExam": 4,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q5",
+      "sequenceInExam": 5,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-2d-projectile",
+      "branchIds": [
+        "branch-2d-projectile"
+      ],
+      "primarySkillId": "skill-projectile-motion",
+      "skillIds": [
+        "skill-projectile-motion"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q6",
+      "sequenceInExam": 6,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-2d-projectile",
+      "branchIds": [
+        "branch-2d-projectile"
+      ],
+      "primarySkillId": "skill-projectile-motion",
+      "skillIds": [
+        "skill-projectile-motion"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q7",
+      "sequenceInExam": 7,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q8",
+      "sequenceInExam": 8,
+      "trunkId": "trunk-energy-momentum",
+      "branchId": "branch-potential-energy-fields",
+      "branchIds": [
+        "branch-potential-energy-fields"
+      ],
+      "primarySkillId": "skill-energy-conservation",
+      "skillIds": [
+        "skill-energy-conservation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q9",
+      "sequenceInExam": 9,
+      "trunkId": "trunk-energy-momentum",
+      "branchId": "branch-potential-energy-fields",
+      "branchIds": [
+        "branch-potential-energy-fields"
+      ],
+      "primarySkillId": "skill-energy-conservation",
+      "skillIds": [
+        "skill-energy-conservation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q10",
+      "sequenceInExam": 10,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q11",
+      "sequenceInExam": 11,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q12",
+      "sequenceInExam": 12,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-friction-contact",
+      "branchIds": [
+        "branch-friction-contact"
+      ],
+      "primarySkillId": "skill-friction-analysis",
+      "skillIds": [
+        "skill-friction-analysis"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q13",
+      "sequenceInExam": 13,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q14",
+      "sequenceInExam": 14,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-friction-contact",
+      "branchIds": [
+        "branch-friction-contact"
+      ],
+      "primarySkillId": "skill-friction-analysis",
+      "skillIds": [
+        "skill-friction-analysis"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q15",
+      "sequenceInExam": 15,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q16",
+      "sequenceInExam": 16,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-graphical-analysis",
+      "branchIds": [
+        "branch-graphical-analysis"
+      ],
+      "primarySkillId": "skill-graph-interpretation",
+      "skillIds": [
+        "skill-graph-interpretation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q17",
+      "sequenceInExam": 17,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q18",
+      "sequenceInExam": 18,
+      "trunkId": "trunk-rotation-oscillation",
+      "branchId": "branch-gravitation-orbits",
+      "branchIds": [
+        "branch-gravitation-orbits"
+      ],
+      "primarySkillId": "skill-gravitational-force",
+      "skillIds": [
+        "skill-gravitational-force"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q19",
+      "sequenceInExam": 19,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q20",
+      "sequenceInExam": 20,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q21",
+      "sequenceInExam": 21,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q22",
+      "sequenceInExam": 22,
+      "trunkId": "trunk-energy-momentum",
+      "branchId": "branch-linear-momentum",
+      "branchIds": [
+        "branch-linear-momentum"
+      ],
+      "primarySkillId": "skill-momentum-conservation",
+      "skillIds": [
+        "skill-momentum-conservation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q23",
+      "sequenceInExam": 23,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-free-body-diagram",
+      "branchIds": [
+        "branch-free-body-diagram"
+      ],
+      "primarySkillId": "skill-fbd-construction",
+      "skillIds": [
+        "skill-fbd-construction"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q24",
+      "sequenceInExam": 24,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q25",
+      "sequenceInExam": 25,
+      "trunkId": "trunk-energy-momentum",
+      "branchId": "branch-potential-energy-fields",
+      "branchIds": [
+        "branch-potential-energy-fields"
+      ],
+      "primarySkillId": "skill-energy-conservation",
+      "skillIds": [
+        "skill-energy-conservation"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q26",
+      "sequenceInExam": 26,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q27",
+      "sequenceInExam": 27,
+      "trunkId": "trunk-rotation-oscillation",
+      "branchId": "branch-oscillations",
+      "branchIds": [
+        "branch-oscillations"
+      ],
+      "primarySkillId": "skill-shm-analysis",
+      "skillIds": [
+        "skill-shm-analysis"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q28",
+      "sequenceInExam": 28,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q29",
+      "sequenceInExam": 29,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-friction-contact",
+      "branchIds": [
+        "branch-friction-contact"
+      ],
+      "primarySkillId": "skill-friction-analysis",
+      "skillIds": [
+        "skill-friction-analysis"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q30",
+      "sequenceInExam": 30,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-friction-contact",
+      "branchIds": [
+        "branch-friction-contact"
+      ],
+      "primarySkillId": "skill-friction-analysis",
+      "skillIds": [
+        "skill-friction-analysis"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q31",
+      "sequenceInExam": 31,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q32",
+      "sequenceInExam": 32,
+      "trunkId": "trunk-forces-dynamics",
+      "branchId": "branch-newton-laws-application",
+      "branchIds": [
+        "branch-newton-laws-application"
+      ],
+      "primarySkillId": "skill-newton-second-law",
+      "skillIds": [
+        "skill-newton-second-law"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q33",
+      "sequenceInExam": 33,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q34",
+      "sequenceInExam": 34,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-1d-motion",
+      "branchIds": [
+        "branch-1d-motion"
+      ],
+      "primarySkillId": "skill-kinematic-equations",
+      "skillIds": [
+        "skill-kinematic-equations"
+      ],
+      "mappingConfidence": "low"
+    },
+    {
+      "questionId": "q35",
+      "sequenceInExam": 35,
+      "trunkId": "trunk-kinematics",
+      "branchId": "branch-graphical-analysis",
+      "branchIds": [
+        "branch-graphical-analysis"
+      ],
+      "primarySkillId": "skill-graph-interpretation",
+      "skillIds": [
+        "skill-graph-interpretation"
+      ],
+      "mappingConfidence": "low"
+    }
+  ]
+}

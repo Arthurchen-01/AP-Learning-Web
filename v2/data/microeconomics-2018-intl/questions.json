@@ -87,23 +87,23 @@
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">Increase</td><td class=\"text-center\">Increase</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>Increase</td><td>Increase</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">Increase</td><td class=\"text-center\">Decrease</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>Increase</td><td>Decrease</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">Decrease</td><td class=\"text-center\">Increase</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>Decrease</td><td>Increase</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">Decrease</td><td class=\"text-center\">Decrease</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>Decrease</td><td>Decrease</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">No change</td><td class=\"text-center\">Decrease</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>No change</td><td>Decrease</td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -191,7 +191,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -750,23 +752,23 @@
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">$2</td><td class=\"text-center\">12</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>$2</td><td>12</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">$4</td><td class=\"text-center\">7</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>$4</td><td>7</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">$6</td><td class=\"text-center\">6</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>$6</td><td>6</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">$8</td><td class=\"text-center\">4</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>$8</td><td>4</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Price</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity</u></td></tr><tr><td class=\"text-center\">$10</td><td class=\"text-center\">8</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Price</th><th>Quantity</th></tr></thead><tbody><tr><td>$10</td><td>8</td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -776,7 +778,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -945,23 +949,23 @@
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Dominant Strategy</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Nash Equilibrium</u></td></tr><tr><td class=\"text-center\">None</td><td class=\"text-center\">($27, $28)</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Dominant Strategy</th><th>Nash Equilibrium</th></tr></thead><tbody><tr><td>None</td><td>($27, $28)</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Dominant Strategy</u></td><td class=\"text-center\">Nash Equilibrium</td></tr><tr><td class=\"text-center\">($27, $28)</td><td class=\"text-center\">($15, $45)</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Dominant Strategy</th><th>Nash Equilibrium</th></tr></thead><tbody><tr><td>($27, $28)</td><td>($15, $45)</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Dominant Strategy</u></td><td class=\"text-center\">Nash Equilibrium</td></tr><tr><td class=\"text-center\">($30, $26)</td><td class=\"text-center\">($15, $45)</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Dominant Strategy</th><th>Nash Equilibrium</th></tr></thead><tbody><tr><td>($30, $26)</td><td>($15, $45)</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Dominant Strategy</u></td><td class=\"text-center\">Nash Equilibrium</td></tr><tr><td class=\"text-center\">($27, $28)</td><td class=\"text-center\">($27, $28)</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Dominant Strategy</th><th>Nash Equilibrium</th></tr></thead><tbody><tr><td>($27, $28)</td><td>($27, $28)</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Dominant Strategy</u></td><td class=\"text-center\">Nash Equilibrium</td></tr><tr><td class=\"text-center\">($30, $26)</td><td class=\"text-center\">($27, $28)</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Dominant Strategy</th><th>Nash Equilibrium</th></tr></thead><tbody><tr><td>($30, $26)</td><td>($27, $28)</td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -1140,23 +1144,23 @@
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\" style=\"background-color:rgb(255, 255, 255); font-family:helvetica neue,helvetica,arial,sans-serif\"><tbody><tr><td class=\"text-center\">Type of E<u>xternality</u></td><td class=\"text-center\">Deadweight <u>Loss</u></td></tr><tr><td class=\"text-center\">Positive</td><td class=\"text-center\">egh</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Type of Externality</th><th>Deadweight Loss</th></tr></thead><tbody><tr><td>Positive</td><td>egh</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Type of E<u style=\"text-decoration:underline\">xternality</u></td><td class=\"text-center\">Deadweight <u style=\"text-decoration:underline\">Loss</u></td></tr><tr><td class=\"text-center\">Positive</td><td class=\"text-center\">ehf</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Type of Externality</th><th>Deadweight Loss</th></tr></thead><tbody><tr><td>Positive</td><td>ehf</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Type of E<u style=\"text-decoration:underline\">xternality</u></td><td class=\"text-center\">Deadweight <u style=\"text-decoration:underline\">Loss</u></td></tr><tr><td class=\"text-center\">Negative</td><td class=\"text-center\">ehf</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Type of Externality</th><th>Deadweight Loss</th></tr></thead><tbody><tr><td>Negative</td><td>ehf</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Type of E<u style=\"text-decoration:underline\">xternality</u></td><td class=\"text-center\">Deadweight <u style=\"text-decoration:underline\">Loss</u></td></tr><tr><td class=\"text-center\">Negative</td><td class=\"text-center\">egh</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Type of Externality</th><th>Deadweight Loss</th></tr></thead><tbody><tr><td>Negative</td><td>egh</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Type of E<u style=\"text-decoration:underline\">xternality</u></td><td class=\"text-center\">Deadweight <u style=\"text-decoration:underline\">Loss</u></td></tr><tr><td class=\"text-center\">Negative</td><td class=\"text-center\">P<sub>4</sub>ghP<sub>2</sub></td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Type of Externality</th><th>Deadweight Loss</th></tr></thead><tbody><tr><td>Negative</td><td>P<sub>4</sub>ghP<sub>2</sub></td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -1166,7 +1170,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -1205,7 +1211,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -1331,7 +1339,7 @@
     "section_id": "mcq-1",
     "sequence_in_exam": 35,
     "question_type": "single_choice",
-    "question_html": "<p>Assume the following utility schedule for Aaliyah’s ice cream consumption. If she consumes 6 units, what is the value of her total utility from consuming ice cream?</p><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">Quantity Consumed</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">Marginal Utility</u></td></tr><tr><td class=\"text-center\">1</td><td class=\"text-center\">8</td></tr><tr><td class=\"text-center\">2</td><td class=\"text-center\">6</td></tr><tr><td class=\"text-center\">3</td><td class=\"text-center\">4</td></tr><tr><td class=\"text-center\">4</td><td class=\"text-center\">2</td></tr><tr><td class=\"text-center\">5</td><td class=\"text-center\">0</td></tr><tr><td class=\"text-center\">6</td><td class=\"text-center\">-2</td></tr></tbody></table>",
+    "question_html": "<p>Assume the following utility schedule for Aaliyah’s ice cream consumption. If she consumes 6 units, what is the value of her total utility from consuming ice cream?</p><div class=\"table_wrapper\"><table><thead><tr><th>Quantity Consumed</th><th>Marginal Utility</th></tr></thead><tbody><tr><td>1</td><td>8</td></tr><tr><td>2</td><td>6</td></tr><tr><td>3</td><td>4</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>0</td></tr><tr><td>6</td><td>-2</td></tr></tbody></table></div>",
     "options": [
       {
         "key": "A",
@@ -1604,7 +1612,7 @@
     "section_id": "mcq-1",
     "sequence_in_exam": 42,
     "question_type": "single_choice",
-    "question_html": "<div class=\"featureContent\"><p><strong>The following questions are based on the following output and total revenue for a monopolist in the product market.</strong></p><p><img alt=\"The figure shows a table with 2 columns and 8 rows of data. The first column is labeled Output Quantity and the second column is labeled Total Revenue ($). Row 1; Output Quantity, 0; Total Revenue, 0. Row 2; Output Quantity, 1; Total Revenue, 11. Row 3; Output Quantity, 2; Total Revenue, 20. Row 4; Output Quantity, 3; Total Revenue, 27. Row 5; Output Quantity, 4; Total Revenue, 32. Row 6; Output Quantity, 5; Total Revenue, 35. Row 7; Output Quantity, 6; Total Revenue, 36. Row 8; Output Quantity, 7; Total Revenue, 35.\" height=\"401\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/14b6998b27b141b55dd5183f771b1279/original.png\" width=\"225\"></p><p>The marginal product of labor is constant at 1 unit for every additional unit of labor. The monopolist hires labor in a perfectly competitive market at the wage rate of $5 per hour.</p></div><p>What is the marginal revenue product of labor when the firm produces the third unit of output?</p>",
+    "question_html": "<div class=\"featureContent\"><p><strong>The following questions are based on the following output and total revenue for a monopolist in the product market.</strong></p><div class=\"table_wrapper\"><table><thead><tr><th>Output Quantity</th><th>Total Revenue ($)</th></tr></thead><tbody><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>11</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>27</td></tr><tr><td>4</td><td>32</td></tr><tr><td>5</td><td>35</td></tr><tr><td>6</td><td>36</td></tr><tr><td>7</td><td>35</td></tr></tbody></table></div><p>The marginal product of labor is constant at 1 unit for every additional unit of labor. The monopolist hires labor in a perfectly competitive market at the wage rate of $5 per hour.</p></div><p>What is the marginal revenue product of labor when the firm produces the third unit of output?</p>",
     "options": [
       {
         "key": "A",
@@ -1643,7 +1651,7 @@
     "section_id": "mcq-1",
     "sequence_in_exam": 43,
     "question_type": "single_choice",
-    "question_html": "<div class=\"featureContent\"><p><strong>The following questions are based on the following output and total revenue for a monopolist in the product market.</strong></p><p><img alt=\"The figure shows a table with 2 columns and 8 rows of data. The first column is labeled Output Quantity and the second column is labeled Total Revenue ($). Row 1; Output Quantity, 0; Total Revenue, 0. Row 2; Output Quantity, 1; Total Revenue, 11. Row 3; Output Quantity, 2; Total Revenue, 20. Row 4; Output Quantity, 3; Total Revenue, 27. Row 5; Output Quantity, 4; Total Revenue, 32. Row 6; Output Quantity, 5; Total Revenue, 35. Row 7; Output Quantity, 6; Total Revenue, 36. Row 8; Output Quantity, 7; Total Revenue, 35.\" height=\"401\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/14b6998b27b141b55dd5183f771b1279/original.png\" width=\"225\"></p><p>The marginal product of labor is constant at 1 unit for every additional unit of labor. The monopolist hires labor in a perfectly competitive market at the wage rate of $5 per hour.</p></div><p>How many units of labor should the firm employ to maximize profits?</p>",
+    "question_html": "<div class=\"featureContent\"><p><strong>The following questions are based on the following output and total revenue for a monopolist in the product market.</strong></p><div class=\"table_wrapper\"><table><thead><tr><th>Output Quantity</th><th>Total Revenue ($)</th></tr></thead><tbody><tr><td>0</td><td>0</td></tr><tr><td>1</td><td>11</td></tr><tr><td>2</td><td>20</td></tr><tr><td>3</td><td>27</td></tr><tr><td>4</td><td>32</td></tr><tr><td>5</td><td>35</td></tr><tr><td>6</td><td>36</td></tr><tr><td>7</td><td>35</td></tr></tbody></table></div><p>The marginal product of labor is constant at 1 unit for every additional unit of labor. The monopolist hires labor in a perfectly competitive market at the wage rate of $5 per hour.</p></div><p>How many units of labor should the firm employ to maximize profits?</p>",
     "options": [
       {
         "key": "A",
@@ -1751,7 +1759,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -1955,27 +1965,27 @@
     "section_id": "mcq-1",
     "sequence_in_exam": 51,
     "question_type": "single_choice",
-    "question_html": "Max Company produces electronic gadgets using labor and capital. If Max increases labor and decreases capital to produce the same quantity of gadgets, what will happen to the marginal product (MP) of labor and the MP of capital?",
+    "question_html": "<p>Max Company produces electronic gadgets using labor and capital. If Max increases labor and decreases capital to produce the same quantity of gadgets, what will happen to the marginal product (MP) of labor and the MP of capital?</p>",
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Labor</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Capital</u></td></tr><tr><td class=\"text-center\">Decrease</td><td class=\"text-center\">Increase</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>MP of Labor</th><th>MP of Capital</th></tr></thead><tbody><tr><td>Decrease</td><td>Increase</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Labor</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Capital</u></td></tr><tr><td class=\"text-center\">Decrease</td><td class=\"text-center\">No change</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>MP of Labor</th><th>MP of Capital</th></tr></thead><tbody><tr><td>Decrease</td><td>No change</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Labor</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Capital</u></td></tr><tr><td class=\"text-center\">Increase</td><td class=\"text-center\">Increase</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>MP of Labor</th><th>MP of Capital</th></tr></thead><tbody><tr><td>Increase</td><td>Increase</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Labor</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Capital</u></td></tr><tr><td class=\"text-center\">Increase</td><td class=\"text-center\">Decrease</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>MP of Labor</th><th>MP of Capital</th></tr></thead><tbody><tr><td>Increase</td><td>Decrease</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Labor</u></td><td class=\"text-center\"><u style=\"text-decoration:underline\">MP of Capital</u></td></tr><tr><td class=\"text-center\">No change</td><td class=\"text-center\">Increase</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>MP of Labor</th><th>MP of Capital</th></tr></thead><tbody><tr><td>No change</td><td>Increase</td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -1994,27 +2004,27 @@
     "section_id": "mcq-1",
     "sequence_in_exam": 52,
     "question_type": "single_choice",
-    "question_html": "<p>The table below shows a competitive firm’s total variable cost (TVC) and total fixed cost (TFC) at various units of output.</p><p><img alt=\"The figure shows a table with 3 columns and 6 rows of data. The first column is labeled Output, the second column is labeled T V C, and the third column is labeled T F C. Row 1; Output, 0, TVC, 0, TFC, 9. Row 2; Output, 1, TVC, 3, TFC, 9. Row 3; Output, 2, TVC, 8, TFC, 9. Row 4; Output, 3, TVC, 15, TFC, 9. Row 5; Output, 4, TVC, 26, TFC, 9. Row 6; Output, 5, TVC, 38, TFC, 9.\" height=\"99\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/65871e13e2c66ec67d5818afc632a751/original.png\" width=\"300\" /></p><p>When output is 3 units, which of the following is correct?</p>",
+    "question_html": "<p>The table below shows a competitive firm’s total variable cost (TVC) and total fixed cost (TFC) at various units of output.</p><div class=\"table_wrapper\"><table><thead><tr><th>Output</th><th>TVC</th><th>TFC</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>9</td></tr><tr><td>1</td><td>3</td><td>9</td></tr><tr><td>2</td><td>8</td><td>9</td></tr><tr><td>3</td><td>15</td><td>9</td></tr><tr><td>4</td><td>26</td><td>9</td></tr><tr><td>5</td><td>38</td><td>9</td></tr></tbody></table></div><p>When output is 3 units, which of the following is correct?</p>",
     "options": [
       {
         "key": "A",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\" style=\"background-color:rgb(255, 255, 255); font-family:helvetica neue,helvetica,arial,sans-serif\"><tbody><tr><td class=\"text-center\">Average Variable Cost</td><td class=\"text-center\">Marginal Cost</td></tr><tr><td class=\"text-center\">5</td><td class=\"text-center\">6</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Average Variable Cost</th><th>Marginal Cost</th></tr></thead><tbody><tr><td>5</td><td>6</td></tr></tbody></table></div></div>"
       },
       {
         "key": "B",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Average Variable Cost</td><td class=\"text-center\">Marginal Cost</td></tr><tr><td class=\"text-center\">5</td><td class=\"text-center\">7</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Average Variable Cost</th><th>Marginal Cost</th></tr></thead><tbody><tr><td>5</td><td>7</td></tr></tbody></table></div></div>"
       },
       {
         "key": "C",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Average Variable Cost</td><td class=\"text-center\">Marginal Cost</td></tr><tr><td class=\"text-center\">6</td><td class=\"text-center\">5</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Average Variable Cost</th><th>Marginal Cost</th></tr></thead><tbody><tr><td>6</td><td>5</td></tr></tbody></table></div></div>"
       },
       {
         "key": "D",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\" style=\"background-color:rgb(255, 255, 255); font-family:helvetica neue,helvetica,arial,sans-serif\"><tbody><tr><td class=\"text-center\">Average Variable Cost</td><td class=\"text-center\">Marginal Cost</td></tr><tr><td class=\"text-center\">7</td><td class=\"text-center\">7</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Average Variable Cost</th><th>Marginal Cost</th></tr></thead><tbody><tr><td>7</td><td>7</td></tr></tbody></table></div></div>"
       },
       {
         "key": "E",
-        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><table class=\"table table-bordered\"><tbody><tr><td class=\"text-center\">Average Variable Cost</td><td class=\"text-center\">Marginal Cost</td></tr><tr><td class=\"text-center\">7</td><td class=\"text-center\">6</td></tr></tbody></table></div>"
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><div class=\"table_wrapper\"><table><thead><tr><th>Average Variable Cost</th><th>Marginal Cost</th></tr></thead><tbody><tr><td>7</td><td>6</td></tr></tbody></table></div></div>"
       }
     ],
     "correct_answer": "",
@@ -2063,7 +2073,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {
@@ -2102,7 +2114,9 @@
       "source_refs": [
         "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json"
       ],
-      "review_flags": []
+      "review_flags": [
+        "graph_image_requires_manual_review"
+      ]
     }
   },
   {

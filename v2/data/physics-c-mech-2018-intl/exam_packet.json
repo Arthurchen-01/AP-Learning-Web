@@ -1,0 +1,24 @@
+{
+  "exam_id": "physics-c-mech-2018-intl",
+  "exam_title": "AP Physics C: Mechanics 2018 国际卷",
+  "subject": "physics_c_mechanics",
+  "subject_display": "物理C力学",
+  "year": 2018,
+  "form": "international",
+  "total_questions": 35,
+  "sections": [
+    {
+      "section_id": "mcq-1",
+      "section_type": "mcq",
+      "part_label": "Multiple Choice",
+      "time_limit_minutes": 45,
+      "calculator_allowed": false,
+      "question_count": 35
+    }
+  ],
+  "metadata": {
+    "converted_at": "2026-04-18T03:58:06.482Z",
+    "source": "ap-exam-2018Intl_MECH.json",
+    "version": "1.0.0"
+  }
+}

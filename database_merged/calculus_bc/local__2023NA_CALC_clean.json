@@ -1,0 +1,84 @@
+{
+  "examId": "2023NA",
+  "title": "AP Calculus BC 2023年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2023",
+  "description": "AP Calculus BC 2023年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>A customer at a gas station is pumping gasoline into a gas tank. The rate of flow of gasoline is modeled by a differentiable function $f$, where $f(t)$ is measured in gallons per second and $t$ is measured in seconds since pumping began. Selected values of $f(t)$ are given in the table.<br>(a) Using correct units, interpret the meaning of $_{60}^{135} f(t) d t$ in the context of the problem. Use a right Riemann sum with the three subintervals [60,90], [90, 120], and [120, 135] to approximate the value of $_{60}^{135} f(t) d t$.<br>(b) Must there exist a value of $c$, for $60&lt;c&lt;120$, such that $f^{}(c)=0$ ? Justify your answer.<br>(c) The rate of flow of gasoline, in gallons per second, can also be modeled by $g(t)=(t{500})  ((t{120})^{2})$ for $0  t  150$. Using this model, find the average rate of flow of gasoline over the time interval $0  t  150$.</p><p>Show the setup for your calculations.<br>(d) Using the model $g$ defined in part (c), find the value of $g^{}(140)$. Interpret the meaning of your answer in the context of the problem.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br><img src=\"https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-04.jpg?height=411&amp;width=738&amp;top_left_y=222&amp;top_left_x=659\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>For $0  t  $, a particle is moving along the curve shown so that its position at time $t$ is $(x(t), y(t))$, where $x(t)$ is not explicitly given and $y(t)=2  t$. It is known that $d x{d t}=e^{ t}$. At time $t=0$, the particle is at position $(1,0)$.<br>(a) Find the acceleration vector of the particle at time $t=1$. Show the setup for your calculations.<br>(b) For $0  t  $, find the first time $t$ at which the speed of the particle is 1.5 . Show the work that leads to your answer.<br>(c) Find the slope of the line tangent to the path of the particle at time $t=1$. Find the $x$-coordinate of the position of the particle at time $t=1$. Show the work that leads to your answers.<br>(d) Find the total distance traveled by the particle over the time interval $0  t  $. Show the setup for your calculations.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>A bottle of milk is taken out of a refrigerator and placed in a pan of hot water to be warmed. The increasing function $M$ models the temperature of the milk at time $t$, where $M(t)$ is measured in degrees Celsius ( ${ }^{} C$ ) and $t$ is the number of minutes since the bottle was placed in the pan. $M$ satisfies the differential equation $d M{d t}=1{4}(40-M)$. At time $t=0$, the temperature of the milk is $5^{} C$. It can be shown that $M(t)&lt;40$ for all values of $t$.<br>(a) A slope field for the differential equation $d M{d t}=1{4}(40-M)$ is shown. Sketch the solution curve through the point $(0,5)$.<br><img src=\"https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-07.jpg?height=772&amp;width=1017&amp;top_left_y=896&amp;top_left_x=592\" alt=\"\" /><br>(b) Use the line tangent to the graph of $M$ at $t=0$ to approximate $M(2)$, the temperature of the milk at time $t=2$ minutes.<br>(c) Write an expression for $d^{2 M}{d t^{2}}$ in terms of $M$. Use $d^{2 M}{d t^{2}}$ to determine whether the approximation from part (b) is an underestimate or an overestimate for the actual value of $M(2)$. Give a reason for your answer.<br>(d) Use separation of variables to find an expression for $M(t)$, the particular solution to the differential equation $d M{d t}=1{4}(40-M)$ with initial condition $M(0)=5$.</p><p><img src=\"https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-08.jpg?height=387&amp;width=750&amp;top_left_y=222&amp;top_left_x=651\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>The function $f$ is defined on the closed interval $[-2,8]$ and satisfies $f(2)=1$. The graph of $f^{}$, the derivative of $f$, consists of two line segments and a semicircle, as shown in the figure.<br>(a) Does $f$ have a relative minimum, a relative maximum, or neither at $x=6$ ? Give a reason for your answer.<br>(b) On what open intervals, if any, is the graph of $f$ concave down? Give a reason for your answer.<br>(c) Find the value of $ _{x  2} 6 f(x)-3 x{x^{2}-5 x+6}$, or show that it does not exist. Justify your answer.<br>(d) Find the absolute minimum value of $f$ on the closed interval $[-2,8]$. Justify your answer.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br><img src=\"https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-09.jpg?height=578&amp;width=488&amp;top_left_y=220&amp;top_left_x=783\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>The graphs of the functions $f$ and $g$ are shown in the figure for $0  x  3$. It is known that $g(x)=12{3+x}$ for $x  0$. The twice-differentiable function $f$, which is not explicitly given, satisfies $f(3)=2$ and $_{0}^{3} f(x) d x=10$.<br>(a) Find the area of the shaded region enclosed by the graphs of $f$ and $g$.<br>(b) Evaluate the improper integral $_{0}^{}(g(x))^{2} d x$, or show that the integral diverges.<br>(c) Let $h$ be the function defined by $h(x)=x  f^{}(x)$. Find the value of $_{0}^{3} h(x) d x$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>The function $f$ has derivatives of all orders for all real numbers. It is known that $f(0)=2, f^{}(0)=3$, $f^{ }(x)=-f(x^{2})$, and $f^{  }(x)=-2 x  f^{}(x^{2})$.<br>(a) Find $f^{(4)}(x)$, the fourth derivative of $f$ with respect to $x$. Write the fourth-degree Taylor polynomial for $f$ about $x=0$. Show the work that leads to your answer.<br>(b) The fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f(0.1)$. Given that $|f^{(5)}(x)|  15$ for $0  x  0.5$, use the Lagrange error bound to show that this approximation is within $1{10^{5}}$ of the exact value of $f(0.1)$.<br>(c) Let $g$ be the function such that $g(0)=4$ and $g^{}(x)=e^{x} f(x)$. Write the second-degree Taylor polynomial for $g$ about $x=0$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

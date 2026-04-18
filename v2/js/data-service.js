@@ -11,7 +11,9 @@ const EXAM_ID_ALIASES = {
   '1902622411338911744': 'calc-bc-2017-intl',
   '2016Intl': 'calc-bc-2016-intl',
   '2015Intl': 'calc-bc-2015-intl',
-  'calc-bc-2015-intl': 'calc-bc-2015-intl'
+  'calc-bc-2015-intl': 'calc-bc-2015-intl',
+  '2018Intl_MECH': 'physics-c-mech-2018-intl',
+  'physics-c-mech-2018-intl': 'physics-c-mech-2018-intl'
 };
 
 const EXAM_BRANCH_CONTRACTS = {
@@ -22,7 +24,9 @@ const EXAM_BRANCH_CONTRACTS = {
   '1902622411800285184': 'contracts/ap-calculus-bc-trunk-contract.json',
   '1902622411338911744': 'contracts/ap-calculus-bc-trunk-contract.json',
   '2016Intl': 'contracts/ap-calculus-bc-trunk-contract.json',
-  '2015Intl': 'contracts/ap-calculus-bc-trunk-contract.json'
+  '2015Intl': 'contracts/ap-calculus-bc-trunk-contract.json',
+  'physics-c-mech-2018-intl': 'contracts/ap-physics-c-mechanics-trunk-contract.json',
+  '2018Intl_MECH': 'contracts/ap-physics-c-mechanics-trunk-contract.json'
 };
 
 function normalizeExamId(examId) {
@@ -121,15 +125,19 @@ function sanitizeQuestionText(value) {
 }
 
 function normalizeQuestionRecord(question) {
+  const rawOptions = Array.isArray(question.options)
+    ? question.options
+    : Array.isArray(question.choices)
+      ? question.choices
+      : [];
+
   return {
     ...question,
     question_html: sanitizeQuestionText(question.question_html || ''),
-    options: Array.isArray(question.options)
-      ? question.options.map((option) => ({
-          ...option,
-          html: sanitizeQuestionText(option.html || option.text || '')
-        }))
-      : []
+    options: rawOptions.map((option) => ({
+      ...option,
+      html: sanitizeQuestionText(option.html || option.content || option.text || '')
+    }))
   };
 }
 

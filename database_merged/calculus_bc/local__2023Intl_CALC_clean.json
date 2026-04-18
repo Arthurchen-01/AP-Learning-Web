@@ -1,0 +1,584 @@
+{
+  "examId": "2023Intl",
+  "title": "AP Calculus BC 2023年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2023",
+  "description": "AP Calculus BC 2023年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>Unless otherwise specitied, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix &quot;arc&quot; (c.g., $. ^{-1} x= x)$.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>If $g(x)=x^{2} x+1$, then $g^{}(3)={}$<br>(A) $3{2}$<br>(B) $39{4}$<br>(C) $57{4}$<br>(D) 36</p><table><tr><td>2 x  {x+1+x^{2}  1{2} 1{x+1}}{6  2+9  1{2}  1{2}}</td></tr></table><p>12+9{4}=57{4}</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>$_{0}^{4} 100 e^{x / 4} d x=$<br>(A) $25(e-1)$<br>(B) $100(e-1)$<br>(C) $400(e-1)$<br>(D) $400(e^{4}-1)$<br>$.4  100 e^{x{4}}|_{0} ^{4}$<br>$4 6{4} 100 e- 4$</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-04.jpg?height=834&amp;width=900&amp;top_left_y=69&amp;top_left_x=488\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>An airplane&#x27;s height above sea level is modeled by the differentiable function $y=h(t)$, where $t$ is the number of minutes after takeoff and $h(t)$ is measured in feet. The graph of $h$ is shown in the figure for $0  t  15$. Of the following, which is the best estimate of the rate at which the plane is rising above sea level, in feet per minute, at time $t=9$ ?<br>(A) $37,275-150{15-0}$<br>(B) $37,275-9,775{15-5}$<br>(C) $37,275-16,859{15-7}$<br>(D) $30,763-16,859{11-7}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be a vector-valued function with $f(0)=(-2,3)$. If the instantaneous rate of change of $f$ with to $t$ is given by $\\{3 t^{2}+4 t+1,2 t^{3}+t-2\\}$, what is $f(I)$ ?<br>(A) $ 2,2$<br>(B) $(4,-1)$<br>(C) $(8,10)$<br>(D) $ 10,7</p><table><tr><td>_{0}^{1} 3{4} t^{2}+4 t+1  d x</td></tr><tr><td>3{4} t^{3}+2 t^{2}+t+.|_{0} ^{1}</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>$ _{x  4} 2-{x}{x-4}$ is</p><p>1 2+2{8}+2+1</p><p>(A) $-1{4}$<br>(B) 0<br>(C) $1{4}$<br>(D) nonexistent</p><p>^{A} A_{A} A_{A} A_{A}$ है हू}</p><table><tr><td>![](https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-06.jpg?height=117</td><td>width=1495</td><td>top_left_y=168</td><td>top_left_x=181</td><td>polygon=1466,0,1464,2,1460,2,1458,4,1420,4,1418,6,1416,6,1414,8,1406,8,1404,10,1403,10,1401,12,1393,12,1391,14,1389,14,1387,16,1378,16,1376,18,1374,18,1372,19,1357,19,1355,21,1345,21,1343,23,1341,23,1339,25,1338,25,1336,23,1330,23,1328,25,1326,25,1322,29,1311,29,1309,31,1305,31,1303,29,1301,29,1299,27,1297,29,1294,29,1292,31,1288,31,1286,29,1282,29,1280,31,1263,31,1261,33,1257,33,1255,31,1253,31,1250,35,1250,37,1248,39,1234,39,1234,40,1230,44,1229,44,1227,42,1223,42,1221,40,1217,44,1211,44,1209,42,1206,42,1202,46,1173,46,1171,48,1169,48,1167,50,1165,48,1160,48,1156,52,1152,52,1150,50,1148,50,1146,48,1141,54,1137,54,1133,50,1131,50,1127,54,1125,54,1123,56,1121,54,1119,54,1118,52,1114,56,1112,56,1112,58,1110,60,1108,60,1106,62,1104,60,1102,60,1100,58,1098,58,1097,60,1095,60,1093,62,1085,62,1083,60,1081,62,1077,62,1076,63,1074,62,1066,62,1066,63,1064,65,1056,65,1054,63,1053,63,1049,67,1045,67,1043,65,1039,65,1037,67,1035,67,1033,69,1030,69,1028,67,1022,67,1020,69,1016,69,1014,67,1012,67,1010,65,1009,65,1005,69,999,69,995,65,993,65,991,67,989,67,988,69,986,69,984,67,982,67,980,65,978,65,976,67,968,67,967,65,961,65,959,67,955,67,953,65,951,65,949,63,944,63,942,65,936,65,934,63,930,63,926,67,924,67,923,65,913,65,911,67,905,67,903,65,901,65,900,67,894,67,892,65,888,65,886,63,880,69,879,69,873,63,871,63,869,62,865,65,859,65,857,63,854,63,852,65,840,65,838,63,831,63,829,62,823,62,821,60,819,62,791,62,791,63,789,65,775,65,773,67,762,67,760,69,754,69,752,67,748,67,747,69,741,69,739,67,733,67,731,69,726,69,722,65,720,65,718,67,716,67,714,69,710,69,708,67,706,67,704,65,703,67,701,67,699,69,695,69,693,67,691,67,689,65,687,65,683,69,678,69,676,67,672,67,670,69,662,69,661,67,655,67,653,69,649,69,647,67,645,67,643,65,641,65,639,67,638,67,636,69,634,67,632,67,628,63,622,63,620,65,618,65,617,63,615,63,613,62,607,62,607,63,605,65,603,65,601,63,599,63,595,60,595,58,597,56,601,56,603,54,607,58,609,58,611,56,615,56,617,54,618,54,620,56,626,56,628,54,632,54,628,50,628,48,626,46,624,48,624,50,620,54,617,54,615,52,615,48,613,46,609,46,609,50,605,54,603,54,599,50,599,48,597,46,595,46,590,52,588,52,586,50,586,48,584,46,582,46,580,44,578,44,576,46,576,48,573,52,571,50,571,48,563,40,561,42,561,44,559,46,555,46,551,42,551,40,546,40,546,42,542,46,538,46,534,42,532,42,530,44,530,46,527,50,525,48,523,48,521,46,519,46,517,44,513,48,509,48,507,46,504,46,502,44,500,46,500,48,496,52,490,46,486,46,485,48,485,50,483,52,479,52,475,48,471,48,469,50,464,50,462,48,458,48,454,52,448,52,442,46,441,46,437,50,435,50,431,46,429,46,425,42,420,48,418,46,416,46,414,44,414,42,412,42,410,40,404,46,402,44,400,44,397,40,393,40,389,44,385,44,383,42,383,40,381,40,379,39,377,39,376,40,372,40,370,39,362,39,360,40,355,40,353,39,347,39,345,40,341,40,339,39,330,39,328,40,326,39,309,39,307,37,301,37,299,39,295,39,293,37,291,37,289,35,288,35,286,37,278,37,276,35,263,35,261,33,259,33,257,31,255,31,253,33,249,33,247,31,215,31,213,29,201,29,200,27,158,27,156,25,138,25,136,23,123,23,121,21,108,21,106,19,104,21,102,19,68,19,66,18,64,18,62,16,60,16,58,18,50,18,49,16,20,16,18,14,14,14,12,16,5,16,3,18,3,25,1,27,1,29,3,31,3,35,1,37,1,54,3,56,3,58,6,62,8,62,10,60,14,60,18,63,45,63,47,65,49,65,50,67,54,67,56,65,62,65,64,67,98,67,100,69,117,69,119,71,150,71,152,73,163,73,165,75,179,75,180,77,182,77,184,79,188,79,190,77,192,79,245,79,247,81,261,81,263,83,280,83,282,84,288,84,289,86,318,86,320,88,322,88,324,86,332,86,333,88,345,88,347,90,355,90,356,88,358,88,360,90,377,90,381,94,410,94,412,96,414,96,416,98,418,98,420,100,423,96,425,96,427,98,427,100,429,102,441,102,442,104,444,104,446,102,456,102,458,104,460,104,462,102,469,102,471,104,475,104,477,102,479,102,481,104,486,104,488,105,490,105,492,104,502,104,504,105,548,105,550,107,553,107,555,109,557,107,565,107,567,109,571,109,573,107,578,107,580,109,603,109,607,105,611,109,620,109,620,107,618,105,618,104,620,102,622,102,620,100,618,100,617,98,617,96,620,92,622,92,624,90,632,90,634,88,636,88,638,90,659,90,661,92,670,92,676,98,676,100,680,100,682,98,689,98,691,100,693,100,695,98,701,98,706,104,708,102,716,102,718,104,718,107,722,107,720,105,729,96,733,96,739,102,745,96,750,96,752,98,754,98,758,94,764,94,768,98,770,98,771,100,775,100,779,104,779,105,781,105,783,107,783,109,785,111,802,111,804,109,819,109,821,107,823,107,829,113,829,117,836,117,838,115,842,115,844,117,846,115,846,113,850,109,850,107,852,105,854,105,857,109,863,109,867,105,869,105,871,107,877,107,879,109,882,105,884,105,888,109,890,107,896,107,898,105,901,109,903,109,905,111,909,111,911,109,915,109,917,111,924,111,926,109,928,109,932,113,934,113,936,115,942,115,944,113,945,113,949,117,967,117,968,115,970,115,972,113,980,113,982,115,984,115,986,113,999,113,1001,111,1005,111,1007,113,1016,113,1018,111,1020,113,1045,113,1047,111,1060,111,1062,109,1087,109,1089,107,1091,107,1093,105,1118,105,1119,104,1133,104,1135,102,1139,102,1141,100,1152,100,1154,98,1167,98,1169,96,1175,96,1177,94,1179,96,1185,96,1186,94,1194,94,1196,96,1198,96,1200,94,1211,94,1215,90,1225,90,1227,92,1229,90,1232,90,1234,88,1240,88,1242,86,1259,86,1261,84,1273,84,1274,83,1284,83,1286,81,1290,81,1292,79,1305,79,1309,75,1316,75,1320,71,1334,71,1336,69,1338,69,1339,67,1341,67,1343,65,1355,65,1357,63,1374,63,1376,62,1382,62,1383,60,1391,60,1393,58,1395,58,1397,56,1406,56,1410,52,1414,52,1416,50,1418,50,1420,48,1427,48,1429,46,1431,46,1433,44,1439,44,1441,42,1448,42,1450,40,1460,40,1462,39,1468,39,1469,37,1473,37,1475,35,1477,35,1479,33,1487,33,1489,31,1491,31,1494,27,1494,14,1492,12,1492,6,1489,2,1487,2,1485,0) the approximation for $f(1.4)$ if Euler&#x27;s method is used, starting at $x=1$ with two steps of equal size?</td></tr></table><p>(A) 2.4<br>(B) 3.04<br>(C) 4<br>(D) 5.04</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-07.jpg?height=788&amp;width=799&amp;top_left_y=214&amp;top_left_x=598\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "7",
+          "type": "frq",
+          "prompt": "<p>A portion of the slope field for the differential equation $d y{d x}=x-y$ is shown in the figure. If the linear function $y=f(x)$ is the solution to the differential equation such that $f(-1)=-2$, then $f(3)=$<br>(A) 0<br>(B) 1<br>(C) 2<br>(D) 3</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "8",
+          "type": "frq",
+          "prompt": "<p>If $f(x)= (e^{3 x})$, then $f^{}(x)=$<br>(A) $ (e^{3 x})$<br>(B) $ (3 e^{3 })$<br>(C) $e^{3 x}  (e^{3 x})$<br>(D) $3 e^{3 x}  (e^{3 x})$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "9",
+          "type": "frq",
+          "prompt": "<p>If the series $_{n=0}^{}(-1)^{n} B^{n+1}{A^{n}}$ converges, where $A  0$ and $B  0$, what is the sum of the series?<br>(A) $A B{A-B}$<br>(B) $A B{A+B}$<br>(C) $A{A-B}$<br>(D) $A{A+B}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "10",
+          "type": "frq",
+          "prompt": "<p>Of the following series, which can be used with the comparison test to show that $_{n-3}^{}  n{n}$ diverges?<br>(A) $_{n=3}^{} 1{n}$<br>(B) $_{n=3}^{} 1{n+n}$<br>(C) $_{n=3}^{} 1{n^{2}}$<br>(D) $_{n=3}^{}  n$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "11",
+          "type": "frq",
+          "prompt": "<p>A particle moves in the $x y$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{2}-t^{3}$ and $y(t)=9-6 t$. What is the speed of the particle at time $t=2$ ?<br>(A) $3{4}$<br>(B) 5<br>(C) 10<br>(D) 14</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "12",
+          "type": "frq",
+          "prompt": "<p>Which of the following is the solution to the differential equation $d y{d x}=-3 y$ with the initial condition<br>$y(0)=7$ ?<br>(A) $y=7 e^{-3 t}$<br>(B) $y=e^{-3 x}+6$<br>(C) $y=-3{2} x^{2}+7$<br>(D) $y=49-6 x$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "13",
+          "type": "frq",
+          "prompt": "<p>Consider the series $_{n=1}^{} (-1)^{n}{ (1{n})}$. Which of the following statements is true?<br>(A) The series converges absolutely.<br>(B) The series converges conditionally.<br>(C) The series diverges.<br>(D) It cannot be determined whether the series converges or diverges from the information given.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "14",
+          "type": "frq",
+          "prompt": "<p>If $f$ is a function such that $ f(x)=0$, which of the following could be an expression for $f(x)$ ?<br>(A) $x^{2}{x^{2}+4}$<br>(B) $ x{x}$<br>(C) $ x$<br>(D) $e^{x}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "15",
+          "type": "frq",
+          "prompt": "<p>$ x+1{x(x+3)} d x=$<br>(A) $1{3}  |x|+2{3}  |x+3|+C$<br>(B) $1{3}  |x|+2{9}  |x+3|+C$<br>(C) $2{3}  |x|+1{3}  |x+3|+C$<br>(D) $2{3}  |x|+1{9}  |x+3|+C</p><table><tr><td>f(x)= x^{2}</td><td>2 x</td></tr><tr><td>g(x)</td><td>{ for } x  4</td></tr><tr><td>{ for } x&gt;4</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "16",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be the function defined as shown. If $f$ is differentiable, which of the following could define $g(x)$ ?<br>(A) $6 x$<br>(B) $x^{3 / 2}$<br>(C) $x^{2}-8$<br>(D) $1{8} x^{3}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "17",
+          "type": "frq",
+          "prompt": "<p>The function $y=f(x)$-satisfies the differential equation $d y{d x}=2 x$ with the initial condition $f(0)=5$. What i the value of $f(2)$ ?<br>(A) $5{21}$<br>(B) $33$<br>(C) $4+e^{4}$<br>(D) $5 e^{4}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "frq",
+          "prompt": "<p>Wrich of the following gives the length of the curve $y= x$ from $x=-{4}$ to $x={4}$ ?<br>(A) $_{- / 4}^{ / 4} 1- x d x$<br>(B) $_{- / 4}^{ / 4} 1+ ^{2 x} d x$<br>(C) $_{- / 4}^{ / 4} 1+ ^{2 x} d x$<br>(D) $_{- / 4}^{ / 4} 1+ ^{4 x} d x$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "19",
+          "type": "frq",
+          "prompt": "<p>If $y=f(x)$ is a function such that $d y{d x}=2 x-y{x}$, then $d^{2 y}{d x^{2}}=$<br>(A) $2 y-2 x{x^{2}}$<br>(B) $y-x y{x^{2}}$<br>(C) $y-x{x^{2}}$<br>(D) $y{x^{2}}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "20",
+          "type": "frq",
+          "prompt": "<p>Which of the following series converges to $1{e}$ ?<br>(A) $_{n=0}^{} 1{n!}$<br>(B) $_{n=0}^{} (-1)^{n}{n!}$<br>(C) $_{n=0}^{n} (-1)^{n}{(2 n)^{n}}$<br>(D) $_{n=0}^{} (-1)^{n+1}{(2 n+1)!}$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "21",
+          "type": "frq",
+          "prompt": "<p>The function $g$ has a continuous second derivative. If $g(0)=2, g^{}(0)-4, g(3)=5$, and $g^{}(3)=6$, what is the value of $_{0}^{3} x  g^{n}(x) d x$ ?<br>(A) 9<br>(B) 15<br>(C) 21<br>(D) 27</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "22",
+          "type": "frq",
+          "prompt": "<p>The Maclaurin scries for the function $f$ is given by $_{n=1}^{n} (-2)^{n x^{2 n}}{n}$ What is the value of $f^{(4)}(0)$ ?<br>(A) 2<br>(B) 4<br>(C) 8<br>(D) 48</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "25",
+          "type": "frq",
+          "prompt": "<p>Ler 7 be a tifferentiable function such that $f()=2$ and $f^{}()=-3$. What is the slope of the line tangen in the polar curve $r=f()$ at $=$ ?<br>(A) $-1{1}$<br>(B) -2<br>(C) $-3{2}$<br>(D) $-2{3}$<br>$24  _{=}^{1} x^{2} 2^{2} d x$ is<br>(A) $6{ 2}$<br>(B) $2{3  2}$<br>(C) $2  2{3}$<br>(D) divergent</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "25",
+          "type": "frq",
+          "prompt": "<p>$ d x{x^{2}+4 x+5}=$<br>(A) $ ^{-1}(x+2)+c$<br>(B) $ |x^{2}+4 x+5|+C$<br>(C) $1{2 x+4}  |x^{2}+4 x+5|+C$<br>(D) $1{1{3} x^{3}+2 x^{2}+5 x}+C$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "26",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be the function defined by $f(x)=x^{3}+x$. If $g$ is the inverse function of $f$, what is the slope of the line tangent to the graph of $g$ at the point $(2,1)$ ?<br>(A) $-1{4}$<br>(B) $-1{13}$<br>(C) $1{13}$<br>(D) $1{4}$</p><table><tr><td>$x$</td><td>0</td><td>2</td><td>3</td><td>5</td></tr><tr><td>$f(x)$</td><td>2</td><td>3</td><td>6</td><td>12</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "27",
+          "type": "frq",
+          "prompt": "<p>The function $f$ is continuous on the closed interval $[0,5]$ and differentiable on the open interval $(0,5)$. Selected values of $f$ are given in the table shown. The value $c=4$ satisfies the conclusion of the Mean Valoc Theorem for $f$ on the closed interval $[0,5]$. What is the slope of the line tangent to the graph of $f$ at $x=4$ ?<br>(A) 2<br>(B) 2.8<br>(C) 4.5<br>(D) 10</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "28",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be the function with $f(0)=0$ and denvative given by $f^{}(x)- (x^{2})$. Which of the following is the Maclaurin series for $f$ ?<br>(A) $_{n=0}^{} (-1)^{n r^{2 n}}{(2 n)!}$<br>(B) $_{n=0}^{} (-1)^{n x^{4 n}}{(2 n)!}$<br>(C) $_{n-0}^{} (-1)^{n x^{4 n+1}}{(4 n+1)(2 n)!}$<br>(D) $_{n=0}^{} (-1)^{n(4 n) x^{4 n-1}}{(2 n)!}$</p><p>A A A A A A A A A A A A A A A A A A A A A A A A A_{A} A_{A}$}<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-21.jpg?height=312&amp;width=693&amp;top_left_y=162&amp;top_left_x=650\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "29",
+          "type": "frq",
+          "prompt": "<p>Let $R$ be the region hounded by the graph of $y= x$, the vertical line $x=e^{2}$, and the $x$-axis, as shown in ite Igure. Which of the following integrals are equal to the area of $R$ ?</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>$_{1}^{x^{2}}  x d x$<br>II. $_{0}^{2} e^{y} d y$</p><p>III $_{0}^{2}(e^{2}-e^{y}) d y$<br>(A) I only<br>(B) III only<br>(C) Tand II only<br>(D) I and III only</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "30",
+          "type": "frq",
+          "prompt": "<p>$ _{n  } _{k=1}^{n}(3{n} k)^{2}(3{n})$ is<br>(A) 1<br>(B) 3<br>(C) 9<br>(D) nonexistent</p><table><tr><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }</td><td>{ B }$}</td></tr></table><p>CALCULUSBC<br>SECTION I. Part B<br>Time- 45 minutes<br>15 Questions</p><p>Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.<br>BE SURE YOUFILL IN THE CIRCIES ON THE ANSWER SHEET THAT CORRESPOND TO QUESTIONS NUMBERED 76-90.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approxmates the exact numerical value.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>Unless otherwise specified, the doman of 4 lunction $f$ is assumed to be the set of all real numbers $x$ for which $f^{}(x)$ is a real number.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>The inverse nt a trigonometric function $f$ may be indicated using the inverse function notution $f^{-1}$ or with the prefix &quot;arc&quot; (e.8., $. ^{-7} x= x)$.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "76",
+          "type": "frq",
+          "prompt": "<p>If $f^{}(x)=1+2 x-x^{3}-x^{4+1}$, then $f$ has a local minimem at $x=$<br>(A) -1.836<br>(B) -1.113<br>(C) 0<br>(D) 1181<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=438&amp;width=513&amp;top_left_y=263&amp;top_left_x=708\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "77",
+          "type": "frq",
+          "prompt": "<p>The preceding figure shows the graph of $g$. If $g(x)=_{1}^{x} f(t^{x}) d t$, which of the following could be the graph of $y=f(x)$ ?</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=388&amp;width=512&amp;top_left_y=918&amp;top_left_x=243\" alt=\"\" /></p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=386&amp;width=526&amp;top_left_y=926&amp;top_left_x=978\" alt=\"\" /></p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=405&amp;width=516&amp;top_left_y=1413&amp;top_left_x=229\" alt=\"\" /></p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-25.jpg?height=409&amp;width=528&amp;top_left_y=1423&amp;top_left_x=976\" alt=\"\" /></p><table><tr><td>$f$</td><td>-1</td><td>1</td></tr><tr><td>$f(x)$</td><td>10</td><td>0</td></tr><tr><td>$f^{ }(x)$</td><td>-1</td><td>-9</td></tr><tr><td>$f^{ }(x)$</td><td>23</td><td>-13</td></tr><tr><td>$f^{ }(x)$</td><td>-42</td><td>6</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "18",
+          "type": "frq",
+          "prompt": "<p>The function $f$ has derivatives of all orders for all real rumbers. The table shown gives values of $f$ and its first three derivatives at selected values of $x$. What is the value of $_{-1}^{1} f^{ }(x) d x$ ?<br>(A) -36<br>(B) -10<br>(C) -8<br>(D) 48</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "79",
+          "type": "frq",
+          "prompt": "<p>On a certain day: an industrial plant manufactures steet at a rate modeled by $R(t)=10+30 e^{-0.6 t}$ tons per hour, where : is measured in hours since the plant opened that day. What is the average rate at which the plant manufactures sted, in tons per hour, over the time interval $0  i  5$ ?<br>(A) 11494<br>(B) 19.502<br>(C) 25747<br>(D) 97.511</p><p>80 The power scries $_{n=0}^{c} a_{n}(x+1)^{n}$ converges at $x=3$. Which of the following must be true?<br>(A) $_{x=0}^{x} a_{n} x+1 y^{ }$ converges at $x=-5$.<br>(B) $_{n=0}^{N} a_{n}(x-1)^{n}$ diverges $4 t x=-5$.<br>(C) $_{n=0}^{} a_{n}(x+1)^{n}$ converges it $x=-4$<br>(D) $_{n=0}^{} a_{n}(x+1)^{n}$ diverges at $x=4$.</p><p>If A thin rectangular sheet of melal exparils ma a hot oven. At the instant when the widen of the rectangular sheet of metal is 200 millimeters and the length is 300 millimeters, the width is increasing as a rate of ? millimeters per minute and the length is uncreasing at in rate of 3 millimeters per minute. What is the rate of change of the area. in square millimeters per minute, of the exetangular sheet of metal at that instant?<br>(A) 5<br>(B) 6<br>(C) 600<br>(D) 1200</p><p>82 A particle travels along the $x$-axis so that its velocity st tire $1  0$ is given by $d x{d t}- (h^{2})$. What is the cotal distance the particle travels from $t=0$ to $t=2.7$ ?<br>(A) 0.519<br>(B) 0.845<br>(C) 1.448<br>(D) 2.887</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "83",
+          "type": "frq",
+          "prompt": "<p>The function $f$ is centinuous on the closed interval $\\{a, b\\}$, where $a$ and $b$ are constants and $a&lt;b$, If $f(a)&lt;0&lt;f(b)$, which of the following statements must be true?<br>(A) There is at least one value of $x$ in the interval $(a, b)$ such that $f(x)=0$.<br>(B) There is at least one value of $x$ in the interval $(a, b)$ such that $f^{}(x)=f(b)-f(a){b-a}$,<br>(C) $f^{}(x)&gt;0$ for all $x$ in the interval $(a, b)$.<br>(D) $f(a)&lt;f(x)&lt;f(b)$ for all $x$ in the interval $(a, b)$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "84",
+          "type": "frq",
+          "prompt": "<p>The altemating serics $_{n=1}^{} (-1)^{n-1}{2 n+2}$ converges to $S$. If the sum of the first six terms of the series is used to approxinate $S$, what is the alternating series error bound?<br>(A) $1{6}$<br>(B) $1{7}$<br>(C) $1{14}$<br>(D) $1{16}$</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-30.jpg?height=333&amp;width=448&amp;top_left_y=273&amp;top_left_x=592\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "85",
+          "type": "frq",
+          "prompt": "<p>The graph of a twice-differentiable function $f$ is shown for $0&lt;x&lt;4$. The graph of $f$ has a horizontal tangent at $x=2$ and points of inflection at $x=1$ and $x=3$, On what intervals do $f^{}(x)$ and $f^{ }(x)$ have the same sign?<br>(A) $0&lt;x&lt;1$ only<br>(B) $2&lt;x&lt;4$<br>(C) $0&lt;x&lt;1$ and $2&lt;x&lt;3$<br>(D) $1&lt;x&lt;2$ and $3&lt;x&lt;4$</p><table><tr><td>$x$</td><td>$f(x)$</td><td>$f^{}(x)$</td><td>$g(x)$</td><td>$g^{}(x)$</td></tr><tr><td>2</td><td>-6</td><td>7</td><td>4</td><td>-1</td></tr><tr><td>4</td><td>5</td><td>6</td><td>0</td><td>5</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "86",
+          "type": "frq",
+          "prompt": "<p>The table shown gives values of the twace differentiable functions $f$ and $g$ and their derivatives $f^{}$ and $g^{}$ at selected values of $x$. What is $ _{x  2} g(x^{2)}{3 x+f(x)}$ ?<br>(A) $1{2}$<br>(B) $20{13}$<br>(C) 2<br>(D) The limit does not exist.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "87",
+          "type": "frq",
+          "prompt": "<p>The velocity of a particle moving along the $x$-axis is given by $v(t)=1-t^{2}{1+t}$ for time $t  0$. Which of the following statements is true about the particle an timse $t=1.5$ ?<br>(A) The acceleration is negative, and the speed is decreasing<br>(B) The acceleration is negative, and the speed is ircreasing.<br>(C) The acceleration is positive, and the speed is decteasing<br>(D) The acceleration is positive, and the speed is increasing.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "88",
+          "type": "frq",
+          "prompt": "<p>The figure shows the graphs of the polar curves $r=4( (2 ))^{2}$ and $r=1$ for $0    {2}$. What is the area of the shaded region?</p><p>;</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "87",
+          "type": "frq",
+          "prompt": "<p>The velocity of a particle moving along the $x$-axis is given thy $v(t)=r{r+r}$ for time $t  0$. Which of the<br>following statements is true about (B) The race<br>(B) (B)<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-32.jpg?height=614&amp;width=1023&amp;top_left_y=1055&amp;top_left_x=84\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "88",
+          "type": "frq",
+          "prompt": "<p>The figure shows the graphs of the polar curves $r=4( (2 ))^{2}$ and $r=1$ for $0    {2}$. What is the area of the shaded region?<br>(A) 8.267<br>(A) 8.267<br>(B) 4.134<br>(B) 4.134<br>(C) 3.927<br>(C) 3.927<br>(D) 1.913<br>(D) 1.913</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-33.jpg?height=531&amp;width=832&amp;top_left_y=225&amp;top_left_x=502\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "89",
+          "type": "frq",
+          "prompt": "<p>The graph of the function $f$ thown consists of a semicircle centered at the origin and three line segments, If $g(x)=_{-2}^{x}(f(t)+1) d t$, then $g(8)=$<br>(a) $2 +6$<br>(B) $2 c+10$<br>(C) $2 +15$<br>(D) $2 x+19$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "90",
+          "type": "frq",
+          "prompt": "<p>The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=5  (t+5)$ and $y(t)=5   ( t)$. At any point on the curve, the slope of the line tangent to the path of the particle is given by $d y{d x}=  ( t)(x+5)$. What is the value of $d^{2 y}{d x^{2}}$ at $f=1$ ?<br>(A) -18.850<br>(B) -3.770<br>(C) -3.142<br>(D) 0.200</p><table><tr><td>{c} 1</td></tr><tr><td>$($ years $)$</td><td>0</td><td>4</td><td>9</td><td>12</td></tr><tr><td>$R(t)$</td></tr><tr><td>(hears per year)</td><td>150</td><td>156</td><td>159</td><td>161</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>The rate at which the number of bears in a region is changing is modeled by the differentiable function $R$, where $R(t)$ is measured in bears per year and $t$ is measured in years. Selected values of $R(t)$ are shown in $f_{s}$. table.<br>(a) Approximate $R^{}(7)$ using the average rate of change of $R$ over the interval $4  i  9$. Show the - computations that lead to your answer, and indicate units of measure.<br>(b) Interpret the meaning of $1{12} _{0}^{12} R(t) d t$ in the context of the problem. Use a left Riemann sum with the thee subintervals indicated by the data in the table to approximate the value of $1{12} _{0}^{12} R(t) d t$.<br>(c) The rate at which the number of bears in the region is changing can also be modeled by the function $P$ detined by $P(t)=150 ^{0.02 r}$, where $P(t)$ is measured in bears per year and $t$ is measured in years. There are 300 bears in the region at time $t=0$. Use this model to find the number of bears in the reging tune $r=12$ Show the setup for your calculations, and give your answer to the nearest whole number of beats.<br>(d) Using the model defined in part (c), find the time $I$, for $0  l  12$, at which the number of bears in the region is a maximum. Justify your answer.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-35.jpg?height=336&amp;width=812&amp;top_left_y=33&amp;top_left_x=583\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>The rate at which the number of bears in a region is changing is modeled by the differentiable function $R$, where $R(t)$ is measured in bears per year and $t$ is measured in years. Selected values of $R(t)$ are shown in $f_{k}$. table.<br>(a) Approximate $R^{}(7)$ using the average rate of change of $R$ over the interval $4  i  9$. Show the computations that lead to your answer. and indicate units of measure.</p><p>R^{}(7)=R(9)-R(4){9-4}=159-156{9-4}=3{5}  { bear per year?, }</p><p>(b) Interpret the meaning of $1{12} _{0}^{12} R(t) d t$ in the context of the problem. Use a left Riemann sum with the thee subintervals indicated by the data in the table to approximate the value of $1{12} _{0}^{12} R(t) d t$.</p><p>The mean number of bear per year.</p><table><tr><td>_{0}^{12} R(t)  d t</td><td>=150  4+156  5+3  159</td></tr></table><p>&amp; =1857{1857}=154.75{12} \\\\</p><table><tr><td>1{12} _{0}^{12} R(t)  d t</td><td>=18 (x){a} _{a}^{b} f(x)  d x</td></tr></table><p>f(c) &amp; f(c)</p><p>(c) The rule at which the number of bears in the region is changing can also be modeled by the function $P$ defined by $P(t)=150 ^{002 }$, where $P(t)$ is measured in bears per year and $t$ is measured in years. There are 300 bears in the region at time $t=0$. Use this model to find the number of bears in the reguat unne $r=12$ Show the setup ior your calculations, and give your answer to the nearest whole number of beass.</p><p>P(t)=150 e^{0.02 t}</p><p>Let $f(t)$ be the number of bear<br>$f^{}(t)=p(t)</p><table><tr><td>_{0}^{12} p(t)  d t</td><td>=_{0^{12} 150 e^{0.02 t}}{f(12)} d t=f(12)-f(0)</td></tr></table><p>&amp; =1885.3-300 \\\\<br>&amp; =1585,3=1585</p><p>there is 1585 bears when</p><p>t=12</p><p>(d) Using the model defined in part (c), find the time $I$, for $0  l  12$, at which the number of bears in the regron is a maximum. Justify your answer.</p><p>The<br>rate<br>of which bear in region is<br>$d f(t){d t}=p(t)=300 e^{0.02 t}$<br>as $f (t)=p(t)&gt;0$ from $0  t  12$<br>the number of bear increase from $0  t  12$<br>so the numbe of bear is maximum at $t=12$.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>For time $t  0$, a particle moves in the $x y$-plane with position $(x(t), y(t))$, where $x(t)=t+ t$ and $d y{d t}= (c^{2})$ At time $t=6, y(6)=4$.<br>(a) Find the speed of the particle at time $t=2$. Show the setup for your calculations.<br>(b) Find the total distance traveled by the particle over the time interval $0  r  6$. Show the setup for your calculations.<br>(c) Write an equation for the line tangent to the path of the particle at time $t=6$.<br>(d) Find the position of the particle at time $t=0$. Show the sctup for your calculations.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br>(a) Find the speed of the particle at time $t=2$. Show the setup for your calculations.<br>(b) Find the total distance traveled by the particle over the time interval $  r  6$. Show the setup for your calculations.<br>(c) Write an equation for the line tangent to the path of the particle at time $t=6$.<br>(d) Find the position of the particle at time $t=0$. Show the setup for your calculations.<br>(a) $d x{d t}=1- t$</p><p>Let speed be $V(t)</p><table><tr><td>V(t)</td><td>=(.{d x{d t}|_{t=2})^{2}+(.d y{d t}|_{t=2})^{2}}</td></tr><tr><td>=(1- 2)^{2+( 4)^{2}}</td></tr></table><p>&amp; =0.762</p><p>b) $d=_{0}^{6} ({d y{d t})^{2}+(d x{d t})^{2}}  d x<br>d=_{0}^{6} (1- t )^{2+( (t^{2})^{2})}  d t<br>d=7.64$ distance travelled is 7.66 from $0  t  6$<br>c) $m=d y{d x}|={d y{d t}}{d x{d t}}|_{t=6}= 6^{2}{1- 6}=-0.775</p><table><tr><td>y-4=-0.775(x-(6+ 6))</td></tr></table><p>&amp; y-4=-0.775(x-6.96)</p><p>d) $ t=0  x=1</p><table><tr><td>y-4</td><td>=-0.775</td></tr></table><p>&amp; =-8.619</p><p>position at $t=0 (1,8.619)$</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>Scientists study a population that experiences variations in its rate of growth. The rate of growth of the population is modeled by the differential equation $d P{d t}=P  0.02  ({30}(t+10))$, where $t$ is measured in days since the observation of the population began. Let $P=f(t)$ be the particular solution to the given differential equation satisfying $f(50)=15$.<br>(a) A slope field for the given differential equation is shown. Sketch the solution curve that passes through the point $(50,15)$.<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-41.jpg?height=786&amp;width=788&amp;top_left_y=822&amp;top_left_x=612\" alt=\"\" /><br>(b) Write an equation for the line tangent to the graph of $P=f(t)$ at time $t=50$.<br>(c) It is known that $f^{}(t)&gt;0$ and $f^{ }(t)&gt;0$ on the interval $47&lt;t&lt;51$. If the tangent line found in part (b) used to approximate $f(48)$, is the approximation an underestimate or an overestimate for the actual value of $f(48)$ ? Give a reason for your answer.<br>(d) Lse separation of variables to find the particular solution $P=f(t)$ to the differential equation $d P{d t}=P  0.02  ({30}(t+10))$ that satisfies $f(50)=15$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br>(b) Write an equation for the line tangent to the graph of $P=f(t)$ at time $t=50$.</p><table><tr><td>P^{}(t)</td><td>=d p{d t}=p  0.02  ({30}(t+10))</td></tr><tr><td>P^{}(50)</td><td>=15  0.02   (2 )</td></tr><tr><td>=15  0.02={3{10}}{ { line of }} aligned</td></tr><tr><td>{ tangent }</td><td>P-15=3{10}(t-50)</td></tr></table><p>aligned</p><p>(c) It is known that $f^{}(t)&gt;0$ and $f^{ }(t)&gt;0$ on the interval $47&lt;t  51$. If the tangent line found in part (II used to approximate $f(48)$, is the approximation an underestimate or an overestimate for the actual vali of $f(48)$ ? Give a reason for your answer.<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-42.jpg?height=602&amp;width=666&amp;top_left_y=1745&amp;top_left_x=228\" alt=\"\" /></p><p>Since $f^{}(t)&gt;0  f^{ }(t)&gt;0$ in the interval</p><p>The curve is increasing and concave up the approximation<br>is underestim ate<br>(d) Use separation of variables to find the particular solution $P=f(t)$ to the differential equation $d P{d t}=P  0.02  ({30}(t+10))$ that satisfies $f(50)=15$.</p><table><tr><td>{d p{d t}=p  0.02  (_{0}{30}(t+10))}{d p{p}=0.02  (_{0}{30}(t+10))  d t}</td></tr><tr><td>d p{p}= 0.02  (_{0}{30}(t+10))  d t</td></tr><tr><td>|p|=0.02 30{_{0}}   (_{0}{30}(t+10))+c</td></tr><tr><td>p=e^{0.02 30{_{0}}- (_{0}{30}(t+10).}, e^{c}</td></tr></table><p>When $t=50  p=15</p><table><tr><td>15</td><td>=e^{0.02  30{}   2 }  e^{c}</td></tr><tr><td>15</td><td>=e^{c}</td></tr><tr><td>p</td><td>=15 e^{0.02 30{}  ({30}(t+10))}</td></tr></table><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-44.jpg?height=526&amp;width=865&amp;top_left_y=161&amp;top_left_x=418\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>The graph of the function $g$ is shown on the interval $[-4,6]$. The graph of $g$ consists of two line segments and the portion of the graph of $y=x$ for $0  x  4$. Let $f$ be the function defined by $f(x)=g(x)+_{-4}^{x} g(t) d t$.<br>(a) Find the value of $f(4)$.<br>(b) Show that $f$ has a critical point at $x=-1$. Use the Second Derivative Test to determine whether $f$ has a local minimum or a local maximum at $x=-1$. Show the work that leads to your answer.<br>(c) Find the value of $ _{x  4} g(x)-g(4){x-4}$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.<br><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-45.jpg?height=565&amp;width=882&amp;top_left_y=80&amp;top_left_x=535\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>The graph of the function $g$ is shown on the interval $[-4,6]$. The graph of $g$ consists of two line segments and the portion of the graph of $y=x$ for $0  x  4$. Let $f$ be the function defined by $f(x)=g(x)+_{4}^{x} g(t) d t$.<br>(a) Find the value of $f(4)$.<br>(b) Show that $f$ has a critical point at $x=-1$. Use the Second Derivative Test to determue whether $f$ has a local minimum or a local maximum at $x=-1$. Show the work that leads to your answer.<br>(c) Find the value of $ _{x  4} g(x)-g(4){x-4}$.</p><table><tr><td>(a) $ f(x)</td><td>=g(x)+_{-4}^{x} g(t)  d t</td></tr><tr><td>f(4)</td><td>.=2+(-4)+_{0}^{4} x  d x+2) =._{0^{4} x  d x}{2{3} x+4^{3}{2}}|_{0} ^{4}$</td></tr></table><p>(b) $d f(x){d x}=g^{}(x)+g(x)</p><table><tr><td>f^{}(-1)</td><td>=g^{}(-1)+g(-1)</td></tr><tr><td>=A^{A 2-0}{4}-1{2}=0  { whichis critictle }</td></tr><tr><td>f^{ }(x)</td><td>=g^{ }(x)+g^{}(x)</td></tr></table><p>$<br>f^{ }(1)=g^{ }(1)+g^{}(1)=0+1{2}=4 1{2}=0</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-46.jpg?height=227&amp;width=538&amp;top_left_y=196&amp;top_left_x=813\" alt=\"\" /><br>by using to hopital Law</p><table><tr><td>g^{}(4)</td><td>=1{2}  1{x}</td></tr><tr><td>=1{2}  1{2}</td></tr></table><p>1{1} &amp; =1{4}</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-47.jpg?height=689&amp;width=921&amp;top_left_y=181&amp;top_left_x=446\" alt=\"\" /></p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>Let $f$ be the function defined by $f(x)=4 e^{-2 x}$. Let $R$ be the region in the first quadrant bounded by the graph of $$, the horizontal line $y=4$, and the vertical line $x=1$. Let $S$ be the region in the first quadrant boundad by the graph of $j$, the coordinate axes, and the vertical line $x=1$. Regions $R$ and $S$ are shown in the figure,<br>(a) Find the area of region $R$.<br>(b) Region $S$ is the base of a solid. For this solid, at each $x$ the cross section perpendicular to the $x$-axis is a rectangle with area $3 x-f(x)$. Find the volume of the solid.<br>(c) Write, but do not evaluate, an expression involving an integral that gives the perimeter of region $S$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part.</p><p>f(1)=4 e^{-2} _{0}^{1} ({d y{d x})^{2}+1}  d x</p><p><img src=\"https://cdn.mathpix.com/cropped/004a3744-0d8b-4c86-8556-20cd11d26f5f-48.jpg?height=728&amp;width=963&amp;top_left_y=133&amp;top_left_x=459\" alt=\"\" /></p><table><tr><td>R=4-_{0}^{1} 4 e^{-2 x}  d x</td></tr><tr><td>_{0}^{1} 4 e^{-2 x}  d x=-.2 e^{-2 x}|_{0} ^{1}</td></tr></table><p>&amp;=-2 e^{-2}-(-2) \\\\<br>&amp;=-2 e^{-2}+2 \\\\</p><table><tr><td>R= 4-(-2 e^{-2}+2)</td></tr></table><p>&amp;= 2+2 e^{-2}</p><p>b)</p><p>.{rl}</p><table><tr><td>{ Volume }=</td><td>_{0}^{1} 3 x  4 e^{-2 x}  d x</td></tr><tr><td>=</td><td>12 _{0}^{1} x  e^{-2 x}  d x</td></tr><tr><td>{ Let } x=u  e^{-2 x}=d v</td></tr></table><p>d u=d x  v=-1{2} e^{-2 x}  d x<br>]</p><table><tr><td>{ Volume }=</td><td>12(.x  e^{-2 x}|_{0} ^{1}-_{0}^{1}-1{2} e^{-2 x}  d x)</td></tr><tr><td>=</td><td>12(e^{-2}-(+.1{4} e^{-2 x}|_{0} ^{1}).</td></tr><tr><td>=</td><td>12(e^{-2}-(1{4} e^{-2} 1{4}).</td></tr><tr><td>=</td><td>12(3{4} e^{-2}+1{4})</td></tr><tr><td>=</td><td>9 e^{-2}+3</td></tr></table><p>(): $f(1)=4 e^{-2}</p><table><tr><td>{ Permeter }</td><td>=4-4 e^{-2}+1+_{0}^{1} ({d y{d x})^{2}+1}  d x</td></tr><tr><td>=5-4 e^{-2}+_{0}^{1} (-8 e^{-2 x)^{2}+1}  d x</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>The Taylor series for a function $f$ about $x=1$ is given by $_{n=1}^{}(-1)^{n+1} n{4^{n}}(x-1)^{n}$ and converges to $f(x)$ on its interval of convergence.<br>(a) Using the ratio test, find the interval of convergence of the Taylor series for $f$ about $x=1$. Justify your answer.<br>(b) Write the first three nonzero terms and the general term of the Taylor series for $f^{}$, the derivative of $f$, about $x=1$.<br>(c) Let $P_{2}(x)$ be the second-degree Taylor polynomial for $f$ about $x=1$. It is known that $0.1 |f^{  }(x)|  0.3$ on the interval $1  x  1.5$. Use the Lagrange error bound to show that $P_{2}(1.5)$ differs from $f(1.5)$ by at most $1{100}$.</p><p>Write your responses to this question only on the designated pages in the separate Free Response booklet. Write your solution to each part in the space provided for that part. its interval of convergence.<br>by using ratio test</p><table><tr><td>_{n  }|(-1)^{-1}  (n+1){4 n+1} (x-1)^{n+1}  4^{n}{(-1)^{n+1}(x-1)^{n}  n}</td></tr><tr><td>=</td><td>_{x  }|(-1) (n+1)(x-1){4 x n}</td></tr><tr><td>=</td><td>|1{4} (x-1)</td></tr></table><p>$<br>{ccc}</p><table><tr><td>1{4} (x-1)=1</td><td>{ or }</td><td>1{4}(x-1)=-1</td></tr></table><p>x-1=4 &amp; \\\\</p><table><tr><td>x=5</td><td>x-1=-4</td></tr></table><p>&amp; x=-3</p><p>Converge interal $(-3,5)$<br>f<br>when $x=5$<br>when $n=-3$<br>$a_{n}=(-1)^{n+1} n{4 n}(4^{n})=(-1)^{n+1}  n<br>a_{n}=(-1)^{n+1}  n{(-1)^{n}}</p><p>whichis diverge</p><p>=n</p><p>whicho diverge<br>b)</p><table><tr><td>f(x)=_{1}^{}(-1)^{n+1} n{4^{n}}(x-1)^{n}</td></tr></table><p>&amp; =1{4}(x-1)-1{8}(x-1)^{2}+3{64}(x-1)^{3} \\\\<br>&amp; f^{}(x)=1{4}-1{4}(x-1)+1{64}(x-1)^{2}</p><p>c</p><table><tr><td>|f(x)-P_{2}(x)|   f^{3(x)(1.5-1)}{3  2  1}</td></tr><tr><td>E=0.3  0.5{3  2  1}=1{100}</td></tr></table>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

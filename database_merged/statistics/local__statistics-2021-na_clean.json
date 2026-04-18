@@ -1,0 +1,84 @@
+{
+  "examId": "statistics-2021-na",
+  "title": "AP Statistics 2021 北美卷",
+  "subjectName": "统计学",
+  "yearLabel": "2021",
+  "description": "AP Statistics 2021 北美卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>The length of stay in a hospital after receiving a particular treatment is of interest to the patient, the hospital, and insurance providers. Of particular interest are unusually short or long lengths of stay. A random sample of 50 patients who received the treatment was selected, and the length of stay, in number of days, was recorded for each patient. The results are summarized in the following table and are shown in the dotplot.</p><table><tr><td>Length of stay (days)</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td><td>21</td></tr><tr><td>Number of patients</td><td>4</td><td>13</td><td>14</td><td>11</td><td>6</td><td>1</td><td>1</td></tr></table><p>(a) Determine the five-number summary of the distribution of length of stay.</p><p>(b) Consider two rules for identifying outliers, method A and method B . Let method A represent the $1.5  IQR$ rule, and let method B represent the 2 standard deviations rule.<br>(i) Using method A , determine any data points that are potential outliers in the distribution of length of stay. Justify your answer.<br>(ii) The mean length of stay for the sample is 7.42 days with a standard deviation of 2.37 days. Using method B , determine any data points that are potential outliers in the distribution of length of stay. Justify your answer.<br>(c) Explain why method A might identify more data points as potential outliers than method B for a distribution that is strongly skewed to the right.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>Researchers will conduct a year-long investigation of walking and cholesterol levels in adults. They will select a random sample of 100 adults from the target population to participate as subjects in the study.<br>(a) One aspect of the study is to record the number of miles each subject walks per day. The researchers are deciding whether to have subjects wear an activity tracker to record the data or to have subjects keep a daily journal of the miles they walk each day. Describe what bias could be introduced by keeping the daily journal instead of wearing the activity tracker.</p><p>During the course of the study, the subjects will have their cholesterol levels measured each month by a doctor. The researchers will perform a significance test at the end of the study to determine whether the average cholesterol level for subjects who walk fewer miles each day is greater than for those who walk more miles each day.<br>(b) Selecting a random sample creates a reasonable representative sample of the target population. Explain the benefit of using a representative sample from the population.<br>(c) Suppose the researchers conduct the test and find a statistically significant result. Would it be valid to claim that increased walking causes a decrease in average cholesterol levels for adults in the target population? Explain your reasoning.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>To increase morale among employees, a company began a program in which one employee is randomly selected each week to receive a gift card. Each of the company&#x27;s 200 employees is equally likely to be selected each week, and the same employee could be selected more than once. Each week&#x27;s selection is independent from every other week.<br>(a) Consider the probability that a particular employee receives at least one gift card in a 52 -week year.<br>(i) Define the random variable of interest and state how the random variable is distributed.<br>(ii) Determine the probability that a particular employee receives at least one gift card in a 52 -week year. Show your work.</p><p>(b) Calculate and interpret the expected value for the number of gift cards a particular employee will receive in a 52 -week year. Show your work.<br>(c) Suppose that Agatha, an employee at the company, never receives a gift card for an entire 52 -week year. Based on her experience, does Agatha have a strong argument that the selection process was not truly random? Explain your answer.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>The manager of a large company that sells pet supplies online wants to increase sales by encouraging repeat purchases. The manager believes that if past customers are offered $\\$ 10$ off their next purchase, more than 40 percent of them will place an order. To investigate the belief, 90 customers who placed an order in the past year are selected at random. Each of the selected customers is sent an e-mail with a coupon for $\\$ 10$ off the next purchase if the order is placed within 30 days. Of those who receive the coupon, 38 place an order.<br>(a) Is there convincing statistical evidence, at the significance level of $=0.05$, that the manager&#x27;s belief is correct? Complete the appropriate inference procedure to support your answer.</p><p>(b) Based on your conclusion from part (a), which of the two errors, Type I or Type II, could have been made? Interpret the consequence of the error in context.</p><p>Begin your response to QUESTION 5 on this page.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>A research center conducted a national survey about teenage behavior. Teens were asked whether they had consumed a soft drink in the past week. The following table shows the counts for three independent random samples from major cities.</p><table><tr><td>Baltimore</td><td>Detroit</td><td>San Diego</td><td>Total</td></tr><tr><td>Yes</td><td>727</td><td>1,232</td><td>1,482</td><td>3,441</td></tr><tr><td>No</td><td>177</td><td>431</td><td>798</td><td>1,406</td></tr><tr><td>Total</td><td>904</td><td>1,663</td><td>2,280</td><td>4,847</td></tr></table><p>(a) Suppose one teen is randomly selected from each city&#x27;s sample. A researcher claims that the likelihood of selecting a teen from Baltimore who consumed a soft drink in the past week is less than the likelihood of selecting a teen from either one of the other cities who consumed a soft drink in the past week because Baltimore has the least number of teens who consumed a soft drink. Is the researcher&#x27;s claim correct? Explain your answer.</p><p>Continue your response to QUESTION 5 on this page.<br>(b) Consider the values in the table.<br>(i) Construct a segmented bar chart of relative frequencies based on the information in the table.<br><img src=\"https://cdn.mathpix.com/cropped/e5882498-080b-435e-9670-bdc02ecdf1a9-13.jpg?height=553&amp;width=1106&amp;top_left_y=424&amp;top_left_x=527\" alt=\"\" /><br>(ii) Which city had the smallest proportion of teens who consumed a soft drink in the previous week? Determine the value of the proportion.<br>(c) Consider the inference procedure that is appropriate for investigating whether there is a difference among the three cities in the proportion of all teens who consumed a soft drink in the past week.<br>(i) Identify the appropriate inference procedure.<br>(ii) Identify the hypotheses of the test.</p><p>Directions: Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>Attendance at games for a certain baseball team is being investigated by the team owner. The following boxplots summarize the attendance, measured as average number of attendees per game, for 47 years of the team&#x27;s existence. The boxplots include the 30 years of games played in the old stadium and the 17 years played in the new stadium.</p><p><img src=\"https://cdn.mathpix.com/cropped/e5882498-080b-435e-9670-bdc02ecdf1a9-14.jpg?height=642&amp;width=503&amp;top_left_y=831&amp;top_left_x=781\" alt=\"\" /></p><p>(a) Compare the distributions of average attendance between the old and new stadiums.</p><p>Continue your response to QUESTION 6 on this page.<br>The following scatterplot shows average attendance versus year.<br><img src=\"https://cdn.mathpix.com/cropped/e5882498-080b-435e-9670-bdc02ecdf1a9-15.jpg?height=684&amp;width=932&amp;top_left_y=306&amp;top_left_x=640\" alt=\"\" /><br>(b) Compare the trends in average attendance over time between the old and new stadium.</p><p>Continue your response to QUESTION 6 on this page.<br>(c) Consider the following scatterplots.</p><p><img src=\"https://cdn.mathpix.com/cropped/e5882498-080b-435e-9670-bdc02ecdf1a9-16.jpg?height=684&amp;width=925&amp;top_left_y=386&amp;top_left_x=90\" alt=\"\" /></p><p><img src=\"https://cdn.mathpix.com/cropped/e5882498-080b-435e-9670-bdc02ecdf1a9-16.jpg?height=745&amp;width=923&amp;top_left_y=327&amp;top_left_x=1012\" alt=\"\" /><br>(i) Graph I shows the average attendance versus number of games won for each year. Describe the relationship between the variables.<br>(ii) Graph II shows the same information as Graph I, but also indicates the old and new stadiums. Does Graph II suggest that the rate at which attendance changes as number of games won increases is different in the new stadium compared to the old stadium? Explain your reasoning.</p><p>Use a pencil or pen with black or dark blue ink only. Do NOT write your name. Do NOT write outside the box.<br>© 2021 College Board.<br>Visit College Board on the web: collegeboard.org.</p><p>(d) Consider the three variables: number of games won, year, and stadium. Based on the graphs, explain how one of those variables could be a confounding variable in the relationship between average attendance and the other variables.<br>© 2021 College Board.</p>",
+          "parts": [],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
