@@ -256,6 +256,35 @@
       color: var(--text-muted);
     }
 
+    /* Resource Hub */
+    .resource-hub { grid-column: span 2; }
+    .resource-list { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.75rem; }
+    .resource-item {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.6rem 0.85rem; background: var(--bg); border-radius: 8px;
+    }
+    .resource-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .resource-info { flex: 1; min-width: 0; }
+    .resource-title { font-size: 0.9rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .resource-desc { font-size: 0.75rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .resource-actions { display: flex; gap: 0.4rem; flex-shrink: 0; }
+    .resource-btn {
+      font-size: 0.75rem; padding: 0.25rem 0.6rem; border-radius: 4px;
+      border: 1px solid var(--border); background: transparent; color: var(--text-muted); cursor: pointer;
+    }
+    .resource-btn:hover { color: var(--text); border-color: var(--primary); }
+    .resource-btn.danger:hover { color: var(--danger); border-color: var(--danger); }
+    .resource-add-form {
+      display: none; flex-direction: column; gap: 0.5rem; margin-top: 0.75rem;
+      padding: 0.75rem; background: var(--bg); border-radius: 8px;
+    }
+    .resource-add-form.show { display: flex; }
+    .resource-add-form input {
+      padding: 0.4rem 0.6rem; border-radius: 4px; border: 1px solid var(--border);
+      background: var(--card-bg); color: var(--text); font-size: 0.85rem;
+    }
+    .resource-add-form .form-actions { display: flex; gap: 0.5rem; }
+
     @media (max-width: 900px) {
       .stats-grid { grid-template-columns: repeat(2, 1fr); }
       .main-grid { grid-template-columns: 1fr; }
@@ -284,10 +313,8 @@
     <!-- 学科概览卡片（点击平滑滚动到详情区） -->
     <div class="subject-cards" id="subject-cards">
       <button class="subject-btn active" data-subject="calculus_bc">微积分 BC</button>
-      <button class="subject-btn" data-subject="calculus_ab">微积分 AB</button>
       <button class="subject-btn" data-subject="statistics">统计学</button>
       <button class="subject-btn" data-subject="microeconomics">微观经济</button>
-      <button class="subject-btn" data-subject="macroeconomics">宏观经济</button>
     </div>
 
     <div class="stats-grid">
@@ -337,11 +364,29 @@
           <div class="empty-state">完成更多练习后，这里会显示你需要加强的知识点</div>
         </div>
       </div>
+
+      <div class="panel resource-hub">
+        <div class="panel-header">
+          <span class="panel-title">📚 学科资源</span>
+          <button class="resource-btn" id="resource-add-toggle">+ 添加</button>
+        </div>
+        <div class="resource-add-form" id="resource-add-form">
+          <input type="text" id="res-input-title" placeholder="标题">
+          <input type="url" id="res-input-url" placeholder="https://...">
+          <div class="form-actions">
+            <button class="resource-btn" id="resource-save-btn">保存</button>
+            <button class="resource-btn" id="resource-cancel-btn">取消</button>
+          </div>
+        </div>
+        <div class="resource-list" id="resource-list">
+          <div class="empty-state">加载中...</div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script type="module">
-    import { loadProgress } from '../js/data-service.js';
+    import { loadProgress, loadSystemResources, loadUserResources, addUserResource, removeUserResource } from '../js/data-service.js';
 
     // 科目配置
     const subjects = {
@@ -361,20 +406,6 @@
           'Infinite Sequences and Series'
         ]
       },
-      calculus_ab: {
-        name: 'AP Calculus AB',
-        display: '微积分 AB',
-        units: [
-          'Limits and Continuity',
-          'Differentiation: Definition & Basic Rules',
-          'Differentiation: Composite, Implicit, Inverse Functions',
-          'Contextual Applications of Differentiation',
-          'Analytical Applications of Differentiation',
-          'Integration and Accumulation of Change',
-          'Differential Equations',
-          'Applications of Integration'
-        ]
-      },
       statistics: {
         name: 'AP Statistics',
         display: '统计学',
@@ -384,11 +415,6 @@
         name: 'AP Microeconomics',
         display: '微观经济',
         units: ['Supply and Demand', 'Production and Costs', 'Perfect Competition', 'Imperfect Competition', 'Factor Markets', 'Market Failure']
-      },
-      macroeconomics: {
-        name: 'AP Macroeconomics',
-        display: '宏观经济',
-        units: ['Basic Economic Concepts', 'Measurement of Economic Performance', 'National Income and Price Determination', 'Financial Sector', 'Stabilization Policies', 'Economic Growth']
       }
     };
 
@@ -413,6 +439,9 @@
       // 渲染最近活动
       renderRecentActivity();
 
+      // 渲染资源中心
+      renderResourceHub();
+
       // 科目选择（平滑滚动到 topics-panel）
       document.querySelectorAll('.subject-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -423,6 +452,7 @@
           const tag = document.getElementById('user-subject-tag');
           if (tag) tag.textContent = subjects[currentSubject]?.display || currentSubject;
           renderTopics();
+          renderResourceHub();
           // 平滑滚动到 Topics 区域
           document.getElementById('topics-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
@@ -565,6 +595,74 @@
       }
       return sessions.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
     }
+
+    // ======== Resource Hub ========
+    const subjectSlugMap = { calculus_bc: 'ap_calculus_bc', statistics: 'ap_statistics', microeconomics: 'ap_microeconomics' };
+    const typeIcons = { pdf: '📄', link: '🔗', video: '🎥' };
+
+    async function renderResourceHub() {
+      const container = document.getElementById('resource-list');
+      const subjectSlug = subjectSlugMap[currentSubject] || '';
+      const systemData = await loadSystemResources();
+      const userResources = loadUserResources();
+      const allResources = [
+        ...systemData.resources.filter(r => !r.subjectSlug || r.subjectSlug === subjectSlug),
+        ...userResources.filter(r => !r.subjectSlug || r.subjectSlug === subjectSlug)
+      ];
+
+      if (allResources.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无资源，点击 [+ 添加] 添加你的第一个资源</div>';
+        return;
+      }
+
+      container.innerHTML = allResources.map(r => {
+        const icon = r.userAdded ? '📎' : (typeIcons[r.type] || '🔗');
+        const deleteBtn = r.userAdded ? `<button class="resource-btn danger" data-delete-id="${r.id}">x 删除</button>` : '';
+        return `
+          <div class="resource-item">
+            <span class="resource-icon">${icon}</span>
+            <div class="resource-info">
+              <div class="resource-title">${r.title}</div>
+              <div class="resource-desc">${r.description || '用户添加'}</div>
+            </div>
+            <div class="resource-actions">
+              <a class="resource-btn" href="${r.url}" target="_blank" rel="noopener">查看</a>
+              ${deleteBtn}
+            </div>
+          </div>`;
+      }).join('');
+
+      // 绑定删除事件
+      container.querySelectorAll('[data-delete-id]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          removeUserResource(btn.dataset.deleteId);
+          renderResourceHub();
+        });
+      });
+    }
+
+    // 添加资源表单事件
+    document.getElementById('resource-add-toggle').addEventListener('click', () => {
+      document.getElementById('resource-add-form').classList.toggle('show');
+    });
+    document.getElementById('resource-cancel-btn').addEventListener('click', () => {
+      document.getElementById('resource-add-form').classList.remove('show');
+    });
+    document.getElementById('resource-save-btn').addEventListener('click', () => {
+      const title = document.getElementById('res-input-title').value.trim();
+      const url = document.getElementById('res-input-url').value.trim();
+      if (!title || !url) return;
+      addUserResource({
+        title, url, type: 'link',
+        subjectSlug: subjectSlugMap[currentSubject] || '',
+        trunkId: null, branchId: null, tags: [], description: ''
+      });
+      document.getElementById('res-input-title').value = '';
+      document.getElementById('res-input-url').value = '';
+      document.getElementById('resource-add-form').classList.remove('show');
+      renderResourceHub();
+    });
 
     init();
   </script>

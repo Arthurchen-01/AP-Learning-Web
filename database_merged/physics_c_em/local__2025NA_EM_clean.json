@@ -1,0 +1,120 @@
+{
+  "examId": "2025NA",
+  "title": "AP Physics C: Electricity and Magnetism 2025年",
+  "subjectName": "Physics C: Electricity and Magnetism",
+  "yearLabel": "2025",
+  "description": "AP Physics C: Electricity and Magnetism 2025年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 100,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>An isolated, air-filled, charged capacitor consists of two conducting, coaxial, cylindrical shells that each have length $L$. The inner shell has radius $R_{1}$ and the outer shell has radius $R_{2}$, as shown in Figure 1, where $R_{1}&lt;R_{2}  L$. The surface charge densities (amounts of charge per unit area) of the inner and outer shells are $+_{1}$ and $-_{2}$, respectively. The absolute values of the total charges on the shells are equal.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-03.jpg?height=606&amp;width=1159&amp;top_left_y=696&amp;top_left_x=485\" alt=\"\" /></p><p>Figure 1<br>A.<br>i. Using Gauss&#x27;s law, derive an expression for the magnitude $E$ of the electric field as a function of the radial distance $r$ from the center of the capacitor for the region $R_{1}&lt;r&lt;R_{2}$. Express your answer in terms of $R_{1}, _{1}, r$, and physical constants, as appropriate.<br>ii. Derive an expression for the absolute value $| V|$ of the potential difference between the outer and inner shells in terms of $R_{1}, R_{2}, _{1}$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.<br>iii. On the axes shown in Figure 2, sketch a graph of $E$ as a function of $r$ from $r=0$ to a position that is outside the outer shell.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=723&amp;width=1019&amp;top_left_y=431&amp;top_left_x=552\" alt=\"\" /></p><p>B. A material of dielectric constant $$ is inserted into the isolated, charged capacitor such that the material fills the region $R_{1}&lt;r&lt;R_{2}$, as shown in Figure 3.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=458&amp;width=521&amp;top_left_y=1452&amp;top_left_x=801\" alt=\"\" /></p><p>Figure 3</p><p>Derive an expression for the capacitance $C$ of the capacitor with the material inserted in terms of $L, R_{1}, R_{2}, $, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>i. Using Gauss&#x27;s law, derive an expression for the magnitude $E$ of the electric field as a function of the radial distance $r$ from the center of the capacitor for the region $R_{1}&lt;r&lt;R_{2}$. Express your answer in terms of $R_{1}, _{1}, r$, and physical constants, as appropriate.<br>ii. Derive an expression for the absolute value $| V|$ of the potential difference between the outer and inner shells in terms of $R_{1}, R_{2}, _{1}$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.<br>iii. On the axes shown in Figure 2, sketch a graph of $E$ as a function of $r$ from $r=0$ to a position that is outside the outer shell.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=723&amp;width=1019&amp;top_left_y=431&amp;top_left_x=552\" alt=\"\" /></p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>A material of dielectric constant $$ is inserted into the isolated, charged capacitor such that the material fills the region $R_{1}&lt;r&lt;R_{2}$, as shown in Figure 3.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-04.jpg?height=458&amp;width=521&amp;top_left_y=1452&amp;top_left_x=801\" alt=\"\" /></p><p>Figure 3</p><p>Derive an expression for the capacitance $C$ of the capacitor with the material inserted in terms of $L, R_{1}, R_{2}, $, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>A rotating, circular, conducting loop of area $A$ and resistance $R$ is in an external uniform magnetic field of magnitude $B$ that is directed in the $-z$-direction. At time $t=0$, the magnetic field is perpendicular to the plane of the loop, as shown in Figure 1. The loop is rotating with constant angular speed $$ and period $T$ about the dashed line that is along the diameter of the loop. The value of the magnetic flux through the loop as a function of time $t$ is $=B A  ( t)$.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-05.jpg?height=665&amp;width=689&amp;top_left_y=689&amp;top_left_x=717\" alt=\"\" /></p><p>A. The absolute value of the induced emf in the loop is $||$. The partially completed bar chart in Figure 2 shows a bar that represents $||$ at $t=3{4} T$. In Figure 2, draw bars to represent $||$ at times $t=0, 1{4} T$, and $1{2} T$ relative to $||$ shown at $3{4} T$. If $||=0$, write a &quot; 0 &quot; in that column.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-05.jpg?height=661&amp;width=1114&amp;top_left_y=1761&amp;top_left_x=504\" alt=\"\" /></p><p>B. Derive an expression for the maximum induced current in the loop in terms of $A, R, B$, $$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.<br>C. On the axes shown in Figure 3, sketch a graph of the instantaneous power $P$ dissipated by the loop as a function of $t$ during the time interval $0  t  T$.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-06.jpg?height=837&amp;width=1389&amp;top_left_y=569&amp;top_left_x=369\" alt=\"\" /></p><p>D. Indicate whether the sketch you drew in part C is or is not consistent with the bars that you drew in part A. Briefly justify your answer by referencing the functional dependence between $P$ and $||$.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>The absolute value of the induced emf in the loop is $||$. The partially completed bar chart in Figure 2 shows a bar that represents $||$ at $t=3{4} T$. In Figure 2, draw bars to represent $||$ at times $t=0, 1{4} T$, and $1{2} T$ relative to $||$ shown at $3{4} T$. If $||=0$, write a &quot; 0 &quot; in that column.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-05.jpg?height=661&amp;width=1114&amp;top_left_y=1761&amp;top_left_x=504\" alt=\"\" /></p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Derive an expression for the maximum induced current in the loop in terms of $A, R, B$, $$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>On the axes shown in Figure 3, sketch a graph of the instantaneous power $P$ dissipated by the loop as a function of $t$ during the time interval $0  t  T$.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-06.jpg?height=837&amp;width=1389&amp;top_left_y=569&amp;top_left_x=369\" alt=\"\" /></p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>Indicate whether the sketch you drew in part C is or is not consistent with the bars that you drew in part A. Briefly justify your answer by referencing the functional dependence between $P$ and $||$.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>In Experiment 1, students are asked to use a graph to determine the resistivity $_{1}$ of a circuit element that is connected to a variable power supply, as shown in Figure 1. The circuit element is cylindrical and has uniform resistivity. The students have access to a voltmeter, an ammeter, and a ruler.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-07.jpg?height=351&amp;width=364&amp;top_left_y=743&amp;top_left_x=880\" alt=\"\" /></p><p>A. Describe a procedure for collecting data that would allow the students to use a graph to determine $_{1}$, including any steps necessary to reduce experimental uncertainty.<br>B. Describe how the collected data could be graphed and how that graph would be analyzed to determine $_{1}$.</p><p>In Experiment 2, the students are asked to use a graph to determine the resistivity $_{2}$ of solid, cylindrical resistors made of the same material but of different lengths $L$. The cross-sectional area of each resistor is $5.0  10^{-6} ~m^{2}$. The students directly measure the resistance $R$ between the ends of each resistor. Table 1 provides $L$ and $R$ for each resistor.</p><table><tr><td>$L()$</td><td>$R()$</td></tr><tr><td>0.010</td><td>0.90</td></tr><tr><td>0.020</td><td>1.6</td></tr><tr><td>0.030</td><td>2.5</td></tr><tr><td>0.040</td><td>3.2</td></tr><tr><td>0.050</td><td>4.0</td></tr></table><p>i. Indicate two quantities, either measured quantities from Table 1 or additional calculated quantities, that could be graphed to produce a straight line that could be used to determine $_{2}$.<br>Vertical axis: $____$ Horizontal axis: $____$<br>ii. On the grid provided, create a graph of the quantities indicated in part C (i).<br>- Use Table 2 to record the measured or calculated quantities that you will plot.<br>- Clearly label the axes, including units as appropriate.<br>- Plot the points you recorded in Table 2.<br><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-08.jpg?height=834&amp;width=837&amp;top_left_y=595&amp;top_left_x=644\" alt=\"\" /><br>iii. Draw a best-fit line for the data graphed in part C (ii).<br>D. Using the best-fit line that you drew in part C (iii), calculate an experimental value for $_{2}$.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Describe a procedure for collecting data that would allow the students to use a graph to determine $_{1}$, including any steps necessary to reduce experimental uncertainty.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Describe how the collected data could be graphed and how that graph would be analyzed to determine $_{1}$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>In Experiment 2, the students are asked to use a graph to determine the resistivity $_{2}$ of solid, cylindrical resistors made of the same material but of different lengths $L$. The cross-sectional area of each resistor is $5.0  10^{-6} ~m^{2}$. The students directly measure the resistance $R$ between the ends of each resistor. Table 1 provides $L$ and $R$ for each resistor.</p><table><tr><td>$L()$</td><td>$R()$</td></tr><tr><td>0.010</td><td>0.90</td></tr><tr><td>0.020</td><td>1.6</td></tr><tr><td>0.030</td><td>2.5</td></tr><tr><td>0.040</td><td>3.2</td></tr><tr><td>0.050</td><td>4.0</td></tr></table><p>i. Indicate two quantities, either measured quantities from Table 1 or additional calculated quantities, that could be graphed to produce a straight line that could be used to determine $_{2}$.<br>Vertical axis: $____$ Horizontal axis: $____$<br>ii. On the grid provided, create a graph of the quantities indicated in part C (i).<br>- Use Table 2 to record the measured or calculated quantities that you will plot.<br>- Clearly label the axes, including units as appropriate.<br>- Plot the points you recorded in Table 2.<br><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-08.jpg?height=834&amp;width=837&amp;top_left_y=595&amp;top_left_x=644\" alt=\"\" /><br>iii. Draw a best-fit line for the data graphed in part C (ii).</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>Using the best-fit line that you drew in part C (iii), calculate an experimental value for $_{2}$.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>Long, parallel wires S and T are a distance $2 d$ apart. Both wires carry equal currents $I$, but the currents are in opposite directions. Both wires are parallel to the $x$-axis. At the instant shown in Figure 1, Sphere 1 is a distance $d$ above Wire S, Sphere 2 is a distance $d$ below Wire S, and both spheres are moving with speed $v$ in the $+x$-direction. Each sphere has positive charge $+Q$. Gravitational effects are negligible.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-09.jpg?height=400&amp;width=1142&amp;top_left_y=799&amp;top_left_x=489\" alt=\"\" /></p><p>A. $F_{1}$ is the magnitude of the magnetic force exerted on Sphere 1 due to the currents in wires S and T. $F_{2}$ is the magnitude of the magnetic force exerted on Sphere 2 due to the currents in wires $S$ and $T$.</p><p>Indicate whether $F_{2}$ is greater than, less than, or equal to $F_{1}$ by writing one of the following.<br>- $F_{2}&gt;F_{1}$<br>- $F_{2}&lt;F_{1}$<br>- $F_{2}=F_{1}$</p><p>Justify your answer.<br>B. Derive an expression for the magnitude $B_{ {tot }}$ of the magnetic field at the location of Sphere 2 due to the currents in wires S and T in terms of $d, I$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.<br>C. Later, Wire T carries current $3 I$ in the $+x$-direction. At the instant shown in Figure 2, Sphere 2 is a distance $d$ below Wire S and is moving with speed $v$ in the $+x$-direction. $F_{ {new }}$ is the new magnitude of the magnetic force exerted on Sphere 2 due to the currents in wires S and T.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-10.jpg?height=409&amp;width=1143&amp;top_left_y=640&amp;top_left_x=489\" alt=\"\" /></p><p>Indicate whether $F_{ {new }}$ is greater than, less than, or equal to $F_{2}$ by writing one of the following.<br>- $F_{ {new }}&gt;F_{2}$<br>- $F_{ {new }}&lt;F_{2}$<br>- $F_{ {new }}=F_{2}$</p><p>Briefly justify your answer by referencing your derivation in part B .</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>$F_{1}$ is the magnitude of the magnetic force exerted on Sphere 1 due to the currents in wires S and T. $F_{2}$ is the magnitude of the magnetic force exerted on Sphere 2 due to the currents in wires $S$ and $T$.</p><p>Indicate whether $F_{2}$ is greater than, less than, or equal to $F_{1}$ by writing one of the following.<br>- $F_{2}&gt;F_{1}$<br>- $F_{2}&lt;F_{1}$<br>- $F_{2}=F_{1}$</p><p>Justify your answer.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Derive an expression for the magnitude $B_{ {tot }}$ of the magnetic field at the location of Sphere 2 due to the currents in wires S and T in terms of $d, I$, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>Later, Wire T carries current $3 I$ in the $+x$-direction. At the instant shown in Figure 2, Sphere 2 is a distance $d$ below Wire S and is moving with speed $v$ in the $+x$-direction. $F_{ {new }}$ is the new magnitude of the magnetic force exerted on Sphere 2 due to the currents in wires S and T.</p><p><img src=\"https://cdn.mathpix.com/cropped/07ac9c57-3b98-45a6-9cf7-bc66550c9c7a-10.jpg?height=409&amp;width=1143&amp;top_left_y=640&amp;top_left_x=489\" alt=\"\" /></p><p>Indicate whether $F_{ {new }}$ is greater than, less than, or equal to $F_{2}$ by writing one of the following.<br>- $F_{ {new }}&gt;F_{2}$<br>- $F_{ {new }}&lt;F_{2}$<br>- $F_{ {new }}=F_{2}$</p><p>Briefly justify your answer by referencing your derivation in part B .</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

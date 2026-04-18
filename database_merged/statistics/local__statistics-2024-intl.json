@@ -1,0 +1,1180 @@
+{
+  "examId": "statistics-2024-intl",
+  "title": "AP Statistics 2024 国际卷",
+  "subjectName": "统计学",
+  "yearLabel": "2024",
+  "description": "AP Statistics 2024 国际卷",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 90,
+      "directions": "Solve each of the following problems. Decide which is the best of the choices given.",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "<p>A machine at a large factory fills bottles with juice. To reduce the likelihood of bottles containing less than 8 ounces (oz) of juice, the machine is set to fill the bottles with a mean of $8.050 %$ of juice. To investigate whether the machine is working properly, the factory manager randomly samples ten bottles every 24 hours and records data for several variables from each of the sampled bottles. Which of the following is classified as a continuous quantitative variable for the factory manager's investigation?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Whether a randomly chosen bottle contains less than 8 oz of juice</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Whether all of the bottles in the sample contain less than 8 oz of juice</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The number of bottles that contain less than 8 oz of juice out of a random sample of 10 bottles of juice</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The number of properly filled bottles of juice at a randomly selected time</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The amount of juice, in ounces, in a randomly selected bottle</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "<p>Chicken eggs are categorized into sizes based on weight. The table displays the sizes and associated weights, in grams (g), for chicken eggs sold in a certain country. | Size &amp; Small &amp; Medium &amp; Large &amp; Extra Large \\\\ | Weight &amp; Less than 53 \\\\ g &amp; 53 g to less than 63 \\\\ g &amp; 63 g to less than 73 \\\\ g &amp; 73 g or \\\\ more \\\\ Weights of chicken eggs sold in the country are normally distributed with mean $=62 ~g$ and standard deviation $=6 ~g$. Which of the following is closest to the probability that a randomly selected chicken egg sold in the country is either small or extra large?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>0.0334</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>0.0668</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>0.0980</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>0.1002</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>0.8998</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "<p>The following boxplot summarizes the annual snowfall amounts, in inches, for a sample of 25 cities in the United States. [image] Based on the boxplot, which of the following can be concluded?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The first quartile is about 20 inches.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The median is about 20 inches.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The third quartile is about 30 inches.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The interquartile range is about 20 inches.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The range is about 40 inches.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "<p>According to a survey, 32 percent of people in a certain country regularly recycle. Mr. Giovanni, the mayor of a specific city in the country, wanted to know whether the residents in his city regularly recycle more than the national average. He selected a random sample of 50 residents, 28 of whom regularly recycle. Mr. Giovanni would like to use a one-sample $z$-test for a population proportion to test the hypotheses $H_{0}: p=0.32$ versus $H_{a}: p&gt;0.32$, where $p$ is the proportion of city residents who regularly recycle. In order to use this test, the sampling distribution of the sample proportion needs to be approximately normal. Which of the following is true for Mr. Giovanni's study and ensures that the sampling distribution of the sample proportion is approximately normal?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The distribution of the population of all residents who regularly recycle is approximately normal.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The sample size is 50 , which is larger than 30 .</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The sample size of 50 is less than $10 %$ of the residents in the city.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The expected number of residents who regularly recycle is 16, and the expected number of residents who do not regularly recycle is 34 , and both numbers are at least 10 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The observed number of residents who regularly recycle is 28 , and the observed number of residents who do not regularly recycle is 22 , and both numbers are at least 10 .</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<p>A group of farmers wants to estimate the mean length of carrots grown on their farms. The farmers will select a random sample of carrots from the farms and will measure each carrot's length, in inches, and compute the mean and standard deviation of the sample. Assuming the conditions for inference are met, which of the following is the most appropriate method to use for such an estimate?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>A one-sample $t$-interval for a population mean</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>A one-sample $t$-interval for a sample mean</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>A one-sample $z$-interval for a population mean</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>. A one-sample $z$-interval for a population proportion</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>A one-sample $z$-interval for a sample proportion</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "<p>Scores from a robotics competition have a mean of 19.9 points and a standard deviation of 7.2 points. Scores from an art competition have a mean of 20.2 points and a standard deviation of 5.7 points. Dominic enters the competitions and gets a score of 27 in robotics and a score of 26 in art. Based on Dominic's standardized scores, in which competition did Dominic have a better performance?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Robotics, because Dominic's standardized score in robotics is approximately 0.99 , while his standardized score in art is approximately 0.85 .</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Robotics, because Dominic's standardized score in robotics is approximately 1.19, while his standardized score in art is approximately 1.02.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Art, because Dominic's standardized score in art is approximately 1.19, while his standardized score in robotics is approximately 0.85 .</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Art, because Dominic's standardized score in art is approximately 1.02, while his standardized score in robotics is approximately 0.99 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Art, because Dominic's standardized score in art is approximately 0.99, while his standardized score in robotics is approximately $1 . 0 2$.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "<p>A professional sports league has 30 teams. A fan of one of the teams is interested in the mean yearly salary of players on that team. The fan obtains the yearly salary of each player for all 28 players on the team. Which of the following best describes the fan's sampling plan?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Simple random sample</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Stratified random sample, with teams as strata</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Cluster sample, with teams as clusters</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Systematic random sample</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Census</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "<p>In an experiment, Jaden, a statistics student, wants to investigate whether listening to music while playing a game of chess results in a game with more total moves. Jaden's large college has 200 students who play chess and are willing to participate in the experiment. He allows the players to decide whether they will play a chess game against a computer program while listening to music or will play a chess game against the same computer program while not listening to music. The total number of moves it takes for each chess game will be recorded. Which of the following statements best describes why this is not a well-designed experiment?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The subjects cannot be blind to the treatment because they will know whether they are listening to music.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The treatments were not randomly assigned.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>There is not a control group of players who do not play chess but do listen to music.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>There was no replication because each player plays only one game against the computer program.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The players were not randomly selected.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "<p>In a certain game, a player wins a prize by randomly picking a red marble from a bag of differently colored marbles. The probability that a player will win a prize on a given play of the game is 0.26 . Assuming successive plays of the game are independent, which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>If a player plays this game a very large number of times, the player will win a prize about 26% of the time</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>If a player plays the game 100 times, the player will win a prize exactly 26 times.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>If a player does not win a prize in 25 consecutive plays, the player is guaranteed to win a prize on the $26{ }^{ {th }}$ play.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>It is impossible for the player to win a prize on two consecutive plays of the game.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The player is guaranteed to win exactly one prize in 26 consecutive plays of the game.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "<p>A simple random sample of $n=23$ people who commute from home to work in a large metropolitan area is selected. Each person is asked their distance in miles from home to work and how long it typically takes in minutes to commute from home to work. The distance, $x$, and typical commute time, $y$, are recorded for each person in the sample. A least-squares regression model using distance to predict typical commute time results in the following computer output. | Predictor &amp; Coefficient &amp; SE of Coefficient &amp; $T$ &amp; $P$-Value \\\\ | Constant &amp; 5554 &amp; 1.805 &amp; 3.06 &amp; 0.0063 \\\\ | Distance &amp; 1216 &amp; 0.103 &amp; 11.86 &amp; $&lt;0.0001$ \\\\ | $=5.610$ &amp; $R^{2}=0.875$ &amp; &amp; &amp; \\\\ | Assuming all conditions for inference are met which of the following is a 90 percent confidence interval in the predicted charge in typical commute time for a one-mile increase in the distance from home to work?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$1.216 1.717(5.610{23})$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$1.216 1.721(0.103{23})$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$1.216 1.721(0.103)$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$1.216 2.074(5.610{23})$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$1.216 2.069(0.103)$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "<p>Blue light is the wavelength of light given off by electronic devices and energyefficient lightbulbs. Researchers are interested in investigating the effect of blue light on sleep. The researchers conduct a study using 30 volunteers. There are two light settings used in the study: one with a high amount of blue light and one with a low amount of blue light. Ench volunteer will spend the night in the researchers' sleep lab on two different nights. On one of the nights, each volunteer will be exposed to one of the two light settings for 50 minutes prior to their usual bedtime. On another night, each volunteer will be exposed to the other light setting for 50 minutes prior to their usual bedtime. The light setting that is experienced first is randomized for each volunteer, After each night in the sleep lab, the amount of melatonin, a hormone associated with the sleep-wake cycle, is measured for each volunteer. When measuring the results, the researchers know which light setting each volunteer was exposed to each night. Which experimental design or method are the researchers using for the study?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Double-blind experiment</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Randomized complete block design, blocked by usual bedtime</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Completely randomized design</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Matched pairs design</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>This is an observational study, not an experiment.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "<p>A researcher in a certain country claims that the proportion of people in their twenties (people aged 20 to 29 ) who can lift more than 200 pounds is greater than the proportion of people in their forties (people aged 40 to 49) who can lift more than 200 pounds. In a random sample of people in their twenties living in that country, 31 percent could lift more than 200 pounds. In a separate random sample of people in their forties living in the country, 22 percent could lift more than 200 pounds. Let $p_{1}$ be the proportion of all people in their twenties living in the country who can lift more than 200 pounds. Let $p_{2}$ be the proportion of all people in their forties living in the country who can lift more than 200 pounds. Which of the following are the appropriate null and alternative hypotheses for testing the researcher's claim about these two age groups?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$H_{0}: p_{1}=0.31$ $H_{a}: p_{1}&lt;0.31$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$H_{0}: p_{1}=0.22$ $H_{a}: p_{2}&gt;0.22$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$H_{0}: p_{2}=0.22$ $H_{a}: p_{2}&gt;0.22$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$H_{0}: p_{1}=p_{2}$ $H_{a}: p_{1}p_{2}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "<p>Many cities are hiring artists to create asphalt art, in which artists paint murals directly on certain roads in hopes of getting people to slow down and follow the speed limit along those roads. During a 24 -hour period, a researcher measured the speeds of all drivers who drove on randomly selected roads. Some roads had art, and some roads did not have art. Each road had a speed limit of 35 miles per hour (mph). The distributions of speed for both types of roads are displayed in the following boxplots. [image] Based on the boxplots, which of the following is a true statement?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Because the speed of the first quartile on the roads with art is less than the minimum speed on the roads without art, it is not likely that drivers on roads with art travel at slower speeds.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Because the range of the speeds for roads with art and the range of the speeds for roads without art are each approximately 20 mph , it is likely that drivers on roads with art do not travel at slower speeds.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Because the interquartile range of the speeds on the roads with art is less than the interquartile range of the speeds on the roads without art, it is likely that drivers on roads with art travel at slower speeds.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Because the maximum speed on the roads with art is greater than the median speed on the roads without art, it is likely that drivers on roads with art travel at slower speeds.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Because each value of the five-number summary for the roads with art is less than the corresponding value of the five-number summary for the roads without art, it is likely that drivers on roads with art travel at slower speeds.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "<p>Spam e-mail (unwanted electronic mail) is usually sent in bulk to a large list of recipients. A large e-mail - service provider estimates that 4 percent of all e-mails are spam. In a random sample of 50 e-mails processed by the service provider, which of the following is the approximate probability that the sample will have at least 3 spam e-mails?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>0.1391</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>0.1842</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>0.3233</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>0.6767</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>0.8609</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "<p>A company owns a group of 50 cars, all the same make, model, and year. The group has a mean fuel economy $=23.2$ miles per gallon ( mpg ) and a standard deviation $=2.4 mpg$. A simple random sample of 4 cars from the group will be selected. What are the mean and standard deviation of the sampling distribution of the sample mean fuel economy for samples of size 4 ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Mean = 23.2 mpg , standard deviation = 2.4 mpg</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Mean $=23.2 mpg$, standard deviation $=1.2 mpg$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Mean $=23.2 mpg$, standard deviation $=0.6 mpg$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Mean $=11.6 mpg$, standard deviation $=2.4 mpg$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Mean $=11.6 mpg$, standard deviation $=1.2 mpg$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "<p>A factory that manufactures glass has two shifts of workers: a daytime shift and an evening shift. A random sample of 200 pieces of glass was selected from each shift, and the pieces were carefully inspected for defects. From the daytime shift, 12 pieces of glass were defective. From the evening shift, 15 pieces of glass were defective. Assuming all conditions for inference are met, which of the following gives a 98 percent confidence interval for the difference (daytime shift minus evening shift) in the population proportion of defective glass for the two shifts?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$(12-15) 2.05 {(0.06)(0.94){200}+(0.075)(0.925){200}}$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$(12-15) 2.33 {(0.06)(0.94){200}+(0.075)(0.925){200}}$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$(0.06-0.075) 2.33 {(0.06)(0.94){200}+(0.075)(0.925){200}}$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$(0.06-0.075) 2.05 {(0.0675)(0.9325){200}+(0.0675)(0.9325){200}}$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$(0.06-0.075) 2.33 {(0.0675)(0.9325){200}+(0.0675)(0.9325){200}}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "<p>Information obtained from a random sample of 40 entry-level lawyers working in a certain country was used to calculate a 95 percent confidence interval for the true mean salary of all entry-level lawyers in the country. The confidence interval is $(\\$ 56,100, \\$ 58,900)$. Assume the conditions for inference are met. Which of the following statements is correct?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Because the interval includes the value of $\\$ 58,000$, the confidence interval provides convincing statistical evidence at the $=0.05$ level of significance that the average salary for entry-level lawyers in the country is $\\$ 58,000$.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Because the interval includes the value of $\\$ 58,000$, the confidence interval does not provide convincing statistical evidence at the $=0.05$ level of significance that the average salary for entry-level lawyers in the country is different from \\$58,000.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Because the center of the confidence interval is $\\$ 57,500$, there is convincing statistical evidence at the $=0.05$ level of significance that the average salary for entrylevel lawyers in the country is \\$57,500.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Because all of the values in the interval are less than $\\$ 60,000$, the confidence interval does not provide convincing statistical evidence at the $=0.05$ level of significance that the average salary for entry-level lawyers in the country is different from \\$60,000.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Because the interval begins at \\$56,100, no lawyer in the sample had a salary less than that amount.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "<p>A report was published on the number of children under the age of 18 per household in a certain country. A researcher for a city in that country wants to determine whether the distribution of the number of children per household in the city is different from that of the country as a whole. The researcher selected a random sample of 200 houscholds from the city and obtained information on the number of children in each household. The table displays the percentage of households in the country with the corresponding number of children. The observed number of households with the corresponding number of children from the random sample of 200 households in the city is also shown. | Number of children &amp; o &amp; $ &amp; $ &amp; $ &amp; $ or more \\\\ | Percentage of all \\\\ the country's households &amp; $20 %$ &amp; $39 %$ &amp; $25 %$ &amp; $10 %$ &amp; $6 %$ \\\\ Observed number of households &amp; 24 &amp; 68 &amp; 66 &amp; 20 &amp; $2 2$ \\\\ table Assuming all conditions for inference are met, which of the following is an appropriate hypothesis test for the researcher to use?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>One-sample z - test for a population proportion</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Two-sample z - test for a difference in population proportion</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Chi-square test for goodness of fit</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Chi-square test for homogeneity</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Chi-square test for independence</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "<p>A researcher at a car manufacturing company was interested in knowing whether the type of car a driver uses the most (gasoline, hybrid, or electric) varied from Country A to Country B. The researcher obtained a random sample of 1,000 car owners living in Country A and a separate random sample of 2,000 car owners living in Country B. The following table lists the frequencies for the type of car the driver uses the most among the car owners who were sampled from each country. | &amp; Gasoline &amp; Hybrid &amp; Electric &amp; Total \\\\ | Country A &amp; 647 &amp; 203 &amp; 150 &amp; 1,000 \\\\ | Country B &amp; 554 &amp; 1,294 &amp; 152 &amp; 2,000 \\\\ | Total &amp; 1,201 &amp; 1,497 &amp; 302 &amp; 3,000 \\\\ | Based on the data in the table, which of the following statements is true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The proportion of hybrid or electric cars in Country A's sample is more than the proportion of hybrid or electric cars in Country B's sample.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The proportion of gasoline cars in Country A's sample is less than the proportion of electric cars in Country B's sample.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The proportion of gasoline cars in Country A's sample is equal to the proportion of hybrid cars in Country B's sample.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The proportion of electric cars is the same for both samples.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The proportion of gasoline cars is the highest in both samples.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "<p>The owner of a large peach orchard has both genetically modified (GM) peach trees and traditional peach trees in the orchard. The orchard has hundreds of each type of peach tree. The owner believes that on average the GM peach trees produce heavier peaches than the traditional peach trees. To test this belief, the owner randomly sampled 50 GM peaches and 50 traditional peaches and weighed each peach. The owner conducted a two-sample $t$-test for the difference in the population mean weight of peaches for the two types of peach trees. The $p$-vulue of the test is 0.12 . Which of the following is an appropriate conclusion for the owner to make at a $5 %$ level of significance?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The owner fails to reject the null hypothesis and does not have convincing statistical evidence that the GM trees produce heavier peaches, on average, compared to the traditional tress.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The owner fails to reject the null hypothesis and has convincing statistical evidence that the GM trees produce heavier peaches, on average, compared to the traditional trees.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The owner rejects the null hypothesis and does not have convincing statistical evidence that the GM trees produce heavier peaches, on average, compared to the traditional trees.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The owner rejects the null hypothesis and has convincing statistical evidence that the GM trees produce heavier peaches, on average, compared to the traditional trees.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The owner should not make a conclusion because the sample size is not large enough to satisfy the normality condition for the test.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "<p>At a wedding, guests will be asked what type of meal they want. Let $V$ be the event that a guest will select the vegetarian dinner and $C$ be the event that the guest will select the chicken dinner. Let $P(V)=0.3, P(C)=0.7$, and $P(V C)=1.0$. Which of the following statements must be true?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The events $V$ and $C$ are mutually exclusive because the probability of both events happening is $o$.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The events $V$ and $C$ are independent because the probability of both events happening is O .</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The events $V$ and $C$ are mutually exclusive becanse the probability of both events happening is 1 .</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The events $V$ and $C$ are independent because the probability of both events happening is 1 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The events $V$ and $C$ are both independent and mutually exclusive because the probability of both events happening is O .</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "<p>For which of the following distributions is the mean clearly greater than the median?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>[image]</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>[image]</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "<p>The scatterplots for five different sets of bivariate quantitative data are shown. The correlation coefficient for two of the scatterplots are $r=-0.656$ and $r=0.907$. [image] [image] [image] Which of the following matches the graph with the correct correlation coefficient?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Graph I: $r=-0.656$; Graph II: $r=0.907$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Graph I: $r=-0.656$; Graph III: $r=0.907$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Graph IV: $r=-0.656$; Graph III: $r=0.907$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Graph V: $r=-0.656$; Graph II: $r=0.907$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Graph V: $r=-0.656$; Graph III: $r=0.907$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "<p>A number cube has six sides, each with equal probability of landing face-up when rolled, which is also known as a fair number cube. A statistics teacher is trying to create a six-sided number cube where each side does: have an equal probability of landing faceup when rolled. A claim is made that after baking a fair number cube for 10 minutes at 175 degrees Fahrenheit ( ${ }^{} F$ ), each face will no longer have an equal probability of landinge face-up when the number cube is rolled. Thus, the distribution of the number landing facc-up will not be uniform. To test this claim, the statistics teacher baked a fair number cube for 10 minutes at $175^{} F$ and recorded the results of 200 number cube rolls, shown in the following table. | Number Landing \\\\ Face-Up &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ Frequency &amp; 24 &amp; 34 &amp; 32 &amp; 31 &amp; 33 &amp; 46 \\\\ table All conditions for inference were met, and the test statistic and $p$-value for the appropriate hypothesis test were 7.66 and 0.176 , respectively. Which of the following statements is the best interpretation of the $p$-value?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The probability is 0.176 that the distribution of the number landing face-up is uniform after the number cube is baked.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The probability is 0.176 that the distribution of the number landing face-up is not uniform after the number cube is baked.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The probability of observing the distribution of the number landing face-up in the table is 0.176.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>If the distribution of the number landing face-up is uniform, the probability of observing a test statistic at least 7.66 is 0.176 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>If the distribution of the number landing face-up is uniform, the probability of observing a test statistic at most 7.66 is 0.176.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "<p>A large regional sports league wants all teams to use the same airline company when they travel on Fridays to a particular city for games. The league wants to ensure the teams arrive on time as often as possible. The league records all arrivals (both on-time and late) for six airline companies on all Fridays for the past year to that city. The bar chart displays the number of on-time arrivals for the six companies. [image] Based on the bar chart, which airline company should the league select so that the teams are more likely to arrive on time?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Airline 6, because Airline 6 has the largest number of on-time arrivals.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Airline 2, because Airline 2 has the fewest flights, so it is more likely that the airline can arrive on time.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>A decision cannot be made because this is categorical data. The airlines could have been presented in any order on the bar chart; thus the data will be skewed.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>A decision cannot be made based on frequency. A comparison of the relative frequency of on-time arrivals for each of the six airline companies is needed.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>A decision cannot be made because the data are based on a census. A random sample of Fridays would be required.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "<p>At a grocery store, there are three self-checkout stations for customers to complete their purchases. Let $X=$ the number of self-checkout stations being used by customers at any given time. The probability distribution of $X$ is given in the following table. |$x$ &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\ |$P(X=x)$ &amp; 0.08 &amp; 0.22 &amp; 0.32 &amp; 0.38 \\\\ | The mean of $X$ is 2 . Which of the following is closest to the standard deviation of $X$ ?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>0.92</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>0.96</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>1.08</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>1.29</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>2.22</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "<p>There is a certain compound found in the cacao plant that can affect blood pressure. A researcher is studying whether adding a capsule that contains this compound along with regular medication will aid in reducing blood pressure. The researcher recruited 22 volunteer patients who had approximately the same blood pressure and were taking the same brand of blood pressure medicine. The researcher randomly assigned 11 of the volunteers to take the compound capsule along with their current medication and the other 11 of the volunteers to take a placebo capsule along with their current medication. After one month, the systolic blood pressure in millimeters of mercury ( mmHg ), was taken for the volunteers and recorded. The table displays summary statistics for the systolic blood pressure for each group of volunteers. | &amp; Number of Volunteers &amp; Mean (mmHg) &amp; Standard Deviation (mmHg) \\\\ | Compound capsule &amp; 11 &amp; 118.6 &amp; 5.35 \\\\ | Placebo capsule &amp; 11 &amp; 123.5 &amp; 6.53 \\\\ | Assuming a conditions for inference are met, which of the following is a 95 percent confidence interval for the difference between the means of the systolic blood pressure (compound minus placebo), in mmHg , for all patients similar to those in the study?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$(-6.68,-3.12)$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$(-6.83,-2.97)$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$(-9.30,-0.50)$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$(-9.90,0.09)$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$(-10.22,0.42)$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "<p>A strong, heat-resistant synthetic fiber currently used in manufacturing has a mean strength of 1.62 gigapascal (GPa). Scientists believe that spider silk, a natural material, is stronger on average than the currently used fiber. A scientist randomly selected 10 strands of spider silk and determined the strength of each strand. The sample mean strength was 1.87 GPa with a sample standard deviation of 0.26 GPa . The scientist conducted an appropriate test of significance for the following hypotheses. &amp; H_{B}: _{ {silk }}=1.62 \\\\ &amp; H_{a}: _{ {silk }}&gt;1.62 Assuming all conditions for inference are met, what are the values of the appropriate test statistic and associated $p$-value?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$z=0.96, p$-value $=0.1681$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$z=3.04, p$-value $=0.0012$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$t=0.96, p$-value $=0.1807$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$t=3.04, p$-value $=0.0140$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$t=3.04, p$-value $=0.0070$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "<p>Farmer Jones and Farmer O'Grady grow avocados in two different states. The farmers want to estimate the difference in the proportion of avocados from their large farms that cannot be sold because they are rotten. Which of the following combinations of sample sizes and proportions of rotten avocados for each of the two farms would not allow the farmers to assume the sampling distribution of the difference in sample proportions of rotten avocados will have an approximately normal distribution?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Farmer Jones takes a sample of size 100 and observes that the proportion of avocados that are rotten is 0.40 . Farmer O'Grady takes a sample of size 50 and observes that the proportion of avocados that are rotten is $0 . 2 0$.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Farmer Jones takes a sample of size 100 and observes that the proportion of avocados that are rotten is 0.12. Farmer o 'Grady takes a sample of size 50 and observes that the proportion of avocados that are rotten is 0.06 .</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Farmer Jones takes a sample of size 200 and observes that the proportion of avocados that are rotten is 0.40 . Farmer O'Grady takes a sample of size 100 and observes that the proportion of avocados that are rotten is $0 . 2 0$.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Farmer Jones takes a sample of size 200 and observes that the proportion of avocados that are rotten is 0.06. Farmer O'Grady takes a sample of size 200 and observes that the proportion of avocados that are rotten is 0.06.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Farmer Jones takes a sample of size 300 and observes that the proportion of avocados that are rotten is .0.06. Farmer O'Grady takes a sample of size 50 and observes that the proportion of avocados that are rotten is $0 . 2 0$.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "<p>A wildlife sanctuary is a place where wild animals are kept safe. A researcher at a certain sanctuary is interested in the relationship between weight and average daily amount of water consumed by lions in the sanctuary. To investigate this relationship, the researcher selected a random sample of 20 lions from the sanctuary. The weight, in pounds, and the average daily amount of water consumed, in ounces, was recorded for each lion for a period of 5 days. From the data, a least-squares regression model was constructed using weight as the explanatory variable and average daily amount of water consumed as the response variable. A computer summary of the least-squares regression model is shown in the following table. | Predictor &amp; Coefficient &amp; SE of Coefficient &amp; $T$ &amp; $p$-Value \\\\ | Constant &amp; 32.239 &amp; 12.781 &amp; 2.522 &amp; 0.021 \\\\ | Weight &amp; 0.039 &amp; 0.093 &amp; 0.419 &amp; 0.680 \\\\ | $S=13.589$ &amp; $r^{2}=0.010$ &amp; &amp; &amp; \\\\ | The researcher will use the regression results to test the hypotheses $H_{0}$ : There is not a linear relationship between weight and average daily amount of water consumed by all lions in the sanctuary versus $H_{a}$ : There is a linear relationship between weight and average daily amount of water consumed by all lions in the sanctuary. Assuming the conditions for inference were met, which of the following statements is true at the 0.05 significance level?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Because the $r^{2}$-value of 0.010 is less than $=0.05$, the data provide convincing statistical evidence of a linear relationship between weight and average daily amount of water consumed for all lions in the sanctuary.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Because the $r^{2}$-value of 0.010 is less than $=0.05$, the data provide convincing statistical evidence of a linear relationship between weight and average daily amount of water consumed for the 20 lions in the study.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Because the $p$-value of 0.680 is greater than $=0.05$, the data provide convincing statistical evidence of a linear relationship between weight and average daily amount of water consumed for all lions in the sanctuary.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Because the $p$-value of 0.680 is greater than $=0.05$, the data do not provide convincing statistical evidence of a linear relationship between weight and average daily amount of water consumed for all lions in the sanctuary.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Because the $p$-value of 0.680 is greater than $=0.05$, the data do not provide convincing statistical evidence of a linear relationship between weight and average daily amount of water consumed for the 20 lions in the study.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "<p>According to an association of dentists, half of all adults over the age of 30 suffer from some form of gum disease. One indicator of the health of gums is the gap between the pocket of the gum and the nearby tooth, measured in millimeters ( mm ). These gap measurements range from o to 7 mm , with o indicating no gum disease and 7 indicating the most severe gum disease. A group of dentists claims that improving tooth-brushing techniques will decrease the greatest gap measurement on average, of patients in their largo practice. The dentists randomly select 32 patients from the approximately 1,500 patients in their dental practice and measure the greatest gap at the beginning and then again at the end of a three-year period of improved tooth-brushing techniques. Summary statistics of the measurements are displayed in the table. | &amp; $n$ &amp; Mean (mm) &amp; Standard Deviation (mm) \\\\ | Greatest gap at beginning of study &amp; 32 &amp; 3.7 &amp; 0.62 \\\\ | Greatest gap at end of study &amp; 32 &amp; 3.5 &amp; 0.58 \\\\ | Difference (beginning minus end) &amp; 32 &amp; 0.2 &amp; 0.40 \\\\ | Assuming all conditions for inference are met, which of the following is the correct value of the test statistic and $p$-value to test the dentists' claim?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Test statistic $=2.828, p$-value $=0.0041$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>Test statistic $=2.828, p$-value $=0.0081$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>Test statistic $=1.333, p$-value $=0.0193$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>Test statistic $=1.333, p$-value $=0.0938$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Test statistic $=1.333, p$-value $=0.1875$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "<p>An aerial view of a large suburban area shows that 40 percent of the residences have gardens and 30 percent of the residences have solar panels. Among the residences with gardens, 50 percent have solar panels. If a residence is selected at random, what is the probability that the residence has a garden, solar panels, or both?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>0.20</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>0.50</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>0.55</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>0.58</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>0.70</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "<p>According to a recent survey, 40 percent of all households in a certain country have newspapers delivered to their homes. Holly, a local city manager, is investigating whether the percentage of households in her city that have newspapers delivered is different from the national percentage reported in the survey. The hypotheses for her investigation are $H_{0}: p=0.40$ versus $H_{a}: p 0.40$, where $p$ is the proportion of all households in the city that have newspapers delivered. To test these hypotheses at the significance level of $=0.05$, Holly selected a simple random sample of 85 households. Among the households sampled, 42 reported having newspapers delivered. Assuming the conditions for inference are met, which of the following is the correct inference decision?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The $p$-value is larger than the significance level, so there is convincing statistical evidence that the proportion of city households that have newspapers delivered is equal to 0.40 .</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The $p$-value is larger than the significance level, so there is convincing statistical evidence that the proportion of city households that have newspapers delivered is different from 0.40.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The $p$-value is larger than the significance level, so there is not convincing statistical evidence that the proportion of city households that have newspapers delivered is different from 0.40.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The $p$-value is smaller than the significance level, so there is convincing statistical evidence that the proportion of city households that have newspapers delivered is equal to 0.40 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The $p$-value is smaller than the significance level, so there is convincing statistical evidence that the proportion of city households that have newspapers delivered is different from 0.40.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "<p>Ms. Sato, a president of a large university, is interested in estimating the proportion of students from the university who are fluent in more than one language. She takes a random sample of 2,200 students from the university. The 95 percent confidence interval she calculates to estimate the population proportion of students from the university who are fluent in more than one language is (0.274,0.312). Assuming all conditions for inference have been met, which of the following is the best interpretation of the 95 percent confidence interval?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>Because zero is not contained within the confidence interval, it can be assumed that there is a difference in the proportion of students from the university who are fluent in more than one language.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The president can be $95 %$ confident that the population proportion of students from the university who are fluent in more than one language is 0.293 .</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The president is confident that, in repeated sampling, $95 %$ of the time, the sample proportion of students from the university who are fluent in more than one language will be 0.293 .</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The president is $95 %$ confident because $95 %$ of all samples will produce a confidence interval for the population proportion of students from the university who are fluent in more than one language between 0.274 and 0.312 .</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The president can be $95 %$ confident that the population proportion of students from the university who are fluent in more than one language is between 0.274 and 0.312.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "<p>A study was conducted to investigate the association between temperature and length of the wings of butterflies. A random sample of butterflies of a certain species was collected across a continent. On the day each butterfly was collected, the day's mean temperature at that location, in degrees Celsius ( ${ }^{} C$ ), and the butterfly's forewing length, in millimeters ( mm ), were recorded. From these data, a least-squares regression line was calculated to predict forewing length ( mm ) from mean temperature ( ${ }^{} C$ ). The equation of the least-squares regression line is $y=22.550+0.262 x$, where $x$ is the mean temperature on the day each butterfly was collected and $y$ is the forewing length of the butterfly. On the day one butterfly in the sample was collected, the mean temperature was $20.80^{} C$ and the forewing length of the butterfly was 27.15 mm . Using the least-squares regression line, which of the following is closest to the residual for this butterfly?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>-6.68 mm</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>-0.85 mm</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>0.26 mm</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>0.85 mm</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>28.00 mm</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "<p>According to a report, only 18 percent of all drivers can drive a car with a manual transmission. Mr. Jerry, a morning radio show host in a certain city, was curious to know whether the proportion of the show's listeners who can drive a car with a manual transmission is different from 0.18. He requested that listeners call the show and report whether they can drive a car with a manual transmission. Mr. Jerry did not have time to talk to everyone who called, so he took a random sample of the callers by rolling a die. Because the die landed on 5 , the fifth call was answered and then every fifth call after that one was answered until there were 40 responses from the 200 listeners who called. Of the callers who were selected, 25 percent stated that they can drive a car with a manual transmission. Which of the following is true about the results of the survey conducted by the radio host?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The radio host took a random sample of the callers, so the sample proportion of 0.25 may be an accurate estimate of the true proportion of drivers in the city who can drive a car with a manual transmission.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The radio host took a random sample of the callers, so the sample proportion of 0.25 may be an accurate estimate of the true proportion of morning radio show listeners who can drive a car with a manual transmission.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The radio host's sample size is more than $30 %$, so the sample proportion of 0.25 may be an accurate estimate of the true proportion of morning radio show listeners who can drive a car with a manual transmission.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The radio host's sample contains people who chose to participate, so 0.25 may not be an accurate estimate of the true proportion of morning radio show listeners who can drive a car with a manual transmission.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>Because $40(0.18)=7.2$, which is not greater than $10,0.25$ may not be an accurate estimate of the true proportion of morning radio show listeners who can drive a car with a manual transmission.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "<p>In some years at a certain beach, loud concerts are held every weekend during the summer. In other years, there are no concerts held during the summer. A bird lover is concerned that the concerts affect the number of eggs a certain type of bird lays on the beach. The bird lover took a random sample of years with concerts and another random sample of years without concerts. Using available records, the bird lover recorded the number of eggs birds of the specified type laid on the beach each year. A two-sample $t$-test for the difference in population means was conducted, and the bird lover concluded the mean number of eggs the birds laid each year is significantly less in the years when there were summer concerts. Assuming the conditions for inference were met, which of the following is a correct statement about the conclusion that can be made from the study?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The concerts cause a decrease in the mean number of eggs the birds lay on that certain beach.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The concerts cause a decrease in the mean number of eggs the birds lay on all beaches with this type of bird.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The concerts do not cause a decrease in the mean number of eggs the birds lay on that certain beach.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>It cannot be determined whether the concerts cause a decrease in the mean number of eggs the birds lay because this is an observational study.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>It cannot be determined whether the concerts cause a decrease in the mean number of eggs the birds lay because the bird lover does not know whether the loudness of the concerts used each week is constant.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "<p>In a certain large city, a recycling bin is considered to be used correctly if it does not contain any food or other biological waste (such as tissues or diapers). In the city, 65 percent of all households with recycling bins use the bins correctly. In a random sample of 600 households in the city, what are the mean, $, and standard deviation, $, of the number of households with recycling bins that use them correctly?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$=600(0.65), =600(0.65)(0.35)$</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$=600(0.35), =600(0.35)(0.65)$</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$=600(0.35)(0.65), =600(0.65)(0.35)$</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$=600(0.65), ={(0.65)(0.35){600}}$</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$=0.65, ={(0.65)(0.35){600}}$</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "<p>A company with many grocery stores buys grapefruit from two regions, X and Y . A produce buyer at the company believes that grapefruit grown in region $X$ weigh more, on average, than grapefruit grown in segion $Y$. The buyer randomly selects and weighs 125 grapefruits from each region. Let $_{X}$ be the mean weight of all grapefruit from region X and let $_{Y}$ be the mean weight of all grapefruit from region Y . The buyer uses the data to conduct a two-sample $t$-test to test the following hypotheses. &amp; H_{0}: _{X}=_{Y} \\\\ &amp; H_{a}: _{X}&gt;_{Y} The assumptions for inference are met, and the buyer makes a decision based on the data collected and the results of the inference test. Which of the following describes a Type II error for this test?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>The buyer rejects the null hypothesis and determines there is convincing statistical evidence that $_{X}&gt;_{Y}$, when in fact $_{X}=_{Y}$.</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>The buyer fails to reject the null hypothesis and determines there is convincing statistical evidence that $_{X}&lt;_{Y}$, when in fact $_{X}=_{Y}$.</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>The buyer fails to reject the null hypothesis and determines there is not convincing statistical evidence that $_{X}&gt;_{Y}$, when in fact $_{X}&gt;_{Y}$.</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>The buyer rejects the null hypothesis and determines there is convincing statistical evidence that $_{X}&gt;_{Y}$, when in fact $_{X}&gt;_{Y}$.</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>The buyer fails to reject the null hypothesis and determines there is not convincing statistical evidence that $_{X}&gt;_{Y}$, when in fact $_{X}=_{Y}$.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "<p>For competition play, the mass of a tennis ball must be between 56.0 grams and 59.4 grams. The distribution of the mass of tennis balls manufactured by a certain company is approximately normal with a mean of 57.7 grams. If 96 percent of all tennis balls made by the company meet the mass requirement for competition play, which of the following expressions is closest to the standard deviation of the distribution of the mass of tennis balls made by the company?</p>",
+          "options": [
+            {
+              "key": "A",
+              "content": "<p>$56.0-57.7{2.05}$ grams</p>"
+            },
+            {
+              "key": "B",
+              "content": "<p>$59.4-57.7{2.05}$ grams</p>"
+            },
+            {
+              "key": "C",
+              "content": "<p>$59.4-57.7{1.75}$ grams</p>"
+            },
+            {
+              "key": "D",
+              "content": "<p>$2.05(59.4-57.7)$ grams</p>"
+            },
+            {
+              "key": "E",
+              "content": "<p>$1.75(59.4-57.7)$ grams"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

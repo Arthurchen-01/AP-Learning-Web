@@ -4,6 +4,7 @@ import {
   deriveSectionMeta,
   ensureStateShape,
   formatClock,
+  loadExamShellData,
   loadState,
   persistState
 } from "../../exam/mock-config.js";
@@ -11,6 +12,7 @@ import {
 const root = document.getElementById("directions-root");
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
+const hasRequestedSectionIndex = params.has("sectionIndex");
 const requestedSectionIndex = Number(params.get("sectionIndex") || "0");
 
 let exam = null;
@@ -28,16 +30,16 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
-  if (!response.ok) {
-    throw new Error("Missing local exam data");
-  }
-
-  exam = await response.json();
+  exam = await loadExamShellData(examId);
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
-  state.sectionIndex = clampSectionIndex(requestedSectionIndex, exam.sections.length);
-  persistState(examId, state);
+  const nextSectionIndex = hasRequestedSectionIndex
+    ? clampSectionIndex(requestedSectionIndex, exam.sections.length)
+    : clampSectionIndex(state.sectionIndex, exam.sections.length);
+  if (state.sectionIndex !== nextSectionIndex) {
+    state.sectionIndex = nextSectionIndex;
+    persistState(examId, state);
+  }
   bindHandlers();
   render();
 }
@@ -59,8 +61,12 @@ function bindHandlers() {
       return;
     }
     if (action === "enter-exam" || action === "close-directions") {
-      state.stage = "question";
-      state.sectionStates[state.sectionIndex].status = "active";
+      const activeSectionState = state.sectionStates[state.sectionIndex];
+      const shouldResumeExistingStage = activeSectionState?.status === "active" || activeSectionState?.status === "completed";
+      if (!shouldResumeExistingStage) {
+        state.stage = "question";
+        activeSectionState.status = "active";
+      }
       state.startedAt = state.startedAt || new Date().toISOString();
       persistState(examId, state);
       window.location.href = window.sitePath(`/ap/exam/?examId=${encodeURIComponent(examId)}`);
@@ -71,6 +77,12 @@ function bindHandlers() {
 function render() {
   stopBreakClock();
   if (shouldShowBreak()) {
+    ensureActiveBreak();
+    breakRemaining = getBreakRemaining();
+    if (breakRemaining <= 0) {
+      recordBreak(false);
+      return;
+    }
     renderBreak();
     startBreakClock();
     return;
@@ -123,7 +135,8 @@ function renderDirections() {
 }
 
 function shouldShowBreak() {
-  return state.sectionIndex > 0 && !state.breakState?.[state.sectionIndex];
+  const breakState = state.breakState?.[state.sectionIndex];
+  return state.sectionIndex > 0 && !breakState?.recordedAt;
 }
 
 function recordBreak(skipped) {
@@ -136,10 +149,36 @@ function recordBreak(skipped) {
   render();
 }
 
+function ensureActiveBreak() {
+  state.breakState = state.breakState || {};
+  const existing = state.breakState[state.sectionIndex];
+  if (existing && !existing.recordedAt && !existing.startedAt) {
+    existing.startedAt = new Date().toISOString();
+    persistState(examId, state);
+    return;
+  }
+  if (!existing) {
+    state.breakState[state.sectionIndex] = {
+      startedAt: new Date().toISOString()
+    };
+    persistState(examId, state);
+  }
+}
+
+function getBreakRemaining() {
+  const breakState = state.breakState?.[state.sectionIndex];
+  const startedAt = breakState?.startedAt;
+  if (!startedAt) {
+    return BREAK_DURATION_SEC;
+  }
+  const elapsedSec = Math.max(0, Math.floor((Date.now() - Date.parse(startedAt)) / 1000));
+  return Math.max(0, BREAK_DURATION_SEC - elapsedSec);
+}
+
 function startBreakClock() {
   stopBreakClock();
   breakTimerId = window.setInterval(() => {
-    breakRemaining -= 1;
+    breakRemaining = getBreakRemaining();
     const clock = root.querySelector(".break-clock");
     if (clock) {
       clock.textContent = formatClock(breakRemaining);

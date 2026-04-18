@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "resources": [
+    {
+      "id": "res-cal-bc-chief-report-2024",
+      "title": "AP Calculus BC Chief Reader Report 2024",
+      "url": "https://apcentral.collegeboard.org/courses/ap-calculus-bc",
+      "type": "pdf",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": null,
+      "tags": ["chief-report", "scoring", "frq"],
+      "description": "Official Chief Reader Report with scoring distributions and common errors."
+    },
+    {
+      "id": "res-cal-bc-frq-scoring-2024",
+      "title": "AP Calculus BC FRQ Scoring Guidelines 2024",
+      "url": "https://apcentral.collegeboard.org/courses/ap-calculus-bc",
+      "type": "pdf",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": null,
+      "tags": ["scoring", "frq", "rubric"],
+      "description": "Official scoring guidelines for FRQ questions."
+    },
+    {
+      "id": "res-cal-bc-ced",
+      "title": "AP Calculus BC CED (Course and Exam Description)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-calculus-bc",
+      "type": "pdf",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": null,
+      "tags": ["syllabus", "course-description"],
+      "description": "Official course outline with learning objectives and skills."
+    },
+    {
+      "id": "res-cal-bc-limits-khan",
+      "title": "Khan Academy: Limits and Continuity",
+      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-limits-new",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": "trunk-limits",
+      "branchId": null,
+      "tags": ["video", "practice", "limits"],
+      "description": "Complete Khan Academy limits module with practice."
+    },
+    {
+      "id": "res-cal-bc-derivatives-khan",
+      "title": "Khan Academy: Derivatives",
+      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-diff-new",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": "trunk-derivatives",
+      "branchId": null,
+      "tags": ["video", "practice", "derivatives"],
+      "description": "Complete Khan Academy derivatives module with practice."
+    },
+    {
+      "id": "res-cal-bc-integrals-khan",
+      "title": "Khan Academy: Integrals",
+      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-integration-new",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": "trunk-integrals",
+      "branchId": null,
+      "tags": ["video", "practice", "integrals"],
+      "description": "Complete Khan Academy integrals module with practice."
+    },
+    {
+      "id": "res-cal-bc-series-khan",
+      "title": "Khan Academy: Series and Convergence",
+      "url": "https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": "trunk-series",
+      "branchId": null,
+      "tags": ["video", "practice", "series"],
+      "description": "Complete Khan Academy series module with practice."
+    },
+    {
+      "id": "res-cal-bc-volume-rotation-paul",
+      "title": "Paul's Online Notes: Volumes of Revolution",
+      "url": "https://tutorial.math.lamar.edu/Classes/CalcI/VolumeWithRings.aspx",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": "branch-area-volume-rotational",
+      "tags": ["reference", "integration", "volume"],
+      "description": "Detailed examples of disk/washer/shell methods."
+    },
+    {
+      "id": "res-cal-bc-taylor-3b1b",
+      "title": "3Blue1Brown: Essence of Calculus (Series)",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "type": "video",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": "branch-taylor-approximation",
+      "tags": ["video", "intuition", "series"],
+      "description": "Visual intuition for Taylor series and calculus concepts."
+    },
+    {
+      "id": "res-cal-bc-diff-eq-mit",
+      "title": "MIT OCW: Differential Equations",
+      "url": "https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/",
+      "type": "link",
+      "subjectSlug": "ap_calculus_bc",
+      "trunkId": null,
+      "branchId": "branch-differential-equations-slope-field",
+      "tags": ["reference", "differential-equations"],
+      "description": "MIT OpenCourseWare differential equations lectures and notes."
+    }
+  ]
+}

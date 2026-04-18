@@ -1,5 +1,141 @@
 [
   {
+    "exam_id": "2012Intl",
+    "exam_title": "2012国际卷",
+    "subject": "calculus_bc",
+    "subject_display": "微积分BC",
+    "year": 2012,
+    "form": "international",
+    "total_questions": 49,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Part A",
+        "time_limit_minutes": 60,
+        "calculator_allowed": false,
+        "question_count": 43
+      },
+      {
+        "section_id": "mcq-2",
+        "section_type": "mcq",
+        "part_label": "Part B",
+        "time_limit_minutes": 45,
+        "calculator_allowed": true,
+        "question_count": 43
+      }
+    ],
+    "metadata": {
+      "source": "2012Intl.md",
+      "converted_at": "2026-04-08",
+      "language": "en"
+    }
+  },
+  {
+    "exam_id": "2013Intl",
+    "exam_title": "2013国际卷",
+    "subject": "calculus_bc",
+    "subject_display": "微积分BC",
+    "year": 2013,
+    "form": "international",
+    "total_questions": 50,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Part A",
+        "time_limit_minutes": 60,
+        "calculator_allowed": false,
+        "question_count": 44
+      },
+      {
+        "section_id": "mcq-2",
+        "section_type": "mcq",
+        "part_label": "Part B",
+        "time_limit_minutes": 45,
+        "calculator_allowed": true,
+        "question_count": 44
+      }
+    ],
+    "metadata": {
+      "source": "2013Intl.md",
+      "converted_at": "2026-04-08",
+      "language": "en"
+    }
+  },
+  {
+    "exam_id": "2014Intl",
+    "exam_title": "2014国际卷",
+    "subject": "calculus_bc",
+    "subject_display": "微积分BC",
+    "year": 2014,
+    "form": "international",
+    "total_questions": 51,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Part A",
+        "time_limit_minutes": 60,
+        "calculator_allowed": false,
+        "question_count": 45
+      },
+      {
+        "section_id": "mcq-2",
+        "section_type": "mcq",
+        "part_label": "Part B",
+        "time_limit_minutes": 45,
+        "calculator_allowed": true,
+        "question_count": 45
+      }
+    ],
+    "metadata": {
+      "source": "2014Intl.md",
+      "converted_at": "2026-04-08",
+      "language": "en"
+    }
+  },
+  {
+    "exam_id": "calc-bc-2017-intl",
+    "exam_title": "AP Calculus BC 2017 国际卷",
+    "subject": "calculus_bc",
+    "subject_display": "微积分BC",
+    "year": 2017,
+    "form": "international",
+    "total_questions": 45,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Part A",
+        "time_limit_minutes": 60,
+        "calculator_allowed": false,
+        "question_count": 30
+      },
+      {
+        "section_id": "mcq-2",
+        "section_type": "mcq",
+        "part_label": "Part B",
+        "time_limit_minutes": 45,
+        "calculator_allowed": true,
+        "question_count": 15
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微积分BC__AP 微积分BC 2017年国际卷__1902622411338911744.json",
+        "desktop:C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2017Intl_CALC.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622411338911744",
+        "2017Intl"
+      ],
+      "review_flags": []
+    }
+  },
+  {
     "exam_id": "calc-bc-2018-intl",
     "exam_title": "AP Calculus BC 2018 国际卷",
     "subject": "calculus_bc",
@@ -26,105 +162,263 @@
       }
     ],
     "metadata": {
-      "source": "2018Intl.md",
-      "converted_at": "2026-04-07",
-      "language": "en"
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微积分BC__AP 微积分BC 2018年国际卷__1902622411800285184.json",
+        "desktop:C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2018Intl_CALC.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622411800285184",
+        "2018Intl"
+      ],
+      "review_flags": []
     }
   },
   {
-    "exam_id": "2012Intl",
-    "exam_title": "2012国际卷",
-    "subject": "calculus_bc",
-    "subject_display": "微积分BC",
-    "year": 2012,
+    "exam_id": "microeconomics-2017-intl",
+    "exam_title": "AP Microeconomics 2017 国际卷",
+    "subject": "microeconomics",
+    "subject_display": "微观经济",
+    "year": 2017,
     "form": "international",
-    "total_questions": 49,
+    "total_questions": 60,
     "sections": [
       {
         "section_id": "mcq-1",
         "section_type": "mcq",
-        "part_label": "Part A",
-        "time_limit_minutes": 60,
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 70,
         "calculator_allowed": false,
-        "question_count": 28
-      },
-      {
-        "section_id": "mcq-2",
-        "section_type": "mcq",
-        "part_label": "Part B",
-        "time_limit_minutes": 45,
-        "calculator_allowed": true,
-        "question_count": 17
+        "question_count": 60
       }
     ],
     "metadata": {
-      "source": "2012Intl.md",
-      "converted_at": "2026-04-08",
-      "language": "en"
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2017年国际卷__1902622410416164864.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622410416164864"
+      ],
+      "review_flags": []
     }
   },
   {
-    "exam_id": "2013Intl",
-    "exam_title": "2013国际卷",
-    "subject": "calculus_bc",
-    "subject_display": "微积分BC",
-    "year": 2013,
+    "exam_id": "microeconomics-2018-intl",
+    "exam_title": "AP Microeconomics 2018 国际卷",
+    "subject": "microeconomics",
+    "subject_display": "微观经济",
+    "year": 2018,
     "form": "international",
-    "total_questions": 50,
+    "total_questions": 60,
     "sections": [
       {
         "section_id": "mcq-1",
         "section_type": "mcq",
-        "part_label": "Part A",
-        "time_limit_minutes": 60,
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 70,
         "calculator_allowed": false,
-        "question_count": 28
-      },
-      {
-        "section_id": "mcq-2",
-        "section_type": "mcq",
-        "part_label": "Part B",
-        "time_limit_minutes": 45,
-        "calculator_allowed": true,
-        "question_count": 17
+        "question_count": 60
       }
     ],
     "metadata": {
-      "source": "2013Intl.md",
-      "converted_at": "2026-04-08",
-      "language": "en"
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2018年国际卷__1902622410881732608.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\microeconomics-2018.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622410881732608"
+      ],
+      "review_flags": []
     }
   },
   {
-    "exam_id": "2014Intl",
-    "exam_title": "2014国际卷",
-    "subject": "calculus_bc",
-    "subject_display": "微积分BC",
-    "year": 2014,
+    "exam_id": "microeconomics-2019-intl",
+    "exam_title": "AP Microeconomics 2019 国际卷",
+    "subject": "microeconomics",
+    "subject_display": "微观经济",
+    "year": 2019,
     "form": "international",
-    "total_questions": 51,
+    "total_questions": 60,
     "sections": [
       {
         "section_id": "mcq-1",
         "section_type": "mcq",
-        "part_label": "Part A",
-        "time_limit_minutes": 60,
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 70,
         "calculator_allowed": false,
-        "question_count": 28
-      },
-      {
-        "section_id": "mcq-2",
-        "section_type": "mcq",
-        "part_label": "Part B",
-        "time_limit_minutes": 45,
-        "calculator_allowed": true,
-        "question_count": 17
+        "question_count": 60
       }
     ],
     "metadata": {
-      "source": "2014Intl.md",
-      "converted_at": "2026-04-08",
-      "language": "en"
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2019年国际卷__1902622418683138048.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-microeconomics-2019.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622418683138048"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "exam_id": "microeconomics-2021-intl",
+    "exam_title": "AP Microeconomics 2021 国际卷",
+    "subject": "microeconomics",
+    "subject_display": "微观经济",
+    "year": 2021,
+    "form": "international",
+    "total_questions": 60,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 70,
+        "calculator_allowed": false,
+        "question_count": 60
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\微观经济__AP 微观经济 2021年国际卷__1902622419140317184.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-microeconomics-2021.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622419140317184"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "exam_id": "statistics-2017-intl",
+    "exam_title": "AP Statistics 2017 国际卷",
+    "subject": "statistics",
+    "subject_display": "统计学",
+    "year": 2017,
+    "form": "international",
+    "total_questions": 40,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 90,
+        "calculator_allowed": false,
+        "question_count": 40
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2017年国际卷__1902622413180211200.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622413180211200"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "exam_id": "statistics-2018-intl",
+    "exam_title": "AP Statistics 2018 国际卷",
+    "subject": "statistics",
+    "subject_display": "统计学",
+    "year": 2018,
+    "form": "international",
+    "total_questions": 40,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 90,
+        "calculator_allowed": false,
+        "question_count": 40
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-statistics-2018.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622413633196032"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "exam_id": "statistics-2019-intl",
+    "exam_title": "AP Statistics 2019 国际卷",
+    "subject": "statistics",
+    "subject_display": "统计学",
+    "year": 2019,
+    "form": "international",
+    "total_questions": 40,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 90,
+        "calculator_allowed": false,
+        "question_count": 40
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2019年国际卷__1902622414081986560.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-statistics-2019.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622414081986560"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "exam_id": "statistics-2021-intl",
+    "exam_title": "AP Statistics 2021 国际卷",
+    "subject": "statistics",
+    "subject_display": "统计学",
+    "year": 2021,
+    "form": "international",
+    "total_questions": 40,
+    "sections": [
+      {
+        "section_id": "mcq-1",
+        "section_type": "mcq",
+        "part_label": "Multiple Choice",
+        "time_limit_minutes": 90,
+        "calculator_allowed": false,
+        "question_count": 40
+      }
+    ],
+    "metadata": {
+      "converted_at": "2026-04-18",
+      "source_priority_used": "raw",
+      "source_refs": [
+        "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2021年国际卷__1902622414539165696.json",
+        "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-statistics-2021.json"
+      ],
+      "legacy_exam_ids": [
+        "1902622414539165696"
+      ],
+      "review_flags": []
     }
   }
 ]

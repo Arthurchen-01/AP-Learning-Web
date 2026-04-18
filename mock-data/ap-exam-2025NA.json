@@ -22,7 +22,7 @@
         {
           "id": "1",
           "type": "frq",
-          "prompt": "An invasive species of plant appears in a fruit grove at time $t=0$ and begins to spread. The function $C$ defined by $C(t)=7.6 \\arctan (0.2 t)$ models the number of acres in the fruit grove affected by the species $t$ weeks after the species appears. It can be shown that $C^{\\prime}(t)=\\frac{38}{25+t^{2}}$.\n\n\\section*{(Note: Your calculator should be in radian mode.)}",
+          "prompt": "An invasive species of plant appears in a fruit grove at time $t=0$ and begins to spread. The function $C$ defined by $C(t)=7.6 \\arctan (0.2 t)$ models the number of acres in the fruit grove affected by the species $t$ weeks after the species appears. It can be shown that $C^{\\prime}(t)=\\frac{38}{25+t^{2}}$. \\section*{(Note: Your calculator should be in radian mode.)}",
           "options": [],
           "answer": "",
           "explanation": "",
@@ -32,7 +32,7 @@
         {
           "id": "2",
           "type": "frq",
-          "prompt": "Curve $C$ is defined by the polar equation $r(\\theta)=2 \\sin ^{2} \\theta$ for $0 \\leq \\theta \\leq \\pi$. Curve $C$ and the semicircle $r=\\frac{1}{2}$ for $0 \\leq \\theta \\leq \\pi$ are shown in the $x y$-plane.\n![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-4.jpg?height=741&width=733&top_left_y=491&top_left_x=696)\n\n\\section*{(Note: Your calculator should be in radian mode.)}",
+          "prompt": "Curve $C$ is defined by the polar equation $r(\\theta)=2 \\sin ^{2} \\theta$ for $0 \\leq \\theta \\leq \\pi$. Curve $C$ and the semicircle $r=\\frac{1}{2}$ for $0 \\leq \\theta \\leq \\pi$ are shown in the $x y$-plane. ![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-4.jpg?height=741&width=733&top_left_y=491&top_left_x=696) \\section*{(Note: Your calculator should be in radian mode.)}",
           "options": [],
           "answer": "",
           "explanation": "",
@@ -42,7 +42,7 @@
         {
           "id": "3",
           "type": "frq",
-          "prompt": "A student starts reading a book at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the student reads is modeled by the differentiable function $R$, where $R(t)$ is measured in words per minute. Selected values of $R(t)$ are given in the table shown.\n\n\\begin{tabular}{|c|c|c|c|c|}\n\\hline$t$ (minutes) & 0 & 2 & 8 & 10 \\\\\n\\hline$R(t)$ (words per minute) & 90 & 100 & 150 & 162 \\\\\n\\hline\n\\end{tabular}",
+          "prompt": "A student starts reading a book at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the student reads is modeled by the differentiable function $R$, where $R(t)$ is measured in words per minute. Selected values of $R(t)$ are given in the table shown. \\begin{tabular}{|c|c|c|c|c|} \\hline$t$ (minutes) & 0 & 2 & 8 & 10 \\\\ \\hline$R(t)$ (words per minute) & 90 & 100 & 150 & 162 \\\\ \\hline \\end{tabular}",
           "options": [],
           "answer": "",
           "explanation": "",
@@ -52,7 +52,7 @@
         {
           "id": "4",
           "type": "frq",
-          "prompt": "The continuous function $f$ is defined on the closed interval $-6 \\leq x \\leq 12$. The graph of $f$, consisting of two semicircles and one line segment, is shown in the figure.\n![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-7.jpg?height=837&width=1569&top_left_y=455&top_left_x=279)\n\nLet $g$ be the function defined by $g(x)=\\int_{6}^{x} f(t) d t$.",
+          "prompt": "The continuous function $f$ is defined on the closed interval $-6 \\leq x \\leq 12$. The graph of $f$, consisting of two semicircles and one line segment, is shown in the figure. ![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-7.jpg?height=837&width=1569&top_left_y=455&top_left_x=279) Let $g$ be the function defined by $g(x)=\\int_{6}^{x} f(t) d t$.",
           "options": [],
           "answer": "",
           "explanation": "",
@@ -72,7 +72,7 @@
         {
           "id": "6",
           "type": "frq",
-          "prompt": "The Taylor series for a function $f$ about $x=4$ is given by\n$\\sum_{n=1}^{\\infty} \\frac{(x-4)^{n+1}}{(n+1) 3^{n}}=\\frac{(x-4)^{2}}{2 \\cdot 3}+\\frac{(x-4)^{3}}{3 \\cdot 3^{2}}+\\frac{(x-4)^{4}}{4 \\cdot 3^{3}}+\\cdots+\\frac{(x-4)^{n+1}}{(n+1) 3^{n}}+\\cdots$ and converges to $f(x)$ on its interval of convergence.",
+          "prompt": "The Taylor series for a function $f$ about $x=4$ is given by $\\sum_{n=1}^{\\infty} \\frac{(x-4)^{n+1}}{(n+1) 3^{n}}=\\frac{(x-4)^{2}}{2 \\cdot 3}+\\frac{(x-4)^{3}}{3 \\cdot 3^{2}}+\\frac{(x-4)^{4}}{4 \\cdot 3^{3}}+\\cdots+\\frac{(x-4)^{n+1}}{(n+1) 3^{n}}+\\cdots$ and converges to $f(x)$ on its interval of convergence.",
           "options": [],
           "answer": "",
           "explanation": "",

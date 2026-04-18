@@ -37,7 +37,7 @@
             },
             {
               "key": "D",
-              "content": "$13{(2 x+3)^{2}}$\n(E) $12 x+5{(2 x+3)^{2}}$"
+              "content": "$13{(2 x+3)^{2}}$ (E) $12 x+5{(2 x+3)^{2}}$"
             }
           ],
           "answer": "",
@@ -62,7 +62,7 @@
             },
             {
               "key": "D",
-              "content": "5\n(E) 8"
+              "content": "5 (E) 8"
             }
           ],
           "answer": "",
@@ -87,7 +87,7 @@
             },
             {
               "key": "D",
-              "content": "3\n(E) The series diverges."
+              "content": "3 (E) The series diverges."
             }
           ],
           "answer": "",
@@ -96,7 +96,7 @@
         {
           "id": "103",
           "type": "single",
-          "prompt": "For values of $h$ very close to 0 , which of the following functions best approximates\n$$\nf(x)= (x+h)- x{h} ?\n$$",
+          "prompt": "For values of $h$ very close to 0 , which of the following functions best approximates $$ f(x)= (x+h)- x{h} ? $$",
           "options": [
             {
               "key": "A",
@@ -112,7 +112,7 @@
             },
             {
               "key": "D",
-              "content": "$ x$\n(E) $ ^{2} x$"
+              "content": "$ x$ (E) $ ^{2} x$"
             }
           ],
           "answer": "",
@@ -137,7 +137,7 @@
             },
             {
               "key": "D",
-              "content": "$_{1}^{5} 1+16 x^{6} d x$\n(E) $_{1}^{5} 1+x^{8} d x$"
+              "content": "$_{1}^{5} 1+16 x^{6} d x$ (E) $_{1}^{5} 1+x^{8} d x$"
             }
           ],
           "answer": "",
@@ -162,7 +162,7 @@
             },
             {
               "key": "D",
-              "content": "$e^{x}+x+C$\n(E) $ ^{-1}(e^{x})+C$"
+              "content": "$e^{x}+x+C$ (E) $ ^{-1}(e^{x})+C$"
             }
           ],
           "answer": "",
@@ -187,7 +187,7 @@
             },
             {
               "key": "D",
-              "content": "-0.64\n(E) 0.2\n\n|$x$ & 0 & 2 & 4 & 6 \\\\ |$f(x)$ & 4 & $k$ & 8 & 12 \\\\ |"
+              "content": "-0.64 (E) 0.2 |$x$ & 0 & 2 & 4 & 6 \\\\ |$f(x)$ & 4 & $k$ & 8 & 12 \\\\ |"
             }
           ],
           "answer": "",
@@ -212,7 +212,7 @@
             },
             {
               "key": "D",
-              "content": "10\n(E) 14"
+              "content": "10 (E) 14"
             }
           ],
           "answer": "",
@@ -237,7 +237,7 @@
             },
             {
               "key": "D",
-              "content": "3\n(E) 4"
+              "content": "3 (E) 4"
             }
           ],
           "answer": "",
@@ -262,7 +262,7 @@
             },
             {
               "key": "D",
-              "content": "$1{2}(e^{x}+e^{-x})$\n(E) $e^{x^{2}}$"
+              "content": "$1{2}(e^{x}+e^{-x})$ (E) $e^{x^{2}}$"
             }
           ],
           "answer": "",
@@ -287,7 +287,7 @@
             },
             {
               "key": "D",
-              "content": "4\n(E) It cannot be determined from the information given."
+              "content": "4 (E) It cannot be determined from the information given."
             }
           ],
           "answer": "",
@@ -312,7 +312,7 @@
             },
             {
               "key": "D",
-              "content": "6\n(E) 25"
+              "content": "6 (E) 25"
             }
           ],
           "answer": "",
@@ -337,7 +337,7 @@
             },
             {
               "key": "D",
-              "content": "$(6,-3{16})$\n(E) $(6,-1{16})$"
+              "content": "$(6,-3{16})$ (E) $(6,-1{16})$"
             }
           ],
           "answer": "",
@@ -362,7 +362,7 @@
             },
             {
               "key": "D",
-              "content": "$2 |x+2{x-2}|+C$\n(E) $ 2 |x+2|+2 |x-2|+C$\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-13.jpg?height=719&width=892&top_left_y=343&top_left_x=612)"
+              "content": "$2 |x+2{x-2}|+C$ (E) $ 2 |x+2|+2 |x-2|+C$ ![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-13.jpg?height=719&width=892&top_left_y=343&top_left_x=612)"
             }
           ],
           "answer": "",
@@ -387,7 +387,7 @@
             },
             {
               "key": "D",
-              "content": "$y=1-x^{2}$\n(E) $y=1{1+x^{2}}$"
+              "content": "$y=1-x^{2}$ (E) $y=1{1+x^{2}}$"
             }
           ],
           "answer": "",
@@ -395,12 +395,12 @@
         },
         {
           "id": "115",
-          "type": "frq",
-          "prompt": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\nfigure\n\n[alt={},max width=]{https://c",
+          "type": "single",
+          "prompt": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ? figure [alt={},max width=]{https://c",
           "options": [
             {
               "key": "a",
-              "content": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ?\n\n![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-14.jpg?height=368&width=475&top_left_y=442&top_left_x=292)\n\nfigure\n\n[alt={},max width=]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e7"
+              "content": "If $f^{}(x)=|x-2|$, which of the following could be the graph of $y=f(x)$ ? ![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-14.jpg?height=368&width=475&top_left_y=442&top_left_x=292) figure [alt={},max width=]{https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e7"
             }
           ],
           "answer": "",
@@ -425,7 +425,7 @@
             },
             {
               "key": "D",
-              "content": "$2<x<4$\n(E) $2 x<4$"
+              "content": "$2<x<4$ (E) $2 x<4$"
             }
           ],
           "answer": "",
@@ -450,7 +450,7 @@
             },
             {
               "key": "D",
-              "content": "$-4 x^{3}{1-x^{4}}$\n(E) $4 x^{3}{1-x^{4}}$"
+              "content": "$-4 x^{3}{1-x^{4}}$ (E) $4 x^{3}{1-x^{4}}$"
             }
           ],
           "answer": "",
@@ -475,7 +475,7 @@
             },
             {
               "key": "D",
-              "content": "$2{3}$\n(E) 2"
+              "content": "$2{3}$ (E) 2"
             }
           ],
           "answer": "",
@@ -484,7 +484,7 @@
         {
           "id": "119",
           "type": "single",
-          "prompt": "Which of the following series converge?\nI. $_{n=1}^{} 1{n}$\nII. $_{n=1}^{} 3^{n}{n!}$\nIII. $_{n=1}^{}(e{})^{n}$",
+          "prompt": "Which of the following series converge? I. $_{n=1}^{} 1{n}$ II. $_{n=1}^{} 3^{n}{n!}$ III. $_{n=1}^{}(e{})^{n}$",
           "options": [
             {
               "key": "A",
@@ -500,7 +500,7 @@
             },
             {
               "key": "D",
-              "content": "I and II only\n(E) II and III only"
+              "content": "I and II only (E) II and III only"
             }
           ],
           "answer": "",
@@ -525,7 +525,7 @@
             },
             {
               "key": "D",
-              "content": "$-1{8}$\n(E) 0\n\n|$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 2 & 5 \\\\ | 4 & -3 & 11 \\\\ |"
+              "content": "$-1{8}$ (E) 0 |$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 2 & 5 \\\\ | 4 & -3 & 11 \\\\ |"
             }
           ],
           "answer": "",
@@ -550,7 +550,7 @@
             },
             {
               "key": "D",
-              "content": "-7\n(E) 36"
+              "content": "-7 (E) 36"
             }
           ],
           "answer": "",
@@ -575,7 +575,7 @@
             },
             {
               "key": "D",
-              "content": "${2}$\n(E) 2"
+              "content": "${2}$ (E) 2"
             }
           ],
           "answer": "",
@@ -600,7 +600,7 @@
             },
             {
               "key": "D",
-              "content": "2\n(E) 4\n\n|$n$ & $_{k=1}^{n}({x_{k}})({n})$ \\\\ | | 100 & 5.19 \\\\ | 200 & 5.88 \\\\ | 300 & 6.28 \\\\ | 400 & 6.57 \\\\ | 500 & 6.79 \\\\ |"
+              "content": "2 (E) 4 |$n$ & $_{k=1}^{n}({x_{k}})({n})$ \\\\ | | 100 & 5.19 \\\\ | 200 & 5.88 \\\\ | 300 & 6.28 \\\\ | 400 & 6.57 \\\\ | 500 & 6.79 \\\\ |"
             }
           ],
           "answer": "",
@@ -625,7 +625,7 @@
             },
             {
               "key": "D",
-              "content": "The limit of the Riemann sums does not exist because it is a sum of infinitely many positive numbers.\n(E) The limit of the Riemann sums does not exist because $_{0}^{1} 1{x} d x$ does not exist."
+              "content": "The limit of the Riemann sums does not exist because it is a sum of infinitely many positive numbers. (E) The limit of the Riemann sums does not exist because $_{0}^{1} 1{x} d x$ does not exist."
             }
           ],
           "answer": "",
@@ -650,7 +650,7 @@
             },
             {
               "key": "D",
-              "content": "2\n(E) infinite"
+              "content": "2 (E) infinite"
             }
           ],
           "answer": "",
@@ -675,7 +675,7 @@
             },
             {
               "key": "D",
-              "content": "$12$\n(E) $2 12$"
+              "content": "$12$ (E) $2 12$"
             }
           ],
           "answer": "",
@@ -684,7 +684,7 @@
         {
           "id": "127",
           "type": "single",
-          "prompt": "The function $f$ is given by $f(x)= (x+1{x^{2}})$. Which of the following statements are true?\nI. The graph of $f$ has a horizontal asymptote at $y=0$.\nII. The graph of $f$ has a horizontal asymptote at $y=1$.\nIII. The graph of $f$ has a vertical asymptote at $x=0$.",
+          "prompt": "The function $f$ is given by $f(x)= (x+1{x^{2}})$. Which of the following statements are true? I. The graph of $f$ has a horizontal asymptote at $y=0$. II. The graph of $f$ has a horizontal asymptote at $y=1$. III. The graph of $f$ has a vertical asymptote at $x=0$.",
           "options": [
             {
               "key": "A",
@@ -700,7 +700,7 @@
             },
             {
               "key": "D",
-              "content": "I and III only\n(E) II and III only\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box"
+              "content": "I and III only (E) II and III only Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box"
             }
           ],
           "answer": "",
@@ -725,7 +725,7 @@
             },
             {
               "key": "D",
-              "content": "3\n(E) 21\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-23.jpg?height=753&width=869&top_left_y=956&top_left_x=629)"
+              "content": "3 (E) 21 ![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-23.jpg?height=753&width=869&top_left_y=956&top_left_x=629)"
             }
           ],
           "answer": "",
@@ -750,7 +750,7 @@
             },
             {
               "key": "D",
-              "content": "$d$\n(E) $e$\n\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-24.jpg?height=291&width=501&top_left_y=369&top_left_x=812)"
+              "content": "$d$ (E) $e$ ![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-24.jpg?height=291&width=501&top_left_y=369&top_left_x=812)"
             }
           ],
           "answer": "",
@@ -775,7 +775,7 @@
             },
             {
               "key": "D",
-              "content": "456\n(E) 34.912"
+              "content": "456 (E) 34.912"
             }
           ],
           "answer": "",
@@ -800,7 +800,7 @@
             },
             {
               "key": "D",
-              "content": "$ _{h 0} f(3+h)-8{h}=5$\n(E) $ _{x 3} f^{}(x)=5$\n\n { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B }$}\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-25.jpg?height=530&width=977&top_left_y=326&top_left_x=575)"
+              "content": "$ _{h 0} f(3+h)-8{h}=5$ (E) $ _{x 3} f^{}(x)=5$ { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B } & { B }$} ![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-25.jpg?height=530&width=977&top_left_y=326&top_left_x=575)"
             }
           ],
           "answer": "",
@@ -825,7 +825,7 @@
             },
             {
               "key": "D",
-              "content": "Four\n(E) Five"
+              "content": "Four (E) Five"
             }
           ],
           "answer": "",
@@ -850,7 +850,7 @@
             },
             {
               "key": "D",
-              "content": "245\n(E) 2.784"
+              "content": "245 (E) 2.784"
             }
           ],
           "answer": "",
@@ -858,7 +858,7 @@
         },
         {
           "id": "134",
-          "type": "frq",
+          "type": "single",
           "prompt": "If $f$ is a continuous function on the closed interval $[a, b]$, which of the following must be true?",
           "options": [
             {
@@ -904,7 +904,7 @@
             },
             {
               "key": "D",
-              "content": "30\n(E) 30.5"
+              "content": "30 (E) 30.5"
             }
           ],
           "answer": "",
@@ -929,7 +929,7 @@
             },
             {
               "key": "D",
-              "content": "$d P{d t}=1{400} P(1200-P)$\n(E) $d P{d t}=400 P(1200-P)$\n\n|$x$ & $f(x)$ & $f^{}(x)$ & $f^{ }(x)$ & $f^{ }(x)$ \\\\ | 2 & 0 & 0 & 5 & 7 \\\\ |"
+              "content": "$d P{d t}=1{400} P(1200-P)$ (E) $d P{d t}=400 P(1200-P)$ |$x$ & $f(x)$ & $f^{}(x)$ & $f^{ }(x)$ & $f^{ }(x)$ \\\\ | 2 & 0 & 0 & 5 & 7 \\\\ |"
             }
           ],
           "answer": "",
@@ -954,7 +954,7 @@
             },
             {
               "key": "D",
-              "content": "7\n(E) The limit does not exist."
+              "content": "7 (E) The limit does not exist."
             }
           ],
           "answer": "",
@@ -979,7 +979,7 @@
             },
             {
               "key": "D",
-              "content": "$1{15!}$\n(E) $30!{15!}$"
+              "content": "$1{15!}$ (E) $30!{15!}$"
             }
           ],
           "answer": "",
@@ -1004,7 +1004,7 @@
             },
             {
               "key": "D",
-              "content": "399\n(E) 0.417"
+              "content": "399 (E) 0.417"
             }
           ],
           "answer": "",
@@ -1029,7 +1029,7 @@
             },
             {
               "key": "D",
-              "content": "916\n(E) 35.833\n\n![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-29.jpg?height=629&width=613&top_left_y=1024&top_left_x=756)"
+              "content": "916 (E) 35.833 ![figure](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-29.jpg?height=629&width=613&top_left_y=1024&top_left_x=756)"
             }
           ],
           "answer": "",
@@ -1079,7 +1079,7 @@
             },
             {
               "key": "D",
-              "content": "$1{2}-1{3} x+3{32} x^{2}-1{60} x^{3}+$\n(E) $1{2}-3 x+32{3} x^{2}-60 x^{3}+$\n\nB & B & B & B & B & B & B & B & B$}\n\n|$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 1 & 1 \\\\ | 1 & 3 & 4 \\\\ | 2 & 11 & 13 \\\\ |"
+              "content": "$1{2}-1{3} x+3{32} x^{2}-1{60} x^{3}+$ (E) $1{2}-3 x+32{3} x^{2}-60 x^{3}+$ B & B & B & B & B & B & B & B & B$} |$x$ & $f(x)$ & $f^{}(x)$ \\\\ | | 0 & 1 & 1 \\\\ | 1 & 3 & 4 \\\\ | 2 & 11 & 13 \\\\ |"
             }
           ],
           "answer": "",
@@ -1104,7 +1104,7 @@
             },
             {
               "key": "D",
-              "content": "4\n(E) 13"
+              "content": "4 (E) 13"
             }
           ],
           "answer": "",
@@ -1129,7 +1129,7 @@
             },
             {
               "key": "D",
-              "content": "845\n(E) 2\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.\n\n^{®}$ Calculus \\\\ Instructions for Section II Free-Response Questions}\n\nWrite clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be graded.\nManage your time carefully. During the timed portion for Part A, work"
+              "content": "845 (E) 2 IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY. DO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO. ^{®}$ Calculus \\\\ Instructions for Section II Free-Response Questions} Write clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be graded. Manage your time carefully. During the timed portion for Part A, work"
             }
           ],
           "answer": "",
@@ -1137,7 +1137,7 @@
         },
         {
           "id": "145",
-          "type": "frq",
+          "type": "single",
           "prompt": "The rate at which raw sewage enters a treatment tank is given by $E(t)=850+715 ( t^{2}{9})$ gallons per hour for $0 t 4$ hours. Treated sewage is removed from the tank at the constant rate of 645 gallons per hour. The treatment tank is empty at time $t=0$.",
           "options": [
             {
@@ -1158,8 +1158,8 @@
         },
         {
           "id": "146",
-          "type": "frq",
-          "prompt": "A particle moving along a curve in the $x y$-plane has position $(x(t), y(t))$ at time $t>0$, where\n$$\nd x{d t}=(6{t}-3)^{1 / 3} { and } d y{d t}=t e^{-t}\n$$\n\nAt time $t=3$, the particle is at the point $(5,4)$.",
+          "type": "single",
+          "prompt": "A particle moving along a curve in the $x y$-plane has position $(x(t), y(t))$ at time $t>0$, where $$ d x{d t}=(6{t}-3)^{1 / 3} { and } d y{d t}=t e^{-t} $$ At time $t=3$, the particle is at the point $(5,4)$.",
           "options": [
             {
               "key": "a",
@@ -1175,7 +1175,7 @@
             },
             {
               "key": "d",
-              "content": "Describe the behavior of the path of the particle as $t$ increases without bound.\n\n|$t$ (minutes) & 0 & 4 & 8 & 12 & 16 \\\\ |$H(t)({ }^{} )$ & 65 & 68 & 73 & 80 & 90 \\\\ |"
+              "content": "Describe the behavior of the path of the particle as $t$ increases without bound. |$t$ (minutes) & 0 & 4 & 8 & 12 & 16 \\\\ |$H(t)({ }^{} )$ & 65 & 68 & 73 & 80 & 90 \\\\ |"
             }
           ],
           "answer": "",
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "147",
-          "type": "frq",
+          "type": "single",
           "prompt": "The temperature, in degrees Celsius ( ${ }^{} C$ ), of an oven being heated is modeled by an increasing differentiable function $H$ of time $t$, where $t$ is measured in minutes. The table above gives the temperature as recorded every 4 minutes over a 16 -minute period.",
           "options": [
             {
@@ -1204,7 +1204,7 @@
             },
             {
               "key": "d",
-              "content": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer.\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-45 minutes \\\\ Number of problems-3\n\n![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-36.jpg?height=669&width=991&top_left_y=588&top_left_x=571)"
+              "content": "Are the data in the table consistent with or do they contradict the claim that the temperature of the oven is increasing at an increasing rate? Give a reason for your answer. CALCULUS BC \\\\ SECTION II, Part B \\\\ Time-45 minutes \\\\ Number of problems-3 ![](https://cdn.mathpix.com/cropped/aafef275-125b-4374-8a6b-1e74614c8a08-36.jpg?height=669&width=991&top_left_y=588&top_left_x=571)"
             }
           ],
           "answer": "",
@@ -1212,7 +1212,7 @@
         },
         {
           "id": "148",
-          "type": "frq",
+          "type": "single",
           "prompt": "Let $f$ be the function given by $f(x)=( x)( x)$. The figure above shows the graph of $f$ for $0",
           "options": [
             {
@@ -1237,7 +1237,7 @@
         },
         {
           "id": "149",
-          "type": "frq",
+          "type": "single",
           "prompt": "Let $f$ be the function satisfying $f^{}(x)=4 x-2 x f(x)$ for all real numbers $x$, with $f(0)=5$ and $ _{x } f(x)=2$.",
           "options": [
             {
@@ -1258,8 +1258,8 @@
         },
         {
           "id": "150",
-          "type": "frq",
-          "prompt": "The function $g$ is continuous for all real numbers $x$ and is defined by\n$$\ng(x)= (2 x)-1{x^{2}} { for } x 0\n$$",
+          "type": "single",
+          "prompt": "The function $g$ is continuous for all real numbers $x$ and is defined by $$ g(x)= (2 x)-1{x^{2}} { for } x 0 $$",
           "options": [
             {
               "key": "a",
@@ -1279,7 +1279,7 @@
             },
             {
               "key": "d",
-              "content": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer.\n\nName: $____$\n\ntable\n\n^{®}$ Calculus BC\nStudent Answer Sheet for Multiple-Choice Section}\ntabular{|l|l|}\n No. & Answer \\\\\n 1 & \\\\\n 2 & \\\\\n 3 & \\\\\n 4 & \\\\\n 5 & \\\\\n 6 & \\\\\n 7 & \\\\\n 8 & \\\\\n 9 & \\\\\n 10 & \\\\\n 11 & \\\\\n 12 & \\\\\n 13 & \\\\\n 14"
+              "content": "Determine whether $g$ has a relative minimum, a relative maximum, or neither at $x=0$. Justify your answer. Name: $____$ table ^{®}$ Calculus BC Student Answer Sheet for Multiple-Choice Section} tabular{|l|l|} No. & Answer \\\\ 1 & \\\\ 2 & \\\\ 3 & \\\\ 4 & \\\\ 5 & \\\\ 6 & \\\\ 7 & \\\\ 8 & \\\\ 9 & \\\\ 10 & \\\\ 11 & \\\\ 12 & \\\\ 13 & \\\\ 14"
             },
             {
               "key": "a",
@@ -1299,11 +1299,11 @@
             },
             {
               "key": "b",
-              "content": "Let $S(t)$ be the amount of sewage in the treatment tank at time $t$. Then $S^{}(t)=E(t)-645$ and $S^{}(t)=0$ when $E(t)=645$. On the interval $0 t 4, E(t)=645$ when $t=2.309$ and $t=3.559$.\n\ntabular{|l|l|}\n $t$ (hours) & amount of sewage in treatment tank \\\\\n 0 & 0 \\\\\n 2.309 & $_{0}^{2.309} E(t) d t-645(2.309)=1637.178$ \\\\\n 3.559 & $_{0}^{3.559} E(t) d t-645(3.559)=1228.520$ \\\\\n 4 & $3981.022-645(4)=1401.022$ \\\\\n\n{tab"
+              "content": "Let $S(t)$ be the amount of sewage in the treatment tank at time $t$. Then $S^{}(t)=E(t)-645$ and $S^{}(t)=0$ when $E(t)=645$. On the interval $0 t 4, E(t)=645$ when $t=2.309$ and $t=3.559$. tabular{|l|l|} $t$ (hours) & amount of sewage in treatment tank \\\\ 0 & 0 \\\\ 2.309 & $_{0}^{2.309} E(t) d t-645(2.309)=1637.178$ \\\\ 3.559 & $_{0}^{3.559} E(t) d t-645(3.559)=1228.520$ \\\\ 4 & $3981.022-645(4)=1401.022$ \\\\ {tab"
             },
             {
               "key": "c",
-              "content": "Total cost $=_{0}^{4}(0.15-0.02 t) E(t) d t=474.320$\n\nThe total cost of treating the sewage that enters the tank during the time interval $0 t 4$, to the nearest dollar, is $\\$ 474$.\n$2:{l1: { integral } \\\\ 1: { answer }.$\n$4:{aligned 1: & { sets } E(t)=645 \\\\ 1: & { identifies } t=2.309 { as } \\\\ & { a candidate } \\\\ 1: & { amount of sewage at } t=2.309 \\\\ 1: & { conclusion }{al"
+              "content": "Total cost $=_{0}^{4}(0.15-0.02 t) E(t) d t=474.320$ The total cost of treating the sewage that enters the tank during the time interval $0 t 4$, to the nearest dollar, is $\\$ 474$. $2:{l1: { integral } \\\\ 1: { answer }.$ $4:{aligned 1: & { sets } E(t)=645 \\\\ 1: & { identifies } t=2.309 { as } \\\\ & { a candidate } \\\\ 1: & { amount of sewage at } t=2.309 \\\\ 1: & { conclusion }{al"
             },
             {
               "key": "a",
@@ -1327,15 +1327,15 @@
             },
             {
               "key": "b",
-              "content": "At $t=3, d y{d x}=y^{(3)}{x^{}(3)}=3 e^{-3}{-1}=-3{e^{3}}$\n$$\n=-0.149\n$$\n\nAn equation for the line tangent to the path at the point $(5,4)$ is $y-4=-3{e^{3}}(x-5)$."
+              "content": "At $t=3, d y{d x}=y^{(3)}{x^{}(3)}=3 e^{-3}{-1}=-3{e^{3}}$ $$ =-0.149 $$ An equation for the line tangent to the path at the point $(5,4)$ is $y-4=-3{e^{3}}(x-5)$."
             },
             {
               "key": "c",
-              "content": "Since $d x{d t}>0$ for $02$, the particle is farthest to the right at $t=2$. The $x$-coordinate of the position is\n$$\nx(2)=5+_{3}^{2}(6{t}-3)^{1 / 3} d t=5.791 { or } 5.792\n$$"
+              "content": "Since $d x{d t}>0$ for $02$, the particle is farthest to the right at $t=2$. The $x$-coordinate of the position is $$ x(2)=5+_{3}^{2}(6{t}-3)^{1 / 3} d t=5.791 { or } 5.792 $$"
             },
             {
               "key": "d",
-              "content": "Since $ _{t } d x{d t}=(-3)^{1 / 3}$ and $ _{t } d y{d t}=0$, the particle will continue moving farther to the left while approaching a horizontal asymptote.\n\n1 : answer\n$$\n2:{l\n1: { slope } \\\\\n1: { equation of tangent line }\n.\n$$\n$4:{l1: { \"yes\" with explanation } \\\\ 1: t=2 ~ array{l}2:{array{l}1: { integral for } x(2) \\\\ 1"
+              "content": "Since $ _{t } d x{d t}=(-3)^{1 / 3}$ and $ _{t } d y{d t}=0$, the particle will continue moving farther to the left while approaching a horizontal asymptote. 1 : answer $$ 2:{l 1: { slope } \\\\ 1: { equation of tangent line } . $$ $4:{l1: { \"yes\" with explanation } \\\\ 1: t=2 ~ array{l}2:{array{l}1: { integral for } x(2) \\\\ 1"
             },
             {
               "key": "a",
@@ -1363,7 +1363,7 @@
             },
             {
               "key": "b",
-              "content": "Average temperature is $1{16} _{0}^{16} H(t) d t$\n$_{0}^{16} H(t) d t 4 (65+68+73+80)$\nAverage temperature $ 4 286{16}=71.5^{} C$"
+              "content": "Average temperature is $1{16} _{0}^{16} H(t) d t$ $_{0}^{16} H(t) d t 4 (65+68+73+80)$ Average temperature $ 4 286{16}=71.5^{} C$"
             },
             {
               "key": "c",
@@ -1371,7 +1371,7 @@
             },
             {
               "key": "d",
-              "content": "If a continuous function is increasing at an increasing rate, then the slopes of the secant lines of the graph of the function are increasing. The slopes of the secant lines for the four intervals in the table are $3{4}, 5{4}, 7{4}$, and $10{4}$, respectively.\n\nSince the slopes are increasing, the data are consistent with the claim.\n\nBy the Mean Value Theorem, the slopes are also the values of $H^{}(c_{k})$ for some times $c_{1}<c_{2}<c"
+              "content": "If a continuous function is increasing at an increasing rate, then the slopes of the secant lines of the graph of the function are increasing. The slopes of the secant lines for the four intervals in the table are $3{4}, 5{4}, 7{4}$, and $10{4}$, respectively. Since the slopes are increasing, the data are consistent with the claim. By the Mean Value Theorem, the slopes are also the values of $H^{}(c_{k})$ for some times $c_{1}<c_{2}<c"
             },
             {
               "key": "a",
@@ -1403,7 +1403,7 @@
             },
             {
               "key": "d",
-              "content": "Yes, the graph of $g$ is tangent to the $x$-axis at $x=1$ since $g(1)=0$ and $g^{}(1)=0$.\n$$\n2:{l\n1: g(1) \\\\\n1: g^{}(1)\n.\n$$\n$2:{l1: { interval } \\\\ 1: { reason }.$\n$3:{aligned & 1: { identifies } 1 { and } 2 { as candidates } \\\\ & { or - } \\\\ & { indicates that the graph of } g \\\\ & { decreases, increases, then decreases } \\\\ & 1:"
+              "content": "Yes, the graph of $g$ is tangent to the $x$-axis at $x=1$ since $g(1)=0$ and $g^{}(1)=0$. $$ 2:{l 1: g(1) \\\\ 1: g^{}(1) . $$ $2:{l1: { interval } \\\\ 1: { reason }.$ $3:{aligned & 1: { identifies } 1 { and } 2 { as candidates } \\\\ & { or - } \\\\ & { indicates that the graph of } g \\\\ & { decreases, increases, then decreases } \\\\ & 1:"
             },
             {
               "key": "a",
@@ -1419,15 +1419,15 @@
             },
             {
               "key": "a",
-              "content": "$_{0}^{}(4 x-2 x f(x)) d x$\n$=_{0}^{} f^{}(x) d x= _{b } _{0}^{b} f^{}(x) d x= _{b }[.f(x)|_{0} ^{b}]$\n$= _{b }(f"
+              "content": "$_{0}^{}(4 x-2 x f(x)) d x$ $=_{0}^{} f^{}(x) d x= _{b } _{0}^{b} f^{}(x) d x= _{b }[.f(x)|_{0} ^{b}]$ $= _{b }(f"
             },
             {
               "key": "b",
-              "content": "$f(-1{2}) f(0)+f^{}(0) (-1{2})=5+0 (-1{2})=5$\n$f(-1) f(-1{2})+f^{}(-1{2}) (-1{2})=5+3 (-1{2})=7{2}$"
+              "content": "$f(-1{2}) f(0)+f^{}(0) (-1{2})=5+0 (-1{2})=5$ $f(-1) f(-1{2})+f^{}(-1{2}) (-1{2})=5+3 (-1{2})=7{2}$"
             },
             {
               "key": "c",
-              "content": "$1{4-2 y} d y=x d x$\n$-1{2} |4-2 y|=1{2} x^{2}+A$\n$ |4-2 y|=-x^{2}+B$\n$2 y-4=C e^{-x^{2}}$\n$C=6$\n$y=2+3 e^{-x^{2}}$ for all real numbers $x$\n$2:{l1: { use of FTC } \\\\ 1: { answer from limiting process }.$\n$2:{l1: { Euler's method with two steps } \\\\ 1: { Euler's approximation to } f(-1).$\n$5:{array{l}1: { separates variables } \\\\ 1: { antideriv"
+              "content": "$1{4-2 y} d y=x d x$ $-1{2} |4-2 y|=1{2} x^{2}+A$ $ |4-2 y|=-x^{2}+B$ $2 y-4=C e^{-x^{2}}$ $C=6$ $y=2+3 e^{-x^{2}}$ for all real numbers $x$ $2:{l1: { use of FTC } \\\\ 1: { answer from limiting process }.$ $2:{l1: { Euler's method with two steps } \\\\ 1: { Euler's approximation to } f(-1).$ $5:{array{l}1: { separates variables } \\\\ 1: { antideriv"
             },
             {
               "key": "a",
@@ -1451,11 +1451,11 @@
             },
             {
               "key": "a",
-              "content": "Since $g$ is continuous,\n$$\n\ng(0) & = _{x 0} g(x)= _{x 0} (2 x)-1{x^{2}} \\\\\n& = _{x 0} -2 (2 x){2 x} \\\\\n& = _{x 0} -4 (2 x){2}=-2\n\n$$"
+              "content": "Since $g$ is continuous, $$ g(0) & = _{x 0} g(x)= _{x 0} (2 x)-1{x^{2}} \\\\ & = _{x 0} -2 (2 x){2 x} \\\\ & = _{x 0} -4 (2 x){2}=-2 $$"
             },
             {
               "key": "b",
-              "content": "$ (2 x)=1-(2 x)^{2}{2!}+(2 x)^{4}{4!}-(2 x)^{6}{6!}++(-1)^{n} (2 x)^{2 n}{(2 n)!}+$\n$$\n=1-4{2!} x^{2}+16{4!} x^{4}-64{6!} x^{6}++(-1)^{n} 2^{2 n}{(2 n)!} x^{2 n}+\n$$"
+              "content": "$ (2 x)=1-(2 x)^{2}{2!}+(2 x)^{4}{4!}-(2 x)^{6}{6!}++(-1)^{n} (2 x)^{2 n}{(2 n)!}+$ $$ =1-4{2!} x^{2}+16{4!} x^{4}-64{6!} x^{6}++(-1)^{n} 2^{2 n}{(2 n)!} x^{2 n}+ $$"
             },
             {
               "key": "c",
@@ -1463,7 +1463,7 @@
             },
             {
               "key": "d",
-              "content": "$g^{}(x)=2 16{4!} x-4 64{6!} x^{3}+$, so $g^{}(0)=0$.\n$$\ng^{ }(x)=2 16{4!}-3 4 64{6!} x^{2}+, { so } g^{ }(0)>0\n$$\n\nTherefore, $g$ has a relative minimum at $x=0$ by the Second Derivative Test.\n$2: 1 & : { uses L'Hospital's Rule \\\\ & { correctly at least once } \\\\ 1 & : { answer }.$\n$3:{array{l}1: { first"
+              "content": "$g^{}(x)=2 16{4!} x-4 64{6!} x^{3}+$, so $g^{}(0)=0$. $$ g^{ }(x)=2 16{4!}-3 4 64{6!} x^{2}+, { so } g^{ }(0)>0 $$ Therefore, $g$ has a relative minimum at $x=0$ by the Second Derivative Test. $2: 1 & : { uses L'Hospital's Rule \\\\ & { correctly at least once } \\\\ 1 & : { answer }.$ $3:{array{l}1: { first"
             }
           ],
           "answer": "",

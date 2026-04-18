@@ -1,0 +1,32 @@
+{
+  "exam_id": "calc-bc-2018-intl",
+  "exam_title": "AP Calculus BC 2018 国际卷",
+  "subject": "calculus_bc",
+  "subject_display": "微积分BC",
+  "year": 2018,
+  "form": "international",
+  "total_questions": 45,
+  "sections": [
+    {
+      "section_id": "mcq-1",
+      "section_type": "mcq",
+      "part_label": "Part A",
+      "time_limit_minutes": 60,
+      "calculator_allowed": false,
+      "question_count": 30
+    },
+    {
+      "section_id": "mcq-2",
+      "section_type": "mcq",
+      "part_label": "Part B",
+      "time_limit_minutes": 45,
+      "calculator_allowed": true,
+      "question_count": 15
+    }
+  ],
+  "metadata": {
+    "source": "2018Intl.md",
+    "converted_at": "2026-04-07",
+    "language": "en"
+  }
+}

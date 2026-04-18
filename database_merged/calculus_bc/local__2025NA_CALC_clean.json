@@ -1,0 +1,186 @@
+{
+  "examId": "2025NA",
+  "title": "AP Calculus BC 2025年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2025",
+  "description": "AP Calculus BC 2025年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-frq",
+      "title": "Section 2",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "frq",
+          "prompt": "<p>An invasive species of plant appears in a fruit grove at time $t=0$ and begins to spread. The function $C$ defined by $C(t)=7.6  (0.2 t)$ models the number of acres in the fruit grove affected by the species $t$ weeks after the species appears. It can be shown that $C^{}(t)=38{25+t^{2}}$.</p><p>A. Find the average number of acres affected by the invasive species from time $t=0$ to time $t=4$ weeks. Show the setup for your calculations.<br>B. Find the time $t$ when the instantaneous rate of change of $C$ equals the average rate of change of $C$ over the time interval $0  t  4$. Show the setup for your calculations.<br>C. Assume that the invasive species continues to spread according to the given model for all times $t&gt;0$. Write a limit expression that describes the end behavior of the rate of change in the number of acres affected by the species. Evaluate this limit expression.<br>D. At time $t=4$ weeks after the invasive species appears in the fruit grove, measures are taken to counter the spread of the species. The function $A$, defined by $A(t)=C(t)-_{4}^{t} 0.1   (x) d x$, models the number of acres affected by the species over the time interval $4  t  36$. At what time $t$, for $4  t  36$, does $A$ attain its maximum value? Justify your answer.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Find the average number of acres affected by the invasive species from time $t=0$ to time $t=4$ weeks. Show the setup for your calculations.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Find the time $t$ when the instantaneous rate of change of $C$ equals the average rate of change of $C$ over the time interval $0  t  4$. Show the setup for your calculations.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>Assume that the invasive species continues to spread according to the given model for all times $t&gt;0$. Write a limit expression that describes the end behavior of the rate of change in the number of acres affected by the species. Evaluate this limit expression.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>At time $t=4$ weeks after the invasive species appears in the fruit grove, measures are taken to counter the spread of the species. The function $A$, defined by $A(t)=C(t)-_{4}^{t} 0.1   (x) d x$, models the number of acres affected by the species over the time interval $4  t  36$. At what time $t$, for $4  t  36$, does $A$ attain its maximum value? Justify your answer.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "2",
+          "type": "frq",
+          "prompt": "<p>Curve $C$ is defined by the polar equation $r()=2  ^{2} $ for $0    $. Curve $C$ and the semicircle $r=1{2}$ for $0    $ are shown in the $x y$-plane.<br><img src=\"https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-4.jpg?height=741&amp;width=733&amp;top_left_y=491&amp;top_left_x=696\" alt=\"\" /></p><p>A. Find the rate of change of $r$ with respect to $$ at the point on curve $C$ where $=1.3$. Show the setup for your calculations.<br>B. Find the area of the region that lies inside curve $C$ but outside the graph of the polar equation $r=1{2}$. Show the setup for your calculations.<br>C. It can be shown that $d x{d }=4    ^{2} -2  ^{3} $ for curve $C$. For $0    {2}$, find the value of $$ that corresponds to the point on curve $C$ that is farthest from the $y$-axis. Justify your answer.<br>D. A particle travels along curve $C$ so that $d {d t}=15$ for all times $t$. Find the rate at which the particle&#x27;s distance from the origin changes with respect to time when the particle is at the point where $=1.3$. Show the setup for your calculations.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Find the rate of change of $r$ with respect to $$ at the point on curve $C$ where $=1.3$. Show the setup for your calculations.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Find the area of the region that lies inside curve $C$ but outside the graph of the polar equation $r=1{2}$. Show the setup for your calculations.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>It can be shown that $d x{d }=4    ^{2} -2  ^{3} $ for curve $C$. For $0    {2}$, find the value of $$ that corresponds to the point on curve $C$ that is farthest from the $y$-axis. Justify your answer.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>A particle travels along curve $C$ so that $d {d t}=15$ for all times $t$. Find the rate at which the particle&#x27;s distance from the origin changes with respect to time when the particle is at the point where $=1.3$. Show the setup for your calculations.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "3",
+          "type": "frq",
+          "prompt": "<p>A student starts reading a book at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the student reads is modeled by the differentiable function $R$, where $R(t)$ is measured in words per minute. Selected values of $R(t)$ are given in the table shown.</p><table><tr><td>$t$ (minutes)</td><td>0</td><td>2</td><td>8</td><td>10</td></tr><tr><td>$R(t)$ (words per minute)</td><td>90</td><td>100</td><td>150</td><td>162</td></tr></table><p>A. Approximate $R^{}(1)$ using the average rate of change of $R$ over the interval $0  t  2$. Show the work that leads to your answer. Indicate units of measure.<br>B. Must there be a value $c$, for $0&lt;c&lt;10$, such that $R(c)=155$ ? Justify your answer.<br>C. Use a trapezoidal sum with the three subintervals indicated by the data in the table to approximate the value of $_{0}^{10} R(t) d t$. Show the work that leads to your answer.<br>D. A teacher also starts reading at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the teacher reads is modeled by the function $W$ defined by $W(t)=-3{10} t^{2}+8 t+100$, where $W(t)$ is measured in words per minute. Based on the model, how many words has the teacher read by the end of the 10 minutes? Show the work that leads to your answer.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Approximate $R^{}(1)$ using the average rate of change of $R$ over the interval $0  t  2$. Show the work that leads to your answer. Indicate units of measure.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Must there be a value $c$, for $0&lt;c&lt;10$, such that $R(c)=155$ ? Justify your answer.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>Use a trapezoidal sum with the three subintervals indicated by the data in the table to approximate the value of $_{0}^{10} R(t) d t$. Show the work that leads to your answer.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>A teacher also starts reading at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the teacher reads is modeled by the function $W$ defined by $W(t)=-3{10} t^{2}+8 t+100$, where $W(t)$ is measured in words per minute. Based on the model, how many words has the teacher read by the end of the 10 minutes? Show the work that leads to your answer.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "4",
+          "type": "frq",
+          "prompt": "<p>The continuous function $f$ is defined on the closed interval $-6  x  12$. The graph of $f$, consisting of two semicircles and one line segment, is shown in the figure.<br><img src=\"https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-7.jpg?height=837&amp;width=1569&amp;top_left_y=455&amp;top_left_x=279\" alt=\"\" /></p><p>Let $g$ be the function defined by $g(x)=_{6}^{x} f(t) d t$.<br>A. Find $g^{}(8)$. Give a reason for your answer.<br>B. Find all values of $x$ in the open interval $-6&lt;x&lt;12$ at which the graph of $g$ has a point of inflection. Give a reason for your answer.<br>C. Find $g(12)$ and $g(0)$. Label your answers.<br>D. Find the value of $x$ at which $g$ attains an absolute minimum on the closed interval $-6  x  12$. Justify your answer.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Find $g^{}(8)$. Give a reason for your answer.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Find all values of $x$ in the open interval $-6&lt;x&lt;12$ at which the graph of $g$ has a point of inflection. Give a reason for your answer.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>Find $g(12)$ and $g(0)$. Label your answers.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>Find the value of $x$ at which $g$ attains an absolute minimum on the closed interval $-6  x  12$. Justify your answer.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "frq",
+          "prompt": "<p>Let $y=f(x)$ be the particular solution to the differential equation $d y{d x}=(3-x) y^{2}$ with initial condition $f(1)=-1$.<br>A. Find $f^{ }(1)$, the value of $d^{2 y}{d x^{2}}$ at the point $(1,-1)$. Show the work that leads to your answer.<br>B. Write the second-degree Taylor polynomial for $f$ about $x=1$.<br>C. The second-degree Taylor polynomial for $f$ about $x=1$ is used to approximate $f(1.1)$. Given that $|f^{  }(x)|  60$ for all $x$ in the interval $1  x  1.1$, use the Lagrange error bound to show that this approximation differs from $f(1.1)$ by at most 0.01 .<br>D. Use Euler&#x27;s method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the work that leads to your answer.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Find $f^{ }(1)$, the value of $d^{2 y}{d x^{2}}$ at the point $(1,-1)$. Show the work that leads to your answer.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Write the second-degree Taylor polynomial for $f$ about $x=1$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>The second-degree Taylor polynomial for $f$ about $x=1$ is used to approximate $f(1.1)$. Given that $|f^{  }(x)|  60$ for all $x$ in the interval $1  x  1.1$, use the Lagrange error bound to show that this approximation differs from $f(1.1)$ by at most 0.01 .</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>Use Euler&#x27;s method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the work that leads to your answer.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "6",
+          "type": "frq",
+          "prompt": "<p>The Taylor series for a function $f$ about $x=4$ is given by<br>$_{n=1}^{} (x-4)^{n+1}{(n+1) 3^{n}}=(x-4)^{2}{2  3}+(x-4)^{3}{3  3^{2}}+(x-4)^{4}{4  3^{3}}++(x-4)^{n+1}{(n+1) 3^{n}}+$ and converges to $f(x)$ on its interval of convergence.<br>A. Using the ratio test, find the interval of convergence of the Taylor series for $f$ about $x=4$. Justify your answer.<br>B. Find the first three nonzero terms and the general term of the Taylor series for $f^{}$, the derivative of $f$, about $x=4$.<br>C. The Taylor series for $f^{}$ described in part B is a geometric series. For all $x$ in the interval of convergence of the Taylor series for $f^{}$, show that $f^{}(x)=x-4{7-x}$.<br>D. It is known that the radius of convergence of the Taylor series for $f$ about $x=4$ is the same as the radius of convergence of the Taylor series for $f^{}$ about $x=4$. Does the Taylor series for $f^{}$ described in part B converge to $f^{}(x)=x-4{7-x}$ at $x=8$ ? Give a reason for your answer.</p>",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "<p>Using the ratio test, find the interval of convergence of the Taylor series for $f$ about $x=4$. Justify your answer.</p>"
+            },
+            {
+              "partSign": "b",
+              "partContent": "<p>Find the first three nonzero terms and the general term of the Taylor series for $f^{}$, the derivative of $f$, about $x=4$.</p>"
+            },
+            {
+              "partSign": "c",
+              "partContent": "<p>The Taylor series for $f^{}$ described in part B is a geometric series. For all $x$ in the interval of convergence of the Taylor series for $f^{}$, show that $f^{}(x)=x-4{7-x}$.</p>"
+            },
+            {
+              "partSign": "d",
+              "partContent": "<p>It is known that the radius of convergence of the Taylor series for $f$ about $x=4$ is the same as the radius of convergence of the Taylor series for $f^{}$ about $x=4$. Does the Taylor series for $f^{}$ described in part B converge to $f^{}(x)=x-4{7-x}$ at $x=8$ ? Give a reason for your answer.</p>"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

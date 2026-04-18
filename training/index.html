@@ -311,6 +311,62 @@
       line-height: 1.7;
       margin-bottom: 0.9rem;
     }
+    .question-prompt img,
+    .option-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    .question-prompt .standalone_image,
+    .option-item .standalone_image,
+    .question-prompt .text-center,
+    .option-item .text-center {
+      margin: 0.75rem 0;
+      text-align: center;
+    }
+    .question-prompt .standalone_image img,
+    .option-item .standalone_image img,
+    .question-prompt .text-center img,
+    .option-item .text-center img {
+      margin-inline: auto;
+    }
+    .question-prompt math,
+    .option-item math {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .question-prompt .table_wrapper,
+    .option-item .table_wrapper {
+      max-width: 100%;
+      overflow-x: auto;
+      margin: 0.75rem 0;
+    }
+    .question-prompt table,
+    .option-item table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+    .question-prompt th,
+    .question-prompt td,
+    .option-item th,
+    .option-item td {
+      padding: 0.5rem 0.65rem;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+    .question-prompt .text-center,
+    .option-item .text-center,
+    .question-prompt td[class*="align:center"],
+    .question-prompt th[class*="align:center"],
+    .option-item td[class*="align:center"],
+    .option-item th[class*="align:center"] {
+      text-align: center;
+    }
     .option-list {
       list-style: none;
       display: grid;
@@ -397,11 +453,6 @@
           <div class="subject-icon">📐</div>
           <div class="subject-name">AP Calculus BC</div>
           <div class="subject-count">10 Units · 45题</div>
-        </div>
-        <div class="subject-card" data-subject="calculus_ab">
-          <div class="subject-icon">📊</div>
-          <div class="subject-name">AP Calculus AB</div>
-          <div class="subject-count">8 Units · 38题</div>
         </div>
         <div class="subject-card" data-subject="statistics">
           <div class="subject-icon">📈</div>
@@ -506,7 +557,6 @@
 
     const subjects = {
       'calculus_bc': 'AP Calculus BC',
-      'calculus_ab': 'AP Calculus AB',
       'statistics': 'AP Statistics',
       'microeconomics': 'AP Microeconomics'
     };
@@ -632,25 +682,61 @@
         .trim();
     }
 
-    function renderInlineKatex(text) {
-      const escaped = escapeHtml(text ?? '');
-      if (!window.katex) return escaped;
-      return escaped.replace(/\$([^$]+)\$/g, (_, latex) => {
-        try {
-          return window.katex.renderToString(normalizeInlineMathSpacing(latex), {
-            throwOnError: false,
-            displayMode: false,
-            strict: false
-          });
-        } catch {
-          return `$${escapeHtml(latex)}$`;
+    function sanitizeDrillHtml(value) {
+      const template = document.createElement('template');
+      template.innerHTML = String(value ?? '');
+      template.content.querySelectorAll('annotation').forEach(node => node.remove());
+      template.content.querySelectorAll('.choiceNum').forEach(node => node.remove());
+      template.content.querySelectorAll('.choiceTxt').forEach(node => node.replaceWith(...node.childNodes));
+      template.content.querySelectorAll('semantics').forEach(node => {
+        const keep = [...node.childNodes].filter(child => child.nodeType !== Node.ELEMENT_NODE || child.tagName.toLowerCase() !== 'annotation');
+        if (keep.length) node.replaceWith(...keep);
+      });
+      template.content.querySelectorAll('img').forEach(node => { node.loading = 'lazy'; });
+      return template.innerHTML.trim();
+    }
+
+    function renderInlineKatexInHtml(html) {
+      if (!window.katex) return html;
+      const container = document.createElement('div');
+      container.innerHTML = html;
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          return node.parentElement && node.parentElement.closest('math') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
         }
       });
+      const textNodes = [];
+      while (walker.nextNode()) {
+        textNodes.push(walker.currentNode);
+      }
+      textNodes.forEach((node) => {
+        const source = node.textContent || '';
+        if (!source.includes('$')) return;
+        const replaced = source.replace(/\$([^$]+)\$/g, (_, latex) => {
+          try {
+            return window.katex.renderToString(normalizeInlineMathSpacing(latex), {
+              throwOnError: false,
+              displayMode: false,
+              strict: false
+            });
+          } catch {
+            return `$${escapeHtml(latex)}$`;
+          }
+        });
+        if (replaced === source) return;
+        const fragment = document.createRange().createContextualFragment(replaced);
+        node.replaceWith(fragment);
+      });
+      return container.innerHTML;
     }
 
     function formatDrillHtml(html) {
       if (!html) return '';
-      return renderInlineKatex(String(html).replace(/\n/g, '<br>'));
+      const value = String(html);
+      const formatted = /<[a-z][\s\S]*>/i.test(value)
+        ? sanitizeDrillHtml(value)
+        : escapeHtml(value).replace(/\n/g, '<br>');
+      return renderInlineKatexInHtml(formatted);
     }
 
     function showDrillView() {
@@ -669,7 +755,7 @@
         ? `<ul class="option-list">${question.options.map((option) => `
             <li class="option-item">
               <span class="option-key">${escapeHtml(option.key || '')}</span>
-              <span>${formatDrillHtml(option.html || option.text || '')}</span>
+              <div class="option-copy">${formatDrillHtml(option.html || option.text || '')}</div>
             </li>
           `).join('')}</ul>`
         : '<p class="subtitle" style="text-align:left; margin-bottom:0;">该题无可展示选项。</p>';
@@ -727,16 +813,16 @@
         }
 
         drillTitle.textContent = drillSet.branchName || branchId;
-        drillSubtitle.textContent = `${drillSet.trunkName || drillSet.trunkId || '未知主干'} · ${examId}`;
+        drillSubtitle.textContent = `${drillSet.trunkName || drillSet.trunkId || '未知主干'} · ${drillSet.examId}`;
         setDrillMeta(metaItems);
         drillStatus.textContent = `已加载 ${sampleQuestions.length} 题样本。`;
         drillQuestionList.innerHTML = sampleQuestions.map(renderQuestion).join('');
 
         // Completion state
-        activeDrillExamId = examId;
+        activeDrillExamId = drillSet.examId;
         activeDrillBranchId = branchId;
         activeDrillQuestionCount = sampleQuestions.length;
-        const existing = findCompletion(branchId, examId);
+        const existing = findCompletion(branchId, drillSet.examId) || findCompletion(branchId, examId);
         drillCompleteArea.style.display = '';
         if (existing) {
           drillCompletedBadge.style.display = '';

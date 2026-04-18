@@ -1,147 +1,158 @@
 {
   "examId": "2018Intl",
-  "title": "AP Calculus BC 2018年",
-  "subjectName": "Calculus BC",
+  "title": "AP 微积分BC 2018年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
   "yearLabel": "2018",
-  "description": "AP Calculus BC 2018年",
+  "description": "AP 微积分BC 2018年真题",
   "answerKeyAvailable": false,
   "scoring": {
     "answerKeyAvailable": false,
     "apBands": [],
-    "note": "Scoring unavailable until answer keys are imported."
+    "note": ""
   },
   "sections": [
     {
-      "id": "section-mcq",
-      "title": "Section 1",
+      "id": "2018Intl-mcq",
+      "title": "Section I: Multiple Choice",
       "partTitle": "Multiple Choice",
-      "limitMinutes": 60,
+      "limitMinutes": 95,
       "directions": "",
       "questions": [
         {
           "id": "1",
           "type": "single",
-          "prompt": "Do you regularly speak or hear the language at home? ◯ Yes ◯ No Indicate your answers to the exam questions in this section (pages 2 and 3). Mark only one response per question for Questions 1 through 120. If a question has only four answer options, do not mark option E. Answers written in the multiple-choice booklet will not be scored. ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-14.jpg?height=126&width=209&top_left_y=964&top_left_x=700) You must use a No. 2 pencil and marks must be complete. Do not use mechanical pencil. It is very important that you fill in the entire circle darkly and completely. If you change your response, erase as completely as possible. Incomplete marks or erasures may affect your score. \n| 1 & (A) (B) (C) (D) (E) & 26 & (A) (B) (C) (D) (E) & & \\\\ | 2 & (A) (B) (C) (D) (E) & 27 & (A) (B) (C) (D) (E) & & \\\\ | 3 & (A) (B) (C) (D) (E) & 28 & (A)(B)(C)(D)(E) & & \\\\ | 4 & (A) (B) (C) (D) (E) & 29 & (A) (B) (C) (D) (E) & & \\\\ | 5 & (A) (B) (C) (D) (E) & 30 & (A) (B) (C) (D) (E) & & \\\\ | 6 & (A) (B) (C) (D) (E) & 31 & (A) (B) (C) (D) (E) & & \\\\ | 7 & (A) (B) (C) (D) (E) & 32 & (A) (B) (C) (D) (E) & & \\\\ | 8 & (A) (B) (C) (D) (E) & 33 & (A) (B) (C) (D) (E) & & \\\\ | 9 & (A) (B) (C) (D) (E) & 34 & (A) & (B) & (C) (D) \\\\ | 10 & (A) (B) (C) (D) (E) & 35 & (A) & (B) & (E) \\\\ | 11 & (A) & 36 & (A) & (B) & (C) (D) \\\\ | 12 & (A) & 37 & (A) & (B) & (C) (D) \\\\ | 13 & (A) & 38 & (A) & (B) & (E) \\\\ | 14 & (A) & 39 & (A) & (B) & (C) (D) \\\\ | 15 & (A) & 40 & (A) & (B) & (E) \\\\ | 16 & (A) & 41 & (A) & (B) & (E) \\\\ | 17 & (A) & 42 & (A) & (B) & (E) \\\\ | 18 & (A) & 43 & (A) & (B) & (E) \\\\ | 19 & (A) & 44 & (A) & (B) & (E) \\\\ | 20 & (A) & 45 & (A) & (B) & (D) \\\\ | 21 & (A) & 46 & (A) & (B) & (D) \\\\ | 22 & (A) & 47 & (A) & (B) & (D) \\\\ | 23 & (A) & 48 & (A) & (B) & (D) \\\\ | 24 & (A) & 49 & (A) & (B) & (E) \\\\ | 25 & (A) & 50 & (A) & (C) & (E) \\\\ |\n \n| 51 & (A) (B) (C) (D) (E) \\\\ | 52 & (A) (B) (C) (D) (E) \\\\ | 53 & (A) (B) (C) (D) (E) \\\\ | 54 & (A) (B) (C) (D) (E) \\\\ | 55 & (A) (B) (C) (D) (E) \\\\ | 56 & (A) (B) (C) (D) (E) \\\\ | 57 & (A) (B) (C) (D) (E) \\\\ | 58 & (A) (B) (C) (D) (E) \\\\ | 59 & (A) (B) (C) (D) (E) \\\\ | 60 & (A) (B) (C) (D) (E) \\\\ | 61 & (A) (B) (C) (D) (E) \\\\ | 62 & (A) (B) (C) (D) (E) \\\\ | 63 & (A) (B) (C) (D) (E) \\\\ | 64 & (A) (B) (C) (D) (E) \\\\ | 65 & (A) (B) (C) (D) (E) \\\\ | 66 & (A) (B) (C) (D) (E) \\\\ | 67 & (A) (B) (C) (D) (E) \\\\ | 68 & (A) (B) (C) (D) (E) \\\\ | 69 & (A) (B) (C) (D) (E) \\\\ | 70 & (A) (B) (C) (D) (E) \\\\ | 71 & (A) (B) (C) (D) (E) \\\\ | 72 & (A) (B) (C) (D) (E) \\\\ | 73 & (A) (B) (C) (D) (E) \\\\ | 74 & (A) (B) (C) (D) (E) \\\\ | 75 & (A) (B) (C) (D) (E) \\\\ |\n \n| {*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ | & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ | {*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ | & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ |\n \n| SELECTED MEDIA EXAMS & R & W & 0 & OTHER EXAMS & R & W & 0 \\\\ | PT02 & & & & TOTAL & & & \\\\ | PT03 & & & & Subscore (if applicable) & & & \\\\ | PT04 & & & & Subscore (if applicable) & & & \\\\ |\n DO NOT WRITE IN THIS AREA \n| 76 & （A）（B）（C）（D）（E） & 91 & （A）（B）（C）（D）（E） & 106 & （A）（B）（C）（D）（E） \\\\ | 77 & （A）（B）（C）（D）（E） & 92 & （A）（B）（C）（D）（E） & 107 & （A）（B）（C）（D）（E） \\\\ | 78 & （A）（B）（C）（D）（E） & 93 & （A）（B）（C）（D）（E） & 108 & （A）（B）（C）（D）（E） \\\\ | 79 & （A）（B）（C）（D）（E） & 94 & （A）（B）（C）（D）（E） & 109 & （A）（B）（C）（D）（E） \\\\ | 80 & （A）（B）（C）（D）（E） & 95 & （A）（B）（C）（D）（E） & 110 & （A）（B）（C）（D）（E） \\\\ | 81 & （A）（B）（C）（D）（E） & 96 & （A）（B）（C）（D）（E） & 111 & （A）（B）（C）（D）（E） \\\\ | 82 & （A）（B）（C）（D）（E） & 97 & （A）（B）（C）（D）（E） & 112 & （A）（B）（C）（D）（E） \\\\ | 83 & （A）（B）（C）（D）（E） & 98 & （A）（B）（C）（D）（E） & 113 & （A）（B）（C）（D）（E） \\\\ | 84 & （A）（B）（C）（D）（E） & 99 & （A）（B）（C）（D）（E） & 114 & （A）（B）（C）（D）（E） \\\\ | 85 & （A）（B）（C）（D）（E） & 100 & （A）（B）（C）（D）（E） & 115 & （A）（B）（C）（D）（E） \\\\ | 86 & （A）（B）（C）（D）（E） & 101 & （A）（B）（C）（D）（E） & 116 & （A）（B）（C）（D）（E） \\\\ | 87 & （A）（B）（C）（D）（E） & 102 & （A）（B）（C）（D）（E） & 117 & （A）（B）（C）（D）（E） \\\\ | 88 & （A）（B）（C）（D）（E） & 103 & （A）（B）（C）（D）（E） & 118 & （A）（B）（C）（D）（E） \\\\ | 89 & （A）（B）（C）（D）（E） & 104 & （A）（B）（C）（D）（E） & 119 & （A）（B）（C）（D）（E） \\\\ | 90 & （A）（B）（C）（D）（E） & 105 & （A）（B）（C）（D）（E） & 120 & （A）（B）（C）（D）（E） \\\\ |\n \n| 131 & （A）（B）（C）（D） & 135 & （A）（B）（C）（D） & 139 & （A）（B）（C）（D） \\\\ | 132 & （A）（B）（C）（D） & 136 & （A）（B）（C）（D） & 140 & （A）（B）（C）（D） \\\\ | 133 & （A）（B）（C）（D） & 137 & （A）（B）（C）（D） & 141 & （A）（B）（C）（D） \\\\ | 134 & （A）（B）（C）（D） & 138 & （A）（B）（C）（D） & 142 & （A）（B）（C）（D） \\\\ |\n ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-16.jpg?height=1907&width=2643&top_left_y=38&top_left_x=77) \n| Address & & City & State or Province & Country & & & & & & & & & & ZIP or Postal Code & & & \\\\ | U. EMAIL ADDRESS & By providing your email address, you are granting the College Board permission to use your email address in accordance with the policies in the 2017-18 Bulletin for AP Students and Parents. & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\\\ |\n This is the multiple-choice section of the 2018 AP Exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.) ^{®}$ Calculus BC Exam} 1 hour and 45 minutes Number of Questions 45 Percent of Total Score 50% Writing Instrument Pencil required Number of Questions 30 Time 1 hour Electronic Device None allowed Number of Questions 15 Time 45 minutes Electronic Device Graphing calculator required Section I of this exam contains 45 multiple-choice questions and 4 survey questions. For Part A, fill in only the circles for numbers 1 through 30 on page 2 of the answer sheet. For Part B, fill in only the circles for numbers 76 through 90 on page 3 of the answer sheet. Because Part A and Part B offer only four answer options for each question, do not mark the (E) answer circle for any question. The survey questions are numbers 91 through 94. Indicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer. Sample Question Sample Answer Chicago is a (A) () (C) (D) (E)",
+          "prompt": "Do you regularly speak or hear the language at home? ◯ Yes ◯ No \\section*{QUESTIONS 1-75} Indicate your answers to the exam questions in this section (pages 2 and 3). Mark only one response per question for Questions 1 through 120. If a question has only four answer options, do not mark option E. Answers written in the multiple-choice booklet will not be scored. \\section*{EXAMPLES OF INCOMPLETE MARKS} ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-14.jpg?height=126&width=209&top_left_y=964&top_left_x=700) You must use a No. 2 pencil and marks must be complete. Do not use mechanical pencil. It is very important that you fill in the entire circle darkly and completely. If you change your response, erase as completely as possible. Incomplete marks or erasures may affect your score. \\begin{tabular}{|l|l|l|l|l|l|} \\hline 1 & (A) (B) (C) (D) (E) & 26 & (A) (B) (C) (D) (E) & & \\\\ \\hline 2 & (A) (B) (C) (D) (E) & 27 & (A) (B) (C) (D) (E) & & \\\\ \\hline 3 & (A) (B) (C) (D) (E) & 28 & (A)(B)(C)(D)(E) & & \\\\ \\hline 4 & (A) (B) (C) (D) (E) & 29 & (A) (B) (C) (D) (E) & & \\\\ \\hline 5 & (A) (B) (C) (D) (E) & 30 & (A) (B) (C) (D) (E) & & \\\\ \\hline 6 & (A) (B) (C) (D) (E) & 31 & (A) (B) (C) (D) (E) & & \\\\ \\hline 7 & (A) (B) (C) (D) (E) & 32 & (A) (B) (C) (D) (E) & & \\\\ \\hline 8 & (A) (B) (C) (D) (E) & 33 & (A) (B) (C) (D) (E) & & \\\\ \\hline 9 & (A) (B) (C) (D) (E) & 34 & (A) & (B) & (C) (D) \\\\ \\hline 10 & (A) (B) (C) (D) (E) & 35 & (A) & (B) & (E) \\\\ \\hline 11 & (A) & 36 & (A) & (B) & (C) (D) \\\\ \\hline 12 & (A) & 37 & (A) & (B) & (C) (D) \\\\ \\hline 13 & (A) & 38 & (A) & (B) & (E) \\\\ \\hline 14 & (A) & 39 & (A) & (B) & (C) (D) \\\\ \\hline 15 & (A) & 40 & (A) & (B) & (E) \\\\ \\hline 16 & (A) & 41 & (A) & (B) & (E) \\\\ \\hline 17 & (A) & 42 & (A) & (B) & (E) \\\\ \\hline 18 & (A) & 43 & (A) & (B) & (E) \\\\ \\hline 19 & (A) & 44 & (A) & (B) & (E) \\\\ \\hline 20 & (A) & 45 & (A) & (B) & (D) \\\\ \\hline 21 & (A) & 46 & (A) & (B) & (D) \\\\ \\hline 22 & (A) & 47 & (A) & (B) & (D) \\\\ \\hline 23 & (A) & 48 & (A) & (B) & (D) \\\\ \\hline 24 & (A) & 49 & (A) & (B) & (E) \\\\ \\hline 25 & (A) & 50 & (A) & (C) & (E) \\\\ \\hline \\end{tabular} \\begin{tabular}{|l|l|} \\hline 51 & (A) (B) (C) (D) (E) \\\\ \\hline 52 & (A) (B) (C) (D) (E) \\\\ \\hline 53 & (A) (B) (C) (D) (E) \\\\ \\hline 54 & (A) (B) (C) (D) (E) \\\\ \\hline 55 & (A) (B) (C) (D) (E) \\\\ \\hline 56 & (A) (B) (C) (D) (E) \\\\ \\hline 57 & (A) (B) (C) (D) (E) \\\\ \\hline 58 & (A) (B) (C) (D) (E) \\\\ \\hline 59 & (A) (B) (C) (D) (E) \\\\ \\hline 60 & (A) (B) (C) (D) (E) \\\\ \\hline 61 & (A) (B) (C) (D) (E) \\\\ \\hline 62 & (A) (B) (C) (D) (E) \\\\ \\hline 63 & (A) (B) (C) (D) (E) \\\\ \\hline 64 & (A) (B) (C) (D) (E) \\\\ \\hline 65 & (A) (B) (C) (D) (E) \\\\ \\hline 66 & (A) (B) (C) (D) (E) \\\\ \\hline 67 & (A) (B) (C) (D) (E) \\\\ \\hline 68 & (A) (B) (C) (D) (E) \\\\ \\hline 69 & (A) (B) (C) (D) (E) \\\\ \\hline 70 & (A) (B) (C) (D) (E) \\\\ \\hline 71 & (A) (B) (C) (D) (E) \\\\ \\hline 72 & (A) (B) (C) (D) (E) \\\\ \\hline 73 & (A) (B) (C) (D) (E) \\\\ \\hline 74 & (A) (B) (C) (D) (E) \\\\ \\hline 75 & (A) (B) (C) (D) (E) \\\\ \\hline \\end{tabular} \\begin{tabular}{|l|l|l|} \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\multirow{2}{*}{ Exam } & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline & (0)(1)(2)(3)(4)(5)(6)(7)(8)(9) \\\\ \\hline \\end{tabular} \\begin{tabular}{|l|l|l|l|l|l|l|l|} \\hline SELECTED MEDIA EXAMS & R & W & 0 & OTHER EXAMS & R & W & 0 \\\\ \\hline PT02 & & & & TOTAL & & & \\\\ \\hline PT03 & & & & Subscore (if applicable) & & & \\\\ \\hline PT04 & & & & Subscore (if applicable) & & & \\\\ \\hline \\end{tabular} DO NOT WRITE IN THIS AREA \\begin{table} \\captionsetup{labelformat=empty} \\caption{Be sure each mark is dark and completely fills the circle．If a question has only four answer options，do not mark option E．} \\begin{tabular}{|l|l|l|l|l|l|} \\hline 76 & （A）（B）（C）（D）（E） & 91 & （A）（B）（C）（D）（E） & 106 & （A）（B）（C）（D）（E） \\\\ \\hline 77 & （A）（B）（C）（D）（E） & 92 & （A）（B）（C）（D）（E） & 107 & （A）（B）（C）（D）（E） \\\\ \\hline 78 & （A）（B）（C）（D）（E） & 93 & （A）（B）（C）（D）（E） & 108 & （A）（B）（C）（D）（E） \\\\ \\hline 79 & （A）（B）（C）（D）（E） & 94 & （A）（B）（C）（D）（E） & 109 & （A）（B）（C）（D）（E） \\\\ \\hline 80 & （A）（B）（C）（D）（E） & 95 & （A）（B）（C）（D）（E） & 110 & （A）（B）（C）（D）（E） \\\\ \\hline 81 & （A）（B）（C）（D）（E） & 96 & （A）（B）（C）（D）（E） & 111 & （A）（B）（C）（D）（E） \\\\ \\hline 82 & （A）（B）（C）（D）（E） & 97 & （A）（B）（C）（D）（E） & 112 & （A）（B）（C）（D）（E） \\\\ \\hline 83 & （A）（B）（C）（D）（E） & 98 & （A）（B）（C）（D）（E） & 113 & （A）（B）（C）（D）（E） \\\\ \\hline 84 & （A）（B）（C）（D）（E） & 99 & （A）（B）（C）（D）（E） & 114 & （A）（B）（C）（D）（E） \\\\ \\hline 85 & （A）（B）（C）（D）（E） & 100 & （A）（B）（C）（D）（E） & 115 & （A）（B）（C）（D）（E） \\\\ \\hline 86 & （A）（B）（C）（D）（E） & 101 & （A）（B）（C）（D）（E） & 116 & （A）（B）（C）（D）（E） \\\\ \\hline 87 & （A）（B）（C）（D）（E） & 102 & （A）（B）（C）（D）（E） & 117 & （A）（B）（C）（D）（E） \\\\ \\hline 88 & （A）（B）（C）（D）（E） & 103 & （A）（B）（C）（D）（E） & 118 & （A）（B）（C）（D）（E） \\\\ \\hline 89 & （A）（B）（C）（D）（E） & 104 & （A）（B）（C）（D）（E） & 119 & （A）（B）（C）（D）（E） \\\\ \\hline 90 & （A）（B）（C）（D）（E） & 105 & （A）（B）（C）（D）（E） & 120 & （A）（B）（C）（D）（E） \\\\ \\hline \\end{tabular} \\end{table} \\section*{QUESTIONS 121－126} \\section*{QUESTIONS 131－142} \\begin{table} \\captionsetup{labelformat=empty} \\caption{For Students Taking AP Computer Science Principles，AP Physics 1，or AP Physics 2 Mark two responses per question．You will receive credit only if both correct responses are selected．} \\begin{tabular}{|l|l|l|l|l|l|} \\hline 131 & （A）（B）（C）（D） & 135 & （A）（B）（C）（D） & 139 & （A）（B）（C）（D） \\\\ \\hline 132 & （A）（B）（C）（D） & 136 & （A）（B）（C）（D） & 140 & （A）（B）（C）（D） \\\\ \\hline 133 & （A）（B）（C）（D） & 137 & （A）（B）（C）（D） & 141 & （A）（B）（C）（D） \\\\ \\hline 134 & （A）（B）（C）（D） & 138 & （A）（B）（C）（D） & 142 & （A）（B）（C）（D） \\\\ \\hline \\end{tabular} \\end{table} ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-16.jpg?height=1907&width=2643&top_left_y=38&top_left_x=77) \\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} \\hline Address & & \\multicolumn{11}{|l|}{City} & \\multicolumn{11}{|l|}{State or Province} & \\multicolumn{2}{|c|}{Country} & & & & & & & & & & ZIP or Postal Code & & & \\\\ \\hline U. EMAIL ADDRESS & By providing your email address, you are granting the College Board permission to use your email address in accordance with the policies in the 2017-18 Bulletin for AP Students and Parents. & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & \\\\ \\hline \\end{tabular} \\section*{Section I: Multiple-Choice Questions} This is the multiple-choice section of the 2018 AP Exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.) \\section*{AP ${ }^{®}$ Calculus BC Exam} \\section*{SECTION I: Multiple Choice} \\section*{DO NOT OPEN THIS BOOKLET UNTIL YOU ARE TOLD TO DO SO.} \\section*{At a Glance} \\section*{Total Time} 1 hour and 45 minutes Number of Questions 45 Percent of Total Score 50\\% Writing Instrument Pencil required \\section*{Part A} Number of Questions 30 Time 1 hour Electronic Device None allowed \\section*{Part B} Number of Questions 15 Time 45 minutes Electronic Device Graphing calculator required \\section*{Instructions} Section I of this exam contains 45 multiple-choice questions and 4 survey questions. For Part A, fill in only the circles for numbers 1 through 30 on page 2 of the answer sheet. For Part B, fill in only the circles for numbers 76 through 90 on page 3 of the answer sheet. Because Part A and Part B offer only four answer options for each question, do not mark the (E) answer circle for any question. The survey questions are numbers 91 through 94. Indicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer. Sample Question Sample Answer Chicago is a (A) () (C) (D) (E)",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "state"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "city"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "country"
             },
             {
-              "key": "",
-              "content": "continent\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\nCALCULUS BC \\\\ SECTION I, Part A \\\\ Time-1 hour \\\\ Number of questions-30\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.\n\n(1) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(2) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ )."
+              "key": "D",
+              "content": "continent Use your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions. Your total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions. \\title{ CALCULUS BC \\\\ SECTION I, Part A \\\\ Time-1 hour \\\\ Number of questions-30 } \\section*{NO CALCULATOR IS ALLOWED FOR THIS PART OF THE EXAM.} Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem. \\section*{In this exam:} (1) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number. (2) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $\\sin ^{-1} x=\\arcsin x$ )."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "2",
           "type": "single",
-          "prompt": "If $y=x 2 x+5$, then $y^{}=$",
+          "prompt": "If $y=x \\sqrt{2 x+5}$, then $y^{\\prime}=$",
           "options": [
             {
-              "key": "",
-              "content": "$3 x+5{2 x+5}$"
+              "key": "A",
+              "content": "$\\frac{3 x+5}{\\sqrt{2 x+5}}$"
             },
             {
-              "key": "",
-              "content": "$1{2 x+5}$"
+              "key": "B",
+              "content": "$\\frac{1}{\\sqrt{2 x+5}}$"
             },
             {
-              "key": "",
-              "content": "$1{2 2 x+5}$"
+              "key": "C",
+              "content": "$\\frac{1}{2 \\sqrt{2 x+5}}$"
             },
             {
-              "key": "",
-              "content": "$5 x+10{2 2 x+5}$"
+              "key": "D",
+              "content": "$\\frac{5 x+10}{2 \\sqrt{2 x+5}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "3",
           "type": "single",
-          "prompt": "$ 2^{x} d x=$",
+          "prompt": "$\\int 2^{x} d x=$",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$2^{x}+C$"
             },
             {
-              "key": "",
-              "content": "$( 2) 2^{x}+C$"
+              "key": "B",
+              "content": "$(\\ln 2) 2^{x}+C$"
             },
             {
-              "key": "",
-              "content": "$2^{x}{ 2}+C$"
+              "key": "C",
+              "content": "$\\frac{2^{x}}{\\ln 2}+C$"
             },
             {
-              "key": "",
-              "content": "$2^{x+1}{x+1}+C$"
+              "key": "D",
+              "content": "$\\frac{2^{x+1}}{x+1}+C$ \\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "4",
           "type": "single",
-          "prompt": "$ _{x -7} x+7{|x+7|}$ is",
+          "prompt": "$\\quad \\lim _{x \\rightarrow-7} \\frac{x+7}{|x+7|}$ is",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "-1"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "nonexistent"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
         },
         {
           "id": "5",
           "type": "single",
-          "prompt": "$ (x^{1 / 3-4)^{5}}{6 x^{2 / 3}} d x=$",
+          "prompt": "$\\int \\frac{\\left(x^{1 / 3}-4\\right)^{5}}{6 x^{2 / 3}} d x=$",
           "options": [
             {
-              "key": "",
-              "content": "$(x^{1 / 3-4)^{6}}{12}+C$"
+              "key": "A",
+              "content": "$\\frac{\\left(x^{1 / 3}-4\\right)^{6}}{12}+C$"
             },
             {
-              "key": "",
-              "content": "$(x^{1 / 3-4)^{6}}{6}+C$"
+              "key": "B",
+              "content": "$\\frac{\\left(x^{1 / 3}-4\\right)^{6}}{6}+C$"
             },
             {
-              "key": "",
-              "content": "$5(x^{1 / 3-4)^{4}}{2}+C$"
+              "key": "C",
+              "content": "$\\frac{5\\left(x^{1 / 3}-4\\right)^{4}}{2}+C$"
             },
             {
-              "key": "",
-              "content": "$3(x^{1 / 3}-4)^{6}+C$\n\n| {c} $t$ \\\\ (minutes)\n & 0 & 5 & 10 & 15 \\\\\n \n$R(t)$ \\\\ (people per minute)\n & 100 & 100 & 75 & 55 \\\\\n\ntabular"
+              "key": "D",
+              "content": "$3\\left(x^{1 / 3}-4\\right)^{6}+C$ \\begin{tabular}{|c||c|c|c|c|} \\hline \\begin{tabular}{c} $t$ \\\\ (minutes) \\end{tabular} & 0 & 5 & 10 & 15 \\\\ \\hline \\begin{tabular}{c} $R(t)$ \\\\ (people per minute) \\end{tabular} & 100 & 100 & 75 & 55 \\\\ \\hline \\end{tabular}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "6",
@@ -149,374 +160,404 @@
           "prompt": "During an evacuation drill, people leave a building at a rate of $R(t)$ people per minute, where $t$ is the number of minutes since the start of the drill. Selected values of $R(t)$ are shown in the table above. Using a right Riemann sum with three subintervals and data from the table, what is the approximation of the number of people who leave the building during the first 15 minutes of the evacuation drill?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "230"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "1150"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "1375"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "2075"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
           "type": "single",
-          "prompt": "What is the sum of the series ${e}-{e^{2}}+{e^{3}}-{e^{4}}++(-1)^{n+1} {e^{n}}+$ ?",
+          "prompt": "What is the sum of the series $\\frac{\\pi}{e}-\\frac{\\pi}{e^{2}}+\\frac{\\pi}{e^{3}}-\\frac{\\pi}{e^{4}}+\\cdots+(-1)^{n+1} \\frac{\\pi}{e^{n}}+\\cdots$ ?",
           "options": [
             {
-              "key": "",
-              "content": "${e+}$"
+              "key": "A",
+              "content": "$\\frac{\\pi}{e+\\pi}$"
             },
             {
-              "key": "",
-              "content": "${e+1}$"
+              "key": "B",
+              "content": "$\\frac{\\pi}{e+1}$"
             },
             {
-              "key": "",
-              "content": "${e-1}$"
+              "key": "C",
+              "content": "$\\frac{\\pi}{e-1}$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The series diverges."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
         },
         {
           "id": "8",
           "type": "single",
-          "prompt": "If $f(x)=(x^{2}+1)^{3}$, what is $ _{x -1} f(x)-f(-1){x+1}$ ?",
+          "prompt": "If $f(x)=\\left(x^{2}+1\\right)^{3}$, what is $\\lim _{x \\rightarrow-1} \\frac{f(x)-f(-1)}{x+1}$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "-24"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "-8"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "0"
             },
             {
-              "key": "",
-              "content": "12\n![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=507&width=446&top_left_y=390&top_left_x=827)"
+              "key": "D",
+              "content": "12 ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=507&width=446&top_left_y=390&top_left_x=827)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
         },
         {
           "id": "9",
           "type": "single",
-          "prompt": "The graph of $f^{ }$, the second derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?",
+          "prompt": "The graph of $f^{\\prime \\prime}$, the second derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=452&width=450&top_left_y=1138&top_left_x=315)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=452&width=448&top_left_y=1138&top_left_x=995)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=455&width=451&top_left_y=1671&top_left_x=314)"
             },
             {
-              "key": "",
-              "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=455&width=448&top_left_y=1671&top_left_x=995)"
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-24.jpg?height=455&width=448&top_left_y=1671&top_left_x=995) \\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
         },
         {
           "id": "10",
           "type": "single",
-          "prompt": "Let $y=f(x)$ be a differentiable function such that $d y{d x}=x{y}$ and $f(8)=2$. What is the approximation of $f(8.1)$ using the line tangent to the graph of $f$ at $x=8$ ?",
+          "prompt": "Let $y=f(x)$ be a differentiable function such that $\\frac{d y}{d x}=\\frac{x}{y}$ and $f(8)=2$. What is the approximation of $f(8.1)$ using the line tangent to the graph of $f$ at $x=8$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "4"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "025"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "4"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "6"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
           "type": "single",
-          "prompt": "The series $1-x^{2}+x^{4}{2!}-x^{6}{3!}+x^{8}{4!}++(-1)^{n} x^{2 n}{n!}+$ converges to which of the following?",
+          "prompt": "The series $1-x^{2}+\\frac{x^{4}}{2!}-\\frac{x^{6}}{3!}+\\frac{x^{8}}{4!}+\\cdots+(-1)^{n} \\frac{x^{2 n}}{n!}+\\cdots$ converges to which of the following?",
           "options": [
             {
-              "key": "",
-              "content": "$ (x^{2})+ (x^{2})$"
+              "key": "A",
+              "content": "$\\quad \\cos \\left(x^{2}\\right)+\\sin \\left(x^{2}\\right)$"
             },
             {
-              "key": "",
-              "content": "$1-x x$"
+              "key": "B",
+              "content": "$1-x \\sin x$"
             },
             {
-              "key": "",
-              "content": "$ x$"
+              "key": "C",
+              "content": "$\\cos x$"
             },
             {
-              "key": "",
-              "content": "$e^{-x^{2}}$"
+              "key": "D",
+              "content": "$e^{-x^{2}}$ \\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
         },
         {
           "id": "12",
           "type": "single",
-          "prompt": "$ x (2 x) d x=$",
+          "prompt": "$\\int x \\cos (2 x) d x=$",
           "options": [
             {
-              "key": "",
-              "content": "$1{2} x^{2} (2 x)+C$"
+              "key": "A",
+              "content": "$\\frac{1}{2} x^{2} \\sin (2 x)+C$"
             },
             {
-              "key": "",
-              "content": "$1{2} x^{2} (2 x)+1{2} (2 x)+C$"
+              "key": "B",
+              "content": "$\\frac{1}{2} x^{2} \\cos (2 x)+\\frac{1}{2} \\sin (2 x)+C$"
             },
             {
-              "key": "",
-              "content": "$1{2} x (2 x)-1{4} (2 x)+C$"
+              "key": "C",
+              "content": "$\\frac{1}{2} x \\sin (2 x)-\\frac{1}{4} \\cos (2 x)+C$"
             },
             {
-              "key": "",
-              "content": "$1{2} x (2 x)+1{4} (2 x)+C$"
+              "key": "D",
+              "content": "$\\frac{1}{2} x \\sin (2 x)+\\frac{1}{4} \\cos (2 x)+C$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "13",
           "type": "single",
-          "prompt": "Given that $3 x- y=4$, what is $d y{d x}$ in terms of $y$ ?",
+          "prompt": "Given that $3 x-\\tan y=4$, what is $\\frac{d y}{d x}$ in terms of $y$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$d y{d x}=3 ^{2} y$"
+              "key": "A",
+              "content": "$\\frac{d y}{d x}=3 \\sin ^{2} y$"
             },
             {
-              "key": "",
-              "content": "$d y{d x}=3 ^{2} y$"
+              "key": "B",
+              "content": "$\\frac{d y}{d x}=3 \\cos ^{2} y$"
             },
             {
-              "key": "",
-              "content": "$d y{d x}=3 y y$"
+              "key": "C",
+              "content": "$\\frac{d y}{d x}=3 \\cos y \\cot y$"
             },
             {
-              "key": "",
-              "content": "$d y{d x}=3{1+9 y^{2}}$"
+              "key": "D",
+              "content": "$\\frac{d y}{d x}=\\frac{3}{1+9 y^{2}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
           "type": "single",
-          "prompt": "Which of the following graphs is the solution to the logistic differential equation $d y{d t}=y{5}(1-y{500})$ with the initial condition $y(0)=100$ ?",
+          "prompt": "Which of the following graphs is the solution to the logistic differential equation $\\frac{d y}{d t}=\\frac{y}{5}\\left(1-\\frac{y}{500}\\right)$ with the initial condition $y(0)=100$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-27.jpg?height=368&width=517&top_left_y=592&top_left_x=319)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-27.jpg?height=370&width=518&top_left_y=590&top_left_x=1064)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-27.jpg?height=368&width=515&top_left_y=1050&top_left_x=319)"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-27.jpg?height=373&width=522&top_left_y=1047&top_left_x=1062)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
           "type": "single",
-          "prompt": "What is the absolute minimum value of $y=- x- x$ on the closed interval $[0, {2}]$ ?",
+          "prompt": "What is the absolute minimum value of $y=-\\cos x-\\sin x$ on the closed interval $\\left[0, \\frac{\\pi}{2}\\right]$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$-2 2$"
+              "key": "A",
+              "content": "$-2 \\sqrt{2}$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "-2"
             },
             {
-              "key": "",
-              "content": "$-2$"
+              "key": "C",
+              "content": "$-\\sqrt{2}$"
             },
             {
-              "key": "",
-              "content": "-1\n![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-28.jpg?height=388&width=642&top_left_y=980&top_left_x=730)"
+              "key": "D",
+              "content": "-1 ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-28.jpg?height=388&width=642&top_left_y=980&top_left_x=730)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
           "type": "single",
-          "prompt": "The graph of $g^{}$, the first derivative of the function $g$, consists of a semicircle of radius 2 and two line segments, as shown in the figure above. If $g(0)=1$, what is $g(3)$ ?",
+          "prompt": "The graph of $g^{\\prime}$, the first derivative of the function $g$, consists of a semicircle of radius 2 and two line segments, as shown in the figure above. If $g(0)=1$, what is $g(3)$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$+1$"
+              "key": "A",
+              "content": "$\\pi+1$"
             },
             {
-              "key": "",
-              "content": "$+2$"
+              "key": "B",
+              "content": "$\\pi+2$"
             },
             {
-              "key": "",
-              "content": "$2 +1$"
+              "key": "C",
+              "content": "$2 \\pi+1$"
             },
             {
-              "key": "",
-              "content": "$2 +2$"
+              "key": "D",
+              "content": "$2 \\pi+2$ \\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
         },
         {
           "id": "17",
           "type": "single",
-          "prompt": "$ 1+3 x{(1-x)(3 x-5)} d x=$",
+          "prompt": "$\\int \\frac{1+3 x}{(1-x)(3 x-5)} d x=$",
           "options": [
             {
-              "key": "",
-              "content": "$2 |1-x|-3 |3 x-5|+C$"
+              "key": "A",
+              "content": "$2 \\ln |1-x|-3 \\ln |3 x-5|+C$"
             },
             {
-              "key": "",
-              "content": "$2 |1-x|-27 |3 x-5|+C$"
+              "key": "B",
+              "content": "$2 \\ln |1-x|-27 \\ln |3 x-5|+C$"
             },
             {
-              "key": "",
-              "content": "$-2 |1-x|-3 |3 x-5|+C$"
+              "key": "C",
+              "content": "$-2 \\ln |1-x|-3 \\ln |3 x-5|+C$"
             },
             {
-              "key": "",
-              "content": "$-2 |1-x|-9 |3 x-5|+C$"
+              "key": "D",
+              "content": "$-2 \\ln |1-x|-9 \\ln |3 x-5|+C$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "18",
           "type": "single",
-          "prompt": "A spherical snowball is melting in such a way that it maintains its shape. The snowball is decreasing in volume at a constant rate of 8 cubic centimeters per hour. At what rate, in centimeters per hour, is the radius of the snowball decreasing at the instant when the radius is 10 centimeters? (The volume of a sphere of radius $r$ is $V=4{3} r^{3}$.)",
+          "prompt": "A spherical snowball is melting in such a way that it maintains its shape. The snowball is decreasing in volume at a constant rate of 8 cubic centimeters per hour. At what rate, in centimeters per hour, is the radius of the snowball decreasing at the instant when the radius is 10 centimeters? (The volume of a sphere of radius $r$ is $V=\\frac{4}{3} \\pi r^{3}$.)",
           "options": [
             {
-              "key": "",
-              "content": "$1{50 }$"
+              "key": "A",
+              "content": "$\\frac{1}{50 \\pi}$"
             },
             {
-              "key": "",
-              "content": "$3{50 }$"
+              "key": "B",
+              "content": "$\\frac{3}{50 \\pi}$"
             },
             {
-              "key": "",
-              "content": "$400 $"
+              "key": "C",
+              "content": "$400 \\pi$"
             },
             {
-              "key": "",
-              "content": "$3200 $"
+              "key": "D",
+              "content": "$3200 \\pi$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "19",
           "type": "single",
-          "prompt": "If $f(x)=_{0}^{x^{3}} (t^{2}) d t$, then $f^{}()=$",
+          "prompt": "If $f(x)=\\int_{0}^{x^{3}} \\cos \\left(t^{2}\\right) d t$, then $f^{\\prime}(\\sqrt{\\pi})=$",
           "options": [
             {
-              "key": "",
-              "content": "$3 (^{3})$"
+              "key": "A",
+              "content": "$3 \\pi \\sin \\left(\\pi^{3}\\right)$"
             },
             {
-              "key": "",
-              "content": "$ (^{3})$"
+              "key": "B",
+              "content": "$\\quad \\cos \\left(\\pi^{3}\\right)$"
             },
             {
-              "key": "",
-              "content": "$3 $"
+              "key": "C",
+              "content": "$3 \\pi \\cos \\pi$"
             },
             {
-              "key": "",
-              "content": "$3 (^{3})$"
+              "key": "D",
+              "content": "$3 \\pi \\cos \\left(\\pi^{3}\\right)$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "20",
           "type": "single",
-          "prompt": "What is the slope of the line tangent to the polar curve $r=2 ^{2}$ when $=$ ?",
+          "prompt": "What is the slope of the line tangent to the polar curve $r=2 \\theta^{2}$ when $\\theta=\\pi$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$4 $"
+              "key": "A",
+              "content": "$4 \\pi$"
             },
             {
-              "key": "",
-              "content": "${2}$"
+              "key": "B",
+              "content": "$\\frac{\\pi}{2}$"
             },
             {
-              "key": "",
-              "content": "$2{}$"
+              "key": "C",
+              "content": "$\\frac{2}{\\pi}$"
             },
             {
-              "key": "",
-              "content": "$-2 ^{2}$"
+              "key": "D",
+              "content": "$-2 \\pi^{2}$ \\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
@@ -524,149 +565,161 @@
           "prompt": "Let $g$ be a twice-differentiable, increasing function of $t$. If $g(0)=20$ and $g(10)=220$, which of the following must be true on the interval $0",
           "options": [
             {
-              "key": "",
-              "content": "$ g^{}(t)=0$ for some $t$ in the interval."
+              "key": "A",
+              "content": "$\\quad g^{\\prime}(t)=0$ for some $t$ in the interval."
             },
             {
-              "key": "",
-              "content": "$g^{}(t)=20$ for some $t$ in the interval."
+              "key": "B",
+              "content": "$g^{\\prime}(t)=20$ for some $t$ in the interval."
             },
             {
-              "key": "",
-              "content": "$g^{ }(t)=0$ for some $t$ in the interval."
+              "key": "C",
+              "content": "$g^{\\prime \\prime}(t)=0$ for some $t$ in the interval."
             },
             {
-              "key": "",
-              "content": "$g^{ }(t)>0$ for all $t$ in the interval."
+              "key": "D",
+              "content": "$g^{\\prime \\prime}(t)>0$ for all $t$ in the interval."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "22",
           "type": "single",
-          "prompt": "$ 6 x^{2-4 x-25}{x-2} d x=$",
+          "prompt": "$\\int \\frac{6 x^{2}-4 x-25}{x-2} d x=$",
           "options": [
             {
-              "key": "",
-              "content": "$3 x^{2}+8 x-9 |x-2|+C$"
+              "key": "A",
+              "content": "$3 x^{2}+8 x-9 \\ln |x-2|+C$"
             },
             {
-              "key": "",
-              "content": "$3 x^{2}+8 x+9{(x-2)^{2}}+C$"
+              "key": "B",
+              "content": "$3 x^{2}+8 x+\\frac{9}{(x-2)^{2}}+C$"
             },
             {
-              "key": "",
-              "content": "$(2 x^{3}-2 x^{2}-25 x) |x-2|+C$"
+              "key": "C",
+              "content": "$\\left(2 x^{3}-2 x^{2}-25 x\\right) \\ln |x-2|+C$"
             },
             {
-              "key": "",
-              "content": "$2 x^{3-2 x^{2}-25 x}{x^{2}{2}-2 x}+C$"
+              "key": "D",
+              "content": "$\\frac{2 x^{3}-2 x^{2}-25 x}{\\frac{x^{2}}{2}-2 x}+C$ \\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "23",
           "type": "single",
-          "prompt": "Which of the following statements about convergence of the series $_{n=1}^{} 1{ (n+1)}$ is true?",
+          "prompt": "Which of the following statements about convergence of the series $\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ is true?",
           "options": [
             {
-              "key": "",
-              "content": "$ _{n=1}^{} 1{ (n+1)}$ converges by comparison with $_{n=1}^{} 1{n}$."
+              "key": "A",
+              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
             },
             {
-              "key": "",
-              "content": "$ _{n=1}^{} 1{ (n+1)}$ converges by comparison with $_{n=1}^{} 1{n^{2}}$."
+              "key": "B",
+              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
             },
             {
-              "key": "",
-              "content": "$_{n=1}^{} 1{ (n+1)}$ diverges by comparison with $_{n=1}^{} 1{n}$."
+              "key": "C",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
             },
             {
-              "key": "",
-              "content": "$ _{n=1}^{} 1{ (n+1)}$ diverges by comparison with $_{n=1}^{} 1{n^{2}}$."
+              "key": "D",
+              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$. \\section*{AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
         },
         {
           "id": "24",
           "type": "single",
-          "prompt": "The length of the curve $y= x$ from $x=0$ to $x=3 {4}$ is given by",
+          "prompt": "The length of the curve $y=\\sin x$ from $x=0$ to $x=\\frac{3 \\pi}{4}$ is given by",
           "options": [
             {
-              "key": "",
-              "content": "$_{0}^{3 / 4} x d x$"
+              "key": "A",
+              "content": "$\\int_{0}^{3 \\pi / 4} \\sin x d x$"
             },
             {
-              "key": "",
-              "content": "$_{0}^{3 / 4} 1+ ^{2 x} d x$"
+              "key": "B",
+              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\sin ^{2} x} d x$"
             },
             {
-              "key": "",
-              "content": "$_{0}^{3 / 4} 1- ^{2 x} d x$"
+              "key": "C",
+              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1-\\cos ^{2} x} d x$"
             },
             {
-              "key": "",
-              "content": "$_{0}^{3 / 4} 1+ ^{2 x} d x$"
+              "key": "D",
+              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\cos ^{2} x} d x$ \\section*{ÅAAAAAAAAAAAAAAAAAAAAAAAAAAAAA}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
           "type": "single",
-          "prompt": "Let $f$ be a function such that $f^{}(x)= (x^{2})$ and $f(0)=0$. What are the first three nonzero terms of the Maclaurin series for $f$ ?",
+          "prompt": "Let $f$ be a function such that $f^{\\prime}(x)=\\sin \\left(x^{2}\\right)$ and $f(0)=0$. What are the first three nonzero terms of the Maclaurin series for $f$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$x-x^{5}{10}+x^{9}{216}$"
+              "key": "A",
+              "content": "$x-\\frac{x^{5}}{10}+\\frac{x^{9}}{216}$"
             },
             {
-              "key": "",
-              "content": "$2 x-x^{5}+x^{9}{12}$"
+              "key": "B",
+              "content": "$2 x-x^{5}+\\frac{x^{9}}{12}$"
             },
             {
-              "key": "",
-              "content": "$x^{3}{3}-x^{7}{21}+x^{11}{55}$"
+              "key": "C",
+              "content": "$\\frac{x^{3}}{3}-\\frac{x^{7}}{21}+\\frac{x^{11}}{55}$"
             },
             {
-              "key": "",
-              "content": "$x^{3}{3}-x^{7}{42}+x^{11}{1320}$\n![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-35.jpg?height=549&width=692&top_left_y=390&top_left_x=705)"
+              "key": "D",
+              "content": "$\\frac{x^{3}}{3}-\\frac{x^{7}}{42}+\\frac{x^{11}}{1320}$ ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-35.jpg?height=549&width=692&top_left_y=390&top_left_x=705)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
           "type": "single",
-          "prompt": "The polar curves $r=1- $ and $r=1+ $ are shown in the figure above. Which of the following expressions gives the total area of the shaded regions?",
+          "prompt": "The polar curves $r=1-\\cos \\theta$ and $r=1+\\cos \\theta$ are shown in the figure above. Which of the following expressions gives the total area of the shaded regions?",
           "options": [
             {
-              "key": "",
-              "content": "$_{0}^{}(1+ )^{2} d $"
+              "key": "A",
+              "content": "$\\int_{0}^{\\pi}(1+\\cos \\theta)^{2} d \\theta$"
             },
             {
-              "key": "",
-              "content": "$_{ / 2}^{}(1+ )^{2} d $"
+              "key": "B",
+              "content": "$\\int_{\\pi / 2}^{\\pi}(1+\\cos \\theta)^{2} d \\theta$"
             },
             {
-              "key": "",
-              "content": "$2 _{0}^{ / 2}(1- )^{2} d $"
+              "key": "C",
+              "content": "$2 \\int_{0}^{\\pi / 2}(1-\\cos \\theta)^{2} d \\theta$"
             },
             {
-              "key": "",
-              "content": "$_{0}^{ / 2}((1- )^{2}+(1+ )^{2}) d $\n\n|$x$ & 10 & 11 & 12 & 13 & 14 \\\\ |$f(x)$ & 5 & 2 & 3 & 6 & 5 \\\\ |"
+              "key": "D",
+              "content": "$\\int_{0}^{\\pi / 2}\\left((1-\\cos \\theta)^{2}+(1+\\cos \\theta)^{2}\\right) d \\theta$ \\begin{tabular}{|c||c|c|c|c|c|} \\hline$x$ & 10 & 11 & 12 & 13 & 14 \\\\ \\hline$f(x)$ & 5 & 2 & 3 & 6 & 5 \\\\ \\hline \\end{tabular}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
@@ -674,124 +727,134 @@
           "prompt": "The table above gives values of the continuous function $f$ at selected values of $x$. If $f$ has exactly two critical points on the open interval $(10,14)$, which of the following must be true?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$f(x)>0$ for all $x$ in the open interval $(10,14)$."
             },
             {
-              "key": "",
-              "content": "$f^{}(x)$ exists for all $x$ in the open interval $(10,14)$."
+              "key": "B",
+              "content": "$f^{\\prime}(x)$ exists for all $x$ in the open interval $(10,14)$."
             },
             {
-              "key": "",
-              "content": "$f^{}(x)"
+              "key": "C",
+              "content": "$f^{\\prime}(x)"
             },
             {
-              "key": "",
-              "content": "$f^{}(12) 0$"
+              "key": "D",
+              "content": "$f^{\\prime}(12) \\neq 0$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
           "type": "single",
-          "prompt": "Let $g$ be a function such that $g(y)>0$ for all $y$. Which of the following could be a slope field for the differential equation $d y{d x}=(x^{2}-1) g(y) ?$",
+          "prompt": "Let $g$ be a function such that $g(y)>0$ for all $y$. Which of the following could be a slope field for the differential equation $\\frac{d y}{d x}=\\left(x^{2}-1\\right) g(y) ?$",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-37.jpg?height=490&width=522&top_left_y=590&top_left_x=314)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-37.jpg?height=497&width=522&top_left_y=583&top_left_x=1064)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-37.jpg?height=498&width=526&top_left_y=1155&top_left_x=310)"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-37.jpg?height=498&width=528&top_left_y=1155&top_left_x=1062)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
           "type": "single",
-          "prompt": "What are all values of $p$ for which $_{1}^{} 1{x^{3 p+1}} d x$ converges?",
+          "prompt": "What are all values of $p$ for which $\\int_{1}^{\\infty} \\frac{1}{x^{3 p+1}} d x$ converges?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$p"
             },
             {
-              "key": "",
-              "content": "$p>-1{3}$"
+              "key": "B",
+              "content": "$p>-\\frac{1}{3}$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$p>0$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$p>1$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "30",
           "type": "single",
-          "prompt": "The temperature of a solid at time $t 0$ is modeled by the nonconstant function $H$ and increases according to the differential equation $d H{d t}=2 H+1$, where $H(t)$ is measured in degrees Fahrenheit and $t$ is measured in hours. Which of the following must be true?",
+          "prompt": "The temperature of a solid at time $t \\geq 0$ is modeled by the nonconstant function $H$ and increases according to the differential equation $\\frac{d H}{d t}=2 H+1$, where $H(t)$ is measured in degrees Fahrenheit and $t$ is measured in hours. Which of the following must be true?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$H=H^{2}+t+C$"
             },
             {
-              "key": "",
-              "content": "$ |2 H+1|=t{2}+C$"
+              "key": "B",
+              "content": "$\\ln |2 H+1|=\\frac{t}{2}+C$"
             },
             {
-              "key": "",
-              "content": "$ |2 H+1|=t+C$"
+              "key": "C",
+              "content": "$\\ln |2 H+1|=t+C$"
             },
             {
-              "key": "",
-              "content": "$ |2 H+1|=2 t+C$"
+              "key": "D",
+              "content": "$\\ln |2 H+1|=2 t+C$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
           "type": "single",
-          "prompt": "If the power series $_{n=0}^{} a_{n}(x-4)^{n}$ converges at $x=7$ and diverges at $x=9$, which of the following must be true? I. The series converges at $x=1$. II. The series converges at $x=2$. III. The series diverges at $x=-1$.",
+          "prompt": "If the power series $\\sum_{n=0}^{\\infty} a_{n}(x-4)^{n}$ converges at $x=7$ and diverges at $x=9$, which of the following must be true? I. The series converges at $x=1$. II. The series converges at $x=2$. III. The series diverges at $x=-1$.",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
-              "content": "II and III only\n\nPART B STARTS ON PAGE 26.\n\nCALCULUS BC \\\\ SECTION I, Part B\n\nTime-45 minutes\nNumber of questions-15\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.\n\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ ).\n\n![figure](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-42.jpg?height=490&width=542&top_left_y=346&top_left_x=779)"
+              "key": "D",
+              "content": "II and III only PART B STARTS ON PAGE 26. \\title{ CALCULUS BC \\\\ SECTION I, Part B } Time-45 minutes Number of questions-15 \\section*{A GRAPHING CALCULATOR IS REQUIRED FOR SOME QUESTIONS ON THIS PART OF THE EXAM.} Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem. \\section*{BE SURE YOU ARE USING PAGE 3 OF THE ANSWER SHEET TO RECORD YOUR ANSWERS TO QUESTIONS NUMBERED 76-90.} \\section*{YOU MAY NOT RETURN TO PAGE 2 OF THE ANSWER SHEET.} \\section*{In this exam:} (1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value. (2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number. (3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $\\sin ^{-1} x=\\arcsin x$ ). \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-42.jpg?height=490&width=542&top_left_y=346&top_left_x=779} \\captionsetup{labelformat=empty} \\caption{Graph of $f$} \\end{figure}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
         },
         {
           "id": "32",
@@ -799,149 +862,161 @@
           "prompt": "The graph of the function $f$ is shown in the figure above. Which of the following statements must be false?",
           "options": [
             {
-              "key": "",
-              "content": "$ _{x 2^{-}} f(x)=3$"
+              "key": "A",
+              "content": "$\\lim _{x \\rightarrow 2^{-}} f(x)=3$"
             },
             {
-              "key": "",
-              "content": "$ _{x 2^{+}} f(x)=$"
+              "key": "B",
+              "content": "$\\lim _{x \\rightarrow 2^{+}} f(x)=\\infty$"
             },
             {
-              "key": "",
-              "content": "$ _{x 2} f(x)=f(2)$"
+              "key": "C",
+              "content": "$\\lim _{x \\rightarrow 2} f(x)=f(2)$"
             },
             {
-              "key": "",
-              "content": "$ _{x } f(x)=0$"
+              "key": "D",
+              "content": "$\\lim _{x \\rightarrow \\infty} f(x)=0$ \\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
           "type": "single",
-          "prompt": "The rate at which water leaks from a tank, in gallons per hour, is modeled by $R$, a differentiable function of the number of hours after the leak is discovered. Which of the following is the best interpretation of $R^{}(3)$ ?",
+          "prompt": "The rate at which water leaks from a tank, in gallons per hour, is modeled by $R$, a differentiable function of the number of hours after the leak is discovered. Which of the following is the best interpretation of $R^{\\prime}(3)$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The amount of water, in gallons, that has leaked out of the tank during the first three hours after the leak is discovered"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The amount of change, in gallons per hour, in the rate at which water is leaking during the three hours after the leak is discovered"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The rate at which water leaks from the tank, in gallons per hour, three hours after the leak is discovered"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The rate of change of the rate at which water leaks from the tank, in gallons per hour per hour, three hours after the leak is discovered"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "34",
           "type": "single",
-          "prompt": "On a certain day, the temperature, in degrees Fahrenheit, in a small town $t$ hours after midnight $(t=0)$ is modeled by the function $g(t)=65-8 ( t{12})$. What is the average temperature in the town between 3 A.M. $(t=3)$ and 6 A.M. $(t=6)$, in degrees Fahrenheit?",
+          "prompt": "On a certain day, the temperature, in degrees Fahrenheit, in a small town $t$ hours after midnight $(t=0)$ is modeled by the function $g(t)=65-8 \\sin \\left(\\frac{\\pi t}{12}\\right)$. What is the average temperature in the town between 3 A.M. $(t=3)$ and 6 A.M. $(t=6)$, in degrees Fahrenheit?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "609"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "797"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "172"
             },
             {
-              "key": "",
-              "content": "907\n\n|$x$ & 0.0 & 0.5 & 1.0 & 1.5 & 2.0 \\\\ |$f^{}(x)$ & 1.0 & 0.7 & 0.5 & 0.4 & 0.3 \\\\ |"
+              "key": "D",
+              "content": "907 \\begin{tabular}{|c||c|c|c|c|c|} \\hline$x$ & 0.0 & 0.5 & 1.0 & 1.5 & 2.0 \\\\ \\hline$f^{\\prime}(x)$ & 1.0 & 0.7 & 0.5 & 0.4 & 0.3 \\\\ \\hline \\end{tabular}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "35",
           "type": "single",
-          "prompt": "Let $y=f(x)$ be the solution to the differential equation $d y{d x}=f^{}(x)$ with initial condition $f(1)=5$. Selected values of $f^{}(x)$ are given in the table above. What is the approximation for $f(2)$ if Euler's method is used with a step size of 0.5 , starting at $x=1$ ?",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $\\frac{d y}{d x}=f^{\\prime}(x)$ with initial condition $f(1)=5$. Selected values of $f^{\\prime}(x)$ are given in the table above. What is the approximation for $f(2)$ if Euler's method is used with a step size of 0.5 , starting at $x=1$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "35"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "45"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "50"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "90"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "36",
           "type": "single",
-          "prompt": "The first derivative of the function $f$ is defined by $f^{}(x)=(x^{2}+1) (3 x-1)$ for $-1.5",
+          "prompt": "The first derivative of the function $f$ is defined by $f^{\\prime}(x)=\\left(x^{2}+1\\right) \\sin (3 x-1)$ for $-1.5",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$(-1.5,-1.341)$ and $(-0.240,0.964)$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$(-1.341,-0.240)$ and $(0.964,1.5)$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$(-0.714,0.333)$ and $(1.381,1.5)$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$(-1.5,-0.714)$ and $(0.333,1.381)$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "导数"
         },
         {
           "id": "37",
           "type": "single",
-          "prompt": "For $t 0$, the velocity of a particle moving along the $x$-axis is given by $v(t)=t^{3}-6 t^{2}+10 t-4$. At what time $t$ does the direction of motion of the particle change from right to left?",
+          "prompt": "For $t \\geq 0$, the velocity of a particle moving along the $x$-axis is given by $v(t)=t^{3}-6 t^{2}+10 t-4$. At what time $t$ does the direction of motion of the particle change from right to left?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "586"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "184"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "000"
             },
             {
-              "key": "",
-              "content": "816"
+              "key": "D",
+              "content": "816 \\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "38",
@@ -949,224 +1024,242 @@
           "prompt": "Let $f$ be a function such that $f(1)=-2$ and $f(5)=7$. Which of the following conditions ensures that $f(c)=0$ for some value $c$ in the open interval $(1,5)$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$_{1}^{5} f(x) d x$ exists."
+              "key": "A",
+              "content": "$\\int_{1}^{5} f(x) d x$ exists."
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$f$ is increasing on the closed interval $[1,5]$."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$f$ is continuous on the closed interval $[1,5]$."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$f$ is defined for all values of $x$ in the closed interval $[1,5]$."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "39",
           "type": "single",
-          "prompt": "For time $t>0$, the position of an object moving in the $x y$-plane is given by the parametric equations $x(t)=t (t{2})$ and $y(t)=t^{2+2 t}$. What is the speed of the object at time $t=1$ ?",
+          "prompt": "For time $t>0$, the position of an object moving in the $x y$-plane is given by the parametric equations $x(t)=t \\cos \\left(\\frac{t}{2}\\right)$ and $y(t)=\\sqrt{t^{2}+2 t}$. What is the speed of the object at time $t=1$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "155"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "319"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "339"
             },
             {
-              "key": "",
-              "content": "810\n![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-47.jpg?height=595&width=764&top_left_y=344&top_left_x=667)"
+              "key": "D",
+              "content": "810 ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-47.jpg?height=595&width=764&top_left_y=344&top_left_x=667)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "40",
           "type": "single",
-          "prompt": "The graph of the function $g$ is shown above. If $f$ is the function given by $f(x)=g(g(x))$, what is the value of $f^{}(0)$ ?",
+          "prompt": "The graph of the function $g$ is shown above. If $f$ is the function given by $f(x)=g(g(x))$, what is the value of $f^{\\prime}(0)$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "-2"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "-1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "2"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "3"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "41",
           "type": "single",
-          "prompt": "Let $f$ be a function such that $f(-x)=-f(x)$ for all $x$. If $_{0}^{2} f(x) d x=5$, then $_{-2}^{2}(f(x)+6) d x=$",
+          "prompt": "Let $f$ be a function such that $f(-x)=-f(x)$ for all $x$. If $\\int_{0}^{2} f(x) d x=5$, then $\\int_{-2}^{2}(f(x)+6) d x=$",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "6"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "16"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "24"
             },
             {
-              "key": "",
-              "content": "34\n\n![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-48.jpg?height=845&width=536&top_left_y=344&top_left_x=781)"
+              "key": "D",
+              "content": "34 \\section*{B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B} ![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-48.jpg?height=845&width=536&top_left_y=344&top_left_x=781)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "积分"
         },
         {
           "id": "42",
           "type": "single",
-          "prompt": "Let $R$ be the region in the first quadrant bounded by the graphs of $y=4 ( x{4})$ and $y=(x-2)^{2}$, as shown in the figure above. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is an isosceles right triangle with a leg in region $R$. What is the volume of the solid?",
+          "prompt": "Let $R$ be the region in the first quadrant bounded by the graphs of $y=4 \\cos \\left(\\frac{\\pi x}{4}\\right)$ and $y=(x-2)^{2}$, as shown in the figure above. The region $R$ is the base of a solid. For the solid, each cross section perpendicular to the $x$-axis is an isosceles right triangle with a leg in region $R$. What is the volume of the solid?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "775"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "549"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "800"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "575"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "43",
           "type": "single",
-          "prompt": "Suppose $ _{n } a_{n}=$ and $a_{n+1} a_{n}>0$ for all $n 1$. Which of the following statements must be true?",
+          "prompt": "Suppose $\\lim _{n \\rightarrow \\infty} a_{n}=\\infty$ and $a_{n+1} \\geq a_{n}>0$ for all $n \\geq 1$. Which of the following statements must be true?",
           "options": [
             {
-              "key": "",
-              "content": "$_{n=1}^{} 1{a_{n}}$ diverges."
+              "key": "A",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ diverges."
             },
             {
-              "key": "",
-              "content": "$_{n=1}^{}(-1)^{n} a_{n}$ converges."
+              "key": "B",
+              "content": "$\\sum_{n=1}^{\\infty}(-1)^{n} a_{n}$ converges."
             },
             {
-              "key": "",
-              "content": "$_{n=1}^{} 1{a_{n}}$ converges."
+              "key": "C",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ converges."
             },
             {
-              "key": "",
-              "content": "$_{n=1}^{} (-1)^{n}{a_{n}}$ converges."
+              "key": "D",
+              "content": "$\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{a_{n}}$ converges."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "极限"
         },
         {
           "id": "44",
           "type": "single",
-          "prompt": "At time $t 0$, a particle moving in the $x y$-plane has velocity vector given by $v(t)= 3,2^{-t^{2}}$. If the particle is at the point $(1, 1{2})$ at time $t=0$, how far is the particle from the origin at time $t=1$ ?",
+          "prompt": "At time $t \\geq 0$, a particle moving in the $x y$-plane has velocity vector given by $v(t)=\\left\\langle 3,2^{-t^{2}}\\right\\rangle$. If the particle is at the point $\\left(1, \\frac{1}{2}\\right)$ at time $t=0$, how far is the particle from the origin at time $t=1$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "304"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "107"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "209"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "310"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "45",
           "type": "single",
-          "prompt": "Let $f$ be a function with $f(0)=1, f^{}(0)=2$, and $f^{ }(0)=-2$. Which of the following could be the graph of the second-degree Taylor polynomial for $f$ about $x=0$ ?",
+          "prompt": "Let $f$ be a function with $f(0)=1, f^{\\prime}(0)=2$, and $f^{\\prime \\prime}(0)=-2$. Which of the following could be the graph of the second-degree Taylor polynomial for $f$ about $x=0$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-50.jpg?height=478&width=474&top_left_y=491&top_left_x=306)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-50.jpg?height=476&width=471&top_left_y=493&top_left_x=995)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-50.jpg?height=473&width=470&top_left_y=1037&top_left_x=310)"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "![](https://cdn.mathpix.com/cropped/2113757d-29b4-4883-a3ee-6c54b883e4e8-50.jpg?height=490&width=473&top_left_y=1033&top_left_x=995)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "46",
           "type": "single",
-          "prompt": "The series $_{n=1}^{} (-1)^{n+1}{n}$ converges to $S$. Based on the alternating series error bound, what is the least number of terms in the series that must be summed to guarantee a partial sum that is within 0.03 of $S$ ?",
+          "prompt": "The series $\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{\\sqrt{n}}$ converges to $S$. Based on the alternating series error bound, what is the least number of terms in the series that must be summed to guarantee a partial sum that is within 0.03 of $S$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "34"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "333"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "1111"
             },
             {
-              "key": "",
-              "content": "9999"
+              "key": "D",
+              "content": "9999 \\section*{END OF SECTION I}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "级数"
         }
       ]
     }

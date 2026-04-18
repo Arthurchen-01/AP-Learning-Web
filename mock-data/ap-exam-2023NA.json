@@ -21,7 +21,7 @@
       "questions": [
         {
           "id": "100",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "A customer at a gas station is pumping gasoline into a gas tank. The rate of flow of gasoline is modeled by a differentiable function $f$, where $f(t)$ is measured in gallons per second and $t$ is measured in seconds since pumping began. Selected values of $f(t)$ are given in the table.",
           "parts": [
             {
@@ -44,11 +44,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "101",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "For $0 \\leq t \\leq \\pi$, a particle is moving along the curve shown so that its position at time $t$ is $(x(t), y(t))$, where $x(t)$ is not explicitly given and $y(t)=2 \\sin t$. It is known that $\\frac{d x}{d t}=e^{\\cos t}$. At time $t=0$, the particle is at position $(1,0)$.",
           "parts": [
             {
@@ -71,11 +72,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "102",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "A bottle of milk is taken out of a refrigerator and placed in a pan of hot water to be warmed. The increasing function $M$ models the temperature of the milk at time $t$, where $M(t)$ is measured in degrees Celsius ( ${ }^{\\circ} \\mathrm{C}$ ) and $t$ is the number of minutes since the bottle was placed in the pan. $M$ satisfies the differential equation $\\frac{d M}{d t}=\\frac{1}{4}(40-M)$. At time $t=0$, the temperature of the milk is $5^{\\circ} \\mathrm{C}$. It can be shown that $M(t)",
           "parts": [
             {
@@ -102,11 +104,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "103",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The function $f$ is defined on the closed interval $[-2,8]$ and satisfies $f(2)=1$. The graph of $f^{\\prime}$, the derivative of $f$, consists of two line segments and a semicircle, as shown in the figure.",
           "parts": [
             {
@@ -129,11 +132,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "104",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The graphs of the functions $f$ and $g$ are shown in the figure for $0 \\leq x \\leq 3$. It is known that $g(x)=\\frac{12}{3+x}$ for $x \\geq 0$. The twice-differentiable function $f$, which is not explicitly given, satisfies $f(3)=2$ and $\\int_{0}^{3} f(x) d x=10$.",
           "parts": [
             {
@@ -152,11 +156,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "105",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The function $f$ has derivatives of all orders for all real numbers. It is known that $f(0)=2, f^{\\prime}(0)=3$, $f^{\\prime \\prime}(x)=-f\\left(x^{2}\\right)$, and $f^{\\prime \\prime \\prime}(x)=-2 x \\cdot f^{\\prime}\\left(x^{2}\\right)$.",
           "parts": [
             {
@@ -175,7 +180,8 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": "导数"
+          "title": "导数",
+          "options": []
         }
       ]
     }

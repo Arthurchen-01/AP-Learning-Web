@@ -2,6 +2,7 @@ import {
   START_OPTIONS,
   createFreshState,
   ensureStateShape,
+  loadExamShellData,
   loadState,
   persistState,
   storageKey
@@ -26,17 +27,13 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const [catalogResponse, examResponse] = await Promise.all([
-    fetch(window.sitePath("/mock-data/exam-catalog.json")),
-    fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`))
-  ]);
-
-  if (!catalogResponse.ok || !examResponse.ok) {
-    throw new Error("Missing local exam data");
+  const catalogResponse = await fetch(window.sitePath("/mock-data/exam-catalog.json"));
+  if (!catalogResponse.ok) {
+    throw new Error("Missing local exam catalog");
   }
 
   const catalog = await catalogResponse.json();
-  exam = await examResponse.json();
+  exam = await loadExamShellData(examId);
   catalogItem = catalog.items.find((entry) => entry.examId === examId) || {};
   progress = getProgressState(examId);
 
@@ -65,6 +62,7 @@ function bindHandlers() {
 
     if (action === "start-new") {
       localStorage.removeItem(storageKey(examId));
+      localStorage.removeItem(`mokaoai-local-mock:${examId}`);
       goPreparing("start");
       return;
     }

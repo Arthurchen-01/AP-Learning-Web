@@ -139,9 +139,22 @@ function renderCard(item) {
 }
 
 function getProgressState(examId) {
-  const storageKey = `mokaoai-local-mock:${examId}`;
+  const aliases = {
+    "1902622411800285184": "calc-bc-2018-intl",
+    "1902622411338911744": "calc-bc-2017-intl",
+    "2016Intl": "calc-bc-2016-intl",
+    "1902622413180211200": "statistics-2017-intl",
+    "1902622413633196032": "statistics-2018-intl",
+    "1902622414081986560": "statistics-2019-intl",
+    "1902622414539165696": "statistics-2021-intl",
+    "1902622410416164864": "microeconomics-2017-intl",
+    "1902622410881732608": "microeconomics-2018-intl",
+    "1902622418683138048": "microeconomics-2019-intl",
+    "1902622419140317184": "microeconomics-2021-intl"
+  };
+  const normalizedExamId = aliases[String(examId || "")] || String(examId || "");
+  const raw = localStorage.getItem(`mokaoai-local-mock:${normalizedExamId}`) || localStorage.getItem(`mokaoai-local-mock:${examId}`);
   try {
-    const raw = localStorage.getItem(storageKey);
     if (!raw) {
       return { hasProgress: false, inProgress: false };
     }

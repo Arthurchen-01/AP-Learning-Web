@@ -2,6 +2,7 @@ import {
   PREPARING_DELAY_MS,
   createFreshState,
   ensureStateShape,
+  loadExamShellData,
   loadState,
   persistState
 } from "../../exam/mock-config.js";
@@ -23,12 +24,7 @@ async function init() {
     throw new Error("Missing examId");
   }
 
-  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
-  if (!response.ok) {
-    throw new Error("Missing local exam data");
-  }
-
-  const exam = await response.json();
+  const exam = await loadExamShellData(examId);
   const state = mode === "resume" ? (loadState(examId) || createFreshState(exam)) : createFreshState(exam);
   ensureStateShape(exam, state);
 

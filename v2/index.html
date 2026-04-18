@@ -231,15 +231,16 @@
       document.getElementById('accuracy').textContent = progress.accuracy + '%';
 
       // 加载科目网格
+      const exams = await loadExamIndex();
       const grid = document.getElementById('subjects-grid');
-      const subjects = [
-        { id: 'calculus_bc', name: 'AP Calculus BC', units: 10, mastery: 72 },
-        { id: 'calculus_ab', name: 'AP Calculus AB', units: 8, mastery: 0 },
-        { id: 'statistics', name: 'AP Statistics', units: 9, mastery: 0 },
-        { id: 'microeconomics', name: 'AP Microeconomics', units: 6, mastery: 0 },
-        { id: 'macroeconomics', name: 'AP Macroeconomics', units: 6, mastery: 0 },
-        { id: 'physics_c_mech', name: 'AP Physics C: Mechanics', units: 8, mastery: 0 },
-      ];
+      const subjects = Array.from(new Map((Array.isArray(exams) ? exams : []).map((exam) => [exam.subject, {
+        id: exam.subject,
+        name: exam.exam_title?.includes('Statistics') ? 'AP Statistics' : exam.exam_title?.includes('Microeconomics') ? 'AP Microeconomics' : exam.exam_title?.includes('Calculus BC') ? 'AP Calculus BC' : exam.subject_display || exam.subject,
+        units: exam.subject === 'calculus_bc' ? 10 : exam.subject === 'statistics' ? 9 : exam.subject === 'microeconomics' ? 6 : 0,
+        mastery: progress.subjects?.[exam.subject]?.questions
+          ? Math.round((progress.subjects[exam.subject].correct / progress.subjects[exam.subject].questions) * 100)
+          : 0
+      }])).values());
 
       grid.innerHTML = subjects.map(s => `
         <div class="subject-card" onclick="location.href='v2/dashboard/?subject=${s.id}'">

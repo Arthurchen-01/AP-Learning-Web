@@ -1,0 +1,193 @@
+{
+  "examId": "2019NA",
+  "title": "AP 微积分BC 2019年真题",
+  "subjectName": "微积分BC",
+  "subjectId": "calculus-bc",
+  "yearLabel": "2019",
+  "description": "AP 微积分BC 2019年真题",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": ""
+  },
+  "sections": [
+    {
+      "id": "2019NA-frq",
+      "title": "Section II: Free Response",
+      "partTitle": "Free Response",
+      "limitMinutes": 90,
+      "directions": "",
+      "questions": [
+        {
+          "id": "100",
+          "type": "frq",
+          "prompt": "Fish enter a lake at a rate modeled by the function $E$ given by $E(t)=20+15 \\sin \\left(\\frac{\\pi t}{6}\\right)$. Fish leave the lake at a rate modeled by the function $L$ given by $L(t)=4+2^{0.1 t^{2}}$. Both $E(t)$ and $L(t)$ are measured in fish per hour, and $t$ is measured in hours since midnight $(t=0)$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "How many fish enter the lake over the 5 -hour period from midnight $(t=0)$ to 5 A.M. $(t=5)$ ? Give your answer to the nearest whole number."
+            },
+            {
+              "partSign": "b",
+              "partContent": "What is the average number of fish that leave the lake per hour over the 5 -hour period from midnight $(t=0)$ to 5 A.M. $(t=5)$ ?"
+            },
+            {
+              "partSign": "c",
+              "partContent": "At what time $t$, for $0 \\leq t \\leq 8$, is the greatest number of fish in the lake? Justify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Is the rate of change in the number of fish in the lake increasing or decreasing at 5 A.M. ( $t=5$ ) ? Explain your reasoning."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "",
+          "options": []
+        },
+        {
+          "id": "101",
+          "type": "frq",
+          "prompt": "Let $S$ be the region bounded by the graph of the polar curve $r(\\theta)=3 \\sqrt{\\theta} \\sin \\left(\\theta^{2}\\right)$ for $0 \\leq \\theta \\leq \\sqrt{\\pi}$, as shown in the figure above.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the area of $S$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "What is the average distance from the origin to a point on the polar curve $r(\\theta)=3 \\sqrt{\\theta} \\sin \\left(\\theta^{2}\\right)$ for $0 \\leq \\theta \\leq \\sqrt{\\pi} ?$"
+            },
+            {
+              "partSign": "c",
+              "partContent": "There is a line through the origin with positive slope $m$ that divides the region $S$ into two regions with equal areas. Write, but do not solve, an equation involving one or more integrals whose solution gives the value of $m$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "For $k>0$, let $A(k)$ be the area of the portion of region $S$ that is also inside the circle $r=k \\cos \\theta$. Find $\\lim _{k \\rightarrow \\infty} A(k)$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "",
+          "options": []
+        },
+        {
+          "id": "102",
+          "type": "frq",
+          "prompt": "The continuous function $f$ is defined on the closed interval $-6 \\leq x \\leq 5$. The figure above shows a portion of the graph of $f$, consisting of two line segments and a quarter of a circle centered at the point $(5,3)$. It is known that the point ( $3,3-\\sqrt{5}$ ) is on the graph of $f$.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "If $\\int_{-6}^{5} f(x) d x=7$, find the value of $\\int_{-6}^{-2} f(x) d x$. Show the work that leads to your answer."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Evaluate $\\int_{3}^{5}\\left(2 f^{\\prime}(x)+4\\right) d x$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "The function $g$ is given by $g(x)=\\int_{-2}^{x} f(t) d t$. Find the absolute maximum value of $g$ on the interval $-2 \\leq x \\leq 5$. Justify your answer."
+            },
+            {
+              "partSign": "d",
+              "partContent": "Find $\\lim _{x \\rightarrow 1} \\frac{10^{x}-3 f^{\\prime}(x)}{f(x)-\\arctan x}$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "",
+          "options": []
+        },
+        {
+          "id": "103",
+          "type": "frq",
+          "prompt": "A cylindrical barrel with a diameter of 2 feet contains collected rainwater, as shown in the figure above. The water drains out through a valve (not shown) at the bottom of the barrel. The rate of change of the height $h$ of the water in the barrel with respect to time $t$ is modeled by $\\frac{d h}{d t}=-\\frac{1}{10} \\sqrt{h}$, where $h$ is measured in feet and $t$ is measured in seconds. (The volume $V$ of a cylinder with radius $r$ and height $h$ is $V=\\pi r^{2} h$.)",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the rate of change of the volume of water in the barrel with respect to time when the height of the water is 4 feet. Indicate units of measure."
+            },
+            {
+              "partSign": "b",
+              "partContent": "When the height of the water is 3 feet, is the rate of change of the height of the water with respect to time increasing or decreasing? Explain your reasoning."
+            },
+            {
+              "partSign": "c",
+              "partContent": "At time $t=0$ seconds, the height of the water is 5 feet. Use separation of variables to find an expression for $h$ in terms of $t$."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "",
+          "options": []
+        },
+        {
+          "id": "104",
+          "type": "frq",
+          "prompt": "Consider the family of functions $f(x)=\\frac{1}{x^{2}-2 x+k}$, where $k$ is a constant.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Find the value of $k$, for $k>0$, such that the slope of the line tangent to the graph of $f$ at $x=0$ equals 6 ."
+            },
+            {
+              "partSign": "b",
+              "partContent": "For $k=-8$, find the value of $\\int_{0}^{1} f(x) d x$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "For $k=1$, find the value of $\\int_{0}^{2} f(x) d x$ or show that it diverges."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "",
+          "options": []
+        },
+        {
+          "id": "105",
+          "type": "frq",
+          "prompt": "A function $f$ has derivatives of all orders for all real numbers $x$. A portion of the graph of $f$ is shown above, along with the line tangent to the graph of $f$ at $x=0$. Selected derivatives of $f$ at $x=0$ are given in the table above.",
+          "parts": [
+            {
+              "partSign": "a",
+              "partContent": "Write the third-degree Taylor polynomial for $f$ about $x=0$."
+            },
+            {
+              "partSign": "b",
+              "partContent": "Write the first three nonzero terms of the Maclaurin series for $e^{x}$. Write the second-degree Taylor polynomial for $e^{x} f(x)$ about $x=0$."
+            },
+            {
+              "partSign": "c",
+              "partContent": "Let $h$ be the function defined by $h(x)=\\int_{0}^{x} f(t) d t$. Use the Taylor polynomial found in part"
+            },
+            {
+              "partSign": "a",
+              "partContent": "to find an approximation for $h(1)$."
+            },
+            {
+              "partSign": "d",
+              "partContent": "It is known that the Maclaurin series for $h$ converges to $h(x)$ for all real numbers $x$. It is also known that the individual terms of the series for $h(1)$ alternate in sign and decrease in absolute value to 0 . Use the alternating series error bound to show that the approximation found in part"
+            },
+            {
+              "partSign": "c",
+              "partContent": "differs from $h(1)$ by at most 0.45 ."
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": "导数",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

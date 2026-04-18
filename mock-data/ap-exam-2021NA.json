@@ -21,7 +21,7 @@
       "questions": [
         {
           "id": "100",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The density of a bacteria population in a circular petri dish at a distance $r$ centimeters from the center of the dish is given by an increasing, differentiable function $f$, where $f(r)$ is measured in milligrams per square centimeter. Values of $f(r)$ for selected values of $r$ are given in the table above.",
           "parts": [
             {
@@ -48,11 +48,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "101",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "For time $t \\geq 0$, a particle moves in the $x y$-plane with position $(x(t), y(t))$ and velocity vector $\\left\\langle(t-1) e^{t^{2}}, \\sin \\left(t^{1.25}\\right)\\right\\rangle$. At time $t=0$, the position of the particle is $(-2,5)$.",
           "parts": [
             {
@@ -71,11 +72,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "102",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "A company designs spinning toys using the family of functions $y=c x \\sqrt{4-x^{2}}$, where $c$ is a positive constant. The figure above shows the region in the first quadrant bounded by the $x$-axis and the graph of $y=c x \\sqrt{4-x^{2}}$, for some $c$. Each spinning toy is in the shape of the solid generated when such a region is revolved about the $x$-axis. Both $x$ and $y$ are measured in inches.",
           "parts": [
             {
@@ -94,11 +96,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "103",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "Let $f$ be a continuous function defined on the closed interval $-4 \\leq x \\leq 6$. The graph of $f$, consisting of four line segments, is shown above. Let $G$ be the function defined by $G(x)=\\int_{0}^{x} f(t) d t$.",
           "parts": [
             {
@@ -121,11 +124,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "104",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "Let $y=f(x)$ be the particular solution to the differential equation $\\frac{d y}{d x}=y \\cdot(x \\ln x)$ with initial condition $f(1)=4$. It can be shown that $f^{\\prime \\prime}(1)=4$.",
           "parts": [
             {
@@ -144,11 +148,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "105",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The function $g$ has derivatives of all orders for all real numbers. The Maclaurin series for $g$ is given by $g(x)=\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{n}}{2 e^{n}+3}$ on its interval of convergence.",
           "parts": [
             {
@@ -171,7 +176,8 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": "导数"
+          "title": "导数",
+          "options": []
         }
       ]
     }

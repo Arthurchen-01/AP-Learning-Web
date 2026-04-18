@@ -302,6 +302,64 @@ button {
   display: block;
 }
 
+.image-fallback {
+  padding: 12px 14px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  color: var(--muted);
+  line-height: 1.7;
+  white-space: normal;
+}
+
+.question-text .standalone_image,
+.option-copy .standalone_image,
+.question-text .text-center,
+.option-copy .text-center {
+  margin: 0.75rem 0;
+  text-align: center;
+}
+
+.question-text .standalone_image img,
+.option-copy .standalone_image img,
+.question-text .text-center img,
+.option-copy .text-center img {
+  margin-inline: auto;
+}
+
+.question-text .table_wrapper,
+.option-copy .table_wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.question-text table,
+.option-copy table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.95rem;
+}
+
+.question-text th,
+.question-text td,
+.option-copy th,
+.option-copy td {
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.question-text .text-center,
+.option-copy .text-center,
+.question-text td[class*="align:center"],
+.question-text th[class*="align:center"],
+.option-copy td[class*="align:center"],
+.option-copy th[class*="align:center"] {
+  text-align: center;
+}
+
 .question-text math,
 .option-copy math {
   max-width: 100%;
@@ -814,8 +872,15 @@ button {
   }
 
   .option-row {
-    grid-template-columns: auto 28px 1fr;
+    grid-template-columns: 28px 1fr;
+    gap: 10px;
     padding: 12px;
+  }
+
+  .option-key {
+    width: 28px;
+    height: 28px;
+    font-size: 0.78rem;
   }
 
   .navigator-grid {

@@ -1,0 +1,31 @@
+{
+  "exam_id": "statistics-2019-intl",
+  "exam_title": "AP Statistics 2019 国际卷",
+  "subject": "statistics",
+  "subject_display": "统计学",
+  "year": 2019,
+  "form": "international",
+  "total_questions": 40,
+  "sections": [
+    {
+      "section_id": "mcq-1",
+      "section_type": "mcq",
+      "part_label": "Multiple Choice",
+      "time_limit_minutes": 90,
+      "calculator_allowed": false,
+      "question_count": 40
+    }
+  ],
+  "metadata": {
+    "converted_at": "2026-04-18",
+    "source_priority_used": "raw",
+    "source_refs": [
+      "raw:C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2019年国际卷__1902622414081986560.json",
+      "backup:C:\\Users\\25472\\projects\\_AP_RAW_DATA_BACKUP\\json-exams\\ap-statistics-2019.json"
+    ],
+    "legacy_exam_ids": [
+      "1902622414081986560"
+    ],
+    "review_flags": []
+  }
+}

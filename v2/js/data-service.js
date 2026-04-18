@@ -6,12 +6,28 @@
 // 考试包存储路径 - 固定相对于当前模块文件，避免被页面路径影响
 const DATA_BASE = new URL('../data/', import.meta.url);
 
+const EXAM_ID_ALIASES = {
+  '1902622411800285184': 'calc-bc-2018-intl',
+  '1902622411338911744': 'calc-bc-2017-intl',
+  '2016Intl': 'calc-bc-2016-intl',
+  '2015Intl': 'calc-bc-2015-intl',
+  'calc-bc-2015-intl': 'calc-bc-2015-intl'
+};
+
 const EXAM_BRANCH_CONTRACTS = {
   'calc-bc-2018-intl': 'contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2017-intl': 'contracts/ap-calculus-bc-trunk-contract.json',
+  'calc-bc-2016-intl': 'contracts/ap-calculus-bc-trunk-contract.json',
+  'calc-bc-2015-intl': 'contracts/ap-calculus-bc-trunk-contract.json',
   '1902622411800285184': 'contracts/ap-calculus-bc-trunk-contract.json',
-  '1902622411338911744': 'contracts/ap-calculus-bc-trunk-contract.json'
+  '1902622411338911744': 'contracts/ap-calculus-bc-trunk-contract.json',
+  '2016Intl': 'contracts/ap-calculus-bc-trunk-contract.json',
+  '2015Intl': 'contracts/ap-calculus-bc-trunk-contract.json'
 };
+
+function normalizeExamId(examId) {
+  return EXAM_ID_ALIASES[examId] || examId;
+}
 
 // 加载考试索引
 export async function loadExamIndex() {
@@ -97,13 +113,34 @@ export async function loadQuestion(examId, questionId) {
   return null;
 }
 
+function sanitizeQuestionText(value) {
+  return String(value || '')
+    .replace(/MathType@MTEF@\S+/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function normalizeQuestionRecord(question) {
+  return {
+    ...question,
+    question_html: sanitizeQuestionText(question.question_html || ''),
+    options: Array.isArray(question.options)
+      ? question.options.map((option) => ({
+          ...option,
+          html: sanitizeQuestionText(option.html || option.text || '')
+        }))
+      : []
+  };
+}
+
 export async function loadBranchDrillSet(examId, branchId, options = {}) {
-  const questions = await loadExamQuestions(examId);
+  const normalizedExamId = normalizeExamId(examId);
+  const questions = await loadExamQuestions(normalizedExamId);
   if (!Array.isArray(questions)) {
     return null;
   }
 
-  const mappingPath = `${DATA_BASE}${examId}/question-branch-mapping.json`;
+  const mappingPath = `${DATA_BASE}${normalizedExamId}/question-branch-mapping.json`;
   let mapping;
   try {
     const res = await fetch(mappingPath);
@@ -116,7 +153,7 @@ export async function loadBranchDrillSet(examId, branchId, options = {}) {
     return null;
   }
 
-  const contractPath = EXAM_BRANCH_CONTRACTS[examId];
+  const contractPath = EXAM_BRANCH_CONTRACTS[normalizedExamId] || EXAM_BRANCH_CONTRACTS[examId];
   let contract = null;
   if (contractPath) {
     try {
@@ -129,8 +166,9 @@ export async function loadBranchDrillSet(examId, branchId, options = {}) {
     }
   }
 
+  const normalizedQuestions = questions.map(normalizeQuestionRecord);
   const limit = Math.max(1, Math.min(5, Number(options.limit) || 5));
-  const questionById = new Map(questions.map((question) => [question.question_id, question]));
+  const questionById = new Map(normalizedQuestions.map((question) => [question.question_id, question]));
   const contractBranch = contract?.branches?.find((item) => item.id === branchId) || null;
   const contractTrunk = contractBranch
     ? contract?.trunks?.find((item) => item.id === contractBranch.trunkId) || null
@@ -166,7 +204,8 @@ export async function loadBranchDrillSet(examId, branchId, options = {}) {
     .filter(Boolean);
 
   return {
-    examId,
+    examId: normalizedExamId,
+    requestedExamId: examId,
     branchId,
     branchName: contractBranch?.name || branchId,
     trunkId: contractBranch?.trunkId || branchMappings[0]?.trunkId || '',
@@ -253,4 +292,56 @@ export function getStoredAnswer(examId, sectionId, questionIndex) {
     }
   }
   return null;
+}
+
+// ======== Resource Hub ========
+
+const RESOURCES_KEY = 'mokaoai-resource-hub-user';
+
+export function loadUserResources() {
+  try {
+    return JSON.parse(localStorage.getItem(RESOURCES_KEY) || '[]');
+  } catch { return []; }
+}
+
+export function saveUserResources(resources) {
+  localStorage.setItem(RESOURCES_KEY, JSON.stringify(resources));
+}
+
+export function addUserResource(resource) {
+  const list = loadUserResources();
+  list.push({
+    ...resource,
+    id: `user-res-${Date.now()}`,
+    createdAt: Date.now(),
+    userAdded: true
+  });
+  saveUserResources(list);
+  return list;
+}
+
+export function removeUserResource(id) {
+  const list = loadUserResources().filter(r => r.id !== id);
+  saveUserResources(list);
+  return list;
+}
+
+export async function loadSystemResources() {
+  try {
+    const res = await fetch(new URL('../data/resources/resource-hub.json', import.meta.url));
+    if (res.ok) return await res.json();
+  } catch {}
+  return { version: '1.0.0', resources: [] };
+}
+
+export async function getResourcesForContext({ subjectSlug, trunkId, branchId }) {
+  const system = await loadSystemResources();
+  const user = loadUserResources();
+  const all = [...system.resources, ...user];
+  return all.filter(r => {
+    if (r.subjectSlug && r.subjectSlug !== subjectSlug) return false;
+    if (r.branchId && r.branchId !== branchId) return false;
+    if (r.trunkId && r.trunkId !== trunkId) return false;
+    return true;
+  });
 }

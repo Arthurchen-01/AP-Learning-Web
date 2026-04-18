@@ -1,0 +1,387 @@
+{
+  "version": "1.0.0",
+  "subject": {
+    "subjectSlug": "ap_calculus_bc",
+    "subjectDisplayName": "AP Calculus BC",
+    "examSystem": "ap",
+    "defaultExamIds": [
+      "calc-bc-2017-intl",
+      "calc-bc-2018-intl",
+      "calc-bc-2016-intl",
+      "1902622411338911744",
+      "1902622411800285184",
+      "2016Intl"
+    ]
+  },
+  "mainModel": {
+    "id": "calc-bc-breakthrough-core",
+    "name": "Calculus BC Breakthrough Core",
+    "modelType": "single-route",
+    "description": "第一版按单路型主干结构组织 Cal BC 题目：先识别主题主干，再落到可训练的 branch 与 skill node。"
+  },
+  "trunks": [
+    {
+      "id": "trunk-limits",
+      "name": "Limits and Continuity",
+      "description": "极限、连续性与局部/整体行为判断。",
+      "branchIds": [
+        "branch-limit-evaluation",
+        "branch-limit-continuity-analysis"
+      ]
+    },
+    {
+      "id": "trunk-derivatives",
+      "name": "Derivatives and Local Analysis",
+      "description": "导数计算、导数意义，以及一阶/二阶导数驱动的图像与变化分析。",
+      "branchIds": [
+        "branch-derivative-rules",
+        "branch-derivative-interpretation",
+        "branch-curve-analysis",
+        "branch-parametric-polar-vectors",
+        "branch-differential-equations-slope-field"
+      ]
+    },
+    {
+      "id": "trunk-integrals",
+      "name": "Integrals and Accumulation",
+      "description": "不定积分、定积分、累积变化与微积分基本定理。",
+      "branchIds": [
+        "branch-antiderivative-techniques",
+        "branch-accumulation-riemann",
+        "branch-fundamental-theorem-modeling",
+        "branch-area-volume-rotational"
+      ]
+    },
+    {
+      "id": "trunk-series",
+      "name": "Series and Polynomial Approximation",
+      "description": "数列级数收敛、幂级数与泰勒/麦克劳林近似。",
+      "branchIds": [
+        "branch-sequence-series-convergence",
+        "branch-power-series-representation",
+        "branch-taylor-approximation"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-limit-evaluation",
+      "trunkId": "trunk-limits",
+      "name": "Evaluate One-Sided and Two-Sided Limits",
+      "description": "代数化简、绝对值/分段、图像与表格信息下的极限求值。",
+      "skillNodeIds": [
+        "skill-limit-one-sided",
+        "skill-limit-algebraic-simplification"
+      ]
+    },
+    {
+      "id": "branch-limit-continuity-analysis",
+      "trunkId": "trunk-limits",
+      "name": "Analyze Continuity and Endpoint Behavior",
+      "description": "判断连续性、间断点类型，以及由函数/导数信息推断局部行为。",
+      "skillNodeIds": [
+        "skill-continuity-classification",
+        "skill-limit-behavior-interpretation"
+      ]
+    },
+    {
+      "id": "branch-derivative-rules",
+      "trunkId": "trunk-derivatives",
+      "name": "Apply Derivative Rules",
+      "description": "幂函数、乘法法则、链式法则、隐函数与复合结构求导。",
+      "skillNodeIds": [
+        "skill-derivative-basic-rules",
+        "skill-derivative-chain-product"
+      ]
+    },
+    {
+      "id": "branch-parametric-polar-vectors",
+      "trunkId": "trunk-derivatives",
+      "name": "Parametric, Polar, and Vector-Valued Functions",
+      "description": "参数方程、极坐标与向量值函数的求导与运动分析。",
+      "skillNodeIds": [
+        "skill-parametric-motion"
+      ]
+    },
+    {
+      "id": "branch-differential-equations-slope-field",
+      "trunkId": "trunk-derivatives",
+      "name": "Differential Equations and Slope Fields",
+      "description": "斜率场、欧拉方法与可分离微分方程求解。",
+      "skillNodeIds": [
+        "skill-eulers-method"
+      ]
+    },
+    {
+      "id": "branch-derivative-interpretation",
+      "trunkId": "trunk-derivatives",
+      "name": "Interpret Derivatives in Context",
+      "description": "把差商、瞬时变化率、切线斜率与实际情境联系起来。",
+      "skillNodeIds": [
+        "skill-difference-quotient-limit",
+        "skill-rate-of-change-interpretation"
+      ]
+    },
+    {
+      "id": "branch-curve-analysis",
+      "trunkId": "trunk-derivatives",
+      "name": "Analyze Graphs with First and Second Derivatives",
+      "description": "利用一阶/二阶导数判断增减、极值、凹凸性和图像匹配。",
+      "skillNodeIds": [
+        "skill-first-derivative-sign",
+        "skill-second-derivative-concavity"
+      ]
+    },
+    {
+      "id": "branch-antiderivative-techniques",
+      "trunkId": "trunk-integrals",
+      "name": "Find Antiderivatives and Use Substitution",
+      "description": "基础反导、换元与指数/复合表达式积分。",
+      "skillNodeIds": [
+        "skill-antiderivative-basic-forms",
+        "skill-u-substitution-patterns"
+      ]
+    },
+    {
+      "id": "branch-accumulation-riemann",
+      "trunkId": "trunk-integrals",
+      "name": "Model Accumulation with Definite Integrals and Sums",
+      "description": "Riemann sum、面积/累积量近似，以及表格速率情境下的积分建模。",
+      "skillNodeIds": [
+        "skill-riemann-sum-setup",
+        "skill-accumulation-context-modeling"
+      ]
+    },
+    {
+      "id": "branch-fundamental-theorem-modeling",
+      "trunkId": "trunk-integrals",
+      "name": "Use the Fundamental Theorem of Calculus",
+      "description": "连接累积函数、定积分与导数，处理变上限积分和总变化。",
+      "skillNodeIds": [
+        "skill-ftc-evaluation",
+        "skill-accumulation-function-derivative"
+      ]
+    },
+    {
+      "id": "branch-area-volume-rotational",
+      "trunkId": "trunk-integrals",
+      "name": "Area and Volume by Rotational Methods",
+      "description": "圆盘法、圆环法与壳法求旋转体面积与体积。",
+      "skillNodeIds": [
+        "skill-volume-rotation"
+      ]
+    },
+    {
+      "id": "branch-sequence-series-convergence",
+      "trunkId": "trunk-series",
+      "name": "Test Series Convergence and Sum Standard Series",
+      "description": "几何级数、交错级数与基础收敛/发散判断。",
+      "skillNodeIds": [
+        "skill-geometric-series-sum",
+        "skill-convergence-classification"
+      ]
+    },
+    {
+      "id": "branch-power-series-representation",
+      "trunkId": "trunk-series",
+      "name": "Represent Functions with Power Series",
+      "description": "识别幂级数形式、收敛区间与函数表示。",
+      "skillNodeIds": [
+        "skill-power-series-identification",
+        "skill-interval-of-convergence"
+      ]
+    },
+    {
+      "id": "branch-taylor-approximation",
+      "trunkId": "trunk-series",
+      "name": "Use Taylor and Maclaurin Approximations",
+      "description": "构造多项式近似、估算误差并解释近似精度。",
+      "skillNodeIds": [
+        "skill-taylor-polynomial-construction",
+        "skill-taylor-error-estimation"
+      ]
+    }
+  ],
+  "skillNodes": [
+    {
+      "id": "skill-limit-one-sided",
+      "branchId": "branch-limit-evaluation",
+      "name": "Evaluate one-sided limits"
+    },
+    {
+      "id": "skill-limit-algebraic-simplification",
+      "branchId": "branch-limit-evaluation",
+      "name": "Simplify algebraically before taking limits"
+    },
+    {
+      "id": "skill-continuity-classification",
+      "branchId": "branch-limit-continuity-analysis",
+      "name": "Classify continuity and discontinuity types"
+    },
+    {
+      "id": "skill-limit-behavior-interpretation",
+      "branchId": "branch-limit-continuity-analysis",
+      "name": "Interpret endpoint and local limit behavior"
+    },
+    {
+      "id": "skill-derivative-basic-rules",
+      "branchId": "branch-derivative-rules",
+      "name": "Apply basic derivative rules"
+    },
+    {
+      "id": "skill-derivative-chain-product",
+      "branchId": "branch-derivative-rules",
+      "name": "Apply chain and product rules"
+    },
+    {
+      "id": "skill-difference-quotient-limit",
+      "branchId": "branch-derivative-interpretation",
+      "name": "Recognize derivative as a limit of a difference quotient"
+    },
+    {
+      "id": "skill-rate-of-change-interpretation",
+      "branchId": "branch-derivative-interpretation",
+      "name": "Interpret instantaneous rate of change in context"
+    },
+    {
+      "id": "skill-first-derivative-sign",
+      "branchId": "branch-curve-analysis",
+      "name": "Use first derivative sign analysis"
+    },
+    {
+      "id": "skill-second-derivative-concavity",
+      "branchId": "branch-curve-analysis",
+      "name": "Use second derivative for concavity and graph matching"
+    },
+    {
+      "id": "skill-parametric-motion",
+      "branchId": "branch-parametric-polar-vectors",
+      "name": "Analyze parametric motion and vector-valued functions"
+    },
+    {
+      "id": "skill-eulers-method",
+      "branchId": "branch-differential-equations-slope-field",
+      "name": "Apply Euler's method and interpret slope fields"
+    },
+    {
+      "id": "skill-volume-rotation",
+      "branchId": "branch-area-volume-rotational",
+      "name": "Set up and evaluate volumes of revolution"
+    },
+    {
+      "id": "skill-antiderivative-basic-forms",
+      "branchId": "branch-antiderivative-techniques",
+      "name": "Integrate basic elementary forms"
+    },
+    {
+      "id": "skill-u-substitution-patterns",
+      "branchId": "branch-antiderivative-techniques",
+      "name": "Use substitution patterns in antiderivatives"
+    },
+    {
+      "id": "skill-riemann-sum-setup",
+      "branchId": "branch-accumulation-riemann",
+      "name": "Set up and evaluate Riemann sums"
+    },
+    {
+      "id": "skill-accumulation-context-modeling",
+      "branchId": "branch-accumulation-riemann",
+      "name": "Model accumulation in contextual problems"
+    },
+    {
+      "id": "skill-riemann-sums-approximation",
+      "branchId": "branch-accumulation-riemann",
+      "name": "Approximate using Riemann sums in applied contexts"
+    },
+    {
+      "id": "skill-ftc-evaluation",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "name": "Apply the Fundamental Theorem of Calculus directly"
+    },
+    {
+      "id": "skill-accumulation-function-derivative",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "name": "Differentiate accumulation functions"
+    },
+    {
+      "id": "skill-geometric-series-sum",
+      "branchId": "branch-sequence-series-convergence",
+      "name": "Sum geometric and alternating geometric series"
+    },
+    {
+      "id": "skill-convergence-classification",
+      "branchId": "branch-sequence-series-convergence",
+      "name": "Classify convergence or divergence"
+    },
+    {
+      "id": "skill-power-series-identification",
+      "branchId": "branch-power-series-representation",
+      "name": "Identify power series representations"
+    },
+    {
+      "id": "skill-interval-of-convergence",
+      "branchId": "branch-power-series-representation",
+      "name": "Find interval of convergence"
+    },
+    {
+      "id": "skill-taylor-polynomial-construction",
+      "branchId": "branch-taylor-approximation",
+      "name": "Construct Taylor and Maclaurin polynomials"
+    },
+    {
+      "id": "skill-taylor-error-estimation",
+      "branchId": "branch-taylor-approximation",
+      "name": "Estimate approximation error"
+    },
+    {
+      "id": "skill-taylor-series",
+      "branchId": "branch-taylor-approximation",
+      "name": "Construct and manipulate Taylor series representations"
+    },
+    {
+      "id": "skill-parametric-derivatives",
+      "branchId": "branch-parametric-polar-vectors",
+      "name": "Compute derivatives of parametric equations"
+    },
+    {
+      "id": "skill-polar-area-arc",
+      "branchId": "branch-parametric-polar-vectors",
+      "name": "Find area and arc length in polar coordinates"
+    },
+    {
+      "id": "skill-vector-motion-analysis",
+      "branchId": "branch-parametric-polar-vectors",
+      "name": "Analyze motion using vector-valued functions"
+    },
+    {
+      "id": "skill-disk-washer-method",
+      "branchId": "branch-area-volume-rotational",
+      "name": "Set up disk and washer method integrals for volumes"
+    },
+    {
+      "id": "skill-cross-section-area",
+      "branchId": "branch-area-volume-rotational",
+      "name": "Find volumes using known cross-section areas"
+    },
+    {
+      "id": "skill-area-between-curves",
+      "branchId": "branch-area-volume-rotational",
+      "name": "Compute area between curves"
+    },
+    {
+      "id": "skill-separable-de",
+      "branchId": "branch-differential-equations-slope-field",
+      "name": "Solve separable differential equations"
+    },
+    {
+      "id": "skill-slope-field-interpretation",
+      "branchId": "branch-differential-equations-slope-field",
+      "name": "Interpret and analyze slope fields"
+    },
+    {
+      "id": "skill-euler-method",
+      "branchId": "branch-differential-equations-slope-field",
+      "name": "Apply Euler method for numerical approximation"
+    }
+  ]
+}

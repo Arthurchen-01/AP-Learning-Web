@@ -128,20 +128,9 @@
     <div class="filters">
       <select class="filter-select" id="subject-filter">
         <option value="">全部科目</option>
-        <option value="calculus_bc">AP Calculus BC</option>
-        <option value="calculus_ab">AP Calculus AB</option>
-        <option value="statistics">AP Statistics</option>
-        <option value="microeconomics">AP Microeconomics</option>
       </select>
       <select class="filter-select" id="year-filter">
         <option value="">全部年份</option>
-        <option value="2024">2024</option>
-        <option value="2023">2023</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
-        <option value="2020">2020</option>
-        <option value="2019">2019</option>
-        <option value="2018">2018</option>
       </select>
     </div>
 
@@ -158,11 +147,25 @@
 
     const subjectNames = {
       'calculus_bc': '微积分BC',
-      'calculus_ab': '微积分AB',
       'statistics': '统计学',
       'microeconomics': '微观经济',
       'macroeconomics': '宏观经济'
     };
+
+    function populateFilters(exams) {
+      const subjectSelect = document.getElementById('subject-filter');
+      const yearSelect = document.getElementById('year-filter');
+      const subjects = [...new Set(exams.map(exam => exam.subject).filter(Boolean))];
+      const years = [...new Set(exams.map(exam => String(exam.year)).filter(Boolean))]
+        .sort((left, right) => Number(right) - Number(left));
+
+      subjectSelect.innerHTML = '<option value="">全部科目</option>' + subjects.map(subject => (
+        `<option value="${subject}">${subjectNames[subject] || subject}</option>`
+      )).join('');
+      yearSelect.innerHTML = '<option value="">全部年份</option>' + years.map(year => (
+        `<option value="${year}">${year}</option>`
+      )).join('');
+    }
 
     async function renderExamList() {
       const exams = await loadExamIndex();
@@ -173,6 +176,7 @@
         return;
       }
 
+      populateFilters(exams);
       list.innerHTML = exams.map(exam => {
         const session = loadSession(exam.exam_id);
         const progress = session ? getProgress(session) : null;

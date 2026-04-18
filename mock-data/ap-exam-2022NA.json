@@ -21,7 +21,7 @@
       "questions": [
         {
           "id": "100",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "From 5 A.M. to 10 A.M., the rate at which vehicles arrive at a certain toll plaza is given by $A(t)=450 \\sqrt{\\sin (0.62 t)}$, where $t$ is the number of hours after 5 A.M. and $A(t)$ is measured in vehicles per hour. Traffic is flowing smoothly at 5 A.M. with no vehicles waiting in line.",
           "parts": [
             {
@@ -44,11 +44,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "101",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "A particle moving along a curve in the $x y$-plane is at position $(x(t), y(t))$ at time $t>0$. The particle moves in such a way that $\\frac{d x}{d t}=\\sqrt{1+t^{2}}$ and $\\frac{d y}{d t}=\\ln \\left(2+t^{2}\\right)$. At time $t=4$, the particle is at the point $(1,5)$.",
           "parts": [
             {
@@ -71,11 +72,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "102",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "Let $f$ be a differentiable function with $f(4)=3$. On the interval $0 \\leq x \\leq 7$, the graph of $f^{\\prime}$, the derivative of $f$, consists of a semicircle and two line segments, as shown in the figure above.",
           "parts": [
             {
@@ -98,11 +100,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "103",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "An ice sculpture melts in such a way that it can be modeled as a cone that maintains a conical shape as it decreases in size. The radius of the base of the cone is given by a twice-differentiable function $r$, where $r(t)$ is measured in centimeters and $t$ is measured in days. The table above gives selected values of $r^{\\prime}(t)$, the rate of change of the radius, over the time interval $0 \\leq t \\leq 12$.",
           "parts": [
             {
@@ -125,11 +128,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "104",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "Figures 1 and 2, shown above, illustrate regions in the first quadrant associated with the graphs of $y=\\frac{1}{x}$ and $y=\\frac{1}{x^{2}}$, respectively. In Figure 1 , let $R$ be the region bounded by the graph of $y=\\frac{1}{x}$, the $x$-axis, and the vertical lines $x=1$ and $x=5$. In Figure 2, let $W$ be the unbounded region between the graph of $y=\\frac{1}{x^{2}}$ and the $x$-axis that lies to the right of the vertical line $x=3$.",
           "parts": [
             {
@@ -148,11 +152,12 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": ""
+          "title": "",
+          "options": []
         },
         {
           "id": "105",
-          "type": "free-response",
+          "type": "frq",
           "prompt": "The function $f$ is defined by the power series $f(x)=x-\\frac{x^{3}}{3}+\\frac{x^{5}}{5}-\\frac{x^{7}}{7}+\\cdots+\\frac{(-1)^{n} x^{2 n+1}}{2 n+1}+\\cdots$ for all real numbers $x$ for which the series converges.",
           "parts": [
             {
@@ -179,7 +184,8 @@
           "answer": "",
           "explanation": "",
           "unit": "",
-          "title": "级数"
+          "title": "级数",
+          "options": []
         }
       ]
     }

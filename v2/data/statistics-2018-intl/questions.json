@@ -1,0 +1,1590 @@
+[
+  {
+    "question_id": "1225",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 1,
+    "question_type": "single_choice",
+    "question_html": "<p>The histogram shown summarizes the responses of 100 people when asked, “What was the price of the last meal you purchased?”</p><p><img alt=\"The figure presents a histogram. The horizontal axis is labeled “Price,” and the numbers 5 through 45, in increments of 2 dollars, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 25, in increments of 5, are indicated. The data represented by the bars are as follows. From 5 dollars up to but not including 7 dollars, 8. From 7 dollars up to but not including 9 dollars, 13. From 9 dollars up to but not including 11 dollars, 11. From 11 dollars up to but not including 13 dollars, 14. From 13 dollars up to but not including 15 dollars, 22. From 15 dollars up to but not including 17 dollars, 8. From 17 dollars up to but not including 19 dollars, 8. From 19 dollars up to but not including 21 dollars, 5. From 21 dollars up to but not including 23 dollars, 3. From 23 dollars up to but not including 25 dollars, 5. From 25 dollars up to but not including 27 dollars, 0. From 27 dollars up to but not including 29 dollars, 0. From 29 dollars up to but not including 31 dollars, 0. From 31 dollars up to but not including 33 dollars, 0. From 33 dollars up to but not including 35 dollars, 2. From 35 dollars up to but not including 37 dollars, 0. From 37 dollars up to but not including 39 dollars, 0. From 39 dollars up to but not including 41 dollars, 0. From 41 dollars up to but not including 43 dollars, 0. From 43 dollars up to but not including 45 dollars, 1.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/0cbc7e88162f67ee95a3e1c27a2ddfc3/original.jpg\"/></p><p>Based on the histogram, which of the following could be the interquartile range of the prices?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>$40</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>$21</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>$10</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>$5</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>$3</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1295",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 2,
+    "question_type": "single_choice",
+    "question_html": "<p>Suppose a certain scale is not calibrated correctly, and as a result, the mass of any object is displayed as 0.75 kilogram less than its actual mass. What is the correlation between the actual masses of a set of objects and the respective masses of the same set of objects displayed by the scale?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Negative 1\"><math><semantics><mrow><mo>−</mo><mn>1</mn></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Negative 0 point 7 5\"><math><semantics><mrow><mo>−</mo><mn>0.75</mn></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.75</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>1</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "2049",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 3,
+    "question_type": "single_choice",
+    "question_html": "<p>A veterinarian collected data on the weights of 1,000 cats and dogs treated at a veterinary clinic. The weight of each animal was classified as either healthy, underweight, or overweight. The data are summarized in the table.</p><div class=\"table_wrapper\"><table><thead><tr><th></th><th>Healthy</th><th>Underweight</th><th>Overweight</th><th>Total</th></tr></thead><tbody><tr><td>Cat</td><td>386</td><td>54</td><td>105</td><td>545</td></tr><tr><td>Dog</td><td>299</td><td>83</td><td>73</td><td>455</td></tr><tr><td>Total</td><td>685</td><td>137</td><td>178</td><td>1,000</td></tr></tbody></table></div><p>Based on the data in the table, which of the following is the most appropriate type of graph to visually show whether a relationship exists between the type of animal and the weight classification?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Back-to-back stemplots</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Scatterplot</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Side-by-side boxplots</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Segmented bar chart</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Dotplot</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "2097",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 4,
+    "question_type": "single_choice",
+    "question_html": "<p>A program exists to encourage more middle school students to major in math and science when they go to college. The organizers of the program want to estimate the proportion of students who, after completing the program, go on to major in math or science in college. The organizers will select a sample of students from a list of all students who completed the program. Which of the following sampling methods describes a stratified random sample?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Select all female students on the list.</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Randomly select 50 students on the list.</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Randomize the names on the list and then select every tenth student on the randomized list.</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Randomly select 25 names from the female students on the list and randomly select 25 names from the male students on the list.</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Randomly select 50 students on the list who are attending college.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1375",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 5,
+    "question_type": "single_choice",
+    "question_html": "<p>The normal curve shown represents the sampling distribution of a sample mean for sample size <em>n </em>= 25, selected at random from a population with standard deviation <span aria-label=\"sigma sub x\"><math><semantics><mrow><msub><mi>σ</mi><mi>x</mi></msub></mrow></semantics></math></span>.</p><p>&nbsp;</p><p><img alt=\"The figure presents a graph of a normal curve. The horizontal axis is labeled “Sampling Distribution of x bar,” and the numbers 105 through 195, in increments of 15, are indicated. The curve begins slightly to the left of 105 and slightly above the horizontal axis. It moves gradually upward and to the right at first, then rises more steadily upward until it peaks in the middle of the graph at 150. The curve then moves steadily downward and to the right before leveling off as it approaches the horizontal axis. It ends slightly to the right of 195 and slightly above the horizontal axis.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/8112130f414da45606d5d7530d8b477c/original.jpg\"></p><p>Which of the following is the best estimate of the standard deviation of the population, <span aria-label=\"sigma sub x\"><math><semantics><mrow><msub><mi>σ</mi><mi>x</mi></msub></mrow></semantics></math></span>?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>3</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>6</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>15</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>30</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>75</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1401",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 6,
+    "question_type": "single_choice",
+    "question_html": "<p>Two random samples, A and B, were selected from the same population to estimate the population mean. For each sample, the mean, standard deviation, and margin of error for a 95 percent confidence interval for the population mean are shown in the table.</p><div class=\"table_wrapper\"><table><thead><tr><th></th><th>Mean</th><th>Standard Deviation</th><th>Margin of Error</th></tr></thead><tbody><tr><td>Sample A</td><td>45</td><td>6.45</td><td>1.02</td></tr><tr><td>Sample B</td><td>43</td><td>7.84</td><td>0.72</td></tr></tbody></table></div><p>Which of the following could explain why the margin of error of sample A is greater than the margin of error of sample B?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The sample size of A is greater than the sample size of B.</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The sample size of A is less than the sample size of B.</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The sample size of A is equal to the sample size of B.</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The mean of sample A is greater than the mean of sample B.</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The standard deviation of sample A is less than the standard deviation of sample B.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "2091",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 7,
+    "question_type": "single_choice",
+    "question_html": "<p>Nyasha’s financial literacy project involved comparing the annual sales of companies in Canada and companies in the United States that produce software. Using the ratio of 1 Canadian dollar to 0.75 United States dollars, she converted all annual sales from the Canadian companies into United States dollars. For which of the following will the value of the statistic for the annual sales in Canadian dollars be equal to the value of the corresponding statistic in United States dollars?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The median annual sales</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The standard deviation of the annual sales</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The standardized score of the minimum annual sales</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The mean annual sales</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The interquartile range of the annual sales</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1159",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 8,
+    "question_type": "single_choice",
+    "question_html": "<p>The manager of a restaurant tracks the types of dinners that customers order from the menu to ensure that the correct amount of food is ordered from the supplier each week. Data from customer orders last year suggest the following weekly distribution.</p><div class=\"table_wrapper\"><table><thead><tr><th>Type of Dinner</th><th>Beef</th><th>Chicken</th><th>Fish</th><th>Pork</th><th>Vegetarian</th></tr></thead><tbody><tr><td>Proportion</td><td>0.18</td><td>0.41</td><td>0.15</td><td>0.20</td><td>0.06</td></tr></tbody></table></div><p>The manager believes that there might be a change in the distribution from last year to this year. A random sample of 200 orders was taken from all customer orders placed last week. The following table shows the results of the sample.</p><div class=\"table_wrapper\"><table><thead><tr><th>Type of Dinner</th><th>Beef</th><th>Chicken</th><th>Fish</th><th>Pork</th><th>Vegetarian</th></tr></thead><tbody><tr><td>Frequency</td><td>32</td><td>86</td><td>34</td><td>30</td><td>18</td></tr></tbody></table></div><p>Assume each order is independent. For which type of dinner is the value of its contribution to the appropriate test statistic the greatest?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Beef</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Chicken</p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Fish</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Pork</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Vegetarian</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "2084",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 9,
+    "question_type": "single_choice",
+    "question_html": "A company that makes fleece clothing uses fleece produced from two farms, Northern Farm and Western Farm. Let the random variable <em>X</em> represent the weight of fleece produced by a sheep from Northern Farm. The distribution of <em>X</em> has mean <span aria-label=\"14 point 1\"><math><semantics><mrow><mn>14.1</mn></mrow></semantics></math></span> pounds and standard deviation <span aria-label=\"1 point 3\"><math><semantics><mrow><mn>1.3</mn></mrow></semantics></math></span> pounds. Let the random variable <em>Y</em> represent the weight of fleece produced by a sheep from Western Farm. The distribution of <em>Y</em> has mean <span aria-label=\"6 point 7\"><math><semantics><mrow><mn>6.7</mn></mrow></semantics></math></span> pounds and standard deviation <span aria-label=\"0 point 5\"><math><semantics><mrow><mn>0.5</mn></mrow></semantics></math></span> pound. Assume <em>X</em> and <em>Y</em> are independent. Let <em>W</em> equal the total weight of fleece from 10 randomly selected sheep from Northern Farm and 15 randomly selected sheep from Western Farm. Which of the following is the standard deviation, in pounds, of <em>W</em> ?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.3 plus 0.5\"><math><semantics><mrow><mn>1.3</mn><mo>+</mo><mn>0.5</mn></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"The square root of 1.3 squared, plus 0.5 squared, end root.\"><math><semantics><mrow><msqrt><mrow><msup><mrow><mn>1.3</mn></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mn>0.5</mn></mrow><mn>2</mn></msup></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"The square root of 10 times, open parenthesis, 1.3, close parenthesis, squared, plus 15 times, open parenthesis, 0.5, close parenthesis, squared, end root.\"><math><semantics><mrow><msqrt><mrow><mn>10</mn><msup><mrow><mo stretchy=\"false\">(</mo><mn>1.3</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>15</mn><msup><mrow><mo stretchy=\"false\">(</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"The square root of 10 squared times, open parenthesis, 1.3, close parenthesis, squared, plus 15 squared times, open parenthesis, 0.5, close parenthesis, squared, end root.\"><math><semantics><mrow><msqrt><mrow><msup><mrow><mn>10</mn></mrow><mn>2</mn></msup><msup><mrow><mo stretchy=\"false\">(</mo><mn>1.3</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mn>15</mn></mrow><mn>2</mn></msup><msup><mrow><mo stretchy=\"false\">(</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"The square root of the fraction, 1.3 squared over 10, end fraction, plus the fraction 0.5 squared over 15, end fraction, end root.\"><math><semantics><mrow><msqrt><mrow><mfrac><mrow><msup><mrow><mn>1.3</mn></mrow><mn>2</mn></msup></mrow><mrow><mn>10</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mrow><mn>0.5</mn></mrow><mn>2</mn></msup></mrow><mrow><mn>15</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1965",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 10,
+    "question_type": "single_choice",
+    "question_html": "According to a report for veterinarians in the United States, <span aria-label=\"36 point 5\"><math><semantics><mrow><mn>36.5</mn></mrow></semantics></math></span> percent of households in the United States own dogs and <span aria-label=\"30 point 4\"><math><semantics><mrow><mn>30.4</mn></mrow></semantics></math></span> percent of households in the United States own cats. If one household in the United States is selected at random, what is the probability that the selected household will own a dog or a cat?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0 point 1 1 1\"><math><semantics><mrow><mn>0.</mn><mtext>111</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0 point 3 3 1\"><math><semantics><mrow><mn>0.</mn><mtext>331</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0 point 5 5 8\"><math><semantics><mrow><mn>0.</mn><mtext>558</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0 point 6 6 9\"><math><semantics><mrow><mn>0.</mn><mtext>669</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">Not enough information is given to determine the probability.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1209",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 11,
+    "question_type": "single_choice",
+    "question_html": "<p>A sociologist collected data from a sample of people on their highest level of education and the number of times they visited any fast food restaurant during the previous week. The data are summarized in the boxplots.</p><p>&nbsp;</p><img alt=\"The figure presents a graph of 4 boxplots titled “Visits by Highest Education Level.” The horizontal axis is labeled “Number of Visits,” and the numbers 0 through 5, in increments of 1, are indicated. Each boxplot represents one of the following categories, “High school,” “Community college,” “Four-year college,” and “More than four-year college.” The data represented by the 4 boxplots are as follows. Note that all values are approximate. Boxplot 1, High School. The left whisker extends from 0 to 1.5. The box extends from 1.5 to 4.5, and a vertical line segment at 3 breaks the box into 2 parts. The right whisker extends from 4.5 to 5. Boxplot 2, Community College. The left whisker extends from 0 to 1. The box extends from 1 to 2.5, and a vertical line segment at 1.5 breaks the box into 2 parts. The right whisker extends from 2.5 to 4. Boxplot 3, Four-year college. The box extends from 2 to 3, and a vertical line segment at 2.55 breaks the box into 2 parts. There are no whiskers. Boxplot 4, More than four-year college. The box extends from 1 to 2, and a vertical line segment at 1.5 breaks the box into 2 parts. There are no whiskers.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/795b8e69143f8508f2905e02a9f28cff/original.png\"><p>Based on the boxplots, which of the following statements must be true?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The number of people surveyed at the more than four-year college level is greater than the number of people surveyed at the high school level. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The proportion of people surveyed from the first quartile to the third quartile at the four-year college level is less than the respective proportion at the community college level. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">The interquartile range (<span aria-label=\"I Q R\"><math><semantics><mrow><mtext>IQR</mtext></mrow></semantics></math></span>) for the number of visits at the more than four-year college level is less than the <span aria-label=\"I Q R\"><math><semantics><mrow><mtext>IQR</mtext></mrow></semantics></math></span> for the number of visits at the community college level.</div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The maximum number of visits at the community college level is greater than the maximum number of visits at the high school level. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The median number of visits at the four-year college level is greater than the median number of visits at the high school level.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1242",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 12,
+    "question_type": "single_choice",
+    "question_html": "<p> For a recent season in college football, the total number of rushing yards for that season is recorded for each running back. The mean number of rushing yards for the running backs that season is 790 yards. One running back had 1,637 rushing yards for the season, which is 2.42 standard deviations above the mean number of rushing yards. What is the standard deviation of the number of rushing yards for the running backs that season? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>250 yards</p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>300 yards </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>350 yards </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>400 yards </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>450 yards</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1269",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 13,
+    "question_type": "single_choice",
+    "question_html": "<p>First-year students enrolled at a college were asked whether they play video games. The responses, classified by whether the students were enrolled in the school of sciences or the school of arts, are shown in the table.</p><div class=\"table_wrapper\"><table><thead><tr><th></th><th>Play Video Games</th><th>Do Not Play Video Games</th><th>Total</th></tr></thead><tbody><tr><td>Sciences</td><td>519</td><td>120</td><td>639</td></tr><tr><td>Arts</td><td>347</td><td>446</td><td>793</td></tr><tr><td>Total</td><td>866</td><td>566</td><td>1,432</td></tr></tbody></table></div><p>Of all the students enrolled in the school of arts who responded, approximately what proportion responded that they play video games?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.242 </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.401 </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.438 </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.554</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.605</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1395",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 14,
+    "question_type": "single_choice",
+    "question_html": "<p>A pharmaceutical company manufactures medicine to reduce pain caused by migraine headaches. The company is investigating whether a new medicine is more effective in reducing pain than the current medicine. A random sample of 500 participants who experience migraines was selected, and the participants were randomly assigned to one of two groups of equal size. The first group received the current medicine and the second group received the new medicine. When a participant experienced a migraine, he or she was instructed to take the medicine and, 15 minutes after taking the medicine, to rate the pain relief on a scale from 1 to 10, with 1 being no relief to 10 being complete relief. At the end of six months, the average pain relief for each participant was calculated. Which of the following is the best description of the study? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An experiment using a completely randomized design </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An experiment using a matched-pairs design </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An observational study using a simple random sample </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An observational study using a cluster sample </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An observational study using a stratified sample</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1376",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 15,
+    "question_type": "single_choice",
+    "question_html": "<p>A marketing firm obtained random samples of 20 people in five regions of the country to investigate the level of interest in a new product. People in the sample were asked to rate their level of interest on a scale from 1 to 10, with 1 being the least amount of interest and 10 being the greatest. The histograms show the results for each region. The graph for which region displays data for level of interest with the least standard deviation? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><img alt=\"The figure presents a histogram titled “Region A.” The horizontal axis is labeled “Level of Interest,” and the numbers 0 through 10, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows. Level of interest, 1. Frequency, 2. Level of interest, 2. Frequency, 2. Level of interest, 3. Frequency, 0. Level of interest, 4. Frequency, 0. Level of interest, 5. Frequency, 0. Level of interest, 6. Frequency, 0. Level of interest, 7. Frequency, 0. Level of interest, 8. Frequency, 8. Level of interest, 9. Frequency, 8. Level of interest, 10. Frequency, 0.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/ffe1b37afce27c83a8a34ba02076af92/original.png\"/></p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><img alt=\"The figure presents a histogram titled “Region B.” The horizontal axis is labeled “Level of Interest,” and the numbers 0 through 10, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows. Level of interest, 1. Frequency, 0. Level of interest, 2. Frequency, 4. Level of interest, 3. Frequency, 0. Level of interest, 4. Frequency, 4. Level of interest, 5. Frequency, 0. Level of interest, 6. Frequency, 4. Level of interest, 7. Frequency, 0. Level of interest, 8. Frequency, 4. Level of interest, 9. Frequency, 0. Level of interest, 10. Frequency, 4.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/f933d0f8fd902b8deae0afd84f482735/original.png\"/></p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><img alt=\"The figure presents a histogram titled “Region C.” The horizontal axis is labeled “Level of Interest,” and the numbers 0 through 10, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows. Level of interest, 1. Frequency, 6. Level of interest, 2. Frequency, 0. Level of interest, 3. Frequency, 0. Level of interest, 4. Frequency, 0. Level of interest, 5. Frequency, 8. Level of interest, 6. Frequency, 0. Level of interest, 7. Frequency, 0. Level of interest, 8. Frequency, 0. Level of interest, 9. Frequency, 6. Level of interest, 10. Frequency, 0.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/baef566f2d6db8068089ef946c6ac98b/original.png\"/></p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><img alt=\"The figure presents a histogram titled “Region D.” The horizontal axis is labeled “Level of Interest,” and the numbers 0 through 10, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows. Level of interest, 1. Frequency, 0. Level of interest, 2. Frequency, 0. Level of interest, 3. Frequency, 0. Level of interest, 4. Frequency, 0. Level of interest, 5. Frequency, 0. Level of interest, 6. Frequency, 2. Level of interest, 7. Frequency, 2. Level of interest, 8. Frequency, 5. Level of interest, 9. Frequency, 6. Level of interest, 10. Frequency, 5.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/d9141d19ce255f1db4fe97f27a452e90/original.png\"/></p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p><img alt=\"The figure presents a histogram titled “Region E.” The horizontal axis is labeled “Level of Interest,” and the numbers 0 through 10, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 8, in increments of 1, are indicated. The data represented by the bars are as follows. Level of interest, 1. Frequency, 1. Level of interest, 2. Frequency, 1. Level of interest, 3. Frequency, 2. Level of interest, 4. Frequency, 2. Level of interest, 5. Frequency, 4. Level of interest, 6. Frequency, 4. Level of interest, 7. Frequency, 2. Level of interest, 8. Frequency, 2. Level of interest, 9. Frequency, 1. Level of interest, 10. Frequency, 1.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/6a560e14e97abedf11de33fa70fa399c/original.png\"/></p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "2032",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 16,
+    "question_type": "single_choice",
+    "question_html": "<p>The transportation department of a large city wants to estimate the proportion of residents who would use a system of aerial gondolas to commute to work. The gondolas would be part of the city’s effort to relieve traffic congestion. The department asked a random sample of residents whether they would use the gondolas. The residents could respond with yes, no, or maybe. Which of the following is the best description of the method for data collection used by the department? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A census </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A sample survey </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An experiment with a completely randomized design </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An experiment with a randomized block design </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>An experiment with a matched-pairs design</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1245",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 17,
+    "question_type": "single_choice",
+    "question_html": "<p>To obtain certification for a certain occupation, candidates take a proficiency exam. The exam consists of two sections, and neither section should be more difficult than the other. To investigate whether one section of the exam was more difficult than the other, a random sample of 50 candidates was selected. The candidates took the exam and their scores on each section were recorded. The table shows the summary statistics.</p><div class=\"table_wrapper\"><table><thead><tr><th></th><th>Mean Percent Correct</th><th>Standard Deviation Percent Correct</th></tr></thead><tbody><tr><td>First section</td><td>75</td><td>10</td></tr><tr><td>Second section</td><td>65</td><td>5</td></tr><tr><td>Difference</td><td>10</td><td>8</td></tr></tbody></table></div><p>Which of the following is the test statistic for the appropriate test to determine if there is a significant mean difference between the percent correct on the two sections (first minus second) for all candidates similar to those in the investigation?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"t equals, the complex fraction with numerator 75 minus 65, and denominator the fraction 8 over the square root of 50, end root, end fraction, end complex fraction.\"><math><semantics><mrow><mi>t</mi><mo>=</mo><mfrac><mrow><mn>75</mn><mo>−</mo><mn>65</mn></mrow><mrow><mfrac><mn>8</mn><mrow><msqrt><mrow><mn>50</mn></mrow></msqrt></mrow></mfrac></mrow></mfrac></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"t equals, the complex fraction with numerator 75 minus 65, and denominator the square root of, the fraction 10 squared over 50, end fraction, plus the fracion 5 squared over 50, end fraction, end root, end complex fraction.\"><math><semantics><mrow><mi>t</mi><mo>=</mo><mfrac><mrow><mn>75</mn><mo>−</mo><mn>65</mn></mrow><mrow><msqrt><mrow><mfrac><mrow><msup><mrow><mn>10</mn></mrow><mn>2</mn></msup></mrow><mrow><mn>50</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup></mrow><mrow><mn>50</mn></mrow></mfrac></mrow></msqrt></mrow></mfrac></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"chi squared equals, the fraction with numerator open parenthesis, 75 minus 70, close parenthesis, squared, and denominator 70, end fraction, plus the fraction with numerator open parenthesis, 65 minus 70, close parenthesis, squared, and denominator 70, end fraction.\"><math><semantics><mrow><msup><mi>χ</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><msup><mrow><mo stretchy=\"false\">(</mo><mn>75</mn><mo>−</mo><mn>70</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>70</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mrow><mo stretchy=\"false\">(</mo><mn>65</mn><mo>−</mo><mn>70</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>70</mn></mrow></mfrac></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"chi squared equals, the fraction with numerator open parenthesis, 75 minus 70, close parenthesis, squared, and denominator 75, end fraction, plus the fraction with numerator open parenthesis, 65 minus 70, close parenthesis, squared, and denominator 65, end fraction.\"><math><semantics><mrow><msup><mi>χ</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><msup><mrow><mo stretchy=\"false\">(</mo><mn>75</mn><mo>−</mo><mn>70</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>75</mn></mrow></mfrac><mo>+</mo><mfrac><mrow><msup><mrow><mo stretchy=\"false\">(</mo><mn>65</mn><mo>−</mo><mn>70</mn><mo stretchy=\"false\">)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>65</mn></mrow></mfrac></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"z equals, the complex fraction with numerator 0.75 minus 0.65, and denominator the square root of 0.7 times, open parenthesis, 1 minus 0.7, close parenthesis, times, open parenthesis, the fraction 1 over 50, end fraction, plus the fraction 1 over 50, end fraction, close parenthesis, end root, end complex fraction.\"><math><semantics><mrow><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>0.75</mn><mo>−</mo><mn>0.65</mn></mrow><mrow><msqrt><mrow><mn>0.7</mn><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.7</mn><mo stretchy=\"false\">)</mo><mrow><mo>(</mo><mrow><mfrac><mn>1</mn><mrow><mn>50</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>50</mn></mrow></mfrac></mrow><mo>)</mo></mrow></mrow></msqrt></mrow></mfrac></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "2057",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 18,
+    "question_type": "single_choice",
+    "question_html": "<p>New employees at a large corporation go through a training program during their first week of employment. The new employees take a written assessment at the completion of the program to determine how well prepared they are for their jobs. A score greater than the mean indicates a well-prepared employee. Assume the following distributions of new employee scores have the same mean score, the same maximum score, and the same minimum score. Which distribution has a shape that is most likely to represent the greatest percent of well-prepared employees? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of scores is skewed to the right. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of scores is skewed to the left. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of scores is bimodal and symmetric. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of scores is uniform. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of scores is approximately normal.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1338",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 19,
+    "question_type": "single_choice",
+    "question_html": "<p>Based on his past record, Luke, an archer for a college archery team, has a probability of 0.90 of hitting the inner ring of the target with a shot of the arrow. Assume that in one practice Luke will attempt 5 shots of the arrow and that each shot is independent from the others. Let the random variable X represent the number of times he hits the inner ring of the target in 5 attempts. The probability distribution of X is given in the table.</p><div class=\"table_wrapper\"><table><thead><tr><th>X</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td>P(X)</td><td>0.00001</td><td>0.00045</td><td>0.00810</td><td>0.07290</td><td>0.32805</td><td>0.59049</td></tr></tbody></table></div><p>What is the probability that the number of times Luke will hit the inner ring of the target out of the 5 attempts is less than the mean of X ?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.40951 </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.50000 </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.59049</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.91854 </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.99144</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1276",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 20,
+    "question_type": "single_choice",
+    "question_html": "A medical center conducted a study to investigate cholesterol levels in people who have had heart attacks. A random sample of 16 people was obtained from the names of all patients of the medical center who had a heart attack in the previous year. Of the people in the sample, the mean cholesterol level was 264.70 milligrams per deciliter (mg/dL) with standard deviation <span aria-label=\"42.12 milligrams per deciliter\"><math><semantics><mrow><mtext>42</mtext><mo>.</mo><mtext>12&nbsp;mg</mtext><mo>/</mo><mtext>dL</mtext></mrow></semantics></math></span>. Assuming all conditions for inference were met, which of the following is a 90 percent confidence interval for the mean cholesterol level, in <span aria-label=\"milligrams per deciliter\"><math><semantics><mrow><mtext>mg</mtext><mo>/</mo><mtext>dL</mtext></mrow></semantics></math></span>, of all patients of the medical center who had a heart attack in the previous year?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Open parenthesis, 242.26, comma, 287.14, close parenthesis.\"><math><semantics><mrow><mrow><mo>(</mo><mrow><mtext>242</mtext><mo>.</mo><mtext>26</mtext><mo>,</mo><mtext>&nbsp;287</mtext><mo>.</mo><mtext>14</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Open parenthesis, 244.06, comma, 285.34, close parenthesis.\"><math><semantics><mrow><mrow><mo>(</mo><mrow><mtext>244</mtext><mn>.0</mn><mtext>6</mtext><mo>,</mo><mtext>&nbsp;285</mtext><mo>.</mo><mtext>34</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Open parenthesis, 246.24, comma, 283.16, close parenthesis.\"><math><semantics><mrow><mrow><mo>(</mo><mrow><mtext>246</mtext><mo>.</mo><mtext>24</mtext><mo>,</mo><mtext>&nbsp;283</mtext><mo>.</mo><mtext>16</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Open parenthesis, 247.38, comma, 282.02, close parenthesis.\"><math><semantics><mrow><mrow><mo>(</mo><mrow><mtext>247</mtext><mo>.</mo><mtext>38</mtext><mo>,</mo><mtext>&nbsp;282</mtext><mn>.0</mn><mtext>2</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"Open parenthesis, 260.09, comma, 269.31, close parenthesis.\"><math><semantics><mrow><mrow><mo>(</mo><mrow><mtext>26</mtext><mn>0.0</mn><mtext>9</mtext><mo>,</mo><mtext>&nbsp;269</mtext><mo>.</mo><mtext>31</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "2065",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 21,
+    "question_type": "single_choice",
+    "question_html": "<p>For a school fund-raiser, 600 raffle tickets were sold by students at the school, of which 88 were sold by one student, Audrey. Of the 600 tickets sold, 30 were randomly selected to receive prizes, and 7 of the 30 tickets selected were tickets sold by Audrey. To investigate how likely it was by chance alone that at least 7 of the 30 selected tickets could have been sold by Audrey, students in a statistics class ran a simulation. One trial of the simulation is described by the following steps.</p><p>Step 1: From 600 chips, assign 88 red and the rest blue.</p><p>Step 2: Select 30 chips at random without replacement.</p><p>Step 3: Record the number of red chips in the selection of 30.</p><p>The results of 1,000 trials of the simulation are shown in the histogram.</p><p><img alt=\"The figure presents a histogram titled “Results of 1,000 Trials.” The horizontal axis is labeled “Number of Red Chips,” and the numbers 0 through 11, in increments of 1, are indicated. The vertical axis is labeled “Frequency,” and the numbers 0 through 200, in increments of 50, are indicated. The data represented by the bars are as follows. Chips, 0. Frequency, 3. Chips, 1. Frequency, 46. Chips, 2. Frequency, 96. Chips, 3. Frequency, 194. Chips, 4. Frequency, 195. Chips, 5. Frequency, 184. Chips, 6. Frequency, 144. Chips, 7. Frequency, 78. Chips, 8. Frequency, 39. Chips, 9. Frequency, 15. Chips, 10. Frequency, 5. Chips, 11. Frequency, 1.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/3ce5dace2c5629a7c96aae385897e88e/original.png\"></p><p>Based on the results of the simulation, is there convincing statistical evidence at the significance level of 0.05 that the event of Audrey selling at least 7 of the 30 selected tickets is unlikely to have occurred by chance alone?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, because the distribution of the trials in the simulation is skewed to the right. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, because the number in the histogram with the greatest frequency is 4, not 7. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, because 7 appears in the right tail of the distribution, indicating that it is more than 2 standard deviations away from the mean. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>No, because the simulation suggests that it is likely that Audrey could sell anywhere from 0 to 11 of the selected tickets. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>No, because the simulation suggests that Audrey selling at least 7 of 30 selected tickets would occur about 13.8% of the time.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1918",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 22,
+    "question_type": "single_choice",
+    "question_html": "<p>As part of a study on facility needs, the administrators of a university wanted to estimate the percent of students who use the exercise facilities on a regular basis. From the 34,000 students who attend the university, a random sample of 370 male students and 400 female students was selected. Of the 770 students selected, 493 students indicated that they use the exercise facilities on a regular basis. What are the population and the sample of the study? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The population is the 770 students who were selected, and the sample is the 493 students who indicated that they use the exercise facilities on a regular basis. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The population is the 770 students who were selected, and the sample is whether each student in the survey uses the exercise facility on a regular basis. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The population is the 34,000 students who attend the university, and the sample is whether each student in the survey is male or female. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The population is the 34,000 students who attend the university, and the sample is the 770 students who were selected. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The population is the 34,000 students who attend the university, and the sample is the 493 students who indicated that they use the exercise facilities on a regular basis.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1601",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 23,
+    "question_type": "single_choice",
+    "question_html": "<p>A study will be conducted to examine a new medicine intended to reduce high blood pressure in adult men who have high blood pressure. As part of the study, a random sample of 40 men with high blood pressure will have their blood pressure measured, and then they will take the new medicine every day for one month. At the end of the month, their blood pressure will be measured again. Of the following, which is the best procedure to investigate whether there will be convincing statistical evidence of a change, on average, in blood pressure for men with high blood pressure who take the new medicine? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A one-sample z-test for a proportion </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A two-sample z-test for a difference between proportions </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A two-sample t-test for the difference between two means </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A matched-pairs t-test for a mean difference </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A chi-square test of independence</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1641",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 24,
+    "question_type": "single_choice",
+    "question_html": "<p>A roadrunner is a desert bird that tends to run instead of fly. While running, the roadrunner uses its tail as a balance. A sample of 10 roadrunners was taken, and the birds’ total length, in centimeters (cm), and tail length, in cm, were recorded. The output shown in the table is from a least-squares regression to predict tail length given total length. </p><p><img alt=\"text...\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/f166fda19f336c4f2efe4bcb0918a385/original.png\"/></p><p>Suppose a roadrunner has a total length of 59.0 cm and tail length of 31.1 cm. Based on the residual, does the regression model overestimate or underestimate the tail length of the roadrunner? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Underestimate, because the residual is positive. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Underestimate, because the residual is negative. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Overestimate, because the residual is positive. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Overestimate, because the residual is negative. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Neither, because the residual is 0.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "source_alt_text_incomplete"
+      ]
+    }
+  },
+  {
+    "question_id": "1866",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 25,
+    "question_type": "single_choice",
+    "question_html": "<p>The distribution of assembly times required to assemble a certain smartphone is approximately normal with mean 4.6 minutes and standard deviation 0.6 minute. Of the following, which is closest to the percentage of assembly times between 4 minutes and 5 minutes? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>34% </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>41% </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>59%</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p> 68%</p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p> 95%</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1253",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 26,
+    "question_type": "single_choice",
+    "question_html": "A company produces millions of 1-pound packages of bacon every week. Company specifications allow for no more than 3 percent of the 1-pound packages to be underweight. To investigate compliance with the specifications, the company’s quality control manager selected a random sample of 1,000 packages produced in one week and found 40 packages, or 4 percent, to be underweight. Assuming all conditions for inference are met, do the data provide convincing statistical evidence at the significance level of <span aria-label=\"alpha equals 0.05\"><math><semantics><mrow><mi>α</mi><mtext>&nbsp;</mtext><mo>=</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>5</mtext></mrow></semantics></math></span> that more than 3 percent of all the packages produced in one week are underweight?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, because the sample estimate of 0.04 is greater than the company specification of 0.03. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">Yes, because the <em>p</em>-value of 0.032 is less than the significance level of 0.05.</div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">Yes, because the <em>p</em>-value of 0.064 is greater than the significance level of 0.05.</div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">No, because the <em>p</em>-value of 0.032 is less than the significance level of 0.05.</div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\">No, because the <em>p</em>-value of 0.064 is greater than the significance level of 0.05.</div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1882",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 27,
+    "question_type": "single_choice",
+    "question_html": "<p>The histograms show the results of three simulations of a sampling distribution of a sample mean. For each simulation, 1,500 samples of size n were selected from the same population and the sample mean was recorded. The value of n was different for each of the three simulations. </p><p><img alt=\"The figure presents 3 histograms titled “Graph A,” “Graph B,” and “Graph C.” In each histogram, the horizontal axis is labeled “Sample Means,” and the numbers 0 and 200 are indicated. There is an unlabeled tick mark halfway between 0 and 200, representing the value 100. The vertical axis is labeled “Frequency,” and no values are indicated. The bars in Graph A begin just to the left of 0. The bars gradually become taller, peaking just to the right of 100 on the horizontal axis. The bars then gradually become shorter, and they end slightly to the right of 200. The bars in Graph B begin slightly to the left of 100, and they increase steeply, peaking slightly to the right of 100. The bars then decrease steeply, and they end slightly to the right of 100. The bars in Graph C begin approximately halfway between 0 and 100. The bars increase steeply, peak at 100, and then decrease in the same manner. The bars end approximately halfway between 100 and 200.\" src=\"https://assets.learnosity.com/organisations/537/media.academicmerit.com/e8017ae9f187662784957ddcc91b4c0e/original.png\"/></p><p>Which of the following is the correct ordering of the graphs from least value of n to greatest value of n ? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A, C, B </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>B, A, C </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>B, C, A </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>C, A, B </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>C, B, A</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1246",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 28,
+    "question_type": "single_choice",
+    "question_html": "<p>Researchers conducted a study to investigate the effects of soft drink consumption on fat stored in muscle tissue. From a sample of 80 adult volunteers, 40 were randomly assigned to consume one liter of a soft drink each day. The remaining 40 were asked to drink one liter of water each day and not to consume any soft drinks. At the end of six months, the amount of fat stored in each person’s muscle tissue was recorded. The people in the group who drank the soft drink had, on average, a higher percentage of fat stored in the tissue than the people who drank only water. Which of the following is the most appropriate conclusion? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is evidence that consuming soft drinks causes more fat storage in muscle tissue than drinking only water, and the conclusion can be generalized to all adults. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is evidence that consuming soft drinks causes more fat storage in muscle tissue than drinking only water, and the conclusion can be generalized to all people who consume soft drinks. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is evidence that consuming soft drinks causes more fat storage in muscle tissue than drinking only water, and the conclusion can be generalized to adults similar to those in the study. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Although cause-and-effect cannot be established, there is an association between consuming soft drinks and fat storage in muscle tissue for the population of all adults. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Although cause-and-effect cannot be established, there is an association between consuming soft drinks and fat storage in muscle tissue for the population of all adults who consume soft drinks.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1274",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 29,
+    "question_type": "single_choice",
+    "question_html": "<p>A random sample of 1,018 city residents were asked to rate their level of support for a proposal being considered by the city council. The table shows the responses by level of support.</p><div class=\"table_wrapper\"><table><thead><tr><th>Level of Support</th><th>Number of Responses</th></tr></thead><tbody><tr><td>Very supportive</td><td>336</td></tr><tr><td>Somewhat supportive</td><td>387</td></tr><tr><td>Not supportive</td><td>295</td></tr></tbody></table></div><p>Based on the responses, which of the following is a 95 percent confidence interval for the proportion of all city residents who would respond very supportive or somewhat supportive of the proposal?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0.33 plus or minus 0.029\"><math><semantics><mrow><mn>0.</mn><mtext>33&nbsp;</mtext><mo>±</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>29</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0.38 plus or minus 0.030\"><math><semantics><mrow><mn>0.</mn><mtext>38&nbsp;</mtext><mo>±</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>3</mtext><mn>0</mn></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0.71 plus or minus 0.058\"><math><semantics><mrow><mn>0.</mn><mtext>71&nbsp;</mtext><mo>±</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>58</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0.71 plus or minus 0.031\"><math><semantics><mrow><mn>0.</mn><mtext>71&nbsp;</mtext><mo>±</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>31</mtext></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"0.71 plus or minus 0.028\"><math><semantics><mrow><mn>0.</mn><mtext>71&nbsp;</mtext><mo>±</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>28</mtext></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1147",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 30,
+    "question_type": "single_choice",
+    "question_html": "<p> A manufacturer of cell phone batteries claims that the average number of recharge cycles for its batteries is 400. A consumer group will obtain a random sample of 100 of the manufacturer’s batteries and will calculate the mean number of recharge cycles. Which of the following statements is justified by the central limit theorem? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of the number of recharge cycles for the sample is approximately normal because the population mean of 400 is greater than 30. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of the number of recharge cycles for the sample is approximately normal because the sample size of 100 is greater than 30. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of the number of recharge cycles for the population is approximately normal because the sample size of 100 is greater than 30.</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of the sample means of the number of recharge cycles is approximately normal because the sample size of 100 is greater than 30. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The distribution of the sample means of the number of recharge cycles is approximately normal because the population mean of 400 is greater than 30.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1717",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 31,
+    "question_type": "single_choice",
+    "question_html": "<p>A news organization conducted a survey about preferred methods for obtaining the news. A random sample of 1,605 adults living in a certain state was selected, and 16.2 percent of the adults in the sample reported that television was their preferred method. Which of the following is an appropriate margin of error for a 90 percent confidence interval to estimate the population proportion of all adults living in the state who would report that television is their preferred method for obtaining the news? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.645, times the square root of the fraction with numerator, 0.162 times, open parenthesis, 1 minus 0.162, close parenthesis, and denominator 1,605, end fraction, end root.\"><math><semantics><mrow><mn>1.645</mn><msqrt><mrow><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mn>1</mn><mo>,</mo><mn>605</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.645, times the square root of the fraction with numerator, 0.5 times, open parenthesis, 1 minus 0.5, close parenthesis, and denominator 1,605, end fraction, end root.\"><math><semantics><mrow><mn>1.645</mn><msqrt><mrow><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mn>1</mn><mo>,</mo><mn>605</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.96, times the square root of the fraction with numerator, 0.162 times, open parenthesis, 1 minus 0.162, close parenthesis, and denominator 1,605, end fraction, end root.\"><math><semantics><mrow><mn>1.96</mn><msqrt><mrow><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mn>1</mn><mo>,</mo><mn>605</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.96, times the square root of the fraction with numerator, 0.5 times, open parenthesis, 1 minus 0.5, close parenthesis, and denominator 1,605, end fraction, end root.\"><math><semantics><mrow><mn>1.96</mn><msqrt><mrow><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.5</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mn>1</mn><mo>,</mo><mn>605</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.83, times the square root of the fraction with numerator, 0.162 times, open parenthesis, 1 minus 0.162, close parenthesis, and denominator 1,605, end fraction, end root.\"><math><semantics><mrow><mn>1.83</mn><msqrt><mrow><mfrac><mrow><mo stretchy=\"false\">(</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>−</mo><mn>0.162</mn><mo stretchy=\"false\">)</mo></mrow><mrow><mn>1</mn><mo>,</mo><mn>605</mn></mrow></mfrac></mrow></msqrt></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1604",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 32,
+    "question_type": "single_choice",
+    "question_html": "<p>A fitness center offers a one-month program designed to reduce body fat through exercise. The table shows the body fat percentage before and after completing the program for 10 randomly selected participants.</p><div class=\"table_wrapper\"><table><thead><tr><th>Participant</th><th>Before, in percent</th><th>After, in percent</th></tr></thead><tbody><tr><td>A</td><td>10.8%</td><td>10.7%</td></tr><tr><td>B</td><td>21.5%</td><td>20.4%</td></tr><tr><td>C</td><td>18.9%</td><td>19.1%</td></tr><tr><td>D</td><td>17.0%</td><td>16.1%</td></tr><tr><td>E</td><td>20.8%</td><td>20.6%</td></tr><tr><td>F</td><td>24.6%</td><td>22.3%</td></tr><tr><td>G</td><td>15.4%</td><td>15.5%</td></tr><tr><td>H</td><td>18.2%</td><td>18.1%</td></tr><tr><td>I</td><td>19.9%</td><td>18.5%</td></tr><tr><td>J</td><td>21.2%</td><td>20.0%</td></tr></tbody></table></div><p>The director of the program wants to investigate whether knowing the body fat percentage before beginning the program can help to predict body fat percentage for someone who completes the program. Which of the following procedures is the most appropriate for such an investigation?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A matched-pairs t-test for a mean difference </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A two-sample t-test for a difference between means </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A two-sample z-test for a difference between proportions </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A chi-square test of association </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>A linear regression t-test for slope</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1637",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 33,
+    "question_type": "single_choice",
+    "question_html": "<p>A recent survey estimated that 19 percent of all people living in a certain region regularly use sunscreen when going outdoors. The margin of error for the estimate was 1 percentage point. Based on the estimate and the margin of error, which of the following is an appropriate conclusion? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Approximately 1% of all the people living in the region were surveyed. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Between 18% and 20% of all the people living in the region were surveyed. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>All possible samples of the same size will result in between 18% and 20% of those surveyed indicating they regularly use sunscreen.</p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability is 0.01 that a person living in the region will use sunscreen when going outdoors. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>It is plausible that the percent of all people living in the region who regularly use sunscreen is 18.5%.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1250",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 34,
+    "question_type": "single_choice",
+    "question_html": "<p>According to a recent report, customers who shop at a certain online store spend, on average, $1,500 a year at the store. To investigate whether the mean amount spent was greater than the reported average, an economist obtained the mean and standard deviation of the amount spent in the past year by a random sample of 120 customers who shop at the store. With all conditions for inference met, the economist conducted the appropriate hypothesis test and obtained a p-value of 0.25. Which of the following statements is the most appropriate conclusion for the investigation? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is convincing statistical evidence that the mean amount of money spent each year by all customers who shop at the store is $1,500. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is convincing statistical evidence that the mean amount of money spent each year by all customers who shop at the store is greater than $1,500. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is convincing statistical evidence that the mean amount of money spent each year by all customers who shop at the store is less than $1,500. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is not convincing statistical evidence that the mean amount of money spent each year by all customers who shop at the store is greater than $1,500. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>There is not convincing statistical evidence that the mean amount of money spent each year by any sample of 120 customers who shop at the store is greater than $1,500.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1858",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 35,
+    "question_type": "single_choice",
+    "question_html": "<p>Scientists working for a water district measure the water level in a lake each day. The daily water level in the lake varies due to weather conditions and other factors. The daily water level has a distribution that is approximately normal with mean water level of 84.07 feet. The probability that the daily water level in the lake is at least 100 feet is 0.064. Which of the following is closest to the probability that on a randomly selected day the water level in the lake will be at least 90 feet?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.29 </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.31 </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.34 </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.37 </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.50</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "2159",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 36,
+    "question_type": "single_choice",
+    "question_html": "The president of a large company recommends that employees perform, on average, 24 hours of community service each year. The president believes that the mean number of hours of community service performed last year was different from the recommended 24 hours. To estimate the mean number of hours of community service performed last year, the president obtained data from a random sample of employees and used the data to construct the 95 percent confidence interval (20.37, 23.49). If all conditions for inference were met, does the interval provide convincing statistical evidence, at a level of significance of <span aria-label=\"alpha equals 0.05\"><math><semantics><mrow><mi>α</mi><mtext>&nbsp;</mtext><mo>=</mo><mtext>&nbsp;</mtext><mn>0.0</mn><mtext>5</mtext></mrow></semantics></math></span>, to support the president’s belief that the mean number of hours of community service performed last year is different from what is recommended?",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, the interval supports the president’s belief because 0 is not contained in the interval. </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>Yes, the interval supports the president’s belief because 24 is not contained in the interval. </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>No, the interval does not support the president’s belief because a 90% confidence interval is required for a 5% level of statistical evidence. </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>No, the interval does not support the president’s belief because confidence intervals should only be used for estimation and cannot provide convincing statistical evidence. </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>No, the interval does not support the president’s belief because the significance level is equal to 1 minus the confidence level, indicating that the results are not convincing.</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1970",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 37,
+    "question_type": "single_choice",
+    "question_html": "<p>An international polling agency estimates that 36 percent of adults from Country X were first married between the ages of 18 and 32, and 26 percent of adults from Country Y were first married between the ages of 18 and 32. Based on the estimates, which of the following is closest to the probability that the difference in proportions between a random sample of 60 adults from Country X and a random sample of 50 adults from Country Y (Country X minus Country Y) who were first married between the ages of 18 and 32 is greater than 0.15 ? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.1398 </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.2843 </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p> 0.4315 </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.5685 </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.7157</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  },
+  {
+    "question_id": "1654",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 38,
+    "question_type": "single_choice",
+    "question_html": "<p>A consumer group wanted to investigate the relationship between the number of items purchased at a single visit to the local grocery store and the total cost of the items purchased. The group obtained a random sample of 11 receipts from the store and recorded the total number of items and the total cost from each receipt. The computer output of an analysis of total cost versus number of items purchased is shown in the table.</p><div class=\"table_wrapper\"><table><thead><tr><th></th><th>Estimate</th><th>Std Error</th><th>t Ratio</th><th>Prob greater than the absolute value of t</th></tr></thead><tbody><tr><td>Intercept</td><td>1.882</td><td>6.6854</td><td>0.28</td><td>0.7847</td></tr><tr><td>Number of items</td><td>2.784</td><td>0.2265</td><td>12.29</td><td>&lt; 0.0001</td></tr></tbody></table></div><p>Assume all conditions for inference were met. Based on the results shown in the table, which of the following is a 95 percent confidence interval for the average change in total cost for each increase of 1 item purchased?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2.784 plus or minus 12.29 times 0.2265.\"><math><semantics><mrow><mtext>2</mtext><mo>.</mo><mtext>784&nbsp;</mtext><mo>±</mo><mtext>&nbsp;12</mtext><mo>.</mo><mtext>29</mtext><mrow><mo>(</mo><mrow><mn>0.</mn><mtext>2265</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2.784 plus or minus 2.262 times 0.2265.\"><math><semantics><mrow><mtext>2</mtext><mo>.</mo><mtext>784&nbsp;</mtext><mo>±</mo><mtext>&nbsp;2</mtext><mo>.</mo><mtext>262</mtext><mrow><mo>(</mo><mrow><mn>0.</mn><mtext>2265</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"2.784 plus or minus 2.262 times, open parenthesis, 0.2265 over the square root of 11, close parenthesis.\"><math><semantics><mrow><mtext>2</mtext><mo>.</mo><mtext>784&nbsp;</mtext><mo>±</mo><mtext>&nbsp;2</mtext><mo>.</mo><mtext>262&nbsp;</mtext><mrow><mo>(</mo><mrow><mfrac><mrow><mtext>0</mtext><mo>.</mo><mtext>2265</mtext></mrow><mrow><msqrt><mrow><mn>11</mn></mrow></msqrt></mrow></mfrac></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.882 plus or minus 1.96 times 6.6854.\"><math><semantics><mrow><mtext>1</mtext><mo>.</mo><mtext>882&nbsp;</mtext><mo>±</mo><mtext>&nbsp;1</mtext><mo>.</mo><mtext>96</mtext><mrow><mo>(</mo><mrow><mtext>6</mtext><mo>.</mo><mtext>6854</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><span aria-label=\"1.882 plus or minus 2.262 times 6.6854.\"><math><semantics><mrow><mtext>1</mtext><mo>.</mo><mtext>882&nbsp;</mtext><mo>±</mo><mtext>&nbsp;2</mtext><mo>.</mo><mtext>262&nbsp;</mtext><mrow><mo>(</mo><mrow><mtext>6</mtext><mo>.</mo><mtext>6854</mtext></mrow><mo>)</mo></mrow></mrow></semantics></math></span></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1320",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 39,
+    "question_type": "single_choice",
+    "question_html": "<p>A doctor uses a new diagnostic test to indicate whether a patient has a certain disease. The doctor will prescribe medication for the patient if the doctor believes the patient has the disease, as indicated by the diagnostic test. The situation is similar to using a null hypothesis and an alternative hypothesis to decide whether to prescribe the medication. The hypotheses can be stated as follows.</p><p class=\"text-center\"><span aria-label=\"H sub 0\"><math><semantics><mrow><msub><mtext>H</mtext><mn>0</mn></msub></mrow></semantics></math></span> : The patient does not have the disease.</p><p class=\"text-center\"><span aria-label=\"H sub a\"><math><semantics><mrow><msub><mtext>H</mtext><mtext>a</mtext></msub></mrow></semantics></math></span> : The patient has the disease.</p><p>Which of the following best describes the power of the test?</p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability that the new test is better than an older test to indicate whether a patient has the disease </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability that the new test indicates the disease in a patient who has the disease </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability that the new test indicates the disease in a patient who does not have the disease </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability that the new test does not indicate the disease in a patient who has the disease </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>The probability that the new test does not indicate the disease in a patient who does not have the disease</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": [
+        "mathtype_annotation_removed"
+      ]
+    }
+  },
+  {
+    "question_id": "1233",
+    "exam_id": "statistics-2018-intl",
+    "section_id": "mcq-1",
+    "sequence_in_exam": 40,
+    "question_type": "single_choice",
+    "question_html": "<p>To investigate the relationship between age and preference for two mayoral candidates in an upcoming election, a random sample of city residents was surveyed. The residents were asked which candidate they preferred, and each resident was classified into one of three age-groups. The test statistic for the appropriate hypothesis test was 3.7408. Approximately what is the probability that the observed responses would be as far or farther from the expected responses if there is no association between age-group and preference? </p>",
+    "options": [
+      {
+        "key": "A",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.0001 </p></div>"
+      },
+      {
+        "key": "B",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.1541 </p></div>"
+      },
+      {
+        "key": "C",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.2908 </p></div>"
+      },
+      {
+        "key": "D",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.5873 </p></div>"
+      },
+      {
+        "key": "E",
+        "html": "<span class=\"choiceNum\"></span><div class=\"choiceTxt\"><p>0.7117</p></div>"
+      }
+    ],
+    "correct_answer": "",
+    "unit": "",
+    "metadata": {
+      "source_priority_used": "raw",
+      "source_refs": [
+        "C:\\Users\\25472\\projects\\AP-Learning-Web\\database\\01_raw\\json\\统计学__AP 统计 2018年国际卷__1902622413633196032.json"
+      ],
+      "review_flags": []
+    }
+  }
+]

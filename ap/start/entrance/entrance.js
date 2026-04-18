@@ -1,5 +1,6 @@
 import {
   ensureStateShape,
+  loadExamShellData,
   loadState,
   persistState
 } from "../../exam/mock-config.js";
@@ -16,10 +17,7 @@ init().catch((error) => {
 async function init() {
   if (!examId) throw new Error("Missing examId");
 
-  const response = await fetch(window.sitePath(`/mock-data/ap-exam-${examId}.json`));
-  if (!response.ok) throw new Error("Missing local exam data");
-
-  const exam = await response.json();
+  const exam = await loadExamShellData(examId);
   const state = loadState(examId);
   if (!state) throw new Error("No local start state found");
 
@@ -36,10 +34,10 @@ async function init() {
 
   // 计算总时间（所有模块）
   const totalMinutes = (exam.sections || []).reduce((sum, s) => {
-    const t = s.time_limit_minutes;
+    const t = s.limitMinutes ?? s.time_limit_minutes;
     return sum + (typeof t === 'number' ? t : 0);
   }, 0);
-  const sectionMinutes = section?.time_limit_minutes || 0;
+  const sectionMinutes = section?.limitMinutes ?? section?.time_limit_minutes ?? 0;
 
   // 规则说明文字
   const directions = section?.directions

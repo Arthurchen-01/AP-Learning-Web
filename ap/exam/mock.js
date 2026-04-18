@@ -48,9 +48,9 @@ function loadKatex() {
 
 function normalizeLatexForKatex(html) {
   return html
-    .replace(/egin\{tabular\}\{([^}]*)\}([\s\S]*?)\end\{tabular\}/g, (_, cols, body) => "$$egin{array}{" + cols + "}" + body + "\end{array}$$")
-    .replace(/egin\{tabular\}/g, "egin{array}")
-    .replace(/\end\{tabular\}/g, "\end{array}");
+    .replace(/\\begin\{tabular\}\{([^}]*)\}([\s\S]*?)\\end\{tabular\}/g, (_, cols, body) => `$$\\begin{array}{${cols}}${body}\\end{array}$$`)
+    .replace(/\\begin\{tabular\}/g, "\\begin{array}")
+    .replace(/\\end\{tabular\}/g, "\\end{array}");
 }
 
 function sanitizeImportedHtml(value) {
@@ -78,6 +78,31 @@ function formatText(value) {
   return escapeHtml(cleaned).replace(/\n/g, "<br>");
 }
 
+function replaceBrokenImage(image) {
+  if (!image || image.dataset.fallbackApplied === "true") {
+    return;
+  }
+  const altText = String(image.getAttribute("alt") || "Figure unavailable.").trim();
+  const fallback = document.createElement("div");
+  fallback.className = "image-fallback";
+  fallback.textContent = altText;
+  image.dataset.fallbackApplied = "true";
+  image.replaceWith(fallback);
+}
+
+function attachImageFallbacks() {
+  document.querySelectorAll(".question-text img, .option-copy img").forEach((image) => {
+    if (image.dataset.fallbackBound === "true") {
+      return;
+    }
+    image.dataset.fallbackBound = "true";
+    image.addEventListener("error", () => replaceBrokenImage(image), { once: true });
+    if (image.complete && image.naturalWidth === 0) {
+      replaceBrokenImage(image);
+    }
+  });
+}
+
 async function renderMathAfterMount() {
   await loadKatex();
   if (!window.katex || !window.renderMathInElement) return;
@@ -85,18 +110,15 @@ async function renderMathAfterMount() {
   document.querySelectorAll(".question-text, .option-copy, .frq-part-content").forEach(el => {
     if (el.dataset.mathRendered) return;
     el.dataset.mathRendered = "true";
-    // Skip MathML
-    if (el.querySelector("math") || el.innerHTML.includes("<math")) return;
-    // Normalize LaTeX for KaTeX
     el.innerHTML = normalizeLatexForKatex(el.innerHTML);
-    // Auto-render $...$ and $$...$$
     window.renderMathInElement(el, {
       delimiters: [
         { left: "$$", right: "$$", display: true },
         { left: "$", right: "$", display: false },
-        { left: "\(", right: "\)", display: false },
-        { left: "\[", right: "\]", display: true }
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
       ],
+      ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code", "math"],
       throwOnError: false,
       strict: "ignore"
     });
@@ -105,7 +127,7 @@ async function renderMathAfterMount() {
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl"]);
+const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl"]);
 const CALC_BC_TRUNK_CONTRACT_PATH = "/v2/data/contracts/ap-calculus-bc-trunk-contract.json";
 
 function getBranchMappingPath() {
@@ -115,6 +137,9 @@ function getBranchMappingPath() {
   }
   if (examIdStr === "2016Intl" || examIdStr === "calc-bc-2016-intl") {
     return "/v2/data/calc-bc-2016-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "2015Intl" || examIdStr === "calc-bc-2015-intl") {
+    return "/v2/data/calc-bc-2015-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -140,11 +165,17 @@ async function init() {
   answerKeyMap = await loadAnswerKeys();
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
+  let stateChanged = false;
   if (!state.sectionStates[state.sectionIndex]) {
     state.sectionIndex = 0;
+    stateChanged = true;
   }
   if (state.sectionStates[state.sectionIndex].status === "locked") {
     state.sectionStates[state.sectionIndex].status = "active";
+    stateChanged = true;
+  }
+  if (stateChanged) {
+    persistState(examId, state);
   }
   bindHandlers();
   render();
@@ -215,6 +246,7 @@ function handleClick(event) {
       'You can start over from here. Your answer records for this exam will be lost after this operation. Are you sure?',
       () => {
         localStorage.removeItem(storageKey(examId));
+        localStorage.removeItem(`mokaoai-local-mock:${examId}`);
         window.location.href = window.sitePath(`/ap/start/?examId=${encodeURIComponent(examId)}`);
       }
     );
@@ -341,6 +373,13 @@ function handleChange(event) {
 }
 
 function handleInput(event) {
+  const scratchpad = event.target.closest(".scratchpad");
+  if (scratchpad) {
+    sectionState().scratchpad = scratchpad.value;
+    persistState(examId, state);
+    return;
+  }
+
   const question = currentQuestion();
   if (!question || question.type !== "frq") {
     return;
@@ -382,10 +421,10 @@ function startTimer() {
     if (!state.startConfig.timekeepingModeOn) {
       return;
     }
-    if (!["question", "review", "module-end"].includes(state.stage)) {
+    if (!["question", "review"].includes(state.stage)) {
       return;
     }
-    if (sectionState().status !== "active" && state.stage !== "module-end") {
+    if (sectionState().status !== "active") {
       return;
     }
     sectionState().timeRemainingSec -= 1;
@@ -724,6 +763,8 @@ function formatSequenceSummary(sequences) {
 }
 
 const EXAM_ID_SLUG_MAP = {
+  '2015Intl': 'calc-bc-2015-intl',
+  'calc-bc-2015-intl': 'calc-bc-2015-intl',
   '1902622411338911744': 'calc-bc-2017-intl',
   'calc-bc-2017-intl': 'calc-bc-2017-intl',
   '1902622411800285184': 'calc-bc-2018-intl',
@@ -857,6 +898,7 @@ function render() {
   } else {
     renderExam();
   }
+  attachImageFallbacks();
   renderMathAfterMount();
 }
 
@@ -1022,7 +1064,7 @@ function renderOptions(question, answer) {
               value="${escapeHtml(option.key)}"
               ${selected ? "checked" : ""}>
             <span class="option-key">${escapeHtml(option.key)}</span>
-            <span class="option-copy">${formatText(option.content || option.text)}</span>
+            <div class="option-copy">${formatText(option.content || option.text)}</div>
           </label>
         `;
       }).join("")}
@@ -1208,6 +1250,18 @@ function renderResults() {
           <button class="secondary-button inline-button" type="button" data-action="restart-exam">Start Again</button>
         </div>
       </section>
+      <div class="modal-shell" id="confirm-shell" style="display:none;">
+        <section class="modal-card">
+          <div class="panel-head">
+            <strong id="confirm-title"></strong>
+          </div>
+          <p class="modal-copy" id="confirm-body"></p>
+          <div class="action-row">
+            <button class="secondary-button inline-button" type="button" id="confirm-cancel">Cancel</button>
+            <button class="primary-button inline-button" type="button" id="confirm-ok">Start Again</button>
+          </div>
+        </section>
+      </div>
     </div>
   `;
 }

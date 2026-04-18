@@ -1,0 +1,985 @@
+{
+  "version": "1.0.0",
+  "subjectSlug": "ap_calculus_bc",
+  "examId": "calc-bc-2018-intl",
+  "mainModelId": "calc-bc-breakthrough-core",
+  "modelType": "single-route",
+  "breakthroughVersion": "2026-04-17-v2",
+  "mappingSource": "manual-builder-v1",
+  "coverage": {
+    "mappedQuestionCount": 69,
+    "totalQuestionCount": 69,
+    "mappedSequenceRanges": [
+      "1-69"
+    ]
+  },
+  "mappings": [
+    {
+      "questionId": "q1",
+      "sequenceInExam": 1,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-rules",
+      "branchIds": [
+        "branch-derivative-rules"
+      ],
+      "primarySkillId": "skill-derivative-basic-rules",
+      "skillIds": [
+        "skill-derivative-basic-rules"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q2",
+      "sequenceInExam": 2,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-antiderivative-basic-forms",
+      "skillIds": [
+        "skill-antiderivative-basic-forms"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q3",
+      "sequenceInExam": 3,
+      "trunkId": "trunk-limits",
+      "branchId": "branch-limit-evaluation",
+      "branchIds": [
+        "branch-limit-evaluation"
+      ],
+      "primarySkillId": "skill-limit-one-sided",
+      "skillIds": [
+        "skill-limit-one-sided"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q4",
+      "sequenceInExam": 4,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-u-substitution-patterns",
+      "skillIds": [
+        "skill-u-substitution-patterns"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q5",
+      "sequenceInExam": 5,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-riemann-sum-setup",
+      "skillIds": [
+        "skill-riemann-sum-setup"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "5197",
+      "sequenceInExam": 6,
+      "trunkId": "trunk-series",
+      "branchId": "branch-sequence-series-convergence",
+      "branchIds": [
+        "branch-sequence-series-convergence"
+      ],
+      "primarySkillId": "skill-series-convergence",
+      "skillIds": [
+        "skill-series-convergence"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q7",
+      "sequenceInExam": 7,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-difference-quotient-limit",
+      "skillIds": [
+        "skill-difference-quotient-limit"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q8",
+      "sequenceInExam": 8,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q9",
+      "sequenceInExam": 9,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "5198",
+      "sequenceInExam": 10,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-series",
+      "skillIds": [
+        "skill-taylor-series"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q11",
+      "sequenceInExam": 11,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-antiderivative-basic-forms",
+      "skillIds": [
+        "skill-antiderivative-basic-forms"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q12",
+      "sequenceInExam": 12,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-rules",
+      "branchIds": [
+        "branch-derivative-rules"
+      ],
+      "primarySkillId": "skill-derivative-chain-product",
+      "skillIds": [
+        "skill-derivative-chain-product"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q13",
+      "sequenceInExam": 13,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-first-derivative-sign",
+      "skillIds": [
+        "skill-first-derivative-sign",
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q14",
+      "sequenceInExam": 14,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-first-derivative-sign",
+      "skillIds": [
+        "skill-first-derivative-sign"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q15",
+      "sequenceInExam": 15,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q16",
+      "sequenceInExam": 16,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-antiderivative-basic-forms",
+      "skillIds": [
+        "skill-antiderivative-basic-forms"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q17",
+      "sequenceInExam": 17,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q18",
+      "sequenceInExam": 18,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-accumulation-function-derivative",
+      "skillIds": [
+        "skill-accumulation-function-derivative"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q19",
+      "sequenceInExam": 19,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-rules",
+      "branchIds": [
+        "branch-derivative-rules"
+      ],
+      "primarySkillId": "skill-derivative-chain-product",
+      "skillIds": [
+        "skill-derivative-chain-product"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q20",
+      "sequenceInExam": 20,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q21",
+      "sequenceInExam": 21,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-antiderivative-basic-forms",
+      "skillIds": [
+        "skill-antiderivative-basic-forms"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "2818",
+      "sequenceInExam": 22,
+      "trunkId": "trunk-series",
+      "branchId": "branch-sequence-series-convergence",
+      "branchIds": [
+        "branch-sequence-series-convergence"
+      ],
+      "primarySkillId": "skill-series-convergence-tests",
+      "skillIds": [
+        "skill-series-convergence-tests"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q23",
+      "sequenceInExam": 23,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "4048",
+      "sequenceInExam": 24,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-antiderivative-techniques",
+      "branchIds": [
+        "branch-antiderivative-techniques"
+      ],
+      "primarySkillId": "skill-antiderivative-basic-forms",
+      "skillIds": [
+        "skill-antiderivative-basic-forms"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q25",
+      "sequenceInExam": 25,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q26",
+      "sequenceInExam": 26,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-first-derivative-sign",
+      "skillIds": [
+        "skill-first-derivative-sign"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "5127",
+      "sequenceInExam": 27,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "3578",
+      "sequenceInExam": 28,
+      "trunkId": "trunk-series",
+      "branchId": "branch-sequence-series-convergence",
+      "branchIds": [
+        "branch-sequence-series-convergence"
+      ],
+      "primarySkillId": "skill-improper-integral-convergence",
+      "skillIds": [
+        "skill-improper-integral-convergence"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "5180",
+      "sequenceInExam": 29,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "3711",
+      "sequenceInExam": 30,
+      "trunkId": "trunk-series",
+      "branchId": "branch-power-series-representation",
+      "branchIds": [
+        "branch-power-series-representation"
+      ],
+      "primarySkillId": "skill-power-series-convergence",
+      "skillIds": [
+        "skill-power-series-convergence"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q31",
+      "sequenceInExam": 31,
+      "trunkId": "trunk-limits",
+      "branchId": "branch-limit-continuity-analysis",
+      "branchIds": [
+        "branch-limit-continuity-analysis"
+      ],
+      "primarySkillId": "skill-limit-behavior-interpretation",
+      "skillIds": [
+        "skill-limit-behavior-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q32",
+      "sequenceInExam": 32,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q33",
+      "sequenceInExam": 33,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q34",
+      "sequenceInExam": 34,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q35",
+      "sequenceInExam": 35,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-first-derivative-sign",
+      "skillIds": [
+        "skill-first-derivative-sign"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q36",
+      "sequenceInExam": 36,
+      "trunkId": "trunk-limits",
+      "branchId": "branch-limit-continuity-analysis",
+      "branchIds": [
+        "branch-limit-continuity-analysis"
+      ],
+      "primarySkillId": "skill-continuity-classification",
+      "skillIds": [
+        "skill-continuity-classification"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q37",
+      "sequenceInExam": 37,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-rules",
+      "branchIds": [
+        "branch-derivative-rules"
+      ],
+      "primarySkillId": "skill-derivative-basic-rules",
+      "skillIds": [
+        "skill-derivative-basic-rules"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q38",
+      "sequenceInExam": 38,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-rules",
+      "branchIds": [
+        "branch-derivative-rules"
+      ],
+      "primarySkillId": "skill-derivative-chain-product",
+      "skillIds": [
+        "skill-derivative-chain-product"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "q39",
+      "sequenceInExam": 39,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q40",
+      "sequenceInExam": 40,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q41",
+      "sequenceInExam": 41,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "q42",
+      "sequenceInExam": 42,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "3164",
+      "sequenceInExam": 43,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "5248",
+      "sequenceInExam": 44,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-polynomial-construction",
+      "skillIds": [
+        "skill-taylor-polynomial-construction"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "2271",
+      "sequenceInExam": 45,
+      "trunkId": "trunk-series",
+      "branchId": "branch-sequence-series-convergence",
+      "branchIds": [
+        "branch-sequence-series-convergence"
+      ],
+      "primarySkillId": "skill-convergence-classification",
+      "skillIds": [
+        "skill-convergence-classification"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "frq-2018-1-a",
+      "sequenceInExam": 46,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-1-b",
+      "sequenceInExam": 47,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-1-c",
+      "sequenceInExam": 48,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-1-d",
+      "sequenceInExam": 49,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-accumulation-riemann",
+      "branchIds": [
+        "branch-accumulation-riemann"
+      ],
+      "primarySkillId": "skill-accumulation-context-modeling",
+      "skillIds": [
+        "skill-accumulation-context-modeling"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-2-a",
+      "sequenceInExam": 50,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-2-b",
+      "sequenceInExam": 51,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-2-c",
+      "sequenceInExam": 52,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-2-d",
+      "sequenceInExam": 53,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-3-a",
+      "sequenceInExam": 54,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-3-b",
+      "sequenceInExam": 55,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-3-c",
+      "sequenceInExam": 56,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-3-d",
+      "sequenceInExam": 57,
+      "trunkId": "trunk-integrals",
+      "branchId": "branch-fundamental-theorem-modeling",
+      "branchIds": [
+        "branch-fundamental-theorem-modeling"
+      ],
+      "primarySkillId": "skill-ftc-evaluation",
+      "skillIds": [
+        "skill-ftc-evaluation"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-4-a",
+      "sequenceInExam": 58,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-4-b",
+      "sequenceInExam": 59,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-4-c",
+      "sequenceInExam": 60,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-4-d",
+      "sequenceInExam": 61,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-curve-analysis",
+      "branchIds": [
+        "branch-curve-analysis"
+      ],
+      "primarySkillId": "skill-second-derivative-concavity",
+      "skillIds": [
+        "skill-second-derivative-concavity"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-5-a",
+      "sequenceInExam": 62,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "frq-2018-5-b",
+      "sequenceInExam": 63,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "frq-2018-5-c",
+      "sequenceInExam": 64,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "frq-2018-5-d",
+      "sequenceInExam": 65,
+      "trunkId": "trunk-derivatives",
+      "branchId": "branch-derivative-interpretation",
+      "branchIds": [
+        "branch-derivative-interpretation"
+      ],
+      "primarySkillId": "skill-rate-of-change-interpretation",
+      "skillIds": [
+        "skill-rate-of-change-interpretation"
+      ],
+      "mappingConfidence": "medium"
+    },
+    {
+      "questionId": "frq-2018-6-a",
+      "sequenceInExam": 66,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-series",
+      "skillIds": [
+        "skill-taylor-series"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-6-b",
+      "sequenceInExam": 67,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-series",
+      "skillIds": [
+        "skill-taylor-series"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-6-c",
+      "sequenceInExam": 68,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-series",
+      "skillIds": [
+        "skill-taylor-series"
+      ],
+      "mappingConfidence": "high"
+    },
+    {
+      "questionId": "frq-2018-6-d",
+      "sequenceInExam": 69,
+      "trunkId": "trunk-series",
+      "branchId": "branch-taylor-approximation",
+      "branchIds": [
+        "branch-taylor-approximation"
+      ],
+      "primarySkillId": "skill-taylor-series",
+      "skillIds": [
+        "skill-taylor-series"
+      ],
+      "mappingConfidence": "high"
+    }
+  ]
+}
