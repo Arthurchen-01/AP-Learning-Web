@@ -38,7 +38,7 @@
             },
             {
               "key": "D",
-              "content": "36 $$ \\begin{gathered} 2 x \\cdot \\frac{\\sqrt{x+1}+x^{2} \\cdot \\frac{1}{2} \\frac{1}{\\sqrt{x+1}}}{6 \\cdot 2+9 \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}} \\\\ 12+\\frac{9}{4}=\\frac{57}{4} \\end{gathered} $$"
+              "content": "36 $$ \\begin{gathered} 2 x \\cdot \\frac{ qrt{x+1}+x^{2} \\cdot \\frac{1}{2} \\frac{1}{ qrt{x+1}}}{6 \\cdot 2+9 \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}} \\\\ 12+\\frac{9}{4}=\\frac{57}{4} \\end{gathered} $$"
             }
           ],
           "answer": "",
@@ -215,19 +215,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=3}^{\\infty} \\frac{1}{n}$"
+              "content": "$ um_{n=3}^{\\infty} \\frac{1}{n}$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=3}^{\\infty} \\frac{1}{n+\\sqrt{n}}$"
+              "content": "$ um_{n=3}^{\\infty} \\frac{1}{n+ qrt{n}}$"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=3}^{\\infty} \\frac{1}{n^{2}}$"
+              "content": "$ um_{n=3}^{\\infty} \\frac{1}{n^{2}}$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=3}^{\\infty} \\ln n$"
+              "content": "$ um_{n=3}^{\\infty} \\ln n$"
             }
           ],
           "answer": "",
@@ -281,7 +281,7 @@
             },
             {
               "key": "D",
-              "content": "$y=\\sqrt{49-6 x}$"
+              "content": "$y= qrt{49-6 x}$"
             }
           ],
           "answer": "",
@@ -327,7 +327,7 @@
             },
             {
               "key": "B",
-              "content": "$\\frac{\\sin x}{x}$"
+              "content": "$\\frac{ in x}{x}$"
             },
             {
               "key": "C",
@@ -408,7 +408,7 @@
             },
             {
               "key": "B",
-              "content": "$\\sqrt{33}$"
+              "content": "$ qrt{33}$"
             },
             {
               "key": "C",
@@ -431,19 +431,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{-\\pi / 4}^{\\pi / 4} \\sqrt{1-\\tan x} d x$"
+              "content": "$\\int_{-\\pi / 4}^{\\pi / 4}  qrt{1-\\tan x} d x$"
             },
             {
               "key": "B",
-              "content": "$\\int_{-\\pi / 4}^{\\pi / 4} \\sqrt{1+\\tan ^{2} x} d x$"
+              "content": "$\\int_{-\\pi / 4}^{\\pi / 4}  qrt{1+\\tan ^{2} x} d x$"
             },
             {
               "key": "C",
-              "content": "$\\int_{-\\pi / 4}^{\\pi / 4} \\sqrt{1+\\sec ^{2} x} d x$"
+              "content": "$\\int_{-\\pi / 4}^{\\pi / 4}  qrt{1+ ec ^{2} x} d x$"
             },
             {
               "key": "D",
-              "content": "$\\int_{-\\pi / 4}^{\\pi / 4} \\sqrt{1+\\sec ^{4} x} d x$"
+              "content": "$\\int_{-\\pi / 4}^{\\pi / 4}  qrt{1+ ec ^{4} x} d x$"
             }
           ],
           "answer": "",
@@ -485,19 +485,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=0}^{\\infty} \\frac{1}{n!}$"
+              "content": "$ um_{n=0}^{\\infty} \\frac{1}{n!}$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{n!}$"
+              "content": "$ um_{n=0}^{\\infty} \\frac{(-1)^{n}}{n!}$"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=0}^{n} \\frac{(-1)^{n}}{(2 n)^{n}}$"
+              "content": "$ um_{n=0}^{n} \\frac{(-1)^{n}}{(2 n)^{n}}$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^{n+1}}{(2 n+1)!}$"
+              "content": "$ um_{n=0}^{\\infty} \\frac{(-1)^{n+1}}{(2 n+1)!}$"
             }
           ],
           "answer": "",
@@ -605,7 +605,7 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{1}{4}$ \\begin{tabular}{|c|c|c|c|c|} \\hline$x$ & 0 & 2 & 3 & 5 \\\\ \\hline$f(x)$ & 2 & 3 & 6 & 12 \\\\ \\hline \\end{tabular}"
+              "content": "$\\frac{1}{4}$"
             }
           ],
           "answer": "",
@@ -647,19 +647,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} r^{2 n}}{(2 n)!}$"
+              "content": "$ um_{n=0}^{\\infty} \\frac{(-1)^{n} r^{2 n}}{(2 n)!}$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^{n} x^{4 n}}{(2 n)!}$"
+              "content": "$ um_{n=0}^{\\infty} \\frac{(-1)^{n} x^{4 n}}{(2 n)!}$"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n-0}^{\\infty} \\frac{(-1)^{n} x^{4 n+1}}{(4 n+1)(2 n)!}$"
+              "content": "$ um_{n-0}^{\\infty} \\frac{(-1)^{n} x^{4 n+1}}{(4 n+1)(2 n)!}$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=0}^{\\pi} \\frac{(-1)^{n}(4 n) x^{4 n-1}}{(2 n)!}$"
+              "content": "$ um_{n=0}^{\\pi} \\frac{(-1)^{n}(4 n) x^{4 n-1}}{(2 n)!}$"
             }
           ],
           "answer": "",

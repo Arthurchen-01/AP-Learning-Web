@@ -404,15 +404,15 @@
           "options": [
             {
               "key": "A",
-              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2-x}}$</div>"
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{ qrt{2-x}}$</div>"
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{1-x^{2}}}$</div>"
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{ qrt{1-x^{2}}}$</div>"
             },
             {
               "key": "C",
-              "content": "<div class=\"choiceTxt\">$\\frac{1}{\\sqrt{2 x-x^{2}}}$</div>"
+              "content": "<div class=\"choiceTxt\">$\\frac{1}{ qrt{2 x-x^{2}}}$</div>"
             },
             {
               "key": "D",
@@ -435,7 +435,7 @@
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">The series converges by limit comparison to the series $\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}$.</div>"
+              "content": "<div class=\"choiceTxt\">The series converges by limit comparison to the series $ um_{n=1}^{\\infty} \\frac{1}{n^{3}}$.</div>"
             },
             {
               "key": "C",
@@ -443,7 +443,7 @@
             },
             {
               "key": "D",
-              "content": "<div class=\"choiceTxt\">The series diverges by limit comparison to the series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$.</div>"
+              "content": "<div class=\"choiceTxt\">The series diverges by limit comparison to the series $ um_{n=1}^{\\infty} \\frac{1}{n}$.</div>"
             }
           ],
           "answer": "",
@@ -458,11 +458,11 @@
           "options": [
             {
               "key": "A",
-              "content": "<div class=\"choiceTxt\">$y=2+\\sin \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
+              "content": "<div class=\"choiceTxt\">$y=2+ in \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">$y=2+\\frac{1}{\\pi x} \\sin \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
+              "content": "<div class=\"choiceTxt\">$y=2+\\frac{1}{\\pi x}  in \\left(\\frac{\\pi}{2} x^{2}\\right)$</div>"
             },
             {
               "key": "C",
@@ -620,19 +620,19 @@
           "options": [
             {
               "key": "A",
-              "content": "<div class=\"choiceTxt\">$y=\\frac{x+2 \\sin x}{x-2}$</div>"
+              "content": "<div class=\"choiceTxt\">$y=\\frac{x+2  in x}{x-2}$</div>"
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+\\sin x}{x^{2}}$</div>"
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+ in x}{x^{2}}$</div>"
             },
             {
               "key": "C",
-              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+\\sin x}{4-x^{2}}$</div>"
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2 x^{2}+ in x}{4-x^{2}}$</div>"
             },
             {
               "key": "D",
-              "content": "<div class=\"choiceTxt\">$y=\\frac{2^{x}+2 \\sin x}{2^{x}}$</div>"
+              "content": "<div class=\"choiceTxt\">$y=\\frac{2^{x}+2  in x}{2^{x}}$</div>"
             }
           ],
           "answer": "",
@@ -651,15 +651,15 @@
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{(2 x-1)^{2}} d x$</div>"
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3}  qrt{(2 x-1)^{2}} d x$</div>"
             },
             {
               "key": "C",
-              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{1+\\left(x^{2}-2 x\\right)^{2}} d x$</div>"
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3}  qrt{1+\\left(x^{2}-2 x\\right)^{2}} d x$</div>"
             },
             {
               "key": "D",
-              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3} \\sqrt{1+(2 x-2)^{2}} d x$</div>"
+              "content": "<div class=\"choiceTxt\">$4+\\int_{-1}^{3}  qrt{1+(2 x-2)^{2}} d x$</div>"
             }
           ],
           "answer": "",
@@ -813,7 +813,7 @@
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">$\\frac{\\sqrt{3}}{2}$</div>"
+              "content": "<div class=\"choiceTxt\">$\\frac{ qrt{3}}{2}$</div>"
             },
             {
               "key": "C",
@@ -971,19 +971,19 @@
           "options": [
             {
               "key": "A",
-              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} a_{n}$ converges.</div>"
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $ um_{n=1}^{\\infty} a_{n}$ converges.</div>"
             },
             {
               "key": "B",
-              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} a_{n}$ diverges.</div>"
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $ um_{n=1}^{\\infty} a_{n}$ diverges.</div>"
             },
             {
               "key": "C",
-              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $\\sum_{n=1}^{\\infty} a_{n}$ converges.</div>"
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $ um_{n=1}^{\\infty} a_{n}$ converges.</div>"
             },
             {
               "key": "D",
-              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $\\sum_{n=1}^{\\infty} a_{n}$ diverges.</div>"
+              "content": "<div class=\"choiceTxt\">If $\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{1}{2}$, then $ um_{n=1}^{\\infty} a_{n}$ diverges.</div>"
             }
           ],
           "answer": "",
@@ -1249,7 +1249,7 @@
             },
             {
               "key": "C",
-              "content": "<div class=\"choiceTxt\">Let $w$ be the function defined by $w(t)=\\left\\{\\begin{array}{ll}f(t) & \\text { for } 0 \\leq t \\leq 20 \\\\ g(t) & \\text { for } 20<t \\leq 45\\end{array}\\right.$. Find $\\lim _{t \\rightarrow 20^{+}} w(t)$. Is $w$ continuous at $t=20$ ? Use the definition of continuity to justify your answer.</div>"
+              "content": "<div class=\"choiceTxt\">Let $w$ be the function defined by $w(t)=\\left\\{"
             },
             {
               "key": "D",
@@ -1280,7 +1280,7 @@
             },
             {
               "key": "D",
-              "content": "<div class=\"choiceTxt\">Let $g$ be the function defined by $g(x)=x \\cdot f(x)$. Is $g$ increasing or decreasing at $x=1$ ? Give a reason for your answer. Let $f$ be a continuous function defined on the interval $0 \\leq x \\leq 7$. The function $f$ and its derivatives have the properties indicated in the table shown, where DNE indicates the $x$ values at which the derivatives of $f$ do not exist. \\begin{tabular}{|l|l|l|l|l|l|l|l|} \\hline \\multicolumn{8}{|r|}{x $\\quad x=00<x<2 x=22<x<4 x=44<x<7 x=7$} \\\\ \\hline $f(x)$ & -1 & Negative & -4 & Negative & -2 & Negative & 0 \\\\ \\hline $f^{\\prime}(x)$ & DNE & Negative & DNE & Positive & 0 & Positive & DNE \\\\ \\hline $f^{\\prime \\prime}(x)$ & DNE & Positive & DNE & Negative & 0 & Positive & DNE \\\\ \\hline \\end{tabular}</div>"
+              "content": "<div class=\"choiceTxt\">Let $g$ be the function defined by $g(x)=x \\cdot f(x)$. Is $g$ increasing or decreasing at $x=1$ ? Give a reason for your answer. Let $f$ be a continuous function defined on the interval $0 \\leq x \\leq 7$. The function $f$ and its derivatives have the properties indicated in the table shown, where DNE indicates the $x$ values at which the derivatives of $f$ do not exist."
             }
           ],
           "answer": "",

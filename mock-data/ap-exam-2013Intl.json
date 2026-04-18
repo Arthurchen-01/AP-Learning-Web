@@ -57,7 +57,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{15 \\sqrt{x}}{2}-15 x^{2}+C$"
+              "content": "$\\frac{15  qrt{x}}{2}-15 x^{2}+C$"
             },
             {
               "key": "B",
@@ -243,23 +243,23 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{0}^{1} \\sqrt{1+\\frac{4 t^{2}}{9}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{1+\\frac{4 t^{2}}{9}} d t$"
             },
             {
               "key": "B",
-              "content": "$\\int_{0}^{1} \\sqrt{1+4 t^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{1+4 t^{2}} d t$"
             },
             {
               "key": "C",
-              "content": "$\\int_{0}^{1} \\sqrt{3+3 t+t^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{3+3 t+t^{2}} d t$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{1} \\sqrt{9+4 t^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{9+4 t^{2}} d t$"
             },
             {
               "key": "E",
-              "content": "$\\int_{0}^{1} \\sqrt{(2+3 t)^{2}+\\left(1+t^{2}\\right)^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{(2+3 t)^{2}+\\left(1+t^{2}\\right)^{2}} d t$"
             }
           ],
           "answer": "",
@@ -309,7 +309,7 @@
             },
             {
               "key": "B",
-              "content": "$\\sqrt{2}$"
+              "content": "$ qrt{2}$"
             },
             {
               "key": "C",
@@ -317,11 +317,11 @@
             },
             {
               "key": "D",
-              "content": "$\\sqrt{12}$"
+              "content": "$ qrt{12}$"
             },
             {
               "key": "E",
-              "content": "$\\frac{1}{2} \\tan (\\ln \\sqrt{2})$"
+              "content": "$\\frac{1}{2} \\tan (\\ln  qrt{2})$"
             }
           ],
           "answer": "",
@@ -522,15 +522,15 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{\\sqrt{2}}{2}$"
+              "content": "$\\frac{ qrt{2}}{2}$"
             },
             {
               "key": "B",
-              "content": "$\\frac{\\sqrt{3}}{2}$"
+              "content": "$\\frac{ qrt{3}}{2}$"
             },
             {
               "key": "C",
-              "content": "$\\sqrt{3}$"
+              "content": "$ qrt{3}$"
             },
             {
               "key": "D",
@@ -1080,23 +1080,23 @@
           "options": [
             {
               "key": "A",
-              "content": "If $a_{n} \\leq b_{n}$, then $\\sum_{n=1}^{\\infty} b_{n}$ converges."
+              "content": "If $a_{n} \\leq b_{n}$, then $ um_{n=1}^{\\infty} b_{n}$ converges."
             },
             {
               "key": "B",
-              "content": "If $a_{n} \\leq b_{n}$, then $\\sum_{n=1}^{\\infty} b_{n}$ diverges."
+              "content": "If $a_{n} \\leq b_{n}$, then $ um_{n=1}^{\\infty} b_{n}$ diverges."
             },
             {
               "key": "C",
-              "content": "If $b_{n} \\leq a_{n}$, then $\\sum_{n=1}^{\\infty} b_{n}$ converges."
+              "content": "If $b_{n} \\leq a_{n}$, then $ um_{n=1}^{\\infty} b_{n}$ converges."
             },
             {
               "key": "D",
-              "content": "If $b_{n} \\leq a_{n}$, then $\\sum_{n=1}^{\\infty} b_{n}$ diverges."
+              "content": "If $b_{n} \\leq a_{n}$, then $ um_{n=1}^{\\infty} b_{n}$ diverges."
             },
             {
               "key": "E",
-              "content": "If $b_{n} \\leq a_{n}$, then the behavior of $\\sum_{n=1}^{\\infty} b_{n}$ cannot be determined from the information given."
+              "content": "If $b_{n} \\leq a_{n}$, then the behavior of $ um_{n=1}^{\\infty} b_{n}$ cannot be determined from the information given."
             }
           ],
           "answer": "",

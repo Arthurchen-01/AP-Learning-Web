@@ -20,33 +20,6 @@
       "directions": "",
       "questions": [
         {
-          "id": "1",
-          "type": "single",
-          "prompt": "Do you regularly speak or hear the language at home? ◯ Yes ◯ No",
-          "options": [
-            {
-              "key": "A",
-              "content": "state"
-            },
-            {
-              "key": "B",
-              "content": "city"
-            },
-            {
-              "key": "C",
-              "content": "country"
-            },
-            {
-              "key": "D",
-              "content": "continent"
-            }
-          ],
-          "answer": "",
-          "explanation": "",
-          "unit": "",
-          "title": ""
-        },
-        {
           "id": "2",
           "type": "single",
           "prompt": "If $f(x)=\\cos ^{2}(3 x-5)$, then $f^{\\prime}(x)=$",
@@ -57,15 +30,15 @@
             },
             {
               "key": "B",
-              "content": "$-3 \\sin ^{2}(3 x-5)$"
+              "content": "$-3  in ^{2}(3 x-5)$"
             },
             {
               "key": "C",
-              "content": "$-2 \\sin (3 x-5) \\cos (3 x-5)$"
+              "content": "$-2  in (3 x-5) \\cos (3 x-5)$"
             },
             {
               "key": "D",
-              "content": "$-6 \\sin (3 x-5) \\cos (3 x-5)$"
+              "content": "$-6  in (3 x-5) \\cos (3 x-5)$"
             }
           ],
           "answer": "",
@@ -246,15 +219,15 @@
             },
             {
               "key": "B",
-              "content": "$\\int_{0}^{\\pi / 6} \\sqrt{1+\\sin ^{2}(3 x)} d x$"
+              "content": "$\\int_{0}^{\\pi / 6}  qrt{1+ in ^{2}(3 x)} d x$"
             },
             {
               "key": "C",
-              "content": "$\\int_{0}^{\\pi / 6} \\sqrt{1+3 \\cos (3 x)} d x$"
+              "content": "$\\int_{0}^{\\pi / 6}  qrt{1+3 \\cos (3 x)} d x$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{\\pi / 6} \\sqrt{1+9 \\cos ^{2}(3 x)} d x$"
+              "content": "$\\int_{0}^{\\pi / 6}  qrt{1+9 \\cos ^{2}(3 x)} d x$"
             }
           ],
           "answer": "",
@@ -497,7 +470,7 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{50 \\sqrt{5}}{3}$"
+              "content": "$\\frac{50  qrt{5}}{3}$"
             }
           ],
           "answer": "",
@@ -578,7 +551,7 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{16}{3}$ \\begin{tabular}{|l|c|c|c|c|} \\hline Time (weeks) & 0 & 2 & 6 & 10 \\\\ \\hline Level & 210 & 200 & 190 & 180 \\\\ \\hline \\end{tabular}"
+              "content": "$\\frac{16}{3}$"
             }
           ],
           "answer": "",
@@ -786,7 +759,7 @@
             },
             {
               "key": "B",
-              "content": "$\\sqrt{\\frac{40}{3}}$"
+              "content": "$ qrt{\\frac{40}{3}}$"
             },
             {
               "key": "C",
@@ -840,7 +813,7 @@
             },
             {
               "key": "B",
-              "content": "The series diverges by limit comparison to the harmonic series $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+              "content": "The series diverges by limit comparison to the harmonic series $ um_{n=1}^{\\infty} \\frac{1}{n}$."
             },
             {
               "key": "C",
@@ -848,7 +821,7 @@
             },
             {
               "key": "D",
-              "content": "The series converges by limit comparison to the geometric series $\\sum_{n=1}^{\\infty} \\frac{1}{2^{n}}$."
+              "content": "The series converges by limit comparison to the geometric series $ um_{n=1}^{\\infty} \\frac{1}{2^{n}}$."
             }
           ],
           "answer": "",
@@ -1052,19 +1025,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{0}^{2} 3 \\sin \\left(\\frac{\\pi}{2} x\\right) d x$"
+              "content": "$\\int_{0}^{2} 3  in \\left(\\frac{\\pi}{2} x\\right) d x$"
             },
             {
               "key": "B",
-              "content": "$\\quad \\int_{0}^{2} 3 \\sin ^{2}\\left(\\frac{\\pi}{2} x\\right) d x$"
+              "content": "$\\quad \\int_{0}^{2} 3  in ^{2}\\left(\\frac{\\pi}{2} x\\right) d x$"
             },
             {
               "key": "C",
-              "content": "$\\quad \\int_{0}^{2} 3 \\pi \\sin \\left(\\frac{\\pi}{2} x\\right) d x$"
+              "content": "$\\quad \\int_{0}^{2} 3 \\pi  in \\left(\\frac{\\pi}{2} x\\right) d x$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{2} 3 \\pi \\sin ^{2}\\left(\\frac{\\pi}{2} x\\right) d x$"
+              "content": "$\\int_{0}^{2} 3 \\pi  in ^{2}\\left(\\frac{\\pi}{2} x\\right) d x$"
             }
           ],
           "answer": "",

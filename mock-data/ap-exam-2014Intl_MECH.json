@@ -45,12 +45,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "2",
           "type": "single",
-          "prompt": "A student with a mass of 50 kg is standing on a bathroom scale while riding in an elevator. If the reading on the scale is 400 N , which of the following is a correct description of the elevator&#x27;s motion?",
+          "prompt": "A student with a mass of 50 kg is standing on a bathroom scale while riding in an elevator. If the reading on the scale is 400 N , which of the following is a correct description of the elevator's motion?",
           "options": [
             {
               "key": "A",
@@ -70,40 +72,44 @@
             },
             {
               "key": "E",
-              "content": "Moving downward with decreasing speed"
+              "content": "Moving downward with decreasing speed ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-18.jpg?height=310&width=253&top_left_y=684&top_left_x=1415)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "3",
           "type": "single",
-          "prompt": "The system represented above consists of two objects of unequal masses, $M_{1}$ and $M_{2}$, with $M_{1}&gt;M_{2}$. The objects hang from the ends of a cord of negligible mass that passes over a pulley with negligible mass and friction. Which of the following is true about the changes in the gravitational potential energy, $ U$, and kinetic energy, $ K$, of the system soon after the objects are released from rest?",
+          "prompt": "The system represented above consists of two objects of unequal masses, $M_{1}$ and $M_{2}$, with $M_{1}>M_{2}$. The objects hang from the ends of a cord of negligible mass that passes over a pulley with negligible mass and friction. Which of the following is true about the changes in the gravitational potential energy, $\\Delta U$, and kinetic energy, $\\Delta K$, of the system soon after the objects are released from rest?",
           "options": [
             {
               "key": "A",
-              "content": "$ U0$"
+              "content": "$\\Delta U0$"
             },
             {
               "key": "B",
-              "content": "$ U=0$ and $ K&gt;0$"
+              "content": "$\\Delta U=0$ and $\\Delta K>0$"
             },
             {
               "key": "C",
-              "content": "$ U"
+              "content": "$\\Delta U"
             },
             {
               "key": "D",
-              "content": "$ U=0$ and $ K=0$"
+              "content": "$\\Delta U=0$ and $\\Delta K=0$"
             },
             {
               "key": "E",
-              "content": "$ U&gt;0$ and $ K"
+              "content": "$\\Delta U>0$ and $\\Delta K"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "4",
@@ -112,27 +118,60 @@
           "options": [
             {
               "key": "A",
-              "content": "$2.0 ~cm / s$"
+              "content": "$2.0 \\mathrm{~cm} / \\mathrm{s}$"
             },
             {
               "key": "B",
-              "content": "$3.3 ~cm / s$"
+              "content": "$3.3 \\mathrm{~cm} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$4.5 ~cm / s$"
+              "content": "$4.5 \\mathrm{~cm} / \\mathrm{s}$"
             },
             {
               "key": "D",
-              "content": "$5.5 ~cm / s$"
+              "content": "$5.5 \\mathrm{~cm} / \\mathrm{s}$"
             },
             {
               "key": "E",
-              "content": "$7.0 ~cm / s$"
+              "content": "$7.0 \\mathrm{~cm} / \\mathrm{s}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=293&width=1805&top_left_y=407&top_left_x=159\" alt=\"\" /> A tape attached to a moving object was pulled by the object through a marker that put dots on the tape at a constant rate of 10 dots per second for a period of 2.5 s. The figure above shows the marked tape next to a centimeter ruler. Which of the following best represents the graph of the velocity of the object versus time?",
+          "options": [
+            {
+              "key": "A",
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=301&width=396&top_left_y=1218&top_left_x=287\" alt=\"\" />"
+            },
+            {
+              "key": "B",
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=302&width=387&top_left_y=1217&top_left_x=844\" alt=\"\" />"
+            },
+            {
+              "key": "C",
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=301&width=391&top_left_y=1218&top_left_x=1413\" alt=\"\" />"
+            },
+            {
+              "key": "D",
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=303&width=396&top_left_y=1558&top_left_x=287\" alt=\"\" />"
+            },
+            {
+              "key": "E",
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-19.jpg?height=303&width=394&top_left_y=1558&top_left_x=839\" alt=\"\" />"
+            }
+          ],
+          "answer": "",
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "6",
@@ -141,27 +180,29 @@
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=297&width=404&top_left_y=222&top_left_x=287)"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=293&width=399&top_left_y=224&top_left_x=840)"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=295&width=402&top_left_y=224&top_left_x=1407)"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=398&top_left_y=558&top_left_x=289)"
             },
             {
               "key": "E",
-              "content": "A turntable with mass $m$, radius $R$, and rotational inertia $mR^{2}{2}$ initially rotates freely about an axis through its center at constant angular speed with negligible friction. A piece of clay, also of mass $m$, falls vertically onto the turntable, as shown above, and sticks to it at point $P$, a distance $R{2}$ from the center of rotation."
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-20.jpg?height=289&width=397&top_left_y=558&top_left_x=840)   ection*{Questions 7-8} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=316&width=471&top_left_y=235&top_left_x=348)  A turntable with mass $m$, radius $R$, and rotational inertia $\\frac{m R^{2}}{2}$ initially rotates freely about an axis through its center at constant angular speed with negligible friction. A piece of clay, also of mass $m$, falls vertically onto the turntable, as shown above, and sticks to it at point $P$, a distance $\\frac{R}{2}$ from the center of rotation."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
@@ -170,32 +211,34 @@
           "options": [
             {
               "key": "A",
-              "content": "$1{4} mR^{2}$"
+              "content": "$\\frac{1}{4} m R^{2}$"
             },
             {
               "key": "B",
-              "content": "$1{2} mR^{2}$"
+              "content": "$\\frac{1}{2} m R^{2}$"
             },
             {
               "key": "C",
-              "content": "$3{4} mR^{2}$"
+              "content": "$\\frac{3}{4} m R^{2}$"
             },
             {
               "key": "D",
-              "content": "$mR^{2}$"
+              "content": "$m R^{2}$"
             },
             {
               "key": "E",
-              "content": "$2 mR^{2}$"
+              "content": "$2 m R^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "8",
           "type": "single",
-          "prompt": "What happens to the rotational speed of the turntable and the angular momentum of the clayturntable system about the axis as a result of the Rotational Speed",
+          "prompt": "What happens to the rotational speed of the turntable and the angular momentum of the clayturntable system about the axis as a result of the  Rotational Speed",
           "options": [
             {
               "key": "A",
@@ -215,11 +258,13 @@
             },
             {
               "key": "E",
-              "content": "Decreases collision? Angular Momentum Increases Stays the same Decreases Stays the same Decreases"
+              "content": "Decreases collision?  Angular Momentum Increases Stays the same Decreases Stays the same Decreases"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "动量"
         },
         {
           "id": "9",
@@ -248,7 +293,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "10",
@@ -257,11 +304,11 @@
           "options": [
             {
               "key": "A",
-              "content": "$2 g{3}$"
+              "content": "$\\frac{2 g}{3}$"
             },
             {
               "key": "B",
-              "content": "$3 g{4}$"
+              "content": "$\\frac{3 g}{4}$"
             },
             {
               "key": "C",
@@ -269,15 +316,17 @@
             },
             {
               "key": "D",
-              "content": "$4 g{3}$"
+              "content": "$\\frac{4 g}{3}$"
             },
             {
               "key": "E",
-              "content": "$3 g{2}$"
+              "content": "$\\frac{3 g}{2}$ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=129&width=126&top_left_y=1461&top_left_x=1281) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-21.jpg?height=240&width=316&top_left_y=1411&top_left_x=1495)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
@@ -286,11 +335,11 @@
           "options": [
             {
               "key": "A",
-              "content": "$M{4}$"
+              "content": "$\\frac{M}{4}$"
             },
             {
               "key": "B",
-              "content": "$M{2}$"
+              "content": "$\\frac{M}{2}$"
             },
             {
               "key": "C",
@@ -306,12 +355,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "12",
           "type": "single",
-          "prompt": "A particle moves along a straight line. Its speed in $m / s$ is given by $v=a+bt^{2}$, where $a$ and $b$ are constants and $t$ is time in seconds. How far does the particle move between $t=1 ~s$ and $t=2 ~s$ ?",
+          "prompt": "A particle moves along a straight line. Its speed in $\\mathrm{m} / \\mathrm{s}$ is given by $v=a+b t^{2}$, where $a$ and $b$ are constants and $t$ is time in seconds. How far does the particle move between $t=1 \\mathrm{~s}$ and $t=2 \\mathrm{~s}$ ?",
           "options": [
             {
               "key": "A",
@@ -327,15 +378,17 @@
             },
             {
               "key": "D",
-              "content": "$a+7{3} b$"
+              "content": "$a+\\frac{7}{3} b$"
             },
             {
               "key": "E",
-              "content": "$a+7{2} b$"
+              "content": "$a+\\frac{7}{2} b$ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=206&width=761&top_left_y=863&top_left_x=203)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "13",
@@ -360,40 +413,44 @@
             },
             {
               "key": "E",
-              "content": "Its kinetic energy is a maximum at point $P$. ![figure]( ![figure]("
+              "content": "Its kinetic energy is a maximum at point $P$.  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=234&width=393&top_left_y=159&top_left_x=1117} \\captionsetup{labelformat=empty} \\caption{Before Jump} \\end{figure}  \\begin{figure} \\includegraphics[alt={},max width=\\textwidth]{https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-22.jpg?height=123&width=390&top_left_y=270&top_left_x=1587} \\captionsetup{labelformat=empty} \\caption{After Jump} \\end{figure}"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
           "type": "single",
-          "prompt": "As shown in the figure above, a child of mass 25 kg who is running at a speed of $3 ~m / s$ jumps onto a stationary sled of mass 5 kg on a frozen lake. The speed at which the child and sled begin to slide across the ice is most nearly",
+          "prompt": "As shown in the figure above, a child of mass 25 kg who is running at a speed of $3 \\mathrm{~m} / \\mathrm{s}$ jumps onto a stationary sled of mass 5 kg on a frozen lake. The speed at which the child and sled begin to slide across the ice is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "$0.4 ~m / s$"
+              "content": "$0.4 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "B",
-              "content": "$0.6 ~m / s$"
+              "content": "$0.6 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$1.3 ~m / s$"
+              "content": "$1.3 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "D",
-              "content": "$2.5 ~m / s$"
+              "content": "$2.5 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "E",
-              "content": "$15 ~m / s$"
+              "content": "$15 \\mathrm{~m} / \\mathrm{s}$ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=150&width=593&top_left_y=168&top_left_x=287)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
@@ -402,27 +459,29 @@
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=162&width=598&top_left_y=651&top_left_x=287)"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=165&width=596&top_left_y=852&top_left_x=289)"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1054&top_left_x=289)"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1255&top_left_x=289)"
             },
             {
               "key": "E",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=167&width=596&top_left_y=1457&top_left_x=289) ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=232&width=788&top_left_y=1719&top_left_x=189)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
@@ -447,11 +506,13 @@
             },
             {
               "key": "E",
-              "content": "75 cm"
+              "content": "75 cm ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-23.jpg?height=222&width=503&top_left_y=167&top_left_x=1289)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "17",
@@ -480,7 +541,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "弹簧/振动"
         },
         {
           "id": "18",
@@ -493,23 +556,25 @@
             },
             {
               "key": "B",
-              "content": "$ A / 4$"
+              "content": "$\\pm A / 4$"
             },
             {
               "key": "C",
-              "content": "$ A / 2$"
+              "content": "$\\pm A / 2$"
             },
             {
               "key": "D",
-              "content": "$ A / 2$"
+              "content": "$\\pm A /  qrt{2}$"
             },
             {
               "key": "E",
-              "content": "$ A$"
+              "content": "$\\pm A$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "能量"
         },
         {
           "id": "19",
@@ -534,11 +599,13 @@
             },
             {
               "key": "E",
-              "content": "I, II, and III  Two blocks are stacked on top of each other, as shown in the figure above. The top block, of mass $M$, is attached to a rope that pulls to the left with tension $T_{1}$. The bottom block, of mass $2 M$, is attached to a rope that pulls to the right with tension $T_{2}$. The coefficient of friction between the blocks is $$. The blocks are at rest relative to each other and move to the right at constant speed relative to the frictionless surface."
+              "content": "I, II, and III   ection*{Questions 20-21} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=306&width=746&top_left_y=243&top_left_x=210)  Two blocks are stacked on top of each other, as shown in the figure above. The top block, of mass $M$, is attached to a rope that pulls to the left with tension $T_{1}$. The bottom block, of mass $2 M$, is attached to a rope that pulls to the right with tension $T_{2}$. The coefficient of friction between the blocks is $\\mu$. The blocks are at rest relative to each other and move to the right at constant speed relative to the frictionless surface."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "弹簧/振动"
         },
         {
           "id": "20",
@@ -551,15 +618,15 @@
             },
             {
               "key": "B",
-              "content": "$T_{1}=1{2} T_{2}$"
+              "content": "$T_{1}=\\frac{1}{2} T_{2}$"
             },
             {
               "key": "C",
-              "content": "$T_{1}= T_{2}$"
+              "content": "$T_{1}=\\mu T_{2}$"
             },
             {
               "key": "D",
-              "content": "$T_{1}=1{} T_{2}$"
+              "content": "$T_{1}=\\frac{1}{\\mu} T_{2}$"
             },
             {
               "key": "E",
@@ -567,7 +634,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
@@ -580,86 +649,92 @@
             },
             {
               "key": "B",
-              "content": "$f_{1}=1{2} f_{2}$"
+              "content": "$f_{1}=\\frac{1}{2} f_{2}$"
             },
             {
               "key": "C",
-              "content": "$f_{1}= f_{2}$"
+              "content": "$f_{1}=\\mu f_{2}$"
             },
             {
               "key": "D",
-              "content": "$f_{1}=1{} f_{2}$"
+              "content": "$f_{1}=\\frac{1}{\\mu} f_{2}$"
             },
             {
               "key": "E",
-              "content": "$f_{1}=f_{2}$"
+              "content": "$f_{1}=f_{2}$ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=247&width=365&top_left_y=159&top_left_x=1360)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
         },
         {
           "id": "22",
           "type": "single",
-          "prompt": "A uniform beam of mass $m$ is pivoted at one end and held in equilibrium at an angle $$ by a horizontal wire, as shown above. The tension $T$ in the wire is",
+          "prompt": "A uniform beam of mass $m$ is pivoted at one end and held in equilibrium at an angle $\\theta$ by a horizontal wire, as shown above. The tension $T$ in the wire is",
           "options": [
             {
               "key": "A",
-              "content": "$1{2} mg $"
+              "content": "$\\frac{1}{2} m g \\cot \\theta$"
             },
             {
               "key": "B",
-              "content": "$mg $"
+              "content": "$m g \\cot \\theta$"
             },
             {
               "key": "C",
-              "content": "$mg $"
+              "content": "$m g \\tan \\theta$"
             },
             {
               "key": "D",
-              "content": "$2 mg $"
+              "content": "$2 m g \\tan \\theta$"
             },
             {
               "key": "E",
-              "content": "$mg$"
+              "content": "$m g$ ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-24.jpg?height=371&width=493&top_left_y=1068&top_left_x=1297)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "23",
           "type": "single",
-          "prompt": "A gear containing 20 teeth on its circumference is meshed with a gear containing 60 teeth on its circumference, as shown above. If the angular speed of the 20-tooth gear is $$, what is the angular speed of the 60-tooth gear?",
+          "prompt": "A gear containing 20 teeth on its circumference is meshed with a gear containing 60 teeth on its circumference, as shown above. If the angular speed of the 20-tooth gear is $\\omega$, what is the angular speed of the 60-tooth gear?",
           "options": [
             {
               "key": "A",
-              "content": "${60}$"
+              "content": "$\\frac{\\omega}{60}$"
             },
             {
               "key": "B",
-              "content": "${20}$"
+              "content": "$\\frac{\\omega}{20}$"
             },
             {
               "key": "C",
-              "content": "${3}$"
+              "content": "$\\frac{\\omega}{3}$"
             },
             {
               "key": "D",
-              "content": "$$"
+              "content": "$\\omega$"
             },
             {
               "key": "E",
-              "content": "$3 $"
+              "content": "$3 \\omega$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "24",
           "type": "single",
-          "prompt": "The angular displacement $$ of a rotating wheel is described by the equation $=_{0}+at^{2}-bt^{3}$, where $t$ is time and $_{0}, a$, and $b$ are positive constants. The angular acceleration of the wheel as a function of time $t$ is",
+          "prompt": "The angular displacement $\\theta$ of a rotating wheel is described by the equation $\\theta=\\theta_{0}+a t^{2}-b t^{3}$, where $t$ is time and $\\theta_{0}, a$, and $b$ are positive constants. The angular acceleration of the wheel as a function of time $t$ is",
           "options": [
             {
               "key": "A",
@@ -671,19 +746,21 @@
             },
             {
               "key": "C",
-              "content": "$2 a-6 bt$"
+              "content": "$2 a-6 b t$"
             },
             {
               "key": "D",
-              "content": "$2 at-3 bt^{2}$"
+              "content": "$2 a t-3 b t^{2}$"
             },
             {
               "key": "E",
-              "content": "$_{0} t+1{3} at^{3}-1{4} bt^{4}$  The motion of an object moving along a straight line is described by the graph of velocity $v$ versus time $t$ above."
+              "content": "$\\theta_{0} t+\\frac{1}{3} a t^{3}-\\frac{1}{4} b t^{4}$   ection*{Questions 25-27} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-25.jpg?height=572&width=526&top_left_y=903&top_left_x=321)  The motion of an object moving along a straight line is described by the graph of velocity $v$ versus time $t$ above."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
@@ -712,7 +789,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
@@ -741,7 +820,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
@@ -770,36 +851,40 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
           "type": "single",
-          "prompt": "An object starts from rest and accelerates uniformly in the horizontal direction, moving 32 m during the first 4 s . What are the magnitudes of the object&#x27;s displacement and velocity after it accelerates for the first 3 s &amp; {c} Magnitude of \\\\ Displacement &amp; &amp; Magnitude of \\\\ Velocity \\\\",
+          "prompt": "An object starts from rest and accelerates uniformly in the horizontal direction, moving 32 m during the first 4 s . What are the magnitudes of the object's displacement and velocity after it accelerates for the first 3 s  \\begin{tabular}{lcll}  & \\begin{tabular}{c}  Magnitude of \\\\ Displacement \\end{tabular} & & \\begin{tabular}{l}  Magnitude of \\\\ Velocity \\end{tabular} \\\\",
           "options": [
             {
               "key": "A",
-              "content": "&amp; 24 m &amp; &amp; $24 ~m / s$ \\\\"
+              "content": "& 24 m & & $24 \\mathrm{~m} / \\mathrm{s}$ \\\\"
             },
             {
               "key": "B",
-              "content": "&amp; 24 m &amp; &amp; $18 ~m / s$ \\\\"
+              "content": "& 24 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\"
             },
             {
               "key": "C",
-              "content": "&amp; 18 m &amp; &amp; $18 ~m / s$ \\\\"
+              "content": "& 18 m & & $18 \\mathrm{~m} / \\mathrm{s}$ \\\\"
             },
             {
               "key": "D",
-              "content": "&amp; 18 m &amp; &amp; $12 ~m / s$ \\\\"
+              "content": "& 18 m & & $12 \\mathrm{~m} / \\mathrm{s}$ \\\\"
             },
             {
               "key": "E",
-              "content": "&amp; 8 m &amp; &amp; $12 ~m / s$ tabular"
+              "content": "& 8 m & & $12 \\mathrm{~m} / \\mathrm{s}$ \\end{tabular} ![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-26.jpg?height=246&width=684&top_left_y=151&top_left_x=243)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
@@ -828,28 +913,30 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "30",
           "type": "single",
-          "prompt": "A car rounds a flat curve of radius $R$ with a speed of $v_{0}$. The coefficient of friction between the tires and the road is $$. For the car not to slide on the road, which of the following statements must be true?",
+          "prompt": "A car rounds a flat curve of radius $R$ with a speed of $v_{0}$. The coefficient of friction between the tires and the road is $\\mu$. For the car not to slide on the road, which of the following statements must be true?",
           "options": [
             {
               "key": "A",
-              "content": "The car&#x27;s speed $v_{0}$ cannot be greater than $ gR$."
+              "content": "The car's speed $v_{0}$ cannot be greater than $\\mu g R$."
             },
             {
               "key": "B",
-              "content": "The car&#x27;s speed $v_{0}$ cannot be less than $ gR$."
+              "content": "The car's speed $v_{0}$ cannot be less than $\\mu g R$."
             },
             {
               "key": "C",
-              "content": "The radius $R$ of the car&#x27;s path cannot be greater than $v_{0}^{2} / g$."
+              "content": "The radius $R$ of the car's path cannot be greater than $v_{0}^{2} / \\mu g$."
             },
             {
               "key": "D",
-              "content": "The radius $R$ of the car&#x27;s path cannot be less than $v_{0}^{2} / g$."
+              "content": "The radius $R$ of the car's path cannot be less than $v_{0}^{2} / \\mu g$."
             },
             {
               "key": "E",
@@ -857,7 +944,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
@@ -886,36 +975,40 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
         },
         {
           "id": "32",
           "type": "single",
-          "prompt": "Two objects, $X$ and $Y$, are released from rest at the same height. Object $X$ has three times the mass of object $Y$. Just before reaching the ground, object $Y$ has momentum $p_{Y}$ and kinetic energy $K_{Y}$. If air resistance is negligible, what are the momentum and kinetic energy of object $X$ just before it reaches the ground? &amp; Momentum &amp; &amp; {c} Kinetic \\\\ Energy \\\\ &amp; $p_{Y}$ &amp; &amp; $K_{Y}$ \\\\",
+          "prompt": "Two objects, $X$ and $Y$, are released from rest at the same height. Object $X$ has three times the mass of object $Y$. Just before reaching the ground, object $Y$ has momentum $p_{Y}$ and kinetic energy $K_{Y}$. If air resistance is negligible, what are the momentum and kinetic energy of object $X$ just before it reaches the ground?  \\begin{tabular}{cccc}  & Momentum & & \\begin{tabular}{c}  Kinetic \\\\ Energy \\end{tabular} \\\\ & $p_{Y}$ & & $K_{Y}$ \\\\",
           "options": [
             {
               "key": "A",
-              "content": "&amp; $3 p_{Y}$ &amp; &amp; $3 K_{Y}$ \\\\"
+              "content": "& $3 p_{Y}$ & & $3 K_{Y}$ \\\\"
             },
             {
               "key": "B",
-              "content": "&amp; $3 p_{Y}$ &amp; &amp; $6 K_{Y}$ \\\\"
+              "content": "& $3 p_{Y}$ & & $6 K_{Y}$ \\\\"
             },
             {
               "key": "C",
-              "content": "&amp; &amp; &amp; $3 K_{Y}$ \\\\"
+              "content": "& & & $3 K_{Y}$ \\\\"
             },
             {
               "key": "D",
-              "content": "&amp; $6 p_{Y}$ &amp; &amp; $6 K_{Y}$ \\\\"
+              "content": "& $6 p_{Y}$ & & $6 K_{Y}$ \\\\"
             },
             {
               "key": "E",
-              "content": "&amp; $6 p_{Y}$ &amp; &amp; $6 K_{Y}$ tabular A very light ball is released from rest at time $t=0$ and falls through the air, which provides significant resistance."
+              "content": "& $6 p_{Y}$ & & $6 K_{Y}$ \\end{tabular}   ection*{Questions 33-34}  A very light ball is released from rest at time $t=0$ and falls through the air, which provides significant resistance."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
@@ -924,27 +1017,29 @@
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=293&width=331&top_left_y=520&top_left_x=287)"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=295&width=331&top_left_y=858&top_left_x=289)"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=1197&top_left_x=289)"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1541&top_left_x=289)"
             },
             {
               "key": "E",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=297&width=331&top_left_y=1881&top_left_x=287)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "动量"
         },
         {
           "id": "34",
@@ -953,27 +1048,29 @@
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=335&top_left_y=256&top_left_x=1247)"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=592&top_left_x=1247)"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=301&width=331&top_left_y=928&top_left_x=1247)"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1268&top_left_x=1245)"
             },
             {
               "key": "E",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-27.jpg?height=299&width=333&top_left_y=1606&top_left_x=1245)"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": "力学"
         },
         {
           "id": "35",
@@ -982,27 +1079,29 @@
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=407&top_left_y=260&top_left_x=289)"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=484&width=404&top_left_y=235&top_left_x=808)"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=459&width=404&top_left_y=260&top_left_x=1325)"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=461&width=409&top_left_y=961&top_left_x=289)"
             },
             {
               "key": "E",
-              "content": "STOP END OF MECHANICS SECTION I"
+              "content": "![](https://cdn.mathpix.com/cropped/0b14854f-261f-4610-ae9a-5b63f68a0ac1-28.jpg?height=457&width=408&top_left_y=963&top_left_x=804)  STOP END OF MECHANICS SECTION I IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON MECHANICS SECTION I ONLY.  DO NOT TURN TO ANY OTHER TEST MATERIALS.  MAKE SURE YOU HAVE DONE THE FOLLOWING. - PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET   ection*{"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         }
       ]
     }

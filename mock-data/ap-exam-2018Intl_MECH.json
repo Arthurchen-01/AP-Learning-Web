@@ -45,12 +45,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "2",
           "type": "single",
-          "prompt": "The object has a speed of $2 ~m / s$ at which of the following times?",
+          "prompt": "The object has a speed of $2 \\mathrm{~m} / \\mathrm{s}$ at which of the following times?",
           "options": [
             {
               "key": "A",
@@ -70,45 +72,49 @@
             },
             {
               "key": "E",
-              "content": "$1 ~s, 6 ~s$, and 9 s"
+              "content": "$1 \\mathrm{~s}, 6 \\mathrm{~s}$, and 9 s"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "3",
           "type": "single",
-          "prompt": "An object falls freely from rest under the influence of gravity. If air resistance is negligible, the ratio of the distances traveled during each 1 -second time interval by the object during the first, second, and third seconds of its fall is",
+          "prompt": "An object falls freely from rest under the influence of gravity. If air resistance is negligible, the ratio of the distances traveled during each 1-second time interval by the object during the first, second, and third seconds of its fall is",
           "options": [
             {
               "key": "A",
-              "content": "$1: 1: 1$"
+              "content": "$1:1:1$"
             },
             {
               "key": "B",
-              "content": "$1: 2: 3$"
+              "content": "$1:2:3$"
             },
             {
               "key": "C",
-              "content": "$1: 2: 4$"
+              "content": "$1:2:4$"
             },
             {
               "key": "D",
-              "content": "$1: 3: 5$"
+              "content": "$1:3:5$"
             },
             {
               "key": "E",
-              "content": "$1: 4: 9$  A sphere on the end of a string is released from rest at point X and swings through point Y to point Z , as shown in the figure above. Point Y is the lowest point for the sphere as it swings. Air resistance is negligible."
+              "content": "$1:4:9$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "4",
           "type": "single",
-          "prompt": "Four directions at point Z are indicated as I, II, III, and IV in the figure above. Which of the arrows best indicates the direction of the acceleration of the sphere at point $Z$ ?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-22.jpg?height=419&width=608&top_left_y=768&top_left_x=281\" alt=\"\" /> A sphere on the end of a string is released from rest at point X and swings through point Y to point Z, as shown in the figure above. Point Y is the lowest point for the sphere as it swings. Air resistance is negligible. <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-22.jpg?height=402&width=358&top_left_y=151&top_left_x=1360\" alt=\"\" /> Four directions at point Z are indicated as I, II, III, and IV in the figure above. Which of the arrows best indicates the direction of the acceleration of the sphere at point $Z$?",
           "options": [
             {
               "key": "A",
@@ -132,12 +138,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "5",
           "type": "single",
-          "prompt": "Four directions at point Y are indicated as I, II, III, and IV in the figure above. Directions I and III are vertical, II and IV are horizontal, and I is directed along the string. Which of the following best indicates the direction of the acceleration of the sphere at point Y ?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-22.jpg?height=419&width=608&top_left_y=768&top_left_x=281\" alt=\"\" /> A sphere on the end of a string is released from rest at point X and swings through point Y to point Z, as shown in the figure above. Point Y is the lowest point for the sphere as it swings. Air resistance is negligible. <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-22.jpg?height=435&width=488&top_left_y=1071&top_left_x=1297\" alt=\"\" /> Four directions at point Y are indicated as I, II, III, and IV in the figure above. Directions I and III are vertical, II and IV are horizontal, and I is directed along the string. Which of the following best indicates the direction of the acceleration of the sphere at point Y?",
           "options": [
             {
               "key": "A",
@@ -161,70 +169,76 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "6",
           "type": "single",
-          "prompt": "A block of mass $m$ is pulled by a rope along a horizontal surface with negligible friction. For time $t&gt;0$, the magnitude of the acceleration of the object as a function of time is given by the equation $a=Ae^{-kt}$, where $A$ and $k$ are positive constants. Which of the following expressions determines the impulse exerted on the block by the rope during the time interval $0",
+          "prompt": "A block of mass $m$ is pulled by a rope along a horizontal surface with negligible friction. For time $t>0$, the magnitude of the acceleration of the object as a function of time is given by the equation $a=A e^{-k t}$, where $A$ and $k$ are positive constants. Which of the following expressions determines the impulse exerted on the block by the rope during the time interval $0<t<t_{1}$?",
           "options": [
             {
               "key": "A",
-              "content": "$A _{0}^{t_{1}} e^{-kt} dt$"
+              "content": "$A \\int_{0}^{t_{1}} e^{-k t} \\, d t$"
             },
             {
               "key": "B",
-              "content": "$mAd{dt}[e^{-kt}]_{t_{1}}$"
+              "content": "$m A \\left[\frac{d}{d t}(e^{-k t})\right]_{t_{1}}$"
             },
             {
               "key": "C",
-              "content": "$Ad{dt}[e^{-kt}]_{t_{1}}$"
+              "content": "$A \\left[\frac{d}{d t}(e^{-k t})\right]_{t_{1}}$"
             },
             {
               "key": "D",
-              "content": "$mAt_{1}[e^{-kt}]$"
+              "content": "$m A t_{1}[e^{-k t}]$"
             },
             {
               "key": "E",
-              "content": "$mA _{0}^{t_{1}} e^{-kt} dt$"
+              "content": "$m A \\int_{0}^{t_{1}} e^{-k t} \\, d t$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
           "type": "single",
-          "prompt": "A 300 g cart with a force sensor attached starts at rest on a track. The force sensor exerts a force on the cart to speed it up. The graph above shows the force $F$ exerted by the sensor on the cart as a function of time $t$. The change in the cart&#x27;s momentum during the time interval shown is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-23.jpg?height=578&width=755&top_left_y=155&top_left_x=1163\" alt=\"\" /> A 300 g cart with a force sensor attached starts at rest on a track. The force sensor exerts a force on the cart to speed it up. The graph above shows the force $F$ exerted by the sensor on the cart as a function of time $t$. The change in the cart's momentum during the time interval shown is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "$4.0 ~N ~s$"
+              "content": "$4.0 ~N~s$"
             },
             {
               "key": "B",
-              "content": "$8.5 ~N ~s$"
+              "content": "$8.5 ~N~s$"
             },
             {
               "key": "C",
-              "content": "$13 ~N ~s$"
+              "content": "$13 ~N~s$"
             },
             {
               "key": "D",
-              "content": "$25 ~N ~s$"
+              "content": "$25 ~N~s$"
             },
             {
               "key": "E",
-              "content": "$30 ~N ~s$  Identical satellites X and Y of mass $m$ are in circular orbits around a planet of mass $M$. The radius of the planet is $R$. Satellite X has an orbital radius of $3 R$, and satellite Y has an orbital radius of $4 R$. The kinetic energy of satellite X is $K_{X}$."
+              "content": "$30 ~N~s$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "8",
           "type": "single",
-          "prompt": "In terms of $K_{X}$, the gravitational potential energy of the planet-satellite X system is",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-24.jpg?height=600&width=605&top_left_y=235&top_left_x=279\" alt=\"\" /> Identical satellites X and Y of mass $m$ are in circular orbits around a planet of mass $M$. The radius of the planet is $R$. Satellite X has an orbital radius of $3R$, and satellite Y has an orbital radius of $4R$. The kinetic energy of satellite X is $K_{X}$. In terms of $K_{X}$, the gravitational potential energy of the planet-satellite X system is",
           "options": [
             {
               "key": "A",
@@ -236,11 +250,11 @@
             },
             {
               "key": "C",
-              "content": "$-K_{X} / 2$"
+              "content": "$-K_{X}/2$"
             },
             {
               "key": "D",
-              "content": "$ K_{X} / 2$"
+              "content": "$K_{X}/2$"
             },
             {
               "key": "E",
@@ -248,49 +262,53 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "9",
           "type": "single",
-          "prompt": "The kinetic energy of satellite X is $K_{X}$. The kinetic energy of satellite Y is $K_{Y}$. The ratio $K_{X} / K_{Y}$ is",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-24.jpg?height=600&width=605&top_left_y=235&top_left_x=279\" alt=\"\" /> Identical satellites X and Y of mass $m$ are in circular orbits around a planet of mass $M$. The radius of the planet is $R$. Satellite X has an orbital radius of $3R$, and satellite Y has an orbital radius of $4R$. The kinetic energy of satellite X is $K_{X}$. The kinetic energy of satellite X is $K_{X}$. The kinetic energy of satellite Y is $K_{Y}$. The ratio $K_{X}/K_{Y}$ is",
           "options": [
             {
               "key": "A",
-              "content": "$1 / 4$"
+              "content": "$1/4$"
             },
             {
               "key": "B",
-              "content": "$3 / 4$"
+              "content": "$3/4$"
             },
             {
               "key": "C",
-              "content": "$1 / 1$"
+              "content": "$1$"
             },
             {
               "key": "D",
-              "content": "$4 / 3$"
+              "content": "$4/3$"
             },
             {
               "key": "E",
-              "content": "$4 / 1$"
+              "content": "$4$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "10",
           "type": "single",
-          "prompt": "Satellite X is moved to the same orbit as satellite Y by a force doing work on the satellite. In terms of $K_{X}$, the work done on satellite X by the force is",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-24.jpg?height=600&width=605&top_left_y=235&top_left_x=279\" alt=\"\" /> Identical satellites X and Y of mass $m$ are in circular orbits around a planet of mass $M$. The radius of the planet is $R$. Satellite X has an orbital radius of $3R$, and satellite Y has an orbital radius of $4R$. The kinetic energy of satellite X is $K_{X}$. Satellite X is moved to the same orbit as satellite Y by a force doing work on the satellite. In terms of $K_{X}$, the work done on satellite X by the force is",
           "options": [
             {
               "key": "A",
-              "content": "$-K_{X} / 2$"
+              "content": "$-K_{X}/2$"
             },
             {
               "key": "B",
-              "content": "$-K_{X} / 4$"
+              "content": "$-K_{X}/4$"
             },
             {
               "key": "C",
@@ -298,44 +316,48 @@
             },
             {
               "key": "D",
-              "content": "$+K_{X} / 4$"
+              "content": "$+K_{X}/4$"
             },
             {
               "key": "E",
-              "content": "$+K_{X} / 2$"
+              "content": "$+K_{X}/2$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
           "type": "single",
-          "prompt": "Car A can travel around a curved section of road without skidding at a maximum constant speed of $10 ~m / s$. When car B travels around the same curve without skidding at its maximum speed, it has twice the centripetal acceleration as car A . The maximum speed at which car B can safely travel around the curve is most nearly",
+          "prompt": "Car A can travel around a curved section of road without skidding at a maximum constant speed of $10 \\mathrm{~m} / \\mathrm{s}$. When car B travels around the same curve without skidding at its maximum speed, it has twice the centripetal acceleration as car A . The maximum speed at which car B can safely travel around the curve is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "$5.0 ~m / s$"
+              "content": "$5.0 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "B",
-              "content": "$10 ~m / s$"
+              "content": "$10 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$14 ~m / s$"
+              "content": "$14 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "D",
-              "content": "$20 ~m / s$"
+              "content": "$20 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "E",
-              "content": "$28 ~m / s$"
+              "content": "$28 \\mathrm{~m} / \\mathrm{s}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "12",
@@ -364,7 +386,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "13",
@@ -373,32 +397,34 @@
           "options": [
             {
               "key": "A",
-              "content": "0 kg"
+              "content": "9.0 kg"
             },
             {
               "key": "B",
-              "content": "0 kg"
+              "content": "4.0 kg"
             },
             {
               "key": "C",
-              "content": "0 kg"
+              "content": "3.0 kg"
             },
             {
               "key": "D",
-              "content": "5 kg"
+              "content": "1.5 kg"
             },
             {
               "key": "E",
-              "content": "0 kg"
+              "content": "1.0 kg"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
           "type": "single",
-          "prompt": "A cart is moving to the right with a constant speed of $20 ~m / s$. A box of mass 80 kg moves with the cart without slipping. The coefficient of static friction between the box and cart is 0.30 , and the coefficient of kinetic friction between the box and cart is 0.15 . What are the magnitude and direction of the frictional force acting on the box as it moves with the cart?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-25.jpg?height=152&width=440&top_left_y=157&top_left_x=363\" alt=\"\" /> A cart is moving to the right with a constant speed of $20 ~m / s$. A box of mass 80 kg moves with the cart without slipping. The coefficient of static friction between the box and cart is 0.30, and the coefficient of kinetic friction between the box and cart is 0.15. What are the magnitude and direction of the frictional force acting on the box as it moves with the cart?",
           "options": [
             {
               "key": "A",
@@ -418,16 +444,18 @@
             },
             {
               "key": "E",
-              "content": "240 N to the left ![figure](  Note: Figure not drawn to scale."
+              "content": "240 N to the left"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
           "type": "single",
-          "prompt": "A block of mass $M$ is suspended from two identical springs of negligible mass, spring constant $k$ and unstretched length $L$. First, one spring is attached to the end of the other spring. The block is then attached to the end of the second spring and slowly lowered to its equilibrium position. The two springs stretch a total distance of $X_{1}$, as shown in Figure 1 above. Next, the springs are hung side by side. The block is attached to the end of the springs and again slowly lowered to its equilibrium position. The springs each stretch a distance of $X_{2}$, as shown in Figure 2 above. Which of the following equations correctly shows the relationship between $X_{1}$ and $X_{2}$ ?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-25.jpg?height=612&width=356&top_left_y=155&top_left_x=1171\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-25.jpg?height=295&width=408&top_left_y=155&top_left_x=1503\" alt=\"\" /> Note: Figure not drawn to scale. A block of mass $M$ is suspended from two identical springs of negligible mass, spring constant $k$ and unstretched length $L$. First, one spring is attached to the end of the other spring. The block is then attached to the end of the second spring and slowly lowered to its equilibrium position. The two springs stretch a total distance of $X_1$, as shown in Figure 1 above. Next, the springs are hung side by side. The block is attached to the end of the springs and again slowly lowered to its equilibrium position. The springs each stretch a distance of $X_2$, as shown in Figure 2 above. Which of the following equations correctly shows the relationship between $X_1$ and $X_2$?",
           "options": [
             {
               "key": "A",
@@ -439,7 +467,7 @@
             },
             {
               "key": "C",
-              "content": "$X_{1}=2 X_{2}$"
+              "content": "$X_{1}=X_{2}/2$"
             },
             {
               "key": "D",
@@ -451,41 +479,45 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
           "type": "single",
-          "prompt": "A block is hung vertically from an ideal spring. The block is pulled down and allowed to oscillate. The position $y$ as a function for time $t$ is shown in the graph above. Which of the following graphs best represents the acceleration $a$ of the block as a function of time?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=318&width=436&top_left_y=163&top_left_x=281\" alt=\"\" /> A block is hung vertically from an ideal spring. The block is pulled down and allowed to oscillate. The position $y$ as a function of time $t$ is shown in the graph above. Which of the following graphs best represents the acceleration $a$ of the block as a function of time?",
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=323&width=440&top_left_y=793&top_left_x=285\" alt=\"\" />"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=309&width=440&top_left_y=1115&top_left_x=285\" alt=\"\" />"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=309&width=436&top_left_y=1428&top_left_x=285\" alt=\"\" />"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=310&width=440&top_left_y=1738&top_left_x=285\" alt=\"\" />"
             },
             {
               "key": "E",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-26.jpg?height=312&width=436&top_left_y=2051&top_left_x=289\" alt=\"\" />"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "17",
           "type": "single",
-          "prompt": "Two moons of equal mass are in circular orbits around a planet. Moon 1 orbits with a radius of $r$ and moon 2 orbits with a radius of $3 r$. What is the ratio of the magnitude of the planet&#x27;s gravitational force on moon 2 to that on moon 1, $F_{G( { on 2 })} / F_{G( { on 1 })}$ ?",
+          "prompt": "Two moons of equal mass are in circular orbits around a planet. Moon 1 orbits with a radius of $r$ and moon 2 orbits with a radius of $3 r$. What is the ratio of the magnitude of the planet's gravitational force on moon 2 to that on moon 1, $F_{G(\\text { on 2 })} / F_{G(\\text { on 1 })}$ ?",
           "options": [
             {
               "key": "A",
@@ -509,7 +541,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "18",
@@ -530,20 +564,22 @@
             },
             {
               "key": "D",
-              "content": "Gravitational potential energy of the Suncomet system"
+              "content": "Gravitational potential energy of the Sun-comet system"
             },
             {
               "key": "E",
-              "content": "Total energy of the Sun-comet system  The graph above shows velocity as a function of time for a cart moving on a straight, horizontal track."
+              "content": "Total energy of the Sun-comet system"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "19",
           "type": "single",
-          "prompt": "At which labeled point does the cart have the greatest speed?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=389&width=587&top_left_y=252&top_left_x=289\" alt=\"\" /> The graph above shows velocity as a function of time for a cart moving on a straight, horizontal track. At which labeled point does the cart have the greatest speed?",
           "options": [
             {
               "key": "A",
@@ -567,12 +603,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "20",
           "type": "single",
-          "prompt": "At which labeled point does the velocity of the cart change direction?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=389&width=587&top_left_y=252&top_left_x=289\" alt=\"\" /> The graph above shows velocity as a function of time for a cart moving on a straight, horizontal track. At which labeled point does the velocity of the cart change direction?",
           "options": [
             {
               "key": "A",
@@ -592,16 +630,18 @@
             },
             {
               "key": "E",
-              "content": "E ![figure]( ![figure]( ![figure]( Questions 21-22 are based on the following information. Three identical spheres are thrown from the same height above the ground. Sphere X is thrown vertically up, sphere Y is thrown horizontally, and sphere Z is thrown vertically down, as shown in figures 1, 2, and 3 above, respectively. All three spheres are thrown with the same speed. Air resistance is negligible."
+              "content": "E"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
           "type": "single",
-          "prompt": "Which sphere or spheres initially collide with the ground with the greatest speed?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=402&width=159&top_left_y=285&top_left_x=1251\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=410&width=242&top_left_y=281&top_left_x=1415\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=334&width=150&top_left_y=357&top_left_x=1684\" alt=\"\" /> Three identical spheres are thrown from the same height above the ground. Sphere X is thrown vertically up, sphere Y is thrown horizontally, and sphere Z is thrown vertically down, as shown in figures 1, 2, and 3 above, respectively. All three spheres are thrown with the same speed. Air resistance is negligible. Which sphere or spheres initially collide with the ground with the greatest speed?",
           "options": [
             {
               "key": "A",
@@ -625,95 +665,107 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "22",
           "type": "single",
-          "prompt": "Assume the spheres collide elastically with the ground. Which of the following ranks the spheres based on the rebound height after they collide with the ground?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=402&width=159&top_left_y=285&top_left_x=1251\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=410&width=242&top_left_y=281&top_left_x=1415\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-27.jpg?height=334&width=150&top_left_y=357&top_left_x=1684\" alt=\"\" /> Three identical spheres are thrown from the same height above the ground. Sphere X is thrown vertically up, sphere Y is thrown horizontally, and sphere Z is thrown vertically down, as shown in figures 1, 2, and 3 above, respectively. All three spheres are thrown with the same speed. Air resistance is negligible. Assume the spheres collide elastically with the ground. Which of the following ranks the spheres based on the rebound height after they collide with the ground?",
           "options": [
             {
               "key": "A",
-              "content": "$X&gt;Y&gt;Z$"
+              "content": "$X>Y>Z$"
             },
             {
               "key": "B",
-              "content": "$Y&gt;(X=Z)$"
+              "content": "$Y>(X=Z)$"
             },
             {
               "key": "C",
-              "content": "$Z&gt;Y&gt;X$"
+              "content": "$Z>Y>X$"
             },
             {
               "key": "D",
-              "content": "$(X=Y)&gt;Z$"
+              "content": "$(X=Y)>Z$"
             },
             {
               "key": "E",
-              "content": "$(X=Z)&gt;Y$ A block on a level horizontal surface of negligible friction is initially traveling at $20 ~m / s$ to the left. A horizontal force $F$ is exerted to the right on the block for the time interval $0"
+              "content": "$(X=Z)>Y$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "23",
           "type": "single",
-          "prompt": "Which of the following free-body diagrams best shows the forces acting on the block at time $t=0.05 ~s$ ? $(A) O$",
+          "prompt": "A block on a level horizontal surface of negligible friction is initially traveling at $20 ~m / s$ to the left. A horizontal force $F$ is exerted to the right on the block for the time interval $0<t<0.10 ~s$. The magnitude of the force is given as a function of time $t$ by the equation $F=\beta t$, where $\beta=240 ~N / s$ and $t$ is in seconds. Which of the following free-body diagrams best shows the forces acting on the block at time $t=0.05 ~s$?",
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "No forces act on the block."
             },
             {
               "key": "B",
-              "content": ""
+              "content": "Only the upward normal force and downward weight act on the block."
             },
             {
               "key": "C",
-              "content": ""
+              "content": "Upward normal force, downward weight, and a leftward horizontal force act on the block."
             },
             {
               "key": "D",
-              "content": ""
+              "content": "Upward normal force, downward weight, and both leftward and rightward horizontal forces act on the block."
+            },
+            {
+              "key": "E",
+              "content": "Upward normal force, downward weight, and a rightward horizontal force act on the block."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "24",
           "type": "single",
-          "prompt": "What is the magnitude of the change in momentum of the block due to the horizontal force?",
+          "prompt": "A block on a level horizontal surface of negligible friction is initially traveling at $20 ~m / s$ to the left. A horizontal force $F$ is exerted to the right on the block for the time interval $0<t<0.10 ~s$. The magnitude of the force is given as a function of time $t$ by the equation $F=\beta t$, where $\beta=240 ~N / s$ and $t$ is in seconds. What is the magnitude of the change in momentum of the block due to the horizontal force?",
           "options": [
             {
               "key": "A",
-              "content": "$1.2 ~kg ~m / s$"
+              "content": "$1.2 ~kg~m / s$"
             },
             {
               "key": "B",
-              "content": "$12 ~kg ~m / s$"
+              "content": "$12 ~kg~m / s$"
             },
             {
               "key": "C",
-              "content": "$24 ~kg ~m / s$"
+              "content": "$24 ~kg~m / s$"
             },
             {
               "key": "D",
-              "content": "$240 ~kg ~m / s$"
+              "content": "$240 ~kg~m / s$"
             },
             {
               "key": "E",
-              "content": "The change in momentum of the block cannot be determined without knowing the block&#x27;s mass.  The variable $x$ represents the position of particle A in a two-particle system. Particle B remains at rest. The graph above shows potential energy $U$ of the system as a function of $x$."
+              "content": "The change in momentum of the block cannot be determined without knowing the block's mass."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
           "type": "single",
-          "prompt": "If the total energy of the system is -2.0 J , which of the following statements is true?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-29.jpg?height=513&width=784&top_left_y=237&top_left_x=193\" alt=\"\" /> The variable $x$ represents the position of particle A in a two-particle system. Particle B remains at rest. The graph above shows potential energy $U$ of the system as a function of $x$. If the total energy of the system is -2.0 J, which of the following statements is true?",
           "options": [
             {
               "key": "A",
@@ -733,16 +785,18 @@
             },
             {
               "key": "E",
-              "content": "Particle A oscillates between $x=0.20 ~m$ and 0.65 m ."
+              "content": "Particle A oscillates between $x=0.20 ~m$ and $0.65 ~m$."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
           "type": "single",
-          "prompt": "The $x$-component of the force on particle A when it is at $x=0.15 ~m$ is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-29.jpg?height=513&width=784&top_left_y=237&top_left_x=193\" alt=\"\" /> The variable $x$ represents the position of particle A in a two-particle system. Particle B remains at rest. The graph above shows potential energy $U$ of the system as a function of $x$. The $x$-component of the force on particle A when it is at $x=0.15 ~m$ is most nearly",
           "options": [
             {
               "key": "A",
@@ -758,49 +812,53 @@
             },
             {
               "key": "D",
-              "content": "$ 2.0 ~N$"
+              "content": "$2.0 ~N$"
             },
             {
               "key": "E",
-              "content": "$ 20 ~N$  A 0.50 kg object is attached to a vertical spring of constant $k$, as shown above. The object is pulled down and released. The object oscillates vertically. If up is the positive direction, the position $x$ of the object as a function of time $t$ is given by the formula $x= ( t+)$, where $=0.20 ~m$, $=4.0 rad / s$, and $= / 3 rad$."
+              "content": "$20 ~N$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
           "type": "single",
-          "prompt": "The period of the oscillation for the object is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-29.jpg?height=471&width=381&top_left_y=237&top_left_x=1352\" alt=\"\" /> A 0.50 kg object is attached to a vertical spring of constant $k$, as shown above. The object is pulled down and released. The object oscillates vertically. If up is the positive direction, the position $x$ of the object as a function of time $t$ is given by the formula $x=A \\cos(\\omega t+\\phi)$, where $A=0.20 ~m$, $\\omega=4.0 ~rad / s$, and $\\phi=\\pi/3 ~rad$. The period of the oscillation for the object is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "0 s"
+              "content": "4.0 s"
             },
             {
               "key": "B",
-              "content": "1 s"
+              "content": "3.1 s"
             },
             {
               "key": "C",
-              "content": "0 s"
+              "content": "2.0 s"
             },
             {
               "key": "D",
-              "content": "6 s"
+              "content": "1.6 s"
             },
             {
               "key": "E",
-              "content": "1 s"
+              "content": "1.1 s"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
           "type": "single",
-          "prompt": "The magnitude of the maximum acceleration of the object as it oscillates is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-29.jpg?height=471&width=381&top_left_y=237&top_left_x=1352\" alt=\"\" /> A 0.50 kg object is attached to a vertical spring of constant $k$, as shown above. The object is pulled down and released. The object oscillates vertically. If up is the positive direction, the position $x$ of the object as a function of time $t$ is given by the formula $x=A \\cos(\\omega t+\\phi)$, where $A=0.20 ~m$, $\\omega=4.0 ~rad / s$, and $\\phi=\\pi/3 ~rad$. The magnitude of the maximum acceleration of the object as it oscillates is most nearly",
           "options": [
             {
               "key": "A",
@@ -824,12 +882,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
           "type": "single",
-          "prompt": "A ball, rolling without slipping on a horizontal surface, encounters a frictionless, downwardsloping ramp, as shown above. Which of the following correctly describes the motion of the ball on the ramp?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-30.jpg?height=249&width=792&top_left_y=157&top_left_x=189\" alt=\"\" /> A ball, rolling without slipping on a horizontal surface, encounters a frictionless, downward-sloping ramp, as shown above. Which of the following correctly describes the motion of the ball on the ramp?",
           "options": [
             {
               "key": "A",
@@ -853,181 +913,195 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "30",
           "type": "single",
-          "prompt": "Blocks X and Y of masses 3.0 kg and 5.0 kg , respectively, are connected by a light string and are both on a level horizontal surface of negligible friction. A force $F=12 ~N$ is exerted on block Y, as shown in the figure above. What is the tension in the string connecting the two blocks?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-30.jpg?height=129&width=725&top_left_y=151&top_left_x=1180\" alt=\"\" /> Blocks X and Y of masses 3.0 kg and 5.0 kg, respectively, are connected by a light string and are both on a level horizontal surface of negligible friction. A force $F=12 ~N$ is exerted on block Y, as shown in the figure above. What is the tension in the string connecting the two blocks?",
           "options": [
             {
               "key": "A",
-              "content": "5 N"
+              "content": "1.5 N"
             },
             {
               "key": "B",
-              "content": "0 N"
+              "content": "4.0 N"
             },
             {
               "key": "C",
-              "content": "5 N"
+              "content": "4.5 N"
             },
             {
               "key": "D",
-              "content": "5 N"
+              "content": "7.5 N"
             },
             {
               "key": "E",
-              "content": "12 N  Note: Figure not drawn to scale. In order to model the motion of an extinct ape, scientists measure its hand and arm bones. From shoulder to wrist, the arm bones are 0.60 m long and their mass is 4.0 kg . From wrist to the tip of the fingers, the hand bones are 0.10 m long and their mass is 1.0 kg . In the model above, each bone is assumed to have a uniform density."
+              "content": "12 N"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
           "type": "single",
-          "prompt": "When the arm and hand hang straight down, the distance from the shoulder to the center of mass of the arm-hand system is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-31.jpg?height=200&width=711&top_left_y=239&top_left_x=228\" alt=\"\" /> Note: Figure not drawn to scale. In order to model the motion of an extinct ape, scientists measure its hand and arm bones. From shoulder to wrist, the arm bones are 0.60 m long and their mass is 4.0 kg. From wrist to the tip of the fingers, the hand bones are 0.10 m long and their mass is 1.0 kg. In the model above, each bone is assumed to have a uniform density. When the arm and hand hang straight down, the distance from the shoulder to the center of mass of the arm-hand system is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "25 m"
+              "content": "0.25 m"
             },
             {
               "key": "B",
-              "content": "35 m"
+              "content": "0.35 m"
             },
             {
               "key": "C",
-              "content": "37 m"
+              "content": "0.37 m"
             },
             {
               "key": "D",
-              "content": "50 m"
+              "content": "0.50 m"
             },
             {
               "key": "E",
-              "content": "93 m ![figure]("
+              "content": "0.93 m"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "32",
           "type": "single",
-          "prompt": "The arm is held in the horizontal position and the hand is bent at the wrist so the fingers point up, as shown in the figure above. The torque exerted by the weight of the hand with respect to the shoulder is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-31.jpg?height=286&width=663&top_left_y=147&top_left_x=1209\" alt=\"\" /> The arm is held in the horizontal position and the hand is bent at the wrist so the fingers point up, as shown in the figure above. The torque exerted by the weight of the hand with respect to the shoulder is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "$6 ~N ~m$"
+              "content": "$6 ~N~m$"
             },
             {
               "key": "B",
-              "content": "$10 ~N ~m$"
+              "content": "$10 ~N~m$"
             },
             {
               "key": "C",
-              "content": "$30 ~N ~m$"
+              "content": "$30 ~N~m$"
             },
             {
               "key": "D",
-              "content": "$60 ~N ~m$"
+              "content": "$60 ~N~m$"
             },
             {
               "key": "E",
-              "content": "$70 ~N ~m$ An object moves along a straight line with a velocity $v$ given as a function of time $t$ by the equation $v(t)= t^{2}+ t+$."
+              "content": "$70 ~N~m$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
           "type": "single",
-          "prompt": "Which of the following expressions represents $ x(t)$, the displacement of the object as a function of time $t$ starting at time $t=0$ ?",
+          "prompt": "An object moves along a straight line with a velocity $v$ given as a function of time $t$ by the equation $v(t)=\\alpha t^{2}+\\beta t+\\gamma$. Which of the following expressions represents $x(t)$, the displacement of the object as a function of time $t$ starting at time $t=0$?",
           "options": [
             {
               "key": "A",
-              "content": "$2 $"
+              "content": "$2 \\alpha$"
             },
             {
               "key": "B",
-              "content": "$ t+$"
+              "content": "$\\alpha t+\\beta$"
             },
             {
               "key": "C",
-              "content": "$2 t+$"
+              "content": "$2 \\alpha t+\\beta$"
             },
             {
               "key": "D",
-              "content": "$ t^{3} / 3+ t^{2} / 2+ t$"
+              "content": "$\\alpha t^{3}/3+\\beta t^{2}/2+\\gamma t$"
             },
             {
               "key": "E",
-              "content": "$3 t^{3}+2 t^{2}+ t$"
+              "content": "$3 \\alpha t^{3}+2 \\beta t^{2}+\\gamma t$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "34",
           "type": "single",
-          "prompt": "Which of the following expressions represents $a(t)$, the acceleration of the object as a function of time $t$ ?",
+          "prompt": "An object moves along a straight line with a velocity $v$ given as a function of time $t$ by the equation $v(t)=\\alpha t^{2}+\\beta t+\\gamma$. Which of the following expressions represents $a(t)$, the acceleration of the object as a function of time $t$?",
           "options": [
             {
               "key": "A",
-              "content": "$2 $"
+              "content": "$2 \\alpha$"
             },
             {
               "key": "B",
-              "content": "$ t+$"
+              "content": "$\\alpha t+\\beta$"
             },
             {
               "key": "C",
-              "content": "$2 t+$"
+              "content": "$2 \\alpha t+\\beta$"
             },
             {
               "key": "D",
-              "content": "$ t^{3} / 3+ t^{2} / 2+ t$"
+              "content": "$\\alpha t^{3}/3+\\beta t^{2}/2+\\gamma t$"
             },
             {
               "key": "E",
-              "content": "$3 t^{3}+2 t^{2}+ t$"
+              "content": "$3 \\alpha t^{3}+2 \\beta t^{2}+\\gamma t$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "35",
           "type": "single",
-          "prompt": "A cart is moving in the $+x$-direction and passes the origin when time $t=0$. The cart then moves with decreasing speed, stops, and moves in the $-x$-direction with increasing speed. Which of the following graphs best represents the cart&#x27;s position $x$ as a function of time?",
+          "prompt": "A cart is moving in the $+x$-direction and passes the origin when time $t=0$. The cart then moves with decreasing speed, stops, and moves in the $-x$-direction with increasing speed. Which of the following graphs best represents the cart's position $x$ as a function of time?",
           "options": [
             {
               "key": "A",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-33.jpg?height=278&width=285&top_left_y=441&top_left_x=289\" alt=\"\" />"
             },
             {
               "key": "B",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-33.jpg?height=282&width=285&top_left_y=722&top_left_x=289\" alt=\"\" />"
             },
             {
               "key": "C",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-33.jpg?height=265&width=281&top_left_y=1008&top_left_x=289\" alt=\"\" />"
             },
             {
               "key": "D",
-              "content": ""
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-33.jpg?height=282&width=287&top_left_y=1270&top_left_x=287\" alt=\"\" />"
             },
             {
               "key": "E",
-              "content": "END OF MECHANICS SECTION I"
+              "content": "<img src=\"https://cdn.mathpix.com/cropped/3c9bdf6b-9488-468b-b04a-b29b4253f1db-33.jpg?height=268&width=281&top_left_y=1553&top_left_x=289\" alt=\"\" />"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         }
       ]
     }

@@ -631,7 +631,7 @@
             },
             {
               "key": "E",
-              "content": "0 \\begin{tabular}{|c||c|c|c|c|} \\hline$x$ & 1 & 3 & 5 & 7 \\\\ \\hline$f(x)$ & 4 & 6 & 7 & 5 \\\\ \\hline$f^{\\prime}(x)$ & 2 & 1 & 0 & -1 \\\\ \\hline \\end{tabular}"
+              "content": "0"
             }
           ],
           "answer": "",
@@ -654,15 +654,15 @@
             },
             {
               "key": "C",
-              "content": "$2 \\sqrt{3}+2 \\sqrt{2}+2$"
+              "content": "$2  qrt{3}+2  qrt{2}+2$"
             },
             {
               "key": "D",
-              "content": "$2 \\sqrt{5}+2 \\sqrt{2}+2$"
+              "content": "$2  qrt{5}+2  qrt{2}+2$"
             },
             {
               "key": "E",
-              "content": "$2 \\sqrt{5}+4 \\sqrt{2}+2$"
+              "content": "$2  qrt{5}+4  qrt{2}+2$"
             }
           ],
           "answer": "",
@@ -770,23 +770,23 @@
           "options": [
             {
               "key": "A",
-              "content": "$-\\sqrt{3}$"
+              "content": "$- qrt{3}$"
             },
             {
               "key": "B",
-              "content": "$-\\frac{1}{\\sqrt{3}}$"
+              "content": "$-\\frac{1}{ qrt{3}}$"
             },
             {
               "key": "C",
-              "content": "$\\frac{1}{\\sqrt{3}}$"
+              "content": "$\\frac{1}{ qrt{3}}$"
             },
             {
               "key": "D",
-              "content": "$\\frac{\\sqrt{3}}{2}$"
+              "content": "$\\frac{ qrt{3}}{2}$"
             },
             {
               "key": "E",
-              "content": "$\\sqrt{3}$"
+              "content": "$ qrt{3}$"
             }
           ],
           "answer": "",
@@ -801,11 +801,11 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{1}{2 \\sqrt{x}(1+x)}$"
+              "content": "$\\frac{1}{2  qrt{x}(1+x)}$"
             },
             {
               "key": "B",
-              "content": "$\\frac{1}{2 \\sqrt{x}(1+\\sqrt{x})}$"
+              "content": "$\\frac{1}{2  qrt{x}(1+ qrt{x})}$"
             },
             {
               "key": "C",
@@ -813,11 +813,11 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{\\sqrt{x}}{1+x}$"
+              "content": "$\\frac{ qrt{x}}{1+x}$"
             },
             {
               "key": "E",
-              "content": "$\\frac{1}{1+\\sqrt{x}}$"
+              "content": "$\\frac{1}{1+ qrt{x}}$"
             }
           ],
           "answer": "",
@@ -1096,7 +1096,7 @@
             },
             {
               "key": "E",
-              "content": "2 relative minima, 2 relative maxima, and 3 points of inflection \\begin{tabular}{|c|c|} \\hline$x$ & $f^{\\prime}(x)$ \\\\ \\hline 1 & 0.2 \\\\ 1.5 & 0.5 \\\\ 2 & 0.9 \\\\ \\hline \\end{tabular}"
+              "content": "2 relative minima, 2 relative maxima, and 3 points of inflection"
             }
           ],
           "answer": "",
@@ -1189,7 +1189,7 @@
             },
             {
               "key": "E",
-              "content": "828 \\begin{tabular}{|c||c|c|c|c|c|c|c|} \\hline \\begin{tabular}{c} $t$ \\\\ (hours) \\end{tabular} & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\ \\hline \\begin{tabular}{c} $s(t)$ \\\\ (miles) \\end{tabular} & 0 & 25 & 55 & 92 & 150 & 210 & 275 \\\\ \\hline \\end{tabular}"
+              "content": "828"
             }
           ],
           "answer": "",
@@ -1235,23 +1235,23 @@
           "options": [
             {
               "key": "A",
-              "content": "If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $\\sum_{n=1}^{\\infty} b_{n}$ converges."
+              "content": "If $\\lim _{n \\rightarrow \\infty} a_{n}=0$, then $ um_{n=1}^{\\infty} b_{n}$ converges."
             },
             {
               "key": "B",
-              "content": "If $\\sum_{n=1}^{\\infty} a_{n}$ converges, then $\\lim _{n \\rightarrow \\infty} b_{n}=0$."
+              "content": "If $ um_{n=1}^{\\infty} a_{n}$ converges, then $\\lim _{n \\rightarrow \\infty} b_{n}=0$."
             },
             {
               "key": "C",
-              "content": "If $\\sum_{n=1}^{\\infty} b_{n}$ diverges, then $\\lim _{n \\rightarrow \\infty} a_{n}=0$."
+              "content": "If $ um_{n=1}^{\\infty} b_{n}$ diverges, then $\\lim _{n \\rightarrow \\infty} a_{n}=0$."
             },
             {
               "key": "D",
-              "content": "If $\\sum_{n=1}^{\\infty} a_{n}$ diverges, then $\\sum_{n=1}^{\\infty} b_{n}$ diverges."
+              "content": "If $ um_{n=1}^{\\infty} a_{n}$ diverges, then $ um_{n=1}^{\\infty} b_{n}$ diverges."
             },
             {
               "key": "E",
-              "content": "If $\\sum_{n=1}^{\\infty} b_{n}$ converges, then $\\sum_{n=1}^{\\infty} a_{n}$ converges."
+              "content": "If $ um_{n=1}^{\\infty} b_{n}$ converges, then $ um_{n=1}^{\\infty} a_{n}$ converges."
             }
           ],
           "answer": "",
@@ -1375,7 +1375,7 @@
             },
             {
               "key": "E",
-              "content": "There is no such value of $k$. \\begin{tabular}{|c||c|c|} \\hline$x$ & 2 & 4 \\\\ \\hline$f(x)$ & 7 & 13 \\\\ \\hline$g(x)$ & 2 & 9 \\\\ \\hline$g^{\\prime}(x)$ & 1 & 7 \\\\ \\hline$g^{\\prime \\prime}(x)$ & 5 & 8 \\\\ \\hline \\end{tabular}"
+              "content": "There is no such value of $k$."
             }
           ],
           "answer": "",

@@ -20,52 +20,25 @@
       "directions": "",
       "questions": [
         {
-          "id": "1",
-          "type": "single",
-          "prompt": "Do you regularly speak or hear the language at home? ◯ Yes ◯ No",
-          "options": [
-            {
-              "key": "A",
-              "content": "state"
-            },
-            {
-              "key": "B",
-              "content": "city"
-            },
-            {
-              "key": "C",
-              "content": "country"
-            },
-            {
-              "key": "D",
-              "content": "continent Use your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions. Your total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions. }"
-            }
-          ],
-          "answer": "",
-          "explanation": "",
-          "unit": "",
-          "title": ""
-        },
-        {
           "id": "2",
           "type": "single",
           "prompt": "If $y=x \\sqrt{2 x+5}$, then $y^{\\prime}=$",
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{3 x+5}{\\sqrt{2 x+5}}$"
+              "content": "$\\frac{3 x+5}{ qrt{2 x+5}}$"
             },
             {
               "key": "B",
-              "content": "$\\frac{1}{\\sqrt{2 x+5}}$"
+              "content": "$\\frac{1}{ qrt{2 x+5}}$"
             },
             {
               "key": "C",
-              "content": "$\\frac{1}{2 \\sqrt{2 x+5}}$"
+              "content": "$\\frac{1}{2  qrt{2 x+5}}$"
             },
             {
               "key": "D",
-              "content": "$\\frac{5 x+10}{2 \\sqrt{2 x+5}}$"
+              "content": "$\\frac{5 x+10}{2  qrt{2 x+5}}$"
             }
           ],
           "answer": "",
@@ -146,7 +119,7 @@
             },
             {
               "key": "D",
-              "content": "$3\\left(x^{1 / 3}-4\\right)^{6}+C$ \\begin{tabular}{|c||c|c|c|c|} \\hline \\begin{tabular}{c} $t$ \\\\ (minutes) \\end{tabular} & 0 & 5 & 10 & 15 \\\\ \\hline \\begin{tabular}{c} $R(t)$ \\\\ (people per minute) \\end{tabular} & 100 & 100 & 75 & 55 \\\\ \\hline \\end{tabular}"
+              "content": "$3\\left(x^{1 / 3}-4\\right)^{6}+C$"
             }
           ],
           "answer": "",
@@ -296,11 +269,11 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\quad \\cos \\left(x^{2}\\right)+\\sin \\left(x^{2}\\right)$"
+              "content": "$\\quad \\cos \\left(x^{2}\\right)+ in \\left(x^{2}\\right)$"
             },
             {
               "key": "B",
-              "content": "$1-x \\sin x$"
+              "content": "$1-x  in x$"
             },
             {
               "key": "C",
@@ -323,19 +296,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{1}{2} x^{2} \\sin (2 x)+C$"
+              "content": "$\\frac{1}{2} x^{2}  in (2 x)+C$"
             },
             {
               "key": "B",
-              "content": "$\\frac{1}{2} x^{2} \\cos (2 x)+\\frac{1}{2} \\sin (2 x)+C$"
+              "content": "$\\frac{1}{2} x^{2} \\cos (2 x)+\\frac{1}{2}  in (2 x)+C$"
             },
             {
               "key": "C",
-              "content": "$\\frac{1}{2} x \\sin (2 x)-\\frac{1}{4} \\cos (2 x)+C$"
+              "content": "$\\frac{1}{2} x  in (2 x)-\\frac{1}{4} \\cos (2 x)+C$"
             },
             {
               "key": "D",
-              "content": "$\\frac{1}{2} x \\sin (2 x)+\\frac{1}{4} \\cos (2 x)+C$"
+              "content": "$\\frac{1}{2} x  in (2 x)+\\frac{1}{4} \\cos (2 x)+C$"
             }
           ],
           "answer": "",
@@ -350,7 +323,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{d y}{d x}=3 \\sin ^{2} y$"
+              "content": "$\\frac{d y}{d x}=3  in ^{2} y$"
             },
             {
               "key": "B",
@@ -404,7 +377,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$-2 \\sqrt{2}$"
+              "content": "$-2  qrt{2}$"
             },
             {
               "key": "B",
@@ -412,7 +385,7 @@
             },
             {
               "key": "C",
-              "content": "$-\\sqrt{2}$"
+              "content": "$- qrt{2}$"
             },
             {
               "key": "D",
@@ -512,7 +485,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$3 \\pi \\sin \\left(\\pi^{3}\\right)$"
+              "content": "$3 \\pi  in \\left(\\pi^{3}\\right)$"
             },
             {
               "key": "B",
@@ -620,19 +593,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+              "content": "$\\quad  um_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $ um_{n=1}^{\\infty} \\frac{1}{n}$."
             },
             {
               "key": "B",
-              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
+              "content": "$\\quad  um_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ converges by comparison with $ um_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n}$."
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $ um_{n=1}^{\\infty} \\frac{1}{n}$."
             },
             {
               "key": "D",
-              "content": "$\\quad \\sum_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
+              "content": "$\\quad  um_{n=1}^{\\infty} \\frac{1}{\\ln (n+1)}$ diverges by comparison with $ um_{n=1}^{\\infty} \\frac{1}{n^{2}}$."
             }
           ],
           "answer": "",
@@ -647,19 +620,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{0}^{3 \\pi / 4} \\sin x d x$"
+              "content": "$\\int_{0}^{3 \\pi / 4}  in x d x$"
             },
             {
               "key": "B",
-              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\sin ^{2} x} d x$"
+              "content": "$\\int_{0}^{3 \\pi / 4}  qrt{1+ in ^{2} x} d x$"
             },
             {
               "key": "C",
-              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1-\\cos ^{2} x} d x$"
+              "content": "$\\int_{0}^{3 \\pi / 4}  qrt{1-\\cos ^{2} x} d x$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{3 \\pi / 4} \\sqrt{1+\\cos ^{2} x} d x$"
+              "content": "$\\int_{0}^{3 \\pi / 4}  qrt{1+\\cos ^{2} x} d x$"
             }
           ],
           "answer": "",
@@ -713,7 +686,7 @@
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{\\pi / 2}\\left((1-\\cos \\theta)^{2}+(1+\\cos \\theta)^{2}\\right) d \\theta$ \\begin{tabular}{|c||c|c|c|c|c|} \\hline$x$ & 10 & 11 & 12 & 13 & 14 \\\\ \\hline$f(x)$ & 5 & 2 & 3 & 6 & 5 \\\\ \\hline \\end{tabular}"
+              "content": "$\\int_{0}^{\\pi / 2}\\left((1-\\cos \\theta)^{2}+(1+\\cos \\theta)^{2}\\right) d \\theta$"
             }
           ],
           "answer": "",
@@ -929,7 +902,7 @@
             },
             {
               "key": "D",
-              "content": "907 \\begin{tabular}{|c||c|c|c|c|c|} \\hline$x$ & 0.0 & 0.5 & 1.0 & 1.5 & 2.0 \\\\ \\hline$f^{\\prime}(x)$ & 1.0 & 0.7 & 0.5 & 0.4 & 0.3 \\\\ \\hline \\end{tabular}"
+              "content": "907"
             }
           ],
           "answer": "",
@@ -1160,19 +1133,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ diverges."
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{a_{n}}$ diverges."
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=1}^{\\infty}(-1)^{n} a_{n}$ converges."
+              "content": "$ um_{n=1}^{\\infty}(-1)^{n} a_{n}$ converges."
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{a_{n}}$ converges."
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{a_{n}}$ converges."
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{(-1)^{n}}{a_{n}}$ converges."
+              "content": "$ um_{n=1}^{\\infty} \\frac{(-1)^{n}}{a_{n}}$ converges."
             }
           ],
           "answer": "",

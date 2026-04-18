@@ -146,7 +146,7 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{e^{2}}{13}$ \\begin{tabular}{|c||c|c|c|c|} \\hline \\begin{tabular}{c} $t$ \\\\ (hours) \\end{tabular} & 0 & 2 & 7 & 9 \\\\ \\hline \\begin{tabular}{c} $R(t)$ \\\\ (tons per hour) \\end{tabular} & 15 & 9 & 5 & 4 \\\\ \\hline \\end{tabular}"
+              "content": "$\\frac{e^{2}}{13}$"
             }
           ],
           "answer": "",
@@ -188,19 +188,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\left\\langle-2 \\sin (2 t), 3 e^{3 t}\\right\\rangle$"
+              "content": "$\\left\\langle-2  in (2 t), 3 e^{3 t}\\right\\rangle$"
             },
             {
               "key": "B",
-              "content": "$\\left\\langle-2 \\sin (2 t), e^{3 t}\\right\\rangle$"
+              "content": "$\\left\\langle-2  in (2 t), e^{3 t}\\right\\rangle$"
             },
             {
               "key": "C",
-              "content": "$\\left\\langle\\frac{1}{2} \\sin (2 t), \\frac{1}{3} e^{3 t}\\right\\rangle$"
+              "content": "$\\left\\langle\\frac{1}{2}  in (2 t), \\frac{1}{3} e^{3 t}\\right\\rangle$"
             },
             {
               "key": "D",
-              "content": "$\\left\\langle 2 \\sin (2 t), 3 e^{3 t}\\right\\rangle$"
+              "content": "$\\left\\langle 2  in (2 t), 3 e^{3 t}\\right\\rangle$"
             }
           ],
           "answer": "",
@@ -215,19 +215,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=1}^{\\infty} a_{n}=64$"
+              "content": "$ um_{n=1}^{\\infty} a_{n}=64$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=1}^{\\infty} a_{n}=96$"
+              "content": "$ um_{n=1}^{\\infty} a_{n}=96$"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} a_{n}$ converges, but the sum cannot be determined from the information given."
+              "content": "$ um_{n=1}^{\\infty} a_{n}$ converges, but the sum cannot be determined from the information given."
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=1}^{\\infty} a_{n}$ diverges. $$ f(x)= \\begin{cases}\\frac{|x|}{x} & \\text { for } x \\neq 0 \\\\ 0 & \\text { for } x=0\\end{cases} $$"
+              "content": "$ um_{n=1}^{\\infty} a_{n}$ diverges. $$ f(x)= \\begin{cases}\\frac{|x|}{x} & \\text { for } x \\neq 0 \\\\ 0 & \\text { for } x=0\\end{cases} $$"
             }
           ],
           "answer": "",
@@ -269,19 +269,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n}$"
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{n}$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n^{3}}$"
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{n^{3}}$"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{n}{n+1}$"
+              "content": "$ um_{n=1}^{\\infty} \\frac{n}{n+1}$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{1}{n^{2}+1}$"
+              "content": "$ um_{n=1}^{\\infty} \\frac{1}{n^{2}+1}$"
             }
           ],
           "answer": "",
@@ -547,7 +547,7 @@
             },
             {
               "key": "C",
-              "content": "The integral diverges because $\\lim _{x \\rightarrow \\frac{\\pi}{2}-} \\sec ^{2} x$ does not exist."
+              "content": "The integral diverges because $\\lim _{x \\rightarrow \\frac{\\pi}{2}-}  ec ^{2} x$ does not exist."
             },
             {
               "key": "D",
@@ -655,7 +655,7 @@
             },
             {
               "key": "C",
-              "content": "$\\sqrt{6}$"
+              "content": "$ qrt{6}$"
             },
             {
               "key": "D",
@@ -755,19 +755,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n}\\left(1+\\ln \\left(\\frac{3 k}{n}\\right)\\right) \\frac{3}{n}$"
+              "content": "$\\lim _{n \\rightarrow \\infty}  um_{k=1}^{n}\\left(1+\\ln \\left(\\frac{3 k}{n}\\right)\\right) \\frac{3}{n}$"
             },
             {
               "key": "B",
-              "content": "$\\quad \\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(1+\\frac{3 k}{n}\\right) \\frac{3}{n}$"
+              "content": "$\\quad \\lim _{n \\rightarrow \\infty}  um_{k=1}^{n} \\ln \\left(1+\\frac{3 k}{n}\\right) \\frac{3}{n}$"
             },
             {
               "key": "C",
-              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(\\frac{4}{n}\\right)\\left(1+\\frac{4 k}{n}\\right)$"
+              "content": "$\\lim _{n \\rightarrow \\infty}  um_{k=1}^{n} \\ln \\left(\\frac{4}{n}\\right)\\left(1+\\frac{4 k}{n}\\right)$"
             },
             {
               "key": "D",
-              "content": "$\\lim _{n \\rightarrow \\infty} \\sum_{k=1}^{n} \\ln \\left(1+\\frac{4 k}{n}\\right) \\frac{4}{n}$"
+              "content": "$\\lim _{n \\rightarrow \\infty}  um_{k=1}^{n} \\ln \\left(1+\\frac{4 k}{n}\\right) \\frac{4}{n}$"
             }
           ],
           "answer": "",
@@ -821,7 +821,7 @@
             },
             {
               "key": "D",
-              "content": "-28.205 \\begin{tabular}{|c||c|c|c|c|} \\hline$x$ & -0.2 & 0 & 0.2 & 0.4 \\\\ \\hline$f^{\\prime}(x)$ & 0.8 & 1.2 & 1.7 & 2.3 \\\\ \\hline \\end{tabular}"
+              "content": "-28.205"
             }
           ],
           "answer": "",
@@ -1064,7 +1064,7 @@
             },
             {
               "key": "D",
-              "content": "326 \\begin{tabular}{|l|l|l|} \\hline $\\lim _{x \\rightarrow-5} f(x)=4$ & $\\lim _{x \\rightarrow 5} f(x)=2$ & $\\lim _{x \\rightarrow 5} g(x)=5$ \\\\ \\hline \\end{tabular}"
+              "content": "326"
             }
           ],
           "answer": "",

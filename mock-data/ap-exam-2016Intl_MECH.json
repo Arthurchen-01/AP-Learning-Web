@@ -21,7 +21,7 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "A projectile is launched with a speed of $40 ~m / s$ at an angle of $30^{}$ above the horizontal, as shown in the figure above. The projectile lands on a plateau 3 s later. The height $ y$ of the plateau is most nearly",
+          "prompt": "A projectile is launched with a speed of $40 \\mathrm{~m} / \\mathrm{s}$ at an angle of $30^{\\circ}$ above the horizontal, as shown in the figure above. The projectile lands on a plateau 3 s later. The height $\\Delta y$ of the plateau is most nearly",
           "options": [
             {
               "key": "A",
@@ -45,36 +45,40 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "2",
           "type": "single",
-          "prompt": "A small sphere hangs from a string attached to the ceiling of a uniformly accelerating train car. It is observed that the string makes an angle of $37^{}$ with respect to the vertical. The magnitude of the acceleration $a$ of the train car is most nearly",
+          "prompt": "A small sphere hangs from a string attached to the ceiling of a uniformly accelerating train car. It is observed that the string makes an angle of $37^{\\circ}$ with respect to the vertical. The magnitude of the acceleration $a$ of the train car is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "$6.0 ~m / s^{2}$"
+              "content": "$6.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "B",
-              "content": "$7.5 ~m / s^{2}$"
+              "content": "$7.5 \\mathrm{~m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "C",
-              "content": "$8.0 ~m / s^{2}$"
+              "content": "$8.0 \\mathrm{~m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "D",
-              "content": "$10 ~m / s^{2}$"
+              "content": "$10 \\mathrm{~m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "E",
-              "content": "$13 ~m / s^{2}$"
+              "content": "$13 \\mathrm{~m} / \\mathrm{s}^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "3",
@@ -83,7 +87,7 @@
           "options": [
             {
               "key": "A",
-              "content": "The derivative of the distance the object falls with respect to time equals $9.8 ~m / s^{2}$."
+              "content": "The derivative of the distance the object falls with respect to time equals $9.8 \\mathrm{~m} / \\mathrm{s}^{2}$."
             },
             {
               "key": "B",
@@ -95,49 +99,53 @@
             },
             {
               "key": "D",
-              "content": "The speed of the object as it falls is a constant $9.8 ~m / s$."
+              "content": "The speed of the object as it falls is a constant $9.8 \\mathrm{~m} / \\mathrm{s}$."
             },
             {
               "key": "E",
-              "content": "The speed of the object increases by $9.8 ~m / s$ during each second. Positive Positive Positive Negative Negative"
+              "content": "The speed of the object increases by $9.8 \\mathrm{~m} / \\mathrm{s}$ during each second."
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "4",
           "type": "single",
-          "prompt": "The position $x$ as a function of time $t$ for an object moving in a straight line is shown in the graph above. Which of the following best describes the object&#x27;s speed and direction of motion during the time interval shown? tabular{lll} &amp; Speed &amp; \\\\",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-21.jpg?height=432&width=559&top_left_y=159&top_left_x=1262\" alt=\"\" /> The position $x$ as a function of time $t$ for an object moving in a straight line is shown in the graph above. Which of the following best describes the object's speed and direction of motion during the time interval shown?",
           "options": [
             {
               "key": "A",
-              "content": "Decreasing &amp; &amp; Positive \\\\"
+              "content": "Speed decreasing; direction positive"
             },
             {
               "key": "B",
-              "content": "Increasing &amp; &amp; Positive \\\\"
+              "content": "Speed increasing; direction positive"
             },
             {
               "key": "C",
-              "content": "Constant &amp; &amp; Positive \\\\"
+              "content": "Speed constant; direction positive"
             },
             {
               "key": "D",
-              "content": "Decreasing &amp; &amp; Negative \\\\"
+              "content": "Speed decreasing; direction negative"
             },
             {
               "key": "E",
-              "content": "Increasing &amp; &amp; Negative tabular"
+              "content": "Speed increasing; direction negative"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "5",
           "type": "single",
-          "prompt": "The force $F$ exerted on a ball during a collision with a wall is given as a function of time $t$ by the equation $F(t)= t- t^{2}$, where $=400 ~N / s$ and $=4000 ~N / s^{2}$. The ball first contacts the wall at $t=0$, and the collision lasts for 0.10 s . What is the magnitude of the change in momentum of the ball?",
+          "prompt": "The force $F$ exerted on a ball during a collision with a wall is given as a function of time $t$ by the equation $F(t)=\\alpha t-\\beta t^{2}$, where $\\alpha=400 \\mathrm{~N} / \\mathrm{s}$ and $\\beta=4000 \\mathrm{~N} / \\mathrm{s}^{2}$. The ball first contacts the wall at $t=0$, and the collision lasts for 0.10 s . What is the magnitude of the change in momentum of the ball?",
           "options": [
             {
               "key": "A",
@@ -145,15 +153,15 @@
             },
             {
               "key": "B",
-              "content": "$0.67 ~kg ~m / s$"
+              "content": "$0.67 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$3.33 ~kg ~m / s$"
+              "content": "$3.33 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "D",
-              "content": "$3.60 ~kg ~m / s$"
+              "content": "$3.60 \\mathrm{~kg} \\cdot \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "E",
@@ -161,7 +169,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "6",
@@ -170,32 +180,34 @@
           "options": [
             {
               "key": "A",
-              "content": "$M_{1}{M_{2}} L$"
+              "content": "$\\frac{M_{1}}{M_{2}} L$"
             },
             {
               "key": "B",
-              "content": "$(M_{1+M_{2})}{M_{1}} L$"
+              "content": "$\\frac{\\left(M_{1}+M_{2}\\right)}{M_{1}} L$"
             },
             {
               "key": "C",
-              "content": "$(M_{1+M_{2})}{M_{2}} L$"
+              "content": "$\\frac{\\left(M_{1}+M_{2}\\right)}{M_{2}} L$"
             },
             {
               "key": "D",
-              "content": "$M_{2}{(M_{1}+M_{2})} L$"
+              "content": "$\\frac{M_{2}}{\\left(M_{1}+M_{2}\\right)} L$"
             },
             {
               "key": "E",
-              "content": "$M_{1}{(M_{1}+M_{2})} L$  A 2 kg block is initially at rest on a horizontal frictionless table. A force of 15 N is then exerted on the block at an angle of $37^{}$ to the horizontal, as shown above."
+              "content": "$\\frac{M_{1}}{\\left(M_{1}+M_{2}\\right)} L$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "7",
           "type": "single",
-          "prompt": "The change in the kinetic energy of the block after moving a distance of 3 m is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-23.jpg?height=251&width=662&top_left_y=226&top_left_x=256\" alt=\"\" /> A 2 kg block is initially at rest on a horizontal frictionless table. A force of 15 N is then exerted on the block at an angle of $37^{\\circ}$ to the horizontal, as shown above. The change in the kinetic energy of the block after moving a distance of 3 m is most nearly",
           "options": [
             {
               "key": "A",
@@ -219,12 +231,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "8",
           "type": "single",
-          "prompt": "The magnitude of the force exerted on the block by the table is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-23.jpg?height=251&width=662&top_left_y=226&top_left_x=256\" alt=\"\" /> A 2 kg block is initially at rest on a horizontal frictionless table. A force of 15 N is then exerted on the block at an angle of $37^{\\circ}$ to the horizontal, as shown above. The magnitude of the force exerted on the block by the table is most nearly",
           "options": [
             {
               "key": "A",
@@ -244,16 +258,18 @@
             },
             {
               "key": "E",
-              "content": "11 N  Note: Vectors not drawn to scale."
+              "content": "11 N"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "9",
           "type": "single",
-          "prompt": "A wheel of radius $R$ is fixed to an axle of radius $R / 3$ and rotates at constant angular speed $$, as shown in the figure above. A force of magnitude $F_{1}$ is applied tangent to the outer edge of the wheel. A second force of magnitude $F_{2}$ is applied tangent to the edge of the axle to keep the wheel rotating at constant angular speed $$. The magnitude $F_{2}$ is equal to",
+          "prompt": "A wheel of radius $R$ is fixed to an axle of radius $R / 3$ and rotates at constant angular speed $\\omega$, as shown in the figure above. A force of magnitude $F_{1}$ is applied tangent to the outer edge of the wheel. A second force of magnitude $F_{2}$ is applied tangent to the edge of the axle to keep the wheel rotating at constant angular speed $\\omega$. The magnitude $F_{2}$ is equal to",
           "options": [
             {
               "key": "A",
@@ -273,45 +289,49 @@
             },
             {
               "key": "E",
-              "content": "$9 F_{1}$  On a level horizontal table, a toy race car of mass $M$ moves with constant speed $v$ around a flat circular racetrack of radius $R$."
+              "content": "$9 F_{1}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "10",
           "type": "single",
-          "prompt": "Which of the following best represents the minimum coefficient of static friction required for the race car to continue to follow the circular path shown?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-24.jpg?height=270&width=268&top_left_y=237&top_left_x=449\" alt=\"\" /> On a level horizontal table, a toy race car of mass $M$ moves with constant speed $v$ around a flat circular racetrack of radius $R$. Which of the following best represents the minimum coefficient of static friction required for the race car to continue to follow the circular path shown?",
           "options": [
             {
               "key": "A",
-              "content": "$Rg{v^{2}}$"
+              "content": "$\\frac{R g}{v^{2}}$"
             },
             {
               "key": "B",
-              "content": "$Mv^{2}{R}$"
+              "content": "$\\frac{M v^{2}}{R}$"
             },
             {
               "key": "C",
-              "content": "$v^{2}{g}$"
+              "content": "$\\frac{v^{2}}{g}$"
             },
             {
               "key": "D",
-              "content": "$v^{2}{Rg}$"
+              "content": "$\\frac{v^{2}}{R g}$"
             },
             {
               "key": "E",
-              "content": "$v^{2}{2 Rg}$"
+              "content": "$\\frac{v^{2}}{2 R g}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "11",
           "type": "single",
-          "prompt": "The car is now going around a banked curve, as shown in the figure above. The banked curve is higher toward the outside of the circular turn. The car can now travel at a higher speed without sliding because the banked curve",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-24.jpg?height=146&width=339&top_left_y=1545&top_left_x=414\" alt=\"\" /> The car is now going around a banked curve, as shown in the figure above. The banked curve is higher toward the outside of the circular turn. The car can now travel at a higher speed without sliding because the banked curve",
           "options": [
             {
               "key": "A",
@@ -335,41 +355,45 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "12",
           "type": "single",
-          "prompt": "A horizontal uniform plank is supported by ropes I and II at points $P$ and $Q$, respectively, as shown above. The two ropes have negligible mass. The tension in rope I is 150 N . The point at which rope II is attached to the plank is now moved to point $R$ halfway between point $Q$ and point $C$, the center of the plank. The plank remains horizontal. Which of the following are most nearly the new tensions in the two ropes? tabular{lcll} &amp; Tension in I &amp; &amp; Tension in II \\\\",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-24.jpg?height=364&width=610&top_left_y=153&top_left_x=1232\" alt=\"\" /> A horizontal uniform plank is supported by ropes I and II at points $P$ and $Q$, respectively, as shown above. The two ropes have negligible mass. The tension in rope I is 150 N. The point at which rope II is attached to the plank is now moved to point $R$ halfway between point $Q$ and point $C$, the center of the plank. The plank remains horizontal. Which of the following are most nearly the new tensions in the two ropes?",
           "options": [
             {
               "key": "A",
-              "content": "&amp; 75 N &amp; &amp; 225 N \\\\"
+              "content": "Tension in I: 75 N; Tension in II: 225 N"
             },
             {
               "key": "B",
-              "content": "&amp; 100 N &amp; &amp; 200 N \\\\"
+              "content": "Tension in I: 100 N; Tension in II: 200 N"
             },
             {
               "key": "C",
-              "content": "&amp; 112.5 N &amp; &amp; 112.5 N \\\\"
+              "content": "Tension in I: 112.5 N; Tension in II: 112.5 N"
             },
             {
               "key": "D",
-              "content": "&amp; 112.5 N &amp; &amp; 187.5 N \\\\"
+              "content": "Tension in I: 112.5 N; Tension in II: 187.5 N"
             },
             {
               "key": "E",
-              "content": "&amp; 150 N &amp; &amp; 300 N tabular"
+              "content": "Tension in I: 150 N; Tension in II: 300 N"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "13",
           "type": "single",
-          "prompt": "The potential energy $U$ as a function of the position $x$ of an object is given by $U(x)=-400 / x$, where $U$ is in joules and $x$ is in meters. The object is released from rest at position $x=30 ~m$ and is free to move along the $x$-axis. When the object has moved a distance of 10 m from its initial position, the magnitude of the force associated with this potential energy function is",
+          "prompt": "The potential energy $U$ as a function of the position $x$ of an object is given by $U(x)=-400 / x$, where $U$ is in joules and $x$ is in meters. The object is released from rest at position $x=30 \\mathrm{~m}$ and is free to move along the $x$-axis. When the object has moved a distance of 10 m from its initial position, the magnitude of the force associated with this potential energy function is",
           "options": [
             {
               "key": "A",
@@ -381,19 +405,21 @@
             },
             {
               "key": "C",
-              "content": "0 N"
+              "content": "4.0 N"
             },
             {
               "key": "D",
-              "content": "0 N"
+              "content": "1.0 N"
             },
             {
               "key": "E",
-              "content": "$ 0.25 ~N$"
+              "content": "$0.25 \\mathrm{~N}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "14",
@@ -422,12 +448,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "15",
           "type": "single",
-          "prompt": "Three blocks of masses $m, 3 m$, and $2 m$ resting on a frictionless horizontal surface are connected to identical ideal springs, as shown above. A force of magnitude $F$ directed to the left is then applied to the left end of spring $A$. Which spring is stretched the most when the blocks are all moving with the same acceleration?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-25.jpg?height=135&width=864&top_left_y=155&top_left_x=1125\" alt=\"\" /> Three blocks of masses $m, 3 m$, and $2 m$ resting on a frictionless horizontal surface are connected to identical ideal springs, as shown above. A force of magnitude $F$ directed to the left is then applied to the left end of spring $A$. Which spring is stretched the most when the blocks are all moving with the same acceleration?",
           "options": [
             {
               "key": "A",
@@ -451,36 +479,40 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "16",
           "type": "single",
-          "prompt": "At time $t=0$, a ball is thrown with initial speed $v_{0}$ at an angle $$ above the horizontal. Air resistance is negligible. Which of the following best represents the speed of the ball as a function of time $t$ while the ball is in flight?",
+          "prompt": "At time $t=0$, a ball is thrown with initial speed $v_{0}$ at an angle $\\theta$ above the horizontal. Air resistance is negligible. Which of the following best represents the speed of the ball as a function of time $t$ while the ball is in flight?",
           "options": [
             {
               "key": "A",
-              "content": "$v_{0} -gt$"
+              "content": "$v_{0}  in \\theta-g t$"
             },
             {
               "key": "B",
-              "content": "$v_{0} -gt$"
+              "content": "$v_{0} \\cos \\theta-g t$"
             },
             {
               "key": "C",
-              "content": "$v_{0^{2} ^{2} +(v_{0} -gt)^{2}}$"
+              "content": "$ qrt{v_{0}^{2} \\cos ^{2} \\theta+\\left(v_{0}  in \\theta-g t\\right)^{2}}$"
             },
             {
               "key": "D",
-              "content": "$(v_{0 -gt)^{2}+v_{0}^{2} ^{2} }$"
+              "content": "$ qrt{\\left(v_{0} \\cos \\theta-g t\\right)^{2}+v_{0}^{2}  in ^{2} \\theta}$"
             },
             {
               "key": "E",
-              "content": "$(v_{0 -gt)^{2}+(v_{0} -gt)^{2}}$"
+              "content": "$ qrt{\\left(v_{0} \\cos \\theta-g t\\right)^{2}+\\left(v_{0}  in \\theta-g t\\right)^{2}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "17",
@@ -489,19 +521,19 @@
           "options": [
             {
               "key": "A",
-              "content": "$4 ~m / s$"
+              "content": "$4 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "B",
-              "content": "$8 ~m / s$"
+              "content": "$8 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$18 ~m / s$"
+              "content": "$18 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "D",
-              "content": "$36 ~m / s$"
+              "content": "$36 \\mathrm{~m} / \\mathrm{s}$"
             },
             {
               "key": "E",
@@ -509,7 +541,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "18",
@@ -538,7 +572,9 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "19",
@@ -563,74 +599,80 @@
             },
             {
               "key": "E",
-              "content": "$2 v$ A wheel of mass $m$, which has a rotational inertia $I$ and a radius $r$, rotates with an angular speed $$ about an axis through its center. A retarding force $F$ is applied tangentially to the rim of the wheel."
+              "content": "$2 v$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "20",
           "type": "single",
-          "prompt": "Which of the following is equal to the magnitude of the angular acceleration of the wheel?",
+          "prompt": "A wheel of mass $m$, which has a rotational inertia $I$ and a radius $r$, rotates with an angular speed $\\omega$ about an axis through its center. A retarding force $F$ is applied tangentially to the rim of the wheel. Which of the following is equal to the magnitude of the angular acceleration of the wheel?",
           "options": [
             {
               "key": "A",
-              "content": "$F {m}$"
+              "content": "$\\frac{F \\omega}{m}$"
             },
             {
               "key": "B",
-              "content": "$Fr{I}$"
+              "content": "$\\frac{F r}{I}$"
             },
             {
               "key": "C",
-              "content": "$^{2}{r}$"
+              "content": "$\\frac{\\omega^{2}}{r}$"
             },
             {
               "key": "D",
-              "content": "$I $"
+              "content": "$I \\omega$"
             },
             {
               "key": "E",
-              "content": "$ r$"
+              "content": "$\\omega r$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "21",
           "type": "single",
-          "prompt": "The retarding force $F$ finally stops the rotation of the wheel. Which of the following best represents the total reduction in mechanical energy in the process of stopping the wheel?",
+          "prompt": "A wheel of mass $m$, which has a rotational inertia $I$ and a radius $r$, rotates with an angular speed $\\omega$ about an axis through its center. A retarding force $F$ is applied tangentially to the rim of the wheel. The retarding force $F$ finally stops the rotation of the wheel. Which of the following best represents the total reduction in mechanical energy in the process of stopping the wheel?",
           "options": [
             {
               "key": "A",
-              "content": "$Fr$"
+              "content": "$F r$"
             },
             {
               "key": "B",
-              "content": "$I ^{2}$"
+              "content": "$I \\omega^{2}$"
             },
             {
               "key": "C",
-              "content": "$^{2} r$"
+              "content": "$\\omega^{2} r$"
             },
             {
               "key": "D",
-              "content": "$Fr^{2}$"
+              "content": "$F r^{2}$"
             },
             {
               "key": "E",
-              "content": "$1{2} I ^{2}$"
+              "content": "$\\frac{1}{2} I \\omega^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "22",
           "type": "single",
-          "prompt": "An airplane travels horizontally at a constant velocity $v$. An object is dropped from the plane, and one second later another object is dropped from the plane. If air resistance is negligible, what happens to the vertical distance between the two objects while they are both falling?",
+          "prompt": "An airplane travels horizontally at a constant velocity $\\vec{v}$. An object is dropped from the plane, and one second later another object is dropped from the plane. If air resistance is negligible, what happens to the vertical distance between the two objects while they are both falling?",
           "options": [
             {
               "key": "A",
@@ -654,45 +696,49 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "23",
           "type": "single",
-          "prompt": "A boat moves across a river. The river&#x27;s velocity relative to the land is $v_{RL}$, and the boat&#x27;s velocity relative to the river is $v_{BR}$. Which of the following best represents the velocity of the boat relative to the land?",
+          "prompt": "A boat moves across a river. The river's velocity relative to the land is $\\vec{v}_{R L}$, and the boat's velocity relative to the river is $\\vec{v}_{B R}$. Which of the following best represents the velocity of the boat relative to the land?",
           "options": [
             {
               "key": "A",
-              "content": "$v_{BR}+v_{RL}$"
+              "content": "$\\vec{v}_{B R}+\\vec{v}_{R L}$"
             },
             {
               "key": "B",
-              "content": "$v_{BR}-v_{RL}$"
+              "content": "$\\vec{v}_{B R}-\\vec{v}_{R L}$"
             },
             {
               "key": "C",
-              "content": "$-v_{BR}+v_{RL}$"
+              "content": "$-\\vec{v}_{B R}+\\vec{v}_{R L}$"
             },
             {
               "key": "D",
-              "content": "$|v_{BR}|+|v_{RL}|$"
+              "content": "$\\left|\\vec{v}_{B R}\\right|+\\left|\\vec{v}_{R L}\\right|$"
             },
             {
               "key": "E",
-              "content": "$|v_{BR}|-|v_{RL}|$ The following graph shows the force $F$ exerted on a 2 kg object as a function of the distance $d$ that the object travels. The object is at rest at $d=0$ and travels on a horizontal, frictionless surface along the line of action of the force."
+              "content": "$\\left|\\vec{v}_{B R}\\right|-\\left|\\vec{v}_{R L}\\right|$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "24",
           "type": "single",
-          "prompt": "The work done on the object by the force $F$ during the first 10 m of travel is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-28.jpg?height=514&width=589&top_left_y=499&top_left_x=289\" alt=\"\" /> The following graph shows the force $\\vec{F}$ exerted on a 2 kg object as a function of the distance $d$ that the object travels. The object is at rest at $d=0$ and travels on a horizontal, frictionless surface along the line of action of the force. The work done on the object by the force $\\vec{F}$ during the first 10 m of travel is most nearly",
           "options": [
             {
               "key": "A",
-              "content": "5 J"
+              "content": "7.5 J"
             },
             {
               "key": "B",
@@ -712,12 +758,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "25",
           "type": "single",
-          "prompt": "The kinetic energy of the 2 kg object when $d$ equals 20 m is the same as when $d$ is most nearly",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-28.jpg?height=514&width=589&top_left_y=499&top_left_x=289\" alt=\"\" /> The following graph shows the force $\\vec{F}$ exerted on a 2 kg object as a function of the distance $d$ that the object travels. The object is at rest at $d=0$ and travels on a horizontal, frictionless surface along the line of action of the force. The kinetic energy of the 2 kg object when $d$ equals 20 m is the same as when $d$ is most nearly",
           "options": [
             {
               "key": "A",
@@ -733,7 +781,7 @@
             },
             {
               "key": "D",
-              "content": "5 m"
+              "content": "12.5 m"
             },
             {
               "key": "E",
@@ -741,12 +789,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "26",
           "type": "single",
-          "prompt": "The acceleration due to gravity on the surface of the Moon is about $1 / 6$ of that on the surface of Earth. An astronaut weighs 600 N on Earth. The astronaut&#x27;s mass on the Moon is most nearly",
+          "prompt": "The acceleration due to gravity on the surface of the Moon is about $1 / 6$ of that on the surface of Earth. An astronaut weighs 600 N on Earth. The astronaut's mass on the Moon is most nearly",
           "options": [
             {
               "key": "A",
@@ -770,123 +820,133 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "27",
           "type": "single",
-          "prompt": "Planet $X$ has a mass $M$, radius $R$, and no atmosphere. An object of mass $m$ is located a distance $2 R$ above the surface of planet $X$, as shown in the figure above. The object is released from rest and falls to the surface of the planet. What is the speed of the object just before it reaches the surface of planet $X$ ?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-28.jpg?height=608&width=313&top_left_y=663&top_left_x=1386\" alt=\"\" /> Planet $X$ has a mass $M$, radius $R$, and no atmosphere. An object of mass $m$ is located a distance $2 R$ above the surface of planet $X$, as shown in the figure above. The object is released from rest and falls to the surface of the planet. What is the speed of the object just before it reaches the surface of planet $X$ ?",
           "options": [
             {
               "key": "A",
-              "content": "${2 GM{3 R}}$"
+              "content": "$ qrt{\\frac{2 G M}{3 R}}$"
             },
             {
               "key": "B",
-              "content": "${4 GM{3 R}}$"
+              "content": "$ qrt{\\frac{4 G M}{3 R}}$"
             },
             {
               "key": "C",
-              "content": "${8 GM{3 R}}$"
+              "content": "$ qrt{\\frac{8 G M}{3 R}}$"
             },
             {
               "key": "D",
-              "content": "${3 GM{R}}$"
+              "content": "$ qrt{\\frac{3 G M}{R}}$"
             },
             {
               "key": "E",
-              "content": "${6 GM{R}}$"
+              "content": "$ qrt{\\frac{6 G M}{R}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "28",
           "type": "single",
-          "prompt": "A ball is kicked from the ground with an initial speed $v_{0}$ at an angle $$ above the horizontal. Which of the following best describes the magnitudes of the velocity and acceleration of the ball when it reaches the highest point of its Velocity",
+          "prompt": "A ball is kicked from the ground with an initial speed $v_{0}$ at an angle $\\theta$ above the horizontal. Which of the following best describes the magnitudes of the velocity and acceleration of the ball when it reaches the highest point of its trajectory?",
           "options": [
             {
               "key": "A",
-              "content": "0"
+              "content": "Velocity: 0; Acceleration: 0"
             },
             {
               "key": "B",
-              "content": "$v_{0} $"
+              "content": "Velocity: $v_{0} \\cos \\theta$; Acceleration: 0"
             },
             {
               "key": "C",
-              "content": "$v_{0} $"
+              "content": "Velocity: $v_{0}  in \\theta$; Acceleration: 0"
             },
             {
               "key": "D",
-              "content": "$v_{0} $"
+              "content": "Velocity: $v_{0} \\cos \\theta$; Acceleration: $9.8 \\mathrm{~m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "E",
-              "content": "$v_{0} $ trajectory? Acceleration 000 $9.8 ~m / s^{2}$ $9.8 ~m / s^{2}$"
+              "content": "Velocity: $v_{0}  in \\theta$; Acceleration: $9.8 \\mathrm{~m} / \\mathrm{s}^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "29",
           "type": "single",
-          "prompt": "A block of mass $m$ is attached to a spring and placed on an inclined plane. The spring has a spring constant $k$, and there is negligible friction between the block and inclined plane. The block is released from rest at the position shown in the figure above with the spring initially unstretched. What distance $d$ does the block slide down the plane before coming momentarily to rest?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-29.jpg?height=310&width=575&top_left_y=146&top_left_x=1255\" alt=\"\" /> A block of mass $m$ is attached to a spring and placed on an inclined plane. The spring has a spring constant $k$, and there is negligible friction between the block and inclined plane. The block is released from rest at the position shown in the figure above with the spring initially unstretched. What distance $d$ does the block slide down the plane before coming momentarily to rest?",
           "options": [
             {
               "key": "A",
-              "content": "$2 mg{k}$"
+              "content": "$\\frac{2 m g}{k}$"
             },
             {
               "key": "B",
-              "content": "$mg{k}$"
+              "content": "$\\frac{m g}{k}$"
             },
             {
               "key": "C",
-              "content": "$mg {k}$"
+              "content": "$\\frac{m g  in \\theta}{k}$"
             },
             {
               "key": "D",
-              "content": "$2 mg {k}$"
+              "content": "$\\frac{2 m g  in \\theta}{k}$"
             },
             {
               "key": "E",
-              "content": "${mg {k}}$"
+              "content": "$ qrt{\\frac{m g  in \\theta}{k}}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "30",
           "type": "single",
-          "prompt": "A 5.0 kg object suspended on a spring oscillates such that its position $x$ as a function of time $t$ is given by the equation $x(t)=A ( t)$, where $A=0.80 ~m$ and $=2.0 ~s^{-1}$. What is the magnitude of the maximum net force on the object during the motion?",
+          "prompt": "A 5.0 kg object suspended on a spring oscillates such that its position $x$ as a function of time $t$ is given by the equation $x(t)=A \\cos (\\omega t)$, where $A=0.80 \\mathrm{~m}$ and $\\omega=2.0 \\mathrm{~s}^{-1}$. What is the magnitude of the maximum net force on the object during the motion?",
           "options": [
             {
               "key": "A",
-              "content": "2 N"
+              "content": "3.2 N"
             },
             {
               "key": "B",
-              "content": "0 N"
+              "content": "4.0 N"
             },
             {
               "key": "C",
-              "content": "0 N"
+              "content": "8.0 N"
             },
             {
               "key": "D",
-              "content": "8 N"
+              "content": "12.8 N"
             },
             {
               "key": "E",
-              "content": "0 N"
+              "content": "16.0 N"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "31",
@@ -895,27 +955,29 @@
           "options": [
             {
               "key": "A",
-              "content": "$GM_{EM_{M}}{2 R}$"
+              "content": "$\\frac{G M_{E} M_{M}}{2 R}$"
             },
             {
               "key": "B",
-              "content": "$GM_{EM_{M}}{R}$"
+              "content": "$\\frac{G M_{E} M_{M}}{R}$"
             },
             {
               "key": "C",
-              "content": "$-GM_{EM_{M}}{2 R}$"
+              "content": "$-\\frac{G M_{E} M_{M}}{2 R}$"
             },
             {
               "key": "D",
-              "content": "$-GM_{EM_{M}}{R}$"
+              "content": "$-\\frac{G M_{E} M_{M}}{R}$"
             },
             {
               "key": "E",
-              "content": "$-2 GM_{EM_{M}}{R}$"
+              "content": "$-\\frac{2 G M_{E} M_{M}}{R}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "32",
@@ -928,36 +990,38 @@
             },
             {
               "key": "B",
-              "content": "$ v_{e} / 2$"
+              "content": "$\\quad v_{e} / 2$"
             },
             {
               "key": "C",
-              "content": "$ v_{e}$"
+              "content": "$\\quad v_{e}$"
             },
             {
               "key": "D",
-              "content": "$2 v_{e}$"
+              "content": "$ qrt{2} v_{e}$"
             },
             {
               "key": "E",
-              "content": "$3 v_{e}$"
+              "content": "$ qrt{3} v_{e}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "33",
           "type": "single",
-          "prompt": "Identical blocks 1 and 2 start from rest at height $h$ and travel down two differently shaped tracks onto identical rough horizontal surfaces, as shown in the figures above. Both tracks are frictionless, and both blocks make a smooth transition onto the rough horizontal surfaces. Block 1 comes to rest at a horizontal distance $d_{1}$ from the bottom of the track. Which of the following best describes and explains the horizontal distance $d_{2}$ that block 2 travels before coming to rest?",
+          "prompt": "<img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-31.jpg?height=301&width=645&top_left_y=147&top_left_x=1218\" alt=\"\" /> <img src=\"https://cdn.mathpix.com/cropped/52969168-7b8e-45fe-a7f5-8f1f5ba63e69-31.jpg?height=247&width=639&top_left_y=537&top_left_x=1222\" alt=\"\" /> Identical blocks 1 and 2 start from rest at height $h$ and travel down two differently shaped tracks onto identical rough horizontal surfaces, as shown in the figures above. Both tracks are frictionless, and both blocks make a smooth transition onto the rough horizontal surfaces. Block 1 comes to rest at a horizontal distance $d_{1}$ from the bottom of the track. Which of the following best describes and explains the horizontal distance $d_{2}$ that block 2 travels before coming to rest?",
           "options": [
             {
               "key": "A",
-              "content": "$d_{2}"
+              "content": "$d_{2}<d_{1}$, because block 2 reaches its maximum speed later than block 1"
             },
             {
               "key": "B",
-              "content": "$d_{2}"
+              "content": "$d_{2}<d_{1}$, because block 2 has a lower maximum speed than block 1"
             },
             {
               "key": "C",
@@ -969,16 +1033,18 @@
             },
             {
               "key": "E",
-              "content": "$d_{2}&gt;d_{1}$, because the track for block 2 is shorter | &amp; Mass (kg) &amp; Area $(^{2})$ &amp; $_{s}$ \\\\ | Block 1 &amp; 0.75 &amp; 75 &amp; 0.20 \\\\ | Block 2 &amp; 3.0 &amp; 100 &amp; 0.40 \\\\ |"
+              "content": "$d_{2}>d_{1}$, because the track for block 2 is shorter"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "34",
           "type": "single",
-          "prompt": "In an experiment, two blocks of different roughness are placed on the same rough wooden board. The table above shows three values for each block: the mass, the area of the block in contact with the board, and the coefficient of static friction $_{s}$ between the block and the board. The experiment begins with the board horizontal. One end of the board is then slowly raised. Which of the following correctly identifies the block that will start sliding down the board first and why?",
+          "prompt": "<table><tr><th></th><th>Mass (kg)</th><th>Area (cm^2)</th><th>$\\mu_s$</th></tr><tr><td>Block 1</td><td>0.75</td><td>75</td><td>0.20</td></tr><tr><td>Block 2</td><td>3.0</td><td>100</td><td>0.40</td></tr></table> In an experiment, two blocks of different roughness are placed on the same rough wooden board. The table above shows three values for each block: the mass, the area of the block in contact with the board, and the coefficient of static friction $\\mu_{s}$ between the block and the board. The experiment begins with the board horizontal. One end of the board is then slowly raised. Which of the following correctly identifies the block that will start sliding down the board first and why?",
           "options": [
             {
               "key": "A",
@@ -1002,12 +1068,14 @@
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         },
         {
           "id": "35",
           "type": "single",
-          "prompt": "An equation for the motion of an object is given as $2 vt-4 x=Bt^{2}$, where $B$ is a constant. The variable $v$ indicates velocity, in meters per second; $t$ indicates time, in seconds; and $x$ indicates displacement, in meters. What is the unit of measure for $B$ ?",
+          "prompt": "An equation for the motion of an object is given as $2 v t-4 x=B t^{2}$, where $B$ is a constant. The variable $v$ indicates velocity, in meters per second; $t$ indicates time, in seconds; and $x$ indicates displacement, in meters. What is the unit of measure for $B$ ?",
           "options": [
             {
               "key": "A",
@@ -1015,23 +1083,25 @@
             },
             {
               "key": "B",
-              "content": "$m / s$"
+              "content": "$\\mathrm{m} / \\mathrm{s}$"
             },
             {
               "key": "C",
-              "content": "$m / s^{2}$"
+              "content": "$\\mathrm{m} / \\mathrm{s}^{2}$"
             },
             {
               "key": "D",
-              "content": "$m^{2} / s$"
+              "content": "$\\mathrm{m}^{2} / \\mathrm{s}$"
             },
             {
               "key": "E",
-              "content": "$m^{2} / s^{2}$"
+              "content": "$\\mathrm{m}^{2} / \\mathrm{s}^{2}$"
             }
           ],
           "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
+          "explanation": "",
+          "unit": "",
+          "title": ""
         }
       ]
     }

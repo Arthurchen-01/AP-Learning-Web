@@ -150,23 +150,23 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{0}^{2 \\pi} \\frac{1}{2}|\\theta \\sin 2 \\theta| d \\theta$"
+              "content": "$\\int_{0}^{2 \\pi} \\frac{1}{2}|\\theta  in 2 \\theta| d \\theta$"
             },
             {
               "key": "B",
-              "content": "$\\int_{0}^{2 \\pi}|\\theta \\sin 2 \\theta| d \\theta$"
+              "content": "$\\int_{0}^{2 \\pi}|\\theta  in 2 \\theta| d \\theta$"
             },
             {
               "key": "C",
-              "content": "$\\int_{0}^{2 \\pi} \\frac{1}{2}(\\theta \\sin 2 \\theta)^{2} d \\theta$"
+              "content": "$\\int_{0}^{2 \\pi} \\frac{1}{2}(\\theta  in 2 \\theta)^{2} d \\theta$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{2 \\pi}(\\theta \\sin 2 \\theta)^{2} d \\theta$"
+              "content": "$\\int_{0}^{2 \\pi}(\\theta  in 2 \\theta)^{2} d \\theta$"
             },
             {
               "key": "E",
-              "content": "$\\int_{0}^{2 \\pi} \\frac{\\pi}{2}(\\theta \\sin 2 \\theta)^{2} d \\theta$"
+              "content": "$\\int_{0}^{2 \\pi} \\frac{\\pi}{2}(\\theta  in 2 \\theta)^{2} d \\theta$"
             }
           ],
           "answer": "",
@@ -197,7 +197,7 @@
             },
             {
               "key": "E",
-              "content": "1 \\begin{tabular}{|c||c|c|c|} \\hline$x$ & 2 & 2.2 & 2.4 \\\\ \\hline$f^{\\prime}(x)$ & -0.5 & -0.3 & -0.1 \\\\ \\hline \\end{tabular}"
+              "content": "1"
             }
           ],
           "answer": "",
@@ -274,23 +274,23 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{0}^{1} \\sqrt{1+t^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{1+t^{2}} d t$"
             },
             {
               "key": "B",
-              "content": "$\\int_{0}^{1} \\sqrt{1+4 t^{2}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{1+4 t^{2}} d t$"
             },
             {
               "key": "C",
-              "content": "$\\int_{0}^{1} \\sqrt{1+t^{4}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{1+t^{4}} d t$"
             },
             {
               "key": "D",
-              "content": "$\\int_{0}^{1} \\sqrt{t^{2}+t^{4}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{t^{2}+t^{4}} d t$"
             },
             {
               "key": "E",
-              "content": "$\\int_{0}^{1} \\sqrt{\\frac{t^{4}}{4}+\\frac{t^{6}}{9}} d t$"
+              "content": "$\\int_{0}^{1}  qrt{\\frac{t^{4}}{4}+\\frac{t^{6}}{9}} d t$"
             }
           ],
           "answer": "",
@@ -321,7 +321,7 @@
             },
             {
               "key": "E",
-              "content": "$[3, \\infty)$ only \\begin{tabular}{|c||c|c|c|c|c|c|c|} \\hline$x$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\ \\hline$f(x)$ & 0 & 5 & 2 & -1 & -2 & 0 & 3 \\\\ \\hline \\end{tabular}"
+              "content": "$[3, \\infty)$ only"
             }
           ],
           "answer": "",
@@ -375,7 +375,7 @@
             },
             {
               "key": "C",
-              "content": "$x^{2} \\sin x+2 \\int x \\cos x d x$"
+              "content": "$x^{2}  in x+2 \\int x \\cos x d x$"
             },
             {
               "key": "D",
@@ -383,7 +383,7 @@
             },
             {
               "key": "E",
-              "content": "$\\frac{1}{3} x^{3} \\sin x-x^{2} \\cos x+C$"
+              "content": "$\\frac{1}{3} x^{3}  in x-x^{2} \\cos x+C$"
             }
           ],
           "answer": "",
@@ -1003,7 +1003,7 @@
             },
             {
               "key": "E",
-              "content": "11 \\begin{tabular}{|c||c|c|c|c|} \\hline$x$ & 0 & 1 & 2 & 3 \\\\ \\hline \\hline$f(x)$ & 5 & 2 & 3 & 6 \\\\ \\hline$f^{\\prime}(x)$ & -3 & 1 & 3 & 4 \\\\ \\hline \\end{tabular}"
+              "content": "11"
             }
           ],
           "answer": "",
@@ -1154,11 +1154,11 @@
             },
             {
               "key": "D",
-              "content": "$\\frac{\\sqrt{3}}{2}$"
+              "content": "$\\frac{ qrt{3}}{2}$"
             },
             {
               "key": "E",
-              "content": "$2 \\sqrt{3}$"
+              "content": "$2  qrt{3}$"
             }
           ],
           "answer": "",
@@ -1390,23 +1390,23 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\sum_{n=1}^{\\infty} f(n)=0$"
+              "content": "$ um_{n=1}^{\\infty} f(n)=0$"
             },
             {
               "key": "B",
-              "content": "$\\sum_{n=1}^{\\infty} f(n)$ converges, and $\\sum_{n=1}^{\\infty} f(n)"
+              "content": "$ um_{n=1}^{\\infty} f(n)$ converges, and $ um_{n=1}^{\\infty} f(n)"
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} f(n)=5$"
+              "content": "$ um_{n=1}^{\\infty} f(n)=5$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=1}^{\\infty} f(n)$ converges, and $\\sum_{n=1}^{\\infty} f(n)>5$."
+              "content": "$ um_{n=1}^{\\infty} f(n)$ converges, and $ um_{n=1}^{\\infty} f(n)>5$."
             },
             {
               "key": "E",
-              "content": "$\\sum_{n=1}^{\\infty} f(n)$ diverges. }"
+              "content": "$ um_{n=1}^{\\infty} f(n)$ diverges. }"
             }
           ],
           "answer": "",

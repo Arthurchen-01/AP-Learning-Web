@@ -34,15 +34,15 @@
             },
             {
               "key": "C",
-              "content": "$3 \\sin ^{2} x$"
+              "content": "$3  in ^{2} x$"
             },
             {
               "key": "D",
-              "content": "$-3 \\sin ^{2} x \\cos x$"
+              "content": "$-3  in ^{2} x \\cos x$"
             },
             {
               "key": "E",
-              "content": "$3 \\sin ^{2} x \\cos x$"
+              "content": "$3  in ^{2} x \\cos x$"
             }
           ],
           "answer": "",
@@ -119,7 +119,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\int_{1}^{2} \\sqrt{1+\\frac{1}{x^{2}}} d x$"
+              "content": "$\\int_{1}^{2}  qrt{1+\\frac{1}{x^{2}}} d x$"
             },
             {
               "key": "B",
@@ -127,11 +127,11 @@
             },
             {
               "key": "C",
-              "content": "$\\int_{1}^{2} \\sqrt{1+e^{2 x}} d x$"
+              "content": "$\\int_{1}^{2}  qrt{1+e^{2 x}} d x$"
             },
             {
               "key": "D",
-              "content": "$\\int_{1}^{2} \\sqrt{1+(\\ln x)^{2}} d x$"
+              "content": "$\\int_{1}^{2}  qrt{1+(\\ln x)^{2}} d x$"
             },
             {
               "key": "E",
@@ -212,11 +212,11 @@
           "options": [
             {
               "key": "A",
-              "content": "$\\frac{y}{\\sqrt{1-x^{2}}}$"
+              "content": "$\\frac{y}{ qrt{1-x^{2}}}$"
             },
             {
               "key": "B",
-              "content": "$\\frac{x y}{\\sqrt{1-x^{2}}}$"
+              "content": "$\\frac{x y}{ qrt{1-x^{2}}}$"
             },
             {
               "key": "C",
@@ -228,7 +228,7 @@
             },
             {
               "key": "E",
-              "content": "$\\frac{e^{\\arcsin x}}{1+x^{2}}$ \\begin{tabular}{|c||c|c|c|c|} \\hline$t$ (hours) & 4 & 7 & 12 & 15 \\\\ \\hline \\begin{tabular}{c} $R(t)$ \\\\ (liters/hour) \\end{tabular} & 6.5 & 6.2 & 5.9 & 5.6 \\\\ \\hline \\end{tabular}"
+              "content": "$\\frac{e^{\\arcsin x}}{1+x^{2}}$"
             }
           ],
           "answer": "",
@@ -398,7 +398,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$2 \\sqrt{3}$"
+              "content": "$2  qrt{3}$"
             },
             {
               "key": "B",
@@ -406,11 +406,11 @@
             },
             {
               "key": "C",
-              "content": "$\\sqrt{3}$"
+              "content": "$ qrt{3}$"
             },
             {
               "key": "D",
-              "content": "$\\frac{\\sqrt{3}}{2}$"
+              "content": "$\\frac{ qrt{3}}{2}$"
             },
             {
               "key": "E",
@@ -526,11 +526,11 @@
             },
             {
               "key": "B",
-              "content": "$\\sin x$"
+              "content": "$ in x$"
             },
             {
               "key": "C",
-              "content": "$\\frac{\\sin x}{x}$"
+              "content": "$\\frac{ in x}{x}$"
             },
             {
               "key": "D",
@@ -646,7 +646,7 @@
           "options": [
             {
               "key": "A",
-              "content": "$y=\\frac{\\sin (5 x)}{x}$"
+              "content": "$y=\\frac{ in (5 x)}{x}$"
             },
             {
               "key": "B",
@@ -743,7 +743,7 @@
             },
             {
               "key": "B",
-              "content": "$\\sin x$"
+              "content": "$ in x$"
             },
             {
               "key": "C",
@@ -1034,7 +1034,7 @@
             },
             {
               "key": "E",
-              "content": "I and III only \\begin{tabular}{|c|c|c|} \\cline { 2 - 3 } \\multicolumn{1}{c|}{} & $0"
+              "content": "I and III only"
             }
           ],
           "answer": "",
@@ -1274,15 +1274,15 @@
             },
             {
               "key": "C",
-              "content": "$\\sum_{n=1}^{\\infty} a_{n}=0$"
+              "content": "$ um_{n=1}^{\\infty} a_{n}=0$"
             },
             {
               "key": "D",
-              "content": "$\\sum_{n=1}^{\\infty} n a_{n}$ diverges."
+              "content": "$ um_{n=1}^{\\infty} n a_{n}$ diverges."
             },
             {
               "key": "E",
-              "content": "$\\sum_{n=1}^{\\infty} \\frac{a_{n}}{n}$ converges."
+              "content": "$ um_{n=1}^{\\infty} \\frac{a_{n}}{n}$ converges."
             }
           ],
           "answer": "",
