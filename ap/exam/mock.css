@@ -535,6 +535,15 @@ button {
   gap: 6px;
   overflow-x: auto;
   padding: 4px 0;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 40px;
+  scrollbar-width: none;
+}
+.question-strip::-webkit-scrollbar {
+  display: none;
+}
+.question-chip {
+  scroll-snap-align: center;
 }
 
 .navigator-grid {

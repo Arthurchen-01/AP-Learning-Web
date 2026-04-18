@@ -55,16 +55,83 @@ function normalizeLatexForKatex(html) {
 
 function sanitizeImportedHtml(value) {
   const template = document.createElement("template");
-  template.innerHTML = String(value || "");
-  template.content.querySelectorAll("annotation").forEach(n => n.remove());
-  template.content.querySelectorAll(".choiceNum").forEach(n => n.remove());
-  template.content.querySelectorAll(".choiceTxt").forEach(n => n.replaceWith(...n.childNodes));
-  template.content.querySelectorAll("semantics").forEach(n => {
-    const keep = [...n.childNodes].filter(c => c.nodeType !== Node.ELEMENT_NODE || c.tagName.toLowerCase() !== "annotation");
-    if (keep.length) n.replaceWith(...keep);
+  template.innerHTML = String(value || "").trim();
+  template.content.querySelectorAll("script, style").forEach((node) => node.remove());
+  template.content.querySelectorAll("annotation").forEach((node) => node.remove());
+  template.content.querySelectorAll(".formatted_line_break").forEach((node) => node.replaceWith(document.createElement("br")));
+  template.content.querySelectorAll(".choiceNum").forEach((node) => node.remove());
+  template.content.querySelectorAll(".choiceTxt, .stem_paragraph").forEach((node) => {
+    node.replaceWith(...node.childNodes);
   });
-  template.content.querySelectorAll("img").forEach(n => { n.loading = "lazy"; });
+  template.content.querySelectorAll("semantics").forEach((node) => {
+    const keep = [...node.childNodes].filter((child) => child.nodeType !== Node.ELEMENT_NODE || child.tagName.toLowerCase() !== "annotation");
+    if (keep.length) {
+      node.replaceWith(...keep);
+    }
+  });
+  template.content.querySelectorAll("img").forEach((node) => {
+    node.loading = "lazy";
+  });
   return template.innerHTML.trim();
+}
+
+function renderLatexInElement(root) {
+  if (!window.katex || !root) {
+    return;
+  }
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      if (parent.closest("math, .katex, script, style, textarea, pre, code")) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return /\$\$[\s\S]+?\$\$|\$[^$]+\$|\\\([\s\S]+?\\\)|\\\[[\s\S]+?\\\]/.test(node.textContent)
+        ? NodeFilter.FILTER_ACCEPT
+        : NodeFilter.FILTER_REJECT;
+    }
+  });
+
+  const textNodes = [];
+  while (walker.nextNode()) {
+    textNodes.push(walker.currentNode);
+  }
+
+  const latexPattern = /\$\$([\s\S]+?)\$\$|\$([^$]+)\$|\\\(([\s\S]+?)\\\)|\\\[([\s\S]+?)\\\]/g;
+  textNodes.forEach((node) => {
+    const text = node.textContent || "";
+    let lastIndex = 0;
+    let match;
+    const fragment = document.createDocumentFragment();
+
+    while ((match = latexPattern.exec(text))) {
+      if (match.index > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+
+      const latex = match[1] || match[2] || match[3] || match[4] || "";
+      const displayMode = Boolean(match[1] || match[4]);
+      const wrapper = document.createElement(displayMode ? "div" : "span");
+      try {
+        wrapper.innerHTML = window.katex.renderToString(latex.trim(), { throwOnError: false, displayMode });
+      } catch {
+        wrapper.textContent = match[0];
+      }
+      fragment.appendChild(wrapper);
+      lastIndex = match.index + match[0].length;
+    }
+
+    if (lastIndex === 0) {
+      return;
+    }
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+    node.replaceWith(fragment);
+  });
 }
 
 function formatText(value) {
@@ -105,35 +172,26 @@ function attachImageFallbacks() {
 
 async function renderMathAfterMount() {
   await loadKatex();
-  if (!window.katex || !window.renderMathInElement) return;
+  if (!window.katex) return;
 
-  document.querySelectorAll(".question-text, .option-copy, .frq-part-content").forEach(el => {
-    if (el.dataset.mathRendered) return;
+  document.querySelectorAll(".question-text, .option-copy, .frq-part-content").forEach((el) => {
+    if (el.dataset.mathRendered === "true") return;
     el.dataset.mathRendered = "true";
     el.innerHTML = normalizeLatexForKatex(el.innerHTML);
-    window.renderMathInElement(el, {
-      delimiters: [
-        { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
-        { left: "\\(", right: "\\)", display: false },
-        { left: "\\[", right: "\\]", display: true }
-      ],
-      ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code", "math"],
-      throwOnError: false,
-      strict: "ignore"
-    });
+    renderLatexInElement(el);
   });
 }
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl"]);
+const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl"]);
 const TRUNK_CONTRACT_PATHS = {
   'calc-bc-2018-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2017-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2016-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2015-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
-  'physics-c-mech-2018-intl': '/v2/data/contracts/ap-physics-c-mechanics-trunk-contract.json'
+  'physics-c-mech-2018-intl': '/v2/data/contracts/ap-physics-c-mechanics-trunk-contract.json',
+  'physics-c-em-2018-intl': '/v2/data/contracts/ap-physics-c-electricity-magnetism-trunk-contract.json'
 };
 const CALC_BC_TRUNK_CONTRACT_PATH = TRUNK_CONTRACT_PATHS['calc-bc-2018-intl'];
 
@@ -150,6 +208,12 @@ function getBranchMappingPath() {
   }
   if (examIdStr === "2018Intl_MECH" || examIdStr === "physics-c-mech-2018-intl") {
     return "/v2/data/physics-c-mech-2018-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "2017Intl_MECH" || examIdStr === "physics-c-mech-2017-intl") {
+    return "/v2/data/physics-c-mech-2017-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "2018Intl_EM" || examIdStr === "physics-c-em-2018-intl") {
+    return "/v2/data/physics-c-em-2018-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -910,6 +974,14 @@ function render() {
   }
   attachImageFallbacks();
   renderMathAfterMount();
+  scrollCurrentChipIntoView();
+}
+
+function scrollCurrentChipIntoView() {
+  const chip = document.querySelector('.question-chip.is-current');
+  if (chip && chip.parentElement) {
+    chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
 }
 
 function renderExam() {
