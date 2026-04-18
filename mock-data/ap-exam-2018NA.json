@@ -45,7 +45,26 @@
           "explanation": "",
           "unit": "",
           "title": "",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "How many people enter the line for the escalator during the time interval $0  t  300$ ?"
+            },
+            {
+              "id": "b",
+              "text": "During the time interval $0  t  300$, there are always people in line for the escalator. How many people are in line at time $t=300$ ?"
+            },
+            {
+              "id": "c",
+              "text": "For $t>300$, what is the first time $t$ that there are no people in line for the escalator?"
+            },
+            {
+              "id": "d",
+              "text": "For $0  t  300$, at what time $t$ is the number of people in line a minimum? To the nearest whole number, find the number of people in line at this time. Justify your answer.\n\n^{ {® }}$ CALCULUS BC FREE-RESPONSE QUESTIONS}"
+            }
+          ],
+          "_frqImages": []
         },
         {
           "id": "101",
@@ -77,12 +96,37 @@
           "explanation": "",
           "unit": "",
           "title": "",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "Find $p^{}(25)$. Using correct units, interpret the meaning of $p^{}(25)$ in the context of the problem."
+            },
+            {
+              "id": "b",
+              "text": "Consider a vertical column of water in this sea with horizontal cross sections of constant area 3 square meters. To the nearest million, how many plankton cells are in this column of water between $h=0$ and $h=30$ meters?"
+            },
+            {
+              "id": "c",
+              "text": "There is a function $u$ such that $0  f(h)  u(h)$ for all $h  30$ and $_{30}^{} u(h) d h=105$. The column of water in part"
+            },
+            {
+              "id": "b",
+              "text": "is $K$ meters deep, where $K>30$. Write an expression involving one or more integrals that gives the number of plankton cells, in millions, in the entire column. Explain why the number of plankton cells in the column is less than or equal to 2000 million."
+            },
+            {
+              "id": "d",
+              "text": "The boat is moving on the surface of the sea. At time $t  0$, the position of the boat is $(x(t), y(t))$, where $x^{}(t)=662  (5 t)$ and $y^{}(t)=880  (6 t)$. Time $t$ is measured in hours, and $x(t)$ and $y(t)$ are measured in meters. Find the total distance traveled by the boat over the time interval $0  t  1$.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-1 hour \\\\ Number of questions-4\n\n\n\n\nGraph of $g$"
+            }
+          ],
+          "_frqImages": [
+            "https://cdn.mathpix.com/cropped/c68608c6-d94e-404b-bd5d-04f20c8066e6-4.jpg?height=708&width=710&top_left_y=764&top_left_x=706"
+          ]
         },
         {
           "id": "102",
           "type": "frq",
-          "prompt": "The graph of the continuous function $g$, the derivative of the function $f$, is shown above. The function $g$ is piecewise linear for $-5 \\leq x",
+          "prompt": "The graph of the continuous function $g$, the derivative of the function $f$, is shown above. The function $g$ is piecewise linear for $-5  x<3$, and $g(x)=2(x-4)^{2}$ for $3  x  6$.",
           "parts": [
             {
               "partSign": "a",
@@ -105,7 +149,26 @@
           "explanation": "",
           "unit": "",
           "title": "导数",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "If $f(1)=3$, what is the value of $f(-5)$ ?"
+            },
+            {
+              "id": "b",
+              "text": "Evaluate $_{1}^{6} g(x) d x$."
+            },
+            {
+              "id": "c",
+              "text": "For $-5<x<6$, on what open intervals, if any, is the graph of $f$ both increasing and concave up? Give a reason for your answer."
+            },
+            {
+              "id": "d",
+              "text": "Find the $x$-coordinate of each point of inflection of the graph of $f$. Give a reason for your answer.\n\n^{ {® }}$ CALCULUS BC FREE-RESPONSE QUESTIONS}\n\n| {c} $t$ \\\\ (years) & 2 & 3 & 5 & 7 & 10 \\\\\n$H(t)$ \\\\ (meters) & 1.5 & 2 & 6 & 11 & 15 \\\\\ntabular"
+            }
+          ],
+          "_frqImages": []
         },
         {
           "id": "103",
@@ -133,7 +196,28 @@
           "explanation": "",
           "unit": "",
           "title": "",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "Use the data in the table to estimate $H^{}(6)$. Using correct units, interpret the meaning of $H^{}(6)$ in the context of the problem."
+            },
+            {
+              "id": "b",
+              "text": "Explain why there must be at least one time $t$, for $2<t<10$, such that $H^{}(t)=2$."
+            },
+            {
+              "id": "c",
+              "text": "Use a trapezoidal sum with the four subintervals indicated by the data in the table to approximate the average height of the tree over the time interval $2  t  10$."
+            },
+            {
+              "id": "d",
+              "text": "The height of the tree, in meters, can also be modeled by the function $G$, given by $G(x)=100 x{1+x}$, where $x$ is the diameter of the base of the tree, in meters. When the tree is 50 meters tall, the diameter of the base of the tree is increasing at a rate of 0.03 meter per year. According to this model, what is the rate of change of the height of the tree with respect to time, in meters per year, at the time when the tree is 50 meters tall?"
+            }
+          ],
+          "_frqImages": [
+            "https://cdn.mathpix.com/cropped/c68608c6-d94e-404b-bd5d-04f20c8066e6-6.jpg?height=712&width=725&top_left_y=283&top_left_x=696"
+          ]
         },
         {
           "id": "104",
@@ -157,7 +241,22 @@
           "explanation": "",
           "unit": "",
           "title": "",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "Let $R$ be the shaded region that is inside the graph of $r=4$ and also outside the graph of $r=3+2  $, as shown in the figure above. Write an expression involving an integral for the area of $R$."
+            },
+            {
+              "id": "b",
+              "text": "Find the slope of the line tangent to the graph of $r=3+2  $ at $={2}$."
+            },
+            {
+              "id": "c",
+              "text": "A particle moves along the portion of the curve $r=3+2  $ for $0<<{2}$. The particle moves in such a way that the distance between the particle and the origin increases at a constant rate of 3 units per second. Find the rate at which the angle $$ changes with respect to time at the instant when the position of the particle corresponds to $={3}$. Indicate units of measure.\n\n^{ {® }}$ CALCULUS BC FREE-RESPONSE QUESTIONS}"
+            }
+          ],
+          "_frqImages": []
         },
         {
           "id": "105",
@@ -181,7 +280,22 @@
           "explanation": "",
           "unit": "",
           "title": "级数",
-          "options": []
+          "options": [],
+          "_frqParts": [
+            {
+              "id": "a",
+              "text": "Write the first four nonzero terms and the general term of the Maclaurin series for $f$."
+            },
+            {
+              "id": "b",
+              "text": "Determine the interval of convergence of the Maclaurin series for $f$."
+            },
+            {
+              "id": "c",
+              "text": "Let $P_{4}(x)$ be the fourth-degree Taylor polynomial for $f$ about $x=0$. Use the alternating series error bound to find an upper bound for $|P_{4}(2)-f(2)|$."
+            }
+          ],
+          "_frqImages": []
         }
       ]
     }
