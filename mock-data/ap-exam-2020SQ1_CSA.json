@@ -21,26 +21,26 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint a = 3 + 2 * 3;\nint b = 4 + 3 / 2;\nint c = 7 % 4 + 3;\ndouble d = a + b + c;\n```\n\nWhat is the value of d after the code segment is executed?",
+          "prompt": "Consider the following code segment. ``` int a = 3 + 2 * 3; int b = 4 + 3 / 2; int c = 7 % 4 + 3; double d = a + b + c; ``` What is the value of d after the code segment is executed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "5"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "0"
             }
           ],
@@ -50,27 +50,27 @@
         {
           "id": "2",
           "type": "single",
-          "prompt": "Consider the following code segment. Assume num is a properly declared and initialized int variable.\n```\nif (num > 0)\n{\n if (num % 2 == 0)\n {\n System.out.println(\"A\");\n }\n else\n {\n System.out.println(\"B\");\n }\n}\n```\n\nWhich of the following best describes the result of executing the code segment?",
+          "prompt": "Consider the following code segment. Assume num is a properly declared and initialized int variable. ``` if (num &gt; 0) { if (num % 2 == 0) { System.out.println(&quot;A&quot;); } else { System.out.println(&quot;B&quot;); } } ``` Which of the following best describes the result of executing the code segment?",
           "options": [
             {
-              "key": "",
-              "content": "When num is a negative odd integer, \" B \" is printed; otherwise, \" A \" is printed."
+              "key": "A",
+              "content": "When num is a negative odd integer, &quot; B &quot; is printed; otherwise, &quot; A &quot; is printed."
             },
             {
-              "key": "",
-              "content": "When num is a negative even integer, \" B\" is printed; otherwise, nothing is printed."
+              "key": "B",
+              "content": "When num is a negative even integer, &quot; B&quot; is printed; otherwise, nothing is printed."
             },
             {
-              "key": "",
-              "content": "When num is a positive even integer, \" A \" is printed; otherwise, \" B \" is printed."
+              "key": "C",
+              "content": "When num is a positive even integer, &quot; A &quot; is printed; otherwise, &quot; B &quot; is printed."
             },
             {
-              "key": "",
-              "content": "When num is a positive even integer, \" A \" is printed; when num is a positive odd integer, \" B \" is printed; otherwise, nothing is printed."
+              "key": "D",
+              "content": "When num is a positive even integer, &quot; A &quot; is printed; when num is a positive odd integer, &quot; B &quot; is printed; otherwise, nothing is printed."
             },
             {
-              "key": "",
-              "content": "When num is a positive odd integer, \" A \" is printed; when num is a positive even integer, \" B \" is printed; otherwise, nothing is printed."
+              "key": "E",
+              "content": "When num is a positive odd integer, &quot; A &quot; is printed; when num is a positive even integer, &quot; B &quot; is printed; otherwise, nothing is printed."
             }
           ],
           "answer": "",
@@ -79,26 +79,26 @@
         {
           "id": "3",
           "type": "single",
-          "prompt": "Consider the method getHours, which is intended to calculate the number of hours that a vehicle takes to travel between two mile markers on a highway if the vehicle travels at a constant speed of 60 miles per hour. A mile marker is a sign showing the number of miles along a road between some fixed location (for example, the beginning of a highway) and the current location.\n\nThe following table shows two examples of the intended behavior of getHours, based on the int parameters marker1 and marker2.\n\n{|c|c|c|}\n marker1 & marker2 & Return Value \n\n 100 & 220 & 2.0 \n\n 100 & 70 & 0.5 \n\nConsider the following implementation of getHours.\n```\npublic static double getHours(int marker1, int marker2)\n{\n /* missing statement */\n return hours;\n}\n```\n\nWhich of the following statements can replace /* missing statement */ so getHours works as intended?",
+          "prompt": "Consider the method getHours, which is intended to calculate the number of hours that a vehicle takes to travel between two mile markers on a highway if the vehicle travels at a constant speed of 60 miles per hour. A mile marker is a sign showing the number of miles along a road between some fixed location (for example, the beginning of a highway) and the current location. The following table shows two examples of the intended behavior of getHours, based on the int parameters marker1 and marker2. {|c|c|c|} marker1 &amp; marker2 &amp; Return Value 100 &amp; 220 &amp; 2.0 100 &amp; 70 &amp; 0.5 Consider the following implementation of getHours. ``` public static double getHours(int marker1, int marker2) { /* missing statement */ return hours; } ``` Which of the following statements can replace /* missing statement */ so getHours works as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "double hours = (Math.abs(marker1) - Math.abs(marker2)) / 60.0;"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "double hours = Math.abs(marker1 - marker2 / 60.0);"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "double hours = Math.abs(marker1 - marker2) / 60.0;"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "double hours = Math.abs((marker1 - marker2) / 60);"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "double hours = (double) (Math.abs(marker1 - marker2) / 60);"
             }
           ],
@@ -108,26 +108,26 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static void message(int a, int b, int c)\n{\n if (a 10)\n {\n System.out.print(\"Y\");\n }\n else\n {\n System.out.print(\"Z\");\n }\n }\n}\n```\n\nWhat is printed as a result of the call message $(5,15,5)$ ?",
+          "prompt": "Consider the following method. ``` public static void message(int a, int b, int c) { if (a 10) { System.out.print(&quot;Y&quot;); } else { System.out.print(&quot;Z&quot;); } } } ``` What is printed as a result of the call message $(5,15,5)$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "XY"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "XYZ"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Y"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "YY"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Z"
             }
           ],
@@ -137,27 +137,27 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "Consider the following class definition.\n```\npublic class Bird\n{\n private String species;\n private String color;\n private boolean canFly;\n public Bird(String str, String col, boolean cf)\n {\n species = str;\n color = col;\n canFly = cf;\n }\n}\n```\n\nWhich of the following constructors, if added to the Bird class, will cause a compilation error?\n```",
+          "prompt": "Consider the following class definition. ``` public class Bird { private String species; private String color; private boolean canFly; public Bird(String str, String col, boolean cf) { species = str; color = col; canFly = cf; } } ``` Which of the following constructors, if added to the Bird class, will cause a compilation error? ```",
           "options": [
             {
-              "key": "",
-              "content": "public Bird()\n {\n species = \"unknown\";\n color = \"unknown\";\n canFly = false;\n }"
+              "key": "A",
+              "content": "public Bird() { species = &quot;unknown&quot;; color = &quot;unknown&quot;; canFly = false; }"
             },
             {
-              "key": "",
-              "content": "public Bird(boolean cf)\n {\n species = \"unknown\";\n color = \"unknown\";\n canFly = cf;\n }"
+              "key": "B",
+              "content": "public Bird(boolean cf) { species = &quot;unknown&quot;; color = &quot;unknown&quot;; canFly = cf; }"
             },
             {
-              "key": "",
-              "content": "public Bird(String col, String str)\n {\n species = str;\n color = col;\n canFly = false;\n }\n```\n\n```"
+              "key": "C",
+              "content": "public Bird(String col, String str) { species = str; color = col; canFly = false; } ``` ```"
             },
             {
-              "key": "",
-              "content": "public Bird(boolean cf, String str, String col)\n {\n species = str;\n color = col;\n canFly = cf;\n }"
+              "key": "D",
+              "content": "public Bird(boolean cf, String str, String col) { species = str; color = col; canFly = cf; }"
             },
             {
-              "key": "",
-              "content": "public Bird(String col, String str, boolean cf)\n {\n species = str;\n color = col;\n canFly = cf;\n }\n```"
+              "key": "E",
+              "content": "public Bird(String col, String str, boolean cf) { species = str; color = col; canFly = cf; } ```"
             }
           ],
           "answer": "",
@@ -166,26 +166,26 @@
         {
           "id": "6",
           "type": "single",
-          "prompt": "Which of the following expressions evaluate to 3.5 ?\nI. (double) $2 / 4+3$\nII. (double) $(2 / 4)+3$\nIII. (double) (2/4 + 3)",
+          "prompt": "Which of the following expressions evaluate to 3.5 ? I. (double) $2 / 4+3$ II. (double) $(2 / 4)+3$ III. (double) (2/4 + 3)",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -195,27 +195,27 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint num = /* initial value not shown */;\nboolean b1 = true;\nif (num > 0)\n{\n if (num >= 100)\n {\n b1 = false;\n }\n}\nelse\n{\n if (num >= -100)\n {\n b1 = false;\n }\n}\n```\n\nWhich of the following statements assigns the same value to b 2 as the code segment assigns to b 1 for all values of num ?",
+          "prompt": "Consider the following code segment. ``` int num = /* initial value not shown */; boolean b1 = true; if (num &gt; 0) { if (num &gt;= 100) { b1 = false; } } else { if (num &gt;= -100) { b1 = false; } } ``` Which of the following statements assigns the same value to b 2 as the code segment assigns to b 1 for all values of num ?",
           "options": [
             {
-              "key": "",
-              "content": "boolean b2 = (num > -100) && (num"
+              "key": "A",
+              "content": "boolean b2 = (num &gt; -100) &amp;&amp; (num"
             },
             {
-              "key": "",
-              "content": "boolean b2 = (num > -100) || (num"
+              "key": "B",
+              "content": "boolean b2 = (num &gt; -100) || (num"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "boolean b2 = (num 100);"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "boolean b2 = (num 0 || num"
             },
             {
-              "key": "",
-              "content": "boolean b2 = (num 0 && num"
+              "key": "E",
+              "content": "boolean b2 = (num 0 &amp;&amp; num"
             }
           ],
           "answer": "",
@@ -224,26 +224,26 @@
         {
           "id": "8",
           "type": "single",
-          "prompt": "Consider the following class definition.\n```\npublic class Points\n{\n private double num1;\n private double num2;\n public Points(int n1, int n2) // Line 6\n {\n num1 = n1; // Line 8\n num2 = n2; // Line 9\n }\n public void incrementPoints(int value) // Line 12\n {\n n1 += value; // Line 14\n n2 += value; // Line 15\n }\n}\n```\n\nThe class does not compile. Which of the following identifies the error in the class definition?",
+          "prompt": "Consider the following class definition. ``` public class Points { private double num1; private double num2; public Points(int n1, int n2) // Line 6 { num1 = n1; // Line 8 num2 = n2; // Line 9 } public void incrementPoints(int value) // Line 12 { n1 += value; // Line 14 n2 += value; // Line 15 } } ``` The class does not compile. Which of the following identifies the error in the class definition?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "In line 6, the Points constructor must have a void return type."
             },
             {
-              "key": "",
+              "key": "B",
               "content": "In lines 8 and 9, int values cannot be assigned to double variables."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "In line 12, the incrementPoints method must have a non-void return type."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "In lines 14 and 15, the variables n 1 and n 2 are not defined."
             },
             {
-              "key": "",
+              "key": "E",
               "content": "In lines 14 and 15, the variable value is not defined."
             }
           ],
@@ -253,26 +253,26 @@
         {
           "id": "9",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nArrayList numList = new ArrayList();\nnumList.add(3);\nnumList.add(2);\nnumList.add(1);\nnumList.add(1, 0);\nnumList.set(0, 2);\nSystem.out.print(numList);\n```\n\nWhat is printed by the code segment?",
+          "prompt": "Consider the following code segment. ``` ArrayList numList = new ArrayList(); numList.add(3); numList.add(2); numList.add(1); numList.add(1, 0); numList.set(0, 2); System.out.print(numList); ``` What is printed by the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "[1, 3, 0, 1]"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$[2,0,2,1]$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$[2,0,2,3]$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$[2,3,2,1]$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$[3,0,0,1]$"
             }
           ],
@@ -282,26 +282,26 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static void printSome(int num1, int num2)\n{\n for (int i = 0; i < num1; i++)\n {\n if (i % num2 == 0 && i % 2 == 0)\n {\n System.out.print(i + \" \");\n }\n }\n}\n```\n\nWhich of the following method calls will cause \" 010 \" to be printed?",
+          "prompt": "Consider the following method. ``` public static void printSome(int num1, int num2) { for (int i = 0; i &lt; num1; i++) { if (i % num2 == 0 &amp;&amp; i % 2 == 0) { System.out.print(i + &quot; &quot;); } } } ``` Which of the following method calls will cause &quot; 010 &quot; to be printed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "printSome(0, 20)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "printSome(5, 10)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "printSome(10, 5)"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "printSome(20, 5)"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "printSome(25, 5)"
             }
           ],
@@ -311,27 +311,27 @@
         {
           "id": "11",
           "type": "single",
-          "prompt": "Which of the following code segments produces the output \"987654321\" ?\n```",
+          "prompt": "Which of the following code segments produces the output &quot;987654321&quot; ? ```",
           "options": [
             {
-              "key": "",
-              "content": "int num = 10;\n while (num > 0)\n {\n System.out.print(num);\n num--;\n }"
+              "key": "A",
+              "content": "int num = 10; while (num &gt; 0) { System.out.print(num); num--; }"
             },
             {
-              "key": "",
-              "content": "int num = 10;\n while (num >= 0)\n {\n System.out.print(num);\n num--;\n }"
+              "key": "B",
+              "content": "int num = 10; while (num &gt;= 0) { System.out.print(num); num--; }"
             },
             {
-              "key": "",
-              "content": "int num = 10;\n while (num > 1)\n {\n num--;\n System.out.print(num);\n }"
+              "key": "C",
+              "content": "int num = 10; while (num &gt; 1) { num--; System.out.print(num); }"
             },
             {
-              "key": "",
-              "content": "int num = 10;\n while (num >= 1)\n {\n num--;\n System.out.print(num);\n }"
+              "key": "D",
+              "content": "int num = 10; while (num &gt;= 1) { num--; System.out.print(num); }"
             },
             {
-              "key": "",
-              "content": "int num = 0;\n while (num"
+              "key": "E",
+              "content": "int num = 0; while (num"
             }
           ],
           "answer": "",
@@ -340,26 +340,26 @@
         {
           "id": "12",
           "type": "single",
-          "prompt": "Consider the following class definitions.\n```\npublic class Person\n{\n private String name;\n public String getName()\n { return name; }\n}\npublic class Book\n{\n private String author;\n private String title;\n private Person borrower;\n public Book(String a, String t)\n {\n author = a;\n title = t;\n borrower = null;\n }\n public void printDetails()\n {\n System.out.print(\"Author: \" + author + \" Title: \" + title);\n if ( /* missing condition */ )\n {\n System.out.println(\" Borrower: \" + borrower.getName());\n }\n }\n public void setBorrower(Person b)\n { borrower = b; }\n}\n```\n\nWhich of the following can replace /* missing condition */ so that the printDetails method CANNOT cause a run-time error?\nI. !borrower.equals (null)\nII. borrower != null\nIII. borrower.getName() != null",
+          "prompt": "Consider the following class definitions. ``` public class Person { private String name; public String getName() { return name; } } public class Book { private String author; private String title; private Person borrower; public Book(String a, String t) { author = a; title = t; borrower = null; } public void printDetails() { System.out.print(&quot;Author: &quot; + author + &quot; Title: &quot; + title); if ( /* missing condition */ ) { System.out.println(&quot; Borrower: &quot; + borrower.getName()); } } public void setBorrower(Person b) { borrower = b; } } ``` Which of the following can replace /* missing condition */ so that the printDetails method CANNOT cause a run-time error? I. !borrower.equals (null) II. borrower != null III. borrower.getName() != null",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and II"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "II and III"
             }
           ],
@@ -369,26 +369,26 @@
         {
           "id": "13",
           "type": "single",
-          "prompt": "Assume that a, b, and c are boolean variables that have been properly declared and initialized. Which of the following boolean expressions is equivalent to ! (a $& & ~b)| c$ ?",
+          "prompt": "Assume that a, b, and c are boolean variables that have been properly declared and initialized. Which of the following boolean expressions is equivalent to ! (a $&amp; &amp; ~b)| c$ ?",
           "options": [
             {
-              "key": "",
-              "content": "$a & & ~b & & C$"
+              "key": "A",
+              "content": "$a &amp; &amp; ~b &amp; &amp; C$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$a\\|b\\| c$"
             },
             {
-              "key": "",
-              "content": "! a $ & & !b | | c$"
+              "key": "C",
+              "content": "! a $ &amp; &amp; !b | | c$"
             },
             {
-              "key": "",
-              "content": "! a $ & & !b & & c$"
+              "key": "D",
+              "content": "! a $ &amp; &amp; !b &amp; &amp; c$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$$ a || ! b || c"
             }
           ],
@@ -398,26 +398,26 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "The following categories are used by some researchers to categorize zip codes as urban, suburban, or rural based on population density.\n- An urban zip code is a zip code with more than 3,000 people per square mile.\n- A suburban zip code is a zip code with between 1,000 and 3,000 people, inclusive, per square mile.\n- A rural zip code is a zip code with fewer than 1,000 people per square mile.\n\nConsider the following method, which is intended to categorize a zip code as urban, suburban, or rural based on the population density of the area included in the zip code.\n```\npublic static String getCategory(int density)\n{\n /* missing code */\n}\n```\n\nWhich of the following code segments can replace /* missing code */ so the getCategory method works as intended?\nI. String cat;\n```\nif (density > 3000)\n{\n cat = \"urban\";\n}\nelse if (density > 999)\n{\n cat = \"suburban\";\n}\nelse\n{\n cat = \"rural\";\n}\nreturn cat;\n```\n\nII. String cat;\nif (density > 3000)\n{\n cat = \"urban\";\n}\nif (density > 999)\n{\n cat = \"suburban\";\n}\ncat = \"rural\";\nreturn cat;\n```\nIII. if (density > 3000)\n {\n return \"urban\";\n }\n if (density > 999)\n {\n return \"suburban\";\n }\n return \"rural\";\n```",
+          "prompt": "The following categories are used by some researchers to categorize zip codes as urban, suburban, or rural based on population density. - An urban zip code is a zip code with more than 3,000 people per square mile. - A suburban zip code is a zip code with between 1,000 and 3,000 people, inclusive, per square mile. - A rural zip code is a zip code with fewer than 1,000 people per square mile. Consider the following method, which is intended to categorize a zip code as urban, suburban, or rural based on the population density of the area included in the zip code. ``` public static String getCategory(int density) { /* missing code */ } ``` Which of the following code segments can replace /* missing code */ so the getCategory method works as intended? I. String cat; ``` if (density &gt; 3000) { cat = &quot;urban&quot;; } else if (density &gt; 999) { cat = &quot;suburban&quot;; } else { cat = &quot;rural&quot;; } return cat; ``` II. String cat; if (density &gt; 3000) { cat = &quot;urban&quot;; } if (density &gt; 999) { cat = &quot;suburban&quot;; } cat = &quot;rural&quot;; return cat; ``` III. if (density &gt; 3000) { return &quot;urban&quot;; } if (density &gt; 999) { return &quot;suburban&quot;; } return &quot;rural&quot;; ```",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -427,26 +427,26 @@
         {
           "id": "15",
           "type": "single",
-          "prompt": "Consider the following code segment. Assume that a is greater than zero.\n```\nint a = /* value not shown */;\nint b = a + (int) (Math.random() * a);\n```\n\nWhich of the following best describes the value assigned to b when the code segment is executed?",
+          "prompt": "Consider the following code segment. Assume that a is greater than zero. ``` int a = /* value not shown */; int b = a + (int) (Math.random() * a); ``` Which of the following best describes the value assigned to b when the code segment is executed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "a"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$2 * a$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "A random integer between 0 and $a-1$, inclusive"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "A random integer between a and $2 * a$, inclusive"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "A random integer between a and $2 * a-1$, inclusive"
             }
           ],
@@ -456,27 +456,27 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "Consider the following recursive method.\n```\npublic static void stars(int num)\n{\n if (num == 1)\n {\n return;\n }\n stars(num - 1);\n for (int i = 0; i < num; i++)\n {\n System.out.print(\"*\");\n }\n System.out.println();\n}\n```\n\nWhat is printed as a result of the method call stars (5)?\n\n{ll}",
+          "prompt": "Consider the following recursive method. ``` public static void stars(int num) { if (num == 1) { return; } stars(num - 1); for (int i = 0; i &lt; num; i++) { System.out.print(&quot;*&quot;); } System.out.println(); } ``` What is printed as a result of the method call stars (5)? {ll}",
           "options": [
             {
-              "key": "",
-              "content": "& $* * * * *$"
+              "key": "A",
+              "content": "&amp; $* * * * *$"
             },
             {
-              "key": "",
-              "content": "& $* *$ \n\n& $* * *$ \n\n& $* * * *$ \n\n& $* * * * *$"
+              "key": "B",
+              "content": "&amp; $* *$ &amp; $* * *$ &amp; $* * * *$ &amp; $* * * * *$"
             },
             {
-              "key": "",
-              "content": "& $*$ \n\n& $* *$ \n\n& $* * *$ \n\n& $* * * *$ \n\n& $* * * * *$"
+              "key": "C",
+              "content": "&amp; $*$ &amp; $* *$ &amp; $* * *$ &amp; $* * * *$ &amp; $* * * * *$"
             },
             {
-              "key": "",
-              "content": "& $* * * * *$ \n\n& $* * * *$ \n\n& $* * *$ \n\n& $* *$"
+              "key": "D",
+              "content": "&amp; $* * * * *$ &amp; $* * * *$ &amp; $* * *$ &amp; $* *$"
             },
             {
-              "key": "",
-              "content": "& $* * * * *$ \n\n& $* * * *$ \n\n& $* * *$ \n\n& $* *$ \n\n& $*$"
+              "key": "E",
+              "content": "&amp; $* * * * *$ &amp; $* * * *$ &amp; $* * *$ &amp; $* *$ &amp; $*$"
             }
           ],
           "answer": "",
@@ -485,26 +485,26 @@
         {
           "id": "17",
           "type": "single",
-          "prompt": "Consider the following class definitions.\n```\npublic class Hero\n{\n private String name;\n private int power;\n public Hero(String n, int p)\n {\n name = n;\n power = p;\n }\n public void powerUp(int p)\n {\n power += p;\n }\n public int showPower()\n { return power; }\n}\npublic class SuperHero extends Hero\n{\n public SuperHero(String n, int p)\n {\n super(n, p);\n }\n public void powerUp(int p)\n {\n super.powerUp(p * 2);\n }\n}\n```\n\nThe following code segment appears in a class other than Hero and SuperHero.\n```\nHero j = new SuperHero(\"JavaHero\", 50);\nj.powerUp(10);\nSystem.out.println(j.showPower());\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following class definitions. ``` public class Hero { private String name; private int power; public Hero(String n, int p) { name = n; power = p; } public void powerUp(int p) { power += p; } public int showPower() { return power; } } public class SuperHero extends Hero { public SuperHero(String n, int p) { super(n, p); } public void powerUp(int p) { super.powerUp(p * 2); } } ``` The following code segment appears in a class other than Hero and SuperHero. ``` Hero j = new SuperHero(&quot;JavaHero&quot;, 50); j.powerUp(10); System.out.println(j.showPower()); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "10"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "20"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "60"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "70"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "100"
             }
           ],
@@ -514,26 +514,26 @@
         {
           "id": "18",
           "type": "single",
-          "prompt": "Consider the following method, which is intended to return the number of local maximum values in an array. Local maximum values are array elements that are greater than both adjacent array elements. The first and last elements of an array have only a single adjacent element, so neither the first nor the last array element is counted by this method. For example, an array containing the values ${3,9,7,4,10,12,3,8}$ has two local maximum values: 9 and 12.\n```\npublic static int countPeaks(int[] data)\n{\n int numPeaks = 0;\n for ( /* missing loop header */ )\n {\n if (data[p - 1] data[p + 1])\n {\n numPeaks++;\n }\n }\n return numPeaks;\n}\n```\n\nWhich of the following can replace /* missing loop header */ so the method countPeaks works as intended?",
+          "prompt": "Consider the following method, which is intended to return the number of local maximum values in an array. Local maximum values are array elements that are greater than both adjacent array elements. The first and last elements of an array have only a single adjacent element, so neither the first nor the last array element is counted by this method. For example, an array containing the values ${3,9,7,4,10,12,3,8}$ has two local maximum values: 9 and 12. ``` public static int countPeaks(int[] data) { int numPeaks = 0; for ( /* missing loop header */ ) { if (data[p - 1] data[p + 1]) { numPeaks++; } } return numPeaks; } ``` Which of the following can replace /* missing loop header */ so the method countPeaks works as intended?",
           "options": [
             {
-              "key": "",
-              "content": "int $p=$ data.length - 1; $p>0$; p --"
+              "key": "A",
+              "content": "int $p=$ data.length - 1; $p&gt;0$; p --"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "int $p=0$; p"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "int $p=0 ; p"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "int $p=1 ; p"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "int $p=1 ; p"
             }
           ],
@@ -543,26 +543,26 @@
         {
           "id": "19",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint[][] values = {{1, 2, 3}, {4, 5, 6}};\nint x = 0;\nfor (int j = 0; j < values.length; j++)\n{\n for (int k = 0; k < values[0].length; k++)\n {\n if (k == 0)\n {\n values[j][k] *= 2;\n }\n x += values[j][k];\n }\n}\n```\n\nWhat is the value of x after the code segment is executed?",
+          "prompt": "Consider the following code segment. ``` int[][] values = {{1, 2, 3}, {4, 5, 6}}; int x = 0; for (int j = 0; j &lt; values.length; j++) { for (int k = 0; k &lt; values[0].length; k++) { if (k == 0) { values[j][k] *= 2; } x += values[j][k]; } } ``` What is the value of x after the code segment is executed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "7"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "17"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "21"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "26"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "27"
             }
           ],
@@ -572,27 +572,27 @@
         {
           "id": "20",
           "type": "single",
-          "prompt": "Consider the following class definition.\n```\npublic class Book\n{\n private int pages;\n public int getPages()\n {\n return pages;\n }\n // There may be instance variables, constructors, and methods not shown.\n}\n```\n\nThe following code segment is intended to store in maxPages the greatest number of pages found in any Book object in the array bookArr.\n```\nBook[] bookArr = { /* initial values not shown */ };\nint maxPages = bookArr[0].getPages();\nfor (Book b : bookArr)\n{\n /* missing code */\n}\n```\n\nWhich of the following can replace /* missing code */ so the code segment works as intended?\n```",
+          "prompt": "Consider the following class definition. ``` public class Book { private int pages; public int getPages() { return pages; } // There may be instance variables, constructors, and methods not shown. } ``` The following code segment is intended to store in maxPages the greatest number of pages found in any Book object in the array bookArr. ``` Book[] bookArr = { /* initial values not shown */ }; int maxPages = bookArr[0].getPages(); for (Book b : bookArr) { /* missing code */ } ``` Which of the following can replace /* missing code */ so the code segment works as intended? ```",
           "options": [
             {
-              "key": "",
-              "content": "if (b.pages > maxPages)\n {\n maxPages = b.pages;\n }"
+              "key": "A",
+              "content": "if (b.pages &gt; maxPages) { maxPages = b.pages; }"
             },
             {
-              "key": "",
-              "content": "if (b.getPages() > maxPages)\n {\n maxPages = b.getPages();\n }"
+              "key": "B",
+              "content": "if (b.getPages() &gt; maxPages) { maxPages = b.getPages(); }"
             },
             {
-              "key": "",
-              "content": "if (Book[b].pages > maxPages)\n {\n maxPages = Book[b].pages;\n }"
+              "key": "C",
+              "content": "if (Book[b].pages &gt; maxPages) { maxPages = Book[b].pages; }"
             },
             {
-              "key": "",
-              "content": "if (bookArr[b].pages > maxPages)\n {\n maxPages = bookArr[b].pages;\n }"
+              "key": "D",
+              "content": "if (bookArr[b].pages &gt; maxPages) { maxPages = bookArr[b].pages; }"
             },
             {
-              "key": "",
-              "content": "if (bookArr[b].getPages() > maxPages)\n {\n maxPages = bookArr[b].getPages();\n }\n```\nConsider the following method.\n```\npublic static String[] strArrMethod(String[] arr)\n{\n String[] result = new String[arr.length];\n for (int j = 0; j"
+              "key": "E",
+              "content": "if (bookArr[b].getPages() &gt; maxPages) { maxPages = bookArr[b].getPages(); } ``` Consider the following method. ``` public static String[] strArrMethod(String[] arr) { String[] result = new String[arr.length]; for (int j = 0; j"
             }
           ],
           "answer": "",
@@ -601,27 +601,27 @@
         {
           "id": "21",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nString[] testOne = {\"first\", \"day\", \"of\", \"spring\"};\nString[] resultOne = strArrMethod(testOne);\n```\n\nWhat are the contents of resultone when the code segment has been executed?",
+          "prompt": "Consider the following code segment. ``` String[] testOne = {&quot;first&quot;, &quot;day&quot;, &quot;of&quot;, &quot;spring&quot;}; String[] resultOne = strArrMethod(testOne); ``` What are the contents of resultone when the code segment has been executed?",
           "options": [
             {
-              "key": "",
-              "content": "{\"day\", \"first\", \"of\", \"spring\"}"
+              "key": "A",
+              "content": "{&quot;day&quot;, &quot;first&quot;, &quot;of&quot;, &quot;spring&quot;}"
             },
             {
-              "key": "",
-              "content": "{\"of\", \"day\", \"first\", \"spring\"}"
+              "key": "B",
+              "content": "{&quot;of&quot;, &quot;day&quot;, &quot;first&quot;, &quot;spring&quot;}"
             },
             {
-              "key": "",
-              "content": "{\"of\", \"day\", \"of\", \"spring\"}"
+              "key": "C",
+              "content": "{&quot;of&quot;, &quot;day&quot;, &quot;of&quot;, &quot;spring&quot;}"
             },
             {
-              "key": "",
-              "content": "{\"of\", \"of\", \"of\", \"spring\"}"
+              "key": "D",
+              "content": "{&quot;of&quot;, &quot;of&quot;, &quot;of&quot;, &quot;spring&quot;}"
             },
             {
-              "key": "",
-              "content": "{\"spring\", \"first\", \"day\", \"of\"}"
+              "key": "E",
+              "content": "{&quot;spring&quot;, &quot;first&quot;, &quot;day&quot;, &quot;of&quot;}"
             }
           ],
           "answer": "",
@@ -630,26 +630,26 @@
         {
           "id": "22",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nString[] testTwo = {\"last\", \"day\", \"of\", \"the\", \"school\", \"year\"};\nString[] resultTwo = strArrMethod(testTwo);\n```\n\nHow many times is the line labeled // Line 12 in the strArrMethod executed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` String[] testTwo = {&quot;last&quot;, &quot;day&quot;, &quot;of&quot;, &quot;the&quot;, &quot;school&quot;, &quot;year&quot;}; String[] resultTwo = strArrMethod(testTwo); ``` How many times is the line labeled // Line 12 in the strArrMethod executed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "4 times"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "5 times"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "6 times"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "15 times"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "30 times"
             }
           ],
@@ -659,27 +659,27 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "Consider the following method, which is intended to print the values in its two-dimensional integer array parameter in row-major order.\n```\npublic static void rowMajor(int[][] arr)\n{\n /* missing code */\n}\n```\n\nAs an example, consider the following code segment.\n```\nint[][] theArray = {{1, 2}, {3, 4}, {5, 6}, {7, 8}};\nrowMajor(theArray);\n```\n\nWhen executed, the code segment should produce the following output.\n```\n12345678\n```\n\nWhich of the following code segments can replace /* missing code */ so that the rowMajor method works as intended?\n```",
+          "prompt": "Consider the following method, which is intended to print the values in its two-dimensional integer array parameter in row-major order. ``` public static void rowMajor(int[][] arr) { /* missing code */ } ``` As an example, consider the following code segment. ``` int[][] theArray = {{1, 2}, {3, 4}, {5, 6}, {7, 8}}; rowMajor(theArray); ``` When executed, the code segment should produce the following output. ``` 12345678 ``` Which of the following code segments can replace /* missing code */ so that the rowMajor method works as intended? ```",
           "options": [
             {
-              "key": "",
-              "content": "for (int j : arr)\n {\n for (int k : j)\n {\n System.out.print(j + \" \");\n }\n }"
+              "key": "A",
+              "content": "for (int j : arr) { for (int k : j) { System.out.print(j + &quot; &quot;); } }"
             },
             {
-              "key": "",
-              "content": "for (int j : arr)\n {\n for (int k : j)\n {\n System.out.print(k + \" \");\n }\n }"
+              "key": "B",
+              "content": "for (int j : arr) { for (int k : j) { System.out.print(k + &quot; &quot;); } }"
             },
             {
-              "key": "",
-              "content": "for (int[] j : arr)\n {\n for (int k : j)\n {\n System.out.print(j + \" \");\n }\n }"
+              "key": "C",
+              "content": "for (int[] j : arr) { for (int k : j) { System.out.print(j + &quot; &quot;); } }"
             },
             {
-              "key": "",
-              "content": "for (int[] j : arr)\n {\n for (int k : j)\n {\n System.out.print(k + \" \");\n }\n }"
+              "key": "D",
+              "content": "for (int[] j : arr) { for (int k : j) { System.out.print(k + &quot; &quot;); } }"
             },
             {
-              "key": "",
-              "content": "for (int[] j : arr)\n {\n for (int k : j)\n {\n System.out.print(arr[k] + \" \");\n }\n }\n```"
+              "key": "E",
+              "content": "for (int[] j : arr) { for (int k : j) { System.out.print(arr[k] + &quot; &quot;); } } ```"
             }
           ],
           "answer": "",
@@ -688,26 +688,26 @@
         {
           "id": "24",
           "type": "single",
-          "prompt": "Consider the following class definition.\n```\npublic class SomeClass\n{\n private int x = 0;\n private static int y = 0;\n public SomeClass(int pX)\n {\n x = pX;\n Y++;\n }\n public void incrementY()\n { y++; }\n public void incrementY(int inc)\n { y += inc; }\n public int getY()\n { return y; }\n}\n```\n\nThe following code segment appears in a class other than SomeClass.\n```\nSomeClass first = new SomeClass(10);\nSomeClass second = new SomeClass(20);\nSomeClass third = new SomeClass(30);\nfirst.incrementY();\nsecond.incrementY(10);\nSystem.out.println(third.getY());\n```\n\nWhat is printed as a result of executing the code segment if the code segment is the first use of a SomeClass object?",
+          "prompt": "Consider the following class definition. ``` public class SomeClass { private int x = 0; private static int y = 0; public SomeClass(int pX) { x = pX; Y++; } public void incrementY() { y++; } public void incrementY(int inc) { y += inc; } public int getY() { return y; } } ``` The following code segment appears in a class other than SomeClass. ``` SomeClass first = new SomeClass(10); SomeClass second = new SomeClass(20); SomeClass third = new SomeClass(30); first.incrementY(); second.incrementY(10); System.out.println(third.getY()); ``` What is printed as a result of executing the code segment if the code segment is the first use of a SomeClass object?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "11"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "14"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "30"
             }
           ],
@@ -717,26 +717,26 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static String rearrange(String str)\n{\n String temp = \"\";\n for (int i = str.length() - 1; i > 0; i--)\n {\n temp += str.substring(i - 1, i);\n }\n return temp;\n}\n```\n\nWhat, if anything, is returned by the method call rearrange(\"apple\")?",
+          "prompt": "Consider the following method. ``` public static String rearrange(String str) { String temp = &quot;&quot;; for (int i = str.length() - 1; i &gt; 0; i--) { temp += str.substring(i - 1, i); } return temp; } ``` What, if anything, is returned by the method call rearrange(&quot;apple&quot;)?",
           "options": [
             {
-              "key": "",
-              "content": "\"appl\""
+              "key": "A",
+              "content": "&quot;appl&quot;"
             },
             {
-              "key": "",
-              "content": "\"apple\""
+              "key": "B",
+              "content": "&quot;apple&quot;"
             },
             {
-              "key": "",
-              "content": "\"elppa\""
+              "key": "C",
+              "content": "&quot;elppa&quot;"
             },
             {
-              "key": "",
-              "content": "\"lppa\""
+              "key": "D",
+              "content": "&quot;lppa&quot;"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is returned due to a run-time error."
             }
           ],
@@ -746,27 +746,27 @@
         {
           "id": "26",
           "type": "single",
-          "prompt": "Consider the following two code segments. Assume that the int variables $m$ and $n$ have been properly declared and initialized and are both greater than 0 .\n```\nI. for (int i = 0; i < m * n; i++)\n {\n System.out.print(\"A\");\n }\nII. for (int j = 1; j <= m; j++)\n {\n for (int k = 1; k < n; k++)\n {\n System.out.print(\"B\");\n }\n }\n```\n\nAssume that the initial values of $m$ and $n$ are the same in code segment $I$ as they are in code segment II. Which of the following correctly compares the number of times that \"A\" and \"B\" are printed when each code segment is executed?",
+          "prompt": "Consider the following two code segments. Assume that the int variables $m$ and $n$ have been properly declared and initialized and are both greater than 0 . ``` I. for (int i = 0; i &lt; m * n; i++) { System.out.print(&quot;A&quot;); } II. for (int j = 1; j &lt;= m; j++) { for (int k = 1; k &lt; n; k++) { System.out.print(&quot;B&quot;); } } ``` Assume that the initial values of $m$ and $n$ are the same in code segment $I$ as they are in code segment II. Which of the following correctly compares the number of times that &quot;A&quot; and &quot;B&quot; are printed when each code segment is executed?",
           "options": [
             {
-              "key": "",
-              "content": "\" A \" is printed m fewer times than \" B \"."
+              "key": "A",
+              "content": "&quot; A &quot; is printed m fewer times than &quot; B &quot;."
             },
             {
-              "key": "",
-              "content": "\" A \" is printed n fewer times than \" B \"."
+              "key": "B",
+              "content": "&quot; A &quot; is printed n fewer times than &quot; B &quot;."
             },
             {
-              "key": "",
-              "content": "\" A \" is printed m more times than \" B \"."
+              "key": "C",
+              "content": "&quot; A &quot; is printed m more times than &quot; B &quot;."
             },
             {
-              "key": "",
-              "content": "\" A \" is printed n more times than \" B \"."
+              "key": "D",
+              "content": "&quot; A &quot; is printed n more times than &quot; B &quot;."
             },
             {
-              "key": "",
-              "content": "\" A \" and \" B \" are printed the same number of times."
+              "key": "E",
+              "content": "&quot; A &quot; and &quot; B &quot; are printed the same number of times."
             }
           ],
           "answer": "",
@@ -775,26 +775,26 @@
         {
           "id": "27",
           "type": "single",
-          "prompt": "Consider the following statement. Assume that a and b are properly declared and initialized boolean variables.\n```\nboolean c = (a && b) || (!a && b);\n```\n\nUnder which of the following conditions will c be assigned the value false ?",
+          "prompt": "Consider the following statement. Assume that a and b are properly declared and initialized boolean variables. ``` boolean c = (a &amp;&amp; b) || (!a &amp;&amp; b); ``` Under which of the following conditions will c be assigned the value false ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Always"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Never"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "When a and b have the same value"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "When a has the value false"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "When b has the value false"
             }
           ],
@@ -804,26 +804,26 @@
         {
           "id": "28",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static String abMethod(String a, String b)\n{\n int x = a.indexOf(b);\n while (x >= 0)\n {\n a = a.substring(0, x) + a.substring(x + b.length());\n x = a.indexOf(b);\n }\n return a;\n}\n```\n\nWhat, if anything, is returned by the method call abMethod(\"sing the song\", \"ng\")?",
+          "prompt": "Consider the following method. ``` public static String abMethod(String a, String b) { int x = a.indexOf(b); while (x &gt;= 0) { a = a.substring(0, x) + a.substring(x + b.length()); x = a.indexOf(b); } return a; } ``` What, if anything, is returned by the method call abMethod(&quot;sing the song&quot;, &quot;ng&quot;)?",
           "options": [
             {
-              "key": "",
-              "content": "\"si\""
+              "key": "A",
+              "content": "&quot;si&quot;"
             },
             {
-              "key": "",
-              "content": "\"si the so\""
+              "key": "B",
+              "content": "&quot;si the so&quot;"
             },
             {
-              "key": "",
-              "content": "\"si the song\""
+              "key": "C",
+              "content": "&quot;si the song&quot;"
             },
             {
-              "key": "",
-              "content": "\"sig the sog\""
+              "key": "D",
+              "content": "&quot;sig the sog&quot;"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is returned because a StringIndexOutOfBoundsException is thrown."
             }
           ],
@@ -833,26 +833,26 @@
         {
           "id": "29",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static int calcMethod(int num)\n{\n if (num == 0)\n {\n return 10;\n }\n return num + calcMethod(num / 2);\n}\n```\n\nWhat value is returned by the method call calcMethod(16)?",
+          "prompt": "Consider the following method. ``` public static int calcMethod(int num) { if (num == 0) { return 10; } return num + calcMethod(num / 2); } ``` What value is returned by the method call calcMethod(16)?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "10"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "26"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "31"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "38"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "41"
             }
           ],
@@ -862,27 +862,27 @@
         {
           "id": "30",
           "type": "single",
-          "prompt": "Consider the following class definitions.\n```\npublic class Rectangle\n{\n private int height;\n private int width;\n public Rectangle()\n {\n height = 1;\n width = 1;\n }\n public Rectangle(int x)\n {\n height = x;\n width = x;\n }\n public Rectangle(int h, int w)\n {\n height = h;\n width = w;\n }\n // There may be methods that are not shown.\n}\npublic class Square extends Rectangle\n{\n public Square(int x)\n {\n /* missing code */\n }\n}\n```\n\nWhich of the following code segments can replace /* missing code */ so that the Square class constructor initializes the Rectangle class instance variables height and width to x ?",
+          "prompt": "Consider the following class definitions. ``` public class Rectangle { private int height; private int width; public Rectangle() { height = 1; width = 1; } public Rectangle(int x) { height = x; width = x; } public Rectangle(int h, int w) { height = h; width = w; } // There may be methods that are not shown. } public class Square extends Rectangle { public Square(int x) { /* missing code */ } } ``` Which of the following code segments can replace /* missing code */ so that the Square class constructor initializes the Rectangle class instance variables height and width to x ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "super();"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "super (x) ;"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Rectangle(x);"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Square(x, x);"
             },
             {
-              "key": "",
-              "content": "height = x;\nwidth = x;"
+              "key": "E",
+              "content": "height = x; width = x;"
             }
           ],
           "answer": "",
@@ -891,26 +891,26 @@
         {
           "id": "31",
           "type": "single",
-          "prompt": "Consider an integer array nums, which has been properly declared and initialized with one or more values. Which of the following code segments counts the number of negative values found in nums and stores the count in counter?\nI. int counter = 0;\nint i = -1;\nwhile (i",
+          "prompt": "Consider an integer array nums, which has been properly declared and initialized with one or more values. Which of the following code segments counts the number of negative values found in nums and stores the count in counter? I. int counter = 0; int i = -1; while (i",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -920,26 +920,26 @@
         {
           "id": "32",
           "type": "single",
-          "prompt": "Consider the following class definitions.\n```\npublic class ClassA\n{\n public String getValue()\n {\n return \"A\";\n }\n public void showValue()\n {\n System.out.print(getValue());\n }\n}\npublic class ClassB extends ClassA\n{\n public String getValue()\n {\n return \"B\";\n }\n}\n```\n\nThe following code segment appears in a class other than ClassA or ClassB.\n```\nClassA obj = new ClassB();\nobj.showValue();\n```\n\nWhat, if anything, is printed when the code segment is executed?",
+          "prompt": "Consider the following class definitions. ``` public class ClassA { public String getValue() { return &quot;A&quot;; } public void showValue() { System.out.print(getValue()); } } public class ClassB extends ClassA { public String getValue() { return &quot;B&quot;; } } ``` The following code segment appears in a class other than ClassA or ClassB. ``` ClassA obj = new ClassB(); obj.showValue(); ``` What, if anything, is printed when the code segment is executed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "A"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "B"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "AB"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "BA"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed because the code does not compile."
             }
           ],
@@ -949,27 +949,27 @@
         {
           "id": "33",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nString[][] letters = {{\"A\", \"B\", \"C\", \"D\"},\n {\"E\", \"F\", \"G\", \"H\"},\n {\"I\", \"J\", \"K\", \"L\"}};\nfor (int col = 1; col < letters[0].length; col++)\n{\n for (int row = 1; row < letters.length; row++)\n {\n System.out.print(letters[row][col] + \" \");\n }\n System.out.println();\n}\n```\n\nWhat is printed as a result of executing this code segment?",
+          "prompt": "Consider the following code segment. ``` String[][] letters = {{&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;}, {&quot;E&quot;, &quot;F&quot;, &quot;G&quot;, &quot;H&quot;}, {&quot;I&quot;, &quot;J&quot;, &quot;K&quot;, &quot;L&quot;}}; for (int col = 1; col &lt; letters[0].length; col++) { for (int row = 1; row &lt; letters.length; row++) { System.out.print(letters[row][col] + &quot; &quot;); } System.out.println(); } ``` What is printed as a result of executing this code segment?",
           "options": [
             {
-              "key": "",
-              "content": "A E I\n\nF J\nK"
+              "key": "A",
+              "content": "AEI FJ K"
             },
             {
-              "key": "",
-              "content": "$B F J$\n\nC G K\nD H L"
+              "key": "B",
+              "content": "$BFJ$ CGK DHL"
             },
             {
-              "key": "",
-              "content": "E I\n\nF J\nG K\nH L"
+              "key": "C",
+              "content": "EI FJ GK HL"
             },
             {
-              "key": "",
-              "content": "$F G H$\n\nJ K L"
+              "key": "D",
+              "content": "$FGH$ JKL"
             },
             {
-              "key": "",
-              "content": "FJ\n\nG K\nH L"
+              "key": "E",
+              "content": "FJ GK HL"
             }
           ],
           "answer": "",
@@ -978,26 +978,26 @@
         {
           "id": "34",
           "type": "single",
-          "prompt": "The following method is intended to remove all elements of an ArrayList of integers that are divisible by key and add the removed elements to a new ArrayList, which the method returns.\n```\npublic static ArrayList match(ArrayList numList, int key)\n{\n ArrayList returnList = new ArrayList();\n int i = 0;\n while (i < numList.size())\n {\n int num = numList.get(i);\n if (num % key == 0)\n {\n numList.remove(i);\n returnList.add(num);\n }\n i++;\n }\n return returnList;\n}\n```\n\nAs an example, if the method is called with an ArrayList containing the values [5, 2, 10, 20, 16] and the parameter key has the value 5 , then numList should contain [2, 16] at the end of the method and an ArrayList containing [5, 10, 20] should be returned.\n\nWhich of the following best explains why the method does not always work as intended?",
+          "prompt": "The following method is intended to remove all elements of an ArrayList of integers that are divisible by key and add the removed elements to a new ArrayList, which the method returns. ``` public static ArrayList match(ArrayList numList, int key) { ArrayList returnList = new ArrayList(); int i = 0; while (i &lt; numList.size()) { int num = numList.get(i); if (num % key == 0) { numList.remove(i); returnList.add(num); } i++; } return returnList; } ``` As an example, if the method is called with an ArrayList containing the values [5, 2, 10, 20, 16] and the parameter key has the value 5 , then numList should contain [2, 16] at the end of the method and an ArrayList containing [5, 10, 20] should be returned. Which of the following best explains why the method does not always work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The method attempts to add an element to returnList after that element has already been removed from numList."
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The method causes a NullPointerException to be thrown when no matches are found."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The method causes an IndexOutOfBoundsException to be thrown."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The method fails to correctly determine whether an element of numList is divisible by key."
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The method skips some elements of numList during the traversal."
             }
           ],
@@ -1007,26 +1007,26 @@
         {
           "id": "35",
           "type": "single",
-          "prompt": "Consider the mode method, which is intended to return the most frequently occurring value (mode) in its int [] parameter arr. For example, if the parameter of the mode method has the contents ${6,5,1,5,2,6,5}$, then the method is intended to return 5 .\n```\n/** Precondition: arr.length >= 1 */\npublic static int mode(int[] arr)\n{\n int modeCount = 1;\n int mode = arr[0];\n for (int j = 0; j < arr.length; j++)\n {\n int valCount = 0;\n for (int k = 0; k < arr.length; k++)\n {\n if ( /* missing condition l */ )\n {\n valCount++;\n }\n }\n if ( /* missing condition 2 */ )\n {\n modeCount = valCount;\n mode = arr[j];\n }\n }\n return mode;\n}\n```\n\nWhich of the following can replace /* missing condition $1 * /$ and /* missing condition $2 * /$ so the code segment works as intended?\n/* missing condition 1 */ /* missing condition 2 */",
+          "prompt": "Consider the mode method, which is intended to return the most frequently occurring value (mode) in its int [] parameter arr. For example, if the parameter of the mode method has the contents ${6,5,1,5,2,6,5}$, then the method is intended to return 5 . ``` /** Precondition: arr.length &gt;= 1 */ public static int mode(int[] arr) { int modeCount = 1; int mode = arr[0]; for (int j = 0; j &lt; arr.length; j++) { int valCount = 0; for (int k = 0; k &lt; arr.length; k++) { if ( /* missing condition l */ ) { valCount++; } } if ( /* missing condition 2 */ ) { modeCount = valCount; mode = arr[j]; } } return mode; } ``` Which of the following can replace /* missing condition $1 * /$ and /* missing condition $2 * /$ so the code segment works as intended? /* missing condition 1 */ /* missing condition 2 */",
           "options": [
             {
-              "key": "",
-              "content": "arr[j] == arr[k] valCount > modeCount"
+              "key": "A",
+              "content": "arr[j] == arr[k] valCount &gt; modeCount"
             },
             {
-              "key": "",
-              "content": "$arr[j]$ == arr[k] modeCount > valCount"
+              "key": "B",
+              "content": "$arr[j]$ == arr[k] modeCount &gt; valCount"
             },
             {
-              "key": "",
-              "content": "arr[j] != arr[k] valCount > modeCount"
+              "key": "C",
+              "content": "arr[j] != arr[k] valCount &gt; modeCount"
             },
             {
-              "key": "",
-              "content": "arr[j] != arr[k] modeCount > valCount"
+              "key": "D",
+              "content": "arr[j] != arr[k] modeCount &gt; valCount"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "arr[j] != arr[k] modeCount != valCount"
             }
           ],
@@ -1036,26 +1036,26 @@
         {
           "id": "36",
           "type": "single",
-          "prompt": "Consider the following methods.\n```\n/** Precondition: a > 0 and b > 0 */\npublic static int methodOne(int a, int b)\n{\n int loopCount = 0;\n for (int i = 0; i 0 and b > 0 */\npublic static int methodTwo(int a, int b)\n{\n int loopCount = 0;\n int i = 0;\n while (i < a)\n {\n loopCount++;\n i += b;\n }\n return loopCount;\n}\n```\n\nWhich of the following best describes the conditions under which methodOne and methodTwo return the same value?",
+          "prompt": "Consider the following methods. ``` /** Precondition: a &gt; 0 and b &gt; 0 */ public static int methodOne(int a, int b) { int loopCount = 0; for (int i = 0; i 0 and b &gt; 0 */ public static int methodTwo(int a, int b) { int loopCount = 0; int i = 0; while (i &lt; a) { loopCount++; i += b; } return loopCount; } ``` Which of the following best describes the conditions under which methodOne and methodTwo return the same value?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "When a and b are both even"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "When a and b are both odd"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "When $a$ is even and $b$ is odd"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "When $a % ~b$ is equal to zero"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "When $a % b$ is equal to one"
             }
           ],
@@ -1065,26 +1065,26 @@
         {
           "id": "37",
           "type": "single",
-          "prompt": "Consider the following code segment. Assume that num3 $>$ num2 $>0$.\n```\nint num1 = 0;\nint num2 = /* initial value not shown */;\nint num3 = /* initial value not shown */;\nwhile (num2 < num3)\n{\n num1 += num2;\n num2++;\n}\n```\n\nWhich of the following best describes the contents of num1 as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. Assume that num3 $&gt;$ num2 $&gt;0$. ``` int num1 = 0; int num2 = /* initial value not shown */; int num3 = /* initial value not shown */; while (num2 &lt; num3) { num1 += num2; num2++; } ``` Which of the following best describes the contents of num1 as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The product of num2 and num3"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The product of num2 and num3-1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The sum of num2 and num3"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The sum of all integers from num2 to num3, inclusive"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The sum of all integers from num2 to num3-1, inclusive"
             }
           ],
@@ -1094,26 +1094,26 @@
         {
           "id": "38",
           "type": "single",
-          "prompt": "Consider the following class definition.\n```\npublic class Value\n{\n private int num;\n public int getNum()\n {\n return num;\n }\n // There may be instance variables, constructors, and methods not shown.\n}\n```\n\nThe following method appears in a class other than Value. It is intended to sum all the num instance variables of the Value objects in its ArrayList parameter.\n```\n/** Precondition: valueList is not null */\npublic static int getTotal(ArrayList valueList)\n{\n int total = 0;\n /* missing code */\n return total;\n}\n```\n\nWhich of the following code segments can replace /* missing code */ so the getTotal method works as intended?\n```\nI. for (int x = 0; x < valueList.size(); x++)\n {\n total += valueList.get(x).getNum();\n }\n```\n\nII. for (Value v : valueList)\n {\n total += v.getNum();\n }\nIII. for (Value v : valueList)\n {\n total += getNum(v);\n }",
+          "prompt": "Consider the following class definition. ``` public class Value { private int num; public int getNum() { return num; } // There may be instance variables, constructors, and methods not shown. } ``` The following method appears in a class other than Value. It is intended to sum all the num instance variables of the Value objects in its ArrayList parameter. ``` /** Precondition: valueList is not null */ public static int getTotal(ArrayList valueList) { int total = 0; /* missing code */ return total; } ``` Which of the following code segments can replace /* missing code */ so the getTotal method works as intended? ``` I. for (int x = 0; x &lt; valueList.size(); x++) { total += valueList.get(x).getNum(); } ``` II. for (Value v : valueList) { total += v.getNum(); } III. for (Value v : valueList) { total += getNum(v); }",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and II"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I and III"
             }
           ],
@@ -1123,27 +1123,27 @@
         {
           "id": "39",
           "type": "single",
-          "prompt": "Consider the following recursive method.\n```\npublic static boolean recurMethod(String str)\n{\n if (str.length() 0)\n {\n return recurMethod(str.substring(1));\n }\n else\n {\n return false;\n }\n}\n```\n\nWhich of the following method calls will return true ?",
+          "prompt": "Consider the following recursive method. ``` public static boolean recurMethod(String str) { if (str.length() 0) { return recurMethod(str.substring(1)); } else { return false; } } ``` Which of the following method calls will return true ?",
           "options": [
             {
-              "key": "",
-              "content": "recurMethod(\"abcba\")"
+              "key": "A",
+              "content": "recurMethod(&quot;abcba&quot;)"
             },
             {
-              "key": "",
-              "content": "recurMethod(\"abcde\")"
+              "key": "B",
+              "content": "recurMethod(&quot;abcde&quot;)"
             },
             {
-              "key": "",
-              "content": "recurMethod(\"bcdab\")"
+              "key": "C",
+              "content": "recurMethod(&quot;bcdab&quot;)"
             },
             {
-              "key": "",
-              "content": "recurMethod(\"edcba\")"
+              "key": "D",
+              "content": "recurMethod(&quot;edcba&quot;)"
             },
             {
-              "key": "",
-              "content": "recurMethod(\"edcde\")"
+              "key": "E",
+              "content": "recurMethod(&quot;edcde&quot;)"
             }
           ],
           "answer": "",
@@ -1152,99 +1152,27 @@
         {
           "id": "40",
           "type": "single",
-          "prompt": "Consider the following class definitions.\n```\npublic class A\n{\n public String message(int i)\n {\n return \"A\" + i;\n }\n}\npublic class B extends A\n{\n public String message(int i)\n {\n return \"B\" + i;\n }\n}\n```\n\nThe following code segment appears in a class other than A or B .\n```\nA obj1 = new B(); // Line 1\nB obj2 = new B(); // Line 2\nSystem.out.println(obj1.message(3)); // Line 3\nSystem.out.println(obj2.message(2)); // Line 4\n```\n\nWhich of the following best explains the difference, if any, in the behavior of the code segment that will result from removing the message method from class A ?",
+          "prompt": "Consider the following class definitions. ``` public class A { public String message(int i) { return &quot;A&quot; + i; } } public class B extends A { public String message(int i) { return &quot;B&quot; + i; } } ``` The following code segment appears in a class other than A or B . ``` A obj1 = new B(); // Line 1 B obj2 = new B(); // Line 2 System.out.println(obj1.message(3)); // Line 3 System.out.println(obj2.message(2)); // Line 4 ``` Which of the following best explains the difference, if any, in the behavior of the code segment that will result from removing the message method from class A ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The statement in line 3 will cause a compiler error because the message method for obj 1 cannot be found."
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The statement in line 4 will cause a compiler error because the message method for obj 2 cannot be found."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "As a result of the method call in line 3 , the message method in class $B$ will be executed instead of the message method in class $A$."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "As a result of the method call in line 4 , the message method in class $B$ will be executed instead of the message method in class $A$."
             },
             {
-              "key": "",
-              "content": "The behavior of the code segment will remain unchanged.\n\nDO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO.\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING:\n- PLACED YOUR AP ID LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP ID CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\n^{ {® }}$ Computer Science A Exam}\n\n1 hour and 30 minutes\nNumber of Questions\n4\nPercent of Total Score 50%\nWriting Instrument Pencil\nElectronic Device\nNone allowed Weight\nThe questions are weighted equally.\n\nThe questions for Section II are printed in this booklet. You may use the pages in this booklet to organize your answers and for scratch work, but you must write your answers in the blank space provided for each question.\n\nThe Java Quick Reference is located inside the front cover of this booklet.\nWrite your answer to each question in the blank space provided. Begin your response to each question at the top of a new page and completely fill in the circle at the top of each page that corresponds to the question you are answering.\n\nAll program segments must be written in Java. Show all your work. Credit for partial solutions will be given. Write clearly and legibly. Erased or crossed-out work will not be scored.\n\nManage your time carefully. Do not spend too much time on any one question. You may proceed freely from one question to the next. You may review your responses if you finish before the end of the exam is announced.\n\nAccessible methods from the Java library that may be included in the exam\n\n{|l|l|}\n Class Constructors and Methods & Explanation \n\n 2{|c|}{String Class} \n\n String(String str) & Constructs a new String object that represents the same sequence of characters as str \n\n int length() & Returns the number of characters in a String object \n\n String substring(int from, int to) & Returns the substring beginning at index from and ending at index to - 1 \n\n String substring(int from) & Returns substring(from, length()) \n\n int indexOf(String str) & Returns the index of the first occurrence of str; returns -1 if not found \n\n boolean equals(String other) & Returns true if this is equal to other; returns false otherwise \n\n int compareTo(String other) & Returns a value 0$ if this is greater than other \n\n 2{|c|}{Integer Class} \n\n Integer(int value) & Constructs a new Integer object that represents the specified int value \n\n Integer.MIN_VALUE & The minimum value represented by an int or Integer \n\n Integer.MAX_VALUE & The maximum value represented by an int or Integer \n\n int intValue() & Returns the value of this Integer as an int \n\n 2{|c|}{Double Class} \n\n Double(double value) & Constructs a new Double object that represents the specified double value \n\n double doubleValue() & Returns the value of this Double as a double \n\n 2{|c|}{Math Class} \n\n static int abs(int x) & Returns the absolute value of an int value \n\n static double abs(double x) & Returns the absolute value of a double value \n\n static double pow(double base, double exponent) & Returns the value of the first parameter raised to the power of the second parameter \n\n static double sqrt(double x) & Returns the positive square root of a double value \n\n static double random() & Returns a double value greater than or equal to 0.0 and less than 1.0 \n\n 2{|c|}{ArrayList Class} \n\n int size() & Returns the number of elements in the list \n\n boolean add(E obj) & Appends obj to end of list; returns true \n\n void add(int index, E obj) & Inserts obj atposition index ( 0 \nCOMPUTER SCIENCE A SECTION II\n\nDirections: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE\nWRITTEN IN JAVA. You may plan your answers in this Questions booklet, but no credit will be given for anything written in this booklet. You will only earn credit for what you write in the Free Response booklet.\n\nNotes:\n- Assume that the classes listed in the Java Quick Reference have been imported where appropriate.\n- Unless otherwise noted in the question, assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied.\n- In writing solutions for each question, you may use any of the accessible methods that are listed in classes defined in that question. Writing significant amounts of code that can be replaced by a call to one of these methods will not receive full credit."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
-    },
-    {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
-      "directions": "",
-      "questions": [
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "A mathematical sequence is an ordered list of numbers. This question involves a sequence called a hailstone sequence. If $n$ is the value of a term in the sequence, then the following rules are used to find the next term, if one exists.\n- If $n$ is 1 , the sequence terminates.\n- If $n$ is even, then the next term is $n{2}$.\n- If $n$ is odd, then the next term is $3 n+1$.\n\nFor this question, assume that when the rules are applied, the sequence will eventually terminate with the term $n=1$.\n\nThe following are examples of hailstone sequences.\nExample 1: 5, 16, 8, 4, 2, 1\n- The first term is 5 , so the second term is $5 * 3+1=16$.\n- The second term is 16 , so the third term is $16{2}=8$.\n- The third term is 8 , so the fourth term is $8{2}=4$.\n- The fourth term is 4 , so the fifth term is $4{2}=2$.\n- The fifth term is 2 , so the sixth term is $2{2}=1$.\n- Since the sixth term is 1 , the sequence terminates.\n\nExample 2: 8, 4, 2, 1\n- The first term is 8 , so the second term is $8{2}=4$.\n- The second term is 4 , so the third term is $4{2}=2$.\n- The third term is 2 , so the fourth term is $2{2}=1$.\n- Since the fourth term is 1 , the sequence terminates.\n\nThe Hailstone class, shown below, is used to represent a hailstone sequence. You will write three methods in the Hailstone class.\n```\npublic class Hailstone\n{\n /** Returns the length of a hailstone sequence that starts with n,\n * as described in part (a).\n * Precondition: n > 0\n */\n public static int hailstoneLength(int n)\n { /* to be implemented in part (a) */ }\n /** Returns true if the hailstone sequence that starts with n is considered long\n * and false otherwise, as described in part (b).\n * Precondition: n > 0\n */\n public static boolean isLongSeq(int n)\n { /* to be implemented in part (b) */ }\n /** Returns the proportion of the first n hailstone sequences that are considered long,\n * as described in part (c).\n * Precondition: n > 0\n */\n public static double propLong(int n)\n { /* to be implemented in part (c) */ }\n / / There may be instance variables, constructors, and methods not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "he length of a hailstone sequence is the number of terms it contains. For example, the hailstone sequence in example $1(5,16,8,4,2,1)$ has a length of 6 and the hailstone sequence in example 2 $(8,4,2,1)$ has a length of 4.\n\nWrite the method hailstoneLength (int n), which returns the length of the hailstone sequence that starts with n .\n```\n/** Returns the length of a hailstone sequence that starts with n, as described in part (a).\n * Precondition: n > 0\n */\npublic static int hailstoneLength(int n)\n```\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.\n\nClass information for this question\n```\npublic class Hailstone\npublic static int hailstoneLength(int n)\npublic static boolean isLongSeq(int n)\npublic static double propLong(int n)\n```"
-            },
-            {
-              "key": "b",
-              "content": "hailstone sequence is considered long if its length is greater than its starting value. For example, the hailstone sequence in example $1(5,16,8,4,2,1)$ is considered long because its length (6) is greater than its starting value (5). The hailstone sequence in example $2(8,4,2,1)$ is not considered long because its length (4) is less than or equal to its starting value (8).\n\nWrite the method isLongSeq (int n), which returns true if the hailstone sequence starting with $n$ is considered long and returns false otherwise. Assume that hailstoneLength works as intended, regardless of what you wrote in part (a). You must use hailstoneLength appropriately to receive full credit.\n```\n/** Returns true if the hailstone sequence that starts with n is considered long\n * and false otherwise, as described in part (b).\n * Precondition: n > 0\n */\npublic static boolean isLongSeq(int n)\n```\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
-            },
-            {
-              "key": "c",
-              "content": "he method propLong (int n) returns the proportion of long hailstone sequences with starting values between 1 and n , inclusive.\n\nConsider the following table, which provides data about the hailstone sequences with starting values between 1 and 10, inclusive.\n\n{|l|l|l|l|}\n Starting Value & Terms in the Sequence & Length of the Sequence & Long? \n\n 1 & 1 & 1 & No \n\n 2 & 2, 1 & 2 & No \n\n 3 & 3, 10, 5, 16, 8, 4, 2, 1 & 8 & Yes \n\n 4 & 4, 2, 1 & 3 & No \n\n 5 & 5, 16, 8, 4, 2, 1 & 6 & Yes \n\n 6 & 6, 3, 10, 5, 16, 8, 4, 2, 1 & 9 & Yes \n\n 7 & 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1 & 17 & Yes \n\n 8 & 8, 4, 2, 1 & 4 & No \n\n 9 & 9, 28, 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1 & 20 & Yes \n\n 10 & 10, 5, 16, 8, 4, 2, 1 & 7 & No \n\nThe method call Hailstone.propLong(10) returns 0.5 , since 5 of the 10 hailstone sequences shown in the table are considered long.\n\nWrite the propLong method. Assume that hailstoneLength and isLongSeq work as intended, regardless of what you wrote in parts (a) and (b). You must use isLongSeq appropriately to receive full credit.\n/** Returns the proportion of the first n hailstone sequences that are considered long,\n* as described in part (c).\n* Precondition: $n>0$\n*/\npublic static double propLong(int n)\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.\n\nClass information for this question\npublic class Hailstone\npublic static int hailstoneLength(int n)\npublic static boolean isLongSeq(int n)\npublic static double propLong(int n)"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "This question involves the creation and use of a spinner to generate random numbers in a game. A GameSpinner object represents a spinner with a given number of sectors, all equal in size. The GameSpinner class supports the following behaviors.\n- Creating a new spinner with a specified number of sectors\n- Spinning a spinner and reporting the result\n- Reporting the length of the current run, the number of consecutive spins that are the same as the most recent spin\n\nThe following table contains a sample code execution sequence and the corresponding results.\n\n{|l|l|l|}\n Statements & Value Returned (blank if no value returned) & Comment \n\n GameSpinner g = new GameSpinner (4) ; & & Creates a new spinner with four sectors \n\n g.currentRun(); & 0 & Returns the length of the current run. The length of the current run is initially 0 because no spins have occurred. \n\n g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. \n\n g.currentRun(); & 1 & The length of the current run is 1 because there has been one spin of 3 so far. \n\n g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. \n\n g.currentRun(); & 2 & The length of the current run is 2 because there have been two 3 s in a row. \n\n g.spin(); & 4 & Returns a random integer between 1 and 4, inclusive. In this case, 4 is returned. \n\n g.currentRun(); & 1 & The length of the current run is 1 because the spin of 4 is different from the value of the spin in the previous run of two 3 s . \n\n g.spin(); & 3 & Returns a random integer between 1 and 4, inclusive. In this case, 3 is returned. \n\n g.currentRun(); & 1 & The length of the current run is 1 because the spin of 3 is different from the value of the spin in the previous run of one 4. \n\n g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. \n\n g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. \n\n g.spin(); & 1 & Returns a random integer between 1 and 4, inclusive. In this case, 1 is returned. \n\n g.currentRun(); & 3 & The length of the current run is 3 because there have been three consecutive 1 s since the previous run of one 3. \n\nWrite the complete GameSpinner class. Your implementation must meet all specifications and conform to the example.\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number.\nIf there are multiple parts to this question, write the part letter with your response.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "3",
-          "type": "frq",
-          "prompt": "A student plans to analyze product reviews found on a Web site by looking for keywords in posted reviews. The ProductReview class, shown below, is used to represent a single review. A product review consists of a product name and a review of that product.\n```\npublic class ProductReview\n{\n private String name;\n private String review;\n /** Constructs a ProductReview object and initializes the instance variables. */\n public ProductReview(String pName, String pReview)\n {\n name = pName;\n review = pReview;\n }\n /** Returns the name of the product. */\n public String getName()\n { return name; }\n /** Returns the review of the product. */\n public String getReview()\n { return review; }\n}\n```\n\nThe ReviewCollector class, shown below, is used to represent a collection of reviews to be analyzed.\n```\npublic class ReviewCollector\n{\n private ArrayList reviewList;\n private ArrayList productList;\n /** Constructs a ReviewCollector object and initializes the instance variables. */\n public ReviewCollector()\n {\n reviewList = new ArrayList();\n productList = new ArrayList();\n }\n /** Adds a new review to the collection of reviews, as described in part (a). */\n public void addReview(ProductReview prodReview)\n { /* to be implemented in part (a) */ }\n /** Returns the number of good reviews for a given product name, as described in part (b). */\n public int getNumGoodReviews(String prodName)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the addReview method, which adds a single product review, represented by a ProductReview object, to the ReviewCollector object. The addReview method does the following when it adds a product review.\n- The ProductReview object is added to the reviewList instance variable.\n- The product name from the ProductReview object is added to the productList instance variable if the product name is not already found in productList.\n\nElements may be added to reviewList and productList in any order.\nComplete method addReview.\n/** Adds a new review to the collection of reviews, as described in part (a). */ public void addReview(ProductReview prodReview)\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number.\nIf there are multiple parts to this question, write the part letter with your response."
-            },
-            {
-              "key": "b",
-              "content": "rite the getNumGoodReviews method, which returns the number of good reviews for a given product name. A review is considered good if it contains the string \"best\" (all lowercase). If there are no reviews with a matching product name, the method returns 0 . Note that a review that contains \"BEST\" or \"Best\" is not considered a good review (since not all the letters of \"best\" are lowercase), but a review that contains \"asbestos\" is considered a good review (since all the letters of \"best\" are lowercase).\n\nComplete method getNumGoodReviews.\n```\n/** Returns the number of good reviews for a given product name, as described in part (b). */\npublic int getNumGoodReviews(String prodName)\n```\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response.\n\nClass information for this question\n```\npublic class ProductReview\nprivate String name\nprivate String review\npublic ProductReview(String pName, String pReview)\npublic String getName()\npublic String getReview()\npublic class ReviewCollector\nprivate ArrayList reviewList\nprivate ArrayList productList\npublic ReviewCollector()\npublic void addReview(ProductReview prodReview)\npublic int getNumGoodReviews(String prodName)\n```"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "A theater contains rows of seats with the same number of seats in each row. Some rows contain tier 1 seats, and the remaining rows contain tier 2 seats. Tier 1 seats are closer to the stage and are more desirable. All seats in a row share the same tier.\n\nThe Seat class, shown below, represents seats in the theater. The boolean instance variable available is false if a ticket for the seat has been sold (the seat is no longer available). The int instance variable tier indicates whether the seat is a tier 1 or tier 2 seat.\n```\npublic class Seat\n{\n private boolean available;\n private int tier;\n public Seat(boolean isAvail, int tierNum)\n {\n available = isAvail;\n tier = tierNum;\n }\n public boolean isAvailable()\n { return available; }\n public int getTier()\n { return tier; }\n public void setAvailability(boolean isAvail)\n { available = isAvail; }\n}\n```\n\nThe Theater class represents a theater of seats. The number of seats per row and the number of tier 1 and tier 2 rows are determined by the parameters of the Theater constructor. Row 0 of the theaterSeats array represents the row closest to the stage.\n```\npublic class Theater\n{\n private Seat[][] theaterSeats;\n /** Constructs a Theater object, as described in part (a).\n * Precondition: seatsPerRow > 0; tier1Rows > 0; tier2Rows >= 0\n */\n public Theater(int seatsPerRow, int tier1Rows, int tier2Rows)\n { /* to be implemented in part (a) */ }\n /** Returns true if a seat holder was reassigned from the seat at fromRow, fromCol\n * to the seat at toRow, toCol; otherwise it returns false, as described in part (b).\n * Precondition: fromRow, fromCol, toRow, and toCol represent valid row and\n * column positions in the theater.\n * The seat at fromRow, fromCol is not available.\n */\n public boolean reassignSeat(int fromRow, int fromCol,\n int toRow, int toCol)\n { /* to be implemented in part (b) */ }\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the constructor for the Theater class. The constructor takes three int parameters, representing the number of seats per row, the number of tier 1 rows, and the number of tier 2 rows, respectively. The constructor initializes the theaterSeats instance variable so that it has the given number of seats per row and the given number of tier 1 and tier 2 rows and all seats are available and have the appropriate tier designation.\n\nRow 0 of the theaterSeats array represents the row closest to the stage. All tier 1 seats are closer to the stage than tier 2 seats.\n\nComplete the Theater constructor.\n```\n/** Constructs a Theater object, as described in part (a).\n * Precondition: seatsPerRow > 0; tier1Rows > 0; tier2Rows >= 0\n */\npublic Theater(int seatsPerRow, int tier1Rows, int tier2Rows)\n```\n\nBegin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
-            },
-            {
-              "key": "b",
-              "content": "rite the reassignSeat method, which attempts to move a person from a source seat to a destination seat. The reassignment can be made if the destination seat is available and has the same or greater tier than the source seat (that is, it is equally or less desirable). For example, a person in a tier 1 seat can be moved to a different tier 1 seat or to a tier 2 seat, but a person in a tier 2 seat can only be moved to a different tier 2 seat.\n\nThe reassignseat method has four int parameters representing the row and column indexes of the source (\"from\") and destination (\"to\") seats. If the reassignment is possible, the source seat becomes available, the destination seat becomes unavailable, and the method returns true. If the seat reassignment is not possible, no changes are made to either seat and the method returns false. Assume that the source seat is occupied when the method is called.\n\nComplete method reassignseat.\n```\n/** Returns true if a seat holder was reassigned from the seat at fromRow, fromCol\n * to the seat at toRow, toCol; otherwise it returns false, as described in part (b).\n * Precondition: fromRow, fromCol, toRow, and toCol represent valid row and\n * column positions in the theater.\n * The seat at fromRow, fromCol is not available.\n */\npublic boolean reassignSeat(int fromRow, int fromCol,\n int toRow, int toCol)\n```\n\n> Begin your response at the top of a new page in the Free Response booklet and fill in the appropriate circle indicating the question number. If there are multiple parts to this question, write the part letter with your response."
+              "key": "E",
+              "content": "The behavior of the code segment will remain unchanged. DO NOT GO ON TO SECTION II UNTIL YOU ARE TOLD TO DO SO. MAKE SURE YOU HAVE DONE THE FOLLOWING: - PLACED YOUR AP ID LABEL ON YOUR ANSWER SHEET - WRITTEN AND GRIDDED YOUR AP ID CORRECTLY ON YOUR ANSWER SHEET - TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET ^{ {® }}$ Computer Science A Exam} 1 hour and 30 minutes Number of Questions 4 Percent of Total Score 50% Writing Instrument Pencil Electronic Device None allowed Weight The questions are weighted equally. The questions for Section II are printed in this booklet. You may use the pages in this booklet to organize your answers and for scratch work, but you must write your answers in the blank space provided for each question. The Java Quick Reference is located inside the front cover of this booklet. Write your answer to each question in the blank space provided. Begin your response to each question at the top of a new page and completely fill in the circle at the top of each page that corresponds to the question you are answering. All program segments must be written in Java. Show all your work. Credit for partial solutions will be given. Write clearly and legibly. Erased or crossed-out work willnot be scored. Manage your time carefully. Do not spend too much time on any one question. You may proceed freely from one question to the next. You may review your responses if you finish before the end of the exam is announced. Accessible methods from the Java library that may be included in the exam {|l|l|} Class Constructors and Methods &amp; Explanation 2{|c|}{String Class} String(String str) &amp; Constructs a new String object that represents the same sequence of characters as str int length() &amp; Returns the number of characters in a String object String substring(int from, int to) &amp; Returns the substring beginning at index from and ending at index to - 1 String substring(int from) &amp; Returns substring(from, length()) int indexOf(String str) &amp; Returns the index of the first occurrence of str; returns -1 if not found boolean equals(String other) &amp; Returns true if this is equal to other; returns false otherwise int compareTo(String other) &amp; Returns a value 0$ if this is greater than other 2{|c|}{Integer Class} Integer(int value) &amp; Constructs a new Integer object that represents the specified int value Integer.MIN_VALUE &amp; The minimum value represented by an int or Integer Integer.MAX_VALUE &amp; The maximum value represented by an int or Integer int intValue() &amp; Returns the value of this Integer as an int 2{|c|}{Double Class} Double(double value) &amp; Constructs a new Double object that represents the specified double value double doubleValue() &amp; Returns the value of this Double as a double 2{|c|}{Math Class} static int abs(int x) &amp; Returns the absolute value of an int value static double abs(double x) &amp; Returns the absolute value of a double value static double pow(double base, double exponent) &amp; Returns the value of the first parameter raised to the power of the second parameter static double sqrt(double x) &amp; Returns the positive square root of a double value static double random() &amp; Returns a double value greater than or equal to 0.0 and less than 1.0 2{|c|}{ArrayList Class} int size() &amp; Returns the number of elements in the list boolean add(E obj) &amp; Appends obj to end of list; returns true void add(int index, E obj) &amp; Inserts obj atposition index ( 0 COMPUTER SCIENCE A SECTION II Directions: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA. You may plan your answers in this Questions booklet, but no credit will be given for anything written in this booklet. You will only earn credit for what you write in the Free Response booklet. Notes: - Assume that the classes listed in the Java Quick Reference have been imported where appropriate. - Unless otherwise noted in the question, assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied. - In writing solutions for each question, you may use any of the accessible methods that are listed in classes defined in that question. Writing significant amounts of code that can be replaced by a call to one of these methods willnot receive full credit."
             }
           ],
           "answer": "",

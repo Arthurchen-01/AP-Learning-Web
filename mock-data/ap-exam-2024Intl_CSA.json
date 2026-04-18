@@ -21,26 +21,26 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhich of the following pairs of $x$ and $y$ values would cause＂platypus＂to be printed？",
+          "prompt": "Consider the following code segment． Which of the following pairs of $x$ and $y$ values would cause＂platypus＂to be printed？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$x=5, y=30$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$x=8, y=5$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$x=8, y=15$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$x=10, y=15$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$x=10, y=30$"
             }
           ],
@@ -50,26 +50,26 @@
         {
           "id": "2",
           "type": "single",
-          "prompt": "Consider the following class declaration．\n\nThe following statement appears in a method in a class other than SomeMethods．\nSystem．out．println（SomeMethods．testMethod（1234））；\nWhat，if anything，is printed as a result of executing the statement？",
+          "prompt": "Consider the following class declaration． The following statement appears in a method in a class other than SomeMethods． System．out．println（SomeMethods．testMethod（1234））； What，if anything，is printed as a result of executing the statement？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "2"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "3"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "4"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed because the class SomeMethods does not compile．"
             }
           ],
@@ -79,26 +79,26 @@
         {
           "id": "3",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nAfter the code segment executes，what is the value of num ？",
+          "prompt": "Consider the following code segment． After the code segment executes，what is the value of num ？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "2"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "3"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "4"
             }
           ],
@@ -108,26 +108,26 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "Consider the following code segment．Assume that $x$ and $y$ are properly declared and initialized integer variables．\n\nUnder which of the following conditions is the variable z set to 20 ？",
+          "prompt": "Consider the following code segment．Assume that $x$ and $y$ are properly declared and initialized integer variables． Under which of the following conditions is the variable z set to 20 ？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Whenever x is less than y"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Whenever x is less than or equal to 0"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Whenever x is less than y and x is not greater than 0"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Whenever y is less than or equal to x"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Whenever $z$ is not set to 10"
             }
           ],
@@ -137,26 +137,26 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat is printed as a result of executing the code segment？",
+          "prompt": "Consider the following code segment． What is printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "77"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "78"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "79"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "98"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "99"
             }
           ],
@@ -166,26 +166,26 @@
         {
           "id": "6",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat is printed as a result of executing the code segment？",
+          "prompt": "Consider the following code segment． What is printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "02468"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "0246810"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "024681012"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "246810"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "24681012"
             }
           ],
@@ -195,15 +195,15 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "Consider the following code segment．Assume that value is a properly declared and initialized integer variable．\n\nWhich of the following code segments produces the same result as the preceding code segment for all initial values of value ？",
+          "prompt": "Consider the following code segment．Assume that value is a properly declared and initialized integer variable． Which of the following code segments produces the same result as the preceding code segment for all initial values of value ？",
           "options": [
             {
-              "key": "",
-              "content": "if（value＞＝7）\n\\｛\n value += value;\n}\nelse\n{\n value++;\n}"
+              "key": "A",
+              "content": "if（value＞＝7） \\｛ value += value; } else { value++; }"
             },
             {
-              "key": "",
-              "content": "if（value＞＝7）\n\\｛\n value++;\n}\nelse\n{\n value += value;\n}"
+              "key": "B",
+              "content": "if（value＞＝7） \\｛ value++; } else { value += value; }"
             }
           ],
           "answer": "",
@@ -212,27 +212,27 @@
         {
           "id": "8",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat is printed as a result of executing the code segment？",
+          "prompt": "Consider the following code segment． What is printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
-              "content": "000\n012\n024"
+              "key": "A",
+              "content": "000 012 024"
             },
             {
-              "key": "",
-              "content": "000\n012\n024\n036"
+              "key": "B",
+              "content": "000 012 024 036"
             },
             {
-              "key": "",
-              "content": "0000\n0123\n0246\n0369"
+              "key": "C",
+              "content": "0000 0123 0246 0369"
             },
             {
-              "key": "",
-              "content": "123\n246\n369"
+              "key": "D",
+              "content": "123 246 369"
             },
             {
-              "key": "",
-              "content": "0123\n0246\n0369"
+              "key": "E",
+              "content": "0123 0246 0369"
             }
           ],
           "answer": "",
@@ -241,26 +241,26 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "Assume that $x$ and $y$ are boolean variables and have been properly initialized．\n$$\n(x & & y) \\| y\n$$\n\nWhich of the following always evaluates to the same value as the preceding expression？",
+          "prompt": "Assume that $x$ and $y$ are boolean variables and have been properly initialized． $$ (x &amp; &amp; y) \\| y $$ Which of the following always evaluates to the same value as the preceding expression？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$y$"
             },
             {
-              "key": "",
-              "content": "$x & & y$"
+              "key": "C",
+              "content": "$x &amp; &amp; y$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$x \\| y$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$x!=y$"
             }
           ],
@@ -270,27 +270,27 @@
         {
           "id": "11",
           "type": "single",
-          "prompt": "Consider the following method，which is intended to print the ArrayList names in reverse order．\n\nWhich of the following can be used to replace／＊missing control expressions＊／so that printInReverseOrder will work as intended？",
+          "prompt": "Consider the following method，which is intended to print the ArrayList names in reverse order． Which of the following can be used to replace／＊missing control expressions＊／so that printInReverseOrder will work as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "int $k=0 ; k"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "int $k=0$ ；$k"
             },
             {
-              "key": "",
-              "content": "int $k=$ names．size（）；$k>=0$ ；k－－"
+              "key": "C",
+              "content": "int $k=$ names．size（）；$k&gt;=0$ ；k－－"
             },
             {
-              "key": "",
-              "content": "int $k=$ names．size（）－1；$k>=0$ ；k－－"
+              "key": "D",
+              "content": "int $k=$ names．size（）－1；$k&gt;=0$ ；k－－"
             },
             {
-              "key": "",
-              "content": "int $k=$ names．size（）－1；$k>0$ ；k－－"
+              "key": "E",
+              "content": "int $k=$ names．size（）－1；$k&gt;0$ ；k－－"
             }
           ],
           "answer": "",
@@ -299,26 +299,26 @@
         {
           "id": "12",
           "type": "single",
-          "prompt": "Consider the following method.\n\nWhat value is returned as a result of the call calc (4) ?",
+          "prompt": "Consider the following method. What value is returned as a result of the call calc (4) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "3"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "6"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "10"
             }
           ],
@@ -328,26 +328,26 @@
         {
           "id": "13",
           "type": "single",
-          "prompt": "Consider the following code segment.\n\nAssume that $x$ has been previously declared such that the code segment compiles without error. Which of the following best describes the contents of x after the code segment has been executed?",
+          "prompt": "Consider the following code segment. Assume that $x$ has been previously declared such that the code segment compiles without error. Which of the following best describes the contents of x after the code segment has been executed?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "An int array containing the entire first row of rectangle"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "An int array containing the entire first column of rectangle"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "An int array containing the full contents of rectangle"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "An int value representing the length of the first row of rectangle"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The int value in the first row and first column of rectangle"
             }
           ],
@@ -357,26 +357,26 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhich of the following can be used to replace／＊missing increment＊／so that the variable $t$ has the value 13 as a result of the execution of the code segment？",
+          "prompt": "Consider the following code segment． Which of the following can be used to replace／＊missing increment＊／so that the variable $t$ has the value 13 as a result of the execution of the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$v=v * 0$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$v=v * 1$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$v=v * 2$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$v=v * 3$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$v=v * 4$"
             }
           ],
@@ -386,26 +386,26 @@
         {
           "id": "15",
           "type": "single",
-          "prompt": "Consider a method to determine whether two arrays have the same length and same values stored in the same order．\n\nConsider the following implementations of haveSameContents．\n\nWhich of the implementations can be used so that haveSameContents will work as intended？",
+          "prompt": "Consider a method to determine whether two arrays have the same length and same values stored in the same order． Consider the following implementations of haveSameContents． Which of the implementations can be used so that haveSameContents will work as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and III"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "II and III"
             }
           ],
@@ -415,26 +415,26 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat is the value of $c$ after the code segment has been executed？",
+          "prompt": "Consider the following code segment． What is the value of $c$ after the code segment has been executed？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "2"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "20"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "97"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The value of c cannot be determined because the loop does not terminate．"
             }
           ],
@@ -444,26 +444,26 @@
         {
           "id": "17",
           "type": "single",
-          "prompt": "Consider the following class definition．\n\nThe following code segment appears in a class other than Container．Assume that no other Container objects have been created before the code segment is executed．\n\nWhat value will be assigned to cost as a result of executing the code segment？",
+          "prompt": "Consider the following class definition． The following code segment appears in a class other than Container．Assume that no other Container objects have been created before the code segment is executed． What value will be assigned to cost as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "0"
             }
           ],
@@ -473,26 +473,26 @@
         {
           "id": "18",
           "type": "single",
-          "prompt": "Consider the following methods．\n\nThe following code segment appears in a method in the same class as alpha and beta．\n\nWhat is printed as a result of executing the code segment？",
+          "prompt": "Consider the following methods． The following code segment appears in a method in the same class as alpha and beta． What is printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "223"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "245"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "2117"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "2123"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "2245"
             }
           ],
@@ -502,26 +502,26 @@
         {
           "id": "19",
           "type": "single",
-          "prompt": "Consider the method replaceStr，which is intended to return a string that is identical to orig except that all occurrences of string $a$ are replaced by string $b$ ．\n\nWhich of the following statements can be used to show that replaceStr does not always work as intended？",
+          "prompt": "Consider the method replaceStr，which is intended to return a string that is identical to orig except that all occurrences of string $a$ are replaced by string $b$ ． Which of the following statements can be used to show that replaceStr does not always work as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "String str＝replaceStr（＂＂，＂C＂，＂D＂）；／／str should be set to＂＂"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "String str＝replaceStr（＂AB＂，＂C＂，＂D＂）；／／str should be set to＂AB＂"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "String str＝replaceStr（＂C＂，＂C＂，＂D＂）；／／str should be set to＂D＂"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "String str＝replaceStr（＂CCC＂，＂C＂，＂D＂）；／／str should be set to＂DDD＂"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "String str＝replaceStr（＂CCD＂，＂C＂，＂C＂）；／／str should be set to＂CCD＂"
             }
           ],
@@ -534,23 +534,23 @@
           "prompt": "Which of the following Java expressions evaluates to true if the int variable number is positive or is between -10 and -5 , inclusive, and evaluates to false otherwise?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$(-100$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$(-100$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "(-10 0"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$(-100$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$(-100$"
             }
           ],
@@ -560,26 +560,26 @@
         {
           "id": "21",
           "type": "single",
-          "prompt": "Consider the following method．\n\nWhat value is returned as a result of the call doSomething（10）？",
+          "prompt": "Consider the following method． What value is returned as a result of the call doSomething（10）？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "＂108642＂"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "＂246810＂"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "＂0246810＂"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "＂ 1086420 ＂"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "＂ 12345678910 ＂"
             }
           ],
@@ -589,26 +589,26 @@
         {
           "id": "22",
           "type": "single",
-          "prompt": "Consider the following method，which is intended to print the contents of a two－dimensional array of integers in row－major order．\n\nThe method does not always work as intended．In some cases it throws an ArrayIndexOutOfBoundsException．Which of the following identifies the error in the method？",
+          "prompt": "Consider the following method，which is intended to print the contents of a two－dimensional array of integers in row－major order． The method does not always work as intended．In some cases it throws an ArrayIndexOutOfBoundsException．Which of the following identifies the error in the method？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Variables a and b are incorrectly initialized．"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The loop conditions use the incorrect relational operator．"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The outer and inner for loops contain different Boolean expressions．"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The loop control variable increments $a++$ and $b++$ are incorrect．"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The row and column indices in the print method call are reversed．"
             }
           ],
@@ -618,26 +618,26 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat，if anything，will be printed as a result of executing the code segment？",
+          "prompt": "Consider the following code segment． What，if anything，will be printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "90"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "110"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "150"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "180"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed because an ArrayIndexOutOfBoundsException is thrown．"
             }
           ],
@@ -647,26 +647,26 @@
         {
           "id": "24",
           "type": "single",
-          "prompt": "The following method prints the value of start and then prints every other value up to，and possibly including，end．For example，the method call printRun（1，7）prints the values 1，3，5，and 7.\n\nConsider a modification to the method that changes the Boolean expression in the for loop header so that the for loop header becomes the following．\n\nWhich of the following best explains how the output of the modified method differs from the output of the original method？",
+          "prompt": "The following method prints the value of start and then prints every other value up to，and possibly including，end．For example，the method call printRun（1，7）prints the values 1，3，5，and 7. Consider a modification to the method that changes the Boolean expression in the for loop header so that the for loop header becomes the following． Which of the following best explains how the output of the modified method differs from the output of the original method？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The modified method always prints fewer values than the original method．"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The modified method prints fewer values than the original method only when start is even．"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The modified method prints fewer values than the original method only when start and end are both even or when start and end are both odd．"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The modified method prints fewer values than the original method only when start is even and end is odd or when start is odd and end is even．"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The modified method never prints fewer values than the original method．"
             }
           ],
@@ -676,26 +676,26 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "Consider the following method．\n\nAssume that int k has been initialized with a value that meets the precondition of the method．Which of the following expressions represents the number of times＂Z＂will be printed as a result of executing the call printLetters（k）？",
+          "prompt": "Consider the following method． Assume that int k has been initialized with a value that meets the precondition of the method．Which of the following expressions represents the number of times＂Z＂will be printed as a result of executing the call printLetters（k）？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "k"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$2 * k$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$(k-1) *(k-1)$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$k * k$"
             }
           ],
@@ -705,27 +705,27 @@
         {
           "id": "26",
           "type": "single",
-          "prompt": "The following incomplete method is intended to simulate a spinner in a game by returning＂red＂， ＂blue＂，or＂green＂with equal probability．\n\nThe following code segments have been proposed to replace／＊missing code＊／．\n\nWhich of the code segments can be used to replace／＊missing code＊／so that spin will work as intended？",
+          "prompt": "The following incomplete method is intended to simulate a spinner in a game by returning＂red＂， ＂blue＂，or＂green＂with equal probability． The following code segments have been proposed to replace／＊missing code＊／． Which of the code segments can be used to replace／＊missing code＊／so that spin will work as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             },
             {
-              "key": "",
-              "content": "I，II，and III\n\nQuestions 27－28 refer to the following information．\n\nConsider the following correct implementation of the selection sort algorithm．The method sorts an ArrayList of integers into ascending order．"
+              "key": "E",
+              "content": "I，II，and III Questions 27－28 refer to the following information． Consider the following correct implementation of the selection sort algorithm．The method sorts an ArrayList of integers into ascending order．"
             }
           ],
           "answer": "",
@@ -734,26 +734,26 @@
         {
           "id": "27",
           "type": "single",
-          "prompt": "Assume that selectionSort is called with an ArrayList parameter that has been initialized with the following Integer objects．\n$$\n[2,3,1,5,6,1]\n$$\n\nWhat will the contents of elements be after three passes of the outer loop（i．e．，when $j==2$ at the point indicated by／＊End of outer loop＊／）？",
+          "prompt": "Assume that selectionSort is called with an ArrayList parameter that has been initialized with the following Integer objects． $$ [2,3,1,5,6,1] $$ What will the contents of elements be after three passes of the outer loop（i．e．，when $j==2$ at the point indicated by／＊End of outer loop＊／）？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$[1,1,2,3,5,6]$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$[1,1,2,3,6,5]$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$[1,1,2,5,6,3]$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$[1,2,3,5,6,1]$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$[1,3,2,5,6,1]$"
             }
           ],
@@ -766,23 +766,23 @@
           "prompt": "The method can be revised to sort the ArrayList into descending order by changing some or all occurrences of the operator. The lines in the selectionSort method marked Line 1, Line 2, and Line 3 are lines where the operator so that selectionSort sorts the ArrayList into descending order?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Lines 1 and 2 only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Lines 1 and 3 only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Lines 1, 2, and 3"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Lines 2 and 3 only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Line 3 only"
             }
           ],
@@ -792,26 +792,26 @@
         {
           "id": "29",
           "type": "single",
-          "prompt": "Consider the following class declarations．\n\nWhich of the following can be used to replace／＊missing implementation＊／so that the constructor for Beta initializes the value of thing to 7 ？",
+          "prompt": "Consider the following class declarations． Which of the following can be used to replace／＊missing implementation＊／so that the constructor for Beta initializes the value of thing to 7 ？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "thing $=7$ ；"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Alpha．thing＝7；"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "super（7）；"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "super．thing＝7；"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "super．Alpha（7）；"
             }
           ],
@@ -821,26 +821,26 @@
         {
           "id": "30",
           "type": "single",
-          "prompt": "Consider the following code segment．\n\nWhat，if anything，is printed as a result of executing the code segment？",
+          "prompt": "Consider the following code segment． What，if anything，is printed as a result of executing the code segment？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "03 .0"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "33 .0"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "02 .0"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "02 .3"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed．A compile－time error occurs because an int value cannot be assigned to a double．"
             }
           ],
@@ -850,26 +850,26 @@
         {
           "id": "31",
           "type": "single",
-          "prompt": "Consider the following code segment.\n\nThe code segment is intended to print the following output.\n\n{lll}\n$(0,1)$ & $(0,2)$ & $(0,3)$ \n\n$(1,2)$ & $(1,3)$ & \n\n$(2,3)$ & &\n\nWhich of the following can replace /* missing code */ so that the code segment works as intended?",
+          "prompt": "Consider the following code segment. The code segment is intended to print the following output. {lll} $(0,1)$ &amp; $(0,2)$ &amp; $(0,3)$ $(1,2)$ &amp; $(1,3)$ &amp; $(2,3)$ &amp; &amp; Which of the following can replace /* missing code */ so that the code segment works as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "int $k=0$; $k"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "int $k=j$; $k"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "int $k=j$; $k"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "int k = j + 1; k"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "int k = j + 1; k"
             }
           ],
@@ -879,26 +879,26 @@
         {
           "id": "32",
           "type": "single",
-          "prompt": "Consider the following code segment，which is intended to print true if all elements of the integer array arr are equal in value and false otherwise．Assume arr is properly declared and initialized and has at least two elements．\n\nWhich of the following best explains why the code segment does not work as intended？",
+          "prompt": "Consider the following code segment，which is intended to print true if all elements of the integer array arr are equal in value and false otherwise．Assume arr is properly declared and initialized and has at least two elements． Which of the following best explains why the code segment does not work as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The code segment accesses a null array element，causing a NullPointerException．"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The code segment does not compare all pairs of array elements．"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The code segment incorrectly initializes the variable result．"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The code segment sets the variable result to false under the wrong conditions．"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The code segment encounters an invalid array index，causing an ArrayIndexOutOfBoundsException．"
             }
           ],
@@ -908,26 +908,26 @@
         {
           "id": "33",
           "type": "single",
-          "prompt": "The following method is intended to return a string that is formed by exchanging the first and last characters of its string parameter．For example，the call switchLetters（＂wagon＂）should return the string＂nagow＂．\n\nThe following code segments have been proposed as replacements for／＊missing code＊／．\n\nWhich of the code segments can be used to replace／＊missing code＊／so that the switchLetters method works as intended？",
+          "prompt": "The following method is intended to return a string that is formed by exchanging the first and last characters of its string parameter．For example，the call switchLetters（＂wagon＂）should return the string＂nagow＂． The following code segments have been proposed as replacements for／＊missing code＊／． Which of the code segments can be used to replace／＊missing code＊／so that the switchLetters method works as intended？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I，II，and III"
             }
           ],
@@ -937,26 +937,26 @@
         {
           "id": "34",
           "type": "single",
-          "prompt": "Consider the following incomplete method，which is intended to reverse the elements in an array．\n\nFor example，if the method is called with the following array\n\n{|l|l|l|l|l|l|l|}\n 5 & 8 & 3 & 7 & 4 & 6 & 2 \n\nthen，upon completion，the array should contain the following．\n\n{|l|l|l|l|l|l|l|}\n 2 & 6 & 4 & 7 & 3 & 8 & 5 \n\nWhich of the following can be used to replace／＊condition＊／and／＊expression＊／so that reverse will work as intended？\n/* condition */ 1* expression */",
+          "prompt": "Consider the following incomplete method，which is intended to reverse the elements in an array． For example，if the method is called with the following array {|l|l|l|l|l|l|l|} 5 &amp; 8 &amp; 3 &amp; 7 &amp; 4 &amp; 6 &amp; 2 then，upon completion，the array should contain the following． {|l|l|l|l|l|l|l|} 2 &amp; 6 &amp; 4 &amp; 7 &amp; 3 &amp; 8 &amp; 5 Which of the following can be used to replace／＊condition＊／and／＊expression＊／so that reverse will work as intended？ /* condition */ 1* expression */",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$k"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$k"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$k"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$k"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$k"
             }
           ],
@@ -966,26 +966,26 @@
         {
           "id": "35",
           "type": "single",
-          "prompt": "Consider the following class definition．\n\nAssume that someArray is a properly declared and initialized two－dimensional array of integers．Which of the following best describes the conditions under which the method call ArrayTester．check（someArray）prints the output true true ？",
+          "prompt": "Consider the following class definition． Assume that someArray is a properly declared and initialized two－dimensional array of integers．Which of the following best describes the conditions under which the method call ArrayTester．check（someArray）prints the output true true ？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "There are no special rows in someArray，and at least one value in someArray is incredible．"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "All rows in someArray are special，and at least one value in someArray is incredible．"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "All rows in someArray are special，and all values in someArray are incredible．"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "At least one row in someArray is special，and at least one value in someArray is incredible．"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "At least one row in someArray is special，and all values in someArray are incredible．"
             }
           ],
@@ -995,26 +995,26 @@
         {
           "id": "36",
           "type": "single",
-          "prompt": "Consider the following class BookInfo.\n\nWhich of the following would be an appropriate method header for a BookInfo method that would return the title of the book when called from a method in a class other than BookInfo ?",
+          "prompt": "Consider the following class BookInfo. Which of the following would be an appropriate method header for a BookInfo method that would return the title of the book when called from a method in a class other than BookInfo ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "public void getBookName(String title)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "public String getBookName()"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "private String getBookName(String title)"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "private String getBookName()"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "private void getBookName(String title)"
             }
           ],
@@ -1024,26 +1024,26 @@
         {
           "id": "37",
           "type": "single",
-          "prompt": "A rectangular playing board is to be set up so that in the even－numbered rows，there is an $x$ in each odd－numbered column，and in the odd－numbered rows，there is an x in each even－numbered column．\n\nThe following table shows how a $4 8$ playing board would be initialized．\n\n{l|c|c|c|c|c|c|c|c|} \n& 1{l}{$0$} & 1{l}{$1$} & 1{l}{$3$} & 1{l}{$4$} & 1{l}{$5$} & 1{l}{$6$} & 1{l}{$7$} \n\n$0$ & & x & & x & & x & & x \n\n$1$ & x & & x & & x & & x & \n\n$2$ & & x & & x & & x & & x \n\n$3$ & x & & x & & x & & x & \n\n { 2 - 10 } & & & & & & & &\n\nConsider the following incomplete code segment．Assume that board has been declared appropriately and has been initialized with strings containing a single blank character．\n\nWhich of the following can be used to replace／＊expr＊／so that the code segment will work correctly？",
+          "prompt": "A rectangular playing board is to be set up so that in the even－numbered rows，there is an $x$ in each odd－numbered column，and in the odd－numbered rows，there is an x in each even－numbered column． The following table shows how a $48$ playing board would be initialized． {l|c|c|c|c|c|c|c|c|} &amp; 1{l}{$0$} &amp; 1{l}{$1$} &amp; 1{l}{$3$} &amp; 1{l}{$4$} &amp; 1{l}{$5$} &amp; 1{l}{$6$} &amp; 1{l}{$7$} $0$ &amp; &amp; x &amp; &amp; x &amp; &amp; x &amp; &amp; x $1$ &amp; x &amp; &amp; x &amp; &amp; x &amp; &amp; x &amp; $2$ &amp; &amp; x &amp; &amp; x &amp; &amp; x &amp; &amp; x $3$ &amp; x &amp; &amp; x &amp; &amp; x &amp; &amp; x &amp; { 2 - 10 } &amp; &amp; &amp; &amp; &amp; &amp; &amp; &amp; Consider the following incomplete code segment．Assume that board has been declared appropriately and has been initialized with strings containing a single blank character． Which of the following can be used to replace／＊expr＊／so that the code segment will work correctly？",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "row／ 2"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "（row／2）＋ 1"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "row \\％ 2"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "（row \\％2）＋ 1"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$($ row +1$)$ \\％ 2"
             }
           ],
@@ -1053,26 +1053,26 @@
         {
           "id": "38",
           "type": "single",
-          "prompt": "Consider the following method.\n\nThe following code segment appears in a method in the same class as processWords.\n\nWhat will be printed as a result of executing the code segment?",
+          "prompt": "Consider the following method. The following code segment appears in a method in the same class as processWords. What will be printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "GorillaAppleBear"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "GorillaHouseCar"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "CarHouseGorilla"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "BearAppleGorilla"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "AppleGorillaHouseCar"
             }
           ],
@@ -1082,27 +1082,27 @@
         {
           "id": "40",
           "type": "single",
-          "prompt": "Consider the following class definition.\n\nAssume that the following code segment appears in a class other than WordPlay.\n\nWhat, if anything, is printed as a result of executing the code segment?",
+          "prompt": "Consider the following class definition. Assume that the following code segment appears in a class other than WordPlay. What, if anything, is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "scarf3tie"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "scarfdanatie"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "tie3scarf"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "tiedanascarf"
             },
             {
-              "key": "",
-              "content": "Nothing is printed. The WordPlay class does not compile because it contains two update methods.\n\nCOMPUTER SCIENCE A \n SECTION II \n Time－1 hour and 30 minutes \n 4 Questions\n\nDirections：SHOW ALL YOUR WORK．REMEMBER THAT PROGRAM SEGMENTS ARE TO BE\nWRITTEN IN JAVA．You may plan your answers in this orange booklet，but no credit will be given for anything written in this booklet．You will only earn credit for what you write in the separate Free Response booklet．\n\nNotes：\n－Assume that the classes listed in the Java Quick Reference have been imported where appropriate．\n－Unless otherwise noted in the question，assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied．\n－In writing solutions for each question，you may use any of the accessible methods that are listed in classes defined in that question．Writing significant amounts of code that can be replaced by a call to one of these methods will not receive full credit．\n\nNO TEST MATERIAL ON THIS PAGE"
+              "key": "E",
+              "content": "Nothing is printed. The WordPlay class does not compile because it contains two update methods. COMPUTER SCIENCE A SECTION II Time－1 hour and 30 minutes 4 Questions Directions：SHOW ALL YOUR WORK．REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA．You may plan your answers in this orange booklet，but no credit will be given for anything written in this booklet．You will only earn credit for what you write in the separate Free Response booklet． Notes： －Assume that the classes listed in the Java Quick Reference have been imported where appropriate． －Unless otherwise noted in the question，assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied． －In writing solutions for each question，you may use any of the accessible methods that are listed in classes defined in that question．Writing significant amounts of code that can be replaced by a call to one of these methods willnot receive full credit． NO TEST MATERIAL ON THIS PAGE"
             }
           ],
           "answer": "",

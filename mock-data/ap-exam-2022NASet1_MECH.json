@@ -12,100 +12,12 @@
   },
   "sections": [
     {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
       "directions": "",
-      "questions": [
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "block of mass $m$ is pulled across a rough horizontal table by a string connected to a motor that is attached to the floor. The string passes over a pulley with negligible friction that is vertically aligned with the left edge of the table as shown. The string and pulley both have negligible mass. The pulley is at height $H$ above the table. The motor exerts a constant force of tension $F_{T}$ on the string, and the block remains in contact with the table at all times as the block slides across the table from $x=L$ to $x=0$. The coefficient of kinetic friction between the table and the block is $_{k}$. Express all algebraic answers in terms of $m, H, F_{T}, x, _{k}, L$, and physical constants as appropriate.",
-          "options": [
-            {
-              "key": "a",
-              "content": "On the dot below that represents the block, draw and label the forces (not components) that act on the block when the block is at $x=L$. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot."
-            },
-            {
-              "key": "b",
-              "content": "Derive an expression for the angle $$ that the string makes with the horizontal as a function of $x$.\n\nContinue your response to QUESTION 1 on this page."
-            },
-            {
-              "key": "c",
-              "content": "i. Derive an expression for the normal force $F_{N}$ exerted on the block by the table as a function of the block's position $x$.\nii. Derive an expression for the magnitude of the net horizontal force $F_{ {net }}$ exerted on the block as a function of the position $x$."
-            },
-            {
-              "key": "d",
-              "content": "Write, but do not solve, an integral expression that could be used to solve for the work $W$ done by the string on the block as the block moves from $x=L$ to $x=0$."
-            },
-            {
-              "key": "e",
-              "content": "Does the string do more, less, or the same amount of work on the block as the block moves from $x=L$ to $x=L{2}$ compared to when the block moves from $x=L{2}$ to $x=0$ ?\n$____$ More work when the block moves from $x=L$ to $x=L{2}$\n$____$ Less work when the block moves from $x=L$ to $x=L{2}$\n$____$ The same amount of work when the block moves from $x=L$ to $x=L{2}$\nJustify your answer.\n\nBegin your response to QUESTION 2 on this page."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "5",
-          "type": "frq",
-          "prompt": "art 1 of mass $m_{1}$ is held at rest above the bottom of an incline. Cart 2 has mass $m_{2}$, where $m_{2}>m_{1}$, and is at rest at the bottom of the incline. At time $t=0$, Cart 1 is released and then travels down the incline and smoothly transitions to the horizontal section. The center of mass of Cart 1 moves a vertical distance of $H$, as shown. At time $t_{C}$, Cart 1 reaches the bottom of the incline and immediately collides with and sticks to Cart 2. After the collision, the two-cart system moves with constant speed $v$. Frictional and rotational effects are negligible.",
-          "options": [
-            {
-              "key": "a",
-              "content": "During the collision, is the impulse on Cart 1 from Cart 2 greater than, less than, or equal to the magnitude of the impulse on Cart 2 from Cart 1 ?\n$____$ Greater than $____$ Less than $____$ Equal to\n\nJustify your answer."
-            },
-            {
-              "key": "b",
-              "content": "On the following axes, draw graphs of the magnitude of the momentum of each cart as a function of time $t$, before and after $t_{C}$. The collision occurs in a negligible amount of time. The grid lines on each graph are drawn to the same scale."
-            },
-            {
-              "key": "c",
-              "content": "Show that the velocity $v$ of the two-cart system after the collision is given by the equation $v=2 g(m_{1}{m_{1}+m_{2}}) H$."
-            },
-            {
-              "key": "d",
-              "content": "A group of students use the setup to perform an experiment. They measure the mass of Cart 1 to be $m_{1}=0.250 ~kg$. The mass of Cart 2 is unknown. The students perform several trials and in each trial, Cart 1 is released from a different height $H$ and the final velocity of the two-cart system is measured. The students graph $v$ as a function of $H$, as shown below.\n\ni. Draw a line that represents the best fit to the data points shown.\nii. Use the best-fit line to calculate the mass of Cart 2."
-            },
-            {
-              "key": "e",
-              "content": "After the experiment, the students use a balance to measure the mass of Cart 2 and find it to be less than what was determined in part"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "6",
-          "type": "frq",
-          "prompt": "solid uniform disk is supported by a vertical stand. The disk is able to rotate with negligible friction about an axle that passes through the center of the disk. The mass and radius of the disk are given by $M_{d}$ and $R$, respectively. The rotational inertia of the disk is $I_{d}=1{2} M_{d} R^{2}$. A string of negligible mass is draped over the disk and attached to the top of the disk at point P . One end of the string is connected to an unstretched ideal spring of spring constant $k$, which is fixed to the ground as shown in Figure 1.\n\nA block of mass $m_{B}$ is then attached to the string on the right side of the disk. The block is slowly lowered until the spring-disk-block system reaches equilibrium, as shown in Figure 2. In this equilibrium position, the disk has rotated clockwise through a small angle $$.\n\nGive all algebraic answers in terms of $M_{d}, R, k, $, and physical constants, as appropriate.",
-          "options": [
-            {
-              "key": "a",
-              "content": "Derive an expression for the mass $m_{B}$ of the block."
-            },
-            {
-              "key": "b",
-              "content": "At time $t=0$, the string on the right side of the disk is cut and the block falls to the ground. On the circle below, which represents the disk, draw and label the forces (not components) that act on the disk immediately after the string is cut and the block is falling to the ground. Each force should be represented by an arrow that starts on and is directed away from the point of application."
-            },
-            {
-              "key": "c",
-              "content": "Derive an expression for the angular acceleration $$ of the disk immediately after the string is cut.\n\nContinue your response to QUESTION 3 on this page."
-            },
-            {
-              "key": "d",
-              "content": "At $t=t_{1}$, the disk has rotated and point P is again directly above the axle. Sketch a graph of the magnitude of the angular velocity $$ of the disk as a function of time $t$ from $t=0$ to $t=t_{1}$.\n\nContinue your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
-            },
-            {
-              "key": "e",
-              "content": "The disk is adjusted on the support so that the axle does not pass through the center of mass of the disk. The block is again hung on the right side of the disk and the spring-disk-block system comes to equilibrium, as shown in Figure 3. The axle does not exert a torque on the disk. For each force on the disk, indicate whether the magnitude of the torque about the axle caused by that force increases, decreases, or stays the same relative to part"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
+      "questions": []
     }
   ]
 }

@@ -1,0 +1,678 @@
+{
+  "examId": "2024Intl",
+  "title": "AP Calculus BC 2024年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2024",
+  "description": "AP Calculus BC 2024年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "$d{dx}((x^{2}-11 x+24)^{7})=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$7(2 x-11)^{6}$"
+            },
+            {
+              "key": "B",
+              "content": "$7(2 x-11)^{6}(x^{2}-11 x+24)$"
+            },
+            {
+              "key": "C",
+              "content": "$7(x^{2}-11 x+24)^{6}$"
+            },
+            {
+              "key": "D",
+              "content": "$7(x^{2}-11 x+24)^{6}(2 x-11)$ $$ f(x)= x^{3} &amp; { for } x2 $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "If the function $f$ is defined as shown, then $f$ is differentiable for",
+          "options": [
+            {
+              "key": "A",
+              "content": "all values of $x$"
+            },
+            {
+              "key": "B",
+              "content": "all values of $x$ except $x=0$"
+            },
+            {
+              "key": "C",
+              "content": "all values of $x$ except $x=2$"
+            },
+            {
+              "key": "D",
+              "content": "all values of $x$ except $x=0$ and $x=2$ ![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=433&amp;width=526&amp;top_left_y=296&amp;top_left_x=715) D"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "The graph of $f^{}$, the derivative of the function $f$, is shown. Which of the following could be the graph of $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=385&amp;width=394&amp;top_left_y=847&amp;top_left_x=340)"
+            },
+            {
+              "key": "B",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=387&amp;width=389&amp;top_left_y=845&amp;top_left_x=941)"
+            },
+            {
+              "key": "C",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=383&amp;width=394&amp;top_left_y=1338&amp;top_left_x=344)"
+            },
+            {
+              "key": "D",
+              "content": "![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-03.jpg?height=387&amp;width=387&amp;top_left_y=1334&amp;top_left_x=943)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "If $a$ is a nonzero constant, then $ _{xa} x-a{a^{2}-x^{2}}$ is $$ = _{xa} x-9{(a+x)(a-x)}= _{xa}-1{x+a} $$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$-1{2 a}$"
+            },
+            {
+              "key": "C",
+              "content": "$-1{a}$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent ![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-05.jpg?height=687&amp;width=687&amp;top_left_y=335&amp;top_left_x=638)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "The figure shown is a slope field for which of the following differential equations?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$dy{dx}=y^{2}{(x-2)^{2}}$"
+            },
+            {
+              "key": "B",
+              "content": "$dy{dx}=1{(x-2)^{3}}$"
+            },
+            {
+              "key": "C",
+              "content": "$dy{dx}=1{(x+2)^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$dy{dx}=1{(x-2)^{2}}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "For $x 0$, the function $g$ is continuous and $g(x)&gt;0$. If the area bounded by the graph of $y=g(x)$ and I&#x27;se $x$-axis from $x=0$ to $x=2$ is 3 , what is the average value of $g$ on the interval $[0,2]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$2{3}$"
+            },
+            {
+              "key": "B",
+              "content": "$3{2}$"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "3 $$ _{0}^{2} g(x) dx=3 $$ |$x$ &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\\\ |$f^{}(x)$ &amp; 1 &amp; -2 &amp; 3 &amp; 0 &amp; 5 &amp; 0 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "$ _{h 0} e^{-(1+h)-e^{-(1)}}{h}$ is $.(e^{-x})^{}|_{x=1}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{e}$"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "$1{e}$"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined by $f(x)= (x^{2})$. What are the first three nonzero terms of the Maclaurin series for $f^{}$, the derivative of $f$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-2 x^{3}+x^{7}{3}-x^{11}{60}$"
+            },
+            {
+              "key": "B",
+              "content": "$1-x^{4}{2}+x^{8}{24}$"
+            },
+            {
+              "key": "C",
+              "content": "$2 x-x^{5}+x^{9}{12}$ $$ &amp; x=x-x^{3}{3!}+x^{5}{5!}- \\\\ &amp; f(x)= (x^{2})=x^{2}-x^{6}{3!}+x^{10}{5!} \\\\ &amp; f^{}(x)=2 x-6{3!} x^{5}+10{5!} x^{9} $$"
+            },
+            {
+              "key": "D",
+              "content": "$2 x+2 x^{3}+x^{5}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "For time $t&gt;0$, the position of a particle moving along a curve is given by $(x(t), y(t))$, where $x(t)$ and $y(t)$ are differentiable functions of $t$. An equation of the line tangent to the curve at the point where $t=1$ is $y=4+3 x$. If $x^{}(t)=12 ( t{2})$, what is the value of $y^{}(1)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3"
+            },
+            {
+              "key": "B",
+              "content": "4"
+            },
+            {
+              "key": "C",
+              "content": "36"
+            },
+            {
+              "key": "D",
+              "content": "40 $$ &amp; dy{dx}=3 \\\\ &amp; x^{}(1)=(2 ({2})=12. \\\\ &amp; y^{}(1)=36 $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "A cell phone was plugged into a charger. The battery life of the cell phone, in percent of battery life remaining, can be modeled by a differentiable function $P(t)$, where $t$ is the number of minutes after the phone was plugged into the charger and $0 t 20$. Which of the following is the best interpretation of $P^{}(10)=1.5$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "Ten minutes after the phone was plugged into the charger, the battery life was changing at a rate of 1.5 percent per minute."
+            },
+            {
+              "key": "B",
+              "content": "Ten minutes after the phone was plugged into the charger, the rate of change in the battery life was changing by 1.5 percent per minute per minute."
+            },
+            {
+              "key": "C",
+              "content": "During the first ten minutes that the phone was plugged into the charger, the battery life of the phone was changing at an average rate of 1.5 percent per minute."
+            },
+            {
+              "key": "D",
+              "content": "During the first ten minutes that the phone was plugged into the charger, the rate of change in the battery life was changing at an average rate of 1.5 percent per minute per minute."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "What are all values of $x$ for which the series $_{n=0}^{}(-1)^{n}(3 x+1)^{n}$ converges?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{3} x"
+            },
+            {
+              "key": "B",
+              "content": "$-1{3}"
+            },
+            {
+              "key": "C",
+              "content": "$-2{3} x"
+            },
+            {
+              "key": "D",
+              "content": "$-2{3}"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "For $-4 x 6$, the graph of the function $f$ is piecewise linear, as shown. If $g(x)=_{0}^{x} f(t) dt$, what values of $x$ in the closed interval $-4 x 6$ satisfy the equation $g(x)=0 ?$",
+          "options": [
+            {
+              "key": "A",
+              "content": "0 only"
+            },
+            {
+              "key": "B",
+              "content": "0, 2, and 6 only"
+            },
+            {
+              "key": "C",
+              "content": "$-2,1$, and 4"
+            },
+            {
+              "key": "D",
+              "content": "$-4,-2,0,2$, and 6"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "A particle moves in the $xy$-plane so that its position at any time $t,-10 t 10$, is given by the parametric equations $x(t)=t^{4}-4 t^{3}+3$ and $y(t)=t^{3}-27 t+26$. For what values of $t$ is the particle at rest?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3 only"
+            },
+            {
+              "key": "B",
+              "content": "-3 and 3 only"
+            },
+            {
+              "key": "C",
+              "content": "0 and 3 only"
+            },
+            {
+              "key": "D",
+              "content": "$-3,0$, and 3 ``` $V=0$ $dy{dt}=3 t^{2}-27$ ```"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "Let $f$ and $g$ be twice-differentiable functions such that $ _{x } f(x)=, _{x } g(x)=, _{x } f^{}(x)=8$, and C $ _{x } g^{}(x)=2$. What is $ _{x }(f(x){g(x)}+6) ?= _{x 0}^{x } f^{(x)}{q^{}(x)}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "4"
+            },
+            {
+              "key": "B",
+              "content": "7"
+            },
+            {
+              "key": "C",
+              "content": "10"
+            },
+            {
+              "key": "D",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the solution to the differential equation $dy{dx}=2 x(y-x)$ with the initial condition $f(1)=0$. What is the approximation for $f(0)$ if Euler&#x27;s method is used, starting at $x=1$ with two steps of equal size?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-9{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-7{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$3{4}$"
+            },
+            {
+              "key": "D",
+              "content": "2"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "$_{3}^{5} x{x^{2}-9} dx$ is $ 1{2} 16-1{2} 0$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2} (5{3})$"
+            },
+            {
+              "key": "B",
+              "content": "$ (5{3})$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2} (16)$"
+            },
+            {
+              "key": "D",
+              "content": "divergent ![](https://cdn.mathpix.com/cropped/649781a4-f33b-46f4-9793-de3ed5e3dd2a-13.jpg?height=499&amp;width=458&amp;top_left_y=278&amp;top_left_x=756)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Which of the following is the solution to the differential equation $dy{dx}=x(y-2)$ with the initial condition $y(2)=3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$y=2-e^{(x^{2} / 2)-2}$"
+            },
+            {
+              "key": "B",
+              "content": "$y=2+e^{(x^{2} / 2)-2}$"
+            },
+            {
+              "key": "C",
+              "content": "$y=2+e^{2-(x^{2} / 2)}$"
+            },
+            {
+              "key": "D",
+              "content": "$y=3-e^{2}+e^{x^{2} / 2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "$_{0}^{ / 2} x (x^{2}) dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-{2}{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$-{2}{4}$"
+            },
+            {
+              "key": "C",
+              "content": "${2}{4}$"
+            },
+            {
+              "key": "D",
+              "content": "${2}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "The first derivative of the function $f$ is given by $f^{}(x)=4 x-8$. At what value of $x$ does $f$ attain an absolute maximum on the closed interval $[0,3]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$3{2}$"
+            },
+            {
+              "key": "C",
+              "content": "2"
+            },
+            {
+              "key": "D",
+              "content": "3"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "$ x^{2} e^{2 x} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2} x^{2} e^{2 x}-1{2} xe^{2 x}+1{4} e^{2 x}+C$"
+            },
+            {
+              "key": "B",
+              "content": "$1{2} x^{2} e^{2 x}+1{2} xe^{2 x}+1{4} e^{2 x}+C$"
+            },
+            {
+              "key": "C",
+              "content": "$x^{2} e^{2 x}-2 xe^{2 x}+2 e^{2 x}+C$"
+            },
+            {
+              "key": "D",
+              "content": "$2 x^{2} e^{2 x}-8 xe^{2 x}+16 e^{2 x}+C$ $$ f(x)= (5 x){x} &amp; { for } x 0 \\\\ b &amp; { for } x=0 $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined as shown. For what value of $b$ is $f$ continuous at $x=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$1{5}$"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "5 $$ f(0)=0 _{x -1} f(x)=2{5} _{x -1} f(x)-f(-1){x+1}=-3{5} $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "The function $f$ satisfies the properties shown. What is the slope of the line tangent to the graph of $f$ at $x=-1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-3{5}$"
+            },
+            {
+              "key": "B",
+              "content": "$-2{5}$"
+            },
+            {
+              "key": "C",
+              "content": "$2{5}$"
+            },
+            {
+              "key": "D",
+              "content": "1"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "Which of the following series diverges by the $n$th term test?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{n=1}^{} n^{2+ n}{3 n^{2}+1}$"
+            },
+            {
+              "key": "B",
+              "content": "$_{n=1}^{} (n ){n}$"
+            },
+            {
+              "key": "C",
+              "content": "$_{n=1}^{} n^{2}{n^{3}+1}$"
+            },
+            {
+              "key": "D",
+              "content": "$_{n=1}^{} 1{3 n+1}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "$ _{n } _{k=1}^{n}(1{2+k{2 n}} 1{n})=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$_{0}^{1 / 2} 1{2+x{2}} dx$"
+            },
+            {
+              "key": "B",
+              "content": "$_{0}^{1 / 2} 1{2+x} dx$"
+            },
+            {
+              "key": "C",
+              "content": "$_{0}^{1} 1{2+x{2}} dx$"
+            },
+            {
+              "key": "D",
+              "content": "$_{0}^{1} 1{2+x} dx$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "If $f$ is the function defined by $f(x)=_{5}^{x^{3}} (t) dt$, then $f^{}(x)=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ ^{2}(x^{3})$"
+            },
+            {
+              "key": "B",
+              "content": "$ (x^{3})$"
+            },
+            {
+              "key": "C",
+              "content": "$3 x^{2} ^{2}(x^{3})$"
+            },
+            {
+              "key": "D",
+              "content": "$3 x^{2} (x^{3})$ $$ ^{2}(x^{3}) 3 x^{2} $$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "$ 1{x^{2}-4 x+3} dx= A{x+1}+B{x-3}$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ |x^{2}-4 x+3|+C$"
+            },
+            {
+              "key": "B",
+              "content": "$ |x^{2}-4 x+3|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$ |x-3|- |x-1|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2} |x-3|-1{2} |x-1|+C$"
+            },
+            {
+              "key": "E",
+              "content": "$2 |x-3|-2 |x-1|+C$ IF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON-PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO. *{"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

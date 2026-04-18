@@ -12,112 +12,12 @@
   },
   "sections": [
     {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
       "directions": "",
-      "questions": [
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "The APCalendar class contains methods used to calculate information about a calendar. You will write two methods of the class.\n```\npublic class APCalendar\n{\n /** Returns true if year is a leap year and false otherwise. */\n private static boolean isLeapYear(int year)\n { /* implementation not shown */ }\n /** Returns the number of leap years between year1 and year2, inclusive.\n * Precondition: 0 <= year1 <= year2\n */\n public static int numberOfLeapYears(int year1, int year2)\n { /* to be implemented in part (a) */ }\n /** Returns the value representing the day of the week for the first day of year,\n * where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday.\n */\n private static int firstDayOfYear(int year)\n { /* implementation not shown */ }\n /** Returns n, where month, day, and year specify the nth day of the year.\n * Returns 1 for January 1(month = 1, day = 1) of any year.\n * Precondition: The date represented by month, day, year is a valid date.\n */\n private static int dayOfYear(int month, int day, int year)\n { /* implementation not shown */ }\n /** Returns the value representing the day of the week for the given date\n * (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ...,\n * and 6 denotes Saturday.\n * Precondition: The date represented by month, day, year is a valid date.\n */\n public static int dayOfWeek(int month, int day, int year)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and other methods not shown.\n}\n```\n\n^{ {® }}$ COMPUTER SCIENCE A FREE-RESPONSE QUESTIONS}",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the static method numberOfLeapYears, which returns the number of leap years between year1 and year2, inclusive.\n\nIn order to calculate this value, a helper method is provided for you.\n- isLeapYear(year) returns true if year is a leap year and false otherwise.\n\nComplete method numberOfLeapYears below. You must use isLeapYear appropriately to receive full credit.\n```\n/** Returns the number of leap years between year1 and year2, inclusive.\n * Precondition: 0 <= year1 <= year2\n */\npublic static int numberOfLeapYears(int year1, int year2)\n```"
-            },
-            {
-              "key": "b",
-              "content": "rite the static method dayOfWeek, which returns the integer value representing the day of the week for the given date (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday. For example, 2019 began on a Tuesday, and January 5 is the fifth day of 2019. As a result, January 5, 2019, fell on a Saturday, and the method call dayOfWeek (1, 5, 2019)\nreturns 6.\nAs another example, January 10 is the tenth day of 2019. As a result, January 10, 2019, fell on a Thursday, and the method call dayOfWeek ( $1,10,2019$ ) returns 4.\n\nIn order to calculate this value, two helper methods are provided for you.\n- firstDayOfYear (year) returns the integer value representing the day of the week for the first day of year, where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday. For example, since 2019 began on a Tuesday, firstDayOfYear (2019) returns 2.\n- dayOfYear(month, day, year) returns $n$, where month, day, and year specify the $n$th day of the year. For the first day of the year, January 1 (month $=1$, day $=1$ ), the value 1 is returned. This method accounts for whether year is a leap year. For example, dayOfYear ( 3 , 1, 2017) returns 60, since 2017 is not a leap year, while dayOfYear ( 3 , 1, 2016) returns 61, since 2016 is a leap year.\n\nClass information for this question\n```\npublic class APCalendar\nprivate static boolean isLeapYear(int year)\npublic static int numberOfLeapYears(int year1, int year2)\nprivate static int firstDayOfYear(int year)\nprivate static int dayOfYear(int month, int day, int year)\npublic static int dayOfWeek(int month, int day, int year)\n```\n\nComplete method dayO£Week below. You must use firstDayOfYear and dayOfYear appropriately to receive full credit.\n/** Returns the value representing the day of the week for the given date\n* (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ...,\n* and 6 denotes Saturday.\n* Precondition: The date represented by month, day, year is a valid date.\n*/\npublic static int dayOfWeek(int month, int day, int year)"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "This question involves the implementation of a fitness tracking system that is represented by the StepTracker class. A StepTracker object is created with a parameter that defines the minimum number of steps that must be taken for a day to be considered active.\n\nThe StepTracker class provides a constructor and the following methods.\n- addDailySteps, which accumulates information about steps, in readings taken once per day\n- activeDays, which returns the number of active days\n- averageSteps, which returns the average number of steps per day, calculated by dividing the total number of steps taken by the number of days tracked\n\nThe following table contains a sample code execution sequence and the corresponding results.\n\n{|l|l|l|}\n Statements and Expressions & Value Returned (blank if no value) & Comment \n\n StepTracker tr = new StepTracker(10000); & & Days with at least 10,000 steps are considered active. Assume that the parameter is positive. \n\n tr.activeDays(); & 0 & No data have been recorded yet. \n\n tr.averageSteps(); & 0.0 & When no step data have been recorded, the averageSteps method returns 0.0. \n\n tr.addDailySteps(9000); & & This is too few steps for the day to be considered active. \n\n tr.addDailySteps(5000); & & This is too few steps for the day to be considered active. \n\n tr.activeDays(); & 0 & No day had at least 10,000 steps. \n\n tr.averageSteps(); & 7000.0 & The average number of steps per day is ( 14000 / 2). \n\n tr.addDailySteps(13000); & & This represents an active day. \n\n tr.activeDays(); & 1 & Of the three days for which step data were entered, one day had at least 10,000 steps. \n\n tr.averageSteps(); & 9000.0 & The average number of steps per day is (27000 / 3). \n\n tr.addDailySteps(23000); & & This represents an active day. \n\n tr.addDailySteps(1111); & & This is too few steps for the day to be considered active. \n\n tr.activeDays(); & 2 & Of the five days for which step data were entered, two days had at least 10,000 steps. \n\n tr.averageSteps(); & 10222.2 & The average number of steps per day is (51111 / 5). \n\nWrite the complete StepTracker class, including the constructor and any required instance variables and methods. Your implementation must meet all specifications and conform to the example.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "3",
-          "type": "frq",
-          "prompt": "Many encoded strings contain delimiters. A delimiter is a non-empty string that acts as a boundary between different parts of a larger string. The delimiters involved in this question occur in pairs that must be balanced, with each pair having an open delimiter and a close delimiter. There will be only one type of delimiter for each string. The following are examples of delimiters.\n\nExample 1\nExpressions in mathematics use open parentheses \" (\" and close parentheses \") \" as delimiters. For each open parenthesis, there must be a matching close parenthesis.\n$$\n{ll}\n(x+y) * 5 & { is a valid mathematical expression. } \n\n(x+(y) & {l}\n { is NOT a valid mathematical expression because there are more open delimiters } \n\n { than close delimiters. }\n\n$$\n\nExample 2\nHTML uses and as delimiters. For each open delimiter , there must be a matching close delimiter .\n```\n Make this text bold is valid HTML.\n Make this text bold is NOT valid HTML because there is one open delimiter and no matching close delimiter.\n```\n\nIn this question, you will write two methods in the following Delimiters class.\n```\npublic class Delimiters\n{\n /** The open and close delimiters. */\n private String openDel;\n private String closeDel;\n /** Constructs a Delimiters object where open is the open delimiter and close is the\n * close delimiter.\n * Precondition: open and close are non-empty strings.\n */\n public Delimiters(String open, String close)\n {\n openDel = open;\n closeDel = close;\n }\n /** Returns an ArrayList of delimiters from the array tokens, as described in part (a). */\n public ArrayList getDelimitersList(String[] tokens)\n { /* to be implemented in part (a) */ }\n /** Returns true if the delimiters are balanced and false otherwise, as described in part (b).\n * Precondition: delimiters contains only valid open and close delimiters.\n */\n public boolean isBalanced(ArrayList delimiters)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "string containing text and possibly delimiters has been split into tokens and stored in String[] tokens. Each token is either an open delimiter, a close delimiter, or a substring that is not a delimiter. You will write the method getDelimitersList, which returns an ArrayList containing all the open and close delimiters found in tokens in their original order.\n\nThe following examples show the contents of an ArrayList returned by getDelimitersList for different open and close delimiters and different tokens arrays.\n\n```\nopenDel: \"(\"\ncloseDel: \")\"\n```\n\ntokens: ArrayList\nof delimiters:\n\n{|l|l|l|l|}\n \" (\" & \" $x+y$ \" & \")\" & \" * 5\" \n\nof delimiters:\n□\n\" (\"\n\n\" ) \"\n\n```\nopenDel: \"\"\ncloseDel: \"\"\n tokens:\n\n| \"\" & \"yy\" & \"\" & \"zz\" & \"\" \\\\ |\n\nArrayList\nof delimiters:\n\n| \"\" & \"\" & \"\" \\\\ |\n\n```\n\nComplete method getDelimitersList below.\n/** Returns an ArrayList of delimiters from the array tokens, as described in part (a). */ public ArrayList getDelimitersList(String[] tokens)"
-            },
-            {
-              "key": "b",
-              "content": "rite the method isBalanced, which returns true when the delimiters are balanced and returns false otherwise. The delimiters are balanced when both of the following conditions are satisfied; otherwise, they are not balanced."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "When traversing the ArrayList from the first element to the last element, there is no point at which there are more close delimiters than open delimiters at or before that point.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "The total number of open delimiters is equal to the total number of close delimiters.\n\nConsider a Delimiters object for which openDel is \"\" and closeDel is \"\". The examples below show different ArrayList objects that could be returned by calls to getDelimitersList and the value that would be returned by call to isBalanced.\n\nThe following example shows an ArrayList for which isBalanced returns true. As tokens are examined from first to last, the number of open delimiters is always greater than or equal to the number of close delimiters. After examining all tokens, there are an equal number of open and close delimiters.\n\n{|l|l|l|l|l|l|}\n \"\" & \"\" & \"\" & \"\" & \"\" & \"\" \n\nThe following example shows an ArrayList for which isBalanced returns false.\n\n{|c|c|c|c|}\n \"\" & \"\" & \"\" & \"\" \n\n 4{|c}{$$}\n\nlabelformat=empty\nWhen starting from the left, at this point, condition 1 is violated.\n\nThe following example shows an ArrayList for which isBalanced returns false.\n![](https://cdn.mathpix.com/cropped/0ac82fad-7258-44e0-9e0a-1b54972b1ef5-13.jpg?height=113&width=240&top_left_y=1553&top_left_x=283)\n\nAt this point, condition 1 is violated.\n\nThe following example shows an ArrayList for which isBalanced returns false because the second condition is violated. After examining all tokens, there are not an equal number of open and close delimiters.\n\n{|l|l|l|}\n \"\" & \"\" & \"\" \n\n```\nClass information for this question\npublic class Delimiters\nprivate String openDel\nprivate String closeDel\npublic Delimiters(String open, String close)\npublic ArrayList getDelimitersList(String[] tokens)\npublic boolean isBalanced(ArrayList delimiters)\n```\n\nComplete method isBalanced below.\n```\n/** Returns true if the delimiters are balanced and false otherwise, as described in part (b).\n * Precondition: delimiters contains only valid open and close delimiters.\n */\npublic boolean isBalanced(ArrayList delimiters)\n```",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "The LightBoard class models a two-dimensional display of lights, where each light is either on or off, as represented by a Boolean value. You will implement a constructor to initialize the display and a method to evaluate a light.\n```\npublic class LightBoard\n{\n /** The lights on the board, where true represents on and false represents off.\n */\n private boolean[][] lights;\n /** Constructs a LightBoard object having numRows rows and numCols columns.\n * Precondition: numRows > 0, numCols > 0\n * Postcondition: each light has a 40% probability of being set to on.\n */\n public LightBoard(int numRows, int numCols)\n { /* to be implemented in part (a) */ }\n /** Evaluates a light in row index row and column index col and returns a status\n * as described in part (b).\n * Precondition: row and col are valid indexes in lights.\n */\n public boolean evaluateLight(int row, int col)\n { /* to be implemented in part (b) */ }\n // There may be additional instance variables, constructors, and methods not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the constructor for the LightBoard class, which initializes lights so that each light is set to on with a $40 %$ probability. The notation lights [r] [c] represents the array element at row $r$ and column c.\n\nComplete the LightBoard constructor below.\n/** Constructs a LightBoard object having numRows rows and numCols columns.\n* Precondition: numRows > 0, numCols > 0\n* Postcondition: each light has a $40 %$ probability of being set to on.\n*/\npublic LightBoard(int numRows, int numCols)"
-            },
-            {
-              "key": "b",
-              "content": "rite the method evaluateLight, which computes and returns the status of a light at a given row and column based on the following rules."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "If the light is on, return false if the number of lights in its column that are on is even, including the current light.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "If the light is off, return true if the number of lights in its column that are on is divisible by three.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "3",
-          "type": "frq",
-          "prompt": "Otherwise, return the light's current status.\n\nFor example, suppose that LightBoard sim = new LightBoard(7, 5) creates a light board with the initial state shown below, where true represents a light that is on and false represents a light that is off. Lights that are off are shaded.\nlights\n\n{|l|l|l|l|l|l|}\n & 0 & 1 & 2 & 3 & 4 \n\n 0 & true & true & false & true & true \n\n 1 & true & false & false & true & false \n\n 2 & true & false & false & true & true \n\n 3 & true & false & false & false & true \n\n 4 & true & false & false & false & true \n\n 5 & true & true & false & true & true \n\n & false & false & false & false & false \n\nSample calls to evaluateLight are shown below.\n\n{|l|l|l|}\n Call to evaluateLight & Value Returned & Explanation \n\n sim.evaluateLight(0, 3); & false & The light is on, and the number of lights that are on in its column is even. \n\n sim.evaluateLight(6, 0); & true & The light is off, and the number of lights that are on in its column is divisible by 3 . \n\n sim.evaluateLight(4, 1); & false & Returns the light's current status. \n\n sim.evaluateLight(5, 4); & true & Returns the light's current status. \n\n© 2019 The College Board.\n```\nClass information for this question\npublic class LightBoard\nprivate boolean[][] lights\npublic LightBoard(int numRows, int numCols)\npublic boolean evaluateLight(int row, int col)\n```\n\nComplete the evaluateLight method below.\n/** Evaluates a light in row index row and column index col and returns a status\n* as described in part (b).\n* Precondition: row and col are valid indexes in lights.\n*/\npublic boolean evaluateLight(int row, int col)\n\nSTOP \n END OF EXAM",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
+      "questions": []
     }
   ]
 }

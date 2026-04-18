@@ -1,0 +1,1329 @@
+{
+  "examId": "2014Intl",
+  "title": "AP Calculus BC 2014年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2014",
+  "description": "AP Calculus BC 2014年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "$ x^{3+5}{x^{2}} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1-10{x^{3}}+C$"
+            },
+            {
+              "key": "B",
+              "content": "$3 x{4}+15{x^{2}}+C$"
+            },
+            {
+              "key": "C",
+              "content": "$x^{2}{2}-5{x}+C$"
+            },
+            {
+              "key": "D",
+              "content": "$x^{2}{2}-5{3 x^{3}}+C$"
+            },
+            {
+              "key": "E",
+              "content": "$-x^{3}{4}-5+C$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the graph of $y= (2 x)$ at the point where $x=4$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{8}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$3{4}$"
+            },
+            {
+              "key": "E",
+              "content": "4"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "$ _{x 0} x^{2}{1- x}$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "1"
+            },
+            {
+              "key": "D",
+              "content": "2"
+            },
+            {
+              "key": "E",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "$ 1{x^{2}-7 x+10} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ |(x-2)(x-5)|+C$"
+            },
+            {
+              "key": "B",
+              "content": "$1{3} |(x-2)(x-5)|+C$"
+            },
+            {
+              "key": "C",
+              "content": "$1{3} |2 x-7{(x-2)(x-5)}|+C$"
+            },
+            {
+              "key": "D",
+              "content": "$1{3} |x-2{x-5}|+C$"
+            },
+            {
+              "key": "E",
+              "content": "$1{3} |x-5{x-2}|+C$ ![](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-21.jpg?height=623&amp;width=692&amp;top_left_y=312&amp;top_left_x=730)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "The figure above shows the graph of the function $f$. Which of the following statements are true? I. $ _{x 2^{-}} f(x)=f(2)$ II. $ _{x 6^{-}} f(x)= _{x 6^{+}} f(x)$ III. $ _{x 6} f(x)=f(6)$",
+          "options": [
+            {
+              "key": "A",
+              "content": "II only"
+            },
+            {
+              "key": "B",
+              "content": "III only"
+            },
+            {
+              "key": "C",
+              "content": "I and II only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "The infinite series $_{k=1}^{} a_{k}$ has $n$th partial sum $S_{n}=(-1)^{n+1}$ for $n 1$. What is the sum of the series $_{k=1}^{} a_{k}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-1"
+            },
+            {
+              "key": "B",
+              "content": "0"
+            },
+            {
+              "key": "C",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "D",
+              "content": "1"
+            },
+            {
+              "key": "E",
+              "content": "The series diverges."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "7",
+          "type": "single",
+          "prompt": "Let $f$ be the function defined by $f(x)= x^{2}+2 &amp; { for } x 3, \\\\ 6 x+k &amp; { for } x&gt;3 .$ If $f$ is continuous at $x=3$, what is the value of $k$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-7"
+            },
+            {
+              "key": "B",
+              "content": "2"
+            },
+            {
+              "key": "C",
+              "content": "3"
+            },
+            {
+              "key": "D",
+              "content": "7"
+            },
+            {
+              "key": "E",
+              "content": "There is no such value of $k$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "8",
+          "type": "single",
+          "prompt": "$_{0}^{1} x 1+8 x^{2} dx=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{24}$"
+            },
+            {
+              "key": "B",
+              "content": "$13{12}$"
+            },
+            {
+              "key": "C",
+              "content": "$9{8}$"
+            },
+            {
+              "key": "D",
+              "content": "$52{3}$"
+            },
+            {
+              "key": "E",
+              "content": "18"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "9",
+          "type": "single",
+          "prompt": "The function $f$ has a first derivative given by $f^{}(x)=x(x-3)^{2}(x+1)$. At what values of $x$ does $f$ have a relative maximum?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-1 only"
+            },
+            {
+              "key": "B",
+              "content": "0 only"
+            },
+            {
+              "key": "C",
+              "content": "-1 and 0 only"
+            },
+            {
+              "key": "D",
+              "content": "-1 and 3 only"
+            },
+            {
+              "key": "E",
+              "content": "$-1,0$, and 3"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "10",
+          "type": "single",
+          "prompt": "What is the sum of the series $_{n=1}^{} (-2)^{n}{e^{n+1}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-2{e^{2}-2 e}$"
+            },
+            {
+              "key": "B",
+              "content": "$-2{e^{2}+2 e}$"
+            },
+            {
+              "key": "C",
+              "content": "$-2{e+2}$"
+            },
+            {
+              "key": "D",
+              "content": "$e{e+2}$"
+            },
+            {
+              "key": "E",
+              "content": "The series diverges. $$ f(x)= cases2 x+5 &amp; { for } x"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "11",
+          "type": "single",
+          "prompt": "If $f$ is the function defined above, then $f^{}(-1)$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "2"
+            },
+            {
+              "key": "C",
+              "content": "3"
+            },
+            {
+              "key": "D",
+              "content": "5"
+            },
+            {
+              "key": "E",
+              "content": "nonexistent"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "12",
+          "type": "single",
+          "prompt": "Let $f$ be the function given by $f(x)=9^{x}$. If four subintervals of equal length are used, what is the value of the right Riemann sum approximation for $_{0}^{2} f(x) dx$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "20"
+            },
+            {
+              "key": "B",
+              "content": "40"
+            },
+            {
+              "key": "C",
+              "content": "60"
+            },
+            {
+              "key": "D",
+              "content": "80"
+            },
+            {
+              "key": "E",
+              "content": "120"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "13",
+          "type": "single",
+          "prompt": "A rectangular area is to be enclosed by a wall on one side and fencing on the other three sides. If 18 meters of fencing are used, what is the maximum area that can be enclosed?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$9{2} ~m^{2}$"
+            },
+            {
+              "key": "B",
+              "content": "$81{4} ~m^{2}$"
+            },
+            {
+              "key": "C",
+              "content": "$27 ~m^{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$40 ~m^{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$81{2} ~m^{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "14",
+          "type": "single",
+          "prompt": "Let $P(x)=3-3 x^{2}+6 x^{4}$ be the fourth-degree Taylor polynomial for the function $f$ about $x=0$. What is the value of $f^{(4)}(0)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$1{4}$"
+            },
+            {
+              "key": "C",
+              "content": "6"
+            },
+            {
+              "key": "D",
+              "content": "24"
+            },
+            {
+              "key": "E",
+              "content": "144"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "15",
+          "type": "single",
+          "prompt": "Suppose $ x- y=y-4$, where $y$ is a differentiable function of $x$ and $y=4$ when $x=4$. What is the value of $dy{dx}$ when $x=4$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "0"
+            },
+            {
+              "key": "B",
+              "content": "$1{5}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{3}$"
+            },
+            {
+              "key": "D",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$17{5}$ ![](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-28.jpg?height=536&amp;width=650&amp;top_left_y=294&amp;top_left_x=739)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "16",
+          "type": "single",
+          "prompt": "Let $R$ be the region in the first quadrant that is bounded by the polar curves $r=$ and $=k$, where $k$ is a constant, $0",
+          "options": [
+            {
+              "key": "A",
+              "content": "$k^{3}{6}$"
+            },
+            {
+              "key": "B",
+              "content": "$k^{3}{3}$"
+            },
+            {
+              "key": "C",
+              "content": "$k^{3}{2}$"
+            },
+            {
+              "key": "D",
+              "content": "$k^{2}{4}$"
+            },
+            {
+              "key": "E",
+              "content": "$k^{2}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "17",
+          "type": "single",
+          "prompt": "Which of the following is the Maclaurin series for $e^{3 x}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1+x+x^{2}{2}+x^{3}{3!}+x^{4}{4!}+$"
+            },
+            {
+              "key": "B",
+              "content": "$3+9 x+27 x^{2}{2}+81 x^{3}{3!}+243 x^{4}{4!}+$"
+            },
+            {
+              "key": "C",
+              "content": "$1-3 x+9 x^{2}{2}-27 x^{3}{3!}+81 x^{4}{4!}-$"
+            },
+            {
+              "key": "D",
+              "content": "$1+3 x+3 x^{2}{2}+3 x^{3}{3!}+3 x^{4}{4!}+$"
+            },
+            {
+              "key": "E",
+              "content": "$1+3 x+9 x^{2}{2}+27 x^{3}{3!}+81 x^{4}{4!}+$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "18",
+          "type": "single",
+          "prompt": "$_{1}^{} x^{2}{(x^{3}+2)^{2}} dx$ is",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-1{9}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{9}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{3}$"
+            },
+            {
+              "key": "D",
+              "content": "1"
+            },
+            {
+              "key": "E",
+              "content": "divergent"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "19",
+          "type": "single",
+          "prompt": "For what values of $x$ does the graph of $y=3 x^{5}+10 x^{4}$ have a point of inflection?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$x=-8{3}$ only"
+            },
+            {
+              "key": "B",
+              "content": "$x=-2$ only"
+            },
+            {
+              "key": "C",
+              "content": "$x=0$ only"
+            },
+            {
+              "key": "D",
+              "content": "$x=0$ and $x=-8{3}$"
+            },
+            {
+              "key": "E",
+              "content": "$ x=0$ and $x=-2$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "20",
+          "type": "single",
+          "prompt": "If $f^{}(x)=(x-2)^{3(x^{2}-4)}{16}$ and $g(x)=f(x^{2}-1)$, what is $g^{}(2)$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "2"
+            },
+            {
+              "key": "B",
+              "content": "$5{4}$"
+            },
+            {
+              "key": "C",
+              "content": "$5{8}$"
+            },
+            {
+              "key": "D",
+              "content": "$5{16}$"
+            },
+            {
+              "key": "E",
+              "content": "0 |$x$ &amp; 1 &amp; 3 &amp; 5 &amp; 7 \\\\ |$f(x)$ &amp; 4 &amp; 6 &amp; 7 &amp; 5 \\\\ |$f^{}(x)$ &amp; 2 &amp; 1 &amp; 0 &amp; -1 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "21",
+          "type": "single",
+          "prompt": "The table above gives selected values for a differentiable function $f$ and its first derivative. Using a left Riemann sum with 3 subintervals of equal length, which of the following is an approximation of the length of the graph of $f$ on the interval $[1,7]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "6"
+            },
+            {
+              "key": "B",
+              "content": "34"
+            },
+            {
+              "key": "C",
+              "content": "$23+22+2$"
+            },
+            {
+              "key": "D",
+              "content": "$25+22+2$"
+            },
+            {
+              "key": "E",
+              "content": "$25+42+2$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "22",
+          "type": "single",
+          "prompt": "What is the interval of convergence of the power series $_{n=1}^{} (x-3)^{n}{n 2^{n}}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1"
+            },
+            {
+              "key": "B",
+              "content": "$1 x"
+            },
+            {
+              "key": "C",
+              "content": "$1 x 5$"
+            },
+            {
+              "key": "D",
+              "content": "$2"
+            },
+            {
+              "key": "E",
+              "content": "$2 x 4$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "23",
+          "type": "single",
+          "prompt": "What is the particular solution to the differential equation $dy{dx}=xy^{2}$ with the initial condition $y(2)=1$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$y=e^{x^{2}{2}-2}$"
+            },
+            {
+              "key": "B",
+              "content": "$y=e^{x^{2}{2}}$"
+            },
+            {
+              "key": "C",
+              "content": "$y=-2{x^{2}}$"
+            },
+            {
+              "key": "D",
+              "content": "$y=2{6-x^{2}}$"
+            },
+            {
+              "key": "E",
+              "content": "$y=6-x^{2}{2}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "24",
+          "type": "single",
+          "prompt": "Which of the following series converge? I. $1+(-1)+1++(-1)^{n-1}+$ II. $1+1{3}+1{5}++1{2 n-1}+$ III. $1+1{3}+1{3^{2}}++1{3^{n-1}}+$",
+          "options": [
+            {
+              "key": "A",
+              "content": "I only"
+            },
+            {
+              "key": "B",
+              "content": "II only"
+            },
+            {
+              "key": "C",
+              "content": "III only"
+            },
+            {
+              "key": "D",
+              "content": "II and III only"
+            },
+            {
+              "key": "E",
+              "content": "I, II, and III"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "25",
+          "type": "single",
+          "prompt": "What is the slope of the line tangent to the polar curve $r= $ at the point where $={6}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$-3$"
+            },
+            {
+              "key": "B",
+              "content": "$-1{3}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{3}$"
+            },
+            {
+              "key": "D",
+              "content": "${3}{2}$"
+            },
+            {
+              "key": "E",
+              "content": "$3$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "26",
+          "type": "single",
+          "prompt": "For $x&gt;0, d{dx} _{1}^{x} 1{1+t^{2}} dt=$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{2 x(1+x)}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{2 x(1+x)}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{1+x}$"
+            },
+            {
+              "key": "D",
+              "content": "${x}{1+x}$"
+            },
+            {
+              "key": "E",
+              "content": "$1{1+x}$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "27",
+          "type": "single",
+          "prompt": "What is the coefficient of $x^{2}$ in the Taylor series for $ ^{2} x$ about $x=0$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "-2"
+            },
+            {
+              "key": "B",
+              "content": "-1"
+            },
+            {
+              "key": "C",
+              "content": "0"
+            },
+            {
+              "key": "D",
+              "content": "1"
+            },
+            {
+              "key": "E",
+              "content": "2"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "28",
+          "type": "single",
+          "prompt": "The function $h$ is given by $h(x)=x^{5}+3 x-2$ and $h(1)=2$. If $h^{-1}$ is the inverse of $h$, what is the value of $(h^{-1})^{}(2) ?$",
+          "options": [
+            {
+              "key": "A",
+              "content": "$1{83}$"
+            },
+            {
+              "key": "B",
+              "content": "$1{8}$"
+            },
+            {
+              "key": "C",
+              "content": "$1{2}$"
+            },
+            {
+              "key": "D",
+              "content": "1"
+            },
+            {
+              "key": "E",
+              "content": "8 Directions: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one problem. (1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value. (2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all realnumbers $x$ for which $f(x)$ is a realnumber. (3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix &quot;arc&quot; (e.g., $. ^{-1} x= x)$. ![figure](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-37.jpg?height=587&amp;width=772&amp;top_left_y=289&amp;top_left_x=680)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "29",
+          "type": "single",
+          "prompt": "The figure above shows the graph of the differentiable function $f$ for $1 x 5$. Which of the following could be the $x$-coordinate of a point at which the line tangent to the graph of $f$ is parallel to the secant line through the points $(1, f(1))$ and $(5, f(5))$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$r$"
+            },
+            {
+              "key": "B",
+              "content": "$t$"
+            },
+            {
+              "key": "C",
+              "content": "$u$"
+            },
+            {
+              "key": "D",
+              "content": "$w$"
+            },
+            {
+              "key": "E",
+              "content": "There is no such point."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "30",
+          "type": "single",
+          "prompt": "The number of antibodies $y$ in a patient&#x27;s bloodstream at time $t$ is increasing according to a logistic differential equation. Which of the following could be the differential equation?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$dy{dt}=0.025 t$"
+            },
+            {
+              "key": "B",
+              "content": "$dy{dt}=0.025 t(5000-t)$"
+            },
+            {
+              "key": "C",
+              "content": "$dy{dt}=0.025 y$"
+            },
+            {
+              "key": "D",
+              "content": "$dy{dt}=0.025(5000-y)$"
+            },
+            {
+              "key": "E",
+              "content": "$dy{dt}=0.025 y(5000-y)$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "31",
+          "type": "single",
+          "prompt": "What is the area of the region enclosed by the graphs of $y=1{1+x^{2}}$ and $y=x^{2}-1{3}$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "786"
+            },
+            {
+              "key": "B",
+              "content": "791"
+            },
+            {
+              "key": "C",
+              "content": "582"
+            },
+            {
+              "key": "D",
+              "content": "837"
+            },
+            {
+              "key": "E",
+              "content": "862"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "32",
+          "type": "single",
+          "prompt": "A vase has the shape obtained by revolving the curve $y=2+ x$ from $x=0$ to $x=5$ about the $x$-axis, where $x$ and $y$ are measured in inches. What is the volume, in cubic inches, of the vase?",
+          "options": [
+            {
+              "key": "A",
+              "content": "716"
+            },
+            {
+              "key": "B",
+              "content": "501"
+            },
+            {
+              "key": "C",
+              "content": "666"
+            },
+            {
+              "key": "D",
+              "content": "113"
+            },
+            {
+              "key": "E",
+              "content": "115 ![figure](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-40.jpg?height=578&amp;width=624&amp;top_left_y=294&amp;top_left_x=426) ![figure](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-40.jpg?height=576&amp;width=616&amp;top_left_y=296&amp;top_left_x=1079)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "33",
+          "type": "single",
+          "prompt": "The graphs of two differentiable functions $f$ and $g$ are shown above. Given $p(x)=f(x) g(x)$, which of the following statements about $p^{}(-2)$ is true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$p^{}(-2)"
+            },
+            {
+              "key": "B",
+              "content": "$p^{}(-2)=0$"
+            },
+            {
+              "key": "C",
+              "content": "$p^{}(-2)&gt;0$"
+            },
+            {
+              "key": "D",
+              "content": "$p^{}(-2)$ is undefined."
+            },
+            {
+              "key": "E",
+              "content": "There is not enough information given to conclude anything about $p^{}(-2)$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "34",
+          "type": "single",
+          "prompt": "At time $t=0$ years, a forest preserve has a population of 1500 deer. If the rate of growth of the population is modeled by $R(t)=2000 e^{0.23 t}$ deer per year, what is the population at time $t=3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "3987"
+            },
+            {
+              "key": "B",
+              "content": "5487"
+            },
+            {
+              "key": "C",
+              "content": "8641"
+            },
+            {
+              "key": "D",
+              "content": "10,141"
+            },
+            {
+              "key": "E",
+              "content": "12,628 ![figure](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-41.jpg?height=541&amp;width=1028&amp;top_left_y=293&amp;top_left_x=554)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "35",
+          "type": "single",
+          "prompt": "The figure above shows the graph of $f^{}$, the derivative of function $f$, for $-6",
+          "options": [
+            {
+              "key": "A",
+              "content": "1 relative minimum, 1 relative maximum, and 3 points of inflection"
+            },
+            {
+              "key": "B",
+              "content": "1 relative minimum, 1 relative maximum, and 4 points of inflection"
+            },
+            {
+              "key": "C",
+              "content": "2 relative minima, 1 relative maximum, and 2 points of inflection"
+            },
+            {
+              "key": "D",
+              "content": "2 relative minima, 1 relative maximum, and 4 points of inflection"
+            },
+            {
+              "key": "E",
+              "content": "2 relative minima, 2 relative maxima, and 3 points of inflection |$x$ &amp; $f^{}(x)$ \\\\ | 1 &amp; 0.2 \\\\ 1.5 &amp; 0.5 \\\\ 2 &amp; 0.9 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "36",
+          "type": "single",
+          "prompt": "The table above gives values of $f^{}$, the derivative of a function $f$. If $f(1)=4$, what is the approximation to $f(2)$ obtained by using Euler&#x27;s method with a step size of 0.5 ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "35"
+            },
+            {
+              "key": "B",
+              "content": "65"
+            },
+            {
+              "key": "C",
+              "content": "35"
+            },
+            {
+              "key": "D",
+              "content": "70"
+            },
+            {
+              "key": "E",
+              "content": "80"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "37",
+          "type": "single",
+          "prompt": "A sphere is expanding in such a way that the area of any circular cross section through the sphere&#x27;s center is increasing at a constant rate of $2 ~cm^{2} / sec$. At the instant when the radius of the sphere is 4 centimeters, what is the rate of change of the sphere&#x27;s volume? (The volume $V$ of a sphere with radius $r$ is given by $V=4{3} r^{3}$.)",
+          "options": [
+            {
+              "key": "A",
+              "content": "$ 8 ~cm^{3} / sec$"
+            },
+            {
+              "key": "B",
+              "content": "$ 16 ~cm^{3} / sec$"
+            },
+            {
+              "key": "C",
+              "content": "$8 ~cm^{3} / sec$"
+            },
+            {
+              "key": "D",
+              "content": "$64 ~cm^{3} / sec$"
+            },
+            {
+              "key": "E",
+              "content": "$128 ~cm^{3} / sec$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "38",
+          "type": "single",
+          "prompt": "For $t 0$, the components of the velocity of a particle moving in the $xy$-plane are given by the parametric equations $x^{}(t)=1{t+1}$ and $y^{}(t)=ke^{kt}$, where $k$ is a positive constant. The line $y=4 x+3$ is parallel to the line tangent to the path of the particle at the point where $t=2$. What is the value of $k$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "072"
+            },
+            {
+              "key": "B",
+              "content": "433"
+            },
+            {
+              "key": "C",
+              "content": "495"
+            },
+            {
+              "key": "D",
+              "content": "803"
+            },
+            {
+              "key": "E",
+              "content": "828 | {c} $t$ \\\\ (hours) &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\ $s(t)$ \\\\ (miles) &amp; 0 &amp; 25 &amp; 55 &amp; 92 &amp; 150 &amp; 210 &amp; 275 \\\\ tabular"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "39",
+          "type": "single",
+          "prompt": "The table above gives the distance $s(t)$, in miles, that a car has traveled at various times $t$, in hours, during a 6-hour trip. The graph of the function $s$ is increasing and concave up. Based on the information, which of the following could be the velocity of the car, in miles per hour, at time $t=3$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "37"
+            },
+            {
+              "key": "B",
+              "content": "49"
+            },
+            {
+              "key": "C",
+              "content": "58"
+            },
+            {
+              "key": "D",
+              "content": "65"
+            },
+            {
+              "key": "E",
+              "content": "92"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "40",
+          "type": "single",
+          "prompt": "If $0",
+          "options": [
+            {
+              "key": "A",
+              "content": "If $ _{n } a_{n}=0$, then $_{n=1}^{} b_{n}$ converges."
+            },
+            {
+              "key": "B",
+              "content": "If $_{n=1}^{} a_{n}$ converges, then $ _{n } b_{n}=0$."
+            },
+            {
+              "key": "C",
+              "content": "If $_{n=1}^{} b_{n}$ diverges, then $ _{n } a_{n}=0$."
+            },
+            {
+              "key": "D",
+              "content": "If $_{n=1}^{} a_{n}$ diverges, then $_{n=1}^{} b_{n}$ diverges."
+            },
+            {
+              "key": "E",
+              "content": "If $_{n=1}^{} b_{n}$ converges, then $_{n=1}^{} a_{n}$ converges. ![](https://cdn.mathpix.com/cropped/c6e6f0f2-9f63-4ee5-802e-fd8388bfe616-46.jpg?height=633&amp;width=608&amp;top_left_y=287&amp;top_left_x=760)"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "41",
+          "type": "single",
+          "prompt": "A particle moves along the $x$-axis so that its acceleration $a(t)$ is given by the graph above for all values of $t$ where $0 t 1$. At time $t=0$, the velocity of the particle is $-1{2}$. Which of the following statements must be true?",
+          "options": [
+            {
+              "key": "A",
+              "content": "The particle passes through $x=0$ for some $t$ between $t=0$ and $t=1$."
+            },
+            {
+              "key": "B",
+              "content": "The velocity of the particle is 0 for some $t$ between $t=0$ and $t=1$."
+            },
+            {
+              "key": "C",
+              "content": "The velocity of the particle is negative for all values of $t$ between $t=0$ and $t=1$."
+            },
+            {
+              "key": "D",
+              "content": "The velocity of the particle is positive for all values of $t$ between $t=0$ and $t=1$."
+            },
+            {
+              "key": "E",
+              "content": "The velocity of the particle is less than $-1{2}$ for all values of $t$ between $t=0$ and $t=1$."
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "42",
+          "type": "single",
+          "prompt": "The function $f$ is given by $f(x)=_{1}^{x} t^{3+2} dt$. What is the average rate of change of $f$ over the interval $[0,3]$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "324"
+            },
+            {
+              "key": "B",
+              "content": "497"
+            },
+            {
+              "key": "C",
+              "content": "696"
+            },
+            {
+              "key": "D",
+              "content": "266"
+            },
+            {
+              "key": "E",
+              "content": "694"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "43",
+          "type": "single",
+          "prompt": "A particle moves along a line so that its velocity is given by $v(t)=-t^{3}+2 t^{2}+2^{-t}$ for $t 0$. For what values of $t$ is the speed of the particle increasing?",
+          "options": [
+            {
+              "key": "A",
+              "content": "$(0,0.177)$ and $(1.256, )$"
+            },
+            {
+              "key": "B",
+              "content": "$(0,1.256)$ only"
+            },
+            {
+              "key": "C",
+              "content": "$(0,2.057)$ only"
+            },
+            {
+              "key": "D",
+              "content": "( $0.177,1.256$ ) only"
+            },
+            {
+              "key": "E",
+              "content": "$(0.177,1.256)$ and $(2.057, )$"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "44",
+          "type": "single",
+          "prompt": "Line $$ is tangent to the graph of $y= x$ at the point $(k, k)$, where $0",
+          "options": [
+            {
+              "key": "A",
+              "content": "860"
+            },
+            {
+              "key": "B",
+              "content": "571"
+            },
+            {
+              "key": "C",
+              "content": "356"
+            },
+            {
+              "key": "D",
+              "content": "798"
+            },
+            {
+              "key": "E",
+              "content": "There is no such value of $k$. |$x$ &amp; 2 &amp; 4 \\\\ |$f(x)$ &amp; 7 &amp; 13 \\\\ |$g(x)$ &amp; 2 &amp; 9 \\\\ |$g^{}(x)$ &amp; 1 &amp; 7 \\\\ |$g^{ }(x)$ &amp; 5 &amp; 8 \\\\ |"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "45",
+          "type": "single",
+          "prompt": "The table above gives selected values of twice-differentiable functions $f$ and $g$, as well as the first two derivatives of $g$. If $f^{}(x)=3$ for all values of $x$, what is the value of $_{2}^{4} f(x) g^{ }(x) dx$ ?",
+          "options": [
+            {
+              "key": "A",
+              "content": "63"
+            },
+            {
+              "key": "B",
+              "content": "69"
+            },
+            {
+              "key": "C",
+              "content": "78"
+            },
+            {
+              "key": "D",
+              "content": "84"
+            },
+            {
+              "key": "E",
+              "content": "103 B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B"
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

@@ -21,26 +21,26 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static int mystery(int[] arr)\n{\n int x = 0;\n for (int k = 0; k < arr.length; k = k + 2)\n x = x + arr[k];\n return x;\n}\n```\n\nAssume that the array nums has been declared and initialized as follows.\n```\nint[] nums = {3, 6, 1, 0, 1, 4, 2};\n```\n\nWhat value will be returned as a result of the call mystery (nums) ?",
+          "prompt": "Consider the following method. ``` public static int mystery(int[] arr) { int x = 0; for (int k = 0; k &lt; arr.length; k = k + 2) x = x + arr[k]; return x; } ``` Assume that the array nums has been declared and initialized as follows. ``` int[] nums = {3, 6, 1, 0, 1, 4, 2}; ``` What value will be returned as a result of the call mystery (nums) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "5"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "6"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "7"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "10"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "17"
             }
           ],
@@ -50,26 +50,26 @@
         {
           "id": "2",
           "type": "single",
-          "prompt": "The following declaration appears in another class.\n```\nSomeClass obj = new SomeClass();\n```\n\nWhich of the following code segments will compile without error?",
+          "prompt": "The following declaration appears in another class. ``` SomeClass obj = new SomeClass(); ``` Which of the following code segments will compile without error?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "int $x=$ obj.getA();"
             },
             {
-              "key": "",
-              "content": "int $x$;\nobj.getA(x);"
+              "key": "B",
+              "content": "int $x$; obj.getA(x);"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "int $x=$ obj.myA;"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "int $x=$ SomeClass.getA();"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "int $x=$ getA(obj);"
             }
           ],
@@ -82,24 +82,24 @@
           "prompt": "Which of the following changes to SomeClass will allow other classes to access but not modify the value of myc?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Make myC public."
             },
             {
-              "key": "",
-              "content": "Include the method:\n```\npublic int getC()\n{ return myC; }\n```"
+              "key": "B",
+              "content": "Include the method: ``` public int getC() { return myC; } ```"
             },
             {
-              "key": "",
-              "content": "Include the method:\n```\nprivate int getC()\n{ return myC; }\n```"
+              "key": "C",
+              "content": "Include the method: ``` private int getC() { return myC; } ```"
             },
             {
-              "key": "",
-              "content": "Include the method:\n```\npublic void getC(int x)\n{ x = myC; }\n```"
+              "key": "D",
+              "content": "Include the method: ``` public void getC(int x) { x = myC; } ```"
             },
             {
-              "key": "",
-              "content": "Include the method:\n```\nprivate void getC(int x)\n{ x = myC; }\n```"
+              "key": "E",
+              "content": "Include the method: ``` private void getC(int x) { x = myC; } ```"
             }
           ],
           "answer": "",
@@ -108,26 +108,26 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint x = 7;\nint y = 3;\nif ((x < 10) && (y < 0))\n System.out.println(\"Value is: \" + x * y);\nelse\n System.out.println(\"Value is: \" + x / y);\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int x = 7; int y = 3; if ((x &lt; 10) &amp;&amp; (y &lt; 0)) System.out.println(&quot;Value is: &quot; + x * y); else System.out.println(&quot;Value is: &quot; + x / y); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Value is: 21"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Value is: 2.3333333"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Value is: 2"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Value is: 0"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Value is: 1"
             }
           ],
@@ -137,26 +137,26 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic ArrayList mystery(int n)\n{\n ArrayList seq = new ArrayList();\n for (int k = 1; k <= n; k++)\n seq.add(new Integer(k * k + 3));\n return seq;\n}\n```\n\nWhich of the following is printed as a result of executing the following statement?\nSystem.out.println(mystery(6));",
+          "prompt": "Consider the following method. ``` public ArrayList mystery(int n) { ArrayList seq = new ArrayList(); for (int k = 1; k &lt;= n; k++) seq.add(new Integer(k * k + 3)); return seq; } ``` Which of the following is printed as a result of executing the following statement? System.out.println(mystery(6));",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$[3,4,7,12,19,28]$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$[3,4,7,12,19,28,39]$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$[4,7,12,19,28,39]$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$[39,28,19,12,7,4]$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$[39,28,19,12,7,4,3]$"
             }
           ],
@@ -166,26 +166,26 @@
         {
           "id": "6",
           "type": "single",
-          "prompt": "Consider the following method that is intended to determine if the double values d1 and d2 are close enough to be considered equal. For example, given a tolerance of 0.001 , the values 54.32271 and 54.32294 would be considered equal.\n```\n/** @return true if d1 and d2 are within the specified tolerance,\n * false otherwise\n */\npublic boolean almostEqual(double d1, double d2, double tolerance)\n{\n /* missing code */\n}\n```\n\nWhich of the following should replace /* missing code */ so that almostEqual will work as intended?",
+          "prompt": "Consider the following method that is intended to determine if the double values d1 and d2 are close enough to be considered equal. For example, given a tolerance of 0.001 , the values 54.32271 and 54.32294 would be considered equal. ``` /** @return true if d1 and d2 are within the specified tolerance, * false otherwise */ public boolean almostEqual(double d1, double d2, double tolerance) { /* missing code */ } ``` Which of the following should replace /* missing code */ so that almostEqual will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "return (d1 - d2)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "return ((d1 + d2) / 2)"
             },
             {
-              "key": "",
-              "content": "return (d1 - d2) >= tolerance;"
+              "key": "C",
+              "content": "return (d1 - d2) &gt;= tolerance;"
             },
             {
-              "key": "",
-              "content": "return ((d1 + d2) / 2) >= tolerance;"
+              "key": "D",
+              "content": "return ((d1 + d2) / 2) &gt;= tolerance;"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "return Math.abs(d1 - d2)"
             }
           ],
@@ -195,27 +195,27 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "Consider the following class declaration.\n```\npublic class Person\n{\n private String myName;\n private int myYearOfBirth;\n public Person(String name, int yearOfBirth)\n {\n myName = name;\n myYearOfBirth = yearOfBirth;\n }\n public String getName()\n { return myName; }\n public void setName(String name)\n { myName = name; }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```\n\nAssume that the following declaration has been made.\n```\nPerson student = new Person(\"Thomas\", 1995);\n```\n\nWhich of the following statements is the most appropriate for changing the name of student from \"Thomas\" to \"Tom\" ?",
+          "prompt": "Consider the following class declaration. ``` public class Person { private String myName; private int myYearOfBirth; public Person(String name, int yearOfBirth) { myName = name; myYearOfBirth = yearOfBirth; } public String getName() { return myName; } public void setName(String name) { myName = name; } // There may be instance variables, constructors, and methods that are not shown. } ``` Assume that the following declaration has been made. ``` Person student = new Person(&quot;Thomas&quot;, 1995); ``` Which of the following statements is the most appropriate for changing the name of student from &quot;Thomas&quot; to &quot;Tom&quot; ?",
           "options": [
             {
-              "key": "",
-              "content": "student = new Person(\"Tom\", 1995);"
+              "key": "A",
+              "content": "student = new Person(&quot;Tom&quot;, 1995);"
             },
             {
-              "key": "",
-              "content": "student.myName = \"Tom\";"
+              "key": "B",
+              "content": "student.myName = &quot;Tom&quot;;"
             },
             {
-              "key": "",
-              "content": "student.getName(\"Tom\");"
+              "key": "C",
+              "content": "student.getName(&quot;Tom&quot;);"
             },
             {
-              "key": "",
-              "content": "student.setName(\"Tom\");"
+              "key": "D",
+              "content": "student.setName(&quot;Tom&quot;);"
             },
             {
-              "key": "",
-              "content": "Person.setName (\"Tom\");"
+              "key": "E",
+              "content": "Person.setName (&quot;Tom&quot;);"
             }
           ],
           "answer": "",
@@ -224,26 +224,26 @@
         {
           "id": "8",
           "type": "single",
-          "prompt": "Consider the following class declaration.\n```\npublic class Student\n{\n private String myName;\n private int myAge;\n public Student()\n { /* implementation not shown */ }\n public Student(String name, int age)\n { /* implementation not shown */ }\n // No other constructors\n}\n```\n\nWhich of the following declarations will compile without error?\nI. Student $a=$ new Student();\nII. Student b = new Student(\"Juan\", 15);\nIII. Student c = new Student(\"Juan\", \"15\");",
+          "prompt": "Consider the following class declaration. ``` public class Student { private String myName; private int myAge; public Student() { /* implementation not shown */ } public Student(String name, int age) { /* implementation not shown */ } // No other constructors } ``` Which of the following declarations will compile without error? I. Student $a=$ new Student(); II. Student b = new Student(&quot;Juan&quot;, 15); III. Student c = new Student(&quot;Juan&quot;, &quot;15&quot;);",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -253,26 +253,26 @@
         {
           "id": "9",
           "type": "single",
-          "prompt": "Consider the following method that is intended to return the sum of the elements in the array key.\n```\npublic static int sumArray(int[] key)\n{\n int sum = 0;\n for (int i = 1; i <= key.length; i++)\n {\n /* missing code */\n }\n return sum;\n}\n```\n\nWhich of the following statements should be used to replace /* missing code */ so that sumArray will work as intended?",
+          "prompt": "Consider the following method that is intended to return the sum of the elements in the array key. ``` public static int sumArray(int[] key) { int sum = 0; for (int i = 1; i &lt;= key.length; i++) { /* missing code */ } return sum; } ``` Which of the following statements should be used to replace /* missing code */ so that sumArray will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "sum = key[i];"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "sum += key[i - 1];"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "sum += key[i];"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "sum += sum + key[i - 1];"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "sum += sum + key[i];"
             }
           ],
@@ -282,26 +282,26 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "For which of the following test cases will the call seqSearchRec (5) always result in an error?\nI. data contains only one element.\nII. data does not contain the value 5 .\nIII. data contains the value 5 multiple times.",
+          "prompt": "For which of the following test cases will the call seqSearchRec (5) always result in an error? I. data contains only one element. II. data does not contain the value 5 . III. data contains the value 5 multiple times.",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -314,24 +314,24 @@
           "prompt": "Which of the following should be used to replace // Line 1 in seqSearchRecHelper so that seqSearchRec will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "if (last"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "if (last"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "if (last"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "while (last"
             },
             {
-              "key": "",
-              "content": "while (last >= 0)"
+              "key": "E",
+              "content": "while (last &gt;= 0)"
             }
           ],
           "answer": "",
@@ -340,26 +340,26 @@
         {
           "id": "12",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic String mystery(String input)\n{\n String output = \"\";\n for (int k = 1; k < input.length(); k = k + 2)\n {\n output += input.substring(k, k + 1);\n }\n return output;\n}\n```\n\nWhat is returned as a result of the call mystery (\"computer\") ?",
+          "prompt": "Consider the following method. ``` public String mystery(String input) { String output = &quot;&quot;; for (int k = 1; k &lt; input.length(); k = k + 2) { output += input.substring(k, k + 1); } return output; } ``` What is returned as a result of the call mystery (&quot;computer&quot;) ?",
           "options": [
             {
-              "key": "",
-              "content": "\"computer\""
+              "key": "A",
+              "content": "&quot;computer&quot;"
             },
             {
-              "key": "",
-              "content": "\" cmue \""
+              "key": "B",
+              "content": "&quot; cmue &quot;"
             },
             {
-              "key": "",
-              "content": "\"optr\""
+              "key": "C",
+              "content": "&quot;optr&quot;"
             },
             {
-              "key": "",
-              "content": "\"ompute\""
+              "key": "D",
+              "content": "&quot;ompute&quot;"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is returned because an IndexOutOfBoundsException is thrown."
             }
           ],
@@ -369,27 +369,27 @@
         {
           "id": "13",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint[] arr = {7, 2, 5, 3, 0, 10};\nfor (int k = 0; k arr[k + 1])\n System.out.print(k + \" \" + arr[k] + \" \");\n}\n```\n\nWhat will be printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int[] arr = {7, 2, 5, 3, 0, 10}; for (int k = 0; k arr[k + 1]) System.out.print(k + &quot; &quot; + arr[k] + &quot; &quot;); } ``` What will be printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
-              "content": "$0 2 2 3 3 0$"
+              "key": "A",
+              "content": "$022330$"
             },
             {
-              "key": "",
-              "content": "$0 7 2 5 3 3$"
+              "key": "B",
+              "content": "$072533$"
             },
             {
-              "key": "",
-              "content": "$0 7 2 5 5 10$"
+              "key": "C",
+              "content": "$07255 10$"
             },
             {
-              "key": "",
-              "content": "$1 {lllll}7 & 3 & 5 & 4 & 3$"
+              "key": "D",
+              "content": "$1 {lllll}7 &amp; 3 &amp; 5 &amp; 4 &amp; 3$"
             },
             {
-              "key": "",
-              "content": "$7 2 5 3 3 0$"
+              "key": "E",
+              "content": "$725330$"
             }
           ],
           "answer": "",
@@ -398,26 +398,26 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "Consider the following interface and class declarations.\n```\npublic interface Vehicle\n{\n /** @return the mileage traveled by this Vehicle\n */\n double getMileage();\n}\npublic class Fleet\n{\n private ArrayList myVehicles;\n /** @return the mileage traveled by all vehicles in this Fleet\n */\n public double getTotalMileage()\n {\n double sum = 0.0;\n for (Vehicle v : myVehicles)\n {\n sum += /* expression */ ;\n }\n return sum;\n }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```\n\nWhich of the following can be used to replace /* expression */ so that getTotalMileage returns the total of the miles traveled for all vehicles in the fleet?",
+          "prompt": "Consider the following interface and class declarations. ``` public interface Vehicle { /** @return the mileage traveled by this Vehicle */ double getMileage(); } public class Fleet { private ArrayList myVehicles; /** @return the mileage traveled by all vehicles in this Fleet */ public double getTotalMileage() { double sum = 0.0; for (Vehicle v : myVehicles) { sum += /* expression */ ; } return sum; } // There may be instance variables, constructors, and methods that are not shown. } ``` Which of the following can be used to replace /* expression */ so that getTotalMileage returns the total of the miles traveled for all vehicles in the fleet?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "getMileage(v)"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "myVehicles[v].getMileage()"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Vehicle.get(v).getMileage()"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "myVehicles.get(v).getMileage()"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "v.getMileage()"
             }
           ],
@@ -427,26 +427,26 @@
         {
           "id": "15",
           "type": "single",
-          "prompt": "Consider the following method, isSorted, which is intended to return true if an array of integers is sorted in nondecreasing order and to return false otherwise.\n```\n/** @param data an array of integers\n * @return true if the values in the array appear in sorted (nondecreasing) order\n */\npublic static boolean isSorted(int[] data)\n{\n /* missing code */\n}\n```\n\nWhich of the following can be used to replace /* missing code */ so that isSorted will work as intended?\n for (int k = 1; k data[k])\n return false;\n}\nreturn true;\nII.\n```\nfor (int k = 0; k data[k + 1])\n return false;\n}\nreturn true;\nIII. for (int k = 0; k data[k + 1])\n return false;\n else\n return true;\n}\nreturn true;\n```",
+          "prompt": "Consider the following method, isSorted, which is intended to return true if an array of integers is sorted in nondecreasing order and to return false otherwise. ``` /** @param data an array of integers * @return true if the values in the array appear in sorted (nondecreasing) order */ public static boolean isSorted(int[] data) { /* missing code */ } ``` Which of the following can be used to replace /* missing code */ so that isSorted will work as intended? for (int k = 1; k data[k]) return false; } return true; II. ``` for (int k = 0; k data[k + 1]) return false; } return true; III. for (int k = 0; k data[k + 1]) return false; else return true; } return true; ```",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I and III only"
             }
           ],
@@ -456,26 +456,26 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "Consider the following incomplete method that is intended to return an array that contains the contents of its first array parameter followed by the contents of its second array parameter.\n```\npublic static int[] append(int[] a1, int[] a2)\n{\n int[] result = new int[a1.length + a2.length];\n for (int j = 0; j < a1.length; j++)\n result[j] = a1[j];\n for (int k = 0; k < a2.length; k++)\n result[ /* index */ ] = a2[k];\n return result;\n}\n```\n\nWhich of the following expressions can be used to replace /* index */ so that append will work as intended?",
+          "prompt": "Consider the following incomplete method that is intended to return an array that contains the contents of its first array parameter followed by the contents of its second array parameter. ``` public static int[] append(int[] a1, int[] a2) { int[] result = new int[a1.length + a2.length]; for (int j = 0; j &lt; a1.length; j++) result[j] = a1[j]; for (int k = 0; k &lt; a2.length; k++) result[ /* index */ ] = a2[k]; return result; } ``` Which of the following expressions can be used to replace /* index */ so that append will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "j"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "k"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$k+a 1$. length -1"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$k+a 1$. length"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$k+a 1$. length +1"
             }
           ],
@@ -485,26 +485,26 @@
         {
           "id": "17",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint[] arr = {1, 2, 3, 4, 5, 6, 7};\nfor (int k = 3; k < arr.length - 1; k++)\n arr[k] = arr[k + 1];\n```\n\nWhich of the following represents the contents of arr as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int[] arr = {1, 2, 3, 4, 5, 6, 7}; for (int k = 3; k &lt; arr.length - 1; k++) arr[k] = arr[k + 1]; ``` Which of the following represents the contents of arr as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "${1,2,3,4,5,6,7}$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "${1,2,3,5,6,7}$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "${1,2,3,5,6,7,7}$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "${1,2,3,5,6,7,8}$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "${2,3,4,5,6,7,7}$"
             }
           ],
@@ -517,23 +517,23 @@
           "prompt": "Assume that myList is an ArrayList that has been correctly constructed and populated with objects. Which of the following expressions produces a valid random index for myList?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "(int) ( Math.random() * myList.size() ) - 1"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "(int) ( Math.random() * myList.size() )"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "(int) ( Math.random() * myList.size() ) + 1"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "(int) ( Math.random() * (myList.size() + 1) )"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Math.random(myList.size())"
             }
           ],
@@ -543,27 +543,27 @@
         {
           "id": "19",
           "type": "single",
-          "prompt": "Assume that $a$ and $b$ have been defined and initialized as int values. The expression\n$$\n!(!(a!=b) & & (~b>7))\n$$\nis equivalent to which of the following?",
+          "prompt": "Assume that $a$ and $b$ have been defined and initialized as int values. The expression $$ !(!(a!=b) &amp; &amp; (~b&gt;7)) $$ is equivalent to which of the following?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$(a!=b)|(b"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$(a!=b)|(b"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$(a==b)|(b"
             },
             {
-              "key": "",
-              "content": "$(a!=b) & & (~b"
+              "key": "D",
+              "content": "$(a!=b) &amp; &amp; (~b"
             },
             {
-              "key": "",
-              "content": "$(a==b) & &(~b>7)$"
+              "key": "E",
+              "content": "$(a==b) &amp; &amp;(~b&gt;7)$"
             }
           ],
           "answer": "",
@@ -572,26 +572,26 @@
         {
           "id": "20",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static void arrayMethod(int nums[])\n{\n int j = 0;\n int k = nums.length - 1;\n while (j < k)\n {\n int x = nums[j];\n nums[j] = nums[k];\n nums[k] = x;\n j++;\n k--;\n }\n}\n```\n\nWhich of the following describes what the method arrayMethod() does to the array nums?",
+          "prompt": "Consider the following method. ``` public static void arrayMethod(int nums[]) { int j = 0; int k = nums.length - 1; while (j &lt; k) { int x = nums[j]; nums[j] = nums[k]; nums[k] = x; j++; k--; } } ``` Which of the following describes what the method arrayMethod() does to the array nums?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The array nums is unchanged."
             },
             {
-              "key": "",
+              "key": "B",
               "content": "The first value in nums is copied to every location in the array."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The last value in nums is copied to every location in the array."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The method generates an ArrayIndexOutOfBoundsException."
             },
             {
-              "key": "",
+              "key": "E",
               "content": "The contents of the array nums are reversed."
             }
           ],
@@ -601,26 +601,26 @@
         {
           "id": "21",
           "type": "single",
-          "prompt": "Consider the following method, which is intended to return the element of a 2-dimensional array that is closest in value to a specified number, val.\n```\n/** @return the element of 2-dimensional array mat whose value is closest to val */\npublic double findClosest(double[][] mat, double val)\n{\n double answer = mat[0][0];\n double minDiff = Math.abs(answer - val);\n for (double[] row : mat)\n {\n for (double num : row)\n {\n if ( /* missing code */ )\n {\n answer = num;\n minDiff = Math.abs(num - val);\n }\n }\n }\n return answer;\n}\n```\n\nWhich of the following could be used to replace /* missing code */ so that findClosest will work as intended?",
+          "prompt": "Consider the following method, which is intended to return the element of a 2-dimensional array that is closest in value to a specified number, val. ``` /** @return the element of 2-dimensional array mat whose value is closest to val */ public double findClosest(double[][] mat, double val) { double answer = mat[0][0]; double minDiff = Math.abs(answer - val); for (double[] row : mat) { for (double num : row) { if ( /* missing code */ ) { answer = num; minDiff = Math.abs(num - val); } } } return answer; } ``` Which of the following could be used to replace /* missing code */ so that findClosest will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "val - row[num]"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "Math.abs(num - minDiff)"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "val - num"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Math.abs(num - val)"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Math.abs(row[num] - val)"
             }
           ],
@@ -630,27 +630,27 @@
         {
           "id": "22",
           "type": "single",
-          "prompt": "Consider the following Book and AudioBook classes.\n```\npublic class Book\n{\n private int numPages;\n private String bookTitle;\n public Book(int pages, String title)\n {\n numPages = pages;\n bookTitle = title;\n }\n public String toString()\n {\n return bookTitle + \" \" + numPages;\n }\n public int length()\n {\n return numPages;\n }\n}\npublic class AudioBook extends Book\n{\n private int numMinutes;\n public AudioBook(int minutes, int pages, String title)\n {\n super(pages, title);\n numMinutes = minutes;\n }\n public int length()\n {\n return numMinutes;\n }\n public double pagesPerMinute()\n {\n return ((double) super.length()) / numMinutes;\n }\n}\n```\n\nConsider the following code segment that appears in a class other than Book or AudioBook.\n```\nLine 1: Book[] books = new Book[2];\nLine 2: books[0] = new AudioBook(100, 300, \"The Jungle\");\nLine 3: books[1] = new Book(400, \"Captains Courageous\");\nLine 4: System.out.println(books[0].pagesPerMinute());\nLine 5: System.out.println(books[0].toString());\nLine 6: System.out.println(books[0].length());\nLine 7: System.out.println(books[1].toString());\n```\n\nWhich of the following best explains why the code segment will not compile?",
+          "prompt": "Consider the following Book and AudioBook classes. ``` public class Book { private int numPages; private String bookTitle; public Book(int pages, String title) { numPages = pages; bookTitle = title; } public String toString() { return bookTitle + &quot; &quot; + numPages; } public int length() { return numPages; } } public class AudioBook extends Book { private int numMinutes; public AudioBook(int minutes, int pages, String title) { super(pages, title); numMinutes = minutes; } public int length() { return numMinutes; } public double pagesPerMinute() { return ((double) super.length()) / numMinutes; } } ``` Consider the following code segment that appears in a class other than Book or AudioBook. ``` Line 1: Book[] books = new Book[2]; Line 2: books[0] = new AudioBook(100, 300, &quot;The Jungle&quot;); Line 3: books[1] = new Book(400, &quot;Captains Courageous&quot;); Line 4: System.out.println(books[0].pagesPerMinute()); Line 5: System.out.println(books[0].toString()); Line 6: System.out.println(books[0].length()); Line 7: System.out.println(books[1].toString()); ``` Which of the following best explains why the code segment willnot compile?",
           "options": [
             {
-              "key": "",
-              "content": "Line 2 will not compile because variables of type Book may not refer to variables of type AudioBook."
+              "key": "A",
+              "content": "Line 2 willnot compile because variables of type Book may not refer to variables of type AudioBook."
             },
             {
-              "key": "",
-              "content": "Line 4 will not compile because variables of type Book may only call methods in the Book class."
+              "key": "B",
+              "content": "Line 4 willnot compile because variables of type Book may only call methods in the Book class."
             },
             {
-              "key": "",
-              "content": "Line 5 will not compile because the AudioBook class does not have a method named toString declared or implemented."
+              "key": "C",
+              "content": "Line 5 willnot compile because the AudioBook class does not have a method named toString declared or implemented."
             },
             {
-              "key": "",
-              "content": "Line 6 will not compile because the statement is ambiguous. The compiler cannot determine which length method should be called."
+              "key": "D",
+              "content": "Line 6 willnot compile because the statement is ambiguous. The compiler cannot determine which length method should be called."
             },
             {
-              "key": "",
-              "content": "Line 7 will not compile because the element at index 1 in the array named books may not have been initialized."
+              "key": "E",
+              "content": "Line 7 willnot compile because the element at index 1 in the array named books may not have been initialized."
             }
           ],
           "answer": "",
@@ -659,27 +659,27 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "Consider the following instance variable and method.\n```\nprivate List animals;\npublic void manipulate()\n{\n for (int k = animals.size() - 1; k > 0; k--)\n {\n if (animals.get(k).substring(0, 1).equals(\"b\"))\n {\n animals.add(animals.size() - k, animals.remove(k));\n }\n }\n}\n```\n\nAssume that animals has been instantiated and initialized with the following contents.\n```\n[\"bear\", \"zebra\", \"bass\", \"cat\", \"koala\", \"baboon\"]\n```\n\nWhat will the contents of animals be as a result of calling manipulate ?",
+          "prompt": "Consider the following instance variable and method. ``` private List animals; public void manipulate() { for (int k = animals.size() - 1; k &gt; 0; k--) { if (animals.get(k).substring(0, 1).equals(&quot;b&quot;)) { animals.add(animals.size() - k, animals.remove(k)); } } } ``` Assume that animals has been instantiated and initialized with the following contents. ``` [&quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;] ``` What will the contents of animals be as a result of calling manipulate ?",
           "options": [
             {
-              "key": "",
-              "content": "[\"baboon\", \"zebra\", \"bass\", \"cat\", \"bear\", \"koala\"]"
+              "key": "A",
+              "content": "[&quot;baboon&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;bear&quot;, &quot;koala&quot;]"
             },
             {
-              "key": "",
-              "content": "[\"bear\", \"zebra\", \"bass\", \"cat\", \"koala\", \"baboon\"]"
+              "key": "B",
+              "content": "[&quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;]"
             },
             {
-              "key": "",
-              "content": "[\"baboon\", \"bear\", \"zebra\", \"bass\", \"cat\", \"koala\"]"
+              "key": "C",
+              "content": "[&quot;baboon&quot;, &quot;bear&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;]"
             },
             {
-              "key": "",
-              "content": "[\"bear\", \"baboon\", \"zebra\", \"bass\", \"cat\", \"koala\"]"
+              "key": "D",
+              "content": "[&quot;bear&quot;, &quot;baboon&quot;, &quot;zebra&quot;, &quot;bass&quot;, &quot;cat&quot;, &quot;koala&quot;]"
             },
             {
-              "key": "",
-              "content": "[\"zebra\", \"cat\", \"koala\", \"baboon\", \"bass\", \"bear\"]"
+              "key": "E",
+              "content": "[&quot;zebra&quot;, &quot;cat&quot;, &quot;koala&quot;, &quot;baboon&quot;, &quot;bass&quot;, &quot;bear&quot;]"
             }
           ],
           "answer": "",
@@ -688,26 +688,26 @@
         {
           "id": "24",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint[] oldArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};\nint[][] newArray = new int[3][3];\nint row = 0;\nint col = 0;\nfor (int value : oldArray)\n{\n newArray[row][col] = value;\n row++;\n if ((row % 3) == 0)\n {\n col++;\n row = 0;\n }\n}\nSystem.out.println(newArray[0][2]);\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int[] oldArray = {1, 2, 3, 4, 5, 6, 7, 8, 9}; int[][] newArray = new int[3][3]; int row = 0; int col = 0; for (int value : oldArray) { newArray[row][col] = value; row++; if ((row % 3) == 0) { col++; row = 0; } } System.out.println(newArray[0][2]); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "3"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "4"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "5"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "7"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "8"
             }
           ],
@@ -717,26 +717,26 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "A rectangular box fits inside another rectangular box if and only if the height, width, and depth of the smaller box are each less than the corresponding values of the larger box. Consider the following three interface declarations that are intended to represent information necessary for rectangular boxes.\n I. public interface RBox\n {\n /** @return the height of this RBox */\n double getHeight();\n /** @return the width of this RBox */\n double getWidth();\n /** @return the depth of this RBox */\n double getDepth();\n }\n\nII.\n```\npublic interface RBox\n{\n /** @return true if the height of this RBox is less than the height of other;\n * false otherwise\n */\n boolean smallerHeight(RBox other);\n /** @return true if the width of this RBox is less than the width of other;\n * false otherwise\n /\n boolean smallerWidth(RBox other);\n /** @return true if the depth of this RBox is less than the depth of other;\n * false otherwise\n */\n boolean smallerDepth(RBox other);\n}\n```\n\nIII. public interface RBox\n{\n /** @return the surface area of this RBOX */\n double getSurfaceArea();\n /** @return the volume of this RBOX */\n double getVolume();\n}\n\nWhich of the interfaces, if correctly implemented by a Box class, would be sufficient functionality for a user of the Box class to determine if one Box can fit inside another?",
+          "prompt": "A rectangular box fits inside another rectangular box if and only if the height, width, and depth of the smaller box are each less than the corresponding values of the larger box. Consider the following three interface declarations that are intended to represent information necessary for rectangular boxes. I. public interface RBox { /** @return the height of this RBox */ double getHeight(); /** @return the width of this RBox */ double getWidth(); /** @return the depth of this RBox */ double getDepth(); } II. ``` public interface RBox { /** @return true if the height of this RBox is less than the height of other; * false otherwise */ boolean smallerHeight(RBox other); /** @return true if the width of this RBox is less than the width of other; * false otherwise / boolean smallerWidth(RBox other); /** @return true if the depth of this RBox is less than the depth of other; * false otherwise */ boolean smallerDepth(RBox other); } ``` III. public interface RBox { /** @return the surface area of this RBOX */ double getSurfaceArea(); /** @return the volume of this RBOX */ double getVolume(); } Which of the interfaces, if correctly implemented by a Box class, would be sufficient functionality for a user of the Box class to determine if one Box can fit inside another?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -746,27 +746,27 @@
         {
           "id": "26",
           "type": "single",
-          "prompt": "Assume that the array arr has been defined and initialized as follows.\n```\nint[] arr = /* initial values for the array */ ;\n```\n\nWhich of the following will correctly print all of the odd integers contained in arr but none of the even integers contained in arr ?\n```",
+          "prompt": "Assume that the array arr has been defined and initialized as follows. ``` int[] arr = /* initial values for the array */ ; ``` Which of the following will correctly print all of the odd integers contained in arr but none of the even integers contained in arr ? ```",
           "options": [
             {
-              "key": "",
-              "content": "for (int x : arr)\n if (x % 2 != 0)\n System.out.println(x);"
+              "key": "A",
+              "content": "for (int x : arr) if (x % 2 != 0) System.out.println(x);"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "for (int k = 1; k"
             },
             {
-              "key": "",
-              "content": "for (int x : arr)\n if (x % 2 != 0)\n System.out.println(arr[x]);"
+              "key": "C",
+              "content": "for (int x : arr) if (x % 2 != 0) System.out.println(arr[x]);"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "for (int k = 0; k"
             },
             {
-              "key": "",
-              "content": "for (int x : arr)\n if (arr[x] % 2 != 0)\n System.out.println(arr[x]);\n```\nQuestions 27-28 refer to the following method.\n```\npublic static int mystery(int n)\n{\n int x = 1;\n int y = 1;\n // Point A\n while (n > 2)\n {\n x = x + y;\n // Point B\n Y = x - y;\n n--;\n }\n // Point C\n return x;\n}\n```"
+              "key": "E",
+              "content": "for (int x : arr) if (arr[x] % 2 != 0) System.out.println(arr[x]); ``` Questions 27-28 refer to the following method. ``` public static int mystery(int n) { int x = 1; int y = 1; // Point A while (n &gt; 2) { x = x + y; // Point B Y = x - y; n--; } // Point C return x; } ```"
             }
           ],
           "answer": "",
@@ -778,23 +778,23 @@
           "prompt": "What value is returned as a result of the call mystery (6) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "1"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "5"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "6"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "8"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "13"
             }
           ],
@@ -807,23 +807,23 @@
           "prompt": "Which of the following is true of method mystery ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "x will sometimes be 1 at // Point B ."
             },
             {
-              "key": "",
-              "content": "x will never be 1 at // Point C ."
+              "key": "B",
+              "content": "x willnever be 1 at // Point C ."
             },
             {
-              "key": "",
-              "content": "n will never be greater than 2 at $/ /$ Point A ."
+              "key": "C",
+              "content": "n willnever be greater than 2 at $/ /$ Point A ."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "n will sometimes be greater than 2 at // Point C ."
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$n$ will always be greater than 2 at // Point $B$."
             }
           ],
@@ -833,26 +833,26 @@
         {
           "id": "29",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nfor (int k = 1; k <= 100; k++)\n if ((k % 4) == 0)\n System.out.println(k);\n```\n\nWhich of the following code segments will produce the same output as the code segment above?",
+          "prompt": "Consider the following code segment. ``` for (int k = 1; k &lt;= 100; k++) if ((k % 4) == 0) System.out.println(k); ``` Which of the following code segments will produce the same output as the code segment above?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "for (int k = 1; k"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "for (int k = 1; k"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "for (int k = 1; k"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "for (int $k=4 ; k"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "for (int k = 4; k"
             }
           ],
@@ -862,26 +862,26 @@
         {
           "id": "30",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static String scramble(String word, int howFar)\n{\n return word.substring(howFar + 1, word.length()) +\n word.substring(0, howFar);\n}\n```\n\nWhat value is returned as a result of the call scramble (\"compiler\", 3)?",
+          "prompt": "Consider the following method. ``` public static String scramble(String word, int howFar) { return word.substring(howFar + 1, word.length()) + word.substring(0, howFar); } ``` What value is returned as a result of the call scramble (&quot;compiler&quot;, 3)?",
           "options": [
             {
-              "key": "",
-              "content": "\"compiler\""
+              "key": "A",
+              "content": "&quot;compiler&quot;"
             },
             {
-              "key": "",
-              "content": "\"pilercom\""
+              "key": "B",
+              "content": "&quot;pilercom&quot;"
             },
             {
-              "key": "",
-              "content": "\"ilercom\""
+              "key": "C",
+              "content": "&quot;ilercom&quot;"
             },
             {
-              "key": "",
-              "content": "\"ilercomp\""
+              "key": "D",
+              "content": "&quot;ilercomp&quot;"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "No value is returned because an IndexOutOfBoundsException will be thrown."
             }
           ],
@@ -891,26 +891,26 @@
         {
           "id": "31",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic void mystery(int[] data)\n{\n for (int k = 0; k < data.length - 1; k++)\n data[k + 1] = data[k] + data[k + 1];\n}\n```\n\nThe following code segment appears in another method in the same class.\n```\nint[] values = {5, 2, 1, 3, 8};\nmystery(values);\nfor (int v : values)\n System.out.print(v + \" \");\nSystem.out.println();\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following method. ``` public void mystery(int[] data) { for (int k = 0; k &lt; data.length - 1; k++) data[k + 1] = data[k] + data[k + 1]; } ``` The following code segment appears in another method in the same class. ``` int[] values = {5, 2, 1, 3, 8}; mystery(values); for (int v : values) System.out.print(v + &quot; &quot;); System.out.println(); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "52138"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "573411"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "5781119"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "734118"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed because an ArrayIndexOutOfBoundsException is thrown during the execution of method mystery."
             }
           ],
@@ -920,26 +920,26 @@
         {
           "id": "32",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic int compute(int n, int k)\n{\n int answer = 1;\n for (int i = 1; i <= k; i++)\n answer *= n;\n return answer;\n}\n```\n\nWhich of the following represents the value returned as a result of the call compute ( $n, k$ ) ?",
+          "prompt": "Consider the following method. ``` public int compute(int n, int k) { int answer = 1; for (int i = 1; i &lt;= k; i++) answer *= n; return answer; } ``` Which of the following represents the value returned as a result of the call compute ( $n, k$ ) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$n * k$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$n!$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$n^{k}$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$2^{k}$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$k^{n}$"
             }
           ],
@@ -949,26 +949,26 @@
         {
           "id": "33",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint sum = 0;\nint k = 1;\nwhile (sum < 12 || k < 4)\n sum += k;\nSystem.out.println(sum);\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int sum = 0; int k = 1; while (sum &lt; 12 || k &lt; 4) sum += k; System.out.println(sum); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "6"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "10"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "12"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "15"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "Nothing is printed due to an infinite loop."
             }
           ],
@@ -978,26 +978,26 @@
         {
           "id": "34",
           "type": "single",
-          "prompt": "Consider the following class declarations.\n```\npublic class Point\n{\n private double x; // x-coordinate\n private double y; // y-coordinate\n public Point()\n {\n x = 0;\n y = 0;\n }\n public Point(double a, double b)\n {\n x = a;\n y = b;\n }\n // There may be instance variables, constructors, and methods that are not shown.\n}\npublic class Circle\n{\n private Point center;\n private double radius;\n /** Constructs a circle where (a, b) is the center and r is the radius.\n */\n public Circle(double a, double b, double r)\n {\n /* missing code */\n }\n}\n```\n\nWhich of the following replacements for /* missing code */ will correctly implement the Circle constructor?\nI.\n```\ncenter = new Point();\nradius = r;\n```\n\nII.\n```\ncenter = new Point(a, b);\nradius = r;\n```\n\nIII. center = new Point();\ncenter.x = a;\ncenter.y = b;\nradius = r;",
+          "prompt": "Consider the following class declarations. ``` public class Point { private double x; // x-coordinate private double y; // y-coordinate public Point() { x = 0; y = 0; } public Point(double a, double b) { x = a; y = b; } // There may be instance variables, constructors, and methods that are not shown. } public class Circle { private Point center; private double radius; /** Constructs a circle where (a, b) is the center and r is the radius. */ public Circle(double a, double b, double r) { /* missing code */ } } ``` Which of the following replacements for /* missing code */ will correctly implement the Circle constructor? I. ``` center = new Point(); radius = r; ``` II. ``` center = new Point(a, b); radius = r; ``` III. center = new Point(); center.x = a; center.y = b; radius = r;",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -1007,26 +1007,26 @@
         {
           "id": "35",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint num = 2574;\nint result = 0;\nwhile (num > 0)\n{\n result = result * 10 + num % 10;\n num /= 10;\n}\nSystem.out.println(result);\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` int num = 2574; int result = 0; while (num &gt; 0) { result = result * 10 + num % 10; num /= 10; } System.out.println(result); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "2"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "4"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "18"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "2574"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "4752"
             }
           ],
@@ -1036,26 +1036,26 @@
         {
           "id": "36",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic void test(int x)\n{\n int y;\n if (x % 2 == 0)\n y = 3;\n else if (x > 9)\n y = 5;\n else\n Y = 1;\n System.out.println(\"y = \" + y);\n}\n```\n\nWhich of the following test data sets would test each possible output for the method?",
+          "prompt": "Consider the following method. ``` public void test(int x) { int y; if (x % 2 == 0) y = 3; else if (x &gt; 9) y = 5; else Y = 1; System.out.println(&quot;y = &quot; + y); } ``` Which of the following test data sets would test each possible output for the method?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$8,9,12$"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "$7,9,11$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$8,9,11$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$8,11,13$"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "$7,9,10$"
             }
           ],
@@ -1065,26 +1065,26 @@
         {
           "id": "37",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint x = 1;\nwhile ( /* missing code */ )\n{\n System.out.print(x + \" \");\n x = x + 2;\n}\n```\n\nConsider the following possible replacements for /* missing code */.\nI. $x",
+          "prompt": "Consider the following code segment. ``` int x = 1; while ( /* missing code */ ) { System.out.print(x + &quot; &quot;); x = x + 2; } ``` Consider the following possible replacements for /* missing code */. I. $x",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "I, II, and III"
             }
           ],
@@ -1094,27 +1094,27 @@
         {
           "id": "38",
           "type": "single",
-          "prompt": "Assume that $x$ and $y$ have been declared and initialized with int values. Consider the following Java expression.\n$$\n(y>10000)|(x>1000 & & x",
+          "prompt": "Assume that $x$ and $y$ have been declared and initialized with int values. Consider the following Java expression. $$ (y&gt;10000)|(x&gt;1000 &amp; &amp; x",
           "options": [
             {
-              "key": "",
-              "content": "$(y>10000| | x>1000) & &(y>10000| | x"
+              "key": "A",
+              "content": "$(y&gt;10000| | x&gt;1000) &amp; &amp;(y&gt;10000| | x"
             },
             {
-              "key": "",
-              "content": "$(y>10000| | x>1000)|(y>10000| | x"
+              "key": "B",
+              "content": "$(y&gt;10000| | x&gt;1000)|(y&gt;10000| | x"
             },
             {
-              "key": "",
-              "content": "$(y>10000) _{&} (x>1000| | x"
+              "key": "C",
+              "content": "$(y&gt;10000) _{&amp;} (x&gt;1000| | x"
             },
             {
-              "key": "",
-              "content": "$(y>10000 & x^{x}>1000)|(y>10000 & x^{x}"
+              "key": "D",
+              "content": "$(y&gt;10000 &amp; x^{x}&gt;1000)|(y&gt;10000 &amp; x^{x}"
             },
             {
-              "key": "",
-              "content": "$(y>10000 _{0} x>1000) _{0} (y>10000 _{0} x"
+              "key": "E",
+              "content": "$(y&gt;10000 _{0} x&gt;1000) _{0} (y&gt;10000 _{0} x"
             }
           ],
           "answer": "",
@@ -1123,26 +1123,26 @@
         {
           "id": "39",
           "type": "single",
-          "prompt": "Consider the following recursive method.\n```\npublic int recur(int n)\n{\n if (n <= 10)\n return n * 2;\n else\n return recur(recur(n / 3));\n}\n```\n\nWhat value is returned as a result of the call recur (27)?",
+          "prompt": "Consider the following recursive method. ``` public int recur(int n) { if (n &lt;= 10) return n * 2; else return recur(recur(n / 3)); } ``` What value is returned as a result of the call recur (27)?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "8"
             },
             {
-              "key": "",
+              "key": "B",
               "content": "9"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "12"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "16"
             },
             {
-              "key": "",
+              "key": "E",
               "content": "18"
             }
           ],
@@ -1152,121 +1152,27 @@
         {
           "id": "40",
           "type": "single",
-          "prompt": "Consider the following recursive method.\n```\npublic static void whatsItDo(String str)\n{\n int len = str.length();\n if (len > 1)\n {\n String temp = str.substring(0, len - 1);\n whatsItDo(temp);\n System.out.println(temp);\n }\n}\n```\n\nWhat is printed as a result of the call whatsItDo (\"WATCH\") ?",
+          "prompt": "Consider the following recursive method. ``` public static void whatsItDo(String str) { int len = str.length(); if (len &gt; 1) { String temp = str.substring(0, len - 1); whatsItDo(temp); System.out.println(temp); } } ``` What is printed as a result of the call whatsItDo (&quot;WATCH&quot;) ?",
           "options": [
             {
-              "key": "",
-              "content": "WATC\n```\nWAT\nWA\nW\n```"
+              "key": "A",
+              "content": "WATC ``` WAT WA W ```"
             },
             {
-              "key": "",
-              "content": "WATCH\n\nWATC\nWAT\nWA"
+              "key": "B",
+              "content": "WATCH WATC WAT WA"
             },
             {
-              "key": "",
-              "content": "W\n\nWA\nWAT\nWATC"
+              "key": "C",
+              "content": "W WA WAT WATC"
             },
             {
-              "key": "",
-              "content": "W\n\nWA\nWAT\nWATC\nWATCH"
+              "key": "D",
+              "content": "W WA WAT WATC WATCH"
             },
             {
-              "key": "",
-              "content": "WATCH\n\nWATC\nWAT\nWA\nW\nWA\nWAT\nWATC\nWATCH"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
-    },
-    {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
-      "directions": "",
-      "questions": [
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "Consider the following partial declaration for a WordScrambler class. The constructor for the WordScrambler class takes an even-length array of String objects and initializes the instance variable scrambledWords.\n```\npublic class WordScrambler\n{\n private String[] scrambledWords;\n /** @param wordArr an array of String objects\n * Precondition: wordArr.length is even\n */\n public WordScrambler(String[] wordArr)\n {\n scrambledWords = mixedWords(wordArr);\n }\n /** @param word1 a String of characters\n * @param word2 a String of characters\n * @return a String that contains the first half of word1 and the second half of word2\n */\n private String recombine(String word1, String word2)\n { /* to be implemented in part (a) */ }\n /** @param words an array of String objects\n * Precondition: words.length is even\n * @return an array of String objects created by recombining pairs of strings in array words\n * Postcondition: the length of the returned array is words.length\n */\n private String[] mixedWords(String[] words)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the WordScrambler method recombine. This method returns a String created from its two String parameters as follows.\n- take the first half of word1\n- take the second half of word2\n- concatenate the two halves and return the new string.\n\nFor example, the following table shows some results of calling recombine. Note that if a word has an odd number of letters, the second half of the word contains the extra letter.\n\n{|c|c|c|}\n1{c}{ word1 } & 1{c}{ word2 } & recombine(word1, word2) \n\n \"apple\" & \"pear\" & \"apar\" \n\n \"pear\" & \"apple\" & \"peple\" \n\nComplete method recombine below.\n```\n/** @param word1 a String of characters\n * @param word2 a String of characters\n * @return a String that contains the first half of word1 and the second half of word2\n */\nprivate String recombine(String word1, String word2)\n```"
-            },
-            {
-              "key": "b",
-              "content": "rite the WordScrambler method mixedWords. This method creates and returns a new array of String objects as follows.\n\nIt takes the first pair of strings in words and combines them to produce a pair of strings to be included in the array returned by the method. If this pair of strings consists of w 1 and w 2 , the method should include the result of calling recombine with w 1 and w 2 as arguments and should also include the result of calling recombine with w2 and w1 as arguments. The next two strings, if they exist, would form the next pair to be processed by this method. The method should continue until all the strings in words have been processed in this way and the new array has been filled. For example, if the array words contains the following elements:\n{\"apple\", \"pear\", \"this\", \"cat\"}\nthen the call mixedWords (words) should return the following array.\n{\"apar\", \"peple\", \"that\", \"cis\"}\nIn writing mixedWords, you may call recombine. Assume that recombine works as specified, regardless of what you wrote in part (a).\n\nComplete method mixedWords below.\n/** @param words an array of String objects\n* Precondition: words.length is even\n* @return an array of String objects created by recombining pairs of strings in array words\n* Postcondition: the length of the returned array is words.length\n*/\nprivate String[] mixedWords(String[] words)"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "An array of positive integer values has the mountain property if the elements are ordered such that successive values increase until a maximum value (the peak of the mountain) is reached and then the successive values decrease. The Mountain class declaration shown below contains methods that can be used to determine if an array has the mountain property. You will implement two methods in the Mountain class.\n```\npublic class Mountain\n{\n /** @param array an array of positive integer values\n * @param stop the last index to check\n * Precondition: 0 stop array[j + 1];\n * false otherwise\n */\n public static boolean isDecreasing(int[] array, int start)\n { /* implementation not shown */ }\n /** @param array an array of positive integer values\n * Precondition: array.length > 0\n * @return the index of the first peak (local maximum) in the array, if it exists;\n * -1 otherwise\n */\n public static int getPeakIndex(int[] array)\n { /* to be implemented in part (a) */ }\n /** @param array an array of positive integer values\n * Precondition: array.length > 0\n * @return true if array contains values ordered as a mountain;\n * false otherwise\n */\n public static boolean isMountain(int[] array)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the Mountain method getPeakIndex. Method getPeakIndex returns the index of the first peak found in the parameter array, if one exists. A peak is defined as an element whose value is greater than the value of the element immediately before it and is also greater than the value of the element immediately after it. Method getPeakIndex starts at the beginning of the array and returns the index of the first peak that is found or -1 if no peak is found.\n\nFor example, the following table illustrates the results of several calls to getPeakIndex.\n\n{|l|l|}\n arr & getPeakIndex(arr) \n\n {11, 22, 33, 22, 11} & 2 \n\n {11, 22, 11, 22, 11} & 1 \n\n {11, 22, 33, 55, 77} & -1 \n\n {99, 33, 55, 77, 120} & -1 \n\n {99, 33, 55, 77, 55} & 3 \n\n {33, 22, 11} & -1 \n\nComplete method getPeakIndex below.\n```\n/** @param array an array of positive integer values\n * Precondition: array.length > 0\n * @return the index of the first peak (local maximum) in the array, if it exists;\n * -1 otherwise\n */\npublic static int getPeakIndex(int[] array)\n```"
-            },
-            {
-              "key": "b",
-              "content": "rite the Mountain method isMountain. Method isMountain returns true if the values in the parameter array are ordered as a mountain; otherwise, it returns false. The values in array are ordered as a mountain if all three of the following conditions hold.\n- There must be a peak.\n- The array elements with an index smaller than the peak's index must appear in increasing order.\n- The array elements with an index larger than the peak's index must appear in decreasing order.\n\nFor example, the following table illustrates the results of several calls to isMountain.\n\n{|l|l|}\n arr & isMountain(arr) \n\n {1, 2, 3, 2, 1} & true \n\n {1, 2, 1, 2, 1} & false \n\n {1, 2, 3, 1, 5} & false \n\n {1, 4, 2, 1, 0 } & true \n\n {9, 3, 5, 7, 5} & false \n\n {3, 2, 1} & false \n\nIn writing isMountain, assume that getPeakIndex works as specified, regardless of what you wrote in part (a).\n\nComplete method isMountain below.\n```\n/** @param array an array of positive integer values\n * Precondition: array.length > 0\n * @return true if array contains values ordered as a mountain;\n * false otherwise\n */\npublic static boolean isMountain(int[] array)\n```"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "3",
-          "type": "frq",
-          "prompt": "A two-dimensional array of temperatures is represented in the following class.\n```\npublic class TemperatureGrid\n```\n\n{\n /** A two-dimensional array of temperature values, initialized in the constructor (not shown)\n * Guaranteed not to be null\n */\n private double[][] temps;\n /** Computes and returns a new temperature value for the given location.\n * @param row a valid row index in temps\n * @param col a valid column index in temps\n * @return the new temperature for temps[row][col]\n * - The new temperature for any element in the border of the array is the\n * same as the old temperature.\n * - Otherwise, the new temperature is the average of the four adjacent entries.\n * Postcondition: temps is unchanged.\n */\n private double computeTemp(int row, int col)\n { /* to be implemented in part (a) */ }\n /** Updates all values in temps and returns a boolean that indicates whether or not all the\n * new values were within tolerance of the original values.\n * @param tolerance a double value >= 0\n * @return true if all updated temperatures are within tolerance of the original values;\n * false otherwise.\n * Postcondition: Each value in temps has been updated with a new value based on the\n * corresponding call to computeTemp.\n */\n public boolean updateAllTemps(double tolerance)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite method computeTemp, which computes and returns the new temperature for a given element of temps according to the following rules."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "If the element is in the border of the array (in the first row or last row or first column or last column), the new temperature is the same as the old temperature.",
-          "options": [],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "Otherwise, the new temperature is the average (arithmetic mean) of the temperatures of the four adjacent values in the table (located above, below, to the left, and to the right of the element).\n\nIf temps is the table shown below, temps. length is 5 and temps[0].length is 6 .\n\n{|l|l|l|l|l|l|l|}\n & 0 & 1 & 2 & 3 & 4 & 5 \n\n 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 \n\n 1 & 0.0 & 50.0 & 50.0 & 50.0 & 50.0 & 0.0 \n\n 2 & 0.0 & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 \n\n 3 & 0.0 & 20.0 & 20.0 & 20.0 & 20.0 & 0.0 \n\n 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \n\nThe following table shows the results of several calls to computeTemp.\n\n{|l|l|}\n Function Call & Result \n\n computeTemp (2, 3) & 37.5 (the average of the values 50.0, 20.0, 40.0, and 40.0) \n\n computeTemp (1, 1) & 47.5 (the average of the values 100.0, 40.0, 0.0, and 50.0) \n\n computeTemp (0, 2) & 100.0 (the same as the old value) \n\n computeTemp (1, 3) & 60.0 (the average of the values 100.0, 40.0, 50.0, and 50.0) \n\nComplete method computeTemp below.\n```\n/** Computes and returns a new temperature value for the given location.\n * @param row a valid row index in temps\n * @param col a valid column index in temps\n * @return the new temperature for temps[row][col]\n * - The new temperature for any element in the border of the array is the\n * same as the old temperature.\n * - Otherwise, the new temperature is the average of the four adjacent entries.\n * Postcondition: temps is unchanged.\n */\nprivate double computeTemp(int row, int col)\n```",
-          "options": [
-            {
-              "key": "b",
-              "content": "rite method updateAllTemps, which computes the new temperature for every element of temps. The new values should be based on the original values, so it will be necessary to create another twodimensional array in which to store the new values. Once all the computations are complete, the new values should replace the corresponding positions of temps. Method updateAllTemps also determines whether every new temperature is within tolerance of the corresponding old temperature (i.e., the absolute value of the difference between the old temperature and the new temperature is less than or equal to tolerance). If so, it returns true; otherwise, it returns false.\n\nIf temps contains the values shown in the first table below, then the call updateAllTemps ( 0.01 ) should update temps as shown in the second table.\n\nlabelformat=empty\ntemps before the call updateAllTemps (0.01)\n{|l|l|l|l|l|l|l|}\n & 0 & 1 & 2 & 3 & 4 & 5 \n\n 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 \n\n 1 & 0.0 & 50.0 & 50.0 & 50.0 & 50.0 & 0.0 \n\n 2 & 0.0 & 40.0 & 40.0 & 40.0 & 40.0 & 0.0 \n\n 3 & 0.0 & 20.0 & 20.0 & 20.0 & 20.0 & 0.0 \n\n 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \n\nlabelformat=empty\ntemps after the call updateAllTemps(0.01)\n{|l|l|l|l|l|l|l|}\n & 0 & 1 & 2 & 3 & 4 & 5 \n\n 0 & 95.5 & 100.0 & 100.0 & 100.0 & 100.0 & 110.3 \n\n 1 & 0.0 & 47.5 & 60.0 & 60.0 & 47.5 & 0.0 \n\n 2 & 0.0 & 27.5 & 37.5 & 37.5 & 27.5 & 0.0 \n\n 3 & 0.0 & 15.0 & 20.0 & 20.0 & 15.0 & 0.0 \n\n 4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \n\nIn the example shown, the call updateAllTemps (0.01) should return false because there are several new temperatures that are not within the given tolerance of the corresponding old temperature. For example, the updated value in temps[2][3] is 37.5, the original value in temps[2][3] was 40.0, and the absolute value of (37.5-40.0) is greater than the value of tolerance ( 0.01 ).\n\nAssume that computeTemp works as specified, regardless of what you wrote in part (a).\nComplete method updateAllTemps below.\n/** Updates all values in temps and returns a boolean that indicates whether or not all the\n* new values were within tolerance of the original values.\n* @param tolerance a double value >= 0\n* @return true if all updated temperatures are within tolerance of the original values;\n* false otherwise.\n* Postcondition: Each value in temps has been updated with a new value based on the\n* corresponding call to computeTemp.\n*/\npublic boolean updateAllTemps(double tolerance)"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "A school district would like to get some statistics on its students' standardized test scores. Scores will be represented as objects of the following ScoreInfo class. Each ScoreInfo object contains a score value and the number of students who earned that score.\n```\npublic class ScoreInfo\n{\n private int score;\n private int numStudents;\n public ScoreInfo(int aScore)\n {\n score = aScore;\n numStudents = 1;\n }\n /** adds 1 to the number of students who earned this score\n */\n public void increment()\n { numStudents++; }\n /** @return this score\n */\n public int getScore()\n { return score; }\n /** @return the number of students who earned this score\n */\n public int getFrequency()\n { return numStudents; }\n}\n```\n\nThe following Stats class creates and maintains a database of student score information. The scores are stored in sorted order in the database.\n```\npublic class Stats\n{\n private ArrayList scoreList;\n // listed in increasing score order; no two ScoreInfo objects contain the same score\n /** Records a score in the database, keeping the database in increasing score order. If no other\n * ScoreInfo object represents score, a new ScoreInfo object representing score\n * is added to the database; otherwise, the frequency in the ScoreInfo object representing\n * score is incremented.\n * @param score a score to be recorded in the list\n * @return true if a new ScoreInfo object representing score was added to the list;\n * false otherwise\n */\n public boolean record(int score)\n { /* to be implemented in part (a) */}\n /** Records all scores in stuScores in the database, keeping the database in increasing score order\n * @param stuScores an array of student test scores\n */\n public void recordScores(int[] stuScores)\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the Stats method record that takes a test score and records that score in the database. If the score already exists in the database, the frequency of that score is updated. If the score does not exist in the database, a new ScoreInfo object is created and inserted in the appropriate position so that the database is maintained in increasing score order. The method returns true if a new ScoreInfo object was added to the database; otherwise, it returns false.\n\nComplete method record below.\n```\n/** Records a score in the database, keeping the database in increasing score order. If no other\n * ScoreInfo object represents score, a new ScoreInfo object representing score\n * is added to the database; otherwise, the frequency in the ScoreInfo object representing\n * score is incremented.\n * @param score a score to be recorded in the list\n * @return true if a new ScoreInfo object representing score was added to the list;\n * false otherwise\n */\npublic boolean record(int score)\n```"
-            },
-            {
-              "key": "b",
-              "content": "rite the Stats method recordScores that takes an array of test scores and records them in the database. The database contains at most one ScoreInfo object per unique score value. Each ScoreInfo object contains a score and an associated frequency. The database is maintained in increasing order based on the score.\n\nIn writing recordScores, assume that record works as specified, regardless of what you wrote in part (a).\n\nComplete method recordScores below.\n/** Records all scores in stuScores in the database, keeping the database in increasing score order\n* @param stuScores an array of student test scores\n*/\npublic void recordScores(int[] stuScores)\n\nSTOP\nEND OF EXAM"
+              "key": "E",
+              "content": "WATCH WATC WAT WA W WA WAT WATC WATCH"
             }
           ],
           "answer": "",

@@ -12,88 +12,12 @@
   },
   "sections": [
     {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
       "directions": "",
-      "questions": [
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "lock A and Block B of masses $m$ and $3 m$, respectively, are arranged in a setup consisting of an ideal spring with spring constant $k$ and a horizontal surface. Friction between the surface and the blocks is negligible except in a region of length $D$, where the coefficient of kinetic friction between Block A and the surface is $$. Block B is attached to a string of length $$ and negligible mass, as shown in Figure 1. Block A is held against the spring, compressing the spring a distance $x_{c}$.\n\nAt time $t=0$, Block A is located at position $x=x_{0}$ and is released from rest. After the block is released, the following occurs.\n- At time $t=t_{1}$, Block A is at $x=x_{1}$ after traveling a distance $x_{c}$. Block A moves with speed $v$, and the spring is at its equilibrium position.\n- At time $t=t_{2}$, the left side of Block A is at $x=x_{2}$ after passing through a distance $D$ across the region with nonnegligible friction.\n- At time $t=t_{3}$, Block A is at $x=x_{3}$ and Block A collides with and sticks to Block B.",
-          "options": [
-            {
-              "key": "b",
-              "content": "i. On the following axes, sketch a graph of the kinetic energy $K$ of Block A as a function of time $t$ from time $t=0$ to time $t_{3}$.\n\nii. Use principles of work and energy to justify the graph drawn in part"
-            },
-            {
-              "key": "c",
-              "content": "Indicate how the new frequency of oscillation $f_{2 }$ of the system on the new string of length $2 $ will compare to the frequency of oscillation $f_{}$ from the original procedure.\n$____$ $f_{2 }>f_{}$ $____$ $f_{2 }<f_{}$ $____$ $f_{2 }=f_{}$\n\nBriefly justify your answer.\n\nBegin your response to QUESTION 2 on this page."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "5",
-          "type": "frq",
-          "prompt": "student drops a cylinder of mass $m$ from rest. The air exerts a drag force of magnitude $F_{drag}$ on the cylinder, as shown in Figure 1. The student models the magnitude of the drag force as $F_{drag}=b v^{2}$, where $v$ is the speed of the cylinder and $b$ is a positive constant with appropriate units.",
-          "options": [
-            {
-              "key": "a",
-              "content": "Derive, but do NOT solve, a differential equation that could be used to determine the speed $v$ of the cylinder as a function of time $t$. Express your answer in terms of given quantities and physical constants, as appropriate.\n\nContinue your response to QUESTION 2 on this page."
-            },
-            {
-              "key": "b",
-              "content": "The student correctly sketches the speed $v$ of the cylinder as a function of time $t$, as shown in Figure 2.\ni. Draw a vertical line on the sketch in Figure 2 to indicate the earliest time at which $F_{drag}$ on the cylinder is equal to the magnitude of the weight of the cylinder. Label this time as $t_{1}$ on the time axis.\nii. Justify the location of $t_{1}$. Explicitly reference appropriate features of the sketch in Figure 2."
-            },
-            {
-              "key": "c",
-              "content": "Rather than dropping the cylinder from rest, the student throws the cylinder upward with a nonzero initial speed. The cylinder is in the same orientation as when the cylinder was previously dropped. The student allows the cylinder to fall toward the ground.\n\nIndicate whether the magnitude of the cylinder's maximum downward speed after being thrown upward would be greater than, less than, or equal to the maximum speed $v_{ {max }}$ in Figure 2.\n$____$ Greater than $____$ Less than $____$ Equal to\nBriefly justify your answer."
-            },
-            {
-              "key": "d",
-              "content": "The student conducts an experiment to better understand the relationship between maximum speed $v_{ {max }}$ and mass. The student collects data to determine the maximum speed for cylinders dropped from rest, each with the same physical size and shape but a different mass $m$. The student then graphs $v_{ {max }}^{2}$ as a function of mass.\n\ni. Draw the best-fit line for the data.\nii. Use the best-fit line to calculate an experimental value for $b$.\n\nContinue your response to QUESTION 2 on this page.\n\nA student claims that the magnitude of the maximum speed of a cylinder dropped from rest depends on the length of the cylinder. The student designs an experiment to collect data that can be used to provide evidence to support the claim. The student drops cylinders with the orientation shown in Figure 3."
-            },
-            {
-              "key": "e",
-              "content": "The student has access to but does not have to use all of the following equipment.\n- Cylinder Set 1: cylinders of the same known length with different known masses\n- Cylinder Set 2: cylinders of the same known mass with different known lengths\n- A motion detector that can measure velocity as a function of time\ni. Indicate two quantities that when graphed could be used to determine whether the length of the cylinder affects the maximum speed.\n\nVertical axis: $____$ Horizontal axis: $____$\nii. Briefly describe how the quantities graphed could be used to determine the relationship between cylinder length and maximum speed.\n\nBegin your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "6",
-          "type": "frq",
-          "prompt": "uniform rod of length $L$ and mass $m$ is attached to a pivot on a vertical pole, as shown in Figure 1. There is negligible friction between the rod and the pivot. A horizontal string connects Point Q on the rod to the pole. The rod makes an angle $$ with the pole. A block of mass $3 m$ hangs from the rod at Point P. The center of mass of the rod is located at Point C .",
-          "options": [
-            {
-              "key": "a",
-              "content": "On the following representation of the rod, draw and label the forces (not components) that are exerted on the rod. Each force must be represented by a distinct arrow that starts on and points away from the point at which the force is exerted on the rod."
-            },
-            {
-              "key": "b",
-              "content": "In Figure 1, Point P is located $3{8} L$ from the pivot and Point Q is located $6{8} L$ from the pivot. Derive an equation for the tension $F_{T}$ in the horizontal string in terms of $L, m, $, and physical constants, as appropriate.\n\nFigure 2\n\nNote: Figure not drawn to scale."
-            },
-            {
-              "key": "c",
-              "content": "The original string is replaced with a longer string that connects Point Q to a higher location on the vertical pole, as shown in Figure 2. The angle $$ remains the same. How does the new tension $F_{T}$, new compare with the original tension $F_{T}$ from part"
-            },
-            {
-              "key": "b",
-              "content": "? Justify your reasoning.\n\nContinue your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
-            },
-            {
-              "key": "d",
-              "content": "A nonuniform rod is now attached to the pivot, as shown in Figure 3. There is negligible friction between the nonuniform rod and the pivot. The rod has a length of 1.2 m and a linear mass density $(x)=A+B x$, where $x$ is the distance from the pivot, $A=6.0 ~kg / m$, and $B=10.0 ~kg / m^{2}$.\ni. Calculate the mass of the rod.\nii. Calculate the rotational inertia of the rod about the pivot."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
+      "questions": []
     }
   ]
 }

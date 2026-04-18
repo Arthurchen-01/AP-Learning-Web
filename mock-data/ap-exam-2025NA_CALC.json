@@ -1,0 +1,174 @@
+{
+  "examId": "2025NA",
+  "title": "AP Calculus BC 2025年",
+  "subjectName": "Calculus BC",
+  "yearLabel": "2025",
+  "description": "AP Calculus BC 2025年",
+  "answerKeyAvailable": false,
+  "scoring": {
+    "answerKeyAvailable": false,
+    "apBands": [],
+    "note": "Scoring unavailable until answer keys are imported."
+  },
+  "sections": [
+    {
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
+      "directions": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "single",
+          "prompt": "An invasive species of plant appears in a fruit grove at time $t=0$ and begins to spread. The function $C$ defined by $C(t)=7.6 (0.2 t)$ models the number of acres in the fruit grove affected by the species $t$ weeks after the species appears. It can be shown that $C^{}(t)=38{25+t^{2}}$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "2",
+          "type": "single",
+          "prompt": "Curve $C$ is defined by the polar equation $r()=2 ^{2} $ for $0 $. Curve $C$ and the semicircle $r=1{2}$ for $0 $ are shown in the $xy$-plane. ![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-4.jpg?height=741&amp;width=733&amp;top_left_y=491&amp;top_left_x=696)",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "3",
+          "type": "single",
+          "prompt": "A student starts reading a book at time $t=0$ minutes and continues reading for the next 10 minutes. The rate at which the student reads is modeled by the differentiable function $R$, where $R(t)$ is measured in words per minute. Selected values of $R(t)$ are given in the table shown. |$t$ (minutes) &amp; 0 &amp; 2 &amp; 8 &amp; 10 \\\\ |$R(t)$ (words per minute) &amp; 90 &amp; 100 &amp; 150 &amp; 162 \\\\ |",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "4",
+          "type": "single",
+          "prompt": "The continuous function $f$ is defined on the closed interval $-6 x 12$. The graph of $f$, consisting of two semicircles and one line segment, is shown in the figure. ![](https://cdn.mathpix.com/cropped/79905445-10c0-4245-ab26-91accfeaa796-7.jpg?height=837&amp;width=1569&amp;top_left_y=455&amp;top_left_x=279) Let $g$ be the function defined by $g(x)=_{6}^{x} f(t) dt$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "5",
+          "type": "single",
+          "prompt": "Let $y=f(x)$ be the particular solution to the differential equation $dy{dx}=(3-x) y^{2}$ with initial condition $f(1)=-1$.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        },
+        {
+          "id": "6",
+          "type": "single",
+          "prompt": "The Taylor series for a function $f$ about $x=4$ is given by $_{n=1}^{} (x-4)^{n+1}{(n+1) 3^{n}}=(x-4)^{2}{23}+(x-4)^{3}{33^{2}}+(x-4)^{4}{43^{3}}++(x-4)^{n+1}{(n+1) 3^{n}}+$ and converges to $f(x)$ on its interval of convergence.",
+          "options": [
+            {
+              "key": "A",
+              "content": ""
+            },
+            {
+              "key": "B",
+              "content": ""
+            },
+            {
+              "key": "C",
+              "content": ""
+            },
+            {
+              "key": "D",
+              "content": ""
+            }
+          ],
+          "answer": "",
+          "explanation": "Answer key not available yet for this imported exam."
+        }
+      ]
+    }
+  ]
+}

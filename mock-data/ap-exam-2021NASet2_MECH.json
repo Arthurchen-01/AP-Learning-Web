@@ -12,104 +12,12 @@
   },
   "sections": [
     {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
       "directions": "",
-      "questions": [
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "tudents design an experiment using blocks of adjustable mass to investigate friction using the setup shown. Block 1 of initial mass 0.44 kg is placed on a rough horizontal surface and connected by a string to block 2 of initial mass 0.20 kg . The string extends over a pulley that has negligible mass and friction.",
-          "options": [
-            {
-              "key": "a",
-              "content": "Calculate the minimum value of the coefficient of static friction $_{s}$ that would keep the two-block system at rest."
-            },
-            {
-              "key": "b",
-              "content": "On the dots below, which represent the blocks, draw and label the forces (not components) that act on each block. Each force must be represented by a distinct arrow starting on, and pointing away from, the dot.\n\nBlock 1\nBlock 2"
-            },
-            {
-              "key": "c",
-              "content": "Calculate the coefficient of kinetic friction $_{k}$ between block 1 and the table."
-            },
-            {
-              "key": "d",
-              "content": "Careful measurements determine that the coefficient of kinetic friction is larger than the value calculated in part"
-            },
-            {
-              "key": "e",
-              "content": "i. Draw a best-fit line for the data points.\nii. Using the straight line, calculate an experimental value for the acceleration due to gravity $g$."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "5",
-          "type": "frq",
-          "prompt": "bject A is a long, thin, uniform rod of mass $M$ and length $2 L$ that is free to rotate about a pivot of negligible friction at its left end, as shown above.",
-          "options": [
-            {
-              "key": "a",
-              "content": "Using integral calculus, derive an expression to show that the rotational inertia $I_{A}$ of object A about the pivot is given by $4{3} M L^{2}$.\n\nObject B of total mass $M$ is formed by attaching two thin, uniform, identical rods of length $L$ at a right angle to each other. Object B is held in place, as shown above. Express your answers in part"
-            },
-            {
-              "key": "b",
-              "content": "in terms of $L$."
-            },
-            {
-              "key": "b",
-              "content": "Determine the following for the given coordinate system shown in the figure.\ni. The $x$-coordinate of the center of mass of object B\nii. The $y$-coordinate of the center of mass of object B"
-            },
-            {
-              "key": "c",
-              "content": "Is the value of $I_{B}$ greater than, less than, or equal to $I_{A}$ ?\n$____$ Greater than $____$ Less than $____$ Equal to\n\nJustify your answer.\n\nObject B is released from rest and begins to rotate about its pivot."
-            },
-            {
-              "key": "d",
-              "content": "On the axes below, sketch graphs of the magnitude of the angular acceleration $$ and the angular speed $$ of object B as functions of time $t$ from the time it is released to the time its center of mass reaches its lowest point.\n\nContinue your response to QUESTION 2 on this page."
-            },
-            {
-              "key": "e",
-              "content": "While object B rotates from the horizontal position down through the angle $$ shown above, is the magnitude of its angular acceleration increasing, decreasing, or not changing?\n$____$ Increasing $____$ Decreasing $____$ Not changing\nJustify your answer.\n\nObject B rotates through the position shown above.\n(f) Derive an expression for the angular speed of object B when it is in the position shown above. Express your answer in terms of $M, L, I_{B}$, and physical constants, as appropriate.\n\nBegin your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "6",
-          "type": "frq",
-          "prompt": "block of mass $m$ is placed on top of an ideal spring of spring constant $k$. The block is pushed against the spring, compressing the spring a distance $ x$. The block is released from rest, leaves the spring at the position shown in the figure, travels upward, and enters a track with a constant radius of curvature $R$ that has negligible friction. The block enters the track at point A , maintains contact with the track, and exits horizontally at point B , a distance $3 R$ above the point the block was released. The block then falls to the ground and lands a horizontal distance $D$ from the end of the track. Express all algebraic answers in terms of $m, k, x, R$, and physical constants, as appropriate. The size of the block is much smaller than the radius of curvature of the track.",
-          "options": [
-            {
-              "key": "a",
-              "content": "On the dot below, which represents the block, draw and label the forces (not components) that act on the block while still in contact with the track at point B . Each force must be represented by a distinct arrow starting on, and pointing away from, the dot."
-            },
-            {
-              "key": "b",
-              "content": "i. Derive an expression for the speed $v$ of the block at point B .\nii. Derive an expression for the magnitude of the net force $F$ on the block at point B ."
-            },
-            {
-              "key": "c",
-              "content": "Derive an expression for the minimum value of $ x_{ {min }}$ required in order for the block to maintain contact with the track through point B .\n\nThe procedure is repeated several times with the distance $ x> x_{ }$."
-            },
-            {
-              "key": "d",
-              "content": "Calculate the distance $D$ that the block travels.\n\nContinue your response to QUESTION 3 on this page."
-            },
-            {
-              "key": "e",
-              "content": "The graph below shows the best-fit line drawn by the students through their data of $D$ as a function of $ x$.\n\ni. Explain why there are no data for section I of the graph.\nii. Explain the reason for the shape and minimum value of section II on the graph."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
+      "questions": []
     }
   ]
 }

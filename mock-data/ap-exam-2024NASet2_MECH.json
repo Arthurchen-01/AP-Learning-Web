@@ -12,84 +12,12 @@
   },
   "sections": [
     {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
+      "id": "section-mcq",
+      "title": "Section 1",
+      "partTitle": "Multiple Choice",
+      "limitMinutes": 60,
       "directions": "",
-      "questions": [
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "locks A and B of masses $2 m$ and $m$, respectively, are arranged in a setup consisting of a ramp that makes an angle $$ with a smooth horizontal table and an ideal spring of spring constant $k$ fixed to a wall, as shown. Block A is held at rest a distance $D$ up the ramp, and Block B is at rest on the horizontal table. The coefficient of kinetic friction between Block A and the rough ramp is $$ in the region of length $D$, and there is negligible friction between the blocks and the smooth table.\n\nAt time $t=0$, Block A is located at horizontal position $x=0$ and is released from rest. After the block is released, the following occurs.\n- At time $t=t_{1}$, Block A has traveled a distance $D$ down the ramp, has transitioned to the table, and is moving with speed $v$ at $x=x_{1}$.\n- At time $t=t_{2}$, Block A is at $x=x_{2}$ when it collides with and sticks to Block B.\n- At time $t=t_{3}$, the combined blocks A and B are at $x=x_{3}$ when they collide with and stick to the spring in its equilibrium position.\n- At time $t=t_{4}$, the combined blocks A and B are instantaneously at rest and the spring is compressed a distance $x_{c}$ from its equilibrium position.",
-          "options": [
-            {
-              "key": "b",
-              "content": "i. On the following axes, sketch a graph of the magnitude of the momentum $p_{A}$ of Block A as a function of time $t$ from $t=0$ to $t_{4}$.\n\nii. Use principles of forces to justify the graph drawn in part"
-            },
-            {
-              "key": "c",
-              "content": "Indicate how the new period of oscillation $T_{N}$ in the procedure that uses the new ramp compares with the period of oscillation $T_{O}$ from the original procedure.\n$____$ $T_{N}>T_{O}$ $____$ $T_{N}<T_{O}$ $____$ $T_{N}=T_{O}$\nBriefly justify your answer."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "5",
-          "type": "frq",
-          "prompt": "student drops a sphere of mass $m$ from rest. The air exerts a drag force of magnitude $F_{drag}$ on the sphere, as shown in Figure 1. The student models the magnitude of the drag force as $F_{drag}=b v$, where $v$ is the speed of the sphere and $b$ is a positive constant with appropriate units.",
-          "options": [
-            {
-              "key": "a",
-              "content": "Derive, but do NOT solve, a differential equation that could be used to determine the speed $v$ of the sphere as a function of time $t$. Express your answer in terms of given quantities and physical constants, as appropriate.\n\nContinue your response to QUESTION 2 on this page."
-            },
-            {
-              "key": "b",
-              "content": "The student sketches the drag force $F_{ {drag }}$ exerted on the sphere as a function of time $t$, as shown in Figure 2.\ni. Draw a vertical line on the sketch in Figure 2 to indicate the earliest time at which $F_{ {drag }}$ is equal to the magnitude of the weight of the sphere, which occurs when the sphere reaches terminal speed. Label this time as $t_{T}$ on the time axis.\nii. Justify the location of $t_{T}$. Explicitly reference appropriate features of the sketch in Figure 2."
-            },
-            {
-              "key": "c",
-              "content": "Suppose the student throws the same sphere downward with a nonzero initial speed. The magnitude of the new drag force at terminal speed after being thrown downward is $F_{ {new }}$.\n\nIndicate whether $F_{ {new }}$ would be greater than, less than, or equal to the magnitude of $F_{ {drag }}$ at terminal speed represented in Figure 2.\n$____$ Greater than $____$ Less than $____$ Equal to\n\nBriefly justify your answer.\n\nContinue your response to QUESTION 2 on this page."
-            },
-            {
-              "key": "d",
-              "content": "The student conducts an experiment to better understand the relationship between $F_{ {drag }}$ and $v$. The student makes measurements to calculate and graph the magnitude of $F_{ {drag }}$ as a function of $v$ for the falling sphere.\n\ni. Draw the best-fit line for the data.\nii. Use the best-fit line to calculate an experimental value for $b$."
-            },
-            {
-              "key": "e",
-              "content": "The student has access to but does not have to use all of the following equipment.\n- Sphere Set 1: spheres of the same known mass with different known diameters\n- Sphere Set 2: spheres of the same known diameter with different known masses\n- A motion detector that can measure velocity as a function of time\ni. Indicate two quantities that when graphed could be used to determine whether the diameter of the sphere affects the terminal speed.\n\nVertical axis: $____$ Horizontal axis: $____$\nii. Briefly describe how the quantities graphed could be used to determine the relationship between sphere diameter and terminal speed.\n\nBegin your response to QUESTION 3 on this page.\n\nNote: Figure not drawn to scale."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "6",
-          "type": "frq",
-          "prompt": "uniform disk of radius $R$ and mass $m_{d}$ is attached to a vertical pole by a horizontal axle that passes through the center of the disk. Friction between the axle and the disk is negligible. A lump of clay of mass $m_{c}$ is attached to the edge of the disk at Point A. The size of the lump of clay is small compared with the radius of the disk. A horizontal string is connected from the pole to the edge of the disk at Point A . The string makes an angle $$ with the line between Point A and the axle, as shown in Figure 1.",
-          "options": [
-            {
-              "key": "a",
-              "content": "On the following representation of the clay-disk system, draw and label the external forces (not components) exerted on the system. Each force must be represented by a distinct arrow that starts on, and points away from, the point at which the force is exerted on the system."
-            },
-            {
-              "key": "b",
-              "content": "Derive an expression for the tension $F_{T}$ in the string when the clay is at Point A , as shown in Figure 1, in terms of $R, m_{d}, m_{c}, $, and physical constants, as appropriate.\n\nNote: Figure not drawn to scale."
-            },
-            {
-              "key": "c",
-              "content": "The string remains connected to the edge of the disk at Point A . The clay is moved to Point B , which is horizontally in line with the axle, as shown in Figure 2. How does the new tension $F_{T}$, new compare with tension $F_{T}$ from part"
-            },
-            {
-              "key": "d",
-              "content": "A nonuniform disk is now attached to the axle. The lump of clay is attached to the disk at Point B, as shown in Figure 3. The clay has mass $m_{c}=0.60 ~kg$ and the disk has a radius $R=0.30 ~m$. The mass density of the disk varies radially and can be modeled by $(r)= r$, where $r$ is the radial distance from the axle and $=4.0 ~kg / m^{3}$.\ni. Calculate the rotational inertia of the disk about the axle.\nii. The string connecting the disk to the pole is cut. Calculate the magnitude of the initial angular acceleration of the clay-disk system."
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
+      "questions": []
     }
   ]
 }

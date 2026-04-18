@@ -21,23 +21,23 @@
         {
           "id": "1",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nfor (int k = 0; k < 20; k = k + 2)\n{\n if (k % 3 == 1)\n {\n System.out.print(k + \" \");\n }\n}\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` for (int k = 0; k &lt; 20; k = k + 2) { if (k % 3 == 1) { System.out.print(k + &quot; &quot;); } } ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "416"
             },
             {
-              "key": "",
-              "content": "$4 10 16$\n(c) $0 6 12 18$"
+              "key": "B",
+              "content": "$4 10 16$ (c) $06 12 18$"
             },
             {
-              "key": "",
-              "content": "$1 {lllllll}1 & 7 & 10 & 13 & 16 & 19$\n${lllllllllll} {"
+              "key": "C",
+              "content": "$1 {lllllll}1 &amp; 7 &amp; 10 &amp; 13 &amp; 16 &amp; 19$ ${lllllllllll} {"
             },
             {
-              "key": "",
-              "content": "} & 0 & 2 & 4 & 6 & 8 & 10 & 12 & 14 & 16 & 18$"
+              "key": "D",
+              "content": "} &amp; 0 &amp; 2 &amp; 4 &amp; 6 &amp; 8 &amp; 10 &amp; 12 &amp; 14 &amp; 16 &amp; 18$"
             }
           ],
           "answer": "",
@@ -46,22 +46,22 @@
         {
           "id": "2",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nList animals = new ArrayList();\nanimals.add(\"dog\");\nanimals.add(\"cat\");\nanimals.add(\"snake\");\nanimals.set(2, \"lizard\");\nanimals.add(1, \"fish\");\nanimals.remove(3);\nSystem.out.println(animals);\n```\n\nWhat is printed as a result of executing the code segment?",
+          "prompt": "Consider the following code segment. ``` List animals = new ArrayList(); animals.add(&quot;dog&quot;); animals.add(&quot;cat&quot;); animals.add(&quot;snake&quot;); animals.set(2, &quot;lizard&quot;); animals.add(1, &quot;fish&quot;); animals.remove(3); System.out.println(animals); ``` What is printed as a result of executing the code segment?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "[dog, fish, cat]"
             },
             {
-              "key": "",
-              "content": "[dog, fish, lizard]\n(c) [dog, lizard, fish]"
+              "key": "B",
+              "content": "[dog, fish, lizard] (c) [dog, lizard, fish]"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "[fish, dog, cat]"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The code throws an ArrayIndexOutOfBoundsException exception."
             }
           ],
@@ -71,22 +71,22 @@
         {
           "id": "3",
           "type": "single",
-          "prompt": "Consider the following method.\n```\npublic static void mystery(List nums)\n{\n for (int k = 0; k < nums.size(); k++)\n {\n if (nums.get(k).intValue() == 0)\n {\n nums.remove(k);\n }\n }\n}\n```\n\nAssume that a List values initially contains the following Integer values.\n$[0,0,4,2,5,0,3,0]$\nWhat will values contain as a result of executing mystery (values) ?",
+          "prompt": "Consider the following method. ``` public static void mystery(List nums) { for (int k = 0; k &lt; nums.size(); k++) { if (nums.get(k).intValue() == 0) { nums.remove(k); } } } ``` Assume that a List values initially contains the following Integer values. $[0,0,4,2,5,0,3,0]$ What will values contain as a result of executing mystery (values) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "$[0,0,4,2,5,0,3,0]$"
             },
             {
-              "key": "",
-              "content": "$[4,2,5,3]$\n(c) $[0,0,0,0,4,2,5,3]$"
+              "key": "B",
+              "content": "$[4,2,5,3]$ (c) $[0,0,0,0,4,2,5,3]$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$[0,4,2,5,3]$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The code throws an ArrayIndexOutOfBoundsException exception."
             }
           ],
@@ -96,23 +96,23 @@
         {
           "id": "4",
           "type": "single",
-          "prompt": "At a certain high school students receive letter grades based on the following scale.\n\n{lc} \nInteger Score & Letter Grade \n\n93 or above & A \n\nFrom 84 to 92 inclusive & B \n\nFrom 75 to 83 inclusive & C \n\nBelow 75 & F\n\nWhich of the following code segments will assign the correct string to grade for a given integer score ?\n```\nI. if (score >= 93)\n grade = \"A\";\n if (score >= 84 && score = 75 && score = 93)\n grade = \"A\";\n if (84 = 93)\n grade = \"A\";\n else if (score >= 84)\n grade = \"B\";\n else if (score >= 75)\n grade = \"C\";\n else\n grade = \"F\";",
+          "prompt": "At a certain high school students receive letter grades based on the following scale. {lc} Integer Score &amp; Letter Grade 93 or above &amp; A From 84 to 92 inclusive &amp; B From 75 to 83 inclusive &amp; C Below 75 &amp; F Which of the following code segments will assign the correct string to grade for a given integer score ? ``` I. if (score &gt;= 93) grade = &quot;A&quot;; if (score &gt;= 84 &amp;&amp; score = 75 &amp;&amp; score = 93) grade = &quot;A&quot;; if (84 = 93) grade = &quot;A&quot;; else if (score &gt;= 84) grade = &quot;B&quot;; else if (score &gt;= 75) grade = &quot;C&quot;; else grade = &quot;F&quot;;",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "II only"
             },
             {
-              "key": "",
-              "content": "III only\n(c) I and II only"
+              "key": "B",
+              "content": "III only (c) I and II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
-              "content": "I, II, and III\n```"
+              "key": "D",
+              "content": "I, II, and III ```"
             }
           ],
           "answer": "",
@@ -121,22 +121,22 @@
         {
           "id": "5",
           "type": "single",
-          "prompt": "Consider the following output.\n\n{lllll}\n1 & 1 & 1 & 1 & 1 \n\n2 & 2 & 2 & 2 & \n\n3 & 3 & 3 & & \n\n4 & 4 & & & \n\n5 & & & &\n\nWhich of the following code segments will produce this output?\n```",
+          "prompt": "Consider the following output. {lllll} 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 2 &amp; 2 &amp; 2 &amp; 2 &amp; 3 &amp; 3 &amp; 3 &amp; &amp; 4 &amp; 4 &amp; &amp; &amp; 5 &amp; &amp; &amp; &amp; Which of the following code segments will produce this output? ```",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "for (int j = 1; j"
             },
             {
-              "key": "",
-              "content": "{\n for (int k = 1; k = 1; k--)\n {\n System.out.print(j + \" \");\n }\n System.out.println();\n }"
+              "key": "B",
+              "content": "{ for (int k = 1; k = 1; k--) { System.out.print(j + &quot; &quot;); } System.out.println(); }"
             },
             {
-              "key": "",
-              "content": "for (int j = 1; j = j; k--)\n {\n System.out.print(j + \" \");\n }\n System.out.println();\n }"
+              "key": "C",
+              "content": "for (int j = 1; j = j; k--) { System.out.print(j + &quot; &quot;); } System.out.println(); }"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "for (int j = 1; j"
             }
           ],
@@ -149,19 +149,19 @@
           "prompt": "A car dealership needs a program to store information about the cars for sale. For each car, they want to keep track of the following information: number of doors (2 or 4), whether the car has air conditioning, and its average number of miles per gallon. Which of the following is the best object-oriented program design?",
           "options": [
             {
-              "key": "",
-              "content": "Use one class, Car, with three instance variables:\n```\nint numDoors, boolean hasAir, and\ndouble milesPerGallon.\n```"
+              "key": "A",
+              "content": "Use one class, Car, with three instance variables: ``` int numDoors, boolean hasAir, and double milesPerGallon. ```"
             },
             {
-              "key": "",
-              "content": "Use four unrelated classes: Car, Doors, AirConditioning, and MilesPerGallon.\n(c) Use a class Car with three subclasses: Doors, AirConditioning, and MilesPerGallon."
+              "key": "B",
+              "content": "Use four unrelated classes: Car, Doors, AirConditioning, and MilesPerGallon. (c) Use a class Car with three subclasses: Doors, AirConditioning, and MilesPerGallon."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Use a class Car, with a subclass Doors, with a subclass AirConditioning, with a subclass MilesPerGallon."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Use three classes: Doors, AirConditioning, and MilesPerGallon, each with a subclass Car."
             }
           ],
@@ -171,23 +171,23 @@
         {
           "id": "7",
           "type": "single",
-          "prompt": "Consider the following declarations.\n```\npublic interface Shape\n{\n int isLargerThan(Shape other);\n // Other methods not shown\n}\npublic class Circle implements Shape\n{\n // Other methods not shown\n}\n```\n\nWhich of the following method headings of isLargerThan can be added to the declaration of the Circle class so that it will satisfy the Shape interface?\nI. public int isLargerThan(Shape other)\nII. public int isLargerThan(Circle other)\nIII. public boolean isLargerThan(Object other)",
+          "prompt": "Consider the following declarations. ``` public interface Shape { int isLargerThan(Shape other); // Other methods not shown } public class Circle implements Shape { // Other methods not shown } ``` Which of the following method headings of isLargerThan can be added to the declaration of the Circle class so that it will satisfy the Shape interface? I. public int isLargerThan(Shape other) II. public int isLargerThan(Circle other) III. public boolean isLargerThan(Object other)",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
-              "content": "II only\n(c) III only"
+              "key": "B",
+              "content": "II only (c) III only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and II only"
             },
             {
-              "key": "",
-              "content": "I, II, and III\n\nQuestions 8-9 refer to the following incomplete class declaration.\n```\npublic class TimeRecord\n{\n private int hours;\n private int minutes; // 0 < minutes < 60\n /** Constructs a TimeRecord object.\n * @param h the number of hours\n * Precondition: h \\ 0\n * @param m the number of minutes\n * Precondition: 0 x < 60\n */\n public TimeRecord(int h, int m)\n {\n hours = h;\n minutes = m;\n }\n /** @return the number of hours\n */\n public int getHours()\n { /* implementation not shown */ }\n /** @return the number of minutes\n * Postcondition: 0 minutes < 60\n */\n public int getMinutes()\n { /* implementation not shown */ }\n /** Adds h hours and m minutes to this TimeRecord.\n * @param h the number of hours\n * Precondition: h \\ 0\n * @param m the number of minutes\n * Precondition: m \\ 0\n */\n public void advance(int h, int m)\n {\n hours = hours + h;\n minutes = minutes + m;\n /* missing code */\n }\n // Other methods not shown\n}\n```"
+              "key": "D",
+              "content": "I, II, and III Questions 8-9 refer to the following incomplete class declaration. ``` public class TimeRecord { private int hours; private int minutes; // 0 &lt; minutes &lt; 60 /** Constructs a TimeRecord object. * @param h the number of hours * Precondition: h \\ 0 * @param m the number of minutes * Precondition: 0 x &lt; 60 */ public TimeRecord(int h, int m) { hours = h; minutes = m; } /** @return the number of hours */ public int getHours() { /* implementation not shown */ } /** @return the number of minutes * Postcondition: 0 minutes &lt; 60 */ public int getMinutes() { /* implementation not shown */ } /** Adds h hours and m minutes to this TimeRecord. * @param h the number of hours * Precondition: h \\ 0 * @param m the number of minutes * Precondition: m \\ 0 */ public void advance(int h, int m) { hours = hours + h; minutes = minutes + m; /* missing code */ } // Other methods not shown } ```"
             }
           ],
           "answer": "",
@@ -199,19 +199,19 @@
           "prompt": "Which of the following can be used to replace /* missing code */ so that advance will correctly update the time?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "minutes $=$ minutes % 60;"
             },
             {
-              "key": "",
-              "content": "minutes $=$ minutes + hours % 60;\n(c) hours $=$ hours + minutes $/ 60$;\nminutes $=$ minutes % 60;"
+              "key": "B",
+              "content": "minutes $=$ minutes + hours % 60; (c) hours $=$ hours + minutes $/ 60$; minutes $=$ minutes % 60;"
             },
             {
-              "key": "",
-              "content": "hours $=$ hours + minutes % 60;\nminutes $=$ minutes $/ 60$;"
+              "key": "C",
+              "content": "hours $=$ hours + minutes % 60; minutes $=$ minutes $/ 60$;"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "hours $=$ hours + minutes $/ 60$;"
             }
           ],
@@ -221,15 +221,15 @@
         {
           "id": "9",
           "type": "single",
-          "prompt": "Consider the following declaration that appears in a class other than TimeRecord.\n```\nTimeRecord[] timeCards = new TimeRecord[100];\n```\n\nAssume that timeCards has been initialized with TimeRecord objects. Consider the following code segment that is intended to compute the total of all the times stored in timeCards.\n```\nTimeRecord total = new TimeRecord(0,0);\nfor (int k = 0; k < timeCards.length; k++)\n{\n /* missing expression */ ;\n}\n```\n\nWhich of the following can be used to replace /* missing expression */ so that the code segment will work as intended?\n```",
+          "prompt": "Consider the following declaration that appears in a class other than TimeRecord. ``` TimeRecord[] timeCards = new TimeRecord[100]; ``` Assume that timeCards has been initialized with TimeRecord objects. Consider the following code segment that is intended to compute the total of all the times stored in timeCards. ``` TimeRecord total = new TimeRecord(0,0); for (int k = 0; k &lt; timeCards.length; k++) { /* missing expression */ ; } ``` Which of the following can be used to replace /* missing expression */ so that the code segment will work as intended? ```",
           "options": [
             {
-              "key": "",
-              "content": "timeCards[k].advance()\n(в) total += timeCards[k].advance()\n(c) total.advance(timeCards[k].hours,\n timeCards[k].minutes)\n(b) total.advance(timeCards[k].getHours(),\n timeCards[k].getMinutes())"
+              "key": "A",
+              "content": "timeCards[k].advance() (в) total += timeCards[k].advance() (c) total.advance(timeCards[k].hours, timeCards[k].minutes) (b) total.advance(timeCards[k].getHours(), timeCards[k].getMinutes())"
             },
             {
-              "key": "",
-              "content": "timeCards[k].advance(timeCards[k].getHours(),\n timeCards[k].getMinutes())\n```"
+              "key": "B",
+              "content": "timeCards[k].advance(timeCards[k].getHours(), timeCards[k].getMinutes()) ```"
             }
           ],
           "answer": "",
@@ -238,22 +238,22 @@
         {
           "id": "10",
           "type": "single",
-          "prompt": "Consider the following instance variable and method.\n```\nprivate int[] arr;\n/** Precondition: arr contains no duplicates;\n the elements in arr are in ascending order.\n @param low an int value such that 0 low arr.length\n * @param high an int value such that low - 1 high high)\n {\n return low;\n }\n else if (arr[mid] num)\n {\n return mystery(low, mid - 1, num);\n }\n else // arr[mid] == num\n {\n return mid;\n }\n}\n```\n\nWhat is returned by the call mystery( 0 , arr.length -1 , num) ?",
+          "prompt": "Consider the following instance variable and method. ``` private int[] arr; /** Precondition: arr contains no duplicates; the elements in arr are in ascending order. @param low an int value such that 0 low arr.length * @param high an int value such that low - 1 high high) { return low; } else if (arr[mid] num) { return mystery(low, mid - 1, num); } else // arr[mid] == num { return mid; } } ``` What is returned by the call mystery( 0 , arr.length -1 , num) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "The number of elements in arr that are less than num"
             },
             {
-              "key": "",
-              "content": "The number of elements in arr that are less than or equal to num\n(c) The number of elements in arr that are equal to num"
+              "key": "B",
+              "content": "The number of elements in arr that are less than or equal to num (c) The number of elements in arr that are equal to num"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The number of elements in arr that are greater than num"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The index of the middle element in arr"
             }
           ],
@@ -266,19 +266,19 @@
           "prompt": "The method findLongest does not work as intended. Which of the following best describes the value returned by a call to findLongest ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "It is the length of the shortest consecutive block of the value target in nums."
             },
             {
-              "key": "",
-              "content": "It is the length of the array nums.\n(c) It is the number of occurrences of the value target in nums."
+              "key": "B",
+              "content": "It is the length of the array nums. (c) It is the number of occurrences of the value target in nums."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "It is the length of the first consecutive block of the value target in nums."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "It is the length of the last consecutive block of the value target in nums."
             }
           ],
@@ -291,19 +291,19 @@
           "prompt": "Which of the following changes should be made so that method findLongest will work as intended?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Insert the statement lenCount $=0$; between lines 2 and 3 ."
             },
             {
-              "key": "",
-              "content": "Insert the statement lenCount $=0$; between lines 8 and 9 .\n(c) Insert the statement lenCount $=0$; between lines 10 and 11 ."
+              "key": "B",
+              "content": "Insert the statement lenCount $=0$; between lines 8 and 9 . (c) Insert the statement lenCount $=0$; between lines 10 and 11 ."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Insert the statement lenCount $=0$; between lines 11 and 12 ."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Insert the statement lenCount $=0$; between lines 12 and 13 ."
             }
           ],
@@ -313,22 +313,22 @@
         {
           "id": "13",
           "type": "single",
-          "prompt": "Consider the following instance variable and method.\n```\nprivate int[] numbers;\n/** Precondition: numbers contains int values in no particular order.\n */\npublic int mystery(int num)\n{\n for (int k = numbers.length - 1; k >= 0; k--)\n {\n if (numbers[k] < num)\n {\n return k;\n }\n }\n return -1;\n}\n```\n\nWhich of the following best describes the contents of numbers after the following statement has been executed?\n```\nint m = mystery(n);\n```",
+          "prompt": "Consider the following instance variable and method. ``` private int[] numbers; /** Precondition: numbers contains int values in no particular order. */ public int mystery(int num) { for (int k = numbers.length - 1; k &gt;= 0; k--) { if (numbers[k] &lt; num) { return k; } } return -1; } ``` Which of the following best describes the contents of numbers after the following statement has been executed? ``` int m = mystery(n); ```",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "All values in positions 0 through $m$ are less than $n$."
             },
             {
-              "key": "",
-              "content": "All values in positions $m+1$ through numbers. length-1 are less than $n$.\n(c) All values in positions $m+1$ through numbers.length-1 are greater than or equal to n ."
+              "key": "B",
+              "content": "All values in positions $m+1$ through numbers. length-1 are less than $n$. (c) All values in positions $m+1$ through numbers.length-1 are greater than or equal to n ."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "The smallest value is at position m ."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "The largest value that is smaller than $n$ is at position $m$."
             }
           ],
@@ -338,22 +338,22 @@
         {
           "id": "14",
           "type": "single",
-          "prompt": "Consider the following method.\n```\n/** @param x an int value such that x >= 0\n */\npublic void mystery(int x)\n{\n System.out.print(x % 10);\n if ((x / 10) != 0)\n {\n mystery(x / 10);\n }\n System.out.print(x % 10);\n}\n```\n\nWhich of the following is printed as a result of the call mystery (1234) ?",
+          "prompt": "Consider the following method. ``` /** @param x an int value such that x &gt;= 0 */ public void mystery(int x) { System.out.print(x % 10); if ((x / 10) != 0) { mystery(x / 10); } System.out.print(x % 10); } ``` Which of the following is printed as a result of the call mystery (1234) ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "1234"
             },
             {
-              "key": "",
-              "content": "4321\n(c) 12344321"
+              "key": "B",
+              "content": "4321 (c) 12344321"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "43211234"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Many digits are printed due to infinite recursion."
             }
           ],
@@ -363,22 +363,22 @@
         {
           "id": "15",
           "type": "single",
-          "prompt": "Consider the following two classes.\n```\npublic class Dog\n{\n public void act()\n {\n System.out.print(\"run \");\n eat();\n }\n public void eat()\n {\n System.out.print(\"eat \");\n }\n}\npublic class UnderDog extends Dog\n{\n public void act()\n {\n super.act();\n System.out.print(\"sleep \");\n }\n public void eat()\n {\n super.eat();\n System.out.print(\"bark \");\n }\n}\n```\n\nAssume that the following declaration appears in a class other than Dog.\n```\nDog fido = new UnderDog();\n```\n\nWhat is printed as a result of the call fido.act() ?",
+          "prompt": "Consider the following two classes. ``` public class Dog { public void act() { System.out.print(&quot;run &quot;); eat(); } public void eat() { System.out.print(&quot;eat &quot;); } } public class UnderDog extends Dog { public void act() { super.act(); System.out.print(&quot;sleep &quot;); } public void eat() { super.eat(); System.out.print(&quot;bark &quot;); } } ``` Assume that the following declaration appears in a class other than Dog. ``` Dog fido = new UnderDog(); ``` What is printed as a result of the call fido.act() ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "run eat"
             },
             {
-              "key": "",
-              "content": "run eat sleep\n(c) run eat sleep bark"
+              "key": "B",
+              "content": "run eat sleep (c) run eat sleep bark"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "run eat bark sleep"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Nothing is printed due to infinite recursion."
             }
           ],
@@ -388,22 +388,22 @@
         {
           "id": "16",
           "type": "single",
-          "prompt": "Consider the following recursive method.\n```\npublic static int mystery(int n)\n{\n if (n <= 1)\n {\n return 0;\n }\n else\n {\n return 1 + mystery(n / 2);\n }\n}\n```\n\nAssuming that $k$ is a nonnegative integer and $m=2^{k}$, what value is returned as a result of the call mystery $(m)$ ?",
+          "prompt": "Consider the following recursive method. ``` public static int mystery(int n) { if (n &lt;= 1) { return 0; } else { return 1 + mystery(n / 2); } } ``` Assuming that $k$ is a nonnegative integer and $m=2^{k}$, what value is returned as a result of the call mystery $(m)$ ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "0"
             },
             {
-              "key": "",
-              "content": "$k$\n(c) $m$"
+              "key": "B",
+              "content": "$k$ (c) $m$"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "$m{2}+1$"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "$k{2}+1$"
             }
           ],
@@ -413,22 +413,22 @@
         {
           "id": "17",
           "type": "single",
-          "prompt": "Consider the following instance variable and method.\n```\nprivate int[] array;\n/** Precondition: array.length > 0\n */\npublic int checkArray()\n{\n int loc = array.length / 2;\n for (int k = 0; k array[loc])\n {\n loc = k;\n }\n }\n return loc;\n}\n```\n\nWhich of the following is the best postcondition for checkArray ?",
+          "prompt": "Consider the following instance variable and method. ``` private int[] array; /** Precondition: array.length &gt; 0 */ public int checkArray() { int loc = array.length / 2; for (int k = 0; k array[loc]) { loc = k; } } return loc; } ``` Which of the following is the best postcondition for checkArray ?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Returns the index of the first element in array array whose value is greater than array [loc]"
             },
             {
-              "key": "",
-              "content": "Returns the index of the last element in array array whose value is greater than array[loc]\n(c) Returns the largest value in array array"
+              "key": "B",
+              "content": "Returns the index of the last element in array array whose value is greater than array[loc] (c) Returns the largest value in array array"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Returns the index of the largest value in array array"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Returns the index of the largest value in the second half of array array"
             }
           ],
@@ -438,27 +438,27 @@
         {
           "id": "18",
           "type": "single",
-          "prompt": "Consider the following methods.\n```\npublic void changer(String x, int y)\n{\n x = x + \"peace\";\n y = y * 2;\n}\npublic void test()\n{\n String s = \"world\";\n int n = 6;\n changer(s, n);\n /* End of method */\n}\n```\n\nWhen the call test() is executed, what are the values of $s$ and $n$ at the point indicated by /* End of method */ ?\n\n{lr}\n1{c}{s} & $n$",
+          "prompt": "Consider the following methods. ``` public void changer(String x, int y) { x = x + &quot;peace&quot;; y = y * 2; } public void test() { String s = &quot;world&quot;; int n = 6; changer(s, n); /* End of method */ } ``` When the call test() is executed, what are the values of $s$ and $n$ at the point indicated by /* End of method */ ? {lr} 1{c}{s} &amp; $n$",
           "options": [
             {
-              "key": "",
-              "content": "world & 6"
+              "key": "A",
+              "content": "world &amp; 6"
             },
             {
-              "key": "",
-              "content": "worldpeace & 6"
+              "key": "B",
+              "content": "worldpeace &amp; 6"
             },
             {
-              "key": "",
-              "content": "world & 12"
+              "key": "C",
+              "content": "world &amp; 12"
             },
             {
-              "key": "",
-              "content": "worldpeace & 12"
+              "key": "D",
+              "content": "worldpeace &amp; 12"
             },
             {
-              "key": "",
-              "content": "peace & 12"
+              "key": "E",
+              "content": "peace &amp; 12"
             }
           ],
           "answer": "",
@@ -467,23 +467,23 @@
         {
           "id": "19",
           "type": "single",
-          "prompt": "Consider the following code segment.\n```\nint[][] mat = new int[3][4];\nfor (int row = 0; row < mat.length; row++)\n{\n for (int col = 0; col < mat[0].length; col++)\n {\n if (row < col)\n {\n mat[row][col] = 1;\n }\n else if (row == col)\n {\n mat[row][col] = 2;\n }\n else\n {\n mat[row][col] = 3;\n }\n }\n}\n```\n\nWhat are the contents of mat after the code segment has been executed?",
+          "prompt": "Consider the following code segment. ``` int[][] mat = new int[3][4]; for (int row = 0; row &lt; mat.length; row++) { for (int col = 0; col &lt; mat[0].length; col++) { if (row &lt; col) { mat[row][col] = 1; } else if (row == col) { mat[row][col] = 2; } else { mat[row][col] = 3; } } } ``` What are the contents of mat after the code segment has been executed?",
           "options": [
             {
-              "key": "",
-              "content": "${{2,1,1}$,\n```\n{3, 2, 1},\n{3, 3, 2},\n{3, 3, 3}}\n```"
+              "key": "A",
+              "content": "${{2,1,1}$, ``` {3, 2, 1}, {3, 3, 2}, {3, 3, 3}} ```"
             },
             {
-              "key": "",
-              "content": "${{2,3,3}$,\n{1, 2, 3},\n{1, 1, 2},\n{1, 1, 1}}\n(c) ${{2,3,3,3}$,\n${1,2,3,3}$,\n{1, 1, 2, 3}}"
+              "key": "B",
+              "content": "${{2,3,3}$, {1, 2, 3}, {1, 1, 2}, {1, 1, 1}} (c) ${{2,3,3,3}$, ${1,2,3,3}$, {1, 1, 2, 3}}"
             },
             {
-              "key": "",
-              "content": "${{2,1,1,1}$,\n{3, 2, 1, 1},\n{3, 3, 2, 1}}"
+              "key": "C",
+              "content": "${{2,1,1,1}$, {3, 2, 1, 1}, {3, 3, 2, 1}}"
             },
             {
-              "key": "",
-              "content": "${{1,1,1,1}$,\n{2, 2, 2, 2},\n{3, 3, 3, 3}}"
+              "key": "D",
+              "content": "${{1,1,1,1}$, {2, 2, 2, 2}, {3, 3, 3, 3}}"
             }
           ],
           "answer": "",
@@ -492,22 +492,22 @@
         {
           "id": "20",
           "type": "single",
-          "prompt": "Consider the following method.\n```\n/** Precondition: arr contains only positive values.\n */\npublic static void doSome(int[] arr, int lim)\n{\n int v = 0;\n int k = 0;\n while (k v)\n {\n v = arr[k]; /* Statement S */\n }\n k++; /* Statement T */\n }\n}\n```\n\nAssume that dosome is called and executes without error. Which of the following are possible combinations for the value of lim, the number of times Statement $S$ is executed, and the number of times Statement $T$ is executed?\n\n{rccc} \n& {c} \nValue of \n\nlim\n & {c} \nExecutions of \n\nStatement $S$\n & {c} \nExecutions of \n\nStatement $T$\n \n\nI. & 5 & 0 & 5 \n\nII. & 7 & 4 & 9 \n\nIII. & 3 & 5 & 2",
+          "prompt": "Consider the following method. ``` /** Precondition: arr contains only positive values. */ public static void doSome(int[] arr, int lim) { int v = 0; int k = 0; while (kv) { v = arr[k]; /* Statement S */ } k++; /* Statement T */ } } ``` Assume that dosome is called and executes without error. Which of the following are possible combinations for the value of lim, the number of times Statement $S$ is executed, and the number of times Statement $T$ is executed? {rccc} &amp; {c} Value of lim &amp; {c} Executions of Statement $S$ &amp; {c} Executions of Statement $T$ I. &amp; 5 &amp; 0 &amp; 5 II. &amp; 7 &amp; 4 &amp; 9 III. &amp; 3 &amp; 5 &amp; 2",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
-              "content": "II only\n(c) III only"
+              "key": "B",
+              "content": "II only (c) III only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             }
           ],
@@ -517,22 +517,22 @@
         {
           "id": "21",
           "type": "single",
-          "prompt": "Consider the following instance variable, arr, and incomplete method, partialsum. The method is intended to return an integer array sum such that for all $k$, sum $[k]$ is equal to $arr[0]+arr[1]++arr[k]$. For instance, if arr contains the values ${1,4,1,3}$, the array sum will contain the values ${1,5,6,9}$.\n```\nprivate int[] arr;\npublic int[] partialSum()\n{\n int[] sum = new int[arr.length];\n for (int j = 0; j < sum.length; j++)\n {\n sum[j] = 0;\n }\n /* missing code */\n return sum;\n}\n```\n\nThe following two implementations of /* missing code */ are proposed so that partialsum will work as intended.\n\nImplementation 1\n```\nfor (int j = 0; j < arr.length; j++)\n{\n sum[j] = sum[j - 1] + arr[j];\n}\n```\n\nImplementation 2\n```\nfor (int j = 0; j < arr.length; j++)\n{\n for (int k = 0; k <= j; k++)\n {\n sum[j] = sum[j] + arr[k];\n }\n}\n```\n\nWhich of the following statements is true?",
+          "prompt": "Consider the following instance variable, arr, and incomplete method, partialsum. The method is intended to return an integer array sum such that for all $k$, sum $[k]$ is equal to $arr[0]+arr[1]++arr[k]$. For instance, if arr contains the values ${1,4,1,3}$, the array sum will contain the values ${1,5,6,9}$. ``` private int[] arr; public int[] partialSum() { int[] sum = new int[arr.length]; for (int j = 0; j &lt; sum.length; j++) { sum[j] = 0; } /* missing code */ return sum; } ``` The following two implementations of /* missing code */ are proposed so that partialsum will work as intended. Implementation 1 ``` for (int j = 0; j &lt; arr.length; j++) { sum[j] = sum[j - 1] + arr[j]; } ``` Implementation 2 ``` for (int j = 0; j &lt; arr.length; j++) { for (int k = 0; k &lt;= j; k++) { sum[j] = sum[j] + arr[k]; } } ``` Which of the following statements is true?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Both implementations work as intended, but implementation 1 is faster than implementation 2 ."
             },
             {
-              "key": "",
-              "content": "Both implementations work as intended, but implementation 2 is faster than implementation 1 .\n(c) Both implementations work as intended and are equally fast."
+              "key": "B",
+              "content": "Both implementations work as intended, but implementation 2 is faster than implementation 1 . (c) Both implementations work as intended and are equally fast."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "Implementation 1 does not work as intended, because it will cause an ArrayIndexOutOfBoundsException."
             },
             {
-              "key": "",
+              "key": "D",
               "content": "Implementation 2 does not work as intended, because it will cause an ArrayIndexOutOfBoundsException."
             }
           ],
@@ -542,22 +542,22 @@
         {
           "id": "22",
           "type": "single",
-          "prompt": "Consider the following declaration for a class that will be used to represent points in the $x y$-coordinate plane.\n```\npublic class Point\n{\n private int x; // x-coordinate of the point\n private int y; // y-coordinate of the point\n public Point()\n {\n x = 0;\n y = 0;\n }\n public Point(int a, int b)\n {\n x = a;\n y = b;\n }\n // Other methods not shown\n}\n```\n\nThe following incomplete class declaration is intended to extend the above class so that points can be named.\n```\npublic class NamedPoint extends Point\n{\n private String name; // name of point\n // Constructors go here\n // Other methods not shown\n}\n```\n\nConsider the following proposed constructors for this class.\n```\nI.\npublic NamedPoint()\n{\n name = \"\";\n}\nII. public NamedPoint(int d1, int d2, String pointName)\n{\n x = d1;\n y = d2;\n name = pointName;\n}\nIII. public NamedPoint(int d1, int d2, String pointName)\n{\n super(d1, d2);\n name = pointName;\n}\n```\n\nWhich of these constructors would be legal for the NamedPoint class?",
+          "prompt": "Consider the following declaration for a class that will be used to represent points in the $xy$-coordinate plane. ``` public class Point { private int x; // x-coordinate of the point private int y; // y-coordinate of the point public Point() { x = 0; y = 0; } public Point(int a, int b) { x = a; y = b; } // Other methods not shown } ``` The following incomplete class declaration is intended to extend the above class so that points can be named. ``` public class NamedPoint extends Point { private String name; // name of point // Constructors go here // Other methods not shown } ``` Consider the following proposed constructors for this class. ``` I. public NamedPoint() { name = &quot;&quot;; } II. public NamedPoint(int d1, int d2, String pointName) { x = d1; y = d2; name = pointName; } III. public NamedPoint(int d1, int d2, String pointName) { super(d1, d2); name = pointName; } ``` Which of these constructors would be legal for the NamedPoint class?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
-              "content": "II only\n(c) III only"
+              "key": "B",
+              "content": "II only (c) III only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "II and III only"
             }
           ],
@@ -567,18 +567,18 @@
         {
           "id": "23",
           "type": "single",
-          "prompt": "Consider a shuffle method that is intended to return a new array that contains all the elements from nums, but in a different order. Let n be the number of elements in nums. The shuffle method should alternate the elements from nums [0] … nums $[n / 2-1]$ with the elements from nums $[n / 2] $ nums [ $n-1$ ], as illustrated in the following examples.\n\nExample 1\n\n{|l|l|l|l|l|l|l|l|l|}\n [b]{2}{*}{nums} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \n\n & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 \n\n [b]{2}{*}{result} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \n\n & 10 & 50 & 20 & 60 & 30 & 70 & 40 & 80 \n\nExample 2\n\nnums $${c|c|c|c|c|c|c}\n1{c}{0} & 1{c}{1} & 1{c}{2} & 1{c}{3} & 1{c}{4} & 1{c}{5} & 6 \n\n { 2 - 8 } & 10 & 20 & 30 & 40 & 50 & 60 \n\nresult {c|c|c|c|c|c|c|}\n 1{c}{0} & 1{c}{1} & 1{c}{2} & 1{c}{3} & 1{c}{4} & 1{c}{5} & 6 \n\n { 2 - 8 } & 10 & 40 & 20 & 50 & 30 & 60 \n\nThe following implementation of the shuffle method does not work as intended.\n```\npublic static int[] shuffle(int[] nums)\n{\n int n = nums.length;\n int[] result = new int[n];\n for (int j = 0; j < n / 2; j++)\n {\n result[j * 2] = nums[j];\n result[j * 2 + 1] = nums[j + n / 2];\n }\n return result;\n}\n```\n\nWhich of the following best describes the problem with the given implementation of the shuffle method?",
+          "prompt": "Consider a shuffle method that is intended to return a new array that contains all the elements from nums, but in a different order. Let n be the number of elements in nums. The shuffle method should alternate the elements from nums [0] … nums $[n / 2-1]$ with the elements from nums $[n / 2] $ nums [ $n-1$ ], as illustrated in the following examples. Example 1 {|l|l|l|l|l|l|l|l|l|} [b]{2}{*}{nums} &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 10 &amp; 20 &amp; 30 &amp; 40 &amp; 50 &amp; 60 &amp; 70 &amp; 80 [b]{2}{*}{result} &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 10 &amp; 50 &amp; 20 &amp; 60 &amp; 30 &amp; 70 &amp; 40 &amp; 80 Example 2 nums $${c|c|c|c|c|c|c} 1{c}{0} &amp; 1{c}{1} &amp; 1{c}{2} &amp; 1{c}{3} &amp; 1{c}{4} &amp; 1{c}{5} &amp; 6 { 2 - 8 } &amp; 10 &amp; 20 &amp; 30 &amp; 40 &amp; 50 &amp; 60 result {c|c|c|c|c|c|c|} 1{c}{0} &amp; 1{c}{1} &amp; 1{c}{2} &amp; 1{c}{3} &amp; 1{c}{4} &amp; 1{c}{5} &amp; 6 { 2 - 8 } &amp; 10 &amp; 40 &amp; 20 &amp; 50 &amp; 30 &amp; 60 The following implementation of the shuffle method does not work as intended. ``` public static int[] shuffle(int[] nums) { int n = nums.length; int[] result = new int[n]; for (int j = 0; j &lt; n / 2; j++) { result[j * 2] = nums[j]; result[j * 2 + 1] = nums[j + n / 2]; } return result; } ``` Which of the following best describes the problem with the given implementation of the shuffle method?",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "Executing shuffle may cause an ArrayIndexOutOfBoundsException."
             },
             {
-              "key": "",
-              "content": "The first element of the returned array (result [0]) may not have the correct value.\n(c) The last element of the returned array (result [result.length - 1]) may not have the correct value.\n(d) One or more of nums [0] ... nums [nums.length / 2 - 1] may have been copied to the wrong position(s) in the returned array."
+              "key": "B",
+              "content": "The first element of the returned array (result [0]) may not have the correct value. (c) The last element of the returned array (result [result.length - 1]) may not have the correct value. (d) One or more of nums [0] ... nums [nums.length / 2 - 1] may have been copied to the wrong position(s) in the returned array."
             },
             {
-              "key": "",
+              "key": "C",
               "content": "One or more of nums [nums.length / 2] ... nums [nums.length - 1] may have been copied to the wrong position(s) in the returned array."
             }
           ],
@@ -588,22 +588,22 @@
         {
           "id": "24",
           "type": "single",
-          "prompt": "Consider the following Util class, which contains two methods. The completed sumid method returns the sum of all the elements of the 1-dimensional array a. The incomplete sum2D method is intended to return the sum of all the elements of the 2 -dimensional array m .\n```\npublic class Util\n{\n /** Returns the sum of the elements of the 1-dimensional array a */\n public static int sumlD(int[] a)\n { /* implementation not shown */ }\n /** Returns the sum of the elements of the 2-dimensional array m */\n public static int sum2D(int[][] m)\n {\n int sum = 0;\n /* missing code */\n return sum;\n }\n}\n```\n\nAssume that sum1d works correctly. Which of the following can replace /* missing code */ so that the sum2D method works correctly?\n```\nI. for (int k = 0; k < m.length; k++)\n {\n sum += sum1D(m[k]);\n }\nII. for (int[] row : m)\n {\n sum += sum1D(row);\n }\nfor (int[] row : m)\n{\n for (int v : row)\n {\n sum += v;\n }\n}\n```",
+          "prompt": "Consider the following Util class, which contains two methods. The completed sumid method returns the sum of all the elements of the 1-dimensional array a. The incomplete sum2D method is intended to return the sum of all the elements of the 2 -dimensional array m . ``` public class Util { /** Returns the sum of the elements of the 1-dimensional array a */ public static int sumlD(int[] a) { /* implementation not shown */ } /** Returns the sum of the elements of the 2-dimensional array m */ public static int sum2D(int[][] m) { int sum = 0; /* missing code */ return sum; } } ``` Assume that sum1d works correctly. Which of the following can replace /* missing code */ so that the sum2D method works correctly? ``` I. for (int k = 0; k &lt; m.length; k++) { sum += sum1D(m[k]); } II. for (int[] row : m) { sum += sum1D(row); } for (int[] row : m) { for (int v : row) { sum += v; } } ```",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
-              "content": "II only\n(c) I and II only"
+              "key": "B",
+              "content": "II only (c) I and II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "II and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I, II, and III"
             }
           ],
@@ -613,132 +613,23 @@
         {
           "id": "25",
           "type": "single",
-          "prompt": "The following sort method correctly sorts the integers in elements into ascending order.\n```\nLine 1: public static void sort(int[] elements)\nLine 2: {\nLine 3: for (int j = 0; j elements[index])\nII. Replace lines 15-17 with:\n\nLine 15: int temp = elements[index];\nLine 16: elements[index] = elements[j];\nLine 17: elements[j] = temp;\nIII. Replace line 3 with:\n\nLine 3: for (int j = elements.length - 1; j > 0; j--) and replace line 7 with:\nLine 7: for (int $k=0$; $k",
+          "prompt": "The following sort method correctly sorts the integers in elements into ascending order. ``` Line 1: public static void sort(int[] elements) Line 2: { Line 3: for (int j = 0; j elements[index]) II. Replace lines 15-17 with: Line 15: int temp = elements[index]; Line 16: elements[index] = elements[j]; Line 17: elements[j] = temp; III. Replace line 3 with: Line 3: for (int j = elements.length - 1; j &gt; 0; j--) and replace line 7 with: Line 7: for (int $k=0$; $k",
           "options": [
             {
-              "key": "",
+              "key": "A",
               "content": "I only"
             },
             {
-              "key": "",
-              "content": "II only\n(c) I and II only"
+              "key": "B",
+              "content": "II only (c) I and II only"
             },
             {
-              "key": "",
+              "key": "C",
               "content": "I and III only"
             },
             {
-              "key": "",
+              "key": "D",
               "content": "I, II, and III"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        }
-      ]
-    },
-    {
-      "id": "section-frq",
-      "title": "Section 2",
-      "partTitle": "Free Response",
-      "limitMinutes": 45,
-      "directions": "",
-      "questions": [
-        {
-          "id": "1",
-          "type": "frq",
-          "prompt": "A travel agency maintains a list of information about airline flights. Flight information includes a departure time and an arrival time. You may assume that the two times occur on the same day. These times are represented by objects of the Time class.\n\nThe declaration for the Time class is shown below. It includes a method minutesUntil, which returns the difference (in minutes) between the current Time object and another Time object.\n```\npublic class Time\n{\n /** @return difference, in minutes, between this time and other;\n * difference is negative if other is earlier than this time\n */\n public int minutesUntil(Time other)\n { /* implementation not shown */ }\n // There may be instance variables, constructors, and methods that are not\n // shown.\n}\n```\n\nFor example, assume that t1 and t2 are Time objects where t1 represents 1:00 P.M. and t2 represents 2:15 P.M. The call t1.minutesUntil(t2) will return 75 and the call t2.minutesUntil(t1) will return - 75 .\n\nThe declaration for the Flight class is shown below. It has methods to access the departure time and the arrival time of a flight. You may assume that the departure time of a flight is earlier than its arrival time.\n```\npublic class Flight\n{\n /** @return time at which the flight departs\n */\n public Time getDepartureTime()\n { /* implementation not shown */ }\n /** @return time at which the flight arrives\n */\n public Time getArrivalTime()\n { /* implementation not shown */ }\n // There may be instance variables, constructors, and methods that are not shown.\n}\n```\n\nA trip consists of a sequence of flights and is represented by the Trip class. The Trip class contains a List of Flight objects that are stored in chronological order. You may assume that for each flight after the first flight in the list, the departure time of the flight is later than the arrival time of the preceding flight in the list. A partial declaration of the Trip class is shown below. You will write two methods for the Trip class.\n```\npublic class Trip\n{\n /** The list of flights (if any) that make up this trip, stored in chronological\n order */\n private List flights;\n /** @return the number of minutes from the departure of the first flight to the\n * arrival of the last flight if there are one or more flights in the trip;\n * 0, if there are no flights in the trip\n */\n public int getDuration()\n { /* to be implemented in part (a) */ }\n /** Precondition: the departure time for each flight is later than the arrival\n * time of its preceding flight\n * @return the smallest number of minutes between the arrival of\n * a flight and the departure of the flight immediately after it,\n * if there are two or more flights in the trip;\n * -1, if there are fewer than two flights in the trip\n */\n public int getShortestLayover()\n { /* to be implemented in part (b) */ }\n // There may be instance variables, constructors, and methods that are not\n // shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "omplete method getDuration below.\n```\n/** @return the number of minutes from the departure of the first\n * flight to the arrival of the last flight if there are one or\n * more flights in the trip;\n * 0, if there are no flights in the trip\n */\npublic int getDuration()\n```"
-            },
-            {
-              "key": "b",
-              "content": "rite the Trip method getShortestLayover. A layover is the number of minutes from the arrival of one flight in a trip to the departure of the flight immediately after it. If there are two or more flights in the trip, the method should return the shortest layover of the trip; otherwise, it should return -1 .\n\nFor example, assume that the instance variable flights of a Trip object vacation contains the following flight information.\n![](https://cdn.mathpix.com/cropped/534e21f9-9f4b-4125-9853-d041414130bb-29.jpg?height=485&width=747&top_left_y=1168&top_left_x=734)\n\nThe call vacation.getShortestLayover() should return 15.\n\nComplete method getShortestLayover below.\n```\n/** Precondition: the departure time for each flight is later than the arrival\n * time of its preceding flight\n * @return the smallest number of minutes between the arrival of a\n * flight and the departure of the flight immediately after it, if\n * there are two or more flights in the trip;\n * -1, if there are fewer than two flights in the trip\n */\npublic int getShortestLayover()\n```"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "2",
-          "type": "frq",
-          "prompt": "Consider the following incomplete StringUtil class declaration. You will write implementations for the two methods listed in this class. Information about the Person class used in the replaceNameNickname method will be presented in part (b).\n```\npublic class StringUtil\n{\n /** @param str a String with length > 0\n * @param oldstr a String\n * @param newstr a String\n * @return a new String in which all occurrences of the substring\n * oldstr in str are replaced by the substring newstr\n */\n public static String apcsReplaceAll(String str,\n String oldStr,\n String newStr)\n { /* to be implemented in part (a) */ }\n /** @param str a String\n * @param people a list of references to Person objects\n * @return a copy of str modified so that each occurrence of a first\n * name in people is replaced by the corresponding nickname\n */\n public static String replaceNameNickname(String str,\n List\n people)\n { /* to be implemented in part (b) */ }\n // There may be methods that are not shown.\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "rite the StringUtil method apcsReplaceAll, which examines a given String and replaces all occurrences of a designated substring with another specified substring. In writing your solution, you may NOT use the replace, replaceAll, or replaceFirst methods in the Java String class.\nThe following table shows several examples of the result of calling\n```\nStringUtil.apcsReplaceAll(str, oldstr,0 newstr).\n```\n\n{|l|l|l|l|l|}\n str & oldstr & newstr & String returned & Comment \n\n \"to be or not to be\" & \"to\" & \"2\" & \"2 be or not 2 be\" & Each occurrence of \"to\" in the original string has been replaced by \"2\" \n\n \"advanced calculus\" & \"math\" & \"science\" & \"advanced calculus\" & No change, because the string \"math\" was not in the original string \n\n \"gogogo\" & \"go\" & \"gone\" & \"gonegonegone\" & Each occurrence of \"go\" in the original string has been replaced by \"gone\" \n\n \"aaaaa\" & \"aaa\" & \"b\" & \"baa\" & The first occurrence of \"aaa\" in the original string has been replaced by \"b\" \n\nComplete method apcsReplaceAll below.\n```\n/** @param str a String with length > 0\n * @param oldstr a String\n * @param newstr a String\n * @ return a new String in which all occurrences of the substring\n * oldstr in str are replaced by the substring newstr\n */\npublic static String apcsReplaceAll(String str,\n String oldStr,\n String newStr)\n```"
-            },
-            {
-              "key": "b",
-              "content": "he following Person class contains information that includes a first (given) name and a nickname for the person.\n```\npublic class Person\n{\n /** @return the first name of this Person */\n public String getFirstName()\n { /* implementation not shown */ }\n /** @return the nickname of this Person */\n public String getNickname()\n { /* implementation not shown */ }\n // There may be instance variables, constructors, and methods not shown.\n}\n```\n\nWrite the StringUtil method replaceNameNickname, which takes a string and a list of Person objects that contain first names and a corresponding nicknames. The method is to replace all names by their nicknames in the given string. The list of Person objects is processed in order from lowest index to highest index. In writing your solution, you may NOT use the replace, replaceAll, or replaceFirst methods in the Java String class.\n\nFor example, assume the following table represents the data contained in the list people.\n\n{l|l|l|} \n& 1{l}{ getFirstName() } & getNickname() \n\n { 2 - 3 } 0 & \"Henry\" & \"Hank\" \n\n { 2 - 3 } 1 & \"Elizabeth\" & \"Liz\" \n\n { 2 - 3 } 2 & \"John\" & \"Jack\" \n\n { 2 - 3 } 3 & \"Margaret\" & \"Peggy\" \n\n { 2 - 3 } & &\n\nAssume also that string str represents the following string.\n\"After Henry drove Elizabeth to dinner in Johnson City, Henry paid for an appetizer and Elizabeth paid for dessert.\"\n\nThe call StringUtil.replaceNameNickname(str, people) should return the following string:\n```\n\"After Hank drove Liz to dinner in Jackson City, Hank paid for\nan appetizer and Liz paid for dessert.\"\n```\n\nIn writing your solution, you must use the method apcsReplaceAll specified in the StringUtil class. Assume that apcsReplaceAll works as specified, regardless of what you wrote in part (a).\n\nComplete method replaceNameNickname below.\n/** @param str a String\n* @param people a list of references to Person objects\n* @return a copy of str modified so that each occurrence of a first\n* name in people is replaced by the corresponding nickname\n*/\npublic static String replaceNameNickname(String str, List people)"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "3",
-          "type": "frq",
-          "prompt": "Consider the hierarchy of classes shown in the following diagram.\n![](https://cdn.mathpix.com/cropped/534e21f9-9f4b-4125-9853-d041414130bb-34.jpg?height=488&width=592&top_left_y=421&top_left_x=773)\n\nNote that a Cat \"is-a\" Pet, a Dog \"is-a\" Pet, and a LoudDog \"is-a\" Dog.\n\nThe class Pet is specified as an abstract class as shown in the following declaration. Each Pet has a name that is specified when it is constructed.\n```\npublic abstract class Pet\n{\n private String name;\n public Pet(String petName)\n { name = petName; }\n public String getName()\n { return name; }\n public abstract String speak();\n}\n```\n\nThe subclass Dog has the partial class declaration shown below.\n```\npublic class Dog extends Pet\n{\n public Dog(String petName)\n { /* implementation not shown */ }\n public String speak()\n { /* implementation not shown */ }\n}\n```",
-          "options": [
-            {
-              "key": "a",
-              "content": "iven the class hierarchy shown above, write a complete class declaration for the class Cat, including implementations of its constructor and method(s). The cat method speak returns \"meow\" when it is invoked."
-            },
-            {
-              "key": "b",
-              "content": "ssume that class Dog has been declared as shown at the beginning of the question. If the String dog-sound is returned by the Dog method speak, then the LoudDog method speak returns a String containing dog-sound repeated two times.\n\nGiven the class hierarchy shown previously, write a complete class declaration for the class LoudDog, including implementations of its constructor and method(s)."
-            },
-            {
-              "key": "c",
-              "content": "onsider the following partial declaration of class Kennel.\n```\npublic class Kennel\n{\n private List petList;\n```\n\n /** For every Pet in the kennel, prints the name followed by\n * the result of a call to its speak method, one line per Pet.\n */\n public void allSpeak()\n { /* to be implemented in part (c) */ }\n // There may be instance variables, constructors, and methods that are\n // not shown.\n}\n\nWrite the Kennel method allspeak. For each Pet in the kennel, allspeak prints a line with the name of the Pet followed by the result of a call to its speak method.\n\nIn writing allSpeak, you may use any of the methods defined for any of the classes specified for this problem. Assume that these methods work as specified, regardless of what you wrote in parts (a) and (b).\n\nComplete method allspeak below.\n```\n/** For each Pet in the kennel, prints the name followed by\n * the result of a call to its speak method, one line per Pet.\n */\npublic void allSpeak()\n```"
-            }
-          ],
-          "answer": "",
-          "explanation": "Answer key not available yet for this imported exam."
-        },
-        {
-          "id": "4",
-          "type": "frq",
-          "prompt": "This question involves manipulation of one-dimensional and two-dimensional arrays. In part (a), you will write a method to shift the elements of a onedimensional array. In parts (b) and (c), you will write methods to shift the elements of a two-dimensional array.",
-          "options": [
-            {
-              "key": "a",
-              "content": "onsider the following incomplete ArrayUtil class, which contains a static shiftArray method.\npublic class ArrayUtil\n{\n/** Shifts each array element to the next higher index, discarding the\n* original last element, and inserts the new number at the front.\n* @param arr the array to manipulate\n* Precondition: arr.length > 0\n* @param num the new number to insert at the front of arr\n* Postcondition: The original elements of arr have been shifted to\n* the next higher index, and arr[0] == num.\n* The original element at the highest index has been\n* discarded.\n*/\npublic static void shiftArray(int[] arr, int num)\n${ / *$ to be implemented in part (a) */ }\n// There may be methods that are not shown.\n}\nWrite the ArrayUtil method shiftArray. This method stores the integer num at the front of the array arr after shifting each of the original elements to the position with the next higher index. The element originally at the highest index is lost.\n\nFor example, if arr is the array ${11,12,13,14,15}$ and num is 27 , the call to shiftArray changes arr as shown below.\n\nBefore call\narr:\n\n{|c|c|c|c|c|}\n1{c}{0} & 1 & 2 & 3 & 4 \n\n 11 & 12 & 13 & 14 & 15 \n\nAfter call\narr:\n\n{c|c|c|c|c|}\n1{c}{0} & 1 & 2 & 3 & 4 \n\n 27 & 11 & 12 & 13 & 14 \n\nComplete method shiftArray below.\n/** Shifts each array element to the next higher index, discarding the\n* original last element, and inserts the new number at the front.\n* @param arr the array to manipulate\n* Precondition: arr.length > 0\n* @Param num the new number to insert at the front of arr\n* Postcondition: The original elements of arr have been shifted to\n* the next higher index, and arr[0] == num.\n* The original element at the highest index has been\n* discarded.\n*/\npublic static void shiftArray(int[] arr, int num)"
-            },
-            {
-              "key": "b",
-              "content": "onsider the following incomplete NumberMatrix class, which represents a two-dimensional matrix of integers. Assume that the matrix contains at least one integer.\n```\npublic class NumberMatrix\n{\n private int[][] matrix;\n /** Constructs a number matrix. */\n public NumberMatrix(int[][] m)\n { matrix = m; }\n```\n\n /** Shifts each matrix element to the next position in row-major order\n * and inserts the new number at the front. The last element in the last\n * row is discarded.\n * @param num the new number to insert at the front of matrix\n * Postcondition: The original elements of matrix have been shifted to\n * the next higher position in row-major order, and\n * matrix[0][0] == num.\n * The original last element in the last row is discarded.\n */\n public void shiftMatrix(int num)\n ${/ *$ to be implemented in part (b) */ }\n /** Rotates each matrix element to the next higher position in row-major\n * order.\n * Postcondition: The original elements of matrix have been shifted\n * to the next higher position in row-major order, and\n * matrix[0][0] == the original last element.\n */\n public void rotateMatrix()\n ${/ *$ to be implemented in part (c) */ }\n // There may be instance variables, constructors, and methods that are not\n // shown.\n}\n\nWrite the NumberMatrix method shiftMatrix. This method stores a new value num into the two-dimensional array matrix after shifting the elements to the next higher position in row-major order. The element originally at the last position in row-major order is lost.\n\nFor example, if m 1 is a reference to a NumberMatrix object, then the call m1.shiftMatrix(48) will change the values in matrix as shown below.\n\n{l|c|c|c|} \n& 3{c}{ Before call } \n\n& 1{c}{0} & 1 & 1{c}{2} \n\n { 2 - 4 } 0 & 13 & 14 & 15 \n\n { 2 - 4 } 1 & 16 & 17 & 18 \n\n { 2 - 4 } & 19 & 20 & 21 \n\n { 2 - 4 } & 22 & 23 & 24 \n\n { 2 - 4 } & & &\n\n{l|c|c|c|} \n& 3{c}{ After call } \n\n& 0 & 1 & 1{c}{2} \n\n { 2 - 4 } 0 & 48 & 13 & 14 \n\n { 2 - 4 } 1.15 & 16 & 17 \n\n { 2 - 4 } 2 & 18 & 19 & 20 \n\n { 2 - 4 } 3 & 21 & 22 & 23 \n\n { 2 - 4 } & & &\n\nIn writing shiftMatrix, you must call the shiftArray method in part (a). Assume that shiftArray works correctly regardless of what you wrote in part (a).\n\nComplete method shiftMatrix below.\n/** Shifts each matrix element to the next position in row-major order\n* and inserts the new number at the front. The last element in the last\n* row is discarded.\n* @param num the new number to insert at the front of matrix\n* Postcondition: The original elements of matrix have been shifted\n* to the next higher position in row-major order, and\n* matrix[0][0] == num.\n* The original last element in the last row is discarded.\n*/\npublic void shiftMatrix(int num)"
-            },
-            {
-              "key": "c",
-              "content": "rite the NumberMatrix method rotateMatrix. This method rotates all the elements to the next position in row-major order. The element originally at the last position is stored in the first position of the matrix.\nIn writing rotateMatrix, you must call the shiftMatrix method in part (b). Assume that shiftMatrix works correctly regardless of what you wrote in part (b).\nComplete method rotateMatrix below.\n/** Rotates each matrix element to the next higher position in row-major\n* order.\n* Postcondition: The original elements of matrix have been shifted to\n* the next higher position in row-major order, and\n* matrix[0][0] == the original last element.\n*/\npublic void rotateMatrix()\n\nSuggested Solutions to Free-Response Questions\n\nNote: There are many correct variations of these solutions.\n\nQuestion 1"
-            },
-            {
-              "key": "a",
-              "content": "````\npublic int getDuration()\n{\n if (flights.size() == 0)\n {\n return 0;\n }\n Time depart = flights.get(0).getDepartureTime();\n Time arrive = flights.get(flights.size() - 1).getArrivalTime();\n return depart.minutesUntil(arrive);\n}\n\n(b)\n```\n\n```\npublic int getShortestLayover()\n{\n if (flights.size() < 2)\n {\n return -1;\n }\n int shortest = getDuration();\n for (int k = 1; k < flights.size(); k++)\n {\n Flight flight1 = flights.get(k - 1);\n Flight flight2 = flights.get(k);\n Time arrive = flight1.getArrivalTime();\n Time depart = flight2.getDepartureTime();\n int layover = arrive.minutesUntil(depart);\n if (layover < shortest)\n {\n shortest = layover;\n }\n }\n return shortest;\n}\n`````\n\nQuestion 2"
-            },
-            {
-              "key": "a",
-              "content": "terative version:\n```\npublic static String apcsReplaceAll(String str,\n String oldStr,\n String newStr)\n{\n String firstPart = \"\";\n String lastPart = str;\n int pos = lastPart.indexOf(oldStr);\n while (pos >= 0)\n {\n firstPart += lastPart.substring(0, pos);\n firstPart += newStr;\n lastPart = lastPart.substring(pos + oldStr.length());\n pos = lastPart.indexOf(oldStr);\n }\n return firstPart + lastPart;\n}\n```\n\nRecursive version:\n```\npublic static String apcsReplaceAll(String str,\n String oldStr,\n String newStr)\n{\n int pos = str.indexOf(oldStr);\n if (pos < 0)\n {\n return str;\n }\n else\n {\n String firstPart = str.substring(0, pos);\n String restOfStr = str.substring(pos + oldStr.length());\n String lastPart = apcsReplaceAll(restOfStr, oldStr, newStr);\n return firstPart + newStr + lastPart;\n }\n}\n```"
-            },
-            {
-              "key": "b",
-              "content": "````\npublic static String replaceNameNickname(String str,\n List people)\n{\n for (Person p : people)\n {\n str = apcsReplaceAll(str, p.getFirstName(), p.getNickname());\n }\n return str;\n}\n`````\n\nQuestion 3"
-            },
-            {
-              "key": "a",
-              "content": "````\npublic class Cat extends Pet\n{\n public Cat(String petName)\n { super(petName); }\n public String speak()\n {\n return \"meow\";\n }\n}\n(b)\npublic class LoudDog extends Dog\n{\n public LoudDog(String petName)\n { super(petName); }\n public String speak()\n {\n return super.speak() + super.speak();\n }\n}\n`````"
-            },
-            {
-              "key": "c",
-              "content": "````\npublic void allSpeak()\n{\n for (Pet a : petList)\n {\n System.out.println(a.getName() + a.speak());\n }\n}\n`````\n\nQuestion 4"
-            },
-            {
-              "key": "a",
-              "content": "````\npublic static void shiftArray(int[] arr, int num)\n{\n for (int k = arr.length - 1; k > 0; k--)\n {\n arr[k] = arr[k - 1];\n }\n arr[0] = num;\n}\n(b)\npublic void shiftMatrix(int num)\n{\n for (int[] row: matrix)\n {\n int temp = row[row.length - 1];\n ArrayUtil.shiftArray(row, num);\n num = temp;\n }\n}\n(c)\npublic void rotateMatrix()\n{\n shiftMatrix(matrix[matrix.length - 1][matrix[0].length - 1]);\n}\n`````"
             }
           ],
           "answer": "",
