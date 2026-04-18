@@ -146,8 +146,14 @@ function mathmlNodeToLatex(node) {
       return `\\text{${text.trim()}}`;
     }
     
-    case 'msup':
-      return `{${child0()}}^{${child1()}}`;
+    case 'msup': {
+      const base = child0();
+      const exponent = child1();
+      if (/^'+$/.test(exponent)) {
+        return base ? `${base}${exponent}` : exponent;
+      }
+      return `{${base}}^{${exponent}}`;
+    }
     
     case 'msub':
       return `{${child0()}}_{${child1()}}`;
@@ -202,6 +208,9 @@ function mathmlNodeToLatex(node) {
     case 'mpadded':
     case 'mphantom':
       return children();
+
+    case 'mspace':
+      return ' ';
     
     case 'mtable': {
       const rows = Array.from(node.children)
@@ -418,7 +427,7 @@ async function renderMathAfterMount() {
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl", "2017Intl_EM", "physics-c-em-2017-intl", "1902622410881732608", "microeconomics-2018-intl", "1902622410416164864", "microeconomics-2017-intl", "1902622418683138048", "microeconomics-2019-intl", "1902622419140317184", "microeconomics-2021-intl", "statistics-2017-intl", "1902622413633196032", "statistics-2018-intl"]);
+const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl", "2017Intl_EM", "physics-c-em-2017-intl", "1902622410881732608", "microeconomics-2018-intl", "1902622410416164864", "microeconomics-2017-intl", "1902622418683138048", "microeconomics-2019-intl", "1902622419140317184", "microeconomics-2021-intl", "statistics-2017-intl", "1902622413633196032", "statistics-2018-intl", "1902622414081986560", "statistics-2019-intl"]);
 const TRUNK_CONTRACT_PATHS = {
   'calc-bc-2018-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2017-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
@@ -432,7 +441,8 @@ const TRUNK_CONTRACT_PATHS = {
   'microeconomics-2019-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
   'microeconomics-2021-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
   'statistics-2017-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json',
-  'statistics-2018-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json'
+  'statistics-2018-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json',
+  'statistics-2019-intl': '/v2/data/contracts/ap-statistics-trunk-contract.json'
 };
 const CALC_BC_TRUNK_CONTRACT_PATH = TRUNK_CONTRACT_PATHS['calc-bc-2018-intl'];
 
@@ -473,6 +483,9 @@ function getBranchMappingPath() {
   }
   if (examIdStr === "1902622413633196032" || examIdStr === "statistics-2018-intl") {
     return "/v2/data/statistics-2018-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "1902622414081986560" || examIdStr === "statistics-2019-intl") {
+    return "/v2/data/statistics-2019-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -1386,79 +1399,84 @@ function render() {
   scrollCurrentChipIntoView();
 }
 
-function renderFrqImages(partAnswers, part) {
-  const imgs = partAnswers && partAnswers[`${part}_images`];
-  if (!imgs || !imgs.length) return '';
-  return imgs.map((src, i) =>
-    `<div class="frq-img-wrap">
-      <img src="${src}" alt="Answer image ${i+1}">
-      <button class="frq-img-remove" data-action="remove-frq-img" data-part="${part}" data-index="${i}" type="button">✕</button>
-    </div>`
-  ).join('');
-}
+function renderFRQSubParts(question) {
+  // Try to find sub-parts from the question's _frqParts field (if merged)
+  let parts = question._frqParts;
 
-function renderFRQResponsePane(question, answer) {
-  // Parse answer as JSON object with sub-part keys, or fallback to string
-  let partAnswers = {};
-  if (typeof answer === 'object' && answer !== null) {
-    partAnswers = answer;
-  }
+  // If not available, try to parse from prompt text
+  if (!parts) {
+    const prompt = question.prompt || '';
+    // Look for (a), (b), etc. patterns
+    const regex = /\(([a-f])\)\s*/gi;
+    const matches = [...prompt.matchAll(regex)];
+    if (matches.length === 0) return '';
 
-  const PARTS = ['a', 'b', 'c', 'd', 'e', 'f'];
-
-  // Detect which parts exist in the prompt text
-  const prompt = question.prompt || '';
-  const foundParts = [];
-  for (const p of PARTS) {
-    const regex = new RegExp(`\\(\\s*${p}\\s*\\)`, 'i');
-    if (regex.test(prompt)) {
-      foundParts.push(p);
+    parts = [];
+    for (let i = 0; i < matches.length; i++) {
+      const letter = matches[i][1].toLowerCase();
+      const start = matches[i].index + matches[i][0].length;
+      const end = i < matches.length - 1 ? matches[i + 1].index : prompt.length;
+      const text = prompt.substring(start, end).trim();
+      parts.push({ id: letter, text });
     }
   }
 
-  // If no parts detected, default to 4 parts (a-d)
-  const parts = foundParts.length > 0 ? foundParts : ['a', 'b', 'c', 'd'];
-
-  const partLabels = {
-    a: '(a)', b: '(b)', c: '(c)', d: '(d)', e: '(e)', f: '(f)'
-  };
+  if (!parts || parts.length === 0) return '';
 
   return `
-    <aside class="response-pane">
+    <div class="frq-parts">
+      ${parts.map((p, i) => `
+        <div class="frq-part-block ${i > 0 ? 'is-collapsed' : ''}" data-part="${p.id}">
+          <div class="frq-part-header" data-action="toggle-frq-part" data-part="${p.id}">
+            <span class="frq-part-label">
+              <span class="frq-part-badge">${p.id.toUpperCase()}</span>
+              Part (${p.id})
+            </span>
+            <span class="frq-part-toggle">${i > 0 ? '▸ 展开' : '▾ 收起'}</span>
+          </div>
+          <div class="frq-part-text">${formatText(p.text || 'No sub-part text available')}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderFRQResponsePane(question, answer) {
+  // File upload area for FRQ
+  const qid = question.id || '';
+  const uploadKey = `frq-upload-${qid}`;
+  const savedFiles = (typeof answer === 'object' && answer !== null && answer._files) ? answer._files : [];
+
+  return `
+    <aside class="response-pane frq-upload-pane">
       <div class="response-head">
-        <strong>FRQ Response</strong>
-        <span>Saved automatically</span>
+        <strong>Upload Answers</strong>
+        <span>拍照 / 上传作答</span>
       </div>
-      <div class="frq-parts">
-        ${parts.map((p, i) => {
-          const collapsed = i > 0 && !partAnswers[p];
-          return `
-            <div class="frq-part ${collapsed ? 'is-collapsed' : ''}" data-part="${p}">
-              <div class="frq-part-header" data-action="toggle-frq-part" data-part="${p}">
-                <span class="frq-part-label">Part ${partLabels[p]}</span>
-                <span class="frq-part-toggle">${collapsed ? '▸' : '▾'}</span>
-              </div>
-              <div class="frq-part-body">
-                <textarea
-                  class="frq-part-textarea"
-                  name="frq-${p}"
-                  data-part="${p}"
-                  placeholder="Write your response for part ${p.toUpperCase()}..."
-                  rows="4"
-                >${escapeHtml(String(typeof partAnswers[p] === 'string' ? partAnswers[p] : ''))}</textarea>
-                <div class="frq-image-area" data-part="${p}">
-                  <label class="frq-image-upload-btn">
-                    📷 Upload image
-                    <input type="file" accept="image/*" capture="environment" class="frq-image-input" data-part="${p}" style="display:none;">
-                  </label>
-                  <div class="frq-image-preview" data-part="${p}">
-                    ${renderFrqImages(partAnswers, p)}
-                  </div>
-                </div>
-              </div>
+      <div class="frq-upload-body">
+        <label class="frq-upload-zone" for="frq-file-input-${qid}">
+          <div class="frq-upload-icon">📎</div>
+          <div class="frq-upload-text">
+            <strong>点击上传或拖拽文件</strong>
+            <span>支持图片 (JPG/PNG) 或 PDF</span>
+          </div>
+          <input
+            type="file"
+            id="frq-file-input-${qid}"
+            class="frq-file-input"
+            accept="image/*,.pdf"
+            multiple
+            data-question-id="${qid}"
+          />
+        </label>
+        <div class="frq-uploaded-files" id="frq-files-${qid}">
+          ${savedFiles.map((f, i) => `
+            <div class="frq-file-item">
+              <span class="frq-file-name">${escapeHtml(f.name)}</span>
+              <span class="frq-file-size">${(f.size / 1024).toFixed(0)}KB</span>
             </div>
-          `;
-        }).join('')}
+          `).join('')}
+        </div>
       </div>
     </aside>
   `;
@@ -1495,7 +1513,8 @@ function renderExam() {
                     <div style="font-size:1.1rem;font-weight:600;color:var(--text);">FRQ 题目暂缺</div>
                     <div style="margin-top:0.5rem;font-size:0.9rem;">此题为自由作答部分（FRQ），题目内容尚未导入。<br>你可以跳过此题，或标记后回来补充。</div>
                   </div>`
-                : `<div class="question-text">${formatText(question.prompt)}</div>`}
+                : `<div class="question-text">${formatText(question.prompt)}</div>
+                   ${question.type === "frq" ? renderFRQSubParts(question) : ""}`}
               ${renderOptions(question, answer)}
             </div>
           </div>

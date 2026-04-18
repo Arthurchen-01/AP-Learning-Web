@@ -1,0 +1,618 @@
+{
+  "examId": "2019Intl",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2019Intl_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "$_{1}^{2}(4 x^{3}-x) d x=$\n(A) $27{2}$\n(B) 27\n(C) 36\n(D) 57",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Let $f$ be the function defined by $f(x)=x^{3}-3 x^{2}-9 x+11$. At which of the following values of $x$ does $f$ attain a local minimum?\n(A) 3\n(B) 1\n(C) -1\n(D) -3",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "$d{d x}(2( x)^{2})=$\n(A) $ 4  (1{2 x})$\n(B) $4  x  x$\n(C) $2  {x}{x}$\n(D) $2  {x  x}{x}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "The position of a particle is given by the parametric equations $x(t)= (t^{2}+1)$ and $y(t)=e^{3-t}$. What is the velocity vector at time $t=1$ ?\n(A) $ 1, e^{2}$\n(B) $ 1,-e^{2}$\n(C) $1{2}, e^{2}$\n(D) $1{2},-e^{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "$ _{n=1}^{} e^{n}{^{n}}$ is\n(A) ${-e}$\n(B) $e{-e}$\n(C) $e{  ({e})}$\n(D) divergent\n\n|$x$ & $f(x)$ & $f^{}(x)$ & $f^{ }(x)$ & $g(x)$ & $g^{}(x)$ & $g^{ }(x)$ \\\\ | 2 & 4 & -3 & 3 & -2 & 5 & 1 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "The table above gives values of the twice-differentiable functions $f$ and $g$ and their derivatives at $x=2$. If $h$ is the function defined by $h(x)=f^{(x)}{g(x)}$, what is the value of $h^{}(2)$ ?\n(A) $9{4}$\n(B) $3{5}$\n(C) $-3{2}$\n(D) $-21{4}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-7",
+      "number": 7,
+      "stem": "Which of the following is the Maclaurin series for $x  (x^{2})$ ?\n(A) $x-x^{5}{2!}+x^{9}{4!}-x^{13}{6!}+$\n(B) $x-x^{3}{2!}+x^{5}{4!}-x^{7}{6!}+$\n(C) $x^{3}-x^{7}{3!}+x^{11}{5!}-x^{15}{7!}+$\n(D) $x^{3}-x^{5}{3!}+x^{7}{5!}-x^{9}{7!}+$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-8",
+      "number": 8,
+      "stem": "$ _{x  } 10-6 x^{2}{5+3 e^{x}}$ is\n(A) -2\n(B) 0\n(C) 2\n(D) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-9",
+      "number": 9,
+      "stem": "The function $f$ is not differentiable at $x=5$. Which of the following statements must be true?\n(A) $f$ is not continuous at $x=5$.\n(B) $ _{x  5} f(x)$ does not exist.\n(C) $ _{x  5} f(x)-f(5){x-5}$ does not exist.\n(D) $_{0}^{5} f(x) d x$ does not exist.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-10",
+      "number": 10,
+      "stem": "The second derivative of a function $f$ is given by $f^{ }(x)=x(x-3)^{5}(x-10)^{2}$. At which of the following values of $x$ does the graph of $f$ have a point of inflection?\n(A) 3 only\n(B) 0 and 3 only\n(C) 3 and 10 only\n(D) 0, 3, and 10",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-11",
+      "number": 11,
+      "stem": "$_{0}^{} e^{x-1}{e^{x}-x} d x=$\n(A) $e^{}--1$\n(B) $  (e^{}-)-1$\n(C) $- $\n(D) $  (e^{}-)$\n\n|$x$ & 0 & 4 & 8 & 12 & 16 \\\\ |$f(x)$ & 8 & 0 & 2 & 10 & 1 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-12",
+      "number": 12,
+      "stem": "The table above gives selected values for the differentiable function $f$. In which of the following intervals must there be a number $c$ such that $f^{}(c)=2$ ?\n(A) $(0,4)$\n(B) $(4,8)$\n(C) $(8,12)$\n(D) $(12,16)$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-13",
+      "number": 13,
+      "stem": "Let $y=f(x)$ be the solution to the differential equation $d y{d x}=x+2 y$ with initial condition $f(0)=2$. What is the approximation for $f(-0.4)$ obtained by using Euler's method with two steps of equal length starting at $x=0$ ?\n(A) 0.76\n(B) 1.20\n(C) 1.29\n(D) 3.96",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-14",
+      "number": 14,
+      "stem": "What is the slope of the line tangent to the curve $x+y=2$ at the point $(9{4}, 1{4})$ ?\n(A) -3\n(B) $-1{3}$\n(C) 1\n(D) $4{3}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-15",
+      "number": 15,
+      "stem": "$_{1}^{} 6{(x+3)^{3 / 2}} d x$ is\n(A) $3{4}$\n(B) 3\n(C) 6\n(D) divergent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-16",
+      "number": 16,
+      "stem": "If $d y{d x}=2-y$, and if $y=1$ when $x=1$, then $y=$\n(A) $2-e^{x-1}$\n(B) $2-e^{1-x}$\n(C) $2-e^{-x}$\n(D) $2+e^{-x}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-17",
+      "number": 17,
+      "stem": "Which of the following series converges?\n(A) $_{n=1}^{}(-1)^{n}(1-n{n})$\n(B) $_{n=1}^{}(-1)^{n}(n+1{2 n})$\n(C) $ _{n=1}^{}(-1)^{n}(n^{2}{3 n})$\n(D) $_{n=1}^{}(-1)^{n}(2 {n}{n})$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-024.jpg?height=533&width=704&top_left_y=518&top_left_x=683"
+      ]
+    },
+    {
+      "id": "frq-18",
+      "number": 18,
+      "stem": "Let $R$ be the region in the first and second quadrants between the graphs of the polar curves $f()=3+3  $ and $g()=4+2  $, as shaded in the figure above. Which of the following integral expressions gives the area of $R$ ?\n(A) $_{-2}^{6}(g()-f()) d $\n(B) $_{0}^{}(g()-f()) d $\n(C) $1{2} _{0}^{}(g()-f())^{2} d $\n(D) $1{2} _{0}^{}((g())^{2}-(f())^{2}) d $",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-19",
+      "number": 19,
+      "stem": "Which of the following statements about the series $_{n=1}^{} (-1)^{n n}{n^{2}+1}$ is true?\n(A) The series can be shown to diverge by comparison with $_{n=1}^{} 1{n}$.\n(B) The series can be shown to diverge by limit comparison with $_{n=1}^{} 1{n}$.\n(C) The series can be shown to converge by comparison with $_{n=1}^{} 1{n^{2}}$.\n(D) The series can be shown to converge by the alternating series test.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-20",
+      "number": 20,
+      "stem": "If $_{1}^{4} f(x) d x=8$ and $_{1}^{4} g(x) d x=-2$, which of the following cannot be determined from the information given?\n(A) $_{4}^{1} g(x) d x$\n(B) $_{1}^{4} 3 f(x) d x$\n(C) $_{1}^{4} 3 f(x) g(x) d x$\n(D) $_{1}^{4}(3 f(x)+g(x)) d x$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-21",
+      "number": 21,
+      "stem": "Which of the following is the interval of convergence for the series $_{n=1}^{} (x+4)^{n}{n  5^{n+1}}$ ?\n(A) $[-9,1)$\n(B) $[-5,5)$\n(C) $[1,9)$\n(D) $(-, )$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-22",
+      "number": 22,
+      "stem": "What is the slope of the line tangent to the polar curve $r=3 $ at the point where $={2}$ ?\n(A) $-{2}$\n(B) $-2{}$\n(C) 0\n(D) 3",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-23",
+      "number": 23,
+      "stem": "The definite integral $_{0}^{4} x d x$ is approximated by a left Riemann sum, a right Riemann sum, and a trapezoidal sum, each with 4 subintervals of equal width. If $L$ is the value of the left Riemann sum, $R$ is the value of the right Riemann sum, and $T$ is the value of the trapezoidal sum, which of the following inequalities is true?\n(A) $L<_{0}^{4} x d x<T<R$\n(B) $L<T<_{0}^{4} x d x<R$\n(C) $R<_{0}^{4} x d x<T<L$\n(D) $R<T<_{0}^{4} x d x<L$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-029.jpg?height=728&width=889&top_left_y=520&top_left_x=589"
+      ]
+    },
+    {
+      "id": "frq-24",
+      "number": 24,
+      "stem": "The graph of the piecewise linear function $f$ is shown above. What is the value of $_{0}^{12} f^{}(x) d x$ ?\n(A) -8\n(B) -6\n(C) 0\n(D) 22",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-25",
+      "number": 25,
+      "stem": "The function $f$ has a continuous derivative. If $f(0)=1, f(2)=5$, and $_{0}^{2} f(x) d x=7$, what is $_{0}^{2} x  f^{}(x) d x$ ?\n(A) 3\n(B) 6\n(C) 10\n(D) 17",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-26",
+      "number": 26,
+      "stem": "Which of the following series are conditionally convergent?\nI. $_{n=1}^{} (-1)^{n}{n!}$\nII. $_{n=1}^{} (-1)^{n}{n}$\nIII. $_{n=1}^{} (-1)^{n}{n+2}$\n(A) I only\n(B) II only\n(C) II and III only\n(D) I, II, and III",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-27",
+      "number": 27,
+      "stem": "Let $R$ be the region in the first quadrant bounded by the graph of $y=x-1$, the $x$-axis, and the vertical line $x=10$. Which of the following integrals gives the volume of the solid generated by revolving $R$ about the $y$-axis?\n(A) $ _{1}^{10}(x-1) d x$\n(B) $  _{1}^{10}(100-(x-1)) d x$\n(C) $ _{0}^{3}(10-(y^{2}+1))^{2} d y$\n(D) $ _{0}^{3}(100-(y^{2}+1)^{2}) d y$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-28",
+      "number": 28,
+      "stem": "If $d x{d t}=5$ and $d y{d t}= (t^{2})$, then $d^{2 y}{d x^{2}}$ is\n(A) $2 t  (t^{2})$\n(B) $2 t  (t^{2)}{5}$\n(C) $2 t  (t^{2)}{25}$\n(D) undefined",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-29",
+      "number": 29,
+      "stem": "Which of the following expressions is equal to $ _{n  } 1{n}(1{2+1{n}}+1{2+2{n}}+1{2+3{n}}++1{2+n{n}})$ ?\n(A) $_{1}^{2} 1{x} d x$\n(B) $_{0}^{1} 1{2+x} d x$\n(C) $_{0}^{2} 1{2+x} d x$\n(D) $_{2}^{3} 1{2+x} d x$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-30",
+      "number": 30,
+      "stem": "A function $f$ has a Maclaurin series given by $2+3 x+x^{2}+1{3} x^{3}+$, and the Maclaurin series converges to $f(x)$ for all real numbers $x$. If $g$ is the function defined by $g(x)=e^{f(x)}$, what is the coefficient of $x^{2}$ in the Maclaurin series for $g$ ?\n(A) $1{2} e^{2}$\n(B) $e^{2}$\n(C) $5{2} e^{2}$\n(D) $11{2} e^{2}$\n\nEND OF PART A\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.\n\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ ).",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-036.jpg?height=483&width=712&top_left_y=482&top_left_x=680"
+      ]
+    },
+    {
+      "id": "frq-76",
+      "number": 76,
+      "stem": "The function $f$ is continuous on the closed interval $[0,5]$. The graph of $f^{}$, the derivative of $f$, is shown above. On which of the following intervals is $f$ increasing?\n(A) $[0,1]$ and $[2,4]$\n(B) $[0,1]$ and $[3,5]$\n(C) $[0,1]$ and $[4,5]$ only\n(D) $[0,2]$ and $[4,5]$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-77",
+      "number": 77,
+      "stem": "If $d y{d t}=6 e^{-0.08(t-5)^{2}}$, by how much does $y$ change as $t$ changes from $t=1$ to $t=6$ ?\n(A) 3.870\n(B) 8.341\n(C) 18.017\n(D) 22.583\n\n { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B }$}",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-78",
+      "number": 78,
+      "stem": "The function $f$ has the property that $ _{x  1^{-}} f(x)=+,  _{x  1^{+}} f(x)=-,  _{x -} f(x)=2$, and $ _{x +} f(x)=2$. Of the following, which could be the graph of $f$ ?\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B }$}",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=649&width=650&top_left_y=660&top_left_x=315",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=649&width=645&top_left_y=660&top_left_x=1181",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=652&width=645&top_left_y=1379&top_left_x=315",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-037.jpg?height=648&width=645&top_left_y=1379&top_left_x=1181"
+      ]
+    },
+    {
+      "id": "frq-79",
+      "number": 79,
+      "stem": "Tara's heart rate during a workout is modeled by the differentiable function $h$, where $h(t)$ is measured in beats per minute and $t$ is measured in minutes from the start of the workout. Which of the following expressions gives Tara's average heart rate from $t=30$ to $t=60$ ?\n(A) $_{30}^{60} h(t) d t$\n(B) $1{30} _{30}^{60} h(t) d t$\n(C) $1{30} _{30}^{60} h^{}(t) d t$\n(D) $h^{(30)+h^{}(60)}{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-80",
+      "number": 80,
+      "stem": "The function $f$ has derivatives of all orders for all real numbers with $f(2)=-1, f^{}(2)=4, f^{ }(2)=6$, and $f^{  }(2)=12$. Using the third-degree Taylor polynomial for $f$ about $x=2$, what is the approximation of $f(2.1)$ ?\n(A) -0.570\n(B) -0.568\n(C) -0.566\n(D) -0.528",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-81",
+      "number": 81,
+      "stem": "Let $f$ be a function with derivative given by $f^{}(x)=x^{3+1}$. What is the length of the graph of $y=f(x)$ from $x=0$ to $x=1.5$ ?\n(A) 4.266\n(B) 2.497\n(C) 2.278\n(D) 1.976",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-82",
+      "number": 82,
+      "stem": "Let $h$ be a continuous function of $x$. Which of the following could be a slope field for a differential equation of the form $d y{d x}=h(x)$ ?\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B } &  { B }$}\n\nf(x)= k^{3}+x &  { for } x<3 \\\\ 16{k^{2}-x} &  { for } x  3",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=520&width=524&top_left_y=680&top_left_x=315",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=522&width=522&top_left_y=678&top_left_x=1062",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=524&width=519&top_left_y=1274&top_left_x=315",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-040.jpg?height=524&width=522&top_left_y=1274&top_left_x=1062"
+      ]
+    },
+    {
+      "id": "frq-83",
+      "number": 83,
+      "stem": "Let $f$ be the function defined above, where $k$ is a positive constant. For what value of $k$, if any, is $f$ continuous?\n(A) 2.081\n(B) 2.646\n(C) 8.550\n(D) There is no such value of $k$.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-041.jpg?height=460&width=456&top_left_y=1283&top_left_x=808"
+      ]
+    },
+    {
+      "id": "frq-84",
+      "number": 84,
+      "stem": "Let $f$ be a differentiable function. The figure above shows the graph of the line tangent to the graph of $f$ at $x=0$. Of the following, which must be true?\n(A) $f^{}(0)=-f(0)$\n(B) $f^{}(0)<f(0)$\n(C) $f^{}(0)=f(0)$\n(D) $f^{}(0)>f(0)$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-85",
+      "number": 85,
+      "stem": "A referee moves along a straight path on the side of an athletic field. The velocity of the referee is given by $v(t)=4(t-6)  (2 t+5)$, where $t$ is measured in minutes and $v(t)$ is measured in meters per minute. What is the total distance traveled by the referee, in meters, from time $t=2$ to time $t=6$ ?\n(A) 3.933\n(B) 14.578\n(C) 21.667\n(D) 29.156",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-043.jpg?height=595&width=992&top_left_y=468&top_left_x=539"
+      ]
+    },
+    {
+      "id": "frq-86",
+      "number": 86,
+      "stem": "The graph of the function $f$ shown above consists of three line segments. Let $h$ be the function defined by $h(x)=_{0}^{x} f(t) d t$. At what value of $x$ does $h$ attain its absolute maximum on the interval $[-4,3]$ ?\n(A) -4\n(B) -2\n(C) 0\n(D) 3",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-87",
+      "number": 87,
+      "stem": "The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=e^{-t}$ and $y(t)= (4 t)$ for time $t  0$. What is the speed of the particle at time $t=1.2$ ?\n(A) 1.162\n(B) 1.041\n(C) 0.462\n(D) 0.221",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-88",
+      "number": 88,
+      "stem": "Let $f$ be the function defined by $f(x)=1{4} x^{4}-2{3} x^{3}+1{2} x^{2}-1{2} x$. For how many values of $x$ in the open interval ( $0,1.565$ ) is the instantaneous rate of change of $f$ equal to the average rate of change of $f$ on the closed interval $[0,1.565]$ ?\n(A) Zero\n(B) One\n(C) Three\n(D) Four",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-89",
+      "number": 89,
+      "stem": "The population $P$ of rabbits on a small island grows at a rate that is jointly proportional to the size of the rabbit population and the difference between the rabbit population and the carrying capacity of the population. If the carrying capacity of the population is 2400 rabbits, which of the following differential equations best models the growth rate of the rabbit population with respect to time $t$, where $k$ is a constant?\n(A) $d P{d t}=2400-k P$\n(B) $d P{d t}=k(2400-P)$\n(C) $d P{d t}=k 1{P}(2400-P)$\n(D) $d P{d t}=k P(2400-P)$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-045.jpg?height=305&width=310&top_left_y=1555&top_left_x=881"
+      ]
+    },
+    {
+      "id": "frq-90",
+      "number": 90,
+      "stem": "A region is bounded by two concentric circles, as shown by the shaded region in the figure above. The radius of the outer circle, $R$, is increasing at a constant rate of 2 inches per second. The radius of the inner circle, $r$, is decreasing at a constant rate of 1 inch per second. What is the rate of change, in square inches per second, of the area of the region at the instant when $R$ is 4 inches and $r$ is 3 inches?\n(A) $3 $\n(B) $6 $\n(C) $10 $\n(D) $22 $\n\nEND OF SECTION I\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO  6\nPercent of Total Score 50%\n\nEither pencil or pen with black or dark blue ink\n\nThe questions are weighted equally, but the parts of a question are not necessarily given equal weight.\n\nNumber of Questions 2\nTime\n30 minutes\n\nGraphing calculator required\n\n33.33%\n\nNumber of Questions 4\nTime\n1 hour\nElectronic Device\nNone allowed\nPercent of Section II Score 66.67%",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "First two letters of your last name\n\nFirst letter of your first name □",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=64&width=95&top_left_y=731&top_left_x=1146"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Date of birth",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=63&width=99&top_left_y=904&top_left_x=735",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=72&width=99&top_left_y=904&top_left_x=845",
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=81&width=186&top_left_y=904&top_left_x=959"
+      ]
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Six-digit school code",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-047.jpg?height=65&width=275&top_left_y=1041&top_left_x=737"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □\n\nThe questions for Section II are printed in this booklet. Do not break the seals on Part B until you are told to do so. Write your solution to each part of each question in the space provided. Write clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be scored.\n\nManage your time carefully. During Part A, work only on the questions in Part A. You are permitted to use your calculator to solve an equation, find the derivative of a function at a point, or calculate the value of a definite integral. However, you must clearly indicate the setup of your question, namely the equation, function, or integral you are using. If you use other built-in features or programs, you must show the mathematical steps necessary to produce your results. During Part B, you may continue to work on the questions in Part A without the use of a calculator.\n\nAs you begin each part, you may wish to look over the questions before starting to work on them. It is not expected that everyone will be able to complete all parts of all questions.\n- Show all of your work, even though a question may not explicitly remind you to do so. Clearly label any functions, graphs, tables, or other objects that you use. Justifications require that you give mathematical reasons, and that you verify the needed conditions under which relevant theorems, properties, definitions, or tests are applied. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit.\n- Your work must be expressed in standard mathematical notation rather than calculator syntax. For example, $_{1}^{5} x^{2} d x$ may not be written as $fnInt(X^{2}, X, 1,5)$.\n- Unless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n- Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n\n \\\\ SECTION II, Part A \\\\  \\\\ Number of questions-2\n\nA GRAPHING CALCULATOR IS REQUIRED FOR THESE QUESTIONS.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "The rate at which cars enter a parking lot is modeled by $E(t)=30+5(t-2)(t-5) e^{-0.2 t}$. The rate at which cars leave the parking lot is modeled by the differentiable function $L$. Selected values of $L(t)$ are given in the table above. Both $E(t)$ and $L(t)$ are measured in cars per hour, and time $t$ is measured in hours after 5 A.M. $(t=0)$. Both functions are defined for $0  t  12$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "What is the rate of change of $E(t)$ at time $t=7$ ? Indicate units of measure."
+        },
+        {
+          "id": "b",
+          "text": "How many cars enter the parking lot from time $t=0$ to time $t=12$ ? Give your answer to the nearest whole number.\n\n1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1$}"
+        },
+        {
+          "id": "c",
+          "text": "Use a trapezoidal sum with the four subintervals indicated by the data in the table to approximate $_{2}^{12} L(t) d t$. Using correct units, explain the meaning of $_{2}^{12} L(t) d t$ in the context of this problem."
+        },
+        {
+          "id": "d",
+          "text": "For $0  t<6,5$ dollars are collected from each car entering the parking lot. For $6  t  12,8$ dollars are collected from each car entering the parking lot. How many dollars are collected from the cars entering the parking lot from time $t=0$ to time $t=12$ ? Give your answer to the nearest whole dollar."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-051.jpg?height=643&width=714&top_left_y=392&top_left_x=689"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "A laser is a device that produces a beam of light. A design, shown above, is etched onto a flat piece of metal using a moving laser. The position of the laser at time $t$ seconds is represented by $(x(t), y(t))$ in the $x y$-plane. Both $x$ and $y$ are measured in centimeters, and $t$ is measured in seconds. The laser starts at position ( 0,0 ) at time $t=0$, and the design takes 3.1 seconds to complete. For $0  t  3.1, d x{d t}=3  (t^{2})$ and $d y{d t}=4  (2.5 t)$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the speed of the laser at time $t=3$ seconds."
+        },
+        {
+          "id": "b",
+          "text": "Find the total distance traveled by the laser from time $t=1$ to time $t=3$ seconds."
+        },
+        {
+          "id": "c",
+          "text": "The laser is farthest to the right at time $t=1.253$ seconds. Find the $x$-coordinate of the laser's rightmost position."
+        },
+        {
+          "id": "d",
+          "text": "What is the difference between the $y$-coordinates of the laser's highest position and lowest position for $0  t  3.1$ ? Justify your answer.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-1 hour \\\\ Number of questions-4\n\n\nNO CALCULATOR IS ALLOWED FOR THESE QUESTIONS.\n\nDO NOT BREAK THE SEALS UNTIL YOU ARE TOLD TO DO SO.\n\n\nf(x)= 9-x^{2} &  { for }-3  x  0 \\\\ -x+3  ( x{2}) &  { for } 0<x  4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Let $f$ be the function defined above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the average rate of change of $f$ on the interval $-3  x  4$."
+        },
+        {
+          "id": "b",
+          "text": "Write an equation for the line tangent to the graph of $f$ at $x=3$."
+        },
+        {
+          "id": "c",
+          "text": "Find the average value of $f$ on the interval $-3  x  4$."
+        },
+        {
+          "id": "d",
+          "text": "Must there be a value of $x$ at which $f(x)$ attains an absolute maximum on the closed interval $-3  x  4$ ? Justify your answer.\n\n\n\n\nGraph of $f$"
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-057.jpg?height=796&width=963&top_left_y=443&top_left_x=566"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "The continuous function $f$ is defined for $-4  x  4$. The graph of $f$, shown above, consists of two line segments and portions of three parabolas. The graph has horizontal tangents at $x=-1{2}, x=1{2}$, and $x=5{2}$. It is known that $f(x)=-x^{2}+5 x-4$ for $1  x  4$. The areas of regions $A$ and $B$ bounded by the graph of $f$ and the $x$-axis are 3 and 5, respectively. Let $g$ be the function defined by $g(x)=_{-4}^{x} f(t) d t$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find $g(0)$ and $g(4)$."
+        },
+        {
+          "id": "b",
+          "text": "Find the absolute minimum value of $g$ on the closed interval $[-4,4]$. Justify your answer."
+        },
+        {
+          "id": "c",
+          "text": "Find all intervals on which the graph of $g$ is concave down. Give a reason for your answer."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d51e4bab-0060-4770-8109-67b0dfbf5a2e-059.jpg?height=666&width=622&top_left_y=438&top_left_x=735"
+      ]
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "The graph of the curve $C$, given by $4 x^{2}+3 y^{2}+6 y=9$, is shown in the figure above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Show that $d y{d x}=-4 x{3(y+1)}$."
+        },
+        {
+          "id": "b",
+          "text": "Using the information from part (a), find $d^{2 y}{d x^{2}}$ in terms of $x$ and $y$."
+        },
+        {
+          "id": "c",
+          "text": "In polar coordinates, the curve $C$ is given by $r=3{2+ }$ for $0    2 $. Find $d r{d }$.\n\nAs $$ increases, on what intervals is the distance between the origin and the point $(r, )$ increasing?\nGive a reason for your answer."
+        },
+        {
+          "id": "d",
+          "text": "Let $S$ be the region inside curve $C$, as defined in part (c), but outside the curve $r=2$. Write, but do not evaluate, an integral expression for the area of $S$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "Consider the series $_{n=1}^{} (-1)^{n+1(x-3)^{n}}{5^{n}  n^{p}}$, where $p$ is a constant and $p>0$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "For $p=3$ and $x=8$, does the series converge absolutely, converge conditionally, or diverge? Explain your reasoning."
+        },
+        {
+          "id": "b",
+          "text": "For $p=1$ and $x=8$, does the series converge absolutely, converge conditionally, or diverge? Explain your reasoning."
+        },
+        {
+          "id": "c",
+          "text": "When $x=-2$, for what values of $p$ does the series converge? Explain your reasoning."
+        },
+        {
+          "id": "d",
+          "text": "When $p=1$ and $x=3.1$, the series converges to a value $S$. Use the first two terms of the series to approximate $S$. Use the alternating series error bound to show that this approximation differs from $S$ by less than $1{300,000}$.\n\nSTOP\nEND OF EXAM\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN THE BOX ON THE FRONT COVER.\n- MAKE SURE YOU HAVE USED THE SAME SET OF AP NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN THIS YEAR.\n\n\nAnswer Key for AP Calculus BC \\\\ Practice Exam, Section I\n\n\nQuestion 1: A\nQuestion 2: A\nQuestion 3: D\nQuestion 4: B\nQuestion 5: B\nQuestion 6: A\nQuestion 7: A\nQuestion 8: B\nQuestion 9: C\nQuestion 10: B\nQuestion 11: D\nQuestion 12: C\nQuestion 13: A\nQuestion 14: B\nQuestion 15: C\nQuestion 16: B\nQuestion 17: D\nQuestion 18: D\nQuestion 19: D\nQuestion 20: C\nQuestion 21: A\nQuestion 22: B\nQuestion 23: B\nQuestion 24: A\nQuestion 25: A\nQuestion 26: C\nQuestion 27: D\nQuestion 28: C\nQuestion 29: B\nQuestion 30: D\n\nQuestion 76: D\nQuestion 77: D\nQuestion 78: C\nQuestion 79: B\nQuestion 80: B\nQuestion 81: B\nQuestion 82: A\nQuestion 83: A\nQuestion 84: C\nQuestion 85: C\nQuestion 86: A\nQuestion 87: C\nQuestion 88: C\nQuestion 89: D\nQuestion 90: D\n\n\nQuestion 1\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Correct. This question involves using the basic power rule for antidifferentiation and correctly substituting the endpoints and evaluating, as follows. _{1}^{2}(4 x^{3}-x) d x=x^{4}-.{2} x^{2}|_{1} ^{2}=(16-2)-(1-{2})=14-{2}={2} \\\\ | (B) & Incorrect. This response would result if the antidifferentiation was not done and the endpoints were substituted directly into the integrand, as follows. 4 x^{3}-.x|_{1} ^{2}=(32-2)-(4-1)=30-3=27 \\\\ | (C) & Incorrect. This response would result if the integrand was differentiated rather than antidifferentiated, as follows. 12 x^{2}-.1|_{1} ^{2}=(48-1)-(12-1)=47-11=36 \\\\ | (D) & Incorrect. This response would result if the powers of $x$ were not divided by the new exponent when the power rule for antiderivatives was applied, as follows. 4 x^{4}-.x^{2}|_{1} ^{2}=(64-4)-(4-1)=60-3=57 \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.D & FUN-4.A \\\\ | (A) & {l} Correct. A local minimum for $f$ will occur where the derivative $f^{}$ changes sign from negative to positive. f^{}(x)=3 x^{2}-6 x-9=3(x^{2}-2 x-3)=3(x+1)(x-3) \\\\ The zeros of $f^{}$ are at $x=-1$ and $x=3$. A sign chart shows that $f^{}$ changes from negative to positive at $x=3$. Another way to see this is to observe that the graph of $f^{}$ is a parabola opening up so that the graph crosses the $x$-axis from negative to positive at the larger zero, $x=3$. \\\\\n(B) & Incorrect. This is a zero of the second derivative $f^{ }(x)=6 x-6=6(x-1)$ where $f^{ }$ changes sign from negative to positive. Therefore, $x=1$ is a point of inflection of the graph of $f$, not the location of a local minimum. This response might also have been chosen if the derivative had been incorrectly factored as $3(x-1)(x+3)$. Then $x=1$ is a zero of this expression where the sign changes from negative to positive. \\\\\n(C) & Incorrect. This is a zero of the derivative $f^{}$ where $f^{}$ changes sign from positive to negative. Therefore, $x=-1$ is the location of a local maximum of $f$, not a local minimum. \\\\\n(D) & Incorrect. This response might have been chosen if the derivative had been incorrectly factored as $3(x-1)(x+3)$ and the zero where the derivative changes sign from positive to negative was selected. \\\\\ntable\n\nQuestion 3\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-3.C \\\\ | (A) & Incorrect. This response might come from incorrectly applying the chain rule twice as ${d x}(f(g(x)))=f^{}(g^{}(x))$, as follows. {d x}(2( )^{2})=2 (2 {d x}( ))=2 2 ({d x}())=4 ({2 }) \\\\ | (B) & Incorrect. This response might come from correctly applying the chain rule the first time but not the second, as follows. {d x}(2( )^{2})=2 2( ) {d x}( )=2 2( ) \\\\ | (C) & Incorrect. This response might come from using the chain rule only once, with the innermost \"inside\" function, $$, as follows. {d x}(2( )^{2})=2 2( ) {d x}()=2 2( ) {2 } \\\\ | (D) & {l} Correct. The chain rule must be used twice for this composition of three functions. {d x}(2( )^{2})=2 2( ) ({d x}( )) \\\\ $=2 2( ) ( {d x}()) & =2 2( ) \\\\ & = }{} \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-8.B \\\\ | (A) & Incorrect. This response would result if the chain rule was not used during the differentiation of the $y(t)$ component of the position vector resulting in the loss of the negative sign, as follows. v(t)={d t} (t^{2}+1), {d t} e^{3-t}={t^{2}+1}, e^{3-t} v(1)= 1, e^{2} \\\\ | (B) & Correct. The components of the velocity vector are the derivatives of the components of the position vector. v(t)={d t} (t^{2}+1), {d t} e^{3-t}={t^{2}+1},-e^{3-t} v(1)= 1,-e^{2} \\\\ | (C) & Incorrect. This response would result if the chain rule was not used during the differentiation of both components of the position vector, as follows. v(t)={d t} (t^{2}+1), {d t} e^{3-t}={t^{2}+1}, e^{3-t} v(1)={2}, e^{2} \\\\ | (D) & Incorrect. This response would result if the chain rule was not used during the differentiation of the $x(t)$ component of the position vector, as follows. v(t)={d t} (t^{2}+1), {d t} e^{3-t}={t^{2}+1},-e^{3-t} v(1)={2},-e^{2} \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.D & LIM-7.A \\\\ | (A) & Incorrect. This response might be chosen if the series is correctly identified as a convergent geometric series with common ratio $r={}$, but the first term was taken to be 1 rather than ${}$, resulting in ${1-r}={1-{}}={-e}$. \\\\ | (B) & Correct. The series is a geometric series with first term $a={}$ and common ratio $r={}$. Since this ratio is less than 1 , the series converges to ${1-r}={}}{1-{}}={-e}$. \\\\ | (C) & Incorrect. The sum of the series might have been taken to be the value of the definite integral used in performing the integral test for convergence. Let $f(x)=({})^{x}$. & _{1}^{} f(x) d x=_{1}^{}({})^{x} d x= _{b } _{1}^{b}({})^{x} d x=. _{b } {})^{x}}{ ({})}|_{1} ^{b} \\\\ & = _{b }({})^{b}}{ ({})}-{}}{ ({})})=0-{}}{ ({})}={}}{- ({})}={ ({e})} \\\\ | (D) & Incorrect. This response might be chosen if the series is correctly identified as a geometric series with common ratio $r={}$, but the ratio is thought to be greater than 1 . \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-3.B \\\\ | (A) & {l} Correct. The derivative of $h$ is found by using the quotient rule. h^{}(x)=(x) g(x)-f^{}(x) g^{}(x)}{(g(x))^{2}} \\\\ The values for the functions and derivatives at $x=2$ are obtained from the table. h^{}(2)=(2) g(2)-f^{}(2) g^{}(2)}{(g(2))^{2}}={(-2)^{2}}={4}={4} \\\\\n(B) & Incorrect. This response would result if the derivative of a quotient was taken to be the quotient of the derivatives, as follows.\n\nh^{}(x)=f^{ (x)}{g^{}(x)}  h^{}(2)=f^{ (2)}{g^{}(2)}=3{5}\n \\\\\n(C) & Incorrect. This response comes from only differentiating the numerator in the quotient, as follows.\n\nh^{}(x)=f^{ (x)}{g(x)}  h^{}(2)=f^{ (2)}{g(2)}=3{-2}=-3{2}\n \\\\\n(D) & Incorrect. This response would result if the terms in the numerator were added rather than subtracted in the quotient rule, as follows.\n\nh^{}(x)=f^{ (x) g(x)+f^{}(x) g^{}(x)}{(g(x))^{2}}  h^{}(2)=(3)(-2)+(-3)(5){(-2)^{2}}=-6-15{4}=-21{4}\n \\\\\ntable\n\n\n| Skill & Learning Objective \\\\ | 2.C & LIM-8.G \\\\ | (A) & Correct. Beginning with the Maclaurin series for $ x, x^{2}$ is substituted to obtain the Maclaurin series for $ (x^{2})$. This series is then multiplied term-by-term by $x$. & x=1-}{2!}+}{4!}-}{6!}+ \\\\ & (x^{2})=1-)^{2}}{2!}+)^{4}}{4!}-)^{6}}{6!}+=1-}{2!}+}{4!}-}{6!}+ \\\\ & x (x^{2})=x(1-}{2!}+}{4!}-}{6!}+)=x-}{2!}+}{4!}-}{6!}+ \\\\ | (B) & Incorrect. This response would result if the Maclaurin series for $ x$ was used, but there was no substitution of $x^{2}$ before multiplication by $x$. & x=1-}{2!}+}{4!}-}{6!}+ \\\\ & x x=x(1-}{2!}+}{4!}-}{6!}+)=x-}{2!}+}{4!}-}{6!}+ \\\\ | (C) & Incorrect. This response would result if the Maclaurin series for $ x$ was used instead of the series for $ x$. & x=x-}{3!}+}{5!}-}{7!}+ \\\\ & (x^{2})=(x^{2})-)^{3}}{3!}+)^{5}}{5!}-)^{7}}{7!}+=x^{2}-}{3!}+}{5!}-}{7!}+ \\\\ & x (x^{2})=x(x^{2}-}{3!}+}{5!}-}{7!}+)=x^{3}-}{3!}+}{5!}-}{7!}+ \\\\ | (D) & Incorrect. This response would result if the Maclaurin series for $ x$ was used, and the series was multiplied by $x^{2}$. & x=x-}{3!}+}{5!}-}{7!}+ \\\\ & x^{2} x=x^{2}(x-}{3!}+}{5!}-}{7!}+)=x^{3}-}{3!}+}{5!}-}{7!}+ \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 2.B & LIM-2.D \\\\ | (A) & Incorrect. This response might come from treating the problem like the limit of a rational function as $x$ goes to infinity when the numerator and denominator are polynomials of the same degree. If only the coefficients of the $x^{2}$ term and the $e^{x}$ term are considered, it might be thought that the limit would be ${3}=-2$. \\\\ | (B) & Correct. The numerator of $}{5+3 e^{x}}$ is a translated power function and the denominator is a translated exponential function. Since the exponential function $e^{x}$ grows faster than the power function $x^{2}$, the relative magnitude of the denominator compared to the numerator will result in this expression converging to 0 as $x$ goes to infinity. \\\\ | (C) & Incorrect. This response might come from treating the problem like the limit of a rational function as $x$ goes to $$. If only the constant terms are considered, it might be thought that the limit would be ${5}=2$. \\\\ | (D) & Incorrect. It might be thought that the limit is nonexistent since the numerator goes to $-$ and the denominator goes to $+$ as $x$ goes to infinity, but this does not take into account the relative magnitude of the exponential function in the denominator compared to the quadratic term in the numerator as $x$ gets larger. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.B \\\\ | (A) & Incorrect. This statement could be false. A function can be continuous at a point without it being differentiable at that point. For example, $f(x)=|x-5|$ is continuous at $x=5$ but not differentiable there. \\\\ | (B) & Incorrect. This statement could be false. For example, if $f(x)=|x-5|$, then $f$ is not differentiable at $x=5$ but $ _{x 5} f(x)=0$. \\\\ | (C) & Correct. The expression $ _{x 5} {x-5}$ is one form of the definition of the derivative of $f$ at $x=5$. Since $f$ is not differentiable at $x=5$, however, this limit does not exist. \\\\ | (D) & Incorrect. This statement could be false. The definite integral can be found if $f$ is continuous even if $f$ is not differentiable at one of the endpoints. For example, if $f(x)=|x-5|$, then $f$ is not differentiable at $x=5$ but $_{0}^{5} f(x) d x={2}(5)(5)={2}$. \\\\ |\n\n\nQuestion 10\n\n| Skill & & Learning Objective & Topic \\\\ | 2.B & FUN-4.A & Determining Concavity of Functions over Their Domains \\\\ | (A) & Incorrect. This response would result if the change of sign of the second derivative $f^{ $ at $x=3$ is detected, but the change in sign at $x=0$ is overlooked.} \\\\ | (B) & Correct. A point of inflection occurs where the second derivative $f^{ $ changes sign. The zeros of $f^{ }(x)$ occur at $x=0, x=3$, and $x=10$. Constructing a sign chart with the three factors $x$, $(x-3)^{5}$, and $(x-10)^{2}$ shows that $f^{ }(x)$ is positive for $x<0$, negative for $0<x<3$, positive for $3<x<10$, and positive for $x>10$. Therefore, the graph of $f$ has a point of inflection only at $x=0$ and $x=3$, where $f^{ }(x)$ changes from positive to negative and then from negative to positive, respectively.} \\\\ | (C) & Incorrect. The second derivative $f^{ $ is positive both to the left and to the right of $x=10$, so there is no sign change in $f^{ }(x)$ at $x=10$. Therefore, the graph of $f$ does not have a point of inflection at $x=10$. There is a sign change in $f^{ }(x)$ from positive to negative at $x=0$, so the graph of $f$ does have a point of inflection at $x=0$ in addition to the one at $x=3$.} \\\\ | (D) & Incorrect. These are the three zeros of the second derivative $f^{ $, but $f^{ }(x)$ only changes sign at $x=0$ and $x=3$.} \\\\ |\n\nQuestion 11\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-6.D \\\\ | (A) & {l} Incorrect. This response would result if the substitution $u=e^{x}-x$ was used in an attempt to evaluate the definite integral. \\\\ $u=e^{x}-x {d x}=e^{x}-1 d x={e^{x}-1}$ When $x=0, u=e^{0}-0=1$. \\\\ When $x=, u=e^{}-$. \\\\ Only the substitutions for $d x$ and for the limits of integration were made, however, and not for $e^{x}-x$, as follows. _{0}^{} -1}{e^{x}-x} d x=_{1}^{e^{}-} d u=.u|_{1} ^{e^{}-}=(e^{}-)-1 \\\\\n(B) & Incorrect. This response would result if the substitution $u=e^{x}-x$ was correctly used in an attempt to evaluate the definite integral, but the evaluation used $ 1=1$ rather than $ 1=0$. u=e^{x}-x {d x}=e^{x}-1 d x={e^{x}-1} { When } x=0, u=e^{0}-0=1 \\\\ When $x=, u=e^{}-$. \\\\ Substituting for $e^{x}-x$, for $d x$, and for the limits of integration gives _{0}^{} -1}{e^{x}-x} d x=_{1}^{e^{}-} {u} d u=. u|_{1} ^{e^{}-}= (e^{}-)- 1= (e^{}-)-1 \\\\\n(C) & Incorrect. This response would result if the integrand was incorrectly simplified as $1-1{x}$ and then either the antiderivative was only evaluated at the upper limit or $ 0$ was taken to equal 0 , as follows.\n\n_{0}^{} e^{x-1}{e^{x}-x} d x=_{0}^{}(1-1{x}) d x=.(x- x)|_{0} ^{}=-\n \\\\\n(D) & Correct. This integral can be evaluated by using substitution of variables with $u=e^{x}-x$. u=e^{x}-x {d x}=e^{x}-1 d x={e^{x}-1} { When } x=0, u=e^{0}-0=1 {. } \\\\ When $x=, u=e^{}-$. \\\\ Substituting for $e^{x}-x$, for $d x$, and for the limits of integration gives & _{0}^{} -1}{e^{x}-x} d x=_{1}^{e^{}-} {u} d u=. u|_{0} ^{e^{}-}= (e^{}-)- 1= (e^{}-)-0 \\\\ & = (e^{}-) \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 3.D & FUN-1.B \\\\ | (A) & Incorrect. This interval might be chosen because of an error in computing the average rate of change over the interval as & {4}={4}=2 { rather than } \\\\ & {0-4}={-4}=-2 . \\\\ | (B) & Incorrect. This interval might be chosen because of an error in computing the average rate of change over the interval as {f(8)-f(4)}={2-0}=2 { rather than } {8-4}={4}={2} . \\\\ | (C) & Correct. The function $f$ is continuous on the closed interval [8, 12] and differentiable on the open interval (8, 12). By the Mean Value Theorem, there is a number $c_{c}$ in the interval $(8,12)$ such that f^{}(c)={12-8}={4}=2 . \\\\ | (D) & Incorrect. This response would result if the Intermediate Value Theorem was used instead of the Mean Value Theorem to select the open interval $(12,16)$ where $f(c)=2$ for some number $c$ in the interval. \\\\ |\n\n\nQuestion 13\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-7.C \\\\ | (A) & Correct. Euler's method for the differential equation ${d x}=f(x, y)=x+2 y$ can be written as $y_{k+1}=y_{k}+f(x_{k}, y_{k}) x$, where $ x$ is the step size. Then $y_{k}$ is an approximation for $f(x_{k})$. Here the step size is $ x={2}=-0.2$, since there are two steps of equal length. & x_{0}=0 ; y_{0}=2 \\\\ & x_{1}=-0.2 ; y_{1}=y_{0}+f(x_{0}, y_{0}) x=2+(0+2(2))(-0.2)=2+(4)(-0.2)=1.2 \\\\ & x_{2}=-0.4 ; \\\\ & y_{2}=y_{1}+f(x_{1}, y_{1}) x=1.2+(-0.2+2(1.2))(-0.2)=1.2+(2.2)(-0.2)=0.76 \\\\ | (B) & Incorrect. This response would result if only the first step was done using Euler's method for the differential equation ${d x}=f(x, y)=x+2 y$. & x_{0}=0 ; y_{0}=2 \\\\ & x_{1}=-0.2 ; y_{1}=y_{0}+f(x_{0}, y_{0}) x=2+(0+2(2))(-0.2)=2+(4)(-0.2)=1.2 \\\\ | (C) & {l} Incorrect. This response would result if the step size was taken to be $ x=-0.1$ rather than $ x=-0.2$. As a result, this response was the approximation for $f(-0.2)$ rather than for $f(-0.4)$. \\\\ $x_{0}=0 ; y_{0}=2 & x_{1}=-0.1 ; y_{1}=y_{0}+f(x_{0}, y_{0}) x=2+(0+2(2))(-0.1)=2+(4)(-0.1)=1.6 \\\\ & x_{2}=-0.2 ; \\\\ & y_{2}=y_{1}+f(x_{1}, y_{1}) x=1.6+(-0.1+2(1.6))(-0.1)=1.6+(3.1)(-0.1)=1.29 \\\\\n(D) & Incorrect. This response would result if the step size was taken to be $ x=0.2$ rather than $ x=-0.2$. As a result, this response was the approximation for $f(0.4)$ rather than for $f(-0.4)$.\n\n\n& x_{0}=0 ; y_{0}=2 \\\\\n& x_{1}=0.2 ; y_{1}=y_{0}+f(x_{0}, y_{0})  x=2+(0+2(2))(0.2)=2+(4)(0.2)=2.8 \\\\\n& x_{2}=0.4 ; \\\\\n& y_{2}=y_{1}+f(x_{1}, y_{1})  x=2.8+(0.2+2(2.8))(0.2)=2.8+(5.8)(0.2)=3.96\n\n \\\\\ntabular\n\n\n| Skill & Learning Objective Topic \\\\ | 1.E & FUN-3.D \\\\ | (A) & {l} Incorrect. This response would result if the equation obtained by implicit differentiation was solved incorrectly for ${d x}$, as follows. {2 }+{2 } {d x}=0 {d x}=-}{} \\\\ $.{d x}|_{({4}, {4})}=-{4}}}{{4}}}=-{2}}{{2}}=-3$ \\\\ It would also be obtained if the expression for ${d x}$ had been correctly found but the $x$-and $y$-values were reversed when substituting into the first derivative, as follows. & {2 }+{2 } {d x}=0 {d x}=-}{} \\\\ & .{d x}|_{({4}, {4})}=-{4}}}{{4}}}=-{2}}{{2}}=-3 \\\\\n(B) & Correct. The slope of the tangent line is the value of ${d x}$ at the point $({4}, {4})$. During the implicit differentiation to find ${d x}$, both the power rule and the chain rule are needed. {2 }+{2 } {d x}=0 \\\\ The point $({4}, {4})$ is on the curve, since $x={4}$ and $y={2}$ satisfy the equation $+=2$. At this point, {2({2})}+{2({2})} {d x}=0 {3}+{d x}=0 {d x}=-{3} . \\\\\n(C) & Incorrect. This response might come from observing the symmetry of the expressions for $x$ and $y$ in the equation of the curve and concluding that the derivative expressions will be symmetric, leading to a slope of 1 , without considering that the $x$ - and $y$-coordinates of the given point are not the same. \\\\\n(D) & Incorrect. This response would result if the method of implicit differentiation was incorrectly applied by taking the derivative of the expression $x+y$ without consideration of the chain rule and setting the result equal to $d y{d x}$, as follows.\n\nd y{d x}=1{2 x}+.1{2 y}  d y{d x}|_{(9{4}, 1{4})}=1{2 {9{4}}}+1{2 {1{4}}}=1{3}+1=4{3}\n \\\\\ntable\n\n\n| Skill & Learning Objective \\\\ | 1.E & LIM-6.A \\\\ | (A) & Incorrect. This response would result if the integrand was just evaluated at the lower limit, $x=1$, rather than antidifferentiated, as follows. .{(x+3)^{{2}}}|_{x=1}={4^{{2}}}={8}={4} \\\\ | (B) & Incorrect. This response would result if in applying the power rule for antiderivatives, the power of ( $x+3$ ) was not divided by the new exponent, as follows. & _{1}^{} {(x+3)^{{2}}} d x= _{b } _{1}^{b} {(x+3)^{{2}}} d x= _{b }(-.{(x+3)^{{2}}}|_{1} ^{b}) \\\\ & = _{b }(-{(b+3)^{{2}}}+{4^{{2}}})=0+{2}=3 \\\\ | (C) & Correct. This is an improper integral, since the region over which the integrand is being integrated is unbounded. The antidifferentiation is an application of the power rule. & _{1}^{} {(x+3)^{{2}}} d x= _{b } _{1}^{b} {(x+3)^{{2}}} d x= _{b }(-.{(x+3)^{{2}}}|_{1} ^{b}) \\\\ & = _{b }(-{(b+3)^{{2}}}+{4^{{2}}})=0+{2}=6 \\\\ | (D) & Incorrect. This response might come from assuming that the definite integral of a function integrated over an unbounded region will always diverge. \\\\ |\n\n\nQuestion 16\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & {l} Incorrect. This response would result if a chain rule error was made during the antidifferentiation of the $d y$ term. & {d x}=2-y {2-y}=d x \\\\ & {2-y} d y= d x |2-y|=x+C \\\\ & |1|=1+C C=-1 \\\\ & |2-y|=x-1 |2-y|=e^{x-1} \\\\ Since $2-y>0$ at the initial value $y=1$, the solution would be $2-y=e^{x-1}$, or $y=2-e^{x-1}$. \\\\\n(B) & Correct. The differential equation can be solved using separation of variables and the initial condition to determine the appropriate value for the arbitrary constant. & {d x}=2-y {2-y}=d x \\\\ & {2-y} d y= d x - |2-y|=x+C \\\\ & - |1|=1+C C=-1 \\\\ & - |2-y|=x-1 |2-y|=-x+1 |2-y|=e^{1-x} \\\\ Since $2-y>0$ at the initial value $y=1$, the solution to the differential equation is $2-y=e^{1-x}$, or $y=2-e^{1-x}$. \\\\\n(C) & Incorrect. This response would result if an arbitrary constant was not included during the antidifferentiation. & {d x}=2-y {2-y}=d x \\\\ & {2-y} d y= d x - |2-y|=x |2-y|=e^{-x} \\\\ Since $2-y>0$ at the initial value $y=1$, the solution would be $2-y=e^{-x}$, or $y=2-e^{-x}$. \\\\\n(D) & Incorrect. This response would result if an arbitrary constant was not included during the antidifferentiation and the incorrect sign was taken for the absolute value when solving for $y$.\n\n\n& d y{d x}=2-y  d y{2-y}=d x \\\\\n&  1{2-y} d y= d x - |2-y|=x |2-y|=e^{-x} \\\\\n& 2-y=-e^{-x}  y=2+e^{-x}\n\n \\\\\ntabular\n\nQuestion 17\n\n| Skill & Learning Objective \\\\ | 3.D \\\\ | (A) & Incorrect. This series diverges by the $n$th term test since _{n }|(-1)^{n} {n}|= _{n }|{n}|=1 0 . \\\\ | (B) & Incorrect. This series diverges by the $n$th term test since _{n }|(-1)^{n} {2 n}|= _{n } {2 n}={2} 0 . \\\\ | (C) & Incorrect. This series diverges by the $n$th term test since _{n }|(-1)^{n} }{3 }|= _{n } }{3} { does not exist. } \\\\ | (D) & Correct. The series $_{n=1}^{}(-1)^{n}(}{n})=_{n=1}^{}(-1)^{n}({})$ satisfies the three conditions: (1) the series is alternating, (2) $ _{n } {}=0$, and (3) the terms $a_{n}={}$ are decreasing since ${}<{}$ for all $n 1$. Therefore, the series converges by the alternating series test. \\\\ |\n\nQuestion 18\n\n| Skill & Learning Objective \\\\ | 1.C \\\\ | (A) & Incorrect. This response comes from using a rectangular form for area instead of a polar form for area, as if the curves were treated as functions of $y$ in terms of $x$. The region appears to lie above the interval $[-2,6]$ on the $x$-axis. _{-2}^{6}(y_{2}(x)-y_{1}(x)) d x=_{-2}^{6}(g(x)-f(x)) d x \\\\ | (B) & Incorrect. This response comes from using a rectangular form of the area instead of a polar form for area, as if the curves were treated as functions of $y$ in terms of $x$, but expressing the limits in terms of the polar angle $$. _{0}^{}(y_{2}(x)-y_{1}(x)) d x=_{0}^{}(g(x)-f(x)) d x \\\\ | (C) & Incorrect. The square of the difference between the two polar curves was integrated rather than the difference of the squares. {2} _{0}^{}(r_{2}()-r_{1}())^{2} d ={2} _{0}^{}(g()-f())^{2} d \\\\ | (D) & Correct. The area bounded by the two polar curves can be found with a definite integral. Let $r_{1}$ be the smaller radius, and let $r_{2}$ be the larger radius. The graphs of the two polar curves bound the region $R$ over the domain $0 $. Then the area of $R$ is given by & {2} _{0}^{}(r_{2}())^{2} d -{2} _{0}^{}(r_{1}())^{2} d ={2} _{0}^{}((r_{2}())^{2}-(r_{1}())^{2}) d \\\\ & ={2} _{0}^{}((g())^{2}-(f())^{2}) d \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.B \\\\ | (A) & Incorrect. The series $_{n=1}^{} {n}$ is the divergent harmonic series. However, ${n^{2}+1}<{n}$, so this inequality goes the wrong way to use the comparison test to show that the series $_{n=1}^{} {n^{2}+1}$ diverges. In addition, the divergence of the positive series $_{n=1}^{}|a_{n}|$ does not imply that the series $_{n=1}^{} a_{n}$ diverges. \\\\ | (B) & Incorrect. The series $_{n=1}^{} {n}$ is the divergent harmonic series. Since $ _{n } {n^{2}+1}}{{n}}= _{n } }{n^{2}+1}=1$, the limit comparison test shows that the series $_{n=1}^{} {n^{2}+1}$ also diverges. However, it cannot be concluded from that the alternating series $_{n=1}^{} n}{n^{2}+1}$ diverges. The divergence of the positive series $_{n=1}^{}|a_{n}|$ does not imply that the series $_{n=1}^{} a_{n}$ diverges. \\\\ | (C) & Incorrect. The series $_{n=1}^{} {n^{2}}$ is a convergent $p$-series with $p=2>1$. However, ${n^{2}}<{n^{2}+1}$ for all $n>1$, so this inequality goes the wrong way to use the comparison test to show that the series $_{n=1}^{} {n^{2}+1}$ converges and that therefore $_{n=1}^{} n}{n^{2}+1}$ is absolutely convergent. \\\\ |\n\n\nQuestion 19 (continued)\n\n| (D) & {l} Correct. The series $_{n=1}^{} n}{n^{2}+1}$ satisfies the three conditions: (1) the series is alternating, (2) $ _{n } {n^{2}+1}=0$, and (3) the terms $a_{n}={n^{2}+1}$ are decreasing. Therefore, the series converges by the alternating series test. \\\\ To verify that the terms $a_{n}={n^{2}+1}$ are decreasing, consider the following. a_{n+1}<a_{n} {(n+1)^{2}+1}<{n^{2}+1} \\\\ The last inequality is true for all $n 1$. \\\\ Alternatively, if $f(x)={x^{2}+1}$, then $a_{n}=f(n)$ and the function $f$ is decreasing because $f^{}(x)=+1)-2 x^{2}}{(x^{2}+1)^{2}}=}{(x^{2}+1)^{2}}<0$ for $x>1$. \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 1.C & FUN-6.A \\\\ | (A) & Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows. _{4}^{1} g(x) d x=-_{1}^{4} g(x) d x=-(-2)=2 \\\\ | (B) & Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows. _{1}^{4} 3 f(x) d x=3 _{1}^{4} f(x) d x=3 8=24 \\\\ | (C) & {l} Correct. It is not true in general that \\\\ $_{1}^{4} 3 f(x) g(x) d x=_{1}^{4} 3 f(x) d x _{1}^{4} g(x) d x$, so the individual values of $_{1}^{4} f(x) d x$ and $_{1}^{4} g(x) d x$ cannot be used to determine the value of $_{1}^{4} 3 f(x) g(x) d x$. For example, if $f(x)={3}$ and $g(x)=-{3}$, then $_{1}^{4} f(x) d x=8, _{1}^{4} g(x) d x=-2$, and $_{1}^{4} 3 f(x) g(x) d x=_{1}^{4}-{3} d x=-16$. However, if $f(x)={9}(x-1)$ and $g(x)=-{9}(x-1)$, then $_{1}^{4} f(x) d x=8$ and $_{1}^{4} g(x) d x=-2$ as before, but now _{1}^{4} 3 f(x) g(x) d x=_{1}^{4}-{27}(x-1)^{2} d x=-{3} . \\\\\n(D) & Incorrect. The value of this integral can be determined using the properties of the definite integral, as follows.\n\naligned\n& _{1}^{4}(3 f(x)+g(x)) d x=_{1}^{4} 3 f(x) d x+_{1}^{4} g(x) d x \\\\\n& =3  _{1}^{4} f(x) d x+_{1}^{4} g(x) d x=3  8+(-2)=22\n\n \\\\\ntabular\ntable\n\nQuestion 21\n\n| Skill & Learning Objective \\\\ | 3.D & LIM-8.D \\\\ | (A) & {l} Correct. The ratio test can be used to determine the interval of convergence. & _{n }|}{a_{n}}|= _{n }|}{(n+1) 5^{n+2}} }{(x+4)^{n}}|= _{n }|{n+1} {5}|={5}|x+4|<1 \\\\ & |x+4|<5 -9<x<1 \\\\ Now check the endpoints of the interval. \\\\ At $x=-9$, the series is $_{n=1}^{} }{n 5^{n+1}}={5} _{n=1}^{}(-1)^{n} {n}$, which converges since it is a multiple of the alternating harmonic series. \\\\ At $x=1$, the series is $_{n=1}^{} }{n 5^{n+1}}={5} _{n=1}^{} {n}$, which diverges since it is a multiple of the harmonic series. \\\\ Therefore, the interval of convergence is $-9 x<1$. \\\\\n(B) & Incorrect. The ratio test might have been used to correctly determine that the radius of convergence $R$ is 5 , but the interval was taken to be centered at 0 . _{n }|}{a_{n}}|= _{n }|{(n+1) 5^{n+2}} }{1}|= _{n }|{n+1} {5}|={5} R=5 \\\\ At $x=-5$, the series is $_{n=1}^{} }{n 5^{n+1}}$, which converges by the alternating series test. \\\\ At $x=5$, the series is $_{n=1}^{} }{n 5^{n+1}}$, which diverges by the $n$th term test. \\\\\n(C) & Incorrect. This response would result if the ratio test was not used to determine the radius of convergence. Looking at the form of the general term, the center was thought to be at $x=5$ and the radius of convergence was taken to be 4 . It was assumed that the series must converge at one endpoint and diverge at the other. \\\\\n(D) & Incorrect. Errors in applying the ratio test might have led to the conclusion that the radius of convergence was infinite. \\\\\ntabular\n\nQuestion 22\n\n| Skill & Learning Objective \\\\ | (BC ONLY) Defining Polar \\\\ 1.E \\\\ FUN-3.G Coordinates and Differentiating in Polar Form} \\\\\n(A) & Incorrect. This response would result if the slope was taken to be\n\nd y{d x}={d x{d }}{d y{d }} .\n \\\\\n(B) & Correct. The slope of the polar curve is $d y{d x}={d y{d }}{d x{d }}$.\n\n\n& x=r  =.3     d x{d }|_{={2}}=3  -.3   |_{={2}}=-3 {2} \\\\\n& y=r  =.3     d y{d }|_{={2}}=3  +.3   |_{={2}}=3 \\\\\n& .d y{d x}|_{={2}}=.{d y{d }}{d x{d }}|_{={2}}=3{-3 {2}}=-2{}\n\n \\\\\n(C) & Incorrect. This response would result if the product rule was applied incorrectly by taking the product of the derivatives.\n\n\n& x=r  =3     d x{d }=-.3    d x{d }|_{={2}}=-.3  |_{={2}}=-3 \\\\\n& y=r  =3     d y{d }=.3    d y{d }|_{={2}}=.3  |_{={2}}=0 \\\\\n& .d y{d x}|_{={2}}=.{d y{d }}{d x{d }}|_{={2}}=0{-3}=0\n\n \\\\\n(D) & Incorrect. This response would result if the slope was taken to be $d r{d }$ rather than $d y{d x}$.\n\n.d r{d }|_{={2}}=.3|_{={2}}=3\n \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 1.F & LIM-5.A \\\\ | (A) & Incorrect. It was correctly determined that the left Riemann sum is an underestimate and the right Riemann sum is an overestimate of the definite integral because the function $f(x)=$ is increasing on the interval $[0,4]$. Because the graph of $f$ is concave down, however, the trapezoidal sum is an underestimate, not an overestimate. \\\\ | (B) & Correct. Because the function $f(x)=$ is increasing on the interval [ 0,4 ], the left Riemann sum is an underestimate and the right Riemann sum is an overestimate of the definite integral, so $L<_{0}^{4} d x<R$. Since the graph of $f$ is concave down, the trapezoidal sum is also an underestimate, but it is a closer approximation to the definite integral than the left Riemann sum. Therefore, $L<T<_{0}^{4} d x<R$. \\\\ | (C) & Incorrect. This would be the correct response for the graph of a function that is decreasing and concave up. The graph of $f(x)=$, however, is increasing and concave down, so all the inequalities are going in the wrong direction. \\\\ | (D) & Incorrect. It was correctly determined that the trapezoidal sum is an underestimate of the definite integral since the graph of $f(x)=$ is concave down on the interval $[0,4]$. Because the function $f$ is increasing, however, the left Riemann sum is an underestimate and the right Riemann sum is an overestimate of the definite integral. This response has reversed those two inequalities. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.D \\\\ | (A) & Correct. By the Fundamental Theorem of Calculus, $_{0}^{12} f^{}(x) d x=f(12)-f(0)=(-4)-4=-8$, where the values of $f$ at $x=0$ and $x=12$ are obtained from the graph. \\\\ | (B) & Incorrect. This response would result if the function $f$ was integrated over the interval $[0,12]$ rather than $f^{}$, as follows. _{0}^{12} f(x) d x={2}(4)(4)-{2}(4)(3)-{2}(4)(4)=-6 \\\\ | (C) & Incorrect. This response would result if the Fundamental Theorem of Calculus was incorrectly applied, as follows. _{0}^{12} f^{}(x) d x=f^{}(12)-f^{}(0)=(-1)-(-1)=0 \\\\ | (D) & Incorrect. This response is the total area bounded by the graph of $f$ and the $x$-axis over the interval $[0,12]$. _{0}^{12}|f(x)| d x={2}(4)(4)+{2}(4)(3)+{2}(4)(4)=8+6+8=22 \\\\ |\n\n\nQuestion 25\n\n| Skill & Learning Objective \\\\ | 1.E & FUN-6.E \\\\ | (A) & Correct. This definite integral can be found using integration by parts, where & u d v=u v- v d u \\\\ & u=x d u=d x d v=f^{}(x) d x v=f(x) \\\\ & _{0}^{2} x f^{}(x) d x=.x f(x)|_{0} ^{2}-_{0}^{2} f(x) d x=2 f(2)-7=10-7=3 \\\\ | (B) & Incorrect. This response would result if the technique of integration by parts was applied incorrectly as follows. & u=x d u=d x d v=f^{}(x) d x v=f(x) \\\\ & _{0}^{2} x f^{}(x) d x=.x f(x)|_{0} ^{2}-.f(x)|_{0} ^{2}=(2 f(2)-0)-(f(2)-f(0))=10-4=6 \\\\ | (C) & Incorrect. This response would result if each factor in the integrand was antidifferentiated separately, as follows. _{0}^{2} x f^{}(x) d x=.({2} x^{2}) f(x)|_{0} ^{2}=2 f(2)-0=10 \\\\ | (D) & Incorrect. This response would result if an error was made in the integration by parts when addition was used instead of subtraction, resulting in & u d v=u v+ v d u \\\\ & u=x d u=d x d v=f^{}(x) d x v=f(x) \\\\ & _{0}^{2} x f^{}(x) d x=.x f(x)|_{0} ^{2}+_{0}^{2} f(x) d x=2 f(2)+7=10+7=17 \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.D \\\\ | (A) & Incorrect. Series I is absolutely convergent, not conditionally convergent, since $_{n=1}^{} {n!}$ converges by the ratio test. \\\\ | (B) & {l} Incorrect. Series II was correctly identified as being conditionally convergent. Series III is also conditionally convergent, since $_{n=1}^{} }{n+2}$ converges by the alternating series test but $_{n=1}^{} {n+2}$ \\\\ diverges by the limit comparison test with the harmonic series $_{n=1}^{} {n}$. \\\\\n(C) & Correct. A series $ a_{n}$ is conditionally convergent if the series converges but the series of absolute terms $|a_{n}|$ diverges. Each of the three series in this problem converges by the alternating series test. \\\\ The series $_{n=1}^{} }{n!}$ is not conditionally convergent, since $_{n=1}^{} {n!}$ converges by the ratio test (so this series is absolutely convergent). The series $_{n=1}^{} }{}$ is conditionally convergent because the series $_{n=1}^{} {}$ diverges, since it is a $p$-series with $p={2}<1$. \\\\ The series $_{n=1}^{} }{n+2}$ is conditionally convergent because the series $_{n=1}^{} {n+2}$ diverges by the limit comparison test with the harmonic series $_{n=1}^{} {n}$. \\\\\n(D) & Incorrect. This response might be chosen because all three series converge by the alternating series test. To determine whether they are conditionally convergent, however, it is also necessary to consider the series of absolute terms $|a_{n}|$. Series I is absolutely convergent, not conditionally convergent, since $_{n=1}^{} 1{n!}$ converges by the ratio test. \\\\\ntable\n\n\n| Skill & Learning Objective \\\\ | 1.C \\\\ | (A) & Incorrect. This response is the volume of the solid generated by revolving $R$ about the $x$-axis rather than the $y$-axis. A typical slice rotated about the $x$-axis would form a disk of radius $r=y=$ with cross-sectional area $A(x)= r^{2}=(x-1)$. The volume of the solid would be $_{0}^{10} (x-1) d x$. \\\\ | (B) & Incorrect. This response is the volume obtained by rotating about the $x$-axis the region bounded by the graph of $y=$, the horizontal line $y=10$, and the vertical lines $x=1$ and $x=10$. A typical slice rotated about the $x$-axis would form a washer with cross-sectional area $A(x)= r_{2}^{2}- r_{1}^{2}$, where the inner radius is $r_{1}=$ and the outer radius is $r_{2}=10$. \\\\ | (C) & Incorrect. For this response, the cross-sectional area of the washer obtained by rotating a typical slice about the $y$-axis was taken to be $(r_{2}-r_{1})^{2}$ rather than $ r_{2}^{2}- r_{1}^{2}$, where the inner radius is $r_{1}=y^{2}+1$ and the outer radius is $r_{2}=10$. \\\\ | (D) & Correct. Rotating a typical slice about the $y$-axis will form a washer with inner radius $r_{1}$ and outer radius $r_{2}$, where each radius must be expressed in terms of $y$. Since $y=$, the inner radius is $r_{1}=x=y^{2}+1$. Since the region is bounded on the right by the vertical line $x=10$, the outer radius is $r_{2}=10$.\nThe cross-sectional area of a typical slice rotated about the $y$-axis is therefore $A(y)= r_{2}^{2}- r_{1}^{2}=(10^{2}-(y^{2}+1)^{2})$. The volume of the solid is found by using the definite integral of the cross-sectional area for $y$ between 0 and $=3$, as follows. _{0}^{3} (10^{2}-(y^{2}+1)^{2}) d y= _{0}^{3}(100-(y^{2}+1)^{2}) d y \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Incorrect. This response is the value of $ y}{d t^{2}}={d t}({d t})={d t}( (t^{2}))$, not the value of $ y}{d x^{2}}={d x}({d x})$. The chain rule must be used to find ${d x}$ and then used again to find $ y}{d x^{2}}$. \\\\ | (B) & Incorrect. The chain rule was correctly used to find ${d x}=)}{5}$. This response is just ${d t}({d x})$, however. Another application of the chain rule would be needed to find $ y}{d x^{2}}$ by dividing ${d t}({d x})$ by ${d t}$. \\\\ | (C) & Correct. By the chain rule, ${d x}={d t}}{{d t}}=)}{5}$. The chain rule is needed again to find the second derivative, as follows. y}{d x^{2}}={d x}({d x})={d t}({d x})}{{d t}}=)}{5}}{5}=)}{25} \\\\ | (D) & Incorrect. This response comes from thinking that $ y}{d x^{2}}= y}{d t^{2}}}{ x}{d t^{2}}}$. Since $ x}{d t^{2}}=0$, the quotient would be undefined. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 2.C & LIM-5.C \\\\ | (A) & Incorrect. The sum inside the limit can be interpreted as a right Riemann sum in the form $_{k=1}^{n}({2+{n}}) {n}=_{k=1}^{n} f(2+k x) x$, where $f(x)={x}$ and $ x={n}$. The value of $ x$ corresponds to an interval of length 1. Since $k x=2+{n}$ for the initial value $k=1$, the interval starts at 2 . Therefore, the limit of the Riemann sum would be equal to $_{2}^{3} f(x) d x=_{2}^{3} {x} d x$, not $_{1}^{2} {x} d x$. \\\\ | (B) & Correct. The sum inside the limit can be interpreted as a right Riemann sum in the form $_{k=1}^{n}({2+{n}}) {n}=_{k=1}^{n} f(k x) x$, where $f(x)={2+x}$ and $ x={n}$. The value of $ x$ corresponds to an interval of length 1. Since $k x={n}$ for the initial value $k=1$, the interval starts at 0 . Therefore, the limit of the Riemann sum is equal to the definite integral $_{0}^{1} f(x) d x=_{0}^{1} {2+x} d x$. \\\\ | (C) & Incorrect. The sum inside the limit can be interpreted as a right Riemann sum in the form $_{k=1}^{n}({2+{n}}) {n}=_{k=1}^{n} f(k x) x$, where $f(x)={2+x}$ and $ x={n}$. The value of $ x$ corresponds to an interval of length 1. Since $k x={n}$ for the initial value $k=1$, the interval starts at 0 and therefore the limits on the definite integral should go from 0 to 1 , not 0 to 2. \\\\ | (D) & Incorrect. The sum inside the limit was correctly interpreted as a right Riemann sum on an interval of length 1 starting at $x=2$.\nWith that choice of interval, however, the Riemann sum would be written as $_{k=1}^{n}({2+{n}}) {n}=_{k=1}^{n} f(2+k x) x$, where $f(x)={x}$. The right Riemann sum using $f(x)={2+x}$ would correspond to an interval starting at $x=0$, not $x=2$. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 2.B & LIM-8.A \\\\ | (A) & Incorrect. This response would result if the chain rule was never used in finding the first and second derivatives of $g$ leading to $g^{}(x)=e^{f(x)}$ and $g^{ }(x)=e^{f(x)}$. As a result, the coefficient of $x^{2}$ in the Maclaurin series for $g$ was computed as ${2!} g^{ }(0)={2} e^{f(0)}={2} e^{2}$. \\\\ | (B) & Incorrect. This response would result if the coefficient of $x^{2}$ in the Maclaurin series for $g$ was taken to be $g^{ }(0)$ without dividing by $2!$. In addition, the chain rule was never used in finding the first and second derivatives of $g$, leading to $g^{ }(0)=e^{f(0)}=e^{2}$. \\\\ | (C) & {l} Incorrect. This response would result if the chain rule was correctly used in finding $g^{}(x)$ but was not used again when the product rule was used during the computation of the second derivative, as follows. g^{}(x)=f^{}(x) e^{f(x)} \\\\ $g^{ }(x)=f^{ }(x) e^{f(x)}+f^{}(x) e^{f(x)} g^{ }(0)=f^{ }(0) e^{f(0)}+f^{}(0) e^{f(0)}=2 e^{2}+3 e^{2}=5 e^{2} \\\\ The coefficient of $x^{2}$ in the Maclaurin series for $g$ was found to be ${2!} g^{ }(0)={2} e^{2}$. \\\\\n(D) & Correct. The coefficient of $x^{2}$ in the Maclaurin series for $g$ is ${2!} g^{ }(0)$. Since $g(x)=e^{f(x)}$, the chain rule gives $g^{}(x)=f^{}(x) e^{f(x)}$. Using the product rule and the chain rule again gives g^{ }(x)=f^{ }(x) e^{f(x)}+f^{}(x)(f^{}(x) e^{f(x)})=(f^{ }(x)+(f^{}(x))^{2}) e^{f(x)} \\\\ The values of $f(0), f^{}(0)$, and $f^{ }(0)$ can be determined from the Maclaurin series for $f$. f(0)= { constant term }=2 \\\\ $f^{}(0)=$ coefficient of $x=3$ \\\\ $f^{ }(0)=2 (.$ coefficient of $.x^{2})=2 1=2$ \\\\ Therefore, $g^{ }(0)=(f^{ }(0)+(f^{}(0))^{2}) e^{f(0)}=(2+9) e^{2}=11 e^{2}$ and so the coefficient of $x^{2}$ in the Maclaurin series for $g$ is ${2!}(11 e^{2})={2} e^{2}$. \\\\\ntable\n\nQuestion 76\n\n| Skill & Learning Objective \\\\ | 2.E \\\\ | (A) & Incorrect. The graph of $f$ is concave up where $f^{}$ is increasing. This response might come from switching the roles of the function and its derivative and thinking that $f$ is increasing where the graph of $f^{}$ is concave up. The graph of $f^{}$ is concave up on the intervals $(0,1)$ and $(2,4)$. \\\\ | (B) & Incorrect. This response might come from treating the given graph as the graph of $f$ rather than the graph of $f^{}$. These are the two intervals where $f^{}$ is increasing. \\\\ | (C) & Incorrect. These are the intervals where both $f$ and $f^{}$ are increasing. \\\\ | (D) & Correct. The function $f$ is increasing on closed intervals where $f^{}$ is positive on the corresponding open intervals. The graph indicates that $f^{}(x)>0$ on the intervals $(0,2)$ and $(4,5)$, so $f$ is increasing on the intervals $[0,2]$ and $[4,5]$. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Incorrect. This response is how much ${d t}$ changes from $t=1$ to $t=6$; that is, $y^{}(6)-y^{}(1)=3.870$. The amount by which $y$ changes from $t=1$ to $t=6$ is $y(6)-y(1)$, which can be computed by using the Fundamental Theorem of Calculus. \\\\ | (B) & Incorrect. This response is the approximation to the change in $y$ along the line tangent to the graph of $y$ at $t=1$. It can also be interpreted as the approximation to the integral $_{1}^{6} y^{}(t) d t=y(6)-y(1)$ by using a left Riemann sum with one interval of length $ t=5$. y y^{}(1) t=y^{}(1) 5=8.341 \\\\ | (C) & Incorrect. This response is the approximation to the integral $_{1}^{6} y^{}(t) d t=y(6)-y(1)$ by using the trapezoidal sum approximation over one interval of length $ t=5$. ((1)+y^{}(6)}{2}) t=((1)+y^{}(6)}{2}) 5=18.017 \\\\ | (D) & Correct. The change in $y$ from $t=1$ to $t=6$ is $y(6)-y(1)$. By the Fundamental Theorem of Calculus, $y(6)-y(1)=_{1}^{6} y^{}(t) d t=_{1}^{6} 6 e^{-0.08(t-5)^{2}} d t=22.583$, where the numerical integration is done with the calculator. \\\\ |\n\n\nQuestion 78\n\n| Skill & Learning Objective \\\\ | 2.D \\\\ | (A) & Incorrect. This graph displays the appropriate behavior as it approaches the horizontal asymptote at $y=2$, but in this graph $ _{x 1^{-}} f(x)=-$ and $ _{x 1^{+}} f(x)=+$, which is the opposite behavior for what the graph of $f$ should be doing as it approaches the vertical asymptote at $x=1$. \\\\ | (B) & Incorrect. This graph displays the appropriate behavior as it approaches the vertical asymptote at $x=1$, but it has $y=-2$ as a horizontal asymptote rather than $y=2$. \\\\ | (C) & Correct. Since $ _{x 1^{-}} f(x)=+$ and $ _{x 1^{+}} f(x)=-$, the graph of $f$ approaches the vertical asymptote at $x=1$ in the upward direction as $x$ approaches 1 from the left and approaches the vertical asymptote in the downward direction as $x$ approaches 1 from the right. Since $ _{x -} f(x)=2$ and $ _{x +} f(x)=2$, the graph of $f$ approaches the horizontal asymptote at $y=2$ in both horizontal directions. This graph exhibits these properties and therefore could be the graph of $f$. \\\\ | (D) & Incorrect. This graph has a vertical asymptote at $x=2$ and a horizontal asymptote at $y=1$ rather than a vertical asymptote at $x=1$ and a horizontal asymptote at $y=2$. \\\\ |\n\nQuestion 79\n\n| Skill & Learning Objective \\\\ | 3.F \\\\ | (A) & Incorrect. The definite integral was not divided by the length of the interval [30,60] over which the averaging is done. \\\\ | (B) & Correct. The average value of a function $f$ over an interval $[a, b]$ is ${b-a} _{a}^{b} f(x) d x$. Tara's average heart rate from $t=30$ to $t=60$ is the average value of the function $h$ over the interval [30,60] and would therefore be given by the expression ${60-30} _{30}^{60} h(t) d t$. \\\\ | (C) & Incorrect. This response is the average rate of change of Tara's heart rate from $t=30$ to $t=60$, not the average of her heart rate over that interval. By the Fundamental Theorem of Calculus, this expression is equal to ${60-30}$. \\\\ | (D) & Incorrect. This response is the average of the rate of change of Tara's heart rate at the two times $t=30$ and $t=60$, not the average of her heart rate over the interval from $t=30$ to $t=60$. \\\\ |\n\nQuestion 80\n\n| Skill & Learning Objective \\\\ | 1.E & LIM-8.B \\\\ | (A) & Incorrect. This response comes from only using three terms of the Taylor polynomial rather than the Taylor polynomial of degree 3. .(-1+4(x-2)+{2}(x-2)^{2})|_{x=2.1}=-0.570 \\\\ | (B) & Correct. The third-degree Taylor polynomial for $f$ about $x=2$ is the following. & P_{3}(x)=f(2)+f^{}(2)(x-2)+{2!} f^{ }(2)(x-2)^{2}+{3!} f^{ }(2)(x-2)^{3} \\\\ & =-1+4(x-2)+{2}(x-2)^{2}+{6}(x-2)^{3} \\\\ & =-1+4(x-2)+3(x-2)^{2}+2(x-2)^{3} \\\\ & f(2.1) P_{3}(2.1)=-1+4(0.1)+3(0.1)^{2}+2(0.1)^{3}=-0.568 \\\\ | (C) & Incorrect. This response would result if the coefficient of the degree $n$ term was taken to be $(2)}{n}$ rather than $(2)}{n!}$. .(-1+4(x-2)+{2}(x-2)^{2}+{3}(x-2)^{3})|_{x=2.1}=-0.566 \\\\ | (D) & Incorrect. The coefficient of the degree ${ }_{n}$ term was taken to be $f^{(n)}(2)$ rather than $(2)}{n!}$. .(-1+4(x-2)+6(x-2)^{2}+12(x-2)^{3})|_{x=2.1}=-0.528 \\\\ |\n\nQuestion 81\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Incorrect. This response comes from not taking the square root in the integrand of the definite integral for the length of a curve, as follows. _{0}^{1.5}(1+(f^{}(x))^{2}) d x=_{0}^{1.5}(1+(+1})^{2}) d x=_{0}^{1.5}(x^{3}+2) d x=4.266 \\\\ | (B) & {l} Correct. The length of the graph of $y=f(x)$ from $x=0$ to $x=1.5$ is given by the definite integral _{0}^{1.5} (x))^{2}} d x=_{0}^{1.5} +1})^{2}} d x=_{0}^{1.5} +2} d x=2.497 \\\\ where the numerical integration is done with the calculator. \\\\\n(C) & Incorrect. This response comes from not squaring the derivative in the integrand of the definite integral for the length of a curve, as follows.\n\n_{0}^{1.5} 1+f^{(x)} d x=_{0}^{1.5} 1+({x^{3+1})} d x=2.278\n \\\\\n(D) & Incorrect. This response is the change in $y$ from $x=0$ to $x=1.5$.\n\nf(1.5)-f(0)=_{0}^{1.5} f^{}(x) d x=_{0}^{1.5} x^{3+1} d x=1.976\n \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 2.D & FUN-7.C \\\\ | (A) & Correct. In the slope field for a differential equation of the form ${d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field show that behavior and therefore this could be a slope field for a differential equation of the form ${d x}=h(x)$. \\\\ | (B) & Incorrect. In the slope field for a differential equation of the form ${d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slopes of the line segments depend on both the $x$-and the $y$-values. \\\\ | (C) & Incorrect. In the slope field for a differential equation of the form ${d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slope of the line segment at a point depends only on the value of $y$. This could be a slope field for a differential equation of the form ${d x}=g(y)$. \\\\ | (D) & Incorrect.\nIn the slope field for a differential equation of the form ${d x}=h(x)$, the slope at a point $(x, y)$ depends only on the value of $x$. The line segments in the slope field at each point on a vertical line perpendicular to the $x$-axis should therefore all have the same slope. The line segments in this slope field do not exhibit that behavior. The slopes of the line segments depend on both the $x$-and the $y$-values. \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.D & LIM-2.C \\\\ | (A) & {l} Correct. The limit at $x=3$ exists if the left-hand and right-hand limits are equal. _{x 3^{-}} f(x)= _{x 3^{+}} f(x) k^{3}+3={k^{2}-3} \\\\ The solution to this equation for $k>0$ is $k=2.081$. With this value of $k, _{x 3} f(x)$ exists and is equal to $f(3)$. Therefore, $f$ is continuous at $x=3$. \\\\\n(B) & Incorrect. This response comes from trying to make the left-hand and right-hand limits of the derivative equal at $x=3$, as follows. f^{}(x)= 1 & { for } x<3 \\\\ {(k^{2}-x)^{2}} & { for } x>3 $ _{x 3^{-}} f^{}(x)= _{x 3^{+}} f^{}(x) 1={(k^{2}-3)^{2}} \\\\ The solution to this equation for $k>0$ is $k=2.646$. \\\\\n(C) & Incorrect. In trying to set the left-hand and right-hand limits of $f$ equal at $x=3$, the 3 might have been substituted for the parameter $k$ rather than the variable $x$, as follows. 27+x={9-x} \\\\ The positive solution to this equation is $x=8.550$. \\\\\n(D) & Incorrect. This response might come from errors that lead to an equation that has no positive solution. For example, it might come from trying to make the left-hand and right-hand limits of the derivative equal at $x=3$ but also making a chain rule error in the derivative of the piece for $x>3$, as follows. & f^{}(x)= 1 & { for } x<3 \\\\ {(k^{2}-x)^{2}} & { for } x>3 \\\\ & _{x 3^{-}} f^{}(x)= _{x 3^{+}} f^{}(x) 1={(k^{2}-3)^{2}} \\\\ This equation has no solution for $k$. \\\\\ntable\n\n\n| Skill & & Learning Objective & Topic \\\\ | 2.D & CHA-2.C & Defining the Derivative of a Function and Using Derivative Notation \\\\ | (A) & Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{(0)$. Therefore, $f^{}(0)$ is negative. Since the tangent line goes through the point $(0, f(0)), f(0)$ is also negative. Therefore, it cannot be true that $f^{}(0)=-f(0)$ since both are negative.} \\\\ | (B) & Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{}(0)=-2$ and $f(0)=-2$, so it is not true that $f^{}(0)<f(0)$.} \\\\ | (C) & Correct. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{}(0)=-2$ and $f(0)=-2$, so $f^{}(0)=f(0)$.} \\\\ | (D) & Incorrect. The slope of the line tangent to the graph of $f$ at $x=0$ is $f^{(0)$, and the tangent line goes through the point $(0, f(0))$. Therefore, $f^{}(0)=-2$ and $f(0)=-2$, so it is not true that $f^{}(0)>f(0)$.} \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Incorrect. This response is the referee's displacement over the time interval $2 t 6$ rather than the total distance the referee traveled. _{2}^{6} v(t) d t=_{2}^{6} 4(t-6) (2 t+5) d t=3.933 \\\\ | (B) & Incorrect. This response is the absolute value of the referee's change in velocity from time $t=2$ to time $t=6$. |v(6)-v(2)|=14.578 \\\\ | (C) & Correct. The referee's total distance traveled on the time interval $2 t 6$ is $_{2}^{6}|v(t)| d t=_{2}^{6}|4(t-6) (2 t+5)| d t=21.667$, where the numerical integration is done with the calculator. \\\\ | (D) & Incorrect. This response comes from averaging the referee's initial and final velocities on the time interval $2 t 6$, then multiplying by the length of the time interval. {2} t={2} 4=29.156 \\\\ |\n\n\nQuestion 86\n\n| Skill & Learning Objective \\\\ | 2.B & FUN-5.A \\\\ | (A) & {l} Correct. Because $h$ is continuous, the Extreme Value Theorem guarantees the existence of an absolute maximum on the closed interval $[-4,3]$ and that the maximum will occur at a critical value or at one of the endpoints. Since $h$ is an antiderivative of $f, h^{}(x)=f(x)=0$ at $x=-2$ and $x=0$. Therefore, the candidates are $x=-4, x=-2, x=0$, and $x=3$. Evaluate $h$ at each candidate and select the largest. \\\\ $h(-4)=_{0}^{-4} f(t) d t=-_{-4}^{0} f(t) d t=-(-{2}(2)(2)+{2}(2)(1))=-(-2+1)=1 h(-2)=_{0}^{-2} f(t) d t=-_{-2}^{0} f(t) d t=-({2}(2)(1))=-1$ \\\\ $h(0)=_{0}^{0} f(t) d t=0$ \\\\ $h(3)=_{0}^{3} f(t) d t=-({2}(2)(2)+{2}(2+1))=-(2+1.5)=-3.5$ \\\\ The maximum occurs at $x=-4$. \\\\\n(B) & Incorrect. Both critical values might have been found, and the relative minimum was picked while not accounting for the endpoints. \\\\\n(C) & Incorrect. Both critical values might have been found, and the relative maximum was picked while not accounting for the endpoints. \\\\\n(D) & Incorrect. The four candidates might have been identified, but the computation of $h(3)$ found the area of the region from $x=0$ to $x=3$ and did not account for the region being below the horizontal axis, as follows.\n\nh(3)=_{0}^{3} f(t) d t=(1{2}(2)(2)+1{2}(2+1))=(2+1.5)=3.5\n \\\\\ntabular\n\nQuestion 87\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & {l} Incorrect. This response would result if the problem was treated like rectilinear motion. The velocity of the particle was taken to be the value of the derivative ${d x}$ at time $t=1.2$. .{d x}|_{t=1.2}=.{d t}}{{d t}}|_{t=1.2}=.{-e^{-t}}|_{t=1.2}={-e^{-1.2}}=-1.162 \\\\ Then the speed was taken to be the absolute value of velocity. \\\\\n(B) & Incorrect. This response is the magnitude of the position vector at time $t=1.2$, not the magnitude of the velocity vector at that time.\n\n.(x(t))^{2+(y(t))^{2}}|_{t=1.2}=(e^{-1.2)^{2}+( (4  1.2))^{2}}=1.041\n \\\\\n(C) & Correct. The speed of the particle at time $t$ is the magnitude of the velocity vector $ x^{}(t), y^{}(t)=-e^{-t}, 4  (4 t)$ at time $t$.\n\n.(x^{(t))^{2}+(y^{}(t))^{2}}|_{t=1.2}=(-e^{-1.2)^{2}+(4  (4  1.2))^{2}}=0.462\n \\\\\n(D) & Incorrect. This response would result if the components of the vector $ x^{}(t), y^{}(t)=-e^{-t}, 4  (4 t)$ were not squared when finding the magnitude of the vector at $t=1.2$.\n\n.x^{(t)+y^{}(t)}|_{t=1.2}=(-e^{-1.2)+(4  (4  1.2))}=0.221\n \\\\\ntabular\n\n\n| Skill & Learning Objective \\\\ | 1.E \\\\ | (A) & Incorrect. This response might be chosen if the calculation of the average rate of change resulted in a value that was greater than 0 or less than -0.5 . It would also be chosen if the average rate of change was correctly found to be -0.39206 , but the instantaneous rate of change was taken to be the second derivative of $f$, not the first derivative. In either case, the resulting equation would have no solution in the interval [0,1.565]. \\\\ | (B) & Incorrect. This response would be chosen if the average rate of change was correctly found to be -0.39206 , but the graph of $f$, not $f^{}$, was drawn to determine the number of intersection points with the horizontal line $y=-0.39206$. It would also be chosen if the instantaneous rate of change was correctly identified as the derivative of $f$, but the average rate of change over the interval $[0,1.565]$ was thought to be the average at the endpoints, {2}=-0.30678, { or the average value of the function } over the interval, ${1.565} _{0}^{1.565} f(x) d x=-0.32195$. In all these cases, the resulting equation would have only one solution in the interval [0, 1.565]. \\\\ | (C) & Correct. The average rate of change of $f$ on the closed interval $[0,1.565]$ is ${1.565-0}=-0.39206$. The instantaneous rate of change of $f$ is the derivative, $f^{}(x)=x^{3}-2 x^{2}+x-{2}$.\nThe graph of $f^{}$, produced using the calculator, intersects the horizontal line $y=-0.39206$ three times in the open interval $(0,1.565)$. \\\\ | (D) & Incorrect. This response might be chosen because the function $f$ is a polynomial of degree 4 . \\\\ |\n\n\n| Skill & Learning Objective \\\\ | 3.F \\\\ | (A) & Incorrect. This differential equation is for a rate of change that is equal to the difference between the carrying capacity and a term that is proportional to the size of the population. There is no joint proportionality with the size of the population and the difference between the size of the population and the carrying capacity. \\\\ | (B) & Incorrect. This differential equation would be for a model where the population grows at a rate that is only proportional to the difference between the carrying capacity and the size of the population. There is no joint proportionality with the size of the population. \\\\ | (C) & Incorrect. This differential equation would be for a model where the population grows at a rate that is jointly proportional to the reciprocal of the size of the population, not the population itself, and the difference between the carrying capacity and the size of the population. \\\\ | (D) & Correct. The model for logistic growth that arises from the statement \"The rate of change of a quantity is jointly proportional to the size of the quantity and the difference between the quantity and the carrying capacity\" is ${d t}=k y(a-y)$, where $y$ represents the quantity that is changing and $a$ is the carrying capacity. Here the population $P$ is changing according to the logistic growth model with carrying capacity 2400 . Therefore, the differential equation for the model would be ${d t}=k P(2400-P)$. \\\\ |\n\n\nQuestion 90\n\n| Skill & Learning Objective \\\\ | 1.E & CHA-3.E \\\\ | (A) & Incorrect. This response would result if the area of the region was taken to be $A=(R-r)^{2}$ instead of $ R^{2}- r^{2}$. In addition, an error was made in the power rule when doing the differentiation, as follows. {d t}=(R-r)({d t}-{d t})=(4-3)(2-(-1))=3 \\\\ | (B) & Incorrect. This response would result if the area of the region was taken to be $A=(R-r)^{2}$ instead of $ R^{2}- r^{2}$. It is given that ${d t}=2$ and ${d t}=-1$ (since the inner radius $r$ is decreasing). At the instant when $R=4$ and $r=3$, this gave {d t}=2 (R-r)({d t}-{d t})=2 (4-3)(2-(-1))=6 . \\\\ | (C) & Incorrect. This response would result if the area of the region was correctly taken as $A= R^{2}- r^{2}$. Using the chain rule gave the rate of change of the area with respect to time $t$ as ${d t}=2 R {d t}-2 r {d t}$. It is given that ${d t}=2$, but ${d t}$ was taken to be 1 rather than -1 by not taking into account that the inner radius $r$ is decreasing. At the instant when $R=4$ and $r=3$, this gave ${d t}=2 (4) {d t}-2 (3) {d t}=2 (4(2)-3(1))=10 $. \\\\ | (D) & Correct. The area of the region is $A= R^{2}- r^{2}$. Using the chain rule gives the rate of change of the area with respect to time $t$ as ${d t}=2 R {d t}-2 r {d t}$. It is given that ${d t}=2$ and ${d t}=-1$ (since the inner radius $r$ is decreasing). At the instant when $R=4$ and $r=3$, {d t}=2 (4) {d t}-2 (3) {d t}=2 (4(2)-3(-1))=22 . \\\\ |\n\n^{ {® }}$ CALCULUS BC 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "$E^{}(7)=6.164924$\n\nThe rate of change of $E(t)$ at time $t=7$ is 6.165 (or 6.164) cars per hour per hour."
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{12} E(t) d t=520.070489$\n\nTo the nearest whole number, 520 cars enter the parking lot from time $t=0$ to time $t=12$."
+        },
+        {
+          "id": "c",
+          "text": "$_{2}^{12} L(t) d t (5-2)  L(2)+L(5){2}+(9-5)  L(5)+L(9){2}\n\n& +(11-9)  L(9)+L(11){2}+(12-11)  L(11)+L(12){2} \\\\\n= & 3  15+40{2}+4  40+24{2}+2  24+68{2}+1  68+18{2} \\\\\n= & 345.5\n\n_{2}^{12} L(t) d t$ is the number of cars that leave the parking lot in the 10 hours between 7 A.M. ( $t=2$ ) and 5 P.M. ( $t=12$ )."
+        },
+        {
+          "id": "d",
+          "text": "$5 _{0}^{6} E(t) d t+8 _{6}^{12} E(t) d t=3530.1396$\n\nTo the nearest dollar, 3530 dollars are collected from time $t=0$ to time $t=12$.\n\n1 : answer with units\n$2:\\{{l}1:  { integrand } \\\\ 1:  { answer }.$\n$3:\\{{l}1:  { trapezoidal sum } \\\\ 1:  { approximation } \\\\ 1:  { explanation }.$\n$3:\\{{l}1:  { integrand } \\\\ 1:  { limits and constants } \\\\ 1:  { answer }.$\n\n^{ {® }}$ CALCULUS BC 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "$(x^{(3))^{2}+(y^{}(3))^{2}}=3.064951$\n\nThe speed of the laser at time $t=3$ seconds is 3.065 (or 3.064) centimeters per second."
+        },
+        {
+          "id": "b",
+          "text": "$_{1}^{3} (x^{(t))^{2}+(y^{}(t))^{2}} d t=7.090427$\n\nThe total distance traveled by the laser from time $t=1$ to time $t=3$ seconds is 7.090 centimeters."
+        },
+        {
+          "id": "c",
+          "text": "$x(1.253)=0+_{0}^{1.253} d x{d t} d t=2.932354$\n\nThe $x$-coordinate of the laser's rightmost position is 2.932 ."
+        },
+        {
+          "id": "d",
+          "text": "$d y{d t}=0  t=t_{1}=0.628319$ or $t=t_{2}=1.884956\n\n& y(0)=0 \\\\\n& y(t_{1})=0+_{0}^{t_{1}} d y{d t} d t=1.6 \\\\\n& y(t_{2})=0+_{0}^{t_{2}} d y{d t} d t=-1.6 \\\\\n& y(3.1)=0+_{0}^{3.1} d y{d t} d t=1.591358\n\n\nThe difference between the $y$-coordinates of the laser's highest position and lowest position is $y(t_{1})-y(t_{2})=3.2$.\n\n1 : answer\n$2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n$2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n$4:\\{{l}1:  { sets } d y{d t}=0 \\\\ 1:  { critical points } \\\\ 1:  { integrand } \\\\ 1:  { answer with justification }.$\n\n^{ {® }}$ CALCULUS BC 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "Average rate of change $=f(4)-f(-3){4-(-3)}=-1-0{7}=-1{7}$"
+        },
+        {
+          "id": "b",
+          "text": "$f(3)=-3+3  (3 {2})=-3$\n\nFor $0<x<4, f^{}(x)=-1+(-3  ( x{2}))  {2}$\n$f^{}(3)=-1+(-3  (3 {2}))  {2}=-1+3 {2}$\nAn equation for the tangent line is $y=-3+(-1+3 {2})(x-3)$."
+        },
+        {
+          "id": "c",
+          "text": "The average value of $f$ on the interval $-3  x  4$ is\n$1{4-(-3)} _{-3}^{4} f(x) d x$.\n$_{-3}^{4} f(x) d x=_{-3}^{0} f(x) d x+_{0}^{4} f(x) d x$\n$_{-3}^{0} f(x) d x=_{-3}^{0} 9-x^{2} d x=9 {4}$\n$_{0}^{4} f(x) d x=_{0}^{4}(-x+3  ( x{2})) d x=[-1{2} x^{2}+6{}  ( x{2})]_{0}^{4}=-8$\n$1{4-(-3)} _{-3}^{4} f(x) d x=1{7}(9 {4}-8)$"
+        },
+        {
+          "id": "d",
+          "text": "$ _{x  0^{-}} f(x)=f(0)=3$ and $ _{x  0^{+}} f(x)=3$, so $f$ is continuous at $x=0$.\n\nBecause $f$ is continuous on [-3,4], the Extreme Value Theorem guarantees that $f$ attains an absolute maximum on $[-3,4]$.\n\n1 : answer\n$2:\\{{l}1: f^{}(3) \\\\ 1:  { equation }.$\n$4:\\{{l}1:  { integrals of } f  { over } \\\\ -3  x  0  { and } 0  x  4 \\\\ 1:  { value of } _{-3}^{0} 9-x^{2} d x \\\\ 1:  { antiderivative of } \\\\ -x+3  ( x{2}) \\\\ 1:  { answer }.$\n$2:\\{{l}1:  { continuity at } x=0 \\\\ 1:  { answer with justification }.$\n\n^{ {® }}$ CALCULUS BC \\\\ 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "$g(0)=_{-4}^{0} f(t) d t=9{2}-3=3{2}\n\ng(4) & =_{-4}^{4} f(t) d t \\\\\n& =_{-4}^{0} f(t) d t+_{0}^{1} f(t) d t+_{1}^{4} f(t) d t \\\\\n& =3{2}+5+_{1}^{4}(-t^{2}+5 t-4) d t \\\\\n& =3{2}+5+[-1{3} t^{3}+5{2} t^{2}-4 t]_{1}^{4} \\\\\n& =3{2}+5+[(-1{3}  4^{3}+5{2}  4^{2}-4  4)-(-1{3}  1^{3}+5{2}  1^{2}-4  1)] \\\\\n& =3{2}+5+(8{3}-(-11{6}))=11"
+        },
+        {
+          "id": "b",
+          "text": "$g^{}(x)=f(x)$ is negative for $-1<x<0$, and nonnegative elsewhere. Thus, the absolute minimum value of $g$ on $[-4,4]$ can only occur at $x=-4$ or $x=0$.\n\n\n& g(-4)=0 \\\\\n& g(0)=3{2}\n\n\nThe absolute minimum value of $g$ on $[-4,4]$ is $g(-4)=0$."
+        },
+        {
+          "id": "c",
+          "text": "The graph of $g$ is concave down on the intervals $-2<x<-1{2}$, $1{2}<x<1$, and $5{2}<x<4$ because $g^{}(x)=f(x)$ is decreasing on these intervals.\n$3:\\{{l}1: g^{}(x)=f(x) \\\\ 1:  { identifies } x=-4  { and } x=0 \\\\   { as candidates } \\\\ 1:  { answer with justification }.\n2:\\{{l}\n1:  { intervals } \\\\\n1:  { reason }\n.\n\n\n^{ {® }}$ CALCULUS BC 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "$d{d x}(4 x^{2}+3 y^{2}+6 y)=d{d x}\nequation*\n 8 x+6 y d y{d x}+6 d y{d x}=0 9\nequation*\n(6 y+6) d y{d x}=-8 x$\n$ d y{d x}=-8 x{6 y+6}=-4 x{3(y+1)}$"
+        },
+        {
+          "id": "b",
+          "text": "$d^{2 y}{d x^{2}}=-4  3(y+1)-(-4 x)  3 {d y{d x}}{(3(y+1))^{2}}=-12(y+1)-{16 x^{2}{y+1}}{(3(y+1))^{2}}$"
+        },
+        {
+          "id": "c",
+          "text": "$r=3{2+ }>0$ for $0    2 $.\n$d r{d }=-3{(2+ )^{2}}   $\n$(2+ )^{2}>0$ for all $$.\nFor ${2}<<3 {2},  <0$, so $d r{d }>0$.\nThe distance between the origin and the point $(r, )$ is increasing for ${2}    3 {2}$."
+        },
+        {
+          "id": "d",
+          "text": "$2=3{2+ }  2+ =3{2}   =-1{2}  =7 {6}$ or $=11 {6}$\n\nArea $=1{2} _{7 {6}}^{11 {6}}((3{2+ })^{2}-2^{2}) d $\n$2:\\{{l}1:  { implicit differentiation } \\\\ 1:  { verification }.$\n$2:\\{{l}1:  { form of quotient rule } \\\\ 1: d^{2 y}{d x^{2}}.$\n$2:\\{{l}1: d r{d } \\\\ 1:  { answer with reason }.$\n$3:\\{{l}1:  { limits and constant } \\\\ 1:  { form of integrand } \\\\ 1:  { integrand }.$\n\n^{ {® }}$ CALCULUS BC 2019 SCORING GUIDELINES}"
+        },
+        {
+          "id": "a",
+          "text": "The series with $p=3$ and $x=8$ is $_{n=1}^{} (-1)^{n+1 5^{n}}{5^{n}  n^{3}}=_{n=1}^{} (-1)^{n+1}{n^{3}}$. $_{n=1}^{}|(-1)^{n+1}{n^{3}}|=_{n=1}^{} 1{n^{3}}$ is a $p$-series with $p=3>1$, which converges.\nTherefore, the series $_{n=1}^{} (-1)^{n+1 5^{n}}{5^{n}  n^{3}}$ converges absolutely."
+        },
+        {
+          "id": "b",
+          "text": "The series with $p=1$ and $x=8$ is $_{n=1}^{} (-1)^{n+1 5^{n}}{5^{n}  n}=_{n=1}^{} (-1)^{n+1}{n}$. $_{n=1}^{} (-1)^{n+1}{n}$ converges by the alternating series test. $_{n=1}^{}|(-1)^{n+1}{n}|=_{n=1}^{} 1{n}$ is the harmonic series, which diverges.\nTherefore, the series $_{n=1}^{} (-1)^{n+1 5^{n}}{5^{n}  n}$ converges conditionally."
+        },
+        {
+          "id": "c",
+          "text": "The series with $x=-2$ is $_{n=1}^{} (-1)^{n+1(-5)^{n}}{5^{n}  n^{p}}=_{n=1}^{} -1{n^{p}}=-_{n=1}^{} 1{n^{p}}$. $_{n=1}^{} 1{n^{p}}$ is a $p$-series, which converges if and only if $p>1$.\nTherefore, the series $_{n=1}^{} (-1)^{n+1(-5)^{n}}{5^{n}  n^{p}}$ converges for $p>1$."
+        },
+        {
+          "id": "d",
+          "text": "The series with $p=1$ and $x=3.1$ is\n$_{n=1}^{} (-1)^{n+1}{5^{n}  n}(3.1-3)^{n}=_{n=1}^{} (-1)^{n+1(0.1)^{n}}{5^{n}  n}$.\nUsing two terms, $S  0.1{5}-(0.1)^{2}{5^{2}  2}=99{5000}$.\n$_{n=1}^{} (-1)^{n+1(0.1)^{n}}{5^{n}  n}$ is an alternating series with terms that decrease in magnitude to 0 .\nBy the alternating series error bound, the approximation $S  99{5000}$ has absolute error bounded by the magnitude of the third term, $1{5^{3}  10^{3} 3}$.\nTherefore, $|S-99{5000}|<|1{5^{3}  10^{3}  3}|=1{375,000}<1{300,000}$.\n\n\n& 2:\\{array{c}\n1:  { considers } _{n=1}^{} 1{n^{3}} \\\\\n1:  { converges absolutely } \\\\\n { with explanation }\n. \\\\\n& 2:\\{{c}\n1:  { considers } _{n=1}^{} (-1)^{n+1}{n} \\\\\n1:  { converges conditionally } \\\\\n { with explanation }\n.\naligned\n2:\\{{l}1:  { considers } _{n=1}^{} -1{n^{p}} \\\\ 1:  { answer with explanation }.\n3:\\{{l}\n1:  { approximation } \\\\\n1:  { uses third term of } \\\\\n  { series } \\\\\n1:  { error bound }\n.\n\n\n${ }_{ { Number Correct  \\\\\n { (out of 45) }}}  1.2000=${ Weighted Section I Score  \\\\ { (Do not round) }}{}\n\n\nQuestion $1  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $2  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $3  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $4  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $5  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $6  { { (out of 9) }}  1.0000= { (Do not round) }\n\n { Sum }= &  { Weighted }{ { Section II }} \\\\\n&  { Score } \\\\\n&  { (Do not round) }\n\n\n$c_{ { Weighted  \\\\  { Section I Score }}}+_{ { Weighted  \\\\  { Section II Score }}}=_{ { Composite Score  \\\\  { (Round to nearest } \\\\  { whole number) }}}$\n\n\n| {c} Composite \\\\ Score Range & AP Score \\\\\n$70-108$ & 5 \\\\\n$59-69$ & 4 \\\\\n$45-58$ & 3 \\\\\n$28-44$ & 2 \\\\\n$0-27$ & 1 \\\\\ntable\n\n\nQuestions (1-3, 6, 8-12, 14, 16, 20, 23-24, 27, 29, 76-79, 82-86, 88, 90)\n\n${${ Number Correct } \\\\ { (out of 27) }}$ 1.0000=${ Weighted Section I Score  \\\\ { (Do not round) }}{}\n\n\nQuestion $1  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $3  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $4  { { (out of 9) }}  1.0000= { (Do not round) }\n\n { Sum }= &  { Weighted }{ { Section II }} \\\\\n&  { Score } \\\\\n&  { (Do not round) }\n\n\n$[ { Weighted }]{ { Section I Score }}+ { Section II Score }{ { Weighted }}=${ Composite Score  \\\\ { (Round to nearest } \\\\ { whole number) }}{}\n\n\n| {c} Composite \\\\ Score Range & AP Score \\\\\n$35-54$ & 5 \\\\\n$29-34$ & 4 \\\\\n$23-28$ & 3 \\\\\n$15-22$ & 2 \\\\\n$0-14$ & 1 \\\\\ntable\n\n\n| Question & Skill & Learning Objective & Topic & Key & % Correct \\\\ | 1 & 1.E & FUN-6.B & The Fundamental Theorem of Calculus and Definite Integrals & A & 95 \\\\ | 2 & 3.D & FUN-4.A & Using the First Derivative Test to Find Relative (Local) Extrema & A & 82 \\\\ | 3 & 1.E & FUN-3.C & The Chain Rule & D & 85 \\\\ | 4 & 1.E & FUN-8.B & (BC ONLY) Solving Motion Problems Using Parametric and Vector-Valued Functions & B & 80 \\\\ | 5 & 3.D & LIM-7.A & (BC ONLY) Working with Geometric Series & B & 66 \\\\ | 6 & 1.E & FUN-3.B & The Quotient Rule & A & 88 \\\\ | 7 & 2.C & LIM-8.G & (BC ONLY) Representing Functions as Power Series & A & 69 \\\\ | 8 & 2.B & LIM-2.D & Connecting Limits at Infinity and Horizontal Asymptotes & B & 81 \\\\ | 9 & 3.B & CHA-2.B & Defining Average and Instantaneous Rates of Change at a Point & C & 68 \\\\ | 10 & 2.B & FUN-4.A & Determining Concavity of Functions over Their Domains & B & 67 \\\\ | 11 & 1.E & FUN-6.D & Integrating Using Substitution & D & 70 \\\\ | 12 & 3.D & FUN-1.B & Using the Mean Value Theorem & C & 80 \\\\ | 13 & 1.E & FUN-7.C & (BC ONLY) Approximating Solutions Using Euler's Method & A & 74 \\\\ | 14 & 1.E & FUN-3.D & Implicit Differentiation & B & 74 \\\\ | 15 & 1.E & LIM-6.A & (BC ONLY) Evaluating Improper Integrals & C & 61 \\\\ | 16 & 1.E & FUN-7.D & Finding General Solutions Using Separation of Variables & B & 46 \\\\ | 17 & 3.D & LIM-7.A & (BC ONLY) Alternating Series Test for Convergence & D & 57 \\\\ | 18 & 1.C & CHA-5.D & (BC ONLY) Finding the Area of the Region Bounded by Two Polar Curves & D & 65 \\\\ | 19 & 3.B & LIM-7.A & (BC ONLY) Alternating Series Test for Convergence & D & 69 \\\\ | 20 & 1.C & FUN-6.A & Applying Properties of Definite Integrals & C & 78 \\\\ | 21 & 3.D & LIM-8.D & (BC ONLY) Radius and Interval of Convergence of Power Series & A & 71 \\\\ | 22 & 1.E & FUN-3.G & (BC ONLY) Defining Polar Coordinates and Differentiating in Polar Form & B & 59 \\\\ | 23 & 1.F & LIM-5.A & Approximating Areas with Riemann Sums & B & 67 \\\\ | 24 & 3.D & FUN-6.B & The Fundamental Theorem of Calculus and Definite Integrals & A & 65 \\\\ | 25 & 1.E & FUN-6.E & (BC ONLY) Using Integration by Parts & A & 33 \\\\ | 26 & 3.D & LIM-7.A & (BC ONLY) Determining Absolute or Conditional Convergence & C & 53 \\\\ | 27 & 1.C & CHA-5.C & Volume with Washer Method - Revolving Around $x$ - or $y$-axis & D & 58 \\\\ | 28 & 1.E & CHA-3.G & (BC ONLY) Second Derivatives of Parametric Equations & C & 40 \\\\ | 29 & 2.C & LIM-5.C & Riemann Sums, Summation Notation, and Definite Integral Notation & B & 37 \\\\ | 30 & 2.B & LIM-8.A & (BC ONLY) Finding Taylor Polynomial Approximations of Functions & D & 22 \\\\ |\n\n\n| Question & Skill & Learning Objective & Topic & Key & % Correct \\\\ | 76 & 2.E & FUN-4.A & Determining Intervals on Which a Function Is Increasing or Decreasing & D & 92 \\\\ | 77 & 1.E & CHA-4.D & Using Accumulation Functions and Definite Integrals in Applied Contexts & D & 82 \\\\ | 78 & 2.D & LIM-2.D & Connecting Infinite Limits and Vertical Asymptotes & C & 95 \\\\ | 79 & 3.F & CHA-4.B & Finding the Average Value of a Function on an Interval & B & 70 \\\\ | 80 & 1.E & LIM-8.B & (BC ONLY) Finding Taylor Polynomial Approximations of Functions & B & 80 \\\\ | 81 & 1.E & CHA-6.A & (BC ONLY) The Arc Length of a Smooth, Planar Curve and Distance Traveled & B & 68 \\\\ | 82 & 2.D & FUN-7.C & Sketching Slope Fields & A & 71 \\\\ | 83 & 3.D & LIM-2.C & Removing Discontinuities & A & 72 \\\\ | 84 & 2.D & CHA-2.C & Defining the Derivative of a Function and Using Derivative Notation & C & 63 \\\\ | 85 & 1.E & CHA-4.C & Connecting Position, Velocity, and Acceleration Functions Using Integrals & C & 62 \\\\ | 86 & 2.B & FUN-5.A & Interpreting the Behavior of Accumulation Functions Involving Area & A & 49 \\\\ | 87 & 1.E & FUN-8.B & (BC ONLY) Solving Motion Problems Using Parametric and Vector-Valued Functions & C & 72 \\\\ | 88 & 1.E & CHA-3.A & Interpreting the Meaning of the Derivative in Context & C & 42 \\\\ | 89 & 3.F & FUN-7.H & (BC ONLY) Logistic Models with Differential Equations & D & 66 \\\\ | 90 & 1.E & CHA-3.E & Solving Related Rates Problems & D & 60 \\\\ |\n\n\n| Question & Skill & Learning Objective & Topic & Mean Score \\\\ | 1 & 1.E|3.D|3.F|4.D|4.A|4.B|4.C|4.E & CHA-2.D|CHA-4.E|LIM-5.A & 2.3|8.3|6.2|8.3 & 7.33 \\\\ | 2 & 1.D|1.E|3.B|3.D|4.D|4.E & FUN-8.B & 9.6 & 5.05 \\\\ | 3 & 1.D|1.E|3.C|3.D|4.A & CHA-2.A|CHA-2.C|CHA-4.B|FUN-1.C & $2.1|2.2| 8.1 5.2$ & 3.03 \\\\ | 4 & 1.D|1.E|2.B|2.E|4.A & FUN-6.A|FUN-4.A & 6.6|5.5|5.6 & 4.89 \\\\ | 5 & 1.D|1.E |3.E|3.G|4.C & FUN-3.D|FUN-4.E|FUN-3.G|CHA-5.D & 3.2|5.12|9.7|9.9 & 5.04 \\\\ | 6 & 1.E|3.B|3.D|3.E|4.A & LIM-7.A|LIM-8.C & 10.9|10.5|10.12 & 3.64 \\\\ |"
+        }
+      ],
+      "images": []
+    }
+  ]
+}

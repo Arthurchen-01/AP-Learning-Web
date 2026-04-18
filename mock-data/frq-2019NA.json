@@ -1,0 +1,159 @@
+{
+  "examId": "2019NA",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2019NA_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "Fish enter a lake at a rate modeled by the function $E$ given by $E(t)=20+15  ( t{6})$. Fish leave the lake at a rate modeled by the function $L$ given by $L(t)=4+2^{0.1 t^{2}}$. Both $E(t)$ and $L(t)$ are measured in fish per hour, and $t$ is measured in hours since midnight $(t=0)$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "How many fish enter the lake over the 5 -hour period from midnight $(t=0)$ to 5 A.M. $(t=5)$ ? Give your answer to the nearest whole number."
+        },
+        {
+          "id": "b",
+          "text": "What is the average number of fish that leave the lake per hour over the 5 -hour period from midnight $(t=0)$ to 5 A.M. $(t=5)$ ?"
+        },
+        {
+          "id": "c",
+          "text": "At what time $t$, for $0  t  8$, is the greatest number of fish in the lake? Justify your answer."
+        },
+        {
+          "id": "d",
+          "text": "Is the rate of change in the number of fish in the lake increasing or decreasing at 5 A.M. ( $t=5$ ) ? Explain your reasoning."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d5cc46dc-e97d-4244-b8c5-371d6d8d957c-3.jpg?height=757&width=486&top_left_y=281&top_left_x=816"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Let $S$ be the region bounded by the graph of the polar curve $r()=3   (^{2})$ for $0    $, as shown in the figure above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the area of $S$."
+        },
+        {
+          "id": "b",
+          "text": "What is the average distance from the origin to a point on the polar curve $r()=3   (^{2})$ for $0     ?$"
+        },
+        {
+          "id": "c",
+          "text": "There is a line through the origin with positive slope $m$ that divides the region $S$ into two regions with equal areas. Write, but do not solve, an equation involving one or more integrals whose solution gives the value of $m$."
+        },
+        {
+          "id": "d",
+          "text": "For $k>0$, let $A(k)$ be the area of the portion of region $S$ that is also inside the circle $r=k  $. Find $ _{k  } A(k)$.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-1 hour \\\\ Number of questions-4\n\n\n\n\nGraph of $f$"
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d5cc46dc-e97d-4244-b8c5-371d6d8d957c-4.jpg?height=444&width=674&top_left_y=747&top_left_x=721"
+      ]
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "The continuous function $f$ is defined on the closed interval $-6  x  5$. The figure above shows a portion of the graph of $f$, consisting of two line segments and a quarter of a circle centered at the point $(5,3)$. It is known that the point ( $3,3-5$ ) is on the graph of $f$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "If $_{-6}^{5} f(x) d x=7$, find the value of $_{-6}^{-2} f(x) d x$."
+        },
+        {
+          "id": "b",
+          "text": "Evaluate $_{3}^{5}(2 f^{}(x)+4) d x$."
+        },
+        {
+          "id": "c",
+          "text": "The function $g$ is given by $g(x)=_{-2}^{x} f(t) d t$. Find the absolute maximum value of $g$ on the interval $-2  x  5$. Justify your answer."
+        },
+        {
+          "id": "d",
+          "text": "Find $ _{x  1} 10^{x-3 f^{}(x)}{f(x)- x}$."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d5cc46dc-e97d-4244-b8c5-371d6d8d957c-5.jpg?height=534&width=274&top_left_y=328&top_left_x=921"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "A cylindrical barrel with a diameter of 2 feet contains collected rainwater, as shown in the figure above. The water drains out through a valve (not shown) at the bottom of the barrel. The rate of change of the height $h$ of the water in the barrel with respect to time $t$ is modeled by $d h{d t}=-1{10} h$, where $h$ is measured in feet and $t$ is measured in seconds. (The volume $V$ of a cylinder with radius $r$ and height $h$ is $V= r^{2} h$.)",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the rate of change of the volume of water in the barrel with respect to time when the height of the water is 4 feet. Indicate units of measure."
+        },
+        {
+          "id": "b",
+          "text": "When the height of the water is 3 feet, is the rate of change of the height of the water with respect to time increasing or decreasing? Explain your reasoning."
+        },
+        {
+          "id": "c",
+          "text": "At time $t=0$ seconds, the height of the water is 5 feet. Use separation of variables to find an expression for $h$ in terms of $t$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "Consider the family of functions $f(x)=1{x^{2}-2 x+k}$, where $k$ is a constant.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the value of $k$, for $k>0$, such that the slope of the line tangent to the graph of $f$ at $x=0$ equals 6 ."
+        },
+        {
+          "id": "b",
+          "text": "For $k=-8$, find the value of $_{0}^{1} f(x) d x$."
+        },
+        {
+          "id": "c",
+          "text": "For $k=1$, find the value of $_{0}^{2} f(x) d x$ or show that it diverges.\n\n\n|$n$ & $f^{(n)}(0)$ \\\\ | | 2 & 3 \\\\ | 3 & $-{2}$ \\\\ | 4 & 54 \\\\ |"
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/d5cc46dc-e97d-4244-b8c5-371d6d8d957c-7.jpg?height=768&width=654&top_left_y=335&top_left_x=511"
+      ]
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "A function $f$ has derivatives of all orders for all real numbers $x$. A portion of the graph of $f$ is shown above, along with the line tangent to the graph of $f$ at $x=0$. Selected derivatives of $f$ at $x=0$ are given in the table above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Write the third-degree Taylor polynomial for $f$ about $x=0$."
+        },
+        {
+          "id": "b",
+          "text": "Write the first three nonzero terms of the Maclaurin series for $e^{x}$. Write the second-degree Taylor polynomial for $e^{x} f(x)$ about $x=0$."
+        },
+        {
+          "id": "c",
+          "text": "Let $h$ be the function defined by $h(x)=_{0}^{x} f(t) d t$. Use the Taylor polynomial found in part"
+        },
+        {
+          "id": "a",
+          "text": "to find an approximation for $h(1)$."
+        },
+        {
+          "id": "d",
+          "text": "It is known that the Maclaurin series for $h$ converges to $h(x)$ for all real numbers $x$. It is also known that the individual terms of the series for $h(1)$ alternate in sign and decrease in absolute value to 0 . Use the alternating series error bound to show that the approximation found in part"
+        },
+        {
+          "id": "c",
+          "text": "differs from $h(1)$ by at most 0.45 ."
+        }
+      ],
+      "images": []
+    }
+  ]
+}

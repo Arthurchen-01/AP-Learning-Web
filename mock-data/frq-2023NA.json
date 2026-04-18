@@ -1,0 +1,154 @@
+{
+  "examId": "2023NA",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2023NA_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "A customer at a gas station is pumping gasoline into a gas tank. The rate of flow of gasoline is modeled by a differentiable function $f$, where $f(t)$ is measured in gallons per second and $t$ is measured in seconds since pumping began. Selected values of $f(t)$ are given in the table.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Using correct units, interpret the meaning of $_{60}^{135} f(t) d t$ in the context of the problem. Use a right Riemann sum with the three subintervals [60,90], [90, 120], and [120, 135] to approximate the value of $_{60}^{135} f(t) d t$."
+        },
+        {
+          "id": "b",
+          "text": "Must there exist a value of $c$, for $60<c<120$, such that $f^{}(c)=0$ ? Justify your answer."
+        },
+        {
+          "id": "c",
+          "text": "The rate of flow of gasoline, in gallons per second, can also be modeled by $g(t)=(t{500})  ((t{120})^{2})$ for $0  t  150$. Using this model, find the average rate of flow of gasoline over the time interval $0  t  150$."
+        },
+        {
+          "id": "d",
+          "text": "Using the model $g$ defined in part (c), find the value of $g^{}(140)$. Interpret the meaning of your answer in the context of the problem."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-04.jpg?height=411&width=738&top_left_y=222&top_left_x=659"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "For $0  t  $, a particle is moving along the curve shown so that its position at time $t$ is $(x(t), y(t))$, where $x(t)$ is not explicitly given and $y(t)=2  t$. It is known that $d x{d t}=e^{ t}$. At time $t=0$, the particle is at position $(1,0)$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the acceleration vector of the particle at time $t=1$."
+        },
+        {
+          "id": "b",
+          "text": "For $0  t  $, find the first time $t$ at which the speed of the particle is 1.5 ."
+        },
+        {
+          "id": "c",
+          "text": "Find the slope of the line tangent to the path of the particle at time $t=1$. Find the $x$-coordinate of the position of the particle at time $t=1$."
+        },
+        {
+          "id": "d",
+          "text": "Find the total distance traveled by the particle over the time interval $0  t  $."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "A bottle of milk is taken out of a refrigerator and placed in a pan of hot water to be warmed. The increasing function $M$ models the temperature of the milk at time $t$, where $M(t)$ is measured in degrees Celsius ( ${ }^{} C$ ) and $t$ is the number of minutes since the bottle was placed in the pan. $M$ satisfies the differential equation $d M{d t}=1{4}(40-M)$. At time $t=0$, the temperature of the milk is $5^{} C$. It can be shown that $M(t)<40$ for all values of $t$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "A slope field for the differential equation $d M{d t}=1{4}(40-M)$ is shown. Sketch the solution curve through the point $(0,5)$."
+        },
+        {
+          "id": "b",
+          "text": "Use the line tangent to the graph of $M$ at $t=0$ to approximate $M(2)$, the temperature of the milk at time $t=2$ minutes."
+        },
+        {
+          "id": "c",
+          "text": "Write an expression for $d^{2 M}{d t^{2}}$ in terms of $M$. Use $d^{2 M}{d t^{2}}$ to determine whether the approximation from part"
+        },
+        {
+          "id": "b",
+          "text": "is an underestimate or an overestimate for the actual value of $M(2)$. Give a reason for your answer."
+        },
+        {
+          "id": "d",
+          "text": "Use separation of variables to find an expression for $M(t)$, the particular solution to the differential equation $d M{d t}=1{4}(40-M)$ with initial condition $M(0)=5$."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-07.jpg?height=772&width=1017&top_left_y=896&top_left_x=592",
+        "https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-08.jpg?height=387&width=750&top_left_y=222&top_left_x=651"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "The function $f$ is defined on the closed interval $[-2,8]$ and satisfies $f(2)=1$. The graph of $f^{}$, the derivative of $f$, consists of two line segments and a semicircle, as shown in the figure.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Does $f$ have a relative minimum, a relative maximum, or neither at $x=6$ ? Give a reason for your answer."
+        },
+        {
+          "id": "b",
+          "text": "On what open intervals, if any, is the graph of $f$ concave down? Give a reason for your answer."
+        },
+        {
+          "id": "c",
+          "text": "Find the value of $ _{x  2} 6 f(x)-3 x{x^{2}-5 x+6}$, or show that it does not exist. Justify your answer."
+        },
+        {
+          "id": "d",
+          "text": "Find the absolute minimum value of $f$ on the closed interval $[-2,8]$. Justify your answer."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/50a65166-dece-44b5-a6f2-f48f3f76507d-09.jpg?height=578&width=488&top_left_y=220&top_left_x=783"
+      ]
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "The graphs of the functions $f$ and $g$ are shown in the figure for $0  x  3$. It is known that $g(x)=12{3+x}$ for $x  0$. The twice-differentiable function $f$, which is not explicitly given, satisfies $f(3)=2$ and $_{0}^{3} f(x) d x=10$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the area of the shaded region enclosed by the graphs of $f$ and $g$."
+        },
+        {
+          "id": "b",
+          "text": "Evaluate the improper integral $_{0}^{}(g(x))^{2} d x$, or show that the integral diverges."
+        },
+        {
+          "id": "c",
+          "text": "Let $h$ be the function defined by $h(x)=x  f^{}(x)$. Find the value of $_{0}^{3} h(x) d x$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "The function $f$ has derivatives of all orders for all real numbers. It is known that $f(0)=2, f^{}(0)=3$, $f^{ }(x)=-f(x^{2})$, and $f^{  }(x)=-2 x  f^{}(x^{2})$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find $f^{(4)}(x)$, the fourth derivative of $f$ with respect to $x$. Write the fourth-degree Taylor polynomial for $f$ about $x=0$."
+        },
+        {
+          "id": "b",
+          "text": "The fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f(0.1)$. Given that $|f^{(5)}(x)|  15$ for $0  x  0.5$, use the Lagrange error bound to show that this approximation is within $1{10^{5}}$ of the exact value of $f(0.1)$."
+        },
+        {
+          "id": "c",
+          "text": "Let $g$ be the function such that $g(0)=4$ and $g^{}(x)=e^{x} f(x)$. Write the second-degree Taylor polynomial for $g$ about $x=0$."
+        }
+      ],
+      "images": []
+    }
+  ]
+}

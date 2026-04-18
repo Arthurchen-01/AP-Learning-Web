@@ -493,24 +493,27 @@ button {
   line-height: 1.8;
 }
 
-/* ─── FRQ Sub-parts ─── */
+/* ─── FRQ Sub-parts (left pane) ─── */
 .frq-parts {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
 }
 
-.frq-part {
-  border-bottom: 1px solid var(--line);
-}
-.frq-part:last-child {
-  border-bottom: none;
+.frq-part-block {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .frq-part-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 10px 16px;
   cursor: pointer;
   user-select: none;
   background: #f8fafc;
@@ -520,49 +523,196 @@ button {
   background: #f0f4f8;
 }
 
+.frq-part-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-right: 10px;
+}
+
 .frq-part-label {
+  display: flex;
+  align-items: center;
   font-weight: 600;
   font-size: 0.9rem;
   color: var(--ink);
 }
 
 .frq-part-toggle {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--muted);
-  transition: transform 0.2s;
 }
 
-.frq-part-body {
+.frq-part-text {
+  padding: 14px 16px;
+  line-height: 1.75;
+  font-size: 0.95rem;
   overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.2s;
-  max-height: 600px;
+  transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.2s;
+  max-height: 800px;
   opacity: 1;
 }
 
-.frq-part.is-collapsed .frq-part-body {
+.frq-part-block.is-collapsed .frq-part-text {
   max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   opacity: 0;
 }
 
-.frq-part-textarea {
-  width: 100%;
-  min-height: 120px;
-  padding: 16px 20px;
-  border: 0;
-  resize: vertical;
-  background: transparent;
-  line-height: 1.7;
+/* ─── FRQ Upload (right pane) ─── */
+.frq-upload-pane {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.frq-upload-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 16px;
+}
+
+.frq-upload-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 40px 20px;
+  border: 2px dashed var(--line-strong);
+  border-radius: 12px;
+  background: #fafbfd;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  text-align: center;
+}
+.frq-upload-zone:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.frq-upload-icon {
+  font-size: 2rem;
+}
+
+.frq-upload-text strong {
+  display: block;
   font-size: 0.95rem;
-  font-family: inherit;
   color: var(--ink);
+  margin-bottom: 4px;
 }
-.frq-part-textarea:focus {
-  outline: none;
-  background: #fafcff;
-}
-.frq-part-textarea::placeholder {
+.frq-upload-text span {
+  font-size: 0.8rem;
   color: var(--muted);
-  font-style: italic;
+}
+
+.frq-file-input {
+  display: none;
+}
+
+.frq-uploaded-files {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.frq-file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.frq-file-name {
+  font-size: 0.85rem;
+  color: var(--ink);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 200px;
+}
+
+.frq-file-size {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* ─── FRQ Image Upload ─── */
+.frq-image-area {
+  padding: 8px 20px 12px;
+  border-top: 1px solid var(--border-light, #e8e0d8);
+}
+.frq-image-upload-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px dashed var(--border, #d4c8b8);
+  border-radius: 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted, #86624c);
+  cursor: pointer;
+  transition: all 0.15s;
+  background: transparent;
+}
+.frq-image-upload-btn:hover {
+  border-color: var(--accent, #e89255);
+  color: var(--accent, #e89255);
+  background: rgba(232,146,85,0.06);
+}
+.frq-image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.frq-img-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 200px;
+}
+.frq-img-wrap img {
+  max-width: 100%;
+  max-height: 180px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #d4c8b8);
+  object-fit: contain;
+  background: #fff;
+}
+.frq-img-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.frq-img-wrap:hover .frq-img-remove {
+  opacity: 1;
 }
 
 /* ─── Bottom Navigation (Blue Book: compact circles) ─── */

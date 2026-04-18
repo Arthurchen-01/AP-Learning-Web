@@ -1,0 +1,659 @@
+{
+  "examId": "2016SQ",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2016SQ_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "If $f(x)=(x^{2}-3)^{4}$, then $f^{}(1)=$\n(A) -64\n(B) -32\n(C) -16\n(D) 32",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "$_{-2}^{1}(8 x^{3}-3 x^{2}) d x=$\n(A) -561\n(B) -90\n(C) -39\n(D) 81",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "An object moves in the $x y$-plane so that its position at any time $t$ is given by the parametric equations $x(t)=t^{3}-3 t^{2}+2$ and $y(t)=t^{2+16}$. What is the rate of change of $y$ with respect to $x$ when $t=3$ ?\n(A) $1{90}$\n(B) $1{15}$\n(C) $3{5}$\n(D) $5{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Snow is falling at a rate of $r(t)=2 e^{-0.1 t}$ inches per hour, where $t$ is the time in hours since the beginning of the snowfall. Which of the following expressions gives the amount of snow, in inches, that falls from time $t=0$ to time $t=5$ hours?\n(A) $2 e^{-0.5}-2$\n(B) $0.2-0.2 e^{-0.5}$\n(C) $4-4 e^{-0.5}$\n(D) $20-20 e^{-0.5}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "If $e^{x}-y=x y^{3}+e^{2}-18$, what is the value of $d y{d x}$ at the point $(2,2)$ ?\n(A) $e^{2}-32$\n(B) $e^{2-9}{24}$\n(C) $e^{2-8}{25}$\n(D) $e^{2}{13}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "On a certain day, the rate at which material is deposited at a recycling center is modeled by the function $R$, where $R(t)$ is measured in tons per hour and $t$ is the number of hours since the center opened. Using a trapezoidal sum with the three subintervals indicated by the data in the table, what is the approximate number of tons of material deposited in the first 9 hours since the center opened?\n(A) 68\n(B) 70.5\n(C) 85\n(D) 136",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-7",
+      "number": 7,
+      "stem": "At time $t  0$, a particle moving in the $x y$-plane has a velocity vector given by $v(t)= (2 t), e^{3 t}$. What is the acceleration vector of the particle?\n(A) $-2  (2 t), 3 e^{3 t}$\n(B) $-2  (2 t), e^{3 t}$\n(C) $1{2}  (2 t), 1{3} e^{3 t}$\n(D) $ 2  (2 t), 3 e^{3 t}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-8",
+      "number": 8,
+      "stem": "Consider the geometric series $_{n=1}^{} a_{n}$, where $a_{n}>0$ for all $n$. The first term of the series is $a_{1}=48$, and the third term is $a_{3}=12$. Which of the following statements about $_{n=1}^{} a_{n}$ is true?\n(A) $_{n=1}^{} a_{n}=64$\n(B) $_{n=1}^{} a_{n}=96$\n(C) $_{n=1}^{} a_{n}$ converges, but the sum cannot be determined from the information given.\n(D) $_{n=1}^{} a_{n}$ diverges.\n\nf(x)= |x|{x} &  { for } x  0 \\\\ 0 &  { for } x=0",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-9",
+      "number": 9,
+      "stem": "The function $f$ is defined above. The value of $_{-5}^{3} f(x) d x$ is\n(A) -2\n(B) 2\n(C) 8\n(D) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-10",
+      "number": 10,
+      "stem": "Which of the following series can be used with the limit comparison test to determine whether the series $_{n=1}^{} n^{2}{n^{3}+1}$ converges or diverges?\n(A) $_{n=1}^{} 1{n}$\n(B) $_{n=1}^{} 1{n^{3}}$\n(C) $_{n=1}^{} n{n+1}$\n(D) $_{n=1}^{} 1{n^{2}+1}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-11",
+      "number": 11,
+      "stem": "$_{1}^{e} x^{4}  x d x=$\n(A) $6 e^{5-1}{25}$\n(B) $4 e^{5+1}{25}$\n(C) $1-e^{3}{3}$\n(D) $e^{4}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-12",
+      "number": 12,
+      "stem": "An object moves along a straight line so that at any time $t$ its acceleration is given by $a(t)=6 t$. At time $t=0$, the object's velocity is 10 and the object's position is 7 . What is the object's position at time $t=2$ ?\n(A) 22\n(B) 27\n(C) 28\n(D) 35",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-019.jpg?height=569&width=557&top_left_y=345&top_left_x=773"
+      ]
+    },
+    {
+      "id": "frq-13",
+      "number": 13,
+      "stem": "The graph of a differentiable function $f$ is shown above on the closed interval $[-4,3]$. How many values of $x$ in the open interval $(-4,3)$ satisfy the conclusion of the Mean Value Theorem for $f$ on $[-4,3]$ ?\n(A) Zero\n(B) One\n(C) Two\n(D) Three",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-14",
+      "number": 14,
+      "stem": "$_{0}^{x}  (t^{6}) d t=$\n(A) $x^{2}{2}-x^{4}{4}+x^{6}{6}-+(-1)^{n+1 x^{2 n}}{2 n}+$\n(B) $x^{2}{2}-x^{4}{4  3!}+x^{6}{6  5!}-+(-1)^{n+1 x^{2 n}}{2 n (2 n-1)!}+$\n(C) $x^{7}{7}-x^{19}{19}+x^{31}{31}-+(-1)^{n+1 x^{6(2 n-1)+1}}{6(2 n-1)+1}+$\n(D) $x^{7}{7}-x^{19}{19  3!}+x^{31}{31  5!}-+(-1)^{n+1 x^{6(2 n-1)+1}}{(6(2 n-1)+1) (2 n-1)!}+$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-15",
+      "number": 15,
+      "stem": "The speed of a runner, in miles per hour, on a straight trail is modeled by $f(m)=1{10}(-2 m^{3}+9 m^{2}-12 m)+7$, where $m$ is the runner's distance, in miles, from the start of the trail. What is the maximum speed of the runner for $0  m  3$ ?\n(A) 6.5\n(B) 6.6\n(C) 7.0\n(D) 7.5",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-16",
+      "number": 16,
+      "stem": "Which of the following could be a slope field for the differential equation $d y{d x}=x^{2}+y$ ?",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-021.jpg?height=708&width=691&top_left_y=472&top_left_x=313",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-021.jpg?height=700&width=691&top_left_y=1258&top_left_x=313",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-021.jpg?height=706&width=686&top_left_y=472&top_left_x=1237",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-021.jpg?height=700&width=686&top_left_y=1258&top_left_x=1237"
+      ]
+    },
+    {
+      "id": "frq-17",
+      "number": 17,
+      "stem": "$ 8 x-10{(2 x-1)(x+1)} d x=$\n(A) $-4  |2 x-1|+6  |x+1|+C$\n(B) $-2  |2 x-1|+6  |x+1|+C$\n(C) $3  |2 x-1|-4  |x+1|+C$\n(D) $6  |2 x-1|-4  |x+1|+C$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-18",
+      "number": 18,
+      "stem": "What is the slope of the line tangent to the polar curve $r=2  -1$ at the point where $=$ ?\n(A) -3\n(B) 0\n(C) 3\n(D) The slope is undefined.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-19",
+      "number": 19,
+      "stem": "$ _{x  e} (x^{20-3 x)-(e^{20}-3 e)}{x-e}$ is\n(A) 0\n(B) $20 e^{19}-3$\n(C) $e^{20}-3 e$\n(D) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-20",
+      "number": 20,
+      "stem": "What is the radius of convergence for the series $_{n=0}^{} (x-5)^{n}{2^{n}(2 n+3)^{2}}$ ?\n(A) $1{2}$\n(B) 1\n(C) 2\n(D) 5",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-21",
+      "number": 21,
+      "stem": "Which of the following statements about the integral $_{0}^{}  ^{2} x d x$ is true?\n(A) The integral is equal to 0 .\n(B) The integral is equal to $2{3}$.\n(C) The integral diverges because $ _{x  {2}-}  ^{2} x$ does not exist.\n(D) The integral diverges because $ _{x  {2}-}  x$ does not exist.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-22",
+      "number": 22,
+      "stem": "Which of the following series are conditionally convergent?\nI. $_{n=1}^{} (-1)^{n}{n}$\nII. $_{n=1}^{} (-1)^{n}{n^{3}}$\nIII. $_{n=1}^{} (-1)^{n}{n}$\n(A) I only\n(B) I and II only\n(C) I and III only\n(D) II and III only",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-23",
+      "number": 23,
+      "stem": "$_{0}^{ 2} e^{x}{1+(e^{x}-1)^{2}} d x=$\n(A) $ ( 2)$\n(B) $ 2$\n(C) ${4}$\n(D) ${2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-24",
+      "number": 24,
+      "stem": "$ _{x  3}  (x-3){3 e^{x-3}-x}$ is\n(A) 0\n(B) $1{3}$\n(C) $1{2}$\n(D) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-25",
+      "number": 25,
+      "stem": "The volume of a sphere is increasing at a rate of $6 $ cubic centimeters per hour. At what rate, in centimeters per hour, is its diameter increasing with respect to time at the instant the radius of the sphere is 3 centimeters? (Note: The volume of a sphere with radius $r$ is given by $V=4{3}  r^{3}$.)\n(A) $1{3}$\n(B) 1\n(C) $6$\n(D) 6",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-26",
+      "number": 26,
+      "stem": "The function $f()=^{3}-6 ^{2}+9 $ satisfies $f()  0$ for $  0$. During the time interval $0  t  2 $ seconds, a particle moves along the polar curve $r=f()$ so that at time $t$ seconds, $=t$. On what intervals of time $t$ is the distance between the particle and the origin increasing?\n(A) $0  t  3$ only\n(B) $0  t  2 $\n(C) $1  t  3$ only\n(D) $0  t  1$ and $3  t  2 $ only",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-027.jpg?height=657&width=435&top_left_y=330&top_left_x=831"
+      ]
+    },
+    {
+      "id": "frq-27",
+      "number": 27,
+      "stem": "The graph of the function $f$ is shown above for $-2<x<2$. Let $g$ be the function defined by $g(x)=_{0}^{x} f(t) d t$. On what open interval is $g$ negative and decreasing?\n(A) $-2<x<0$ only\n(B) $-2<x<1$\n(C) $0<x<1$ only\n(D) $0<x<2$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-28",
+      "number": 28,
+      "stem": "The function $N$ satisfies the logistic differential equation $d N{d t}=N{10}(1-N{850})$, where $N(0)=105$. Which of the following statements is false?\n(A) $ _{t  } N(t)=850$\n(B) $d N{d t}$ has a maximum value when $N=105$.\n(C) $d^{2 N}{d t^{2}}=0$ when $N=425$.\n(D) When $N>425, d N{d t}>0$ and $d^{2 N}{d t^{2}}<0$.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-029.jpg?height=639&width=641&top_left_y=345&top_left_x=726"
+      ]
+    },
+    {
+      "id": "frq-29",
+      "number": 29,
+      "stem": "The function $f$ is given by $f(x)= x$. The graph of $f$ is shown above. Which of the following limits is equal to the area of the shaded region?\n(A) $ _{n  } _{k=1}^{n}(1+ (3 k{n})) 3{n}$\n(B) $  _{n  } _{k=1}^{n}  (1+3 k{n}) 3{n}$\n(C) $ _{n  } _{k=1}^{n}  (4{n})(1+4 k{n})$\n(D) $ _{n  } _{k=1}^{n}  (1+4 k{n}) 4{n}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-30",
+      "number": 30,
+      "stem": "The Taylor series for a function $f$ about $x=0$ is given by $_{n=1}^{} (-1)^{n+1}{(2 n+1)!} x^{2 n}$ and converges to $f$ for all real numbers $x$. If the fourth-degree Taylor polynomial for $f$ about $x=0$ is used to approximate $f(1{2})$, what is the alternating series error bound?\n(A) $1{2^{4}  5!}$\n(B) $1{2^{5}  6!}$\n(C) $1{2^{6}  7!}$\n(D) $1{2^{10}  11!}$\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and place the letter of your choice in the corresponding box on the answer sheet. No credit will be given for anything written in this exam booklet. Do not spend too much time on any one problem.\n\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ ).\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-76",
+      "number": 76,
+      "stem": "If $f^{}(x)=1+2 x^{3}$ and $f(2)=0.4$, then $f(5)=$\n(A) 29.005\n(B) 28.605\n(C) 28.205\n(D) -28.205\n\n|$x$ & -0.2 & 0 & 0.2 & 0.4 \\\\ |$f^{}(x)$ & 0.8 & 1.2 & 1.7 & 2.3 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-77",
+      "number": 77,
+      "stem": "The table above shows values of $f^{}$, the derivative of a function $f$, for selected values of $x$. If $f(-0.2)=1$, what is the approximation for $f(0.4)$ obtained by using Euler's method with a step size of 0.2 starting at $x=-0.2$ ?\n(A) 1.48\n(B) 1.74\n(C) 2.04\n(D) 2.20",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-78",
+      "number": 78,
+      "stem": "The second derivative of a function $f$ is given by $f^{ }(x)= (3 x)- (x^{2})$. How many points of inflection does the graph of $f$ have on the interval $0<x<3$ ?\n(A) One\n(B) Three\n(C) Four\n(D) Five",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-033.jpg?height=534&width=583&top_left_y=951&top_left_x=760"
+      ]
+    },
+    {
+      "id": "frq-79",
+      "number": 79,
+      "stem": "Over the time interval $0  t  5$, a particle moves along the $x$-axis. The graph of the particle's velocity, $v$, is shown above. Over the time interval $0  t  5$, the particle's displacement is 3 and the particle travels a total distance of 13 . What is the value of $_{2}^{4} v(t) d t$ ?\n(A) -10\n(B) -5\n(C) 5\n(D) 10",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-80",
+      "number": 80,
+      "stem": "What is the total area between the polar curves $r=5  (3 )$ and $r=8  (3 )$ ?\n(A) 2.000\n(B) 7.069\n(C) 30.631\n(D) 61.261",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=645&width=589&top_left_y=337&top_left_x=756"
+      ]
+    },
+    {
+      "id": "frq-81",
+      "number": 81,
+      "stem": "The graph of $f^{}$, the derivative of the function $f$, is shown above. Which of the following could be the graph of $f$ ?\n(A)\n\n(B)\n\n(C)\n\n(D)",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=590&width=592&top_left_y=1221&top_left_x=313",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=585&width=592&top_left_y=1222&top_left_x=1134",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=592&width=592&top_left_y=1886&top_left_x=313",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-035.jpg?height=600&width=592&top_left_y=1882&top_left_x=1134"
+      ]
+    },
+    {
+      "id": "frq-82",
+      "number": 82,
+      "stem": "On a certain day, the total number of pieces of candy produced by a factory since it opened is modeled by $C$, a differentiable function of the number of hours since the factory opened. Which of the following is the best interpretation of $C^{}(3)=500$ ?\n(A) The factory produces 500 pieces of candy during its 3 rd hour of operation.\n(B) The factory produces 500 pieces of candy in the first 3 hours after it opens.\n(C) The factory is producing candy at a rate of 500 pieces per hour, 3 hours after it opens.\n(D) The rate at which the factory is producing candy is increasing at a rate of 500 pieces per hour per hour, 3 hours after it opens.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-036.jpg?height=488&width=737&top_left_y=1233&top_left_x=681"
+      ]
+    },
+    {
+      "id": "frq-83",
+      "number": 83,
+      "stem": "The graph of the function $f$ is shown above. Which of the following statements is true?\n(A) $f$ is discontinuous at $x=0$ because $ _{x  0} f(x)$ does not exist.\n(B) $f$ is discontinuous at $x=3$ because $ _{x  3} f(x)  f(3)$.\n(C) $f$ is discontinuous at $x=5$ because $ _{x  5^{-}} f(x)$ does not exist.\n(D) $f$ is discontinuous at $x=6$ because $ _{x  6^{-}} f^{}(x)   _{x  6^{+}} f^{}(x)$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-84",
+      "number": 84,
+      "stem": "At time $t=0$ minutes, a tank contains 48 gallons of water. For $0  t  4$ minutes, water flows into the tank at a rate of $E(t)=12 t  ({4} t)$ gallons per minute, and water leaks out of the tank at a rate of $L(t)=6 t^{2}{t+2}$ gallons per minute. How many gallons of water are in the tank at time $t=4$ minutes?\n(A) 13.251\n(B) 82.749\n(C) 87.482\n(D) 135.482",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-85",
+      "number": 85,
+      "stem": "What is the average value of $y= (x^{2}{9})$ on the closed interval [1.25,2] ?\n(A) 0.116\n(B) 0.232\n(C) 0.310\n(D) 0.326\n\n| $ _{x -5} f(x)=4$ & $ _{x 5} f(x)=2$ & $ _{x 5} g(x)=5$ \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-86",
+      "number": 86,
+      "stem": "The table above gives selected limits of the functions $f$ and $g$. What is $ _{x  5}(f(-x)+3 g(x))$ ?\n(A) 19\n(B) 17\n(C) 13\n(D) 9",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-87",
+      "number": 87,
+      "stem": "A tire that is leaking air has an initial air pressure of 30 pounds per square inch ( psi ). The function $t=f(p)$ models the amount of time $t$, in hours, it takes for the air pressure of the tire to reach $p psi$. What are the units for $f^{}(p)$ ?\n(A) hours\n(B) psi\n(C) psi per hour\n(D) hours per psi",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-88",
+      "number": 88,
+      "stem": "The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)= (2^{t})$ and $y(t)= (2^{t})$ for time $t  0$. What is the speed of the particle when $t=2.3 ?$\n(A) 1.000\n(B) 2.014\n(C) 3.413\n(D) 11.652",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-89",
+      "number": 89,
+      "stem": "The function $f$ is defined on the closed interval $[0,1]$ and satisfies $f(0)=f(1{2})=f(1)$. On the open interval $(0,1), f$ is continuous and strictly increasing. Which of the following statements is true?\n(A) $f$ attains both a minimum value and a maximum value on the closed interval $[0,1]$.\n(B) $f$ attains a minimum value but not a maximum value on the closed interval $[0,1]$.\n(C) $f$ attains a maximum value but not a minimum value on the closed interval $[0,1]$.\n(D) $f$ attains neither a minimum value nor a maximum value on the closed interval $[0,1]$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-90",
+      "number": 90,
+      "stem": "The power series $_{n=0}^{} a_{n}(x-1)^{n}$ converges conditionally at $x=5$. Which of the following statements about convergence of the series at $x=-4$ is true?\n(A) The series converges absolutely at $x=-4$.\n(B) The series converges conditionally at $x=-4$.\n(C) The series diverges at $x=-4$.\n(D) There is not enough information given to determine convergence of the series at $x=-4$.\n\n^{ {® }}$ Calculus BC Exam}\n\n1 hour, 30 minutes\nNumber of Questions\n6\nPercent of Total Score 50%\n\nEither pencil or pen with black or dark blue ink\n\nThe questions are weighted equally, but the parts of a question are not necessarily given equal weight.\n\nNumber of Questions 2\n\n30 minutes\n\nGraphing calculator required\n\n33.3%\n\nNumber of Questions 4\nTime\n60 minutes\nElectronic Device\nNone allowed\nPercent of Section II Score 66.6%",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=64&width=98&top_left_y=807&top_left_x=743",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=68&width=97&top_left_y=803&top_left_x=855",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=64&width=186&top_left_y=807&top_left_x=973"
+      ]
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "First two letters of your last name\n\nFirst letter of your first name □",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=66&width=97&top_left_y=631&top_left_x=1162"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Date of birth",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Six-digit school code",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-041.jpg?height=63&width=278&top_left_y=949&top_left_x=747"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □\n\nPLEASE PRINT WITH PEN:\n\nThe questions for Section II are printed in this booklet. Do not begin Part B until you are told to do so. Write your solution to each part of each question in the space provided. Write clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be scored.\n\nManage your time carefully. During the timed portion for Part A, work only on the questions in Part A. You are permitted to use your calculator to solve an equation, find the derivative of a function at a point, or calculate the value of a definite integral. However, you must clearly indicate the setup of your question, namely the equation, function, or integral you are using. If you use other built-in features or programs, you must show the mathematical steps necessary to produce your results. During the timed portion for Part B, you may continue to work on the questions in Part A without the use of a calculator.\n\nFor each part of Section II, you may wish to look over the questions before starting to work on them. It is not expected that everyone will be able to complete all parts of all questions.\n- Show all of your work, even though a question may not explicitly remind you to do so. Clearly label any functions, graphs, tables, or other objects that you use. Justifications require that you give mathematical reasons, and that you verify the needed conditions under which relevant theorems, properties, definitions, or tests are applied. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit.\n- Your work must be expressed in standard mathematical notation rather than calculator syntax. For example, $_{1}^{5} x^{2} d x$ may not be written as $fnInt(X^{2}, X, 1,5)$.\n- Unless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n- Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n\n SECTION II, Part A \n\nNumber of problems—2\nA GRAPHING CALCULATOR IS REQUIRED FOR THESE PROBLEMS.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "The depth of water in tank $A$, in inches, is modeled by a differentiable and increasing function $h$ for $0  t  10$, where $t$ is measured in minutes. Values of $h(t)$ for selected values of $t$ are given in the table above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Use the data in the table to find an approximation for $h^{}(6)$. Show the computations that lead to your answer. Indicate units of measure."
+        },
+        {
+          "id": "b",
+          "text": "Approximate the value of $_{0}^{10} h(t) d t$ using a right Riemann sum with the four subintervals indicated by the data in the table. Is this approximation greater than or less than $_{0}^{10} h(t) d t$ ? Give a reason for your answer."
+        },
+        {
+          "id": "c",
+          "text": "The depth of water in tank $B$, in inches, is modeled by the function $g(t)=3.2+17.5  (0.16 t)$ for $0  t  10$, where $t$ is measured in minutes. Find the average depth of the water in tank $B$ over the interval $0  t  10$. Is this value greater than or less than the average depth of the water in $tank A$ over the interval $0  t  10$ ? Give a reason for your answer."
+        },
+        {
+          "id": "d",
+          "text": "According to the model given in part (c), is the depth of the water in tank $B$ increasing or decreasing at time $t=6$ ? Give a reason for your answer."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "For $t  0$, a particle moving in the $x y$-plane has the position vector $ x(t), y(t)$ at time $t$, where $d x{d t}=-1+e^{ t}$ and $d y{d t}= (t^{2})$. At time $t=2$, the position of the particle is $(5,7)$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the acceleration vector of the particle at time $t=2$."
+        },
+        {
+          "id": "b",
+          "text": "Find the total distance traveled by the particle over the time interval $1.8  t  2$."
+        },
+        {
+          "id": "c",
+          "text": "Find the $x$-coordinate of the position of the particle at time $t=1$."
+        },
+        {
+          "id": "d",
+          "text": "At time $t={7 {2}}$, the line tangent to the path of the particle is horizontal. Find the particle's speed at time $t={7 {2}}$. Determine whether the particle is moving to the left or to the right at that time. Give a reason for your answer.\n\n\nDO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-60 minutes \\\\ Number of problems-4\n\n\nNO CALCULATOR IS ALLOWED FOR THESE PROBLEMS.\n\nDO NOT BEGIN PART B UNTIL YOU ARE TOLD TO DO SO."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-049.jpg?height=566&width=844&top_left_y=309&top_left_x=620"
+      ]
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "A continuous function $g$ is defined on the closed interval $-8  x  6$. The graph of $g$, shown above, consists of three line segments and a quarter of a circle centered at the point $(0,2)$. Let $f$ be the function given by $f(x)=_{-8}^{x} g(t) d t$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find all values of $x$ in the interval $-8<x<6$ at which $f$ has a critical point. Classify each critical point as the location of a local minimum, a local maximum, or neither. Justify your answers.\n\n3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3 & 3$}"
+        },
+        {
+          "id": "b",
+          "text": "Find $f(0)$."
+        },
+        {
+          "id": "c",
+          "text": "Find $ _{x -4} f(x){x^{2}+4 x}$."
+        },
+        {
+          "id": "d",
+          "text": "Let $h$ be the function defined by $h(x)=g(x){x^{2}+1}$. Find $h^{}(1)$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Consider the differential equation $d y{d x}=(y-2)(x^{2}+1)$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find $y=g(x)$, the particular solution to the given differential equation with initial condition $g(0)=5$."
+        },
+        {
+          "id": "b",
+          "text": "For the particular solution $y=g(x)$ found in part (a), find $ _{x -} g(x)$."
+        },
+        {
+          "id": "c",
+          "text": "Let $y=f(x)$ be the particular solution to the given differential equation with initial condition $f(1)=3$. Find the value of $d^{2 y}{d x^{2}}$ at the point $(1,3)$. Is the graph of $y=f(x)$ concave up or concave down at the point $(1,3)$ ? Give a reason for your answer.\n\n|$x$ & 1 & 2 & 3 & 4 & 5 \\\\ | |$f(x)$ & 4 & 8 & 7 & 3 & -1 \\\\ |$f^{}(x)$ & 5 & -2 & -1 & 6 & 2 \\\\ |$f^{ }(x)$ & 2 & -3 & 1 & -1 & 3 \\\\ |"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "The table above gives values of a function $f$, its first derivative $f^{}$, and its second derivative $f^{ }$ for selected values of $x$. The function $f^{ }$ is continuous for all real numbers.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Let $g$ be the function given by $g(x)=(2 x-1) f(x)$. Find $g^{}(3)$."
+        },
+        {
+          "id": "b",
+          "text": "Let $h$ be the function given by $h(x)=f(f(x))$. Find $h^{}(4)$."
+        },
+        {
+          "id": "c",
+          "text": "Find the value of $_{1}^{5} x f^{ }(x) d x$."
+        },
+        {
+          "id": "d",
+          "text": "Is there a value $c$, for $3<c<4$, such that $f^{ }(c)=7$ ? Justify your answer."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-055.jpg?height=759&width=652&top_left_y=339&top_left_x=721"
+      ]
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "Let $f$ and $g$ be the functions given by $f(x)=x e^{x^{3}}$ and $g(x)=_{0}^{x} f(t) d t$. The graph of $f^{(5)}$, the fifth derivative of $f$, is shown above for $-1{2}  x  1{2}$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Write the first four nonzero terms and the general term of the Taylor series for $e^{x}$ about $x=0$. Write the first four nonzero terms and the general term of the Taylor series for $f$ about $x=0$."
+        },
+        {
+          "id": "b",
+          "text": "Write the first four nonzero terms of the Taylor series for $g$ about $x=0$."
+        },
+        {
+          "id": "c",
+          "text": "Find the value of $g^{(5)}(0)$."
+        },
+        {
+          "id": "d",
+          "text": "Let $P_{5}(x)$ be the fifth-degree Taylor polynomial for $g$ about $x=0$. Use the Lagrange error bound along\n\n\nThis section describes how the questions in the AP Practice Exam correspond to the components of the curriculum framework included in the $A P^{R}$ Calculus AB and AP ${ }^{ {® }}$ Calculus BC Course and Exam Description. For each of the questions in the AP Practice Exam, the targeted learning objectives, essential knowledge statements, and Mathematical Practices for AP Calculus from the curriculum framework are indicated.\n\nExam questions assess the learning objectives detailed in the curriculum framework; as such, they require a strong conceptual understanding of calculus in conjunction with the application of one or more of the Mathematical Practices for AP Calculus (MPACs). Although topics in subject areas such as algebra, geometry, and precalculus are not explicitly assessed, students must have mastered the relevant preparatory material in order to apply calculus techniques successfully and accurately.\n\nStudents take either the AP Calculus AB Exam or the AP Calculus BC Exam. The exams, which are identical in format, consist of a multiple-choice section and a free-response section, as shown in the tables on the following page.\n\nIn this publication, the multiple-choice and free-response questions include the following features:\n- For multiple-choice questions, the correct response is indicated with a rationale for why it is correct. There are also explanations for the incorrect responses. Note that in the cases where multiple learning objectives, essential knowledge statements, or MPACs are provided, the primary one is listed first.\n- Free-response questions include scoring guidelines that explain how students can use required knowledge learned in the AP Calculus course to answer the questions.\nStudent performance on these two sections will be compiled and weighted to determine an AP Exam score. Each section of the exam counts toward 50 percent of the student's score. Points are not deducted for incorrect answers or unanswered questions.\n\n\n| Part & {l} Graphing \\\\ Calculator & Number of \\\\ Questions & 1{c}{ Time } & Percentage of \\\\ Total Exam Score \\\\\nPart A & Not permitted & 30 & 60 minutes & \\\\\nPart B & Required & 15 & 45 minutes & 2{*}{$50 %$} \\\\\nTOTAL & & 45 & 1 hour, \\\\ 45 minutes & \\\\\ntable\n\n\n| Part & Graphing Calculator & Number of Questions & Time & Percentage of Total Exam Score \\\\ | Part A & Required & 2 & 30 minutes & {*}{50%} \\\\ | Part B & Not permitted & 4 & 60 minutes & \\\\ | TOTAL & & 6 & 1 hour, 30 minutes & \\\\ |\n\n\nBoth the multiple-choice and free-response sections of the AP Calculus Exams include problems that require the use of a graphing calculator. A graphing calculator appropriate for use on the exams is expected to have the built-in capability to do the following:\n- Plot the graph of a function within an arbitrary viewing window\n- Find the zeros of functions (solve equations numerically)\n- Numerically calculate the derivative of a function\n- Numerically calculate the value of a definite integral\n\nOne or more of these capabilities should provide sufficient computational tools for successful development of a solution to any AP Calculus AB or Calculus BC Exam question that requires the use of a calculator. Care is taken to ensure that the exam questions do not favor students who use graphing calculators with more extensive built-in features.\n\nStudents are expected to bring a graphing calculator with the capabilities listed above to the exams. AP teachers should check their own students' calculators to ensure that the required conditions are met. Students and teachers should keep their calculators updated with the latest available operating systems. Information is available on calculator company websites. A list of acceptable calculators can be found at the AP student website (https:// apstudent.collegeboard.org/apcourse/ap-calculus-bc/calculator-policy).\n\nNote that requirements regarding calculator use help ensure that all students have sufficient computational tools for the AP Calculus Exams. Exam restrictions should not be interpreted as restrictions on classroom activities.\n\n\nThe multiple-choice section on each exam is designed for broad coverage of the course content. Multiple-choice questions are discrete, as opposed to appearing in question sets, and the questions do not appear in the order in which topics are addressed in the curriculum framework. There are 30 multiple-choice questions in Part A and 15 multiple-choice questions in Part B; students may use a graphing calculator only for Part B. Each part of the multiple-choice section is timed and students may not return to questions in Part A of the multiple-choice section once they have begun Part B.\n\n\nQuestion 1\n\n| & Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | & 2.1C Calculate derivatives. & 2.1C4: The chain rule provides a way to differentiate composite functions. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|l|}{This option is correct. Both the power rule and the chain rule must be used to compute the derivative, which is then evaluated at $x=1$.\n\n\n& f^{}(x)=4(x^{2}-3)^{3}(2 x) \\\\\n& f^{}(1)=4(1-3)^{3}(2)=4(-2)^{3}(2)=-64\n\n} \\\\\n(B) & 3{|c|}{This option is incorrect. An incomplete understanding of the chain rule for composite functions is shown by thinking that\n\n\n& d{d x} f(g(x))=f^{}(g(x)): \\\\\n& f^{}(x)=4(x^{2}-3)^{3} \\\\\n& f^{}(1)=4(1-3)^{3}=4(-2)^{3}=-32\n\n} \\\\\n(C) & 3{|l|}{This option is incorrect. The power rule was not correctly applied with respect to the exponent in the derivative:\n\n\n& f^{}(x)=4(x^{2}-3)(2 x) \\\\\n& f^{}(1)=4(1-3)(2)=4(-2)(2)=-16\n\n} \\\\\n(D) & 3{|c|}{This option is incorrect. A misunderstanding of the chain rule for composite functions is shown by thinking that ${d x} f(g(x))=f^{}(g^{}(x))$ : $f^{}(x)=4(2 x)^{3}$ \\\\ $f^{}(1)=4(2)^{3}=32$.} \\\\\ntabular\n\n\n| & Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.3B"
+        },
+        {
+          "id": "b",
+          "text": "Evaluate definite integrals. & 3.3B2: If $f$ is continuous on the interval $[a, b]$ and $F$ is an antiderivative of $f$, then $_{a}^{b} f(x) d x=F(b)-F(a)$. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. An error was made in antidifferentiation of $x^{n}$, leading to $(n+1) x^{n+1}$ :\n\naligned\n& 32 x^{4}-.9 x^{3}|_{-2} ^{1} \\\\\n& =(32-9)-(512+72)=-561 .\n\n} \\\\\n(B) & 3{|c|}{This option is incorrect. If the process of antidifferentiation and differentiation are confused in evaluating the definite integral, the result is:\n\n\n& 24 x^{2}-.6 x|_{-2} ^{1} \\\\\n& =(24-6)-(96+12)=-90 .\n\n} \\\\\n(C) & 3{|c|}{This option is correct. The question involves using the basic power rule for antidifferentiation and then correctly substituting the endpoints and evaluating:\n\n\n& 2 x^{4}-.x^{3}|_{-2} ^{1} \\\\\n& =(2-1)-(32+8)=-39 .\n\n} \\\\\n(D) & 3{|l|}{This option is incorrect. Instead of finding an antiderivative, the integrand was evaluated at the endpoints:\n\n(8(1)^{3}-3(1)^{2})-(8(-2)^{3}-3(-2)^{2})=81 .\n} \\\\\ntabular\ntable\n\nQuestion 3\n\n| & Learning Objectives \\\\ | & 2.1C Calculate derivatives. \\\\ | (A) & This option is incorrect. The calculation of ${d t}$ requires use of the chain rule. If this is neglected, the result will be the following: & {d t}=.{2 +16}} {d t}|_{t=3}={10} \\\\ & {d t}=3 t^{2}-.6 t {d t}|_{t=3}=9 \\\\ & .{d x}|_{t=3}=.{d x / d t}|_{t=3}={10}}{9}={90} . \\\\ | (B) & This option is correct. The rate of change of $y$ with respect to $x$ is the derivative ${d x}$. For curves described by parametric equations in terms of a variable $t$, this rate of change is given by ${d x}={d x / d t}$. & {d t}=.{+16}} {d t}|_{t=3}={5} \\\\ & {d t}=3 t^{2}-.6 t {d t}|_{t=3}=9 \\\\ & .{d x}|_{t=3}=.{d x / d t}|_{t=3}={5}}{9}={15} \\\\ | (C) & This option is incorrect. Only ${d t}$ was found instead of ${d x}$ at $t=3$ : {d t}=.{+16}} {d t}|_{t=3}={5} . \\\\ | (D) & This option is incorrect. ${x(3)}=}{27-27+2}={2}$ was calculated instead of $.{d x / d t}|_{t=3}$. \\\\ |\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.4A Interpret the meaning of a definite integral within a problem. & 3.4A2: The definite integral of the rate of change of a quantity over an interval gives the net change of that quantity over that interval. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|l|}{This option is incorrect. Mistakenly integrating $r^{}(t)$ instead of $r(t)$ gives the change in the rate of snowfall over the interval $0  t  5$ :\n\naligned\n& _{0}^{5} r^{}(t) d t=r(5)-r(0) \\\\\n& =2 e^{-0.1(5)}-2 e^{-0.1(0)}=2 e^{-0.5}-2\n\n} \\\\\n(B) & 3{|c|}{This option is incorrect. Mistakenly integrating $r^{ }(t)$ instead of $r(t)$ gives the change in the change of the rate of snowfall over the interval $0  t  5$ :\n\n\n& r^{}(t)=-0.2 e^{-0.1 t} \\\\\n& _{0}^{5} r^{ }(t) d t=r^{}(5)-r^{}(0) \\\\\n& =-0.2 e^{-0.1(5)}-(-0.2 e^{-0.1(0)})=0.2-0.2 e^{-0.5}\n\n} \\\\\n(C) & 3{|c|}{This option is incorrect. This is the average rate of snowfall during the five hours:\n\n_{0^{5} r(t) d t}{5-0}=20-20 e^{-0.5}{5}=4-4 e^{-0.5}\n} \\\\\n(D) & 3{|c|}{This option is correct. The definite integral of the rate of change over an interval gives the net change over that interval. Since $r(t)$ is the rate of change of the snowfall, the definite integral of $r(t)$ on the interval $0  t  5$ gives the change in the amount of snow that falls over that time period.\n\n\n& _{0}^{5} r(t) d t=-.20 e^{-0.1 t}|_{0} ^{5} \\\\\n& =-20 e^{-0.5}-(-20 e^{0})=20-20 e^{-0.5}\n\n} \\\\\ntabular\ntable\n\nQuestion 5\n\n| & Learning Objectives \\\\ | & 2.1C Calculate derivatives. \\\\ | (A) & This option is incorrect. The chain rule was not used during the application of the product rule to the $x y^{3}$ term on the right side. & e^{x}-(1) {d x}=x (3 y^{2})+y^{3} (1) \\\\ & {d x}=-3 x y^{2}-y^{3}+.e^{x} {d x}|_{(x, y)=(2,2)}=e^{2}-32 \\\\ | (B) & This option is incorrect. The chain rule was not used during the differentiation of the $y$ term on the left side. & e^{x}-1=x (3 y^{2} {d x})+y^{3} (1) \\\\ & {d x}=.-y^{3}-1}{3 x y^{2}} {d x}|_{(x, y)=(2,2)}=-2^{3}-1}{3(2) 2^{2}}=-9}{24} \\\\ | (C) & This option is correct. During the implicit differentiation, both the product rule and the chain rule are needed. & e^{x}-(1) {d x}=x (3 y^{2} {d x})+y^{3} (1) \\\\ & {d x}=.-y^{3}}{3 x y^{2}+1} {d x}|_{(x, y)=(2,2)}=-2^{3}}{3(2) 2^{2}+1}=-8}{25} \\\\ | (D) & This option is incorrect. An error was made in the use of the product rule where it was believed that the derivative of a product is the product of the derivatives. & e^{x}-(1) {d x}=(3 y^{2} {d x}) \\\\ & {d x}=.}{3 y^{2}+1} {d x}|_{(x, y)=(2,2)}=}{3(2^{2})+1}=}{13} \\\\ |\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.2B Approximate a definite integral. & 3.2B2: Definite integrals can be approximated using a left Riemann sum, a right Riemann sum, a midpoint Riemann sum, or a trapezoidal sum; approximations can be computed using either uniform or nonuniform partitions. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n(A) & 3{|l|}{This option is correct. The trapezoidal sum is the average of the left and right Riemann sums. The three intervals are of length 2, 5, and 2, respectively. Taking the average of the left and right endpoint values on each interval and multiplying by the length of the interval gives the following trapezoidal sum:\n\n2{2}(15+9)+5{2}(9+5)+2{2}(5+4)=68 .\n} \\\\\n(B) & 3{|l|}{This option is incorrect. Using the trapezoidal rule is not appropriate because the intervals are of different lengths. Ignoring the values of $t$ and believing that $ t=9-0{3}=3$ as if the intervals were of equal length in the table would yield the following computation using the trapezoidal rule:\n\n3{2}[15+2(9)+2(5)+4]=70.5 .\n} \\\\\n(C) & 3{|c|}{This option is incorrect. A trapezoidal sum has been confused with a left Riemann sum:\n\n2  15+5  9+2  5=85\n} \\\\\n(D) & 3{|l|}{This option is incorrect. The error is due to taking just the sum of the left and right Riemann sums rather than the average, thus not dividing each width by 2 :\n\n2(15+9)+5(9+5)+2(5+4)=136 .\n} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.1C Calculate derivatives. & 2.1C7: (BC) Methods for calculating derivatives of realvalued functions can be extended to vectorvalued functions, parametric functions, and functions in polar coordinates. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is correct. The components of the acceleration vector are the derivatives of the components of the velocity vector.\n\na(t)={d t}  (2 t), d{d t} e^{3 t}=-2  (2 t), 3 e^{3 t}\n} \\\\\n(B) & 3{|l|}{This option is incorrect. The chain rule was not used in the differentiation of the exponential function.} \\\\\n(C) & 3{|c|}{This option is incorrect. This vector consists of the antiderivatives of the components of the velocity vector.} \\\\\n(D) & 3{|c|}{This option is incorrect. The chain rule was applied correctly, but there is a sign error in the differentiation of the cosine function.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.1B Determine or estimate the sum of a series. & 4.1B1: If $a$ is a real number and $r$ is a real number such that $|r|<1$, then the geometric series _{n=0}^{} a r^{n}={1-r} . & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. The indexing was ignored and the 12 treated as the value of the second term, not the third term. It therefore uses $48 r=12$ to get $r=1{4}$ and concludes that the sum of the series is:\n\n48{1-1{4}}=64 .\n} \\\\\n(B) & 3{|c|}{This option is correct. The geometric series has a common ratio of $r$. The third term would be $a_{1} r^{2}$, so: $48 r^{2}=12 r={2}$. \\\\ The positive square root value is taken since all the terms are positive. \\\\ The sum of the series is: ${1-{2}}=96$.} \\\\\n(C) & 3{|l|}{This option is incorrect. The characteristics of a geometric series may have been misunderstood and it wasn't realized that two terms of the series are enough to determine the value of the common ratio.} \\\\\n(D) & 3{|c|}{This option is incorrect. There may have been confusion between the common ratio and the terms of the series. Since the given terms are both greater than 1 , it might have been thought that the sum will diverge. The error might also have come from using the incorrect relationship $48=12 r^{2}$ to find the common ratio and concluding that $r=2$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.2C Calculate a definite integral using areas and properties of definite integrals. & 3.2C3: The definition of the definite integral may be extended to functions with removable or jump discontinuities. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is correct. This function has a jump discontinuity at $x=0 . f(x)=-1$ for $x<0$ and $f(x)=1$ for $x>0$. The graph of $f$ is shown to the right along with the regions A and B between the graph of $f$ and the $x$-axis on the intervals $[-5,0]$ and $[0,3]$, respectively. \\\\ Computing the definite integral in terms of areas and taking into account which region is below the axis and which is above, we get: \\\\ $_{-5}^{3} f(x) d x=-()+()=-5+3=-2$. \\\\ The definite integral over the interval $[-5,3]$ can also be written as the sum of the definite integrals over $[-5,0]$ and $[0,3]$, giving: _{-5}^{3} f(x) d x=_{-5}^{0}-1 d x+_{0}^{3} 1 d x=-5+3=-2} \\\\\n(B) & 3{|c|}{This option is incorrect. Sign errors were made in the definition of $f$ so that the graph of $f$ is reflected across the $x$-axis. This then yields:\n\naligned\n& _{-5}^{3} f(x) d x=area(A)-area(B)=5-3=2 \\\\\n&  { or } \\\\\n& _{-5}^{3} f(x) d x=_{-5}^{0} 1 d x+_{0}^{3}-1 d x=5-3=2\n\n} \\\\\n(C) & 3{|l|}{This option is incorrect. Rather than taking into account the signed areas, this is the total area:\n\n\n& _{-5}^{3} f(x) d x=area(A)+area(B)=5+3=8 \\\\\n&  { or } \\\\\n& _{-5}^{3} f(x) d x=|_{-5}^{0}-1 d x|+|_{0}^{3} 1 d x|=5+3=8\n\n} \\\\\n(D) & 3{|c|}{This option is incorrect. The source of the error may be not recognizing that the definition of the definite integral can be extended to functions with removable or jump discontinuities.} \\\\\ntabular\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.1A Determine whether a series converges or diverges. & 4.1A6: In addition to examining the limit of the sequence of partial sums of the series, methods for determining whether a series of numbers converges or diverges are the $n$th term test, the comparison test, the limit comparison test, the integral test, the ratio test, and the alternating series test. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is correct. The limit comparison test looks at the limit of the ratio of general terms of the two positive series. If this limit is finite and greater than 0 , the two series either both converge or both diverge. For this series, _{n } }{n^{3}+1}}{{n}}= _{n } }{n^{3}+1}=1 \\\\ Since this limit is finite and nonzero, this series is suitable for use with the limit comparison test. \\\\ [Hence the series in the stem diverges because the series in (A) is the divergent harmonic series.]} \\\\\n(B) & 3{|l|}{This option is incorrect. _{n } }{n^{3}+1}}{{n^{3}}}= _{n } }{n^{3}+1}=, \\\\ so this series cannot be used because the limit is not finite.} \\\\\n(C) & 3{|l|}{This option is incorrect. \\\\ $ _{n } }{n^{3}+1}}{{n+1}}= _{n } +n^{2}}{n^{4}+n}=0$, \\\\ so this series cannot be used because the limit is 0 .} \\\\\n(D) & 3{|l|}{This option is incorrect. _{n } }{n^{3}+1}}{{n^{2}+1}}= _{n } +n^{2}}{n^{3}+1}=, \\\\ so this series cannot be used because the limit is not finite.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | & 3.3B"
+        },
+        {
+          "id": "b",
+          "text": "Evaluate definite integrals. & 3.3B5: Techniques for finding antiderivatives include algebraic manipulation such as long division and completing the square, substitution of variables, (BC) integration by parts, and nonrepeating linear partial fractions. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|l|}{This option is incorrect. $u$ and $d v$ were correctly handled as in the solution for option (B), but an error was made in the integration by parts, where addition was used instead of subtraction, i.e.\n\naligned\n&  u d v=u v+ v d u: \\\\\n& _{1}^{e} x^{4}  x d x=.x^{5}{5}  x|_{1} ^{e}+_{1}^{e}(x^{5}{5}  1{x}) d x \\\\\n& =e^{5}{5}+_{1}^{e} x^{4}{5} d x=e^{5}{5}+(.x^{5}{25}|_{1} ^{e})=e^{5}{5}+(e^{5}{25}-1{25})=6 e^{5-1}{25} .\n\n} \\\\\n(B) & 3{|l|}{This option is correct. Using integration by parts, where\n\n\n&  u d v=u v- v d u: \\\\\n& u= x  d u=1{x} d x \\\\\n&  { and } \\\\\n& d v=x^{4} d x  v=x^{5}{5} \\\\\n& _{1}^{e} x^{4}  x d x=.x^{5}{5}  x|_{1} ^{e}-_{1}^{e}(x^{5}{5}  1{x}) d x \\\\\n& =e^{5}{5}-_{1}^{e} x^{4}{5} d x=e^{5}{5}-(.x^{5}{25}|_{1} ^{e})=e^{5}{5}-(e^{5}{25}-1{25})=4 e^{5+1}{25} .\n\n} \\\\\ntabular\ntable\n\n| (C) & {l} This option is incorrect. Many times the polynomial term is chosen for the $u$ term in the integration by parts. This is often not the best choice, however, when the integral involves $ x$. This choice can lead to an antiderivative error when using $d v= x$ and mistakenly calculating $v={x}$. u=x^{4} d u=4 x^{3} d x \\\\ and & d v= x d x v={x} \\\\ & _{1}^{e} x^{4} x d x=.x^{4} {x}|_{1} ^{e}-_{1}^{e}(4 x^{3} {x}) d x=(e^{3}-1)-_{1}^{e} 4 x^{2} d x \\\\ & =(e^{3}-1)-(.}{3}|_{1} ^{e})=(e^{3}-1)-(}{3}-{3})=}{3} \\\\\n(D) & This option is incorrect. A misunderstanding of the Fundamental Theorem of Calculus might lead to thinking that _{a}^{b} f(x) d x=f(b)-f"
+        },
+        {
+          "id": "a",
+          "text": ". \\\\ This would give the answer $(e^{4} e)-(1^{4} 1)$. \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | & 3.5A Analyze differential equations to obtain general and specific solutions. & 3.5A1: Antidifferentiation can be used to find specific solutions to differential equations with given initial conditions, including applications to motion along a line, exponential growth and decay, (BC) and logistic growth. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. This is the velocity at $t=2$, not the position: $v(t)=3 t^{2}+10 v(2)=22$. \\\\ The velocity at $t=2$ can also be found directly using the Fundamental Theorem of Calculus: v(2)=v(0)+_{0}^{2} v^{}(t) d t=10+_{0}^{2} a(t) d t=10+_{0}^{2} 6 t d t=22 .} \\\\\n(B) & 3{|l|}{This option is incorrect. The assumption was made that the velocity is constant and the acceleration was ignored: \\\\ $p(2)=7+2 v(0)=7+2 10=27$.} \\\\\n(C) & 3{|l|}{This option is incorrect. This is the total change in position without accounting for the initial position. The calculation uses the correct velocity function but takes $p(t)=t^{3}+10 t$.} \\\\\n(D) & 3{|c|}{This option is correct. Velocity is the antiderivative of acceleration and position is the antiderivative of velocity. In each case, the object's velocity and position at $t=0$ can be used to find the appropriate \" $+C$ \" after each antidifferentiation. The last step is to then evaluate the position function at $t=2$. \\\\ $a(t)=6 t$ \\\\ $v(t)=3 t^{2}+C_{1}$ \\\\ $v(0)=3(0)^{2}+C_{1}=10 C_{1}=10$ \\\\ $v(t)=3 t^{2}+10$ \\\\ $p(t)=t^{3}+10 t+C_{2}$ \\\\ $p(0)=(0)^{3}+10(0)+C_{2}=7 C_{2}=7$ \\\\ $p(t)=t^{3}+10 t+7$ \\\\ $p(2)=2^{3}+10(2)+7=35$} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.4A Apply the Mean Value Theorem to describe the behavior of a function over an interval. & 2.4A1: If a function $f$ is continuous over the interval $[a, b]$ and differentiable over the interval $(a, b)$, the Mean Value Theorem guarantees a point within that open interval where the instantaneous rate of change equals the average rate of change over the interval. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 4: \\\\ Connecting multiple representations \\\\\n(A) & 3{|c|}{This option is incorrect. A belief that the conditions for the Mean Value Theorem are not met would explain this option.} \\\\\n(B) & 3{|c|}{This option is incorrect. The Mean Value Theorem only guarantees one value, which could lead to this option being mistakenly chosen. This is also the number of relative extrema on the interior of the interval, as well as the number of zeros on the interval.} \\\\\n(C) & 3{|l|}{This option is incorrect. Overlooking one of the three actual values would lead to this option. It is also the number of points of inflection on the interval.} \\\\\n(D) & 3{|c|}{This option is correct. Since $f$ is continuous and differentiable, the conditions of the Mean Value Theorem are satisfied on the interval $[-4,3]$. As shown in the figure to the right, there are three points in the open interval $(-4,3)$ where the line tangent to the graph of $f$ is parallel to the secant line through the endpoints of the graph on the interval $[-4,3]$. At each of these three points the slopes will be the same and will satisfy $f^{}(c)=f(3)-f(-4){3-(-4)}$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.2B Write a power series representing a given function. & {l} 4.2B5: A power series for a given function can be derived by various methods (e.g., algebraic processes, substitutions, using properties of geometric series, and operations on known series such as term-by-term integration or term-by-term differentiation). \\\\ 4.2B2: The Maclaurin series for $ (x), (x)$, and $e^{x}$ provide the foundation for constructing the Maclaurin series for other functions. & MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. The power series for sine was written without the factorials and $t^{6}$ was never substituted.\n\n t=t-t^{3}+t^{5}-+(-1)^{n+1} t^{2 n-1}+\n} \\\\\n(B) & 3{|c|}{This option is incorrect. The correct power series for sine was used, but there was no substitution before doing the integration.\n\n t=t-t^{3}{3!}+t^{5}{5!}-+(-1)^{n+1} t^{2 n-1}{(2 n-1)!}+\n$\naligned\n_{0}^{x}  t d t & =t^{2}{2}-t^{4}{4  3!}+t^{6}{6  5!}-+(-1)^{n+1} t^{2 n}{2 n (2 n-1)!}+.|_{0} ^{x} \\\\\n& =x^{2}{2}-x^{4}{4  3!}+x^{6}{6  5!}-+(-1)^{n+1} x^{2 n}{2 n (2 n-1)!}+\n\n} \\\\\n(C) & 3{|c|}{This option is incorrect. The series here is similar to the one in option (D), but an error was made in omitting the factorials in the original power series for sine.} \\\\\ntabular\ntable\n(D) This option is correct. Beginning with the Taylor series for $ x$ centered at $x=0, x=t^{6}$ is substituted to obtain the Taylor series for $ (t^{6})$ centered at 0 . This series can then be antidifferentiated term by term, and the result evaluated at the limits of integration in the definite integral.\n\n\n x & =x-x^{3}{3!}+x^{5}{5!}-+(-1)^{n+1} x^{2 n-1}{(2 n-1)!}+ \\\\\n (t^{6}) & =(t^{6})-(t^{6)^{3}}{3!}+(t^{6)^{5}}{5!}-+(-1)^{n+1} (t^{6)^{2 n-1}}{(2 n-1)!}+ \\\\\n& =t^{6}-t^{18}{3!}+t^{30}{5!}-+(-1)^{n+1} t^{6(2 n-1)}{(2 n-1)!}+ \\\\\n_{0}^{x}  (t^{6}) d t & =t^{7}{7}-t^{19}{19  3!}+t^{31}{31  5!}-+(-1)^{n+1} t^{6(2 n-1)+1}{(6(2 n-1)+1)(2 n-1)!}+.|_{0} ^{x} \\\\\n& =x^{7}{7}-x^{19}{19  3!}+x^{31}{31  5!}-+(-1)^{n+1} x^{6(2 n-1)+1}{(6(2 n-1)+1)(2 n-1)!}+\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3C Solve problems involving related rates, optimization, rectilinear motion, (BC) and planar motion. & 2.3C3: The derivative can be used to solve optimization problems, that is, finding a maximum or minimum value of a function over a given interval. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. Either only the critical value $m=1$ was considered or both critical values were found and the relative minimum was mistakenly picked while not accounting for the endpoints.} \\\\\n(B) & 3{|c|}{This option is incorrect. Either only the critical value $m=2$ was considered or both critical values were found and the relative maximum was picked while not accounting for the endpoints.} \\\\\n(C) & 3{|c|}{This option is correct. Because $f$ is continuous, the Extreme Value Theorem guarantees the existence of a maximum speed on the closed interval $0 m 3$, and that absolute maximum will occur at a critical value or at one of the endpoints. & f^{}(m)={10}(-6 m^{2}+18 m-12)={10}(m^{2}-3 m+2)={10}(m-1)(m-2) \\\\ & (m-1)(m-2)=0 \\\\ The critical values are $m=1$ and $m=2$. Therefore the candidates are $m=0,1,2$, and 3 . Evaluate $f$ at each candidate and select the largest. \\\\ $f(0)=7.0$ \\\\ $f(1)=6.5$ \\\\ $f(2)=6.6$ \\\\ $f(3)=6.1$} \\\\\n(D) & 3{|l|}{This option is incorrect. There are four possible choices to select from. This is the largest value, so someone might assume that it is also the maximum speed of the runner.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3F Estimate solutions to differential equations. & 2.3F1: Slope fields provide visual clues to the behavior of solutions to first order differential equations. & {l} MPAC 4: \\\\ Connecting multiple representations \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|l|}{This option is incorrect. For this differential equation, the slopes of the line segments in Quadrant II must be positive since $y>0$ and $x^{2}>0$ in that quadrant. In this slope field that does not happen, as can be observed with the segments near the bottom left of Quadrant II. In addition, all line segments along the $x$-axis should have positive slopes. This is not the case here. \\\\ This slope field might be chosen if the squared term is not accounted for. \\\\ [This is the slope field for ${d x}=x+y$.]} \\\\\n(B) & 3{|l|}{This option is incorrect. For this differential equation, the slopes of the line segments in Quadrant I must be positive since $y>0$ and $x^{2}>0$ in that quadrant. In this slope field, however, all the line segments in Quadrant I have negative slopes. In addition, all line segments along the $x$-axis should have positive slopes. This is not the case here. \\\\ This slope field might be chosen if one considers ${d x}=0$ and thinks of the differential equation as relating to the parabola $y=-x^{2}$. \\\\ [This is the slope field for ${d x}=-1.8 x$.]} \\\\\n(C) & 3{|c|}{This option is incorrect. For this differential equation, the slopes of the line segments in Quadrant II must be positive since $y>0$ and $x^{2}>0$ in that quadrant. In this slope field, however, that does not happen as can be observed with the segments near the bottom left of Quadrant II. In addition, all line segments along the $x$-axis should have positive slopes. This is not the case here. \\\\ This option might be chosen if the $x$ and $y$ variables are confused and one looks for the slope field for ${d x}=x+y^{2}$.} \\\\\n(D) & 3{|l|}{This option is correct. The line segments in the slope field have slopes given by $d y{d x}=x^{2}+y$ at the point $(x, y)$. In Quadrants I and II, all slopes must be positive or zero since $y>0$ in those quadrants and $x^{2}  0$. This is the only option in which that condition is true.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.3B"
+        },
+        {
+          "id": "a",
+          "text": "Calculate antiderivatives. & 3.3B5: Techniques for finding antiderivatives include algebraic manipulation such as long division and completing the square, substitution of variables, (BC) integration by parts, and nonrepeating linear partial fractions. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. Correct algebra split the integrand into the correct partial fractions, but during the antidifferentiation, failure to use the chain rule when integrating $-4{2 x-1}$ resulted in $-4  |2 x-1|$.} \\\\\n(B) & 3{|c|}{This option is correct. Evaluating this integral is done using the method of partial fractions. {(2 x-1)(x+1)}={2 x-1}+{x+1}={(2 x-1)(x+1)} \\\\ Equating terms in the numerator, A+2 B=8 \\\\ A-B=-10 A=-4, B=6 \\\\ Now antidifferentiate, remembering to use the chain rule: {(2 x-1)(x+1)} d x=({2 x-1}+{x+1}) d x=-2 |2 x-1|+6 |x+1|+C .} \\\\\n(C) & 3{|l|}{This option is incorrect. In splitting the integrand into the partial fractions, the coefficients $A$ and $B$ were reversed between the two fractions before doing the antidifferentiation:\n\n(6{2 x-1}+-4{x+1}) d x=3  |2 x-1|-4  |x+1|+C\n} \\\\\n(D) & 3{|c|}{This option is incorrect. The same error was made as in choice (C), and the chain rule was also not used when integrating $6{2 x-1}$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.2A Use derivatives to analyze properties of a function. & 2.2A4: (BC) For a curve given by a polar equation $r=f()$, derivatives of $r, x$, and $y$ with respect to $$ and first and second derivatives of $y$ with respect to $x$ can provide information about the curve. & {l} MPAC 2: \\\\ Connecting concepts \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n(A) & 3{|l|}{This option is incorrect. The polar curve was simply evaluated where $=$, i.e. $r()=2  -1=-3$.} \\\\\n(B) & 3{|c|}{This option is incorrect. The error is in believing that the slope is given by $d r{d }$ for $=$, or using the wrong formula $d x / d {d y / d }$ for the slope and evaluating $d x{d y}$ for $=$. See option (D) for details of the calculations.} \\\\\n(C) & 3{|l|}{This option is incorrect. The error is in believing that the slope is given by $d y{d }$ for $=$. See option (D) for details of the calculations.} \\\\\n(D) & 3{|c|}{This option is correct. For a polar curve given in terms of $$, the slope of the tangent line is given by ${d x}={d x / d }$. \\\\ Method 1: r=2 -1 {d }=-2 \\\\ Since $x=r $ and $y=r $, use the product rule and the expression for ${d }$ to calculate ${d }$ and ${d }$ : & {d }=-r +{d } =-(2 -1) -(2 ) \\\\ & {d }=r +{d } =(2 -1) +(-2 ) . \\\\ & { At } =, {d x}={-(2 -1) + (-2 )}={0+0}={0} . \\\\ Therefore, the slope is undefined at $=$. \\\\ Method 2: & x=r =(2 -1) =2 ^{2} - \\\\ & y=r =(2 -1) =2 - = (2 )- \\\\ Therefore, the slope is undefined at $=$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.1A Identify the derivative of a function as the limit of a difference quotient. & 2.1A2: The instantaneous rate of change of a function at a point can be expressed by $ _{h 0} {h}$ or $ _{x a} {x-a}$, provided that the limit exists. These are common forms of the definition of the derivative and are denoted $f^{}(a)$. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 5: Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. This could have been caused by observing that the numerator is zero at $x=e$ and then ignoring the denominator.} \\\\\n(B) & 3{|c|}{This option is correct. The limit of this difference quotient is of the form $ _{x a} {x-a}$ where $f(x)=x^{20}-3 x$ and $a=e$. This is one way to express the derivative of $f$ at $x=e$. f^{}(x)={d x}(x^{20}-3 x)=20 x^{19}-3 \\\\ $ f^{}(e)=20 e^{19}-3$} \\\\\n(C) & 3{|c|}{This option is incorrect. This is just the value of the function $x^{20}-3 x$ at $x=e$.} \\\\\n(D) & 3{|c|}{This option is incorrect. Observing that the denominator was zero at $x=e$ could have led to the assumption of unbounded behavior while the numerator was ignored. Or it was thought that the indeterminate form $0{0}$ produced a nonexistent result, without recognizing the limit as involving the definition of the derivative.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.2C Determine the radius and interval of convergence of a power series. & 4.2C2: The ratio test can be used to determine the radius of convergence of a power series. & {l} MPAC 2: \\\\ Connecting concepts \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n(A) & 3{|c|}{This option is incorrect. The limit $1{2}|x-5|$ from the ratio test was correctly calculated, but the constant in the limit was believed to be the radius of convergence rather than setting the limit less than 1 (see the computations in option (C)).} \\\\\n(B) & 3{|c|}{This option is incorrect. Several of the common Taylor series encountered in calculus have a radius of convergence of 1 , so this option might come from identifying 1 as a \"typical\" radius of convergence. Or it may have been thought that this looks like a geometric series, which converges only if the common ratio is less than 1 .} \\\\\n(C) & 3{|c|}{This option is correct. The ratio test can be used to determine the radius of convergence: _{n }|}{a_{n}}|= _{n }|}{2^{n+1}(2(n+1)+3)^{2}} (2 n+3)^{2}}{(x-5)^{n}}| \\\\ Therefore, the radius of convergence is 2 .} \\\\\n(D) & 3{|l|}{This option is incorrect. The limit from the ratio test was correctly computed, but the center of the interval of convergence was confused with the radius of convergence (see the computations in option (C)).} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.2D (BC) Evaluate an improper integral or show that an improper integral diverges. & 3.2D2: (BC) Improper integrals can be determined using limits of definite integrals. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n(A) & 3{|l|}{This option is incorrect. The error was in not recognizing that the integral is improper and antidifferentiating $ ^{2} x$ over the entire interval $[0, ]$ to get: $. x|_{0} ^{}= - 0=0-0=0$.} \\\\\n(B) & 3{|l|}{This option is incorrect. The error was in not recognizing that the integral is improper and believing that the antiderivative of $ ^{2} x$ is $ x}{3}$ to get: $. x}{3}|_{0} ^{}= }{3}- 0}{3}=-{3}-{3}=-{3}$. \\\\ The sign is either ignored or an error in evaluation leads to the answer being positive.} \\\\\n(C) & 3{|c|}{This option is incorrect. It was assumed that if the integrand is unbounded at a point within a given interval, then the improper integral must diverge in that interval.} \\\\\n(D) & 3{|c|}{This option is correct. This is an improper integral since the integrand, $ ^{2} x$, becomes unbounded as $x$ approaches ${2}$ which is in the middle of the interval over which the function is being integrated. To see if the integral converges or diverges, it must be split into two parts at $x={2}$ with the appropriate left- and right-sided limits considered. & _{b }{2}} _{0}^{b} ^{2} x d x+ _{c }{2}} _{c}^{} ^{2} x d x \\\\ = & . _{b }{2}}( x)|_{0} ^{b}+. _{c }{2}}( x)|_{c} ^{} \\\\ = & _{b }{2}}( b- 0)+ _{c }{2}}( - c) \\\\ = & _{b }{2}}( b)+ _{c }{2}}(- c) \\\\ Because $ ( b)$ does not exist, the original improper integral $b }{2}$ diverges. \\\\ Note that $ _{+}(- c)$ also does not exist. c }{2}} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.1A Determine whether a series converges or diverges. & 4.1A4: A series may be absolutely convergent, conditionally convergent, or divergent. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|l|}{This option is incorrect. Series III is also conditionally convergent (see the explanation for option (C)).} \\\\\n(B) & 3{|c|}{This option is incorrect. Series II is not conditionally convergent (see the explanation for option (C)).} \\\\\n(C) & 3{|c|}{This option is correct. A series $ a_{n}$ is conditionally convergent if the series converges but the series of absolute terms $|a_{n}|$ diverges. Series I, II, and III all converge by the alternating series test. When the absolute values of the series terms are considered, the series are: \\\\ (1) $_{n=1}^{} {n}$ \\\\ (2) $_{n=1}^{} {n^{3}}$ \\\\ (3) $_{n=1}^{} {n^{1 / 2}}$. \\\\ By the $p$-series test, series (1) and (3) are divergent and series (2) converges. So series I and III are conditionally convergent. (Note that series II is absolutely convergent.)} \\\\\n(D) & 3{|c|}{This option is incorrect. Series II is not conditionally convergent (see the explanation for option (C)).} \\\\\ntable\n\n\n| & Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | & 3.3B"
+        },
+        {
+          "id": "b",
+          "text": "Evaluate definite integrals. & 3.3B5: Techniques for finding antiderivatives include algebraic manipulation such as long division and completing the square, substitution of variables, (BC) integration by parts, and nonrepeating linear partial fractions. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|l|}{This option is incorrect. A common mistake when using substitution of variables with a definite integral is to not change the limits of integration:\n\n_{0}^{ 2} 1{1+u^{2}} d u=. ^{-1} u|_{0} ^{ 2}= ^{-1}( 2)- ^{-1}(0)= ^{-1}( 2) .\n} \\\\\n(B) & 3{|c|}{This option is incorrect. A tempting substitution is $u=e^{x}$ because of the numerator. u=e^{x} d u=e^{x} d x \\\\ When $x=0, u=1$. When $x= 2, u=2$. The substitution would result in: _{1}^{2} {1+(u-1)^{2}} d u \\\\ Unfortunately, what might follow next is an attempt to \"simplify\" the denominator followed by the error of overlooking the chain rule issue when thinking that $ {f(u)} d u= |f(u)|$. This would give: & _{1}^{2} {1+(u-1)^{2}} d u=_{1}^{2} {u^{2}-2 u+2} d u \\\\ & = |u^{2}-2 u+2 \\|_{1}^{2}= | 4-4+2|- | 1-2+2 = 2} \\\\\n(C) & 3{|c|}{This option is correct. This integral can be evaluated using substitution of variables. Let $u=e^{x}-1$ since that is the term being squared in the denominator. u=e^{x}-1 d u=e^{x} d x \\\\ When $x=0, u=e^{0}-1=0$. When $x= 2, u=e^{ 2}-1=2-1=1$. The definite integral becomes $_{0}^{1} {1+u^{2}} d u$. The integrand should then be recognized as the derivative of the arctan function: _{0}^{1} {1+u^{2}} d u=. ^{-1} u|_{0} ^{1}= ^{-1}(1)- ^{-1}(0)={4}-0={4} .} \\\\\ntable\n\n| (D) & {l} This option is incorrect. The substitution of variables was correctly applied, but arcsin was used instead of arctan for the antiderivatives of ${1+u^{2}}:$ \\\\ $_{0}^{1} {1+u^{2}} d u=. ^{-1} u|_{0} ^{1}= ^{-1}(1)- ^{-1}(0)={2}-0={2}$. \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.1C Determine limits of functions. & 1.1C3: Limits of the indeterminate forms ${0}$ and ${}$ may be evaluated using L'Hospital's Rule. & {l} MPAC 3: Implementing algebraic/ computational processes \\\\ MPAC 5: Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. It may have been observed that the numerator is zero at $x=3$ and the denominator was then ignored.} \\\\\n(B) & 3{|c|}{This option is incorrect. The indeterminate form $0{0}$ was recognized and an attempt was made to use L'Hospital's Rule, but an error was made in the derivative of the denominator:\n\n _{x  3}  (x-3){3 e^{x-3}-x}= _{x  3}  ^{2(x-3)}{3 e^{x-3}}=1{3} .\n} \\\\\n(C) & 3{|l|}{This option is correct. Substituting $x=3$ into the fraction yields the indeterminate form $0{0}$. Therefore L'Hospital's Rule can be used to find the limit:\n\n _{x  3}  (x-3){3 e^{x-3}-x}= _{x  3}  ^{2(x-3)}{3 e^{x-3}-1}=1{2} .\n} \\\\\n(D) & 3{|l|}{This option is incorrect. The observation that the denominator is zero at $x=3$ led to the assumption of unbounded behavior, while the numerator was ignored.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3C Solve problems involving related rates, optimization, rectilinear motion, (BC) and planar motion. & 2.3C2: The derivative can be used to solve related rates problems, that is, finding a rate at which one quantity is changing by relating it to other quantities whose rates of change are known. & {l} MPAC 2: \\\\ Connecting concepts \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n(A) & 3{|c|}{This option is correct. Let $D=2 r$ be the diameter of the sphere. This is a related rates question to calculate ${d t}$ at the moment when $r=3$. We are given that ${d t}=6 $. Using the chain rule: V={3} r^{3} {d t}=4 r^{2} {d t} . \\\\ Now substitute the values for ${d t}$ and $r$ and solve for ${d t}$. 6 =4 (3)^{2} {d t} {d t}={6} \\\\ Since $D=2 r, {d t}=2 {d t}={3}$.} \\\\\n(B) & 3{|c|}{This option is incorrect. An error in the use of the power rule leads to this.\n\naligned\n& V=4{3}  r^{3}  d V{d t}=4  r d r{d t} \\\\\n& 6 =4 (3) d r{d t}  d r{d t}=1{2} \\\\\n& d D{d t}=1\n\n} \\\\\n(C) & 3{|c|}{This option is incorrect. A common mistake in this related rates question is not using the chain rule, thereby having no $d r{d t}$ term to solve for. The value for $d V{d t}$ might be substituted and then the equation solved for $r$, followed by doubling $r$ to get a value for $D$.\n\n\n& d V{d t}=4  r^{2} \\\\\n& 6 =4  r^{2} \\\\\n& r={6}{2}  D=6\n\n} \\\\\n(D) & 3{|c|}{This option is incorrect. A misreading or misunderstanding of the question stem might have led to thinking that the goal was to find the diameter of the sphere at the instant the radius is 3 centimeters rather than the rate of change of the diameter. This would just be twice the radius. It also turns out in this particular question that this same answer is the ratio of the volume to its derivative when $r=3$, that is, $36 {6 }=6$.} \\\\\ntabular\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.2A Use derivatives to analyze properties of a function. & 2.2A4: (BC) For a curve given by a polar equation $r=f()$, derivatives of $r, x$, and $y$ with respect to $$ and first and second derivatives of $y$ with respect to $x$ can provide information about the curve. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|l|}{This option is incorrect. Finding the zeros of $f()=(-3)^{2}$ to answer the question rather than the zeros of $f^{}()$ would lead to choosing the interval between the two zeros.} \\\\\n(B) & 3{|c|}{This option is incorrect. The observation that $f()  0$ for all $  0$ was misinterpreted as meaning that $r$ is always increasing for all $t$ in the time interval $0  t  2 $.} \\\\\n(C) & 3{|c|}{This option is incorrect. The critical values where $f^{}()=0$ were found, but the sign of the derivative was misinterpreted. This is the time interval on which the distance is decreasing.} \\\\\n(D) & 3{|c|}{This option is correct. The distance from the origin to the particle moving along the polar curve is what $r$ measures. Since $r=f()$, to find the intervals for which the distance is increasing, determine where $f^{}() 0$. \\\\ $f^{}()=3 ^{2}-12 +9=3(^{2}-4 +3)=3(-1)(-3)$ \\\\ $f^{}()=0$ for $=1,3$. \\\\ The graph of $f^{}()$ as a function of $$ is a concave up parabola with zeros at 1 and 3 . Therefore $f^{}() 0$ for $ 1$ and $ 3$. So during the time interval $0 t 2 $, the distance between the particle and the origin will be increasing for $0 t 1$ and $3 t 2 $.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.3A Analyze functions defined by an integral. & 3.3A3: Graphical, numerical, analytical, and verbal representations of a function $f$ provide information about the function $g$ defined as g(x)=_{a}^{x} f(t) d t . & {l} MPAC 4: \\\\ Connecting multiple representations \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|l|}{This option is incorrect. It was recognized that the function $g$ is decreasing on the interval $-2<x<1$ because $g^{}=f$ is negative on this interval, but it may have been thought that $g(x)=_{0}^{x} f(t) d t=-_{x}^{0} f(t) d t$ when $-2<x<0$ means that $g(x)$ is negative for $-2<x<0$.} \\\\\n(B) & 3{|c|}{This option is incorrect. It was recognized that the function $g$ is decreasing on the interval $-2<x<1$ because $g^{}=f$ is negative on this interval, but where $g$ is negative was not considered.} \\\\\n(C) & 3{|c|}{This option is correct. The function $g$ is decreasing on the interval $-2<x<1$ because $g^{}=f$ is negative on this interval. Because $g(0)=0$ and $g$ is decreasing for $-2<x<1, g(x)$ must be positive for $-2<x<0$ and negative for $0<x<1$. On the interval $1<x<2$, the function $g$ is increasing because $g^{}=f$ is positive on this interval. Therefore, $g$ is negative and decreasing only for $0<x<1$.} \\\\\n(D) & 3{|l|}{This option is incorrect. It was recognized where $g$ is negative, perhaps by observing that $g(0)=0$ and $ _{x  2} g(x)=0$ by symmetry of the regions below and above the $x$-axis for $0  x<2$, but where $g$ is decreasing was not considered.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.5B Interpret, create and solve differential equations from problems in context. & 3.5B2: (BC) The model for logistic growth that arises from the statement \"The rate of change of a quantity is jointly proportional to the size of the quantity and the difference between the quantity and the carrying capacity\" is ${d t}=k y(a-y)$. & {l} MPAC 2: \\\\ Connecting concepts \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|c|}{This option is incorrect. The statement is true since 850 is the carrying capacity for $N$ and the solution starting at $N(0)=105$ will converge to the carrying capacity as $t$ increases in value.} \\\\\n(B) & 3{|l|}{This option is correct. The statement is false. The graph of $d N{d t}$ as a function of $N$ is a concave down parabola with zeros at $N=0$ and $N=850$. The maximum value of $d N{d t}$ will occur at the vertex of the parabola which is at $N=425$, not $N=105$.} \\\\\n(C) & 3{|c|}{This option is incorrect. The statement is true. Since the solution curve starts at $N(0)=105$ which is less than half the carrying capacity of 850, the point of inflection on the graph of $N$ will occur when the graph reaches $N=425$, the midpoint between $N=0$ and $N=850$ as the graph of $N$ changes from concave up to concave down.} \\\\\n(D) & 3{|c|}{This option is incorrect. The statement is true. Since the solution curve starts at $N(0)=105$ which is less than half the carrying capacity of 850, the logistic curve starts out increasing and concave up for $N<425$, then changes to increasing and concave down for $N>425$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.2A"
+        },
+        {
+          "id": "a",
+          "text": "Interpret the definite integral as the limit of a Riemann sum. & 3.2A3: The information in a definite integral can be translated into the limit of a related Riemann sum, and the limit of a Riemann sum can be written as a definite integral. & MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 4: \\\\ Connecting multiple representations} \\\\\n2{|l|}{3.4D Apply definite integrals to problems involving area, volume, (BC) and length of a curve.} & 3.4D1: Areas of certain regions in the plane can be calculated with definite integrals. (BC) Areas bounded by polar curves can be calculated with definite integrals. & \\\\\n(A) & 3{|c|}{This option is incorrect. It was recognized that the sum begins at $x=1$, but that information was used inappropriately in trying to write an expression for the height of the rectangles at the right endpoints. \\\\ These endpoints go from 0 to 3 in widths of $ x={n}$, and the height corresponds to the function $1+ x$.} \\\\\n(B) & 3{|c|}{This option is correct. The area of the shaded region is equal to $_{1}^{4}  x d x$. For this integral, a right Riemann sum with $n$ terms is built from rectangles of width $ x=4-1{n}=3{n}$. The height of each rectangle is determined by the function $ x$ evaluated at the right endpoints of the $n$ intervals. These endpoints are the $x$ values at $1+k  x$, for $k$ from 1 to $n$, since the integral starts at 1 . The Riemann sum can be written as $_{k=1}^{n}  (1+k  x)  x$ where $ x=3{n}$, and its limit as $n  $ is $_{1}^{4}  x d x$.} \\\\\n(C) & 3{|c|}{This option is incorrect. The endpoint of $x=4$ was used instead of the width of the interval in calculating $ x$ in the construction of the Riemann sum, and the roles of the right endpoints and $ x$ were also mixed up in trying to represent the heights and width of the rectangles.} \\\\\n(D) & 3{|l|}{This option is incorrect. The endpoint of $x=4$ was used instead of the width of the interval in calculating $ x$ in the construction of the Riemann sum.} \\\\\ntable\n\nQuestion 30\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.2A Construct and use Taylor polynomials. & 4.2A5: In some situations where the signs of a Taylor polynomial are alternating, the alternating series error bound can be used to bound the error of a Taylor polynomial approximation to the function. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. The alternating series error bound is not the last term in the approximation (the second term in this case). Evaluating the absolute value of the degree 4 term of the fourth-degree Taylor polynomial for $f$ results in $1{5!}(1{2})^{4}$.} \\\\\n(B) & 3{|l|}{This option is incorrect. Using $n=5$ to calculate the first \"omitted term\" after $n=4$ in the fourth-degree Taylor polynomial results in $1{6!}(1{2})^{5}$. The error might also come from confusing the alternating series error bound with the Lagrange error bound and selecting an answer that involves $x^{n+1}$ with $x=1{2}$ when $n=4$ from the use of the fourth-degree Taylor polynomial.} \\\\\n(C) & 3{|c|}{This option is correct. Since \\\\ $f(x)={3!} x^{2}-{5!} x^{4}+{7!} x^{6}-{9!} x^{8}+$ the fourth-degree Taylor polynomial for $f$ is $P(x)={3!} x^{2}-{5!} x^{4}$. P({2})={3!}({2})^{2}-{5!}({2})^{4} \\\\ Using the Taylor series for $f$ about $x=0$, f({2})={3!}({2})^{2}-{5!}({2})^{4}+{7!}({2})^{6}-{9!}({2})^{8}+{11!}({2})^{10}- . \\\\ This is an alternating series and converges by the alternating series test. \\\\ Therefore the alternating series error bound can be used to approximate this value using the first two terms of the series, which is the same as $P({2})$. The alternating series error bound using the first two terms in the series for $f({2})$ is the absolute value of the third term, ${7!}({2})^{6}$, the first omitted term of the series, so $|f({2})-P({2})| {7!}({2})^{6}$.} \\\\\n(D) & 3{|c|}{This option is incorrect. \"Fourth-degree\" was misunderstood as asking for four terms and thus the Taylor polynomial was used. P(x)={3!} x^{2}-{5!} x^{4}+{7!} x^{6}-{9!} x^{8} { was evaluated at } x={2} . \\\\ The alternating series error bound would then be the first omitted term, ${11!}({2})^{10}$.} \\\\\ntabular\n\nQuestion 76\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.3B"
+        },
+        {
+          "id": "b",
+          "text": "Evaluate definite integrals. & 3.3B2: If $f$ is continuous on the interval $[a, b]$ and $F$ is an antiderivative of $f$, then _{a}^{b} f(x) d x=F(b)-F"
+        },
+        {
+          "id": "a",
+          "text": ". & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 5: \\\\ Building notational fluency \\\\\n(A) & 3{|l|}{This option is correct. By the Fundamental Theorem of Calculus, $f(5)-f(2)=_{2}^{5} f^{}(x) d x$. \\\\ Therefore, f(5)=f(2)+_{2}^{5} } d x=0.4+_{2}^{5} } d x=29.005} \\\\\n(B) & 3{|c|}{This option is incorrect. A common error is to neglect to use the initial condition and just take $f(5)=_{2}^{5} 1+2 x^{3} d x$. This may arise from a misunderstanding of the Fundamental Theorem of Calculus or just by forgetting to add the initial condition after computing the definite integral with the calculator.} \\\\\n(C) & 3{|l|}{This option is incorrect. An error in the setup to the Fundamental Theorem of Calculus by taking\n\n\n& f(5)+f(2)=_{2}^{5} f^{}(x) d x  { leads to the computation } \\\\\n& f(5)=-f(2)+_{2}^{5} 1+2 x^{3} d x=-0.4+_{2}^{5} 1+2 x^{3} d x\n\n} \\\\\n(D) & 3{|l|}{This option is incorrect. An error in the setup to the Fundamental Theorem of Calculus by taking\n\n\n& f(5)-f(2)=_{5}^{2} f^{}(x) d x  { leads to the computation } \\\\\n& f(5)=f(2)+_{5}^{2} 1+2 x^{3} d x=0.4-_{2}^{5} 1+2 x^{3} d x\n\n} \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3F Estimate solutions to differential equations. & 2.3F2: (BC) For differential equations, Euler's method provides a procedure for approximating a solution or a point on a solution curve. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 4: \\\\ Connecting multiple representations \\\\\n(A) & 3{|c|}{This option is incorrect. Approximating the value at $x=0.4$ using the tangent line to the graph at the point ( $-0.2,1$ ) yields:\n\nf(0.4)  f(-0.2)+f^{}(-0.2)( x)=1+(0.8)(0.6)=1.48\n} \\\\\n(B) & 3{|c|}{This option is correct. Euler's method for the differential equation $d y{d x}=f^{}(x)$ can be written as $y_{k+1}=y_{k}+f^{}(x_{k})  x$, where $ x$ is the step size. Then $y_{k}$ is an approximation for $f(x_{k})$. Here the step size is $ x=0.2$. To get to $x=0.4$ starting at $x=-0.2$ will require three steps. The values for $f^{}(x_{k})$ are obtained from the table.\n\narray{ll}\nx_{0}=-0.2 ; & y_{0}=1 \\\\\nx_{1}=0 ; & y_{1}=y_{0}+f^{}(x_{0})  x=1+(0.8)(0.2)=1.16 \\\\\nx_{2}=0.2 ; & y_{2}=y_{1}+f^{}(x_{1})  x=1.16+(1.2)(0.2)=1.4 \\\\\nx_{3}=0.4 ; & y_{3}=y_{2}+f^{}(x_{2})  x=1.4+(1.7)(0.2)=1.74\n\n} \\\\\n(C) & 3{|c|}{This option is incorrect. Using derivatives at the right endpoints of the intervals (i.e. thinking that Euler's method would be\n\n\n& .y_{k+1}=y_{k}+f^{}(x_{k+1})  x)  { yields: } \\\\\n& y_{1}=y_{0}+f^{}(x_{1})  x=1+(1.2)(0.2)=1.24 \\\\\n& y_{2}=y_{1}+f^{}(x_{2})  x=1.24+(1.7)(0.2)=1.58 \\\\\n& y_{3}=y_{2}+f^{}(x_{3})  x=1.58+(2.3)(0.2)=2.04\n\n} \\\\\n(D) & 3{|c|}{This option is incorrect. A misunderstanding of Euler's method might have led to continuing too far by completing four steps to use all of the data in the table. See Option (B) for the first three steps. The fourth step is: $y_{4}=y_{3}+f^{}(x_{3}) x=1.74+(2.3)(0.2)=2.20$. \\\\ This might also happen if the approximations are not clearly identified, thus missing that one has already reached $x=0.4$ and approximated $f(0.4)$ after three steps with $y_{3}$.} \\\\\ntabular\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.2A Use derivatives to analyze properties of a function. & 2.2A1: First and second derivatives of a function can provide information about the function and its graph including intervals of increase or decrease, local (relative) and global (absolute) extrema, intervals of upward or downward concavity, and points of inflection. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. This might be selected if a badly chosen viewing window (i.e. not examining the correct interval) omits the first two and last two intersections.} \\\\\n(B) & 3{|c|}{This option is incorrect. This might be selected if the viewing window omits the first two intersections or the last two intersections, or if the first two intersections are overlooked, perhaps because the range on the $y$-axis is set too large.} \\\\\n(C) & 3{|l|}{This option is incorrect. This is the apparent number of points of inflection on the graph of $f^{ }$. It is also the number of critical points of $f^{ }$ on the open interval $0<x<3$.} \\\\\n(D) & 3{|c|}{This option is correct. Graph $f^{ }(x)$ on the interval $0 x 3$. \\\\ A point of inflection occurs where the second derivative $f^{ }(x)$ changes sign. This happens five times on the interval: twice between 0 and 1 , once between 1 and 2, and twice between 2 and 3 .} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.4C Apply definite integrals to problems involving motion. & 3.4C1: For a particle in rectilinear motion over an interval of time, the definite integral of velocity represents the particle's displacement over the interval of time, and the definite integral of speed represents the particle's total distance traveled over the interval of time. & {l} MPAC 4: \\\\ Connecting multiple representations \\\\ MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n(A) & 3{|c|}{This option is incorrect. This is the difference between the displacement and the total distance over the whole interval $0  t  5$.} \\\\\n(B) & 3{|l|}{This option is correct. Let the total area above the $t$-axis be $A$ and the area below the $t$-axis be $B$. The particle's total distance on the time interval $0 t 5$ is: _{0}^{5}|v(t)| d t=A+B=13 \\\\ and the particle's displacement is: _{0}^{5} v(t) d t=A-B=3 \\\\ Solving the system gives $A=8$ and $B=5$. Since the graph of $v(t)$ is below the axis for $2<t<4$, _{2}^{4} v(t) d t=-B=-5} \\\\\n(C) & 3{|c|}{This option is incorrect. $_{2}^{4} v(t) d t=B=5$ was concluded by thinking just about area and not that the definite integral corresponds to a region below the axis.} \\\\\n(D) & 3{|c|}{This option is incorrect. This is the difference between the total distance and the displacement over the whole interval $0  t  5$.} \\\\\ntable\n\nQuestion 80\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.4D Apply definite integrals to problems involving area, volume, (BC) and length of a curve. & 3.4D1: Areas of certain regions in the plane can be calculated with definite integrals. (BC) Areas bounded by polar curves can be calculated with definite integrals. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n(A) & 3{|c|}{This option is incorrect. The error comes from using a rectangular form of the area instead of a polar form for area, as if the curves were treated as functions of $y$ in terms of $x$ : \\\\ $_{0}^{}(8 3 -5 3 ) d $.} \\\\\n(B) & 3{|c|}{This option is incorrect. When working with two polar curves, a common error is to integrate the square of the difference instead of the difference of squares, i.e. \\\\ ${2} _{0}^{}(r_{2}()-r_{1}())^{2} d $. Here this would be: \\\\ ${2} _{0}^{}(8 3 -5 3 )^{2} d $.} \\\\\n(C) & 3{|c|}{This option is correct. The polar curve $r=a (n )$, where $n$ is an integer, describes a rose. If $n$ is odd, the rose has $n$ petals defined for $0 $. Because both roses in this problem have $n=3$, the rose with $a=5$ lies inside the rose with $a=8$. Graphing the two curves on the graphing calculator for $0 $ would show the accompanying figure. \\\\ The area bounded by the two polar curves can be found with a definite integral. Let $r_{1}$ be the smaller radius and $r_{2}$ be the larger radius. Then { area } & ={2} _{0}^{}(r_{2}())^{2} d -{2} _{0}^{}(r_{1}())^{2} d \\\\ & ={2} _{0}^{}(8 3 )^{2} d -{2} _{0}^{}(5 3 )^{2} d \\\\ This integration should be done with the calculator.} \\\\\n(D) & 3{|c|}{This option is incorrect. It is important when working with polar curves to determine the appropriate interval for $$ that will describe the complete curve without tracing over parts a second time. One cannot assume that this interval is always from 0 to $2 $. If those limits are used in the integral in option (C), the result will be doubling the area since the curve is traced twice. This answer would also result if the correct interval of 0 to $$ is used, but the $1{2}$ is forgotten in the integral.} \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.2A Use derivatives to analyze properties of a function. & 2.2A3: Key features of the graphs of $f, f^{}$, and $f^{ }$ are related to one another. & {l} MPAC 4: \\\\ Connecting multiple representations \\\\ MPAC 2: Connecting concepts \\\\\n(A) & 3{|c|}{This option is correct. Where the derivative $f^{}$ is positive, the function $f$ should be increasing. Where the derivative $f^{}$ is negative, the function $f$ should be decreasing. The derivative to the left of $x=0$ is always positive. The derivative to the right of $x=0$ is positive until $x=1$, then negative. Therefore the graph of $f$ should be increasing for $x<0$ and $0<x<1$, and should be decreasing for $x>1$. The graph in this option could therefore be the graph of $f$.} \\\\\n(B) & 3{|l|}{This option is incorrect. The sign of the derivative on the left side and right side of $x=0$ was misinterpreted, thus reversing the desired increasing/decreasing behavior that the graph of $f$ should display.} \\\\\n(C) & 3{|c|}{This option is incorrect. The sign of the derivative on the left side of $x=0$ was misinterpreted, thus reversing the desired increasing behavior that the graph of $f$ should display on the left side of $x=0$.} \\\\\n(D) & 3{|l|}{This option is incorrect. The sign of the derivative on the right side of $x=0$ was misinterpreted, thus not achieving the desired increasing/ decreasing behavior that the graph of $f$ should display on the right side of $x=0$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3A Interpret the meaning of a derivative within a problem. & 2.3A2: The derivative of a function can be interpreted as the instantaneous rate of change with respect to its independent variable. & {l} MPAC 5: \\\\ Building notational fluency \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. \"During its 3rd hour of operation\" refers to the time interval $2  t  3$. Therefore this is the correct interpretation of the statement $C(3)-C(2)=500$. It is the change in $C$ during this hour, not the rate of change at a specific time.} \\\\\n(B) & 3{|c|}{This option is incorrect. \"In the first 3 hours after it opens\" refers to the time interval $0  t  3$. Therefore this is the correct interpretation of the statement $C(3)-C(0)=500$. It is the change in $C$ during these three hours, not the rate of change at a specific time.} \\\\\n(C) & 3{|c|}{This option is correct. In the expression $C^{}(3)$, the 3 represents the value of the independent variable and is therefore the number of hours since the factory opened. $C^{}(3)$, being the value of a derivative, is the rate of change of $C$-i.e. the rate at which candy is being produced, in this case three hours after the factory opens. The units for the derivative would be the units of $C$ per unit of time, hence pieces per hour.} \\\\\n(D) & 3{|c|}{This option is incorrect. What is increasing is the rate at which the factory is producing candy, that is, the derivative $C^{}$. The 500 is the rate at which $C^{}$ is increasing. Thus this statement is about the rate of change of the rate of change, i.e. the second derivative. This is also indicated by the units of pieces per hour per hour. It is a correct interpretation of the statement $C^{ }(3)=500$.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.2A Analyze functions for intervals of continuity or points of discontinuity. & 1.2A1: A function $f$ is continuous at $x=c$ provided that $f(c)$ exists, $ _{x c} f(x)$ exists, and $ _{x c} f(x)=f(c)$. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. While it is true that $f$ is discontinuous at $x=0$, the reason is because $f$ is not defined at $x=0$. Here $ _{x  0} f(x)$ does exist and is equal to 1 .} \\\\\n(B) & 3{|c|}{This option is correct. A function $f$ is continuous at a point $x=a$ if $f$ is defined at $x=a$ and $ _{x  a} f(x)=f(a)$. Here the function $f$ is defined at $x=3$ with $f(3)=2$, but $ _{x  3} f(x)=0  f(3)$ so this statement is true.} \\\\\n(C) & 3{|c|}{This option is incorrect. While it is true that $f$ is discontinuous at $x=5$, the reason is because $ _{x  5} f(x)$ does not exist. Here $ _{x  5^{-}} f(x)$ does exist and equals 4 .} \\\\\n(D) & 3{|l|}{This option is incorrect. The function $f$ is continuous but not differentiable at $x=6$. This answer might be chosen if a non-differentiable point is misinterpreted as a discontinuous point.} \\\\\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.4E Use the definite integral to solve problems in various contexts. & 3.4E1: The definite integral can be used to express information about accumulation and net change in many applied contexts. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. The interpretation of $E(t)$ and $L(t)$ was confused and the rate of change of the amount of water was taken to be $L(t)-E(t)$. \\\\ $48+_{0}^{4}(L(t)-E(t)) d t=48-34.749$} \\\\\n(B) & 3{|c|}{This option is correct. The definite integral of the rate of change over an interval gives the net change over that interval. Since $E(t)-L(t)$ is the rate of change of the amount of water in the tank, the definite integral of $E(t)-L(t)$ on the interval $0 t 4$ gives the change in the amount of water over that time period. Adding the net change to the initial amount of water at $t=0$ will give the amount of water at $t=4$. & 48+_{0}^{4}(E(t)-L(t)) d t \\\\ & =48+_{0}^{4}(12 t ({4} t)-}{t+2}) d t=48+34.749=82.749 \\\\ The integration should be done with the calculator.} \\\\\n(C) & 3{|l|}{This option is incorrect. The interpretation of $E(t)$ and $L(t)$ was confused and the rate of change of the amount of water was taken to be $L(t)+E(t)$. Or a misunderstanding of the idea of accumulation and net change resulted in trying to find total amount of flow, in and out, over the time interval. The initial condition was ignored.\n\n_{0}^{4}(E(t)+L(t)) d t=87.482\n} \\\\\n(D) & 3{|c|}{This option is incorrect. The interpretation of $E(t)$ and $L(t)$ was confused and the rate of change of the amount of water was taken to be $L(t)+E(t)$. Or a misunderstanding of the idea of accumulation and net change resulted in trying to find total amount of flow, in and out, over the time interval. The initial condition was then added to the integral.\n\n48+_{0}^{4}(E(t)+L(t)) d t=48+87.482=135.482\n} \\\\\ntable\n\nQuestion 85\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 3.4B Apply definite integrals to problems involving the average value of a function. & 3.4B1: The average value of a function $f$ over an interval $[a, b]$ is ${b-a} _{a}^{b} f(x) d x$. & {l} MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n(A) & 3{|c|}{This option is incorrect. The error might come from mixing the two ideas of averaging a function using a definite integral with averaging two numbers by dividing by 2 :\n\n_{1.25^{2}  (x^{2}{9}) d x}{2}=0.116\n} \\\\\n(B) & 3{|l|}{This option is incorrect. The calculation neglected to divide by the length of the interval:\n\n_{1.25}^{2}  (x^{2}{9}) d x=0.232\n} \\\\\n(C) & 3{|c|}{This option is correct. The average value of a function $f$ over the interval $a  x  b$ is $1{b-a} _{a}^{b} f(x) d x$. Applying that formula to this problem gives the calculation:\n\n_{1.25^{2}  (x^{2}{9}) d x}{2-1.25}=0.310 .\n} \\\\\n(D) & 3{|c|}{This option is incorrect. The average value of the function $f(x)= (x^{2}{9})$ was confused with the arithmetic mean of the value of the function at the endpoints: $f(1.25)+f(2){2}$.} \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.1C Determine limits of functions. & 1.1C1: Limits of sums, differences, products, quotients, and composite functions can be found using the basic theorems of limits and algebraic rules. & {l} MPAC 4: \\\\ Connecting multiple representations \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n(A) & 3{|l|}{This option is correct. Calculating this limit uses the basic properties for the limit of the sum of two functions, the limit of a product of a function and a constant, and the limit of the reflection of a function across the $y$-axis:\n\naligned\n&  _{x  5}(f(-x)+3 g(x))= _{x  5} f(-x)+ _{x  5}(3 g(x)) \\\\\n& = _{x -5} f(x)+3  _{x  5} g(x)=4+3(5)=19 .\n\n} \\\\\n(B) & 3{|c|}{This option is incorrect. There is an error where $ _{x  5} f(-x)= _{x  5} f(x)$ was mistakenly thought of as if the function was symmetric with respect to the $y$-axis:\n\n _{x  5}(f(-x)+3 g(x))=2+3(5)=17 .\n} \\\\\n(C) & 3{|c|}{This option is incorrect. There is an error where $ _{x  5} f(-x)=- _{x  5} f(x)$ was mistakenly thought of as if the function was symmetric with respect to the origin:\n\n\n&  _{x  5}(f(-x)+3 g(x))= _{x  5} f(-x)+ _{x  5}(3 g(x)) \\\\\n& =- _{x  5} f(x)+3  _{x  5} g(x)=-2+3(5)=13\n\n} \\\\\n(D) & 3{|c|}{This option is incorrect. There is an error with the limit of the product of a function and a constant in which the calculation drops the constant rather than moving it outside the limit:\n\n\n&  _{x  5}(f(-x)+3 g(x))= _{x  5} f(-x)+ _{x  5}(3 g(x)) \\\\\n& = _{x -5} f(x)+ _{x  5} g(x)=4+5=9\n\n} \\\\\ntabular\ntable\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3A Interpret the meaning of a derivative within a problem. & 2.3A1: The unit for $f^{}(x)$ is the unit for $f$ divided by the unit for $x$. & {l} MPAC 5: Building notational fluency \\\\ MPAC 3: Implementing algebraic/ computational processes \\\\\n(A) & 3{|c|}{This option is incorrect. This is the units of the dependent variable only.} \\\\\n(B) & 3{|l|}{This option is incorrect. This is the units of the independent variable only.} \\\\\n(C) & 3{|c|}{This option is incorrect. The dependent and independent variables were inverted. While in many problems time is often the independent variable, in this model time is specified as a function of the air pressure and hence is the dependent variable. That is why it is important to understand the functional notation $t=f(p)$.} \\\\\n(D) & 3{|c|}{This option is correct. The derivative of the function $t=f(p)$ is the limit of the difference quotient $ t{ p}$. The units on the dependent variable, $t$, in the numerator is hours and the units on the independent variable, $p$, in the denominator is psi . The rate of change, therefore, has units in hours per psi.} \\\\\ntable\n\nQuestion 88\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.3C Solve problems involving related rates, optimization, rectilinear motion, (BC) and planar motion. & {l} 2.3C4: (BC) \\\\ Derivatives can be used to determine velocity, speed, and acceleration for a particle moving along curves given by parametric or vectorvalued functions. & MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. This is the magnitude of the position vector rather than the velocity vector: $(x(2.3))^{2+(y(2.3))^{2}}=1.000$.} \\\\\n(B) & 3{|c|}{This option is incorrect. This error in the calculation of the magnitude of the velocity vector comes from neglecting to square the velocity vector values: $x^{(2.3)+y^{}(2.3)}=2.014$.} \\\\\n(C) & 3{|c|}{This option is correct. The speed of the particle at time $t$ is the magnitude of the velocity vector $ x^{}(t), y^{}(t)$ at time $t$. When $t=2.3$, the velocity vector is $ 3.3369,0.7189$ which has magnitude $3.3369^{2+0.7189^{2}}=3.413$.} \\\\\n(D) & 3{|c|}{This option is incorrect. This error in the calculation of the magnitude of the velocity vector comes from neglecting to take the square root: $(x^{}(2.3))^{2}+(y^{}(2.3))^{2}=11.652$.} \\\\\ntabular\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.2B Determine the applicability of important calculus theorems using continuity. & 1.2B1: Continuity is an essential condition for theorems such as the Intermediate Value Theorem, the Extreme Value Theorem, and the Mean Value Theorem. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. See option (D) for the graph of a function that satisfies the conditions in the stem but which attains neither a minimum value nor a maximum value on the closed interval $[0,1]$. Note that the Extreme Value Theorem does not apply here because $f$ is not continuous on $[0,1]$.} \\\\\n(B) & 3{|c|}{This option is incorrect. See option (D) for the graph of a function that satisfies the conditions in the stem but which does not attain a minimum value on the closed interval $[0,1]$. Note that the Extreme Value Theorem does not apply here because $f$ is not continuous on $[0,1]$.} \\\\\n(C) & 3{|c|}{This option is incorrect. See option (D) for the graph of a function that satisfies the conditions in the stem but which does not attain a maximum value on the closed interval $[0,1]$. Note that the Extreme Value Theorem does not apply here because $f$ is not continuous on $[0,1]$.} \\\\\ntable\n(D) This option is correct. The graph of a function that satisfies the conditions in the stem would have to behave something like the figure to the right.\nThe graph on the open interval $(0,1)$ must be strictly increasing and the three solid dots must line up horizontally. The solid dots and the open dots at $x=0$ and $x=1$ cannot coincide. A function with such a graph has\n neither a minimum value nor a maximum value on the closed interval $[0,1]$. Note that the Extreme Value Theorem does not apply here because $f$ is not continuous on $[0,1]$.\nA more detailed explanation is that because $f$ is strictly increasing on the open interval $(0,1)$, if it attains a minimum value on the closed interval $[0,1]$ then that value must occur at either $x=0$ or $x=1$. But that is impossible because it would lead to the contradiction $f(1{2})=f"
+        },
+        {
+          "id": "a",
+          "text": "f(1{4})<f(1{2})$, where $a$ is either 0 or 1.\nThe first inequality comes from $f(a)$ being the minimum value, and the second inequality comes from $f$ being strictly increasing on $(0,1)$.\nSimilarly, if the function attains a maximum value on the closed interval $[0,1]$, that value must also occur at either $x=0$ or $x=1$. But that is again impossible because it would lead to the contradiction $f(1{2})<f(3{4})  f(b)=f(1{2})$, where $b$ is either 0 or 1.\nThe first inequality comes from $f$ being strictly increasing on $(0,1)$, and the second inequality comes from $f(b)$ being the maximum value.\n\n\n| Learning Objectives & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.2C Determine the radius and interval of convergence of a power series. & 4.2C1: If a power series converges, it either converges at a single point or has an interval of convergence. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\ MPAC 2: \\\\ Connecting concepts \\\\\n(A) & 3{|c|}{This option is incorrect. 5 was used as the radius of convergence and it was assumed the series is centered at $x=0$ to get the interval of convergence to include $-5<x<5$, an interval that contains $x=-4$ in its interior.} \\\\\n(B) & 3{|l|}{This option is incorrect. $x=-4$ was substituted in the series to get terms of the form $a_{n}(-5)^{n}=(-1)^{n} a_{n} 5^{n}$ : it was believed this result produces the same conclusion as when $x=5$.} \\\\\n(C) & 3{|c|}{This option is correct. A series is absolutely convergent on the interior of the interval of convergence since the radius of convergence can be determined by the ratio test. Since this series is conditionally convergent when $x=5$, then 5 must be an endpoint of the interval of convergence. The series is centered at $x=1$, so the radius of convergence is $5-1=4$. Thus, the series is divergent for $x<-3$ and $x>5$.} \\\\\n(D) & 3{|l|}{This option is incorrect. It was not understood that conditional convergence determines the endpoint of the interval of convergence. It may also have been believed that another piece of information was needed to narrow the interval of convergence.} \\\\\ntable\n\n\n| Part A & 1 - A \\\\ | & 2-C \\\\ | & 3-B \\\\ | & 4 - D \\\\ | & 5-C \\\\ | & 6 - A \\\\ | & 7 - A \\\\ | & 8 - B \\\\ | & $9-$ \\\\ | & 10 - A \\\\ | & 11 - B \\\\ | & 12 - D \\\\ | & 13 - D \\\\ | & 14 - D \\\\ | & 15 - C \\\\ | & 16 - D \\\\ | & 17 - B \\\\ | & 18 - D \\\\ | & 19 - B \\\\ | & 20 - C \\\\ | & 21 - D \\\\ | & 22 - C \\\\ | & 23 - C \\\\ | & 24 - C \\\\ | & 25 - A \\\\ | & 26 - D \\\\ | & 27 - C \\\\ | & 28 - B \\\\ | & 29 - B \\\\ | & 30 - C \\\\ | Part B & 76 - A \\\\ | & 77 - B \\\\ | & 78 - D \\\\ | & 79 - B \\\\ | & 80 - C \\\\ | & 81 - A \\\\ | & 82 - C \\\\ | & 83 - B \\\\ | & 84 - B \\\\ | & 85 - C \\\\ | & 86 - A \\\\ | & 87 - D \\\\ | & 88 - C \\\\ | & 89 - D \\\\ | & 90 - C \\\\ |\n\n\nFree-response questions provide students with an opportunity to demonstrate their knowledge of correct mathematical reasoning and thinking. In most cases, an answer without supporting work will receive no credit; students are required to articulate the reasoning and methods that support their answer. Some questions will ask students to justify an answer or discuss whether a theorem can be applied. There are two free-response questions in Part A and four questions in Part B. Each part of the free-response section is timed, and students may use a graphing calculator only for Part A. During the timed portion for Part B of the free-response section, students are allowed to return to working on Part A questions, though without the use of a graphing calculator.\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.1B Estimate derivatives. & 2.1B1: The derivative at a point can be estimated from information given in tables or graphs. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n2.3A Interpret the meaning of a derivative within a problem. & 2.3A1: The unit for $f^{}(x)$ is the unit for $f$ divided by the unit for $x$. \\\\ 2.3A2: The derivative of a function can be interpreted as the instantaneous rate of change with respect to its independent variable. & MPAC 2: \\\\ Connecting concepts \\\\\n2.3D Solve problems involving rates of change in applied contexts. & 2.3D1: The derivative can be used to express information about rates of change in applied contexts. & processes \\\\\n3.2B Approximate a definite integral. & 3.2B2: Definite integrals can be approximated using a left Riemann sum, a right \\\\ Riemann sum, a midpoint Riemann sum, or a trapezoidal sum; approximations can be computed using either uniform or nonuniform partitions. & MPAC 4: \\\\ Connecting multiple representations \\\\\n3.4B Apply definite integrals to problems involving the average value of a function. & 3.4B1: The average value of a function $f$ over an interval $[a, b]$ is $1{b-a} _{a}^{b} f(x) d x$. & MPAC 6: Communicating \\\\\ntabular"
+        },
+        {
+          "id": "a",
+          "text": "$h^{}(6)  h(7)-h(5){7-5}=18.5-15.5{2}=1.5 in / min$"
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{10} h(t) d t (2-0)  h(2)+(5-2)  h(5)+(7-5)  h(7)+(10-7)  h(10)\n=2(10.0)+3(15.5)+2(18.5)+3(20.0)=163.5\n\n\nBecause $h$ is an increasing function, the right Riemann sum approximation is greater than $_{0}^{10} h(t) d t$."
+        },
+        {
+          "id": "c",
+          "text": "Average depth in tank $B=1{10} _{0}^{10} g(t) d t=16.624$ in\n\nAverage depth in tank $A=1{10} _{0}^{10} h(t) d t<1{10}(163.5)=16.35$ in $<16.624$ in\nTherefore, the average depth of the water in tank $B$ is greater than the average depth of the water in tank $A$."
+        },
+        {
+          "id": "d",
+          "text": "$g^{}(6)=0.887$\n\nThe depth of the water in tank $B$ is increasing at time $t=6$ because $g^{}(6)>0$.\n\n1 : answer with units\n$3:\\{{l}1:  { right Riemann sum } \\\\ 1:  { approximation } \\\\ 1:  { overestimate } \\\\   { with reason }.$\n$3:\\{{l}1:  { integral } \\\\ 1:  { average depth } \\\\   { in tank } B \\\\ 1:  { answer with reason }.$\n$2:\\{{l}1:  { uses } g^{}(6) \\\\ 1:  { answer with reason }.$\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 2.1C Calculate derivatives. & 2.1C7: (BC) Methods for calculating derivatives of real-valued functions can be extended to vectorvalued functions, parametric functions, and functions in polar coordinates. & {l} MPAC 1: Reasoning with definitions and theorems \\\\ MPAC 2: Connecting \\\\\n2.3C Solve problems involving related rates, optimization, rectilinear motion, (BC) and planar motion. & 2.3C4: (BC) Derivatives can be used to determine velocity, speed, and acceleration for a particle moving along curves given by parametric or vectorvalued functions. & concepts MPAC 3: Implementing algebraic/ computational processes \\\\\n3.4C Apply definite integrals to problems involving motion. & 3.4C2: (BC) The definite integral can be used to determine displacement, distance, and position of a particle moving along a curve given by parametric or vectorvalued functions. & MPAC 5: Building notational fluency \\\\ MPAC 6: Communicating \\\\\ntable"
+        },
+        {
+          "id": "a",
+          "text": "Acceleration $= x^{ }(2), y^{ }(2)\n=-1.033,3.027"
+        },
+        {
+          "id": "b",
+          "text": "Distance $=_{1.8}^{2} (x^{(t))^{2}+(y^{}(t))^{2}} d t\n=0.360( { or } 0.359)"
+        },
+        {
+          "id": "c",
+          "text": "$x(1)=x(2)+_{2}^{1} x^{}(t) d t\n=5+_{2}^{1}(-1+e^{ t}) d t=3.395"
+        },
+        {
+          "id": "d",
+          "text": "Speed $=.(x^{(t))^{2}+(y^{}(t))^{2}}|_{t={7 {2}}}=|x^{}({7 {2}})|=0.159\nx^{}({7 {2}})=-0.159\n\n\nBecause $x^{}({7 {2}})<0$, the particle is moving to the left at time\n\n2:\\{{l}\n1: x^{ }(2) \\\\\n1: y^{ }(2)\n.\n2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n$3:\\{{l}1:  { integral } \\\\ 1:  { uses } x(2) \\\\ 1:  { answer }.$\n$2:\\{{l}1:  { speed } \\\\ 1:  { direction with reason }.$ $t={7 {2}}$.\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.1C Determine limits of functions. & 1.1C3: Limits of the indeterminate forms ${0}$ and ${}$ may be evaluated using L'Hospital's Rule. & MPAC 1: Reasoning with definitions and theorems \\\\ | 2.1C Calculate derivatives. & 2.1C3: Sums, differences, products, and quotients of functions can be differentiated using derivative rules. & {l} MPAC 2: \\\\ Connecting concepts \\\\\n2.2A Use derivatives to analyze properties of a function. & 2.2A1: First and second derivatives of a function can provide information about the function and its graph including intervals of increase or decrease, local (relative) and global (absolute) extrema, intervals of upward or downward concavity, and points of inflection. \\\\ 2.2A3: Key features of the graphs of $f, f^{}$, and $f^{ }$ are related to one another. & MPAC 5: Building notational fluency \\\\\n3.2C Calculate a definite integral using areas and properties of definite integrals. & 3.2C1: In some cases, a definite integral can be evaluated by using geometry and the connection between the definite integral and area. & MPAC 6: Communicating \\\\\n3.3A Analyze functions defined by an integral. & 3.3A2: If $f$ is a continuous function on the interval $[a, b]$, then ${d x}(_{a}^{x} f(t) d t)=f(x)$, where $x$ is between $a$ and $b$. \\\\ 3.3A3: Graphical, numerical, analytical, and verbal representations of a function $f$ provide information about the function $g$ defined as g(x)=_{a}^{x} f(t) d t . & \\\\\ntable"
+        },
+        {
+          "id": "a",
+          "text": "$f^{}(x)=g(x)$\n\nThe function $f$ has critical points at $x=-6$ and $x=2$.\n$f$ has a local minimum at $x=-6$ because $f^{}$ changes from negative to positive at that value.\n$f$ has a local maximum at $x=2$ because $f^{}$ changes from positive to negative at that value."
+        },
+        {
+          "id": "b",
+          "text": "$f(0)=_{-8}^{0} g(t) d t=8+4 $"
+        },
+        {
+          "id": "c",
+          "text": "$ _{x -4} f(x)=f(-4)=_{-8}^{-4} g(t) d t=0$\n$ _{x -4}(x^{2}+4 x)=0$\n\nUsing L'Hospital's Rule,\n$ _{x -4} f(x){x^{2}+4 x}= _{x -4} f^{(x)}{2 x+4}= _{x -4} g(x){2 x+4}=2{-4}=-1{2}$"
+        },
+        {
+          "id": "d",
+          "text": "$h^{}(x)=(x^{2+1) g^{}(x)-g(x) 2 x}{(x^{2}+1)^{2}}\n\nh^{}(1) & =(1^{2+1) g^{}(1)-g(1)(2)(1)}{(1^{2}+1)^{2}} \\\\\n& =2(-3)-3(2){4}=-3\n\n3:\\{{l}1: f^{}(x)=g(x) \\\\ 1:  { critical points } \\\\ 1:  { classifications with justification }.$\n\n1 : answer\n$2:\\{{l}1:  { L'Hospital's Rule } \\\\ 1:  { answer }.$\n$3:\\{{l}2: h^{}(x) \\\\ 1:  { answer }.$\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.1C Determine limits of functions. & 1.1C1: Limits of sums, differences, products, quotients, and composite functions can be found using the basic theorems of limits and algebraic rules. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n2.1C Calculate derivatives. & 2.1C3: Sums, differences, products, and quotients of functions can be differentiated using derivative rules. \\\\ 2.1C5: The chain rule is the basis for implicit differentiation. & Connecting concepts \\\\ MPAC 3: \\\\ Implementing algebraic/ computational \\\\\n2.1D Determine higher order derivatives. & 2.1D2: Higher order derivatives are represented with a variety of notations. For $y=f(x)$, notations for the second derivative include $ y}{d x^{2}}, f^{ }(x)$, and $y^{ }$. \\\\ Higher order derivatives can be denoted $ y}{d x^{n}}$ or $f^{(n)}(x)$. & processes \\\\ MPAC 5: Building notational fluency \\\\ MPAC 6: Communicating \\\\\n2.2A Use derivatives to analyze properties of a function. & 2.2A1: First and second derivatives of a function can provide information about the function and its graph including intervals of increase or decrease, local (relative) and global (absolute) extrema, intervals of upward or downward concavity, and points of inflection. & \\\\\n3.5A Analyze differential equations to obtain general and specific solutions. & 3.5A2: Some differential equations can be solved by separation of variables. & \\\\\ntable"
+        },
+        {
+          "id": "a",
+          "text": "$d y{d x}=(y-2)(x^{2}+1)$\n$ d y{y-2}=(x^{2}+1) d x$\n$ |y-2|=x^{3}{3}+x+C$\n$ 3=0^{3}{3}+0+C  C= 3$\nBecause $y(0)=5, y>2$, so $|y-2|=y-2$.\n$y-2=3 e^{x^{3}{3}+x}$\n$y=2+3 e^{x^{3}{3}+x}$\nNote: this solution is valid for all real numbers."
+        },
+        {
+          "id": "b",
+          "text": "$ _{x -}(2+3 e^{x^{3}{3}+x})=2$"
+        },
+        {
+          "id": "c",
+          "text": "$.d y{d x}|_{(1,3)}=(3-2)(1^{2}+1)=2$\n$d^{2 y}{d x^{2}}=d y{d x}(x^{2}+1)+(y-2)(2 x)$\n$.d^{2 y}{d x^{2}}|_{(1,3)}=(2)(1^{2}+1)+(3-2)(2)=6$\nBecause $.d^{2 y}{d x^{2}}|_{(1,3)}>0$ and $d^{2 y}{d x^{2}}$ is continuous, the graph of\n$5:\\{{l}1:  { separation of variables } \\\\ 2:  { antiderivatives } \\\\ 1:  { constant of integration } \\\\  { and uses initial condition } \\\\ 1:  { solves for } y.$\nNote: $ 3 / 5[1-2-0-0]$ if no constant of integration\n\nNote: $0 / 5$ if no separation of variables\n\n1 : answer\n$3:\\{{l}2:.d^{2 y}{d x^{2}}|_{(1,3)} \\\\ 1:  { concave up with reason }.$ $y=f(x)$ is concave up at the point $(1,3)$.\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 1.2B Determine the applicability of important calculus theorems using continuity. & 1.2B1: Continuity is an essential condition for theorems such as the Intermediate Value Theorem, the Extreme Value Theorem, and the Mean Value Theorem. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n2.1C Calculate derivatives. & 2.1C3: Sums, differences, products, and quotients of functions can be differentiated using derivative rules. \\\\ 2.1C4: The chain rule provides a way to differentiate composite functions. & Connecting concepts \\\\ MPAC 3: \\\\ Implementing algebraic/ computational processes \\\\\n2.2B Recognize the connection between differentiability and continuity. & 2.2B2: If a function is differentiable at a point, then it is continuous at that point. & MPAC 4: \\\\ Connecting multiple representations \\\\\n2.4A Apply the Mean Value Theorem to describe the behavior of a function over an interval. & 2.4A1: If a function $f$ is continuous over the interval $[a, b]$ and differentiable over the interval $(a, b)$, the Mean Value Theorem guarantees a point within that open interval where the instantaneous rate of change equals the average rate of change over the interval. & MPAC 5: Building notational fluency \\\\ MPAC 6: Communicating \\\\\n3.3B"
+        },
+        {
+          "id": "b",
+          "text": "Evaluate definite integrals. & 3.3B5: Techniques for finding antiderivatives include algebraic manipulation such as long division and completing the square, substitution of variables, (BC) integration by parts, and nonrepeating linear partial fractions. & \\\\\ntable"
+        },
+        {
+          "id": "a",
+          "text": "$g^{}(x)=2 f(x)+(2 x-1) f^{}(x)\n\ng^{}(3) & =2 f(3)+5 f^{}(3) \\\\\n& =(2)(7)+(5)(-1)=14-5=9"
+        },
+        {
+          "id": "b",
+          "text": "$h^{}(x)=f^{}(f(x))  f^{}(x)\n\nh^{}(4) & =f^{}(f(4))  f^{}(4) \\\\\n& =f^{}(3)  6=(-1)(6)=-6"
+        },
+        {
+          "id": "c",
+          "text": "$ u=x  d v=f^{ }(x) d x$\n$d u=d x  v=f^{}(x)\n\n x f^{ }(x) d x & =x f^{}(x)- f^{}(x) d x \\\\\n& =x f^{}(x)-f(x)\n\n$\n\n_{1}^{5} x f^{ }(x) d x & =[x f^{}(x)-f(x)]_{1}^{5} \\\\\n& =(5 f^{}(5)-f(5))-(f^{}(1)-f(1)) \\\\\n& =(5  2-(-1))-(5-4)=10"
+        },
+        {
+          "id": "d",
+          "text": "$f^{ }$ is continuous. $ f^{}$ is differentiable and continuous on $3  x  4$.\n$f^{(4)-f^{}(3)}{4-3}=6-(-1){1}=7$\nTherefore, by the Mean Value Theorem, there is a value $c$, for $3<c<4$, such that $f^{ }(c)=7$.\n$2:\\{{l}1: g^{}(x) \\\\ 1: g^{}(3).$\n$2:\\{{l}1: h^{}(x) \\\\ 1: h^{}(4).$\n$3:\\{{l}2:  { antiderivative } \\\\ 1:  { answer }.$\n$2:\\{{l}1: f^{(4)-f^{}(3)}{4-3} \\\\ 1:  { conclusion, using MVT }.$\n\n\n| Learning Objective & Essential Knowledge & Mathematical Practices for AP Calculus \\\\ | 4.2A Construct and use Taylor polynomials. & 4.2A1: The coefficient of the $n$ th-degree term in a Taylor polynomial centered at $x=a$ for the function $f$ is $(a)}{n!}$. & {l} MPAC 1: \\\\ Reasoning with definitions and theorems \\\\\n& 4.2A4: The Lagrange error bound can be used to & Connecting concepts \\\\\n[t]{4}{*}{4.2B Write a power series representing a given function.} & 4{*}{4.2B2: The Maclaurin series for $ (x), (x)$, and $e^{x}$ provide the foundation for constructing the Maclaurin series for other functions. \\\\ 4.2B5: A power series for a given function can be derived by various methods (e.g., algebraic processes, substitutions, using properties of geometric series, and operations on known series such as term-by-term integration or term-by-term differentiation).} & computational processes \\\\\n& & MPAC 4: \\\\ Connecting multiple representations \\\\\n& & \\\\\n& & MPAC 6: Communicating \\\\\ntabular"
+        },
+        {
+          "id": "a",
+          "text": "The Taylor series for $e^{x}$ about $x=0$ is\n\n1+x+x^{2}{2!}+x^{3}{3!}++x^{n}{n!}+\n\n\nFirst four nonzero terms for $f$ :\n\nx(1+x^{3}+x^{6}{2!}+x^{9}{3!})=x+x^{4}+x^{7}{2!}+x^{10}{3!}\n\n\nGeneral term for $f: x^{3 n+1}{n!}$"
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{x} f(t) d t=[t^{2}{2}+t^{5}{5}+t^{8}{16}+t^{11}{66}+]_{0}^{x}\n=x^{2}{2}+x^{5}{5}+x^{8}{16}+x^{11}{66}+\n\n\nFirst four nonzero terms for $g$ :\n\nx^{2}{2}+x^{5}{5}+x^{8}{16}+x^{11}{66}"
+        },
+        {
+          "id": "c",
+          "text": "$g^{(5)(0)}{5!}=1{5}  g^{(5)}(0)=5!{5}=24$"
+        },
+        {
+          "id": "d",
+          "text": "$|P_{5}(1{2})-g(1{2})|   _{0  x  1 / 2|g^{(6)}(x)|}{6!}(1{2})^{6}\n= _{0  x  1 / 2|f^{(5)}(x)|}{6!2^{6}}  500{6!2^{6}}\n4:\\{{l}1:  { terms for } e^{x} \\\\ 2:  { first four terms for } f \\\\ 1:  { general term for } f.$\n$2:\\{{l}1:  { two terms } \\\\ 1:  { remaining terms }.$\n\n1 : answer\n$2:\\{{l}1:  { form of the error bound } \\\\ 1:  { upper bound }.$\n\n\n250 Vesey Street\nNew York, NY 10281\n212-713-8000\n212-713-8277/55 (fax)\n\n\nP.O. Box 6671\n\nPrinceton, NJ 08541-6671\n877-274-6474 (toll free in the United States and Canada)\n212-632-1781\n610-290-8979 (fax)\nEmail: apexams@info.collegeboard.org\n\n\nM-F, 8 a.m. to 7 p.m. ET\nApril 18 to May 20, 2016, M-F, 7 a.m. to 9 p.m. ET\n\n\n2950 Douglas Street, Suite 550\nVictoria, BC, Canada V8T 4N4\n250-472-8561\n800-667-4548 (toll free in Canada only)\nEmail: gewonus@ap.ca\n\n\nServing all countries outside the U.S. and Canada\n250 Vesey Street\nNew York, NY 10281\n212-373-8738\nEmail: international@collegeboard.org\napcentral.collegeboard.org"
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-068.jpg?height=323&width=391&top_left_y=814&top_left_x=1268",
+        "https://cdn.mathpix.com/cropped/a74b540e-22e0-4b3c-8290-e2d4ea61d925-106.jpg?height=431&width=449&top_left_y=203&top_left_x=1263"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "examId": "2015Intl",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2015Intl_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "What is the slope of the line tangent to the graph of $y=x^{2-2}{x^{2}+1}$ when $x=1$ ?\n(A) $-3{2}$\n(B) $-1{2}$\n(C) $1{2}$\n(D) 1\n(E) $3{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "If $y^{2}-2 x^{2} y=8$, then $d y{d x}=$\n(A) $4{y-2 x}$\n(B) $2 x y{y-x^{2}}$\n(C) $4+2 x y{y-x^{2}}$\n(D) $2 x y{y+x^{2}}$\n(E) $2 x y+x^{2}{y}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "$ x^{2}(x^{3}+5)^{6} d x=$\n(A) $1{3}(x^{3}+5)^{6}+C$\n(B) $1{3} x^{3}(1{4} x^{4}+5 x)^{6}+C$\n(C) $1{7}(x^{3}+5)^{7}+C$\n(D) $3{7} x^{2}(x^{3}+5)^{7}+C$\n(E) $1{21}(x^{3}+5)^{7}+C$\n\n|$x$ & 0 & 25 & 30 & 50 \\\\ |$f(x)$ & 4 & 6 & 8 & 12 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "The values of a continuous function $f$ for selected values of $x$ are given in the table above. What is the value of the left Riemann sum approximation to $_{0}^{50} f(x) d x$ using the subintervals $[0,25]$, [25,30], and [30,50] ?\n(A) 290\n(B) 360\n(C) 380\n(D) 390\n(E) 430",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "Which of the following gives the length of the curve $y=x$ over the closed interval $[1,4]$ ?\n(A) $_{1}^{4} 1+{1{2 x}} d x$\n(B) $_{1}^{4} 1+{1{2 x}} d x$\n(C) $_{1}^{4} 1-{1{4 x}} d x$\n(D) $_{1}^{4} 1+{1{4 x}} d x$\n(E) $_{1}^{4} 1+{1{4} x^{2}} d x$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "$ 6{x^{2}+10 x+16} d x=$\n(A) $- |(x+8)(x+2)|+C$\n(B) $ |x+2{x+8}|+C$\n(C) $ |x+8{x+2}|+C$\n(D) $6  |(x+8)(x+2)|+C$\n(E) $ 6  |2 x+10{(x+2)(x+8)}|+C$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-7",
+      "number": 7,
+      "stem": "If $f(x)=x^{2}-4$ and $g$ is a differentiable function of $x$, what is the derivative of $f(g(x))$ ?\n(A) $2 g(x)$\n(B) $2 g^{}(x)$\n(C) $2 x g^{}(x)$\n(D) $2 g(x) g^{}(x)$\n(E) $2 g(x)-4$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-8",
+      "number": 8,
+      "stem": "A particle moves in the $x y$-plane with position given by $(x(t), y(t))=(5-2 t, t^{2}-3)$ at time $t$. In which direction is the particle moving as it passes through the point $(3,-2)$ ?\n(A) Up and to the left\n(B) Down and to the left\n(C) Up and to the right\n(D) Down and to the right\n(E) Straight up",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-9",
+      "number": 9,
+      "stem": "Let $y=f(x)$ be the solution to the differential equation $d y{d x}=2 y-x$ with initial condition $f(1)=2$. What is the approximation for $f(0)$ obtained by using Euler's method with two steps of equal length starting at $x=1$ ?\n(A) $-5{4}$\n(B) -1\n(C) $1{4}$\n(D) $1{2}$\n(E) $27{4}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-10",
+      "number": 10,
+      "stem": "Which of the following series converges?\n(A) $_{n=1}^{} 3 n{n+2}$\n(B) $_{n=1}^{} 3 n{n^{2}+2}$\n(C) $_{n=1}^{} 3 n{n^{2}+2 n}$\n(D) $_{n=1}^{} 3 n^{2}{n^{3}+2 n}$\n(E) $_{n=1}^{} 3 n^{2}{n^{4}+2 n}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-11",
+      "number": 11,
+      "stem": "$ (2^{t}+e^{}) d t=$\n(A) $2^{t+1}{t+1}+e^{+1}{+1}+C$\n(B) $2^{t}{ 2}+e^{} t+C$\n(C) $2^{t}{ 2}+e^{}+C$\n(D) $2^{t}  2+e^{+1}{+1}+C$\n(E) $2^{t}  2+e^{} t+C$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-12",
+      "number": 12,
+      "stem": "$ _{x  0} e^{x-1}{x}$ is\n(A) $$\n(B) $e-1$\n(C) 1\n(D) 0\n(E) $e^{x}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-13",
+      "number": 13,
+      "stem": "A population of wolves is modeled by the function $P$ and grows according to the logistic differential equation $d P{d t}=5 P(1-P{5000})$, where $t$ is the time in years and $P(0)=1000$. Which of the following statements are true?\nI. $ _{t  } P(t)=5000$\nII. $d P{d t}$ is positive for $t>0$.\nIII. $d^{2 P}{d t^{2}}$ is positive for $t>0$.\n(A) I only\n(B) II only\n(C) I and II only\n(D) I and III only\n(E) I, II, and III",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=284&width=371&top_left_y=315&top_left_x=877"
+      ]
+    },
+    {
+      "id": "frq-14",
+      "number": 14,
+      "stem": "The graph of $y=f(x)$ on the closed interval $[0,4]$ is shown above. Which of the following could be the graph of $y=f^{}(x)$ ?\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n(E)",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=289&width=373&top_left_y=774&top_left_x=285",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=287&width=369&top_left_y=774&top_left_x=1003",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=289&width=367&top_left_y=1125&top_left_x=289",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=291&width=373&top_left_y=1125&top_left_x=1001",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-27.jpg?height=314&width=367&top_left_y=1474&top_left_x=287"
+      ]
+    },
+    {
+      "id": "frq-15",
+      "number": 15,
+      "stem": "Which of the following integrals gives the area of the region that is bounded by the graphs of the polar equations $=0, ={4}$, and $r=2{ + }$ ?\n(A) $_{0}^{ / 4} 1{ + } d $\n(B) $_{0}^{ / 4} 2{ + } d $\n(C) $_{0}^{ / 4} 2{( + )^{2}} d $\n(D) $_{0}^{ / 4} 4{( + )^{2}} d $\n(E) $_{0}^{ / 4} 2( - )^{2}{( + )^{4}} d $",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-16",
+      "number": 16,
+      "stem": "The sum of the series $1+2^{1}{1!}+2^{2}{2!}+2^{3}{3!}++2^{n}{n!}+$ is\n(A) $ 2$\n(B) $e^{2}$\n(C) $ 2$\n(D) $ 2$\n(E) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-17",
+      "number": 17,
+      "stem": "If $x(t)=t^{2}+4$ and $y(t)=t^{4}+3$, for $t>0$, then in terms of $t, d^{2 y}{d x^{2}}=$\n(A) $1{2}$\n(B) 2\n(C) $4 t$\n(D) $6 t^{2}$\n(E) $12 t^{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-18",
+      "number": 18,
+      "stem": "If $d y{d t}=-10 e^{-t / 2}$ and $y(0)=20$, what is the value of $y(6)$ ?\n(A) $20 e^{-6}$\n(B) $20 e^{-3}$\n(C) $20 e^{-2}$\n(D) $10 e^{-3}$\n(E) $5 e^{-3}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-19",
+      "number": 19,
+      "stem": "Let $f$ be a function with second derivative $f^{ }(x)=1+3 x$. The coefficient of $x^{3}$ in the Taylor series for $f$ about $x=0$ is\n(A) $1{12}$\n(B) $1{6}$\n(C) $1{4}$\n(D) $1{2}$\n(E) $3{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-20",
+      "number": 20,
+      "stem": "What is the radius of convergence for the power series $_{n=0}^{} (x-4)^{n}{2  3^{n+1}}$ ?\n(A) $1{3}$\n(B) $3{2}$\n(C) 3\n(D) 4\n(E) 6",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-21",
+      "number": 21,
+      "stem": "$_{1}^{} 1{x^{p}} d x$ and $_{0}^{1} 1{x^{p}} d x$ both diverge when $p=$\n(A) 2\n(B) 1\n(C) $1{2}$\n(D) 0\n(E) -1",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-22",
+      "number": 22,
+      "stem": "What are the equations of the horizontal asymptotes of the graph of $y=2 x{x^{2-1}}$ ?\n(A) $y=0$ only\n(B) $y=1$ only\n(C) $y=2$ only\n(D) $y=-2$ and $y=2$ only\n(E) $y=-1$ and $y=1$ only",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-23",
+      "number": 23,
+      "stem": "If $F(x)=_{4}^{x^{2}} t d t$ for all real numbers $x>0$, then $F^{}(x)=$\n(A) $-1{2 x}$\n(B) $x$\n(C) $x$\n(D) $2 x^{2}$\n(E) $2 x^{3-16}{3}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-24",
+      "number": 24,
+      "stem": "Which of the following is the solution to the differential equation $d y{d x}=-2 x y$ with the initial condition $y(1)=4$ ?\n(A) $y=e^{x^{2}}+4-e$\n(B) $y=e^{-x^{2}}+4-1{e}$\n(C) $y=4 e^{x^{2}-1}$\n(D) $y=4 e^{-x^{2}+1}$\n(E) $y=e^{-x^{2}+16}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-25",
+      "number": 25,
+      "stem": "$ _{h  0}  ({{3}+h)- ({3})}{h}$ is\n(A) 0\n(B) $1{2}$\n(C) 1\n(D) ${3}{2}$\n(E) nonexistent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-26",
+      "number": 26,
+      "stem": "Let $g$ be the function defined by $g(x)=_{-1}^{x} t^{3-t^{2}-6 t}{t^{2+7}} d t$. On which of the following intervals is $g$ decreasing?\n(A) $x -2$ and $0  x  3$\n(B) $ x -2$ and $x  3$\n(C) $-2  x  0$ and $x  3$\n(D) $-2  x  3$\n(E) $ x -1$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-27",
+      "number": 27,
+      "stem": "If $f(x)= x+2 x+1$ and $g$ is the inverse function of $f$, what is the value of $g^{}(1)$ ?\n(A) $1{3}$\n(B) 1\n(C) 3\n(D) $1{2+ 1}$\n(E) $2+ 1$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-28",
+      "number": 28,
+      "stem": "Let $f$ be a function that has derivatives of all orders for all real numbers, and let $P_{3}(x)$ be the third-degree Taylor polynomial for $f$ about $x=0$. The Taylor series for $f$ about $x=0$ converges at $x=1$, and $|f^{(n)}(x)|  n{n+1}$ for $1  n  4$ and all values of $x$. Of the following, which is the smallest value of $k$ for which the Lagrange error bound guarantees that $|f(1)-P_{3}(1)|  k$ ?\n(A) $4{5}$\n(B) $4{5}  1{4!}$\n(C) $4{5}  1{3!}$\n(D) $3{4}  1{4!}$\n(E) $3{4}  1{3!}$\n\nPART B STARTS ON PAGE 24.\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one problem.\n\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $. ^{-1} x= x)$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-76",
+      "number": 76,
+      "stem": "Let $g$ be a function such that $g(-1)=0$ and $g(2)=5$. Which of the following conditions guarantees that there is an $x,-1<x<2$, for which $g(x)=3$ ?\n(A) $g$ is defined for all $x$ in $(-1,2)$.\n(B) $g$ is continuous for all $x$ in $[-1,2]$.\n(C) $g$ is increasing on $[-1,2]$.\n(D) There exists an $x$ in $(-1,2)$ such that $g^{}(x)=5$.\n(E) $_{-1}^{2} g(x) d x=3$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-40.jpg?height=589&width=638&top_left_y=296&top_left_x=394",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-40.jpg?height=589&width=641&top_left_y=296&top_left_x=1094"
+      ]
+    },
+    {
+      "id": "frq-77",
+      "number": 77,
+      "stem": "The graphs of the differentiable functions $f$ and $g$ are shown above. If the function $p$ is defined by $p(x)=f(x) g(x)$, which of the following must be true about $p^{}$, the derivative of $p$ ?\n(A) $p^{}(-2)<0$\n(B) $p^{}(-2)=0$\n(C) $p^{}(-2)>0$\n(D) $p^{}(0)<0$\n(E) $p^{}(0)=0$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-78",
+      "number": 78,
+      "stem": "The rate at which motor oil is leaking from an automobile is modeled by the function $L$ defined by $L(t)=1+ (t^{2})$ for time $t  0 . L(t)$ is measured in liters per hour, and $t$ is measured in hours. How much oil leaks out of the automobile during the first half hour?\n(A) 1.998 liters\n(B) 1.247 liters\n(C) 0.969 liters\n(D) 0.541 liters\n(E) 0.531 liters",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-79",
+      "number": 79,
+      "stem": "The function $f$ has derivatives of all orders for all real numbers with $f(0)=3, f^{}(0)=-4, f^{ }(0)=2$, and $f^{  }(0)=1$. Let $g$ be the function given by $g(x)=_{0}^{x} f(t) d t$. What is the third-degree Taylor polynomial for $g$ about $x=0$ ?\n(A) $-4 x+2 x^{2}+1{3} x^{3}$\n(B) $-4 x+x^{2}+1{6} x^{3}$\n(C) $3 x-2 x^{2}+1{3} x^{3}$\n(D) $3 x-2 x^{2}+2{3} x^{3}$\n(E) $3-4 x+x^{2}+1{6} x^{3}$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-42.jpg?height=738&width=613&top_left_y=289&top_left_x=755"
+      ]
+    },
+    {
+      "id": "frq-80",
+      "number": 80,
+      "stem": "The figure above shows the graph of $f^{}$, the derivative of a function $f$, for $0  x  2$. What is the value of $x$ at which the absolute minimum of $f$ occurs?\n(A) 0\n(B) $1{2}$\n(C) 1\n(D) $3{2}$\n(E) 2",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-43.jpg?height=561&width=566&top_left_y=294&top_left_x=781"
+      ]
+    },
+    {
+      "id": "frq-81",
+      "number": 81,
+      "stem": "The base of a solid is the region enclosed by the curve $x^{4}{16}+y^{4}{81}=1$ shown in the figure above. For the solid, each cross section perpendicular to the $x$-axis is a semicircle. What is the volume of the solid?\n(A) 12.356\n(B) 15.732\n(C) 22.249\n(D) 24.712\n(E) 49.425",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-82",
+      "number": 82,
+      "stem": "If $f(x)=(x+2)  (x+2)$, what is the average value of $f$ on the closed interval $[0,6]$ ?\n(A) 2.220\n(B) 3.348\n(C) 4.757\n(D) 20.090\n(E) 28.541",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-83",
+      "number": 83,
+      "stem": "The infinite series $_{k=1}^{} a_{k}$ has $n$th partial sum $S_{n}=n{3 n+1}$ for $n  1$. What is the sum of the series $_{k=1}^{} a_{k}$ ?\n(A) $1{3}$\n(B) $1{2}$\n(C) 1\n(D) $3{2}$\n(E) The series diverges.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-45.jpg?height=376&width=683&top_left_y=294&top_left_x=722"
+      ]
+    },
+    {
+      "id": "frq-84",
+      "number": 84,
+      "stem": "The shaded region in the figure above is bounded by the graph of $y= ({ x{10})}$ and the lines $x=-7, x=7$, and $y=2$. What is the area of this region?\n(A) 6.372\n(B) 7.628\n(C) 20.372\n(D) 21.634\n(E) 24.923",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-85",
+      "number": 85,
+      "stem": "Let $y=f(x)$ define a twice-differentiable function and let $y=t(x)$ be the line tangent to the graph of $f$ at $x=2$. If $t(x)  f(x)$ for all real $x$, which of the following must be true?\n(A) $f(2)  0$\n(B) $f^{}(2)  0$\n(C) $f^{}(2)  0$\n(D) $f^{ }(2)  0$\n(E) $f^{ }(2)  0$\n\n|$x$ & $f(x)$ & $f^{}(x)$ & $f^{ }(x)$ \\\\ | 0 & 1 & -2 & 5 \\\\ | 1 & 2 & 6 & -1 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-86",
+      "number": 86,
+      "stem": "Let $f$ be a twice-differentiable function with selected values of $f$ and its derivatives shown in the table above. What is the value of $_{0}^{1} x f^{ }(x) d x$ ?\n(A) 6\n(B) 5\n(C) 3\n(D) $-1{2}$\n(E) -1",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-47.jpg?height=468&width=555&top_left_y=293&top_left_x=785"
+      ]
+    },
+    {
+      "id": "frq-87",
+      "number": 87,
+      "stem": "The graph of $f^{}$, the derivative of the function $f$, is shown in the figure above. Which of the following statements about $f$ at $x=-2$ is true?\n(A) $f$ is not continuous at $x=-2$.\n(B) $f$ has an absolute maximum at $x=-2$.\n(C) The derivative of $f$ does not exist at $x=-2$.\n(D) The graph of $f$ has a point of inflection at $x=-2$.\n(E) The graph of $f$ has a vertical tangent line at $x=-2$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-88",
+      "number": 88,
+      "stem": "The first derivative of the function $f$ is given by $f^{}(x)= (x^{2})$. At which of the following values of $x$ does $f$ have a local minimum?\n(A) 2.507\n(B) 2.171\n(C) 1.772\n(D) 1.253\n(E) 0\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-89",
+      "number": 89,
+      "stem": "The alternating series test can be used to show convergence of which of the following alternating series?\nI. $4-1{9}+1-1{81}+1{4}-1{729}+1{16}-+a_{n}+$, where $a_{n}=\\{{cl}8{2^{n}} &  { if } n  { is odd } \\\\ -1{3^{n}} &  { if } n  { is even }.$\nII. $1-1{2}+1{3}-1{4}+1{5}-1{6}+1{7}-1{8}++a_{n}+$, where $a_{n}=(-1)^{n+1}{n}$\nIII. $2{3}-3{5}+4{7}-5{9}+6{11}-7{13}+8{15}-+a_{n}+$, where $a_{n}=(-1)^{n+1} n+1{2 n+1}$\n(A) I only\n(B) II only\n(C) III only\n(D) I and II only\n(E) I, II, and III",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-90",
+      "number": 90,
+      "stem": "The function $f$ is defined by $f(x)=3 x-4  (2 x+1)$, and its derivative is $f^{}(x)=3+8  (2 x+1)$. What are all values of $x$ that satisfy the conclusion of the Mean Value Theorem applied to $f$ on the interval $[-1,2]$ ?\n(A) -0.692 and 1.263\n(B) -0.479 and 1.049\n(C) 0.285\n(D) 0.517\n(E) 1.578",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-49.jpg?height=436&width=305&top_left_y=281&top_left_x=911"
+      ]
+    },
+    {
+      "id": "frq-91",
+      "number": 91,
+      "stem": "A container has the shape of an open right circular cone, as shown in the figure above. The container has a radius of 4 feet at the top, and its height is 12 feet. If water flows into the container at a constant rate of 6 cubic feet per minute, how fast is the water level rising when the height of the water is 5 feet? (The volume $V$ of a cone with radius $r$ and height $h$ is $V=1{3}  r^{2} h$.)\n(A) $0.358 ft / min$\n(B) $0.688 ft / min$\n(C) $2.063 ft / min$\n(D) $8.727 ft / min$\n(E) $52.360 ft / min$\n\n|$x$ & 1 & 2 & 3 & 4 & 5 & 6 \\\\ |$f(x)$ & 1 & 3 & 4 & 1 & -2 & 1 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-92",
+      "number": 92,
+      "stem": "The function $f$ is twice differentiable. Selected values of $f$ are given in the table above. Which of the following could be the graph of $f^{ }(x)$, the second derivative of $f$ ?\n(A)\n\n(B)\n\n(C)\n\n(D)\n\n(E)\n\nB \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B \\\\ B\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART B ONLY.\n\nDO NOT GO ON TO  6\nPercent of Total Score 50%\n\nEither pencil or pen with black or dark blue ink\n\nThe questions are weighted equally, but the parts of a question are not necessarily given equal weight.\n\nNumber of Questions 2\n\n30 minutes\n\nGraphing calculator required\n\n33.3%\n\nNumber of Questions 4\nTime 60 minutes\nElectronic Device\nNone allowed\nPercent of Section II Score 66.6%",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-50.jpg?height=434&width=457&top_left_y=604&top_left_x=287",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-50.jpg?height=440&width=456&top_left_y=600&top_left_x=840",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-50.jpg?height=440&width=452&top_left_y=600&top_left_x=1394",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-50.jpg?height=437&width=461&top_left_y=1071&top_left_x=285",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-50.jpg?height=442&width=461&top_left_y=1066&top_left_x=835",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-53.jpg?height=61&width=100&top_left_y=777&top_left_x=743",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-53.jpg?height=61&width=98&top_left_y=777&top_left_x=856",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-53.jpg?height=66&width=192&top_left_y=777&top_left_x=970"
+      ]
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "First two letters of your last name\n\nFirst letter of your first name □",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-53.jpg?height=62&width=95&top_left_y=600&top_left_x=1163"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Date of birth",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Six-digit school code",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-53.jpg?height=79&width=282&top_left_y=915&top_left_x=745"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights. □\n\nPLEASE PRINT WITH PEN:\n\nThe questions for Section II are printed in this booklet. Do not break the seals on Part B until you are told to do so. Write your solution to each part of each question in the space provided. Write clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be scored.\n\nManage your time carefully. During the timed portion for Part A, work only on the questions in Part A. You are permitted to use your calculator to solve an equation, find the derivative of a function at a point, or calculate the value of a definite integral. However, you must clearly indicate the setup of your question, namely the equation, function, or integral you are using. If you use other built-in features or programs, you must show the mathematical steps necessary to produce your results. During the timed portion for Part B, you may continue to work on the questions in Part A without the use of a calculator.\n\nFor each part of Section II, you may wish to look over the questions before starting to work on them. It is not expected that everyone will be able to complete all parts of all questions.\n- Show all of your work. Clearly label any functions, graphs, tables, or other objects that you use. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit. Justifications require that you give mathematical (noncalculator) reasons.\n- Your work must be expressed in standard mathematical notation rather than calculator syntax. For example, $_{1}^{5} x^{2} d x$ may not be written as $fnInt(X^{2}, X, 1,5)$.\n- Unless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n- Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n\n \\\\ SECTION II, Part A \\\\ \n\nNumber of problems—2\n\nA graphing calculator is required for these problems.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-55.jpg?height=500&width=822&top_left_y=294&top_left_x=646"
+      ]
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "At time $t=0$ minutes, a tank contains 100 liters of water. The piecewise-linear graph above shows the rate $R(t)$, in liters per minute, at which water is pumped into the tank during a 55 -minute period.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find $R^{}(45)$. Using appropriate units, explain the meaning of your answer in the context of this problem."
+        },
+        {
+          "id": "b",
+          "text": "How many liters of water have been pumped into the tank from time $t=0$ to time $t=55$ minutes?"
+        },
+        {
+          "id": "c",
+          "text": "At time $t=10$ minutes, water begins draining from the tank at a rate modeled by the function $D$, where $D(t)=10 e^{( t) / 10}$ liters per minute. Water continues to drain at this rate until time $t=55$ minutes. How many liters of water are in the tank at time $t=55$ minutes?"
+        },
+        {
+          "id": "d",
+          "text": "Using the functions $R$ and $D$, determine whether the amount of water in the tank is increasing or decreasing at time $t=45$ minutes. Justify your answer.\n\n2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2 & 2$}"
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-57.jpg?height=431&width=561&top_left_y=302&top_left_x=781"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "The figure above shows the graph of the polar equation $r=2+ (4 )+ ()$ for $0    {2}$. The derivative of $r$ with respect to $$ is given by $r^{}()=4  (4 )- ()$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the area of the region bounded by the graph of $r$ and the lines $=0$ and $={2}$."
+        },
+        {
+          "id": "b",
+          "text": "Find the area of the region in the first quadrant that is outside the graph of $r=2+ (4 )+ ()$ but inside the graph of the circle of radius 2 centered at the origin."
+        },
+        {
+          "id": "c",
+          "text": "Find the value of $$ in the interval $0    {2}$ that corresponds to the point on the curve $r=2+ (4 )+ ()$ with greatest distance from the origin. Justify your answer.\n\nEND OF PART A OF SECTION II\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY. DO NOT GO ON TO PART B UNTIL YOU ARE TOLD TO DO SO.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-60 minutes \\\\ Number of problems-4\n\n\nNo calculator is allowed for these problems.\n\n\n| {c} $t$ \\\\ (seconds) & 0 & 3 & 5 & 8 & 12 \\\\\n$k(t)$ \\\\ (feet per second) & 0 & 5 & 10 & 20 & 24 \\\\\ntabular"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Kathleen skates on a straight track. She starts from rest at the starting line at time $t=0$. For $0<t  12$ seconds, Kathleen's velocity $k$, measured in feet per second, is differentiable and increasing. Values of $k(t)$ at various times $t$ are given in the table above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Use the data in the table to estimate Kathleen's acceleration at time $t=4$ seconds. Show the computations that lead to your answer. Indicate units of measure."
+        },
+        {
+          "id": "b",
+          "text": "Use a right Riemann sum with the four subintervals indicated by the data in the table to approximate $_{0}^{12} k(t) d t$. Indicate units of measure. Is this approximation an overestimate or an underestimate for the value of $_{0}^{12} k(t) d t$ ? Explain your reasoning."
+        },
+        {
+          "id": "c",
+          "text": "Nathan skates on the same track, starting 5 feet ahead of Kathleen at time $t=0$. Nathan's velocity, in feet per second, is given by $n(t)=150{t+3}-50 e^{-t}$. Write, but do not evaluate, an expression involving an integral that gives Nathan's distance from the starting line at time $t=12$ seconds."
+        },
+        {
+          "id": "d",
+          "text": "Write an expression for Nathan's acceleration in terms of $t$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "In a national park, the population of mountain lions grows over time. At time $t=0$, where $t$ is measured in years, the population is found to be 20 mountain lions.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "One zoologist suggests a population model $P$ that satisfies the differential equation $d P{d t}=1{4}(220-P)$.\n\nUse separation of variables to solve this differential equation for $P$ with the initial condition $P(0)=20$."
+        },
+        {
+          "id": "b",
+          "text": "A second zoologist suggests a population model $Q$ that satisfies $d Q{d t}=1{500} Q(220-Q)$. Find the value of $d Q{d t}$ at the time when $Q$ grows most rapidly."
+        },
+        {
+          "id": "c",
+          "text": "For the population model $Q$ introduced in part (b), use Euler's method, starting at $t=0$ with two steps of equal size, to approximate $Q(10)$. Show the computations that lead to your answer."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-65.jpg?height=526&width=727&top_left_y=338&top_left_x=699"
+      ]
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "Let $R$ be the region in the first quadrant enclosed by the graphs of $g(x)=x$ and $h(x)=x{3}$, as shown in the figure above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the area of region $R$."
+        },
+        {
+          "id": "b",
+          "text": "Write, but do not evaluate, an expression involving one or more integrals that gives the volume of the solid generated when $R$ is revolved about the horizontal line $y=4$."
+        },
+        {
+          "id": "c",
+          "text": "Find the maximum vertical distance between the graph of $g$ and the graph of $h$ between $x=0$ and $x=16$. Justify your answer."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "The Maclaurin series for a function $f$ is given by $x{3}+x^{2}{4}+x^{3}{5}++x^{n}{n+2}+$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Use the ratio test to find the interval of convergence of the Maclaurin series for $f$."
+        },
+        {
+          "id": "b",
+          "text": "Let $g$ be the function given by $g(x)=f(-2 x)$. Find the first three terms and the general term of the Maclaurin series for $g$."
+        },
+        {
+          "id": "c",
+          "text": "The first two terms of the Maclaurin series for $f$ are used to approximate $f(0.1)$. Given that $|f^{  }(x)|  2$ for $0  x  0.1$, use the Lagrange error bound to show that this approximation differs from $f(0.1)$ by at most $1{3000}$.\n\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN THE BOX ON THE COVER.\n- MAKE SURE YOU HAVE USED THE SAME SET OF AP NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN THIS YEAR.\n\n\nThe following contains the answers to the multiple-choice questions in this exam.\n\n\nQuestion 1: E\nQuestion 2: B\nQuestion 3: E\nQuestion 4: A\nQuestion 5: D\nQuestion 6: B\nQuestion 7: D\nQuestion 8: A\nQuestion 9: C\nQuestion 10: E\nQuestion 11: B\nQuestion 12: C\nQuestion 13: C\nQuestion 14: D\nQuestion 15: C\nQuestion 16: B\nQuestion 17: B\nQuestion 18: B\nQuestion 19: C\nQuestion 20: C\nQuestion 21: B\nQuestion 22: D\nQuestion 23: D\n\nQuestion 24: D\nQuestion 25: B\nQuestion 26: A\nQuestion 27: A\nQuestion 28: B\nQuestion 76: B\nQuestion 77: A\nQuestion 78: D\nQuestion 79: C\nQuestion 80: E\nQuestion 81: E\nQuestion 82: B\nQuestion 83: A\nQuestion 84: C\nQuestion 85: E\nQuestion 86: B\nQuestion 87: D\nQuestion 88: A\nQuestion 89: B\nQuestion 90: B\nQuestion 91: B\nQuestion 92: D\n\n\nThe following contains the scoring guidelines for the free-response questions in this exam.\n\n^{®}$ CALCULUS BC 2015 SCORING GUIDELINES}\n\n\nAt time $t=0$ minutes, a tank contains 100 liters of water. The piecewise-linear graph above shows the rate $R(t)$, in liters per minute, at which water is pumped into the tank during a 55 -minute period."
+        },
+        {
+          "id": "a",
+          "text": "Find $R^{}(45)$. Using appropriate units, explain the meaning of your answer in the context of this problem."
+        },
+        {
+          "id": "b",
+          "text": "How many liters of water have been pumped into the tank from time $t=0$ to time $t=55$ minutes?"
+        },
+        {
+          "id": "c",
+          "text": "At time $t=10$ minutes, water begins draining from the tank at a rate modeled by the function $D$, where $D(t)=10 e^{( t) / 10}$ liters per minute. Water continues to drain at this rate until time $t=55$ minutes. How many liters of water are in the tank at time $t=55$ minutes?"
+        },
+        {
+          "id": "d",
+          "text": "Using the functions $R$ and $D$, determine whether the amount of water in the tank is increasing or decreasing at time $t=45$ minutes. Justify your answer."
+        },
+        {
+          "id": "a",
+          "text": "$ R^{}(45)=30-0{35-55}=-3{2}$\n\nThe rate at which water is being pumped into the tank is decreasing at $3{2}$ liters $/ min^{2}$ at $t=45$ minutes."
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{55} R(t) d t=20  10+30{2}+15  30+1{2}  20  30\n=400+450+300=1150"
+        },
+        {
+          "id": "c",
+          "text": "Amt $=100+1150-_{10}^{55} 10 e^{( t) / 10} d t\n=1250-450.275371=799.725( { or } 799.724)"
+        },
+        {
+          "id": "d",
+          "text": "$R(45)=15$\n$D(45)=10.88815$\n\nAt time $t=45$ minutes, the rate of water pumped into the tank is greater than the rate of water draining from the tank. Therefore, the amount of water in the tank is\n\n2:\\{{l}\n1: R^{}(45) \\\\\n1:  { explanation }\n.\n2:\\{{l}1:  { sum of areas } \\\\ 1:  { answer }.$\n$3:\\{{l}1:  { integral } \\\\ 1:  { expression for water in the tank } \\\\ 1:  { answer }.$\n\n2 : answer with justification increasing at time $t=45$ minutes.\n\n\nThe figure above shows the graph of the polar equation $r=2+ (4 )+ ()$ for $0    {2}$. The derivative of $r$ with respect to $$ is given by $r^{}()=4  (4 )- ()$."
+        },
+        {
+          "id": "a",
+          "text": "Find the area of the region bounded by the graph of $r$ and the lines $=0$ and $={2}$."
+        },
+        {
+          "id": "b",
+          "text": "Find the area of the region in the first quadrant that is outside\n the graph of $r=2+ (4 )+ ()$ but inside the graph of the circle of radius 2 centered at the origin."
+        },
+        {
+          "id": "c",
+          "text": "Find the value of $$ in the interval $0    {2}$ that corresponds to the point on the curve $r=2+ (4 )+ ()$ with greatest distance from the origin. Justify your answer."
+        },
+        {
+          "id": "a",
+          "text": "Area $=1{2} _{0}^{ / 2}(2+ (4 )+ ())^{2} d\n { = } 6.194( { or 6.193) }"
+        },
+        {
+          "id": "b",
+          "text": "$2+ (4 )+ ()=2  =0.942478$\n\nLet $c=0.942478\n\n { Area } & =1{2} _{c}^{ / 2}[2^{2}-(2+ (4 )+ ())^{2}] d  \\\\\n& =0.456"
+        },
+        {
+          "id": "c",
+          "text": "$r^{}()=4  (4 )- ()=0\n =0.370064,1.237726\n\n\n$$ & $r()$ \\\\ | 0 & 3 \\\\ 0.370064 & 3.928208 \\\\ 1.237726 & 1.355256 \\\\ $ / 2$ & 2\n$=0.370$ corresponds to the point on the curve with the greatest distance from the origin.\n\n2:\\{{l}\n1:  { integrand } \\\\\n1:  { answer }\n.\n4:\\{{l}1:  { value of }  \\\\ 2:  { integrand } \\\\ 1:  { answer }.$\n$3:\\{{l}1:  { identifies } =0.370  { as a candidate } \\\\ 2:  { answer with justification }.$\n\n^{®}$ CALCULUS BC 2015 SCORING GUIDELINES}\n\n\n| {c} $t$ \\\\ (seconds) & 0 & 3 & 5 & 8 & 12 \\\\\n$k(t)$ \\\\ (feet per second) & 0 & 5 & 10 & 20 & 24 \\\\\ntabular\n\nKathleen skates on a straight track. She starts from rest at the starting line at time $t=0$. For $0<t  12$ seconds, Kathleen's velocity $k$, measured in feet per second, is differentiable and increasing. Values of $k(t)$ at various times $t$ are given in the table above."
+        },
+        {
+          "id": "a",
+          "text": "Use the data in the table to estimate Kathleen's acceleration at time $t=4$ seconds. Show the computations that lead to your answer. Indicate units of measure."
+        },
+        {
+          "id": "b",
+          "text": "Use a right Riemann sum with the four subintervals indicated by the data in the table to approximate $_{0}^{12} k(t) d t$. Indicate units of measure. Is this approximation an overestimate or an underestimate for the value of $_{0}^{12} k(t) d t$ ? Explain your reasoning."
+        },
+        {
+          "id": "c",
+          "text": "Nathan skates on the same track, starting 5 feet ahead of Kathleen at time $t=0$. Nathan's velocity, in feet per second, is given by $n(t)=150{t+3}-50 e^{-t}$. Write, but do not evaluate, an expression involving an integral that gives Nathan's distance from the starting line at time $t=12$ seconds."
+        },
+        {
+          "id": "d",
+          "text": "Write an expression for Nathan's acceleration in terms of $t$."
+        },
+        {
+          "id": "a",
+          "text": "$ a(4)  10-5{5-3}=5{2} ft / sec^{2}$"
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{12} k(t) d t (5)(3)+(10)(2)+(20)(3)+(24)(4)=191$ feet\n\nThis approximation is an overestimate since a right Riemann sum is used and the function $k$ is increasing."
+        },
+        {
+          "id": "c",
+          "text": "$s(12)=5+_{0}^{12} n(t) d t$"
+        },
+        {
+          "id": "d",
+          "text": "$n^{}(t)=(150)(-1)(t+3)^{-2}-50 e^{-t}(-1)\n=-150{(t+3)^{2}}+50 e^{-t}\n2:\\{{l}1:  { estimate } \\\\ 1:  { units }.$\n$3:\\{{l}1:  { right Riemann sum } \\\\ 1:  { approximation with units } \\\\ 1:  { overestimate with reason }.$\n$2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n$2: n^{}(t)$\n\n^{®}$ CALCULUS BC 2015 SCORING GUIDELINES}\n\n\nIn a national park, the population of mountain lions grows over time. At time $t=0$, where $t$ is measured in years, the population is found to be 20 mountain lions."
+        },
+        {
+          "id": "a",
+          "text": "One zoologist suggests a population model $P$ that satisfies the differential equation $d P{d t}=1{4}(220-P)$.\n\nUse separation of variables to solve this differential equation for $P$ with the initial condition $P(0)=20$."
+        },
+        {
+          "id": "b",
+          "text": "A second zoologist suggests a population model $Q$ that satisfies $d Q{d t}=1{500} Q(220-Q)$. Find the value of $d Q{d t}$ at the time when $Q$ grows most rapidly."
+        },
+        {
+          "id": "c",
+          "text": "For the population model $Q$ introduced in part (b), use Euler's method, starting at $t=0$ with two steps of equal size, to approximate $Q(10)$. Show the computations that lead to your answer."
+        },
+        {
+          "id": "a",
+          "text": "$d P{d t}=1{4}(220-P)\n\n&  d P{220-P}= 1{4} d t \\\\\n& - |220-P|=1{4} t+C\n\n\nBecause $P(0)=20, P<220$, so $|220-P|=220-P$.\n$- (220-20)=1{4}(0)+C  C=- 200$\n$220-P=200 e^{-t / 4}$\n$P=220-200 e^{-t / 4}, t  0$"
+        },
+        {
+          "id": "b",
+          "text": "$Q$ satisfies a logistic differential equation with carrying capacity 220. $Q$ grows most rapidly when $Q=220{2}=110$.\n$.d Q{d t}|_{Q=110}=110^{2}{500}=121{5}$"
+        },
+        {
+          "id": "c",
+          "text": "$Q(0)=20$\n$Q^{}(0)=1{500}(20)(200)=8$\n$Q(5)  20+(8)(5)=60$\n$Q^{}(5)  1{500}(60)(220-60)=96{5}$\n$2:\\{{l}1:  { Euler's method with two steps } \\\\ 1:  { answer }.\n5:\\{{l}\n1:  { separation of variables } \\\\\n1:  { antiderivatives } \\\\\n1:  { constant of integration } \\\\\n1:  { uses initial condition } \\\\\n1:  { solves for } P\n.\n\n\nNote: $ 2 / 5[1-1-0-0-0]$ if no constant of integration\n\nNote: $0 / 5$ if no separation of variables\n$2:\\{{l}1: Q=110 \\\\ 1:  { answer }.$\nanswer\n$Q(10)  60+(96{5})(5)=156$\n\n\nLet $R$ be the region in the first quadrant enclosed by the graphs of $g(x)=x$ and $h(x)=x{3}$, as shown in the figure above."
+        },
+        {
+          "id": "a",
+          "text": "Find the area of region $R$."
+        },
+        {
+          "id": "b",
+          "text": "Write, but do not evaluate, an expression involving one or more integrals that gives the volume of the solid generated when $R$ is revolved about the horizontal line $y=4$."
+        },
+        {
+          "id": "c",
+          "text": "Find the maximum vertical distance between the graph of $g$ and the graph of $h$ between $x=0$ and $x=16$. Justify your answer."
+        },
+        {
+          "id": "a",
+          "text": "Area $=_{0}^{9}(x-x{3}) d x=[2{3} x^{3 / 2}-1{6} x^{2}]_{0}^{9}\n=2{3}  27-1{6}  81=9{2}"
+        },
+        {
+          "id": "b",
+          "text": "Volume $= _{0}^{9}[(4-x{3})^{2}-(4-x)^{2}] d x$"
+        },
+        {
+          "id": "c",
+          "text": "Consider the function $D(x)=x-x{3}$.\n$D^{}(x)=1{2} x^{-1 / 2}-1{3}=1{2 x}-1{3}$\n$D^{}(x)=0  x=9{4}$\n\n$x$ & $D(x)$ & {c} Distance \\\\ between graphs \\\\\n0 & 0 & 0 \\\\\n$9{4}$ & $3{4}$ & $3{4}$ \\\\\n16 & $-4{3}$ & $4{3}$\ntabular\n\nThe maximum vertical distance between the graph of $g\n3:\\{{l}\n1:  { integrand } \\\\\n1:  { antiderivative } \\\\\n1:  { answer }\n.\n$\n3:\\{{l}\n2:  { integrand } \\\\\n1:  { limits and constant }\n.\n3:\\{{l}1:  { sets } D^{}(x)=0 \\\\ 1:  { identifies } x=9{4}  { as a candidate } \\\\ 1:  { answer and justification }.$ and the graph of $h$ between $x=0$ and $x=16$ is $4{3}$.\n\n^{®}$ CALCULUS BC 2015 SCORING GUIDELINES}\n\n\nThe Maclaurin series for a function $f$ is given by $x{3}+x^{2}{4}+x^{3}{5}++x^{n}{n+2}+$."
+        },
+        {
+          "id": "a",
+          "text": "Use the ratio test to find the interval of convergence of the Maclaurin series for $f$."
+        },
+        {
+          "id": "b",
+          "text": "Let $g$ be the function given by $g(x)=f(-2 x)$. Find the first three terms and the general term of the Maclaurin series for $g$."
+        },
+        {
+          "id": "c",
+          "text": "The first two terms of the Maclaurin series for $f$ are used to approximate $f(0.1)$. Given that $|f^{  }(x)|  2$ for $0  x  0.1$, use the Lagrange error bound to show that this approximation differs from $f(0.1)$ by at most $1{3000}$."
+        },
+        {
+          "id": "a",
+          "text": "Let $a_{n}$ be the $n$th term of the Maclaurin series.\n\n\n& a_{n+1}{a_{n}}=x^{n+1}{n+3}  n+2{x^{n}}=(n+2{n+3})  x \\\\\n&  _{n  }|(n+2{n+3})  x|=|x| \\\\\n& |x|<1 -1<x<1\n\n\nThe series converges when $-1<x<1$.\n\nWhen $x=-1$, the series is $-1{3}+1{4}-1{5}+1{6}-$.\nThis series converges by the alternating series test.\nWhen $x=1$, the series is $1{3}+1{4}+1{5}+1{6}+$.\nThis series diverges since it is a harmonic series.\nTherefore, the interval of convergence is $-1  x<1$."
+        },
+        {
+          "id": "b",
+          "text": "The first three terms are\n\n-2 x{3}+(-2 x)^{2}{4}+(-2 x)^{3}{5}=-2{3} x+x^{2}-8{5} x^{3}\n\n\nThe general term is $(-2 x)^{n}{n+2}$."
+        },
+        {
+          "id": "c",
+          "text": "Error $  _{0  x  0.1|f^{  }(x)|}{3!} (1{10})^{3}  2{6}  1{1000}=1{3000}$\n$5:\\{ 1: &  { sets up ratio } \\\\ 1: &  { computes limit of ratio } \\\\ 1: &  { identifies interior of } \\\\ &  { interval of convergence } \\\\ 1: &  { considers both endpoints } \\\\ 1: &  { analysis and interval of convergence }.$\n$2:\\{{l}1:  { first three terms } \\\\ 1:  { general term }.$\n$2:\\{{l}1:  { form of the error bound } \\\\ 1:  { analysis }.$\n\n\nThe following provides a scoring worksheet and conversion table used for calculating a composite score of the exam.\n\n\nQuestions (1-4, 7, 11, 14, 18, 22-27, 76-78, 80-82, 84-85, 87-88, 90-92)\n\n${ { Number Correct  \\\\\n { (out of 27) }}}  1.0000={${ Weighted Section I Score } \\\\ { (Do not round) }}\n\n\nQuestion 1 $1.0000=$ $____$\n\n\nQuestion 3 $____$ $ 1.0000=$ $____$\n(out of 9)\n(Do not round)\n\nQuestion 5 $____$ $ 1.0000=$ $____$\n(out of 9)\n(Do not round)\n\n\n { Sum }= &  { Weighted } \\\\\n&  { Section II } \\\\\n&  { Score } \\\\\n&  { (Do not round) }\n\n\n${${ Weighted } \\\\ { Section I Score }}$+ { Weighted }{ { Section II Score }}=${ Composite Score  \\\\ { (Round to nearest } \\\\ { whole number) }}{}\n\n\n| {c} Composite \\\\ Score Range & AP Score \\\\\n$34-54$ & 5 \\\\\n$28-33$ & 4 \\\\\n$22-27$ & 3 \\\\\n$18-21$ & 2 \\\\\n$0-17$ & 1 \\\\\ntable\n\n\n{ { Number Correct  \\\\\n { (out of 45) }}}  1.2000={{c}\n { Weighted Section I Score } \\\\\n { (Do not round) }\n}\n\n\nQuestion $1  { { (out of } 9)}  1.0000= { (Do not round) }$\n\nQuestion $2  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $3  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $4  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $5  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $6  { { (out of 9) }}  1.0000= { (Do not round) }\n\n { Sum }= &  { Weighted }{ { Section II }} \\\\\n&  { Score } \\\\\n&  { (Do not round) }\n\n\n { Weighted } \\\\\n { Section I Score }\n\n { Weighted } \\\\\n { Section II Score }\n=\n { Composite Score } \\\\\n { (Round to nearest } \\\\\n { whole number) }\n\n\nAP Score Conversion Chart Calculus BC\n\n| {c} Composite \\\\ Score Range & AP Score \\\\\n$63-108$ & 5 \\\\\n$53-62$ & 4 \\\\\n$42-52$ & 3 \\\\\n$36-41$ & 2 \\\\\n$0-35$ & 1 \\\\\ntabular\n\n\nAP Calculus BC\n\n\nThe College Board is a mission-driven not-for-profit organization that connects students to college success and opportunity. Founded in 1900, the College Board was created to expand access to higher education. Today, the membership association is made up of over 6,000 of the world's leading educational institutions and is dedicated to promoting excellence and equity in education. Each year, the College Board helps more than seven million students prepare for a successful transition to college through programs and services in college readiness and college success - including the SAT ${ }^{®}$ and the Advanced Placement Program ${ }^{ {® }}$. The organization also serves the education community through research and advocacy on behalf of students, educators, and schools. The College Board is committed to the principles of excellence and equity, and that commitment is embodied in all of its programs, services, activities, and concerns."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-73.jpg?height=496&width=815&top_left_y=388&top_left_x=1104",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-74.jpg?height=426&width=561&top_left_y=395&top_left_x=1377",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-77.jpg?height=514&width=710&top_left_y=395&top_left_x=1228",
+        "https://cdn.mathpix.com/cropped/c39c57da-81c1-4dd1-9739-aab8faeca5c3-80.jpg?height=80&width=242&top_left_y=713&top_left_x=932"
+      ]
+    }
+  ]
+}

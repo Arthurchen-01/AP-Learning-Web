@@ -1,0 +1,721 @@
+{
+  "examId": "2012Intl",
+  "subject": "calculus_bc",
+  "source": "C:\\Users\\25472\\Desktop\\AP\\01 A 真题\\06 微积分\\2012Intl_CALC.md",
+  "questions": [
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "Have you lived or studied for one month or more in a country where the language of the exam you are now taking is spoken?",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Do you regularly speak or hear the language at home?\n\nIndicate your answers to the exam questions in this section. If a question has only four answer options, do not mark option E. Your answer sheet will be scored by machine. Use only No. 2 pencils to mark your answers on pages 2 and 3 (one response per question). After you have determined your response, be sure to completely fill in the corresponding circle next to the number of the question you are answering. Stray marks and smudges could be read as answers, so erase carefully and completely. Any improper gridding may affect your score. Answers written in the multiple-choice booklet will not be scored.\n\n| 1 & (A) (B) (C) (D) (E) & 26 & (A) (B) (C) (D) (E) & 51 & (A) (B) (C) (D) (E) \\\\ | 2 & (A) (B) (C) (D) (E) & 27 & (A) (B) (C) (D) (E) & 52 & (A) (B) (C) (D) (E) \\\\ | 3 & (A) (B) (C) (D) (E) & 28 & (A) (B) (C) (D) (E) & 53 & (A) (B) (C) (D) (E) \\\\ | 4 & (A) (B) (C) (D) (E) & 29 & (A) (B) (C) (D) (E) & 54 & (A) (B) (C) (D) (E) \\\\ | 5 & (A) (B) (C) (D) (E) & 30 & (A) (B) (C) (D) (E) & 55 & (A) (B) (C) (D) (E) \\\\ | 6 & (A) (B) (C) (D) (E) & 31 & (A) (B) (C) (D) (E) & 56 & (A) (B) (C) (D) (E) \\\\ | 7 & (A) (B) (C) (D) (E) & 32 & (A) (B) (C) (D) (E) & 57 & (A) (B) (C) (D) (E) \\\\ | 8 & (A) (B) (C) (D) (E) & 33 & (A) (B) (C) (D) (E) & 58 & (A) (B) (C) (D) (E) \\\\ | 9 & (A) (B) (C) (D) (E) & 34 & (A) (B) (C) (D) (E) & 59 & (A) (B) (C) (D) (E) \\\\ | 10 & (A) (B) (C) (D) (E) & 35 & (A) (B) (C) (D) (E) & 60 & (A) (B) (C) (D) (E) \\\\ | 11 & (A) (B) (C) (D) (E) & 36 & (A) (B) (C) (D) (E) & 61 & (A) (B) (C) (D) (E) \\\\ | 12 & (A) (B) (C) (D) (E) & 37 & (A) (B) (C) (D) (E) & 62 & (A) (B) (C) (D) (E) \\\\ | 13 & (A) (B) (C) (D) (E) & 38 & (A) (B) (C) (D) (E) & 63 & (A) (B) (C) (D) (E) \\\\ | 14 & (A) (B) (C) (D) (E) & 39 & (A) (B) (C) (D) (E) & 64 & (A) (B) (C) (D) (E) \\\\ | 15 & (A) (B) (C) (D) (E) & 40 & (A) (B) (C) (D) (E) & 65 & (A) (B) (C) (D) (E) \\\\ | 16 & (A) (B) (C) (D) (E) & 41 & (A) (B) (C) (D) (E) & 66 & (A) (B) (C) (D) (E) \\\\ | 17 & (A) (B) (C) (D) (E) & 42 & (A) (B) (C) (D) (E) & 67 & (A) (B) (C) (D) (E) \\\\ | 18 & (A) (B) (C) (D) (E) & 43 & (A) (B) (C) (D) (E) & 68 & (A) (B) (C) (D) (E) \\\\ | 19 & (A) (B) (C) (D) (E) & 44 & (A) (B) (C) (D) (E) & 69 & (A) (B) (C) (D) (E) \\\\ | 20 & (A) (B) (C) (D) (E) & 45 & (A) (B) (C) (D) (E) & 70 & (A) (B) (C) (D) (E) \\\\ | 21 & (A) (B) (C) (D) (E) & 46 & (A) (B) (C) (D) (E) & 71 & (A) (B) (C) (D) (E) \\\\ | 22 & (A) (B) (C) (D) (E) & 47 & (A) (B) (C) (D) (E) & 72 & (A) (B) (C) (D) (E) \\\\ | 23 & (A) (B) (C) (D) (E) & 48 & (A) (B) (C) (D) (E) & 73 & (A) (B) (C) (D) (E) \\\\ | 24 & (A) (B) (C) (D) (E) & 49 & (A) (B) (C) (D) (E) & 74 & (A) (B) (C) (D) (E) \\\\ | 25 & (A) (B) (C) (D) (E) & 50 & (A) (B) (C) (D) (E) & 75 & (A) (B) (C) (D) (E) \\\\ |\n\n| {*}{ETS USE ONLY} & {*}{48, 55, 62, 75, 87} & & R & W & 0 & {*}{OTHER} & & R & W & 0 \\\\ | & & PT02 & & & & & TOTAL & & & \\\\ | & & PT03 & & & & {}} \\\\ | & & PT04 & & & & & & & & \\\\ |\n\nBe sure each mark is dark and completely fills the circle. If a question has only four answer options, do not mark option E.\n\n| 76 & (A) (B) (C) (D) (E) & 91 & (A) (B) (C) (D) (E) & 106 & (A) (B) (C) (D) (E) \\\\ | 77 & (A) (B) (C) (D) (E) & 92 & (A)(B)(C)(D)(E) & 107 & (A) (B) (C) (D) (E) \\\\ | 78 & (A) (B) (C) (D) (E) & 93 & (A) (B) (C) (D) (E) & 108 & (A) (B) (C) (D) (E) \\\\ | 79 & (A) (B) (C) (D) (E) & 94 & (A)(B)(C)(D)(E) & 109 & (A) (B) (C) (D) (E) \\\\ | 80 & (A) (B) (C) (D) (E) & 95 & (A)(B)(C)(D)(E) & 110 & (A) (B) (C) (D) (E) \\\\ | 81 & (A) (B) (C) (D) (E) & 96 & (A) (B) (C) (D) (E) & 111 & (A)(B)(C)(D)(E) \\\\ | 82 & (A) (B) (C) (D) (E) & 97 & (A) (B) (C) (D) (E) & 112 & (A) (B) (C) (D) (E) \\\\ | 83 & (A) (B) (C) (D) (E) & 98 & (A) (B) (C) (D) (E) & 113 & (A)(B)(C)(D)(E) \\\\ | 84 & (A) (B) (C) (D) (E) & 99 & (A) (B) (C) (D) (E) & 114 & (A) (B) (C) (D) (E) \\\\ | 85 & (A) (B) (C) (D) (E) & 100 & (A) (B) (C) (D) (E) & 115 & (A) (B) (C) (D) (E) \\\\ | 86 & (A) (B) (C) (D) (E) & 101 & (A)(B)(C)(D)(E) & 116 & (A) (B) (C) (D) (E) \\\\ | 87 & (A) (B) (C) (D) (E) & 102 & (A)(B)(C)(D)(E) & 117 & (A) (B) (C) (D) (E) \\\\ | 88 & (A) (B) (C) (D) (E) & 103 & (A) (B) (C) (D) (E) & 118 & (A) (B) (C) (D) (E) \\\\ | 89 & (A) (B) (C)(D)(E) & 104 & (A)(B)(C)(D)(E) & 119 & (A) (B) (C) (D) (E) \\\\ | 90 & (A)(B)(C)(D)(E) & 105 & (A)(B)(C)(D)(E) & 120 & (A)(B)(C)(D)(E) \\\\ |\n\nHOME ADDRESS AND SCHOOL AREA - COMPLETE THIS AREA ONLY ONCE.\n J(J)JJJJJJJJJJJJJJJJJJJ J J J J\n\n (L) (L) (L) (L) (L) (L)(L)(L)(L) (L) (L) (L) (L) (L) (L) (L) (L) (M)(M)(M)(M)(M)(M)(M)(M)(M)(M)(M)(M)(M)(M)\n (o) (o) (o) (o (o (o (o (o (o (o (o (o ) (o (o (o ) P-P(P)(P)(P)(P)(P)(P)(P)(P)(P) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (Q) (R) (R) (R) R (S) T T T T T T T T T T T T T T T T T T T T T (U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U)(U) (v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v)(v) (W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W)(W) X X X X X X X X X X X X X X X X X X X X (Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y)(Y) z z z z (z) z z z z z z z z z z z z z z z (0)(0)(0)(0)(0)(0)(0)(0)(0)(0)(0)(0)(0) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (4) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (5) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (6) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (7) (8) 8 (8) 8 (8) 8 (8) 8 (8) 8 (8) 8 (8) 8 (8) 8 (8) (9) (9) (9) (9) (9) (9) (9) (9) (9) (9) (9) (9) (I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)(I)\n\nCITY ZIP OR POSTAL CODE\n(A) (A)\n\nThis is the multiple-choice section of the 2012 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n^{®}$ Calculus BC Exam}\n\n1 hour, 45 minutes\nNumber of Questions\n45\nPercent of Total Score\n50%\nWriting Instrument\nPencil required\n\nNumber of Questions\n28\nTime\n55 minutes\nElectronic Device\n\nNone allowed\nPart B\nNumber of Questions\n17\nTime\n50 minutes\nElectronic Device\nGraphing calculator required\n\nSection I of this exam contains 45 multiple-choice questions and 4 survey questions. For Part A, fill in only the circles for numbers 1 through 28 on page 2 of the answer sheet. For Part B, fill in only the circles for numbers 76 through 92 on page 3 of the answer sheet. The survey questions are numbers 93 through 96 .\n\nIndicate all of your answers to the multiple-choice questions on the answer sheet. No credit will be given for anything written in this exam booklet, but you may use the booklet for notes or scratch work. After you have decided which of the suggested answers is best, completely fill in the corresponding circle on the answer sheet. Give only one answer to each question. If you change an answer, be sure that the previous mark is erased completely. Here is a sample question and answer.\n\nSample Question Sample Answer\nChicago is a\n(A) ( C) (D) (E)\n(A) state\n(B) city\n(C) country\n(D) continent\n(E) village\n\nUse your time effectively, working as quickly as you can without losing accuracy. Do not spend too much time on any one question. Go on to other questions and come back to the ones you have not answered if you have time. It is not expected that everyone will know the answers to all of the multiple-choice questions.\n\nYour total score on the multiple-choice section is based only on the number of questions answered correctly. Points are not deducted for incorrect answers or unanswered questions.\n\n \\\\ SECTION I, Part A \\\\  \\\\ Number of questions-28\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one problem.\n\n(1) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(2) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ ).",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=1863&width=30&top_left_y=712&top_left_x=166",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=1877&width=401&top_left_y=708&top_left_x=300",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=825&width=36&top_left_y=1754&top_left_x=719",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=825&width=36&top_left_y=1754&top_left_x=843",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=794&width=82&top_left_y=1787&top_left_x=1852",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=410&width=523&top_left_y=247&top_left_x=236",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=725&width=567&top_left_y=70&top_left_x=859",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-17.jpg?height=725&width=560&top_left_y=70&top_left_x=1450"
+      ]
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "If $y= ^{3} x$, then $d y{d x}=$\n(A) $ ^{3} x$\n(B) $3  ^{2} x$\n(C) $3  ^{2} x$\n(D) $-3  ^{2} x  x$\n(E) $3  ^{2} x  x$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "The position of a particle moving in the $x y$-plane is given by the parametric equations $x(t)=t^{3}-3 t^{2}$ and $y(t)=12 t-3 t^{2}$. At which of the following points $(x, y)$ is the particle at rest?\n(A) $(-4,12)$\n(B) $(-3,6)$\n(C) $(-2,9)$\n(D) $(0,0)$\n(E) $(3,4)$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-23.jpg?height=881&width=507&top_left_y=306&top_left_x=810"
+      ]
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "The graph of $f$ is shown above for $0  x  4$. What is the value of $_{0}^{4} f(x) d x$ ?\n(A) -1\n(B) 0\n(C) 2\n(D) 6\n(E) 12",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Which of the following integrals gives the length of the curve $y= x$ from $x=1$ to $x=2$ ?\n(A) $_{1}^{2} 1+{1{x^{2}}} d x$\n(B) $_{1}^{2}(1+1{x^{2}}) d x$\n(C) $_{1}^{2} 1+e^{2 x} d x$\n(D) $_{1}^{2} 1+( x)^{2} d x$\n(E) $_{1}^{2}(1+( x)^{2}) d x$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "The Maclaurin series for the function $f$ is given by $f(x)=_{n=0}^{}(-x{4})^{n}$. What is the value of $f(3)$ ?\n(A) -3\n(B) $-3{7}$\n(C) $4{7}$\n(D) $13{16}$\n(E) 4",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "Using the substitution $u=x^{2}-3, _{-1}^{4} x(x^{2}-3)^{5} d x$ is equal to which of the following?\n(A) $2 _{-2}^{13} u^{5} d u$\n(B) $_{-2}^{13} u^{5} d u$\n(C) $1{2} _{-2}^{13} u^{5} d u$\n(D) $_{-1}^{4} u^{5} d u$\n(E) $1{2} _{-1}^{4} u^{5} d u$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-7",
+      "number": 7,
+      "stem": "If $ x= y$, then $d y{d x}=$\n(A) $y{1-x^{2}}$\n(B) $x y{1-x^{2}}$\n(C) $y{1+x^{2}}$\n(D) $e^{ x}$\n(E) $e^{ x}{1+x^{2}}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-8",
+      "number": 8,
+      "stem": "A tank contains 50 liters of oil at time $t=4$ hours. Oil is being pumped into the tank at a rate $R(t)$, where $R(t)$ is measured in liters per hour, and $t$ is measured in hours. Selected values of $R(t)$ are given in the table above. Using a right Riemann sum with three subintervals and data from the table, what is the approximation of the number of liters of oil that are in the tank at time $t=15$ hours?\n(A) 64.9\n(B) 68.2\n(C) 114.9\n(D) 116.6\n(E) 118.2",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-9",
+      "number": 9,
+      "stem": "Which of the following series converge?\nI. $_{n=1}^{} 8^{n}{n!}$\nII. $_{n=1}^{} n!{n^{100}}$\nIII. $_{n=1}^{} n+1{(n)(n+2)(n+3)}$\n(A) I only\n(B) II only\n(C) III only\n(D) I and III only\n(E) I, II, and III",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-10",
+      "number": 10,
+      "stem": "$_{1}^{4} t^{-3 / 2} d t=$\n(A) -1\n(B) $-7{8}$\n(C) $-1{2}$\n(D) $1{2}$\n(E) 1",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-11",
+      "number": 11,
+      "stem": "Let $f$ be the function defined by $f(x)=|x-2|$ for all $x$. Which of the following statements is true?\n(A) $f$ is continuous but not differentiable at $x=2$.\n(B) $f$ is differentiable at $x=2$.\n(C) $f$ is not continuous at $x=2$.\n(D) $ _{x  2} f(x)  0$\n(E) $ x=2$ is a vertical asymptote of the graph of $f$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-12",
+      "number": 12,
+      "stem": "The points $(-1,-1)$ and $(1,-5)$ are on the graph of a function $y=f(x)$ that satisfies the differential equation $d y{d x}=x^{2}+y$. Which of the following must be true?\n(A) $(1,-5)$ is a local maximum of $f$.\n(B) $(1,-5)$ is a point of inflection of the graph of $f$.\n(C) $(-1,-1)$ is a local maximum of $f$.\n(D) $(-1,-1)$ is a local minimum of $f$.\n(E) $(-1,-1)$ is a point of inflection of the graph of $f$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-13",
+      "number": 13,
+      "stem": "What is the radius of convergence of the series $_{n=0}^{} (x-4)^{2 n}{3^{n}}$ ?\n(A) $2 3$\n(B) 3\n(C) $3$\n(D) ${3}{2}$\n(E) 0",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-14",
+      "number": 14,
+      "stem": "Let $k$ be a positive constant. Which of the following is a logistic differential equation?\n(A) $d y{d t}=k t$\n(B) $d y{d t}=k y$\n(C) $d y{d t}=k t(1-t)$\n(D) $d y{d t}=k y(1-t)$\n(E) $d y{d t}=k y(1-y)$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-30.jpg?height=691&width=853&top_left_y=294&top_left_x=638"
+      ]
+    },
+    {
+      "id": "frq-15",
+      "number": 15,
+      "stem": "The graph of a differentiable function $f$ is shown above. If $h(x)=_{0}^{x} f(t) d t$, which of the following is true?\n(A) $h(6)<h^{}(6)<h^{ }(6)$\n(B) $h(6)<h^{ }(6)<h^{}(6)$\n(C) $h^{}(6)<h(6)<h^{ }(6)$\n(D) $h^{ }(6)<h(6)<h^{}(6)$\n(E) $h^{ }(6)<h^{}(6)<h(6)$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-16",
+      "number": 16,
+      "stem": "Let $y=f(x)$ be the solution to the differential equation $d y{d x}=x-y$ with initial condition $f(1)=3$. What is the approximation for $f(2)$ obtained by using Euler's method with two steps of equal length starting at $x=1$ ?\n(A) $-5{4}$\n(B) 1\n(C) $7{4}$\n(D) 2\n(E) $21{4}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-17",
+      "number": 17,
+      "stem": "For $x>0$, the power series $1-x^{2}{3!}+x^{4}{5!}-x^{6}{7!}++(-1)^{n} x^{2 n}{(2 n+1)!}+$ converges to which of the following?\n(A) $ x$\n(B) $ x$\n(C) $ x{x}$\n(D) $e^{x}-e^{x^{2}}$\n(E) $1+e^{x}-e^{x^{2}}$",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-32.jpg?height=526&width=797&top_left_y=308&top_left_x=663"
+      ]
+    },
+    {
+      "id": "frq-18",
+      "number": 18,
+      "stem": "The graph of $f^{}$, the derivative of a function $f$, consists of two line segments and a semicircle, as shown in the figure above. If $f(2)=1$, then $f(-5)=$\n(A) $2 -2$\n(B) $2 -3$\n(C) $2 -5$\n(D) $6-2 $\n(E) $4-2 $",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-19",
+      "number": 19,
+      "stem": "The function $f$ is defined by $f(x)=x{x+2}$. What points $(x, y)$ on the graph of $f$ have the property that the line tangent to $f$ at $(x, y)$ has slope $1{2}$ ?\n(A) $(0,0)$ only\n(B) $(1{2}, 1{5})$ only\n(C) $(0,0)$ and $(-4,2)$\n(D) $(0,0)$ and $(4, 2{3})$\n(E) There are no such points.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-20",
+      "number": 20,
+      "stem": "$_{0}^{1} 5 x+8{x^{2}+3 x+2} d x$ is\n(A) $ (8)$\n(B) $ (27{2})$\n(C) $ (18)$\n(D) $ (288)$\n(E) divergent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-21",
+      "number": 21,
+      "stem": "The line $y=5$ is a horizontal asymptote to the graph of which of the following functions?\n(A) $y= (5 x){x}$\n(B) $y=5 x$\n(C) $y=1{x-5}$\n(D) $y=5 x{1-x}$\n(E) $y=20 x^{2-x}{1+4 x^{2}}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-22",
+      "number": 22,
+      "stem": "The power series $_{n=0}^{} a_{n}(x-3)^{n}$ converges at $x=5$. Which of the following must be true?\n(A) The series diverges at $x=0$.\n(B) The series diverges at $x=1$.\n(C) The series converges at $x=1$.\n(D) The series converges at $x=2$.\n(E) The series converges at $x=6$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-23",
+      "number": 23,
+      "stem": "If $P(t)$ is the size of a population at time $t$, which of the following differential equations describes linear growth in the size of the population?\n(A) $d P{d t}=200$\n(B) $d P{d t}=200 t$\n(C) $d P{d t}=100 t^{2}$\n(D) $d P{d t}=200 P$\n(E) $d P{d t}=100 P^{2}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-24",
+      "number": 24,
+      "stem": "Let $f$ be a differentiable function such that $ f(x)  x d x=-f(x)  x+ 4 x^{3}  x d x$. Which of the following could be $f(x)$ ?\n(A) $ x$\n(B) $ x$\n(C) $4 x^{3}$\n(D) $-x^{4}$\n(E) $x^{4}$",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-25",
+      "number": 25,
+      "stem": "$_{1}^{} x e^{-x^{2}} d x$ is\n(A) $-1{e}$\n(B) $1{2 e}$\n(C) $1{e}$\n(D) $2{e}$\n(E) divergent",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-26",
+      "number": 26,
+      "stem": "What is the slope of the line tangent to the polar curve $r=1+2  $ at $=0$ ?\n(A) 2\n(B) $1{2}$\n(C) 0\n(D) $-1{2}$\n(E) -2",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-27",
+      "number": 27,
+      "stem": "For what values of $p$ will both series $_{n=1}^{} 1{n^{2 p}}$ and $_{n=1}^{}(p{2})^{n}$ converge?\n(A) $-22$\n(E) There are no such values of $p$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-28",
+      "number": 28,
+      "stem": "Let $g$ be a continuously differentiable function with $g(1)=6$ and $g^{}(1)=3$. What is $ _{x  1} _{1^{x} g(t) d t}{g(x)-6}$ ?\n(A) 0\n(B) $1{2}$\n(C) 1\n(D) 2\n(E) The limit does not exist.\n\nIF YOU FINISH BEFORE TIME IS CALLED, YOU MAY CHECK YOUR WORK ON PART A ONLY.\n\nB & B & B & B & B & B & B & B & B$}\n\nSECTION I, Part B\n\nNumber of questions-17\n\nDirections: Solve each of the following problems, using the available space for scratch work. After examining the form of the choices, decide which is the best of the choices given and fill in the corresponding circle on the answer sheet. No credit will be given for anything written in the exam book. Do not spend too much time on any one problem.\n\n(1) The exact numerical value of the correct answer does not always appear among the choices given. When this happens, select from among the choices the number that best approximates the exact numerical value.\n(2) Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n(3) The inverse of a trigonometric function $f$ may be indicated using the inverse function notation $f^{-1}$ or with the prefix \"arc\" (e.g., $ ^{-1} x= x$ ).\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-41.jpg?height=306&width=448&top_left_y=306&top_left_x=840"
+      ]
+    },
+    {
+      "id": "frq-76",
+      "number": 76,
+      "stem": "The function $f$, whose graph is shown above, is defined on the interval $-2  x  2$. Which of the following statements about $f$ is false?\n(A) $f$ is continuous at $x=0$.\n(B) $f$ is differentiable at $x=0$.\n(C) $f$ has a critical point at $x=0$.\n(D) $f$ has an absolute minimum at $x=0$.\n(E) The concavity of the graph of $f$ changes at $x=0$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-77",
+      "number": 77,
+      "stem": "Let $f$ and $g$ be the functions given by $f(x)=e^{x}$ and $g(x)=x^{4}$. On what intervals is the rate of change of $f(x)$ greater than the rate of change of $g(x)$ ?\n(A) ( $0.831,7.384$ ) only\n(B) $(-, 0.831)$ and $(7.384, )$\n(C) $(-,-0.816)$ and $(1.430,8.613)$\n(D) $(-0.816,1.430)$ and $(8.613, )$\n(E) $(-, )$\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-42.jpg?height=541&width=740&top_left_y=260&top_left_x=695"
+      ]
+    },
+    {
+      "id": "frq-78",
+      "number": 78,
+      "stem": "The graph of the piecewise linear function $f$ is shown above. What is the value of $_{-1}^{9}(3 f(x)+2) d x$ ?\n(A) 7.5\n(B) 9.5\n(C) 27.5\n(D) 47\n(E) 48.5",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-79",
+      "number": 79,
+      "stem": "Let $f$ be a function having derivatives of all orders for $x>0$ such that $f(3)=2, f^{}(3)=-1, f^{ }(3)=6$, and $f^{  }(3)=12$. Which of the following is the third-degree Taylor polynomial for $f$ about $x=3$ ?\n(A) $2-x+6 x^{2}+12 x^{3}$\n(B) $2-x+3 x^{2}+2 x^{3}$\n(C) $2-(x-3)+6(x-3)^{2}+12(x-3)^{3}$\n(D) $2-(x-3)+3(x-3)^{2}+4(x-3)^{3}$\n(E) $2-(x-3)+3(x-3)^{2}+2(x-3)^{3}$\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-43.jpg?height=595&width=650&top_left_y=264&top_left_x=739"
+      ]
+    },
+    {
+      "id": "frq-80",
+      "number": 80,
+      "stem": "The graph of $f^{}$, the derivative of the function $f$, is shown above. Which of the following statements must be true?\nI. $f$ has a relative minimum at $x=-3$.\nII. The graph of $f$ has a point of inflection at $x=-2$.\nIII. The graph of $f$ is concave down for $0<x<4$.\n(A) I only\n(B) II only\n(C) III only\n(D) I and II only\n(E) I and III only\n\n{ 2 - 3 } & $0<x<1$ & $1<x<2$ \\\\ |$f(x)$ & Positive & Negative \\\\ |$f^{}(x)$ & Negative & Negative \\\\ |$f^{ }(x)$ & Negative & Positive \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-81",
+      "number": 81,
+      "stem": "Let $f$ be a function that is twice differentiable on $-2<x<2$ and satisfies the conditions in the table above. If $f(x)=f(-x)$, what are the $x$-coordinates of the points of inflection of the graph of $f$ on $-2<x<2$ ?\n(A) $x=0$ only\n(B) $x=1$ only\n(C) $x=0$ and $x=1$\n(D) $x=-1$ and $x=1$\n(E) There are no points of inflection on $-2<x<2$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-82",
+      "number": 82,
+      "stem": "What is the average value of $y= x$ on the interval $0  x  {2}$ ?\n(A) -0.637\n(B) 0.500\n(C) 0.763\n(D) 1.198\n(E) 1.882",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-83",
+      "number": 83,
+      "stem": "If the function $f$ is continuous at $x=3$, which of the following must be true?\n(A) $f(3)< _{x  3} f(x)$\n(B) $ _{x  3^{-}} f(x)   _{x  3^{+}} f(x)$\n(C) $f(3)= _{x  3^{-}} f(x)= _{x  3^{+}} f(x)$\n(D) The derivative of $f$ at $x=3$ exists.\n(E) The derivative of $f$ is positive for $x<3$ and negative for $x>3$.",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-84",
+      "number": 84,
+      "stem": "For $-1.5<x<1.5$, let $f$ be a function with first derivative given by $f^{}(x)=e^{(x^{4}-2 x^{2}+1)}-2$. Which of the following are all intervals on which the graph of $f$ is concave down?\n(A) (-0.418, 0.418) only\n(B) $(-1,1)$\n(C) $(-1.354,-0.409)$ and $(0.409,1.354)$\n(D) $(-1.5,-1)$ and $(0,1)$\n(E) $(-1.5,-1.354),(-0.409,0)$, and $(1.354,1.5)$\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-85",
+      "number": 85,
+      "stem": "The fuel consumption of a car, in miles per gallon (mpg), is modeled by $F(s)=6 e^{(s{20}-s^{2}{2400})}$, where $s$ is the speed of the car, in miles per hour. If the car is traveling at 50 miles per hour and its speed is changing at the rate of 20 miles / hour ${ }^{2}$, what is the rate at which its fuel consumption is changing?\n(A) 0.215 mpg per hour\n(B) 4.299 mpg per hour\n(C) 19.793 mpg per hour\n(D) 25.793 mpg per hour\n(E) 515.855 mpg per hour",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-86",
+      "number": 86,
+      "stem": "If $f^{}(x)>0$ for all real numbers $x$ and $_{4}^{7} f(t) d t=0$, which of the following could be a table of values for the function $f$ ?\n(A)\n\n|$x$ & $f(x)$ \\\\ | | 4 & -4 \\\\ | 5 & -3 \\\\ | 7 & 0 \\\\ |\n(B)\n\n|$x$ & $f(x)$ \\\\ | 4 & -4 \\\\ | 5 & -2 \\\\ | 7 & 5 \\\\ |\n(C)\n\n|$x$ & $f(x)$ \\\\ | 4 & -4 \\\\ | 5 & 6 \\\\ | 7 & 3 \\\\ |\n(D)\n\n|$x$ & $f(x)$ \\\\ | | 4 & 0 \\\\ | 5 & 0 \\\\ | 7 & 0 \\\\ |\n(E)\n\n|$x$ & $f(x)$ \\\\ | | 4 & 0 \\\\ | 5 & 4 \\\\ | 7 & 6 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-87",
+      "number": 87,
+      "stem": "Let $R$ be the region in the first quadrant bounded above by the graph of $y= (3-x)$, for $0  x  2 . R$ is the base of a solid for which each cross section perpendicular to the $x$-axis is a square. What is the volume of the solid?\n(A) 0.442\n(B) 1.029\n(C) 1.296\n(D) 3.233\n(E) 4.071",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-88",
+      "number": 88,
+      "stem": "The derivative of a function $f$ is increasing for $x<0$ and decreasing for $x>0$. Which of the following could be the graph of $f$ ?",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-49.jpg?height=293&width=299&top_left_y=428&top_left_x=296",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-49.jpg?height=291&width=297&top_left_y=430&top_left_x=735",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-49.jpg?height=292&width=297&top_left_y=756&top_left_x=298",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-49.jpg?height=290&width=293&top_left_y=758&top_left_x=739",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-49.jpg?height=293&width=297&top_left_y=1079&top_left_x=298"
+      ]
+    },
+    {
+      "id": "frq-89",
+      "number": 89,
+      "stem": "A particle moves along a line so that its acceleration for $t  0$ is given by $a(t)=t+3{t^{3+1}}$. If the particle's velocity at $t=0$ is 5 , what is the velocity of the particle at $t=3$ ?\n(A) 0.713\n(B) 1.134\n(C) 6.134\n(D) 6.710\n(E) 11.710",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-90",
+      "number": 90,
+      "stem": "If the series $_{n=1}^{} a_{n}$ converges and $a_{n}>0$ for all $n$, which of the following must be true?\n(A) $  _{n  }|a_{n+1}{a_{n}}|=0$\n(B) $|a_{n}|<1$ for all $n$\n(C) $_{n=1}^{} a_{n}=0$\n(D) $_{n=1}^{} n a_{n}$ diverges.\n(E) $_{n=1}^{} a_{n}{n}$ converges.",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-51.jpg?height=561&width=545&top_left_y=294&top_left_x=791"
+      ]
+    },
+    {
+      "id": "frq-91",
+      "number": 91,
+      "stem": "The figure above shows the graphs of the polar curves $r=2  (3 )$ and $r=2$. What is the sum of the areas of the shaded regions?\n(A) 0.858\n(B) 3.142\n(C) 8.566\n(D) 9.425\n(E) 15.708\n\nB & B & B & B & B & B & B & B & B$}",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-92",
+      "number": 92,
+      "stem": "The function $h$ is differentiable, and for all values of $x, h(x)=h(2-x)$. Which of the following statements must be true?\nI. $_{0}^{2} h(x) d x>0$\nII. $h^{}(1)=0$\nIII. $h^{}(0)=h^{}(2)=1$\n(A) I only\n(B) II only\n(C) III only\n(D) II and III only\n(E) I, II, and III\n\nMAKE SURE YOU HAVE DONE THE FOLLOWING.\n- PLACED YOUR AP NUMBER LABEL ON YOUR ANSWER SHEET\n- WRITTEN AND GRIDDED YOUR AP NUMBER CORRECTLY ON YOUR ANSWER SHEET\n- TAKEN THE AP EXAM LABEL FROM THE FRONT OF THIS BOOKLET AND PLACED IT ON YOUR ANSWER SHEET\n\nAFTER TIME HAS BEEN CALLED, TURN TO PAGE 38 AND ANSWER QUESTIONS 93-96.\n\nThis is the free-response section of the 2012 AP exam. It includes cover material and other administrative instructions to help familiarize students with the mechanics of the exam. (Note that future exams may differ in look from the following content.)\n\n^{ {® }}$ Calculus BC Exam}\n\n1 hour, 30 minutes\nNumber of Questions 6\nPercent of Total Score 50%\n\nEither pencil or pen with black or dark blue ink\n\nThe questions are weighted equally, but the parts of a question are not necessarily given equal weight.\n\nNumber of Questions 2\n\n30 minutes\n\nGraphing calculator required\n\n33.3%\n\nNumber of Questions 4\nTime 60 minutes\nElectronic Device\nNone allowed\nPercent of Section II Score 66.6%",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-54.jpg?height=61&width=100&top_left_y=777&top_left_x=743",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-54.jpg?height=61&width=98&top_left_y=777&top_left_x=856",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-54.jpg?height=66&width=192&top_left_y=777&top_left_x=970"
+      ]
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "First two letters of your last name\n\nFirst letter of your first name □",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-54.jpg?height=64&width=97&top_left_y=600&top_left_x=1161"
+      ]
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "Date of birth",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Six-digit school code",
+      "parts": [],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-54.jpg?height=79&width=284&top_left_y=915&top_left_x=743"
+      ]
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "Unless I check the box below, I grant the College Board the unlimited right to use, reproduce, and publish my free-response materials, both written and oral, for educational research and instructional purposes. My name and the name of my school will not be used in any way in connection with my free-response materials. I understand that I am free to mark \"No\" with no effect on my score or its reporting.\nNo, I do not grant the College Board these rights.\n\nPLEASE PRINT WITH PEN:\n\nThe questions for Section II are printed in this booklet. Do not break the seals on Part B until you are told to do so. Write your solution to each part of each question in the space provided. Write clearly and legibly. Cross out any errors you make; erased or crossed-out work will not be scored.\n\nManage your time carefully. During the timed portion for Part A, work only on the questions in Part A. You are permitted to use your calculator to solve an equation, find the derivative of a function at a point, or calculate the value of a definite integral. However, you must clearly indicate the setup of your question, namely the equation, function, or integral you are using. If you use other built-in features or programs, you must show the mathematical steps necessary to produce your results. During the timed portion for Part B, you may continue to work on the questions in Part A without the use of a calculator.\n\nFor each part of Section II, you may wish to look over the questions before starting to work on them. It is not expected that everyone will be able to complete all parts of all questions.\n- Show all of your work. Clearly label any functions, graphs, tables, or other objects that you use. Your work will be scored on the correctness and completeness of your methods as well as your answers. Answers without supporting work will usually not receive credit. Justifications require that you give mathematical (noncalculator) reasons.\n- Your work must be expressed in standard mathematical notation rather than calculator syntax. For example, $_{1}^{5} x^{2} d x$ may not be written as $fnInt(X^{2}, X, 1,5)$.\n- Unless otherwise specified, answers (numeric or algebraic) need not be simplified. If you use decimal approximations in calculations, your work will be scored on accuracy. Unless otherwise specified, your final answers should be accurate to three places after the decimal point.\n- Unless otherwise specified, the domain of a function $f$ is assumed to be the set of all real numbers $x$ for which $f(x)$ is a real number.\n\n \\\\ SECTION II, Part A \\\\ \n\nNumber of problems—2\nA graphing calculator is required for these problems.\n\n|$t$ (minutes) & 0 & 4 & 9 & 15 & 20 \\\\ |$W(t)$ (degrees Fahrenheit) & 55.0 & 57.1 & 61.8 & 67.9 & 71.0 \\\\ |",
+      "parts": [],
+      "images": []
+    },
+    {
+      "id": "frq-1",
+      "number": 1,
+      "stem": "The temperature of water in a tub at time $t$ is modeled by a strictly increasing, twice-differentiable function $W$, where $W(t)$ is measured in degrees Fahrenheit and $t$ is measured in minutes. At time $t=0$, the temperature of the water is $55^{} F$. The water is heated for 30 minutes, beginning at time $t=0$. Values of $W(t)$ at selected times $t$ for the first 20 minutes are given in the table above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Use the data in the table to estimate $W^{}(12)$. Show the computations that lead to your answer. Using correct units, interpret the meaning of your answer in the context of this problem."
+        },
+        {
+          "id": "b",
+          "text": "Use the data in the table to evaluate $_{0}^{20} W^{}(t) d t$. Using correct units, interpret the meaning of $_{0}^{20} W^{}(t) d t$ in the context of this problem."
+        },
+        {
+          "id": "c",
+          "text": "For $0  t  20$, the average temperature of the water in the tub is $1{20} _{0}^{20} W(t) d t$. Use a left Riemann sum with the four subintervals indicated by the data in the table to approximate $1{20} _{0}^{20} W(t) d t$. Does this approximation overestimate or underestimate the average temperature of the water over these 20 minutes? Explain your reasoning."
+        },
+        {
+          "id": "d",
+          "text": "For $20  t  25$, the function $W$ that models the water temperature has first derivative given by $W^{}(t)=0.4 t  (0.06 t)$. Based on the model, what is the temperature of the water at time $t=25$ ?"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-2",
+      "number": 2,
+      "stem": "For $t  0$, a particle is moving along a curve so that its position at time $t$ is $(x(t), y(t))$. At time $t=2$, the particle is at position $(1,5)$. It is known that $d x{d t}={t+2}{e^{t}}$ and $d y{d t}= ^{2} t$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Is the horizontal movement of the particle to the left or to the right at time $t=2$ ? Explain your answer. Find the slope of the path of the particle at time $t=2$."
+        },
+        {
+          "id": "b",
+          "text": "Find the $x$-coordinate of the particle's position at time $t=4$."
+        },
+        {
+          "id": "c",
+          "text": "Find the speed of the particle at time $t=4$. Find the acceleration vector of the particle at time $t=4$."
+        },
+        {
+          "id": "d",
+          "text": "Find the distance traveled by the particle from time $t=2$ to $t=4$.\n\n\nCALCULUS BC \\\\ SECTION II, Part B \\\\ Time-60 minutes \\\\ Number of problems-4\n\n\nNo calculator is allowed for these problems."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-61.jpg?height=555&width=826&top_left_y=327&top_left_x=651"
+      ]
+    },
+    {
+      "id": "frq-3",
+      "number": 3,
+      "stem": "Let $f$ be the continuous function defined on $[-4,3]$ whose graph, consisting of three line segments and a semicircle centered at the origin, is given above. Let $g$ be the function given by $g(x)=_{1}^{x} f(t) d t$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Find the values of $g(2)$ and $g(-2)$."
+        },
+        {
+          "id": "b",
+          "text": "For each of $g^{}(-3)$ and $g^{ }(-3)$, find the value or state that it does not exist."
+        },
+        {
+          "id": "c",
+          "text": "Find the $x$-coordinate of each point at which the graph of $g$ has a horizontal tangent line. For each of these points, determine whether $g$ has a relative minimum, relative maximum, or neither a minimum nor a maximum at the point. Justify your answers."
+        },
+        {
+          "id": "d",
+          "text": "For $-4<x<3$, find all values of $x$ for which the graph of $g$ has a point of inflection. Explain your reasoning.\n\n|$x$ & 1 & 1.1 & 1.2 & 1.3 & 1.4 \\\\ |$f^{}(x)$ & 8 & 10 & 12 & 13 & 14.5 \\\\ |"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-4",
+      "number": 4,
+      "stem": "The function $f$ is twice differentiable for $x>0$ with $f(1)=15$ and $f^{ }(1)=20$. Values of $f^{}$, the derivative of $f$, are given for selected values of $x$ in the table above.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Write an equation for the line tangent to the graph of $f$ at $x=1$. Use this line to approximate $f(1.4)$."
+        },
+        {
+          "id": "b",
+          "text": "Use a midpoint Riemann sum with two subintervals of equal length and values from the table to approximate $_{1}^{1.4} f^{}(x) d x$. Use the approximation for $_{1}^{1.4} f^{}(x) d x$ to estimate the value of $f(1.4)$. Show the computations that lead to your answer."
+        },
+        {
+          "id": "c",
+          "text": "Use Euler's method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the computations that lead to your answer."
+        },
+        {
+          "id": "d",
+          "text": "Write the second-degree Taylor polynomial for $f$ about $x=1$. Use the Taylor polynomial to approximate $f(1.4)$."
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "frq-5",
+      "number": 5,
+      "stem": "The rate at which a baby bird gains weight is proportional to the difference between its adult weight and its current weight. At time $t=0$, when the bird is first weighed, its weight is 20 grams. If $B(t)$ is the weight of the bird, in grams, at time $t$ days after it is first weighed, then\n\nd B{d t}=1{5}(100-B) .\n\nLet $y=B(t)$ be the solution to the differential equation above with initial condition $B(0)=20$.",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Is the bird gaining weight faster when it weighs 40 grams or when it weighs 70 grams? Explain your reasoning."
+        },
+        {
+          "id": "b",
+          "text": "Find $d^{2 B}{d t^{2}}$ in terms of $B$. Use $d^{2 B}{d t^{2}}$ to explain why the graph of $B$ cannot resemble the following graph."
+        },
+        {
+          "id": "c",
+          "text": "Use separation of variables to find $y=B(t)$, the particular solution to the differential equation with initial condition $B(0)=20$."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-65.jpg?height=617&width=711&top_left_y=1530&top_left_x=741"
+      ]
+    },
+    {
+      "id": "frq-6",
+      "number": 6,
+      "stem": "The function $g$ has derivatives of all orders, and the Maclaurin series for $g$ is\n\n_{n=0}^{}(-1)^{n} x^{2 n+1}{2 n+3}=x{3}-x^{3}{5}+x^{5}{7}-",
+      "parts": [
+        {
+          "id": "a",
+          "text": "Using the ratio test, determine the interval of convergence of the Maclaurin series for $g$."
+        },
+        {
+          "id": "b",
+          "text": "The Maclaurin series for $g$ evaluated at $x=1{2}$ is an alternating series whose terms decrease in absolute value to 0 . The approximation for $g(1{2})$ using the first two nonzero terms of this series is $17{120}$. Show that this approximation differs from $g(1{2})$ by less than $1{200}$."
+        },
+        {
+          "id": "c",
+          "text": "Write the first three nonzero terms and the general term of the Maclaurin series for $g^{}(x)$.\n\n\nTHE FOLLOWING INSTRUCTIONS APPLY TO THE COVERS OF THE SECTION II BOOKLET.\n- MAKE SURE YOU HAVE COMPLETED THE IDENTIFICATION INFORMATION AS REQUESTED ON THE FRONT AND BACK COVERS OF THE SECTION II BOOKLET.\n- CHECK TO SEE THAT YOUR AP NUMBER LABEL APPEARS IN THE BOX ON THE COVER.\n- MAKE SURE YOU HAVE USED THE SAME SET OF AP NUMBER LABELS ON ALL AP EXAMS YOU HAVE TAKEN THIS YEAR.\n\n\n| Multiple-Choice Questions \\\\ | Question \\# & Key \\\\ | 1 & E \\\\ | 2 & A \\\\ | 3 & B \\\\ | 4 & A \\\\ | 5 & C \\\\ | 6 & C \\\\ | 7 & A \\\\ | 8 & C \\\\ | 9 & D \\\\ | 10 & E \\\\ | 11 & A \\\\ | 12 & C \\\\ | 13 & C \\\\ | 14 & E \\\\ | 15 & A \\\\ | 16 & C \\\\ | 17 & C \\\\ | 18 & A \\\\ | 19 & C \\\\ | 20 & C \\\\ | 21 & E \\\\ | 22 & D \\\\ |\n\n| 23 & A \\\\ | 24 & E \\\\ | 25 & B \\\\ | 26 & B \\\\ | 27 & C \\\\ | 28 & D \\\\ | 76 & B \\\\ | 77 & B \\\\ | 78 & C \\\\ | 79 & E \\\\ | 80 & E \\\\ | 81 & D \\\\ | 82 & C \\\\ | 83 & C \\\\ | 84 & D \\\\ | 85 & B \\\\ | 86 & B \\\\ | 87 & B \\\\ | 88 & E \\\\ | 89 & E \\\\ | 90 & E \\\\ | 91 & D \\\\ | 92 & B \\\\ |\n\n\nThe following contains the scoring guidelines for the free-response questions in this exam.\n\n\n|$t$ (minutes) & 0 & 4 & 9 & 15 & 20 \\\\ |$W(t)$ (degrees Fahrenheit) & 55.0 & 57.1 & 61.8 & 67.9 & 71.0 \\\\ |\n\nThe temperature of water in a tub at time $t$ is modeled by a strictly increasing, twice-differentiable function $W$, where $W(t)$ is measured in degrees Fahrenheit and $t$ is measured in minutes. At time $t=0$, the temperature of the water is $55^{} F$. The water is heated for 30 minutes, beginning at time $t=0$. Values of $W(t)$ at selected times $t$ for the first 20 minutes are given in the table above."
+        },
+        {
+          "id": "a",
+          "text": "Use the data in the table to estimate $W^{}(12)$. Show the computations that lead to your answer. Using correct units, interpret the meaning of your answer in the context of this problem."
+        },
+        {
+          "id": "b",
+          "text": "Use the data in the table to evaluate $_{0}^{20} W^{}(t) d t$. Using correct units, interpret the meaning of $_{0}^{20} W^{}(t) d t$ in the context of this problem."
+        },
+        {
+          "id": "c",
+          "text": "For $0  t  20$, the average temperature of the water in the tub is $1{20} _{0}^{20} W(t) d t$. Use a left Riemann sum with the four subintervals indicated by the data in the table to approximate $1{20} _{0}^{20} W(t) d t$. Does this approximation overestimate or underestimate the average temperature of the water over these 20 minutes? Explain your reasoning."
+        },
+        {
+          "id": "d",
+          "text": "For $20  t  25$, the function $W$ that models the water temperature has first derivative given by $W^{}(t)=0.4 t  (0.06 t)$. Based on the model, what is the temperature of the water at time $t=25$ ?"
+        },
+        {
+          "id": "a",
+          "text": "$ W^{}(12)  W(15)-W(9){15-9}=67.9-61.8{6}\n=1.017( { or } 1.016)\n\n\nThe water temperature is increasing at a rate of approximately $1.017^{} F$ per minute at time $t=12$ minutes."
+        },
+        {
+          "id": "b",
+          "text": "$_{0}^{20} W^{}(t) d t=W(20)-W(0)=71.0-55.0=16$\n\nThe water has warmed by $16^{} F$ over the interval from $t=0$ to $t=20$ minutes."
+        },
+        {
+          "id": "c",
+          "text": "$1{20} _{0}^{20} W(t) d t  1{20}(4  W(0)+5  W(4)+6  W(9)+5  W(15))\n\n& =1{20}(4  55.0+5  57.1+6  61.8+5  67.9) \\\\\n& =1{20}  1215.8=60.79\n\n\nThis approximation is an underestimate, because a left Riemann sum is used and the function $W$ is strictly increasing."
+        },
+        {
+          "id": "d",
+          "text": "$W(25)=71.0+_{20}^{25} W^{}(t) d t\n=71.0+2.043155=73.043\n$\n2:\\{{l}\n1:  { estimate } \\\\\n1:  { interpretation with units }\n.\n$\n2:\\{{l}\n1:  { value } \\\\\n1:  { interpretation with units }\n.\n$\n3:\\{{l}\n1:  { left Riemann sum } \\\\\n1:  { approximation } \\\\\n1:  { underestimate with reason }\n.\n$\n2:\\{{l}\n1:  { integral } \\\\\n1:  { answer }\n.\n\n\nFor $t  0$, a particle is moving along a curve so that its position at time $t$ is $(x(t), y(t))$. At time $t=2$, the particle is at position $(1,5)$. It is known that $d x{d t}={t+2}{e^{t}}$ and $d y{d t}= ^{2} t$."
+        },
+        {
+          "id": "a",
+          "text": "Is the horizontal movement of the particle to the left or to the right at time $t=2$ ? Explain your answer. Find the slope of the path of the particle at time $t=2$."
+        },
+        {
+          "id": "b",
+          "text": "Find the $x$-coordinate of the particle's position at time $t=4$."
+        },
+        {
+          "id": "c",
+          "text": "Find the speed of the particle at time $t=4$. Find the acceleration vector of the particle at time $t=4$."
+        },
+        {
+          "id": "d",
+          "text": "Find the distance traveled by the particle from time $t=2$ to $t=4$."
+        },
+        {
+          "id": "a",
+          "text": "$.d x{d t}|_{t=2}=2{e^{2}}$\n\nBecause $.d x{d t}|_{t=2}>0$, the particle is moving to the right at time $t=2$.\n\n.d y{d x}|_{t=2}=d y /.d t|_{t=2}{d x /.d t|_{t=2}}=3.055( { or } 3.054)"
+        },
+        {
+          "id": "b",
+          "text": "$x(4)=1+_{2}^{4} {t+2}{e^{t}} d t=1.253$ (or 1.252)"
+        },
+        {
+          "id": "c",
+          "text": "Speed $=(x^{(4))^{2}+(y^{}(4))^{2}}=0.575$ (or 0.574)\n\n\n { Acceleration } & = x^{ }(4), y^{ }(4) \\\\\n& =-0.041,0.989"
+        },
+        {
+          "id": "d",
+          "text": "Distance $=_{2}^{4} (x^{(t))^{2}+(y^{}(t))^{2}} d t\n=0.651( { or } 0.650)\n3:\\{{l}1:  { moving to the right with reason } \\\\ 1:  { considers } d y / d t{d x / d t} \\\\ 1:  { slope at } t=2.$\n$2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n$2:\\{{l}1:  { speed } \\\\ 1:  { acceleration }.$\n$2:\\{{l}1:  { integral } \\\\ 1:  { answer }.$\n\n^{®}$ CALCULUS BC 2012 SCORING GUIDELINES}\n\n\nLet $f$ be the continuous function defined on $[-4,3]$ whose graph, consisting of three line segments and a semicircle centered at the origin, is given above. Let $g$ be the function given by $g(x)=_{1}^{x} f(t) d t$."
+        },
+        {
+          "id": "a",
+          "text": "Find the values of $g(2)$ and $g(-2)$."
+        },
+        {
+          "id": "b",
+          "text": "For each of $g^{}(-3)$ and $g^{ }(-3)$, find the value or state that it does not exist."
+        },
+        {
+          "id": "c",
+          "text": "Find the $x$-coordinate of each point at which the graph of $g$ has a horizontal tangent line. For each\n of these points, determine whether $g$ has a relative minimum, relative maximum, or neither a minimum nor a maximum at the point. Justify your answers."
+        },
+        {
+          "id": "d",
+          "text": "For $-4<x<3$, find all values of $x$ for which the graph of $g$ has a point of inflection. Explain your reasoning."
+        },
+        {
+          "id": "a",
+          "text": "$ g(2)=_{1}^{2} f(t) d t=-1{2}(1)(1{2})=-1{4}\n\ng(-2) & =_{1}^{-2} f(t) d t=-_{-2}^{1} f(t) d t \\\\\n& =-(3{2}-{2})={2}-3{2}"
+        },
+        {
+          "id": "b",
+          "text": "$g^{}(x)=f(x)  g^{}(-3)=f(-3)=2$\n$g^{ }(x)=f^{}(x)  g^{ }(-3)=f^{}(-3)=1$"
+        },
+        {
+          "id": "c",
+          "text": "The graph of $g$ has a horizontal tangent line where $g^{}(x)=f(x)=0$. This occurs at $x=-1$ and $x=1$.\n$3:\\{{l}1:  { considers } g^{}(x)=0 \\\\ 1: x=-1  { and } x=1 \\\\ 1:  { answers with justifications }.$\n$g^{}(x)$ changes sign from positive to negative at $x=-1$. Therefore, $g$ has a relative maximum at $x=-1$.\n$g^{}(x)$ does not change sign at $x=1$. Therefore, $g$ has neither a relative maximum nor a relative minimum at $x=1$."
+        },
+        {
+          "id": "d",
+          "text": "The graph of $g$ has a point of inflection at each of $x=-2, x=0$, and $x=1$ because $g^{ }(x)=f^{}(x)$ changes $2:\\{{l}1:  { answer } \\\\ 1:  { explanation }.$ sign at each of these values.\n\n\n|$x$ & 1 & 1.1 & 1.2 & 1.3 & 1.4 \\\\ |$f^{}(x)$ & 8 & 10 & 12 & 13 & 14.5 \\\\ |\n\n\nThe function $f$ is twice differentiable for $x>0$ with $f(1)=15$ and $f^{ }(1)=20$. Values of $f^{}$, the derivative of $f$, are given for selected values of $x$ in the table above."
+        },
+        {
+          "id": "a",
+          "text": "Write an equation for the line tangent to the graph of $f$ at $x=1$. Use this line to approximate $f(1.4)$."
+        },
+        {
+          "id": "b",
+          "text": "Use a midpoint Riemann sum with two subintervals of equal length and values from the table to approximate $_{1}^{1.4} f^{}(x) d x$. Use the approximation for $_{1}^{1.4} f^{}(x) d x$ to estimate the value of $f(1.4)$. Show the computations that lead to your answer."
+        },
+        {
+          "id": "c",
+          "text": "Use Euler's method, starting at $x=1$ with two steps of equal size, to approximate $f(1.4)$. Show the computations that lead to your answer."
+        },
+        {
+          "id": "d",
+          "text": "Write the second-degree Taylor polynomial for $f$ about $x=1$. Use the Taylor polynomial to approximate $f(1.4)$."
+        },
+        {
+          "id": "a",
+          "text": "$f(1)=15, f^{}(1)=8$\n\nAn equation for the tangent line is\n$y=15+8(x-1)$.\n\nf(1.4)  15+8(1.4-1)=18.2"
+        },
+        {
+          "id": "b",
+          "text": "$_{1}^{1.4} f^{}(x) d x (0.2)(10)+(0.2)(13)=4.6\n\n& f(1.4)=f(1)+_{1}^{1.4} f^{}(x) d x \\\\\n& f(1.4)  15+4.6=19.6"
+        },
+        {
+          "id": "c",
+          "text": "$f(1.2)  f(1)+(0.2)(8)=16.6\nf(1.4)  16.6+(0.2)(12)=19.0"
+        },
+        {
+          "id": "d",
+          "text": "$T_{2}(x)=15+8(x-1)+20{2!}(x-1)^{2}\n=15+8(x-1)+10(x-1)^{2}\n$\nf(1.4)  15+8(1.4-1)+10(1.4-1)^{2}=19.8\n$\n2:\\{{l}\n1:  { tangent line } \\\\\n1:  { approximation }\n.\n$\n3:\\{{l}\n1:  { midpoint Riemann sum } \\\\\n1:  { Fundamental Theorem of Calculus } \\\\\n1:  { answer }\n.\n$\n2:\\{{l}\n1:  { Euler's method with two steps } \\\\\n1:  { answer }\n.\n$\n2:\\{{l}\n1:  { Taylor polynomial } \\\\\n1:  { approximation }\n.\n\n\nThe rate at which a baby bird gains weight is proportional to the difference between its adult weight and its current weight. At time $t=0$, when the bird is first weighed, its weight is 20 grams. If $B(t)$ is the weight of the bird, in grams, at time $t$ days after it is first weighed, then\n\nd B{d t}=1{5}(100-B) .\n\n\nLet $y=B(t)$ be the solution to the differential equation above with initial condition $B(0)=20$."
+        },
+        {
+          "id": "a",
+          "text": "Is the bird gaining weight faster when it weighs 40 grams or when it weighs 70 grams? Explain your reasoning."
+        },
+        {
+          "id": "b",
+          "text": "Find $d^{2 B}{d t^{2}}$ in terms of $B$. Use $d^{2 B}{d t^{2}}$ to explain why the graph of $B$ cannot resemble the following graph."
+        },
+        {
+          "id": "c",
+          "text": "Use separation of variables to find $y=B(t)$, the particular solution to the differential equation with initial condition $B(0)=20$."
+        },
+        {
+          "id": "a",
+          "text": "$.d B{d t}|_{B=40}=1{5}(60)=12\n.d B{d t}|_{B=70}=1{5}(30)=6\n\n\nBecause $.d B{d t}|_{B=40}>.d B{d t}|_{B=70}$, the bird is gaining weight faster when it weighs 40 grams."
+        },
+        {
+          "id": "b",
+          "text": "$d^{2 B}{d t^{2}}=-1{5} d B{d t}=-1{5}  1{5}(100-B)=-1{25}(100-B)$\n\nTherefore, the graph of $B$ is concave down for\n$2:\\{{l}1:  { uses } d B{d t} \\\\ 1:  { answer with reason }.$\n$2:\\{{l}1: d^{2 B}{d t^{2}}  { in terms of } B \\\\ 1:  { explanation }. 20  B<100$. A portion of the given graph is concave up."
+        },
+        {
+          "id": "c",
+          "text": "$d B{d t}=1{5}(100-B)\n\n&  1{100-B} d B= 1{5} d t \\\\\n& - |100-B|=1{5} t+C\n\n\nBecause $20  B<100,|100-B|=100-B$.\n\n- (100-20)=1{5}(0)+C - (80)=C\n100-B=80 e^{-t / 5}\nB(t)=100-80 e^{-t / 5},  t  0\n\n\nNote: $ 2 / 5[1-1-0-0-0]$ if no constant of integration\n\nNote: $0 / 5$ if no separation of variables\n\n\nThe function $g$ has derivatives of all orders, and the Maclaurin series for $g$ is\n\n_{n=0}^{}(-1)^{n} x^{2 n+1}{2 n+3}=x{3}-x^{3}{5}+x^{5}{7}-"
+        },
+        {
+          "id": "a",
+          "text": "Using the ratio test, determine the interval of convergence of the Maclaurin series for $g$."
+        },
+        {
+          "id": "b",
+          "text": "The Maclaurin series for $g$ evaluated at $x=1{2}$ is an alternating series whose terms decrease in absolute value to 0 . The approximation for $g(1{2})$ using the first two nonzero terms of this series is $17{120}$. Show that this approximation differs from $g(1{2})$ by less than $1{200}$."
+        },
+        {
+          "id": "c",
+          "text": "Write the first three nonzero terms and the general term of the Maclaurin series for $g^{}(x)$."
+        },
+        {
+          "id": "a",
+          "text": "$|x^{2 n+3}{2 n+5}  2 n+3{x^{2 n+1}}|=(2 n+3{2 n+5})  x^{2}\n\n&  _{n  }(2 n+3{2 n+5})  x^{2}=x^{2} \\\\\n& x^{2}<1 -1<x<1\n\n\nThe series converges when $-1<x<1$.\n\nWhen $x=-1$, the series is $-1{3}+1{5}-1{7}+1{9}-$\nThis series converges by the Alternating Series Test.\n\nWhen $x=1$, the series is $1{3}-1{5}+1{7}-1{9}+$\nThis series converges by the Alternating Series Test.\nTherefore, the interval of convergence is $-1  x  1$."
+        },
+        {
+          "id": "b",
+          "text": "$|g(1{2})-17{120}|<({1{2})^{5}}{7}=1{224}<1{200}\n5:\\{{l}\n1:  { sets up ratio } \\\\\n1:  { computes limit of ratio } \\\\\n1:  { identifies interior of } \\\\\n  { interval of convergence } \\\\\n1:  { considers both endpoints } \\\\\n1:  { analysis and interval of convergence }\n."
+        },
+        {
+          "id": "c",
+          "text": "$g^{}(x)=1{3}-3{5} x^{2}+5{7} x^{4}++(-1)^{n}(2 n+1{2 n+3}) x^{2 n}+\n2:\\{{l}\n1:  { uses the third term as an error bound } \\\\\n1:  { error bound }\n.\n$\n2:\\{{l}\n1:  { first three terms } \\\\\n1:  { general term }\n.\n\n\n${ { Number Correct  \\\\\n { (out of 45) }}}  1.2000={${ Weighted Section I Score } \\\\ { (Do not round) }}\n\n\nQuestion $1  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $2  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $3  { { (out of 9) }}  1.0000= { (Do not round) }$\n\nQuestion $4  { { (out of 9) }}  1.0000=($ Do not round)\n\nQuestion $5  { { (out of 9) }}  1.0000= { (Do not round) }$\nQuestion $6  { { (out of 9) }}  1.0000= { (Do not round) }\n\n { Sum = } &  { Weighted } \\\\\n&  { Section II } \\\\\n&  { Score } \\\\\n&  { (Do not round) }\n\n\n${ { Weighted }}+{${ Weighted } \\\\ { Section I Score }}$={${ Composite Score } \\\\ { (Round to nearest } \\\\ { whole number) }}\n\nCalculus BC\n\n\n| {c} Composite \\\\ Score Range & AP Score \\\\\n$68-108$ & 5 \\\\\n$56-67$ & 4 \\\\\n$42-55$ & 3 \\\\\n$35-41$ & 2 \\\\\n$0-34$ & 1 \\\\\ntable\n\n\nQuestions (1, 3, 6-8, 10-12, 15, 18-19, 21, 23, 76-78, 80-89, 92)\n\n${ { Number Correct  \\\\\n { (out of 27) }}} x  1.1851= {${ Weighted Section I Score } \\\\ { (Do not round) }}\n\n\nQuestion $1  { { (out of 9) }}  1.0000=$ $____$\n(Do not round)\n\nQuestion 3 $____$ $ 1.0000=$ $____$\n(out of 9)\n\nQuestion 4 $____$ $ 1.0000=$ $____$\n(AB Part:\n(out of 5) I (Do not round)\nParts A and B)\n\nQuestion 5 $____$ $ 1.0000=$ $____$\n(out of 9)\n\n(Do not round)\n\nSum = $____$\nWeighted\nSection II\nScore\n(Do not round)\n\n\n$[array{c} { Weighted } \\\\\n { Section I Score }]{ }+{${ Weighted } \\\\ { Section II Score }}$={${ Composite Score } \\\\ { (Round to nearest } \\\\ { whole number) }}\ntable\n\nAP Score Conversion Chart Calculus AB Subscore\n\n| {c} Composite \\\\ Score Range* & AP Score \\\\\n$40-64$ & 5 \\\\\n$31-39$ & 4 \\\\\n$23-30$ & 3 \\\\\n$17-22$ & 2 \\\\\n$0-16$ & 1 \\\\\ntabular\n\n\nThe College Board is a mission-driven not-for-profit organization that connects students to college success and opportunity. Founded in 1900, the College Board was created to expand access to higher education. Today, the membership association is made up of over 6,000 of the world's leading educational institutions and is dedicated to promoting excellence and equity in education. Each year, the College Board helps more than seven million students prepare for a successful transition to college through programs and services in college readiness and college success - including the SAT ${ }^{a}$ and the Advanced Placement Program ${ }^{®}$. The organization also serves the education community through research and advocacy on behalf of students, educators, and schools. The College Board is committed to the principles of excellence and equity, and that commitment is embodied in all of its programs, services, activities, and concerns."
+        }
+      ],
+      "images": [
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-68.jpg?height=108&width=1584&top_left_y=75&top_left_x=252",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-76.jpg?height=484&width=826&top_left_y=391&top_left_x=1104",
+        "https://cdn.mathpix.com/cropped/0c7b84e4-7910-471f-a96f-f8d2eb942824-78.jpg?height=450&width=523&top_left_y=732&top_left_x=1413"
+      ]
+    }
+  ]
+}
