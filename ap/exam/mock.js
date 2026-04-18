@@ -13,6 +13,136 @@ import {
 
 const app = document.getElementById("app");
 
+/* ─── MathML to LaTeX converter ─── */
+
+function mathmlNodeToLatex(node) {
+  if (!node) return '';
+  
+  // Text node
+  if (node.nodeType === Node.TEXT_NODE) {
+    return node.textContent.trim();
+  }
+  
+  // Element node
+  if (node.nodeType !== Node.ELEMENT_NODE) {
+    return '';
+  }
+  
+  const tag = node.tagName.toLowerCase();
+  const children = () => Array.from(node.childNodes).map(mathmlNodeToLatex).join('');
+  const child0 = () => node.childNodes[0] ? mathmlNodeToLatex(node.childNodes[0]) : '';
+  const child1 = () => node.childNodes[1] ? mathmlNodeToLatex(node.childNodes[1]) : '';
+  
+  // Operator map
+  const opMap = {
+    '−': '-', '×': '\\times', '÷': '\\div', '·': '\\cdot',
+    '≤': '\\leq', '≥': '\\geq', '≠': '\\neq', '≈': '\\approx',
+    '∞': '\\infty', '±': '\\pm', '→': '\\rightarrow',
+    '←': '\\leftarrow', '′': "'", '″': "''", '‴': "'''",
+    '∑': '\\sum', '∏': '\\prod', '∫': '\\int', '∂': '\\partial',
+    '√': '\\sqrt', 'π': '\\pi', 'θ': '\\theta', 'α': '\\alpha',
+    'β': '\\beta', 'γ': '\\gamma', 'δ': '\\delta', 'Δ': '\\Delta',
+    'ε': '\\epsilon', 'λ': '\\lambda', 'μ': '\\mu', 'σ': '\\sigma',
+    'ω': '\\omega', 'ϕ': '\\phi', 'φ': '\\varphi',
+  };
+  
+  switch (tag) {
+    case 'math':
+    case 'semantics':
+    case 'mrow':
+    case 'mstyle':
+      return children();
+    
+    case 'mi':
+      return children() || node.textContent;
+    
+    case 'mn':
+      return children() || node.textContent;
+    
+    case 'mo': {
+      const text = children() || node.textContent;
+      return opMap[text] || text;
+    }
+    
+    case 'mtext': {
+      const text = children() || node.textContent;
+      return text.trim() ? `\\text{${text.trim()}}` : '';
+    }
+    
+    case 'msup':
+      return `{${child0()}}^{${child1()}}`;
+    
+    case 'msub':
+      return `{${child0()}}_{${child1()}}`;
+    
+    case 'msubsup':
+      return `{${child0()}}_{${child1()}}^{${mathmlNodeToLatex(node.childNodes[2])}}`;
+    
+    case 'mfrac':
+      return `\\frac{${child0()}}{${child1()}}`;
+    
+    case 'msqrt':
+      return `\\sqrt{${children()}}`;
+    
+    case 'mroot':
+      return `\\sqrt[${child1()}]{${child0()}}`;
+    
+    case 'munder':
+      return `${child0()}_{${child1()}}`;
+    
+    case 'mover':
+      return `${child0()}^{${child1()}}`;
+    
+    case 'munderover': {
+      const base = child0();
+      const under = child1();
+      const over = mathmlNodeToLatex(node.childNodes[2]);
+      return `${base}_{${under}}^{${over}}`;
+    }
+    
+    case 'mfenced': {
+      const open = node.getAttribute('open') || '(';
+      const close = node.getAttribute('close') || ')';
+      return `${open}${children()}${close}`;
+    }
+    
+    case 'mpadded':
+    case 'mphantom':
+      return children();
+    
+    case 'mtable':
+    case 'mtr':
+    case 'mtd':
+      // Simplified: just join with &
+      return children();
+    
+    case 'annotation':
+    case 'annotation-xml':
+      return ''; // Remove annotations
+    
+    default:
+      return children();
+  }
+}
+
+function mathmlToLatex(html) {
+  if (!html || !html.includes('<math')) return html;
+
+  const temp = document.createElement('template');
+  temp.innerHTML = html;
+
+  const mathElements = temp.content.querySelectorAll('math');
+  mathElements.forEach(mathEl => {
+    const latex = mathmlNodeToLatex(mathEl).replace(/\$/g, '\\$');
+    const wrapper = document.createElement('span');
+    wrapper.className = 'mathml-converted';
+    wrapper.textContent = `$${latex}$`;
+    mathEl.replaceWith(wrapper);
+  });
+
+  return temp.innerHTML;
+}
+
 /* ─── Math rendering helpers (v2: KaTeX auto-render) ─── */
 
 let katexLoadPromise = null;
@@ -54,8 +184,11 @@ function normalizeLatexForKatex(html) {
 }
 
 function sanitizeImportedHtml(value) {
+  // First convert MathML to LaTeX for Chrome compatibility
+  const converted = mathmlToLatex(String(value || ""));
+  
   const template = document.createElement("template");
-  template.innerHTML = String(value || "").trim();
+  template.innerHTML = converted.trim();
   template.content.querySelectorAll("script, style").forEach((node) => node.remove());
   template.content.querySelectorAll("annotation").forEach((node) => node.remove());
   template.content.querySelectorAll(".formatted_line_break").forEach((node) => node.replaceWith(document.createElement("br")));
@@ -184,14 +317,19 @@ async function renderMathAfterMount() {
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl"]);
+const RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl", "2015Intl", "calc-bc-2015-intl", "2018Intl_MECH", "physics-c-mech-2018-intl", "2018Intl_EM", "physics-c-em-2018-intl", "2017Intl_MECH", "physics-c-mech-2017-intl", "2017Intl_EM", "physics-c-em-2017-intl", "1902622410881732608", "microeconomics-2018-intl", "1902622410416164864", "microeconomics-2017-intl", "1902622418683138048", "microeconomics-2019-intl", "1902622419140317184", "microeconomics-2021-intl"]);
 const TRUNK_CONTRACT_PATHS = {
   'calc-bc-2018-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2017-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2016-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'calc-bc-2015-intl': '/v2/data/contracts/ap-calculus-bc-trunk-contract.json',
   'physics-c-mech-2018-intl': '/v2/data/contracts/ap-physics-c-mechanics-trunk-contract.json',
-  'physics-c-em-2018-intl': '/v2/data/contracts/ap-physics-c-electricity-magnetism-trunk-contract.json'
+  'physics-c-em-2018-intl': '/v2/data/contracts/ap-physics-c-electricity-magnetism-trunk-contract.json',
+  'physics-c-em-2017-intl': '/v2/data/contracts/ap-physics-c-electricity-magnetism-trunk-contract.json',
+  'microeconomics-2018-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
+  'microeconomics-2017-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
+  'microeconomics-2019-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json',
+  'microeconomics-2021-intl': '/v2/data/contracts/ap-microeconomics-trunk-contract.json'
 };
 const CALC_BC_TRUNK_CONTRACT_PATH = TRUNK_CONTRACT_PATHS['calc-bc-2018-intl'];
 
@@ -215,6 +353,18 @@ function getBranchMappingPath() {
   if (examIdStr === "2018Intl_EM" || examIdStr === "physics-c-em-2018-intl") {
     return "/v2/data/physics-c-em-2018-intl/question-branch-mapping.json";
   }
+  if (examIdStr === "1902622410881732608" || examIdStr === "microeconomics-2018-intl") {
+    return "/v2/data/microeconomics-2018-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "1902622410416164864" || examIdStr === "microeconomics-2017-intl") {
+    return "/v2/data/microeconomics-2017-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "1902622418683138048" || examIdStr === "microeconomics-2019-intl") {
+    return "/v2/data/microeconomics-2019-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "1902622419140317184" || examIdStr === "microeconomics-2021-intl") {
+    return "/v2/data/microeconomics-2021-intl/question-branch-mapping.json";
+  }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
 
@@ -223,6 +373,7 @@ let state = null;
 let timerId = null;
 let branchDiagnosticsResources = null;
 let answerKeyMap = null;
+let resourceHubData = null;
 
 init().catch((error) => {
   console.error(error);
@@ -237,6 +388,7 @@ async function init() {
   exam = await loadExamShellData(examId);
   branchDiagnosticsResources = await loadBranchDiagnosticsResources();
   answerKeyMap = await loadAnswerKeys();
+  resourceHubData = await loadResourceHub();
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
   let stateChanged = false;
@@ -351,6 +503,15 @@ function handleClick(event) {
     persistAndRender();
     return;
   }
+  if (action === "toggle-frq-part") {
+    const partEl = target.closest(".frq-part");
+    if (partEl) {
+      partEl.classList.toggle("is-collapsed");
+      const toggle = partEl.querySelector(".frq-part-toggle");
+      if (toggle) toggle.textContent = partEl.classList.contains("is-collapsed") ? "▸" : "▾";
+    }
+    return;
+  }
   if (action === "toggle-help") {
     state.ui.helpOpen = !state.ui.helpOpen;
     state.ui.moreOpen = true;
@@ -459,11 +620,22 @@ function handleInput(event) {
     return;
   }
   const textarea = event.target.closest("textarea[name='answer']");
-  if (!textarea) {
+  if (textarea) {
+    sectionState().answers[state.questionIndex] = textarea.value;
+    persistState(examId, state);
     return;
   }
-  sectionState().answers[state.questionIndex] = textarea.value;
-  persistState(examId, state);
+  // FRQ sub-part textareas
+  const frqTextarea = event.target.closest(".frq-part-textarea");
+  if (frqTextarea) {
+    const part = frqTextarea.dataset.part;
+    let answer = sectionState().answers[state.questionIndex];
+    if (typeof answer !== 'object' || answer === null) answer = {};
+    answer[part] = frqTextarea.value;
+    sectionState().answers[state.questionIndex] = answer;
+    persistState(examId, state);
+    return;
+  }
 }
 
 function persistAndRender() {
@@ -634,6 +806,90 @@ async function loadBranchDiagnosticsResources() {
     console.warn("Failed to load branch diagnostics resources", examId, error);
     return null;
   }
+}
+
+async function loadResourceHub() {
+  try {
+    const response = await fetch(window.sitePath('/v2/data/resources/resource-hub.json'));
+    if (!response.ok) {
+      console.warn("Resource hub not available", response.status);
+      return null;
+    }
+    const data = await response.json();
+    return data.resources || [];
+  } catch (error) {
+    console.warn("Failed to load resource hub", error);
+    return null;
+  }
+}
+
+function getResourcesForBranch(branchId, subjectSlug) {
+  if (!resourceHubData || !Array.isArray(resourceHubData)) {
+    return [];
+  }
+  return resourceHubData.filter(resource => {
+    // Match by branchId if available
+    if (branchId && resource.branchId === branchId) {
+      return true;
+    }
+    // Match by subjectSlug with no branchId (general subject resources)
+    if (subjectSlug && resource.subjectSlug === subjectSlug && !resource.branchId) {
+      return true;
+    }
+    return false;
+  });
+}
+
+function getSubjectSlugFromExamId(rawId) {
+  const id = String(rawId || '').toLowerCase();
+  if (id.includes('calc-bc') || id === '1902622411800285184' || id === '1902622411338911744') return 'ap_calculus_bc';
+  if (id.includes('physics-c-mech')) return 'ap_physics_c_mechanics';
+  if (id.includes('physics-c-em')) return 'ap_physics_c_electricity_magnetism';
+  return null;
+}
+
+function getResourcesForCard(cardItem, isBranchCard) {
+  const subjectSlug = getSubjectSlugFromExamId(examId);
+  if (!resourceHubData || !Array.isArray(resourceHubData) || !subjectSlug) {
+    return [];
+  }
+  return resourceHubData.filter(resource => {
+    if (resource.subjectSlug && resource.subjectSlug !== subjectSlug) return false;
+    if (isBranchCard) {
+      // Branch card: match by branchId, or trunkId (general trunk resources)
+      if (cardItem.id && resource.branchId === cardItem.id) return true;
+      if (cardItem.trunkId && resource.trunkId === cardItem.trunkId && !resource.branchId) return true;
+    } else {
+      // Trunk card: match by trunkId only
+      if (cardItem.id && resource.trunkId === cardItem.id && !resource.branchId) return true;
+    }
+    return false;
+  });
+}
+
+function getCurrentSubjectSlug() {
+  const examIdStr = String(examId || "");
+  if (examIdStr.startsWith('calc-bc-')) return 'ap_calculus_bc';
+  if (examIdStr.startsWith('physics-c-mech-')) return 'ap_physics_c_mechanics';
+  if (examIdStr.startsWith('physics-c-em-')) return 'ap_physics_c_electricity_magnetism';
+  return null;
+}
+
+function renderResourceLinks(resources) {
+  if (!resources || resources.length === 0) {
+    return '';
+  }
+  return `
+    <div class="diagnostic-card__resources">
+      <div class="diagnostic-card__resources-title">Recommended Resources</div>
+      ${resources.map(resource => `
+        <a class="diagnostic-card__resource-link" href="${escapeHtml(resource.url)}" target="_blank" rel="noopener noreferrer">
+          <span class="resource-type-badge">${escapeHtml(resource.type || 'link')}</span>
+          <span class="resource-title">${escapeHtml(resource.title)}</span>
+        </a>
+      `).join('')}
+    </div>
+  `;
 }
 
 function isCalcBcResultsExam() {
@@ -937,10 +1193,13 @@ function renderCoverageCards(items, options = {}) {
     return `<p class="diagnostic-panel__note">No mapped coverage is available yet.</p>`;
   }
 
+  const subjectSlug = getCurrentSubjectSlug();
+
   return `
     <div class="diagnostic-card-stack">
       ${items.map((item) => {
         const drillHref = options.showBranchDrill ? buildBranchDrillHref(item.id) : "";
+        const branchResources = options.showBranchDrill ? getResourcesForBranch(item.id, subjectSlug) : [];
         return `
         <article class="diagnostic-card ${item.unansweredCount > 0 ? "is-risk" : "is-covered"}">
           <div class="diagnostic-card__topline">
@@ -955,6 +1214,7 @@ function renderCoverageCards(items, options = {}) {
           </div>
           <div class="diagnostic-card__meta">${escapeHtml(formatSequenceSummary(item.sequences))}</div>
           ${drillHref ? `<div class="diagnostic-card__actions"><a class="secondary-button inline-button diagnostic-link" href="${drillHref}">Open branch drill</a></div>` : ""}
+          ${renderResourceLinks(branchResources)}
         </article>
       `;
       }).join("")}
@@ -975,6 +1235,64 @@ function render() {
   attachImageFallbacks();
   renderMathAfterMount();
   scrollCurrentChipIntoView();
+}
+
+function renderFRQResponsePane(question, answer) {
+  // Parse answer as JSON object with sub-part keys, or fallback to string
+  let partAnswers = {};
+  if (typeof answer === 'object' && answer !== null) {
+    partAnswers = answer;
+  }
+
+  const PARTS = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+  // Detect which parts exist in the prompt text
+  const prompt = question.prompt || '';
+  const foundParts = [];
+  for (const p of PARTS) {
+    const regex = new RegExp(`\\(\\s*${p}\\s*\\)`, 'i');
+    if (regex.test(prompt)) {
+      foundParts.push(p);
+    }
+  }
+
+  // If no parts detected, default to 4 parts (a-d)
+  const parts = foundParts.length > 0 ? foundParts : ['a', 'b', 'c', 'd'];
+
+  const partLabels = {
+    a: '(a)', b: '(b)', c: '(c)', d: '(d)', e: '(e)', f: '(f)'
+  };
+
+  return `
+    <aside class="response-pane">
+      <div class="response-head">
+        <strong>FRQ Response</strong>
+        <span>Saved automatically</span>
+      </div>
+      <div class="frq-parts">
+        ${parts.map((p, i) => {
+          const collapsed = i > 0 && !partAnswers[p];
+          return `
+            <div class="frq-part ${collapsed ? 'is-collapsed' : ''}" data-part="${p}">
+              <div class="frq-part-header" data-action="toggle-frq-part" data-part="${p}">
+                <span class="frq-part-label">Part ${partLabels[p]}</span>
+                <span class="frq-part-toggle">${collapsed ? '▸' : '▾'}</span>
+              </div>
+              <div class="frq-part-body">
+                <textarea
+                  class="frq-part-textarea"
+                  name="frq-${p}"
+                  data-part="${p}"
+                  placeholder="Write your response for part ${p.toUpperCase()}..."
+                  rows="4"
+                >${escapeHtml(String(partAnswers[p] || ''))}</textarea>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </aside>
+  `;
 }
 
 function scrollCurrentChipIntoView() {
@@ -1012,15 +1330,7 @@ function renderExam() {
               ${renderOptions(question, answer)}
             </div>
           </div>
-          ${question.type === "frq" ? `
-            <aside class="response-pane">
-              <div class="response-head">
-                <strong>Response</strong>
-                <span>Saved automatically</span>
-              </div>
-              <textarea name="answer" placeholder="Write your response here.">${escapeHtml(String(answer || ""))}</textarea>
-            </aside>
-          ` : ""}
+          ${question.type === "frq" ? renderFRQResponsePane(question, answer) : ""}
         </section>
       </main>
       ${renderBottomNav()}
@@ -1355,6 +1665,12 @@ function countAnswered(sectionIndex) {
 function isAnswered(answer, question) {
   if (question.type === "multi") {
     return Array.isArray(answer) && answer.length > 0;
+  }
+  if (question.type === "frq") {
+    // FRQ answer is an object with sub-part keys {a: "...", b: "..."}
+    if (typeof answer === 'object' && answer !== null) {
+      return Object.values(answer).some(v => String(v || '').trim().length > 0);
+    }
   }
   return String(answer || "").trim().length > 0;
 }

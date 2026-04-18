@@ -493,6 +493,78 @@ button {
   line-height: 1.8;
 }
 
+/* ─── FRQ Sub-parts ─── */
+.frq-parts {
+  display: flex;
+  flex-direction: column;
+}
+
+.frq-part {
+  border-bottom: 1px solid var(--line);
+}
+.frq-part:last-child {
+  border-bottom: none;
+}
+
+.frq-part-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  cursor: pointer;
+  user-select: none;
+  background: #f8fafc;
+  transition: background 0.15s;
+}
+.frq-part-header:hover {
+  background: #f0f4f8;
+}
+
+.frq-part-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.frq-part-toggle {
+  font-size: 0.8rem;
+  color: var(--muted);
+  transition: transform 0.2s;
+}
+
+.frq-part-body {
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.2s;
+  max-height: 600px;
+  opacity: 1;
+}
+
+.frq-part.is-collapsed .frq-part-body {
+  max-height: 0;
+  opacity: 0;
+}
+
+.frq-part-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 16px 20px;
+  border: 0;
+  resize: vertical;
+  background: transparent;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--ink);
+}
+.frq-part-textarea:focus {
+  outline: none;
+  background: #fafcff;
+}
+.frq-part-textarea::placeholder {
+  color: var(--muted);
+  font-style: italic;
+}
+
 /* ─── Bottom Navigation (Blue Book: compact circles) ─── */
 .question-footer {
   position: sticky;
@@ -814,6 +886,62 @@ button {
   color: var(--ink);
   font-size: 0.84rem;
   font-weight: 600;
+}
+
+.diagnostic-card__resources {
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 6px;
+}
+
+.diagnostic-card__resources-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.diagnostic-card__resource-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 0.88rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.diagnostic-card__resource-link:hover {
+  background: #fff;
+  border-color: var(--blue);
+}
+
+.resource-type-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent-strong);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+.resource-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .modal-copy {
