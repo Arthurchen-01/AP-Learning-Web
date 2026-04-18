@@ -13,304 +13,108 @@ import {
 
 const app = document.getElementById("app");
 
-/* ─── Math rendering helpers ─── */
+/* ─── Math rendering helpers (v2: KaTeX auto-render) ─── */
 
-// Load KaTeX and return when ready
+let katexLoadPromise = null;
+
 function loadKatex() {
-  return new Promise((resolve) => {
-    if (window.katex) return resolve();
-    const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css';
-    document.head.appendChild(css);
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js';
-    script.onload = () => resolve();
-    script.onerror = () => resolve();
-    document.head.appendChild(script);
+  if (katexLoadPromise) return katexLoadPromise;
+  katexLoadPromise = new Promise((resolve) => {
+    if (window.katex && window.renderMathInElement) { resolve(); return; }
+    if (!document.querySelector("link[data-katex-styles]")) {
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css";
+      css.dataset.katexStyles = "true";
+      document.head.appendChild(css);
+    }
+    const loadAutoRender = () => {
+      if (window.renderMathInElement) { resolve(); return; }
+      const ar = document.createElement("script");
+      ar.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js";
+      ar.onload = () => resolve();
+      ar.onerror = () => resolve();
+      document.head.appendChild(ar);
+    };
+    if (window.katex) { loadAutoRender(); return; }
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js";
+    s.onload = loadAutoRender;
+    s.onerror = () => resolve();
+    document.head.appendChild(s);
   });
+  return katexLoadPromise;
 }
 
-// Convert cleaned exam text to LaTeX where possible
-function textToLatex(text) {
-  let s = text;
-
-  // Integral signs
-  s = s.replace(/∫/g, '\\int ');
-
-  // Sum/product
-  s = s.replace(/∑/g, '\\sum ');
-  s = s.replace(/∏/g, '\\prod ');
-
-  // Square root patterns: "√x" or "sqrt(x)"
-  s = s.replace(/√\s*(\w)/g, '\\sqrt{$1}');
-  s = s.replace(/sqrt\s*\(([^)]+)\)/g, '\\sqrt{$1}');
-
-  // Infinity
-  s = s.replace(/∞/g, '\\infty ');
-
-  // Greek letters
-  s = s.replace(/π/g, '\\pi ');
-  s = s.replace(/θ/g, '\\theta ');
-  s = s.replace(/α/g, '\\alpha ');
-  s = s.replace(/β/g, '\\beta ');
-  s = s.replace(/γ/g, '\\gamma ');
-  s = s.replace(/Δ/g, '\\Delta ');
-  s = s.replace(/δ/g, '\\delta ');
-  s = s.replace(/ε/g, '\\epsilon ');
-  s = s.replace(/μ/g, '\\mu ');
-  s = s.replace(/σ/g, '\\sigma ');
-  s = s.replace(/Σ/g, '\\Sigma ');
-  s = s.replace(/ω/g, '\\omega ');
-  s = s.replace(/Ω/g, '\\Omega ');
-  s = s.replace(/λ/g, '\\lambda ');
-  s = s.replace(/ρ/g, '\\rho ');
-  s = s.replace(/τ/g, '\\tau ');
-  s = s.replace(/φ/g, '\\phi ');
-  s = s.replace(/ψ/g, '\\psi ');
-
-  // ≤ ≥ ≠ ≈
-  s = s.replace(/≤/g, '\\le ');
-  s = s.replace(/≥/g, '\\ge ');
-  s = s.replace(/≠/g, '\\ne ');
-  s = s.replace(/≈/g, '\\approx ');
-
-  // ± × ÷
-  s = s.replace(/±/g, '\\pm ');
-  s = s.replace(/×/g, '\\times ');
-  s = s.replace(/÷/g, '\\div ');
-
-  // Derivative prime: f ′ ( x ) → f'(x)
-  s = s.replace(/\s*′\s*/g, "'");
-
-  // Negative sign normalization
-  s = s.replace(/−/g, '-');
-
-  // ── Trig functions (MUST come before exponent rule) ──
-  // Step 1: Convert "cos 2 (" → "\cos^{2}("  and "cos 2 " → "\cos^{2} "
-  s = s.replace(/(sin|cos|tan|cot|sec|csc)\s+(\d+)\s*\(/g, '\\$1^{$2}(');
-  s = s.replace(/(sin|cos|tan|cot|sec|csc)\s+(\d+)(?=[\s,)])/g, '\\$1^{$2}');
-  // Step 2: Convert "sin(" → "\sin("
-  s = s.replace(/(sin|cos|tan|cot|sec|csc)\(/g, '\\$1(');
-  // Step 3: Convert any remaining trig name (handles "2sin", "-sin", " sin", etc.)
-  // Replace all bare trig names not already preceded by backslash
-  s = s.replace(/([^\\]|^)(sin|cos|tan|cot|sec|csc)\b/g, '$1\\$2');
-
-  // Inverse trig
-  s = s.replace(/(sin|cos|tan)⁻¹/g, '\\$1^{-1}');
-
-  // ln / log / exp
-  s = s.replace(/\bln\s/g, '\\ln ');
-  s = s.replace(/\bln\(/g, '\\ln(');
-  s = s.replace(/\blog\s/g, '\\log ');
-  s = s.replace(/\bexp\s*\(/g, '\\exp(');
-  s = s.replace(/\bexp\s/g, '\\exp ');
-
-  // ── Fractions ──
-  s = s.replace(/(\w+)\s*\/\s*(\w+)/g, '\\frac{$1}{$2}');
-  s = s.replace(/\(([^)]+)\)\s*\/\s*\(([^)]+)\)/g, '\\frac{$1}{$2}');
-
-  // ── Exponents (after trig conversion) ──
-  // Single letter + space + number: "x 3" → "x^{3}"
-  s = s.replace(/([a-zA-Z])\s+(\d+)(?!\s*[a-zA-Z])/g, '$1^{$2}');
-
-  // Negative exponents: "t -5/2" or "t -5"
-  s = s.replace(/([a-zA-Z])\s+-(\d+)\/(\d+)/g, '$1^{-$2/$3}');
-  s = s.replace(/([a-zA-Z])\s+-(\d+)(?!\d)/g, '$1^{-$2}');
-
-  // Power on parentheses: "( x 3 + 2 ) 2" → "(x^3+2)^2"
-  s = s.replace(/\)\s+(\d+)(?!\s*[a-zA-Z.])/g, ')^{$1}');
-
-  // Clean up spaces
-  s = s.replace(/\s+/g, ' ').trim();
-
-  return s;
-}
-
-function normalizeInlineMathSpacing(text) {
-  return String(text ?? '')
-    .replace(/\s+([,.;:!?])/g, '$1')
-    .replace(/([([{])\s+/g, '$1')
-    .replace(/\s+([)\]}])/g, '$1')
-    .replace(/\s{2,}/g, ' ')
-    .trim();
-}
-
-function renderDelimitedMath(line) {
-  if (!window.katex || !line.includes('$')) {
-    return line;
-  }
-
-  return line.replace(/\$([^$]+)\$/g, (_, latex) => {
-    const decodedLatex = latex
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'");
-
-    try {
-      return window.katex.renderToString(normalizeInlineMathSpacing(decodedLatex), {
-        throwOnError: false,
-        displayMode: false,
-        trust: true,
-        strict: false
-      });
-    } catch {
-      return `$${latex}$`;
-    }
-  });
-}
-
-// Try to render text containing math with KaTeX
-function renderMathInElement(html) {
-  if (!window.katex) return html;
-
-  const placeholder = '\x00';
-  let result = html;
-
-  result = result.replace(/<br\s*\/?>/g, placeholder + 'BR' + placeholder);
-
-  const mathSignals = /\\?(?:sin|cos|tan|cot|sec|csc|ln|log|exp|∫|∑|∏|√|π|θ|α|β|∞|≤|≥|≠|±|′)/;
-  const hasDerivative = /[fgh]\s*['′]\s*\(/;
-
-  const lines = result.split(placeholder + 'BR' + placeholder);
-  const renderedLines = lines.map(line => {
-    const renderedDelimitedLine = renderDelimitedMath(line);
-    if (renderedDelimitedLine !== line) {
-      return renderedDelimitedLine;
-    }
-
-    const cleanText = line
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'");
-
-    if (!mathSignals.test(cleanText) && !hasDerivative.test(cleanText)) {
-      return line;
-    }
-
-    try {
-      const latex = textToLatex(cleanText);
-      if (latex && latex !== cleanText) {
-        const rendered = window.katex.renderToString(latex, {
-          throwOnError: false,
-          displayMode: false,
-          trust: true,
-          strict: false
-        });
-        return `<span class="math-block">${rendered}</span>`;
-      }
-    } catch {
-      return line;
-    }
-
-    return line;
-  });
-
-  return renderedLines.join('<br>');
+function normalizeLatexForKatex(html) {
+  return html
+    .replace(/egin\{tabular\}\{([^}]*)\}([\s\S]*?)\end\{tabular\}/g, (_, cols, body) => "$$egin{array}{" + cols + "}" + body + "\end{array}$$")
+    .replace(/egin\{tabular\}/g, "egin{array}")
+    .replace(/\end\{tabular\}/g, "\end{array}");
 }
 
 function sanitizeImportedHtml(value) {
-  const template = document.createElement('template');
-  template.innerHTML = String(value || '');
-
-  template.content.querySelectorAll('annotation').forEach((node) => node.remove());
-  template.content.querySelectorAll('.choiceNum').forEach((node) => node.remove());
-  template.content.querySelectorAll('.choiceTxt').forEach((node) => node.replaceWith(...node.childNodes));
-  template.content.querySelectorAll('semantics').forEach((node) => {
-    const replacementNodes = [...node.childNodes].filter((child) => {
-      return child.nodeType !== Node.ELEMENT_NODE || child.tagName.toLowerCase() !== 'annotation';
-    });
-    if (replacementNodes.length) {
-      node.replaceWith(...replacementNodes);
-    }
+  const template = document.createElement("template");
+  template.innerHTML = String(value || "");
+  template.content.querySelectorAll("annotation").forEach(n => n.remove());
+  template.content.querySelectorAll(".choiceNum").forEach(n => n.remove());
+  template.content.querySelectorAll(".choiceTxt").forEach(n => n.replaceWith(...n.childNodes));
+  template.content.querySelectorAll("semantics").forEach(n => {
+    const keep = [...n.childNodes].filter(c => c.nodeType !== Node.ELEMENT_NODE || c.tagName.toLowerCase() !== "annotation");
+    if (keep.length) n.replaceWith(...keep);
   });
-  template.content.querySelectorAll('img').forEach((node) => {
-    node.loading = 'lazy';
-  });
-
+  template.content.querySelectorAll("img").forEach(n => { n.loading = "lazy"; });
   return template.innerHTML.trim();
 }
 
-// Enhanced formatText that tries to render math
 function formatText(value) {
   if (!value) return "";
-  // If the value contains HTML (MathML, spans, etc.), sanitize and render directly
+  // HTML (MathML etc.) — sanitize and return
   if (/<[a-z][\s\S]*>/i.test(value)) {
     return sanitizeImportedHtml(value);
   }
-  // Plain text path: could contain LaTeX $...$ delimiters from AP source files
+  // Plain text (LaTeX $...$ or plain) — escape and return; auto-render handles $ later
   const cleaned = normalizeExamText(value);
-  // Protect $...$ and $$...$$ blocks from escaping, wrap in data-latex spans for later KaTeX rendering
-  const protected_text = cleaned.replace(/\$\$([\s\S]*?)\$\$/g, (_, latex) => {
-    return `<span class="katex-placeholder" data-latex="${escapeHtml(latex.trim())}" data-display="true"></span>`;
-  }).replace(/\$([^$\n]+?)\$/g, (_, latex) => {
-    return `<span class="katex-placeholder" data-latex="${escapeHtml(latex.trim())}" data-display="false"></span>`;
-  });
-  // If we replaced any $...$ blocks, we have HTML now — escape only the non-span parts
-  if (protected_text.includes('katex-placeholder')) {
-    // Split by spans, escape only non-span parts
-    const parts = protected_text.split(/(<span[^>]*class="katex-placeholder"[^>]*><\/span>)/g);
-    return parts.map(p => {
-      if (p.includes('katex-placeholder')) return p;
-      return escapeHtml(p).replace(/\n/g, "<br>");
-    }).join('');
-  }
-  // No LaTeX found — plain text
   return escapeHtml(cleaned).replace(/\n/g, "<br>");
 }
 
-// After DOM is set, apply KaTeX rendering
 async function renderMathAfterMount() {
   await loadKatex();
-  if (!window.katex) return;
+  if (!window.katex || !window.renderMathInElement) return;
 
-  // Render katex-placeholder spans (from LaTeX $...$ blocks in formatText)
-  document.querySelectorAll('.katex-placeholder').forEach(el => {
-    if (el.dataset.rendered) return;
-    el.dataset.rendered = 'true';
-    const latex = el.dataset.latex || '';
-    const displayMode = el.dataset.display === 'true';
-    if (!latex) { el.textContent = '$...$'; return; }
-    try {
-      el.outerHTML = window.katex.renderToString(latex, {
-        throwOnError: false, displayMode, trust: true, strict: false
-      });
-    } catch {
-      el.textContent = latex;
-      el.style.color = '#ef4444';
-    }
-  });
-
-  document.querySelectorAll('.question-text, .option-copy').forEach(el => {
+  document.querySelectorAll(".question-text, .option-copy, .frq-part-content").forEach(el => {
     if (el.dataset.mathRendered) return;
-    el.dataset.mathRendered = 'true';
-
-    // If the element already contains MathML, skip KaTeX processing
-    if (el.querySelector('math') || el.innerHTML.includes('<math')) {
-      return;
-    }
-
-    const html = el.innerHTML;
-    const rendered = renderMathInElement(html);
-    if (rendered !== html) {
-      el.innerHTML = rendered;
-    }
+    el.dataset.mathRendered = "true";
+    // Skip MathML
+    if (el.querySelector("math") || el.innerHTML.includes("<math")) return;
+    // Normalize LaTeX for KaTeX
+    el.innerHTML = normalizeLatexForKatex(el.innerHTML);
+    // Auto-render $...$ and $$...$$
+    window.renderMathInElement(el, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\(", right: "\)", display: false },
+        { left: "\[", right: "\]", display: true }
+      ],
+      throwOnError: false,
+      strict: "ignore"
+    });
   });
 }
 const params = new URLSearchParams(window.location.search);
 const examId = params.get("examId");
 
-const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl"]);
+const CALC_BC_RESULTS_EXAM_IDS = new Set(["1902622411800285184", "calc-bc-2018-intl", "1902622411338911744", "calc-bc-2017-intl", "2016Intl", "calc-bc-2016-intl"]);
 const CALC_BC_TRUNK_CONTRACT_PATH = "/v2/data/contracts/ap-calculus-bc-trunk-contract.json";
 
 function getBranchMappingPath() {
   const examIdStr = String(examId || "");
   if (examIdStr === "1902622411338911744" || examIdStr === "calc-bc-2017-intl") {
     return "/v2/data/calc-bc-2017-intl/question-branch-mapping.json";
+  }
+  if (examIdStr === "2016Intl" || examIdStr === "calc-bc-2016-intl") {
+    return "/v2/data/calc-bc-2016-intl/question-branch-mapping.json";
   }
   return "/v2/data/calc-bc-2018-intl/question-branch-mapping.json";
 }
@@ -319,6 +123,7 @@ let exam = null;
 let state = null;
 let timerId = null;
 let branchDiagnosticsResources = null;
+let answerKeyMap = null;
 
 init().catch((error) => {
   console.error(error);
@@ -332,6 +137,7 @@ async function init() {
 
   exam = await loadExamShellData(examId);
   branchDiagnosticsResources = await loadBranchDiagnosticsResources();
+  answerKeyMap = await loadAnswerKeys();
   state = loadState(examId) || createFreshState(exam);
   ensureStateShape(exam, state);
   if (!state.sectionStates[state.sectionIndex]) {
@@ -627,13 +433,59 @@ function continueAfterModule() {
 }
 
 function buildResultSummary() {
-  return exam.sections.map((section, sectionIndex) => ({
+  const sections = exam.sections.map((section, sectionIndex) => ({
     title: section.title,
     partTitle: section.partTitle,
     answered: state.sectionStates[sectionIndex].answers.filter((answer, index) => isAnswered(answer, section.questions[index])).length,
     total: section.questions.length,
     flagged: state.sectionStates[sectionIndex].flagged.filter(Boolean).length
   }));
+
+  const mcqAccuracy = computeMcqAccuracy();
+  return { sections, mcqAccuracy };
+}
+
+function computeMcqAccuracy() {
+  if (!answerKeyMap || answerKeyMap.size === 0) {
+    return null;
+  }
+
+  let totalMcq = 0;
+  let correctMcq = 0;
+  let answeredMcq = 0;
+
+  exam.sections.forEach((section, sectionIndex) => {
+    section.questions.forEach((question, questionIndex) => {
+      if (question.type === 'frq') {
+        return;
+      }
+      totalMcq += 1;
+      const userAnswer = state.sectionStates[sectionIndex].answers[questionIndex];
+      const correctAnswer = answerKeyMap.get(String(question.id));
+      if (isAnswered(userAnswer, question)) {
+        answeredMcq += 1;
+        if (correctAnswer && String(userAnswer).trim().toUpperCase() === String(correctAnswer).trim()) {
+          correctMcq += 1;
+        }
+      }
+    });
+  });
+
+  if (totalMcq === 0) {
+    return null;
+  }
+
+  const rate = totalMcq > 0 ? correctMcq / totalMcq : 0;
+  // Heuristic: MCQ is ~50% of AP score, estimate 1-5
+  const estimatedScore = rate >= 0.85 ? 5 : rate >= 0.70 ? 4 : rate >= 0.55 ? 3 : rate >= 0.40 ? 2 : 1;
+
+  return {
+    totalMcq,
+    correctMcq,
+    answeredMcq,
+    rate: Math.round(rate * 100),
+    estimatedScore
+  };
 }
 
 async function loadBranchDiagnosticsResources() {
@@ -673,6 +525,42 @@ async function loadBranchDiagnosticsResources() {
 
 function isCalcBcResultsExam() {
   return CALC_BC_RESULTS_EXAM_IDS.has(String(examId || ""));
+}
+
+const ANSWER_KEY_PATHS = {
+  '1902622411800285184': '/v2/data/calc-bc-2018-intl/questions.json',
+  'calc-bc-2018-intl': '/v2/data/calc-bc-2018-intl/questions.json',
+  '1902622411338911744': '/v2/data/calc-bc-2017-intl/questions.json',
+  'calc-bc-2017-intl': '/v2/data/calc-bc-2017-intl/questions.json'
+};
+
+async function loadAnswerKeys() {
+  if (!isCalcBcResultsExam()) {
+    return null;
+  }
+  const path = ANSWER_KEY_PATHS[String(examId || "")];
+  if (!path) {
+    return null;
+  }
+  try {
+    const response = await fetch(window.sitePath(path));
+    if (!response.ok) {
+      return null;
+    }
+    const questions = await response.json();
+    if (!Array.isArray(questions)) {
+      return null;
+    }
+    const map = new Map();
+    questions.forEach((q) => {
+      if (q.question_id && q.correct_answer) {
+        map.set(String(q.question_id), String(q.correct_answer));
+      }
+    });
+    return map.size > 0 ? map : null;
+  } catch {
+    return null;
+  }
 }
 
 function buildBranchDiagnostics() {
@@ -1265,13 +1153,47 @@ function renderModuleEnd() {
 }
 
 function renderResults() {
-  const results = state.results || buildResultSummary();
+  const resultData = state.results || buildResultSummary();
+  const results = resultData.sections || resultData;
+  const mcqAccuracy = resultData.mcqAccuracy || null;
+
+  let accuracyHtml = '';
+  if (mcqAccuracy) {
+    const scoreColor = mcqAccuracy.estimatedScore >= 4 ? '#059669' : mcqAccuracy.estimatedScore >= 3 ? '#d97706' : '#dc2626';
+    accuracyHtml = `
+      <div class="accuracy-panel">
+        <div class="accuracy-panel__row">
+          <div class="accuracy-panel__cell">
+            <div class="accuracy-panel__label">MCQ Accuracy</div>
+            <div class="accuracy-panel__value" style="color:#0369a1;">${mcqAccuracy.rate}%</div>
+            <div class="accuracy-panel__detail">${mcqAccuracy.correctMcq} / ${mcqAccuracy.totalMcq} correct</div>
+          </div>
+          <div class="accuracy-panel__cell">
+            <div class="accuracy-panel__label">Est. AP Score</div>
+            <div class="accuracy-panel__value" style="color:${scoreColor};">${mcqAccuracy.estimatedScore}</div>
+            <div class="accuracy-panel__detail">Heuristic (MCQ only)</div>
+          </div>
+          <div class="accuracy-panel__cell">
+            <div class="accuracy-panel__label">FRQ</div>
+            <div class="accuracy-panel__value" style="color:#64748b;">--</div>
+            <div class="accuracy-panel__detail">Not scored yet</div>
+          </div>
+        </div>
+      </div>`;
+  } else {
+    accuracyHtml = `
+      <div class="accuracy-panel accuracy-panel--fallback">
+        <p>Answer key not available for this exam. Correctness scoring will be added when answer keys are imported.</p>
+      </div>`;
+  }
+
   app.innerHTML = `
     <div class="exam-center">
       <section class="shell-card review-shell review-shell--results">
         <div class="micro-kicker">Practice complete</div>
         <h1>AP Practice Test</h1>
-        <p>This imported paper is still running in practice mode. Answers were saved, but official scoring and answer keys have not been imported yet.</p>
+        <p>Your answers have been saved. ${mcqAccuracy ? 'Below is your MCQ accuracy and estimated score.' : 'Answer keys are not yet available for scoring.'}</p>
+        ${accuracyHtml}
         <div class="result-grid">
           ${results.map((section) => `
             <article class="result-card">
